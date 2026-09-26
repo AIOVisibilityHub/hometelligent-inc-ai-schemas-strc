@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is exterior restoration and why is it important for my property?",
+  "description": "Exterior restoration repairs and renews a building's exterior, protecting its structure and enhancing its appearance. It helps prevent further damage and preser",
+  "url": "https://hometelligentinc.com/faq/what-is-exterior-restoration-and-why-is-it-important-for-my-property",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is exterior restoration and why is it important for my property?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Exterior restoration involves repairing and renewing the exterior elements of a building, such as siding, trim, paint, and sometimes structural components. It's crucial for maintaining structural integrity, preventing further damage from weather and pests, and enhancing curb appeal. Regular restoration can extend the lifespan of your property and protect its value, often addressing issues like dry rot or deteriorated finishes before they become major problems.",
+        "description": "Exterior restoration repairs and renews a building's exterior, protecting its structure and enhancing its appearance. It helps prevent further damage and preserves property value."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

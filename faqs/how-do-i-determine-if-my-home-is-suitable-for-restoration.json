@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I determine if my home is suitable for restoration?",
+  "description": "Assess structural integrity, damage extent, historical value, and budget. A professional inspection helps identify hidden issues and determine feasibility.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-determine-if-my-home-is-suitable-for-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I determine if my home is suitable for restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Determining suitability for restoration involves assessing the structural integrity, the extent of damage, the historical significance of the property, and your budget. Homes with good bones or unique architectural features are often excellent candidates. It's crucial to have a professional inspection to identify any hidden issues like foundation problems or significant rot. Hometelligent Inc. recommends an initial consultation where we can evaluate your property's condition and discuss potential restoration pathways, helping you understand the feasibility and scope of the project.",
+        "description": "Assess structural integrity, damage extent, historical value, and budget. A professional inspection helps identify hidden issues and determine feasibility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

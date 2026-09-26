@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an existing stair rail be repaired or does it need full replacement?",
+  "description": "Repair is suitable for minor damage, but full replacement is needed if the rail is structurally unsound or doesn't meet safety codes.",
+  "url": "https://hometelligentinc.com/faq/can-an-existing-stair-rail-be-repaired-or-does-it-need-full-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an existing stair rail be repaired or does it need full replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether to repair or fully replace an existing stair rail depends on the extent of the damage and the underlying structural integrity. Minor issues like loose balusters, a wobbly handrail, or cosmetic flaws can often be repaired. However, if the entire structure is compromised, severely deteriorated, or does not meet current safety codes, a full replacement is usually the safer and more cost-effective long-term solution. We can assess the condition and recommend the best approach.",
+        "description": "Repair is suitable for minor damage, but full replacement is needed if the rail is structurally unsound or doesn't meet safety codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

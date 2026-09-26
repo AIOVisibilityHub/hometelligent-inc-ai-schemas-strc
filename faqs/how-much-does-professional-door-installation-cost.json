@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does professional door installation cost?",
+  "description": "Door installation costs vary based on door type, material, installation complexity, and frame modifications. A detailed estimate requires an on-site assessment.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-professional-door-installation-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does professional door installation cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of professional door installation varies widely depending on several factors, such as the type of door (e.g., exterior entry door, interior hollow core, custom design), material, complexity of the installation (e.g., frame modifications, structural changes), and whether a new rough opening needs to be created. For example, installing a standard pre-hung interior door typically costs less than a large, custom-sized exterior door with complex hardware. We provide detailed estimates after an on-site assessment to accurately reflect your project's specific requirements.",
+        "description": "Door installation costs vary based on door type, material, installation complexity, and frame modifications. A detailed estimate requires an on-site assessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is involved in a typical interior restoration project?",
+  "description": "Interior restoration projects involve assessing damage, planning repairs, and executing work like plaster repair or floor refinishing. The scope depends on the",
+  "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-typical-interior-restoration-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is involved in a typical interior restoration project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interior restoration projects typically involve assessing existing damage, planning repairs or replacements for structural and aesthetic elements, and executing the work. This can include tasks such as plaster repair, floor refinishing, cabinet restoration, and paint work. The scope often depends on the age and condition of the property, as well as the client's goals for preserving or updating specific features. Before beginning, Hometelligent Inc. conducts a thorough on-site evaluation to identify key areas needing attention.",
+        "description": "Interior restoration projects involve assessing damage, planning repairs, and executing work like plaster repair or floor refinishing. The scope depends on the property's condition and client goals, starting with an on-site evaluation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

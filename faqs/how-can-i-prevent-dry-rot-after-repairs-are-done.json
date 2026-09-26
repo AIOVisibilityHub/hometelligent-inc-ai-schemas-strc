@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I prevent dry rot after repairs are done?",
+  "description": "Prevent dry rot by controlling moisture and improving ventilation, including regular maintenance, prompt leak repair, proper grading, and good airflow.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-prevent-dry-rot-after-repairs-are-done",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I prevent dry rot after repairs are done?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prevent dry rot recurrence after repairs, focus on moisture control and ventilation. This includes regular maintenance of roofs and gutters, prompt repair of plumbing leaks, ensuring proper attic and crawl space ventilation, and grading the landscape away from your foundation to prevent water accumulation. Installing dehumidifiers in damp areas and ensuring good airflow throughout your home are also effective preventative measures. Regular inspections can help catch potential moisture issues before they lead to new dry rot.",
+        "description": "Prevent dry rot by controlling moisture and improving ventilation, including regular maintenance, prompt leak repair, proper grading, and good airflow."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

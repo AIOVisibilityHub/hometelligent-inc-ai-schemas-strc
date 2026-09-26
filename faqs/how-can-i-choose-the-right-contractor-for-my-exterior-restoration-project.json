@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I choose the right contractor for my exterior restoration project?",
+  "description": "Choose a contractor with a strong track record, good testimonials, and proper licensing. Get multiple detailed bids and prioritize clear communication for a smo",
+  "url": "https://hometelligentinc.com/faq/how-can-i-choose-the-right-contractor-for-my-exterior-restoration-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I choose the right contractor for my exterior restoration project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When selecting a contractor, look for companies with a strong track record in exterior restoration, positive client testimonials, and proper licensing and insurance. Obtain multiple bids, ensuring each bid details the scope of work, materials, and timeline. A clear communication process and a contractor's willingness to explain the restoration stages are practical tradeoffs that ensure a smooth project.",
+        "description": "Choose a contractor with a strong track record, good testimonials, and proper licensing. Get multiple detailed bids and prioritize clear communication for a smooth project."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are available for custom interior doors?",
+  "description": "Materials include hardwoods (oak, maple, cherry), engineered wood, glass, and metal. Material choice affects appearance, weight, and sound insulation.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-available-for-custom-interior-doors",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are available for custom interior doors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom interior doors can be crafted from a wide range of materials, each offering distinct aesthetics and performance characteristics. Common options include various hardwoods like oak, maple, cherry, or walnut for durability and natural beauty. Engineered wood products, glass, and metal elements can also be integrated for modern designs. The choice of material impacts not only the door's appearance but also its weight, sound insulation properties, and longevity. Consider the level of sound dampening or light transmission you desire when selecting materials.",
+        "description": "Materials include hardwoods (oak, maple, cherry), engineered wood, glass, and metal. Material choice affects appearance, weight, and sound insulation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for repairing wood rot?",
+  "description": "The process includes removing rotted wood, treating surrounding areas, replacing with new wood, and sealing. We focus on addressing moisture sources to prevent",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-repairing-wood-rot",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for repairing wood rot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The wood rot repair process typically involves several steps. First, our team identifies the extent of the rot and removes all damaged wood. Next, we treat the remaining healthy wood with a fungicide to prevent future growth. Then, new, treated wood is installed to replace the removed sections, ensuring structural integrity. Finally, the repaired area is sealed and finished to match the existing structure. Our process prioritizes identifying and addressing the moisture source to prevent recurrence, which is a critical part of a lasting repair.",
+        "description": "The process includes removing rotted wood, treating surrounding areas, replacing with new wood, and sealing. We focus on addressing moisture sources to prevent future rot."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

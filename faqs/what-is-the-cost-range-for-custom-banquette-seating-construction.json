@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the cost range for custom banquette seating construction?",
+  "description": "Cost varies based on size, design complexity, and materials, from basic linear foot pricing to higher costs for custom features.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-cost-range-for-custom-banquette-seating-construction",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the cost range for custom banquette seating construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of custom banquette seating varies widely depending on size, design complexity, material choices (frame, upholstery, cushioning), and any integrated features like storage. Basic designs might start from a few hundred dollars per linear foot, while complex, high-end installations can be significantly more. To get an accurate estimate, it's beneficial to have a clear idea of your desired specifications and materials before requesting a quote, as these factors most heavily influence the final price.",
+        "description": "Cost varies based on size, design complexity, and materials, from basic linear foot pricing to higher costs for custom features."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can banquette seating include integrated storage?",
+  "description": "Yes, banquette seating can include integrated storage such as lift-up seats, pull-out drawers, or open shelving.",
+  "url": "https://hometelligentinc.com/faq/can-banquette-seating-include-integrated-storage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can banquette seating include integrated storage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, integrated storage is a popular feature in banquette seating, offering practical space-saving solutions. Options include lift-up seats for hidden storage, pull-out drawers, or open shelving beneath the seating. When planning for integrated storage, consider the type of items you intend to store and how frequently they'll be accessed, as this will influence the most functional storage mechanism to incorporate into the design.",
+        "description": "Yes, banquette seating can include integrated storage such as lift-up seats, pull-out drawers, or open shelving."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

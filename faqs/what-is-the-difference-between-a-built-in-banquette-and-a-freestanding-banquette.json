@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a built-in banquette and a freestanding banquette?",
+  "description": "Built-in banquettes are permanently installed for a seamless look, while freestanding banquettes are movable furniture.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-built-in-banquette-and-a-freestanding-banquette",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a built-in banquette and a freestanding banquette?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A built-in banquette is permanently affixed to a wall or floor, creating a seamless, integrated look and often maximizing space efficiency. A freestanding banquette, conversely, is a movable piece of furniture that can be relocated. The practical tradeoff lies in flexibility versus stability; built-in banquettes offer superior stability and a custom fit, while freestanding options provide the ability to reconfigure your space or move the seating if you relocate.",
+        "description": "Built-in banquettes are permanently installed for a seamless look, while freestanding banquettes are movable furniture."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

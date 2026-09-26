@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I know if my building needs exterior restoration services?",
+  "description": "Look for peeling paint, cracked siding, wood rot, or water stains. A professional assessment can identify hidden issues like compromised flashing or structural",
+  "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-building-needs-exterior-restoration-services",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if my building needs exterior restoration services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider exterior restoration if you notice peeling paint, cracked siding, wood rot, water stains, or signs of pest damage on your building's exterior. Deterioration can also manifest as energy efficiency issues or drafts. A professional assessment can help identify hidden problems, such as compromised flashing or structural issues, which are often not apparent until they become significant.",
+        "description": "Look for peeling paint, cracked siding, wood rot, or water stains. A professional assessment can identify hidden issues like compromised flashing or structural concerns."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

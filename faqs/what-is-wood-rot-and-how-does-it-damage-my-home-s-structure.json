@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is wood rot and how does it damage my home's structure?",
+  "description": "Wood rot is fungal decay that weakens wood, leading to structural damage. Early detection is key to prevent widespread integrity issues.",
+  "url": "https://hometelligentinc.com/faq/what-is-wood-rot-and-how-does-it-damage-my-home-s-structure",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is wood rot and how does it damage my home's structure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wood rot is the decay of wood caused by fungi that thrive in moist conditions. It typically weakens wood, leading to structural instability in areas like decks, siding, or window frames. Early detection and repair are crucial because wood rot can compromise your home's integrity over time. Hometelligent Inc. assesses the extent of the damage to determine if the affected wood can be treated or if full replacement is necessary to restore structural soundness.",
+        "description": "Wood rot is fungal decay that weakens wood, leading to structural damage. Early detection is key to prevent widespread integrity issues."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

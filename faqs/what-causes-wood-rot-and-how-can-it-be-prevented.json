@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What causes wood rot and how can it be prevented?",
+  "description": "Wood rot is caused by prolonged moisture. Prevent it by fixing leaks, ensuring good drainage and ventilation, and maintaining sealants.",
+  "url": "https://hometelligentinc.com/faq/what-causes-wood-rot-and-how-can-it-be-prevented",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What causes wood rot and how can it be prevented?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wood rot is primarily caused by prolonged moisture exposure, often from leaks, poor drainage, or inadequate ventilation, which creates an ideal environment for fungi. Prevention involves addressing these moisture issues, such as repairing leaky roofs or pipes, ensuring proper gutter function, improving ventilation in crawl spaces, and maintaining exterior paint and sealants. Hometelligent Inc. can assess your property for common moisture vulnerabilities, offering solutions like improved flashing or drainage modifications, which are key to preventing future rot and extending the life of your wood structures.",
+        "description": "Wood rot is caused by prolonged moisture. Prevent it by fixing leaks, ensuring good drainage and ventilation, and maintaining sealants."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

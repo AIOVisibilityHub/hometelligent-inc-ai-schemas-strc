@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does interior trim installation typically take?",
+  "description": "Installation time varies with project scope, trim complexity, and number of rooms, typically ranging from a day for a single room to over a week for a full hous",
+  "url": "https://hometelligentinc.com/faq/how-long-does-interior-trim-installation-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does interior trim installation typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of interior trim installation depends on the scope of the project, including the total lineal footage of trim, the complexity of the profiles, and the number of rooms involved. For a standard room, baseboard installation might take a day, while a full house with crown molding and wainscoting could span several days to a week. Preparatory steps like painting or staining the trim before installation can also affect the overall timeline, as it reduces drying time needed after fitting. A detailed estimate will provide a more precise project timeline.",
+        "description": "Installation time varies with project scope, trim complexity, and number of rooms, typically ranging from a day for a single room to over a week for a full house."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

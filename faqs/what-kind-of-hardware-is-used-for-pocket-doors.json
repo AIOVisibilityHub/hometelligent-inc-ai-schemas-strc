@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of hardware is used for pocket doors?",
+  "description": "Pocket doors use tracks, rollers, hangers, and specialized pulls/latches. High-quality track and rollers are crucial for smooth operation and durability.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-hardware-is-used-for-pocket-doors",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of hardware is used for pocket doors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pocket doors rely on a specific hardware system that includes a track, rollers, and hangers that support the door within the wall cavity. They also use specialized pulls, latches, or locks designed for sliding functionality, rather than traditional doorknobs. The quality of the track and rollers is a key decision factor; higher-quality hardware provides smoother operation and greater durability, reducing the likelihood of future issues.",
+        "description": "Pocket doors use tracks, rollers, hangers, and specialized pulls/latches. High-quality track and rollers are crucial for smooth operation and durability."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

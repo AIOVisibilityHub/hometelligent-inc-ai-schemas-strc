@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for door installation in my area?",
+  "description": "Permit needs vary by location and project scope. Minor replacements usually don't need one, but structural changes often do. We can help clarify requirements fo",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-door-installation-in-my-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for door installation in my area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements for door installation vary by local jurisdiction and the scope of the project. Minor replacements of existing doors typically do not require a permit. However, if the installation involves altering the structural opening, changing the size of the door, or making significant changes to exterior walls, a building permit may be necessary. For projects in areas like Oakland or Dublin, we can assist in determining if a permit is required and help navigate the local permitting process to ensure compliance with building codes.",
+        "description": "Permit needs vary by location and project scope. Minor replacements usually don't need one, but structural changes often do. We can help clarify requirements for your area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

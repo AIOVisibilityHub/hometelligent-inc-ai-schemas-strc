@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation is needed before baseboard installation?",
+  "description": "Preparation involves cleaning walls, removing old baseboards, repairing damage, and taking precise measurements with a material overage.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-baseboard-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation is needed before baseboard installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before baseboard installation, ensure the walls are clean, dry, and free of obstructions. If old baseboards are present, they should be carefully removed, and any damaged wall surfaces repaired. Accurate measurements of each wall section are crucial for ordering the correct amount of material, allowing for a 10-15% overage for cuts and mistakes.",
+        "description": "Preparation involves cleaning walls, removing old baseboards, repairing damage, and taking precise measurements with a material overage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

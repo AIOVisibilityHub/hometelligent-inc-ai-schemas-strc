@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the maintenance requirements for different fireplace surround materials?",
+  "description": "Maintenance depends on the material; stone may need sealing, wood needs dusting/polishing. We provide specific care instructions to preserve longevity.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-maintenance-requirements-for-different-fireplace-surround-materials",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the maintenance requirements for different fireplace surround materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintenance varies significantly by material. Natural stone like marble may require sealing and gentle cleaning to prevent staining, while granite is generally more durable. Wood surrounds might need occasional dusting and polishing, and protection from excessive heat. Concrete can be durable but may benefit from sealing. Understanding the specific care for your chosen material helps preserve its appearance and longevity. We provide detailed care instructions for all installed custom surrounds.",
+        "description": "Maintenance depends on the material; stone may need sealing, wood needs dusting/polishing. We provide specific care instructions to preserve longevity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

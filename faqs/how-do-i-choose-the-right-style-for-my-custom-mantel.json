@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right style for my custom mantel?",
+  "description": "Choose a custom mantel style by considering your home's architecture, personal taste, and the fireplace's function, matching it to your existing decor.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-style-for-my-custom-mantel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right style for my custom mantel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right style for your custom mantel involves considering your home's existing architecture, your personal design preferences, and the fireplace's function. For traditional homes, ornate or classic wood designs might be appropriate. Modern aesthetics often favor clean lines and minimalist designs in wood or stone. You'll need to consider whether the mantel should be a focal point or blend with the room. We recommend gathering inspiration photos and assessing your home's overall decor. This decision factor guides material selection, proportions, and detailing for your custom piece.",
+        "description": "Choose a custom mantel style by considering your home's architecture, personal taste, and the fireplace's function, matching it to your existing decor."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

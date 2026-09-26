@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for installing decorative millwork?",
+  "description": "Millwork installation involves measuring, cutting, fitting, securing, and prepping for finish. Planning addresses potential challenges like uneven walls.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-decorative-millwork",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for installing decorative millwork?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation process for decorative millwork typically begins with accurate measurements and material selection, followed by cutting and fitting each piece. Our team then secures the millwork using adhesives and fasteners, ensuring precise alignment and seamless joints. Finally, the millwork is prepped for finishing, which includes sanding, caulking, and priming, ready for painting or staining. Process clarity is achieved through detailed planning. During the consultation phase, we'll discuss the project scope and timeline, identifying any potential challenges such as uneven walls or complex angles that might affect the installation duration or complexity.",
+        "description": "Millwork installation involves measuring, cutting, fitting, securing, and prepping for finish. Planning addresses potential challenges like uneven walls."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

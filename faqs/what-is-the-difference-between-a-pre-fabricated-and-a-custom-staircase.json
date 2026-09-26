@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a pre-fabricated and a custom staircase?",
+  "description": "Pre-fabricated stairs are standard, cost-effective, and quicker to install, while custom stairs offer unique designs and precise fit for specific spaces.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-pre-fabricated-and-a-custom-staircase",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a pre-fabricated and a custom staircase?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A pre-fabricated staircase is built off-site to standard dimensions and then installed, offering a more cost-effective and quicker option. In contrast, a custom staircase is designed and built specifically for a unique space, allowing for personalized aesthetics, material choices, and precise fit. While pre-fabricated options are suitable for standard applications, a custom staircase by Hometelligent Inc. provides design flexibility to match specific architectural styles or challenging spatial requirements, often resulting in a more integrated and unique architectural feature for your home.",
+        "description": "Pre-fabricated stairs are standard, cost-effective, and quicker to install, while custom stairs offer unique designs and precise fit for specific spaces."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

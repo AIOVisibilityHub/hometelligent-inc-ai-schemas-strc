@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the structural considerations for installing a banquette against a wall?",
+  "description": "Ensure the wall can support the banquette's weight and use proper anchoring to studs for stability, considering wall material.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-structural-considerations-for-installing-a-banquette-against-a-wall",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the structural considerations for installing a banquette against a wall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When installing a banquette against a wall, structural considerations include ensuring the wall can support the weight of the banquette, especially if it's a floating design or has an integrated backrest. Proper anchoring to wall studs is crucial for stability and safety. Additionally, consider the wall's material, as plaster or drywall may require specific fasteners compared to masonry, impacting the choice of installation method.",
+        "description": "Ensure the wall can support the banquette's weight and use proper anchoring to studs for stability, considering wall material."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

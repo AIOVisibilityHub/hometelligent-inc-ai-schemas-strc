@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation is needed before my custom closet installation?",
+  "description": "You need to completely empty the closet space, remove existing fixtures, and ensure the area is clean and clear of obstructions.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-my-custom-closet-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation is needed before my custom closet installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before your custom closet installation, it is essential to completely empty the space where the new system will be installed. This includes removing all existing shelving, rods, and any personal belongings. Ensure the area is clean and clear of any obstructions. If any painting or floor repairs are planned for the closet area, these should be completed before installation day to avoid delays and ensure a smooth process. Clear access for our installers is also crucial.",
+        "description": "You need to completely empty the closet space, remove existing fixtures, and ensure the area is clean and clear of obstructions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

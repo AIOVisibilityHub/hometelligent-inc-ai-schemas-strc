@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I tell if my home needs structural repair?",
+  "description": "Look for significant foundation cracks, uneven floors, sticking doors/windows, or bowing walls. A professional evaluation is key.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-tell-if-my-home-needs-structural-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I tell if my home needs structural repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common signs that your home may need structural repair include significant cracks in foundation walls, uneven floors, doors and windows that stick or don't close properly, and bowing or sagging walls. Visible gaps between walls and ceilings, or unexplained shifts in the structure, are also indicators. For homeowners in areas like Alameda or Berkeley, where older homes are common, these signs can sometimes relate to aged foundations or soil shifts, necessitating a professional evaluation to determine the underlying cause and appropriate solution.",
+        "description": "Look for significant foundation cracks, uneven floors, sticking doors/windows, or bowing walls. A professional evaluation is key."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

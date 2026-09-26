@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider before selecting a crown molding style?",
+  "description": "Consider your home's architectural style, ceiling height, and room scale. Ornate molding can overwhelm small rooms, while simple profiles might be understated i",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-selecting-a-crown-molding-style",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider before selecting a crown molding style?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before selecting a crown molding style, consider the existing architectural style of your home, the ceiling height, and the overall scale of the room. A large, ornate molding might overwhelm a small room with low ceilings, while a simple profile could appear understated in a grand space. We recommend bringing photos of your interior and any inspiration you have to our initial consultation to help us guide you through the best options for your home's character.",
+        "description": "Consider your home's architectural style, ceiling height, and room scale. Ornate molding can overwhelm small rooms, while simple profiles might be understated in large spaces."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

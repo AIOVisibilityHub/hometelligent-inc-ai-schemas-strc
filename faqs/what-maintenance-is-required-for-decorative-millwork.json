@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for decorative millwork?",
+  "description": "Maintenance includes dusting and cleaning. Painted millwork needs touch-ups; stained wood may need re-sealing. Material choice impacts long-term upkeep.",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-decorative-millwork",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for decorative millwork?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintaining decorative millwork typically involves regular dusting and occasional cleaning with a mild, damp cloth. For painted millwork, touch-ups may be needed periodically to cover scuffs or chips. Stained millwork might benefit from occasional re-oiling or re-sealing to protect the wood. A practical tradeoff to consider is between the initial material choice and long-term maintenance. While some materials like polyurethane require minimal upkeep, natural wood, though beautiful, will generally need more attention over time to preserve its finish and integrity.",
+        "description": "Maintenance includes dusting and cleaning. Painted millwork needs touch-ups; stained wood may need re-sealing. Material choice impacts long-term upkeep."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

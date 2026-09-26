@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the purpose of baseboards in a home?",
+  "description": "Baseboards protect walls from damage and provide a finished look where the wall meets the floor, covering gaps.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-purpose-of-baseboards-in-a-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the purpose of baseboards in a home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Baseboards serve both functional and aesthetic purposes in a home. Functionally, they protect the bottom of walls from damage due to furniture, vacuums, and foot traffic. Aesthetically, they create a finished look where the wall meets the floor, covering any gaps and providing a visual transition. Choosing the right style can significantly enhance a room's overall design.",
+        "description": "Baseboards protect walls from damage and provide a finished look where the wall meets the floor, covering gaps."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

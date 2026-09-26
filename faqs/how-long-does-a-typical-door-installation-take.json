@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical door installation take?",
+  "description": "Standard interior door installation can take a few hours, while complex exterior or custom installations might take a full day or longer depending on project sc",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-door-installation-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical door installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a door installation depends on the type of door and the complexity of the project. A standard interior door replacement can often be completed within a few hours. However, installing an exterior entry door, especially if it requires frame adjustments, sill replacement, or creating a new opening, might take a full day or longer. Projects involving multiple doors or custom installations will naturally extend the timeline. We provide an estimated timeline during the initial consultation, allowing you to plan accordingly.",
+        "description": "Standard interior door installation can take a few hours, while complex exterior or custom installations might take a full day or longer depending on project scope."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

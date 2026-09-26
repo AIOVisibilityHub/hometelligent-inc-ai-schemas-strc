@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for baseboard installation?",
+  "description": "The process includes measuring, cutting, attaching to studs, filling nail holes, caulking seams, then sanding and finishing.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-baseboard-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for baseboard installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation process typically involves measuring and cutting the baseboard pieces to fit each wall, making precise miter cuts for inside and outside corners. The cut pieces are then attached to the wall studs using finishing nails or adhesive. After installation, nail holes are filled, seams are caulked, and the baseboards are sanded and painted or stained to match the desired finish.",
+        "description": "The process includes measuring, cutting, attaching to studs, filling nail holes, caulking seams, then sanding and finishing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

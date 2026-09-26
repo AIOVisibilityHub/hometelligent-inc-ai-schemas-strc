@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I stay in my home during water damage restoration?",
+  "description": "Staying in your home during restoration depends on damage severity, water type, and safety. A professional will advise if temporary relocation is needed.",
+  "url": "https://hometelligentinc.com/faq/can-i-stay-in-my-home-during-water-damage-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I stay in my home during water damage restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether you can stay in your home during water damage restoration depends on the severity and location of the damage, as well as the type of water involved. If there's extensive structural damage, health risks from contaminated water, or loud drying equipment creating an unsafe environment, temporary relocation might be necessary. Your restoration specialist will advise on the best course of action based on the specific conditions of your property.",
+        "description": "Staying in your home during restoration depends on damage severity, water type, and safety. A professional will advise if temporary relocation is needed."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

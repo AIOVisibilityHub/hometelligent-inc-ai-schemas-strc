@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an existing wall be converted for a pocket door?",
+  "description": "Yes, an existing wall can be converted if it's thick enough and free of major obstructions like wiring or pipes. Identify any known utilities beforehand.",
+  "url": "https://hometelligentinc.com/faq/can-an-existing-wall-be-converted-for-a-pocket-door",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an existing wall be converted for a pocket door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, an existing wall can often be converted to accommodate a pocket door, but it requires careful assessment. The wall needs to be thick enough to house the door frame and door panel, and it must be free of major obstructions like electrical wiring, plumbing pipes, or HVAC ducts. A preparation step homeowners should take is to identify any known utilities in the wall beforehand, as this information helps streamline the initial assessment and planning phase.",
+        "description": "Yes, an existing wall can be converted if it's thick enough and free of major obstructions like wiring or pipes. Identify any known utilities beforehand."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

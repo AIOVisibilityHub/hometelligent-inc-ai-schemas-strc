@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparations should I make before window seat installation?",
+  "description": "Clear the installation area, decide on desired functionality and storage needs, and provide inspiration photos before installation.",
+  "url": "https://hometelligentinc.com/faq/what-preparations-should-i-make-before-window-seat-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparations should I make before window seat installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before window seat installation, consider clearing the area around the window to provide our team with unobstructed access. Think about your desired functionality, such as whether you need storage, a deep lounging space, or a simple decorative bench, and gather any inspiration photos you may have. Disclosing any existing structural issues around the window or previous modifications can also help us plan effectively and ensure a smooth process.",
+        "description": "Clear the installation area, decide on desired functionality and storage needs, and provide inspiration photos before installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

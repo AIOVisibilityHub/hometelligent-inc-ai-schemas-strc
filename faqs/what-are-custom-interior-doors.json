@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are custom interior doors?",
+  "description": "Custom interior doors are unique doors designed to specific dimensions, materials, and styles to fit a home's individual needs and aesthetic.",
+  "url": "https://hometelligentinc.com/faq/what-are-custom-interior-doors",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are custom interior doors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom interior doors are doors specifically designed and manufactured to meet unique aesthetic or functional requirements for a property. Unlike standard pre-made doors, custom options allow for specific dimensions, materials, finishes, and designs that perfectly match your home's architectural style or your personal preferences. This approach ensures a seamless integration with your interior design, addressing aspects like unusual door frame sizes or specific design motifs not found in off-the-shelf products. Consider the overall design theme of your home to ensure custom doors enhance its character.",
+        "description": "Custom interior doors are unique doors designed to specific dimensions, materials, and styles to fit a home's individual needs and aesthetic."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

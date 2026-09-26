@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of stair rails can I choose for my home?",
+  "description": "Common stair rail materials include wood, metal, and glass, each offering different aesthetics and maintenance needs.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-stair-rails-can-i-choose-for-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of stair rails can I choose for my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When selecting stair rails, common materials include wood, metal (like wrought iron or aluminum), glass, and combinations thereof. Wood offers a classic look and can be stained or painted to match existing decor. Metal provides durability and can be custom fabricated for unique designs. Glass offers a modern, open aesthetic. The best choice often depends on your home's architectural style and your personal preference for maintenance and appearance. We can help you explore options that fit your aesthetic goals and local building codes.",
+        "description": "Common stair rail materials include wood, metal, and glass, each offering different aesthetics and maintenance needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

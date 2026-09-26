@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the key differences between restoration and renovation?",
+  "description": "Restoration aims to preserve a space's original condition, often for historic properties, while renovation updates or modernizes it. The choice depends on the p",
+  "url": "https://hometelligentinc.com/faq/what-are-the-key-differences-between-restoration-and-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the key differences between restoration and renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Restoration focuses on preserving and returning a space to its original or historically accurate condition, often involving meticulous repair of existing features. Renovation, on the other hand, aims to update or modernize a space, which might include changing layouts, installing new materials, or altering its overall function. For historic properties in areas like Berkeley or Oakland, clients often choose restoration to maintain architectural integrity, while in newer homes, renovation might be preferred for contemporary updates. The choice depends on the property's age and the owner's aesthetic and functional goals.",
+        "description": "Restoration aims to preserve a space's original condition, often for historic properties, while renovation updates or modernizes it. The choice depends on the property's age and the owner's goals."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

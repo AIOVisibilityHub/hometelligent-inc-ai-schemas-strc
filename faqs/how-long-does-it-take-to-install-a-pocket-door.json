@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to install a pocket door?",
+  "description": "Installation time varies, from days to a week for renovations, depending on wall modifications and utility relocations. Consultations provide specific timelines",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-a-pocket-door",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to install a pocket door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for pocket door installation depends on whether it's part of a new construction project or a renovation. For a renovation involving an existing wall, the process can take several days to a week, including demolition, framing, door installation, drywall repair, and finishing. The complexity of relocating utilities, if present, can significantly extend this duration. Our process typically involves an initial consultation to provide a more accurate project timeline based on your specific site conditions.",
+        "description": "Installation time varies, from days to a week for renovations, depending on wall modifications and utility relocations. Consultations provide specific timelines."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

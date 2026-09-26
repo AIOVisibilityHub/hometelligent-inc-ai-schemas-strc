@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider replacing my exterior doors?",
+  "description": "Replace exterior doors if they are old, damaged, cause drafts, or are hard to operate, as this can improve energy efficiency, security, and curb appeal.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-exterior-doors",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider replacing my exterior doors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider replacing your exterior doors if they are old, damaged, show signs of rot or rust, or if you notice drafts or difficulty operating them. Upgrading can significantly improve your home's energy efficiency, security, and curb appeal. For instance, in areas like Alameda or Berkeley, where older homes are common, replacing an inefficient door can lead to noticeable savings on heating and cooling bills and enhance protection against the elements, including coastal moisture and seasonal temperature changes.",
+        "description": "Replace exterior doors if they are old, damaged, cause drafts, or are hard to operate, as this can improve energy efficiency, security, and curb appeal."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

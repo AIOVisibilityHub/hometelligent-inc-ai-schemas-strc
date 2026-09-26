@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials are commonly used for decorative millwork?",
+  "description": "Common millwork materials are solid wood, MDF, and polyurethane, each offering different aesthetics, durability, and cost benefits.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-commonly-used-for-decorative-millwork",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are commonly used for decorative millwork?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common materials for decorative millwork include solid wood (like oak, maple, or poplar), medium-density fiberboard (MDF), and polyurethane. Solid wood offers natural grain, durability, and can be stained, while MDF is a cost-effective, smooth option ideal for painting. Polyurethane is moisture-resistant and durable, suitable for bathrooms or exterior applications. The choice of material is a key decision factor, as it impacts the finish, longevity, and maintenance requirements of the millwork. For instance, solid wood requires more careful moisture control than polyurethane.",
+        "description": "Common millwork materials are solid wood, MDF, and polyurethane, each offering different aesthetics, durability, and cost benefits."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

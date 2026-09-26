@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for water damage restoration?",
+  "description": "The process involves assessment, water extraction, drying, cleaning, and repair. A thorough inspection is crucial to tailor the restoration plan.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-water-damage-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for water damage restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The water damage restoration process typically involves several key steps: initial assessment and water extraction, drying and dehumidification, cleaning and sanitizing affected areas, and finally, restoration and repairs. Our approach at Hometelligent Inc. starts with a thorough inspection to identify the source and extent of damage, allowing us to develop a tailored plan. We ensure continuous monitoring of moisture levels to confirm complete drying and prevent future issues.",
+        "description": "The process involves assessment, water extraction, drying, cleaning, and repair. A thorough inspection is crucial to tailor the restoration plan."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does barn door installation cost?",
+  "description": "Barn door installation costs vary based on door material, style, hardware, and wall modifications. Custom doors are generally more expensive.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-barn-door-installation-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does barn door installation cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of barn door installation varies significantly based on the door material, style, hardware complexity, and the existing wall structure. Custom doors or those requiring modifications to the doorway or surrounding wall will typically incur higher costs than standard installations. A practical tradeoff is balancing a high-end custom door with a more budget-friendly pre-fabricated option, considering both the initial investment and long-term aesthetic value.",
+        "description": "Barn door installation costs vary based on door material, style, hardware, and wall modifications. Custom doors are generally more expensive."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

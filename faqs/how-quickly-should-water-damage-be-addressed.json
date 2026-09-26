@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How quickly should water damage be addressed?",
+  "description": "Water damage should be addressed within 24-48 hours to prevent mold growth and further structural damage.",
+  "url": "https://hometelligentinc.com/faq/how-quickly-should-water-damage-be-addressed",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How quickly should water damage be addressed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Water damage should be addressed as quickly as possible, ideally within 24-48 hours, to prevent secondary damage like mold growth and structural weakening. The longer water sits, the greater the risk of irreversible damage to materials and the potential for health hazards. Our team at Hometelligent Inc. understands the urgency and prioritizes rapid response to mitigate long-term issues.",
+        "description": "Water damage should be addressed within 24-48 hours to prevent mold growth and further structural damage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

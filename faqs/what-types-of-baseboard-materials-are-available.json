@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of baseboard materials are available?",
+  "description": "Available materials include MDF, solid wood (pine, oak, poplar), and PVC; choose based on cost, durability, and moisture exposure.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-baseboard-materials-are-available",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of baseboard materials are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common baseboard materials include Medium-Density Fiberboard (MDF), solid wood (like pine, oak, or poplar), and occasionally PVC or composite materials. MDF is cost-effective and paintable, while solid wood offers durability and natural beauty. When making a decision, consider the room's moisture levels and the desired durability; MDF is less suitable for high-moisture areas like bathrooms.",
+        "description": "Available materials include MDF, solid wood (pine, oak, poplar), and PVC; choose based on cost, durability, and moisture exposure."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

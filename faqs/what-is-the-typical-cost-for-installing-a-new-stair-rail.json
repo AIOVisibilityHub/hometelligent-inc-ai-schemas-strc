@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost for installing a new stair rail?",
+  "description": "Stair rail installation costs vary widely based on material, design complexity, and length, with custom options being more expensive.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-installing-a-new-stair-rail",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost for installing a new stair rail?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of installing a new stair rail is influenced by several factors, including the material type, design complexity, length of the railing, and whether structural modifications are required. Custom metalwork or glass panels will generally be more expensive than standard wood rails. Basic installations might start in the low thousands, while elaborate designs can range significantly higher. We provide detailed estimates after an on-site consultation to accurately assess your project's scope.",
+        "description": "Stair rail installation costs vary widely based on material, design complexity, and length, with custom options being more expensive."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

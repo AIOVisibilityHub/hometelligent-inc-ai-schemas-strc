@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common issues to consider with pocket doors?",
+  "description": "Potential issues include doors coming off tracks, difficult internal repairs, and less soundproofing. Maintenance of internal mechanisms is less accessible.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-issues-to-consider-with-pocket-doors",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common issues to consider with pocket doors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common issues with pocket doors include potential for the door to come off its track, difficulty in repairing internal mechanisms, and less effective soundproofing compared to traditional doors. Over time, the rollers or track may wear out, requiring maintenance. A practical tradeoff is that while pocket doors save space, their internal mechanisms are less accessible for routine adjustments or repairs than external hardware on a hinged door.",
+        "description": "Potential issues include doors coming off tracks, difficult internal repairs, and less soundproofing. Maintenance of internal mechanisms is less accessible."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

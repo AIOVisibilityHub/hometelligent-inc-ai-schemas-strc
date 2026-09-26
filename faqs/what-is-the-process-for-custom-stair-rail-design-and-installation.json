@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for custom stair rail design and installation?",
+  "description": "Our process involves consultation, design planning, material sourcing, fabrication, and professional installation for a custom fit.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-custom-stair-rail-design-and-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for custom stair rail design and installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our custom stair rail process begins with a detailed consultation to understand your vision and measure your space. We then develop a design plan, incorporating your chosen materials and style while ensuring compliance with local building codes. Once approved, the materials are sourced, and the railing is fabricated off-site if necessary, before our team professionally installs it. This comprehensive process ensures a unique and perfectly fitted railing.",
+        "description": "Our process involves consultation, design planning, material sourcing, fabrication, and professional installation for a custom fit."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

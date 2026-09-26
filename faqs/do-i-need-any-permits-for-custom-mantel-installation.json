@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need any permits for custom mantel installation?",
+  "description": "Usually, permits aren't needed for decorative mantel installation unless structural or utility changes occur. Check with your local building department, like in",
+  "url": "https://hometelligentinc.com/faq/do-i-need-any-permits-for-custom-mantel-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need any permits for custom mantel installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, installing a decorative custom mantel does not require a building permit unless it involves structural changes to the chimney or fireplace, or modifications to electrical or gas lines. However, it's always advisable to confirm with your local building department in cities like Alameda or Berkeley, as regulations can vary. Hometelligent Inc. can help you understand if your specific project falls under any permit requirements and guide you through the process if necessary. This check helps ensure compliance with local codes.",
+        "description": "Usually, permits aren't needed for decorative mantel installation unless structural or utility changes occur. Check with your local building department, like in Alameda or Berkeley, as rules vary."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of interior trim can Hometelligent Inc. install?",
+  "description": "Hometelligent Inc. installs baseboards, crown molding, door/window casings, chair rails, and wainscoting, offering various materials and styles.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-interior-trim-can-hometelligent-inc-install",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of interior trim can Hometelligent Inc. install?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. installs various interior trim types, including baseboards, crown molding, door and window casings, chair rails, and wainscoting. The choice often depends on your home's architectural style and your aesthetic preferences. For instance, a historic home in Alameda might benefit from more intricate crown molding, while a modern home in Dublin could feature simpler, clean-lined baseboards. We can guide you through material options such as MDF, solid wood, or composite materials, each offering different durability and finish characteristics.",
+        "description": "Hometelligent Inc. installs baseboards, crown molding, door/window casings, chair rails, and wainscoting, offering various materials and styles."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

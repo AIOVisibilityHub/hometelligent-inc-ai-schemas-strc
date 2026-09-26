@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are available for custom staircases?",
+  "description": "Custom staircases use materials like hardwood, metal, glass, and concrete. Material choice impacts aesthetics, durability, and maintenance.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-available-for-custom-staircases",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are available for custom staircases?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A wide range of materials can be used for custom staircases, including various hardwoods like oak, maple, and walnut, as well as metal, glass, and concrete. The choice of material impacts both the aesthetic and structural integrity of the stairs. For example, selecting a durable hardwood like oak offers longevity and classic appeal, while glass panels can create a modern, open feel. Hometelligent Inc. helps clients evaluate material options based on their design vision, budget, and desired maintenance level, considering how each material contributes to the overall look and function.",
+        "description": "Custom staircases use materials like hardwood, metal, glass, and concrete. Material choice impacts aesthetics, durability, and maintenance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

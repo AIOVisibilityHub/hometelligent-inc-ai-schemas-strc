@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between raised panel and flat panel wainscoting?",
+  "description": "Raised panel wainscoting has an elevated central panel for a formal look, while flat panel has a recessed center for a modern, simpler aesthetic.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-raised-panel-and-flat-panel-wainscoting",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between raised panel and flat panel wainscoting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Raised panel wainscoting features a central panel that is elevated above the surrounding stiles and rails, creating a traditional, formal, and often intricate appearance with depth and shadow. Flat panel wainscoting, on the other hand, has a recessed central panel that lies flush with the surrounding framework, offering a cleaner, simpler, and more contemporary aesthetic. The choice between them often depends on the architectural style of your home and the desired formality of the room. We can show you examples of both to help you decide which best complements your interior design vision.",
+        "description": "Raised panel wainscoting has an elevated central panel for a formal look, while flat panel has a recessed center for a modern, simpler aesthetic."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

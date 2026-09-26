@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to paint crown molding before or after installation?",
+  "description": "Crown molding can be painted before or after installation. Painting before is efficient for initial coats, but touch-ups are needed post-installation for nail h",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-paint-crown-molding-before-or-after-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to paint crown molding before or after installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can paint crown molding either before or after installation, and each approach has benefits. Painting before installation, especially for the initial coats, can be more efficient as it's easier to access all surfaces without masking. However, touch-ups will be needed after installation to cover nail holes and caulk lines. If painting after, ensure proper masking to protect walls and ceilings. We typically apply a primer and at least one coat before installation, finishing with a final coat once installed for a seamless look.",
+        "description": "Crown molding can be painted before or after installation. Painting before is efficient for initial coats, but touch-ups are needed post-installation for nail holes and caulk."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

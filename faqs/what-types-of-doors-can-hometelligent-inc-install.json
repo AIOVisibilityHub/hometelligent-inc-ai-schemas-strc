@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of doors can Hometelligent Inc. install?",
+  "description": "Hometelligent Inc. installs a variety of interior and exterior doors, including pre-hung, slab, and custom options, made from materials like wood, fiberglass, o",
+  "url": "https://hometelligentinc.com/faq/what-types-of-doors-can-hometelligent-inc-install",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of doors can Hometelligent Inc. install?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. installs a variety of interior and exterior doors, including pre-hung, slab, bi-fold, sliding, and custom doors. The choice often depends on the architectural style of your home and the functional requirements of the space. We can help you select materials such as wood, fiberglass, steel, or composite that best suit your needs for durability, insulation, and aesthetics. Considering factors like security for exterior doors or space-saving for interior sliding doors helps determine the best fit.",
+        "description": "Hometelligent Inc. installs a variety of interior and exterior doors, including pre-hung, slab, and custom options, made from materials like wood, fiberglass, or steel."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

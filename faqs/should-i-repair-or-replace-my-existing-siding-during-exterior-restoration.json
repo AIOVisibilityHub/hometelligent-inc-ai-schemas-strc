@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I repair or replace my existing siding during exterior restoration?",
+  "description": "Repairing is suitable for minor damage, but extensive rot or cracking may require full siding replacement. Consider damage extent, age of material, and long-ter",
+  "url": "https://hometelligentinc.com/faq/should-i-repair-or-replace-my-existing-siding-during-exterior-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I repair or replace my existing siding during exterior restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deciding whether to repair or replace siding depends on the extent of the damage, the age of the existing material, and your long-term goals for the property. Minor, localized damage can often be repaired effectively, while widespread rot or extensive cracking might warrant full replacement for a more durable and aesthetically consistent result. Evaluating the cost-effectiveness and lifespan benefits of each option is a key decision factor.",
+        "description": "Repairing is suitable for minor damage, but extensive rot or cracking may require full siding replacement. Consider damage extent, age of material, and long-term goals."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

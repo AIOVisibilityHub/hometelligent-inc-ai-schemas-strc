@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the safety requirements for stair rails?",
+  "description": "Stair rails must meet safety codes for height, baluster spacing, and secure attachment to prevent falls.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-safety-requirements-for-stair-rails",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the safety requirements for stair rails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stair rails must adhere to specific safety requirements to prevent falls, including minimum height, maximum spacing between balusters, and secure attachment points. These codes are designed to ensure the railing can withstand lateral force and prevent small children from slipping through openings. For instance, most codes require balusters to be spaced so that a 4-inch sphere cannot pass between them. Compliance with these standards is a critical part of our installation process.",
+        "description": "Stair rails must meet safety codes for height, baluster spacing, and secure attachment to prevent falls."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

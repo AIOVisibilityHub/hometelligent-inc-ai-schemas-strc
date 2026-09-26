@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before starting a home restoration project?",
+  "description": "Prepare historical documents, define your vision and budget, and research contractors. Document existing conditions and prioritize features for preservation ver",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-starting-a-home-restoration-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before starting a home restoration project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting a home restoration project, you should gather any historical documents or photos of your home, define your vision and priorities, and establish a realistic budget. It’s also wise to research potential contractors and understand the local permitting process. For preparation, consider what original features you definitely want to preserve versus areas where modern updates are acceptable. Documenting existing conditions with photos is also helpful for before-and-after comparisons.",
+        "description": "Prepare historical documents, define your vision and budget, and research contractors. Document existing conditions and prioritize features for preservation versus modernization."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
