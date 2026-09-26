@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right exterior door for my home's style?",
+  "description": "Consider your home's architectural style, desired light, and privacy. Traditional homes suit classic panel doors, while modern homes may opt for sleek, minimali",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-exterior-door-for-my-home-s-style",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right exterior door for my home's style?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right exterior door involves considering your home's architectural style, the desired level of natural light, and privacy needs. For traditional homes, panel doors with classic designs or decorative glass inserts often work well. Modern homes may suit flush doors or those with sleek, minimalist lines and larger glass panels. We recommend reviewing different door styles and materials, perhaps using online visualizers, to see how they complement your home's existing aesthetic before making a final decision.",
+        "description": "Consider your home's architectural style, desired light, and privacy. Traditional homes suit classic panel doors, while modern homes may opt for sleek, minimalist designs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

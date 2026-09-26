@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for a second-story deck?",
+  "description": "Maintenance depends on the material; wood decks need regular cleaning and sealing, while composite decks require less. All decks need periodic inspection for sa",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-second-story-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for a second-story deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deck maintenance varies by material. Wood decks typically require annual cleaning, staining, or sealing to protect against weathering, rot, and insects. Composite decks are lower maintenance, usually only needing periodic cleaning with soap and water. Regular inspection for loose fasteners or structural issues is crucial for any deck type to ensure longevity and safety. We can provide guidance on specific care for your chosen materials.",
+        "description": "Maintenance depends on the material; wood decks need regular cleaning and sealing, while composite decks require less. All decks need periodic inspection for safety."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

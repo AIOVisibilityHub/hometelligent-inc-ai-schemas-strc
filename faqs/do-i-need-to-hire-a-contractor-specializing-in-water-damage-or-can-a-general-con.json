@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to hire a contractor specializing in water damage, or can a general contractor handle it?",
+  "description": "Complex water damage benefits from a specialized contractor who understands moisture intrusion and waterproofing, whereas simple repairs might suit a general co",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-hire-a-contractor-specializing-in-water-damage-or-can-a-general-con",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to hire a contractor specializing in water damage, or can a general contractor handle it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While a general contractor can perform many repairs, water-damaged exterior repair often benefits from a contractor with specialized experience in identifying moisture intrusion points and remediation. Such specialists understand the nuances of waterproofing, proper drainage, and selecting appropriate materials for long-term prevention. A key decision factor is the complexity: simple surface repairs might suit a general contractor, but underlying structural or mold issues typically require a specialized approach to ensure thorough and lasting solutions.",
+        "description": "Complex water damage benefits from a specialized contractor who understands moisture intrusion and waterproofing, whereas simple repairs might suit a general contractor."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

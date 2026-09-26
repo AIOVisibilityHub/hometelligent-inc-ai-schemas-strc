@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is property restoration?",
+  "description": "Property restoration repairs and rebuilds structures damaged by events like water, fire, or storms, returning them to pre-damage condition.",
+  "url": "https://hometelligentinc.com/faq/what-is-property-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is property restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Property restoration involves repairing and rebuilding structures damaged by events like water leaks, fire, storms, or mold. It aims to return the property to its pre-damage condition. This process often includes emergency services like water extraction or board-up, followed by thorough cleaning, structural drying, and reconstruction work to restore safety and functionality. Hometelligent Inc. specializes in these comprehensive restoration services, focusing on structural integrity and aesthetic repair.",
+        "description": "Property restoration repairs and rebuilds structures damaged by events like water, fire, or storms, returning them to pre-damage condition."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do you ensure the repaired eaves match my home's existing aesthetic?",
+  "description": "We ensure repaired eaves match by carefully selecting materials, matching profiles, and painting new components to existing colors, discussing alternatives if n",
+  "url": "https://hometelligentinc.com/faq/how-do-you-ensure-the-repaired-eaves-match-my-home-s-existing-aesthetic",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you ensure the repaired eaves match my home's existing aesthetic?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To ensure repaired eaves match your home's existing aesthetic, we prioritize careful material selection and finishing techniques. We strive to source materials that closely match the current type, texture, and profile of your fascia and soffit. For wooden components, precise cutting and painting to match the existing color are standard. In cases where an exact match isn't feasible due to material age or availability, we discuss the closest alternatives and potential broader aesthetic impacts with you upfront to manage expectations.",
+        "description": "We ensure repaired eaves match by carefully selecting materials, matching profiles, and painting new components to existing colors, discussing alternatives if needed."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

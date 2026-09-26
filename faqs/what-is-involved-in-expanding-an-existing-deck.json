@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is involved in expanding an existing deck?",
+  "description": "Deck expansion involves assessing the existing structure, designing the new section, and integrating it seamlessly while ensuring code compliance.",
+  "url": "https://hometelligentinc.com/faq/what-is-involved-in-expanding-an-existing-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is involved in expanding an existing deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Expanding an existing deck typically involves assessing the current structure's foundation and framing to ensure it can support the new addition. This assessment helps determine if upgrades are needed for the existing deck before the expansion can proceed. We then design the new section to seamlessly integrate with the current deck's materials, style, and height, ensuring structural integrity and compliance with local building codes. This can include matching decking materials, railings, and finishes for a cohesive look.",
+        "description": "Deck expansion involves assessing the existing structure, designing the new section, and integrating it seamlessly while ensuring code compliance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

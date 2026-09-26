@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a custom-built deck last?",
+  "description": "Deck lifespan varies by material and maintenance, with wood lasting 15-20 years and composite 25-30+ years.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-custom-built-deck-last",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a custom-built deck last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The lifespan of a custom-built deck largely depends on the materials used, the quality of construction, and how well it is maintained. A well-built deck using pressure-treated lumber might last 15-20 years, while a composite deck can last 25-30 years or more with minimal maintenance. Regular cleaning, sealing (for wood), and prompt repairs can significantly extend its durability. Your choice of material presents a practical tradeoff between initial cost, expected lifespan, and ongoing maintenance commitment.",
+        "description": "Deck lifespan varies by material and maintenance, with wood lasting 15-20 years and composite 25-30+ years."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

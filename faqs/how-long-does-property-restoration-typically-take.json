@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does property restoration typically take?",
+  "description": "Restoration time varies widely based on damage extent and type; minor work takes days, major reconstruction can take months.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-property-restoration-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does property restoration typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of property restoration varies significantly based on the extent of the damage, the type of event (e.g., water, fire), and the need for structural repairs or specialized drying. A small-scale water leak might take days, while major fire damage requiring extensive reconstruction could take months. During the process, unforeseen issues like hidden mold or structural damage can emerge, potentially extending the timeline. Hometelligent Inc. provides an estimated timeline after a thorough assessment, but unexpected discoveries can adjust project length.",
+        "description": "Restoration time varies widely based on damage extent and type; minor work takes days, major reconstruction can take months."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

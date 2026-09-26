@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I replace an existing window with a sliding glass door?",
+  "description": "Yes, but replacing a window with a sliding glass door often requires significant structural modifications and professional assessment.",
+  "url": "https://hometelligentinc.com/faq/can-i-replace-an-existing-window-with-a-sliding-glass-door",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I replace an existing window with a sliding glass door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Replacing an existing window with a sliding glass door is possible but typically involves significant structural modifications, as windows are generally not designed to support the weight or dimensions of a door. This project would require framing adjustments, potentially lintel or header installation, and ensuring the new opening meets egress requirements. We conduct a detailed site assessment to determine feasibility and outline the full scope of work, including any necessary structural engineering considerations.",
+        "description": "Yes, but replacing a window with a sliding glass door often requires significant structural modifications and professional assessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

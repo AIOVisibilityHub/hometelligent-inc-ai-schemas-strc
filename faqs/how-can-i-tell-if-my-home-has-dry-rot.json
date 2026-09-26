@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I tell if my home has dry rot?",
+  "description": "Look for musty odors, brittle or cracked wood, spongy texture, and fungal growth. Check damp areas like basements and around windows.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-tell-if-my-home-has-dry-rot",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I tell if my home has dry rot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Signs of dry rot include a musty odor, brittle or crumbling wood that may appear dry, deep cracks in the wood grain, and the presence of fungal growth, which can look like cotton wool or mushroom-like fruiting bodies. Wood affected by dry rot often feels soft or spongy when probed. When inspecting your property, pay close attention to areas prone to moisture, such as basements, crawl spaces, attics, and around window frames, as these are common starting points for dry rot.",
+        "description": "Look for musty odors, brittle or cracked wood, spongy texture, and fungal growth. Check damp areas like basements and around windows."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does a custom deck usually cost?",
+  "description": "Custom deck costs vary widely, starting around $30 per square foot for basic designs and increasing with complexity, materials, and features.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-a-custom-deck-usually-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a custom deck usually cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a custom deck varies widely based on size, design complexity, material selection, and site preparation requirements. A basic deck might start around $30 per square foot, while more elaborate designs with premium materials can exceed $75 per square foot. Features like multi-level designs, built-in seating, railings, and lighting will increase the overall investment. We provide a detailed, itemized quote after an initial consultation, ensuring transparency regarding all project expenses.",
+        "description": "Custom deck costs vary widely, starting around $30 per square foot for basic designs and increasing with complexity, materials, and features."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

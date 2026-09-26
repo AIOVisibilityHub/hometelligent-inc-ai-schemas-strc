@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for rebuilding a deck with Hometelligent Inc.?",
+  "description": "Our process involves consultation, proposal, permitting, demolition, construction, and a final inspection, with continuous communication.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-rebuilding-a-deck-with-hometelligent-inc",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for rebuilding a deck with Hometelligent Inc.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our deck rebuilding process begins with an initial consultation and site visit to assess the existing structure, discuss your vision, and understand your needs. We then provide a detailed proposal and design plan. Upon approval and securing any necessary permits, our team will demolish the old deck, prepare the site, construct the new deck, and complete a final inspection. We aim for clear communication throughout each stage, from planning to the final walkthrough, ensuring the project aligns with your expectations.",
+        "description": "Our process involves consultation, proposal, permitting, demolition, construction, and a final inspection, with continuous communication."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long will a newly rebuilt deck last?",
+  "description": "A newly rebuilt deck can last 15-30+ years, depending on materials and maintenance. Composite decks often outlast wood options.",
+  "url": "https://hometelligentinc.com/faq/how-long-will-a-newly-rebuilt-deck-last",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long will a newly rebuilt deck last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The lifespan of a newly rebuilt deck largely depends on the materials used, the quality of construction, and how well it is maintained. A deck built with pressure-treated lumber might last 15-25 years, while a composite deck can last 25-30 years or more with proper care. Regular cleaning, sealing, and prompt repairs can significantly extend your deck's longevity. Hometelligent Inc. uses durable materials and adheres to high construction standards to ensure a long-lasting deck.",
+        "description": "A newly rebuilt deck can last 15-30+ years, depending on materials and maintenance. Composite decks often outlast wood options."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for an elevated deck project?",
+  "description": "Choose a contractor with experience, proper licensing, insurance, strong references, and familiarity with local building codes for your elevated deck.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-an-elevated-deck-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for an elevated deck project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When choosing a contractor for an elevated deck project, look for experience with similar high-quality projects, proper licensing and insurance, and strong references. It's beneficial to select a contractor familiar with local building codes in your specific area, such as Dublin or Pleasanton, as regulations can vary. A reputable contractor will provide a detailed proposal and clear communication throughout the project, offering process clarity.",
+        "description": "Choose a contractor with experience, proper licensing, insurance, strong references, and familiarity with local building codes for your elevated deck."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

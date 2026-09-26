@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does soil stability impact the design of a cliffside deck?",
+  "description": "Soil stability dictates foundation type and structural engineering for cliffside decks; geotechnical investigations assess the ground conditions.",
+  "url": "https://hometelligentinc.com/faq/how-does-soil-stability-impact-the-design-of-a-cliffside-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does soil stability impact the design of a cliffside deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soil stability is a critical factor in cliffside deck design, directly influencing the foundation type and structural engineering requirements. Geotechnical investigations are performed to assess soil composition, bearing capacity, and erosion potential. Unstable soil conditions may necessitate deeper foundations, retaining walls, or specialized anchoring systems to ensure the deck's long-term safety and structural integrity. This assessment is a key preparation step before design finalization.",
+        "description": "Soil stability dictates foundation type and structural engineering for cliffside decks; geotechnical investigations assess the ground conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

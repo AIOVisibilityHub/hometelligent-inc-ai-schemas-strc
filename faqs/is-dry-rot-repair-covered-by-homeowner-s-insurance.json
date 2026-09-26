@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Is dry rot repair covered by homeowner's insurance?",
+  "description": "Coverage depends on the cause; sudden damage may be covered, but long-term neglect typically is not. Review your policy to confirm.",
+  "url": "https://hometelligentinc.com/faq/is-dry-rot-repair-covered-by-homeowner-s-insurance",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is dry rot repair covered by homeowner's insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Homeowner's insurance policies generally cover sudden and accidental damage, which may include dry rot if it resulted from a covered peril like a burst pipe. However, damage from long-term neglect, such as chronic leaks or poor ventilation, is typically not covered. When considering options, it's crucial to review your specific policy and consult with your insurance provider to understand your coverage before starting any repairs.",
+        "description": "Coverage depends on the cause; sudden damage may be covered, but long-term neglect typically is not. Review your policy to confirm."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

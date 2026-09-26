@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common signs of water damage on a home's exterior?",
+  "description": "Common signs include discolored siding, peeling paint, warped wood, and crumbling materials. Early detection prevents more costly repairs.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-signs-of-water-damage-on-a-home-s-exterior",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common signs of water damage on a home's exterior?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common signs of water damage include discolored siding, peeling paint, warped or swollen wood, and crumbling stucco or masonry. You might also notice soft spots when pressing on exterior surfaces, or visible mold and mildew growth. Addressing these signs early can prevent more extensive damage and costly repairs. We recommend a visual inspection of your exterior annually, especially after heavy rains, to catch issues proactively.",
+        "description": "Common signs include discolored siding, peeling paint, warped wood, and crumbling materials. Early detection prevents more costly repairs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

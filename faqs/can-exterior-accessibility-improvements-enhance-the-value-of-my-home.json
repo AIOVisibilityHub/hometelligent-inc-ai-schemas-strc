@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can exterior accessibility improvements enhance the value of my home?",
+  "description": "Yes, well-designed exterior accessibility improvements can enhance home value by increasing functionality and appeal to a broader market.",
+  "url": "https://hometelligentinc.com/faq/can-exterior-accessibility-improvements-enhance-the-value-of-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can exterior accessibility improvements enhance the value of my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Exterior accessibility improvements can enhance the value of your home by making it more functional and appealing to a wider range of potential buyers, particularly those with mobility needs or who are planning to age in place. While the primary goal is often functionality, well-designed and aesthetically integrated improvements can contribute positively to curb appeal. A practical tradeoff is ensuring the improvements blend seamlessly with the home's existing architecture to maximize their positive impact on property value rather than detracting from it.",
+        "description": "Yes, well-designed exterior accessibility improvements can enhance home value by increasing functionality and appeal to a broader market."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

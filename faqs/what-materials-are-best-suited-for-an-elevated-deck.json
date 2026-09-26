@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are best suited for an elevated deck?",
+  "description": "Durable materials like pressure-treated lumber, cedar, redwood, or composite decking are best for elevated decks.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-best-suited-for-an-elevated-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are best suited for an elevated deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For elevated decks, durable materials are essential due to exposure to elements and structural demands. Popular choices include pressure-treated lumber, cedar, redwood, and composite decking. Composite materials often require less maintenance and offer extended longevity, while natural woods like redwood provide a classic aesthetic. The best material choice depends on your budget, desired aesthetics, and maintenance preferences, which we can discuss during your consultation to identify your decision factors.",
+        "description": "Durable materials like pressure-treated lumber, cedar, redwood, or composite decking are best for elevated decks."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

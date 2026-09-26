@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of replacing an old exterior door?",
+  "description": "Benefits include improved energy efficiency, enhanced home security, and increased curb appeal, which can also boost home value.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-replacing-an-old-exterior-door",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of replacing an old exterior door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Replacing an old exterior door can significantly improve your home's energy efficiency by reducing drafts and heat loss, leading to lower utility bills. It also enhances security with modern locking mechanisms and stronger materials, and boosts curb appeal, increasing your home's value. Choosing a door with better insulation is a practical tradeoff that can reduce long-term heating and cooling costs, even if the initial investment is higher.",
+        "description": "Benefits include improved energy efficiency, enhanced home security, and increased curb appeal, which can also boost home value."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

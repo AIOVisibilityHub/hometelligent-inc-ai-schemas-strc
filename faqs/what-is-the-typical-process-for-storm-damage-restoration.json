@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for storm-damage restoration?",
+  "description": "The process starts with damage assessment and temporary repairs, followed by a detailed plan, necessary permits, and then permanent restoration work.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-storm-damage-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for storm-damage restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Storm-damage restoration typically begins with an initial assessment to identify the extent of damage and ensure safety. This is followed by temporary repairs to prevent further damage, such as tarping roofs or boarding up windows. Next, a detailed plan is developed for permanent repairs, which includes obtaining necessary permits and coordinating various trades. Finally, the restoration work is performed to bring the property back to its pre-storm condition. The scope of work and permitting requirements can significantly affect the overall timeline.",
+        "description": "The process starts with damage assessment and temporary repairs, followed by a detailed plan, necessary permits, and then permanent restoration work."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

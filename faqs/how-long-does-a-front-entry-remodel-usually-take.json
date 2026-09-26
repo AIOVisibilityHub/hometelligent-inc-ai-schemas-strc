@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a front entry remodel usually take?",
+  "description": "Remodel times vary; simple updates may take days, while extensive projects can take several weeks depending on scope and materials.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-front-entry-remodel-usually-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a front entry remodel usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a front entry remodel varies based on the scope of work. Simple updates like door replacement might take a few days, while more extensive projects involving structural changes, porch additions, or custom millwork can take several weeks. We provide a detailed timeline after assessing your project, ensuring you understand each phase from design to completion. Factors like material availability and inspection schedules can also influence the overall timeframe.",
+        "description": "Remodel times vary; simple updates may take days, while extensive projects can take several weeks depending on scope and materials."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

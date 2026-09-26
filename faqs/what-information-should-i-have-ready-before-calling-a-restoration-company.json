@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What information should I have ready before calling a restoration company?",
+  "description": "Have details about the damage cause, extent, and any insurance information ready before calling a restoration company.",
+  "url": "https://hometelligentinc.com/faq/what-information-should-i-have-ready-before-calling-a-restoration-company",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What information should I have ready before calling a restoration company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before contacting a restoration company, gather information about the incident, such as the date and cause of damage, extent of visible damage, and any immediate actions taken. Having your insurance policy details available can also expedite the process. This preparation helps the restoration team conduct a more efficient initial assessment and develop a relevant plan. Hometelligent Inc. advises clients to document damage with photos or videos if safe to do so.",
+        "description": "Have details about the damage cause, extent, and any insurance information ready before calling a restoration company."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

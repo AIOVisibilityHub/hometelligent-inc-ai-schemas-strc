@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of wood are commonly used for deck construction?",
+  "description": "Common wood types for decks are pressure-treated pine, cedar, and redwood, each with different costs and properties. Consider your local climate and budget when",
+  "url": "https://hometelligentinc.com/faq/what-types-of-wood-are-commonly-used-for-deck-construction",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of wood are commonly used for deck construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common wood types for deck construction include pressure-treated pine, cedar, and redwood. Pressure-treated pine is a popular choice due to its affordability and resistance to rot and insects, making it a practical tradeoff for many homeowners. Cedar and redwood offer natural beauty and decay resistance but typically come at a higher cost. When choosing, consider the climate in areas like Alameda or Berkeley, as certain woods perform better in specific weather conditions, influencing the deck's longevity and maintenance needs.",
+        "description": "Common wood types for decks are pressure-treated pine, cedar, and redwood, each with different costs and properties. Consider your local climate and budget when choosing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

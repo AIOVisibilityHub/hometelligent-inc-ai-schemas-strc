@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to leave my property during restoration?",
+  "description": "Leaving your property during restoration depends on damage severity, scope of work, and safety concerns; some projects require temporary relocation.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-leave-my-property-during-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to leave my property during restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether you need to vacate your property during restoration depends on the severity of the damage, the scope of work, and safety concerns. If there's extensive structural damage, active hazards like asbestos, or if utilities are compromised, temporary relocation may be necessary for your safety and the efficiency of the work. For smaller projects, areas can often be isolated. Hometelligent Inc. assesses each situation individually and advises clients on whether temporary relocation is recommended for safety and to facilitate the restoration work in areas like Alameda or Oakland.",
+        "description": "Leaving your property during restoration depends on damage severity, scope of work, and safety concerns; some projects require temporary relocation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

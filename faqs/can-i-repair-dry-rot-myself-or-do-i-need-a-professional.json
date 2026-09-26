@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I repair dry rot myself, or do I need a professional?",
+  "description": "Minor dry rot may seem manageable, but professionals are often needed for complete eradication, especially for structural issues, due to its hidden spread.",
+  "url": "https://hometelligentinc.com/faq/can-i-repair-dry-rot-myself-or-do-i-need-a-professional",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I repair dry rot myself, or do I need a professional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While minor surface dry rot might seem manageable, proper identification and complete eradication often require professional expertise. Dry rot can spread invisibly within structures, and incomplete treatment can lead to recurrence and more extensive future damage. A key decision factor is the scope; professional contractors have specialized tools and knowledge to assess the full extent of the problem and ensure all affected areas are properly treated and repaired, particularly for structural components.",
+        "description": "Minor dry rot may seem manageable, but professionals are often needed for complete eradication, especially for structural issues, due to its hidden spread."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

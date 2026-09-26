@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I do to prepare my property before water damage repair begins?",
+  "description": "Clear the work area of obstacles, secure pets, and communicate property access instructions to streamline the repair process.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-property-before-water-damage-repair-begins",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do to prepare my property before water damage repair begins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before repair work begins, you should clear the immediate work area of any obstacles, such as patio furniture, plants, or decorative items, to provide our team with clear access. If the damage is near utilities, ensuring clear access to these points can also be helpful. Additionally, securing pets indoors and communicating any specific access instructions for your property, especially in residential areas like Piedmont or Berkeley, will help streamline the process and prevent delays.",
+        "description": "Clear the work area of obstacles, secure pets, and communicate property access instructions to streamline the repair process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

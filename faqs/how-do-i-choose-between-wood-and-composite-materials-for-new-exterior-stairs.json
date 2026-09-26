@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose between wood and composite materials for new exterior stairs?",
+  "description": "Choose between wood for a natural look and lower upfront cost with more maintenance, or composite for higher durability, less maintenance, and higher initial co",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-between-wood-and-composite-materials-for-new-exterior-stairs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose between wood and composite materials for new exterior stairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing between wood and composite for new exterior stairs involves weighing aesthetic preferences against maintenance and longevity. Wood, such as pressure-treated pine or redwood, offers a natural look and can be more cost-effective upfront but requires regular sealing or staining. Composite materials are typically more expensive initially but are highly durable, resistant to rot and insects, and require very little maintenance beyond cleaning. Consider your budget, desired aesthetic, and long-term maintenance commitment when making your decision.",
+        "description": "Choose between wood for a natural look and lower upfront cost with more maintenance, or composite for higher durability, less maintenance, and higher initial cost."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

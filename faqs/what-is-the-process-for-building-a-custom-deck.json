@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for building a custom deck?",
+  "description": "Our custom deck process involves consultation, design, permitting, foundation, framing, decking, and finishing, with regular communication.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-building-a-custom-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for building a custom deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process for building a custom deck with Hometelligent Inc. begins with an initial consultation to discuss your vision and requirements. This is followed by site assessment and design development, where we create detailed plans. Once designs are approved and permits secured, we proceed with foundation work, framing, decking installation, and finishing touches like railings and stairs. We maintain clear communication throughout, providing regular updates from initial concept to final inspection.",
+        "description": "Our custom deck process involves consultation, design, permitting, foundation, framing, decking, and finishing, with regular communication."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

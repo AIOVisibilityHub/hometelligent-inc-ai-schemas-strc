@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preventative measures can I take against dry rot?",
+  "description": "Prevent dry rot by controlling moisture, ensuring good ventilation, and fixing leaks promptly. Regular inspections are vital, especially in humid coastal areas.",
+  "url": "https://hometelligentinc.com/faq/what-preventative-measures-can-i-take-against-dry-rot",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preventative measures can I take against dry rot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preventing dry rot involves controlling moisture levels in your home. This includes ensuring good ventilation in attics and crawl spaces, promptly repairing leaks in roofs and plumbing, and maintaining proper drainage around your foundation. For properties in areas like Alameda, where coastal humidity can be a factor, regular inspections of exterior wood and ensuring adequate airflow are particularly important to minimize conditions favorable for fungal growth.",
+        "description": "Prevent dry rot by controlling moisture, ensuring good ventilation, and fixing leaks promptly. Regular inspections are vital, especially in humid coastal areas."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

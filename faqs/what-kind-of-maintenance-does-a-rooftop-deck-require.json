@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of maintenance does a rooftop deck require?",
+  "description": "Rooftop deck maintenance varies by material: composite needs basic cleaning, while wood decks require regular cleaning, sealing, and occasional repairs. Regular",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-does-a-rooftop-deck-require",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of maintenance does a rooftop deck require?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintenance for a rooftop deck depends on the materials used. Composite decking generally requires minimal maintenance, primarily cleaning with soap and water to remove dirt and debris. Wood decks, such as those made from redwood or cedar, will need regular cleaning, periodic sealing or staining to protect against UV rays and moisture, and occasional repairs for splinters or warping. Regardless of material, it's important to regularly inspect the deck for any signs of wear, damage, or drainage issues, especially after heavy rains, to address potential problems early. Hometelligent Inc. can provide guidance on specific maintenance routines tailored to your chosen decking materials.",
+        "description": "Rooftop deck maintenance varies by material: composite needs basic cleaning, while wood decks require regular cleaning, sealing, and occasional repairs. Regular inspections are important for all materials."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

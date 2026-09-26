@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can you build multi-level decks or decks with custom features?",
+  "description": "We build multi-level decks and custom features like built-in seating, pergolas, and lighting, carefully considering structural needs and permit requirements.",
+  "url": "https://hometelligentinc.com/faq/can-you-build-multi-level-decks-or-decks-with-custom-features",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you build multi-level decks or decks with custom features?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we specialize in building custom decks, including multi-level designs and those with integrated features. We can incorporate elements such as built-in seating, privacy screens, custom pergolas, and outdoor lighting to enhance functionality and aesthetics. These custom features are designed to complement your home and outdoor living style. When considering complex designs, it's important to factor in how these additions will affect structural requirements and potentially permit processes, as they often require more detailed engineering plans.",
+        "description": "We build multi-level decks and custom features like built-in seating, pergolas, and lighting, carefully considering structural needs and permit requirements."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

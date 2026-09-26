@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is dry rot and how does it damage my home?",
+  "description": "Dry rot is a wood-destroying fungus that causes timber to lose its structural integrity and can spread extensively, compromising home stability.",
+  "url": "https://hometelligentinc.com/faq/what-is-dry-rot-and-how-does-it-damage-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is dry rot and how does it damage my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dry rot is a wood-destroying fungus that feeds on timber, causing it to lose its structural integrity and become brittle. Unlike wet rot, dry rot can spread through masonry and behind plaster, making it particularly destructive. Early detection is key, as the damage can extend beyond visible areas and compromise the stability of wooden structures in your home, often requiring extensive repair or replacement.",
+        "description": "Dry rot is a wood-destroying fungus that causes timber to lose its structural integrity and can spread extensively, compromising home stability."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

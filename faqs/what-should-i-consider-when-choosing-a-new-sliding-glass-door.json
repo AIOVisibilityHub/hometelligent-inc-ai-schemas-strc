@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider when choosing a new sliding glass door?",
+  "description": "Consider material, energy efficiency, security, aesthetics, and traffic flow when choosing a door, weighing initial cost against long-term benefits.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-a-new-sliding-glass-door",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider when choosing a new sliding glass door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When selecting a new sliding glass door, consider factors like material durability, energy efficiency ratings, security features, and aesthetic appeal that complements your home. Also, think about the traffic flow and how frequently the door will be used. A practical tradeoff to consider is between a lower upfront cost for standard materials and the long-term energy savings and durability offered by higher-quality, more insulated options, particularly in varying climates found across our service areas like Fremont or Pleasanton.",
+        "description": "Consider material, energy efficiency, security, aesthetics, and traffic flow when choosing a door, weighing initial cost against long-term benefits."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

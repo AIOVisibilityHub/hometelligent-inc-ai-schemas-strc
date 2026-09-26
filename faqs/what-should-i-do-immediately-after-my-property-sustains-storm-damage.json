@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I do immediately after my property sustains storm damage?",
+  "description": "Ensure safety first, then document all damage with photos and videos before making any safe, temporary repairs to prevent further issues.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-do-immediately-after-my-property-sustains-storm-damage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do immediately after my property sustains storm damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Immediately after storm damage, prioritize safety by checking for hazards like downed power lines or gas leaks. Document the damage thoroughly with photos and videos before any cleanup. Make temporary repairs, such as covering broken windows or roof holes, to prevent further damage, but only if it's safe to do so. This documentation is crucial for your insurance claim and helps define the initial scope of work when contacting a restoration company.",
+        "description": "Ensure safety first, then document all damage with photos and videos before making any safe, temporary repairs to prevent further issues."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

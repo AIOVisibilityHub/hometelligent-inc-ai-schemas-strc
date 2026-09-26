@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does exterior door replacement typically take?",
+  "description": "Most single exterior door replacements are completed in one day, though complex projects or structural issues may extend the timeline.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-exterior-door-replacement-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does exterior door replacement typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation of a single exterior door typically takes one day. However, this can vary based on the complexity of the project, such as custom sizing, frame modifications, or the need to address existing structural issues around the opening. Before starting, Hometelligent Inc. provides a detailed project timeline, including any potential factors that might extend the duration, allowing you to plan accordingly.",
+        "description": "Most single exterior door replacements are completed in one day, though complex projects or structural issues may extend the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

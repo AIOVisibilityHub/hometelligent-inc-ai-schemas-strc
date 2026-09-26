@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical deck replacement project take?",
+  "description": "Deck replacement typically takes 2-4 weeks for construction, plus additional time for design and permit approvals. Permitting can significantly extend the overa",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-deck-replacement-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical deck replacement project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a deck replacement project can vary significantly based on factors such as the size and complexity of the deck, the materials chosen, and the time required for permit approvals. A standard-sized deck replacement might take anywhere from 2 to 4 weeks from demolition to completion, excluding design and permitting phases. Permitting can add several weeks or even months depending on the specific municipality, such as in Oakland or Fremont. Weather conditions can also impact the schedule, especially during the rainy season in the Bay Area.",
+        "description": "Deck replacement typically takes 2-4 weeks for construction, plus additional time for design and permit approvals. Permitting can significantly extend the overall project timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

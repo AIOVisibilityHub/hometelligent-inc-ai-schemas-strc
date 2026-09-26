@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does elevated deck construction typically cost?",
+  "description": "Costs for elevated decks vary by size, materials, design complexity, and site conditions.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-elevated-deck-construction-typically-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does elevated deck construction typically cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of elevated deck construction varies significantly based on factors such as deck size, material choices (e.g., redwood, composite), complexity of the design, and site conditions. A larger, multi-level deck with premium materials and custom features will naturally be more expensive than a smaller, simpler design. We provide detailed estimates after an on-site consultation to accurately assess these variables and provide process clarity.",
+        "description": "Costs for elevated decks vary by size, materials, design complexity, and site conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

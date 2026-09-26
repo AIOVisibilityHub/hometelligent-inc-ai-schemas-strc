@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to build an elevated deck?",
+  "description": "Elevated deck construction typically takes several weeks to a few months, varying with size, complexity, materials, and permitting.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-an-elevated-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to build an elevated deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for building an elevated deck can range from several weeks to a few months, depending on the deck's size, design complexity, material availability, and the local permitting process. Custom designs, extensive features, or challenging site access can extend the project duration. We provide an estimated timeline during the planning phase to help you manage expectations and offer process clarity.",
+        "description": "Elevated deck construction typically takes several weeks to a few months, varying with size, complexity, materials, and permitting."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

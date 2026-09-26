@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does an exterior lighting upgrade project usually take?",
+  "description": "Project duration varies by complexity, from a few days for small jobs to over a week for larger ones. Weather, material availability, and permits can affect the",
+  "url": "https://hometelligentinc.com/faq/how-long-does-an-exterior-lighting-upgrade-project-usually-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does an exterior lighting upgrade project usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of an exterior lighting upgrade project depends on its complexity and scale. A small project, such as installing a few pathway lights, might take a day or two. More extensive projects involving landscape lighting, multiple zones, or new electrical circuits can take several days to a week or more. The project timeline can also be influenced by factors like weather conditions, material availability, and necessary permit acquisitions. We provide an estimated completion timeline during the initial consultation.",
+        "description": "Project duration varies by complexity, from a few days for small jobs to over a week for larger ones. Weather, material availability, and permits can affect the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

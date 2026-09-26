@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are best for a custom deck in the Bay Area?",
+  "description": "Best deck materials for the Bay Area include redwood, cedar, and composite, with choice depending on budget, aesthetics, and maintenance.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-a-custom-deck-in-the-bay-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are best for a custom deck in the Bay Area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For custom decks in the Bay Area, common material choices include pressure-treated wood, redwood, cedar, and composite decking. Redwood and cedar are popular for their natural beauty and resistance to insects and rot, especially in varied climates like those found across Alameda County. Composite decking offers low maintenance and durability, which can be a practical tradeoff against a higher upfront cost. Your choice should consider your budget, desired aesthetic, maintenance preferences, and how long you expect the deck to last.",
+        "description": "Best deck materials for the Bay Area include redwood, cedar, and composite, with choice depending on budget, aesthetics, and maintenance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

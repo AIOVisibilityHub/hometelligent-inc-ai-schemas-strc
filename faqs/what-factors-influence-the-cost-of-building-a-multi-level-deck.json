@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of building a multi-level deck?",
+  "description": "Deck cost depends on size, design complexity, material choice (lumber, composite, hardwood), and site preparation. Material selection is a major cost driver.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-a-multi-level-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of building a multi-level deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of building a multi-level deck is influenced by several factors, including its overall size, the complexity of the design, the type of materials chosen, and site preparation needs. For instance, more levels, intricate shapes, or specialized features like built-in seating and lighting will increase labor and material costs. A key decision factor for customers is the choice between pressure-treated lumber, composite decking, or hardwoods, as each has different price points and maintenance requirements.",
+        "description": "Deck cost depends on size, design complexity, material choice (lumber, composite, hardwood), and site preparation. Material selection is a major cost driver."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

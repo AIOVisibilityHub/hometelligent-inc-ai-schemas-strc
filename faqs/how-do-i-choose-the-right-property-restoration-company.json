@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right property restoration company?",
+  "description": "Choose a company based on experience, certifications, and comprehensive services, ideally one that handles both mitigation and reconstruction.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-property-restoration-company",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right property restoration company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When choosing a property restoration company, evaluate their experience with your specific type of damage, their certifications (e.g., IICRC), and their ability to handle both mitigation and full reconstruction. It is beneficial to select a company that offers comprehensive services, from initial cleanup to final rebuilding, to avoid coordinating multiple contractors. Hometelligent Inc. operates as a full-service construction company, providing a single point of contact for the entire restoration journey, which can simplify project management for the client.",
+        "description": "Choose a company based on experience, certifications, and comprehensive services, ideally one that handles both mitigation and reconstruction."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

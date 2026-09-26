@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for repairing dry rot?",
+  "description": "The repair process involves eliminating moisture, removing infected wood, fungicidal treatment, and replacing timber. Extensive rot can increase complexity.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-repairing-dry-rot",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for repairing dry rot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dry rot repair typically involves identifying and eliminating the moisture source, removing all infected wood, and treating surrounding areas with a fungicide to prevent recurrence. Sound timber is then replaced with new, pre-treated wood. The process clarity can be affected by the extent of the dry rot; more widespread infestations might require opening up walls or floors to access all affected structural elements, which adds to the project's complexity and duration.",
+        "description": "The repair process involves eliminating moisture, removing infected wood, fungicidal treatment, and replacing timber. Extensive rot can increase complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

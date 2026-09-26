@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of deck rebuilding?",
+  "description": "Deck rebuilding costs depend on size, height, material choice, design complexity, existing foundation condition, and demolition needs.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-deck-rebuilding",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of deck rebuilding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a deck rebuilding project is influenced by several factors, including the deck's size and height, the chosen materials (e.g., pressure-treated wood, composite, or exotic hardwoods), the complexity of the design, and the condition of the existing foundation. Additional costs may arise from the need for extensive demolition, new structural elements, or specific site access challenges. Hometelligent Inc. provides detailed estimates after a thorough assessment of your project's specific requirements.",
+        "description": "Deck rebuilding costs depend on size, height, material choice, design complexity, existing foundation condition, and demolition needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

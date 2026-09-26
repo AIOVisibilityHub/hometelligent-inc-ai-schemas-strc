@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an elevated deck be built on a sloped backyard?",
+  "description": "Elevated decks are ideal for sloped backyards, using specialized foundations to create stable, usable outdoor living areas.",
+  "url": "https://hometelligentinc.com/faq/can-an-elevated-deck-be-built-on-a-sloped-backyard",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an elevated deck be built on a sloped backyard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, an elevated deck is an excellent solution for sloped backyards, as it allows you to create usable outdoor living space where a ground-level deck would be impractical. The design will involve specialized foundation work, such as deeper footings or concrete piers, to account for the slope and provide stable support. This approach helps transform challenging terrain into functional and aesthetically pleasing areas.",
+        "description": "Elevated decks are ideal for sloped backyards, using specialized foundations to create stable, usable outdoor living areas."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials are typically used for eaves repair?",
+  "description": "Common eaves repair materials include wood, PVC, and aluminum. The choice depends on existing structure, aesthetics, budget, and durability needs.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-typically-used-for-eaves-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are typically used for eaves repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eaves repair commonly uses materials like wood (cedar, redwood, or treated lumber), PVC, or aluminum for fascia and soffit components. The choice of material often depends on the existing structure, desired aesthetics, and budget. For example, wood offers a traditional look and can be painted to match, while PVC and aluminum are low-maintenance and resistant to rot. The material decision can also be influenced by local weather patterns and the home's architectural style, requiring a careful decision factor based on durability versus appearance.",
+        "description": "Common eaves repair materials include wood, PVC, and aluminum. The choice depends on existing structure, aesthetics, budget, and durability needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I prepare my home for sliding glass door installation?",
+  "description": "Clear the installation area, protect surrounding floors and furniture, and secure pets to ensure a smooth and safe process.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-home-for-sliding-glass-door-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I prepare my home for sliding glass door installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prepare for installation, clear the area around both the interior and exterior of the existing door, removing furniture, decor, and window treatments. Protect flooring with drop cloths and cover nearby furniture to shield against dust. If you have pets, ensure they are secured in a safe area away from the work zone. This preparation helps our team work efficiently and safely, minimizing disruptions to your household during the installation process.",
+        "description": "Clear the installation area, protect surrounding floors and furniture, and secure pets to ensure a smooth and safe process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

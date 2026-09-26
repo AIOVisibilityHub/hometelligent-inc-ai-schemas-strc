@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How should I prepare my yard before deck construction begins?",
+  "description": "Clear the deck area of obstacles and mark known underground utilities. Ensure crew access. Specific grading or tree removal will be planned during our site asse",
+  "url": "https://hometelligentinc.com/faq/how-should-i-prepare-my-yard-before-deck-construction-begins",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How should I prepare my yard before deck construction begins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before deck construction begins, you should clear the designated area of any obstacles, such as old landscaping, sheds, or debris. It's also important to mark the location of any underground utilities if you are aware of them, though we also handle calling 811 for utility locates. Ensuring clear access for our crew and equipment is beneficial for efficiency. Any specific grading or tree removal needs will be discussed during our initial site assessment in areas like Emeryville or Newark, allowing for proper planning before our team arrives.",
+        "description": "Clear the deck area of obstacles and mark known underground utilities. Ensure crew access. Specific grading or tree removal will be planned during our site assessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

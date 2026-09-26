@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need permits for exterior lighting upgrades?",
+  "description": "Permit needs depend on project scope and local regulations. Minor changes usually don't need permits, but new circuits or major wiring might. Hometelligent Inc.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-exterior-lighting-upgrades",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need permits for exterior lighting upgrades?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether permits are required for exterior lighting upgrades depends on the scope of the project and local regulations in areas like Alameda or Berkeley. Minor installations, such as replacing existing fixtures, typically do not require permits. However, projects involving new electrical circuits, significant alterations to existing wiring, or installations of large structures might necessitate permits. Hometelligent Inc. will advise you on the specific permit requirements for your project within our service areas and can assist with the application process.",
+        "description": "Permit needs depend on project scope and local regulations. Minor changes usually don't need permits, but new circuits or major wiring might. Hometelligent Inc. can advise."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

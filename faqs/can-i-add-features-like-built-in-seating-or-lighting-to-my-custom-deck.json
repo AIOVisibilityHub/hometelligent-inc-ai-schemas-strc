@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I add features like built-in seating or lighting to my custom deck?",
+  "description": "You can add built-in seating, planters, pergolas, and lighting to a custom deck to enhance functionality and aesthetics.",
+  "url": "https://hometelligentinc.com/faq/can-i-add-features-like-built-in-seating-or-lighting-to-my-custom-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I add features like built-in seating or lighting to my custom deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, custom deck construction allows for a wide range of integrated features, including built-in seating, planters, pergolas, and various lighting options. These elements can significantly enhance the functionality and aesthetics of your outdoor living space. The addition of such features impacts the overall design complexity and cost, but they offer a great opportunity to personalize your deck and create a truly unique area tailored to your lifestyle and the natural beauty of your property.",
+        "description": "You can add built-in seating, planters, pergolas, and lighting to a custom deck to enhance functionality and aesthetics."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical deck rebuilding project take?",
+  "description": "Deck rebuilding times vary from 1-2 weeks for simple projects to several weeks for complex ones, influenced by size, materials, and local permitting.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-deck-rebuilding-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical deck rebuilding project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a deck rebuilding project varies significantly based on the deck's size, complexity, material choices, and the need for new foundation work or permitting. A smaller, straightforward rebuild might take 1-2 weeks, while larger, multi-level decks with intricate designs could extend to several weeks or more. Obtaining necessary permits, especially in areas like Berkeley or Oakland, can also impact the overall timeline, adding an initial waiting period.",
+        "description": "Deck rebuilding times vary from 1-2 weeks for simple projects to several weeks for complex ones, influenced by size, materials, and local permitting."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

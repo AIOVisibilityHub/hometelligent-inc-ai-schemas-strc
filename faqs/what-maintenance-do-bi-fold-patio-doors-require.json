@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance do bi-fold patio doors require?",
+  "description": "Bi-fold doors require regular cleaning of glass and frames, plus periodic lubrication of tracks and hinges for smooth operation.",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-do-bi-fold-patio-doors-require",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance do bi-fold patio doors require?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bi-fold patio doors require relatively low maintenance. Regular cleaning of the glass and frames, along with periodic lubrication of the tracks and hinges, is generally sufficient to keep them operating smoothly. It's also important to keep the tracks clear of debris. First-party insight from Hometelligent Inc. emphasizes checking seals and weather stripping annually, especially before winter, to maintain energy efficiency and prevent drafts in homes across the East Bay.",
+        "description": "Bi-fold doors require regular cleaning of glass and frames, plus periodic lubrication of tracks and hinges for smooth operation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

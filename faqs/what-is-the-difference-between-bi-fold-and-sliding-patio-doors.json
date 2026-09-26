@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between bi-fold and sliding patio doors?",
+  "description": "Bi-fold doors fold for a full opening, while sliding doors slide past each other, offering different levels of open space.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-bi-fold-and-sliding-patio-doors",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between bi-fold and sliding patio doors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bi-fold doors fold and stack to the side, creating a full, unobstructed opening that seamlessly merges indoor and outdoor spaces. Sliding patio doors, on the other hand, consist of panels that slide horizontally past each other, typically leaving at least half of the opening covered. A key practical tradeoff is the amount of open space achieved versus the structural requirements; bi-folds offer a wider opening but may need more wall space for stacking, while sliders save wall space but offer a smaller clear opening.",
+        "description": "Bi-fold doors fold for a full opening, while sliding doors slide past each other, offering different levels of open space."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can any roof support a rooftop deck?",
+  "description": "Not all roofs can support a rooftop deck without modification; a structural assessment is crucial to determine load-bearing capacity and identify reinforcement",
+  "url": "https://hometelligentinc.com/faq/can-any-roof-support-a-rooftop-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can any roof support a rooftop deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not every roof can support a rooftop deck without modifications. The primary concern is the structural integrity and load-bearing capacity of your existing roof and supporting walls. Rooftop decks, especially with people, furniture, and potentially planters, add significant weight. An initial structural assessment by an engineer or qualified contractor is crucial to determine if your roof can handle the additional load or if reinforcement is needed. This assessment helps prevent structural damage and ensures safety. Hometelligent Inc. always begins with a detailed structural evaluation to confirm feasibility and recommend any necessary upgrades for a safe and compliant deck.",
+        "description": "Not all roofs can support a rooftop deck without modification; a structural assessment is crucial to determine load-bearing capacity and identify reinforcement needs. Hometelligent Inc. conducts detailed structural evaluations for safety."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

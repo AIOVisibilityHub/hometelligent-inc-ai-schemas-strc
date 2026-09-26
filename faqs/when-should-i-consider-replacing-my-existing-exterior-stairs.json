@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider replacing my existing exterior stairs?",
+  "description": "Replace exterior stairs if they show signs of rot, cracks, instability, or no longer meet safety, aesthetic, or functional requirements.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-existing-exterior-stairs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider replacing my existing exterior stairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider replacing your exterior stairs if they show signs of significant wear, such as rot, cracks, unstable railings, or shifting foundations, which can pose safety hazards. Deterioration can accelerate due to exposure to elements like rain and sun. Furthermore, if your current stairs no longer meet your aesthetic needs or functional requirements, like improved accessibility or a change in property use, replacement might be the best option. An inspection can help determine the structural integrity and safety of your current stairs.",
+        "description": "Replace exterior stairs if they show signs of rot, cracks, instability, or no longer meet safety, aesthetic, or functional requirements."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

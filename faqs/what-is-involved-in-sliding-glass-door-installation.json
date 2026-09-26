@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is involved in sliding glass door installation?",
+  "description": "Installation involves removing the old door, preparing the opening, installing the new frame and panels, sealing, and adjusting for smooth operation.",
+  "url": "https://hometelligentinc.com/faq/what-is-involved-in-sliding-glass-door-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is involved in sliding glass door installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sliding glass door installation typically involves removing the existing door and frame, preparing the opening, installing the new frame, setting the glass panels, ensuring proper sealing and weatherproofing, and adjusting the rollers for smooth operation. Our process at Hometelligent Inc. includes a thorough pre-installation assessment of your home's structure and existing opening to ensure the best fit and long-term performance, addressing any potential structural needs upfront.",
+        "description": "Installation involves removing the old door, preparing the opening, installing the new frame and panels, sealing, and adjusting for smooth operation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

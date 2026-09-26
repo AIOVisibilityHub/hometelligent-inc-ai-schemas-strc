@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of installing French doors?",
+  "description": "Benefits include more natural light, improved aesthetics, better indoor-outdoor access, increased home value, and potential energy efficiency.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-french-doors",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of installing French doors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Installing French doors offers several benefits, including enhanced natural light, improved aesthetics, and better access between indoor and outdoor spaces. They can make rooms feel larger and more open, significantly boosting a home's curb appeal and potentially its value. Modern French doors also come with energy-efficient glass options that can help with insulation. For Hometelligent Inc. clients in areas like Pleasanton and San Leandro, installing French doors is a popular choice for homeowners looking to create a more inviting atmosphere and seamlessly connect their living areas to patios or gardens.",
+        "description": "Benefits include more natural light, improved aesthetics, better indoor-outdoor access, increased home value, and potential energy efficiency."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

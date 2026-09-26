@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Are bi-fold patio doors energy efficient?",
+  "description": "Energy efficiency varies by frame material, glass type, and seal quality; Low-E glass and thermally broken frames offer better insulation.",
+  "url": "https://hometelligentinc.com/faq/are-bi-fold-patio-doors-energy-efficient",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are bi-fold patio doors energy efficient?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The energy efficiency of bi-fold patio doors depends heavily on the materials used for the frame, the type of glass, and the quality of the seals and insulation. Doors with double or triple-paned, low-emissivity (Low-E) glass and thermally broken frames offer superior insulation, helping to reduce heating and cooling costs. A decision factor for homeowners in areas with varying temperatures, such as Pleasanton or Livermore, is investing in higher-rated glass options, which can lead to significant long-term energy savings.",
+        "description": "Energy efficiency varies by frame material, glass type, and seal quality; Low-E glass and thermally broken frames offer better insulation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

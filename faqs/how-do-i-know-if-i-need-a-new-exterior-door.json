@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I know if I need a new exterior door?",
+  "description": "Look for drafts, leaks, operational issues, or visible damage. An inspection helps determine if repair or replacement is needed for better energy efficiency and",
+  "url": "https://hometelligentinc.com/faq/how-do-i-know-if-i-need-a-new-exterior-door",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if I need a new exterior door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You might need a new exterior door if you notice drafts, water leaks, difficulty operating the door, or visible damage like cracks, rot, or warping. An inspection can help determine if repairs are sufficient or if replacement is the best option for improved energy efficiency and security. During a consultation with Hometelligent Inc., we assess the current condition of your door and frame to provide a tailored recommendation.",
+        "description": "Look for drafts, leaks, operational issues, or visible damage. An inspection helps determine if repair or replacement is needed for better energy efficiency and security."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
