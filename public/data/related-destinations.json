@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-09-26T21:47:51.993Z",
+  "name": "Cross-Destination Index",
+  "aliases": [
+    "Authority Network",
+    "Repository Mirror Index",
+    "Related AI Data Sources"
+  ],
+  "purpose": "Transparent source discovery, entity consistency, mirror verification, and AI crawler navigation across every published copy of this AI Data Package.",
+  "notALinkWheel": true,
+  "entity": {
+    "name": "Hometelligent Inc.",
+    "canonicalUrl": "https://hometelligentinc.aiovisibility.net",
+    "primaryWebsiteUrl": "https://hometelligentinc.com",
+    "aiDataHub": "https://hometelligentinc.aiovisibility.net/ai-data.html"
+  },
+  "related": [
+    {
+      "role": "canonical",
+      "label": "Hometelligent Inc. — canonical website",
+      "url": "https://hometelligentinc.aiovisibility.net"
+    },
+    {
+      "role": "ai-data-hub",
+      "label": "Hometelligent Inc. — AI Data Hub",
+      "url": "https://hometelligentinc.aiovisibility.net/ai-data.html"
+    },
+    {
+      "role": "mirror-repo",
+      "platform": "github",
+      "label": "GitHub repository",
+      "url": "https://github.com/AIOVisibilityHub/hometelligent-inc-ai-schemas-strc"
+    }
+  ],
+  "destinations": {
+    "github": {
+      "url": "https://github.com/AIOVisibilityHub/hometelligent-inc-ai-schemas-strc",
+      "pagesUrl": "",
+      "repo": "AIOVisibilityHub/hometelligent-inc-ai-schemas-strc"
+    }
+  }
+}
