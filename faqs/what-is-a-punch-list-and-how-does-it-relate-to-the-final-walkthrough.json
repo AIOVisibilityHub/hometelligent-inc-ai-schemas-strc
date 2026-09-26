@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a 'punch list' and how does it relate to the final walkthrough?",
+  "description": "A punch list is a document created during the final walkthrough listing all items needing completion or correction.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-punch-list-and-how-does-it-relate-to-the-final-walkthrough",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a 'punch list' and how does it relate to the final walkthrough?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 'punch list' is a document created during the final walkthrough that lists all items needing completion, correction, or repair before the project is considered fully finished. It directly relates to the walkthrough as it's the primary output of that inspection. As a First-Party Insight, Hometelligent Inc. prioritizes addressing all punch list items promptly and efficiently to ensure client satisfaction and facilitate timely project closeout, often assigning specific teams to resolve these tasks.",
+        "description": "A punch list is a document created during the final walkthrough listing all items needing completion or correction."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

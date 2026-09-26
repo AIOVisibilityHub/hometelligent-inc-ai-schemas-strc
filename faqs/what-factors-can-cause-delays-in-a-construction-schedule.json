@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors can cause delays in a construction schedule?",
+  "description": "Construction delays can arise from site conditions, weather, material issues, or client changes, as well as varying local permitting processes.",
+  "url": "https://hometelligentinc.com/faq/what-factors-can-cause-delays-in-a-construction-schedule",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors can cause delays in a construction schedule?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Several factors can cause construction schedule delays, including unforeseen site conditions, weather events, material delivery issues, and changes requested by the homeowner. Delays can also stem from permitting and inspection processes, which vary in duration across municipalities in our service region, such as Berkeley versus Fremont. We mitigate these risks by incorporating buffer times into our schedules and maintaining open communication with local authorities and suppliers. Understanding these potential challenges upfront helps manage expectations and allows for proactive adjustments.",
+        "description": "Construction delays can arise from site conditions, weather, material issues, or client changes, as well as varying local permitting processes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does Hometelligent develop a construction schedule for a new home build?",
+  "description": "Hometelligent develops schedules by outlining project milestones, breaking them into tasks, and identifying dependencies, with client review.",
+  "url": "https://hometelligentinc.com/faq/how-does-hometelligent-develop-a-construction-schedule-for-a-new-home-build",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does Hometelligent develop a construction schedule for a new home build?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We develop a construction schedule by first understanding the full scope of your project, including design specifics and material choices. This initial phase involves outlining all major milestones, such as foundation pouring, framing, and finishing work. We then break down these milestones into individual tasks, assigning durations and identifying dependencies. A key part of our process clarity is involving clients in review sessions, particularly for critical path items like material procurement, which can significantly impact project timelines due to lead times, especially for specialized materials.",
+        "description": "Hometelligent develops schedules by outlining project milestones, breaking them into tasks, and identifying dependencies, with client review."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

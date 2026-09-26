@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can Hometelligent Inc. manage construction projects that involve sustainable building practices?",
+  "description": "Hometelligent Inc. manages projects with sustainable practices, integrating eco-friendly materials and energy-efficient systems with specialized coordination.",
+  "url": "https://hometelligentinc.com/faq/can-hometelligent-inc-manage-construction-projects-that-involve-sustainable-buil",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can Hometelligent Inc. manage construction projects that involve sustainable building practices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. can manage construction projects that incorporate sustainable building practices. Our project managers work with clients to integrate eco-friendly materials, energy-efficient systems, and green design principles into their projects, aligning with modern environmental standards. We can help navigate options for sustainable choices and coordinate with specialized suppliers and installers to ensure your project meets your sustainability goals.",
+        "description": "Hometelligent Inc. manages projects with sustainable practices, integrating eco-friendly materials and energy-efficient systems with specialized coordination."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

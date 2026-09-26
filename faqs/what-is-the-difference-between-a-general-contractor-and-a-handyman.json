@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a general contractor and a handyman?",
+  "description": "General contractors manage large, complex projects with multiple trades and permits, while handymen handle smaller repairs and maintenance tasks.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-general-contractor-and-a-handyman",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a general contractor and a handyman?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A general contractor manages larger, more complex projects that often require permits, multiple subcontractors, and significant structural changes. They oversee all aspects of a project, ensuring compliance and quality. A handyman typically handles smaller repairs, maintenance tasks, or minor installations that don't require extensive project management or specialized trades. The distinction often lies in the project's scale and the need for coordinated, licensed professionals.",
+        "description": "General contractors manage large, complex projects with multiple trades and permits, while handymen handle smaller repairs and maintenance tasks."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

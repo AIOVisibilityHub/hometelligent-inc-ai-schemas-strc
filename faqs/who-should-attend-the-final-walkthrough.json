@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Who should attend the final walkthrough?",
+  "description": "The homeowner, general contractor, and potentially key subcontractors or project managers should attend the final walkthrough.",
+  "url": "https://hometelligentinc.com/faq/who-should-attend-the-final-walkthrough",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who should attend the final walkthrough?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically, the homeowner or client, the general contractor, and sometimes key subcontractors or project managers should attend the final walkthrough. Having all relevant parties present allows for immediate clarification of any issues and facilitates direct communication regarding punch list items. As a Preparation step, Hometelligent Inc. recommends clients bring their original blueprints, contracts, and any change orders to verify all agreed-upon work has been completed correctly.",
+        "description": "The homeowner, general contractor, and potentially key subcontractors or project managers should attend the final walkthrough."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

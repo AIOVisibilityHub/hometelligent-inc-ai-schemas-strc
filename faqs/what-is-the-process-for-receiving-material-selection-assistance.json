@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for receiving material selection assistance?",
+  "description": "The process involves consultation on project goals, presentation of material options, expert recommendations, and assistance with procurement.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-receiving-material-selection-assistance",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for receiving material selection assistance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process typically begins with an initial consultation to understand your project goals, budget, and design preferences. Next, material samples and specifications are presented for review, accompanied by expert recommendations and detailed comparisons. Once selections are made, Hometelligent Inc. assists with procurement and logistics to ensure materials are available when needed for your project. This systematic approach ensures efficient decision-making and smooth integration into your construction timeline.",
+        "description": "The process involves consultation on project goals, presentation of material options, expert recommendations, and assistance with procurement."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

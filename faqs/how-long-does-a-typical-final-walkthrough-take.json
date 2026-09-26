@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical final walkthrough take?",
+  "description": "The length of a final walkthrough depends on project size and complexity, ranging from one hour to several hours.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-final-walkthrough-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical final walkthrough take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a final walkthrough can vary significantly based on the size and complexity of the construction project. A small renovation might take an hour, while a large custom home or commercial build could require several hours. As a Process Clarity point, Hometelligent Inc. schedules walkthroughs with ample time, advising clients that they should not feel rushed, allowing for a thorough inspection of every aspect of the completed work.",
+        "description": "The length of a final walkthrough depends on project size and complexity, ranging from one hour to several hours."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

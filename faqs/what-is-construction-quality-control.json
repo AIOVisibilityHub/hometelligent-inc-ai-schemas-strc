@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is construction quality control?",
+  "description": "Construction quality control ensures building projects meet specified standards through inspections, testing, and adherence to codes.",
+  "url": "https://hometelligentinc.com/faq/what-is-construction-quality-control",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is construction quality control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Construction quality control is the process of ensuring that building projects meet specified standards and requirements. It involves regular inspections, testing of materials, and adherence to blueprints and local building codes throughout every project phase. At Hometelligent Inc., our quality control process integrates early planning with continuous site monitoring to identify and address issues proactively, minimizing costly rework and delays for projects in areas like Alameda and Berkeley.",
+        "description": "Construction quality control ensures building projects meet specified standards through inspections, testing, and adherence to codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

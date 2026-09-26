@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What documents should I expect to receive or sign after the final walkthrough?",
+  "description": "After the walkthrough, expect to receive warranties, operating manuals, lien waivers, and a final invoice.",
+  "url": "https://hometelligentinc.com/faq/what-documents-should-i-expect-to-receive-or-sign-after-the-final-walkthrough",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What documents should I expect to receive or sign after the final walkthrough?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After a successful final walkthrough and completion of any punch list items, you should expect to receive important documents such as warranties for materials and workmanship, operating manuals for installed appliances and systems, and potentially a lien waiver from the contractor. As a Preparation step, Hometelligent Inc. ensures clients receive a comprehensive closeout package, which also includes a final invoice and any necessary project certifications, signaling the official completion and handover of the project.",
+        "description": "After the walkthrough, expect to receive warranties, operating manuals, lien waivers, and a final invoice."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

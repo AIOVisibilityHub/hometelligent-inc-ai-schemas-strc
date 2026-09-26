@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of insurance should a general contractor have?",
+  "description": "A general contractor should have general liability insurance for property damage/bodily injury and workers' compensation for employee injuries.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-insurance-should-a-general-contractor-have",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of insurance should a general contractor have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A reputable general contractor should carry comprehensive general liability insurance, which protects against claims of bodily injury or property damage that may occur during the project. They should also have workers' compensation insurance to cover their employees in case of workplace injuries. Verifying these insurance policies provides financial protection for both you and the contractor, ensuring responsibility for potential accidents or damages.",
+        "description": "A general contractor should have general liability insurance for property damage/bodily injury and workers' compensation for employee injuries."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What happens if issues are found during the final walkthrough?",
+  "description": "Issues found during the walkthrough are added to a punch list, which the contractor must address before final payment.",
+  "url": "https://hometelligentinc.com/faq/what-happens-if-issues-are-found-during-the-final-walkthrough",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if issues are found during the final walkthrough?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If issues are found during the final walkthrough, they are documented on the punch list. The contractor is then responsible for addressing these items within an agreed-upon timeframe. Final payment or a portion thereof is often withheld until all punch list items are satisfactorily completed. As a Process Clarity detail, Hometelligent Inc. works collaboratively with clients to ensure all identified deficiencies are resolved to their satisfaction, establishing clear timelines for corrections.",
+        "description": "Issues found during the walkthrough are added to a punch list, which the contractor must address before final payment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

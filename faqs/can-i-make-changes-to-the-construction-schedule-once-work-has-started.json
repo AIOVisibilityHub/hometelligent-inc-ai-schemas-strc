@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I make changes to the construction schedule once work has started?",
+  "description": "Changes can be made to a construction schedule but typically impact timelines and costs due to necessary adjustments in materials and labor.",
+  "url": "https://hometelligentinc.com/faq/can-i-make-changes-to-the-construction-schedule-once-work-has-started",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I make changes to the construction schedule once work has started?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, changes can be made to the construction schedule after work begins, but they often impact the overall timeline and cost. We refer to these as change orders. When considering changes, it's important to understand the practical tradeoffs: while you gain desired modifications, you may experience extended project duration and increased expenses due to revised material orders, labor adjustments, or re-sequencing of tasks. We encourage clients to communicate any desired changes as early as possible to minimize disruption.",
+        "description": "Changes can be made to a construction schedule but typically impact timelines and costs due to necessary adjustments in materials and labor."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

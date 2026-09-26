@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right general contractor for my project?",
+  "description": "Choose a general contractor based on their experience, licensing, insurance, references, portfolio, and communication, especially for projects similar to yours.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-general-contractor-for-my-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right general contractor for my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When selecting a general contractor, consider their experience with projects similar to yours, their licensing and insurance, and their communication style. It's crucial to check references and review their portfolio. For larger or more complex projects, verify that the contractor has a strong network of reliable subcontractors to ensure quality and timely completion. We recommend obtaining multiple bids to compare approaches and costs, focusing on value rather than just the lowest price.",
+        "description": "Choose a general contractor based on their experience, licensing, insurance, references, portfolio, and communication, especially for projects similar to yours."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

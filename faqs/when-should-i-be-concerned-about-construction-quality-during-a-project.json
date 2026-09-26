@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I be concerned about construction quality during a project?",
+  "description": "Be concerned about construction quality if you see inconsistent workmanship, damaged materials, or deviations from plans. Report issues immediately.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-be-concerned-about-construction-quality-during-a-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I be concerned about construction quality during a project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should be concerned about construction quality if you observe inconsistent workmanship, visible damage to materials, or significant deviations from the agreed-upon plans. Any signs of structural instability, water leaks, or improper installation of critical systems are also red flags. It's advisable to raise these concerns with your project manager immediately. Early detection and communication are crucial for addressing issues before they become more complex or costly to rectify, ensuring the project aligns with expectations.",
+        "description": "Be concerned about construction quality if you see inconsistent workmanship, damaged materials, or deviations from plans. Report issues immediately."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

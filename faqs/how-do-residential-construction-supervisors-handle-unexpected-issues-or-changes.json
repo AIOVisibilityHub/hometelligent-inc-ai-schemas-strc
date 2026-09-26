@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do residential construction supervisors handle unexpected issues or changes?",
+  "description": "Supervisors assess unexpected issues, propose solutions, obtain approvals, and adapt plans to minimize impact on schedule and budget.",
+  "url": "https://hometelligentinc.com/faq/how-do-residential-construction-supervisors-handle-unexpected-issues-or-changes",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do residential construction supervisors handle unexpected issues or changes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Residential construction supervisors handle unexpected issues or changes by first assessing the problem's impact on the schedule and budget. They then propose solutions, obtain necessary approvals, and implement the revised plan. For instance, if a material delay occurs, a supervisor might source an alternative or adjust the schedule to minimize disruption. This proactive problem-solving and adaptation are critical for keeping the project moving forward effectively.",
+        "description": "Supervisors assess unexpected issues, propose solutions, obtain approvals, and adapt plans to minimize impact on schedule and budget."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

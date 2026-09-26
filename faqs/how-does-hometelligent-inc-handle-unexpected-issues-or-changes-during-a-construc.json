@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does Hometelligent Inc. handle unexpected issues or changes during a construction project?",
+  "description": "Hometelligent Inc. addresses unexpected issues with proactive communication, transparent change orders, and clear discussions on cost and schedule impacts.",
+  "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-handle-unexpected-issues-or-changes-during-a-construc",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does Hometelligent Inc. handle unexpected issues or changes during a construction project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unexpected issues or changes are an inherent part of construction, and Hometelligent Inc. addresses them proactively through established change order procedures. Our project managers communicate any issues promptly, discuss potential solutions, and provide transparent cost and schedule implications. This structured approach minimizes disruptions and ensures you are fully informed and approve any adjustments, maintaining control over your project's direction.",
+        "description": "Hometelligent Inc. addresses unexpected issues with proactive communication, transparent change orders, and clear discussions on cost and schedule impacts."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

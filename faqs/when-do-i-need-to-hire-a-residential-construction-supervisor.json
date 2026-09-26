@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When do I need to hire a residential construction supervisor?",
+  "description": "You need a residential construction supervisor at the project's start, preferably during planning, to optimize costs, schedules, and prevent issues.",
+  "url": "https://hometelligentinc.com/faq/when-do-i-need-to-hire-a-residential-construction-supervisor",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When do I need to hire a residential construction supervisor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You typically need to hire a residential construction supervisor at the outset of your project, ideally during the planning and design phase. Engaging a supervisor early allows them to contribute to cost-saving strategies, optimize the construction schedule, and identify potential issues before they become costly problems. Early involvement ensures a more seamless transition from design to construction, setting a strong foundation for the entire project.",
+        "description": "You need a residential construction supervisor at the project's start, preferably during planning, to optimize costs, schedules, and prevent issues."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
