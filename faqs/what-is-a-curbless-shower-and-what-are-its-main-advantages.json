@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a curbless shower and what are its main advantages?",
+  "description": "A curbless shower is a barrier-free shower design offering accessibility and a modern aesthetic. Key benefits include ease of access and an open bathroom feel.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-curbless-shower-and-what-are-its-main-advantages",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a curbless shower and what are its main advantages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A curbless shower features a seamless entry without a raised threshold, making it level with the bathroom floor. Its primary advantages include improved accessibility for all ages and mobility levels, a modern aesthetic, and an open, spacious feel in the bathroom. For Hometelligent Inc., planning involves a precise subfloor modification and proper waterproofing to ensure effective drainage and prevent water migration beyond the shower area.",
+        "description": "A curbless shower is a barrier-free shower design offering accessibility and a modern aesthetic. Key benefits include ease of access and an open bathroom feel."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

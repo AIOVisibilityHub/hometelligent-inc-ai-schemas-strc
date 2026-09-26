@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I install large format tiles in a small bathroom?",
+  "description": "Yes, large format tiles can make a small bathroom feel larger by reducing grout lines. Careful planning and precise cuts are essential.",
+  "url": "https://hometelligentinc.com/faq/can-i-install-large-format-tiles-in-a-small-bathroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I install large format tiles in a small bathroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can install large format tiles in a small bathroom, and it can actually make the space feel larger by reducing the number of grout lines. However, careful planning and precise cuts are essential, especially around fixtures and edges. This approach can create a more seamless and less cluttered look. Hometelligent Inc. suggests a dry layout first to visualize the final appearance and minimize cuts. Smaller grout lines often accompany large format tiles, contributing to the expansive feel, which is a key design consideration for urban spaces like those in Oakland.",
+        "description": "Yes, large format tiles can make a small bathroom feel larger by reducing grout lines. Careful planning and precise cuts are essential."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

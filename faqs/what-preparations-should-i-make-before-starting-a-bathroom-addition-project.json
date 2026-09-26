@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparations should I make before starting a bathroom addition project?",
+  "description": "Prepare for a bathroom addition by collecting design ideas, defining your budget, and ensuring site access to streamline the process.",
+  "url": "https://hometelligentinc.com/faq/what-preparations-should-i-make-before-starting-a-bathroom-addition-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparations should I make before starting a bathroom addition project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting a bathroom addition, consider gathering inspirational images for your desired style, researching fixture and material preferences, and clearly defining your budget. You should also ensure clear access to the construction area and discuss any concerns about noise or dust with our project manager. Having a clear idea of your needs and preferences will streamline the design phase and ensure a smoother construction process.",
+        "description": "Prepare for a bathroom addition by collecting design ideas, defining your budget, and ensuring site access to streamline the process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical timeframe for a double vanity installation?",
+  "description": "A typical double vanity installation takes one to three days, varying with project complexity like plumbing or electrical modifications.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeframe-for-a-double-vanity-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical timeframe for a double vanity installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeframe for a double vanity installation typically ranges from one to three days, depending on the complexity of the project. Factors that can influence the duration include existing plumbing modifications, electrical work for new lighting or outlets, and whether the new vanity requires significant structural adjustments to the wall. For example, moving water supply lines or drain pipes will extend the installation period. Preparation work, such as ensuring the new vanity fits the space and coordinating material delivery, also impacts the overall schedule.",
+        "description": "A typical double vanity installation takes one to three days, varying with project complexity like plumbing or electrical modifications."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

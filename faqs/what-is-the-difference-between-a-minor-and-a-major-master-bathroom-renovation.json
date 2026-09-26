@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a minor and a major master bathroom renovation?",
+  "description": "Minor renovations are cosmetic, like new paint or fixtures, while major renovations involve layout changes, plumbing relocation, or structural alterations. Your",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-minor-and-a-major-master-bathroom-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a minor and a major master bathroom renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A minor master bathroom renovation typically involves cosmetic updates without changing the layout or significant structural elements, such as new paint, fixtures, countertops, or retiling. A major renovation, in contrast, often includes reconfiguring the layout, moving plumbing lines, replacing major components like the shower or tub, and potentially even expanding the footprint of the bathroom. The choice between minor and major renovation depends on your budget, desired outcome, and the existing condition of your bathroom, impacting both cost and timeline.",
+        "description": "Minor renovations are cosmetic, like new paint or fixtures, while major renovations involve layout changes, plumbing relocation, or structural alterations. Your budget and desired outcome dictate the scope."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

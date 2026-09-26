@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the warranty on a newly installed shower enclosure by Hometelligent Inc.?",
+  "description": "We offer a warranty covering both installation labor and shower enclosure components; details are provided in your project agreement.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-warranty-on-a-newly-installed-shower-enclosure-by-hometelligent-inc",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the warranty on a newly installed shower enclosure by Hometelligent Inc.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. stands behind the quality of our workmanship and the products we install. We provide a warranty on both the installation labor and the shower enclosure components. Specific warranty details, including coverage duration and what is included, will be provided in your project agreement. This ensures peace of mind for your investment in your home, whether in Pleasanton or Livermore.",
+        "description": "We offer a warranty covering both installation labor and shower enclosure components; details are provided in your project agreement."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

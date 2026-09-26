@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it typically take to install new bathroom floor tiles?",
+  "description": "Installation time depends on bathroom size, tile type, and design complexity, typically 1-5 days. Allow 24-72 hours for mortar and grout curing before use.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-install-new-bathroom-floor-tiles",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it typically take to install new bathroom floor tiles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The typical duration for bathroom floor tile installation can vary significantly based on the bathroom size, the type of tile, and the complexity of the design. A small powder room might take 1-2 days, while a larger master bathroom with intricate patterns could take 3-5 days, not including drying time for mortar and grout. This timeline also assumes adequate subfloor preparation is already complete. It's important to allow sufficient curing time for the mortar and grout before walking on or using the shower, typically 24-72 hours, to ensure durability and prevent issues.",
+        "description": "Installation time depends on bathroom size, tile type, and design complexity, typically 1-5 days. Allow 24-72 hours for mortar and grout curing before use."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

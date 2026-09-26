@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost of installing a barrier-free shower?",
+  "description": "Cost varies based on bathroom size, materials, plumbing needs, and waterproofing complexity.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-of-installing-a-barrier-free-shower",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost of installing a barrier-free shower?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of installing a barrier-free shower can vary significantly based on factors like bathroom size, chosen materials, necessary plumbing modifications, and complexity of waterproofing. While we cannot provide exact figures without a consultation, clients should prepare to discuss their budget during the initial assessment, as material upgrades and structural changes can influence the final investment.",
+        "description": "Cost varies based on bathroom size, materials, plumbing needs, and waterproofing complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

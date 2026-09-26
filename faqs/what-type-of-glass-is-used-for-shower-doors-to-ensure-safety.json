@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What type of glass is used for shower doors to ensure safety?",
+  "description": "Tempered safety glass is used for all shower doors; it is four to five times stronger than regular glass and shatters safely into small pieces if broken.",
+  "url": "https://hometelligentinc.com/faq/what-type-of-glass-is-used-for-shower-doors-to-ensure-safety",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What type of glass is used for shower doors to ensure safety?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All glass shower doors are made from tempered safety glass. This type of glass is processed with intense heating and rapid cooling, making it four to five times stronger than standard annealed glass. If tempered glass breaks, it shatters into small, relatively harmless, pebble-like pieces rather than sharp shards, significantly reducing the risk of injury. This safety feature is a standard requirement for all shower enclosures.",
+        "description": "Tempered safety glass is used for all shower doors; it is four to five times stronger than regular glass and shatters safely into small pieces if broken."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

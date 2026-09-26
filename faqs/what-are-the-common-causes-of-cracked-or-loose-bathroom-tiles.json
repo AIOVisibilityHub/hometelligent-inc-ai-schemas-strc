@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common causes of cracked or loose bathroom tiles?",
+  "description": "Common causes of cracked or loose tiles include inadequate subfloor preparation, building movement, incorrect adhesive, or insufficient expansion joints.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-causes-of-cracked-or-loose-bathroom-tiles",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common causes of cracked or loose bathroom tiles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cracked or loose bathroom tiles are often caused by inadequate subfloor preparation, such as an uneven or unstable substrate. Movement in the building, incorrect adhesive application, or extreme temperature fluctuations can also contribute. Another common issue is insufficient expansion joints, which are critical for allowing the tile assembly to expand and contract without stress. Addressing these underlying issues during installation, such as ensuring a rigid subfloor and using appropriate setting materials, is essential to prevent future tile failure.",
+        "description": "Common causes of cracked or loose tiles include inadequate subfloor preparation, building movement, incorrect adhesive, or insufficient expansion joints."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

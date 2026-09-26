@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical glass shower door installation take?",
+  "description": "A typical glass shower door installation takes 3 to 6 hours, varying by design complexity and existing bathroom conditions.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-glass-shower-door-installation-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical glass shower door installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard glass shower door installation typically takes between 3 to 6 hours, depending on the complexity of the design and the existing bathroom structure. This timeframe usually includes precise measurements, careful handling of glass panels, and sealing. The process can be extended if custom cuts are required or if the shower opening is not perfectly plumb or level, which requires additional adjustments for a secure and watertight fit.",
+        "description": "A typical glass shower door installation takes 3 to 6 hours, varying by design complexity and existing bathroom conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of tile are best for bathroom floors and walls?",
+  "description": "Porcelain and ceramic tiles are ideal for bathroom floors and walls due to their water resistance and durability. Natural stone is also an option for walls but",
+  "url": "https://hometelligentinc.com/faq/what-types-of-tile-are-best-for-bathroom-floors-and-walls",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of tile are best for bathroom floors and walls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For bathroom floors, porcelain or ceramic tiles are excellent choices due to their durability, water resistance, and wide range of styles. They are also slip-resistant when textured or honed. For walls, ceramic, porcelain, and natural stone (like marble or travertine) are popular. Natural stone offers a luxurious look but requires sealing. When making your selection, consider the area's moisture exposure and foot traffic. For example, a shower floor needs higher slip resistance than a powder room wall. Our team can help you navigate these options to ensure the best fit for your specific bathroom needs and aesthetic preferences.",
+        "description": "Porcelain and ceramic tiles are ideal for bathroom floors and walls due to their water resistance and durability. Natural stone is also an option for walls but requires maintenance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

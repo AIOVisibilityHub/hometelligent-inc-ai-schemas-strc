@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a barrier-free shower installation typically take?",
+  "description": "Installation typically takes one to three weeks, depending on the project scope and existing bathroom conditions.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-barrier-free-shower-installation-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a barrier-free shower installation typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation timeframe for a barrier-free shower typically ranges from one to three weeks, depending on the scope of work and existing bathroom conditions. Factors like subfloor modification, plumbing adjustments, and tile drying times can affect the schedule. This timing often necessitates clients to plan for temporary bathroom alternatives during the construction phase.",
+        "description": "Installation typically takes one to three weeks, depending on the project scope and existing bathroom conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

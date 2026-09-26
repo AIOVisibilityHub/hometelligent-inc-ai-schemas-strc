@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to remove my old backsplash before installing a new one?",
+  "description": "Yes, removing the old backsplash is usually recommended for proper adhesion and a smooth finish of the new installation.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-remove-my-old-backsplash-before-installing-a-new-one",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to remove my old backsplash before installing a new one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, yes, it's recommended to remove your old backsplash before installing a new one. This ensures a clean, flat surface for the new installation, which is crucial for proper adhesion and a smooth finish. Attempting to install over an existing backsplash can lead to an uneven appearance, potential structural issues, and decreased longevity of the new installation. This preparation step can affect the overall timing and complexity of the project.",
+        "description": "Yes, removing the old backsplash is usually recommended for proper adhesion and a smooth finish of the new installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

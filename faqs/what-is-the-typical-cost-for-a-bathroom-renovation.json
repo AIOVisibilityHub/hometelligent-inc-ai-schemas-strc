@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost for a bathroom renovation?",
+  "description": "Typical bathroom renovation costs range widely based on the project's scope, material selections, and bathroom size. Hometelligent Inc. provides detailed quotes",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-a-bathroom-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost for a bathroom renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bathroom renovation costs vary significantly depending on the scope of work, material choices, and the size of the bathroom. Minor updates like painting and fixture replacements are less expensive than a full remodel involving layout changes, new plumbing, or electrical work. For a clear estimate, Hometelligent Inc. offers initial consultations to understand your vision and provide a detailed quote tailored to your specific project in the Alameda and Berkeley areas, considering factors like material availability and labor in the East Bay.",
+        "description": "Typical bathroom renovation costs range widely based on the project's scope, material selections, and bathroom size. Hometelligent Inc. provides detailed quotes after an initial consultation to determine specific project needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

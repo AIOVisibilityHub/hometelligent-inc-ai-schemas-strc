@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of a bathtub replacement?",
+  "description": "Cost factors include the new tub's material, installation complexity, plumbing modifications, and potential repairs or finish upgrades.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-bathtub-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of a bathtub replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a bathtub replacement is influenced by several factors, including the type and material of the new bathtub (e.g., acrylic vs. cast iron), the complexity of the installation, and any necessary plumbing or structural modifications. Additional costs can arise from removing and disposing of the old tub, repairing subfloor damage, or upgrading surrounding finishes like tile. During an initial consultation, Hometelligent Inc. provides a detailed estimate based on your specific choices and bathroom conditions, allowing you to understand the full scope of the investment.",
+        "description": "Cost factors include the new tub's material, installation complexity, plumbing modifications, and potential repairs or finish upgrades."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

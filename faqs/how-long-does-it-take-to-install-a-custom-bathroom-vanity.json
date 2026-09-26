@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to install a custom bathroom vanity?",
+  "description": "Installation time typically ranges from 1 to 4 weeks, including custom fabrication, with on-site work taking 1-3 days.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-a-custom-bathroom-vanity",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to install a custom bathroom vanity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for custom bathroom vanity installation varies, typically ranging from 1 to 4 weeks from design approval to completion. This includes time for custom fabrication, which depends on the complexity of the design and the materials chosen. For example, solid wood construction or specialized finishes will extend fabrication time. The actual on-site installation itself usually takes 1-3 days, depending on plumbing adjustments and countertop integration.",
+        "description": "Installation time typically ranges from 1 to 4 weeks, including custom fabrication, with on-site work taking 1-3 days."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

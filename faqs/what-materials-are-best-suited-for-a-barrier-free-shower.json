@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are best suited for a barrier-free shower?",
+  "description": "Durable, non-slip materials like porcelain, ceramic, or solid surface are best for flooring and walls.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-best-suited-for-a-barrier-free-shower",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are best suited for a barrier-free shower?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For barrier-free showers, durable and non-slip materials are crucial. Common choices include porcelain or ceramic tiles for flooring, often with a smaller mosaic size for better grip and slope integration. Solid surface materials or large format tiles can be used for walls. The selection of these materials represents a practical tradeoff between aesthetics, longevity, and essential safety features like slip resistance.",
+        "description": "Durable, non-slip materials like porcelain, ceramic, or solid surface are best for flooring and walls."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

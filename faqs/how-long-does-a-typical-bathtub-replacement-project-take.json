@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical bathtub replacement project take?",
+  "description": "A typical bathtub replacement takes 1 to 3 days, but can extend if plumbing or tile work is also needed.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-bathtub-replacement-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical bathtub replacement project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard bathtub replacement project typically takes 1 to 3 days, depending on the complexity of the installation and any additional work needed. This includes removal of the old tub, preparation of the area, and installation of the new tub and surrounding finishes. If plumbing adjustments, tile work, or subfloor repairs are necessary, the timeline can extend. During your initial consultation, we provide a detailed project schedule based on the specifics of your bathroom and chosen bathtub.",
+        "description": "A typical bathtub replacement takes 1 to 3 days, but can extend if plumbing or tile work is also needed."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

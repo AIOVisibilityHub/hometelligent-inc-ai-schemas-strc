@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are some popular design trends for primary bathrooms today?",
+  "description": "Current trends include spa-like designs, natural materials, freestanding tubs, large walk-in showers, and smart technology.",
+  "url": "https://hometelligentinc.com/faq/what-are-some-popular-design-trends-for-primary-bathrooms-today",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are some popular design trends for primary bathrooms today?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Popular primary bathroom design trends today emphasize spa-like retreats, natural materials, and smart technology. We frequently see requests for freestanding tubs, large walk-in showers with multiple showerheads, and heated flooring. Other trends include the use of natural wood accents, earth-toned color palettes, and integrated smart mirrors or lighting systems for enhanced comfort and functionality. Our designers stay current with these trends and can help you incorporate modern elements that suit your personal style and preferences.",
+        "description": "Current trends include spa-like designs, natural materials, freestanding tubs, large walk-in showers, and smart technology."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

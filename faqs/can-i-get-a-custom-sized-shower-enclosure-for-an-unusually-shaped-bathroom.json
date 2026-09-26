@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I get a custom-sized shower enclosure for an unusually shaped bathroom?",
+  "description": "Yes, we provide custom-sized shower enclosures for unique bathroom layouts, offering precise measurements and custom-cut glass.",
+  "url": "https://hometelligentinc.com/faq/can-i-get-a-custom-sized-shower-enclosure-for-an-unusually-shaped-bathroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I get a custom-sized shower enclosure for an unusually shaped bathroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. specializes in custom shower enclosure solutions for bathrooms with unique layouts or dimensions. We offer precise measurements and custom-cut glass to ensure a perfect fit, even for angled walls or challenging spaces. This approach ensures optimal utilization of your bathroom area, transforming it into a functional and aesthetically pleasing space, as we've done in many homes across Oakland and San Leandro.",
+        "description": "Yes, we provide custom-sized shower enclosures for unique bathroom layouts, offering precise measurements and custom-cut glass."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

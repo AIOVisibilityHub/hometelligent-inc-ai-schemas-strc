@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need special plumbing for a freestanding bathtub?",
+  "description": "Freestanding tubs require specific plumbing connections in the floor, which may necessitate relocating existing water supply and drain lines.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-special-plumbing-for-a-freestanding-bathtub",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need special plumbing for a freestanding bathtub?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, freestanding bathtubs typically require specific plumbing considerations. Unlike alcove tubs, their plumbing is often visible or requires connections to be precisely located in the floor. This may involve relocating existing water supply lines and drain pipes to accommodate the tub's placement. Our initial consultation will identify if your current plumbing requires adjustments for your chosen tub.",
+        "description": "Freestanding tubs require specific plumbing connections in the floor, which may necessitate relocating existing water supply and drain lines."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

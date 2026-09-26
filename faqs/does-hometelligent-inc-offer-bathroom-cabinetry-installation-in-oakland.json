@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Does Hometelligent Inc. offer bathroom cabinetry installation in Oakland?",
+  "description": "Yes, Hometelligent Inc. provides bathroom cabinetry installation services in Oakland, including specific neighborhoods like Montclair and Rockridge.",
+  "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-bathroom-cabinetry-installation-in-oakland",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Hometelligent Inc. offer bathroom cabinetry installation in Oakland?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. proudly offers comprehensive bathroom cabinetry installation services throughout Oakland, California, including neighborhoods like Montclair, Rockridge, and Jack London Square. Our local expertise means we are familiar with area housing styles and can efficiently schedule projects within the city. We provide on-site consultations to discuss your specific needs and offer tailored solutions that meet local aesthetic preferences and building considerations.",
+        "description": "Yes, Hometelligent Inc. provides bathroom cabinetry installation services in Oakland, including specific neighborhoods like Montclair and Rockridge."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

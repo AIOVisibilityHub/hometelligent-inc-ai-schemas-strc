@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors affect the cost of installing a freestanding tub?",
+  "description": "Cost factors include tub type, plumbing complexity, floor reinforcement needs, and existing bathroom layout.",
+  "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-installing-a-freestanding-tub",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors affect the cost of installing a freestanding tub?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of freestanding tub installation is influenced by several factors, including the type of tub, the complexity of plumbing modifications, and any necessary floor reinforcement. Your existing bathroom layout and accessibility for our crew will also play a role. We provide transparent quotes after evaluating your specific project needs within our service areas, ensuring you understand the investment.",
+        "description": "Cost factors include tub type, plumbing complexity, floor reinforcement needs, and existing bathroom layout."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

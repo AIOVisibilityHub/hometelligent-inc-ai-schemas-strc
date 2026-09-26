@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation do I need to do before the installation of my freestanding tub?",
+  "description": "Prepare by clearing the bathroom, ensuring the tub is delivered and inspected, and having design preferences ready.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-do-i-need-to-do-before-the-installation-of-my-freestanding-tub",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation do I need to do before the installation of my freestanding tub?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before installation, you should clear the bathroom of personal items and ensure access to the work area. If you're supplying the tub, ensure it's delivered and inspected for any damage prior to the scheduled installation date. It's also helpful to have your design preferences for faucet placement and any accessory locations ready for discussion with our team.",
+        "description": "Prepare by clearing the bathroom, ensuring the tub is delivered and inspected, and having design preferences ready."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

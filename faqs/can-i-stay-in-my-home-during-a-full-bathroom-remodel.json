@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I stay in my home during a full bathroom remodel?",
+  "description": "Yes, you can usually stay home if another bathroom is available, but expect noise, dust, and limited access to the work area.",
+  "url": "https://hometelligentinc.com/faq/can-i-stay-in-my-home-during-a-full-bathroom-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I stay in my home during a full bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is generally possible to stay in your home during a full bathroom remodel, especially if you have another functioning bathroom available. However, expect some disruption from noise, dust, and limited access to the work area. The duration and intensity of the remodel will impact comfort. Discuss a project schedule and daily cleanup expectations with Hometelligent Inc. to manage the living situation effectively.",
+        "description": "Yes, you can usually stay home if another bathroom is available, but expect noise, dust, and limited access to the work area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

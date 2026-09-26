@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are common design considerations for a small guest bathroom?",
+  "description": "For small guest bathrooms, maximize space with pedestal sinks or floating vanities and light colors. Practical storage like recessed shelving can also help. Con",
+  "url": "https://hometelligentinc.com/faq/what-are-common-design-considerations-for-a-small-guest-bathroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common design considerations for a small guest bathroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When designing a small guest bathroom, maximizing space and functionality is key. Consider using a pedestal sink or a floating vanity to create a more open feel, and choose light-colored tiles and paint to make the room appear larger. Incorporating recessed shelving or a niche in the shower can provide practical storage without cluttering the space. Before making selections, considering how frequently the bathroom will be used and by whom can help guide choices for durability and ease of maintenance.",
+        "description": "For small guest bathrooms, maximize space with pedestal sinks or floating vanities and light colors. Practical storage like recessed shelving can also help. Consider usage frequency to guide material choices."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

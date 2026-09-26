@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a barrier-free shower?",
+  "description": "A barrier-free shower has no curb or step, allowing seamless entry from the bathroom floor for enhanced accessibility.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-barrier-free-shower",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a barrier-free shower?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A barrier-free shower is designed without a curb or step, providing a seamless entry from the bathroom floor. This design enhances accessibility for individuals using wheelchairs, walkers, or those with mobility challenges. It integrates directly with the bathroom floor for a flush transition, often requiring specific subfloor preparation and drainage solutions.",
+        "description": "A barrier-free shower has no curb or step, allowing seamless entry from the bathroom floor for enhanced accessibility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

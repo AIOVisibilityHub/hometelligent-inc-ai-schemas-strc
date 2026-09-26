@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to complete a bathroom addition?",
+  "description": "Bathroom additions can take 4-12 weeks or longer, depending on size, complexity, and permit approvals.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-complete-a-bathroom-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to complete a bathroom addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for a bathroom addition varies based on complexity, size, and material availability. A small half-bath addition might take 4-6 weeks, while a larger master bathroom addition with custom features could extend to 8-12 weeks or more. Factors like permit approval times in specific municipalities like Dublin or Pleasanton can also influence the overall schedule. We provide a detailed project timeline after the initial design consultation.",
+        "description": "Bathroom additions can take 4-12 weeks or longer, depending on size, complexity, and permit approvals."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Are there any building codes or permits required for shower enclosure installation in the Bay Area?",
+  "description": "Permits are usually not needed for basic enclosure replacement. However, major remodels or structural changes may require local city permits.",
+  "url": "https://hometelligentinc.com/faq/are-there-any-building-codes-or-permits-required-for-shower-enclosure-installati",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are there any building codes or permits required for shower enclosure installation in the Bay Area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For basic replacement of an existing shower enclosure that doesn't involve altering the shower pan, plumbing, or structural elements, permits are typically not required. However, if your installation is part of a larger bathroom remodel that involves changing the layout, plumbing, or electrical systems, or if it involves structural modifications, then permits from your local city (e.g., Alameda, Berkeley, Dublin) may be necessary. We can help clarify permit requirements for your specific project during our consultation.",
+        "description": "Permits are usually not needed for basic enclosure replacement. However, major remodels or structural changes may require local city permits."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

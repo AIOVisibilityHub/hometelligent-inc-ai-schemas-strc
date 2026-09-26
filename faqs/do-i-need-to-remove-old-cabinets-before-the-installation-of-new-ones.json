@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to remove old cabinets before the installation of new ones?",
+  "description": "Yes, old cabinets typically need to be removed, and the area prepared, including plumbing disconnection and wall leveling, before new installation.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-remove-old-cabinets-before-the-installation-of-new-ones",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to remove old cabinets before the installation of new ones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, typically, existing bathroom cabinets must be fully removed and the area prepared before new cabinetry can be installed. This includes disconnecting plumbing for vanity units and ensuring the walls are structurally sound and level. We handle the demolition and disposal of old cabinets as part of our comprehensive installation service, ensuring the space is ready for the new units. This preparation prevents issues and ensures a smooth fit for your new cabinetry.",
+        "description": "Yes, old cabinets typically need to be removed, and the area prepared, including plumbing disconnection and wall leveling, before new installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

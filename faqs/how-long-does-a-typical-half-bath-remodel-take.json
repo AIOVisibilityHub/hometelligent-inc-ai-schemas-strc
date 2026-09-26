@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical half-bath remodel take?",
+  "description": "Half-bath remodels usually take 1-3 weeks. Scope, material availability, and unforeseen issues can affect the timeline, which Hometelligent Inc. communicates up",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-half-bath-remodel-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical half-bath remodel take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A typical half-bath remodel can take anywhere from one to three weeks, depending on the scope and complexity. Simple cosmetic updates like painting and fixture replacement can be completed faster, while more extensive changes involving flooring, vanity replacement, or minor layout adjustments will extend the timeline. Before starting, we establish a project schedule and keep clients informed about potential impacts, such as material delivery times or unforeseen issues found during demolition, which can affect the overall duration.",
+        "description": "Half-bath remodels usually take 1-3 weeks. Scope, material availability, and unforeseen issues can affect the timeline, which Hometelligent Inc. communicates upfront."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

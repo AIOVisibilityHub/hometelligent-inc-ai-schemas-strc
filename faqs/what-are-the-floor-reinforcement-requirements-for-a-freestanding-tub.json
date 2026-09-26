@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the floor reinforcement requirements for a freestanding tub?",
+  "description": "Heavy freestanding tubs require floor reinforcement to support their weight when filled, often exceeding 1000 pounds.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-floor-reinforcement-requirements-for-a-freestanding-tub",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the floor reinforcement requirements for a freestanding tub?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freestanding bathtubs, especially larger or cast-iron models, can be very heavy when filled with water and a bather, often weighing over 1000 pounds. It's crucial to assess your floor's structural integrity to ensure it can support this weight. We can determine if additional floor joists or structural modifications are necessary during the planning phase to prevent future issues.",
+        "description": "Heavy freestanding tubs require floor reinforcement to support their weight when filled, often exceeding 1000 pounds."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

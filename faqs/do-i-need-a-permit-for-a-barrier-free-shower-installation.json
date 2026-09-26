@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for a barrier-free shower installation?",
+  "description": "Permits are usually required for barrier-free shower installations involving plumbing or structural changes.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-barrier-free-shower-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for a barrier-free shower installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most barrier-free shower installations, especially those involving plumbing or structural changes, require a building permit. The necessity for a permit is a decision factor that depends on the extent of the remodel and local regulations in your specific city within our service area, such as Berkeley or Dublin. We manage the permitting process for our clients to ensure compliance.",
+        "description": "Permits are usually required for barrier-free shower installations involving plumbing or structural changes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

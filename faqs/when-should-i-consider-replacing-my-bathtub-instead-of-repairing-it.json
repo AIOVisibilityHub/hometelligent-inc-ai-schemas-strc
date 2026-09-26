@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider replacing my bathtub instead of repairing it?",
+  "description": "Replace your bathtub when it has extensive damage like deep cracks, significant rust, or persistent leaks, as repairs may be temporary or costly.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-bathtub-instead-of-repairing-it",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider replacing my bathtub instead of repairing it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider replacing your bathtub when it has extensive damage like deep cracks, significant rust, or persistent leaks that affect the subfloor. While minor chips or stains can often be repaired, widespread issues often indicate structural problems or material degradation beyond simple fixes. A replacement offers a more durable and long-term solution, especially if you're also planning a larger bathroom renovation. Our team often sees that bathtubs with extensive damage, particularly those over 20 years old, benefit more from replacement due to the high cost and temporary nature of major repairs.",
+        "description": "Replace your bathtub when it has extensive damage like deep cracks, significant rust, or persistent leaks, as repairs may be temporary or costly."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

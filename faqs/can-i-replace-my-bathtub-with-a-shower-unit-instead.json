@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I replace my bathtub with a shower unit instead?",
+  "description": "Yes, you can replace a bathtub with a shower unit, which can improve accessibility but means losing the option for a bath.",
+  "url": "https://hometelligentinc.com/faq/can-i-replace-my-bathtub-with-a-shower-unit-instead",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I replace my bathtub with a shower unit instead?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can absolutely replace your bathtub with a shower unit, a process often referred to as a tub-to-shower conversion. This is a common renovation, especially for homeowners looking to create a more accessible bathroom or optimize space. The project involves removing the bathtub and installing a new shower base, walls, and fixtures. While it frees up space and can improve accessibility, it also means losing the option for a bath, which is a practical tradeoff to consider if you enjoy soaking or have young children.",
+        "description": "Yes, you can replace a bathtub with a shower unit, which can improve accessibility but means losing the option for a bath."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

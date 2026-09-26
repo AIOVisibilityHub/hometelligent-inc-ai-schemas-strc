@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common types of freestanding tubs available for installation?",
+  "description": "Common types are clawfoot, pedestal, and modern designs, made from materials like acrylic, cast iron, or stone resin.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-freestanding-tubs-available-for-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common types of freestanding tubs available for installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common types of freestanding tubs include clawfoot, pedestal, and modern skirted designs, each offering a distinct aesthetic. Materials vary from acrylic and cast iron to stone resin and copper, impacting weight, insulation, and price. When making a selection, consider the tub's weight, the available space in your bathroom, and its compatibility with your home’s existing water heater capacity.",
+        "description": "Common types are clawfoot, pedestal, and modern designs, made from materials like acrylic, cast iron, or stone resin."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of glass shower door installation?",
+  "description": "Cost factors include door type, glass thickness/type, size, custom features, and installation complexity.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-glass-shower-door-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of glass shower door installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of glass shower door installation is influenced by several factors, including the type of door (framed, semi-frameless, frameless), the thickness and type of glass (e.g., clear, frosted), the size of the enclosure, and any custom features like special hardware or finishes. The complexity of the installation, such as non-standard angles or existing bathroom conditions requiring adjustments, can also affect the final price. Material costs and labor vary based on these choices.",
+        "description": "Cost factors include door type, glass thickness/type, size, custom features, and installation complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for a tub-to-shower conversion with Hometelligent Inc.?",
+  "description": "Our process involves consultation, proposal, permit acquisition, demolition, plumbing, installation, and a final walk-through.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-a-tub-to-shower-conversion-with-hometelligent-inc",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for a tub-to-shower conversion with Hometelligent Inc.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process with Hometelligent Inc. begins with an initial consultation to discuss your vision, assess the existing space, and understand your needs. Following this, we provide a detailed proposal outlining the scope of work and material options. Once approved, we handle permit acquisition, followed by demolition, plumbing modifications, and the installation of your new shower system. Our team manages all stages, from design selection to the final walk-through, ensuring a smooth and efficient project completion within the agreed timeline.",
+        "description": "Our process involves consultation, proposal, permit acquisition, demolition, plumbing, installation, and a final walk-through."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

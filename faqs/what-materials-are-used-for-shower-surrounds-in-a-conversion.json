@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are used for shower surrounds in a conversion?",
+  "description": "Common shower surround materials include tile, acrylic/fiberglass panels, and solid surfaces, each varying in look and maintenance.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-used-for-shower-surrounds-in-a-conversion",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are used for shower surrounds in a conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shower surrounds in a tub-to-shower conversion can be made from various materials, each offering different aesthetics and maintenance requirements. Common options include ceramic or porcelain tiles, which offer extensive design flexibility but require grout maintenance. Acrylic or fiberglass panels provide a seamless, low-maintenance surface and are quicker to install. Other choices like solid surface materials offer a luxurious, grout-free finish but typically come at a higher cost. The choice often balances budget, desired look, and long-term upkeep.",
+        "description": "Common shower surround materials include tile, acrylic/fiberglass panels, and solid surfaces, each varying in look and maintenance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

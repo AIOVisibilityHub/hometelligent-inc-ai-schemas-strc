@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a freestanding tub installation typically take?",
+  "description": "Installation time varies, from one to two days for simple cases to several days if plumbing or floor modifications are needed.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-freestanding-tub-installation-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a freestanding tub installation typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a freestanding tub installation varies based on the complexity of the project. A straightforward replacement might take one to two days. However, if plumbing needs to be relocated, or the floor requires reinforcement, the process can extend to several days. We provide a detailed project timeline after an initial site assessment in areas such as Dublin or Emeryville.",
+        "description": "Installation time varies, from one to two days for simple cases to several days if plumbing or floor modifications are needed."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

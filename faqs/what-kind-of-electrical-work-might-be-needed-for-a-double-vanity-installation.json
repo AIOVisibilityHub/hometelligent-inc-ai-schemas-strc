@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of electrical work might be needed for a double vanity installation?",
+  "description": "Electrical work for a double vanity can include adding or repositioning outlets, or upgrading lighting, which may require new wiring to meet code.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-electrical-work-might-be-needed-for-a-double-vanity-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of electrical work might be needed for a double vanity installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Electrical work for a double vanity installation might involve adding new outlets for grooming appliances or repositioning existing ones. If you're upgrading lighting fixtures above the vanity, new wiring may be required, or existing wiring may need to be brought up to current code. This is particularly relevant if you're installing lighted mirrors or adding task lighting for each sink. We ensure all electrical work is performed safely and adheres to local building codes, preventing potential hazards and ensuring functionality for your new bathroom setup.",
+        "description": "Electrical work for a double vanity can include adding or repositioning outlets, or upgrading lighting, which may require new wiring to meet code."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

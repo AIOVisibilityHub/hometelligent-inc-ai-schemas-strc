@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I prepare my bathroom for a custom vanity installation?",
+  "description": "Prepare by clearing the area, completing any necessary painting or flooring, and ensuring clear access for installers to facilitate a smooth process.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-bathroom-for-a-custom-vanity-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I prepare my bathroom for a custom vanity installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prepare for a custom vanity installation, first clear all personal items from the existing vanity and surrounding area. If an old vanity is being removed, ensure the area is clean and dry. Consider any necessary painting or flooring work that might be easier to complete before the new vanity is installed. Providing clear access for our installation team is crucial. Measuring your bathroom carefully, including window and door frames, helps ensure accurate sizing and placement for your new custom unit.",
+        "description": "Prepare by clearing the area, completing any necessary painting or flooring, and ensuring clear access for installers to facilitate a smooth process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

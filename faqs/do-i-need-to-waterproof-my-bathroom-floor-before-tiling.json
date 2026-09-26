@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to waterproof my bathroom floor before tiling?",
+  "description": "Waterproofing is recommended, especially in shower areas, to protect against moisture damage. It creates a barrier over the subfloor before tiling.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-waterproof-my-bathroom-floor-before-tiling",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to waterproof my bathroom floor before tiling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While not all bathroom floors require full waterproofing, it's highly recommended, especially in shower areas or if the subfloor is susceptible to water damage. A waterproof membrane is typically installed over the subfloor before tiling to create a barrier against moisture intrusion. This step protects your home's structure from potential water damage and mold growth. For instance, in areas like Berkeley, where homes might have older subfloors, adding a waterproofing layer can be a crucial investment for long-term protection.",
+        "description": "Waterproofing is recommended, especially in shower areas, to protect against moisture damage. It creates a barrier over the subfloor before tiling."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

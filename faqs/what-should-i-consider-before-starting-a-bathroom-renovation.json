@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider before starting a bathroom renovation?",
+  "description": "Before starting, define your budget, aesthetic, and functional needs, including storage and accessibility. A clear vision streamlines the design and planning ph",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-starting-a-bathroom-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider before starting a bathroom renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting, consider your budget, desired aesthetic, and functional needs. Think about who will use the bathroom and what storage, accessibility, or lighting requirements you have. Gather inspiration from various sources to define your style preferences. It's helpful to also consider temporary living arrangements if the renovation impacts your main bathroom significantly. Hometelligent Inc. recommends having a clear vision of these elements to streamline the design and planning phases of your project.",
+        "description": "Before starting, define your budget, aesthetic, and functional needs, including storage and accessibility. A clear vision streamlines the design and planning phases."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can bathroom wall tiles be installed over existing tiles?",
+  "description": "While sometimes possible, installing over existing tiles is not recommended for bathroom walls due to weight and adhesion concerns. Removing old tiles ensures b",
+  "url": "https://hometelligentinc.com/faq/can-bathroom-wall-tiles-be-installed-over-existing-tiles",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can bathroom wall tiles be installed over existing tiles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Installing new tiles over existing ones is sometimes possible but generally not recommended for bathroom walls. This approach adds significant weight, potentially stressing the underlying structure, and can lead to adhesion issues if the original tiles are not perfectly sound and level. The existing tiles must be firmly adhered, clean, and free of damage. Hometelligent Inc. advises a full removal of old tiles for a more durable and aesthetically pleasing finish, as it allows for proper waterproofing and a secure bond for the new installation.",
+        "description": "While sometimes possible, installing over existing tiles is not recommended for bathroom walls due to weight and adhesion concerns. Removing old tiles ensures better results."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

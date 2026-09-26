@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a custom tile shower typically last?",
+  "description": "A well-installed custom tile shower can last 20-30 years or more, depending on installation quality and maintenance.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-custom-tile-shower-typically-last",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a custom tile shower typically last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A properly installed custom tile shower can last for decades, often 20-30 years or more, with appropriate maintenance. The lifespan largely depends on the quality of the initial installation, particularly the waterproofing, and the durability of the chosen materials. Regular cleaning and prompt attention to any grout or caulk issues can significantly extend its life. Hometelligent Inc. focuses on foundational quality to ensure long-term durability for all custom showers.",
+        "description": "A well-installed custom tile shower can last 20-30 years or more, depending on installation quality and maintenance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of a custom tile shower installation?",
+  "description": "Cost factors include shower size, tile type and complexity, and additional features like niches or benches.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-custom-tile-shower-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of a custom tile shower installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a custom tile shower installation is primarily influenced by the size of the shower, the type and complexity of the tile chosen, and any additional features like custom niches, benches, or specialized waterproofing systems. The material costs for premium tiles or unique designs can significantly impact the overall budget. For an accurate estimate, Hometelligent Inc. conducts an on-site assessment to understand your specific design preferences and existing conditions.",
+        "description": "Cost factors include shower size, tile type and complexity, and additional features like niches or benches."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

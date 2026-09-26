@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is involved in the bathroom cabinet installation process?",
+  "description": "The process includes old cabinet removal, surface preparation, new cabinet mounting, cutting for utilities, hardware installation, and cleanup.",
+  "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-bathroom-cabinet-installation-process",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is involved in the bathroom cabinet installation process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our bathroom cabinet installation process typically begins with the removal of existing cabinets and surface preparation. Then, new cabinets are precisely positioned and securely mounted, ensuring they are level and plumb. This often involves cutting for plumbing or electrical outlets. Finally, hardware, doors, and any trim pieces are installed, followed by a thorough cleanup. We manage the entire process, including coordination with other trades like plumbers if necessary.",
+        "description": "The process includes old cabinet removal, surface preparation, new cabinet mounting, cutting for utilities, hardware installation, and cleanup."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
