@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for a hardwood deck?",
+  "description": "Hardwood decks need regular cleaning and periodic re-sealing or oiling to protect against UV damage and moisture.",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-hardwood-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for a hardwood deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hardwood decks require periodic maintenance to preserve their appearance and structural integrity. This typically includes regular cleaning to remove dirt and debris, and occasional sanding and re-sealing or oiling to protect the wood from UV damage and moisture. The frequency of re-sealing depends on the type of hardwood and its exposure to the elements in your specific location, such as a sunny backyard in Fremont or a shaded area in Berkeley. Neglecting maintenance can lead to fading, splintering, and reduced lifespan.",
+        "description": "Hardwood decks need regular cleaning and periodic re-sealing or oiling to protect against UV damage and moisture."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

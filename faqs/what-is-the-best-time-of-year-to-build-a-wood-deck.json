@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the best time of year to build a wood deck?",
+  "description": "Spring and early fall are ideal due to good weather, but contractor availability can be limited. Late fall/winter might offer more flexibility.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-best-time-of-year-to-build-a-wood-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best time of year to build a wood deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While decks can be built year-round, the best time of year often involves practical tradeoffs between weather conditions and contractor availability. Spring and early fall generally offer ideal weather for construction, with moderate temperatures and less precipitation, which can streamline the building process. However, these seasons are also peak times for contractors like Hometelligent, potentially leading to longer wait times. Building in late fall or winter might offer more scheduling flexibility, assuming weather conditions permit continuous work.",
+        "description": "Spring and early fall are ideal due to good weather, but contractor availability can be limited. Late fall/winter might offer more flexibility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

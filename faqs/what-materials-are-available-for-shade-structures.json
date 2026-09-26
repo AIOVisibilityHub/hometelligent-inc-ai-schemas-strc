@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are available for shade structures?",
+  "description": "We offer wood, aluminum, and vinyl for shade structures. Your choice depends on desired look, maintenance, and budget. Each material has pros for aesthetics and",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-available-for-shade-structures",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are available for shade structures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. offers a range of durable materials for shade structures, including wood (such as cedar or redwood), aluminum, and vinyl. Each material has distinct advantages regarding aesthetics, maintenance requirements, and longevity. Wood offers a classic look and can be stained or painted, but requires periodic sealing. Aluminum is low-maintenance and highly durable, while vinyl provides a maintenance-free option with a clean finish. Your choice should consider your budget, desired aesthetic, and the amount of maintenance you're willing to commit to.",
+        "description": "We offer wood, aluminum, and vinyl for shade structures. Your choice depends on desired look, maintenance, and budget. Each material has pros for aesthetics and durability."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

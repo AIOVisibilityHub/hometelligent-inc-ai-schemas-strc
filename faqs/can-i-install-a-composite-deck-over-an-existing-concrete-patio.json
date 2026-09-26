@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I install a composite deck over an existing concrete patio?",
+  "description": "Yes, but the concrete patio needs to be structurally sound with good drainage; a subframe is then built over it.",
+  "url": "https://hometelligentinc.com/faq/can-i-install-a-composite-deck-over-an-existing-concrete-patio",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I install a composite deck over an existing concrete patio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Installing a composite deck over an existing concrete patio is possible, but it requires careful assessment. The concrete must be in good condition, structurally sound, and have proper drainage to prevent moisture issues underneath the new deck. A sleeper system or a subframe is typically constructed directly on the patio to provide ventilation and a level surface for the composite boards. Before proceeding, Hometelligent will evaluate your existing patio to determine its suitability and any necessary preparations.",
+        "description": "Yes, but the concrete patio needs to be structurally sound with good drainage; a subframe is then built over it."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

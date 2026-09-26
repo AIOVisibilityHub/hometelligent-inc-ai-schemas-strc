@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does composite deck installation compare in cost to wood decking?",
+  "description": "Composite decking has a higher upfront cost, but lower long-term maintenance expenses compared to wood.",
+  "url": "https://hometelligentinc.com/faq/how-does-composite-deck-installation-compare-in-cost-to-wood-decking",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does composite deck installation compare in cost to wood decking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Initially, composite decking can have a higher material cost than traditional pressure-treated wood. However, over its lifespan, the total cost of ownership for composite often becomes more economical due to minimal maintenance requirements, such as no need for staining, painting, or sealing. This reduces ongoing material and labor expenses significantly. When comparing options, consider the long-term value and reduced upkeep. Our team can provide a detailed quote comparing both options for your specific project.",
+        "description": "Composite decking has a higher upfront cost, but lower long-term maintenance expenses compared to wood."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

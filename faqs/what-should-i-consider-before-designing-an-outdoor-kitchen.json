@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider before designing an outdoor kitchen?",
+  "description": "Consider desired functions, utility access (gas, water, electricity), storage, counter space, and seating. Factor in local building codes for utility connection",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-designing-an-outdoor-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider before designing an outdoor kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before designing an outdoor kitchen, consider the primary functions you want it to serve: grilling, baking, food prep, or even full-scale entertaining. Think about necessary utilities like gas, water, and electricity, and their proximity to your desired kitchen location. Also, plan for adequate storage, counter space, and seating. In Alameda and surrounding areas, it's crucial to factor in local building codes for these utility connections. Hometelligent Inc. can help you assess your space for optimal layout and utility access.",
+        "description": "Consider desired functions, utility access (gas, water, electricity), storage, counter space, and seating. Factor in local building codes for utility connections in Alameda and nearby areas."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

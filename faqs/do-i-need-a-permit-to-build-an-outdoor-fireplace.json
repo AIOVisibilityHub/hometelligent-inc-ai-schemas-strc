@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit to build an outdoor fireplace?",
+  "description": "Most outdoor fireplace projects require a building permit to ensure compliance with local safety and setback codes. We can help with the application process.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-build-an-outdoor-fireplace",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit to build an outdoor fireplace?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in many jurisdictions, including cities we serve such as Oakland, Dublin, and San Leandro, a building permit is typically required for outdoor fireplace construction. This ensures the structure meets local safety codes, setback requirements, and environmental regulations. The permit application process usually involves submitting design plans for review by local authorities. Building without the necessary permits can lead to fines, project delays, or even the requirement to demolish the structure. We can assist in navigating the permit application process to ensure compliance for your project.",
+        "description": "Most outdoor fireplace projects require a building permit to ensure compliance with local safety and setback codes. We can help with the application process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I integrate a redwood deck with my existing landscaping?",
+  "description": "Redwood decks can be integrated with existing landscaping through custom designs that complement natural features like trees and garden beds.",
+  "url": "https://hometelligentinc.com/faq/can-i-integrate-a-redwood-deck-with-my-existing-landscaping",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I integrate a redwood deck with my existing landscaping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, redwood decks can be seamlessly integrated with existing landscaping. We work with clients to design decks that complement their outdoor environment, considering elements like existing trees, garden beds, and pathways. This might involve custom shapes or multi-level designs to work around natural features. The process involves careful planning to ensure harmony between the new structure and its surroundings.",
+        "description": "Redwood decks can be integrated with existing landscaping through custom designs that complement natural features like trees and garden beds."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

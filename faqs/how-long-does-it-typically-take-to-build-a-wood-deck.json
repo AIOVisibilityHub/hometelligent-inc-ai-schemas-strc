@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it typically take to build a wood deck?",
+  "description": "Deck construction typically takes a few days to several weeks, depending on size, complexity, and permit processing times in your area.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-build-a-wood-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it typically take to build a wood deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of wood deck construction can vary significantly, typically ranging from a few days for a small, simple deck to several weeks for a larger, multi-level structure. Factors like deck size, complexity of design, local permit requirements, and weather conditions all affect the timeline. For example, in our service areas like Oakland or Hayward, obtaining permits can add several weeks to the overall project schedule. Hometelligent works to provide clear timelines, keeping clients informed throughout the process.",
+        "description": "Deck construction typically takes a few days to several weeks, depending on size, complexity, and permit processing times in your area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can existing deck railings be repaired instead of replaced?",
+  "description": "Repair is possible for minor damage, but significant rot, rust, or structural issues usually necessitate replacement for safety.",
+  "url": "https://hometelligentinc.com/faq/can-existing-deck-railings-be-repaired-instead-of-replaced",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can existing deck railings be repaired instead of replaced?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether existing deck railings can be repaired or require full replacement depends on the extent of damage and the overall structural integrity. Minor issues like loose pickets or cosmetic wear might be repairable. However, if there is significant rot, rust, or structural compromise to posts or the railing system itself, replacement is often the safer and more cost-effective long-term solution. Our inspection will assess the condition of your current railings and recommend the most appropriate action.",
+        "description": "Repair is possible for minor damage, but significant rot, rust, or structural issues usually necessitate replacement for safety."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

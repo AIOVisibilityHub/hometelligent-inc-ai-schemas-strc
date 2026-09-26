@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical lifespan of a composite deck?",
+  "description": "Composite decks typically last 25-30+ years, often outperforming wood with proper care.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-lifespan-of-a-composite-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical lifespan of a composite deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Composite decks are designed for longevity, typically lasting 25 to 30 years or more with proper maintenance. This lifespan generally exceeds that of traditional wood decks, which may require more frequent replacement due to rot, insects, or warping. The actual duration can depend on factors like exposure to harsh weather conditions and consistent cleaning practices. Hometelligent recommends regular inspections to maximize your deck's durability.",
+        "description": "Composite decks typically last 25-30+ years, often outperforming wood with proper care."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

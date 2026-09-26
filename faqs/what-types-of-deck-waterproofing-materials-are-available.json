@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of deck waterproofing materials are available?",
+  "description": "Deck waterproofing materials include liquid-applied membranes, sheet membranes, and coatings. The best option depends on deck type, use, and local weather.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-deck-waterproofing-materials-are-available",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of deck waterproofing materials are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are several types of deck waterproofing materials, including liquid-applied membranes, sheet membranes, and coatings. Liquid-applied systems offer seamless protection and flexibility for complex designs, while sheet membranes provide durable, consistent thickness. The best choice depends on your deck's construction, expected use, and local weather patterns in areas like Alameda or Berkeley. We help you choose the material that offers the best balance of performance and longevity.",
+        "description": "Deck waterproofing materials include liquid-applied membranes, sheet membranes, and coatings. The best option depends on deck type, use, and local weather."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

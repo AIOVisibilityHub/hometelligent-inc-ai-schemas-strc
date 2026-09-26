@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost range for building a redwood deck?",
+  "description": "The cost of a redwood deck depends on its size, design complexity, redwood grade, and added features; estimates are provided after an on-site assessment.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-building-a-redwood-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost range for building a redwood deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of building a redwood deck varies significantly based on factors like the deck's size, design complexity, elevation, and the specific grade of redwood chosen. Labor costs and additional features such as railings, built-in benches, or stairs also impact the final price. We provide detailed estimates after an on-site assessment to ensure accuracy for projects in Alameda, Albany, Berkeley, Dublin, and Emeryville.",
+        "description": "The cost of a redwood deck depends on its size, design complexity, redwood grade, and added features; estimates are provided after an on-site assessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

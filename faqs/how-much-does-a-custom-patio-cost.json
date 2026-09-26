@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does a custom patio cost?",
+  "description": "Custom patio costs vary significantly based on size, complexity, materials, and features. We provide detailed quotes after consultation to ensure accuracy.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-a-custom-patio-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a custom patio cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a custom patio varies widely based on size, complexity, chosen materials, site preparation, and any added features like built-in seating or lighting. Simple concrete patios are generally less expensive than those using premium natural stone or intricate paver designs. For an accurate estimate, consider what you envision for the space, including its functional needs and aesthetic goals. We provide detailed quotes after an initial consultation and site assessment, ensuring all project specifics are accounted for.",
+        "description": "Custom patio costs vary significantly based on size, complexity, materials, and features. We provide detailed quotes after consultation to ensure accuracy."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost range for building an outdoor dining area?",
+  "description": "Costs vary greatly depending on size, complexity, materials, and features; simple patios are less expensive than elaborate designs.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-building-an-outdoor-dining-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost range for building an outdoor dining area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost to build an outdoor dining area varies widely based on size, complexity, material choices, and added features like built-in kitchens or elaborate lighting. Simple patios might be on the lower end, while multi-level decks with extensive amenities would be higher. A practical tradeoff is often between the level of customization and the overall budget, with bespoke designs incurring higher costs. Hometelligent Inc. provides detailed estimates after understanding your specific project requirements.",
+        "description": "Costs vary greatly depending on size, complexity, materials, and features; simple patios are less expensive than elaborate designs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

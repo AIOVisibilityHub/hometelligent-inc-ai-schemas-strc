@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does deck restoration usually take?",
+  "description": "Deck restoration duration depends on deck size, condition, and weather, typically ranging from a few days to over a week.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-deck-restoration-usually-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does deck restoration usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of deck restoration varies depending on the size and condition of the deck, as well as weather conditions. A smaller deck in good shape might take a few days, while a larger, more damaged deck could take a week or more. The most significant factor affecting the timeline is drying time between cleaning, repairs, and staining, which can be prolonged by humidity or rain. Our crew will provide an estimated timeline during the initial consultation, considering local weather patterns in areas like Berkeley and Emeryville.",
+        "description": "Deck restoration duration depends on deck size, condition, and weather, typically ranging from a few days to over a week."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

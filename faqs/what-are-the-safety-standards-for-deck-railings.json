@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the safety standards for deck railings?",
+  "description": "Railings must meet height, baluster spacing, and structural integrity standards, typically 36 inches high with a 4-inch sphere rule.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-safety-standards-for-deck-railings",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the safety standards for deck railings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deck railings must meet specific safety standards to prevent falls, including requirements for height, spacing between balusters, and structural integrity. Typically, residential railings must be at least 36 inches high, with baluster spacing preventing a 4-inch sphere from passing through. Hometelligent Inc. ensures all installations comply with the latest California Building Code standards applicable to your specific location, such as Berkeley or Oakland, prioritizing the safety and security of your family and guests.",
+        "description": "Railings must meet height, baluster spacing, and structural integrity standards, typically 36 inches high with a 4-inch sphere rule."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

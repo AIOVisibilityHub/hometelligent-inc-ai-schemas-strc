@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to construct an outdoor living area?",
+  "description": "Construction timelines vary; smaller projects may take weeks, while larger, more complex ones can take months, depending on scope and permits.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-construct-an-outdoor-living-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to construct an outdoor living area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for outdoor living area construction varies significantly based on the project's complexity, size, and the specific features being installed. A smaller patio or deck might take a few weeks, while a more extensive project involving outdoor kitchens, multiple structures, and complex landscaping could extend to several months. Key factors that can affect the process and timing include permit acquisition, material availability, and weather conditions. Hometelligent Inc. will provide a detailed project schedule during the planning phase.",
+        "description": "Construction timelines vary; smaller projects may take weeks, while larger, more complex ones can take months, depending on scope and permits."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

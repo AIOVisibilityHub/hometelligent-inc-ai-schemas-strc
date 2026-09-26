@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation is needed before Hometelligent Inc. starts construction on my shade structure?",
+  "description": "Before construction, clear the area of obstacles and ensure team access. Confirm utility line locations if digging is required to keep the project on schedule.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-hometelligent-inc-starts-construction-on-my-sh",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation is needed before Hometelligent Inc. starts construction on my shade structure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before construction begins on your shade structure, some preparation steps can help ensure a smooth process. You may need to clear the designated area of any obstacles, such as furniture, plants, or debris. It's also helpful to confirm access for our construction team and materials. We will confirm utility line locations if digging is involved. Ensuring the site is ready helps our team efficiently begin work, allowing us to maintain the agreed-upon timeline for your project.",
+        "description": "Before construction, clear the area of obstacles and ensure team access. Confirm utility line locations if digging is required to keep the project on schedule."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

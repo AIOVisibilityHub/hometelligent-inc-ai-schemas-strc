@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials are commonly used for outdoor kitchen cabinetry?",
+  "description": "Common materials include marine-grade polymer, stainless steel, teak, and sealed composite lumber, chosen for their durability and weather resistance.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-commonly-used-for-outdoor-kitchen-cabinetry",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are commonly used for outdoor kitchen cabinetry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Outdoor kitchen cabinetry is typically constructed from materials designed to withstand outdoor elements. Common options include marine-grade polymer (HDPE), stainless steel, teak, and sealed composite lumber. HDPE is durable and resistant to moisture and pests, making it a low-maintenance choice. Stainless steel offers a sleek look and excellent corrosion resistance. The choice of material often depends on your climate, desired aesthetic, and budget. For example, in the Bay Area's diverse microclimates, a highly weather-resistant material like stainless steel or polymer might be preferred to ensure longevity against fog or occasional rain.",
+        "description": "Common materials include marine-grade polymer, stainless steel, teak, and sealed composite lumber, chosen for their durability and weather resistance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

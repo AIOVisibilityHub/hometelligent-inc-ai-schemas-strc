@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can a pergola add value to my home?",
+  "description": "A well-designed pergola can add aesthetic appeal and outdoor living space, potentially increasing your home's value.",
+  "url": "https://hometelligentinc.com/faq/can-a-pergola-add-value-to-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a pergola add value to my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a well-designed and properly constructed pergola can enhance your home's aesthetic appeal and extend your usable outdoor living space, potentially increasing its market value. It creates an attractive focal point and an inviting area for relaxation or entertaining. The return on investment often depends on the quality of materials, the design's integration with your existing landscape, and overall curb appeal. We focus on quality craftsmanship to ensure your pergola is a valuable addition.",
+        "description": "A well-designed pergola can add aesthetic appeal and outdoor living space, potentially increasing your home's value."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

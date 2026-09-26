@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I resurface or replace my deck?",
+  "description": "Choose resurfacing if the deck's substructure is sound; replace if there's extensive structural damage or rot. A professional inspection helps decide.",
+  "url": "https://hometelligentinc.com/faq/should-i-resurface-or-replace-my-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I resurface or replace my deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deciding between resurfacing and replacement hinges on your deck's structural integrity. If the foundational elements—joists, beams, and support posts—are in excellent condition, resurfacing is often a cost-effective choice. However, if there's widespread rot, significant structural damage, or major instability, a full replacement is usually safer and more durable. A professional inspection, like those offered by Hometelligent Inc. in Dublin or Livermore, can accurately determine the best course of action by assessing the underlying structure.",
+        "description": "Choose resurfacing if the deck's substructure is sound; replace if there's extensive structural damage or rot. A professional inspection helps decide."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

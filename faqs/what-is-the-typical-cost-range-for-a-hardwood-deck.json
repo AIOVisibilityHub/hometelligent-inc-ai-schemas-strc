@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost range for a hardwood deck?",
+  "description": "Hardwood deck costs vary based on wood type, size, and design complexity, with custom features increasing the overall investment.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-hardwood-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost range for a hardwood deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a hardwood deck varies significantly based on factors such as wood type, deck size, design complexity, and site preparation requirements. Tropical hardwoods are generally more expensive than softwoods. For a basic hardwood deck, costs can start at a certain price per square foot, but custom features like built-in seating, elaborate railings, or multiple levels will increase the overall investment. For properties in areas like Pleasanton or Livermore, site access can also affect labor costs.",
+        "description": "Hardwood deck costs vary based on wood type, size, and design complexity, with custom features increasing the overall investment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

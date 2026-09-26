@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a building permit to construct a pergola?",
+  "description": "Permit requirements for pergolas depend on local regulations, size, and attachment. It's best to check with your city planning department.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-building-permit-to-construct-a-pergola",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a building permit to construct a pergola?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether a building permit is required for a pergola depends on local regulations, typically based on its size, height, and attachment to an existing structure. Many smaller, detached pergolas may not require a permit, but larger or attached structures often do. It's crucial to verify specific requirements with your local city planning department, such as those in Alameda, Albany, Berkeley, Dublin, or Emeryville, before starting construction. We can assist you in understanding these local regulations and navigating the permit application process.",
+        "description": "Permit requirements for pergolas depend on local regulations, size, and attachment. It's best to check with your city planning department."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I connect my outdoor kitchen to my home's utilities?",
+  "description": "Connecting to home utilities offers convenience but increases initial cost and complexity. This enhances functionality and eliminates the need for propane tanks",
+  "url": "https://hometelligentinc.com/faq/should-i-connect-my-outdoor-kitchen-to-my-home-s-utilities",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I connect my outdoor kitchen to my home's utilities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Connecting your outdoor kitchen to your home's existing gas, water, and electrical utilities provides convenience and full functionality. While this requires professional installation to extend lines safely and to code, it eliminates the need for propane tanks and reduces trips inside. As a practical tradeoff, extending utilities will increase initial project costs and complexity, but it significantly enhances the usability and value of your outdoor living space.",
+        "description": "Connecting to home utilities offers convenience but increases initial cost and complexity. This enhances functionality and eliminates the need for propane tanks."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

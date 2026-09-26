@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long do wood decks typically last?",
+  "description": "Wood decks last 15-30+ years, depending on wood type, construction quality, and consistent maintenance, which is crucial for longevity.",
+  "url": "https://hometelligentinc.com/faq/how-long-do-wood-decks-typically-last",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long do wood decks typically last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The lifespan of a wood deck varies significantly based on the type of wood used, quality of construction, climate, and the regularity of maintenance. Pressure-treated pine decks can last 15-20 years, while naturally durable woods like cedar or redwood, with proper care, might last 20-30 years or more. A key practical tradeoff is that consistent maintenance, including cleaning, staining, and sealing, is essential for reaching the upper end of these estimates and preventing premature decay. Without it, even durable woods will deteriorate faster.",
+        "description": "Wood decks last 15-30+ years, depending on wood type, construction quality, and consistent maintenance, which is crucial for longevity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

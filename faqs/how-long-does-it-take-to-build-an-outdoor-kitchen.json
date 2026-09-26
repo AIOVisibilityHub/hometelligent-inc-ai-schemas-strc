@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to build an outdoor kitchen?",
+  "description": "Construction time varies from weeks to months, depending on design complexity and utility work. Hometelligent provides a detailed project schedule upfront.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-an-outdoor-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to build an outdoor kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for building an outdoor kitchen varies significantly based on design complexity, material availability, and necessary utility hookups. A simpler design might take a few weeks, while a more elaborate project with extensive plumbing and electrical work could extend to several months. Hometelligent Inc. provides a detailed project schedule during the planning phase, outlining key milestones from design approval to final construction, allowing clients to anticipate the project duration.",
+        "description": "Construction time varies from weeks to months, depending on design complexity and utility work. Hometelligent provides a detailed project schedule upfront."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

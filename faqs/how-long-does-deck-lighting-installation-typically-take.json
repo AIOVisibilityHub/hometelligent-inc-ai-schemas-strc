@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does deck lighting installation typically take?",
+  "description": "Installation time varies by design complexity, lighting type, and deck size, from one day for simple projects to several for complex wiring.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-deck-lighting-installation-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does deck lighting installation typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of deck lighting installation varies depending on the complexity of the design, the type of lighting chosen, and the size of the deck. A simple installation might take a day, while more intricate designs with extensive wiring could take several days. We provide a detailed project timeline after assessing your deck and lighting plan, helping you understand the process and expected completion.",
+        "description": "Installation time varies by design complexity, lighting type, and deck size, from one day for simple projects to several for complex wiring."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

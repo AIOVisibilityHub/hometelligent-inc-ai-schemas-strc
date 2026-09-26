@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How often should a deck be restored?",
+  "description": "Decks typically need restoration every 2-5 years, depending on wood type, climate, usage, and prior finishes.",
+  "url": "https://hometelligentinc.com/faq/how-often-should-a-deck-be-restored",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should a deck be restored?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The frequency of deck restoration depends on factors such as the type of wood, local climate, deck usage, and the quality of previous finishes. Generally, a deck should be re-stained or re-sealed every 2-5 years. In areas like Oakland or Piedmont, where decks are exposed to varying weather conditions, more frequent maintenance might be beneficial to preserve the wood and prevent premature deterioration. Regular cleaning and inspection can also extend the time between major restorations.",
+        "description": "Decks typically need restoration every 2-5 years, depending on wood type, climate, usage, and prior finishes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

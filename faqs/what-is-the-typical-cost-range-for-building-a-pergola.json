@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost range for building a pergola?",
+  "description": "Pergola costs vary widely based on size, materials, and design complexity, typically ranging from a few thousand to over ten thousand dollars.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-building-a-pergola",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost range for building a pergola?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of building a pergola can vary significantly based on its size, the materials used (e.g., wood, vinyl, aluminum), the complexity of the design, and any added features like retractable canopies or lighting. On average, a basic pergola might start around a few thousand dollars, while larger, custom designs with premium materials and features can exceed ten thousand. As part of our process, we provide a detailed estimate after an initial consultation and site assessment to ensure all factors specific to your project are considered.",
+        "description": "Pergola costs vary widely based on size, materials, and design complexity, typically ranging from a few thousand to over ten thousand dollars."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

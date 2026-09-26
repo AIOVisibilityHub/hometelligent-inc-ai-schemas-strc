@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What considerations are important for outdoor kitchen layouts?",
+  "description": "Outdoor kitchen layouts should prioritize functionality, flow, and proximity to indoor spaces. Sun and wind exposure are also important considerations.",
+  "url": "https://hometelligentinc.com/faq/what-considerations-are-important-for-outdoor-kitchen-layouts",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What considerations are important for outdoor kitchen layouts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Effective outdoor kitchen layouts prioritize functionality and flow, often following a 'work triangle' concept for the grill, sink, and refrigerator. Key considerations include proximity to your indoor kitchen for convenience, sun exposure for comfort, and wind patterns for smoke management. Hometelligent Inc. works with clients across Alameda, Albany, Berkeley, Dublin, and Emeryville to design layouts that integrate seamlessly with existing outdoor spaces and meet local zoning requirements.",
+        "description": "Outdoor kitchen layouts should prioritize functionality, flow, and proximity to indoor spaces. Sun and wind exposure are also important considerations."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

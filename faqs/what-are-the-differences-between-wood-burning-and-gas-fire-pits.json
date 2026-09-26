@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the differences between wood-burning and gas fire pits?",
+  "description": "Wood-burning fire pits provide a traditional experience but require maintenance; gas fire pits offer convenience and less cleanup. Local regulations, especially",
+  "url": "https://hometelligentinc.com/faq/what-are-the-differences-between-wood-burning-and-gas-fire-pits",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the differences between wood-burning and gas fire pits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wood-burning fire pits offer a traditional campfire experience with crackling sounds and a distinct aroma, but require storing firewood, regular ash cleanup, and can produce more smoke. Gas fire pits, conversely, offer instant ignition, adjustable flame height, and require less maintenance, often using natural gas or propane. Choosing between them involves a practical tradeoff between ambiance and convenience. Additionally, local regulations in communities such as Oakland or Berkeley might have restrictions on wood-burning, especially during dry seasons or 'Spare the Air' days, which could make a gas fire pit a more practical choice for consistent use.",
+        "description": "Wood-burning fire pits provide a traditional experience but require maintenance; gas fire pits offer convenience and less cleanup. Local regulations, especially in areas like Oakland, may restrict wood-burning."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

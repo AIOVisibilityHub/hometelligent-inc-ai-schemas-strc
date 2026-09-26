@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to install a composite deck?",
+  "description": "Installation typically takes 1-3 weeks, depending on deck size, complexity, and site conditions.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-a-composite-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to install a composite deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of composite deck installation varies significantly based on the deck's size, complexity, and site conditions. A typical residential deck might take anywhere from one to two weeks, while larger or multi-level designs could extend to three weeks or more. Factors such as weather delays, material delivery schedules, and the need for extensive substructure work can also influence the timeline. Hometelligent provides a detailed project schedule at the outset, keeping you informed of progress.",
+        "description": "Installation typically takes 1-3 weeks, depending on deck size, complexity, and site conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

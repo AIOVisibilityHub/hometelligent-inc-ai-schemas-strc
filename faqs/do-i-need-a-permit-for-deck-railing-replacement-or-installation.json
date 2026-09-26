@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for deck railing replacement or installation?",
+  "description": "Permits are often required for new or significant deck railing installations, particularly if structural changes are involved.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-deck-railing-replacement-or-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for deck railing replacement or installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in many cities within our service area, such as Oakland, Fremont, and San Leandro, a permit is required for new deck railing installations or significant replacements, especially if they involve structural changes or affect safety. The permitting process can add to the overall project timeline, and Hometelligent Inc. can guide you on the specific requirements for your municipality.",
+        "description": "Permits are often required for new or significant deck railing installations, particularly if structural changes are involved."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

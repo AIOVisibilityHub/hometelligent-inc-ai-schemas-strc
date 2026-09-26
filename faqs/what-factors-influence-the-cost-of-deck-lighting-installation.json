@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of deck lighting installation?",
+  "description": "Cost depends on light type/quantity, wiring complexity, electrical upgrades, and installation accessibility. A site visit helps determine an accurate estimate.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-deck-lighting-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of deck lighting installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of deck lighting installation is influenced by the type and quantity of lights, the complexity of the wiring, the need for electrical upgrades, and the accessibility of the installation area. Higher quality fixtures or specialized lighting effects will increase the overall price. To get an accurate estimate, we recommend a site visit to assess your specific needs and the existing electrical infrastructure on your property.",
+        "description": "Cost depends on light type/quantity, wiring complexity, electrical upgrades, and installation accessibility. A site visit helps determine an accurate estimate."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

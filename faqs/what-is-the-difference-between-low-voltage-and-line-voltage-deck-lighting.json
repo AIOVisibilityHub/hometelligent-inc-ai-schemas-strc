@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between low-voltage and line-voltage deck lighting?",
+  "description": "Low-voltage lighting uses 12-24V with a transformer, is safer for DIY, and has fewer code demands. Line-voltage uses 120V for brighter light but needs professio",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-low-voltage-and-line-voltage-deck-lighting",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between low-voltage and line-voltage deck lighting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low-voltage deck lighting operates on 12-24 volts, requiring a transformer to reduce standard household current. It is generally easier and safer to install for DIY enthusiasts, with less stringent electrical code requirements. Line-voltage lighting uses the standard 120 volts, offers brighter illumination, but requires more complex wiring and professional installation to ensure safety and code compliance. Consider your comfort with electrical work and the brightness level needed when making this choice.",
+        "description": "Low-voltage lighting uses 12-24V with a transformer, is safer for DIY, and has fewer code demands. Line-voltage uses 120V for brighter light but needs professional installation for safety."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

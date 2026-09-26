@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the typical costs associated with building an outdoor kitchen?",
+  "description": "Costs vary based on size, materials, and appliances. Establishing a budget early helps guide material and appliance selections to manage overall investment.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-typical-costs-associated-with-building-an-outdoor-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the typical costs associated with building an outdoor kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of an outdoor kitchen varies significantly based on its size, chosen materials, and the type of appliances included. Basic setups with a grill and counter space will be less expensive than elaborate designs featuring multiple cooking zones, refrigeration, and specialized finishes. Preparation often involves deciding on a budget range early in the planning phase to guide material and appliance selections. For instance, high-end stone countertops and professional-grade appliances will increase the overall investment.",
+        "description": "Costs vary based on size, materials, and appliances. Establishing a budget early helps guide material and appliance selections to manage overall investment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for deck restoration?",
+  "description": "The process involves inspection, cleaning, repairs, and applying a new stain or sealant to protect the wood.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-deck-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for deck restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The deck restoration process usually begins with an inspection to assess the deck's condition and identify necessary repairs. This is followed by a thorough cleaning to remove dirt, mildew, and old finishes. Any damaged or rotting boards are then repaired or replaced. Finally, a new stain or sealant is applied to protect the wood and enhance its appearance. During the initial inspection, our team at Hometelligent Inc. will discuss the best approach for your deck's specific material and age, ensuring a tailored plan.",
+        "description": "The process involves inspection, cleaning, repairs, and applying a new stain or sealant to protect the wood."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

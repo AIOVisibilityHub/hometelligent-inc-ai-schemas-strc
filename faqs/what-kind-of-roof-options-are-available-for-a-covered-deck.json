@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of roof options are available for a covered deck?",
+  "description": "Roof options for covered decks include solid roofs for full protection, pergolas for partial shade, and louvered systems for adjustable coverage.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-roof-options-are-available-for-a-covered-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of roof options are available for a covered deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common roof options for covered decks include solid roofs, pergolas, and louvered systems. Solid roofs, often shingled to match the house, provide full weather protection and shade. Pergolas offer partial shade and an open feel, while louvered systems provide adjustable sun and rain protection. A practical tradeoff is between the level of weather protection and the desire for natural light and openness; solid roofs offer maximum protection but reduce light, while pergolas are more open but offer less rain protection.",
+        "description": "Roof options for covered decks include solid roofs for full protection, pergolas for partial shade, and louvered systems for adjustable coverage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

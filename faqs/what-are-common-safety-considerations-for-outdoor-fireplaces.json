@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are common safety considerations for outdoor fireplaces?",
+  "description": "Safety requires proper clearances from combustibles, spark arrestors, appropriate fuel, and never leaving fires unattended. Adhering to local fire codes is cruc",
+  "url": "https://hometelligentinc.com/faq/what-are-common-safety-considerations-for-outdoor-fireplaces",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common safety considerations for outdoor fireplaces?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Safety is paramount for outdoor fireplaces. Key considerations include ensuring proper clearances from combustible materials (like decks, trees, and your home), using spark arrestors to prevent embers from escaping, and having a non-combustible hearth extension. Always use appropriate fuel for your fireplace type – seasoned firewood for wood-burning units and proper gas types for gas fireplaces. Never leave a fire unattended, and have a fire extinguisher or water source nearby. We adhere to all local building and fire codes during construction to ensure your fireplace is built safely and responsibly, particularly in wildfire-prone regions.",
+        "description": "Safety requires proper clearances from combustibles, spark arrestors, appropriate fuel, and never leaving fires unattended. Adhering to local fire codes is crucial."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

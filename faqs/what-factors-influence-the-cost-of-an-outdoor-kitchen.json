@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of an outdoor kitchen?",
+  "description": "Cost factors include design complexity, appliance types, material quality, and the extent of utility installations required.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-an-outdoor-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of an outdoor kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of an outdoor kitchen is influenced by several factors, including the size and complexity of the design, the types of appliances chosen (e.g., built-in grills, refrigerators, pizza ovens), and the quality of materials for countertops and cabinetry. Extensive utility runs for water, gas, or electricity will also add to the overall expense. Custom features like built-in seating or pergolas will further affect the budget. It's important to consider both initial construction costs and long-term maintenance when planning your investment.",
+        "description": "Cost factors include design complexity, appliance types, material quality, and the extent of utility installations required."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

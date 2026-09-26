@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials are used for deck resurfacing?",
+  "description": "Materials include composite, PVC, or wood for boards, and various stains, sealers, or coatings for finishes, impacting durability and maintenance.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-used-for-deck-resurfacing",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are used for deck resurfacing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deck resurfacing can utilize various materials, depending on the desired look, durability, and budget. Options include composite decking boards, PVC, pressure-treated lumber, cedar, or redwood for replacing individual boards. For finishes, choices range from stains and sealers to specialized deck coatings designed for protection and aesthetics. Your selection will impact the deck's maintenance requirements and lifespan. Hometelligent Inc. works with clients across the East Bay to select materials that suit both their vision and the local climate conditions.",
+        "description": "Materials include composite, PVC, or wood for boards, and various stains, sealers, or coatings for finishes, impacting durability and maintenance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

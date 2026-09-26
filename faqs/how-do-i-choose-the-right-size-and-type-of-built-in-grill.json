@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right size and type of built-in grill?",
+  "description": "Choose a grill based on your cooking habits, guest count, budget, cooking area, BTU output, material, and desired features.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-size-and-type-of-built-in-grill",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right size and type of built-in grill?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right built-in grill depends on your grilling habits, the number of people you typically cook for, and your budget. Consider factors like cooking surface area, BTU output, material (stainless steel is common), and desired features such as rotisseries or infrared burners. The decision factor is often balancing performance with available space and specific needs. For example, a larger family might prioritize a grill with more burners and a larger cooking area. Hometelligent Inc. can help you evaluate options and select a grill that fits your lifestyle and outdoor kitchen design perfectly.",
+        "description": "Choose a grill based on your cooking habits, guest count, budget, cooking area, BTU output, material, and desired features."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

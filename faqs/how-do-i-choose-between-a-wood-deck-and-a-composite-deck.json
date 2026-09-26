@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose between a wood deck and a composite deck?",
+  "description": "Wood decks are natural but require more maintenance; composite decks are low-maintenance but cost more upfront. Consider your budget and upkeep preference.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-between-a-wood-deck-and-a-composite-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose between a wood deck and a composite deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing between a wood deck and a composite deck involves weighing several practical tradeoffs. Wood decks offer natural beauty and can be more cost-effective upfront, but require regular maintenance like staining and sealing. Composite decks, made from recycled plastics and wood fibers, are low-maintenance and highly durable, resisting rot and insects, but typically have a higher initial cost. Consider your long-term maintenance preferences and budget, as well as the desired aesthetic for your outdoor living space.",
+        "description": "Wood decks are natural but require more maintenance; composite decks are low-maintenance but cost more upfront. Consider your budget and upkeep preference."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

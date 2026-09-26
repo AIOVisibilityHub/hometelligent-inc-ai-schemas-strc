@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right materials for my outdoor entertaining space?",
+  "description": "Select materials based on aesthetics, durability, maintenance, and budget. Consider local climate and your desired upkeep for options like pavers vs. natural st",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-materials-for-my-outdoor-entertaining-space",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right materials for my outdoor entertaining space?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right materials involves balancing aesthetics, durability, maintenance, and budget. For example, concrete pavers offer a durable and low-maintenance option for patios, while redwood or composite decking provides different looks and maintenance needs for decks. For outdoor kitchens, stainless steel appliances and stone countertops are popular for their weather resistance. Consider the local climate in the East Bay, your desired aesthetic, and the amount of maintenance you're willing to commit to. We can help you compare options like natural stone versus concrete for patios or wood versus composite for decks based on these factors.",
+        "description": "Select materials based on aesthetics, durability, maintenance, and budget. Consider local climate and your desired upkeep for options like pavers vs. natural stone or wood vs. composite decking."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

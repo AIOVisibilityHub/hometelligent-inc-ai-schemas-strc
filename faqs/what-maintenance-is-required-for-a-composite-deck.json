@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for a composite deck?",
+  "description": "Composite decks primarily need regular cleaning with soap and water; avoid harsh cleaners and high-pressure washing.",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-composite-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for a composite deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Composite decks require minimal maintenance compared to wood. Regular cleaning with soap and water is generally sufficient to remove dirt, pollen, and light stains. Avoid using abrasive cleaners or power washers at high pressure, as these can damage the deck surface. Inspecting the deck annually for any loose fasteners or debris accumulation, especially between boards, helps maintain its integrity. This low-maintenance aspect is a key benefit, freeing up your time compared to the rigorous upkeep of wood.",
+        "description": "Composite decks primarily need regular cleaning with soap and water; avoid harsh cleaners and high-pressure washing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of appliances are popular for outdoor kitchens?",
+  "description": "Common outdoor kitchen appliances include grills, side burners, refrigerators, sinks, and storage. All appliances must be outdoor-rated for durability and perfo",
+  "url": "https://hometelligentinc.com/faq/what-types-of-appliances-are-popular-for-outdoor-kitchens",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of appliances are popular for outdoor kitchens?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Popular outdoor kitchen appliances include built-in grills, side burners, refrigerators, sinks, and outdoor-rated storage drawers. Beyond standard options, many homeowners also incorporate pizza ovens, warming drawers, or kegerators for enhanced functionality. When choosing appliances, ensure they are specifically rated for outdoor use to withstand weather conditions and maintain performance. Consider how each appliance contributes to your desired cooking and entertaining experience.",
+        "description": "Common outdoor kitchen appliances include grills, side burners, refrigerators, sinks, and storage. All appliances must be outdoor-rated for durability and performance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are best for a custom patio?",
+  "description": "The best patio materials depend on aesthetics, budget, climate, and maintenance, with options like natural stone, concrete, or pavers each offering distinct adv",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-a-custom-patio",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are best for a custom patio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best materials for a custom patio depend on your aesthetic preferences, budget, climate, and desired maintenance level. Common options include natural stone (like flagstone or bluestone), concrete (poured or stamped), interlocking pavers, or brick. For example, pavers offer design flexibility and are durable in varying Bay Area weather, while natural stone provides a high-end, unique look. When making your decision, consider the material's longevity and how it complements your home's existing architecture.",
+        "description": "The best patio materials depend on aesthetics, budget, climate, and maintenance, with options like natural stone, concrete, or pavers each offering distinct advantages."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

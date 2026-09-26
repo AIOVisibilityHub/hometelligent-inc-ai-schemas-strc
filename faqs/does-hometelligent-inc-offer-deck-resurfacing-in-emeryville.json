@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Does Hometelligent Inc. offer deck resurfacing in Emeryville?",
+  "description": "Yes, Hometelligent Inc. provides deck resurfacing in Emeryville, offering on-site consultations to assess conditions and discuss local material options.",
+  "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-deck-resurfacing-in-emeryville",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Hometelligent Inc. offer deck resurfacing in Emeryville?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. proudly offers deck resurfacing services throughout Emeryville and neighboring communities within our service area. Our team is familiar with the common deck types and environmental considerations in the Emeryville region. We conduct on-site consultations to assess your deck's condition, discuss material options suitable for the local climate, and provide a detailed plan and estimate for your specific resurfacing project. This ensures a tailored approach that meets both local requirements and your aesthetic preferences.",
+        "description": "Yes, Hometelligent Inc. provides deck resurfacing in Emeryville, offering on-site consultations to assess conditions and discuss local material options."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

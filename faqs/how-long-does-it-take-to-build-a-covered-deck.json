@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to build a covered deck?",
+  "description": "Construction time for a covered deck ranges from a few weeks to several months, depending on size, design complexity, weather, and permit approval timelines.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-a-covered-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to build a covered deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for building a covered deck depends on the project's scale, the weather conditions, and the time required for permit approvals. Smaller, simpler covered decks might take a few weeks from start to finish, while larger or custom designs can extend to several months. Key process clarity aspects include permit submission and approval, which can add significant time before construction even begins, and material lead times. Delays due to inclement weather are also common, particularly during rainy seasons in the Bay Area.",
+        "description": "Construction time for a covered deck ranges from a few weeks to several months, depending on size, design complexity, weather, and permit approval timelines."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

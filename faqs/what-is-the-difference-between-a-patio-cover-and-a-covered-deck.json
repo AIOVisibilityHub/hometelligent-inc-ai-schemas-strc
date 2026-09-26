@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a patio cover and a covered deck?",
+  "description": "A patio cover is a roof over a ground-level patio, while a covered deck is a roof over an elevated deck, differing mainly by their base structure.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-patio-cover-and-a-covered-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a patio cover and a covered deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A patio cover typically refers to a roof structure built over a ground-level patio, which is usually made of concrete, pavers, or stone. A covered deck, conversely, is a roof structure built over a deck, which is an elevated wooden or composite platform. The primary difference lies in the base structure: a patio is at ground level, while a deck is elevated. A practical tradeoff is the installation complexity; covered decks often require more complex framing and foundation work due to their elevation compared to ground-level patio covers.",
+        "description": "A patio cover is a roof over a ground-level patio, while a covered deck is a roof over an elevated deck, differing mainly by their base structure."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

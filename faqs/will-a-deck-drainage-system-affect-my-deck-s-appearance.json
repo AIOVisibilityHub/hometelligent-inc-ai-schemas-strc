@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will a deck drainage system affect my deck's appearance?",
+  "description": "Over-joist systems are hidden, while under-joist systems are visible from below and can offer a finished ceiling look, impacting the lower space's aesthetic.",
+  "url": "https://hometelligentinc.com/faq/will-a-deck-drainage-system-affect-my-deck-s-appearance",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will a deck drainage system affect my deck's appearance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The impact on your deck's appearance depends on the system chosen. Over-joist systems are virtually invisible from above, as they are installed beneath the decking. Under-joist systems are visible from underneath the deck and can be designed to enhance the aesthetics of the lower space. Some under-joist systems offer a clean, finished ceiling look, often in various colors, while others are more utilitarian. When considering options, evaluate whether you want the under-deck area to be a finished living space, as this will influence the aesthetic considerations and available choices.",
+        "description": "Over-joist systems are hidden, while under-joist systems are visible from below and can offer a finished ceiling look, impacting the lower space's aesthetic."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

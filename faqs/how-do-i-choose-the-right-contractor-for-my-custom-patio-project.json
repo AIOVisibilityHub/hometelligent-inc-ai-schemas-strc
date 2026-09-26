@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for my custom patio project?",
+  "description": "To choose a contractor, review portfolios, check references, ensure licensing, and seek clear communication and detailed proposals, especially in areas like Oak",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-custom-patio-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for my custom patio project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right contractor involves reviewing their portfolio, checking references, and ensuring they are licensed and insured in California. Look for a contractor with experience in custom patio designs and a strong understanding of local building codes in cities like Oakland or San Leandro. It's beneficial to select a company that communicates clearly and offers detailed proposals outlining the scope of work, materials, and timeline, helping you compare options effectively.",
+        "description": "To choose a contractor, review portfolios, check references, ensure licensing, and seek clear communication and detailed proposals, especially in areas like Oakland or San Leandro."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

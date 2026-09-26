@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical lifespan of a redwood deck?",
+  "description": "With proper construction and maintenance, a redwood deck can last 20-30 years or more, depending on materials, climate, and care.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-lifespan-of-a-redwood-deck",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical lifespan of a redwood deck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A properly constructed and well-maintained redwood deck can last 20 to 30 years or even longer. The lifespan is influenced by the quality of the original materials, the construction methods used, local climate conditions, and consistent maintenance. Regular cleaning and sealing are crucial to achieving the maximum possible lifespan for your investment.",
+        "description": "With proper construction and maintenance, a redwood deck can last 20-30 years or more, depending on materials, climate, and care."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

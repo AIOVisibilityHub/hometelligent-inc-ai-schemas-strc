@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for a custom patio?",
+  "description": "Patio maintenance varies by material; concrete needs sealing and cleaning, pavers require polymeric sand touch-ups, and natural stone needs sealing and cleaning",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-custom-patio",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for a custom patio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patio maintenance varies significantly depending on the materials used. Concrete patios generally require sealing every few years and regular cleaning, while paver patios may need occasional polymeric sand touch-ups to prevent weed growth. Natural stone patios often require sealing and periodic cleaning to maintain their appearance and prevent staining. Understanding the maintenance needs of different materials beforehand helps in choosing an option that aligns with your desired upkeep level.",
+        "description": "Patio maintenance varies by material; concrete needs sealing and cleaning, pavers require polymeric sand touch-ups, and natural stone needs sealing and cleaning. Consider upkeep when choosing materials."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

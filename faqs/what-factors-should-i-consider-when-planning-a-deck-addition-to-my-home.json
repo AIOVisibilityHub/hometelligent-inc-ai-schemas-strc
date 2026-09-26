@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors should I consider when planning a deck addition to my home?",
+  "description": "Consider size, location, features, integration with your home, and how you'll use the deck when planning. These factors impact design and function.",
+  "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-planning-a-deck-addition-to-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors should I consider when planning a deck addition to my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When planning a deck addition, consider its size, location, desired features (e.g., stairs, railings, built-in seating), and how it will integrate with your home's architecture. The decision factor includes understanding how you intend to use the deck—for dining, entertaining, or relaxation—as this will influence its design and required footprint. Additionally, think about sun exposure, privacy, and accessibility from your home. These considerations help ensure the deck meets both functional and aesthetic needs.",
+        "description": "Consider size, location, features, integration with your home, and how you'll use the deck when planning. These factors impact design and function."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

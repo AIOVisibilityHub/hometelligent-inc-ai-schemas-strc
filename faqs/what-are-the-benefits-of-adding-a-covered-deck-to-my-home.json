@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of adding a covered deck to my home?",
+  "description": "A covered deck provides extended outdoor living space, weather protection, enhanced aesthetics, and potential home value increase, allowing for year-round enjoy",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-adding-a-covered-deck-to-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of adding a covered deck to my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Adding a covered deck extends your usable outdoor living space, providing protection from sun and rain, which allows for year-round enjoyment. It can enhance your home's aesthetic appeal and potentially increase its market value. Furthermore, a covered deck can create a comfortable area for entertaining guests or simply relaxing outdoors without exposure to harsh elements. A decision factor is how you intend to use the space; a covered deck can become an outdoor dining area, a lounge, or a quiet retreat.",
+        "description": "A covered deck provides extended outdoor living space, weather protection, enhanced aesthetics, and potential home value increase, allowing for year-round enjoyment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
