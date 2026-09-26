@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of countertop materials are best for a kitchen island?",
+  "description": "Top countertop materials include quartz for durability, granite for natural beauty, and butcher block for warmth. Choose based on aesthetics, budget, and use, c",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-countertop-materials-are-best-for-a-kitchen-island",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of countertop materials are best for a kitchen island?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best countertop material for your kitchen island depends on your aesthetic preferences, budget, and intended use. Popular choices include quartz for its durability and low maintenance, granite for its natural beauty and heat resistance, and butcher block for a warm, inviting feel. Consider factors like resistance to scratches, heat, and staining when making your decision. Our team can discuss the pros and cons of each option to help you choose the ideal material for your lifestyle.",
+        "description": "Top countertop materials include quartz for durability, granite for natural beauty, and butcher block for warmth. Choose based on aesthetics, budget, and use, considering scratch, heat, and stain resistance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

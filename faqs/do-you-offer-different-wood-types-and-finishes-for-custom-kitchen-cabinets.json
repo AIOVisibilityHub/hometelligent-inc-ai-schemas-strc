@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do you offer different wood types and finishes for custom kitchen cabinets?",
+  "description": "We offer diverse wood types (maple, cherry, oak, walnut) and finishes (stains, paints, glazes) for custom cabinets, allowing full personalization.",
+  "url": "https://hometelligentinc.com/faq/do-you-offer-different-wood-types-and-finishes-for-custom-kitchen-cabinets",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer different wood types and finishes for custom kitchen cabinets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer a wide range of wood types and finishes to personalize your custom kitchen cabinets. Popular wood options include maple, cherry, oak, and walnut, each offering distinct grain patterns and durability. For finishes, you can choose from stains, paints, glazes, and distressed options to achieve your desired aesthetic. When making your selection, consider not only the visual appeal but also the maintenance requirements and durability of the material and finish, especially in high-traffic kitchen areas in active homes, for a long-lasting result.",
+        "description": "We offer diverse wood types (maple, cherry, oak, walnut) and finishes (stains, paints, glazes) for custom cabinets, allowing full personalization."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

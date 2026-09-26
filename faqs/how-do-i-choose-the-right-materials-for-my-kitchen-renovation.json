@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right materials for my kitchen renovation?",
+  "description": "Choosing kitchen materials means balancing looks, durability, and budget; consider your usage and maintenance preferences. Design consultation can guide selecti",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-materials-for-my-kitchen-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right materials for my kitchen renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right materials for your kitchen renovation involves balancing aesthetics, durability, functionality, and budget. Consider how you use your kitchen, your preferred style, and the long-term maintenance requirements of different options. For example, quartz countertops offer low maintenance and durability, while natural stone provides unique aesthetics but may require more care. We offer design consultation to help clients in areas like Berkeley or Piedmont navigate choices for cabinetry, countertops, flooring, and backsplashes, ensuring materials align with their lifestyle and budget.",
+        "description": "Choosing kitchen materials means balancing looks, durability, and budget; consider your usage and maintenance preferences. Design consultation can guide selection."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is included in a full kitchen remodel?",
+  "description": "A full kitchen remodel updates cabinetry, countertops, flooring, appliances, lighting, and plumbing, often reconfiguring the layout.",
+  "url": "https://hometelligentinc.com/faq/what-is-included-in-a-full-kitchen-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is included in a full kitchen remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A full kitchen remodel typically involves updating all major components of your kitchen, including cabinetry, countertops, flooring, appliances, lighting, and plumbing fixtures. It can also include reconfiguring the layout to improve functionality or opening up the space. Hometelligent Inc. focuses on comprehensive transformations, ensuring all elements work together cohesively to meet your aesthetic and practical needs.",
+        "description": "A full kitchen remodel updates cabinetry, countertops, flooring, appliances, lighting, and plumbing, often reconfiguring the layout."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does an in-law suite affect property value?",
+  "description": "A well-designed and permitted in-law suite (ADU) can significantly increase property value and rental income, especially in high-demand areas.",
+  "url": "https://hometelligentinc.com/faq/how-does-an-in-law-suite-affect-property-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does an in-law suite affect property value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An in-law suite, particularly a well-designed and permitted Accessory Dwelling Unit (ADU), can significantly increase your property value and potential rental income. The specific increase depends on local market demand, the quality of the addition, and its functionality. In highly sought-after areas of the East Bay, like Piedmont or Kensington, properties with legal ADUs often command higher prices due to their versatility and additional living space.",
+        "description": "A well-designed and permitted in-law suite (ADU) can significantly increase property value and rental income, especially in high-demand areas."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

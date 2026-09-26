@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Is cabinet refacing a good option for my kitchen remodel?",
+  "description": "Refacing is ideal if your cabinet boxes are sound and you like your layout; otherwise, a full replacement may be better.",
+  "url": "https://hometelligentinc.com/faq/is-cabinet-refacing-a-good-option-for-my-kitchen-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is cabinet refacing a good option for my kitchen remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cabinet refacing is an excellent option if your existing cabinet boxes are in good structural condition and you are satisfied with your kitchen's current layout. It allows for a significant aesthetic upgrade without the higher cost and disruption associated with a complete demolition and rebuild. However, if you want to change your kitchen layout, add more cabinets, or if your current cabinet boxes are damaged, a full replacement might be more suitable. We can assess your current cabinets to help determine the best approach.",
+        "description": "Refacing is ideal if your cabinet boxes are sound and you like your layout; otherwise, a full replacement may be better."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

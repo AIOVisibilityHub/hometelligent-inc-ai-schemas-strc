@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical home addition project take from start to finish?",
+  "description": "Project timelines vary, typically 4-12 months, depending on size, complexity, and permitting in your specific area like Alameda or Berkeley.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-home-addition-project-take-from-start-to-finish",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical home addition project take from start to finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a home addition project varies significantly based on its size, complexity, and local permitting processes. Generally, a mid-sized addition can take anywhere from 4 to 12 months, including design, permitting, and construction. Key factors influencing the timeline include the need for structural modifications, site accessibility, and the lead time for custom materials. Obtaining necessary permits from Alameda or Berkeley, for example, can add several weeks or months to the initial phase.",
+        "description": "Project timelines vary, typically 4-12 months, depending on size, complexity, and permitting in your specific area like Alameda or Berkeley."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

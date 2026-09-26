@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I prepare my kitchen for an island installation?",
+  "description": "Prepare for island installation by clearing the area, removing interfering flooring, and relocating items. Ensure utility pathways are accessible if new plumbin",
+  "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-kitchen-for-an-island-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I prepare my kitchen for an island installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preparing your kitchen for an island installation typically involves clearing the area where the island will be placed. This includes removing any existing flooring that might interfere with anchoring the island, and temporarily relocating small appliances or kitchen items. If your project involves new plumbing or electrical, ensure pathways for utilities are accessible. We will provide a specific preparation checklist tailored to your project during our initial planning phase to ensure a smooth start.",
+        "description": "Prepare for island installation by clearing the area, removing interfering flooring, and relocating items. Ensure utility pathways are accessible if new plumbing or electrical is involved. We provide a preparation checklist."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

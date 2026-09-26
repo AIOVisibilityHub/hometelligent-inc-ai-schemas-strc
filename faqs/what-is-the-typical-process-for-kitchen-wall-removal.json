@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for kitchen wall removal?",
+  "description": "The process involves assessment, structural planning if needed, permits, demolition, and structural reinforcement. Permits and engineering can affect the timeli",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-kitchen-wall-removal",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for kitchen wall removal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The typical process for kitchen wall removal involves an initial consultation and site assessment to determine if the wall is load-bearing. If it is, structural plans will be needed, often requiring a structural engineer. Next, permits are obtained, followed by demolition. Finally, necessary structural reinforcements like new headers or posts are installed, and finishing work is completed. As a process clarity detail, the need for structural engineering and permits can significantly impact the project timeline.",
+        "description": "The process involves assessment, structural planning if needed, permits, demolition, and structural reinforcement. Permits and engineering can affect the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

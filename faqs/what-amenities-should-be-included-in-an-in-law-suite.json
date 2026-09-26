@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What amenities should be included in an in-law suite?",
+  "description": "An in-law suite should include a private bedroom, bathroom, living area, and potentially a kitchenette or full kitchen, with accessibility features considered.",
+  "url": "https://hometelligentinc.com/faq/what-amenities-should-be-included-in-an-in-law-suite",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What amenities should be included in an in-law suite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential amenities for an in-law suite typically include a private bedroom, a full bathroom, and a functional living area. Depending on the intended use and local regulations, a kitchenette with a sink, mini-fridge, and microwave, or a full kitchen, may also be included. Homeowners should consider the long-term needs of the occupants; for example, ensuring accessibility features are integrated during the design phase for aging family members is a practical tradeoff that adds future value.",
+        "description": "An in-law suite should include a private bedroom, bathroom, living area, and potentially a kitchenette or full kitchen, with accessibility features considered."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

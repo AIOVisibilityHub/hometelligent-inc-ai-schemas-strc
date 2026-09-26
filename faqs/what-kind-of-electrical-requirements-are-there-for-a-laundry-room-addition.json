@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of electrical requirements are there for a laundry room addition?",
+  "description": "Laundry rooms need dedicated 240-volt circuits for electric dryers and 120-volt circuits for washers, plus outlets for lighting. All electrical work must meet s",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-electrical-requirements-are-there-for-a-laundry-room-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of electrical requirements are there for a laundry room addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A laundry room addition typically requires dedicated electrical circuits for washing machines and dryers to handle their high power consumption safely. Most electric dryers require a 240-volt circuit, while washing machines usually need a 120-volt circuit. Additionally, you'll need standard outlets for lighting, ironing, and potentially other small appliances. It's crucial that all electrical work adheres to current safety codes, such as the National Electrical Code (NEC) adopted by local jurisdictions like Alameda and Dublin, to prevent overloads and ensure safety.",
+        "description": "Laundry rooms need dedicated 240-volt circuits for electric dryers and 120-volt circuits for washers, plus outlets for lighting. All electrical work must meet safety codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

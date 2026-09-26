@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a kitchen expansion project usually take?",
+  "description": "Kitchen expansion projects typically take several months, varying with scale, permits, material availability, and structural complexity.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-kitchen-expansion-project-usually-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a kitchen expansion project usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A kitchen expansion project typically takes several months, from initial design to final construction. This timeline depends on the project's scale, the need for permits, material lead times, and the complexity of integrating new and existing structures. For example, a major addition in Berkeley involving significant structural work and utility relocation will generally take longer than a simple bump-out in Alameda. We prioritize clear communication regarding timelines throughout the project.",
+        "description": "Kitchen expansion projects typically take several months, varying with scale, permits, material availability, and structural complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

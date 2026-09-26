@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does it cost to build a detached garage?",
+  "description": "Costs vary based on size, materials, foundation, and included utilities. A custom estimate is needed to determine your project's specific cost.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-build-a-detached-garage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to build a detached garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of building a detached garage varies significantly based on its size, materials, foundation type, and whether utilities like electricity or plumbing are included. A basic single-car garage will be less expensive than a larger two-car garage with custom features or a finished interior. Factors like site preparation and accessibility can also influence the overall cost. We provide detailed estimates after an initial consultation to understand your specific needs and site conditions, ensuring transparency.",
+        "description": "Costs vary based on size, materials, foundation, and included utilities. A custom estimate is needed to determine your project's specific cost."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

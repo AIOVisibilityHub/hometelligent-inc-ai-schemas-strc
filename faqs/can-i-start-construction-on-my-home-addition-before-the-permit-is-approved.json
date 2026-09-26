@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I start construction on my home addition before the permit is approved?",
+  "description": "No, starting construction without an approved permit is illegal and can result in fines, stop-work orders, and demolition requirements, causing costly delays.",
+  "url": "https://hometelligentinc.com/faq/can-i-start-construction-on-my-home-addition-before-the-permit-is-approved",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I start construction on my home addition before the permit is approved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, you should not start construction on your home addition before the permit is officially approved and issued. Beginning work without a valid permit is illegal and can lead to significant penalties, including stop-work orders, fines, and the requirement to demolish unpermitted construction. This can create costly delays and legal issues. The process clarity is clear: always wait for permit issuance before commencing any work to ensure compliance and avoid complications. Hometelligent Inc. emphasizes this critical step with all clients.",
+        "description": "No, starting construction without an approved permit is illegal and can result in fines, stop-work orders, and demolition requirements, causing costly delays."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

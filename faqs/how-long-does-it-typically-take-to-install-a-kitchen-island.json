@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it typically take to install a kitchen island?",
+  "description": "Installation time varies, from a few days for simple islands to several weeks for custom designs with utility modifications, which require coordination of trade",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-install-a-kitchen-island",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it typically take to install a kitchen island?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The typical duration for kitchen island installation varies depending on the project's scope. A straightforward, pre-fabricated island installation without utility modifications might take a few days. However, custom designs, especially those requiring new electrical outlets, plumbing for a sink, or gas lines for a cooktop, can extend the timeline to several weeks due to the need for multiple trades and inspections. We coordinate all necessary sub-contractors to streamline the process.",
+        "description": "Installation time varies, from a few days for simple islands to several weeks for custom designs with utility modifications, which require coordination of trades and inspections."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

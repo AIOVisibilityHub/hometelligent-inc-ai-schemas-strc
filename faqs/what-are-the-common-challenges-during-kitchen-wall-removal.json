@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common challenges during kitchen wall removal?",
+  "description": "Challenges include load-bearing issues, rerouting utilities, matching finishes, and handling unexpected materials like asbestos. These impact project scope.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-during-kitchen-wall-removal",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common challenges during kitchen wall removal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common challenges during kitchen wall removal include identifying and properly handling load-bearing walls, rerouting electrical wiring, plumbing pipes, or HVAC ducts found within the wall, and matching existing flooring or ceiling materials after the wall is gone. Unexpected discoveries, such as asbestos or lead paint, can also arise and require specialized handling. Recognizing these potential issues is a key part of process clarity, helping manage expectations for project scope and timeline.",
+        "description": "Challenges include load-bearing issues, rerouting utilities, matching finishes, and handling unexpected materials like asbestos. These impact project scope."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

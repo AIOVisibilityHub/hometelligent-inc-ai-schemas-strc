@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the typical costs associated with obtaining a home addition permit?",
+  "description": "Permit costs include application, plan review, and inspection fees, plus professional services like architectural design and engineering, all varying by project",
+  "url": "https://hometelligentinc.com/faq/what-are-the-typical-costs-associated-with-obtaining-a-home-addition-permit",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the typical costs associated with obtaining a home addition permit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The costs associated with obtaining a home addition permit include application fees, plan review fees, and inspection fees, which are determined by your local city or county building department, such as in Fremont or Livermore. These fees are usually calculated based on the project's valuation or square footage. Additionally, you may incur costs for professional services like architectural design, structural engineering, and surveying, which are necessary to produce the required plans. Considering these diverse cost components early allows for accurate budgeting.",
+        "description": "Permit costs include application, plan review, and inspection fees, plus professional services like architectural design and engineering, all varying by project scope and jurisdiction."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

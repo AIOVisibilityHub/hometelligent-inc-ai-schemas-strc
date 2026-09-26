@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors should I consider before expanding my garage?",
+  "description": "Before expanding, consider your needs, local zoning, budget, and the impact on your property's aesthetic and functionality. Hometelligent can help evaluate opti",
+  "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-before-expanding-my-garage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors should I consider before expanding my garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before expanding your garage, consider several decision factors, including your specific needs for the extra space (e.g., vehicle storage, workshop, home gym), local zoning and setback requirements, and your budget. It's important to assess how the expansion will impact your property's overall aesthetic and functionality, as well as potential effects on natural light to adjacent living spaces or yard access. Hometelligent offers consultations to help you evaluate these considerations.",
+        "description": "Before expanding, consider your needs, local zoning, budget, and the impact on your property's aesthetic and functionality. Hometelligent can help evaluate options."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

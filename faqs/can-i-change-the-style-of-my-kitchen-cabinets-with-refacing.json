@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I change the style of my kitchen cabinets with refacing?",
+  "description": "Yes, refacing lets you change cabinet door styles and finishes, but not the physical layout of the boxes.",
+  "url": "https://hometelligentinc.com/faq/can-i-change-the-style-of-my-kitchen-cabinets-with-refacing",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I change the style of my kitchen cabinets with refacing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, cabinet refacing allows for a significant change in the style of your kitchen cabinets. You can select entirely new door and drawer front styles, from contemporary slab doors to traditional shaker designs. We also offer a wide range of colors and finishes to match your new aesthetic. However, refacing does not allow for changes to the physical layout or size of your cabinet boxes. If you want to alter the kitchen's footprint, a full cabinet replacement would be necessary.",
+        "description": "Yes, refacing lets you change cabinet door styles and finishes, but not the physical layout of the boxes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

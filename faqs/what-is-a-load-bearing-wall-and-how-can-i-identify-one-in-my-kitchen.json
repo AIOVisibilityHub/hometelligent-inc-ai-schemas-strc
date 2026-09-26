@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a load-bearing wall, and how can I identify one in my kitchen?",
+  "description": "A load-bearing wall supports structural weight. Identifying one requires professional inspection to ensure your home's safety and integrity.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-load-bearing-wall-and-how-can-i-identify-one-in-my-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a load-bearing wall, and how can I identify one in my kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A load-bearing wall supports the weight from upper floors or the roof, transferring it down to the foundation. Removing it requires structural reinforcement. While visible indicators like walls directly over a foundation or those supporting joists can suggest a load-bearing function, a definitive assessment requires professional inspection. Hometelligent Inc. provides expert evaluation to accurately determine if a wall is load-bearing before any removal plans are made, ensuring the structural integrity of your home.",
+        "description": "A load-bearing wall supports structural weight. Identifying one requires professional inspection to ensure your home's safety and integrity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

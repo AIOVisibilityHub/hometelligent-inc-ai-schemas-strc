@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I build an attached or detached in-law suite?",
+  "description": "Choosing between attached or detached in-law suites depends on property layout, budget, and privacy needs; detached offers more privacy but can be costlier.",
+  "url": "https://hometelligentinc.com/faq/should-i-build-an-attached-or-detached-in-law-suite",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I build an attached or detached in-law suite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The choice between an attached or detached in-law suite depends on your property layout, budget, and desired level of privacy. An attached suite, potentially converting existing space or adding onto the main house, can be more cost-effective as it shares utilities and walls. A detached unit, while offering maximum privacy, typically involves more extensive foundation and utility work. For clients in dense areas like Berkeley or Oakland, property setbacks and available yard space are crucial decision factors.",
+        "description": "Choosing between attached or detached in-law suites depends on property layout, budget, and privacy needs; detached offers more privacy but can be costlier."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

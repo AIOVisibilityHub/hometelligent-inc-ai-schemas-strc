@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a kitchen addition?",
+  "description": "A kitchen addition expands your home's footprint to create a larger or entirely new kitchen space, often chosen for improved functionality and design.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-kitchen-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a kitchen addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A kitchen addition expands your home's footprint to create a larger or entirely new kitchen space. This can involve extending an existing wall, adding a bump-out, or constructing a completely new room. It's often chosen when the current kitchen is too small, poorly laid out, or lacks desired features, allowing for significant improvements in functionality and design. Considering the scope, Hometelligent Inc. prioritizes a comprehensive initial consultation to align the addition's design with your home's existing structure and your specific needs, ensuring a cohesive and functional outcome.",
+        "description": "A kitchen addition expands your home's footprint to create a larger or entirely new kitchen space, often chosen for improved functionality and design."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do structural additions impact my home's value?",
+  "description": "Structural additions can significantly increase home value by adding square footage and modern amenities, with ROI dependent on quality and market demand.",
+  "url": "https://hometelligentinc.com/faq/how-do-structural-additions-impact-my-home-s-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do structural additions impact my home's value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Structural additions can significantly increase your home's value by adding usable square footage and modern amenities. The return on investment depends on factors like the quality of the addition, its seamless integration with the existing structure, and market demand in your specific area, such as Walnut Creek or Lafayette. Well-designed additions that align with neighborhood standards generally yield a strong return, especially if they add desirable features like extra bedrooms or bathrooms.",
+        "description": "Structural additions can significantly increase home value by adding square footage and modern amenities, with ROI dependent on quality and market demand."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of kitchen cabinet installation?",
+  "description": "Cost factors include cabinet type, kitchen size, layout, structural modifications, and labor complexity.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-kitchen-cabinet-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of kitchen cabinet installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of kitchen cabinet installation is influenced by several factors, including the type of cabinets chosen (stock, semi-custom, or custom), the size and layout of your kitchen, and any additional structural modifications needed. Labor costs also vary based on the complexity of the installation, such as intricate designs or difficult-to-access areas. For instance, installations requiring significant wall modifications or electrical work in older homes in Oakland can increase costs. We provide a detailed estimate after assessing your specific project needs.",
+        "description": "Cost factors include cabinet type, kitchen size, layout, structural modifications, and labor complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

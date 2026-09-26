@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What measures does Hometelligent Inc. take to minimize disruption during construction?",
+  "description": "We minimize disruption by establishing work zones, using dust barriers, scheduling noisy activities, and maintaining clear communication and a tidy worksite.",
+  "url": "https://hometelligentinc.com/faq/what-measures-does-hometelligent-inc-take-to-minimize-disruption-during-construc",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What measures does Hometelligent Inc. take to minimize disruption during construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. implements several measures to minimize disruption during construction. This includes establishing clear work zones, using dust barriers, and scheduling noisy activities during specific times. We also ensure clear communication regarding project progress, potential impacts, and anticipated timelines. Our team strives to maintain a tidy worksite and adheres to local noise ordinances and working hours, particularly in residential neighborhoods across our service areas, to respect our clients' daily lives and neighbors.",
+        "description": "We minimize disruption by establishing work zones, using dust barriers, scheduling noisy activities, and maintaining clear communication and a tidy worksite."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

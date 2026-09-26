@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit to remove a load-bearing wall in Alameda?",
+  "description": "Yes, a permit is always required to remove a load-bearing wall in Alameda and other service areas to ensure safety and code compliance.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-remove-a-load-bearing-wall-in-alameda",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit to remove a load-bearing wall in Alameda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, removing a load-bearing wall in Alameda, or any of the cities we serve, absolutely requires a building permit. This is crucial for safety and compliance with local building codes. Hometelligent Inc. assists clients in navigating the permitting process, which typically involves submitting structural plans and obtaining approvals from the city's building department. Failure to secure proper permits can result in fines, project delays, or even the requirement to rebuild the wall.",
+        "description": "Yes, a permit is always required to remove a load-bearing wall in Alameda and other service areas to ensure safety and code compliance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

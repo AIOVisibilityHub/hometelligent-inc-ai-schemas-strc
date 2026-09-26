@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need permits for my kitchen renovation?",
+  "description": "Permits are usually needed for kitchen renovations that alter plumbing, electrical, or structural elements; simple cosmetic changes may not require them.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-my-kitchen-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need permits for my kitchen renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permits are often required for kitchen renovations, especially if the project involves changes to plumbing, electrical, or structural elements, or if new square footage is added. Simple cosmetic updates like painting or replacing cabinets in their existing layout may not require permits. We can assist with determining specific permit requirements for your city, whether you are in San Leandro, Hayward, or another community, and manage the application process to ensure compliance with local building codes. This helps avoid delays and ensures safety standards are met.",
+        "description": "Permits are usually needed for kitchen renovations that alter plumbing, electrical, or structural elements; simple cosmetic changes may not require them."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

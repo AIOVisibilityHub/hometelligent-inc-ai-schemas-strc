@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do you offer cabinet installation for both new construction and kitchen remodels?",
+  "description": "We install cabinets for both new construction and kitchen remodels, adapting our process to each project's specific demands.",
+  "url": "https://hometelligentinc.com/faq/do-you-offer-cabinet-installation-for-both-new-construction-and-kitchen-remodels",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer cabinet installation for both new construction and kitchen remodels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide kitchen cabinet installation services for both new construction projects and existing kitchen remodels. For new construction, our team works directly with builders and homeowners to integrate cabinet installation seamlessly into the overall building schedule. For remodels, we assess existing conditions, such as wall integrity and plumbing locations, to ensure a smooth transition. Our approach is tailored to the specific demands of each project, whether it's a complete overhaul in a Hayward residence or the final touches on a brand new build, ensuring proper fit and finish in both scenarios.",
+        "description": "We install cabinets for both new construction and kitchen remodels, adapting our process to each project's specific demands."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

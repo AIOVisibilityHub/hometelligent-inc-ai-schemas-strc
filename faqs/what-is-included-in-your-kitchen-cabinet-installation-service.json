@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is included in your kitchen cabinet installation service?",
+  "description": "Our service includes precise placement, leveling, and securing of cabinets, doors, drawers, trim, molding, and hardware, with a final walkthrough.",
+  "url": "https://hometelligentinc.com/faq/what-is-included-in-your-kitchen-cabinet-installation-service",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is included in your kitchen cabinet installation service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our kitchen cabinet installation service includes the precise placement, leveling, and securing of all cabinet boxes, doors, and drawers according to your approved design plans. This also covers the installation of associated trim, molding, and hardware. We ensure all cabinets are plumb and level, and that doors and drawers operate smoothly. We also conduct a final walkthrough with you to ensure your satisfaction with the completed installation. This service focuses on the structural and aesthetic fitting of the cabinets, but does not include plumbing, electrical, or countertop installation.",
+        "description": "Our service includes precise placement, leveling, and securing of cabinets, doors, drawers, trim, molding, and hardware, with a final walkthrough."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

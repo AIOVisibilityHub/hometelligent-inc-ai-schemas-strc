@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are available for cabinet refacing?",
+  "description": "Materials for cabinet refacing include solid wood, thermofoil, laminate, and wood veneer, each with different durability and appearance.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-available-for-cabinet-refacing",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are available for cabinet refacing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a variety of materials for cabinet refacing, including solid wood, thermofoil, laminate, and wood veneer. Each material has distinct characteristics regarding durability, appearance, and cost. For example, solid wood offers a classic, high-end look but requires more maintenance, while thermofoil provides a consistent finish and is easier to clean. When making a decision, consider your budget, aesthetic preferences, and how much wear and tear your kitchen cabinets typically endure. We can guide you through the pros and cons of each option.",
+        "description": "Materials for cabinet refacing include solid wood, thermofoil, laminate, and wood veneer, each with different durability and appearance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for ensuring a new addition matches my existing home's style?",
+  "description": "Matching a new addition's style involves careful architectural design and material selection to seamlessly blend with your existing home's exterior finishes and",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-ensuring-a-new-addition-matches-my-existing-home-s-style",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for ensuring a new addition matches my existing home's style?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ensuring a new addition matches your existing home's style involves careful architectural design and material selection. Our team works to seamlessly blend the new structure with the original by matching exterior finishes, roofing materials, window styles, and trim details. This includes considering aspects like roof pitch, eave details, and paint colors. We prioritize maintaining architectural continuity to enhance curb appeal and property value.",
+        "description": "Matching a new addition's style involves careful architectural design and material selection to seamlessly blend with your existing home's exterior finishes and details."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

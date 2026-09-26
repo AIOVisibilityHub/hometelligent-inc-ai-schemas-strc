@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the potential costs associated with removing a load-bearing wall?",
+  "description": "Costs vary based on wall size, beam type, and utility rerouting, including engineering, permits, demolition, materials, labor, and finishing.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-potential-costs-associated-with-removing-a-load-bearing-wall",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the potential costs associated with removing a load-bearing wall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of removing a load-bearing wall varies widely, influenced by factors such as the wall's length, the type of support beam required (e.g., steel vs. wood), and the complexity of rerouting electrical or plumbing lines within the wall. This typically includes structural engineering fees, permit costs, demolition, material costs for the new beam, installation labor, and finishing work like drywall repair and painting. Hometelligent Inc. provides transparent, detailed estimates after an initial consultation and structural assessment.",
+        "description": "Costs vary based on wall size, beam type, and utility rerouting, including engineering, permits, demolition, materials, labor, and finishing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

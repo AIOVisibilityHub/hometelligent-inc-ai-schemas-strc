@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does kitchen cabinet refacing cost?",
+  "description": "Cabinet refacing costs vary by kitchen size and materials, typically 30-50% less than full replacement.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-kitchen-cabinet-refacing-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does kitchen cabinet refacing cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of kitchen cabinet refacing varies based on the size of your kitchen, the materials you select, and the complexity of the installation. Generally, refacing is 30% to 50% less expensive than replacing all cabinets. For example, solid wood veneers and doors will be at the higher end, while laminate or thermofoil options can be more budget-friendly. To get an accurate estimate, we offer free consultations where we can measure your kitchen and discuss your material preferences and any desired hardware updates.",
+        "description": "Cabinet refacing costs vary by kitchen size and materials, typically 30-50% less than full replacement."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will a kitchen expansion increase my home's value?",
+  "description": "A well-executed kitchen expansion can significantly increase home value, especially in competitive markets, due to enhanced space and functionality.",
+  "url": "https://hometelligentinc.com/faq/will-a-kitchen-expansion-increase-my-home-s-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will a kitchen expansion increase my home's value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a well-executed kitchen expansion can significantly increase your home's value and appeal to potential buyers. Kitchens are often considered the heart of the home, and an updated, larger, and more functional space is a major selling point. The return on investment varies by market and project quality. In areas like Dublin or Pleasanton, where demand for modern, spacious homes is high, a quality expansion by Hometelligent Inc. can yield a strong return.",
+        "description": "A well-executed kitchen expansion can significantly increase home value, especially in competitive markets, due to enhanced space and functionality."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical timeline for detached garage construction?",
+  "description": "Construction usually takes a few weeks to several months, depending on garage size, complexity, and permit processing times.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeline-for-detached-garage-construction",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical timeline for detached garage construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The construction timeline for a detached garage can range from a few weeks to several months, depending on its complexity, size, and the permitting process. Simple, pre-fabricated garages can be quicker, while custom-built structures with utilities and specialized finishes take longer. Weather conditions, material availability, and the efficiency of local permit offices in areas like Oakland or Hayward can also impact the schedule. A detailed project schedule will be provided once the scope is defined.",
+        "description": "Construction usually takes a few weeks to several months, depending on garage size, complexity, and permit processing times."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

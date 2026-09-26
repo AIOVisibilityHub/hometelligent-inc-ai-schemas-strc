@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a waterfall kitchen island and why is it popular?",
+  "description": "A waterfall kitchen island has a countertop that extends down the sides to the floor, popular for its modern, seamless look.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-waterfall-kitchen-island-and-why-is-it-popular",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a waterfall kitchen island and why is it popular?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A waterfall kitchen island features a countertop material that extends vertically down the sides of the island to the floor, creating a continuous, seamless look. This design is popular for its sleek, modern aesthetic and its ability to showcase premium countertop materials. For homeowners in areas like Alameda and Berkeley, it's often chosen to create a contemporary focal point, enhancing the overall design of an open-concept living space.",
+        "description": "A waterfall kitchen island has a countertop that extends down the sides to the floor, popular for its modern, seamless look."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

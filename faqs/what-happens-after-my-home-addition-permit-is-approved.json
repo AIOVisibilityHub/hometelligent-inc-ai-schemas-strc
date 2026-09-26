@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What happens after my home addition permit is approved?",
+  "description": "After permit approval, post the permit at the site, begin construction, and schedule required inspections at various stages to ensure code compliance.",
+  "url": "https://hometelligentinc.com/faq/what-happens-after-my-home-addition-permit-is-approved",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens after my home addition permit is approved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Once your home addition permit is approved, you will typically receive a physical permit to post at your job site. After this, construction can begin according to the approved plans. Throughout the construction process, various inspections will be required at different stages to ensure work complies with codes. These inspections, ranging from foundation to framing and final, are crucial for project success. A key process clarity point is that coordinating these inspections with your contractor and the building department is essential to keep your project moving forward without delays.",
+        "description": "After permit approval, post the permit at the site, begin construction, and schedule required inspections at various stages to ensure code compliance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

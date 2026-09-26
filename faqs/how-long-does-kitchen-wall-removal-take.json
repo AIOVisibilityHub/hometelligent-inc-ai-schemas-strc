@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does kitchen wall removal take?",
+  "description": "Timeline depends on load-bearing status, engineering, permits, and repair complexity. Permit approval times are a key factor affecting duration.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-kitchen-wall-removal-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does kitchen wall removal take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for kitchen wall removal depends on several factors, including whether the wall is load-bearing, the need for structural engineering, permit acquisition time, and the complexity of associated repairs. A non-load-bearing wall removal might take a few days for demolition and basic finishing. A load-bearing wall project, including engineering, permits, structural modifications, and extensive finishing, could take several weeks. Permit approval times are a significant factor that can delay the start of physical work, highlighting a process clarity detail.",
+        "description": "Timeline depends on load-bearing status, engineering, permits, and repair complexity. Permit approval times are a key factor affecting duration."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

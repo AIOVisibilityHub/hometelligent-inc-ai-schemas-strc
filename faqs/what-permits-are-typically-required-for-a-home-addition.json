@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What permits are typically required for a home addition?",
+  "description": "Various permits (building, electrical, plumbing, zoning) are typically required, varying by project and local regulations in places like Oakland or Berkeley.",
+  "url": "https://hometelligentinc.com/faq/what-permits-are-typically-required-for-a-home-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What permits are typically required for a home addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Home additions typically require various permits, including building permits, electrical permits, plumbing permits, and sometimes zoning or planning permits, depending on the scope and local regulations. For example, in Oakland or Berkeley, specific hillside ordinances or historical district requirements might apply. We manage the entire permitting process, submitting all necessary documentation to the relevant municipal departments. The exact permits needed are determined during the design and planning phase based on your project's details.",
+        "description": "Various permits (building, electrical, plumbing, zoning) are typically required, varying by project and local regulations in places like Oakland or Berkeley."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

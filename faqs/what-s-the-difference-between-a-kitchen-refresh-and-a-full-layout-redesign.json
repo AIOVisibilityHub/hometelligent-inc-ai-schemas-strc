@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What's the difference between a kitchen refresh and a full layout redesign?",
+  "description": "A kitchen refresh updates cosmetics without changing the layout, while a full redesign alters the physical footprint, potentially moving walls and utilities. A",
+  "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-a-kitchen-refresh-and-a-full-layout-redesign",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the difference between a kitchen refresh and a full layout redesign?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A kitchen refresh typically involves cosmetic updates like painting cabinets, replacing countertops, or upgrading appliances without altering the existing layout. It's a less invasive and often more budget-friendly option. A full layout redesign, however, involves changing the physical footprint of the kitchen, potentially moving walls, plumbing, and electrical lines to create a completely new functional space. While more extensive, a redesign offers greater flexibility to optimize workflow and aesthetic dramatically.",
+        "description": "A kitchen refresh updates cosmetics without changing the layout, while a full redesign alters the physical footprint, potentially moving walls and utilities. A redesign offers greater functional and aesthetic flexibility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

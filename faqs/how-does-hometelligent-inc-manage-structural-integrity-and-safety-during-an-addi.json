@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does Hometelligent Inc. manage structural integrity and safety during an addition?",
+  "description": "Hometelligent Inc. manages structural integrity and safety by using licensed structural engineers, adhering to building codes, and conducting regular inspection",
+  "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-manage-structural-integrity-and-safety-during-an-addi",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does Hometelligent Inc. manage structural integrity and safety during an addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. prioritizes structural integrity and safety throughout every addition project. We work with licensed structural engineers to design plans that meet or exceed all local building codes and seismic requirements specific to the Bay Area. Our construction process includes regular inspections by city officials and our own project managers to ensure compliance. We employ experienced tradespeople and use high-quality materials to guarantee the long-term stability and safety of your expanded home.",
+        "description": "Hometelligent Inc. manages structural integrity and safety by using licensed structural engineers, adhering to building codes, and conducting regular inspections."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

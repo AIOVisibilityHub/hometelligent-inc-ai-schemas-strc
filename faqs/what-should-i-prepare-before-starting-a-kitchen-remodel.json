@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before starting a kitchen remodel?",
+  "description": "Prepare by defining your budget, style, and functional needs. Gather inspiration and list 'must-haves' to streamline the process.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-starting-a-kitchen-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before starting a kitchen remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting a kitchen remodel, it's beneficial to have a clear idea of your budget, desired style, and functional needs. Gather inspiration photos, make a list of 'must-haves' versus 'nice-to-haves,' and consider how you'll manage without a functional kitchen during construction. Having these details ready helps streamline the design consultation and material selection phases with your contractor.",
+        "description": "Prepare by defining your budget, style, and functional needs. Gather inspiration and list 'must-haves' to streamline the process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

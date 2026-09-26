@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for preparing the site for a new foundation?",
+  "description": "Site preparation involves clearing, excavation, and grading. Poor soil may require additional compaction or engineered fill, affecting project scope and cost.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-preparing-the-site-for-a-new-foundation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for preparing the site for a new foundation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Site preparation for a new foundation typically begins with clearing the area of debris, vegetation, and any existing structures. This is followed by excavation to the required depth for footings and foundations, and then grading to ensure proper drainage away from the future structure. Poor soil conditions often necessitate additional steps like soil compaction or the import of engineered fill, which can significantly impact the project timeline and cost. Hometelligent Inc. assesses these factors during the initial consultation to provide a clear project scope.",
+        "description": "Site preparation involves clearing, excavation, and grading. Poor soil may require additional compaction or engineered fill, affecting project scope and cost."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

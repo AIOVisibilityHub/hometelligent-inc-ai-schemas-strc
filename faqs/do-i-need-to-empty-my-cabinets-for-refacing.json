@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to empty my cabinets for refacing?",
+  "description": "Yes, empty your cabinets and drawers before refacing to allow access and protect your belongings from dust.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-empty-my-cabinets-for-refacing",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to empty my cabinets for refacing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you should empty your cabinets and drawers before the refacing process begins. This allows our team full access to the cabinet boxes for cleaning and veneer application, and protects your belongings from dust and debris generated during the work. While we take measures to minimize mess, removing all items ensures a smoother and more efficient installation. We recommend organizing and storing your kitchen items in an accessible area during the project.",
+        "description": "Yes, empty your cabinets and drawers before refacing to allow access and protect your belongings from dust."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

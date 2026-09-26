@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I expand my existing garage or build a new detached garage?",
+  "description": "Expanding an existing garage can be more cost-effective, while a new detached garage offers more design flexibility. Consider budget and lot configuration.",
+  "url": "https://hometelligentinc.com/faq/should-i-expand-my-existing-garage-or-build-a-new-detached-garage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I expand my existing garage or build a new detached garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deciding between expanding an attached garage or building a new detached garage involves several practical tradeoffs. Expanding an existing garage might be more cost-effective as it utilizes existing infrastructure and reduces foundation work. However, a detached garage offers more flexibility in placement and design, and can be easier to permit if your property has ample space and fewer setback restrictions. Consider your budget, desired use, and lot configuration when making this decision.",
+        "description": "Expanding an existing garage can be more cost-effective, while a new detached garage offers more design flexibility. Consider budget and lot configuration."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

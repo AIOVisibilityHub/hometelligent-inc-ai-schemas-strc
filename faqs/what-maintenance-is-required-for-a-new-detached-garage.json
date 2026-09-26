@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for a new detached garage?",
+  "description": "Maintenance includes inspecting the roof, siding, and foundation, maintaining drainage, and ensuring proper function of doors and windows.",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-new-detached-garage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for a new detached garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintaining a new detached garage primarily involves routine checks and preventative measures to ensure its longevity. This includes inspecting the roof for leaks, checking siding and paint for wear, maintaining drainage around the foundation, and ensuring doors and windows operate smoothly. Regular cleaning, occasional resealing of concrete, and prompt repair of any minor issues will prevent larger problems. A well-maintained garage protects your investment and ensures its continued functionality.",
+        "description": "Maintenance includes inspecting the roof, siding, and foundation, maintaining drainage, and ensuring proper function of doors and windows."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

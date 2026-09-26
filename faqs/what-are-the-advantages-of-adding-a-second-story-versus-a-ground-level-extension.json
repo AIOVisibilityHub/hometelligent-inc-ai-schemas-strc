@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the advantages of adding a second story versus a ground-level extension?",
+  "description": "A second-story addition maximizes living space on a smaller lot but involves more complex structural work compared to a ground-level extension.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-advantages-of-adding-a-second-story-versus-a-ground-level-extension",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the advantages of adding a second story versus a ground-level extension?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing between a second-story addition and a ground-level extension often depends on your property's lot size, existing setbacks, and desired outcome. A second-story addition maximizes living space without encroaching on yard space, which can be a significant advantage in densely populated areas like Emeryville or Piedmont. However, it typically involves more complex structural work and temporary disruption to your home. A ground-level extension might be simpler structurally but will reduce your outdoor area.",
+        "description": "A second-story addition maximizes living space on a smaller lot but involves more complex structural work compared to a ground-level extension."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
