@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between 'no-VOC' and 'low-VOC' materials?",
+  "description": "'No-VOC' means VOCs are below detection limits, while 'low-VOC' means they are below a specific threshold. 'Low-VOC' offers a practical balance of performance a",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-no-voc-and-low-voc-materials",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between 'no-VOC' and 'low-VOC' materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "'No-VOC' typically means the product contains VOCs below the measurable detection limit set by certain standards (often less than 5 g/L). 'Low-VOC' means the product contains VOCs below a specific threshold, which is significantly lower than traditional products but still measurable. A practical tradeoff is that while 'no-VOC' offers the lowest possible emissions, 'low-VOC' options are widely available and often provide an excellent balance of performance and environmental benefit, making them a practical choice for many projects.",
+        "description": "'No-VOC' means VOCs are below detection limits, while 'low-VOC' means they are below a specific threshold. 'Low-VOC' offers a practical balance of performance and environmental benefit."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

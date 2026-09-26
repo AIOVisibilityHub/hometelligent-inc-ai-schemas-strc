@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I expect during the retrofit construction phase?",
+  "description": "During construction, expect foundation work and bracing. The coordinator oversees the project, manages issues, and ensures compliance with plans and inspections",
+  "url": "https://hometelligentinc.com/faq/what-should-i-expect-during-the-retrofit-construction-phase",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I expect during the retrofit construction phase?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During the construction phase, expect various activities such as excavation around the foundation, installation of foundation bolts, cripple wall bracing, and potential concrete work. The coordinator will oversee the project, conduct site visits, address any unforeseen issues, and ensure the work aligns with approved plans and local building inspections. Clear communication from your coordinator will keep you informed of progress and any necessary adjustments.",
+        "description": "During construction, expect foundation work and bracing. The coordinator oversees the project, manages issues, and ensures compliance with plans and inspections."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

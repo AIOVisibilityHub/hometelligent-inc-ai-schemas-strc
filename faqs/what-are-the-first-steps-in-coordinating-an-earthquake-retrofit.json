@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the first steps in coordinating an earthquake retrofit?",
+  "description": "The first steps involve a property assessment to identify vulnerabilities, followed by developing a detailed retrofit plan for permit applications.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-first-steps-in-coordinating-an-earthquake-retrofit",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the first steps in coordinating an earthquake retrofit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The first steps in coordinating an earthquake retrofit involve an initial assessment of your property to identify vulnerabilities, such as unbraced cripple walls or inadequate foundation anchorage. This assessment will help determine the scope of work needed. After the assessment, a detailed plan is developed, outlining the specific retrofitting techniques and materials required, which forms the basis for permit applications.",
+        "description": "The first steps involve a property assessment to identify vulnerabilities, followed by developing a detailed retrofit plan for permit applications."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

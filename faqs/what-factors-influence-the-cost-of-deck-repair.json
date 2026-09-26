@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of deck repair?",
+  "description": "Cost factors include damage extent, material type (e.g., redwood, composite), and labor for structural versus superficial repairs.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-deck-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of deck repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of deck repair is influenced by several factors, including the type and extent of damage, the materials needed for replacement, and the labor involved. Repairs requiring structural reinforcement, such as replacing joists or support posts, will be more expensive than superficial board replacements. The choice of decking material, such as redwood, composite, or pressure-treated lumber, also affects the total cost. Hometelligent Inc. provides detailed estimates based on these variables.",
+        "description": "Cost factors include damage extent, material type (e.g., redwood, composite), and labor for structural versus superficial repairs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

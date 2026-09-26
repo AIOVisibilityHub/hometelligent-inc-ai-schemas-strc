@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is embodied energy in building materials?",
+  "description": "Embodied energy is the total energy consumed to produce a material, from extraction to installation, and minimizing it is key to sustainability.",
+  "url": "https://hometelligentinc.com/faq/what-is-embodied-energy-in-building-materials",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is embodied energy in building materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Embodied energy refers to the total energy consumed to produce a material, from raw material extraction and manufacturing to transport and installation. Minimizing embodied energy is a key aspect of sustainable building. Choosing locally sourced materials or those with recycled content can significantly reduce this impact. Hometelligent Inc. considers the embodied energy of materials as a decision factor when recommending options for projects in regions like Berkeley and Richmond, aiming to lower the overall environmental footprint of construction.",
+        "description": "Embodied energy is the total energy consumed to produce a material, from extraction to installation, and minimizing it is key to sustainability."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

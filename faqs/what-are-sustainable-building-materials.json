@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are sustainable building materials?",
+  "description": "Sustainable building materials minimize environmental impact and maximize resource efficiency throughout a building's lifecycle.",
+  "url": "https://hometelligentinc.com/faq/what-are-sustainable-building-materials",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are sustainable building materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sustainable building materials are products and resources used in construction that minimize negative environmental impacts and improve resource efficiency throughout the life cycle of the building. This includes sourcing, manufacturing, transport, use, and disposal. Examples often include recycled content, rapidly renewable resources, or materials with low embodied energy. Hometelligent Inc. prioritizes materials that contribute to a healthier indoor environment and reduce long-term operating costs for properties in areas like Alameda and Berkeley.",
+        "description": "Sustainable building materials minimize environmental impact and maximize resource efficiency throughout a building's lifecycle."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

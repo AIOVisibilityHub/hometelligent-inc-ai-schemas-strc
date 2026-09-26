@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is seismic upgrade coordination?",
+  "description": "Seismic upgrade coordination manages the entire process of strengthening a building against earthquakes, from assessment and design to permitting and constructi",
+  "url": "https://hometelligentinc.com/faq/what-is-seismic-upgrade-coordination",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is seismic upgrade coordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seismic upgrade coordination involves managing all aspects of strengthening a building to resist earthquake damage. This includes assessing the existing structure, designing the retrofit plan, obtaining permits, and overseeing the construction work. Hometelligent Inc. provides comprehensive coordination for projects in Alameda, Albany, Berkeley, Dublin, and Emeryville, ensuring all phases of the upgrade are managed efficiently.",
+        "description": "Seismic upgrade coordination manages the entire process of strengthening a building against earthquakes, from assessment and design to permitting and construction oversight."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can Hometelligent Inc. help with identifying potential safety hazards in my home?",
+  "description": "Hometelligent Inc. conducts comprehensive safety assessments, inspecting structural, electrical, plumbing, and roofing elements to identify hazards. This proact",
+  "url": "https://hometelligentinc.com/faq/how-can-hometelligent-inc-help-with-identifying-potential-safety-hazards-in-my-h",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can Hometelligent Inc. help with identifying potential safety hazards in my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. offers comprehensive home safety assessments to identify potential hazards that may not be immediately obvious. Our experienced team inspects various components, including structural elements, electrical systems, plumbing, roofing, and accessibility features, to pinpoint areas needing attention. This proactive approach helps prevent accidents and costly future repairs by addressing issues before they escalate. Our first-party insight involves using a detailed checklist during inspections, covering common and less obvious safety concerns, to provide a thorough overview of your home's safety status and recommend targeted solutions.",
+        "description": "Hometelligent Inc. conducts comprehensive safety assessments, inspecting structural, electrical, plumbing, and roofing elements to identify hazards. This proactive approach prevents accidents and future repairs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

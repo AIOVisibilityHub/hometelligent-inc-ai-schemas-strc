@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for a seismic upgrade project?",
+  "description": "A seismic upgrade project involves assessment, engineering design, permitting, construction, and final inspection.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-a-seismic-upgrade-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for a seismic upgrade project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process typically begins with an initial structural assessment, followed by engineering design for the retrofit. Next, plans are submitted for permitting, and once approved, construction can begin. After construction, a final inspection ensures compliance. Hometelligent Inc. streamlines this process by handling all coordination, from initial consultation to final inspection, ensuring smooth progression for projects in its service areas.",
+        "description": "A seismic upgrade project involves assessment, engineering design, permitting, construction, and final inspection."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What's the difference between patching a wall and replacing a section of drywall?",
+  "description": "Patching covers minor damage with compound, while replacing a section is for extensive damage like large holes or severe water issues.",
+  "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-patching-a-wall-and-replacing-a-section-of-drywall",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the difference between patching a wall and replacing a section of drywall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patching a wall typically involves applying a compound or small patch over minor damage like nail holes, small cracks, or dents. This is suitable when the wall's integrity is largely intact. Replacing a section of drywall is necessary for more extensive damage, such as large holes, significant water damage, or areas compromised by structural issues. The decision between patching and replacement hinges on the size and severity of the damage; replacement ensures a stable and long-lasting repair for larger compromised areas.",
+        "description": "Patching covers minor damage with compound, while replacing a section is for extensive damage like large holes or severe water issues."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

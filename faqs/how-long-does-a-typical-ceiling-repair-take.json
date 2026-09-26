@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical ceiling repair take?",
+  "description": "Ceiling repair duration varies by damage extent; minor fixes may take hours, while extensive repairs can take several days due to factors like drying times.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-ceiling-repair-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical ceiling repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of ceiling repair varies significantly based on the type and extent of the damage. Minor patch repairs might take a few hours to a day, while extensive repairs involving water damage or structural issues could take several days. Factors like drying times for compounds and paint also influence the overall timeline. We provide an estimated completion timeframe during our initial assessment.",
+        "description": "Ceiling repair duration varies by damage extent; minor fixes may take hours, while extensive repairs can take several days due to factors like drying times."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical siding repair project take?",
+  "description": "Siding repair duration varies from a few hours for minor issues to several days for extensive damage, depending on scope and materials.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-siding-repair-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical siding repair project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a siding repair project varies significantly based on the extent of the damage, the type of siding, and weather conditions. Minor repairs, like replacing a few damaged panels, might take a few hours to a day. More extensive repairs involving a larger section of a wall or multiple areas could take several days. We always aim to complete projects efficiently while maintaining quality. Factors such as the need for custom-matched materials or unexpected discoveries during the repair process can also influence the timeline.",
+        "description": "Siding repair duration varies from a few hours for minor issues to several days for extensive damage, depending on scope and materials."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

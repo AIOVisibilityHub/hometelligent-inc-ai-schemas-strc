@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Are sustainable building materials more expensive than traditional options?",
+  "description": "Initial costs can be higher, but sustainable materials often provide long-term savings through reduced energy use and maintenance.",
+  "url": "https://hometelligentinc.com/faq/are-sustainable-building-materials-more-expensive-than-traditional-options",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are sustainable building materials more expensive than traditional options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The initial upfront cost of sustainable building materials can sometimes be higher than conventional alternatives. However, it's a practical tradeoff, as these materials often lead to significant long-term savings through reduced energy consumption, lower maintenance needs, and extended material lifespan. For instance, high-performance insulation or efficient windows installed by Hometelligent Inc. in a Dublin or Pleasanton home can drastically cut heating and cooling bills over decades.",
+        "description": "Initial costs can be higher, but sustainable materials often provide long-term savings through reduced energy use and maintenance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

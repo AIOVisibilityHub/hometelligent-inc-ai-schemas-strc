@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is Hometelligent Inc.'s experience with green remodeling projects?",
+  "description": "Hometelligent Inc. has broad experience in green remodeling, customizing sustainable solutions to client goals and local environmental factors.",
+  "url": "https://hometelligentinc.com/faq/what-is-hometelligent-inc-s-experience-with-green-remodeling-projects",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Hometelligent Inc.'s experience with green remodeling projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. has extensive experience with green remodeling projects across our wide service area, including Alameda, Albany, Berkeley, and beyond. We focus on integrating sustainable practices and materials into various home improvement projects, from energy-efficient window installations to comprehensive net-zero renovations. Our first-party insight involves using a tailored approach for each project, ensuring that the green solutions align with the client's goals, budget, and the specific environmental considerations of their home's location, whether it's a historic home in Piedmont or a modern build in Dublin.",
+        "description": "Hometelligent Inc. has broad experience in green remodeling, customizing sustainable solutions to client goals and local environmental factors."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

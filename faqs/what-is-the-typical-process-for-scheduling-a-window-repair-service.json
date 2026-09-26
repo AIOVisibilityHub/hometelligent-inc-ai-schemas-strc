@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for scheduling a window repair service?",
+  "description": "Schedule an inspection, get an estimate, approve the work, and we'll arrange the repair. Providing window type details when scheduling helps streamline the proc",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-scheduling-a-window-repair-service",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for scheduling a window repair service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our process begins when you contact us to describe the issue. We'll then schedule an inspection to accurately assess the damage and provide a detailed estimate. Once approved, we coordinate a convenient time for the repair, ensuring we have the necessary materials and equipment. For homeowners in areas like Alameda or Berkeley, it's helpful to describe the window type (e.g., single-pane, double-pane, vinyl, wood) when you call, as this can help us prepare more efficiently for the initial assessment.",
+        "description": "Schedule an inspection, get an estimate, approve the work, and we'll arrange the repair. Providing window type details when scheduling helps streamline the process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

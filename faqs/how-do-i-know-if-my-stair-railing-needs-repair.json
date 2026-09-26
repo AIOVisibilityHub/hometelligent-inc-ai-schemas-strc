@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I know if my stair railing needs repair?",
+  "description": "If your stair railing feels loose, wobbly, or shows visible damage like cracks or splinters, it needs repair due to safety risks. Check for movement under light",
+  "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-stair-railing-needs-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if my stair railing needs repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your stair railing needs repair if it feels loose, wobbly, or shows visible damage like cracks, splinters, or corrosion. A railing that isn't securely fastened to the wall or newel posts poses a significant safety risk, especially for children or elderly individuals. Checking for movement when light pressure is applied can indicate a need for repair. Ensuring your railing meets current safety standards is a crucial preparation step.",
+        "description": "If your stair railing feels loose, wobbly, or shows visible damage like cracks or splinters, it needs repair due to safety risks. Check for movement under light pressure."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

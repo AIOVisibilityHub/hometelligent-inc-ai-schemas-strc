@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can you repair water-damaged walls, and what's involved?",
+  "description": "We repair water-damaged walls by stopping the source, removing damaged materials, drying the area, and then rebuilding or patching.",
+  "url": "https://hometelligentinc.com/faq/can-you-repair-water-damaged-walls-and-what-s-involved",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you repair water-damaged walls, and what's involved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. can repair water-damaged walls. The process involves identifying and stopping the water source, removing damaged materials to prevent mold growth, drying the affected area thoroughly, and then rebuilding or patching the wall. Depending on the severity, this may include replacing sections of drywall, insulation, and even addressing structural elements. Proper drying and remediation are crucial before repair to ensure a lasting solution.",
+        "description": "We repair water-damaged walls by stopping the source, removing damaged materials, drying the area, and then rebuilding or patching."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for siding repair?",
+  "description": "The process involves inspection, removal of damaged sections, addressing underlying issues, installing new matched siding, and a final inspection.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-siding-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for siding repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The siding repair process typically begins with a thorough inspection to assess the damage and identify its cause. Next, the damaged sections of siding are carefully removed, ensuring not to disturb surrounding intact panels. Any underlying issues, such as water damage or rot to the sheathing, are addressed at this stage. New siding materials, matched as closely as possible to the existing style and color, are then installed. Finally, the area is cleaned, and a final inspection ensures the repair integrates seamlessly with your home's exterior. We prioritize matching materials to maintain your home's aesthetic.",
+        "description": "The process involves inspection, removal of damaged sections, addressing underlying issues, installing new matched siding, and a final inspection."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between repairing a small ceiling hole and a large section?",
+  "description": "Small ceiling holes are patched with compound, while large sections require cutting out damaged drywall and installing new material, often with framing support,",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-repairing-a-small-ceiling-hole-and-a-large-sectio",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between repairing a small ceiling hole and a large section?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repairing a small ceiling hole typically involves patching with joint compound and mesh tape, followed by sanding and painting. For a larger section, especially if it's damaged or sagging, it often requires cutting out the affected drywall and installing a new piece, complete with new framing supports if necessary. The choice between a patch and a full panel replacement depends on the size and integrity of the surrounding ceiling material. A larger repair ensures structural soundness where a patch would be insufficient.",
+        "description": "Small ceiling holes are patched with compound, while large sections require cutting out damaged drywall and installing new material, often with framing support, for structural integrity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

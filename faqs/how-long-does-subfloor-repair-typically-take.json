@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does subfloor repair typically take?",
+  "description": "Subfloor repair can take anywhere from a day for minor issues to several days for extensive damage, depending on the scope.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-subfloor-repair-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does subfloor repair typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of subfloor repair varies depending on the extent of the damage and the size of the area requiring work. Minor repairs, like replacing a few boards, might take a day or two, while extensive projects involving structural remediation could take several days to a week. Factors like curing time for adhesives or the need to address underlying issues (e.g., plumbing leaks) can also influence the timeline. We aim to minimize disruption while ensuring a thorough repair.",
+        "description": "Subfloor repair can take anywhere from a day for minor issues to several days for extensive damage, depending on the scope."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

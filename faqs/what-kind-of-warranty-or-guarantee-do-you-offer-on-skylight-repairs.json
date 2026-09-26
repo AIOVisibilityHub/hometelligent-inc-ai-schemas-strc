@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of warranty or guarantee do you offer on skylight repairs?",
+  "description": "We offer a warranty on our skylight repair workmanship, with specifics detailed in your service agreement.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-warranty-or-guarantee-do-you-offer-on-skylight-repairs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of warranty or guarantee do you offer on skylight repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stand by the quality of our skylight repairs and offer a comprehensive warranty on our workmanship. The specifics of the warranty, including its duration and coverage, will be clearly detailed in your service agreement. This provides peace of mind, knowing that if any issues arise directly from our repair work, we will address them promptly. Always clarify the warranty terms for both labor and any new materials installed when considering different repair options.",
+        "description": "We offer a warranty on our skylight repair workmanship, with specifics detailed in your service agreement."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

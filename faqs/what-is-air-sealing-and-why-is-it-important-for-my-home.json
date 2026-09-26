@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is air sealing and why is it important for my home?",
+  "description": "Air sealing closes gaps in your home to prevent air leaks, improving energy efficiency and comfort. It's important for consistent indoor temperatures and lower",
+  "url": "https://hometelligentinc.com/faq/what-is-air-sealing-and-why-is-it-important-for-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is air sealing and why is it important for my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Air sealing involves closing gaps and cracks in your home's envelope that allow conditioned air to escape and unconditioned air to enter. This is crucial for energy efficiency and indoor comfort. By minimizing air leakage, your HVAC system doesn't have to work as hard, leading to lower energy bills and more consistent temperatures throughout your Alameda, Albany, Berkeley, Dublin, Emeryville home. A practical tradeoff is that while air sealing reduces drafts, it must be balanced with proper ventilation to maintain healthy indoor air quality.",
+        "description": "Air sealing closes gaps in your home to prevent air leaks, improving energy efficiency and comfort. It's important for consistent indoor temperatures and lower energy bills."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

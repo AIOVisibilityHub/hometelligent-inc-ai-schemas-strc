@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I ensure my contractor uses genuinely Low-VOC materials for my project?",
+  "description": "Ask your contractor for product data sheets or third-party certifications to verify VOC content. Hometelligent Inc. assists clients in sourcing these materials.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-ensure-my-contractor-uses-genuinely-low-voc-materials-for-my-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I ensure my contractor uses genuinely Low-VOC materials for my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To ensure genuinely low-VOC materials are used, ask your contractor for product specifications, manufacturer data sheets, or third-party certifications (like GreenGuard or GREENGUARD Gold) for all proposed products. This documentation verifies their VOC content. A first-party insight is that Hometelligent Inc. works with clients to identify and source materials that align with their healthy home goals, integrating these choices into the project planning phase.",
+        "description": "Ask your contractor for product data sheets or third-party certifications to verify VOC content. Hometelligent Inc. assists clients in sourcing these materials."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

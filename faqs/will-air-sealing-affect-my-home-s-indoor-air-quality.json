@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will air sealing affect my home's indoor air quality?",
+  "description": "Air sealing improves indoor air quality by blocking outside pollutants but requires proper ventilation to prevent moisture and ensure fresh air.",
+  "url": "https://hometelligentinc.com/faq/will-air-sealing-affect-my-home-s-indoor-air-quality",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will air sealing affect my home's indoor air quality?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Effective air sealing reduces the infiltration of dust, allergens, and pollutants from outside, generally improving indoor air quality. However, a tightly sealed home requires proper ventilation to prevent moisture buildup and maintain fresh air circulation. A practical tradeoff is that while sealing reduces uncontrolled air movement, we ensure that necessary mechanical ventilation is considered or installed to provide a continuous supply of fresh air, maintaining a healthy indoor environment.",
+        "description": "Air sealing improves indoor air quality by blocking outside pollutants but requires proper ventilation to prevent moisture and ensure fresh air."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

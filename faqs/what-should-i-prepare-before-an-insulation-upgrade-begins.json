@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before an insulation upgrade begins?",
+  "description": "Before an insulation upgrade, clear work areas, ensure clear pathways, and discuss any concerns about pets or children with our team.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-an-insulation-upgrade-begins",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before an insulation upgrade begins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before an insulation upgrade, clear the work areas of personal belongings, especially in attics or crawl spaces. Ensure pathways are clear for our crew and materials. If we are accessing an attic through a closet, empty the closet. Discuss any concerns about pets or children with our team beforehand to ensure their safety and an efficient workflow. This preparation helps streamline the installation process.",
+        "description": "Before an insulation upgrade, clear work areas, ensure clear pathways, and discuss any concerns about pets or children with our team."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

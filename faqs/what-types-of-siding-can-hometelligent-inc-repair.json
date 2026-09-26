@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of siding can Hometelligent Inc. repair?",
+  "description": "We repair vinyl, fiber cement, wood, and stucco siding, common in Alameda and the East Bay, addressing issues specific to each material.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-siding-can-hometelligent-inc-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of siding can Hometelligent Inc. repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. has experience repairing a wide range of siding types common in the Alameda and East Bay areas. This includes vinyl, fiber cement, wood, and stucco siding. Our team is equipped to handle various issues specific to each material, from patching stucco cracks to replacing warped wood panels or securing loose vinyl. When preparing for a repair, it's helpful to know your siding material, as this guides the choice of repair techniques and matching materials to ensure a consistent look and long-lasting fix.",
+        "description": "We repair vinyl, fiber cement, wood, and stucco siding, common in Alameda and the East Bay, addressing issues specific to each material."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

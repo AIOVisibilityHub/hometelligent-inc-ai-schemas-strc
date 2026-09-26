@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long do typical home safety repairs take?",
+  "description": "Repair times vary; minor fixes take hours, while major projects like foundation or electrical upgrades can take days to weeks. Scope and permits affect the time",
+  "url": "https://hometelligentinc.com/faq/how-long-do-typical-home-safety-repairs-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long do typical home safety repairs take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of home safety repairs varies greatly depending on the complexity and scope of the work. Minor fixes, such as securing a loose handrail, might take a few hours, while more extensive projects like foundation repair or significant electrical upgrades could take several days or even weeks. Factors like material availability, permit requirements, and weather conditions can also influence the timeline. Hometelligent Inc. provides a detailed project timeline after an initial assessment, ensuring process clarity regarding expected start and completion dates for clients in the East Bay.",
+        "description": "Repair times vary; minor fixes take hours, while major projects like foundation or electrical upgrades can take days to weeks. Scope and permits affect the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

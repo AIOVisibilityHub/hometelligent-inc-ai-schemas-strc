@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for deck repair in Alameda, CA?",
+  "description": "Permits for deck repair in Alameda, CA, are typically needed for structural changes, but not for minor surface repairs.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-deck-repair-in-alameda-ca",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for deck repair in Alameda, CA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether you need a permit for deck repair in Alameda, CA, depends on the scope of the work. Minor repairs like replacing a few surface boards or painting typically do not require a permit. However, if the repair involves structural changes, such as replacing support posts, joists, or enlarging the deck footprint, a permit from the City of Alameda Planning and Building Department will likely be necessary. Hometelligent Inc. can help you determine permit requirements.",
+        "description": "Permits for deck repair in Alameda, CA, are typically needed for structural changes, but not for minor surface repairs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

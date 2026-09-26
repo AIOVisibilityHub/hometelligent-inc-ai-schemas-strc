@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will an earthquake retrofit affect my home's appearance?",
+  "description": "Standard earthquake retrofits usually don't affect a home's appearance as work is mostly in the crawl space. Any visible changes are discussed beforehand.",
+  "url": "https://hometelligentinc.com/faq/will-an-earthquake-retrofit-affect-my-home-s-appearance",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will an earthquake retrofit affect my home's appearance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most standard earthquake retrofits, focusing on the foundation and cripple walls, are designed to be largely invisible and do not affect the visible appearance of your home's exterior or interior. Work typically occurs in the crawl space or beneath the house. If any exterior work is required, such as a new foundation or access points, the coordinator will discuss aesthetic considerations and options with you before construction begins.",
+        "description": "Standard earthquake retrofits usually don't affect a home's appearance as work is mostly in the crawl space. Any visible changes are discussed beforehand."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

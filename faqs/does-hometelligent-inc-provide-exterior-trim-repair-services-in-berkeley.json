@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Does Hometelligent Inc. provide exterior trim repair services in Berkeley?",
+  "description": "Yes, Hometelligent Inc. offers exterior trim repair in Berkeley, tailoring solutions to local architectural styles and weather conditions.",
+  "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-provide-exterior-trim-repair-services-in-berkeley",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Hometelligent Inc. provide exterior trim repair services in Berkeley?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. provides exterior trim repair services in Berkeley and surrounding areas. Our service area includes Alameda, Albany, Berkeley, Dublin, and Emeryville, among others. Due to variations in architectural styles and weather exposure across different locations within our service area, we tailor our repair solutions to best suit the specific needs and conditions of your property in Berkeley.",
+        "description": "Yes, Hometelligent Inc. offers exterior trim repair in Berkeley, tailoring solutions to local architectural styles and weather conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I do to prepare my home for subfloor repair?",
+  "description": "Clear the affected area of furniture and belongings, remove existing flooring if necessary, and ensure any water leaks are fixed beforehand.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-home-for-subfloor-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do to prepare my home for subfloor repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before subfloor repair, homeowners should clear the affected area of furniture, rugs, and personal belongings to allow easy access for technicians. It's also advisable to remove existing flooring if it needs to be replaced or if access to the subfloor is limited. If the damage is due to a leak, ensuring the water source is fixed beforehand is crucial. Proper preparation can streamline the repair process and reduce overall project time.",
+        "description": "Clear the affected area of furniture and belongings, remove existing flooring if necessary, and ensure any water leaks are fixed beforehand."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

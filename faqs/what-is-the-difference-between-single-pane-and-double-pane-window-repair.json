@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between single-pane and double-pane window repair?",
+  "description": "Single-pane repair replaces one glass sheet, while double-pane repair involves replacing the entire sealed insulated glass unit, affecting cost and material ava",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-single-pane-and-double-pane-window-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between single-pane and double-pane window repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main difference in repair for single-pane versus double-pane windows lies in the glass unit itself. A single-pane window repair involves replacing a single sheet of glass. For double-pane (insulated) windows, the repair typically requires replacing the entire sealed unit, which consists of two panes of glass separated by a spacer and gas fill. This difference affects both the cost and the availability of materials, as IGUs are custom-made to fit specific window frames. The repair process for double-pane windows is generally more involved due to the sealed unit's complexity.",
+        "description": "Single-pane repair replaces one glass sheet, while double-pane repair involves replacing the entire sealed insulated glass unit, affecting cost and material availability."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

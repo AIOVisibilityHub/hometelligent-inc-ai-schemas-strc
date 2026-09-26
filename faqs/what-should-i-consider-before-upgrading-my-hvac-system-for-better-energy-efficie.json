@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider before upgrading my HVAC system for better energy efficiency?",
+  "description": "Before upgrading your HVAC, consider SEER, AFUE, and HSPF ratings, along with ductwork condition. Proper system sizing based on your home's needs and climate, l",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-upgrading-my-hvac-system-for-better-energy-efficie",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider before upgrading my HVAC system for better energy efficiency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before upgrading your HVAC system for energy efficiency, consider the system's SEER (Seasonal Energy Efficiency Ratio) rating, AFUE (Annual Fuel Utilization Efficiency) for furnaces, and HSPF (Heating Seasonal Performance Factor) for heat pumps. A higher rating generally indicates better efficiency. It's also important to ensure your ductwork is properly sealed and sized for the new system, as leaky ducts can negate efficiency gains. Factors like your home's square footage, insulation levels, and climate (e.g., Dublin's summers) will influence the appropriate system size and type. We recommend getting an energy load calculation to size the system correctly, avoiding both oversizing and undersizing issues.",
+        "description": "Before upgrading your HVAC, consider SEER, AFUE, and HSPF ratings, along with ductwork condition. Proper system sizing based on your home's needs and climate, like Dublin's summers, is crucial for optimal efficiency."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

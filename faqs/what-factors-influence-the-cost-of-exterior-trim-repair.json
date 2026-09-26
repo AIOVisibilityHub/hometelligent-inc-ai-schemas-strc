@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of exterior trim repair?",
+  "description": "Cost factors for exterior trim repair include damage extent, material type, accessibility, and linear footage. Complex damage or premium materials can increase",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-exterior-trim-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of exterior trim repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of exterior trim repair is influenced by several factors, including the type and extent of the damage, the materials required (e.g., wood, composite), the accessibility of the trim, and the linear footage needing repair. More complex damage, higher quality materials, or hard-to-reach areas will generally increase the overall cost. We provide detailed estimates after an on-site evaluation to ensure transparency.",
+        "description": "Cost factors for exterior trim repair include damage extent, material type, accessibility, and linear footage. Complex damage or premium materials can increase costs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

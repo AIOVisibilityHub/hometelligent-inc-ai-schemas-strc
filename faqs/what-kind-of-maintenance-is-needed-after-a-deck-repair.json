@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of maintenance is needed after a deck repair?",
+  "description": "After repair, annual cleaning, reapplying sealant/stain every 1-3 years, and regular inspections for new damage are essential for longevity.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-is-needed-after-a-deck-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of maintenance is needed after a deck repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After a deck repair, regular maintenance is crucial to extend the life of your deck. This typically includes cleaning the deck annually to remove dirt, mold, and mildew, and reapplying a sealant or stain every 1-3 years, depending on the product and exposure to elements. Regularly inspect for loose fasteners, splintering wood, or signs of new damage. Proactive maintenance helps protect your investment and keeps your deck safe and visually appealing for many years.",
+        "description": "After repair, annual cleaning, reapplying sealant/stain every 1-3 years, and regular inspections for new damage are essential for longevity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

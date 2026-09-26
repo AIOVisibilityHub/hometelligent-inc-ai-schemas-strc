@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long do sustainable building materials last compared to traditional ones?",
+  "description": "Many sustainable materials are designed for greater longevity and durability, often lasting longer than traditional options.",
+  "url": "https://hometelligentinc.com/faq/how-long-do-sustainable-building-materials-last-compared-to-traditional-ones",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long do sustainable building materials last compared to traditional ones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many sustainable building materials are designed for longevity and durability, often outperforming traditional options. For example, reclaimed wood, high-density insulation, or certain natural stone products can have an extended lifespan, reducing the need for frequent replacements. This long-term durability is a practical tradeoff, as it minimizes waste and maintenance cycles over the building's lifetime, a key consideration for Hometelligent Inc. projects in areas like San Lorenzo and Castro Valley.",
+        "description": "Many sustainable materials are designed for greater longevity and durability, often lasting longer than traditional options."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

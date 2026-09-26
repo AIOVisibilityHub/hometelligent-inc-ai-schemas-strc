@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider a tankless water heater for energy savings?",
+  "description": "Consider a tankless water heater for on-demand hot water and energy savings, especially if replacing an aging tank heater. They eliminate standby heat loss but",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-a-tankless-water-heater-for-energy-savings",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider a tankless water heater for energy savings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider a tankless water heater for energy savings if you're looking for on-demand hot water, want to save space, and have an aging conventional tank heater. Tankless units heat water only when needed, eliminating standby heat loss associated with traditional tanks, which can save 10-20% on water heating costs. This is particularly beneficial for households with inconsistent hot water demand or those that want to reduce their overall energy footprint. However, they require sufficient gas line or electrical capacity, and their initial installation cost can be higher. We can assess your home's existing infrastructure and hot water needs to determine if a tankless system is a viable and cost-effective upgrade for you.",
+        "description": "Consider a tankless water heater for on-demand hot water and energy savings, especially if replacing an aging tank heater. They eliminate standby heat loss but require adequate utility capacity. We can assess if it's right for your home."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

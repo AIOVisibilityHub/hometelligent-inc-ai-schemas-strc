@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparations should I make before starting a seismic upgrade?",
+  "description": "Before a seismic upgrade, gather existing building plans, consider your budget and timeline, and research potential grant programs.",
+  "url": "https://hometelligentinc.com/faq/what-preparations-should-i-make-before-starting-a-seismic-upgrade",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparations should I make before starting a seismic upgrade?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting a seismic upgrade, gather any existing building plans or historical permits, as these can assist engineers in their assessment. Consider your budget and timeline, and research local grant or incentive programs that may be available. Being prepared with this information can expedite the initial assessment and planning phases of the project.",
+        "description": "Before a seismic upgrade, gather existing building plans, consider your budget and timeline, and research potential grant programs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

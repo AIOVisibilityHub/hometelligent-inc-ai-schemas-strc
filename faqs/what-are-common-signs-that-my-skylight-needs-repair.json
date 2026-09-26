@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are common signs that my skylight needs repair?",
+  "description": "Water leaks, condensation, drafts, or cracks in the glass or frame are common signs your skylight needs repair.",
+  "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-my-skylight-needs-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common signs that my skylight needs repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common signs that your skylight needs repair include water leaks, condensation between glass panes, drafts, visible cracks in the glass or frame, and discoloration or deterioration of the skylight's flashing. These issues can lead to significant water damage to your home's interior if not addressed promptly. A professional inspection can help identify the root cause of the problem, as sometimes condensation can indicate a separate ventilation issue rather than a direct skylight leak.",
+        "description": "Water leaks, condensation, drafts, or cracks in the glass or frame are common signs your skylight needs repair."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

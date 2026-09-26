@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will framing repair disrupt my daily routine or require me to vacate my home?",
+  "description": "Disruption from framing repair depends on its scope and location; minor fixes may have minimal impact, while extensive structural work might require temporary r",
+  "url": "https://hometelligentinc.com/faq/will-framing-repair-disrupt-my-daily-routine-or-require-me-to-vacate-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will framing repair disrupt my daily routine or require me to vacate my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether framing repair disrupts your daily routine or necessitates vacating your home depends on the scope and location of the work. Minor, localized repairs, such as fixing a non-load-bearing wall, might have minimal impact. However, extensive repairs involving load-bearing walls, foundations, or multiple areas of the home, particularly those affecting essential services like plumbing or electricity, could require temporary relocation for safety and efficiency. We assess each project individually to determine the least disruptive approach. Communication with our team about your living situation is crucial to plan accordingly.",
+        "description": "Disruption from framing repair depends on its scope and location; minor fixes may have minimal impact, while extensive structural work might require temporary relocation for safety. We assess each project to minimize disruption."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

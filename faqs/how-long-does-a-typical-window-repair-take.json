@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical window repair take?",
+  "description": "Repair time depends on damage complexity; simple glass replacement takes hours, while custom parts or extensive frame work can take longer due to lead times.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-window-repair-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical window repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a window repair varies significantly depending on the type and extent of the damage. A simple glass replacement might take a few hours, while more complex repairs involving frame work or custom-ordered parts could take longer, potentially spanning a day or requiring a follow-up visit. When ordering custom glass or specific hardware, lead times can impact the overall timeline. We provide an estimated timeframe after our initial assessment to manage expectations.",
+        "description": "Repair time depends on damage complexity; simple glass replacement takes hours, while custom parts or extensive frame work can take longer due to lead times."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

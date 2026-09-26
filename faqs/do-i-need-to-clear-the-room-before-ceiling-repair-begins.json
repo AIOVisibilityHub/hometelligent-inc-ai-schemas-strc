@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to clear the room before ceiling repair begins?",
+  "description": "Yes, clear the room of furniture and personal items to protect them from dust and provide a clear, safe workspace for the repair team.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-clear-the-room-before-ceiling-repair-begins",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to clear the room before ceiling repair begins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is highly recommended to clear the room of furniture, electronics, and personal belongings before ceiling repair begins. This protects your items from dust and debris and provides our team with a clear workspace, allowing for a more efficient and safer repair process. If moving large items is challenging, please inform us, and we can discuss potential solutions during the planning phase.",
+        "description": "Yes, clear the room of furniture and personal items to protect them from dust and provide a clear, safe workspace for the repair team."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

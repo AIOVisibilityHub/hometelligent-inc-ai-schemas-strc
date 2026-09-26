@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for assessing subfloor damage?",
+  "description": "Assessment includes visual inspection, moisture level measurements, and probing for rot or pests to determine the full extent of damage.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-assessing-subfloor-damage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for assessing subfloor damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The assessment process for subfloor damage typically involves a visual inspection for obvious signs like sagging, soft spots, or water stains. We use tools to measure moisture levels and may gently probe the subfloor to check for rot or pest activity. This thorough evaluation helps identify the cause and full extent of the damage, allowing us to recommend the most effective and durable repair solution tailored to your home's specific needs.",
+        "description": "Assessment includes visual inspection, moisture level measurements, and probing for rot or pests to determine the full extent of damage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

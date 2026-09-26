@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is earthquake retrofit coordination?",
+  "description": "Earthquake retrofit coordination manages the entire process of strengthening your home against seismic activity, from assessment to construction and compliance.",
+  "url": "https://hometelligentinc.com/faq/what-is-earthquake-retrofit-coordination",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is earthquake retrofit coordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Earthquake retrofit coordination involves managing the entire process of strengthening your home against seismic activity. This includes initial assessment, planning, obtaining necessary permits, overseeing the construction, and ensuring compliance with local building codes. Effective coordination ensures that all phases of the retrofit are completed efficiently and according to safety standards.",
+        "description": "Earthquake retrofit coordination manages the entire process of strengthening your home against seismic activity, from assessment to construction and compliance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

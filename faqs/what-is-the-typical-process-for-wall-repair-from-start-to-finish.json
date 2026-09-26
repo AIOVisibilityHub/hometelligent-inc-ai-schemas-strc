@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for wall repair, from start to finish?",
+  "description": "The process involves assessment, preparation, repair material application, sanding, and finishing, with drying times affecting the timeline.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-wall-repair-from-start-to-finish",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for wall repair, from start to finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The typical process begins with an initial assessment to identify the damage type and cause. Following this, we prepare the area, which may involve removing loose debris or damaged sections. Repair materials are then applied, such as patching compounds or new drywall sections, followed by sanding and finishing. The final step is priming and painting to match the existing wall. The overall timeline for the repair can be affected by drying times required between various stages of patching and finishing.",
+        "description": "The process involves assessment, preparation, repair material application, sanding, and finishing, with drying times affecting the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

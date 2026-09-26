@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What's the difference between a general contractor and a foundation repair coordinator?",
+  "description": "A general contractor manages overall construction, while a foundation repair coordinator specializes in the specific engineering and permitting of foundation pr",
+  "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-a-general-contractor-and-a-foundation-repair-coord",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the difference between a general contractor and a foundation repair coordinator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A general contractor oversees the entire construction of a project, which can include various trades. A foundation repair coordinator, while often part of a general construction company like Hometelligent Inc., specializes specifically in the intricacies of foundation-related projects. Their focus is on the unique engineering, permitting, and construction requirements of foundation repair, offering a deeper expertise in diagnosing specific structural issues and managing the specialized repair process.",
+        "description": "A general contractor manages overall construction, while a foundation repair coordinator specializes in the specific engineering and permitting of foundation projects."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

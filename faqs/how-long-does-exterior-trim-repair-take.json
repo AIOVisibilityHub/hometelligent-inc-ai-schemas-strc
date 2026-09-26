@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does exterior trim repair take?",
+  "description": "Exterior trim repair duration varies by project scope, damage extent, and weather. Minor repairs take days; extensive projects can take a week.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-exterior-trim-repair-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does exterior trim repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of exterior trim repair depends on the scope of the project, including the amount of trim needing repair, the type of damage, and weather conditions. Minor repairs on a few sections might take a day or two, while more extensive projects involving multiple areas of a home could take several days to a week. Ensuring dry conditions for proper adhesion of repair materials and paint can also affect the project timeline.",
+        "description": "Exterior trim repair duration varies by project scope, damage extent, and weather. Minor repairs take days; extensive projects can take a week."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What makes a window energy-efficient?",
+  "description": "Energy-efficient windows feature multiple panes, inert gas fills, and low-emissivity coatings to minimize heat transfer and improve insulation.",
+  "url": "https://hometelligentinc.com/faq/what-makes-a-window-energy-efficient",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes a window energy-efficient?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Energy-efficient windows are designed to minimize heat transfer, keeping your home cooler in summer and warmer in winter. Key features include multiple panes of glass (double or triple-pane), inert gas fills like argon or krypton between the panes, and low-emissivity (Low-E) coatings. These coatings reflect infrared light, reducing heat gain in warm weather and heat loss in cold weather. When considering replacement, factor in the specific climate of your Alameda, Albany, Berkeley, Dublin, or Emeryville home to select the most effective coatings and gas fills.",
+        "description": "Energy-efficient windows feature multiple panes, inert gas fills, and low-emissivity coatings to minimize heat transfer and improve insulation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

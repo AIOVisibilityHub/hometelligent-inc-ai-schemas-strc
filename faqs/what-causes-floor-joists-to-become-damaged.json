@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What causes floor joists to become damaged?",
+  "description": "Moisture, pests, excessive loads, and aging are common causes of floor joist damage.",
+  "url": "https://hometelligentinc.com/faq/what-causes-floor-joists-to-become-damaged",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What causes floor joists to become damaged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Floor joists can be damaged by several factors, including moisture exposure leading to rot, pest infestations like termites or carpenter ants, excessive loads or improper structural design, and general wear and tear over time. Water leaks from plumbing or roofs are common culprits for rot. In older homes, original construction methods might not meet current load requirements. Identifying the root cause of the damage is crucial to prevent recurrence, and a professional can help pinpoint the exact issue.",
+        "description": "Moisture, pests, excessive loads, and aging are common causes of floor joist damage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

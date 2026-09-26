@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider replacing instead of repairing home safety components?",
+  "description": "Replace safety components when repairs are frequent, costly, or they don't meet current safety standards. Replacement often offers a more reliable long-term sol",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-instead-of-repairing-home-safety-components",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider replacing instead of repairing home safety components?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider replacing safety components, like an old furnace or electrical panel, when repairs become frequent, expensive, or the component no longer meets current safety standards. For instance, an aging electrical panel may not safely support modern electrical loads. While repairs can offer a temporary fix, replacement often provides a more reliable and long-term safety solution. A key decision factor is the age and condition of the component, as older systems may have inherent design flaws or be at the end of their service life, making replacement a more cost-effective and safer option.",
+        "description": "Replace safety components when repairs are frequent, costly, or they don't meet current safety standards. Replacement often offers a more reliable long-term solution."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

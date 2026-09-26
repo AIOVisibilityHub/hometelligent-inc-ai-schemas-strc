@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I paint over damaged exterior trim, or does it need to be repaired first?",
+  "description": "Do not paint over damaged trim; it requires proper repair first to address underlying issues and ensure paint adhesion.",
+  "url": "https://hometelligentinc.com/faq/can-i-paint-over-damaged-exterior-trim-or-does-it-need-to-be-repaired-first",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I paint over damaged exterior trim, or does it need to be repaired first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Painting over damaged exterior trim is generally not recommended as it will not address underlying issues like rot or structural weakness, and the paint will likely peel or crack quickly. Proper repair, which involves removing damaged sections and applying suitable patching or replacement materials, is essential before painting. This preparation ensures the paint adheres correctly and provides a long-lasting, protective finish for your trim.",
+        "description": "Do not paint over damaged trim; it requires proper repair first to address underlying issues and ensure paint adhesion."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

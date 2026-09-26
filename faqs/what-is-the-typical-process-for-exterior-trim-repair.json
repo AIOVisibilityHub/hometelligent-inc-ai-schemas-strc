@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for exterior trim repair?",
+  "description": "The exterior trim repair process includes assessment, cleaning, repair or replacement of damaged sections, and finishing with priming and painting.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-exterior-trim-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for exterior trim repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process for exterior trim repair typically involves an initial assessment to identify all damaged areas, followed by cleaning and preparation of the existing trim. Depending on the damage, we may remove and replace rotten sections, fill cracks, sand surfaces, and then prime and paint. The timeline can vary based on the extent of the damage and weather conditions, with more extensive repairs taking longer to ensure proper material curing and finishing.",
+        "description": "The exterior trim repair process includes assessment, cleaning, repair or replacement of damaged sections, and finishing with priming and painting."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

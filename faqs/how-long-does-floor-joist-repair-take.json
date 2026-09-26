@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does floor joist repair take?",
+  "description": "Floor joist repair time varies from a few days to several weeks, depending on damage extent and accessibility.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-floor-joist-repair-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does floor joist repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of floor joist repair depends on the scope and complexity of the project. Minor repairs involving a few joists might take a few days, while extensive damage requiring multiple joist replacements and subfloor work could extend to several weeks. Accessibility to the work area also plays a role, as confined spaces like crawl spaces can prolong the process. During the initial consultation, a contractor can provide a more precise timeline based on your specific repair needs.",
+        "description": "Floor joist repair time varies from a few days to several weeks, depending on damage extent and accessibility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

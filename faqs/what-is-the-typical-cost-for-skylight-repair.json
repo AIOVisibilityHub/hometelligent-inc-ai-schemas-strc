@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost for skylight repair?",
+  "description": "Skylight repair costs vary based on damage, skylight model, and accessibility. Estimates are provided after inspection.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-skylight-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost for skylight repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of skylight repair varies significantly based on the type and extent of the damage, the skylight model, and accessibility. Minor repairs, such as resealing, might be less expensive, while replacing a broken pane or addressing complex flashing issues can incur higher costs. We provide detailed estimates after an on-site inspection to assess the specific repairs needed and the labor involved. It's helpful to consider the potential for increased home energy bills if a damaged skylight is not repaired, which can add to the overall financial impact.",
+        "description": "Skylight repair costs vary based on damage, skylight model, and accessibility. Estimates are provided after inspection."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

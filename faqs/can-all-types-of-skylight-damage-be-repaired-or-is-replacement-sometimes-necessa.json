@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can all types of skylight damage be repaired, or is replacement sometimes necessary?",
+  "description": "Many damages can be repaired, but replacement is necessary for severe rot, shattered glass, or old, inefficient units.",
+  "url": "https://hometelligentinc.com/faq/can-all-types-of-skylight-damage-be-repaired-or-is-replacement-sometimes-necessa",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can all types of skylight damage be repaired, or is replacement sometimes necessary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While many types of skylight damage, such as flashing issues, minor cracks, or seal failures, can be repaired, replacement is sometimes the more practical or cost-effective solution. If the skylight frame is severely rotted, the glass is shattered, or the unit is older and inefficient, a full replacement may be recommended. When making this decision, consider the age of your current skylight and its energy efficiency; older units might be leaking heat or air conditioning, making replacement a better long-term investment.",
+        "description": "Many damages can be repaired, but replacement is necessary for severe rot, shattered glass, or old, inefficient units."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation do I need to do before Hometelligent Inc. starts exterior trim repair?",
+  "description": "Before exterior trim repair, clear work areas by moving furniture and trimming vegetation to provide unobstructed access.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-do-i-need-to-do-before-hometelligent-inc-starts-exterior-trim-r",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation do I need to do before Hometelligent Inc. starts exterior trim repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before Hometelligent Inc. begins exterior trim repair, we recommend ensuring clear access to the work areas by moving any outdoor furniture, plants, or decorations away from the foundation and walls. Trimming back any overgrown bushes or trees near the trim can also facilitate our work. This preparation helps our team efficiently access the trim and complete the repairs without obstructions.",
+        "description": "Before exterior trim repair, clear work areas by moving furniture and trimming vegetation to provide unobstructed access."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

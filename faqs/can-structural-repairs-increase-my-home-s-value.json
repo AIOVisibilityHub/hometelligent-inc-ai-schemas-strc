@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can structural repairs increase my home's value?",
+  "description": "Yes, structural repairs enhance home value and marketability by removing safety concerns and ensuring long-term integrity, aiding financing and insurance.",
+  "url": "https://hometelligentinc.com/faq/can-structural-repairs-increase-my-home-s-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can structural repairs increase my home's value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, successfully completed structural repairs can significantly increase your home's value and marketability. Addressing underlying structural issues removes major red flags for potential buyers and ensures the long-term safety and integrity of the property. It also demonstrates responsible homeownership, often making it easier to secure financing or insurance. By resolving these critical problems, Hometelligent Inc. helps restore confidence in your home's foundation, which is a key factor in its overall appraisal.",
+        "description": "Yes, structural repairs enhance home value and marketability by removing safety concerns and ensuring long-term integrity, aiding financing and insurance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

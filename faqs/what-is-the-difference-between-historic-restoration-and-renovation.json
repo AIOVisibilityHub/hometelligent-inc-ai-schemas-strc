@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between historic restoration and renovation?",
+  "description": "Restoration aims to return a property to its original appearance, preserving materials; renovation updates or improves, often altering original character.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-historic-restoration-and-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between historic restoration and renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Historic restoration aims to return a property to a specific past appearance, preserving its original materials and design as much as possible. Renovation, conversely, focuses on updating or improving a property, often altering its original character for modern functionality or aesthetics. For example, restoring a Victorian home in Alameda would focus on replicating original details, while a renovation might involve changing the floor plan or adding contemporary features not found in the original design.",
+        "description": "Restoration aims to return a property to its original appearance, preserving materials; renovation updates or improves, often altering original character."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are Low-VOC materials and why are they important for home renovations?",
+  "description": "Low-VOC materials have fewer chemicals that off-gas, improving indoor air quality and creating a healthier home. They are important for minimizing exposure to p",
+  "url": "https://hometelligentinc.com/faq/what-are-low-voc-materials-and-why-are-they-important-for-home-renovations",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Low-VOC materials and why are they important for home renovations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low-VOC materials are building products with reduced levels of volatile organic compounds, which are chemicals that can off-gas into the air and affect indoor air quality. Using these materials can lead to a healthier indoor environment by minimizing exposure to potential irritants and toxins, especially in newly renovated spaces. When considering these upgrades, a practical tradeoff is that while they might have a slightly higher upfront cost, they contribute to long-term occupant well-being and can be a significant selling point for properties.",
+        "description": "Low-VOC materials have fewer chemicals that off-gas, improving indoor air quality and creating a healthier home. They are important for minimizing exposure to potential irritants and toxins."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

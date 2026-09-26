@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider siding repair versus full siding replacement?",
+  "description": "Repair is suitable for localized damage; replacement is needed for widespread issues or if the siding is near the end of its life.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-siding-repair-versus-full-siding-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider siding repair versus full siding replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Consider siding repair when damage is localized to a few panels or sections, such as a small area of rot or impact damage. This approach is often more cost-effective if the majority of your siding is still in good condition and has not reached the end of its lifespan. Full replacement is usually necessary if the damage is widespread, affecting more than 20-30% of the home, or if there are significant underlying issues like rot across multiple walls. Assessing the age of your current siding and the extent of the damage will help determine the most economical and long-term solution.",
+        "description": "Repair is suitable for localized damage; replacement is needed for widespread issues or if the siding is near the end of its life."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a 'soft-story' condition, and how does it relate to seismic upgrades?",
+  "description": "A 'soft-story' is a weak or flexible ground floor, often from large openings, creating a critical earthquake vulnerability that requires specific retrofitting.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-soft-story-condition-and-how-does-it-relate-to-seismic-upgrades",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a 'soft-story' condition, and how does it relate to seismic upgrades?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 'soft-story' condition refers to a building where one floor is significantly weaker or more flexible than the floors above it, often due to large openings for parking or commercial spaces. This creates a critical weak point during an earthquake. Hometelligent Inc. specializes in retrofitting soft-story buildings, a common requirement in many Bay Area cities like Berkeley and Oakland, to prevent catastrophic collapse.",
+        "description": "A 'soft-story' is a weak or flexible ground floor, often from large openings, creating a critical earthquake vulnerability that requires specific retrofitting."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

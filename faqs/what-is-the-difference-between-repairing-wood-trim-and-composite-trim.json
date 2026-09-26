@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between repairing wood trim and composite trim?",
+  "description": "Wood trim repair involves removing rot and filling, while composite trim repair uses specialized patching or section replacement due to its different properties",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-repairing-wood-trim-and-composite-trim",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between repairing wood trim and composite trim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repairing wood trim often involves cutting out rotten sections, treating with wood hardener, filling with epoxy or wood filler, and then sanding. Composite trim, being rot-resistant, typically requires different repair methods, such as patching with specialized compounds or replacing damaged sections. The specific material dictates the repair approach; for instance, composite materials often require compatible fillers and adhesives for proper repair and longevity.",
+        "description": "Wood trim repair involves removing rot and filling, while composite trim repair uses specialized patching or section replacement due to its different properties."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

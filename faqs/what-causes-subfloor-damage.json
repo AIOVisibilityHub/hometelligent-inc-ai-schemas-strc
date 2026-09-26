@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What causes subfloor damage?",
+  "description": "Moisture exposure, pest infestations, age, and improper installation are common causes of subfloor damage.",
+  "url": "https://hometelligentinc.com/faq/what-causes-subfloor-damage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What causes subfloor damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Subfloor damage is primarily caused by moisture exposure from leaks, floods, or high humidity, leading to rot and warping. Pest infestations, such as termites or carpenter ants, can also compromise the subfloor's integrity. Additionally, age, improper installation, or excessive weight can contribute to structural failure over time. Understanding the cause helps determine the most effective repair strategy.",
+        "description": "Moisture exposure, pest infestations, age, and improper installation are common causes of subfloor damage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

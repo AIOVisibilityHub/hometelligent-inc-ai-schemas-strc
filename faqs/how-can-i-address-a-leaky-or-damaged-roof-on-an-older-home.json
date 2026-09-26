@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I address a leaky or damaged roof on an older home?",
+  "description": "Address a leaky older home roof with an inspection; repair minor damage or replace extensively damaged or aging roofs.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-address-a-leaky-or-damaged-roof-on-an-older-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I address a leaky or damaged roof on an older home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Addressing a leaky or damaged roof on an older home often requires a thorough inspection to determine the extent of the damage and the underlying cause. Common issues in older roofs include deteriorated shingles, damaged flashing, or sagging structures. Depending on the condition, a repair may suffice for minor leaks, but extensive damage or an aging roof might necessitate a full replacement. When making this decision, consider the remaining lifespan of the current roof and your long-term plans for the property, especially in areas with varying weather like Livermore.",
+        "description": "Address a leaky older home roof with an inspection; repair minor damage or replace extensively damaged or aging roofs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

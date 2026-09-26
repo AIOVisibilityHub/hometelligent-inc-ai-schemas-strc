@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before a deck repair contractor visits?",
+  "description": "Clear the deck, ensure easy access, highlight specific concerns, and have any existing permits or plans ready for the contractor's visit.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-a-deck-repair-contractor-visits",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before a deck repair contractor visits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before a deck repair contractor visits, clear the deck of all furniture, planters, and any other items. Ensure easy access to the deck area and point out any specific concerns or damaged spots you've noticed. If you have any existing permits or original deck plans, having those available can be helpful for the contractor's assessment. This preparation allows for a more efficient and accurate evaluation of your deck's condition and the scope of necessary repairs.",
+        "description": "Clear the deck, ensure easy access, highlight specific concerns, and have any existing permits or plans ready for the contractor's visit."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

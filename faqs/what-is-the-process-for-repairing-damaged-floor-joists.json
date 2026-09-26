@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for repairing damaged floor joists?",
+  "description": "Floor joist repair involves shoring, removing subfloor, then reinforcing or replacing damaged joists, followed by subfloor reinstallation.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-repairing-damaged-floor-joists",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for repairing damaged floor joists?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process for repairing damaged floor joists typically involves shoring up the compromised area, removing any affected subfloor or flooring, and then either reinforcing existing joists (sistering) or replacing severely damaged ones. Reinforcement involves attaching new lumber alongside the existing joist. Replacement requires careful removal and installation of a new, appropriately sized joist. After repairs, new subfloor and flooring can be reinstalled. The specific approach depends on the type and cause of damage, and the overall structural integrity of the floor.",
+        "description": "Floor joist repair involves shoring, removing subfloor, then reinforcing or replacing damaged joists, followed by subfloor reinstallation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

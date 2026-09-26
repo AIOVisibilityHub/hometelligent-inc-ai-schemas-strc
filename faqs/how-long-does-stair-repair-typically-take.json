@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does stair repair typically take?",
+  "description": "Stair repair duration depends on damage extent and complexity, ranging from hours for minor fixes to several days for extensive structural work, with a precise",
+  "url": "https://hometelligentinc.com/faq/how-long-does-stair-repair-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does stair repair typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of stair repair varies significantly based on the extent of the damage, the type of materials involved, and the complexity of the staircase. Minor repairs, such as tightening a few loose treads, might take a few hours, while extensive structural repairs or the replacement of multiple components could span several days. A detailed assessment during the initial consultation helps us provide a more accurate timeline for your specific project.",
+        "description": "Stair repair duration depends on damage extent and complexity, ranging from hours for minor fixes to several days for extensive structural work, with a precise timeline provided after assessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

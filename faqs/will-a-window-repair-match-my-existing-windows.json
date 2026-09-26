@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will a window repair match my existing windows?",
+  "description": "We aim to match repairs with existing window components like glass, frame color, and hardware. For older models, we discuss closest alternatives if an exact mat",
+  "url": "https://hometelligentinc.com/faq/will-a-window-repair-match-my-existing-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will a window repair match my existing windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We strive to match repaired components with your existing windows as closely as possible, especially for glass type, frame color, and hardware style. For glass replacement, we can typically source panes that match the original thickness and tint. However, with older or discontinued window models, an exact match for certain frame components or hardware might be challenging. In such cases, we discuss the closest available alternatives or options for blending the repair with your current aesthetics before proceeding.",
+        "description": "We aim to match repairs with existing window components like glass, frame color, and hardware. For older models, we discuss closest alternatives if an exact match isn't possible."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

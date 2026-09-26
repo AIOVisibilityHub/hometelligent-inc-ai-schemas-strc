@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do you estimate the cost of repairing damaged walls?",
+  "description": "Repair costs are estimated based on damage extent, wall material, and repair complexity after an on-site assessment.",
+  "url": "https://hometelligentinc.com/faq/how-do-you-estimate-the-cost-of-repairing-damaged-walls",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you estimate the cost of repairing damaged walls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of damaged wall repair is estimated based on the extent of the damage, the type of wall material, and the complexity of the repair. Minor repairs, such as small nail holes, are less costly than extensive damage like large sections of compromised drywall or structural issues. We provide a detailed estimate after an on-site assessment to ensure transparency and account for all necessary materials and labor.",
+        "description": "Repair costs are estimated based on damage extent, wall material, and repair complexity after an on-site assessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

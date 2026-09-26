@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How often should I have my skylights inspected to prevent major repairs?",
+  "description": "Annual skylight inspections are recommended to catch small issues early and prevent major, costly repairs.",
+  "url": "https://hometelligentinc.com/faq/how-often-should-i-have-my-skylights-inspected-to-prevent-major-repairs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I have my skylights inspected to prevent major repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is advisable to have your skylights inspected annually, especially if you live in areas prone to harsh weather conditions. Regular inspections can help identify potential issues like degraded seals, flashing problems, or minor cracks before they escalate into major leaks or costly damage. This proactive approach can extend the lifespan of your skylights and ensure they remain energy-efficient, saving you from more extensive repairs down the line.",
+        "description": "Annual skylight inspections are recommended to catch small issues early and prevent major, costly repairs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

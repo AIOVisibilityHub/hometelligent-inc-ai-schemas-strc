@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation do I need to do before wall repair services begin?",
+  "description": "Before repair, clear the area by moving furniture, valuables, and removing wall hangings and outlet covers to ensure accessibility.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-do-i-need-to-do-before-wall-repair-services-begin",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation do I need to do before wall repair services begin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before wall repair services begin, we recommend clearing the repair area by moving furniture and valuables at least three to five feet away from the wall. Removing wall hangings, outlet covers, and light switch plates can also expedite the process. While we take precautions to protect your belongings and flooring, having the space accessible helps our team work efficiently and minimizes potential disruptions.",
+        "description": "Before repair, clear the area by moving furniture, valuables, and removing wall hangings and outlet covers to ensure accessibility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of using sustainable building materials?",
+  "description": "Benefits include reduced environmental impact, better indoor air quality, lower utility bills, and increased property value.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-using-sustainable-building-materials",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of using sustainable building materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Using sustainable building materials offers several benefits, including reduced environmental impact, improved indoor air quality, lower utility bills due to enhanced energy efficiency, and increased property value. These materials can also contribute to a building's longevity and reduce waste during construction and demolition. Hometelligent Inc. focuses on these benefits to deliver durable and efficient structures throughout the East Bay, from Oakland to San Leandro.",
+        "description": "Benefits include reduced environmental impact, better indoor air quality, lower utility bills, and increased property value."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

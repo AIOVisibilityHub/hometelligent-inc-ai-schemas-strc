@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost range for renovating an older home versus a newer one?",
+  "description": "Older home renovations typically cost more than newer ones due to extensive structural, electrical, and plumbing upgrade needs.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-renovating-an-older-home-versus-a-newer-one",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost range for renovating an older home versus a newer one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Renovating an older home generally incurs higher costs than a newer one due to the likelihood of needing extensive structural, electrical, and plumbing upgrades. For instance, replacing an entire cast iron plumbing system common in 1920s Oakland homes can be significantly more expensive than minor updates in a 2000s-built property. These unforeseen issues, often discovered during demolition, contribute to a higher overall budget. It's a practical tradeoff: the charm of an older home often comes with the expense of bringing its core systems up to modern standards and safety codes.",
+        "description": "Older home renovations typically cost more than newer ones due to extensive structural, electrical, and plumbing upgrade needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

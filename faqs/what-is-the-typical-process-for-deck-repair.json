@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for deck repair?",
+  "description": "The process involves inspection, permit acquisition (if needed), removal and replacement of damaged parts, and finishing touches like cleaning and treatment.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-deck-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for deck repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The deck repair process typically begins with an inspection to assess the damage and determine the scope of work. Next, we secure any necessary permits, especially for structural repairs or significant modifications. Damaged components, such as rotten boards, railings, or joists, are then removed and replaced with new materials. Finally, the repaired sections are cleaned, sanded, and treated to match the existing deck and enhance durability. This systematic approach ensures a safe and lasting repair.",
+        "description": "The process involves inspection, permit acquisition (if needed), removal and replacement of damaged parts, and finishing touches like cleaning and treatment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

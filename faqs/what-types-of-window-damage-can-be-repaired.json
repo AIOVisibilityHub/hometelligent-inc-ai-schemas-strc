@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of window damage can be repaired?",
+  "description": "Window repair can fix cracked glass, damaged sashes, faulty locks, and operational issues. We assess damage to determine repair feasibility or if replacement is",
+  "url": "https://hometelligentinc.com/faq/what-types-of-window-damage-can-be-repaired",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of window damage can be repaired?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Window repair typically addresses issues such as cracked or broken glass panes, damaged sashes, faulty locking mechanisms, and problems with balance systems that prevent smooth operation. We assess the extent of the damage to determine if a repair is feasible or if a full window replacement would be more cost-effective and provide better long-term performance. A common repair we handle involves replacing insulated glass units (IGUs) where the seal has failed, leading to condensation between the panes.",
+        "description": "Window repair can fix cracked glass, damaged sashes, faulty locks, and operational issues. We assess damage to determine repair feasibility or if replacement is needed."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

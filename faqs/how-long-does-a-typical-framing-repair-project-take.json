@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical framing repair project take?",
+  "description": "Framing repair timelines depend on damage severity and accessibility, ranging from a few days for minor fixes to several weeks for extensive structural work. Pr",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-framing-repair-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical framing repair project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a framing repair project varies significantly based on the extent of the damage, the accessibility of the affected area, and the type of structure. Minor repairs, such as replacing a few studs due to water damage, might take a few days. More extensive issues, like rebuilding a load-bearing wall or repairing multiple joists, could extend to several weeks. Before starting, an assessment will help outline a realistic timeline. Preparation, such as obtaining permits and ensuring clear access, can significantly streamline the process and prevent delays.",
+        "description": "Framing repair timelines depend on damage severity and accessibility, ranging from a few days for minor fixes to several weeks for extensive structural work. Proper preparation and permit acquisition can help avoid delays."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

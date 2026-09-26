@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are common signs that my deck needs repair?",
+  "description": "Loose railings, rotten wood, cracked boards, and an unstable structure are common signs your deck needs repair.",
+  "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-my-deck-needs-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common signs that my deck needs repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common signs your deck needs repair include loose or wobbly railings, rotten or decaying wood, cracked or splintered boards, unstable stairs, and visible mold or mildew growth. Additionally, if the deck surface feels bouncy or uneven when walked upon, it indicates structural issues. Addressing these signs early can prevent more extensive and costly repairs down the line, ensuring the safety and longevity of your outdoor living space.",
+        "description": "Loose railings, rotten wood, cracked boards, and an unstable structure are common signs your deck needs repair."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before a skylight repair appointment?",
+  "description": "Before an appointment, clear areas beneath and around the skylight inside and outside your home for safety and efficiency.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-a-skylight-repair-appointment",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before a skylight repair appointment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before your skylight repair appointment, clear the area beneath and around the skylight inside your home to protect your furniture and belongings from dust or debris. If the repair requires exterior access, ensure the area on your roof is also clear of obstructions and any fragile landscaping. This preparation allows our technicians to work efficiently and safely, speeding up the repair process. Also, have any documentation related to your skylight's installation or previous repairs available if possible.",
+        "description": "Before an appointment, clear areas beneath and around the skylight inside and outside your home for safety and efficiency."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

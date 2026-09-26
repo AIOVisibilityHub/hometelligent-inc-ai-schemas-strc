@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are used for air sealing?",
+  "description": "Materials like caulk, expanding foam, weatherstripping, and rigid foam insulation are used for air sealing, chosen based on gap size and location.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-used-for-air-sealing",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are used for air sealing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Air sealing typically uses a variety of materials depending on the gap size and location. Common materials include caulk for small cracks, expanding foam for larger gaps around pipes and wires, weatherstripping for doors and windows, and rigid foam insulation for larger openings. The decision factor for material selection is based on the specific application, considering factors like flexibility, durability, and exposure to moisture or temperature extremes, to ensure a lasting seal.",
+        "description": "Materials like caulk, expanding foam, weatherstripping, and rigid foam insulation are used for air sealing, chosen based on gap size and location."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need permits for home safety repairs?",
+  "description": "Permits are often needed for significant safety repairs like structural, electrical, plumbing, or major roofing work to ensure compliance with local building co",
+  "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-home-safety-repairs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need permits for home safety repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, permits are often required for significant home safety repairs, especially those involving structural changes, electrical work, plumbing, or major roofing projects. These permits ensure that the repairs meet local building codes and safety regulations. Failing to obtain necessary permits can lead to fines, difficulties with insurance claims, or issues when selling your home. Hometelligent Inc. assists clients in navigating the permitting process, explaining what documentation or inspections may be needed before starting work to ensure compliance with city requirements in areas such as Fremont or San Leandro.",
+        "description": "Permits are often needed for significant safety repairs like structural, electrical, plumbing, or major roofing work to ensure compliance with local building codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

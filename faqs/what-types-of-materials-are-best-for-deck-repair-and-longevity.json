@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials are best for deck repair and longevity?",
+  "description": "Pressure-treated lumber is good for structure; redwood, cedar, or composite are ideal for surfaces, balancing aesthetics, durability, and maintenance.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-best-for-deck-repair-and-longevity",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are best for deck repair and longevity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For deck repair and longevity, the best materials often depend on your existing deck and budget. Pressure-treated lumber is a common, cost-effective choice for structural components due to its resistance to rot and insects. For decking surfaces, redwood and cedar offer natural durability and beauty, while composite materials provide excellent longevity with minimal maintenance. The decision should balance aesthetic preferences with long-term durability and maintenance needs, ensuring a harmonious repair with the existing structure.",
+        "description": "Pressure-treated lumber is good for structure; redwood, cedar, or composite are ideal for surfaces, balancing aesthetics, durability, and maintenance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is framing repair and when is it necessary?",
+  "description": "Framing repair addresses damage to a building's structural wood components like studs and joists, often caused by water, pests, or age. It's necessary when you",
+  "url": "https://hometelligentinc.com/faq/what-is-framing-repair-and-when-is-it-necessary",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is framing repair and when is it necessary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Framing repair involves fixing or replacing the structural wood components of a building, such as studs, joists, and beams, that form its skeleton. It becomes necessary when these components are damaged due to water intrusion, rot, pest infestation, fire, or structural shifting. Signs like sagging floors, bulging walls, sticking doors, or visible damage can indicate a need for repair. The extent of damage dictates whether repairs involve minor reinforcement or complete section replacement, a decision that often requires an onsite assessment by a professional to ensure structural integrity and code compliance.",
+        "description": "Framing repair addresses damage to a building's structural wood components like studs and joists, often caused by water, pests, or age. It's necessary when you observe signs of structural compromise, requiring a professional assessment to determine the scope of work."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

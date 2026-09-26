@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of insulation are available for home upgrades?",
+  "description": "Common insulation types are fiberglass, cellulose, spray foam, and rigid foam boards, each with different properties for various home areas.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-insulation-are-available-for-home-upgrades",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of insulation are available for home upgrades?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common insulation types for home upgrades include fiberglass batts, blown-in cellulose, spray foam, and rigid foam boards. Each type offers different R-values, installation methods, and suitability for various areas of a home, such as attics, walls, or crawl spaces. We can help assess which material best fits your home's structure and energy goals in areas like Berkeley or Albany.",
+        "description": "Common insulation types are fiberglass, cellulose, spray foam, and rigid foam boards, each with different properties for various home areas."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

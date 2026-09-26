@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does the air sealing process usually take for an average home?",
+  "description": "Air sealing typically takes 1-3 days for an average home, depending on size and leakage. This includes assessment, sealing, and post-sealing tests.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-the-air-sealing-process-usually-take-for-an-average-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does the air sealing process usually take for an average home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of an air sealing project varies based on the home's size, age, and the extent of air leakage. A typical project for an average-sized home in areas like Berkeley or Albany might take anywhere from one to three days. This process clarity includes an initial assessment, sealing work in identified areas, and often a post-sealing test to ensure effectiveness, with minimal disruption to your daily routine.",
+        "description": "Air sealing typically takes 1-3 days for an average home, depending on size and leakage. This includes assessment, sealing, and post-sealing tests."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
