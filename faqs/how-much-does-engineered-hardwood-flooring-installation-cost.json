@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does engineered hardwood flooring installation cost?",
+  "description": "Installation costs depend on material, square footage, room complexity, and subfloor prep. Get a detailed quote after an on-site evaluation.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-engineered-hardwood-flooring-installation-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does engineered hardwood flooring installation cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of engineered hardwood flooring installation varies widely based on the material chosen, the total square footage, complexity of the room layout, and necessary subfloor preparation. Material costs can range significantly based on wood species, veneer thickness, and brand. Labor costs are influenced by the installation method and any demolition or subfloor repair. Hometelligent Inc. provides detailed, transparent quotes after an on-site evaluation to ensure all factors, including potential additional subfloor work, are accounted for.",
+        "description": "Installation costs depend on material, square footage, room complexity, and subfloor prep. Get a detailed quote after an on-site evaluation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

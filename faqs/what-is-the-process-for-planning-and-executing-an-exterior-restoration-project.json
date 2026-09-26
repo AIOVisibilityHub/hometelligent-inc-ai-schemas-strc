@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for planning and executing an exterior restoration project?",
+  "description": "The process involves consultation, site assessment, planning, permitting, construction, and final inspections. Local building codes are a key consideration.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-planning-and-executing-an-exterior-restoration-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for planning and executing an exterior restoration project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The typical process begins with an initial consultation and site assessment to identify existing issues and discuss your goals. This is followed by detailed planning, including material selection and obtaining necessary permits. Construction then commences, often in phases to minimize disruption, concluding with final inspections and cleanup. For properties in areas like Oakland or San Francisco, understanding local building codes and historic preservation guidelines is a critical preparatory step that can affect project approval and execution.",
+        "description": "The process involves consultation, site assessment, planning, permitting, construction, and final inspections. Local building codes are a key consideration."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical exterior home renovation project take?",
+  "description": "Project duration varies by scope, from a few days for painting to several weeks or months for full renovations. Weather, material availability, and local permit",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-exterior-home-renovation-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical exterior home renovation project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of an exterior home renovation project varies greatly depending on its scope and complexity. A smaller project like exterior painting might take a few days to a week, while a full-scale renovation involving roofing, siding, and window replacement could extend to several weeks or even a few months. Factors such as weather conditions, material availability, and the specific permitting requirements in cities like Alameda or Berkeley can also impact the timeline. We aim to provide a detailed project schedule upfront to manage expectations.",
+        "description": "Project duration varies by scope, from a few days for painting to several weeks or months for full renovations. Weather, material availability, and local permitting requirements can affect the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

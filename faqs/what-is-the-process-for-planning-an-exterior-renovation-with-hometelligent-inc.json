@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for planning an exterior renovation with Hometelligent Inc.?",
+  "description": "Our planning process includes an initial consultation, on-site assessment, a detailed proposal, and assistance with obtaining local permits before work begins.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-planning-an-exterior-renovation-with-hometelligent-inc",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for planning an exterior renovation with Hometelligent Inc.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our planning process for an exterior renovation begins with an initial consultation to discuss your vision, needs, and budget. Following this, we conduct a detailed on-site assessment to evaluate the current condition of your home and take necessary measurements. We then provide a comprehensive proposal outlining the scope of work, materials, timeline, and cost. Once approved, we assist with obtaining necessary permits, particularly crucial in areas with strict building codes like Berkeley or San Francisco, before commencing work.",
+        "description": "Our planning process includes an initial consultation, on-site assessment, a detailed proposal, and assistance with obtaining local permits before work begins. This ensures compliance, especially in areas with strict building codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

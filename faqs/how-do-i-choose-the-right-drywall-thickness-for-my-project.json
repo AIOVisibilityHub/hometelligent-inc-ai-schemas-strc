@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right drywall thickness for my project?",
+  "description": "Choose drywall thickness based on application: 1/2-inch for standard walls, 5/8-inch for ceilings or fire-rated assemblies to prevent sagging and meet codes.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-drywall-thickness-for-my-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right drywall thickness for my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the correct drywall thickness depends on the application. Standard wall applications typically use 1/2-inch drywall, which provides a good balance of strength and manageability. For ceilings, 5/8-inch drywall is often preferred to prevent sagging, especially if joist spacing is wider. Thicker drywall, such as 5/8-inch, is also required for fire-rated assemblies due to its increased density. This is a decision factor based on structural support, fire safety requirements, and the specific load-bearing or spanning characteristics needed for the installation. Our team can advise on the optimal thickness for your project's longevity and code compliance.",
+        "description": "Choose drywall thickness based on application: 1/2-inch for standard walls, 5/8-inch for ceilings or fire-rated assemblies to prevent sagging and meet codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

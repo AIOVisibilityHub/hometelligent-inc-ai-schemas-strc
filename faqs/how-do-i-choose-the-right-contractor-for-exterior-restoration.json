@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for exterior restoration?",
+  "description": "Choose a contractor with relevant experience, strong references, and proper credentials. Compare multiple bids based on scope, materials, and timelines.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-exterior-restoration",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for exterior restoration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When selecting a contractor for exterior restoration, look for experience with projects similar to yours, strong references, and proper licensing and insurance. It's crucial to obtain multiple bids and compare them not just on price, but also on the proposed scope of work, materials, and project timelines. For example, a contractor familiar with the specific architectural styles found in areas like Piedmont or Berkeley may offer more specialized insight and quality of work. Thoroughly reviewing their portfolio and client testimonials can provide valuable insight.",
+        "description": "Choose a contractor with relevant experience, strong references, and proper credentials. Compare multiple bids based on scope, materials, and timelines."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

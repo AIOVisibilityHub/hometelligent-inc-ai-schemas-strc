@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before your team visits for a staircase remodel consultation?",
+  "description": "Before the consultation, prepare your budget, design inspirations, and functional needs like safety or storage. This helps us provide a tailored proposal.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-your-team-visits-for-a-staircase-remodel-consultati",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before your team visits for a staircase remodel consultation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before our consultation, it's helpful if you have a clear idea of your budget range and any specific design inspirations, such as photos or Pinterest boards. Consider the functionality you need from the staircase, such as improved safety, better flow, or integrated storage. Gathering these thoughts and any existing architectural plans will allow us to have a more productive initial discussion and provide a tailored proposal for your project.",
+        "description": "Before the consultation, prepare your budget, design inspirations, and functional needs like safety or storage. This helps us provide a tailored proposal."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

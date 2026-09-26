@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for my staircase remodel?",
+  "description": "Permit needs vary by project scope and local building codes in areas like Berkeley. Structural changes or layout modifications usually require permits, and we c",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-my-staircase-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for my staircase remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements for staircase remodels depend on the extent of the work and local building codes in areas like Berkeley or Dublin. Minor cosmetic changes typically do not require a permit. However, any structural alterations, significant layout changes, or modifications affecting fire egress often do. Hometelligent Inc. can assist in identifying the necessary permits and navigating the application process to ensure compliance with all local regulations.",
+        "description": "Permit needs vary by project scope and local building codes in areas like Berkeley. Structural changes or layout modifications usually require permits, and we can help with the process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

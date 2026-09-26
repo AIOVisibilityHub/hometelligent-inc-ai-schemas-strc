@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Does Hometelligent Inc. offer soffit repair services in my area?",
+  "description": "Yes, Hometelligent Inc. offers soffit repair services in Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont,",
+  "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-soffit-repair-services-in-my-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Hometelligent Inc. offer soffit repair services in my area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. provides comprehensive soffit repair services across a wide service area in the East Bay, including Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont, Pleasanton, San Leandro, and Union City. We also serve surrounding communities. Our experienced team is familiar with the unique architectural styles and weather challenges prevalent in these regions, ensuring that your soffit repairs are handled efficiently and effectively, meeting local building codes and aesthetic standards.",
+        "description": "Yes, Hometelligent Inc. offers soffit repair services in Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont, Pleasanton, San Leandro, Union City, and surrounding East Bay communities."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of custom built-ins can Hometelligent Inc. design and install?",
+  "description": "Hometelligent Inc. designs and installs custom bookshelves, entertainment centers, office cabinetry, mudroom storage, and closet systems.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-custom-built-ins-can-hometelligent-inc-design-and-install",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of custom built-ins can Hometelligent Inc. design and install?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. specializes in various custom built-ins, including bookshelves, entertainment centers, office cabinetry, mudroom storage, and closet systems. We work with clients to design solutions that integrate seamlessly with their home's existing architecture and functional needs. The final design will depend on factors like the available space, desired materials, and specific storage or display requirements you have for the unit.",
+        "description": "Hometelligent Inc. designs and installs custom bookshelves, entertainment centers, office cabinetry, mudroom storage, and closet systems."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

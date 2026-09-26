@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I prepare my home for tile installation?",
+  "description": "Clear the room of furniture, ensure accessibility, and protect adjacent areas. Hometelligent Inc. will inspect and address subfloor issues before starting.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-home-for-tile-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I prepare my home for tile installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prepare your home for tile installation, first clear the room of all furniture, appliances, and personal items. Ensure the work area is easily accessible for the installers. Protect adjacent areas and pathways with drop cloths or plastic sheeting to prevent dust and damage. It's also beneficial to ensure the subfloor is free of major debris or existing damage that might impede the installation, although Hometelligent Inc. will conduct a final subfloor inspection in your Oakland home prior to beginning work and address any necessary repairs.",
+        "description": "Clear the room of furniture, ensure accessibility, and protect adjacent areas. Hometelligent Inc. will inspect and address subfloor issues before starting."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

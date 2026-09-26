@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does exterior trim replacement usually take?",
+  "description": "Project duration depends on home size, trim complexity, and damage extent, typically ranging from a day for small sections to over a week for an entire home, wi",
+  "url": "https://hometelligentinc.com/faq/how-long-does-exterior-trim-replacement-usually-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does exterior trim replacement usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of exterior trim replacement projects varies based on the size of the home, the complexity of the trim work, and the extent of damage. A small section might take a day, while an entire home could take several days to a week or more. Weather conditions, especially rain or extreme temperatures, can also extend the project timeline. For instance, in areas like Fremont or Hayward, unexpected rain can delay painting. We always provide a project timeline estimate after assessing your specific needs.",
+        "description": "Project duration depends on home size, trim complexity, and damage extent, typically ranging from a day for small sections to over a week for an entire home, with weather impacting timelines."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

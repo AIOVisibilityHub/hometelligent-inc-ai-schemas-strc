@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to hire an electrician and plumber before drywall installation?",
+  "description": "Yes, all electrical and plumbing rough-ins must be completed and inspected before drywall installation to avoid future issues.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-hire-an-electrician-and-plumber-before-drywall-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to hire an electrician and plumber before drywall installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is crucial to have all electrical and plumbing rough-ins completed and inspected before drywall installation. This includes running all wires, installing outlet boxes, and laying out all pipes for sinks, toilets, and other fixtures. The process clarity is that drywall creates a finished surface, so any hidden systems must be finalized and approved beforehand. Attempting to install drywall over incomplete or uninspected work can lead to costly and time-consuming repairs later. Ensuring these trades are finished allows for a smooth and compliant drywall process.",
+        "description": "Yes, all electrical and plumbing rough-ins must be completed and inspected before drywall installation to avoid future issues."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of subfloor preparation is needed for LVP installation?",
+  "description": "Subfloor must be clean, dry, level, and sound; repairs or leveling are often needed to ensure proper LVP installation.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-subfloor-preparation-is-needed-for-lvp-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of subfloor preparation is needed for LVP installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Proper subfloor preparation is crucial for a successful LVP installation. The subfloor must be clean, dry, level, and structurally sound. Any existing unevenness, cracks, or damage will need to be repaired or leveled to prevent issues like gapping or buckling in the new flooring. For example, in older homes common in Berkeley, existing subfloors may require more extensive repairs or leveling compounds to ensure a smooth, stable base for the LVP. This preparation directly impacts the longevity and appearance of your new floor.",
+        "description": "Subfloor must be clean, dry, level, and sound; repairs or leveling are often needed to ensure proper LVP installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

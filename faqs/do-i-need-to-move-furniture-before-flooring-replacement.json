@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to move furniture before flooring replacement?",
+  "description": "Yes, clear all furniture and personal items from the work area to allow full access for installation. Discuss heavy items with the team.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-move-furniture-before-flooring-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to move furniture before flooring replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, customers are typically responsible for clearing all furniture, personal items, and appliances from the rooms where flooring will be replaced. This allows our installation team full access to the work area, helping to avoid delays and ensure a smooth installation process. Discuss any exceptionally heavy items with our team during the initial assessment.",
+        "description": "Yes, clear all furniture and personal items from the work area to allow full access for installation. Discuss heavy items with the team."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

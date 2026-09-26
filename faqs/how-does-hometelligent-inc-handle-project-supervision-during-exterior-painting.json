@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does Hometelligent Inc. handle project supervision during exterior painting?",
+  "description": "A dedicated project manager supervises daily, conducts quality checks, manages the crew, and communicates with homeowners, providing a single point of contact.",
+  "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-handle-project-supervision-during-exterior-painting",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does Hometelligent Inc. handle project supervision during exterior painting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. assigns a dedicated project manager to oversee all exterior painting projects. This manager is responsible for daily site visits, quality checks, crew management, and direct communication with the homeowner. This hands-on supervision ensures that work progresses according to plan, safety standards are met, and any issues are addressed promptly. It provides process clarity by having a single point of contact for all project-related inquiries.",
+        "description": "A dedicated project manager supervises daily, conducts quality checks, manages the crew, and communicates with homeowners, providing a single point of contact."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

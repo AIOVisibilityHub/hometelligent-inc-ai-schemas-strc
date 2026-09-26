@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is fascia board and why is it important for my home?",
+  "description": "Fascia board is a protective trim along the roof's edge that supports gutters and shields your home from weather damage.",
+  "url": "https://hometelligentinc.com/faq/what-is-fascia-board-and-why-is-it-important-for-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is fascia board and why is it important for my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fascia board is the long, straight board that runs along the lower edge of your roof, just below the shingles. It protects the edge of the roof from weather damage and provides a finished look. It also serves as the attachment point for your gutters, making its condition crucial for proper water drainage and preventing rot in your roof structure and siding. Regularly inspecting your fascia for signs of wear can help prevent more extensive and costly repairs down the line.",
+        "description": "Fascia board is a protective trim along the roof's edge that supports gutters and shields your home from weather damage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

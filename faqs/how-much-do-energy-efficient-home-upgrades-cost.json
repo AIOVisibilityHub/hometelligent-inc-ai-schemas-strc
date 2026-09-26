@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much do energy-efficient home upgrades cost?",
+  "description": "Costs vary significantly by upgrade type and scope. Consider upfront costs alongside long-term savings. Hometelligent provides estimates after an on-site consul",
+  "url": "https://hometelligentinc.com/faq/how-much-do-energy-efficient-home-upgrades-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much do energy-efficient home upgrades cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of energy-efficient home upgrades varies widely depending on the type, scope, and specific materials chosen. Minor upgrades like weatherstripping and sealing can be low-cost, while major projects like new windows or HVAC systems represent a more significant investment. It's important to consider both the upfront cost and the long-term energy savings. We provide transparent estimates after an on-site consultation, which allows us to account for factors unique to properties in cities like Berkeley or Albany.",
+        "description": "Costs vary significantly by upgrade type and scope. Consider upfront costs alongside long-term savings. Hometelligent provides estimates after an on-site consultation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider replacing my home's fascia boards?",
+  "description": "Replace fascia boards if you see rot, cracks, insect damage, or sagging gutters, as these indicate a need for repair.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-home-s-fascia-boards",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider replacing my home's fascia boards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider replacing your fascia boards if you notice signs of rot, decay, cracks, peeling paint, or insect damage. Sagging gutters or water stains on your siding below the roofline can also indicate compromised fascia. Delaying replacement can lead to further damage to your roof's eaves, attic, and even the structural integrity of your home. A professional inspection can accurately assess the extent of the damage and recommend the appropriate action, guiding your decision on the scope of the repair.",
+        "description": "Replace fascia boards if you see rot, cracks, insect damage, or sagging gutters, as these indicate a need for repair."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

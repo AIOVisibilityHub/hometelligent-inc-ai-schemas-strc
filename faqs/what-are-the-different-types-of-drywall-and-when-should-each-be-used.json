@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the different types of drywall and when should each be used?",
+  "description": "Different drywall types, such as regular, moisture-resistant, and fire-resistant, are chosen based on the room's function and specific needs.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-different-types-of-drywall-and-when-should-each-be-used",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the different types of drywall and when should each be used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common drywall types include regular (standard), moisture-resistant (greenboard/blueboard), fire-resistant (Type X), and sound-reducing. Regular drywall is suitable for most interior walls and ceilings. Moisture-resistant drywall is ideal for bathrooms, kitchens, and laundry rooms to prevent mold and mildew. Type X offers enhanced fire protection for areas requiring higher safety standards, such as garages or multi-family dwellings. Sound-reducing drywall is beneficial for media rooms or areas where noise reduction is a priority. Choosing the correct type is a key decision factor based on the specific function and requirements of each space.",
+        "description": "Different drywall types, such as regular, moisture-resistant, and fire-resistant, are chosen based on the room's function and specific needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

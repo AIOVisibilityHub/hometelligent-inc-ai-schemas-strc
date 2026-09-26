@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before an energy-efficient upgrade consultation?",
+  "description": "Prepare recent utility bills, list comfort issues, and consider your budget and goals. This helps tailor upgrade recommendations.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-an-energy-efficient-upgrade-consultation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before an energy-efficient upgrade consultation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before an energy-efficient upgrade consultation, it's helpful to gather any recent utility bills to provide insight into your current energy consumption. Also, make a list of areas in your home where you notice comfort issues, such as drafts or inconsistent temperatures. Consider your budget and specific goals for the upgrades, whether it's reducing costs, improving comfort, or environmental impact. This preparation helps us tailor our recommendations effectively to your needs in areas like Castro Valley or Ashland.",
+        "description": "Prepare recent utility bills, list comfort issues, and consider your budget and goals. This helps tailor upgrade recommendations."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

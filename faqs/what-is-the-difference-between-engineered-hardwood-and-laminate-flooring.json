@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between engineered hardwood and laminate flooring?",
+  "description": "Engineered hardwood uses real wood veneer, allowing refinishing, while laminate uses a photo layer. Engineered offers better resale value and longevity.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-engineered-hardwood-and-laminate-flooring",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between engineered hardwood and laminate flooring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The primary difference lies in their construction. Engineered hardwood has a top layer of real wood veneer, giving it the authentic look and feel of solid hardwood and allowing for refinishing. Laminate flooring, however, uses a photographic layer under a clear protective wear layer, simulating wood without actual wood. Engineered hardwood generally offers better resale value and longevity with proper care. Hometelligent Inc. can explain these distinctions in detail to help you weigh the practical tradeoffs for your project.",
+        "description": "Engineered hardwood uses real wood veneer, allowing refinishing, while laminate uses a photo layer. Engineered offers better resale value and longevity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

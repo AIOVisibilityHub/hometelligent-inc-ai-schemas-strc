@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation is needed before an insulation upgrade begins?",
+  "description": "Clear work areas like attics and basements of personal items and ensure access points are clear before the upgrade.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-an-insulation-upgrade-begins",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation is needed before an insulation upgrade begins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before an insulation upgrade, it's helpful to clear the work areas, especially in attics or basements, removing any personal belongings or stored items. Ensure access points are clear and accessible for our team. If old insulation needs to be removed, our crew will handle that, but securing valuables nearby is always a good idea. This preparation helps streamline the installation process. Hometelligent Inc. will provide a checklist of specific preparation steps tailored to your project during the planning phase, ensuring everything is ready for a smooth start.",
+        "description": "Clear work areas like attics and basements of personal items and ensure access points are clear before the upgrade."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is interior framing and why is it important for a renovation project?",
+  "description": "Interior framing defines the internal layout and structural support for a building's walls and ceilings during renovation.",
+  "url": "https://hometelligentinc.com/faq/what-is-interior-framing-and-why-is-it-important-for-a-renovation-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is interior framing and why is it important for a renovation project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interior framing involves constructing the internal wall structures, ceilings, and other architectural elements that define a building's layout and support finishes. It's crucial for renovation projects as it establishes the room dimensions, door and window openings, and provides structural integrity for plumbing, electrical, and HVAC systems. Getting the framing right ensures that subsequent work, like drywall installation and cabinet fitting, proceeds smoothly and precisely, avoiding costly adjustments later.",
+        "description": "Interior framing defines the internal layout and structural support for a building's walls and ceilings during renovation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

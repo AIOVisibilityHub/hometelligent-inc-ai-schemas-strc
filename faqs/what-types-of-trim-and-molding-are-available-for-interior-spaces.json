@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of trim and molding are available for interior spaces?",
+  "description": "Available types include baseboards, crown molding, and casings, made from materials like wood, MDF, or polyurethane. The best type depends on your home's aesthe",
+  "url": "https://hometelligentinc.com/faq/what-types-of-trim-and-molding-are-available-for-interior-spaces",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of trim and molding are available for interior spaces?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interior trim and molding come in various styles and materials, including baseboards, crown molding, chair rails, and window/door casings. Materials often include wood (pine, oak, maple), medium-density fiberboard (MDF), or polyurethane. The choice depends on the desired aesthetic, durability, and budget, as well as the room's existing architectural style. For instance, more elaborate crown molding might suit a formal dining room, while simpler baseboards are common in bedrooms. Hometelligent Inc. can help you select options that complement your home's design in the Alameda area.",
+        "description": "Available types include baseboards, crown molding, and casings, made from materials like wood, MDF, or polyurethane. The best type depends on your home's aesthetic and your budget."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

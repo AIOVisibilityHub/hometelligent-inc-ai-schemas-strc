@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider repairing existing drywall versus complete replacement?",
+  "description": "Repairing drywall is best for minor damage, while replacement is needed for extensive issues like structural water damage or widespread mold.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-repairing-existing-drywall-versus-complete-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider repairing existing drywall versus complete replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repairing existing drywall is often suitable for small holes, cracks, or minor water damage. If the damage is localized and structurally sound, patching can be a cost-effective solution. However, complete replacement is recommended for extensive water damage causing structural compromise, widespread mold growth, or large sections of severely damaged or crumbling drywall. A practical tradeoff is evaluating the extent of the damage: repairing multiple large sections can sometimes be more time-consuming and less durable than a full replacement, especially if underlying issues like framing damage are present. Our team can assess the damage and recommend the most practical approach.",
+        "description": "Repairing drywall is best for minor damage, while replacement is needed for extensive issues like structural water damage or widespread mold."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

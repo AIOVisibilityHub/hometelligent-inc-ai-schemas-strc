@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I know if my home needs an insulation upgrade?",
+  "description": "High energy bills, uneven room temperatures, and drafts are signs your home may need an insulation upgrade, often common in older homes.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-home-needs-an-insulation-upgrade",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if my home needs an insulation upgrade?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Signs your home may need an insulation upgrade include consistently high energy bills, uneven temperatures between rooms, drafts, or noticeable temperature changes near walls or ceilings. A professional energy audit can precisely identify areas with insufficient insulation and recommend specific improvements. We often find homes in older neighborhoods like West Oakland or Downtown Berkeley can significantly benefit from modern insulation solutions.",
+        "description": "High energy bills, uneven room temperatures, and drafts are signs your home may need an insulation upgrade, often common in older homes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

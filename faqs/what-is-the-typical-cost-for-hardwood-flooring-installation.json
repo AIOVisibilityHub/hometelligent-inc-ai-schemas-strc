@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost for hardwood flooring installation?",
+  "description": "Costs vary based on wood type, installation complexity, labor, and subfloor prep. Custom options or extensive repairs will increase the total price.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-hardwood-flooring-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost for hardwood flooring installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of hardwood flooring installation is influenced by several factors, including the type of wood, the complexity of the installation, labor rates, and any necessary subfloor preparation or removal of old flooring. Exotic or custom wood species, intricate patterns, and extensive subfloor repairs will increase the overall cost. Obtaining a detailed estimate that breaks down materials, labor, and any additional services like trim work is recommended to understand the total investment.",
+        "description": "Costs vary based on wood type, installation complexity, labor, and subfloor prep. Custom options or extensive repairs will increase the total price."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

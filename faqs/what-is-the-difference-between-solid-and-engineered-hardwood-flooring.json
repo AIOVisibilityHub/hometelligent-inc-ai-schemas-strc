@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between solid and engineered hardwood flooring?",
+  "description": "Solid hardwood is one piece and highly refinishable, while engineered hardwood has layers and is more stable in humidity. Engineered wood offers more installati",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-solid-and-engineered-hardwood-flooring",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between solid and engineered hardwood flooring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Solid hardwood is milled from a single piece of wood, offering durability and the ability to be refinished multiple times. Engineered hardwood consists of a plywood or HDF core topped with a real wood veneer; it's more stable in fluctuating humidity and can often be installed in basements or over concrete. The practical tradeoff is that solid hardwood offers more refinishing potential over its lifespan, while engineered wood provides greater versatility in installation locations.",
+        "description": "Solid hardwood is one piece and highly refinishable, while engineered hardwood has layers and is more stable in humidity. Engineered wood offers more installation versatility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

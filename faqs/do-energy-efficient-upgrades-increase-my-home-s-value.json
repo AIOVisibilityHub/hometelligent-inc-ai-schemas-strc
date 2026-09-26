@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do energy-efficient upgrades increase my home's value?",
+  "description": "Energy-efficient upgrades can increase home value by lowering utility costs and improving comfort, which is attractive to buyers.",
+  "url": "https://hometelligentinc.com/faq/do-energy-efficient-upgrades-increase-my-home-s-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do energy-efficient upgrades increase my home's value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, energy-efficient upgrades can significantly increase your home's value. Features like new windows, upgraded insulation, and high-efficiency HVAC systems are attractive to potential buyers, as they promise lower utility costs and improved comfort. A certified energy rating (like an HERS rating) can further demonstrate these improvements. The exact return on investment varies, but properties with documented energy-saving features often command higher prices in markets like San Leandro and Union City.",
+        "description": "Energy-efficient upgrades can increase home value by lowering utility costs and improving comfort, which is attractive to buyers."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

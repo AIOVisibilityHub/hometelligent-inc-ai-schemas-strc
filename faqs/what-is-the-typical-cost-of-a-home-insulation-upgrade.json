@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost of a home insulation upgrade?",
+  "description": "Costs vary by insulation type, area size, and installation complexity. A detailed on-site estimate is recommended.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-of-a-home-insulation-upgrade",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost of a home insulation upgrade?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a home insulation upgrade varies significantly based on factors such as the type of insulation chosen, the size of the area to be insulated, existing insulation removal, and the complexity of the installation. For example, spray foam is generally more expensive per square foot than fiberglass but offers superior air sealing. It's advisable to get a detailed estimate after an on-site assessment. As a construction company serving the broader East Bay, Hometelligent Inc. provides transparent quotes tailored to your specific project scope and material choices.",
+        "description": "Costs vary by insulation type, area size, and installation complexity. A detailed on-site estimate is recommended."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can flooring be replaced in occupied homes?",
+  "description": "Yes, flooring can be replaced in occupied homes. Hometelligent Inc. minimizes disruption by working efficiently and containing dust.",
+  "url": "https://hometelligentinc.com/faq/can-flooring-be-replaced-in-occupied-homes",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can flooring be replaced in occupied homes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, flooring replacement can be performed in occupied homes. Our team at Hometelligent Inc. aims to minimize disruption by working efficiently and maintaining a clean work environment. We typically recommend sealing off work areas to contain dust and discuss a project schedule that accommodates your household's routine.",
+        "description": "Yes, flooring can be replaced in occupied homes. Hometelligent Inc. minimizes disruption by working efficiently and containing dust."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is luxury vinyl plank (LVP) flooring?",
+  "description": "LVP is a durable, water-resistant synthetic flooring that mimics wood, made from multiple layers including a protective wear layer.",
+  "url": "https://hometelligentinc.com/faq/what-is-luxury-vinyl-plank-lvp-flooring",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is luxury vinyl plank (LVP) flooring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Luxury vinyl plank (LVP) flooring is a multi-layered synthetic flooring product designed to mimic the appearance of natural wood. It's known for its durability, water resistance, and ease of maintenance, making it suitable for various rooms including kitchens and bathrooms. The layers typically include a backing layer, a vinyl core, a photographic layer for aesthetics, and a clear protective wear layer. Hometelligent Inc. focuses on providing LVP options that meet specific durability and aesthetic needs for homes in Alameda, Albany, Berkeley, and Dublin.",
+        "description": "LVP is a durable, water-resistant synthetic flooring that mimics wood, made from multiple layers including a protective wear layer."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

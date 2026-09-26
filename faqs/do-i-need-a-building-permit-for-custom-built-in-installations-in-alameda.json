@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a building permit for custom built-in installations in Alameda?",
+  "description": "Most non-structural custom built-ins in Alameda don't require a permit, but major modifications involving structure or utilities might.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-building-permit-for-custom-built-in-installations-in-alameda",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a building permit for custom built-in installations in Alameda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most typical custom built-in installations, such as shelving units or cabinetry that are decorative and not structural, a building permit is generally not required in Alameda. However, if the built-ins involve significant structural modifications, electrical work, plumbing, or changes to egress, a permit may be necessary. It's always advisable to consult with Hometelligent Inc. during the design phase or contact the local building department to confirm specific requirements based on your project's scope.",
+        "description": "Most non-structural custom built-ins in Alameda don't require a permit, but major modifications involving structure or utilities might."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

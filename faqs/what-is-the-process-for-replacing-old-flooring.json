@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for replacing old flooring?",
+  "description": "The process includes consultation, old flooring removal, subfloor prep, new flooring installation, and finishing. Clear the area beforehand.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-replacing-old-flooring",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for replacing old flooring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The flooring replacement process typically involves several steps: initial consultation and material selection, old flooring removal, subfloor inspection and repair, new flooring installation, and finishing touches. Customers should prepare by clearing furniture and personal items from the work area before the project begins to ensure a smooth and efficient workflow.",
+        "description": "The process includes consultation, old flooring removal, subfloor prep, new flooring installation, and finishing. Clear the area beforehand."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

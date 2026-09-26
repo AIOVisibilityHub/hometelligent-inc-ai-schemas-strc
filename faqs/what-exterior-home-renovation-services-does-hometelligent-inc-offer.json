@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What exterior home renovation services does Hometelligent Inc. offer?",
+  "description": "Hometelligent Inc. offers roofing, siding, windows, doors, exterior painting, and deck construction for exterior home renovations. Prioritize areas with signifi",
+  "url": "https://hometelligentinc.com/faq/what-exterior-home-renovation-services-does-hometelligent-inc-offer",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What exterior home renovation services does Hometelligent Inc. offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. provides a range of exterior home renovation services, including roofing replacement and repair, siding installation and repair, window and door replacement, exterior painting, and deck construction. Our services are designed to enhance both the aesthetic appeal and structural integrity of your home. When considering a project, it's helpful to prioritize areas that show significant wear or are causing functional issues, such as drafts from old windows or leaks from a damaged roof, as these often have the most immediate impact on comfort and energy efficiency.",
+        "description": "Hometelligent Inc. offers roofing, siding, windows, doors, exterior painting, and deck construction for exterior home renovations. Prioritize areas with significant wear or functional issues for the most immediate impact."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

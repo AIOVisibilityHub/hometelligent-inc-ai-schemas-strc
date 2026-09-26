@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between baseboards, crown molding, and chair rails?",
+  "description": "Baseboards finish walls at the floor, crown molding decorates wall-to-ceiling transitions, and chair rails are decorative horizontal strips on walls. Each serve",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-baseboards-crown-molding-and-chair-rails",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between baseboards, crown molding, and chair rails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Baseboards are installed at the bottom of walls where they meet the floor, protecting the wall and providing a finished look. Crown molding is installed at the top where walls meet the ceiling, adding decorative flair and visual height. Chair rails are typically installed horizontally about one-third of the way up a wall, originally to protect walls from chairs but now primarily for decorative purposes. Each type serves a distinct aesthetic and functional role, contributing to the overall architectural detail of a room. Hometelligent Inc. can assist in designing a cohesive trim plan.",
+        "description": "Baseboards finish walls at the floor, crown molding decorates wall-to-ceiling transitions, and chair rails are decorative horizontal strips on walls. Each serves a distinct aesthetic purpose."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

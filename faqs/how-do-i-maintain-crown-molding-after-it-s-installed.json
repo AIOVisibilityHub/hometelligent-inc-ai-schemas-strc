@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I maintain crown molding after it's installed?",
+  "description": "Maintain crown molding by dusting regularly and wiping painted surfaces with a damp cloth. Re-caulk minor cracks as needed to preserve its finish.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-maintain-crown-molding-after-it-s-installed",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I maintain crown molding after it's installed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintaining crown molding is relatively simple and mostly involves regular dusting to prevent buildup. For painted molding, occasional wiping with a damp cloth can remove marks. Avoid using harsh chemical cleaners, which could damage the finish. Over time, minor cracks may appear in the caulk lines due to seasonal expansion and contraction; these can typically be easily re-caulked and touched up with paint. This easy maintenance helps preserve its aesthetic appeal for years.",
+        "description": "Maintain crown molding by dusting regularly and wiping painted surfaces with a damp cloth. Re-caulk minor cracks as needed to preserve its finish."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

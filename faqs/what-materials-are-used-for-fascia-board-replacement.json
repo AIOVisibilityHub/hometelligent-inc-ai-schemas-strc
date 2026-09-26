@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are used for fascia board replacement?",
+  "description": "Common fascia replacement materials include wood, PVC, and composite, each offering different durability and maintenance levels.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-used-for-fascia-board-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are used for fascia board replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fascia boards are commonly replaced with wood (such as cedar, redwood, or pressure-treated pine), PVC, or composite materials. Wood offers a classic look and can be painted, but requires regular maintenance. PVC and composite options are more durable, weather-resistant, and low-maintenance, though they may have a higher initial cost. When selecting a material, consider your home's aesthetic, the local climate in areas like Alameda or Berkeley, and your budget for maintenance versus initial investment.",
+        "description": "Common fascia replacement materials include wood, PVC, and composite, each offering different durability and maintenance levels."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

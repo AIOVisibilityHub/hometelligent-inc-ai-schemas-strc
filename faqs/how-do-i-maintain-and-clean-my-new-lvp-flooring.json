@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I maintain and clean my new LVP flooring?",
+  "description": "Maintain LVP by regular sweeping/vacuuming and mopping with a pH-neutral cleaner; avoid harsh chemicals or excessive water.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-maintain-and-clean-my-new-lvp-flooring",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I maintain and clean my new LVP flooring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintaining LVP flooring is straightforward. Regular sweeping or vacuuming to remove loose dirt and debris is recommended. For deeper cleaning, use a damp mop with a pH-neutral cleaner specifically designed for LVP. Avoid harsh abrasive cleaners, steam mops, or excessive water, as these can damage the wear layer. Placing felt pads under furniture legs and using doormats at entrances can also help prevent scratches and prolong the life of your floor. Hometelligent Inc. recommends these practices to ensure the longevity of your investment.",
+        "description": "Maintain LVP by regular sweeping/vacuuming and mopping with a pH-neutral cleaner; avoid harsh chemicals or excessive water."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

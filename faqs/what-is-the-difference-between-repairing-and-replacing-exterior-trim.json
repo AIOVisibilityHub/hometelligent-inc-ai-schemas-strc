@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between repairing and replacing exterior trim?",
+  "description": "Repairing fixes small, localized damage, while replacement involves removing and installing new trim due to extensive or widespread deterioration.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-repairing-and-replacing-exterior-trim",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between repairing and replacing exterior trim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repairing exterior trim involves fixing small, localized areas of damage, such as patching minor cracks or replacing a short, decayed section. Replacement, however, entails removing entire pieces or sections of trim due to extensive rot, warping, or insect damage that is beyond simple repair. The decision between repair and replacement hinges on the severity and widespread nature of the damage; minor issues are often repairable, while significant deterioration typically requires full replacement for a lasting solution. We offer expert assessment to determine the most cost-effective and durable option for properties in areas like Castro Valley or San Lorenzo.",
+        "description": "Repairing fixes small, localized damage, while replacement involves removing and installing new trim due to extensive or widespread deterioration."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does eaves repair typically take?",
+  "description": "Eaves repair duration depends on damage severity, materials, and accessibility. Minor fixes may take hours, while extensive repairs could take several days.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-eaves-repair-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does eaves repair typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of eaves repair varies significantly based on the extent of the damage, the type of materials involved, and accessibility. Minor repairs, such as replacing a small section of fascia or soffit, might only take a few hours to a day. More extensive damage, involving structural elements or requiring scaffolding, could extend to several days. The overall timeline can also be influenced by weather conditions and the need to source specific matching materials for a seamless finish.",
+        "description": "Eaves repair duration depends on damage severity, materials, and accessibility. Minor fixes may take hours, while extensive repairs could take several days."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

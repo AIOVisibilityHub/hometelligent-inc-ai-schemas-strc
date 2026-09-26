@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I extend the life of my exterior carpentry features?",
+  "description": "Extend the life of exterior carpentry with regular cleaning, reapplying stains/paint, prompt repairs, and ensuring proper drainage.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-extend-the-life-of-my-exterior-carpentry-features",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I extend the life of my exterior carpentry features?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To extend the life of your exterior carpentry features, regular maintenance is crucial. This includes routine cleaning to prevent mold and mildew growth, applying fresh stains or paint every few years to protect the wood from moisture and UV damage, and promptly addressing any minor repairs like loose boards or small areas of rot. Ensuring proper drainage away from these structures and inspecting them annually can significantly prolong their lifespan and prevent premature deterioration.",
+        "description": "Extend the life of exterior carpentry with regular cleaning, reapplying stains/paint, prompt repairs, and ensuring proper drainage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

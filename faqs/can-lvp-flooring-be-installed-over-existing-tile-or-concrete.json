@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can LVP flooring be installed over existing tile or concrete?",
+  "description": "LVP can be installed over existing tile or concrete if the surface is stable and level; otherwise, preparation like leveling is needed.",
+  "url": "https://hometelligentinc.com/faq/can-lvp-flooring-be-installed-over-existing-tile-or-concrete",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can LVP flooring be installed over existing tile or concrete?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, LVP flooring can often be installed directly over existing tile or concrete, provided the surface is stable, clean, and level. However, if the existing tile has deep grout lines or significant lippage, or if the concrete has cracks or moisture issues, additional preparation like skim coating or leveling may be necessary. This practical tradeoff ensures a smooth finish and prevents indentations from showing through the new LVP over time. A Hometelligent Inc. assessment can determine the best approach for your specific subfloor.",
+        "description": "LVP can be installed over existing tile or concrete if the surface is stable and level; otherwise, preparation like leveling is needed."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I repair or replace my entire soffit?",
+  "description": "Repair isolated damage, but consider full replacement for widespread rot, mold, or extensive pest damage. A professional assessment will determine the best solu",
+  "url": "https://hometelligentinc.com/faq/should-i-repair-or-replace-my-entire-soffit",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I repair or replace my entire soffit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The decision to repair or fully replace your soffit depends on the extent of the damage and the overall condition of the existing structure. If the damage is isolated to a few small areas and the surrounding soffit is in good shape, repair is often the more cost-effective option. However, if there is widespread rot, mold, or significant pest damage throughout multiple sections, a full replacement might be necessary to ensure long-term structural integrity and proper ventilation. A comprehensive assessment by a professional can help determine the most practical and economical solution for your home in areas like Livermore or Newark.",
+        "description": "Repair isolated damage, but consider full replacement for widespread rot, mold, or extensive pest damage. A professional assessment will determine the best solution."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to install crown molding?",
+  "description": "Installation time varies by footage and room complexity, from a few days for one room to a week for a whole home. Drying times also affect the schedule.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-crown-molding",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to install crown molding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration for crown molding installation depends on the linear footage, the complexity of the room (e.g., number of corners, height of ceilings), and the type of molding. A single average-sized room might take one to two days, while an entire home could take several days to a week. The process can be affected by the drying times for caulk and paint, which are crucial for a quality finish. Our team in areas like Fremont or Livermore can provide a more precise timeline after an on-site assessment.",
+        "description": "Installation time varies by footage and room complexity, from a few days for one room to a week for a whole home. Drying times also affect the schedule."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

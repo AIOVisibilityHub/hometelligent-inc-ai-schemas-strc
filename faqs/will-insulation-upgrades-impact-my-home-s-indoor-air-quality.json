@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will insulation upgrades impact my home's indoor air quality?",
+  "description": "Insulation upgrades can improve air quality by reducing outdoor pollutant infiltration, but proper ventilation is also key.",
+  "url": "https://hometelligentinc.com/faq/will-insulation-upgrades-impact-my-home-s-indoor-air-quality",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will insulation upgrades impact my home's indoor air quality?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Properly installed insulation, especially spray foam which acts as an air barrier, can improve indoor air quality by reducing the infiltration of outdoor pollutants, allergens, and moisture. This also helps control humidity levels. However, it's important to ensure adequate ventilation after tightening up your home's envelope. Hometelligent Inc. considers the overall home ventilation system when planning insulation upgrades to maintain healthy indoor air quality and prevent issues like condensation, offering a practical tradeoff between airtightness and ventilation needs.",
+        "description": "Insulation upgrades can improve air quality by reducing outdoor pollutant infiltration, but proper ventilation is also key."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

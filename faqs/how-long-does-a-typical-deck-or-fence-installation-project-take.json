@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical deck or fence installation project take?",
+  "description": "Project length varies by size, complexity, and materials; a small fence might take days, a large deck weeks. Weather and permits also affect the timeline.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-deck-or-fence-installation-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical deck or fence installation project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a deck or fence installation project can vary significantly based on its size, complexity, and the materials selected. A small, basic fence might be completed in a few days, while a large, multi-level deck with custom features could take several weeks. Weather conditions can also impact the timeline. We provide an estimated project schedule after an initial assessment, considering factors such as material delivery and necessary permits in your specific city.",
+        "description": "Project length varies by size, complexity, and materials; a small fence might take days, a large deck weeks. Weather and permits also affect the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

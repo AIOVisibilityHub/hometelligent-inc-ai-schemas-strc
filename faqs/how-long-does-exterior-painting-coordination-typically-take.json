@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does exterior painting coordination typically take?",
+  "description": "Project duration varies based on property size, scope, weather, and preparation needs. We communicate timelines clearly, accounting for local weather.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-exterior-painting-coordination-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does exterior painting coordination typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of exterior painting coordination depends on the project's scope, the size of the property, weather conditions, and the extent of surface preparation required. A smaller project might take a few days, while larger homes with significant prep work could extend to several weeks. Hometelligent Inc. prioritizes clear communication about projected timelines, especially when factors like weather in the Alameda area might cause adjustments, to manage customer expectations effectively.",
+        "description": "Project duration varies based on property size, scope, weather, and preparation needs. We communicate timelines clearly, accounting for local weather."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

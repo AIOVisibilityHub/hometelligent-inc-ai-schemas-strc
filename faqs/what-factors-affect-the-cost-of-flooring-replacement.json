@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors affect the cost of flooring replacement?",
+  "description": "Cost factors include material type, area size, and subfloor repairs. Material and labor are primary cost drivers.",
+  "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-flooring-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors affect the cost of flooring replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of flooring replacement is influenced by the type of material chosen, the total square footage of the area, and any necessary subfloor repairs. Higher-end materials like certain hardwoods will increase costs compared to more budget-friendly options like laminate. Labor costs for installation are also a significant factor.",
+        "description": "Cost factors include material type, area size, and subfloor repairs. Material and labor are primary cost drivers."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

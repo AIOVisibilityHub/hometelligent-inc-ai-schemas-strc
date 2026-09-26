@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for starting a staircase remodeling project with Hometelligent Inc.?",
+  "description": "The process starts with a consultation, followed by an on-site assessment, design presentation, and detailed proposal. Consider your aesthetic and practical nee",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-starting-a-staircase-remodeling-project-with-hometellige",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for starting a staircase remodeling project with Hometelligent Inc.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our process begins with an initial consultation to discuss your vision, budget, and functional needs. Following this, we conduct an on-site assessment to evaluate your existing staircase and gather precise measurements. We then present design options and a detailed proposal. A crucial preparation step is to consider your desired aesthetic, practical requirements, and how the staircase functions within your home's overall design before our first meeting.",
+        "description": "The process starts with a consultation, followed by an on-site assessment, design presentation, and detailed proposal. Consider your aesthetic and practical needs beforehand."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

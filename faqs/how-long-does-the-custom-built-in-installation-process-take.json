@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does the custom built-in installation process take?",
+  "description": "Installation timelines for custom built-ins vary from weeks to months, depending on the project's scope and design complexity.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-the-custom-built-in-installation-process-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does the custom built-in installation process take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for custom built-in installation depends on the project's scope, from design and material selection to fabrication and final installation. Smaller projects might be completed within a few weeks, while larger, more complex units could take several months. A key factor in expediting the process is having clear decisions on materials, finishes, and design details early on.",
+        "description": "Installation timelines for custom built-ins vary from weeks to months, depending on the project's scope and design complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
