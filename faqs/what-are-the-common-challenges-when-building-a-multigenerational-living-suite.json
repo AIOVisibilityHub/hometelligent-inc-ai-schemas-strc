@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common challenges when building a multigenerational living suite?",
+  "description": "Challenges include navigating permits, managing costs, integration with the main home, and site-specific issues.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-when-building-a-multigenerational-living-suite",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common challenges when building a multigenerational living suite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common challenges include navigating complex local zoning and permitting regulations, managing construction costs, and ensuring the new unit integrates seamlessly with the existing home. Property owners might also encounter site-specific issues such as utility line access or limited buildable space. A thorough site assessment by experienced contractors, such as Hometelligent Inc. in the East Bay, can identify and mitigate potential problems early.",
+        "description": "Challenges include navigating permits, managing costs, integration with the main home, and site-specific issues."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does a basement ADU conversion typically cost?",
+  "description": "Costs vary based on existing conditions, structural needs, waterproofing, and finishes. Higher upfront costs can lead to greater long-term value.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-a-basement-adu-conversion-typically-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a basement ADU conversion typically cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a basement ADU conversion varies significantly based on factors like the existing condition of your basement, required structural modifications, waterproofing needs, and the level of finishes desired. A practical tradeoff is balancing higher upfront costs for extensive upgrades like new foundations or extensive plumbing rerouting against the long-term rental income potential and increased property value. Expect to invest in permitting and design as initial costs.",
+        "description": "Costs vary based on existing conditions, structural needs, waterproofing, and finishes. Higher upfront costs can lead to greater long-term value."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of interior finishes should I consider for an ADU?",
+  "description": "For ADU interiors, choose durable, easy-to-maintain, and timeless finishes like hard flooring and moisture-resistant materials for kitchens/baths. Select finish",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-interior-finishes-should-i-consider-for-an-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of interior finishes should I consider for an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When selecting interior finishes for an ADU, prioritize durability, ease of maintenance, and timeless appeal. Hard-wearing flooring like laminate, engineered wood, or tile is often recommended over carpet, especially in high-traffic areas. For kitchens and bathrooms, consider moisture-resistant materials and fixtures that are both functional and space-saving. It’s also wise to choose finishes that complement the main residence while still allowing the ADU to have its own distinct character, which is particularly important if the ADU is intended for rental income or long-term family use.",
+        "description": "For ADU interiors, choose durable, easy-to-maintain, and timeless finishes like hard flooring and moisture-resistant materials for kitchens/baths. Select finishes that complement the main home while suiting the ADU's intended use."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

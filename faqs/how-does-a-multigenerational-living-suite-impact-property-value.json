@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does a multigenerational living suite impact property value?",
+  "description": "A well-designed, permitted suite can increase property value by adding functional living space and appealing to more buyers.",
+  "url": "https://hometelligentinc.com/faq/how-does-a-multigenerational-living-suite-impact-property-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does a multigenerational living suite impact property value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A well-designed and legally permitted multigenerational living suite can significantly enhance property value by adding functional living space. It appeals to a broader range of buyers, including those with extended families or those seeking rental income opportunities. The increase in value is often tied to the quality of construction, adherence to building codes, and how seamlessly the new unit integrates with the existing property and neighborhood aesthetics.",
+        "description": "A well-designed, permitted suite can increase property value by adding functional living space and appealing to more buyers."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common challenges homeowners face when building an attached ADU?",
+  "description": "Common challenges include complex permitting, unexpected site conditions, and ensuring seamless integration with the existing home, including fire separation an",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-homeowners-face-when-building-an-attached-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common challenges homeowners face when building an attached ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Homeowners often face challenges with attached ADU construction related to navigating complex permitting and zoning regulations, managing unexpected site conditions, and ensuring the new structure seamlessly integrates with the existing home. Specific issues can include maintaining adequate fire separation, addressing utility upgrades, and matching exterior aesthetics. Hometelligent proactively identifies potential issues during the planning phase to minimize disruptions and ensure a smooth construction process.",
+        "description": "Common challenges include complex permitting, unexpected site conditions, and ensuring seamless integration with the existing home, including fire separation and utility upgrades."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of building a one-bedroom ADU?",
+  "description": "ADU costs are affected by size, materials, site work, and finishes; detached units often cost more due to foundation and utility needs.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-a-one-bedroom-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of building a one-bedroom ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of building a one-bedroom ADU is influenced by several factors, including the unit's size, chosen materials, site preparation requirements, and internal finishes. For example, a detached ADU might require more extensive foundation and utility trenching than a garage conversion. Customers should consider their budget against desired features like high-end appliances or custom cabinetry, as these choices directly impact the final project cost. We provide detailed estimates to help you understand these tradeoffs.",
+        "description": "ADU costs are affected by size, materials, site work, and finishes; detached units often cost more due to foundation and utility needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

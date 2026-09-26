@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a granny flat and what are its common uses?",
+  "description": "A granny flat is a secondary housing unit on a residential lot, often used for family, rentals, or home offices. Your intended use determines design and permit",
+  "url": "https://hometelligentinc.com/faq/what-is-a-granny-flat-and-what-are-its-common-uses",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a granny flat and what are its common uses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A granny flat, also known as an Accessory Dwelling Unit (ADU), is a secondary housing unit on a single-family residential lot. It can be attached to the main house or detached. Common uses include housing for family members, a rental unit for additional income, or a dedicated home office space. Understanding your primary intended use is a crucial decision factor, as it can influence design choices, size, and specific permitting requirements, particularly concerning separate entrances or kitchen facilities.",
+        "description": "A granny flat is a secondary housing unit on a residential lot, often used for family, rentals, or home offices. Your intended use determines design and permit needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

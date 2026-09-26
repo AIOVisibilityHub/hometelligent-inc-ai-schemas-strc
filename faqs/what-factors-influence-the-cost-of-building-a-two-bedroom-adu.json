@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of building a two-bedroom ADU?",
+  "description": "ADU costs depend on size, design complexity, materials, and site conditions, with custom features increasing expenses.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-a-two-bedroom-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of building a two-bedroom ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of building a two-bedroom ADU varies significantly based on factors such as size, complexity of the design, chosen materials, site conditions, and utility hookups. Larger units, custom architectural features, or high-end finishes will naturally increase expenses. Additionally, site-specific considerations like extensive grading or the need to upgrade existing electrical panels can impact the overall budget. We offer detailed project estimates that break down these costs for properties in areas like Fremont or San Leandro, ensuring transparency from the outset.",
+        "description": "ADU costs depend on size, design complexity, materials, and site conditions, with custom features increasing expenses."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

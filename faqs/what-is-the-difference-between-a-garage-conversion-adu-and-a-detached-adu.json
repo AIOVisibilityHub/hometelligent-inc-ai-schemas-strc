@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a garage conversion ADU and a detached ADU?",
+  "description": "A garage conversion ADU reuses an existing garage, while a detached ADU is a new, standalone structure, impacting cost and timeline.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-garage-conversion-adu-and-a-detached-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a garage conversion ADU and a detached ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A garage conversion ADU reuses an existing garage structure, integrating a new living space within its original footprint. This often makes it a more cost-effective and faster option compared to new construction. A detached ADU, on the other hand, is a completely new, standalone structure built from the ground up on your property. While detached ADUs offer greater flexibility in design and placement, they typically involve higher construction costs and longer timelines. The choice often depends on your budget, timeline, and available backyard space.",
+        "description": "A garage conversion ADU reuses an existing garage, while a detached ADU is a new, standalone structure, impacting cost and timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

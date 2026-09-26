@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it typically take to install a kitchen in an ADU?",
+  "description": "ADU kitchen installation usually takes 3-6 weeks, depending on design complexity, material lead times, and local permitting efficiency.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-install-a-kitchen-in-an-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it typically take to install a kitchen in an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The typical timeframe for an ADU kitchen installation can vary widely, generally ranging from 3 to 6 weeks once permits are secured and the space is ready. Factors influencing this duration include the complexity of the design, the lead time for custom cabinets or specialized appliances, and the efficiency of local permitting processes in cities like Oakland or Pleasanton. Unexpected structural issues or changes during construction can also extend the timeline. We aim to provide a detailed project schedule upfront, factoring in these potential variables.",
+        "description": "ADU kitchen installation usually takes 3-6 weeks, depending on design complexity, material lead times, and local permitting efficiency."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

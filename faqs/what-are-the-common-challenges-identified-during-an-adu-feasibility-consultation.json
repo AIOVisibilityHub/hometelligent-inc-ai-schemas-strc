@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common challenges identified during an ADU feasibility consultation?",
+  "description": "Challenges like zoning, lot size, topography, utilities, and parking are identified, helping strategize development.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-identified-during-an-adu-feasibility-consultation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common challenges identified during an ADU feasibility consultation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common challenges identified include zoning restrictions, insufficient lot size, difficult topography, utility connection limitations, and parking requirements. Understanding these upfront, especially for properties in densely populated areas like Oakland or Berkeley, helps in strategizing an effective development plan or adjusting expectations.",
+        "description": "Challenges like zoning, lot size, topography, utilities, and parking are identified, helping strategize development."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

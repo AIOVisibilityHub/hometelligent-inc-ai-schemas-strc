@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of ADU designs can be created during architectural planning?",
+  "description": "ADU architectural planning can design detached, attached, garage conversion, and JADU types, chosen based on lot, existing structures, and local zoning.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-adu-designs-can-be-created-during-architectural-planning",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of ADU designs can be created during architectural planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Architectural planning can accommodate various ADU designs, including detached new construction, garage conversions, attached ADUs, and junior ADUs (JADUs). The best type for your property depends on your lot size, existing structures, local zoning for areas like Oakland or Berkeley, and your specific needs (e.g., rental income, family space). Our planning considers these factors to propose the most suitable and compliant design solution.",
+        "description": "ADU architectural planning can design detached, attached, garage conversion, and JADU types, chosen based on lot, existing structures, and local zoning."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

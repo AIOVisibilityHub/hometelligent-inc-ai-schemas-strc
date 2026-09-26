@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a soil report before starting ADU foundation construction?",
+  "description": "A soil report is often required before ADU foundation construction to assess soil conditions and inform proper foundation design.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-soil-report-before-starting-adu-foundation-construction",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a soil report before starting ADU foundation construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a soil report (geotechnical investigation) is often a critical step before ADU foundation construction. It assesses the soil composition, stability, and load-bearing capacity, which directly informs the foundation design. This report helps engineers determine the appropriate foundation type and structural requirements, especially for challenging sites in areas like Oakland Hills or Berkeley. Skipping this step can lead to unforeseen structural issues and costly repairs later.",
+        "description": "A soil report is often required before ADU foundation construction to assess soil conditions and inform proper foundation design."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

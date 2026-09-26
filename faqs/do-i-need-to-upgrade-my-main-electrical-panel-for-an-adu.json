@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to upgrade my main electrical panel for an ADU?",
+  "description": "Upgrading your main electrical panel for an ADU may be necessary if existing capacity is insufficient. This ensures safe and reliable power for both units.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-upgrade-my-main-electrical-panel-for-an-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to upgrade my main electrical panel for an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You may need to upgrade your main electrical panel for an ADU, especially if the existing panel lacks sufficient capacity to safely power both the main house and the new unit. This is often determined during the electrical design phase and confirmed by an electrician. The necessity of an upgrade is a significant decision factor; an outdated or undersized panel can lead to tripped breakers or safety hazards. Upgrading ensures the ADU has reliable power without compromising the main home's electrical system.",
+        "description": "Upgrading your main electrical panel for an ADU may be necessary if existing capacity is insufficient. This ensures safe and reliable power for both units."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

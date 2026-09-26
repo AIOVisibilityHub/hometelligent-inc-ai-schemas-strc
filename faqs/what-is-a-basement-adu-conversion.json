@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a basement ADU conversion?",
+  "description": "A basement ADU conversion transforms an existing basement into a separate, independent living space, adding a kitchen, bathroom, and sleeping area.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-basement-adu-conversion",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a basement ADU conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A basement Accessory Dwelling Unit (ADU) conversion transforms an existing basement into a separate, independent living space. This often includes adding a kitchen, bathroom, and sleeping area, along with a separate entrance. It's a way to utilize existing square footage for rental income or additional family housing without expanding the building's footprint, particularly relevant in areas like Alameda and Berkeley where space is at a premium.",
+        "description": "A basement ADU conversion transforms an existing basement into a separate, independent living space, adding a kitchen, bathroom, and sleeping area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

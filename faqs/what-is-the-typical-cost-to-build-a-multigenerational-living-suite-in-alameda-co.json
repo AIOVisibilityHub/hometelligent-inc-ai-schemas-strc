@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost to build a multigenerational living suite in Alameda County?",
+  "description": "Costs vary widely based on size, complexity, and materials, with conversions generally cheaper than new builds.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-to-build-a-multigenerational-living-suite-in-alameda-co",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost to build a multigenerational living suite in Alameda County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost to build a multigenerational living suite in Alameda County varies significantly based on factors like size, complexity, materials, and site conditions. A conversion of existing space, such as a garage, is generally less expensive than a new detached unit. Homeowners should anticipate costs related to design, permits, foundation work, utility connections, and interior finishes. Obtaining multiple estimates and clarifying what is included in each bid can help in budgeting accurately.",
+        "description": "Costs vary widely based on size, complexity, and materials, with conversions generally cheaper than new builds."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

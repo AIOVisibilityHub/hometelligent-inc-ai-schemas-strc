@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for a basement ADU conversion with Hometelligent Inc.?",
+  "description": "The process starts with a consultation, moves to design and permitting, then construction. Prepare by having existing blueprints ready.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-a-basement-adu-conversion-with-hometelligent-inc",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for a basement ADU conversion with Hometelligent Inc.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our process begins with an initial consultation to assess your basement's suitability and discuss your goals, followed by a detailed design phase and permitting application. We then proceed with construction, keeping you informed at every stage. For process clarity, homeowners should prepare by gathering any existing blueprints or property surveys, as these documents are crucial for our initial feasibility assessment and can significantly expedite the design phase.",
+        "description": "The process starts with a consultation, moves to design and permitting, then construction. Prepare by having existing blueprints ready."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the ventilation requirements for an ADU bathroom?",
+  "description": "ADU bathrooms need exhaust fans venting directly outside to prevent moisture and mold. The fan's CFM must suit the bathroom size, and plans should specify fan t",
+  "url": "https://hometelligentinc.com/faq/what-are-the-ventilation-requirements-for-an-adu-bathroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the ventilation requirements for an ADU bathroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ADU bathrooms require proper ventilation to prevent moisture buildup, mold growth, and maintain good indoor air quality. This typically involves installing an exhaust fan that vents directly outside, not into an attic or other enclosed space. The fan's capacity, measured in cubic feet per minute (CFM), should be appropriate for the size of the bathroom. As a Preparation step, ensure your ADU plans specify the type and location of the exhaust fan, along with ducting, to meet local building codes in areas like Emeryville or Pleasanton, which often have specific requirements for air exchange rates in bathrooms.",
+        "description": "ADU bathrooms need exhaust fans venting directly outside to prevent moisture and mold. The fan's CFM must suit the bathroom size, and plans should specify fan type and location to meet local building codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

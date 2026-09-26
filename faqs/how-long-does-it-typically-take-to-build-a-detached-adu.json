@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it typically take to build a detached ADU?",
+  "description": "Building a detached ADU typically takes 6 to 12 months, including design, permitting, and construction. Permitting time can vary greatly by city.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-build-a-detached-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it typically take to build a detached ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for detached ADU construction usually ranges from 6 to 12 months, encompassing design, permitting, and construction phases. Permitting can be a significant variable, depending on the local jurisdiction's review process and the completeness of submitted plans. Hometelligent streamlines the process by preparing comprehensive documentation and navigating the specific permit requirements for cities like Oakland and Pleasanton to help minimize delays.",
+        "description": "Building a detached ADU typically takes 6 to 12 months, including design, permitting, and construction. Permitting time can vary greatly by city."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

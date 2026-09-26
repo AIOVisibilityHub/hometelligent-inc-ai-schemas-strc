@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I include a shower or a bathtub in my ADU bathroom?",
+  "description": "Choosing between a shower and a bathtub for an ADU bathroom depends on size, purpose, and occupant preferences. Showers save space and offer accessibility, whil",
+  "url": "https://hometelligentinc.com/faq/should-i-include-a-shower-or-a-bathtub-in-my-adu-bathroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I include a shower or a bathtub in my ADU bathroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The decision to include a shower or a bathtub in an ADU bathroom often depends on the ADU's size, its intended purpose, and the preferences of potential occupants. Showers, particularly walk-in showers, are space-efficient and generally preferred for accessibility and ease of use in smaller ADUs. A practical tradeoff is that while bathtubs might appeal to families with young children or those who enjoy baths, they require significantly more space and can increase water usage. Consider the primary demographic for the ADU: a rental unit might benefit from a versatile shower-only setup, while a luxury guest suite could accommodate a tub.",
+        "description": "Choosing between a shower and a bathtub for an ADU bathroom depends on size, purpose, and occupant preferences. Showers save space and offer accessibility, while tubs require more room and water, appealing to specific demographics."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

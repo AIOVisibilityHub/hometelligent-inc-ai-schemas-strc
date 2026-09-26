@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a slab-on-grade and a crawl space foundation for an ADU?",
+  "description": "Slab-on-grade is a concrete base directly on the ground, while a crawl space creates an accessible void beneath the floor.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-slab-on-grade-and-a-crawl-space-foundation-for",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a slab-on-grade and a crawl space foundation for an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A slab-on-grade foundation involves pouring concrete directly onto a prepared ground surface, creating a solid, single-level base. This is generally quicker and less expensive. A crawl space foundation involves constructing a raised perimeter wall with a space beneath the floor, allowing access for plumbing and electrical work. While a crawl space might add to the initial cost and construction time, it provides easier access for future repairs or modifications, which can be a practical tradeoff to consider.",
+        "description": "Slab-on-grade is a concrete base directly on the ground, while a crawl space creates an accessible void beneath the floor."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

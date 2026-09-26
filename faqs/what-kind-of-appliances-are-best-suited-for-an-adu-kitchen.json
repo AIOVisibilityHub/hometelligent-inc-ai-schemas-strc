@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of appliances are best suited for an ADU kitchen?",
+  "description": "Compact, energy-efficient appliances like apartment-sized refrigerators, 24-inch ranges, and slimline dishwashers are best for ADU kitchens.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-appliances-are-best-suited-for-an-adu-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of appliances are best suited for an ADU kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best appliances for an ADU kitchen are typically compact, energy-efficient models that maximize functionality without occupying too much space. Look for apartment-sized refrigerators, 24-inch ranges, or induction cooktops. Combination convection microwaves can replace a traditional oven, and slimline dishwashers are also popular choices. Consider energy-star rated appliances to help reduce utility costs for tenants or occupants. We can guide you in selecting appliances that fit your ADU's specific kitchen layout and budget while ensuring they meet local energy efficiency standards.",
+        "description": "Compact, energy-efficient appliances like apartment-sized refrigerators, 24-inch ranges, and slimline dishwashers are best for ADU kitchens."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

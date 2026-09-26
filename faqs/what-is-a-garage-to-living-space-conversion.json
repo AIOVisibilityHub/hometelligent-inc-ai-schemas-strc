@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a garage-to-living-space conversion?",
+  "description": "A garage-to-living-space conversion converts an existing garage into a habitable room or accessory dwelling unit, adding functional space to your home.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-garage-to-living-space-conversion",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a garage-to-living-space conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A garage-to-living-space conversion transforms an existing garage structure into a habitable room or accessory dwelling unit (ADU). This project can add square footage to your home without expanding the building's footprint, often creating a new bedroom, home office, or rental unit. The scope typically involves insulating walls and ceilings, installing new flooring, updating electrical and plumbing, and potentially adding windows or doors to meet residential codes. One critical preparation step is to assess the current garage's foundation and structural integrity to determine if it can support the conversion without major overhauls.",
+        "description": "A garage-to-living-space conversion converts an existing garage into a habitable room or accessory dwelling unit, adding functional space to your home."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

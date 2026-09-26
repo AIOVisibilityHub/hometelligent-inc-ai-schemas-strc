@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a detached ADU?",
+  "description": "A detached ADU is a separate residential structure on your property with its own living facilities, kitchen, and bathroom. It offers flexible space for family o",
+  "url": "https://hometelligentinc.com/faq/what-is-a-detached-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a detached ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A detached Accessory Dwelling Unit (ADU) is a separate residential structure on the same property as a primary home. It provides independent living facilities, including a kitchen, bathroom, and sleeping area. Building a detached ADU can significantly increase property value and provide flexible living space for family, guests, or as a rental unit. Hometelligent specializes in designing and constructing these standalone units to integrate seamlessly with your existing property in areas like Alameda and Berkeley.",
+        "description": "A detached ADU is a separate residential structure on your property with its own living facilities, kitchen, and bathroom. It offers flexible space for family or rental income."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

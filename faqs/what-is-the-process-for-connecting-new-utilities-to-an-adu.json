@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for connecting new utilities to an ADU?",
+  "description": "Connecting ADU utilities involves permits, coordinating with utility providers, installation, and inspections. Property owners must gather existing utility info",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-connecting-new-utilities-to-an-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for connecting new utilities to an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process for connecting new utilities to an ADU involves several steps: obtaining necessary permits from the local planning and building departments, coordinating with utility providers for new service lines or upgrades, trenching for underground lines, installing the actual connections, and final inspections. Before starting, customers will need to gather existing utility maps and service capacities for their property, as this information is crucial for planning and permitting. This preparation helps identify potential challenges early in the process.",
+        "description": "Connecting ADU utilities involves permits, coordinating with utility providers, installation, and inspections. Property owners must gather existing utility information beforehand."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

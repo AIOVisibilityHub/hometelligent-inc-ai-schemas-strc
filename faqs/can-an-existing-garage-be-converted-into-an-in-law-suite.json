@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an existing garage be converted into an in-law suite?",
+  "description": "Yes, a garage can be converted into an in-law suite, often saving costs. This requires upgrading insulation, utilities, and ensuring it meets living space build",
+  "url": "https://hometelligentinc.com/faq/can-an-existing-garage-be-converted-into-an-in-law-suite",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an existing garage be converted into an in-law suite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, an existing garage can often be converted into an in-law suite, which is a popular and cost-effective option for creating an ADU. This approach often saves on foundation and framing costs compared to new construction. However, it requires careful consideration of insulation, waterproofing, utility connections, and meeting current building codes for living spaces. A decision factor is assessing the structural integrity of the existing garage and ensuring it can be safely and legally converted, especially in areas like Oakland where seismic considerations are important. An engineer's assessment is often recommended to determine feasibility and identify potential challenges.",
+        "description": "Yes, a garage can be converted into an in-law suite, often saving costs. This requires upgrading insulation, utilities, and ensuring it meets living space building codes and structural integrity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

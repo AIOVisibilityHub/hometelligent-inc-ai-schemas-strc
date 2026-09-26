@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a backyard cottage, also known as an ADU?",
+  "description": "A backyard cottage, or ADU, is a self-contained secondary housing unit on a residential lot, often used for family, rental income, or workspaces.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-backyard-cottage-also-known-as-an-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a backyard cottage, also known as an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A backyard cottage, or Accessory Dwelling Unit (ADU), is a secondary housing unit on a single-family residential lot. It's a self-contained living space with its own kitchen, bathroom, and sleeping area, separate from the main house. Homeowners often build ADUs to house family members, generate rental income, or create dedicated workspaces. When considering an ADU, it's important to understand the local zoning regulations, as these dictate permissible sizes, setbacks, and occupancy rules for properties in areas like Alameda or Berkeley, which can significantly influence the design and feasibility of your project.",
+        "description": "A backyard cottage, or ADU, is a self-contained secondary housing unit on a residential lot, often used for family, rental income, or workspaces."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

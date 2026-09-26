@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What design considerations are important for a multigenerational living suite?",
+  "description": "Key design points include accessibility, soundproofing, a separate entrance, and flexible layouts for future needs.",
+  "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-a-multigenerational-living-suite",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What design considerations are important for a multigenerational living suite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Important design considerations for a multigenerational living suite include accessibility features like wider doorways, grab bars, and curbless showers, especially if intended for elderly family members. Soundproofing between units can enhance privacy, and a separate entrance offers independence. When designing, consider the long-term flexibility of the space, such as adapting a kitchen into a workspace if family needs change.",
+        "description": "Key design points include accessibility, soundproofing, a separate entrance, and flexible layouts for future needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

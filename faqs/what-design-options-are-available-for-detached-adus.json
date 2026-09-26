@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What design options are available for detached ADUs?",
+  "description": "Detached ADUs offer diverse design options customizable to match your home or create a unique style, focusing on layout and finishes. Our team helps you persona",
+  "url": "https://hometelligentinc.com/faq/what-design-options-are-available-for-detached-adus",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What design options are available for detached ADUs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Detached ADUs offer diverse design options, from modern to traditional, and can be customized to match your existing home's aesthetic or stand out with its own unique style. Key choices include the number of bedrooms, kitchen and bathroom layouts, and exterior finishes. Hometelligent's design team works closely with clients to develop plans that maximize functionality and appeal, ensuring the design fits both your needs and the character of your neighborhood in locations like Alameda or Piedmont.",
+        "description": "Detached ADUs offer diverse design options customizable to match your home or create a unique style, focusing on layout and finishes. Our team helps you personalize the unit."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

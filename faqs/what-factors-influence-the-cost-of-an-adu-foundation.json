@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of an ADU foundation?",
+  "description": "ADU foundation costs are influenced by type, size, site accessibility, soil conditions, and excavation needs.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-an-adu-foundation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of an ADU foundation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of an ADU foundation is influenced by several factors, including the type of foundation (slab-on-grade, crawl space, or raised), the size of the ADU, site accessibility, and soil conditions. Excavation requirements, the need for retaining walls on sloped sites, and material choices also play a role. For example, a complex site with poor soil may require more extensive engineering and materials, increasing overall costs compared to a simple slab-on-grade on level ground.",
+        "description": "ADU foundation costs are influenced by type, size, site accessibility, soil conditions, and excavation needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

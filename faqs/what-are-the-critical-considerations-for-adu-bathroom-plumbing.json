@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the critical considerations for ADU bathroom plumbing?",
+  "description": "Critical ADU bathroom plumbing considerations include water supply, waste lines, ventilation, and pipe sizing. Consider the ADU's location relative to existing",
+  "url": "https://hometelligentinc.com/faq/what-are-the-critical-considerations-for-adu-bathroom-plumbing",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the critical considerations for ADU bathroom plumbing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When planning ADU bathroom plumbing, critical considerations include water supply lines, waste lines, and ventilation. Proper sizing of pipes is essential to ensure adequate water pressure and efficient drainage, especially if adding fixtures far from existing main lines. A practical tradeoff to consider is the location of the ADU relative to the main house's plumbing system; connecting to existing sewer lines might be more cost-effective than installing new septic systems, but may require extensive trenching. Ensuring sufficient hot water capacity is also important, potentially requiring a separate water heater or an upgrade to the main system.",
+        "description": "Critical ADU bathroom plumbing considerations include water supply, waste lines, ventilation, and pipe sizing. Consider the ADU's location relative to existing sewer lines for cost-efficiency and ensure adequate hot water capacity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

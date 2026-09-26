@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common challenges in two-bedroom ADU construction?",
+  "description": "Challenges include zoning, site access, utility conflicts, and drainage, especially in unique terrains.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-in-two-bedroom-adu-construction",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common challenges in two-bedroom ADU construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common challenges in two-bedroom ADU construction include navigating complex local zoning regulations, managing site access for construction materials, unexpected utility conflicts, and ensuring proper drainage or foundation requirements for the specific site. For properties in hilly areas like Montclair or Rockridge, grading and retaining wall needs can add significant complexity and cost. Proactive site analysis and detailed planning are critical to mitigate these issues and keep the project on track.",
+        "description": "Challenges include zoning, site access, utility conflicts, and drainage, especially in unique terrains."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

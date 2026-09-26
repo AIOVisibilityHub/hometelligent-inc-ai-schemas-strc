@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What permits are required for a two-bedroom ADU in the Bay Area?",
+  "description": "Permits for a two-bedroom ADU include zoning and building permits, with requirements varying by Bay Area city.",
+  "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-two-bedroom-adu-in-the-bay-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What permits are required for a two-bedroom ADU in the Bay Area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Building a two-bedroom ADU requires multiple permits, including zoning clearance, building permits, and potentially specific permits for plumbing, electrical, and mechanical systems. The specific requirements can vary considerably by city and county. For example, jurisdictions such as Alameda, Emeryville, and Oakland have distinct processes and regulations regarding ADU construction. It's crucial to understand these local nuances, as failing to secure the correct permits can lead to significant delays and penalties during the construction process.",
+        "description": "Permits for a two-bedroom ADU include zoning and building permits, with requirements varying by Bay Area city."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I build a two-bedroom ADU on my property if I live in Hayward?",
+  "description": "Yes, building a two-bedroom ADU in Hayward is generally possible, but subject to specific local zoning and lot requirements.",
+  "url": "https://hometelligentinc.com/faq/can-i-build-a-two-bedroom-adu-on-my-property-if-i-live-in-hayward",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I build a two-bedroom ADU on my property if I live in Hayward?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most single-family properties in Hayward can accommodate a two-bedroom ADU, subject to specific zoning ordinances and minimum lot size requirements. Hayward has regulations regarding maximum ADU size, setbacks from property lines, and available parking. Before starting, it's essential to consult Hayward's municipal code or discuss your project with a local planning department to confirm eligibility and any specific constraints that might apply to your particular parcel. This step is crucial for accurate project planning.",
+        "description": "Yes, building a two-bedroom ADU in Hayward is generally possible, but subject to specific local zoning and lot requirements."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

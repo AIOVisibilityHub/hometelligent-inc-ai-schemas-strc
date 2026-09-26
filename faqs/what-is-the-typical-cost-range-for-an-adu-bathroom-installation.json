@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost range for an ADU bathroom installation?",
+  "description": "ADU bathroom installation costs vary based on size, finishes, and the complexity of plumbing and electrical work. Material and labor choices, like custom tile o",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-an-adu-bathroom-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost range for an ADU bathroom installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of an ADU bathroom installation can vary significantly based on factors such as the size of the bathroom, the quality of finishes chosen, and the complexity of plumbing and electrical work required. For example, moving existing plumbing lines or adding new ones to a previously undeveloped space will increase costs compared to working with existing connections. Homeowners often need to decide on a budget for fixtures, tiles, and other aesthetic elements, which directly impacts the overall expense. Custom tile work or high-end fixtures will lead to higher material and labor costs.",
+        "description": "ADU bathroom installation costs vary based on size, finishes, and the complexity of plumbing and electrical work. Material and labor choices, like custom tile or high-end fixtures, directly impact the total expense."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

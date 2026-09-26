@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does the ADU site planning process typically take?",
+  "description": "ADU site planning usually takes weeks to months, depending on property complexity, assessment scope, and local jurisdiction review times.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-the-adu-site-planning-process-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does the ADU site planning process typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ADU site planning process typically takes several weeks to a few months, depending on the property's complexity, the scope of required assessments, and the turnaround time for local jurisdiction reviews. For instance, obtaining necessary surveys and permits in a city like Fremont might have different timelines than in a smaller, less densely populated area. Gathering all existing property documents, such as previous surveys or plot plans, can help streamline the initial stages.",
+        "description": "ADU site planning usually takes weeks to months, depending on property complexity, assessment scope, and local jurisdiction review times."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

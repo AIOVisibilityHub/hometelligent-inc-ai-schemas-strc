@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a Studio ADU and how does it differ from other ADU types?",
+  "description": "A Studio ADU is a compact, self-contained living space with combined living/sleeping/kitchen areas and a separate bathroom. It differs from larger ADUs by its e",
+  "url": "https://hometelligentinc.com/faq/what-is-a-studio-adu-and-how-does-it-differ-from-other-adu-types",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a Studio ADU and how does it differ from other ADU types?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Studio ADU (Accessory Dwelling Unit) is a compact, self-contained living space that typically combines sleeping, living, and kitchen areas into one room, with a separate bathroom. Unlike 1-bedroom or 2-bedroom ADUs, a studio maximizes space efficiency in a smaller footprint, often making it more affordable and quicker to build. This design is ideal for single occupants, short-term rentals, or as a dedicated home office. When considering a Studio ADU, it's important to assess your property's available space and zoning regulations, as these factors will influence the maximum size and placement of the unit.",
+        "description": "A Studio ADU is a compact, self-contained living space with combined living/sleeping/kitchen areas and a separate bathroom. It differs from larger ADUs by its efficient, open-concept design, suitable for smaller properties or specific uses."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

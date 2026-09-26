@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a basement ADU conversion take?",
+  "description": "Conversion times range from 6 to 18 months, depending on complexity and permitting. Extensive structural work lengthens the timeline.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-basement-adu-conversion-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a basement ADU conversion take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for a basement ADU conversion can range from 6 to 18 months, depending on the project's complexity, permitting lead times, and the scope of work. Projects requiring extensive structural work, such as lowering the foundation for increased ceiling height, will naturally take longer. A practical tradeoff is balancing a faster completion with the need for thorough design and proper permitting, which can prevent costly delays later on.",
+        "description": "Conversion times range from 6 to 18 months, depending on complexity and permitting. Extensive structural work lengthens the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

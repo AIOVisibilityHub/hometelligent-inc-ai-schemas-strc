@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit to build a backyard cottage in the Bay Area?",
+  "description": "Yes, permits are required for backyard cottages in the Bay Area from local planning and building departments to ensure code compliance.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-build-a-backyard-cottage-in-the-bay-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit to build a backyard cottage in the Bay Area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, building a backyard cottage in any of the service areas, including Alameda, Albany, or Berkeley, requires obtaining multiple permits from your local planning and building departments. This typically includes zoning approval, building permits, and potentially health department approvals for septic systems if applicable. The permitting process ensures your ADU complies with safety codes and local regulations. A crucial preparation step is to research your specific city's ADU ordinances, as regulations regarding size, setbacks, and occupancy can differ considerably from one municipality to another.",
+        "description": "Yes, permits are required for backyard cottages in the Bay Area from local planning and building departments to ensure code compliance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

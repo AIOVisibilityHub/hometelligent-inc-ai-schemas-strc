@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does the ADU design process work for a two-bedroom unit?",
+  "description": "ADU design involves consultation, schematic design, detailed design development, and construction document preparation.",
+  "url": "https://hometelligentinc.com/faq/how-does-the-adu-design-process-work-for-a-two-bedroom-unit",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does the ADU design process work for a two-bedroom unit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The design process for a two-bedroom ADU typically begins with an initial consultation to understand your needs and site constraints. This is followed by schematic design, where floor plans and elevations are drafted, and then design development, where more detailed plans are created, incorporating structural and mechanical elements. Finally, construction documents are prepared for permitting and building. Our design team focuses on optimizing layouts for two bedrooms within local size limits, particularly in dense areas like Oakland Hills, to ensure efficient use of space and compliance.",
+        "description": "ADU design involves consultation, schematic design, detailed design development, and construction document preparation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

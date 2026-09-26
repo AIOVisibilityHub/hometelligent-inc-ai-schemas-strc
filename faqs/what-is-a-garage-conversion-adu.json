@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a garage conversion ADU?",
+  "description": "A garage conversion ADU transforms an existing garage into an independent living space, often including a kitchen, bathroom, and sleeping area.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-garage-conversion-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a garage conversion ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A garage conversion ADU (Accessory Dwelling Unit) transforms an existing garage into a separate, habitable living space. This type of ADU typically includes a kitchen, bathroom, and sleeping area, offering an independent dwelling. Converting a garage can be a cost-effective way to add living space, as it often leverages existing foundations and utility connections. The specific design and features will depend on the existing garage structure and local building codes.",
+        "description": "A garage conversion ADU transforms an existing garage into an independent living space, often including a kitchen, bathroom, and sleeping area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

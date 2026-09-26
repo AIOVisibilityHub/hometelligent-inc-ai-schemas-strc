@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors affect the cost of an ADU kitchen installation?",
+  "description": "Cost factors for ADU kitchen installation include kitchen size, material quality, appliance choices, and the complexity of utility extensions.",
+  "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-an-adu-kitchen-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors affect the cost of an ADU kitchen installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of an ADU kitchen installation is influenced by several factors, including the size of the kitchen, the quality and type of materials chosen (e.g., custom versus semi-custom cabinets, stone versus laminate countertops), and the brand and features of appliances. The complexity of utility extensions for plumbing and electrical can also impact the overall budget. For example, if existing lines need significant upgrades or new trenches, costs will be higher. We provide a detailed estimate based on your selections and the scope of work after an initial consultation.",
+        "description": "Cost factors for ADU kitchen installation include kitchen size, material quality, appliance choices, and the complexity of utility extensions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

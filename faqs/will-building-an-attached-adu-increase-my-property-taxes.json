@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will building an attached ADU increase my property taxes?",
+  "description": "Yes, building an attached ADU will increase your property taxes based on the added value of the new construction, not a full property reassessment.",
+  "url": "https://hometelligentinc.com/faq/will-building-an-attached-adu-increase-my-property-taxes",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will building an attached ADU increase my property taxes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, building an attached ADU will generally increase your property taxes because it adds taxable value to your property. The increase is typically based on the added value of the new construction, not a reassessment of your entire property. The specific assessment methods and rates are determined by the county assessor's office where your property is located. We recommend consulting with your local tax authority for precise information on how an ADU might impact your property taxes.",
+        "description": "Yes, building an attached ADU will increase your property taxes based on the added value of the new construction, not a full property reassessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

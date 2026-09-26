@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of converting my garage into an ADU?",
+  "description": "Benefits of garage conversion ADUs include increased property value, rental income potential, and flexible living space.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-converting-my-garage-into-an-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of converting my garage into an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Converting your garage into an ADU offers several benefits, including increasing your property value, generating potential rental income, or providing flexible living space for family members. It's often more affordable than new construction since it reuses an existing structure and foundation. Furthermore, in areas like Berkeley, ADUs can help address housing shortages and contribute to more sustainable urban development. A well-designed ADU by Hometelligent Inc. can significantly enhance your property's utility and financial appeal.",
+        "description": "Benefits of garage conversion ADUs include increased property value, rental income potential, and flexible living space."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of building a multigenerational living suite?",
+  "description": "Benefits include family support, shared care responsibilities, potential cost savings, and rental income.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-building-a-multigenerational-living-suite",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of building a multigenerational living suite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multigenerational living suites offer several benefits, including enhanced family support, shared childcare or elder care responsibilities, and potential cost savings on housing. They can also provide a steady rental income if used as an ADU for non-family members. When considering this option, homeowners should assess their family's long-term needs and how the suite can adapt to changing circumstances over time.",
+        "description": "Benefits include family support, shared care responsibilities, potential cost savings, and rental income."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

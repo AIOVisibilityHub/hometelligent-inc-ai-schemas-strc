@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does existing landscaping or trees affect ADU site planning?",
+  "description": "Existing landscaping and trees impact ADU placement, foundation, and access, often requiring arborist reports for protected trees and potentially altering the A",
+  "url": "https://hometelligentinc.com/faq/how-does-existing-landscaping-or-trees-affect-adu-site-planning",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does existing landscaping or trees affect ADU site planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Existing landscaping and trees can significantly affect ADU site planning by influencing placement, foundation design, and construction access. Large trees, especially those protected by local ordinances, may trigger the need for an arborist report to determine their health and whether they can be preserved or must be removed. Preserving significant landscaping can be a trade-off, potentially requiring adjustments to the ADU's footprint or orientation, or additional protective measures during construction.",
+        "description": "Existing landscaping and trees impact ADU placement, foundation, and access, often requiring arborist reports for protected trees and potentially altering the ADU's design."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

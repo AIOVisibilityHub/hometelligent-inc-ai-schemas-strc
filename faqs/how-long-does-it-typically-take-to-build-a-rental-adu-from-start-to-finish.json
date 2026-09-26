@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it typically take to build a rental ADU from start to finish?",
+  "description": "Construction usually takes 6 to 18 months, with permit approval times and design complexity being major factors affecting the timeline.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-build-a-rental-adu-from-start-to-finish",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it typically take to build a rental ADU from start to finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for building a rental ADU can range from 6 to 18 months, depending on factors like permit approval times, design complexity, and construction scheduling. Permitting is a significant variable; for example, in Berkeley or Oakland, permit processing can sometimes take several months. Gathering all necessary property documents and having a clear design plan prepared can help streamline the initial phases.",
+        "description": "Construction usually takes 6 to 18 months, with permit approval times and design complexity being major factors affecting the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

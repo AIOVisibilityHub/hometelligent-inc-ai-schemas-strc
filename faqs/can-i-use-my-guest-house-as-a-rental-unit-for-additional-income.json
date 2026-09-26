@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I use my guest house as a rental unit for additional income?",
+  "description": "Yes, guest houses, often called ADUs, can be legal rental units in cities like Berkeley and Fremont if they meet zoning and building codes. Local regulations ma",
+  "url": "https://hometelligentinc.com/faq/can-i-use-my-guest-house-as-a-rental-unit-for-additional-income",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I use my guest house as a rental unit for additional income?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in many East Bay cities, including Berkeley and Fremont, guest houses can be legally used as rental units, often referred to as Accessory Dwelling Units (ADUs), provided they meet specific zoning and building code requirements. This can provide a valuable source of rental income. However, local regulations may impose restrictions on short-term rentals, occupancy limits, or require separate utility metering. It's crucial to check the specific ordinances of your municipality before planning for rental use, as these rules can influence design decisions.",
+        "description": "Yes, guest houses, often called ADUs, can be legal rental units in cities like Berkeley and Fremont if they meet zoning and building codes. Local regulations may affect short-term rentals or occupancy."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

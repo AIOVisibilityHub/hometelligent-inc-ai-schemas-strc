@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a survey or soil test before starting ADU architectural planning?",
+  "description": "A site survey is usually needed for ADU architectural planning; a soil test may be required depending on local rules and site conditions.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-survey-or-soil-test-before-starting-adu-architectural-planning",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a survey or soil test before starting ADU architectural planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a site survey is typically required for ADU architectural planning to accurately map property lines, existing structures, and topography, which is critical for precise design and setback compliance. A soil test, or geotechnical report, may also be necessary depending on local building department requirements and site conditions, especially for new foundations or if expansive soils are present in areas like Livermore or Union City. These inform the structural design.",
+        "description": "A site survey is usually needed for ADU architectural planning; a soil test may be required depending on local rules and site conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

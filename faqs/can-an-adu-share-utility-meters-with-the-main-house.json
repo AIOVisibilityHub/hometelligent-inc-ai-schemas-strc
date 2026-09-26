@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an ADU share utility meters with the main house?",
+  "description": "Yes, ADUs can share utility meters with the main house, which can lower initial costs. However, this may require sub-metering for accurate usage tracking.",
+  "url": "https://hometelligentinc.com/faq/can-an-adu-share-utility-meters-with-the-main-house",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an ADU share utility meters with the main house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, an ADU can often share utility meters with the main house. This approach, known as sub-metering or shared metering, is common for water and gas, and sometimes electricity. Sharing meters can simplify the initial installation process and reduce upfront costs, as it avoids the need for new utility accounts and separate service hookups. However, a practical tradeoff is that calculating individual utility usage for the ADU, especially if rented, may require separate internal sub-metering devices or a proportional cost-sharing agreement with tenants.",
+        "description": "Yes, ADUs can share utility meters with the main house, which can lower initial costs. However, this may require sub-metering for accurate usage tracking."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

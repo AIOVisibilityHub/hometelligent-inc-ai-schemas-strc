@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What permits are needed for ADU utility work?",
+  "description": "ADU utility work requires plumbing, electrical, and potentially mechanical permits, all obtained from the local building department with detailed plans.",
+  "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-adu-utility-work",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What permits are needed for ADU utility work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permits for ADU utility work typically include plumbing permits for water and sewer, electrical permits for wiring and panel connections, and potentially mechanical permits for HVAC or gas lines. Additionally, a general building permit for the ADU itself will cover the overall construction. For process clarity, customers should note that these permits are usually obtained from the local building department, and successful acquisition often depends on submitting detailed plans showing how the new utility connections integrate with existing services and meet current codes.",
+        "description": "ADU utility work requires plumbing, electrical, and potentially mechanical permits, all obtained from the local building department with detailed plans."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

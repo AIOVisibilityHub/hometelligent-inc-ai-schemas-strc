@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of foundations are commonly used for ADUs?",
+  "description": "Common ADU foundation types are slab-on-grade, crawl space, and raised/pier foundations, each suited to different site conditions and budgets.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-foundations-are-commonly-used-for-adus",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of foundations are commonly used for ADUs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ADU foundations typically include slab-on-grade, crawl space, and raised/pier foundations. Slab-on-grade is often the most cost-effective and provides a solid base directly on the ground. Crawl space foundations allow easier access for utilities and future maintenance, while raised foundations are suitable for sloped sites or areas requiring ventilation. The best choice depends on your specific site conditions, local soil reports, and desired ADU design.",
+        "description": "Common ADU foundation types are slab-on-grade, crawl space, and raised/pier foundations, each suited to different site conditions and budgets."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

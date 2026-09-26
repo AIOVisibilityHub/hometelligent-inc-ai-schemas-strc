@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What design considerations are important for a small one-bedroom ADU?",
+  "description": "Small one-bedroom ADU designs prioritize open layouts, built-in storage, and natural light to maximize functionality and perceived space.",
+  "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-a-small-one-bedroom-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What design considerations are important for a small one-bedroom ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a small one-bedroom ADU, design considerations focus on maximizing functionality and perceived space. This includes open-concept layouts, built-in storage solutions, and strategic placement of windows for natural light. Practical tradeoffs often involve balancing living space with dedicated storage or choosing multi-functional furniture. We work with clients to optimize floor plans that feel spacious and meet their needs within smaller footprints, especially relevant for properties in denser areas like Oakland or Berkeley where space is at a premium.",
+        "description": "Small one-bedroom ADU designs prioritize open layouts, built-in storage, and natural light to maximize functionality and perceived space."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

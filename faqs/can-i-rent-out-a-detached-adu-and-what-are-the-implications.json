@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I rent out a detached ADU, and what are the implications?",
+  "description": "You can typically rent out a detached ADU for income, but be aware of local rental regulations, taxes, and insurance implications. Designs can optimize for rent",
+  "url": "https://hometelligentinc.com/faq/can-i-rent-out-a-detached-adu-and-what-are-the-implications",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I rent out a detached ADU, and what are the implications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in most East Bay cities, you can rent out a detached ADU, providing a potential income stream. However, local regulations may apply regarding short-term vs. long-term rentals, and these can impact your property taxes and homeowner's insurance. Hometelligent can design your ADU with rental potential in mind, incorporating durable finishes and efficient layouts, while advising on general considerations related to local rental ordinances in communities like San Leandro or Hayward.",
+        "description": "You can typically rent out a detached ADU for income, but be aware of local rental regulations, taxes, and insurance implications. Designs can optimize for rental use."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

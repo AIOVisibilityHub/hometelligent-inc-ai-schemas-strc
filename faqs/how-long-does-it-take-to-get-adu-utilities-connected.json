@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to get ADU utilities connected?",
+  "description": "ADU utility connection times vary, from weeks to months, depending on utility response, installation complexity, and permitting. Meticulous planning can help ex",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-get-adu-utilities-connected",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to get ADU utilities connected?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for connecting ADU utilities can vary widely, typically ranging from a few weeks to several months. This duration depends on factors such as local utility company response times, the complexity of the installation, and the efficiency of the permitting process. A practical tradeoff is that faster connection often requires meticulous preparation of plans and permits, as well as proactive communication with utility providers. Delays can occur if new service lines need to be laid or if existing infrastructure requires upgrades.",
+        "description": "ADU utility connection times vary, from weeks to months, depending on utility response, installation complexity, and permitting. Meticulous planning can help expedite the process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

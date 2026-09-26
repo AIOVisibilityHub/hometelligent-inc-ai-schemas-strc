@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of a two-bedroom ADU compared to a one-bedroom?",
+  "description": "A two-bedroom ADU provides greater flexibility and potential rental income than a one-bedroom, but incurs higher construction costs.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-a-two-bedroom-adu-compared-to-a-one-bedroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of a two-bedroom ADU compared to a one-bedroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A two-bedroom ADU offers more flexibility and potential for rental income or accommodating a larger family than a one-bedroom unit. The additional bedroom significantly increases its appeal to tenants seeking more space or families with children, potentially commanding higher rental rates. However, this increased space often comes with higher construction costs due to a larger footprint, more materials, and potentially greater permitting complexity. Consider your long-term goals and budget when deciding between unit sizes.",
+        "description": "A two-bedroom ADU provides greater flexibility and potential rental income than a one-bedroom, but incurs higher construction costs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

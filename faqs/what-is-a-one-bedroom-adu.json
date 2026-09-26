@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a one-bedroom ADU?",
+  "description": "A one-bedroom ADU is a self-contained secondary housing unit on a single-family property, featuring a kitchen, bathroom, and one bedroom.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-one-bedroom-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a one-bedroom ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A one-bedroom ADU (Accessory Dwelling Unit) is a secondary housing unit on the same property as a single-family home, designed to be self-contained with a kitchen, bathroom, and a dedicated bedroom. These units are typically smaller than the primary residence and can serve various purposes, such as housing for family members, rental income, or a home office. Understanding your specific needs, such as occupancy or desired rental income, is a key decision factor in determining the optimal size and features for your ADU.",
+        "description": "A one-bedroom ADU is a self-contained secondary housing unit on a single-family property, featuring a kitchen, bathroom, and one bedroom."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

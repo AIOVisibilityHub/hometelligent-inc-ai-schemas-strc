@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are common ADU site planning challenges in the East Bay?",
+  "description": "East Bay ADU site planning often faces challenges like varied topography, complex foundation needs, and strict local zoning rules.",
+  "url": "https://hometelligentinc.com/faq/what-are-common-adu-site-planning-challenges-in-the-east-bay",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common ADU site planning challenges in the East Bay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common ADU site planning challenges in the East Bay include navigating varied topographical conditions, especially in areas like the Oakland Hills or Berkeley, which can impact foundation design and grading. Strict local zoning ordinances, such as specific height limits or parking requirements unique to cities like Albany or San Leandro, also require careful attention. Early identification of these unique challenges is critical for developing a feasible site plan.",
+        "description": "East Bay ADU site planning often faces challenges like varied topography, complex foundation needs, and strict local zoning rules."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need specific permits or approvals to build a rental ADU in Alameda?",
+  "description": "Yes, specific permits from Alameda's planning and building departments are required, including zoning and structural approvals, which must be verified with city",
+  "url": "https://hometelligentinc.com/faq/do-i-need-specific-permits-or-approvals-to-build-a-rental-adu-in-alameda",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need specific permits or approvals to build a rental ADU in Alameda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, building a rental ADU requires specific permits and approvals from the city of Alameda's planning and building departments. This typically includes zoning compliance, structural plans, and utility connections. It is important to verify the current specific requirements, setbacks, and size limitations directly with Alameda city officials, as these regulations can change and are critical for project approval.",
+        "description": "Yes, specific permits from Alameda's planning and building departments are required, including zoning and structural approvals, which must be verified with city officials."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

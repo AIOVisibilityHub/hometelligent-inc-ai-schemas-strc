@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit to build a multigenerational living suite in Livermore?",
+  "description": "Yes, permits are required in Livermore for multigenerational suites to ensure compliance with local building codes and zoning.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-build-a-multigenerational-living-suite-in-livermore",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit to build a multigenerational living suite in Livermore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, permits are required to build a multigenerational living suite in Livermore, as it involves construction and modifications to your property that must comply with local building codes and zoning ordinances. The City of Livermore has specific requirements for accessory dwelling units (ADUs), which these suites often fall under. Hometelligent Inc. can assist with preparing plans and submitting permit applications to ensure compliance with these regulations.",
+        "description": "Yes, permits are required in Livermore for multigenerational suites to ensure compliance with local building codes and zoning."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

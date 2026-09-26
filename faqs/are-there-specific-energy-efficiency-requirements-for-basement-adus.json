@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Are there specific energy efficiency requirements for basement ADUs?",
+  "description": "Basement ADUs must meet current energy efficiency codes. Investing in higher-efficiency materials has higher upfront costs but offers long-term savings.",
+  "url": "https://hometelligentinc.com/faq/are-there-specific-energy-efficiency-requirements-for-basement-adus",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are there specific energy efficiency requirements for basement ADUs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, basement ADUs must meet current energy efficiency codes for insulation, windows, and HVAC systems, just like any new living space. These requirements are regulated by California building codes and local ordinances. A practical tradeoff involves investing in higher-efficiency materials and systems during construction, which have a greater upfront cost, but lead to lower utility bills for tenants and a smaller environmental footprint, increasing the ADU's long-term appeal and value.",
+        "description": "Basement ADUs must meet current energy efficiency codes. Investing in higher-efficiency materials has higher upfront costs but offers long-term savings."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

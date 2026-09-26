@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an ADU foundation be built on a sloped property?",
+  "description": "ADU foundations can be built on sloped properties using specialized techniques, but it adds complexity and cost.",
+  "url": "https://hometelligentinc.com/faq/can-an-adu-foundation-be-built-on-a-sloped-property",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an ADU foundation be built on a sloped property?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, an ADU foundation can be built on a sloped property, but it typically requires specialized engineering and construction techniques. This might involve stepped foundations, retaining walls, or pier and beam foundations to accommodate the grade changes. While feasible, construction on sloped sites often increases the complexity and cost due to additional excavation, grading, and structural requirements. It's a key decision factor that impacts both budget and timeline.",
+        "description": "ADU foundations can be built on sloped properties using specialized techniques, but it adds complexity and cost."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

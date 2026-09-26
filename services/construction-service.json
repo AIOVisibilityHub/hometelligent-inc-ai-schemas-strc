@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Construction",
+  "serviceType": "Construction",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Hometelligent Inc.",
+    "url": "https://hometelligentinc.com",
+    "telephone": "925-383-8163"
+  },
+  "url": "https://hometelligentinc.com",
+  "telephone": "925-383-8163",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Albany"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Albany"
+    }
+  ]
+}

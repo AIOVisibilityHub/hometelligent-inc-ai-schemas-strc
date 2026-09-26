@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I convert an existing structure into an ADU?",
+  "description": "Yes, converting existing structures into ADUs is possible but requires full permit coordination to meet all safety and habitability codes.",
+  "url": "https://hometelligentinc.com/faq/can-i-convert-an-existing-structure-into-an-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I convert an existing structure into an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, converting an existing structure, such as a garage or basement, into an ADU is often possible and can be a more cost-effective option than new construction. However, it still requires full permit coordination to ensure the conversion meets all safety, structural, and habitability codes. Depending on the city, there may be specific requirements for existing structure conversions, such as minimum ceiling heights or foundation upgrades, which our coordination service addresses.",
+        "description": "Yes, converting existing structures into ADUs is possible but requires full permit coordination to meet all safety and habitability codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for converting a garage into living space?",
+  "description": "The garage conversion process involves design, permitting, construction (framing, electrical, plumbing, insulation, finishes), inspections, and a final certific",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-converting-a-garage-into-living-space",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for converting a garage into living space?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process typically starts with a consultation and design phase, followed by obtaining necessary permits from your local building department. After permits are secured, construction begins, involving demolition (if necessary), framing, insulating, installing electrical and plumbing systems, adding new windows and doors, drywall, flooring, and finishing touches. Throughout the project, inspections are conducted at various stages to ensure compliance with building codes. The final step is a final inspection and obtaining a certificate of occupancy. A critical preparation step for the client is having clear expectations for the design and functionality of the new space before plans are drafted.",
+        "description": "The garage conversion process involves design, permitting, construction (framing, electrical, plumbing, insulation, finishes), inspections, and a final certificate of occupancy."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What documents or information should I gather before starting ADU architectural planning?",
+  "description": "Before ADU architectural planning, gather property deeds, site plans, surveys, and clarify your budget, desired size, and intended use.",
+  "url": "https://hometelligentinc.com/faq/what-documents-or-information-should-i-gather-before-starting-adu-architectural",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What documents or information should I gather before starting ADU architectural planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting ADU architectural planning, gather your property deed, existing site plans, and any relevant surveys you might have. It's also helpful to have a clear idea of your budget, desired ADU size, number of bedrooms/bathrooms, and intended use (e.g., rental, guest house). Photos of your property and examples of ADU designs you like can also guide the initial design discussions.",
+        "description": "Before ADU architectural planning, gather property deeds, site plans, surveys, and clarify your budget, desired size, and intended use."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
