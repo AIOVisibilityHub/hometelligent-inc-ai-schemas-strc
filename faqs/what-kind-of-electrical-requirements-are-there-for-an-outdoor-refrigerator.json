@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of electrical requirements are there for an outdoor refrigerator?",
+  "description": "Outdoor refrigerators require a dedicated 15 or 20-amp GFCI-protected electrical circuit. We verify electrical capacity to ensure it meets requirements and loca",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-electrical-requirements-are-there-for-an-outdoor-refrigerator",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of electrical requirements are there for an outdoor refrigerator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Outdoor refrigerators require a dedicated 15 or 20-amp electrical circuit with a Ground Fault Circuit Interrupter (GFCI) outlet for safety. This protects against electrical shocks in wet conditions. The specific amperage requirement depends on the refrigerator model and its power consumption. Before installation, Hometelligent Inc. electricians will verify your outdoor electrical capacity to ensure it meets these requirements and can safely support the appliance without overloading your home's electrical system, adhering to all local Alameda County electrical codes.",
+        "description": "Outdoor refrigerators require a dedicated 15 or 20-amp GFCI-protected electrical circuit. We verify electrical capacity to ensure it meets requirements and local codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

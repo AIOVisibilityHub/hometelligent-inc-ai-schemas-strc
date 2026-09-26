@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit to install a bay window?",
+  "description": "Yes, bay window installation usually requires a building permit, especially if structural changes are made; we assist with the permit process.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-install-a-bay-window",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit to install a bay window?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, installing a bay window typically requires a building permit, especially if it involves structural changes to your home or alters the exterior facade. This is to ensure the installation meets local building codes and safety regulations. We handle the permit application process for our clients, ensuring all necessary documentation is submitted to the relevant authorities in your specific city, such as Alameda or Berkeley. Obtaining a permit is a critical step before any construction begins to avoid potential issues.",
+        "description": "Yes, bay window installation usually requires a building permit, especially if structural changes are made; we assist with the permit process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

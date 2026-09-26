@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of replacement windows are available?",
+  "description": "Available types include single-hung, double-hung, casement, awning, picture, and slider windows, each with unique features.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-replacement-windows-are-available",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of replacement windows are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common types of replacement windows include single-hung, double-hung, casement, awning, picture, and slider windows, as well as bay and bow windows. Each type offers different ventilation, aesthetic, and operational features. Your choice often depends on the architectural style of your home, desired functionality, and budget. For example, casement windows offer excellent ventilation and energy efficiency, while double-hung windows are versatile and easy to clean.",
+        "description": "Available types include single-hung, double-hung, casement, awning, picture, and slider windows, each with unique features."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

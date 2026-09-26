@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can awning windows be installed in any room?",
+  "description": "Awning windows work in most rooms, especially bathrooms and kitchens, but may not meet emergency egress requirements for bedrooms due to limited opening width.",
+  "url": "https://hometelligentinc.com/faq/can-awning-windows-be-installed-in-any-room",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can awning windows be installed in any room?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Awning windows can be installed in most rooms, particularly where controlled ventilation or placement above fixtures is desired. They are common in bathrooms, kitchens, and basements. However, due to their limited opening width, they may not be ideal for rooms that require a large, unobstructed opening for egress, such as bedrooms, where local building codes often require specific window types for emergency escape. Always check local building codes in areas like Fremont or Pleasanton for egress requirements.",
+        "description": "Awning windows work in most rooms, especially bathrooms and kitchens, but may not meet emergency egress requirements for bedrooms due to limited opening width."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of maintenance does outdoor kitchen lighting require?",
+  "description": "Maintenance includes cleaning fixtures, inspecting wiring, and replacing bulbs. Regular checks ensure optimal performance and longevity.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-does-outdoor-kitchen-lighting-require",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of maintenance does outdoor kitchen lighting require?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Outdoor kitchen lighting requires relatively low maintenance, but regular checks ensure optimal performance and longevity. This typically involves cleaning fixtures periodically to remove dirt and debris, inspecting wiring for any damage, and replacing bulbs as needed. For low-voltage systems, checking the transformer and connections is also advisable. A practical tradeoff is balancing the aesthetic appeal of certain fixtures with their ease of cleaning and access for bulb replacement. Consistent maintenance extends the life of the system and preserves its appearance.",
+        "description": "Maintenance includes cleaning fixtures, inspecting wiring, and replacing bulbs. Regular checks ensure optimal performance and longevity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

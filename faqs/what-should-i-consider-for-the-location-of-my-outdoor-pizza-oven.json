@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider for the location of my outdoor pizza oven?",
+  "description": "Choose a location prioritizing safety from flammables, convenient access to dining areas, a stable surface, and consider wind direction for smoke management.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-for-the-location-of-my-outdoor-pizza-oven",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider for the location of my outdoor pizza oven?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When choosing a location, prioritize safety and accessibility. Ensure the oven is a safe distance from flammable structures, fences, and overhanging trees. Consider proximity to your indoor kitchen for convenience, but also outdoor dining and entertaining areas. A level, stable surface is essential. Also, factor in wind direction to manage smoke effectively, which is a practical tradeoff between convenience and minimizing impact on outdoor enjoyment.",
+        "description": "Choose a location prioritizing safety from flammables, convenient access to dining areas, a stable surface, and consider wind direction for smoke management."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for installing new sliding windows?",
+  "description": "The process involves removing old windows, preparing the opening, installing and securing the new window, followed by insulation, sealing, and trim work.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-new-sliding-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for installing new sliding windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process begins with removing the old window and preparing the opening. This involves cleaning the frame and ensuring a level, plumb surface for the new window. The new sliding window unit is then installed, leveled, and secured, followed by insulation, sealing, and trim work. After the physical installation, we conduct a thorough quality check and demonstrate the window's operation, ensuring everything meets Hometelligent Inc.'s standards.",
+        "description": "The process involves removing old windows, preparing the opening, installing and securing the new window, followed by insulation, sealing, and trim work."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

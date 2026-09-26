@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for installing outdoor countertops?",
+  "description": "The process involves site preparation, templating, fabrication, installation, and final sealing or finishing.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-outdoor-countertops",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for installing outdoor countertops?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The outdoor countertop installation process typically begins with site preparation, which involves ensuring the base structure is level and sound. Next, templates are made if custom cuts are required. Fabrication follows, either on-site or off-site. Installation involves carefully setting the countertop sections, securing them, and then finishing details like sealing joints or applying sealants. Throughout this process, communication with Hometelligent Inc. about access and workspace clear-out will help ensure a smooth installation.",
+        "description": "The process involves site preparation, templating, fabrication, installation, and final sealing or finishing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does energy-efficient window installation cost?",
+  "description": "Costs vary based on window type, material, size, and installation complexity. A professional assessment provides an accurate estimate.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-energy-efficient-window-installation-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does energy-efficient window installation cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of energy-efficient window installation varies widely based on window type, material, size, the number of windows, and labor. Factors like the condition of existing window frames and any necessary structural repairs also impact the final price. To get an accurate estimate, we offer detailed consultations in our service areas, which include Alameda, Albany, Berkeley, Dublin, Emeryville, and surrounding communities, allowing us to assess your specific project needs.",
+        "description": "Costs vary based on window type, material, size, and installation complexity. A professional assessment provides an accurate estimate."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

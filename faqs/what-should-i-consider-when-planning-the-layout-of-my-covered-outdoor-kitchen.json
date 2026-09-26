@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider when planning the layout of my covered outdoor kitchen?",
+  "description": "Plan your layout considering the 'work triangle,' traffic flow, and dining areas. Your primary use case is a key decision factor that dictates appliance and spa",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-planning-the-layout-of-my-covered-outdoor-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider when planning the layout of my covered outdoor kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When planning your covered outdoor kitchen layout, consider the 'work triangle' principle: optimizing the proximity of your cooking, cleaning, and preparation zones. Also, think about traffic flow, dining areas, and storage needs. A key decision factor is your primary use case: will it be for casual family meals, large entertaining, or a specialized cooking hobby? This will influence appliance selection, counter space, and the overall size and configuration of your kitchen, ensuring it meets your specific lifestyle requirements.",
+        "description": "Plan your layout considering the 'work triangle,' traffic flow, and dining areas. Your primary use case is a key decision factor that dictates appliance and space needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

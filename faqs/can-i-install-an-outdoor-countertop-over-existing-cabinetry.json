@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I install an outdoor countertop over existing cabinetry?",
+  "description": "Yes, if the existing outdoor cabinetry is structurally sound and level; otherwise, repairs or replacement may be needed first.",
+  "url": "https://hometelligentinc.com/faq/can-i-install-an-outdoor-countertop-over-existing-cabinetry",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I install an outdoor countertop over existing cabinetry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can often install a new outdoor countertop over existing cabinetry, provided the cabinets are structurally sound, level, and designed for outdoor use. It's crucial to inspect the current cabinet condition for rot, rust, or instability, especially in outdoor environments. If the existing structure is compromised, repairs or replacement may be necessary before new countertops can be safely installed, which can impact the project timeline and cost.",
+        "description": "Yes, if the existing outdoor cabinetry is structurally sound and level; otherwise, repairs or replacement may be needed first."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

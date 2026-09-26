@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are best for outdoor kitchen countertops and cabinets?",
+  "description": "Durable materials like granite or stainless steel are best for countertops, while marine-grade polymer or stainless steel are ideal for cabinets.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-outdoor-kitchen-countertops-and-cabinets",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are best for outdoor kitchen countertops and cabinets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For outdoor kitchen countertops, durable and weather-resistant materials like granite, concrete, stainless steel, or porcelain are excellent choices, offering longevity and easy maintenance. For cabinetry, marine-grade polymer, stainless steel, or weather-resistant hardwoods like teak are recommended to prevent warping, rot, or corrosion. The best material choice often depends on your local climate, aesthetic preferences, and budget, with different options providing varying levels of durability against sun, rain, and temperature fluctuations common in the Bay Area.",
+        "description": "Durable materials like granite or stainless steel are best for countertops, while marine-grade polymer or stainless steel are ideal for cabinets."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

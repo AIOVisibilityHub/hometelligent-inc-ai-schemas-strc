@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What design considerations are important for small outdoor spaces?",
+  "description": "For small outdoor spaces, prioritize compact, multi-functional furniture, built-in seating, vertical gardening, and strategic lighting to maximize functionality",
+  "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-small-outdoor-spaces",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What design considerations are important for small outdoor spaces?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For small outdoor spaces, design considerations focus on maximizing functionality and creating an open feel. This often involves choosing compact, multi-functional furniture, built-in seating, and vertical gardening solutions. Strategic lighting can make the area appear larger and more inviting after dark. Using lighter colors and simple, clean lines can also prevent the space from feeling cluttered. Our designers can help optimize even the most compact areas to create an efficient and elegant dining experience.",
+        "description": "For small outdoor spaces, prioritize compact, multi-functional furniture, built-in seating, vertical gardening, and strategic lighting to maximize functionality and openness."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the drainage options for an outdoor kitchen?",
+  "description": "Drainage options include connecting to home wastewater, a greywater system, or a French drain. The best choice depends on regulations, soil, and water volume.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-drainage-options-for-an-outdoor-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the drainage options for an outdoor kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Outdoor kitchen drainage options include connecting to the existing home's wastewater system, installing a dedicated greywater system, or using a French drain or dry well for basic sink drainage. The best option depends on local regulations, soil type, and the volume of water expected. In many cases, connecting to the main sewer line, especially in developed areas like Oakland or Berkeley, requires professional installation to meet health and safety standards.",
+        "description": "Drainage options include connecting to home wastewater, a greywater system, or a French drain. The best choice depends on regulations, soil, and water volume."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

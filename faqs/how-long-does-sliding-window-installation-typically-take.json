@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does sliding window installation typically take?",
+  "description": "Installation time varies by the number and size of windows, but typically ranges from a few hours for one to several days for a full house.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-sliding-window-installation-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does sliding window installation typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation time for sliding windows varies based on the number of windows, their size, and the complexity of the existing opening. A single window might take a few hours, while a full house replacement could span several days. To help us provide an accurate estimate, customers should consider measuring the existing window openings or having a preliminary consultation so we can assess the scope of work and potential structural considerations.",
+        "description": "Installation time varies by the number and size of windows, but typically ranges from a few hours for one to several days for a full house."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

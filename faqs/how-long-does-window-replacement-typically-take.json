@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does window replacement typically take?",
+  "description": "Window replacement duration varies by project size and complexity, typically taking a few days to a week for a full home.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-window-replacement-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does window replacement typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a window replacement project depends on the number of windows, their size, type, and the complexity of the installation. A typical full-home replacement can take anywhere from a few days to a week. Before the project begins, we conduct a detailed assessment to provide an accurate timeline and ensure we have all necessary materials, which helps avoid delays.",
+        "description": "Window replacement duration varies by project size and complexity, typically taking a few days to a week for a full home."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

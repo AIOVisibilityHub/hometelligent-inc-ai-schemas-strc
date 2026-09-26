@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials are available for custom window frames?",
+  "description": "Custom window frames come in vinyl (low maintenance), wood (classic, insulated), fiberglass (strong, durable), and aluminum (slim, modern), each with different",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-available-for-custom-window-frames",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are available for custom window frames?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom window frames are available in a variety of materials, each with distinct advantages. Common options include vinyl, known for its low maintenance and affordability; wood, valued for its classic aesthetics and natural insulation; fiberglass, offering strength, durability, and resistance to warping; and aluminum, chosen for its slim profiles and modern appeal. The choice of material often involves a practical tradeoff between cost, maintenance needs, energy efficiency, and desired aesthetic.",
+        "description": "Custom window frames come in vinyl (low maintenance), wood (classic, insulated), fiberglass (strong, durable), and aluminum (slim, modern), each with different pros and cons."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

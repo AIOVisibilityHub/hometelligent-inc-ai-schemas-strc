@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost range for outdoor pizza oven installation?",
+  "description": "Installation costs vary widely, from a few thousand for basic models to over ten thousand for custom units, depending on oven type, materials, and site work.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-outdoor-pizza-oven-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost range for outdoor pizza oven installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of outdoor pizza oven installation can range significantly, from a few thousand dollars for a basic pre-fabricated model to over ten thousand dollars for a custom, built-in unit with extensive hardscaping. Key factors influencing cost include the oven type, material choices, necessary site preparation, and integration with existing outdoor utilities like gas or electricity. A detailed quote will be provided after an on-site consultation.",
+        "description": "Installation costs vary widely, from a few thousand for basic models to over ten thousand for custom units, depending on oven type, materials, and site work."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

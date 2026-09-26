@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of installing double-hung windows?",
+  "description": "Double-hung windows provide versatile ventilation, are easy to clean, and offer improved energy efficiency compared to single-hung windows.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-double-hung-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of installing double-hung windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Double-hung windows offer excellent ventilation as both sashes can open, allowing air to flow from the top and bottom. They are also easy to clean, as both sashes can be tilted inward. This design makes them a popular choice for homes in areas like Alameda and Berkeley, balancing aesthetic appeal with practical functionality. Additionally, double-hung windows are often more energy-efficient than single-hung options due to improved sealing mechanisms, contributing to lower utility bills.",
+        "description": "Double-hung windows provide versatile ventilation, are easy to clean, and offer improved energy efficiency compared to single-hung windows."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

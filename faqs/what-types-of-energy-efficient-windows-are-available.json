@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of energy-efficient windows are available?",
+  "description": "Common types include multi-pane windows with gas fills and Low-E coatings, and insulated frames.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-energy-efficient-windows-are-available",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of energy-efficient windows are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Energy-efficient windows typically include options like double-pane or triple-pane glass with argon or krypton gas fills, low-emissivity (Low-E) coatings, and insulated frames. The best choice depends on factors like your local climate, desired noise reduction, and budget. For instance, in areas with significant sun exposure, Low-E coatings can be crucial for reducing heat gain, which is a common concern for homeowners in sunnier parts of our service area like Livermore or Fremont.",
+        "description": "Common types include multi-pane windows with gas fills and Low-E coatings, and insulated frames."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

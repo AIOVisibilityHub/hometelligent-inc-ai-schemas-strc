@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do energy-efficient windows require special maintenance?",
+  "description": "No, energy-efficient windows require similar routine cleaning and annual inspection of seals as standard windows; their internal components are maintenance-free",
+  "url": "https://hometelligentinc.com/faq/do-energy-efficient-windows-require-special-maintenance",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do energy-efficient windows require special maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Energy-efficient windows generally require the same routine maintenance as standard windows. This includes periodic cleaning of the glass and frames. Inspecting seals and weatherstripping annually can help ensure their continued performance. The advanced glazing components themselves, like gas fills and low-e coatings, are sealed within the units and do not require separate maintenance. Hometelligent selects durable products designed for longevity in varied climates like those found across Alameda County.",
+        "description": "No, energy-efficient windows require similar routine cleaning and annual inspection of seals as standard windows; their internal components are maintenance-free."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

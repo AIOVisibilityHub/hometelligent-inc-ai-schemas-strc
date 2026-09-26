@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to do anything to prepare my home for casement window installation?",
+  "description": "Clear areas around windows, inside and out, by moving furniture, wall hangings, and outdoor items to provide clear access for installers.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-do-anything-to-prepare-my-home-for-casement-window-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to do anything to prepare my home for casement window installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, some preparation can help ensure a smooth installation. We recommend clearing the areas around your windows, both inside and outside, to provide our team with unobstructed access. This includes moving furniture, wall hangings, and any outdoor plants or decorations. You may also want to remove delicate items from shelves near the windows to prevent accidental damage during the work. This preparation helps us work efficiently and safely, minimizing disruption to your daily routine.",
+        "description": "Clear areas around windows, inside and out, by moving furniture, wall hangings, and outdoor items to provide clear access for installers."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

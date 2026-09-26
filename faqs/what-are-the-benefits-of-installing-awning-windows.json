@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the benefits of installing awning windows?",
+  "description": "Awning windows provide ventilation even in light rain, good natural light, and energy efficiency. Consider prevailing winds for optimal placement.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-awning-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of installing awning windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Awning windows offer excellent ventilation, even during light rain, because the sash opens outward from the bottom. They also provide good natural light and can be installed in places where other window types might not fit, such as above sinks or in smaller, high-up spaces. Their design creates a tight seal when closed, contributing to energy efficiency. When considering installation, think about the direction of prevailing winds to maximize ventilation benefits.",
+        "description": "Awning windows provide ventilation even in light rain, good natural light, and energy efficiency. Consider prevailing winds for optimal placement."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

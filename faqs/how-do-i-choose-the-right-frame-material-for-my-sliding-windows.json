@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right frame material for my sliding windows?",
+  "description": "Frame material choice depends on budget, aesthetics, energy efficiency, and maintenance, with options like vinyl, wood, fiberglass, and aluminum.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-frame-material-for-my-sliding-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right frame material for my sliding windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right frame material depends on factors like budget, desired aesthetic, energy efficiency, and maintenance preferences. Common options include vinyl, wood, fiberglass, and aluminum, each offering different benefits regarding insulation, durability, and appearance. When making your selection, consider the climate in areas like Alameda or Dublin, as some materials offer better thermal performance against specific weather conditions.",
+        "description": "Frame material choice depends on budget, aesthetics, energy efficiency, and maintenance, with options like vinyl, wood, fiberglass, and aluminum."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

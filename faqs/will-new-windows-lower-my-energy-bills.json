@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will new windows lower my energy bills?",
+  "description": "New energy-efficient windows can lower energy bills by reducing heat transfer; savings depend on window type and installation quality.",
+  "url": "https://hometelligentinc.com/faq/will-new-windows-lower-my-energy-bills",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will new windows lower my energy bills?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, new energy-efficient windows can significantly lower your energy bills by reducing heat transfer, keeping your home warmer in winter and cooler in summer. The extent of savings depends on the type of windows you choose (e.g., double-pane, low-E coatings, argon gas fills), the quality of installation, and your home's existing insulation. A practical tradeoff to consider is the upfront cost of high-efficiency windows versus the long-term savings on energy expenses.",
+        "description": "New energy-efficient windows can lower energy bills by reducing heat transfer; savings depend on window type and installation quality."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

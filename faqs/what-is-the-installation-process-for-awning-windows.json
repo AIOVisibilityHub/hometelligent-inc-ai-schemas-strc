@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the installation process for awning windows?",
+  "description": "The process involves removing the old window, preparing the opening, installing and securing the new unit, sealing, insulating, and finishing the trim.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-awning-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the installation process for awning windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation process typically begins with removing the old window and preparing the opening. We then ensure the new awning window unit is level and plumb within the frame, securing it in place. After sealing and insulating the gaps around the frame to prevent drafts and moisture intrusion, we complete the exterior trim and interior finishing. The final step involves testing the window's operation and cleaning up the work area.",
+        "description": "The process involves removing the old window, preparing the opening, installing and securing the new unit, sealing, insulating, and finishing the trim."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

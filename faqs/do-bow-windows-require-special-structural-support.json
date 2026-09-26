@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do bow windows require special structural support?",
+  "description": "Bow windows often need special structural support, including a robust header and potential additional framing, due to their weight and projection.",
+  "url": "https://hometelligentinc.com/faq/do-bow-windows-require-special-structural-support",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do bow windows require special structural support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, bow windows often require additional structural support due to their outward projection and combined weight of multiple glass units. A properly designed and installed header is crucial to bear the load of the window and the roof above, distributing the weight evenly across the wall. Depending on the size of the bow window and the existing wall structure, additional framing or reinforcement may be necessary. It's essential to have a qualified professional assess your home's specific requirements to ensure safe and compliant installation.",
+        "description": "Bow windows often need special structural support, including a robust header and potential additional framing, due to their weight and projection."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

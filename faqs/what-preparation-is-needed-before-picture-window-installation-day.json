@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation is needed before picture window installation day?",
+  "description": "Before installation, clear the area around the window inside and out. Move furniture and decorations, and ensure access for installers.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-picture-window-installation-day",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation is needed before picture window installation day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before installation day, homeowners should clear the area around the window, both inside and outside, to allow installers unhindered access. This includes moving furniture, wall hangings, and outdoor decorations. If the project involves a new opening, ensure any necessary utility lines or obstructions are identified. Hometelligent will provide a checklist of specific preparation steps tailored to your project.",
+        "description": "Before installation, clear the area around the window inside and out. Move furniture and decorations, and ensure access for installers."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

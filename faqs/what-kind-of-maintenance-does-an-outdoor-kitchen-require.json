@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of maintenance does an outdoor kitchen require?",
+  "description": "Maintenance involves regular cleaning of surfaces and appliances, with periodic checks and treatments depending on materials.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-does-an-outdoor-kitchen-require",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of maintenance does an outdoor kitchen require?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Outdoor kitchens require regular cleaning to maintain their appearance and functionality. This includes cleaning grills and cooking surfaces after each use, wiping down countertops and cabinets, and ensuring plumbing and electrical components are free from debris. Depending on the materials, periodic sealing or oiling might be necessary to protect against weather elements. Seasonal checks for leaks or wear and tear can also help prevent larger issues, extending the life of your investment.",
+        "description": "Maintenance involves regular cleaning of surfaces and appliances, with periodic checks and treatments depending on materials."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

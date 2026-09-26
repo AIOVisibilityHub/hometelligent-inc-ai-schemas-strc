@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I do to prepare my home for window replacement?",
+  "description": "Clear furniture, artwork, and window treatments from around the windows and ensure a clear path for installers to prepare your home.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-home-for-window-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do to prepare my home for window replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prepare your home for window replacement, clear all furniture, artwork, and window treatments away from the interior and exterior of the windows being replaced. Ensure a clear path for installers and protect valuables from dust. We recommend discussing specific access needs with our team during the initial consultation, especially for areas with sensitive landscaping or interior furnishings, to ensure a smooth and safe installation process.",
+        "description": "Clear furniture, artwork, and window treatments from around the windows and ensure a clear path for installers to prepare your home."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

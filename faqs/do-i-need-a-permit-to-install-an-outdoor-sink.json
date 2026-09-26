@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit to install an outdoor sink?",
+  "description": "Permit needs vary by city, but significant plumbing work for an outdoor sink usually requires one. We can help with local permit requirements.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-install-an-outdoor-sink",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit to install an outdoor sink?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements for outdoor sink installation vary by municipality within our service areas, such as Dublin or San Leandro. Generally, if the installation involves significant plumbing work, trenching, or connections to the main water and sewer lines, a permit is likely required to ensure compliance with local building codes. It's crucial to check with your local planning department before starting any work. Hometelligent Inc. can assist with understanding and obtaining the necessary permits for your specific project.",
+        "description": "Permit needs vary by city, but significant plumbing work for an outdoor sink usually requires one. We can help with local permit requirements."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

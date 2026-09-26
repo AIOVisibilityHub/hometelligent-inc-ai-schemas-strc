@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I do to prepare my home for window installation?",
+  "description": "To prepare, clear areas around windows inside and out, move furniture, remove coverings, and protect belongings from dust. This ensures smooth installation.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-home-for-window-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do to prepare my home for window installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before installation, clear the areas around your windows, both inside and out, to provide installers with unobstructed access. This includes moving furniture, removing curtains, blinds, and any wall decorations near the windows. Cover any nearby belongings or floors with tarps to protect them from dust and debris. This preparation ensures a smoother and more efficient installation process, minimizing disruptions to your daily routine during the project.",
+        "description": "To prepare, clear areas around windows inside and out, move furniture, remove coverings, and protect belongings from dust. This ensures smooth installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

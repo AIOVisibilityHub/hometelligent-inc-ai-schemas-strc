@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Is outdoor cabinetry waterproof or just water-resistant?",
+  "description": "Outdoor cabinetry is typically water-resistant, designed to withstand rain and humidity, rather than fully waterproof. Our designs use sealed seams and drainage",
+  "url": "https://hometelligentinc.com/faq/is-outdoor-cabinetry-waterproof-or-just-water-resistant",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is outdoor cabinetry waterproof or just water-resistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most outdoor cabinetry is designed to be water-resistant, meaning it can withstand splashes, rain, and humidity without significant damage. Truly waterproof cabinetry, which can be fully submerged without impact, is less common and typically unnecessary for outdoor kitchen applications. Our construction approach focuses on water-resistant materials and smart design features like sealed seams, elevated bases, and proper drainage to minimize moisture accumulation, protecting contents and preserving structural integrity during normal outdoor conditions.",
+        "description": "Outdoor cabinetry is typically water-resistant, designed to withstand rain and humidity, rather than fully waterproof. Our designs use sealed seams and drainage for protection."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

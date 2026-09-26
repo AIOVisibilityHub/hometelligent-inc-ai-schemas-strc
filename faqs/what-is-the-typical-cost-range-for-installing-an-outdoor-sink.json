@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost range for installing an outdoor sink?",
+  "description": "Outdoor sink installation costs vary widely based on sink type, plumbing complexity, labor, and permits. Estimates are provided after consultation.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-installing-an-outdoor-sink",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost range for installing an outdoor sink?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of installing an outdoor sink can vary significantly, generally ranging from a few hundred dollars for a basic setup to several thousand for custom, elaborate designs with hot water and integrated features. Key cost factors include the type of sink and cabinetry, distance from existing plumbing, labor for trenching and pipe installation, and any necessary permits. We provide detailed estimates tailored to your specific project needs after an on-site consultation. A simpler setup with cold water only will be less expensive than one requiring hot water lines and extensive drainage.",
+        "description": "Outdoor sink installation costs vary widely based on sink type, plumbing complexity, labor, and permits. Estimates are provided after consultation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

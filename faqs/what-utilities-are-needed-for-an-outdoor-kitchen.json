@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What utilities are needed for an outdoor kitchen?",
+  "description": "Outdoor kitchens usually need electricity, gas, and plumbing for sinks and appliances. Assess existing utility access early, as extending lines can impact feasi",
+  "url": "https://hometelligentinc.com/faq/what-utilities-are-needed-for-an-outdoor-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What utilities are needed for an outdoor kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An outdoor kitchen typically requires electrical outlets for appliances and lighting, a gas line for grills and cooktops, and plumbing for sinks. Some designs also incorporate drainage systems. For preparation, it's essential to assess your existing utility access points and capacity before construction begins. Knowing the proximity of water, gas, and electrical lines will help determine the feasibility and cost of extending these services to your desired outdoor kitchen location, potentially requiring additional trenching or upgrades to your home's systems.",
+        "description": "Outdoor kitchens usually need electricity, gas, and plumbing for sinks and appliances. Assess existing utility access early, as extending lines can impact feasibility and cost."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

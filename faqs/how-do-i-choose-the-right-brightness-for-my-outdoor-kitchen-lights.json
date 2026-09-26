@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right brightness for my outdoor kitchen lights?",
+  "description": "Brightness depends on the area's function; task areas need brighter light than dining areas. Dimmable fixtures offer flexible control for varying moods and visi",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-brightness-for-my-outdoor-kitchen-lights",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right brightness for my outdoor kitchen lights?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right brightness involves considering the function of each area and the overall desired ambiance. Task areas like the grill or prep station benefit from brighter illumination (around 50-70 lumens per square foot), while dining or lounge areas need softer, more adjustable lighting (20-30 lumens per square foot). Hometelligent Inc. often recommends dimmable fixtures to allow for flexible control over the mood and visibility. Lumens are a key factor, with higher lumen counts indicating brighter light output. Consider the specific activities you'll perform in each zone.",
+        "description": "Brightness depends on the area's function; task areas need brighter light than dining areas. Dimmable fixtures offer flexible control for varying moods and visibility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

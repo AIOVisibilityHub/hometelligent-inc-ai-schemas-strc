@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an egress window be installed in any basement?",
+  "description": "Most basements can accommodate egress windows, but factors like depth, utilities, and foundation type require a professional feasibility assessment.",
+  "url": "https://hometelligentinc.com/faq/can-an-egress-window-be-installed-in-any-basement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an egress window be installed in any basement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While egress windows can be installed in most basements, not all basements are suitable without significant modifications. Challenges can arise from factors like the depth of the basement, the presence of underground utilities, or structural limitations of the foundation. A professional assessment is crucial to determine feasibility and identify potential obstacles. For instance, in older homes common in Berkeley or Oakland, the foundation type and soil stability might require specialized engineering or excavation approaches to ensure safe and compliant installation.",
+        "description": "Most basements can accommodate egress windows, but factors like depth, utilities, and foundation type require a professional feasibility assessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

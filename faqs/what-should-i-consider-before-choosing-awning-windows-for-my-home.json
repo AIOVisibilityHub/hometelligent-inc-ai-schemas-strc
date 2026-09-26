@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider before choosing awning windows for my home?",
+  "description": "Consider ventilation, privacy, home aesthetics, and potential emergency exit requirements. A site visit can help determine optimal placement and type.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-choosing-awning-windows-for-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider before choosing awning windows for my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before choosing awning windows, consider the desired ventilation, privacy needs, and the overall aesthetic of your home. Awning windows are ideal for controlled airflow but may not be suitable for emergency exits due to their opening mechanism. Evaluate the wall space and sunlight exposure. For homes in Alameda, Albany, or Berkeley, we can provide a site visit to assess your specific needs and recommend the best window placement and type.",
+        "description": "Consider ventilation, privacy, home aesthetics, and potential emergency exit requirements. A site visit can help determine optimal placement and type."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

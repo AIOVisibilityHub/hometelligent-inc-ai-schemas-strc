@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for enlarging a window?",
+  "description": "The process involves consultation, design, permitting, structural work, demolition, installation, and finishing.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-enlarging-a-window",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for enlarging a window?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process begins with an initial consultation and site assessment to evaluate your home's structure and your goals. This is followed by design and engineering, permit application, structural preparation (e.g., header installation), demolition of the existing opening, new window installation, and finishing work. We maintain clear communication throughout each stage, ensuring you are informed, especially regarding critical structural inspections required by local authorities in our service areas.",
+        "description": "The process involves consultation, design, permitting, structural work, demolition, installation, and finishing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

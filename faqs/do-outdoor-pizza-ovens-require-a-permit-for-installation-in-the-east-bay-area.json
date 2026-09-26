@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do outdoor pizza ovens require a permit for installation in the East Bay Area?",
+  "description": "Permit requirements vary by East Bay city; ovens needing new gas, electrical, or structural changes typically require a building permit. Hometelligent can assis",
+  "url": "https://hometelligentinc.com/faq/do-outdoor-pizza-ovens-require-a-permit-for-installation-in-the-east-bay-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do outdoor pizza ovens require a permit for installation in the East Bay Area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements for outdoor pizza oven installation can vary by specific city or county within the East Bay Area, such as Berkeley or Oakland. Generally, ovens requiring new gas lines, significant electrical work, or substantial structural changes may necessitate a building permit. Hometelligent can assist in determining the specific permit requirements for your project location and facilitate the application process to ensure compliance with local regulations.",
+        "description": "Permit requirements vary by East Bay city; ovens needing new gas, electrical, or structural changes typically require a building permit. Hometelligent can assist with permit processes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

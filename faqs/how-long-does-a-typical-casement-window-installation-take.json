@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical casement window installation take?",
+  "description": "Installation time varies, but a single window can take half a day, with full home projects spanning several days. We provide a detailed timeline during consulta",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-casement-window-installation-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical casement window installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation time for casement windows can vary depending on the number of windows, their size, and the complexity of the existing framing. Generally, a single casement window replacement might take half a day, while a full home installation could span several days. At Hometelligent Inc., we typically provide a detailed project timeline during the initial consultation, factoring in necessary preparation, removal of old windows, and finishing work. This upfront clarity helps manage expectations regarding the project's duration.",
+        "description": "Installation time varies, but a single window can take half a day, with full home projects spanning several days. We provide a detailed timeline during consultation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

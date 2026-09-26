@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost for outdoor countertop installation?",
+  "description": "Costs vary significantly based on material, size, and design complexity, typically ranging from $50 to over $200 per square foot.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-outdoor-countertop-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost for outdoor countertop installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of outdoor countertop installation varies widely based on the material chosen, the size of the countertop, and the complexity of the design, including any cutouts for sinks or grills. Less expensive options might start from $50 per square foot, while premium materials or custom work could exceed $200 per square foot. To get an accurate estimate, it's helpful to have a clear idea of your desired material and a detailed layout of your outdoor kitchen space before requesting a quote.",
+        "description": "Costs vary significantly based on material, size, and design complexity, typically ranging from $50 to over $200 per square foot."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

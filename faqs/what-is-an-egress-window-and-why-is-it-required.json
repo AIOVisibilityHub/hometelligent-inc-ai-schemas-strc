@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is an egress window and why is it required?",
+  "description": "An egress window provides an emergency exit from basements and sleeping rooms, required by building codes for safety.",
+  "url": "https://hometelligentinc.com/faq/what-is-an-egress-window-and-why-is-it-required",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an egress window and why is it required?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An egress window is a window large enough and accessible enough to allow occupants to escape in an emergency, such as a fire, and for emergency personnel to enter. Building codes typically require egress windows in all sleeping rooms and basements with habitable space. This requirement ensures the safety of occupants by providing an alternative exit route. For homeowners in areas like Alameda or Berkeley, understanding these code requirements is crucial before undertaking any basement renovation project, as non-compliance can lead to significant safety hazards and permit issues.",
+        "description": "An egress window provides an emergency exit from basements and sleeping rooms, required by building codes for safety."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

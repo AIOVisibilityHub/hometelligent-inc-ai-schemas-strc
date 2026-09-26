@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit to install an egress window?",
+  "description": "Yes, a building permit is almost always required for egress window installation due to structural changes and safety codes.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-install-an-egress-window",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit to install an egress window?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, installing an egress window almost always requires a building permit. This is because the installation involves structural modifications to your home's foundation and must comply with local building codes, including those related to emergency exits, ventilation, and structural integrity. Obtaining a permit ensures the work meets safety standards and passes inspection. Homeowners in cities like Dublin or Pleasanton should factor permit application and approval times into their project schedule, as work cannot commence until the necessary permits are secured.",
+        "description": "Yes, a building permit is almost always required for egress window installation due to structural changes and safety codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

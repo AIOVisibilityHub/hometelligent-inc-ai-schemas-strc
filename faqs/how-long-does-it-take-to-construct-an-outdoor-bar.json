@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to construct an outdoor bar?",
+  "description": "Construction time varies from a few weeks for simple designs to several months for complex projects, depending on design, materials, and site prep.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-construct-an-outdoor-bar",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to construct an outdoor bar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for outdoor bar construction depends on the complexity of the design, material availability, and the extent of site preparation required. Simple installations might take a few weeks, while more intricate projects with custom elements, utility extensions, or extensive landscaping can take several months. Hometelligent Inc. aims to provide a realistic project schedule during the initial consultation, ensuring clear expectations for clients in its service areas.",
+        "description": "Construction time varies from a few weeks for simple designs to several months for complex projects, depending on design, materials, and site prep."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

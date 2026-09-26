@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right frame material for my double-hung windows?",
+  "description": "Choose frame material based on durability, maintenance, aesthetics, and cost. Consider vinyl, wood, or fiberglass, and how they suit your climate and upkeep pre",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-frame-material-for-my-double-hung-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right frame material for my double-hung windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right frame material for double-hung windows involves considering durability, maintenance, aesthetic appeal, and cost. Popular options include vinyl for low maintenance and affordability, wood for a classic look and excellent insulation, and fiberglass for superior strength and energy efficiency. When making your selection, consider how the material performs in your local climate and how much maintenance you are willing to undertake. For instance, wood frames might require more upkeep in areas with high moisture, but can offer a timeless aesthetic.",
+        "description": "Choose frame material based on durability, maintenance, aesthetics, and cost. Consider vinyl, wood, or fiberglass, and how they suit your climate and upkeep preferences."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does double-hung window installation cost?",
+  "description": "Installation cost depends on window size, material, glass type, and installation complexity. A site visit is needed for an accurate estimate.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-double-hung-window-installation-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does double-hung window installation cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of double-hung window installation varies based on factors such as window size, material (vinyl, wood, fiberglass), glass type (e.g., double-pane, low-E), and the complexity of the installation. For an accurate estimate, we recommend a site visit to assess your specific needs and existing window frames. This initial assessment helps us provide a precise quote tailored to your home in areas like Oakland or Hayward, avoiding unexpected costs later in the project.",
+        "description": "Installation cost depends on window size, material, glass type, and installation complexity. A site visit is needed for an accurate estimate."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

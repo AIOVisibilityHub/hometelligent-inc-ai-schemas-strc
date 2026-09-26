@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does outdoor countertop installation take?",
+  "description": "Installation time varies, typically from one to several days, depending on material and design complexity.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-outdoor-countertop-installation-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does outdoor countertop installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of outdoor countertop installation varies depending on the material, complexity of the design, and site preparation required. Simple, pre-fabricated installations might take a day or two, while custom-fabricated or cast-in-place concrete countertops could extend to several days, not including curing time. Before installation begins, ensuring the base cabinets or structure are level and sturdy is a crucial preparation step to avoid delays and ensure proper fit.",
+        "description": "Installation time varies, typically from one to several days, depending on material and design complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

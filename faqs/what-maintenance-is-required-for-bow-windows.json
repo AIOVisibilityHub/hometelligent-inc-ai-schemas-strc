@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for bow windows?",
+  "description": "Maintenance involves regular cleaning, inspecting seals and caulking, and for wood frames, occasional repainting or restaining, plus keeping drainage clear.",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-bow-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for bow windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bow windows generally require similar maintenance to other window types, primarily regular cleaning of the glass and frames. Inspecting the seals and caulking around the window periodically is crucial to ensure there are no cracks or gaps that could lead to air or water leaks. For wooden bow windows, occasional repainting or restaining may be necessary to protect the material from weather exposure. Keeping the drainage channels clear of debris will also help prevent water accumulation. This routine care helps extend the lifespan and performance of your bow window.",
+        "description": "Maintenance involves regular cleaning, inspecting seals and caulking, and for wood frames, occasional repainting or restaining, plus keeping drainage clear."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

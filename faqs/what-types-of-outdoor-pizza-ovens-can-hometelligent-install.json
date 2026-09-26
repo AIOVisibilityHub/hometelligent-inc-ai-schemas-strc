@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of outdoor pizza ovens can Hometelligent install?",
+  "description": "Hometelligent installs pre-fabricated, brick-built, and custom-designed outdoor pizza ovens, with options tailored to budget and desired aesthetics.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-outdoor-pizza-ovens-can-hometelligent-install",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of outdoor pizza ovens can Hometelligent install?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent installs various types of outdoor pizza ovens, including pre-fabricated modular ovens, brick-built ovens, and custom-designed units. The best option for you depends on factors like your budget, desired aesthetics, and how frequently you plan to use it. Pre-fabricated ovens offer quicker installation, while custom builds allow for greater personalization to match your existing outdoor living space.",
+        "description": "Hometelligent installs pre-fabricated, brick-built, and custom-designed outdoor pizza ovens, with options tailored to budget and desired aesthetics."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

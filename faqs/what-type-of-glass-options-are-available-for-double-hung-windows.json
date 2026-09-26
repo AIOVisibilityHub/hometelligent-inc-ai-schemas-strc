@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What type of glass options are available for double-hung windows?",
+  "description": "Glass options include double-pane, Low-E, and argon gas for efficiency, or laminated/tempered for security. The best choice depends on specific needs.",
+  "url": "https://hometelligentinc.com/faq/what-type-of-glass-options-are-available-for-double-hung-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What type of glass options are available for double-hung windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Several glass options enhance the performance of double-hung windows, including double-pane for improved insulation, low-emissivity (Low-E) coatings to reflect heat, and argon gas fills between panes for added energy efficiency. Laminated or tempered glass options are also available for enhanced security and impact resistance. The right choice depends on your specific needs, such as maximizing energy savings in Pleasanton's varying climate or enhancing soundproofing for a home near a busy street in Oakland.",
+        "description": "Glass options include double-pane, Low-E, and argon gas for efficiency, or laminated/tempered for security. The best choice depends on specific needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

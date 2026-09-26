@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is involved in the egress window installation process?",
+  "description": "Installation involves excavation, foundation cutting, window well and drainage installation, followed by the window and finishing.",
+  "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-egress-window-installation-process",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is involved in the egress window installation process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The egress window installation process typically involves several steps, beginning with an assessment of your home's foundation and soil conditions. We then excavate the area around the window opening, cut the foundation to the appropriate size, install the window well, drainage system, and the egress window itself. Finally, we backfill the area and complete any necessary landscaping or finishing. The complexity of this process can vary significantly based on whether you're replacing an existing window or cutting into a solid foundation, which impacts the timeline and specific techniques used.",
+        "description": "Installation involves excavation, foundation cutting, window well and drainage installation, followed by the window and finishing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

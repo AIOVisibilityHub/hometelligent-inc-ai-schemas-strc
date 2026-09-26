@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is involved with an outdoor pizza oven?",
+  "description": "Maintenance includes regular cleaning, inspecting for structural issues, and using a protective cover, especially in varying climates, to extend oven lifespan.",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-involved-with-an-outdoor-pizza-oven",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is involved with an outdoor pizza oven?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintaining an outdoor pizza oven typically involves regular cleaning to remove ash and food debris, especially for wood-fired models. For all types, inspecting for cracks or structural issues, particularly in areas exposed to weather, is important. Protecting the oven with a cover when not in use can significantly extend its lifespan, especially in climates with varying weather patterns like the San Francisco Bay Area, preventing moisture damage and material degradation.",
+        "description": "Maintenance includes regular cleaning, inspecting for structural issues, and using a protective cover, especially in varying climates, to extend oven lifespan."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
