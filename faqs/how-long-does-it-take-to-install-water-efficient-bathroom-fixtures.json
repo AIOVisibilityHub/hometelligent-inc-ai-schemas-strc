@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to install water-efficient bathroom fixtures?",
+  "description": "Installation time ranges from minutes for aerators to several hours or a full day for toilets or multiple fixtures, depending on complexity.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-water-efficient-bathroom-fixtures",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to install water-efficient bathroom fixtures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Installation time for water-efficient bathroom fixtures varies. A simple replacement of a showerhead or faucet aerator can be completed in minutes. Replacing a toilet typically takes a few hours, while installing multiple new fixtures or a hot water recirculation system may require a full day or more, depending on existing plumbing configurations. Our team works efficiently to minimize disruption.",
+        "description": "Installation time ranges from minutes for aerators to several hours or a full day for toilets or multiple fixtures, depending on complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

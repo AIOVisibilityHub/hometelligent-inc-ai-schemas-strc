@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is included in a complete home renovation?",
+  "description": "A complete home renovation updates multiple rooms or the entire house, including structural changes, system updates, and new finishes. Hometelligent Inc. starts",
+  "url": "https://hometelligentinc.com/faq/what-is-included-in-a-complete-home-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is included in a complete home renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A complete home renovation typically involves updating multiple rooms or the entire structure of a house. This can include kitchen and bathroom remodels, structural changes like wall removal, reconfiguring layouts, updating plumbing and electrical systems, and replacing finishes such as flooring and paint. For Hometelligent Inc., based in Alameda and serving the surrounding areas, our process often begins with understanding your vision and the existing home's condition to define the scope accurately, ensuring all major aspects are considered from the outset.",
+        "description": "A complete home renovation updates multiple rooms or the entire house, including structural changes, system updates, and new finishes. Hometelligent Inc. starts by assessing your vision and existing home condition."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for upgrading bathroom lighting?",
+  "description": "The upgrade process involves consultation, site assessment, fixture selection, and installation. Hometelligent Inc. ensures local electrical codes are met from",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-upgrading-bathroom-lighting",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for upgrading bathroom lighting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process typically begins with a consultation to discuss your lighting needs and design preferences. This is followed by a site assessment to evaluate existing wiring and identify any necessary electrical panel upgrades. After fixture selection and a detailed quote, installation involves wiring, mounting fixtures, and testing. Hometelligent Inc. prioritizes clear communication throughout this process, from initial design discussions to final inspection, ensuring that local electrical codes in areas like Oakland are met for a safe and functional upgrade.",
+        "description": "The upgrade process involves consultation, site assessment, fixture selection, and installation. Hometelligent Inc. ensures local electrical codes are met from design to final inspection."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are common water-efficient bathroom upgrades?",
+  "description": "Common water-efficient bathroom upgrades include low-flow toilets, water-saving showerheads, faucet aerators, and on-demand hot water recirculation pumps.",
+  "url": "https://hometelligentinc.com/faq/what-are-common-water-efficient-bathroom-upgrades",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common water-efficient bathroom upgrades?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common water-efficient bathroom upgrades include installing low-flow toilets, water-saving showerheads, and faucet aerators. Beyond fixtures, consider on-demand hot water recirculation pumps, which reduce the wait time for hot water and prevent wasted cold water. These upgrades are effective in reducing overall water consumption in homes.",
+        "description": "Common water-efficient bathroom upgrades include low-flow toilets, water-saving showerheads, faucet aerators, and on-demand hot water recirculation pumps."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before starting a whole-home renovation?",
+  "description": "Before starting, prepare your desired outcomes, preliminary budget, preferred styles, and a list of 'must-haves' to streamline the renovation process.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-starting-a-whole-home-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before starting a whole-home renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting a whole-home renovation, it's beneficial to have a clear understanding of your desired outcomes, a preliminary budget, and an idea of your preferred styles and materials. Gathering inspiration, creating a list of 'must-haves' versus 'nice-to-haves,' and understanding your current home's limitations will help streamline the design process. Being prepared with these details allows for more efficient consultations with your contractor.",
+        "description": "Before starting, prepare your desired outcomes, preliminary budget, preferred styles, and a list of 'must-haves' to streamline the renovation process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

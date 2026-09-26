@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will removing a load-bearing wall affect my home's resale value?",
+  "description": "Properly done load-bearing wall removal can increase resale value by creating open space. Improper work, however, can decrease value and create liabilities.",
+  "url": "https://hometelligentinc.com/faq/will-removing-a-load-bearing-wall-affect-my-home-s-resale-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will removing a load-bearing wall affect my home's resale value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When done correctly and with proper permits, removing a load-bearing wall to create an open-concept space can often increase a home's appeal and resale value, as it aligns with modern design preferences. However, if done improperly or without permits, it can significantly decrease value and create serious liabilities for future owners. Hometelligent Inc. focuses on legal, code-compliant, and aesthetically integrated solutions.",
+        "description": "Properly done load-bearing wall removal can increase resale value by creating open space. Improper work, however, can decrease value and create liabilities."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

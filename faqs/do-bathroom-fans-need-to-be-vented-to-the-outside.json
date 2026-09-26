@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do bathroom fans need to be vented to the outside?",
+  "description": "Yes, bathroom fans must be vented directly to the outside to prevent moisture buildup, mold, and structural damage within your home.",
+  "url": "https://hometelligentinc.com/faq/do-bathroom-fans-need-to-be-vented-to-the-outside",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do bathroom fans need to be vented to the outside?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, bathroom fans must always be vented directly to the outside of your home, not into an attic, crawl space, or wall cavity. Venting into these areas can lead to significant moisture buildup, promoting mold growth, wood rot, and insulation damage within your home's structure. Proper ductwork ensures humid air is expelled completely. Ensuring a direct and clear path to the exterior is a critical component of effective and safe ventilation fan installation, protecting your home's integrity.",
+        "description": "Yes, bathroom fans must be vented directly to the outside to prevent moisture buildup, mold, and structural damage within your home."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

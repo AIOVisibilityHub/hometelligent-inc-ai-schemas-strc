@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a bathroom lighting upgrade usually take?",
+  "description": "Upgrade duration varies by complexity; simple replacements are quick, while extensive wiring can take days. The extent of electrical work is a primary factor af",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-bathroom-lighting-upgrade-usually-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a bathroom lighting upgrade usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a bathroom lighting upgrade depends on the project's complexity. A simple fixture replacement might take a few hours, while a complete overhaul involving new wiring, additional recessed lights, or moving switch locations can take one to three days. The most significant factor impacting timing is the extent of electrical work and whether existing walls need to be opened and repaired. Hometelligent Inc. provides a project timeline during the quoting phase, accounting for these variables.",
+        "description": "Upgrade duration varies by complexity; simple replacements are quick, while extensive wiring can take days. The extent of electrical work is a primary factor affecting the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

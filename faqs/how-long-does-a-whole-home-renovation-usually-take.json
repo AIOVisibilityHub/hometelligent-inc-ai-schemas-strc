@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a whole-home renovation usually take?",
+  "description": "The timeline for a whole-home renovation depends on its scope and complexity, ranging from weeks for minor updates to over a year for extensive remodels.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-whole-home-renovation-usually-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a whole-home renovation usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a whole-home renovation varies significantly based on the project's scope and complexity. Minor cosmetic updates might take a few weeks, while extensive remodels involving structural changes, multiple room reconfigurations, and custom finishes can extend to several months, or even over a year. Material lead times, permit approvals, and unexpected discoveries during demolition are all factors that can influence the timeline.",
+        "description": "The timeline for a whole-home renovation depends on its scope and complexity, ranging from weeks for minor updates to over a year for extensive remodels."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

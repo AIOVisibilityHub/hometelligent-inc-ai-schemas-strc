@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What permits are needed for historic home renovations?",
+  "description": "Historic home renovations need standard building permits plus potential approvals from local historic preservation commissions to maintain historical integrity.",
+  "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-historic-home-renovations",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What permits are needed for historic home renovations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Historic home renovations typically require standard building permits, but may also necessitate additional approvals from local historic preservation commissions or review boards. These bodies ensure that changes maintain the historical integrity of the property and its surrounding area. The specific requirements can vary significantly by location, for example, between Oakland Hills and Montclair, even within the same city. It's crucial to understand these requirements early in the planning process to avoid delays and ensure compliance with local ordinances.",
+        "description": "Historic home renovations need standard building permits plus potential approvals from local historic preservation commissions to maintain historical integrity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

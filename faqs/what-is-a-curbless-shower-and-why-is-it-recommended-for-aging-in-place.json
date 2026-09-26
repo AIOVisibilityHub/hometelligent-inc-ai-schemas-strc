@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a curbless shower, and why is it recommended for aging in place?",
+  "description": "A curbless shower has no raised edge, preventing trips and allowing easy access for those with limited mobility or wheelchairs. It eliminates a major obstacle f",
+  "url": "https://hometelligentinc.com/faq/what-is-a-curbless-shower-and-why-is-it-recommended-for-aging-in-place",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a curbless shower, and why is it recommended for aging in place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A curbless shower has no raised edge or curb at its entrance, allowing for a seamless transition from the bathroom floor directly into the shower. This design significantly reduces the risk of tripping and makes it easily accessible for individuals using wheelchairs, walkers, or those with limited mobility. The primary reason it's recommended is the elimination of a major obstacle, providing both safety and convenience. This is a first-party insight that Hometelligent Inc. commonly implements in our projects across Union City and Ashland.",
+        "description": "A curbless shower has no raised edge, preventing trips and allowing easy access for those with limited mobility or wheelchairs. It eliminates a major obstacle for safety."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

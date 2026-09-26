@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do you offer backsplash installation services in Alameda, CA?",
+  "description": "Yes, Hometelligent Inc. provides bathroom backsplash installation services in Alameda, CA, and the surrounding East Bay Area.",
+  "url": "https://hometelligentinc.com/faq/do-you-offer-backsplash-installation-services-in-alameda-ca",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer backsplash installation services in Alameda, CA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. proudly offers bathroom backsplash installation services in Alameda, CA, and the surrounding East Bay Area. We are familiar with the local architectural styles and building considerations in areas like Alameda, ensuring our installations are both compliant and visually harmonious with your home. Our team provides professional service tailored to the unique needs of our clients across our service areas. This is a local service we regularly provide.",
+        "description": "Yes, Hometelligent Inc. provides bathroom backsplash installation services in Alameda, CA, and the surrounding East Bay Area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What defines a historic home for renovation purposes?",
+  "description": "A historic home is typically 50+ years old, has architectural significance, or is in a historic district, requiring specific renovation guidelines to preserve i",
+  "url": "https://hometelligentinc.com/faq/what-defines-a-historic-home-for-renovation-purposes",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What defines a historic home for renovation purposes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A historic home, for renovation purposes, is generally a property that is older, typically 50 years or more, and possesses architectural significance or is located within a designated historic district. Renovation projects on these homes often require adherence to specific guidelines to preserve original character and materials. Hometelligent Inc. specializes in understanding these nuances, ensuring that renovations respect the home's heritage while integrating modern functionality. We frequently work on homes in areas like Alameda and Berkeley, which have many historically significant properties.",
+        "description": "A historic home is typically 50+ years old, has architectural significance, or is in a historic district, requiring specific renovation guidelines to preserve its character."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

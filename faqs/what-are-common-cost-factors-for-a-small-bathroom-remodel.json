@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are common cost factors for a small bathroom remodel?",
+  "description": "Costs for a small bathroom remodel depend on material quality, extent of plumbing/electrical work, and installation complexity.",
+  "url": "https://hometelligentinc.com/faq/what-are-common-cost-factors-for-a-small-bathroom-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common cost factors for a small bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Several factors influence the cost of a small bathroom remodel, including the quality of materials chosen, the extent of plumbing or electrical work required, and the complexity of installations. For instance, opting for custom tile work or moving existing plumbing lines will increase costs compared to a simple swap of fixtures. We provide detailed estimates that itemize labor and material costs, helping you understand where your investment is allocated before starting the project.",
+        "description": "Costs for a small bathroom remodel depend on material quality, extent of plumbing/electrical work, and installation complexity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

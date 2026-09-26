@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical structural remodeling project take?",
+  "description": "Project duration for structural remodeling varies by complexity, from weeks for minor changes to months for major work. Permit times and material availability a",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-structural-remodeling-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical structural remodeling project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a structural remodeling project varies significantly based on its complexity and scope. Minor alterations, like removing a single load-bearing wall, might take a few weeks, while major projects involving foundation work or adding an entire story can span several months. Factors such as permit acquisition time, material availability, and the need for specialized inspections also influence the timeline. It's important to understand that unexpected structural discoveries can also extend the project length.",
+        "description": "Project duration for structural remodeling varies by complexity, from weeks for minor changes to months for major work. Permit times and material availability are key factors."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

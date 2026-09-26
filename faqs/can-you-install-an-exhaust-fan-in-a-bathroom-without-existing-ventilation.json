@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can you install an exhaust fan in a bathroom without existing ventilation?",
+  "description": "Yes, we can install an exhaust fan in a bathroom lacking ventilation. This requires new openings, ductwork, and electrical connections, with complexity dependin",
+  "url": "https://hometelligentinc.com/faq/can-you-install-an-exhaust-fan-in-a-bathroom-without-existing-ventilation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you install an exhaust fan in a bathroom without existing ventilation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we can install an exhaust fan in a bathroom without existing ventilation. This process typically involves cutting an opening in the ceiling or wall, running new ductwork to an exterior vent, and connecting it to an electrical source. The complexity increases if ceiling joists or wall studs need to be cut or reinforced, or if electrical wiring needs to be extended. We ensure proper venting to the outdoors to effectively remove moisture and prevent mold.",
+        "description": "Yes, we can install an exhaust fan in a bathroom lacking ventilation. This requires new openings, ductwork, and electrical connections, with complexity depending on structural modifications."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

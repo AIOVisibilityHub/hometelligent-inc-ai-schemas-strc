@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical older-home modernization project take?",
+  "description": "Project timelines vary; small updates take weeks, full renovations can take months. Unforeseen issues common in older homes can impact the schedule.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-older-home-modernization-project-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical older-home modernization project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for an older-home modernization project depends heavily on its complexity and scale. A kitchen or bathroom remodel might take several weeks, while a full home renovation involving structural changes or system upgrades could extend to several months. Process clarity is crucial, as unexpected issues, common in older homes like discovering outdated wiring or plumbing, can affect the schedule. We maintain open communication throughout the project, providing regular updates on progress and any unforeseen adjustments to the timeline.",
+        "description": "Project timelines vary; small updates take weeks, full renovations can take months. Unforeseen issues common in older homes can impact the schedule."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

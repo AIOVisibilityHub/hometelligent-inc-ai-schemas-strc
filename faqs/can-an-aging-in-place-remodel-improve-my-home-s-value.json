@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an aging-in-place remodel improve my home's value?",
+  "description": "It can broaden appeal and improve functionality, but a practical tradeoff exists between immediate resale value and long-term independent living benefits.",
+  "url": "https://hometelligentinc.com/faq/can-an-aging-in-place-remodel-improve-my-home-s-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an aging-in-place remodel improve my home's value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An aging-in-place bathroom remodel can enhance your home's functionality and appeal to a broader market, including those planning for future needs or with multi-generational households. While it might not always yield a 1:1 return on investment, the practical tradeoff is between immediate resale value and the long-term benefit of independent living and safety. For many, the ability to remain in their home safely outweighs purely financial considerations. Hometelligent Inc. focuses on quality craftsmanship that adds lasting value.",
+        "description": "It can broaden appeal and improve functionality, but a practical tradeoff exists between immediate resale value and long-term independent living benefits."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

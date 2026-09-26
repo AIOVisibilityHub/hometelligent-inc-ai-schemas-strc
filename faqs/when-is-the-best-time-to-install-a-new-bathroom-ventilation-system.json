@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When is the best time to install a new bathroom ventilation system?",
+  "description": "The best time to install a new bathroom ventilation system is during a remodel or new construction, though retrofits are also possible depending on your home's",
+  "url": "https://hometelligentinc.com/faq/when-is-the-best-time-to-install-a-new-bathroom-ventilation-system",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When is the best time to install a new bathroom ventilation system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ideal time to install a new bathroom ventilation system is during a bathroom remodel or new construction. This allows for easier integration of ductwork and electrical wiring within walls and ceilings. However, a ventilation fan can also be retrofitted into an existing bathroom. For retrofits, the complexity depends on factors like ceiling access, existing wiring, and the path for ducting to an exterior vent. We can assess your current setup to determine the most efficient approach.",
+        "description": "The best time to install a new bathroom ventilation system is during a remodel or new construction, though retrofits are also possible depending on your home's structure."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

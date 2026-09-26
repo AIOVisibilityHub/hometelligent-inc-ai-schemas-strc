@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What permits are required for structural remodeling projects?",
+  "description": "Building permits are required for structural remodeling, ensuring compliance with local codes. Detailed plans must be submitted to the local planning department",
+  "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-structural-remodeling-projects",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What permits are required for structural remodeling projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Structural remodeling projects typically require building permits from the local city or county planning department. These permits ensure that the work complies with local building codes and safety regulations. You will generally need to submit detailed architectural and structural plans for review and approval. The permitting process can vary in duration, so it's a critical step to factor into your project timeline, often preceding any physical work. Our process at Hometelligent includes assisting with permit applications to streamline this complex phase.",
+        "description": "Building permits are required for structural remodeling, ensuring compliance with local codes. Detailed plans must be submitted to the local planning department."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

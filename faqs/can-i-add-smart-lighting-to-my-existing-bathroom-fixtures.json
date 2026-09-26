@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I add smart lighting to my existing bathroom fixtures?",
+  "description": "Yes, smart lighting can often be added with smart bulbs or switches. Check existing wiring, bulb wattage, and base type before purchasing smart home devices.",
+  "url": "https://hometelligentinc.com/faq/can-i-add-smart-lighting-to-my-existing-bathroom-fixtures",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I add smart lighting to my existing bathroom fixtures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in many cases, you can add smart lighting to existing bathroom fixtures. This typically involves replacing standard bulbs with smart LED bulbs or installing smart switches or dimmer modules. However, the compatibility depends on your current wiring and the type of fixtures. As part of your preparation, check the wattage and base type of your existing bulbs and consider if you want individual bulb control or whole-circuit smart control before purchasing smart home devices.",
+        "description": "Yes, smart lighting can often be added with smart bulbs or switches. Check existing wiring, bulb wattage, and base type before purchasing smart home devices."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What impact do noise and privacy have on an open floor plan?",
+  "description": "Open floor plans can increase noise transfer and reduce privacy; careful design can mitigate these tradeoffs.",
+  "url": "https://hometelligentinc.com/faq/what-impact-do-noise-and-privacy-have-on-an-open-floor-plan",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What impact do noise and privacy have on an open floor plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In an open floor plan, noise from one area, like the kitchen, can easily carry into others, affecting activities in the living or dining spaces. Privacy can also be reduced due to the lack of distinct rooms. This is a practical tradeoff; while fostering togetherness, it requires careful consideration of furniture placement and material choices to help absorb sound or create visual breaks. Understanding these impacts is part of the decision-making process.",
+        "description": "Open floor plans can increase noise transfer and reduce privacy; careful design can mitigate these tradeoffs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a building permit for my family room remodel?",
+  "description": "Permits are usually needed for structural, electrical, or plumbing changes; requirements can vary by city within the East Bay service area.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-building-permit-for-my-family-room-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a building permit for my family room remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You likely need a building permit for a family room remodel if the project involves structural changes, significant electrical or plumbing work, or changes to the home's footprint. Minor cosmetic updates typically do not require permits. This is a contextual relevance point, as permit requirements can vary by municipality even within the East Bay, such as between Berkeley and Oakland. Hometelligent Inc. assists with understanding and securing necessary permits for projects in its service areas, which include Alameda, Albany, Berkeley, Dublin, and Emeryville.",
+        "description": "Permits are usually needed for structural, electrical, or plumbing changes; requirements can vary by city within the East Bay service area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

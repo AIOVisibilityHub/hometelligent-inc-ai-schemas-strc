@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much water can I save with a water-efficient bathroom upgrade?",
+  "description": "Water savings vary, but upgrading to high-efficiency fixtures like a 1.28 GPF toilet can save thousands of gallons annually. Specific savings can be determined",
+  "url": "https://hometelligentinc.com/faq/how-much-water-can-i-save-with-a-water-efficient-bathroom-upgrade",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much water can I save with a water-efficient bathroom upgrade?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The amount of water saved varies significantly based on current fixture efficiency and household usage. Replacing an old toilet with a high-efficiency model can save thousands of gallons annually. For example, upgrading from a 3.5 gallon per flush (GPF) toilet to a 1.28 GPF model makes a substantial difference. We can help you identify the specific potential savings during an initial consultation.",
+        "description": "Water savings vary, but upgrading to high-efficiency fixtures like a 1.28 GPF toilet can save thousands of gallons annually. Specific savings can be determined during a consultation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

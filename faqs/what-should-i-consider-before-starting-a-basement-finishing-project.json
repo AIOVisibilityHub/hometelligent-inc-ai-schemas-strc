@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider before starting a basement finishing project?",
+  "description": "Consider your goals, budget, and any existing moisture or structural issues before finishing your basement. Address waterproofing and insulation early.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-starting-a-basement-finishing-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider before starting a basement finishing project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting a basement finishing project, consider your primary goals for the space, your budget, and any existing issues like moisture or structural concerns. It's crucial to address waterproofing and insulation needs first to prevent future problems. Gathering inspirational ideas for layout and finishes can also help refine your vision before contacting a contractor like Hometelligent for an initial consultation.",
+        "description": "Consider your goals, budget, and any existing moisture or structural issues before finishing your basement. Address waterproofing and insulation early."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

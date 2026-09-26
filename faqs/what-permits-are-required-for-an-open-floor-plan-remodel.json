@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What permits are required for an open floor plan remodel?",
+  "description": "Permits are needed for structural, electrical, or plumbing changes. Requirements vary by local building codes.",
+  "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-an-open-floor-plan-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What permits are required for an open floor plan remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permits are typically required for any structural changes, electrical work, plumbing, or significant alterations to your home's layout. The specific permits needed depend on local building codes in your city, such as Alameda or Dublin. Part of our process clarity involves guiding you through the permit application process and ensuring all work complies with local regulations, which can impact project timing.",
+        "description": "Permits are needed for structural, electrical, or plumbing changes. Requirements vary by local building codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

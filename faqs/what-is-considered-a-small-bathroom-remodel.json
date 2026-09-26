@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is considered a small bathroom remodel?",
+  "description": "A small bathroom remodel updates existing fixtures and surfaces within the current footprint, without major structural changes, often seen in homes in areas lik",
+  "url": "https://hometelligentinc.com/faq/what-is-considered-a-small-bathroom-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is considered a small bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A small bathroom remodel typically focuses on updating existing fixtures and surfaces within the current footprint, rather than significant structural changes or reconfiguring the layout. This can include replacing a vanity, toilet, and shower/tub, updating flooring and wall tiles, or repainting. The goal is to refresh the space and improve functionality without expanding its size, making it a good option for maximizing impact in compact areas common in older homes within our service areas like Berkeley or Oakland.",
+        "description": "A small bathroom remodel updates existing fixtures and surfaces within the current footprint, without major structural changes, often seen in homes in areas like Berkeley or Oakland."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

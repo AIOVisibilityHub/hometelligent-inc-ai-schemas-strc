@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does an accessible bathroom remodel typically take?",
+  "description": "An accessible bathroom remodel can take from a few days for minor changes to several weeks for a full renovation, depending on project scope. Timelines are deta",
+  "url": "https://hometelligentinc.com/faq/how-long-does-an-accessible-bathroom-remodel-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does an accessible bathroom remodel typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of an accessible bathroom remodel varies based on the scope and complexity of the project. A basic conversion, such as installing grab bars and a raised toilet, might take a few days, while a complete renovation involving structural changes, like a roll-in shower and wider doorways, could take several weeks. Hometelligent Inc. provides a detailed timeline during the planning phase, taking into account material delivery and inspection schedules.",
+        "description": "An accessible bathroom remodel can take from a few days for minor changes to several weeks for a full renovation, depending on project scope. Timelines are detailed during planning."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

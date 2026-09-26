@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is involved in preserving original features during renovation?",
+  "description": "Preserving original features requires skilled repair or replication of elements like windows and trim, balancing restoration costs with preservation goals.",
+  "url": "https://hometelligentinc.com/faq/what-is-involved-in-preserving-original-features-during-renovation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is involved in preserving original features during renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preserving original features in a historic home renovation involves careful assessment, repair, and sometimes replication of elements like windows, doors, trim, flooring, and siding. This often requires skilled craftspeople who understand traditional construction methods and materials. A key practical tradeoff is deciding whether to restore original components, which can be more costly and time-consuming, or replace them with historically accurate reproductions. The decision often balances budget, preservation goals, and the condition of the existing features.",
+        "description": "Preserving original features requires skilled repair or replication of elements like windows and trim, balancing restoration costs with preservation goals."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

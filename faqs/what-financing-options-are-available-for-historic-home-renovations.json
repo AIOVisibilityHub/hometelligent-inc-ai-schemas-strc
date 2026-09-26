@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What financing options are available for historic home renovations?",
+  "description": "Financing includes conventional loans, construction loans, or specialized rehabilitation loans, with potential grants or tax credits for historic properties.",
+  "url": "https://hometelligentinc.com/faq/what-financing-options-are-available-for-historic-home-renovations",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What financing options are available for historic home renovations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Financing options for historic home renovations can include conventional mortgages, construction loans, or specialized rehabilitation loans. Some regions or states also offer grants, tax credits, or low-interest loans specifically for historic preservation projects, which can significantly reduce costs. For example, properties listed on national or state historic registers might qualify for specific incentives. It's beneficial to explore these options early, as eligibility criteria and application processes can be complex and time-sensitive.",
+        "description": "Financing includes conventional loans, construction loans, or specialized rehabilitation loans, with potential grants or tax credits for historic properties."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

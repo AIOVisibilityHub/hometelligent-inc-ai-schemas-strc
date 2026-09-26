@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors determine the cost of an attic conversion?",
+  "description": "Attic conversion costs depend on size, structural changes, materials, and additions like plumbing or electrical. We provide detailed estimates after a consultat",
+  "url": "https://hometelligentinc.com/faq/what-factors-determine-the-cost-of-an-attic-conversion",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors determine the cost of an attic conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of an attic conversion varies significantly based on several factors. Key considerations include the size of the attic, the complexity of structural modifications needed (such as reinforcing floors or raising the roofline), the type and quality of materials chosen, and the addition of plumbing or electrical systems. Factors like the number of windows, the need for new stairs, and the level of insulation required also impact the final price. We provide detailed estimates after an initial consultation to account for these specifics.",
+        "description": "Attic conversion costs depend on size, structural changes, materials, and additions like plumbing or electrical. We provide detailed estimates after a consultation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

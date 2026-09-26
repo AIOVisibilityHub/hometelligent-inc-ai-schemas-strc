@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I renovate my whole home in phases?",
+  "description": "Phased whole-home renovations are possible to manage budget and disruption, but require careful planning for design consistency.",
+  "url": "https://hometelligentinc.com/faq/can-i-renovate-my-whole-home-in-phases",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I renovate my whole home in phases?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can renovate your home in phases, which can be a practical approach for managing budget, minimizing disruption, or spreading out the project over time. This might involve renovating a kitchen one year and bathrooms the next. Phased renovations require careful planning to ensure design consistency and efficient transitions between stages, avoiding rework. We can help you develop a master plan that allows for future expansion while maintaining a cohesive look.",
+        "description": "Phased whole-home renovations are possible to manage budget and disruption, but require careful planning for design consistency."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

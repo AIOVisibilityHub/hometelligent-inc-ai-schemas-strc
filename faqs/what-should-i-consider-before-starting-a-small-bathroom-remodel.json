@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I consider before starting a small bathroom remodel?",
+  "description": "Before remodeling, consider your budget, desired aesthetic, functional needs, and existing plumbing/structures to streamline the process.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-starting-a-small-bathroom-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider before starting a small bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting a small bathroom remodel, consider your budget, desired aesthetic, and functional needs. Create a list of 'must-haves' versus 'nice-to-haves.' It's also important to assess the existing conditions, such as plumbing locations and wall structures, as these can impact the project's scope and cost. Having a clear vision for the space and gathering inspiration photos will help streamline the design process and ensure your remodel meets your expectations.",
+        "description": "Before remodeling, consider your budget, desired aesthetic, functional needs, and existing plumbing/structures to streamline the process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

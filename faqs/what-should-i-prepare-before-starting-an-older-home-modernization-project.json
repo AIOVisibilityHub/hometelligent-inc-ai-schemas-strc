@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I prepare before starting an older-home modernization project?",
+  "description": "Prepare by gathering existing plans and records, and clearly defining your vision for the modernized space. This helps align the project with your needs.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-starting-an-older-home-modernization-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I prepare before starting an older-home modernization project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before starting an older-home modernization project, it's beneficial to gather any existing architectural plans, survey documents, or previous renovation records you might have. Consider your lifestyle and how you envision using the modernized space, noting specific functional and aesthetic preferences. This preparation helps us understand your vision, identify potential challenges early, and ensure the proposed solutions align perfectly with your needs and the home's unique characteristics. A clear understanding of your goals is key.",
+        "description": "Prepare by gathering existing plans and records, and clearly defining your vision for the modernized space. This helps align the project with your needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

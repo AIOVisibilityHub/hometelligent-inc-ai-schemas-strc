@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparations should I make before an exhaust fan installation?",
+  "description": "Before installation, clear the work area of furniture and personal items for unobstructed access. This helps ensure an efficient and safe installation process.",
+  "url": "https://hometelligentinc.com/faq/what-preparations-should-i-make-before-an-exhaust-fan-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparations should I make before an exhaust fan installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before exhaust fan installation, clear the work area of any furniture, decorations, or personal items to allow our technicians unobstructed access. If the installation involves the kitchen, ensure countertops are clear. For bathroom installations, remove items from around the fan location. Having clear access helps our team work efficiently and safely. We will confirm specific preparations during scheduling.",
+        "description": "Before installation, clear the work area of furniture and personal items for unobstructed access. This helps ensure an efficient and safe installation process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

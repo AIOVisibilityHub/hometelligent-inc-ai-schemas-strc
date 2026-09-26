@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I make my older home more energy efficient during modernization?",
+  "description": "Improve energy efficiency with better insulation, energy-efficient windows, and modern HVAC. Prioritize upgrades offering the best ROI for your climate and budg",
+  "url": "https://hometelligentinc.com/faq/how-can-i-make-my-older-home-more-energy-efficient-during-modernization",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I make my older home more energy efficient during modernization?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To make your older home more energy efficient, consider upgrades such as improved insulation in walls and attics, energy-efficient windows and doors, and modern HVAC systems. Sealing air leaks and upgrading appliances can also significantly reduce energy consumption. A decision factor here is prioritizing which upgrades offer the best return on investment for your climate and budget. We can help you identify the most impactful improvements that qualify for available rebates or tax incentives in our service area, maximizing your savings.",
+        "description": "Improve energy efficiency with better insulation, energy-efficient windows, and modern HVAC. Prioritize upgrades offering the best ROI for your climate and budget."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a load-bearing wall and why is it important to identify?",
+  "description": "A load-bearing wall supports your home's structure; incorrect removal can cause serious damage. Hometelligent Inc. engineers confirm this through structural ana",
+  "url": "https://hometelligentinc.com/faq/what-is-a-load-bearing-wall-and-why-is-it-important-to-identify",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a load-bearing wall and why is it important to identify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A load-bearing wall supports the structural weight of your home, transferring loads from upper floors or the roof to the foundation. Identifying it correctly is crucial because removing it without proper reinforcement can lead to structural damage, including sagging floors, cracked walls, and even collapse. As part of our assessment process, Hometelligent Inc. engineers confirm whether a wall is load-bearing through detailed structural analysis.",
+        "description": "A load-bearing wall supports your home's structure; incorrect removal can cause serious damage. Hometelligent Inc. engineers confirm this through structural analysis."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for bathroom ventilation installation?",
+  "description": "The process involves selecting a fan, creating an opening, connecting electrical wiring, installing ductwork to an exterior vent, and testing the system.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-bathroom-ventilation-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for bathroom ventilation installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation process typically begins with selecting the appropriate fan based on bathroom size and desired features. Our team then identifies a suitable location, usually in the ceiling, and creates an opening. Electrical wiring is connected, and ductwork is run from the fan to an exterior vent, ensuring proper airflow. Finally, the exterior vent cover is installed, and the fan is tested for functionality. We provide a detailed consultation to explain each step and address any specific challenges presented by your home's layout.",
+        "description": "The process involves selecting a fan, creating an opening, connecting electrical wiring, installing ductwork to an exterior vent, and testing the system."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

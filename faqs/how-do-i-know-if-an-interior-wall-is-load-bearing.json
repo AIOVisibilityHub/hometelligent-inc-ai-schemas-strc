@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I know if an interior wall is load-bearing?",
+  "description": "A professional assessment is needed to identify a load-bearing wall, which supports structural weight. Hometelligent Inc. includes structural analysis in its pr",
+  "url": "https://hometelligentinc.com/faq/how-do-i-know-if-an-interior-wall-is-load-bearing",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if an interior wall is load-bearing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Identifying a load-bearing wall requires a professional assessment. These walls support the structural weight of the house, transferring loads from upper floors or the roof to the foundation. Clues can include walls directly above a foundation beam, those running perpendicular to floor joists, or centrally located walls. Hometelligent Inc. always conducts a thorough structural analysis with a qualified engineer to confirm a wall's function before any removal, ensuring the safety and integrity of your home.",
+        "description": "A professional assessment is needed to identify a load-bearing wall, which supports structural weight. Hometelligent Inc. includes structural analysis in its process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

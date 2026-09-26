@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is accessible bathroom remodeling?",
+  "description": "Accessible bathroom remodeling modifies a bathroom for safety and independence, including features like roll-in showers, grab bars, and wider doorways.",
+  "url": "https://hometelligentinc.com/faq/what-is-accessible-bathroom-remodeling",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is accessible bathroom remodeling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accessible bathroom remodeling modifies a bathroom to enhance safety, independence, and comfort for individuals with mobility challenges or specific needs. This can include wider doorways, roll-in showers, grab bars, raised toilet seats, and accessible vanity designs. Hometelligent Inc. focuses on practical and durable solutions tailored to the user's requirements, ensuring the modifications integrate seamlessly with the home's design while meeting functional needs.",
+        "description": "Accessible bathroom remodeling modifies a bathroom for safety and independence, including features like roll-in showers, grab bars, and wider doorways."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

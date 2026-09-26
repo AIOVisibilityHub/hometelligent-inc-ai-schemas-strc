@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of flooring are best for small bathrooms?",
+  "description": "Porcelain or ceramic tiles and vinyl plank are best for small bathroom flooring due to durability and water resistance. Larger tiles can enhance the perception",
+  "url": "https://hometelligentinc.com/faq/what-types-of-flooring-are-best-for-small-bathrooms",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of flooring are best for small bathrooms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For small bathrooms, durable, water-resistant, and aesthetically pleasing flooring options are crucial. Porcelain or ceramic tiles are excellent choices due to their resistance to moisture and wide range of styles. Vinyl plank flooring is another good option, offering durability and often a softer feel underfoot. When selecting, consider larger format tiles as they can create a more seamless look, visually expanding the room. We can help guide material selection based on your budget and desired aesthetic.",
+        "description": "Porcelain or ceramic tiles and vinyl plank are best for small bathroom flooring due to durability and water resistance. Larger tiles can enhance the perception of space."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

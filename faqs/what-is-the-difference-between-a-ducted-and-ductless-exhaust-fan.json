@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a ducted and ductless exhaust fan?",
+  "description": "Ducted fans vent air outside for better performance, while ductless fans filter and recirculate air indoors. The choice depends on your home's structure and nee",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-ducted-and-ductless-exhaust-fan",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a ducted and ductless exhaust fan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A ducted exhaust fan expels stale air, odors, and moisture directly outside the home through a system of ducts, offering superior ventilation performance. A ductless fan, on the other hand, filters the air through charcoal or mesh filters and then recirculates it back into the room. Ducted systems are more effective but require exterior venting, while ductless options are easier to install when outdoor access is not feasible. The choice often depends on your home's structure and ventilation needs.",
+        "description": "Ducted fans vent air outside for better performance, while ductless fans filter and recirculate air indoors. The choice depends on your home's structure and needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

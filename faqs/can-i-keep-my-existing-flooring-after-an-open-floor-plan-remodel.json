@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I keep my existing flooring after an open floor plan remodel?",
+  "description": "Keeping existing flooring is possible but challenging if new sections are needed; matching can be difficult.",
+  "url": "https://hometelligentinc.com/faq/can-i-keep-my-existing-flooring-after-an-open-floor-plan-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I keep my existing flooring after an open floor plan remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Keeping existing flooring depends on its condition and if new sections of flooring will be needed where walls were removed. Matching new flooring to old can be challenging due to wear, fading, and availability. This is a practical tradeoff; you might save money by keeping it, but the aesthetic result could be compromised if the transition isn't seamless. Often, a consistent new flooring choice throughout the open space yields the best visual result.",
+        "description": "Keeping existing flooring is possible but challenging if new sections are needed; matching can be difficult."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need an architect or structural engineer for an open floor plan remodel?",
+  "description": "A structural engineer is essential for load-bearing wall alterations. An architect aids design. Both are key for permitting and safety.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-an-architect-or-structural-engineer-for-an-open-floor-plan-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need an architect or structural engineer for an open floor plan remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if your remodel involves removing or significantly altering load-bearing walls, you will definitely need a structural engineer. An architect can help with design and space planning, ensuring the new layout is functional and aesthetically pleasing. Engaging these professionals early is a crucial preparation step, as their assessments inform permit requirements and ensure structural integrity, especially important in seismic areas like Alameda and Berkeley.",
+        "description": "A structural engineer is essential for load-bearing wall alterations. An architect aids design. Both are key for permitting and safety."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
