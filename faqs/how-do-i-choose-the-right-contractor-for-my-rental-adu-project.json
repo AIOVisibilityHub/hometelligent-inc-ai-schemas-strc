@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for my rental ADU project?",
+  "description": "Choose a contractor based on ADU experience, references, portfolio, licensing, and insurance, and confirm their familiarity with local East Bay zoning laws.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-rental-adu-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for my rental ADU project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selecting the right contractor involves researching their experience with ADU construction, checking references, reviewing their portfolio, and ensuring they are licensed and insured in California. For Hometelligent Inc., specifically, we specialize in the East Bay area including Dublin and Pleasanton. When interviewing contractors, inquire about their familiarity with local zoning laws and their project management approach to ensure alignment with your expectations.",
+        "description": "Choose a contractor based on ADU experience, references, portfolio, licensing, and insurance, and confirm their familiarity with local East Bay zoning laws."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

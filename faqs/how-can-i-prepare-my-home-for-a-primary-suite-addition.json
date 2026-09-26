@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I prepare my home for a primary suite addition?",
+  "description": "Prepare your home for an addition by clearing the construction area, protecting belongings, and discussing utility schedules. Ensuring clear access for material",
+  "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-home-for-a-primary-suite-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I prepare my home for a primary suite addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prepare your home for a primary suite addition, begin by decluttering and clearing the proposed construction area. Protect nearby furniture and belongings from dust and debris, and consider temporary arrangements for living spaces that might be impacted during the construction phase. It's also beneficial to discuss utility shut-off schedules with your contractor to minimize disruptions. Creating a clear access path for construction materials and equipment will help the project run more smoothly. Our project managers will guide you through specific preparation steps.",
+        "description": "Prepare your home for an addition by clearing the construction area, protecting belongings, and discussing utility schedules. Ensuring clear access for materials helps streamline the project."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will a family room addition increase my property value?",
+  "description": "A well-executed family room addition can increase property value by adding functional space and appeal.",
+  "url": "https://hometelligentinc.com/faq/will-a-family-room-addition-increase-my-property-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will a family room addition increase my property value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a well-designed and constructed family room addition can significantly increase your property value by adding usable square footage and enhancing your home's functionality and appeal. The return on investment can vary based on local market conditions and the quality of the addition. An addition that blends seamlessly with the existing home and meets current buyer expectations typically yields a higher return.",
+        "description": "A well-executed family room addition can increase property value by adding functional space and appeal."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of foundation is needed for a garage addition?",
+  "description": "Foundation type depends on soil, structure size, and if it includes living space. Seismic areas often require reinforced foundations.",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-foundation-is-needed-for-a-garage-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of foundation is needed for a garage addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The type of foundation for a garage addition depends on soil conditions, the size and weight of the structure, and whether it includes living space. Common options include slab-on-grade, stem wall foundations, or sometimes pier and beam for specific conditions. In areas with seismic activity, such as the Bay Area, foundations often require reinforcement to meet stricter building codes. We perform thorough site evaluations to recommend the most suitable and code-compliant foundation for your project.",
+        "description": "Foundation type depends on soil, structure size, and if it includes living space. Seismic areas often require reinforced foundations."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

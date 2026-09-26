@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need architectural plans before starting a two-story addition?",
+  "description": "Yes, architectural plans are crucial for a two-story addition to ensure structural integrity, functional design, and compliance with local building codes.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-architectural-plans-before-starting-a-two-story-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need architectural plans before starting a two-story addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, architectural plans are essential for any two-story home addition. These plans detail the structural changes, floor layouts, and aesthetic design, ensuring the addition is safe, functional, and compliant with local building codes. Engaging with an architect early helps translate your vision into a constructible design and identifies potential structural challenges or opportunities in your existing home.",
+        "description": "Yes, architectural plans are crucial for a two-story addition to ensure structural integrity, functional design, and compliance with local building codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

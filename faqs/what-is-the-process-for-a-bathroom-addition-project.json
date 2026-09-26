@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for a bathroom addition project?",
+  "description": "The bathroom addition process includes design, permits, rough-ins, framing, finishes, and inspections, with early decisions streamlining the project.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-a-bathroom-addition-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for a bathroom addition project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process for a bathroom addition typically involves initial consultation and design, architectural drawings, permit application, demolition (if applicable), rough-in for plumbing and electrical, framing, insulation, drywall, flooring installation, fixture placement, painting, and final inspections. Understanding that changes made after the design phase can significantly impact both timing and cost is a crucial process clarity point. Early decisions streamline the project.",
+        "description": "The bathroom addition process includes design, permits, rough-ins, framing, finishes, and inspections, with early decisions streamlining the project."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

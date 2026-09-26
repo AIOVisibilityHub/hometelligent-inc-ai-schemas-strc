@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I use my ADU as a rental property, and what are the implications?",
+  "description": "Yes, ADUs can be rental properties, offering income. Be aware of landlord-tenant laws, tax implications, and health/safety codes.",
+  "url": "https://hometelligentinc.com/faq/can-i-use-my-adu-as-a-rental-property-and-what-are-the-implications",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I use my ADU as a rental property, and what are the implications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, ADUs can often be used as rental properties, providing a source of passive income. This is a common and encouraged use for ADUs in many areas, including within Hometelligent Inc.'s service regions like Berkeley or Oakland. The implications include understanding landlord-tenant laws, potential tax considerations on rental income, and ensuring the ADU meets all health and safety codes for occupancy. Consider your comfort level with being a landlord and research local rental ordinances before committing to this use.",
+        "description": "Yes, ADUs can be rental properties, offering income. Be aware of landlord-tenant laws, tax implications, and health/safety codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

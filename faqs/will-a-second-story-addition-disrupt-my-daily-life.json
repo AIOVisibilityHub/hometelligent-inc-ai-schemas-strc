@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will a second-story addition disrupt my daily life?",
+  "description": "Yes, second-story additions cause disruption like noise and dust. You may need to adjust routines or temporarily relocate during construction.",
+  "url": "https://hometelligentinc.com/faq/will-a-second-story-addition-disrupt-my-daily-life",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will a second-story addition disrupt my daily life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a second-story addition will inevitably cause some disruption to your daily life due to noise, dust, and limited access to certain areas of your home during construction. Practical tradeoffs may include needing to relocate temporarily or adjust daily routines. Hometelligent Inc. strives to minimize inconvenience through careful planning and clear communication about the construction schedule and potential impacts.",
+        "description": "Yes, second-story additions cause disruption like noise and dust. You may need to adjust routines or temporarily relocate during construction."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

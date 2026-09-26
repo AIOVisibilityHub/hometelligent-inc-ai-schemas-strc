@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of living room additions can I consider?",
+  "description": "You can expand existing space, build a new room like a sunroom, or convert unused areas like a garage. Your choice depends on your home, local regulations, and",
+  "url": "https://hometelligentinc.com/faq/what-types-of-living-room-additions-can-i-consider",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of living room additions can I consider?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Living room additions typically involve expanding the existing space or creating a new one. Common options include adding square footage for a larger family room, building an entirely new living area like a sunroom or great room, or converting existing unused space such as a garage. The best choice depends on your home's layout, local zoning regulations in areas like Alameda or Berkeley, and your specific needs for space and functionality.",
+        "description": "You can expand existing space, build a new room like a sunroom, or convert unused areas like a garage. Your choice depends on your home, local regulations, and functional needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

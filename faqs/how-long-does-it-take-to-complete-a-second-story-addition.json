@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to complete a second-story addition?",
+  "description": "Second-story additions typically take 6 to 12 months. Design complexity, permit times, and material availability are key timing factors.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-complete-a-second-story-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to complete a second-story addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for a second-story addition varies greatly, generally ranging from 6 to 12 months, though larger or more complex projects can take longer. Factors like the scope of the design, permit approval times, material availability, and weather conditions all influence the duration. Preparation is key; having all architectural plans finalized and permits approved before construction starts can significantly streamline the overall project timeline.",
+        "description": "Second-story additions typically take 6 to 12 months. Design complexity, permit times, and material availability are key timing factors."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

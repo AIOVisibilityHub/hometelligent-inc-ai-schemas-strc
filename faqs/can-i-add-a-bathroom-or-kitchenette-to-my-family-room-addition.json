@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I add a bathroom or kitchenette to my family room addition?",
+  "description": "Adding a bathroom or kitchenette is possible but increases project complexity, cost, and requires additional plumbing and electrical permits.",
+  "url": "https://hometelligentinc.com/faq/can-i-add-a-bathroom-or-kitchenette-to-my-family-room-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I add a bathroom or kitchenette to my family room addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is possible to incorporate a bathroom or kitchenette into your family room addition, which can enhance its functionality and versatility, especially if you plan to use it for guests or as a separate entertaining space. However, adding plumbing and additional electrical circuits will increase the complexity and cost of the project. This will also require more detailed planning and additional permits for plumbing and electrical work.",
+        "description": "Adding a bathroom or kitchenette is possible but increases project complexity, cost, and requires additional plumbing and electrical permits."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

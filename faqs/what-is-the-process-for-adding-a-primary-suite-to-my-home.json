@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for adding a primary suite to my home?",
+  "description": "The process for a primary suite addition involves consultation, design, permit acquisition, construction, and final inspections. Compliance with local building",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-adding-a-primary-suite-to-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for adding a primary suite to my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process for adding a primary suite typically begins with an initial consultation and site assessment to discuss your vision and evaluate feasibility. This is followed by detailed design and architectural planning, where we develop custom blueprints that meet your needs and comply with local building codes in areas like Berkeley or San Ramon. Once designs are approved, we manage the permit application process, followed by construction, which includes foundation work, framing, roofing, interior finishes, and final inspections. Regular communication ensures you are informed at every stage.",
+        "description": "The process for a primary suite addition involves consultation, design, permit acquisition, construction, and final inspections. Compliance with local building codes, such as those in Berkeley, is crucial."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

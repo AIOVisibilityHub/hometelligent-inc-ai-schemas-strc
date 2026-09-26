@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for a bonus room addition?",
+  "description": "Yes, permits are almost always required for bonus room additions to ensure safety and compliance with local building codes and zoning regulations.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-bonus-room-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for a bonus room addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a permit is almost always required for a bonus room addition. Building codes and zoning regulations in specific municipalities, such as Dublin or Livermore, govern structural changes and expansions to your home. Obtaining the necessary permits ensures your addition is built safely, meets local standards, and can be legally insured and sold in the future. Hometelligent Inc. assists with navigating the permitting process.",
+        "description": "Yes, permits are almost always required for bonus room additions to ensure safety and compliance with local building codes and zoning regulations."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

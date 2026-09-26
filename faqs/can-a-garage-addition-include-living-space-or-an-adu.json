@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can a garage addition include living space or an ADU?",
+  "description": "Yes, a garage addition can include living space or an ADU if it complies with local zoning and building codes, which vary by city.",
+  "url": "https://hometelligentinc.com/faq/can-a-garage-addition-include-living-space-or-an-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a garage addition include living space or an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a garage addition can often be designed to include living space or an Accessory Dwelling Unit (ADU), provided it complies with local zoning ordinances and building codes. Many cities in our service area, including Pleasanton and Livermore, have specific regulations regarding ADU construction, including size, setbacks, and parking requirements. We can help assess the feasibility and navigate these regulations to create a functional and compliant additional living space.",
+        "description": "Yes, a garage addition can include living space or an ADU if it complies with local zoning and building codes, which vary by city."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for a two-story home addition?",
+  "description": "Choose a contractor with proven experience in two-story additions, proper licensing, insurance, and strong client references, prioritizing clear communication a",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-a-two-story-home-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for a two-story home addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selecting a contractor for a two-story addition requires thorough research into their experience with similar projects, licensing, insurance, and client references. It's important to choose a company with a proven track record in complex structural work. During your decision process, consider how a contractor communicates and their ability to manage projects efficiently, as good communication is vital for a smooth project flow.",
+        "description": "Choose a contractor with proven experience in two-story additions, proper licensing, insurance, and strong client references, prioritizing clear communication and project management skills."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

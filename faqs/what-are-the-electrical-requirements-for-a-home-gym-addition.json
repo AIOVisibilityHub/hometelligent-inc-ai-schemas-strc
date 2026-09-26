@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the electrical requirements for a home gym addition?",
+  "description": "Many home gyms need dedicated electrical circuits for powered equipment and proper lighting to prevent system overloads.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-electrical-requirements-for-a-home-gym-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the electrical requirements for a home gym addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Home gym additions often have specific electrical requirements, especially if you plan to use treadmills, ellipticals, or other powered equipment. Dedicated circuits may be needed to prevent overloading your existing system. Proper lighting, including task lighting and general ambient light, is also crucial. Discussing your equipment list with your contractor early helps ensure adequate power supply and safe wiring, providing process clarity from the start.",
+        "description": "Many home gyms need dedicated electrical circuits for powered equipment and proper lighting to prevent system overloads."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

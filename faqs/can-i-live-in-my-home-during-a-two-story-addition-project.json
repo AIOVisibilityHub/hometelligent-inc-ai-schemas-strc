@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I live in my home during a two-story addition project?",
+  "description": "Living in your home during a two-story addition is possible but can be disruptive; temporary relocation may be advisable for comfort and safety during key const",
+  "url": "https://hometelligentinc.com/faq/can-i-live-in-my-home-during-a-two-story-addition-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I live in my home during a two-story addition project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Living in your home during a two-story addition is possible but often challenging due to noise, dust, and disruptions to utilities and living spaces. For comfort and safety, many homeowners opt to relocate temporarily, especially during the framing and roofing stages. We provide clear communication about the construction schedule and potential impacts so you can make an informed decision regarding temporary relocation.",
+        "description": "Living in your home during a two-story addition is possible but can be disruptive; temporary relocation may be advisable for comfort and safety during key construction phases."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

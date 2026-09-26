@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I build an attached or detached garage addition?",
+  "description": "Attached garages offer convenience and cost savings; detached garages provide design flexibility and noise isolation. Consider property layout and use.",
+  "url": "https://hometelligentinc.com/faq/should-i-build-an-attached-or-detached-garage-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I build an attached or detached garage addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The choice between an attached and detached garage addition depends on your property layout, budget, and intended use. An attached garage offers convenient direct access to your home and can be more cost-effective if existing walls and utilities are utilized. A detached garage provides more design flexibility, potentially better noise isolation, and can be ideal for a separate workshop or future ADU. Consider your long-term needs and property characteristics when making this decision.",
+        "description": "Attached garages offer convenience and cost savings; detached garages provide design flexibility and noise isolation. Consider property layout and use."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

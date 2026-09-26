@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I add a full bathroom or a half bathroom?",
+  "description": "Choose between a full or half bathroom based on your home's needs, budget, and desired functionality for family or guests.",
+  "url": "https://hometelligentinc.com/faq/should-i-add-a-full-bathroom-or-a-half-bathroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I add a full bathroom or a half bathroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deciding between a full bathroom (with a shower or tub) and a half bathroom (toilet and sink only) depends on your home's layout, your family's needs, and your budget. A full bathroom addition often provides a higher return on investment and greater functionality, especially in homes with few existing bathrooms. Consider the intended use of the space; a half bath might suffice for guest use, while a full bath is necessary for expanding living space for family members.",
+        "description": "Choose between a full or half bathroom based on your home's needs, budget, and desired functionality for family or guests."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

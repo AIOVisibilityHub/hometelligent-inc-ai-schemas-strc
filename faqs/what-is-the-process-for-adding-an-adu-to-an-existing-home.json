@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for adding an ADU to an existing home?",
+  "description": "The process includes consultation, design, permitting, construction, and inspections. Permitting is often the most variable step.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-adding-an-adu-to-an-existing-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for adding an ADU to an existing home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ADU addition process typically involves initial consultation and design, securing permits from the local city or county, construction, and final inspections. The permitting phase can often be the most variable in terms of duration. Hometelligent Inc. guides clients through each step, from initial design concepts to final construction, navigating local requirements in cities like Fremont or Pleasanton.",
+        "description": "The process includes consultation, design, permitting, construction, and inspections. Permitting is often the most variable step."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

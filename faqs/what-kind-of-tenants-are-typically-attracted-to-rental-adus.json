@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What kind of tenants are typically attracted to rental ADUs?",
+  "description": "ADUs attract single professionals, young couples, and students seeking affordable, private living; designing with dedicated entrances and full amenities can app",
+  "url": "https://hometelligentinc.com/faq/what-kind-of-tenants-are-typically-attracted-to-rental-adus",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of tenants are typically attracted to rental ADUs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rental ADUs often appeal to single professionals, young couples, students, or individuals seeking more affordable and private living spaces compared to larger apartments or houses. The unique living arrangement offers a blend of independence and a connection to a residential neighborhood. When planning, consider including amenities such as dedicated entrances, compact but full kitchens, and sufficient storage to cater to this tenant demographic.",
+        "description": "ADUs attract single professionals, young couples, and students seeking affordable, private living; designing with dedicated entrances and full amenities can appeal to them."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

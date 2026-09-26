@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to complete a bathroom addition project?",
+  "description": "Bathroom additions typically take 6 to 12 weeks to complete, depending on project scope, material availability, and permit processing.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-complete-a-bathroom-addition-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to complete a bathroom addition project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A typical bathroom addition project can take anywhere from 6 to 12 weeks from demolition to final inspection. This timeline is influenced by the scope of work, availability of materials, and local permit processing times. Obtaining permits from your local city or county in areas like Alameda or Berkeley can sometimes extend the overall timeline, so it's important to account for this step in your planning.",
+        "description": "Bathroom additions typically take 6 to 12 weeks to complete, depending on project scope, material availability, and permit processing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

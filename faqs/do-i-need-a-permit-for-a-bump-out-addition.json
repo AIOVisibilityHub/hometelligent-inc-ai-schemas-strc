@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for a bump-out addition?",
+  "description": "Yes, permits are almost always required for bump-out additions due to structural changes and expanded square footage, with specific requirements varying by muni",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-bump-out-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for a bump-out addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a permit is almost always required for a bump-out addition because it involves structural changes to your home and expands the habitable square footage. The specific requirements can vary by municipality. For example, the process might differ slightly between Emeryville and Union City. Failing to obtain necessary permits can lead to fines, difficulties with resale, or the need to dismantle the addition. Hometelligent Inc. assists clients throughout our service area with understanding and securing the appropriate permits before construction begins.",
+        "description": "Yes, permits are almost always required for bump-out additions due to structural changes and expanded square footage, with specific requirements varying by municipality."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I build up or out when considering an addition?",
+  "description": "Choosing to build up or out depends on yard space, structural complexity, and local zoning restrictions; building out is often simpler, while building up preser",
+  "url": "https://hometelligentinc.com/faq/should-i-build-up-or-out-when-considering-an-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I build up or out when considering an addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The choice between building up (adding a second story) or building out (expanding horizontally) depends on several factors specific to your property and needs. Building out typically has simpler structural requirements and may be less disruptive to daily living during construction. However, it requires available yard space and impacts your lot coverage. Building up preserves yard space but involves more complex structural work and temporary relocation may be necessary. Consider your lot size and current zoning restrictions in your area, such as Oakland or Albany, as these significantly impact feasibility and permissible building envelopes.",
+        "description": "Choosing to build up or out depends on yard space, structural complexity, and local zoning restrictions; building out is often simpler, while building up preserves land."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

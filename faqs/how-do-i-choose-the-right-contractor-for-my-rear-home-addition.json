@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for my rear home addition?",
+  "description": "Select a contractor by checking experience, portfolio, references, licensing, insurance, and communication style. Hometelligent Inc. offers expertise in your lo",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-rear-home-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for my rear home addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right contractor involves evaluating their experience with similar projects, reviewing their portfolio, checking references, and ensuring they are licensed and insured. It's also crucial to find a contractor who communicates clearly and understands your vision. Hometelligent Inc. encourages prospective clients to review our successful projects across Alameda, Albany, Berkeley, and Emeryville, highlighting our commitment to quality and client satisfaction.",
+        "description": "Select a contractor by checking experience, portfolio, references, licensing, insurance, and communication style. Hometelligent Inc. offers expertise in your local area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

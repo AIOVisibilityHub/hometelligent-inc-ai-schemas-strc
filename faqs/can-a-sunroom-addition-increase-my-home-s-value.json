@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can a sunroom addition increase my home's value?",
+  "description": "Yes, a quality sunroom addition can increase home value by adding usable space and enhancing appeal, especially in the East Bay market.",
+  "url": "https://hometelligentinc.com/faq/can-a-sunroom-addition-increase-my-home-s-value",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a sunroom addition increase my home's value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a well-designed and constructed sunroom addition can increase your home's value and appeal. It adds usable square footage and enhances the lifestyle offered by the property, particularly if it's a four-season room that effectively expands living space. The return on investment can vary based on the quality of construction, materials used, and local real estate market conditions. Hometelligent Inc. focuses on high-quality craftsmanship, ensuring that your sunroom is a valuable asset in the competitive East Bay housing market.",
+        "description": "Yes, a quality sunroom addition can increase home value by adding usable space and enhancing appeal, especially in the East Bay market."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

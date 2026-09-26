@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to clear trees or existing structures before prefab ADU site preparation?",
+  "description": "Clearing trees or structures is necessary if they obstruct the ADU footprint or construction access.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-clear-trees-or-existing-structures-before-prefab-adu-site-preparati",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to clear trees or existing structures before prefab ADU site preparation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You may need to clear trees or existing structures if they are located within the ADU footprint or interfere with construction access and utility lines. Hometelligent Inc. can assess your property during the initial consultation to determine if demolition or tree removal is necessary. This step is a key preparation aspect, as it ensures a clear and safe site for the subsequent foundation and installation work.",
+        "description": "Clearing trees or structures is necessary if they obstruct the ADU footprint or construction access."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are common design considerations for a bathroom addition?",
+  "description": "Key design considerations for a bathroom addition include space optimization, material selection, ventilation, lighting, and future accessibility.",
+  "url": "https://hometelligentinc.com/faq/what-are-common-design-considerations-for-a-bathroom-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common design considerations for a bathroom addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common design considerations for a bathroom addition include optimizing space, selecting durable and water-resistant materials, ensuring adequate ventilation, and planning for proper lighting. Thinking about the long-term accessibility of the space, such as wider doorways or grab bar placements, can be a valuable decision factor, even if not immediately needed. This foresight can enhance future comfort and potential resale value.",
+        "description": "Key design considerations for a bathroom addition include space optimization, material selection, ventilation, lighting, and future accessibility."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

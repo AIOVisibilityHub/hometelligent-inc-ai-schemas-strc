@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is involved in adding a primary bedroom to my home?",
+  "description": "Adding a primary bedroom involves structural extensions, including framing, roofing, and utility installations, followed by interior finishing. We assess your h",
+  "url": "https://hometelligentinc.com/faq/what-is-involved-in-adding-a-primary-bedroom-to-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is involved in adding a primary bedroom to my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Adding a primary bedroom typically involves extending your existing foundation or building a new section onto your house. This process includes framing, roofing, electrical and plumbing installations, and finishing work like drywall, flooring, and painting. Depending on your home's structure and lot size, we assess the most suitable method to ensure seamless integration with your current property, often requiring foundation work or new roof lines. The scope can range from a simple bedroom extension to a full suite with a bathroom and walk-in closet.",
+        "description": "Adding a primary bedroom involves structural extensions, including framing, roofing, and utility installations, followed by interior finishing. We assess your home and lot to determine the best approach for integration."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

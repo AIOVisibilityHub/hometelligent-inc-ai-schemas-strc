@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a two-story addition and a pop-top addition?",
+  "description": "A two-story addition expands both horizontally and vertically, while a pop-top adds a new story atop the existing footprint without ground-level expansion.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-two-story-addition-and-a-pop-top-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a two-story addition and a pop-top addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A two-story addition typically extends the home's footprint both horizontally and vertically, creating new ground-floor and second-story space. A pop-top addition, however, involves removing the existing roof and adding an entire new story (or more) on top of the existing first floor, without significantly expanding the ground-level footprint. Choosing between these depends on available yard space and desired living area configuration.",
+        "description": "A two-story addition expands both horizontally and vertically, while a pop-top adds a new story atop the existing footprint without ground-level expansion."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

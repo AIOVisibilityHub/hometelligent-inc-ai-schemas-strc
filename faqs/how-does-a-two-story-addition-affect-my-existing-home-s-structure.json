@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does a two-story addition affect my existing home's structure?",
+  "description": "A two-story addition requires careful engineering to ensure the existing foundation and load-bearing walls can support the new weight, often necessitating struc",
+  "url": "https://hometelligentinc.com/faq/how-does-a-two-story-addition-affect-my-existing-home-s-structure",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does a two-story addition affect my existing home's structure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A two-story addition significantly impacts your existing home's structure, requiring careful engineering to ensure the foundation and load-bearing walls can support the added weight. Structural modifications are often necessary to maintain integrity and safety. Our process includes a thorough structural assessment by qualified engineers to determine the best approach for integrating the new structure with your current home.",
+        "description": "A two-story addition requires careful engineering to ensure the existing foundation and load-bearing walls can support the new weight, often necessitating structural modifications."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

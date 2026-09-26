@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it typically take to build an ADU from start to finish?",
+  "description": "ADU construction typically takes 6 to 18 months, depending on design, permitting, and construction schedules.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-build-an-adu-from-start-to-finish",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it typically take to build an ADU from start to finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for building an ADU can range from 6 to 18 months, influenced by design complexity, permitting times, and construction schedules. Permitting can often take several months depending on the jurisdiction and completeness of the application. Hometelligent Inc. strives for efficient project management to minimize delays, particularly in areas like Dublin and Livermore where local permit processes can differ.",
+        "description": "ADU construction typically takes 6 to 18 months, depending on design, permitting, and construction schedules."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need permits for a second-story addition, and how does Hometelligent Inc. assist with this?",
+  "description": "Permits are always required; Hometelligent Inc. manages the submission of plans and documentation to local city departments.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-a-second-story-addition-and-how-does-hometelligent-inc-ass",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need permits for a second-story addition, and how does Hometelligent Inc. assist with this?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, building permits are always required for a second-story addition due to structural changes and increased living space. These permits ensure the project complies with local safety and zoning regulations. Hometelligent Inc. assists by preparing and submitting all necessary architectural plans and documentation to the relevant city planning and building departments in our service areas, such as Albany or Fremont, streamlining the approval process for our clients.",
+        "description": "Permits are always required; Hometelligent Inc. manages the submission of plans and documentation to local city departments."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

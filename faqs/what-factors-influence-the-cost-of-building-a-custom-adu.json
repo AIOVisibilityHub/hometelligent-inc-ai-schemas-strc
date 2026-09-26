@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of building a custom ADU?",
+  "description": "ADU costs depend on size, design complexity, material quality, and site conditions, including utility access and specific finish choices.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-a-custom-adu",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of building a custom ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of building a custom ADU is influenced by several factors, including its size, the complexity of the design, the quality of materials selected, and site-specific conditions like utility access or challenging terrain. Foundation requirements, the type of finishes (e.g., standard vs. high-end), and the need for significant tree removal or grading can also impact the overall budget. We can provide a detailed breakdown once initial design concepts and site assessments are completed.",
+        "description": "ADU costs depend on size, design complexity, material quality, and site conditions, including utility access and specific finish choices."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

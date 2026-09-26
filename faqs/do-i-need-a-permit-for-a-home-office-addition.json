@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for a home office addition?",
+  "description": "Most home office additions require building permits from your local planning department to ensure compliance with safety and zoning regulations.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-home-office-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for a home office addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, most home office additions require building permits from your local city or county planning department. This ensures that the construction meets safety and zoning regulations. The specific permits needed will depend on the scope of work, including structural changes, electrical, plumbing, and mechanical installations. We assist with navigating these local permitting processes in areas like Alameda and Berkeley.",
+        "description": "Most home office additions require building permits from your local planning department to ensure compliance with safety and zoning regulations."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

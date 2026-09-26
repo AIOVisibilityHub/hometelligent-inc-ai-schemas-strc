@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the common challenges during a bump-out addition project?",
+  "description": "Challenges include structural integrity, matching finishes, and navigating building codes, with unexpected discoveries in older homes as a common issue.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-during-a-bump-out-addition-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common challenges during a bump-out addition project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common challenges in a bump-out addition project include ensuring proper structural support, seamlessly integrating new and existing finishes, and navigating local building codes. Matching exterior siding or roofing materials to the existing structure can be a practical tradeoff, often requiring careful selection to achieve a cohesive look. Unexpected discoveries behind walls or beneath floors in older homes, common in places like Oakland or Berkeley, can also add to the complexity. Hometelligent Inc. addresses these by conducting thorough initial assessments and maintaining transparent communication.",
+        "description": "Challenges include structural integrity, matching finishes, and navigating building codes, with unexpected discoveries in older homes as a common issue."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

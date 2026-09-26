@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for a bathroom addition?",
+  "description": "Choose a contractor with experience, proper licensing, insurance, strong references, and a clear understanding of your project vision.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-a-bathroom-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for a bathroom addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When choosing a contractor for a bathroom addition, look for companies with relevant experience, proper licensing, insurance, and a strong portfolio of completed projects. Checking references and reading reviews is essential. A key preparation step is to gather clear ideas of your desired style and budget before contacting contractors, as this helps them provide more accurate proposals and ensures alignment with your vision.",
+        "description": "Choose a contractor with experience, proper licensing, insurance, strong references, and a clear understanding of your project vision."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

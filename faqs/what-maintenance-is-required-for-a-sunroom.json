@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for a sunroom?",
+  "description": "Sunroom maintenance includes cleaning glass and frames, checking seals, and clearing gutters. Hometelligent Inc. provides specific advice based on your sunroom'",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-sunroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for a sunroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sunroom maintenance typically involves routine cleaning of glass panels and frames to preserve their appearance and functionality. Depending on the materials used, periodic checks for seals, caulking, and roof integrity are recommended to prevent leaks and maintain energy efficiency. It's also important to keep gutters clear. Hometelligent Inc. advises on specific maintenance needs for the materials and design chosen for your sunroom, offering practical tips to extend its lifespan and enjoyment, especially considering varied weather in areas like Dublin or Union City.",
+        "description": "Sunroom maintenance includes cleaning glass and frames, checking seals, and clearing gutters. Hometelligent Inc. provides specific advice based on your sunroom's materials and design."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

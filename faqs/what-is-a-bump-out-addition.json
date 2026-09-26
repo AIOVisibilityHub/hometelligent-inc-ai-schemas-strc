@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a bump-out addition?",
+  "description": "A bump-out addition is a small extension that expands a specific room area, often cantilevering off the existing foundation.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-bump-out-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a bump-out addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A bump-out addition is a small-scale extension that expands a specific area of an existing room without altering the home's overall footprint significantly. Unlike a full room addition, it typically cantilevers off the existing foundation, often supported by a new foundation or reinforced framing. This is a practical solution for homeowners in areas like Alameda or Berkeley looking to gain extra space for a kitchen nook, a larger bathroom, or additional closet space without the extensive costs or permits associated with a full-scale addition.",
+        "description": "A bump-out addition is a small extension that expands a specific room area, often cantilevering off the existing foundation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

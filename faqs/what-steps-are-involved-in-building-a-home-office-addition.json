@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What steps are involved in building a home office addition?",
+  "description": "The process involves consultation, design, permitting, foundation, framing, roofing, and interior finishes. Clear communication is maintained throughout.",
+  "url": "https://hometelligentinc.com/faq/what-steps-are-involved-in-building-a-home-office-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What steps are involved in building a home office addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process generally begins with an initial consultation and site assessment to discuss your vision and needs. This is followed by design and architectural planning, permit acquisition, foundation work, framing, roofing, and exterior finishing. Interior work, including electrical, plumbing, insulation, drywall, and final finishes, completes the project. We prioritize clear communication throughout each phase to keep you informed of progress.",
+        "description": "The process involves consultation, design, permitting, foundation, framing, roofing, and interior finishes. Clear communication is maintained throughout."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

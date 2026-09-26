@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a room addition and when should I consider one?",
+  "description": "A room addition expands your home's footprint by adding new square footage. Consider one when your current space is insufficient, offering an alternative to mov",
+  "url": "https://hometelligentinc.com/faq/what-is-a-room-addition-and-when-should-i-consider-one",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a room addition and when should I consider one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A room addition expands your home's footprint, adding new square footage. This typically involves building a new structure attached to an existing part of your house. You might consider a room addition when your current space no longer meets your family's needs, such as a growing family, a need for a dedicated home office, or desire for an extra bedroom. It's often a good alternative to moving, especially if you love your current neighborhood or school district within areas like Alameda or Dublin. Before committing, consider how a room addition aligns with your long-term spatial requirements and property goals.",
+        "description": "A room addition expands your home's footprint by adding new square footage. Consider one when your current space is insufficient, offering an alternative to moving."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

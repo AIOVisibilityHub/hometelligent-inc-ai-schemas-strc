@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is involved in adding a second story to my house?",
+  "description": "Adding a second story involves structural analysis, design, permits, foundation work, framing, utilities, and finishing. Foundation capacity is a crucial early",
+  "url": "https://hometelligentinc.com/faq/what-is-involved-in-adding-a-second-story-to-my-house",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is involved in adding a second story to my house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Adding a second story typically involves structural analysis, design and architectural plans, obtaining necessary permits, foundation reinforcement if needed, demolition of the existing roof, framing the new floor and walls, installing utilities, and interior and exterior finishing. A key decision factor is the existing foundation's capacity; if it's insufficient, significant and costly reinforcement may be required before construction can begin.",
+        "description": "Adding a second story involves structural analysis, design, permits, foundation work, framing, utilities, and finishing. Foundation capacity is a crucial early consideration."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for a garage addition in the Bay Area?",
+  "description": "Yes, permits are almost always required for garage additions due to structural changes and local regulations. Requirements vary by city.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-garage-addition-in-the-bay-area",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for a garage addition in the Bay Area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a permit is almost always required for a garage addition in the Bay Area, as these projects involve significant structural changes and often affect property lines and setbacks. The specific requirements can vary between cities such as Alameda, Emeryville, or Dublin. We handle the permit application process, including preparing necessary architectural plans and ensuring compliance with local zoning ordinances and building codes before construction begins.",
+        "description": "Yes, permits are almost always required for garage additions due to structural changes and local regulations. Requirements vary by city."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I prepare my home for a room addition project?",
+  "description": "Prepare your home by clearing the construction area, securing pets, protecting landscaping, and discussing utility access with your contractor.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-home-for-a-room-addition-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I prepare my home for a room addition project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preparing your home for a room addition involves several steps to ensure a smoother construction process. This includes clearing the construction area of personal belongings, securing pets, and protecting existing landscaping. You may also need to consider temporary living arrangements if the addition significantly impacts essential services or living spaces. Discussing utility disconnections and access points with your contractor beforehand helps minimize disruption. Establishing a clear access path for materials and workers can also streamline the project.",
+        "description": "Prepare your home by clearing the construction area, securing pets, protecting landscaping, and discussing utility access with your contractor."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

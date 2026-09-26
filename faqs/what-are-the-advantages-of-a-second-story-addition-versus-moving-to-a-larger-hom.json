@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the advantages of a second-story addition versus moving to a larger home?",
+  "description": "Second-story additions add space while retaining your location, often with better ROI than moving. The tradeoff is living through construction.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-advantages-of-a-second-story-addition-versus-moving-to-a-larger-hom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the advantages of a second-story addition versus moving to a larger home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A second-story addition allows you to gain significant living space without giving up your current neighborhood, schools, or community connections. It often provides a higher return on investment compared to buying a new home, especially when considering transaction costs like real estate fees and moving expenses. However, it requires you to live through a construction period, which is a practical tradeoff compared to moving into a ready-made larger home.",
+        "description": "Second-story additions add space while retaining your location, often with better ROI than moving. The tradeoff is living through construction."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

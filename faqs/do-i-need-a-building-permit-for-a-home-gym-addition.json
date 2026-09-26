@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a building permit for a home gym addition?",
+  "description": "Most home gym additions require a building permit, especially for structural, electrical, or plumbing changes; failing to get one can lead to fines.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-building-permit-for-a-home-gym-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a building permit for a home gym addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, most home gym additions require a building permit, especially if they involve structural changes, electrical work, plumbing, or significant alterations to your property's footprint. Failing to obtain necessary permits can lead to fines and potential issues during property resale. Hometelligent can assist with navigating local regulations in your specific Bay Area city, providing process clarity regarding permitting requirements.",
+        "description": "Most home gym additions require a building permit, especially for structural, electrical, or plumbing changes; failing to get one can lead to fines."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

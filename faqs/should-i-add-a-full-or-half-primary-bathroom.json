@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Should I add a full or half primary bathroom?",
+  "description": "Choosing between a full or half primary bathroom depends on your needs, space, and budget. A full bath offers complete utility, while a half bath is more compac",
+  "url": "https://hometelligentinc.com/faq/should-i-add-a-full-or-half-primary-bathroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I add a full or half primary bathroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The choice between adding a full or half primary bathroom depends on your specific needs, available space, and budget. A full bathroom includes a toilet, sink, and a shower or tub, offering complete functionality. A half bathroom, with just a toilet and sink, is more compact and less expensive but provides less utility. A practical tradeoff to consider is the amount of square footage you are willing to dedicate versus the desired functionality and impact on resale value.",
+        "description": "Choosing between a full or half primary bathroom depends on your needs, space, and budget. A full bath offers complete utility, while a half bath is more compact and less costly."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

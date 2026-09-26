@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will my family need to vacate the home during the construction of a second-story addition?",
+  "description": "Vacating depends on project scope and structural work; extensive projects may require temporary relocation for safety and comfort.",
+  "url": "https://hometelligentinc.com/faq/will-my-family-need-to-vacate-the-home-during-the-construction-of-a-second-story",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will my family need to vacate the home during the construction of a second-story addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether your family needs to vacate during a second-story addition depends on the project's scope, the extent of structural work, and your comfort with noise and dust. For extensive projects involving roof removal or significant structural changes, temporary relocation might be advisable for safety and comfort. For smaller additions, living in the home may be possible with proper dust barriers and safety protocols. Hometelligent Inc. works with clients in cities like Oakland and Pleasanton to plan for minimal disruption and discusses options for temporary living arrangements if needed.",
+        "description": "Vacating depends on project scope and structural work; extensive projects may require temporary relocation for safety and comfort."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

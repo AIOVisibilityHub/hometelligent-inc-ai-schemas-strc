@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do you handle utility connections during prefab ADU site preparation?",
+  "description": "Utility connections involve extending or installing new lines for water, sewer, electricity, and gas to the ADU, adhering to local codes.",
+  "url": "https://hometelligentinc.com/faq/how-do-you-handle-utility-connections-during-prefab-adu-site-preparation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you handle utility connections during prefab ADU site preparation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During prefab ADU site preparation, utility connections involve extending existing lines or installing new ones for water, sewer, electricity, and gas to the ADU foundation. This process requires coordination with local utility providers and adhering to specific trenching and connection standards. Hometelligent Inc. manages these connections, ensuring compliance with local codes in cities like Hayward or Livermore, which is critical for the ADU's functionality.",
+        "description": "Utility connections involve extending or installing new lines for water, sewer, electricity, and gas to the ADU, adhering to local codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

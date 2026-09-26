@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the key factors that influence the cost of a second-story addition?",
+  "description": "Cost factors include size, design complexity, material quality, and necessary structural or utility modifications.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-key-factors-that-influence-the-cost-of-a-second-story-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the key factors that influence the cost of a second-story addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a second-story addition is primarily influenced by the size of the new space, the complexity of the architectural design, the quality of finishes and materials selected, and necessary structural modifications to the existing home. Extensive plumbing or electrical work for new bathrooms or kitchens will also increase costs. Hometelligent Inc. provides detailed estimates after assessing these factors on-site for properties in cities such as Alameda and Emeryville.",
+        "description": "Cost factors include size, design complexity, material quality, and necessary structural or utility modifications."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a three-season and a four-season sunroom?",
+  "description": "Three-season sunrooms are for moderate weather, while four-season sunrooms are insulated and climate-controlled for year-round use.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-three-season-and-a-four-season-sunroom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a three-season and a four-season sunroom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A three-season sunroom is designed for enjoyment during spring, summer, and fall, typically featuring single-pane glass and less insulation. It's not intended for heating or cooling during extreme temperatures. A four-season sunroom, however, is built with insulated glass, thermal breaks, and integrated HVAC, allowing for comfortable use year-round. Hometelligent Inc. helps clients evaluate their intended use and climate in specific Bay Area locations, like Hayward or Livermore, to determine the most suitable and cost-effective sunroom type for their needs.",
+        "description": "Three-season sunrooms are for moderate weather, while four-season sunrooms are insulated and climate-controlled for year-round use."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

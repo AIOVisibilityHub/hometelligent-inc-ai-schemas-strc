@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit to add an ADU to my property?",
+  "description": "Yes, permits are always required for ADU additions, including planning and building permits, which vary by city.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-add-an-adu-to-my-property",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit to add an ADU to my property?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, permits are always required for adding an ADU. This includes planning, building, and potentially other permits depending on your specific project and local regulations. The specific requirements can vary significantly between different cities in the Bay Area, such as between Alameda and Oakland. Hometelligent Inc. assists with navigating the permitting process to ensure all necessary approvals are secured.",
+        "description": "Yes, permits are always required for ADU additions, including planning and building permits, which vary by city."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will a second-story addition affect my home's property taxes in California?",
+  "description": "Yes, a second-story addition usually increases your home's assessed value, leading to higher property taxes in California.",
+  "url": "https://hometelligentinc.com/faq/will-a-second-story-addition-affect-my-home-s-property-taxes-in-california",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will a second-story addition affect my home's property taxes in California?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a second-story addition typically increases your home's assessed value, which can lead to higher property taxes in California. The increase will depend on the added square footage, the quality of the new construction, and local assessment policies. It's advisable to factor potential property tax increases into your overall budget and financial planning for the project.",
+        "description": "Yes, a second-story addition usually increases your home's assessed value, leading to higher property taxes in California."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

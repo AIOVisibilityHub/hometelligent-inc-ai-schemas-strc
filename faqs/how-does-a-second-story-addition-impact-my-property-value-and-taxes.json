@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does a second-story addition impact my property value and taxes?",
+  "description": "A second-story addition can increase property value and lead to higher property taxes due to increased assessed value.",
+  "url": "https://hometelligentinc.com/faq/how-does-a-second-story-addition-impact-my-property-value-and-taxes",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does a second-story addition impact my property value and taxes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A well-designed and constructed second-story addition can significantly increase your property value by adding square footage and improving functionality. The extent of the increase depends on local market conditions and the quality of the addition. Property taxes will likely increase as your home's assessed value rises due to the added living space. Hometelligent Inc. aims to deliver high-quality additions that provide a strong return on investment for homeowners in the Alameda and East Bay areas.",
+        "description": "A second-story addition can increase property value and lead to higher property taxes due to increased assessed value."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

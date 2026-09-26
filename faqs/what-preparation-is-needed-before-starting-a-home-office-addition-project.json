@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation is needed before starting a home office addition project?",
+  "description": "Preparation includes finalizing designs, securing permits, and clearing the construction site. Define functional needs like electrical and soundproofing early.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-starting-a-home-office-addition-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation is needed before starting a home office addition project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before construction begins, you'll need to finalize your design plans, secure all necessary permits, and clear the construction area on your property. This may involve relocating landscaping or temporary structures. Having a clear idea of your functional requirements, such as specific electrical outlets for equipment or soundproofing needs, will ensure the design meets your long-term use. We provide a checklist of preparatory items during our planning phase.",
+        "description": "Preparation includes finalizing designs, securing permits, and clearing the construction site. Define functional needs like electrical and soundproofing early."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

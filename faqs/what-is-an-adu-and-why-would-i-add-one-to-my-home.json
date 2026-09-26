@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is an ADU and why would I add one to my home?",
+  "description": "An ADU is a secondary housing unit on a single-family lot, useful for family, rental income, or home office space.",
+  "url": "https://hometelligentinc.com/faq/what-is-an-adu-and-why-would-i-add-one-to-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an ADU and why would I add one to my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot. Adding an ADU can provide flexible living space for family, rental income potential, or a dedicated home office. Hometelligent Inc. specializes in designing and building ADUs that integrate seamlessly with your existing property in the Alameda and East Bay areas, ensuring compliance with local zoning regulations.",
+        "description": "An ADU is a secondary housing unit on a single-family lot, useful for family, rental income, or home office space."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for my bonus room addition?",
+  "description": "Choose a contractor based on experience, portfolio, references, licensing, insurance, and their ability to communicate clearly and manage local building codes.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-bonus-room-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for my bonus room addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right contractor involves evaluating their experience with similar projects, reviewing their portfolio, and checking references. It's crucial to select a company that is licensed and insured in California, like Hometelligent Inc. Look for a contractor who offers transparent communication, provides detailed proposals, and understands local building codes specific to your area, such as Piedmont or Hayward, to ensure a smooth project.",
+        "description": "Choose a contractor based on experience, portfolio, references, licensing, insurance, and their ability to communicate clearly and manage local building codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

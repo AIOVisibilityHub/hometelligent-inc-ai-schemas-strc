@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What permits are required for a bathroom addition?",
+  "description": "Building, plumbing, and electrical permits are generally required for bathroom additions to meet local building codes and safety standards.",
+  "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-bathroom-addition",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What permits are required for a bathroom addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bathroom additions typically require building permits, plumbing permits, and electrical permits to ensure compliance with local building codes and safety standards. In our service areas like Oakland or Fremont, the specific requirements can vary slightly, so understanding these local regulations is a crucial preparation step. We help navigate the permit application process to ensure all necessary approvals are secured before construction begins.",
+        "description": "Building, plumbing, and electrical permits are generally required for bathroom additions to meet local building codes and safety standards."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
