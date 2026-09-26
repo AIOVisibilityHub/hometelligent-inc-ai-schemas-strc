@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a building permit and when do I need one?",
+  "description": "A building permit is a local government authorization required for most construction projects, ensuring compliance with building codes and safety standards.",
+  "url": "https://hometelligentinc.com/faq/what-is-a-building-permit-and-when-do-i-need-one",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a building permit and when do I need one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A building permit is a formal authorization from your local government that allows you to start a construction project. You typically need one for new construction, additions, significant remodels, structural changes, or certain electrical, plumbing, or mechanical work. For example, in Alameda, even minor structural alterations often require a permit. Getting a permit ensures your project complies with local building codes, safety standards, and zoning regulations, protecting both property owners and the community.",
+        "description": "A building permit is a local government authorization required for most construction projects, ensuring compliance with building codes and safety standards."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

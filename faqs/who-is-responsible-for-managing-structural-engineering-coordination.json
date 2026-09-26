@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Who is responsible for managing structural engineering coordination?",
+  "description": "The project architect or manager usually leads overall coordination, ensuring all parties communicate and designs integrate seamlessly.",
+  "url": "https://hometelligentinc.com/faq/who-is-responsible-for-managing-structural-engineering-coordination",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who is responsible for managing structural engineering coordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While the structural engineer is responsible for their specific design, managing the overall coordination across all disciplines typically falls to the project architect or a dedicated project manager. This central role ensures all parties communicate effectively and that structural plans integrate seamlessly with architectural, mechanical, electrical, and plumbing designs. Effective coordination relies on clear communication channels established from the project's outset, ensuring process clarity.",
+        "description": "The project architect or manager usually leads overall coordination, ensuring all parties communicate and designs integrate seamlessly."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

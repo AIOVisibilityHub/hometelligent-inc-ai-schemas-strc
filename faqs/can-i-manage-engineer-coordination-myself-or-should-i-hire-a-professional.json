@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I manage engineer coordination myself, or should I hire a professional?",
+  "description": "For complex projects, hiring a professional construction company for engineer coordination is recommended due to their experience, tools, and relationships.",
+  "url": "https://hometelligentinc.com/faq/can-i-manage-engineer-coordination-myself-or-should-i-hire-a-professional",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I manage engineer coordination myself, or should I hire a professional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While it's possible for owners to attempt coordination, hiring a professional construction company like Hometelligent Inc. is highly recommended for complex projects. Professionals have the experience, tools, and established relationships with various engineering disciplines to navigate potential conflicts efficiently. The time, expertise, and potential cost savings offered by professional coordination typically outweigh the perceived benefits of self-management, which can lead to costly errors. Consider your project's complexity and your own capacity.",
+        "description": "For complex projects, hiring a professional construction company for engineer coordination is recommended due to their experience, tools, and relationships."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

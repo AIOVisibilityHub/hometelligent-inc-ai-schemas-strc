@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation is needed before water-efficient fixture installation?",
+  "description": "Before installation, clear the work area, confirm fixture selections, and disclose any existing plumbing issues to ensure a smooth process.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-water-efficient-fixture-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation is needed before water-efficient fixture installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before installation, clients should clear the work area around the existing fixtures, ensuring our team has ample space to operate. It's also helpful to have made final selections for the new fixtures and to inform us of any specific preferences or concerns. For instance, if you have any existing plumbing issues in your Alameda or San Lorenzo home, disclosing these beforehand allows us to plan accordingly and prevent delays during the installation.",
+        "description": "Before installation, clear the work area, confirm fixture selections, and disclose any existing plumbing issues to ensure a smooth process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

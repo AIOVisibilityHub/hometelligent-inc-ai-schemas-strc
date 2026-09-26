@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do natural lighting upgrades require permits?",
+  "description": "Yes, most natural lighting upgrades require building permits to ensure compliance with local codes. We assist with the permitting process.",
+  "url": "https://hometelligentinc.com/faq/do-natural-lighting-upgrades-require-permits",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do natural lighting upgrades require permits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, most significant natural lighting upgrades, such as installing new skylights or enlarging window openings, typically require building permits from your local city or county planning department. This ensures that the work complies with local building codes, structural requirements, and energy efficiency standards. Hometelligent Inc. assists with navigating the permitting process, preparing necessary documentation, and ensuring all installations meet the regulations specific to your area, whether you're in Oakland, Fremont, or other service locations.",
+        "description": "Yes, most natural lighting upgrades require building permits to ensure compliance with local codes. We assist with the permitting process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

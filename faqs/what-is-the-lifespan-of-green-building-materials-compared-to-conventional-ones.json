@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the lifespan of green building materials compared to conventional ones?",
+  "description": "Green building materials are often durable and long-lasting, frequently outperforming conventional options and offering better long-term value.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-lifespan-of-green-building-materials-compared-to-conventional-ones",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the lifespan of green building materials compared to conventional ones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many green building materials are designed for durability and longevity, often exceeding the lifespan of conventional alternatives due to their inherent quality and resistance to decay or pests. For example, reclaimed wood can be more robust than new lumber. A practical tradeoff to consider is the initial investment for these materials versus their extended service life and reduced need for replacement, offering better value over time.",
+        "description": "Green building materials are often durable and long-lasting, frequently outperforming conventional options and offering better long-term value."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

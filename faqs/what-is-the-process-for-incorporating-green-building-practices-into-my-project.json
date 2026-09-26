@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for incorporating green building practices into my project?",
+  "description": "The process starts in design with site analysis and material selection. A consultation will map out integration and its impact on your project.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-incorporating-green-building-practices-into-my-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for incorporating green building practices into my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process begins during the design phase, integrating sustainable principles from the outset. This includes site analysis for optimal sun exposure and natural ventilation, material selection, and planning for energy and water systems. Hometelligent Inc. offers a consultation to discuss your specific goals and provides a roadmap for integrating green practices, detailing how each decision impacts the project timeline and budget.",
+        "description": "The process starts in design with site analysis and material selection. A consultation will map out integration and its impact on your project."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

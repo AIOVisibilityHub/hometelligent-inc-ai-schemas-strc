@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does the type of room being added affect the overall cost?",
+  "description": "The room type impacts cost; bathrooms and kitchens are pricier due to plumbing/electrical, while simpler rooms like bedrooms are generally less expensive.",
+  "url": "https://hometelligentinc.com/faq/how-does-the-type-of-room-being-added-affect-the-overall-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does the type of room being added affect the overall cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The type of room being added significantly affects the overall cost. Additions like bathrooms and kitchens are typically more expensive due to the need for extensive plumbing, electrical work, and specialized fixtures and finishes. Conversely, a simple bedroom or living space addition, especially if it's a straightforward box extension, may be less costly per square foot. This is a practical tradeoff where functionality and utility requirements directly drive the budget.",
+        "description": "The room type impacts cost; bathrooms and kitchens are pricier due to plumbing/electrical, while simpler rooms like bedrooms are generally less expensive."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

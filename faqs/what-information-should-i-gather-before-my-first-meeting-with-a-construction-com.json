@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What information should I gather before my first meeting with a construction company?",
+  "description": "Gather property surveys, existing drawings, project goals, budget ideas, and inspiration photos before meeting a contractor. This helps them understand your vis",
+  "url": "https://hometelligentinc.com/faq/what-information-should-i-gather-before-my-first-meeting-with-a-construction-com",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What information should I gather before my first meeting with a construction company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before your initial meeting with a construction company, it's beneficial to gather any existing property surveys, architectural drawings (if available), and a clear idea of your project goals and desired budget range. Photos or inspiration images of styles you like can also be very helpful. This preparation allows Hometelligent Inc. to better understand your vision and provide more accurate initial feedback and potential cost estimates.",
+        "description": "Gather property surveys, existing drawings, project goals, budget ideas, and inspiration photos before meeting a contractor. This helps them understand your vision."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the best location for a new skylight?",
+  "description": "The best skylight location depends on room function, desired light, and sun path; north offers diffused light, south direct light. We help assess placement.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-best-location-for-a-new-skylight",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the best location for a new skylight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the best location for a new skylight involves considering the room's function, desired light intensity, and the sun's path throughout the day. North-facing skylights provide consistent, diffused light, while south-facing ones offer intense, direct light, often requiring blinds for control. East-facing skylights deliver morning light, and west-facing ones provide afternoon light. We assess your home's orientation and roof structure to recommend optimal placement that balances natural light with thermal comfort and aesthetic goals.",
+        "description": "The best skylight location depends on room function, desired light, and sun path; north offers diffused light, south direct light. We help assess placement."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

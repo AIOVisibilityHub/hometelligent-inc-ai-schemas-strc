@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can structural engineering coordination help reduce project costs?",
+  "description": "Yes, it reduces costs by resolving design conflicts before construction, avoiding expensive on-site changes and rework.",
+  "url": "https://hometelligentinc.com/faq/can-structural-engineering-coordination-help-reduce-project-costs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can structural engineering coordination help reduce project costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, effective structural engineering coordination can significantly reduce project costs by identifying and resolving design conflicts before construction. Addressing issues during the design phase is far less expensive than making changes on-site, which can incur labor, material, and schedule delay costs. This proactive approach prevents costly rework and change orders, offering a practical tradeoff that prioritizes upfront planning for overall project savings.",
+        "description": "Yes, it reduces costs by resolving design conflicts before construction, avoiding expensive on-site changes and rework."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

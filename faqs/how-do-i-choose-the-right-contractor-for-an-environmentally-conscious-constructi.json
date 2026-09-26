@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right contractor for an environmentally conscious construction project?",
+  "description": "Choose a contractor with experience in sustainable materials and certifications. Ask for their green project portfolio and team expertise.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-an-environmentally-conscious-constructi",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right contractor for an environmentally conscious construction project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When selecting a contractor for green building, look for experience with sustainable materials, energy-efficient systems, and relevant certifications. A key preparation step is to ask about their portfolio of similar projects and their team's expertise in green building standards. Hometelligent Inc. emphasizes our training and experience in eco-friendly methods, ensuring a knowledgeable approach to your project whether it's in Emeryville or Union City.",
+        "description": "Choose a contractor with experience in sustainable materials and certifications. Ask for their green project portfolio and team expertise."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

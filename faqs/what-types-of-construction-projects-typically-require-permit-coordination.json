@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of construction projects typically require permit coordination?",
+  "description": "Most construction projects, including additions, renovations, and new builds, require permit coordination. Projects affecting footprint, structure, or utilities",
+  "url": "https://hometelligentinc.com/faq/what-types-of-construction-projects-typically-require-permit-coordination",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of construction projects typically require permit coordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most construction projects, from minor renovations to major new builds, require some form of permit coordination. This includes additions, structural alterations, significant electrical or plumbing work, new construction, and even some landscaping projects depending on their scope. Projects involving changes to the building's footprint, structural integrity, or utility systems almost always need permits. Unpermitted work can lead to serious issues, including difficulty selling the property or forced remediation.",
+        "description": "Most construction projects, including additions, renovations, and new builds, require permit coordination. Projects affecting footprint, structure, or utilities always need permits."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

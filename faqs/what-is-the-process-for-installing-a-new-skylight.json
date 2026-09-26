@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for installing a new skylight?",
+  "description": "Skylight installation involves consultation, roof framing, unit installation with flashing, and interior finishing. Roof complexity affects the process.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-a-new-skylight",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for installing a new skylight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation process typically begins with a consultation to assess your roof, desired location, and skylight type. Next, the roof opening is framed, and the skylight unit is carefully installed and flashed to ensure a watertight seal. This is followed by interior finishing work, such as drywall and painting, to integrate the skylight seamlessly into your ceiling. The complexity of the roof structure and whether you need electrical wiring for venting models can influence the overall timeline.",
+        "description": "Skylight installation involves consultation, roof framing, unit installation with flashing, and interior finishing. Roof complexity affects the process."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

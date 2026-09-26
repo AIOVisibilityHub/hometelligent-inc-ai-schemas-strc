@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does architect coordination impact project costs?",
+  "description": "Good architect coordination lowers project costs by preventing rework, change orders, and delays through early issue resolution.",
+  "url": "https://hometelligentinc.com/faq/how-does-architect-coordination-impact-project-costs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does architect coordination impact project costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Effective architect coordination can significantly reduce overall project costs by minimizing expensive rework, change orders, and schedule delays. By ensuring that all parties are aligned on design intent and specifications, it prevents errors that could lead to material waste or extended labor hours. For example, our experience shows that proper coordination often highlights potential structural or material conflicts early, saving clients from costly modifications during the build phase.",
+        "description": "Good architect coordination lowers project costs by preventing rework, change orders, and delays through early issue resolution."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

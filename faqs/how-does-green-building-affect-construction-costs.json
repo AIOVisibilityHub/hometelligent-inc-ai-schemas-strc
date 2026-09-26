@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does green building affect construction costs?",
+  "description": "Green building can have higher initial costs, but these are often offset by long-term savings in energy and water, and potential incentives.",
+  "url": "https://hometelligentinc.com/faq/how-does-green-building-affect-construction-costs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does green building affect construction costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Initially, green building can have a slightly higher upfront cost due to specialized materials or technologies. However, these costs are often offset by long-term savings in energy and water bills, reduced maintenance, and potential tax incentives. When considering a project with Hometelligent Inc., we can provide a detailed cost analysis to highlight both initial investments and projected operational savings for properties in areas like Oakland or Dublin.",
+        "description": "Green building can have higher initial costs, but these are often offset by long-term savings in energy and water, and potential incentives."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

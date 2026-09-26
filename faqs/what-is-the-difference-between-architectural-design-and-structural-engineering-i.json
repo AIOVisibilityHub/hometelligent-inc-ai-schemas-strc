@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between architectural design and structural engineering in residential planning?",
+  "description": "Architectural design handles aesthetics and function, while structural engineering ensures safety and stability. Integrated planning of both is a key decision f",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-architectural-design-and-structural-engineering-i",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between architectural design and structural engineering in residential planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Architectural design focuses on the aesthetic, functional, and spatial aspects of a home, creating floor plans, elevations, and material selections. Structural engineering, conversely, ensures the building's stability and safety, calculating loads and designing foundational elements and framing. While distinct, these two disciplines often work together during the design phase. A key decision factor is how early you involve both professionals, as integrated planning can streamline the process and prevent costly revisions.",
+        "description": "Architectural design handles aesthetics and function, while structural engineering ensures safety and stability. Integrated planning of both is a key decision factor."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

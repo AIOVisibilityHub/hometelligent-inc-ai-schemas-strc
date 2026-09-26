@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What information does a structural engineer need for effective coordination?",
+  "description": "A structural engineer needs complete architectural and MEP drawings, plus client requirements, to effectively coordinate and identify conflicts.",
+  "url": "https://hometelligentinc.com/faq/what-information-does-a-structural-engineer-need-for-effective-coordination",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What information does a structural engineer need for effective coordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For effective coordination, a structural engineer needs comprehensive architectural drawings, mechanical, electrical, and plumbing (MEP) layouts, and any specific client requirements. This includes floor plans, elevations, sections, and details of proposed building systems. Providing these details early in the design phase allows the engineer to anticipate and address potential conflicts, serving as a crucial preparation step to avoid future issues.",
+        "description": "A structural engineer needs complete architectural and MEP drawings, plus client requirements, to effectively coordinate and identify conflicts."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

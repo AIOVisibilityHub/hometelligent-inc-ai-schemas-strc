@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I get an estimate for my construction project in Alameda?",
+  "description": "Yes, Hometelligent Inc. provides detailed construction estimates for Alameda. We need project scope and site details during an initial consultation to provide a",
+  "url": "https://hometelligentinc.com/faq/can-i-get-an-estimate-for-my-construction-project-in-alameda",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I get an estimate for my construction project in Alameda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. provides detailed estimates for construction projects in Alameda and our other service areas. To generate an accurate estimate, we typically need information about your project's scope, desired features, and site-specific conditions. An initial consultation allows us to gather these details and discuss your vision. We then provide a transparent breakdown of anticipated costs, helping you understand your investment.",
+        "description": "Yes, Hometelligent Inc. provides detailed construction estimates for Alameda. We need project scope and site details during an initial consultation to provide a transparent cost breakdown."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

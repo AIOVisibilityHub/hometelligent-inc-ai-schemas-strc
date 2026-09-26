@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do you ensure quality control throughout the construction project?",
+  "description": "We ensure quality control through regular site inspections, strict material standards, building code compliance, and ongoing checks by project managers.",
+  "url": "https://hometelligentinc.com/faq/how-do-you-ensure-quality-control-throughout-the-construction-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you ensure quality control throughout the construction project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality control is integrated at every stage of our projects through regular site inspections, adherence to strict material standards, and compliance with building codes. Our project managers conduct ongoing checks to ensure workmanship meets Hometelligent Inc.'s standards and client expectations. This proactive approach helps identify and correct issues early.",
+        "description": "We ensure quality control through regular site inspections, strict material standards, building code compliance, and ongoing checks by project managers."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

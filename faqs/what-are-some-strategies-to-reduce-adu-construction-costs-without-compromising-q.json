@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are some strategies to reduce ADU construction costs without compromising quality?",
+  "description": "Reduce ADU costs by optimizing design, considering garage conversions, selecting efficient materials, and making strategic tradeoffs between custom and standard",
+  "url": "https://hometelligentinc.com/faq/what-are-some-strategies-to-reduce-adu-construction-costs-without-compromising-q",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are some strategies to reduce ADU construction costs without compromising quality?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To reduce ADU costs, consider optimizing the design for efficiency, such as a simpler footprint or using standard material sizes to minimize waste. Opting for a garage conversion can significantly lower costs compared to new construction due to existing foundations and utility access. Additionally, careful material selection, such as mid-range finishes instead of high-end custom options, can provide savings. Prioritizing essential features and understanding where you can make tradeoffs between custom elements and standard solutions is key to staying within budget.",
+        "description": "Reduce ADU costs by optimizing design, considering garage conversions, selecting efficient materials, and making strategic tradeoffs between custom and standard features."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

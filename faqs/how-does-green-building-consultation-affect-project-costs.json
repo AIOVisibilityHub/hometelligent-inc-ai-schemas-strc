@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does green building consultation affect project costs?",
+  "description": "Green building consultation aims for long-term cost savings through reduced energy/water use and maintenance, despite potential higher initial investments. It f",
+  "url": "https://hometelligentinc.com/faq/how-does-green-building-consultation-affect-project-costs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does green building consultation affect project costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While initial investments in green building features can sometimes be higher, green building consultation aims to identify strategies that lead to long-term cost savings. These savings typically come from reduced energy and water bills, lower maintenance, and potential incentives or tax credits. A consultant can help analyze the lifecycle costs and benefits, ensuring that sustainable choices provide a positive return on investment. Our role is to find a balance between upfront costs and operational savings for your Hometelligent Inc. project.",
+        "description": "Green building consultation aims for long-term cost savings through reduced energy/water use and maintenance, despite potential higher initial investments. It focuses on positive ROI."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

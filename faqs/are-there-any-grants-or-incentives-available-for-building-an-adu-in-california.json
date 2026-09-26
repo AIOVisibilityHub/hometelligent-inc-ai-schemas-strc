@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Are there any grants or incentives available for building an ADU in California?",
+  "description": "California occasionally offers grants, like the CalHFA ADU Grant Program, to help with pre-development and closing costs, but eligibility varies and funding is",
+  "url": "https://hometelligentinc.com/faq/are-there-any-grants-or-incentives-available-for-building-an-adu-in-california",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are there any grants or incentives available for building an ADU in California?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "California has offered statewide programs, such as the CalHFA ADU Grant Program, which provides up to $40,000 to eligible homeowners for pre-development and non-recurring closing costs associated with ADU construction. Eligibility often depends on income limits and other program criteria. While such programs can significantly offset initial costs, they are subject to funding availability and specific application periods. We recommend checking current state and local government housing authority websites for the latest grant opportunities and eligibility requirements.",
+        "description": "California occasionally offers grants, like the CalHFA ADU Grant Program, to help with pre-development and closing costs, but eligibility varies and funding is limited."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

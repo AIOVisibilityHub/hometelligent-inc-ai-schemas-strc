@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What information do I need to provide for effective engineer coordination?",
+  "description": "Provide clear project goals, site surveys, existing plans, functional/aesthetic requirements, budget, and timeline for effective engineer coordination.",
+  "url": "https://hometelligentinc.com/faq/what-information-do-i-need-to-provide-for-effective-engineer-coordination",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What information do I need to provide for effective engineer coordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For effective engineer coordination, you should provide clear project goals, detailed site surveys, existing building plans (if applicable), and any specific functional or aesthetic requirements. Sharing your budget and desired timeline is also crucial. The more comprehensive the initial information you provide, the better engineers can align their designs and avoid discrepancies. We use this foundational information to kickstart a smooth coordination process.",
+        "description": "Provide clear project goals, site surveys, existing plans, functional/aesthetic requirements, budget, and timeline for effective engineer coordination."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

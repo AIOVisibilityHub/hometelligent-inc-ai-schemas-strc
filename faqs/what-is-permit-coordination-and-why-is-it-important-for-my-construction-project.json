@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is permit coordination and why is it important for my construction project?",
+  "description": "Permit coordination manages all necessary permits and approvals from local authorities, preventing delays and legal issues for construction projects.",
+  "url": "https://hometelligentinc.com/faq/what-is-permit-coordination-and-why-is-it-important-for-my-construction-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is permit coordination and why is it important for my construction project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit coordination involves managing all necessary permits and approvals from local authorities before and during a construction project. This includes applications, inspections, and final sign-offs. It's crucial because without proper permits, projects can face delays, fines, or even demolition, ensuring your project progresses smoothly and legally. Hometelligent Inc. handles this entire process to prevent common delays associated with navigating different city departments and their specific requirements.",
+        "description": "Permit coordination manages all necessary permits and approvals from local authorities, preventing delays and legal issues for construction projects."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

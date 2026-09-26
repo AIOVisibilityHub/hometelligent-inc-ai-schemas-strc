@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can natural lighting upgrades help with seasonal affective disorder (SAD)?",
+  "description": "Increasing natural light in your home through upgrades can improve mood and well-being, potentially benefiting those with SAD. Consult a medical professional fo",
+  "url": "https://hometelligentinc.com/faq/can-natural-lighting-upgrades-help-with-seasonal-affective-disorder-sad",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can natural lighting upgrades help with seasonal affective disorder (SAD)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While we are a construction company and cannot offer medical advice, increasing natural light in your home is generally understood to improve mood and well-being, which may be beneficial for individuals experiencing seasonal affective disorder (SAD). Maximizing exposure to daylight through upgrades like strategically placed skylights or larger windows can help regulate your circadian rhythm. Consulting with a medical professional for SAD is recommended, but enhancing natural light is a common complementary approach to create a more uplifting indoor environment.",
+        "description": "Increasing natural light in your home through upgrades can improve mood and well-being, potentially benefiting those with SAD. Consult a medical professional for SAD advice."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

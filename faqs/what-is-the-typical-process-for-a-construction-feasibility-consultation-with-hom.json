@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical process for a construction feasibility consultation with Hometelligent Inc.?",
+  "description": "Our process involves initial discussion, site analysis, zoning research, a preliminary report outlining findings, and a final review meeting to discuss recommen",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-a-construction-feasibility-consultation-with-hom",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical process for a construction feasibility consultation with Hometelligent Inc.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our process begins with an initial discussion to understand your project goals and collect basic property information. Next, we conduct site analysis and research local zoning ordinances and building codes specific to your location, such as San Leandro or Union City. We then develop a preliminary report outlining findings, potential challenges, budget considerations, and a recommended path forward, followed by a review meeting to discuss the results and answer your questions.",
+        "description": "Our process involves initial discussion, site analysis, zoning research, a preliminary report outlining findings, and a final review meeting to discuss recommendations."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

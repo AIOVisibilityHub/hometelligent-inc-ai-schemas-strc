@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What information do I need to provide for effective architect coordination?",
+  "description": "Provide complete architectural plans, specifications, project goals, budget, timeline, and any existing site reports for effective architect coordination.",
+  "url": "https://hometelligentinc.com/faq/what-information-do-i-need-to-provide-for-effective-architect-coordination",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What information do I need to provide for effective architect coordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For effective architect coordination, you should provide complete architectural drawings, specifications, and any relevant structural or engineering plans. Additionally, clarify your project goals, budget constraints, and desired timeline upfront. Gathering all existing site surveys, soil reports, and previous renovation records, especially for properties in areas prone to specific geological conditions, can significantly streamline the coordination process and avoid delays.",
+        "description": "Provide complete architectural plans, specifications, project goals, budget, timeline, and any existing site reports for effective architect coordination."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

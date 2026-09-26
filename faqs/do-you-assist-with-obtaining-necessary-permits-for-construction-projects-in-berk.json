@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do you assist with obtaining necessary permits for construction projects in Berkeley?",
+  "description": "We assist with obtaining necessary construction permits in Berkeley and other service areas, identifying requirements, preparing applications, and coordinating",
+  "url": "https://hometelligentinc.com/faq/do-you-assist-with-obtaining-necessary-permits-for-construction-projects-in-berk",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you assist with obtaining necessary permits for construction projects in Berkeley?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we assist clients with navigating the permitting process for construction projects in Berkeley and other service areas. This includes identifying required permits, preparing applications, and coordinating with local authorities. Understanding the specific regulations and zoning requirements of cities like Berkeley is key to a smooth approval process, as these can vary significantly by municipality.",
+        "description": "We assist with obtaining necessary construction permits in Berkeley and other service areas, identifying requirements, preparing applications, and coordinating with local authorities."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

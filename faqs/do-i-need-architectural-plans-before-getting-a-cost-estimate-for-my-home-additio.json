@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need architectural plans before getting a cost estimate for my home addition?",
+  "description": "Detailed architectural plans are not always needed for a rough estimate, but they greatly increase accuracy for a firm cost estimate.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-architectural-plans-before-getting-a-cost-estimate-for-my-home-additio",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need architectural plans before getting a cost estimate for my home addition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While not strictly necessary for an initial rough cost estimate, having detailed architectural plans significantly improves the accuracy of a home addition cost estimate. Plans provide contractors with clear specifications, dimensions, and material requirements. Without plans, estimates will be more generalized. To prepare for an accurate estimate, consider having preliminary sketches or a clear understanding of your desired layout and features.",
+        "description": "Detailed architectural plans are not always needed for a rough estimate, but they greatly increase accuracy for a firm cost estimate."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

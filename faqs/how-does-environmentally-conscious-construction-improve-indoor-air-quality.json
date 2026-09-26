@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does environmentally conscious construction improve indoor air quality?",
+  "description": "Green construction improves indoor air quality by using low-VOC materials and ensuring proper ventilation, reducing harmful chemicals and allergens.",
+  "url": "https://hometelligentinc.com/faq/how-does-environmentally-conscious-construction-improve-indoor-air-quality",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does environmentally conscious construction improve indoor air quality?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Green building improves indoor air quality by using materials with low volatile organic compounds (VOCs) and ensuring proper ventilation systems. This reduces the presence of harmful chemicals, allergens, and pollutants. For example, selecting low-VOC paints and sealants significantly minimizes off-gassing. Hometelligent Inc. prioritizes these material choices and ventilation strategies to create healthier living and working environments for our clients.",
+        "description": "Green construction improves indoor air quality by using low-VOC materials and ensuring proper ventilation, reducing harmful chemicals and allergens."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

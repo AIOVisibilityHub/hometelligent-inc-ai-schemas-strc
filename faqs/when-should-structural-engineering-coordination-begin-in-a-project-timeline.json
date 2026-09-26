@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should structural engineering coordination begin in a project timeline?",
+  "description": "Coordination should begin early in the design phase, right after initial architectural plans are ready, to proactively resolve conflicts.",
+  "url": "https://hometelligentinc.com/faq/when-should-structural-engineering-coordination-begin-in-a-project-timeline",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should structural engineering coordination begin in a project timeline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Structural engineering coordination should ideally begin early in the design phase, immediately after the initial architectural plans are developed. Engaging a structural engineer at this stage allows for proactive identification and resolution of potential conflicts with other disciplines, before designs are finalized. This preparation ensures a more efficient workflow and reduces the likelihood of significant changes later in the project, saving time and resources.",
+        "description": "Coordination should begin early in the design phase, right after initial architectural plans are ready, to proactively resolve conflicts."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

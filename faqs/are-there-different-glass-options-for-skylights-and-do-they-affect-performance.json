@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Are there different glass options for skylights, and do they affect performance?",
+  "description": "Skylight glass options include clear, insulated, and Low-E for thermal performance and UV reduction, plus tempered/laminated for impact resistance. Glass type a",
+  "url": "https://hometelligentinc.com/faq/are-there-different-glass-options-for-skylights-and-do-they-affect-performance",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are there different glass options for skylights, and do they affect performance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, skylights offer various glass options that significantly impact performance. Common choices include standard clear glass, insulated glass units (IGUs) for better thermal performance, and low-emissivity (Low-E) coatings that reduce UV light and heat gain without sacrificing visible light. For areas prone to hailstorms or where safety is a concern, tempered or laminated glass provides greater impact resistance. Your choice of glass affects energy efficiency, UV protection, noise reduction, and overall comfort within the space.",
+        "description": "Skylight glass options include clear, insulated, and Low-E for thermal performance and UV reduction, plus tempered/laminated for impact resistance. Glass type affects energy efficiency and comfort."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

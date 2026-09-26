@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does it cost to install water-efficient fixtures?",
+  "description": "Installation costs vary by fixture type, number of units, and complexity; consider long-term savings and potential local rebates.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-install-water-efficient-fixtures",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to install water-efficient fixtures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of installing water-efficient fixtures varies based on the type of fixture, the number of units, and the complexity of the installation. For example, replacing a single toilet might be straightforward, while a full home upgrade involving multiple fixtures and potential plumbing adjustments would be more extensive. Customers should consider the long-term savings on water bills, as well as potential rebates available from local water agencies in areas like Alameda and Berkeley, which can offset the initial investment.",
+        "description": "Installation costs vary by fixture type, number of units, and complexity; consider long-term savings and potential local rebates."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

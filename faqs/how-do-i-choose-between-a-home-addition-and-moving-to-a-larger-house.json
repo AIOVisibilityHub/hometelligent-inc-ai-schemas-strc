@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose between a home addition and moving to a larger house?",
+  "description": "Choose between an addition and moving by considering financial, logistical, and personal factors. Weigh renovation ROI against local real estate market conditio",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-between-a-home-addition-and-moving-to-a-larger-house",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose between a home addition and moving to a larger house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The decision between a home addition and moving involves weighing financial, logistical, and personal factors. An addition can preserve your current location and community ties, while moving might offer a fresh start but involves significant transaction costs and disruption. A practical tradeoff is considering the return on investment of an addition versus the real estate market in your specific area, such as Pleasanton or Livermore, where property values and renovation costs can both be substantial.",
+        "description": "Choose between an addition and moving by considering financial, logistical, and personal factors. Weigh renovation ROI against local real estate market conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

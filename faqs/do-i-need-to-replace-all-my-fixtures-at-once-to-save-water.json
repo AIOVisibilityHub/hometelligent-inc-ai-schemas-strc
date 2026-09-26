@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to replace all my fixtures at once to save water?",
+  "description": "No, you can replace fixtures gradually. Prioritizing older, high-usage fixtures often yields the most immediate water savings.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-replace-all-my-fixtures-at-once-to-save-water",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to replace all my fixtures at once to save water?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, you do not need to replace all your fixtures at once. Many homeowners choose to prioritize upgrades based on the age of their existing fixtures, their usage, or their budget. For instance, replacing an old toilet or a high-flow showerhead first often yields the most significant immediate water savings. We can help clients in Union City and Newark identify the most impactful upgrades for their specific needs and budget, allowing for phased improvements.",
+        "description": "No, you can replace fixtures gradually. Prioritizing older, high-usage fixtures often yields the most immediate water savings."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

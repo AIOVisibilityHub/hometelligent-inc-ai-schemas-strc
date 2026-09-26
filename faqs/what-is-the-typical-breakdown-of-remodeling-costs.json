@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical breakdown of remodeling costs?",
+  "description": "Remodeling costs typically break down into materials (30-50%), labor (30-40%), permits, and design fees (10-15%). Mandatory permits in areas like Oakland affect",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-breakdown-of-remodeling-costs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical breakdown of remodeling costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical remodeling costs are generally broken down into materials, labor, permits, and design fees. Materials usually account for 30-50% of the budget, while labor can be 30-40%. Permits and inspections, which are mandatory in areas like Oakland and Fremont, vary by project size and city regulations. Design fees might range from 10-15%, especially for complex projects requiring architectural plans. A detailed quote from Hometelligent Inc. will itemize these components, providing transparency and helping you understand where your investment is allocated.",
+        "description": "Remodeling costs typically break down into materials (30-50%), labor (30-40%), permits, and design fees (10-15%). Mandatory permits in areas like Oakland affect the total. Itemized quotes provide transparency."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I know if my project qualifies for an expedited permit process?",
+  "description": "Expedited permit processes are available for some minor projects, but eligibility depends on the specific city's criteria, project simplicity, and documentation",
+  "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-project-qualifies-for-an-expedited-permit-process",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if my project qualifies for an expedited permit process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some jurisdictions offer expedited permit processes for certain minor projects, like small interior alterations or specific repairs, but eligibility varies by city. For example, in Albany, projects meeting predefined criteria for simplicity and scope might qualify. Generally, projects that are straightforward, involve minimal structural changes, and have a clear scope with complete documentation are more likely to be considered for an expedited review. Always check with the specific city's building department for their exact criteria, as these programs are not universally available.",
+        "description": "Expedited permit processes are available for some minor projects, but eligibility depends on the specific city's criteria, project simplicity, and documentation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

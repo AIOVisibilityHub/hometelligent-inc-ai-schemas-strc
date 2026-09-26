@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the expected lifespan of air sealing improvements?",
+  "description": "Well-done air sealing can last 10-20+ years, depending on materials, installation quality, and structural stability of sealed areas.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-expected-lifespan-of-air-sealing-improvements",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the expected lifespan of air sealing improvements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Properly executed air sealing, using quality materials, can last for many years, often 10-20 years or more. Materials like durable caulks and expanding foams are designed for longevity. The decision factor for lifespan often depends on the specific materials used, the quality of installation, and whether the sealed areas are subject to structural movement or extreme conditions over time, which could compromise the seal.",
+        "description": "Well-done air sealing can last 10-20+ years, depending on materials, installation quality, and structural stability of sealed areas."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

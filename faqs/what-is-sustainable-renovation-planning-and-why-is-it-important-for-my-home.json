@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is sustainable renovation planning and why is it important for my home?",
+  "description": "Sustainable renovation planning minimizes environmental impact, conserves resources, and improves indoor air quality. It's important for long-term cost savings",
+  "url": "https://hometelligentinc.com/faq/what-is-sustainable-renovation-planning-and-why-is-it-important-for-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is sustainable renovation planning and why is it important for my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sustainable renovation planning focuses on minimizing environmental impact, conserving resources, and improving indoor air quality during a home renovation. It involves selecting eco-friendly materials, optimizing energy efficiency, and reducing waste. For homeowners in the Bay Area, this approach can lead to long-term cost savings on utilities and contribute to a healthier living environment. Hometelligent Inc. prioritizes these elements, helping clients understand how material choices and design can impact both their home's performance and the local ecosystem.",
+        "description": "Sustainable renovation planning minimizes environmental impact, conserves resources, and improves indoor air quality. It's important for long-term cost savings and a healthier home."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost for plan review coordination services?",
+  "description": "Costs vary by project size and complexity, covering submission, agency communication, and revision management, and are a tradeoff against potential delays.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-plan-review-coordination-services",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost for plan review coordination services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost for plan review coordination services varies depending on the project's size, complexity, and the extent of services required. Some providers charge hourly, while others offer fixed-fee packages based on project scope. This typically covers preparing and submitting documents, communicating with agencies, and managing revision cycles. It's a practical tradeoff to consider this cost against potential delays or fines if coordination is mishandled, as a smooth process can save money in the long run.",
+        "description": "Costs vary by project size and complexity, covering submission, agency communication, and revision management, and are a tradeoff against potential delays."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

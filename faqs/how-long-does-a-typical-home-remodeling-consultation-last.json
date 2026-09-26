@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical home remodeling consultation last?",
+  "description": "A typical consultation lasts 1-2 hours, allowing for detailed project discussion, space evaluation, and initial questions.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-home-remodeling-consultation-last",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical home remodeling consultation last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A typical home remodeling consultation with Hometelligent Inc. usually lasts between one to two hours. This timeframe allows ample opportunity to discuss your project in detail, evaluate the space, and address any initial questions you may have. The duration can vary based on the project's complexity and the amount of information you wish to share or gather during the meeting.",
+        "description": "A typical consultation lasts 1-2 hours, allowing for detailed project discussion, space evaluation, and initial questions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can green building consultation help with existing buildings or only new construction?",
+  "description": "Yes, green building consultation benefits both new construction and existing buildings by identifying opportunities for energy efficiency, air quality, and wate",
+  "url": "https://hometelligentinc.com/faq/can-green-building-consultation-help-with-existing-buildings-or-only-new-constru",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can green building consultation help with existing buildings or only new construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Green building consultation is beneficial for both new construction and existing building renovations. For existing structures, consultation can focus on retrofitting for energy efficiency, improving indoor air quality, and implementing water-saving measures without requiring a full rebuild. The approach for existing buildings often involves a detailed audit to identify specific areas for improvement and prioritize upgrades that offer the best return on investment and sustainability impact. Hometelligent Inc. can assess your current building in our service areas to determine the most effective green upgrades.",
+        "description": "Yes, green building consultation benefits both new construction and existing buildings by identifying opportunities for energy efficiency, air quality, and water-saving retrofits."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

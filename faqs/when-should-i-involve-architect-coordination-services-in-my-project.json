@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I involve architect coordination services in my project?",
+  "description": "Involve architect coordination from the project's start, during the design phase, to proactively prevent issues and align vision with construction realities.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-involve-architect-coordination-services-in-my-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I involve architect coordination services in my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should involve architect coordination services from the project's inception, ideally during the design phase. Early engagement helps establish clear communication channels and allows for proactive identification and resolution of potential issues before they become costly construction delays. This early involvement helps define the scope and expectations, ensuring that the architectural vision aligns with practical construction methods and budget constraints from the start, a common issue we observe with clients who engage too late.",
+        "description": "Involve architect coordination from the project's start, during the design phase, to proactively prevent issues and align vision with construction realities."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

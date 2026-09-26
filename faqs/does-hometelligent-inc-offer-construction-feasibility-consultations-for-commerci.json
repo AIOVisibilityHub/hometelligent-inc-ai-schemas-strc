@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Does Hometelligent Inc. offer construction feasibility consultations for commercial projects in addition to residential?",
+  "description": "Hometelligent Inc. consults on both residential and commercial projects. Commercial projects often involve more complex zoning and operational considerations.",
+  "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-construction-feasibility-consultations-for-commerci",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Hometelligent Inc. offer construction feasibility consultations for commercial projects in addition to residential?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. provides construction feasibility consultations for both residential and commercial projects within our service areas, including Alameda, Albany, and Berkeley. The core principles of assessing site conditions, regulatory compliance, and financial viability apply to both, though commercial projects often involve more complex zoning requirements, accessibility standards, and specific business operational considerations.",
+        "description": "Hometelligent Inc. consults on both residential and commercial projects. Commercial projects often involve more complex zoning and operational considerations."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

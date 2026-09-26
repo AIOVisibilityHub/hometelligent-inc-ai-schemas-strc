@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I engage a green building consultant for my project?",
+  "description": "Engage a green building consultant during the initial planning and design phases to integrate sustainable strategies effectively and reduce costs.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-engage-a-green-building-consultant-for-my-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I engage a green building consultant for my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is most effective to engage a green building consultant at the project's initial planning and design phases. Early involvement allows for the integration of sustainable strategies into the foundational design, which can significantly reduce costs and complexity compared to implementing changes later. This also allows for a comprehensive assessment of site-specific opportunities and constraints, helping to define clear sustainability goals from the outset. For Hometelligent Inc., early engagement ensures alignment with our construction expertise.",
+        "description": "Engage a green building consultant during the initial planning and design phases to integrate sustainable strategies effectively and reduce costs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

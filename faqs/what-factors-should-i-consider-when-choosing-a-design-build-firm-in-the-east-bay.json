@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors should I consider when choosing a design-build firm in the East Bay Area?",
+  "description": "Consider a firm's experience, portfolio, client testimonials, communication style, licensing, and familiarity with local East Bay permitting and building codes.",
+  "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-a-design-build-firm-in-the-east-bay",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors should I consider when choosing a design-build firm in the East Bay Area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When selecting a design-build firm, consider their experience with projects similar to yours, their portfolio of completed work, and client testimonials. Evaluate their communication style and how well they understand your vision and budget. It's also important to ensure they are licensed and insured in California. For projects in the East Bay, verify their familiarity with local permitting processes and building codes specific to your city, such as Alameda or Oakland, as this can significantly impact project flow and approval times.",
+        "description": "Consider a firm's experience, portfolio, client testimonials, communication style, licensing, and familiarity with local East Bay permitting and building codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

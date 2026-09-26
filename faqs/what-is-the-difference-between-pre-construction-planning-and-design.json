@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between pre-construction planning and design?",
+  "description": "Design focuses on aesthetics and blueprints; pre-construction planning covers budget, schedule, and overall project management based on the design. Late design",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-pre-construction-planning-and-design",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between pre-construction planning and design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While closely related, pre-construction planning and design are distinct but integrated phases. Design focuses on the aesthetic and functional aspects of the project, creating blueprints and material specifications. Pre-construction planning encompasses broader project management, including budget forecasting, scheduling, risk assessment, and coordinating with various stakeholders, based on the approved design. A practical tradeoff is that extensive design changes late in the pre-construction phase can significantly impact timelines and costs, making early and thorough design decisions crucial.",
+        "description": "Design focuses on aesthetics and blueprints; pre-construction planning covers budget, schedule, and overall project management based on the design. Late design changes impact costs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

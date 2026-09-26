@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between design-build and traditional design-bid-build methods?",
+  "description": "Design-build combines design and construction under one contract, while traditional design-bid-build separates them. Design-build offers unified responsibility",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-design-build-and-traditional-design-bid-build-met",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between design-build and traditional design-bid-build methods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In design-build, one entity handles both design and construction under a single contract, fostering a unified team approach. Conversely, the traditional design-bid-build method separates these phases: an architect designs, then contractors bid on the completed plans. The design-build model often results in more efficient communication, integrated problem-solving, and potentially faster project delivery because the builder's constructability insights are present during design. This contrasts with managing separate contracts and potential conflicts inherent in the traditional method, a practical tradeoff to consider for homeowners in any of our service areas.",
+        "description": "Design-build combines design and construction under one contract, while traditional design-bid-build separates them. Design-build offers unified responsibility and often better efficiency."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

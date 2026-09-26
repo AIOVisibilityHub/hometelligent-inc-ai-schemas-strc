@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the consequences of building without a permit?",
+  "description": "Building without a permit can result in stop-work orders, fines, required demolition or remediation, and issues with property sales or insurance.",
+  "url": "https://hometelligentinc.com/faq/what-are-the-consequences-of-building-without-a-permit",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the consequences of building without a permit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Building without a required permit can lead to significant issues, including stop-work orders, fines, and potentially costly remediation. Local building departments, such as those in Fremont or Hayward, can require you to tear down non-permitted work or bring it up to code, which often involves retroactive permitting, additional fees, and detailed inspections. Unpermitted work can also complicate future property sales and may not be covered by homeowner's insurance in case of damage. Compliance from the start avoids these potential legal and financial burdens.",
+        "description": "Building without a permit can result in stop-work orders, fines, required demolition or remediation, and issues with property sales or insurance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

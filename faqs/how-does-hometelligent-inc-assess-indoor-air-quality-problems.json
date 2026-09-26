@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How does Hometelligent Inc. assess indoor air quality problems?",
+  "description": "We assess IAQ by identifying pollutant sources, evaluating ventilation, and checking for moisture issues to determine the root cause.",
+  "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-assess-indoor-air-quality-problems",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does Hometelligent Inc. assess indoor air quality problems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. assesses indoor air quality by identifying potential sources of pollutants, evaluating ventilation systems, and checking for moisture issues. This initial assessment helps pinpoint specific problems like mold, allergens, or chemical off-gassing. Understanding the root cause is crucial for recommending effective, targeted solutions.",
+        "description": "We assess IAQ by identifying pollutant sources, evaluating ventilation, and checking for moisture issues to determine the root cause."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

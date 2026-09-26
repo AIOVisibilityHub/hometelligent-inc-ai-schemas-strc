@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I start the plan review coordination process?",
+  "description": "Start plan review coordination once designs are substantially complete to allow time for revisions and avoid construction delays.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-start-the-plan-review-coordination-process",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I start the plan review coordination process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should initiate the plan review coordination process as soon as your project designs are sufficiently developed to be submitted for agency review. This often means after the schematic design and design development phases are substantially complete. Starting early allows ample time to address feedback, make revisions, and secure approvals before you intend to break ground. Waiting too long can cause significant construction delays, especially for projects in busy Bay Area jurisdictions.",
+        "description": "Start plan review coordination once designs are substantially complete to allow time for revisions and avoid construction delays."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

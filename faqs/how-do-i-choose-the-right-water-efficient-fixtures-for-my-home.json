@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right water-efficient fixtures for my home?",
+  "description": "Consider water flow rates, design, and plumbing compatibility. Look for EPA WaterSense labels and consult with experts to balance efficiency and aesthetics.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-water-efficient-fixtures-for-my-home",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right water-efficient fixtures for my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right water-efficient fixtures involves considering factors like water flow rates (gallons per minute or flush), design aesthetics, and compatibility with existing plumbing. Look for EPA WaterSense labeled products, which meet strict water efficiency and performance criteria. Homeowners in Ashland or Castro Valley can also consider consulting with our experts to balance efficiency goals with their home's style and functional requirements.",
+        "description": "Consider water flow rates, design, and plumbing compatibility. Look for EPA WaterSense labels and consult with experts to balance efficiency and aesthetics."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What permits are required for a home addition and how do they affect costs?",
+  "description": "Home additions require various permits (building, zoning, electrical, plumbing), which vary by city. Permit costs and process time affect the project budget and",
+  "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-home-addition-and-how-do-they-affect-costs",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What permits are required for a home addition and how do they affect costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Home additions typically require building permits, zoning approvals, and sometimes specific permits for electrical, plumbing, or mechanical work. The specific permits needed and their associated fees vary by municipality, such as Alameda or Emeryville. These permit costs are part of the overall project budget, and the permitting process itself can affect the timeline, adding administrative time before construction can begin.",
+        "description": "Home additions require various permits (building, zoning, electrical, plumbing), which vary by city. Permit costs and process time affect the project budget and timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between a feasibility consultation and an architectural design service?",
+  "description": "Feasibility consultations assess project viability and challenges, while architectural design creates detailed plans. Consultations precede design.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-feasibility-consultation-and-an-architectural-d",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a feasibility consultation and an architectural design service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A feasibility consultation is a preliminary step that assesses the viability of your project before significant investment in design. It focuses on big-picture challenges like site suitability, regulatory hurdles, and budget estimates. Architectural design, conversely, involves creating detailed plans, drawings, and specifications once feasibility is confirmed. While Hometelligent Inc. offers both, the consultation provides a foundational understanding to guide or inform the subsequent design phase.",
+        "description": "Feasibility consultations assess project viability and challenges, while architectural design creates detailed plans. Consultations precede design."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

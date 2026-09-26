@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I consider professional help for indoor air quality issues?",
+  "description": "Consider professional help for persistent symptoms, visible mold, or lingering odors that DIY efforts haven't resolved.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-consider-professional-help-for-indoor-air-quality-issues",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I consider professional help for indoor air quality issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider professional help if you observe persistent symptoms among household members, notice visible mold or mildew, or detect unusual, lingering odors. Professional assessment can identify hidden issues and recommend solutions beyond DIY fixes. Gathering documentation of symptoms or observations can aid the initial consultation.",
+        "description": "Consider professional help for persistent symptoms, visible mold, or lingering odors that DIY efforts haven't resolved."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

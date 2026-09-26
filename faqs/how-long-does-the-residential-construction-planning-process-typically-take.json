@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does the residential construction planning process typically take?",
+  "description": "Planning duration depends on project complexity and local permit requirements, from weeks for simple remodels to months for new builds. Local regulations, such",
+  "url": "https://hometelligentinc.com/faq/how-long-does-the-residential-construction-planning-process-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does the residential construction planning process typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of residential construction planning varies based on project complexity, scope, and local permit requirements. Simple remodels might take a few weeks for planning, while new home construction or large additions can span several months, particularly if architectural design is extensive or if your property is in areas like the Oakland Hills with specific zoning overlays. Obtaining necessary permits from local jurisdictions, such as in Berkeley or Alameda, also adds to the timeline, making early engagement essential.",
+        "description": "Planning duration depends on project complexity and local permit requirements, from weeks for simple remodels to months for new builds. Local regulations, such as in Oakland Hills, can extend the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

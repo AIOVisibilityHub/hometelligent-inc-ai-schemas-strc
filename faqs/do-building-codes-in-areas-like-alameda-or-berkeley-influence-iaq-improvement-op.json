@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do building codes in areas like Alameda or Berkeley influence IAQ improvement options?",
+  "description": "Yes, local building codes in areas like Alameda or Berkeley influence IAQ improvements, especially regarding ventilation and material choices.",
+  "url": "https://hometelligentinc.com/faq/do-building-codes-in-areas-like-alameda-or-berkeley-influence-iaq-improvement-op",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do building codes in areas like Alameda or Berkeley influence IAQ improvement options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, local building codes in areas like Alameda or Berkeley can influence indoor air quality improvement options, especially concerning ventilation requirements and approved materials. These codes often mandate minimum ventilation rates or specific moisture control measures. We ensure all recommended improvements comply with local regulations, impacting material choices and installation methods.",
+        "description": "Yes, local building codes in areas like Alameda or Berkeley influence IAQ improvements, especially regarding ventilation and material choices."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
