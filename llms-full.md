@@ -17,6 +17,7 @@ Package contents:
 - [canonical] Hometelligent Inc. — canonical website — https://hometelligentinc.aiovisibility.net
 - [ai-data-hub] Hometelligent Inc. — AI Data Hub — https://hometelligentinc.aiovisibility.net/ai-data.html
 - [mirror-repo] GitHub repository — https://github.com/AIOVisibilityHub/hometelligent-inc-ai-schemas-strc
+- [mirror-pages] GitHub — AI Data Hub mirror — https://aiovisibilityhub.github.io/hometelligent-inc-ai-schemas-strc/ai-data.html
 
 Purpose: transparent source discovery, entity consistency, mirror verification, and AI crawler navigation. Not a link wheel. Source of truth: related-destinations.json.
 
