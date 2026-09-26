@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for Hometelligent Inc. to install a new range hood?",
+  "description": "Our process involves site assessment, old unit removal, new unit installation with electrical and ductwork, testing, and a final walk-through.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-hometelligent-inc-to-install-a-new-range-hood",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for Hometelligent Inc. to install a new range hood?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our range hood installation process begins with a site assessment to evaluate your kitchen's layout, existing ventilation, and electrical connections. We then disconnect and remove the old unit, if applicable. Next, we install the new range hood, ensuring proper mounting, ductwork connection (for ducted models), and electrical wiring. Finally, we test the unit's functionality and clean up the work area. The process concludes with a walk-through to ensure your satisfaction with the installation and operation.",
+        "description": "Our process involves site assessment, old unit removal, new unit installation with electrical and ductwork, testing, and a final walk-through."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

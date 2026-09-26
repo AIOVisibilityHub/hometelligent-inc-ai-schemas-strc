@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does an accessible kitchen remodel usually take?",
+  "description": "Accessible kitchen remodels typically take 4-12 weeks, depending on project complexity and material lead times.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-an-accessible-kitchen-remodel-usually-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does an accessible kitchen remodel usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for an accessible kitchen remodel can vary significantly based on the project's scope and the complexity of the modifications. A typical remodel might take anywhere from 4 to 12 weeks from demolition to final installation. Factors such as custom cabinetry, structural changes like widening doorways, and the lead time for specialized accessible appliances can extend the duration. Hometelligent Inc. provides a detailed project schedule during the planning phase, taking into account these variables.",
+        "description": "Accessible kitchen remodels typically take 4-12 weeks, depending on project complexity and material lead times."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

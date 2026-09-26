@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for installing a tile backsplash?",
+  "description": "The process involves wall preparation, layout planning, tile setting with adhesive, grouting after curing, and final cleanup. Sealing may be required for some t",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-a-tile-backsplash",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for installing a tile backsplash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The tile backsplash installation process typically begins with surface preparation, including cleaning and leveling the wall. Next, the layout is planned, often with a laser level, to ensure straight lines and proper alignment. Adhesive (thin-set mortar) is then applied, and tiles are carefully set into place using spacers for even gaps. After the adhesive cures, the spacers are removed, and grout is applied to fill the joints. Finally, excess grout is cleaned off, and the area is sealed if necessary, particularly for natural stone. Hometelligent Inc. maintains clear communication throughout these steps, from initial consultation to final cleanup.",
+        "description": "The process involves wall preparation, layout planning, tile setting with adhesive, grouting after curing, and final cleanup. Sealing may be required for some tile types."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

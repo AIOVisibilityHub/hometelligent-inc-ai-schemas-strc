@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is included in a full bathroom remodel?",
+  "description": "A full bathroom remodel involves replacing most or all bathroom components, including fixtures, flooring, and wall finishes, often with plumbing and electrical",
+  "url": "https://hometelligentinc.com/faq/what-is-included-in-a-full-bathroom-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is included in a full bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A full bathroom remodel typically involves replacing most or all components of the bathroom. This can include new flooring, wall finishes, vanity, countertop, sink, toilet, shower, and/or bathtub. It often requires plumbing adjustments, electrical updates for new fixtures, and can involve reconfiguring the layout to optimize space and functionality. The exact scope depends on the existing bathroom condition and your desired changes.",
+        "description": "A full bathroom remodel involves replacing most or all bathroom components, including fixtures, flooring, and wall finishes, often with plumbing and electrical updates."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

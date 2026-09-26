@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What modifications are typically included in an accessible kitchen remodel?",
+  "description": "Accessible kitchen remodels often include lowered countertops, wider doorways, pull-out storage, and accessible appliances.",
+  "url": "https://hometelligentinc.com/faq/what-modifications-are-typically-included-in-an-accessible-kitchen-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What modifications are typically included in an accessible kitchen remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accessible kitchen remodels focus on making the space usable for individuals with diverse needs. Common modifications include lowering countertops and sinks, installing pull-out shelves and drawers, widening doorways for wheelchair access, and replacing standard appliances with accessible models like front-control ranges or side-opening ovens. The specific modifications depend on the user's mobility, dexterity, and vision requirements, which Hometelligent Inc. evaluates during the initial consultation to create a tailored design.",
+        "description": "Accessible kitchen remodels often include lowered countertops, wider doorways, pull-out storage, and accessible appliances."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

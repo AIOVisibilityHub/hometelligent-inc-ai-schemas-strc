@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of flooring are best for an accessible kitchen?",
+  "description": "Best accessible kitchen flooring is smooth, non-slip, and easy to maintain, such as slip-resistant tile or linoleum.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-flooring-are-best-for-an-accessible-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of flooring are best for an accessible kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For an accessible kitchen, flooring choices should prioritize safety, ease of mobility, and maintenance. Smooth, non-slip surfaces like slip-resistant tile, linoleum, or certain types of engineered wood are often recommended. Avoid high-pile carpets or uneven surfaces that can impede wheelchair movement or create tripping hazards. The chosen material should also be durable and easy to clean. Hometelligent Inc. can guide you through options that balance aesthetic appeal with practical accessibility in your home.",
+        "description": "Best accessible kitchen flooring is smooth, non-slip, and easy to maintain, such as slip-resistant tile or linoleum."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

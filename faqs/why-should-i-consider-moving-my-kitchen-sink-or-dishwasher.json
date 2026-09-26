@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Why should I consider moving my kitchen sink or dishwasher?",
+  "description": "Moving a sink or dishwasher improves kitchen layout and functionality but involves rerouting water and drain lines, increasing project complexity and cost. It's",
+  "url": "https://hometelligentinc.com/faq/why-should-i-consider-moving-my-kitchen-sink-or-dishwasher",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why should I consider moving my kitchen sink or dishwasher?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moving a kitchen sink or dishwasher can significantly improve your kitchen's layout and functionality, creating a more ergonomic workflow or opening up space for new cabinetry or appliances. This type of upgrade involves rerouting water supply lines and drain pipes, which is a more extensive plumbing project. While it offers aesthetic and practical benefits, be aware that rerouting plumbing requires careful planning and can increase project complexity and cost compared to in-place replacements. This is a practical tradeoff for a highly customized kitchen.",
+        "description": "Moving a sink or dishwasher improves kitchen layout and functionality but involves rerouting water and drain lines, increasing project complexity and cost. It's a tradeoff for customized kitchen design."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

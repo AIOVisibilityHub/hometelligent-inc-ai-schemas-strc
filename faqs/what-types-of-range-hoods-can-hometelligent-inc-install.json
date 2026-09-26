@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of range hoods can Hometelligent Inc. install?",
+  "description": "Hometelligent Inc. installs under-cabinet, wall-mounted, island, and downdraft range hoods. The best type depends on your kitchen layout and ventilation needs.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-range-hoods-can-hometelligent-inc-install",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of range hoods can Hometelligent Inc. install?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. installs various types of range hoods, including under-cabinet, wall-mounted, island, and downdraft models. The best type for your home often depends on your kitchen layout, existing cabinetry, and desired ventilation power. A key decision factor is the available space above your cooking surface, as this dictates whether a ducted or ductless system is more feasible given your current kitchen configuration.",
+        "description": "Hometelligent Inc. installs under-cabinet, wall-mounted, island, and downdraft range hoods. The best type depends on your kitchen layout and ventilation needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

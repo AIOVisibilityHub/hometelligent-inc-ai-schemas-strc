@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is a butler's pantry and how does it differ from a regular pantry?",
+  "description": "A butler's pantry is a transitional space for staging and prep, while a regular pantry is for food storage. Its design focuses on functional utility beyond simp",
+  "url": "https://hometelligentinc.com/faq/what-is-a-butler-s-pantry-and-how-does-it-differ-from-a-regular-pantry",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a butler's pantry and how does it differ from a regular pantry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A butler's pantry is a functional and often elegant transitional space between the kitchen and dining area, primarily used for staging meals, storing servingware, and housing small appliances. Unlike a standard pantry which focuses solely on food storage, a butler's pantry is designed for prep and presentation, often featuring countertops, sinks, and cabinetry. When planning your construction, consider if you need dedicated spaces for dishwashing, beverage stations, or warming drawers, as these elements define its utility beyond simple storage.",
+        "description": "A butler's pantry is a transitional space for staging and prep, while a regular pantry is for food storage. Its design focuses on functional utility beyond simple storage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

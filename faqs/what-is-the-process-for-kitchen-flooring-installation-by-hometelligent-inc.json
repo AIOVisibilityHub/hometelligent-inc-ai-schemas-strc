@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for kitchen flooring installation by Hometelligent Inc.?",
+  "description": "Hometelligent Inc.'s kitchen flooring installation involves consultation, quoting, subfloor prep, laying material, and finishing.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-kitchen-flooring-installation-by-hometelligent-inc",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for kitchen flooring installation by Hometelligent Inc.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our kitchen flooring installation process typically starts with a consultation to discuss your needs and material options. Following this, we provide a detailed quote and schedule the work. The installation involves preparing the subfloor, laying the new material, and finishing touches like trim and transitions. We ensure careful execution, especially in the subfloor preparation stage, which is critical for the longevity and performance of your new floor.",
+        "description": "Hometelligent Inc.'s kitchen flooring installation involves consultation, quoting, subfloor prep, laying material, and finishing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

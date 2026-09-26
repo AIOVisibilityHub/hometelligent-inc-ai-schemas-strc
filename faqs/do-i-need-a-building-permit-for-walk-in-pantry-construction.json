@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a building permit for walk-in pantry construction?",
+  "description": "A building permit may be required if your pantry construction involves structural changes or significant electrical work, depending on local codes.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-building-permit-for-walk-in-pantry-construction",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a building permit for walk-in pantry construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Whether a building permit is required for walk-in pantry construction depends on the scope of the project and local building codes in areas like Alameda or Berkeley. If the construction involves structural changes, significant electrical work, or altering the footprint of your home, a permit is typically necessary. Hometelligent Inc. can guide you through the permit application process to ensure compliance.",
+        "description": "A building permit may be required if your pantry construction involves structural changes or significant electrical work, depending on local codes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

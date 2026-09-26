@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I care for my new kitchen countertops after installation?",
+  "description": "Care depends on the material; natural stone needs sealing and quick spill cleanup, while quartz and solid surface are lower maintenance. Always use cutting boar",
+  "url": "https://hometelligentinc.com/faq/how-do-i-care-for-my-new-kitchen-countertops-after-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I care for my new kitchen countertops after installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Caring for new kitchen countertops depends on the material chosen. For natural stone like granite or marble, regular sealing is often required, and spills should be wiped immediately to prevent staining. Engineered quartz and solid surface materials are generally low maintenance, requiring only mild soap and water. Always use cutting boards and avoid placing hot items directly on the surface to prevent damage, regardless of the material. We provide specific care instructions tailored to your chosen material upon completion.",
+        "description": "Care depends on the material; natural stone needs sealing and quick spill cleanup, while quartz and solid surface are lower maintenance. Always use cutting boards and avoid hot items."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

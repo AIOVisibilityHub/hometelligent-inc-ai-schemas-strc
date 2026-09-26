@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What preparation is needed before Hometelligent arrives for sink installation?",
+  "description": "Before installation, clear out the under-sink cabinet and countertop area, and have your new sink and faucet ready if you've supplied them.",
+  "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-hometelligent-arrives-for-sink-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What preparation is needed before Hometelligent arrives for sink installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before Hometelligent arrives for your kitchen sink installation, you should clear out the cabinet space beneath the sink and remove all items from the countertop around the sink area. Ensuring clear access allows our team to work efficiently and safely. We also recommend having your new sink and faucet on-site, if you've purchased them separately, to prevent any delays.",
+        "description": "Before installation, clear out the under-sink cabinet and countertop area, and have your new sink and faucet ready if you've supplied them."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

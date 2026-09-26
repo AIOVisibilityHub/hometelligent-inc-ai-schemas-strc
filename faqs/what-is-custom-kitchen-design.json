@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is custom kitchen design?",
+  "description": "Custom kitchen design tailors a kitchen's layout, finishes, fixtures, and appliances to your specific needs and home architecture. It involves a detailed consul",
+  "url": "https://hometelligentinc.com/faq/what-is-custom-kitchen-design",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is custom kitchen design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom kitchen design involves creating a kitchen layout and selecting finishes, fixtures, and appliances tailored to your specific needs, preferences, and home architecture. This process typically includes a detailed consultation to understand your lifestyle, cooking habits, and aesthetic vision. Our design team will work with you to optimize space, functionality, and storage solutions, ensuring the final kitchen reflects your personal style and maximizes the efficiency of your home in areas like Alameda, Albany, or Berkeley.",
+        "description": "Custom kitchen design tailors a kitchen's layout, finishes, fixtures, and appliances to your specific needs and home architecture. It involves a detailed consultation to optimize space, functionality, and aesthetics."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

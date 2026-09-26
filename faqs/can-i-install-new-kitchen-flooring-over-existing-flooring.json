@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I install new kitchen flooring over existing flooring?",
+  "description": "New flooring can sometimes be installed over existing flooring, but suitability depends on the current floor's condition and potential height changes.",
+  "url": "https://hometelligentinc.com/faq/can-i-install-new-kitchen-flooring-over-existing-flooring",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I install new kitchen flooring over existing flooring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In some cases, new kitchen flooring can be installed over existing flooring, particularly if the current floor is solid, level, and structurally sound. For instance, luxury vinyl plank (LVP) can often be laid directly over old linoleum or certain types of tile. However, installing over existing flooring can raise the floor height, which may affect appliance clearances or transitions to other rooms, so a consultation is important to assess suitability.",
+        "description": "New flooring can sometimes be installed over existing flooring, but suitability depends on the current floor's condition and potential height changes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

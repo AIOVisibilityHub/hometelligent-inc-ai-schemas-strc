@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What defines a 'small' kitchen remodel?",
+  "description": "A small kitchen remodel updates key elements like cabinets, countertops, or appliances within the existing layout, without major structural changes.",
+  "url": "https://hometelligentinc.com/faq/what-defines-a-small-kitchen-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What defines a 'small' kitchen remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A small kitchen remodel typically focuses on updating key elements within the existing layout rather than a complete structural overhaul. This can include refacing or replacing cabinets, upgrading countertops, installing new appliances, updating fixtures, or refreshing the backsplash and paint. The primary goal is to enhance functionality and aesthetics without significant demolition or reconfiguring walls and utility lines. Understanding your budget and desired changes will help determine if a small remodel is the right approach for your home.",
+        "description": "A small kitchen remodel updates key elements like cabinets, countertops, or appliances within the existing layout, without major structural changes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

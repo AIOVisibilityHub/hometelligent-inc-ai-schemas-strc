@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What maintenance is required for newly installed marble countertops?",
+  "description": "Maintain new marble by immediately wiping spills, using pH-neutral cleaners, and reapplying sealant annually to prevent etching and staining.",
+  "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-newly-installed-marble-countertops",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for newly installed marble countertops?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Newly installed marble countertops require consistent care to maintain their appearance and longevity. It is crucial to wipe spills immediately, especially acidic liquids, and to use pH-neutral cleaners specifically designed for natural stone. Regular sealing, typically annually, is also necessary to enhance stain resistance. Hometelligent Inc. advises clients on appropriate cleaning products and sealing schedules to help preserve their investment.",
+        "description": "Maintain new marble by immediately wiping spills, using pH-neutral cleaners, and reapplying sealant annually to prevent etching and staining."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

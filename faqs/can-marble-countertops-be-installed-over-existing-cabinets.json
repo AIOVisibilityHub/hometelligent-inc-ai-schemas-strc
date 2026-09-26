@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can marble countertops be installed over existing cabinets?",
+  "description": "Marble countertops can be installed on existing cabinets if they are sound, level, and can support the weight; an inspection is required first.",
+  "url": "https://hometelligentinc.com/faq/can-marble-countertops-be-installed-over-existing-cabinets",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can marble countertops be installed over existing cabinets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, marble countertops can often be installed over existing cabinets, provided the cabinets are structurally sound, level, and capable of supporting the significant weight of the stone. Before proceeding, Hometelligent Inc. conducts a thorough inspection of your current cabinetry to assess its condition and ensure it meets the necessary structural requirements for a successful and safe installation. This initial assessment is a key first step.",
+        "description": "Marble countertops can be installed on existing cabinets if they are sound, level, and can support the weight; an inspection is required first."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

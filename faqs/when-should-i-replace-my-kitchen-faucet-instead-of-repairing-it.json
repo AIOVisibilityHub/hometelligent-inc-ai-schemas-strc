@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "When should I replace my kitchen faucet instead of repairing it?",
+  "description": "Replace your kitchen faucet when repairs are frequent, it's old, or parts are hard to find, as it's often more cost-effective than continuous repairs.",
+  "url": "https://hometelligentinc.com/faq/when-should-i-replace-my-kitchen-faucet-instead-of-repairing-it",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I replace my kitchen faucet instead of repairing it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should consider replacing your kitchen faucet if repairs are frequent, the faucet is old and showing significant wear, or if parts are difficult to find. While minor leaks or drips can often be repaired by replacing washers or cartridges, persistent issues or extensive corrosion often make replacement more cost-effective in the long run. A practical tradeoff is weighing the cost of repeated repairs against a new faucet's upfront cost and long-term reliability.",
+        "description": "Replace your kitchen faucet when repairs are frequent, it's old, or parts are hard to find, as it's often more cost-effective than continuous repairs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

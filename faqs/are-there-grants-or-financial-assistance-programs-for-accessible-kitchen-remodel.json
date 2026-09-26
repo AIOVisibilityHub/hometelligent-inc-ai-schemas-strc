@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Are there grants or financial assistance programs for accessible kitchen remodels?",
+  "description": "Grants and financial assistance may be available from federal, state, local, or veteran programs for accessible kitchen remodels.",
+  "url": "https://hometelligentinc.com/faq/are-there-grants-or-financial-assistance-programs-for-accessible-kitchen-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are there grants or financial assistance programs for accessible kitchen remodels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Various programs may offer financial assistance for accessible home modifications, including kitchen remodels. These can include federal, state, or local grants for individuals with disabilities or seniors, as well as specific veterans' programs. Some homeowners' insurance policies or long-term care insurance might also cover certain modifications. Hometelligent Inc. advises clients to research available programs through local government agencies or non-profits in areas like Oakland or San Leandro, as eligibility requirements vary.",
+        "description": "Grants and financial assistance may be available from federal, state, local, or veteran programs for accessible kitchen remodels."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

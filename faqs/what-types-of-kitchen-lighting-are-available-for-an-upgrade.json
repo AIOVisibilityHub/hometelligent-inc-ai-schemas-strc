@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of kitchen lighting are available for an upgrade?",
+  "description": "Kitchen lighting upgrades include ambient, task, and accent lighting, often used in layers for functionality and aesthetics.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-kitchen-lighting-are-available-for-an-upgrade",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of kitchen lighting are available for an upgrade?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kitchen lighting upgrades offer various options, including ambient, task, and accent lighting. Ambient lighting provides general illumination with fixtures like recessed lights or ceiling-mounted fixtures. Task lighting, such as under-cabinet lights or pendant lights over an island, focuses on specific work areas. Accent lighting highlights architectural features or decor. The best approach often involves layering these types to achieve a functional and aesthetically pleasing kitchen. We can help you select the right combination based on your kitchen's layout and your specific needs.",
+        "description": "Kitchen lighting upgrades include ambient, task, and accent lighting, often used in layers for functionality and aesthetics."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

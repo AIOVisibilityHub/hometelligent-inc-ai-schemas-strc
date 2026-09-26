@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do you install marble countertops in Berkeley?",
+  "description": "Yes, Hometelligent Inc. installs marble countertops in Berkeley, California, leveraging local expertise for personalized service.",
+  "url": "https://hometelligentinc.com/faq/do-you-install-marble-countertops-in-berkeley",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you install marble countertops in Berkeley?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. proudly offers marble countertop installation services in Berkeley, California, as part of our service area covering Alameda County and Contra Costa County. Our local expertise ensures we understand specific design preferences and logistical considerations unique to the Berkeley area. We encourage residents to contact us for a personalized consultation and estimate for their home improvement projects.",
+        "description": "Yes, Hometelligent Inc. installs marble countertops in Berkeley, California, leveraging local expertise for personalized service."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

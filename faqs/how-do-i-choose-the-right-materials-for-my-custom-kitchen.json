@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right materials for my custom kitchen?",
+  "description": "Select kitchen materials by balancing aesthetics, durability, functionality, and budget, considering daily usage. Our design team helps guide your choices based",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-materials-for-my-custom-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right materials for my custom kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right materials for your custom kitchen involves balancing aesthetics, durability, functionality, and budget. Consider how you use your kitchen daily when selecting countertops, cabinetry, and flooring. For example, a busy family kitchen might benefit from more durable, low-maintenance surfaces. Our design team can guide you through various options, providing insights on performance, style, and cost for your specific design needs in communities like Fremont or Union City.",
+        "description": "Select kitchen materials by balancing aesthetics, durability, functionality, and budget, considering daily usage. Our design team helps guide your choices based on performance and style."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

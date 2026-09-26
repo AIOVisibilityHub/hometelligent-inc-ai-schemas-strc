@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I make my kitchen accessible for someone using a wheelchair?",
+  "description": "For wheelchair accessibility, widen doorways, ensure clear floor space, lower countertops/sinks, and install pull-out storage.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-make-my-kitchen-accessible-for-someone-using-a-wheelchair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I make my kitchen accessible for someone using a wheelchair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To make a kitchen accessible for wheelchair users, key modifications include widening doorways to at least 32 inches, ensuring adequate clear floor space (a 60-inch turning radius is ideal), lowering countertops and sinks to a height of 28-34 inches with clear knee space underneath, and installing pull-out shelves or drawers for easier reach. Additionally, consider side-opening ovens and roll-under cooktops. Hometelligent Inc. designs solutions that integrate these features seamlessly while adhering to ADA guidelines where applicable.",
+        "description": "For wheelchair accessibility, widen doorways, ensure clear floor space, lower countertops/sinks, and install pull-out storage."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

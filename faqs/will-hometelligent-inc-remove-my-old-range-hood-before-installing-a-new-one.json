@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Will Hometelligent Inc. remove my old range hood before installing a new one?",
+  "description": "Yes, Hometelligent Inc. removes your old range hood as part of our installation service to ensure a smooth transition and proper disposal.",
+  "url": "https://hometelligentinc.com/faq/will-hometelligent-inc-remove-my-old-range-hood-before-installing-a-new-one",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will Hometelligent Inc. remove my old range hood before installing a new one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, as part of our comprehensive service, Hometelligent Inc. will remove your old range hood before installing a new one. This ensures a seamless transition and proper disposal of the old unit. Our process clarity means this is a standard step included in the installation, allowing us to prepare the area thoroughly and correctly before mounting the new appliance.",
+        "description": "Yes, Hometelligent Inc. removes your old range hood as part of our installation service to ensure a smooth transition and proper disposal."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

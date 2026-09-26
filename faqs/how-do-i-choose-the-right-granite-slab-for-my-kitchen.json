@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right granite slab for my kitchen?",
+  "description": "Select granite based on color, pattern, finish, and durability. Viewing the full slab is crucial to understanding its unique characteristics and how it will com",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-granite-slab-for-my-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right granite slab for my kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right granite slab involves considering several factors: color, pattern, finish, and durability. You'll want a color and pattern that complements your existing cabinetry and flooring. Finishes like polished, honed, or leathered offer different aesthetics and maintenance requirements. Durability varies slightly between different granite types, but all are highly resilient. A key decision factor is viewing the full slab in person, as small samples may not accurately represent the stone's natural variations. We recommend visiting our local suppliers to see the unique characteristics of each slab.",
+        "description": "Select granite based on color, pattern, finish, and durability. Viewing the full slab is crucial to understanding its unique characteristics and how it will complement your kitchen."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

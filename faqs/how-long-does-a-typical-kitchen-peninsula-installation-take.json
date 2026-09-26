@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical kitchen peninsula installation take?",
+  "description": "Peninsula installation time varies by scope; simple projects might take days, complex ones with utility work can take a week or more.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-kitchen-peninsula-installation-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical kitchen peninsula installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a kitchen peninsula installation depends on the project's scope, including whether it involves structural changes, new utility lines, or custom fabrication. A straightforward installation without major utility work might take a few days, while more complex projects requiring plumbing, electrical, or significant structural adjustments can extend to a week or more. We aim to provide clear timelines after an initial assessment, helping you plan around the construction process efficiently.",
+        "description": "Peninsula installation time varies by scope; simple projects might take days, complex ones with utility work can take a week or more."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

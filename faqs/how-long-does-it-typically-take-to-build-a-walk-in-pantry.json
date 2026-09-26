@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it typically take to build a walk-in pantry?",
+  "description": "The construction timeline depends on the pantry's complexity, size, and materials, typically ranging from a few weeks to several weeks.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-build-a-walk-in-pantry",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it typically take to build a walk-in pantry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for building a walk-in pantry varies based on its complexity, size, and material choices. A simple pantry addition might take a few weeks, while a more extensive custom build or renovation could take several weeks. Hometelligent Inc. provides a detailed project schedule during the planning phase, outlining each stage from demolition (if applicable) to final installation, ensuring clear expectations.",
+        "description": "The construction timeline depends on the pantry's complexity, size, and materials, typically ranging from a few weeks to several weeks."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

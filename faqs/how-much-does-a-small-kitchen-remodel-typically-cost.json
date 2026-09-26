@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does a small kitchen remodel typically cost?",
+  "description": "Costs vary based on scope and materials, but generally range from several thousand to tens of thousands of dollars. We provide detailed estimates after consulta",
+  "url": "https://hometelligentinc.com/faq/how-much-does-a-small-kitchen-remodel-typically-cost",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a small kitchen remodel typically cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a small kitchen remodel can vary significantly based on the scope of work, material choices, and local labor rates. Generally, homeowners in our service areas, including Alameda and Berkeley, might expect costs ranging from several thousand to tens of thousands of dollars. Factors such as custom cabinetry versus ready-to-assemble, high-end appliance selections, or complex tile work will influence the final price. We provide detailed estimates after an initial consultation to ensure transparency regarding your specific project.",
+        "description": "Costs vary based on scope and materials, but generally range from several thousand to tens of thousands of dollars. We provide detailed estimates after consultation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

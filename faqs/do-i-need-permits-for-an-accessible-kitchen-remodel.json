@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need permits for an accessible kitchen remodel?",
+  "description": "Permits are often required for accessible kitchen remodels involving structural or major utility changes, varying by local jurisdiction.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-an-accessible-kitchen-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need permits for an accessible kitchen remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permits are typically required for accessible kitchen remodels, especially if the project involves structural changes, significant plumbing or electrical work, or alterations to load-bearing walls. These requirements vary by municipality within Hometelligent Inc.'s service area, such as Berkeley or Dublin. Obtaining necessary permits ensures compliance with local building codes, including those related to accessibility standards. Hometelligent Inc. assists clients in navigating the permit application process to ensure all work is up to code.",
+        "description": "Permits are often required for accessible kitchen remodels involving structural or major utility changes, varying by local jurisdiction."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

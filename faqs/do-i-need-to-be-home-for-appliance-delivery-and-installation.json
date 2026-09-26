@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to be home for appliance delivery and installation?",
+  "description": "While not always required, being home for appliance delivery and installation is recommended for immediate decision-making and inspection.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-be-home-for-appliance-delivery-and-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to be home for appliance delivery and installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While it's not always strictly necessary for you to be present for appliance delivery or installation if Hometelligent Inc. has full access to the site, we recommend being available or designating a representative. This allows for immediate decision-making on minor placement details or addressing any unforeseen issues promptly. It also ensures you can inspect the appliances upon arrival and confirm they are the correct models and free of damage.",
+        "description": "While not always required, being home for appliance delivery and installation is recommended for immediate decision-making and inspection."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

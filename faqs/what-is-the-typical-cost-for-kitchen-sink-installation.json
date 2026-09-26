@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the typical cost for kitchen sink installation?",
+  "description": "Kitchen sink installation costs vary based on sink type, plumbing complexity, and countertop modifications. We offer detailed quotes after an assessment.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-kitchen-sink-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical cost for kitchen sink installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of kitchen sink installation varies based on several factors, including the type of sink, the complexity of the plumbing work required, and whether new countertop modifications are needed. For example, replacing a drop-in sink with another drop-in is usually less expensive than installing an undermount sink, which often requires precise countertop cutting. We provide a detailed quote after assessing your specific kitchen setup during an initial consultation.",
+        "description": "Kitchen sink installation costs vary based on sink type, plumbing complexity, and countertop modifications. We offer detailed quotes after an assessment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

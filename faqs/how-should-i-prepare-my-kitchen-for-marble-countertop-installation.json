@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How should I prepare my kitchen for marble countertop installation?",
+  "description": "Prepare your kitchen by clearing countertops, ensuring cabinets are level, and arranging for plumbing/electrical disconnections prior to installation.",
+  "url": "https://hometelligentinc.com/faq/how-should-i-prepare-my-kitchen-for-marble-countertop-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How should I prepare my kitchen for marble countertop installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before installation, you should clear your countertops and ensure the workspace is accessible. Remove all small appliances, dishes, and personal items. Hometelligent Inc. also recommends ensuring that all base cabinets are level and securely installed to provide a stable foundation for the new countertops. Any existing plumbing or electrical disconnections should be arranged prior to the installation date, as these services are often coordinated separately.",
+        "description": "Prepare your kitchen by clearing countertops, ensuring cabinets are level, and arranging for plumbing/electrical disconnections prior to installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the installation process for granite countertops?",
+  "description": "The installation process involves templating, slab fabrication, transport, precise placement, seaming, and sealing, ensuring a level and durable surface.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-granite-countertops",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the installation process for granite countertops?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The granite countertop installation process begins with an in-home measurement to create a precise template of your cabinets. This template is then used to cut and fabricate your chosen granite slabs. Once fabricated, the countertops are transported to your home. Our team carefully places the pieces, ensuring they are level and properly supported. Seams are meticulously joined and polished to be as inconspicuous as possible. Finally, the countertop is sealed to protect against stains. We ensure proper preparation and clean-up, leaving your kitchen ready for use.",
+        "description": "The installation process involves templating, slab fabrication, transport, precise placement, seaming, and sealing, ensuring a level and durable surface."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

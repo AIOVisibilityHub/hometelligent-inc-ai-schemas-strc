@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What common kitchen plumbing upgrades are available?",
+  "description": "Kitchen plumbing upgrades often involve new sinks, faucets, garbage disposals, water filtration, or pipe rerouting for appliance layout changes.",
+  "url": "https://hometelligentinc.com/faq/what-common-kitchen-plumbing-upgrades-are-available",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What common kitchen plumbing upgrades are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common kitchen plumbing upgrades include installing a new sink or faucet, upgrading to a garbage disposal, adding a water filtration system, or rerouting pipes for a new appliance layout. These upgrades can improve functionality, aesthetics, and water efficiency. When planning, consider how these changes might impact your current cabinetry and countertop configuration, as some upgrades require modifications to accommodate new fixtures or pipe placements.",
+        "description": "Kitchen plumbing upgrades often involve new sinks, faucets, garbage disposals, water filtration, or pipe rerouting for appliance layout changes."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

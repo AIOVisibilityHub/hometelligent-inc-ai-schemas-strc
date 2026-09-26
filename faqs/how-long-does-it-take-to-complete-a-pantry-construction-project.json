@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to complete a pantry construction project?",
+  "description": "Project duration varies; basic pantries take days, while complex custom walk-ins may take several weeks, including design and installation.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-complete-a-pantry-construction-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to complete a pantry construction project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for pantry construction depends on the scope and complexity of the project. A basic reach-in pantry with standard shelving might take a few days, while a large, custom walk-in pantry with intricate cabinetry and specialized features could extend to several weeks. This includes design finalization, material procurement, and installation. We provide an estimated project timeline during the proposal phase, accounting for potential delays in material availability. Our goal is to complete your pantry efficiently while maintaining high standards of craftsmanship.",
+        "description": "Project duration varies; basic pantries take days, while complex custom walk-ins may take several weeks, including design and installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

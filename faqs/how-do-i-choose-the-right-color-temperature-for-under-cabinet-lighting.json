@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right color temperature for under-cabinet lighting?",
+  "description": "Select color temperature based on desired mood: warm white for cozy, cool white for task lighting, and daylight for natural light mimicry.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-color-temperature-for-under-cabinet-lighting",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right color temperature for under-cabinet lighting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right color temperature depends on your kitchen's existing lighting and desired mood. Warm white (2700K-3000K) creates a cozy, inviting atmosphere, while cool white (4000K-5000K) offers brighter, more task-oriented illumination. Daylight (5000K-6500K) mimics natural light. A practical tradeoff to consider is balancing task lighting needs with the overall warmth of your kitchen; sometimes a dimmer with adjustable color temperature can offer the best of both worlds.",
+        "description": "Select color temperature based on desired mood: warm white for cozy, cool white for task lighting, and daylight for natural light mimicry."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

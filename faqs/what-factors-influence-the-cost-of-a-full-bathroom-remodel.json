@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of a full bathroom remodel?",
+  "description": "Bathroom size, material quality, and the extent of plumbing or structural changes significantly impact the remodel cost.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-full-bathroom-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of a full bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Several factors influence the cost, including the size of the bathroom, the quality of materials chosen, and the extent of structural or plumbing changes. High-end finishes, custom cabinetry, and relocating plumbing lines will increase expenses. The final cost will also reflect labor rates for skilled tradespeople. Considering these variables helps set a realistic budget.",
+        "description": "Bathroom size, material quality, and the extent of plumbing or structural changes significantly impact the remodel cost."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

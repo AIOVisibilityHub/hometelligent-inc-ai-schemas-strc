@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to install under-cabinet lighting?",
+  "description": "Installation typically takes a few hours to a full day, depending on complexity, electrical work, and cabinet count.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-under-cabinet-lighting",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to install under-cabinet lighting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation time for under-cabinet lighting can range from a few hours to a full day, depending on the complexity and scope of the project. Simple plug-and-play systems are quicker, while hardwired installations requiring new electrical runs will take longer. Factors like existing electrical access and the number of cabinets being outfitted directly affect the project timeline. Hometelligent Inc. aims for efficient completion with minimal disruption.",
+        "description": "Installation typically takes a few hours to a full day, depending on complexity, electrical work, and cabinet count."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

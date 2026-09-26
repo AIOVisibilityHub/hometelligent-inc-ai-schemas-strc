@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What should I do to prepare my home for a bathroom remodel?",
+  "description": "Prepare by clearing the bathroom, protecting adjacent areas from dust, and discussing access and staging with your contractor.",
+  "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-home-for-a-bathroom-remodel",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do to prepare my home for a bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before a bathroom remodel, clear out all personal items from the bathroom. Ensure a clear path for workers and material delivery, and protect adjacent areas from dust with drop cloths or plastic sheeting. Discuss access points, staging areas for materials, and temporary bathroom arrangements with your contractor. This preparation helps to minimize disruption and ensures a smoother project start.",
+        "description": "Prepare by clearing the bathroom, protecting adjacent areas from dust, and discussing access and staging with your contractor."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

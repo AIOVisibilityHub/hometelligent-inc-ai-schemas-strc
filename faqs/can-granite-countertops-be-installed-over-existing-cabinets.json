@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can granite countertops be installed over existing cabinets?",
+  "description": "Granite can be installed over existing cabinets if they are structurally sound and level. An inspection during templating determines if adjustments are needed.",
+  "url": "https://hometelligentinc.com/faq/can-granite-countertops-be-installed-over-existing-cabinets",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can granite countertops be installed over existing cabinets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, granite countertops can typically be installed over existing cabinets, provided the cabinets are structurally sound and level enough to support the significant weight of granite. Our process includes a thorough inspection of your current cabinetry during the templating phase. If any structural issues or leveling problems are identified, we will advise on the necessary adjustments or repairs before proceeding with installation. This preparation step is crucial to ensure the long-term stability and integrity of your new countertops.",
+        "description": "Granite can be installed over existing cabinets if they are structurally sound and level. An inspection during templating determines if adjustments are needed."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

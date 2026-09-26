@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials can be used for a kitchen backsplash?",
+  "description": "Common backsplash materials include ceramic, natural stone, glass, and stainless steel, each with unique aesthetics and maintenance needs.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-can-be-used-for-a-kitchen-backsplash",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials can be used for a kitchen backsplash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common materials for kitchen backsplashes include ceramic or porcelain tile, natural stone (like marble, granite, or travertine), glass tiles, stainless steel, and mosaic blends. Each material offers distinct aesthetic qualities, durability, and maintenance requirements. For instance, ceramic tiles are versatile and cost-effective, while natural stone offers a premium look but may require sealing. Considering your kitchen's existing design and your lifestyle will help in selecting the most suitable material.",
+        "description": "Common backsplash materials include ceramic, natural stone, glass, and stainless steel, each with unique aesthetics and maintenance needs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

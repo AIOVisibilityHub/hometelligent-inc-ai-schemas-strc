@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does it typically cost to build a custom pantry?",
+  "description": "Custom pantry costs vary by size, materials, and features; more complex designs with premium finishes increase the price.",
+  "url": "https://hometelligentinc.com/faq/how-much-does-it-typically-cost-to-build-a-custom-pantry",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it typically cost to build a custom pantry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of building a custom pantry can vary significantly based on its size, materials, and complexity. Simple reach-in pantries with basic shelving will be less expensive than larger walk-in designs featuring high-end cabinetry, specialized storage solutions like pull-out racks or wine storage, and custom finishes. Factors such as the type of wood, hardware, and accessories chosen will all influence the final price. For an accurate estimate, Hometelligent Inc. provides detailed proposals after an initial consultation to assess your specific design preferences and functional needs.",
+        "description": "Custom pantry costs vary by size, materials, and features; more complex designs with premium finishes increase the price."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

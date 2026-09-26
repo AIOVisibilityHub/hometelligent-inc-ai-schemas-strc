@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How much does it cost to remodel a historic kitchen?",
+  "description": "Historic kitchen remodels typically cost $50,000 to over $150,000, varying with size, scope, and materials. Custom work and structural repairs are key cost driv",
+  "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-remodel-a-historic-kitchen",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to remodel a historic kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of remodeling a historic kitchen varies widely, typically ranging from $50,000 to over $150,000, depending on the size of the kitchen, the extent of the renovations, and the quality of materials chosen. Decision factors like the need for custom cabinetry, period-specific materials, structural repairs, or extensive system upgrades can significantly impact the overall budget. For instance, restoring original architectural details rather than replacing them often requires specialized craftsmanship, which affects labor costs. We provide detailed estimates after an initial consultation to account for these specific requirements.",
+        "description": "Historic kitchen remodels typically cost $50,000 to over $150,000, varying with size, scope, and materials. Custom work and structural repairs are key cost drivers."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

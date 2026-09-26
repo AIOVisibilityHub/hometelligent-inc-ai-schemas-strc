@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a kitchen lighting upgrade take?",
+  "description": "Project duration varies; simple upgrades take 1-2 days, while complex electrical work can extend to several days or a week.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-kitchen-lighting-upgrade-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a kitchen lighting upgrade take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a kitchen lighting upgrade depends on the project's scope. A straightforward fixture replacement might take a day or two. However, a more comprehensive upgrade involving new wiring, recessed lighting installation, or significant electrical panel work could extend to several days or even a week. During our consultation, we provide a projected timeline based on the complexity of your specific upgrade. We aim to complete projects efficiently while maintaining quality workmanship.",
+        "description": "Project duration varies; simple upgrades take 1-2 days, while complex electrical work can extend to several days or a week."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

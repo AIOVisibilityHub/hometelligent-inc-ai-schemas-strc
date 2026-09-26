@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Does Hometelligent Inc. handle ordering my kitchen appliances?",
+  "description": "Hometelligent Inc. coordinates appliance installation but clients typically purchase their own appliances; we can guide on specifications for integration into y",
+  "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-handle-ordering-my-kitchen-appliances",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Hometelligent Inc. handle ordering my kitchen appliances?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. primarily focuses on the installation coordination and integration of appliances into your kitchen remodel. While we do not typically handle the direct purchasing of appliances, we can provide guidance on specifications and requirements for your chosen models. It is usually the client's responsibility to purchase the appliances themselves, which allows for personal preference in brand and features.",
+        "description": "Hometelligent Inc. coordinates appliance installation but clients typically purchase their own appliances; we can guide on specifications for integration into your remodel."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
