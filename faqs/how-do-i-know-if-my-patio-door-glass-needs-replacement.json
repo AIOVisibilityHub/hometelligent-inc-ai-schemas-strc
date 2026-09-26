@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I know if my patio door glass needs replacement?",
+  "description": "Look for cracks, chips, condensation between panes, or drafts as signs that your patio door glass needs replacement.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-patio-door-glass-needs-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if my patio door glass needs replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common signs that your patio door glass needs replacement include visible cracks, chips, or shattering. For insulated glass units, fogging or condensation between the panes indicates a failed seal, leading to reduced energy efficiency. If you notice drafts or significantly increased energy bills related to the door, it may also be time to consider replacement. Addressing these issues promptly can prevent further damage and maintain your home's comfort.",
+        "description": "Look for cracks, chips, condensation between panes, or drafts as signs that your patio door glass needs replacement."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

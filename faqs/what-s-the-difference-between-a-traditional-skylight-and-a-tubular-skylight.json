@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What's the difference between a traditional skylight and a tubular skylight?",
+  "description": "Traditional skylights offer light and a view, while tubular skylights provide only light to interior spaces through a reflective tube, with simpler installation",
+  "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-a-traditional-skylight-and-a-tubular-skylight",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the difference between a traditional skylight and a tubular skylight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditional skylights are larger window-like structures that provide both light and a view, often requiring significant structural modifications. Tubular skylights, conversely, are smaller, capture sunlight through a dome on the roof, and channel it down a reflective tube to a diffuser in the ceiling, primarily offering light without a view. Tubular skylights are ideal for smaller, interior spaces and are generally quicker and less expensive to install, impacting the decision for homes in areas like Alameda or Berkeley where maximizing natural light in constrained spaces is valuable.",
+        "description": "Traditional skylights offer light and a view, while tubular skylights provide only light to interior spaces through a reflective tube, with simpler installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

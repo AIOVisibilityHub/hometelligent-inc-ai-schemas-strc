@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are typically used for custom fireplace surrounds?",
+  "description": "Common materials include natural stone, brick, wood, concrete, and metal. Your selection should align with your home's style and structural capacity.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-typically-used-for-custom-fireplace-surrounds",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are typically used for custom fireplace surrounds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom fireplace surrounds can be crafted from a variety of materials, including natural stone (marble, granite, limestone), brick, wood, concrete, and metal. The choice often depends on your home's architectural style, your aesthetic preferences, and the desired durability. For instance, stone offers classic elegance and heat resistance, while wood can provide warmth and be carved into intricate designs. Considering the overall weight and structural support required for heavier materials like stone is an important step in the planning phase.",
+        "description": "Common materials include natural stone, brick, wood, concrete, and metal. Your selection should align with your home's style and structural capacity."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

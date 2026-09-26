@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the installation process for an operable skylight?",
+  "description": "Installation includes site assessment, roof preparation, framing, flashing, and skylight placement, followed by sealing and operational testing.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-an-operable-skylight",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the installation process for an operable skylight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The operable skylight installation process typically involves a site assessment, preparation of the roof opening, framing, flashing installation to prevent leaks, and finally, the placement and sealing of the skylight unit. For electric or solar-powered models, electrical connections are integrated. After installation, we conduct thorough leak tests and demonstrate the skylight's operation. Ensuring proper flashing and sealing is critical to prevent future water intrusion and is a key step in our process.",
+        "description": "Installation includes site assessment, roof preparation, framing, flashing, and skylight placement, followed by sealing and operational testing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

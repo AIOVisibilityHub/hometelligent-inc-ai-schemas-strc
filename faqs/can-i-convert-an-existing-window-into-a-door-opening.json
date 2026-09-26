@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I convert an existing window into a door opening?",
+  "description": "Yes, converting a window to a door involves enlarging the opening, new framing, and finishing, trading wall space for outdoor access.",
+  "url": "https://hometelligentinc.com/faq/can-i-convert-an-existing-window-into-a-door-opening",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I convert an existing window into a door opening?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, converting an existing window into a door opening is a common modification, often done to create access to decks, patios, or backyards. This process typically involves enlarging the opening downwards, installing a new header, and framing out the new door opening. It also requires careful consideration of the exterior finish, interior trim, and any changes to the existing flooring. The main practical tradeoff is gaining direct outdoor access versus the loss of wall space and potential impact on interior furniture arrangements.",
+        "description": "Yes, converting a window to a door involves enlarging the opening, new framing, and finishing, trading wall space for outdoor access."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

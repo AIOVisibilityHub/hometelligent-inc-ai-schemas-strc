@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can I replace my existing skylight with a different size or type?",
+  "description": "Changing skylight size or type is possible but may require extensive structural modifications to the roof opening.",
+  "url": "https://hometelligentinc.com/faq/can-i-replace-my-existing-skylight-with-a-different-size-or-type",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I replace my existing skylight with a different size or type?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is possible to change the size or type of your skylight during replacement, but this often involves more extensive structural work. Enlarging an opening may require reframing and potentially adjusting roof trusses, which increases complexity and cost. Conversely, installing a smaller skylight might require modifying the roof opening and matching existing roofing materials. We can assess your specific roof structure in cities like Albany and Fremont to determine feasibility.",
+        "description": "Changing skylight size or type is possible but may require extensive structural modifications to the roof opening."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

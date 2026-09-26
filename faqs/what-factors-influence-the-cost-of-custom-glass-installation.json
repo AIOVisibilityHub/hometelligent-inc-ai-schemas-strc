@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of custom glass installation?",
+  "description": "Cost is influenced by glass type, thickness, design complexity, hardware, and labor. Larger, intricate projects like frameless showers cost more than simple tab",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-custom-glass-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of custom glass installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of custom glass installation varies based on several factors, including the type and thickness of the glass, the complexity of the design, the hardware required (e.g., hinges, channels, standoffs), and the labor involved. For example, a large, intricate frameless shower enclosure will typically cost more than a standard glass tabletop due to increased material and fabrication precision. When considering your budget, it's a practical tradeoff to weigh the initial investment against the long-term durability and aesthetic value of different glass options.",
+        "description": "Cost is influenced by glass type, thickness, design complexity, hardware, and labor. Larger, intricate projects like frameless showers cost more than simple tabletops."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

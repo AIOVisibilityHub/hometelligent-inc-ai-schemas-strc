@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How can I prepare my home for a skylight replacement project?",
+  "description": "Clear and cover the area below the skylight, ensure crew access, and inform neighbors about potential noise or equipment.",
+  "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-home-for-a-skylight-replacement-project",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I prepare my home for a skylight replacement project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prepare your home for a skylight replacement, clear the area directly below and around the skylight of furniture, electronics, and valuables to protect them from dust and debris. Cover any remaining items with drop cloths. Ensure clear access for our crew to the work area on both the interior and exterior of your home. It's also helpful to notify neighbors if there will be temporary noise or equipment staged outside, especially in residential areas like Piedmont or Montclair.",
+        "description": "Clear and cover the area below the skylight, ensure crew access, and inform neighbors about potential noise or equipment."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

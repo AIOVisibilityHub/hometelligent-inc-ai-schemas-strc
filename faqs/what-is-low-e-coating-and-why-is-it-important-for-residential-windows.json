@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is Low-E coating and why is it important for residential windows?",
+  "description": "Low-E coating is a transparent metal layer on glass that reflects heat, improving energy efficiency and blocking UV rays. It's important for year-round comfort",
+  "url": "https://hometelligentinc.com/faq/what-is-low-e-coating-and-why-is-it-important-for-residential-windows",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Low-E coating and why is it important for residential windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low-E (low-emissivity) coating is a microscopically thin, transparent metal layer applied to a window glass surface. It reflects infrared light, keeping heat inside during winter and outside during summer, significantly improving a window's energy performance. It also blocks harmful UV rays, protecting your furnishings from fading. This coating is especially important in regions like Fremont, which experience both warm summers and cooler winters, providing year-round comfort and energy savings. The practical tradeoff is a slightly higher cost for Low-E glass, but it offers enhanced insulation and UV protection.",
+        "description": "Low-E coating is a transparent metal layer on glass that reflects heat, improving energy efficiency and blocking UV rays. It's important for year-round comfort and protecting home interiors."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

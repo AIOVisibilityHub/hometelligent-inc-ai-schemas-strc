@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can you match existing trim or architectural details with new built-ins?",
+  "description": "Yes, we specialize in matching existing trim and architectural details. We use careful material selection, precise milling, and custom color matching to ensure",
+  "url": "https://hometelligentinc.com/faq/can-you-match-existing-trim-or-architectural-details-with-new-built-ins",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you match existing trim or architectural details with new built-ins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, matching existing trim or architectural details is a common request and one of our specialties. We strive to seamlessly integrate new custom built-ins with your home's current design elements. This often involves careful selection of wood species, precise milling to replicate existing profiles, and custom color matching for stains or paints. Providing photographs or samples of your existing trim during the consultation can greatly assist our craftsmen in achieving an accurate and harmonious match, ensuring the built-ins appear original to your home.",
+        "description": "Yes, we specialize in matching existing trim and architectural details. We use careful material selection, precise milling, and custom color matching to ensure seamless integration."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

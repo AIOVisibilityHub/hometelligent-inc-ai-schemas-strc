@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between general carpentry and fine carpentry?",
+  "description": "General carpentry focuses on structural and utilitarian tasks, while fine carpentry emphasizes intricate details, high-quality materials, and custom artistic de",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-general-carpentry-and-fine-carpentry",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between general carpentry and fine carpentry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main difference between general carpentry and fine carpentry lies in the level of detail, precision, and aesthetic focus. General carpentry typically involves structural work, framing, and more utilitarian tasks, emphasizing functionality and robustness. Fine carpentry, conversely, focuses on intricate details, exquisite finishes, high-quality materials, and custom designs that serve both functional and artistic purposes. While both require skill, fine carpentry demands a higher degree of craftsmanship and attention to aesthetic perfection. Hometelligent Inc. offers both, but fine carpentry projects involve more specialized techniques and a greater emphasis on the artistic elements of woodworking.",
+        "description": "General carpentry focuses on structural and utilitarian tasks, while fine carpentry emphasizes intricate details, high-quality materials, and custom artistic designs."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

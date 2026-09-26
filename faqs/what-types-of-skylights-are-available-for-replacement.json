@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of skylights are available for replacement?",
+  "description": "Options include fixed, venting (manual/electric), and tubular skylights, each offering different light and ventilation features.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-skylights-are-available-for-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of skylights are available for replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When replacing a skylight, you can choose from various types, including fixed, venting (manual or electric), and tubular skylights. Fixed skylights provide natural light without ventilation, while venting options allow for fresh air. Tubular skylights are suitable for smaller spaces and channel light through a reflective tube. The best choice depends on your needs for light, ventilation, and budget. For example, electric venting skylights often include rain sensors, a useful feature in areas like Alameda.",
+        "description": "Options include fixed, venting (manual/electric), and tubular skylights, each offering different light and ventilation features."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

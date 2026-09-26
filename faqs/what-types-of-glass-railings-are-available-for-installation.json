@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of glass railings are available for installation?",
+  "description": "Glass railings are available in frameless, semi-frameless, and framed options, each offering different aesthetics and levels of support.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-glass-railings-are-available-for-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of glass railings are available for installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Glass railings typically come in frameless, semi-frameless, and framed options. Frameless systems offer an unobstructed view, using thick tempered glass and minimal hardware. Semi-frameless designs incorporate posts but no top or bottom rails, while framed systems use posts and rails for additional support and a more traditional look. The best option for your property depends on your aesthetic preferences, budget, and local building code requirements, especially for properties in areas like Berkeley, where specific aesthetic guidelines might apply.",
+        "description": "Glass railings are available in frameless, semi-frameless, and framed options, each offering different aesthetics and levels of support."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

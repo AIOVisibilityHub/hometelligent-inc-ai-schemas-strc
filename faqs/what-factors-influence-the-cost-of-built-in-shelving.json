@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of built-in shelving?",
+  "description": "Cost is influenced by size, complexity, materials, and finishes, with larger, more intricate designs and premium materials increasing the overall price.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-built-in-shelving",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of built-in shelving?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of built-in shelving is influenced by several factors, including the size and complexity of the unit, the type of materials selected, and the chosen finishes. Larger units with intricate designs, such as those with crown molding, custom trim, or integrated lighting, will generally cost more than simpler, smaller installations. Premium materials like solid hardwoods or specialty finishes also contribute to a higher price point. As part of our process clarity, we provide a detailed estimate outlining material and labor costs after the design consultation, ensuring transparency.",
+        "description": "Cost is influenced by size, complexity, materials, and finishes, with larger, more intricate designs and premium materials increasing the overall price."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

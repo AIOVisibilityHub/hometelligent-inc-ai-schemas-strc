@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to build a custom entertainment center?",
+  "description": "Timeline varies from weeks to months based on design complexity and material availability. An estimate is provided post-design.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-a-custom-entertainment-center",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to build a custom entertainment center?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for building a custom entertainment center can range from several weeks to a few months, depending on the complexity of the design, material availability, and our current project schedule. Simpler designs might have a shorter turnaround, while intricate units with custom finishes and complex integrations will naturally take longer. Hometelligent Inc. provides an estimated timeline after the design is finalized, allowing you to plan accordingly.",
+        "description": "Timeline varies from weeks to months based on design complexity and material availability. An estimate is provided post-design."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need to do anything to prepare my home for window frame repair?",
+  "description": "Clear the work area around affected windows by moving furniture, drapes, and outdoor items to provide clear access.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-to-do-anything-to-prepare-my-home-for-window-frame-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to do anything to prepare my home for window frame repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before window frame repair, we recommend clearing the work area around the affected windows, both inside and outside. This includes moving furniture, drapes, and outdoor potted plants or decorations. This preparation helps ensure our team has clear access and reduces the risk of damage to your belongings during the repair process.",
+        "description": "Clear the work area around affected windows by moving furniture, drapes, and outdoor items to provide clear access."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

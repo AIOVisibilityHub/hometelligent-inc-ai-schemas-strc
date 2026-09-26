@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can an operable skylight be installed on any roof type?",
+  "description": "Operable skylights fit most roof types, but installation varies by pitch and material; flat roofs need curb-mounted units.",
+  "url": "https://hometelligentinc.com/faq/can-an-operable-skylight-be-installed-on-any-roof-type",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can an operable skylight be installed on any roof type?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Operable skylights can be installed on most common roof types, including asphalt shingle, tile, and metal roofs. However, the complexity and specific flashing requirements may vary depending on the roof's pitch and material. Flat roofs require specific curb-mounted skylights, while low-slope roofs may need a higher curb to ensure proper water runoff. Our initial assessment will determine the best installation approach and any necessary modifications for your specific roof structure.",
+        "description": "Operable skylights fit most roof types, but installation varies by pitch and material; flat roofs need curb-mounted units."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can skylights cause leaks?",
+  "description": "Properly installed skylights should not leak, but faulty installation, degraded seals, or extreme weather can cause issues.",
+  "url": "https://hometelligentinc.com/faq/can-skylights-cause-leaks",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can skylights cause leaks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Properly installed skylights are designed to be leak-proof. However, leaks can occur if the installation is faulty, if the flashing or seals degrade over time, or due to severe weather conditions. Using high-quality materials and professional installation are critical for preventing leaks. A first-party insight we've gained from years of experience is that the quality of flashing and its integration with the existing roofing material are the most frequent points of failure; thus, we prioritize these details during every installation.",
+        "description": "Properly installed skylights should not leak, but faulty installation, degraded seals, or extreme weather can cause issues."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

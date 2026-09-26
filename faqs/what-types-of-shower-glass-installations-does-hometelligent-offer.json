@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of shower glass installations does Hometelligent offer?",
+  "description": "Hometelligent Inc. offers framed, semi-frameless, and frameless shower glass installations, each with different aesthetic and structural qualities.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-shower-glass-installations-does-hometelligent-offer",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of shower glass installations does Hometelligent offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hometelligent Inc. offers various shower glass installations, including framed, semi-frameless, and frameless designs. Frameless options provide a minimalist look, while framed designs offer more structural support and a classic appearance. The choice often depends on your bathroom's existing style, budget, and desired level of maintenance. We help assess which type best suits your design preferences and practical needs.",
+        "description": "Hometelligent Inc. offers framed, semi-frameless, and frameless shower glass installations, each with different aesthetic and structural qualities."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

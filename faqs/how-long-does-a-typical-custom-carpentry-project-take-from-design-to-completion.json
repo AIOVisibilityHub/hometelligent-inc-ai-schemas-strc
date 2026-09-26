@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical custom carpentry project take from design to completion?",
+  "description": "Custom carpentry timelines vary by project complexity, from weeks for small items to months for larger ones, depending on design, materials, and fabrication.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-custom-carpentry-project-take-from-design-to-completion",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical custom carpentry project take from design to completion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The timeline for a custom carpentry project varies significantly depending on its complexity, size, and material availability. A small built-in bookshelf might take a few weeks, while an extensive kitchen cabinet overhaul could span several months. The process typically includes initial consultation, design finalization, material sourcing, fabrication, and installation. We provide a detailed project timeline after understanding your specific requirements during the initial consultation.",
+        "description": "Custom carpentry timelines vary by project complexity, from weeks for small items to months for larger ones, depending on design, materials, and fabrication."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

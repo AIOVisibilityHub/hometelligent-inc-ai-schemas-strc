@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is custom carpentry and how does it differ from pre-fabricated options?",
+  "description": "Custom carpentry creates unique, tailored wooden items, unlike standard pre-fabricated options, allowing for precise fit and personalized design.",
+  "url": "https://hometelligentinc.com/faq/what-is-custom-carpentry-and-how-does-it-differ-from-pre-fabricated-options",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is custom carpentry and how does it differ from pre-fabricated options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom carpentry involves building unique, tailor-made wooden structures and features to specific designs and dimensions, offering complete personalization. In contrast, pre-fabricated options are mass-produced and come in standard sizes and styles. Custom carpentry allows for precise integration into unique spaces and uses specific materials or finishes, which is ideal for irregular layouts or when a distinct aesthetic is desired.",
+        "description": "Custom carpentry creates unique, tailored wooden items, unlike standard pre-fabricated options, allowing for precise fit and personalized design."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

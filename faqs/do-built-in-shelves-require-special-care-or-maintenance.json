@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do built-in shelves require special care or maintenance?",
+  "description": "Built-in shelves require minimal care, typically regular dusting and cleaning with a mild cleaner appropriate for the material and finish.",
+  "url": "https://hometelligentinc.com/faq/do-built-in-shelves-require-special-care-or-maintenance",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do built-in shelves require special care or maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Built-in shelves generally require minimal maintenance, similar to other fine cabinetry and furniture in your home. Regular dusting and occasional cleaning with a mild, non-abrasive cleaner suitable for the material's finish are usually sufficient. For painted or stained wood shelves, avoiding harsh chemicals helps preserve the finish. If your built-ins include integrated lighting, routine checks of bulbs or LED strips may be needed. Proper preparation, such as protecting the shelves from excessive moisture or direct sunlight, can prolong their lifespan and maintain their appearance.",
+        "description": "Built-in shelves require minimal care, typically regular dusting and cleaning with a mild cleaner appropriate for the material and finish."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the installation process for a tubular skylight?",
+  "description": "Installation includes cutting roof/ceiling openings, installing flashing, assembling the light tube, and finishing with a ceiling diffuser.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-a-tubular-skylight",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the installation process for a tubular skylight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The installation process involves several steps: first, determining the optimal location on the roof and ceiling. Then, cutting openings in both surfaces, installing the roof flashing to create a watertight seal, assembling and connecting the reflective light tube, and finally, installing the diffuser in the ceiling. Our technicians ensure proper insulation and sealing to prevent leaks and maintain energy efficiency, following Hometelligent's quality standards for construction projects.",
+        "description": "Installation includes cutting roof/ceiling openings, installing flashing, assembling the light tube, and finishing with a ceiling diffuser."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Does Hometelligent Inc. offer design assistance for custom glass projects?",
+  "description": "Yes, Hometelligent Inc. offers design assistance, guiding clients through glass type, thickness, edge work, and hardware selection for projects, especially comp",
+  "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-design-assistance-for-custom-glass-projects",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Hometelligent Inc. offer design assistance for custom glass projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hometelligent Inc. provides comprehensive design assistance for all custom glass projects. Our team works with clients from concept to completion, helping them select the right glass type, thickness, edge work, and hardware to complement their space. This service is particularly beneficial for complex projects like integrating glass features into unique architectural styles found in areas such as Montclair or Piedmont. Our process includes reviewing your vision, suggesting aesthetic and functional options, and creating detailed plans to ensure the final product meets your expectations.",
+        "description": "Yes, Hometelligent Inc. offers design assistance, guiding clients through glass type, thickness, edge work, and hardware selection for projects, especially complex ones in unique architectural areas."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

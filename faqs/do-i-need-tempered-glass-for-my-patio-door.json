@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need tempered glass for my patio door?",
+  "description": "Yes, tempered glass is usually required by building codes for patio doors to enhance safety.",
+  "url": "https://hometelligentinc.com/faq/do-i-need-tempered-glass-for-my-patio-door",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need tempered glass for my patio door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, building codes typically require tempered safety glass for patio doors due to their size and proximity to walkways. Tempered glass is manufactured to shatter into small, blunt pieces rather than sharp shards, significantly reducing the risk of injury if broken. This is a crucial safety feature for all homes, including those in high-traffic areas like Dublin or Walnut Creek.",
+        "description": "Yes, tempered glass is usually required by building codes for patio doors to enhance safety."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

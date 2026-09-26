@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What are the differences between framed and frameless shower glass?",
+  "description": "Framed enclosures have metal frames, offering support and lower cost. Frameless use thicker glass and minimal hardware for a modern look, but require precise in",
+  "url": "https://hometelligentinc.com/faq/what-are-the-differences-between-framed-and-frameless-shower-glass",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the differences between framed and frameless shower glass?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Framed shower enclosures feature metal around the edges of the glass panels, offering robust support and often a lower cost. Frameless enclosures use thicker glass and minimal hardware, creating an open, modern aesthetic that is easier to clean. The choice between them often involves a tradeoff: framed offers more design flexibility for uneven openings but a more traditional look, while frameless provides a sleek appearance with less visual interruption, but requires precise measurements for a tight fit and a flat, level shower curb.",
+        "description": "Framed enclosures have metal frames, offering support and lower cost. Frameless use thicker glass and minimal hardware for a modern look, but require precise installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

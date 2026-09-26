@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of roof windows are available, and how do I choose the right one?",
+  "description": "Types include pivot, top-hung, and fixed windows; each suits different needs for light, ventilation, and access. Choose based on room purpose, roof pitch, and c",
+  "url": "https://hometelligentinc.com/faq/what-types-of-roof-windows-are-available-and-how-do-i-choose-the-right-one",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of roof windows are available, and how do I choose the right one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Roof windows come in various types, including pivot, top-hung, and fixed options, each suited for different functional and aesthetic needs. Pivot windows are ideal for hard-to-reach areas as they rotate for easy cleaning, while top-hung windows offer unobstructed views and are common in accessible spaces. Fixed windows are for light only where ventilation isn't needed. Your choice should consider the room's purpose, roof pitch, accessibility for cleaning, and desired ventilation. Hometelligent can help you assess these factors to select the best fit for your home.",
+        "description": "Types include pivot, top-hung, and fixed windows; each suits different needs for light, ventilation, and access. Choose based on room purpose, roof pitch, and cleaning access."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can glass railings be installed on an existing deck or balcony?",
+  "description": "Glass railings can be installed on existing structures, but a structural assessment is essential to ensure the deck or balcony can support the weight.",
+  "url": "https://hometelligentinc.com/faq/can-glass-railings-be-installed-on-an-existing-deck-or-balcony",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can glass railings be installed on an existing deck or balcony?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, glass railings can often be installed on existing decks or balconies, but a structural assessment is crucial. The existing structure must be able to support the weight of the glass panels and hardware, especially for frameless systems that exert more stress on mounting points. Before installation, we conduct a thorough evaluation of your current deck or balcony to ensure it meets the necessary safety and structural requirements, potentially recommending reinforcements if needed.",
+        "description": "Glass railings can be installed on existing structures, but a structural assessment is essential to ensure the deck or balcony can support the weight."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

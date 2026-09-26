@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the process for designing and building a custom entertainment center?",
+  "description": "The process includes consultation, design proposal with renderings, fabrication, and professional installation.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-and-building-a-custom-entertainment-center",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the process for designing and building a custom entertainment center?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The process typically begins with an initial consultation to discuss your vision, space, and functional requirements. Next, Hometelligent Inc. develops a design proposal, including 3D renderings and material selections. Once approved, the construction phase involves precise fabrication and professional installation, ensuring seamless integration with your home. Throughout the process, communication is key to ensure the final product meets your expectations and complements your living space.",
+        "description": "The process includes consultation, design proposal with renderings, fabrication, and professional installation."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

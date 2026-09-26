@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What is the difference between skylight repair and replacement?",
+  "description": "Repair fixes minor issues in newer units, while replacement involves installing an entirely new unit for older or extensively damaged skylights.",
+  "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-skylight-repair-and-replacement",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between skylight repair and replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Skylight repair addresses minor issues such as re-sealing a small leak or replacing a single pane of glass, typically for newer skylights with localized problems. Replacement, on the other hand, involves removing the entire existing unit and installing a new one, which is recommended for older skylights, extensive leaks, or significant frame damage. The choice between repair and replacement often comes down to the extent of the damage and the age of the unit; older units are usually more cost-effective to replace for long-term performance.",
+        "description": "Repair fixes minor issues in newer units, while replacement involves installing an entirely new unit for older or extensively damaged skylights."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

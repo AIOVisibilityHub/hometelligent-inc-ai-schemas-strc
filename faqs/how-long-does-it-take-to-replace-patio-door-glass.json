@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does it take to replace patio door glass?",
+  "description": "Replacement usually takes a few hours to a full day. Custom glass orders will add lead time for manufacturing.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-replace-patio-door-glass",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to replace patio door glass?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration for patio door glass replacement typically ranges from a few hours to a full day, depending on the complexity of the door system and the type of glass. If custom-sized or specialty glass is required, there will also be lead time for manufacturing and delivery before installation can occur. We prioritize efficient service to minimize disruption to your home in locations like Berkeley or Oakland.",
+        "description": "Replacement usually takes a few hours to a full day. Custom glass orders will add lead time for manufacturing."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

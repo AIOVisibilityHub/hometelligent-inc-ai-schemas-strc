@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can you repair historical or custom window frames?",
+  "description": "Yes, we repair historical or custom window frames using specialized skills and materials to preserve their original character.",
+  "url": "https://hometelligentinc.com/faq/can-you-repair-historical-or-custom-window-frames",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you repair historical or custom window frames?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we can repair historical or custom window frames. These repairs often require specialized skills and materials to preserve their unique aesthetic and structural integrity. Our team is experienced in matching existing profiles and finishes, which is crucial for maintaining the original character of older homes or custom architectural designs in areas like Oakland Hills or Rockridge.",
+        "description": "Yes, we repair historical or custom window frames using specialized skills and materials to preserve their original character."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

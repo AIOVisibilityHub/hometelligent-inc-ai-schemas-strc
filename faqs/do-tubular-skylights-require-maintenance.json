@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do tubular skylights require maintenance?",
+  "description": "Tubular skylights require minimal maintenance, primarily occasional inspection of roof flashing for wear.",
+  "url": "https://hometelligentinc.com/faq/do-tubular-skylights-require-maintenance",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do tubular skylights require maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tubular skylights are generally low-maintenance. The exterior dome is self-cleaning with rainwater, and the interior components are sealed, preventing dust accumulation. Periodically, you might inspect the roof flashing for any signs of wear or damage, especially after heavy storms. If you notice any condensation or diminished light, it's advisable to have a professional inspect the unit for potential issues with the seal or tube integrity.",
+        "description": "Tubular skylights require minimal maintenance, primarily occasional inspection of roof flashing for wear."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

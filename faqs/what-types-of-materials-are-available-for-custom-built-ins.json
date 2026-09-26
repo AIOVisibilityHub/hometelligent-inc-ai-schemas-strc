@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials are available for custom built-ins?",
+  "description": "We use materials like MDF, plywood, and solid hardwoods (maple, oak, cherry) for custom built-ins. Material choice affects durability, finish, and cost.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-available-for-custom-built-ins",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are available for custom built-ins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a range of materials for custom built-ins to suit various styles and budgets. Common options include MDF (medium-density fiberboard) for painted finishes, plywood for durability, and solid hardwoods like maple, oak, or cherry for stained or natural wood looks. We also work with specialty veneers and laminates for unique aesthetics. The choice of material impacts durability, finish quality, and overall cost. When selecting materials, consider the intended use, desired aesthetic, and your budget, as solid wood options will generally be more costly than MDF or plywood.",
+        "description": "We use materials like MDF, plywood, and solid hardwoods (maple, oak, cherry) for custom built-ins. Material choice affects durability, finish, and cost."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

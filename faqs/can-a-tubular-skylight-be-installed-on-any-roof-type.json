@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can a tubular skylight be installed on any roof type?",
+  "description": "Yes, tubular skylights can be installed on most roof types using specific flashing kits, provided there's attic space and good sun exposure.",
+  "url": "https://hometelligentinc.com/faq/can-a-tubular-skylight-be-installed-on-any-roof-type",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a tubular skylight be installed on any roof type?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tubular skylights can be installed on most common roof types, including asphalt shingles, tile, metal, and flat roofs. Specific flashing kits are available for different materials to ensure a watertight seal. The primary consideration is ensuring adequate space in the attic for the light tube and a suitable location on the roof that receives sufficient sunlight without major obstructions. A professional assessment can determine feasibility for unique roof structures.",
+        "description": "Yes, tubular skylights can be installed on most roof types using specific flashing kits, provided there's attic space and good sun exposure."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

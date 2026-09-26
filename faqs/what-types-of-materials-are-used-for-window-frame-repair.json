@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What types of materials are used for window frame repair?",
+  "description": "Materials include wood, epoxy fillers, sealants, and primers, chosen based on existing frame material and damage for durability.",
+  "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-used-for-window-frame-repair",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are used for window frame repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The types of materials used for window frame repair depend on the existing frame material and the extent of the damage. Common materials include various wood species, epoxy fillers for rot repair, sealants, and primers. We prioritize using high-quality, durable materials that are compatible with your existing frames and local climate conditions to ensure a lasting repair.",
+        "description": "Materials include wood, epoxy fillers, sealants, and primers, chosen based on existing frame material and damage for durability."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

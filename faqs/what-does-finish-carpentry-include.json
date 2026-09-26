@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What does finish carpentry include?",
+  "description": "Finish carpentry involves installing visible, aesthetic elements like trim, molding, and built-ins to complete a home's interior look.",
+  "url": "https://hometelligentinc.com/faq/what-does-finish-carpentry-include",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does finish carpentry include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Finish carpentry focuses on the visible, aesthetic elements of a home's interior, creating a polished and refined look. This includes the installation of trim, molding, baseboards, crown molding, door and window casings, wainscoting, and built-in shelving or cabinetry. The work typically happens after the main construction phases, like framing and drywall, are complete, ensuring a smooth and clean surface for these decorative elements. Choosing the right style and material for these components significantly impacts the overall architectural character and feel of your space.",
+        "description": "Finish carpentry involves installing visible, aesthetic elements like trim, molding, and built-ins to complete a home's interior look."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

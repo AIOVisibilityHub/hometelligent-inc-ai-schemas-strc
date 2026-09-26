@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I prepare my room for a custom media wall installation?",
+  "description": "Prepare by clearing the area, protecting surfaces, and confirming TV/speaker placement and electrical needs with your contractor.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-room-for-a-custom-media-wall-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I prepare my room for a custom media wall installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preparing your room involves clearing the designated wall area, removing existing furniture, and protecting floors and nearby items. It's also helpful to determine the exact placement of your TV and speakers beforehand. As a preparation step, consider the current electrical outlets and internet connections, and discuss with your contractor if any relocations or additions are needed before construction begins.",
+        "description": "Prepare by clearing the area, protecting surfaces, and confirming TV/speaker placement and electrical needs with your contractor."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

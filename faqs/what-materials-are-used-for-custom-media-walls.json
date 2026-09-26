@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What materials are used for custom media walls?",
+  "description": "Custom media walls use materials like wood, MDF, plywood, stone, glass, or metal, affecting durability and cost.",
+  "url": "https://hometelligentinc.com/faq/what-materials-are-used-for-custom-media-walls",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials are used for custom media walls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom media walls can be constructed from various materials, including wood (such as oak, maple, or walnut), MDF, plywood, and sometimes elements like stone, glass, or metal. The choice of material impacts the final look, durability, and cost. When preparing for a project, consider the existing finishes in your home and your desired aesthetic to help guide material selection.",
+        "description": "Custom media walls use materials like wood, MDF, plywood, stone, glass, or metal, affecting durability and cost."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

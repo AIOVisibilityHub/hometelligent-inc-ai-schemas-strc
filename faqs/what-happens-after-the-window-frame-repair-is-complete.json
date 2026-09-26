@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What happens after the window frame repair is complete?",
+  "description": "After repair, we perform a thorough cleanup, conduct a final inspection with you, and provide maintenance guidance.",
+  "url": "https://hometelligentinc.com/faq/what-happens-after-the-window-frame-repair-is-complete",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens after the window frame repair is complete?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After the window frame repair is complete, our team will conduct a thorough cleanup of the work area. We will also perform a final inspection with you to ensure your satisfaction with the repair work and address any questions. We provide guidance on basic maintenance to help prolong the life of your newly repaired frames.",
+        "description": "After repair, we perform a thorough cleanup, conduct a final inspection with you, and provide maintenance guidance."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

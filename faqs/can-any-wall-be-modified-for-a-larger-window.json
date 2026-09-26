@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Can any wall be modified for a larger window?",
+  "description": "Most walls can be modified, but load-bearing walls require more extensive structural support and careful engineering.",
+  "url": "https://hometelligentinc.com/faq/can-any-wall-be-modified-for-a-larger-window",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can any wall be modified for a larger window?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While most walls can be modified, not all are equally suitable for large window enlargements. Load-bearing walls require more extensive structural support, such as new or reinforced headers, compared to non-load-bearing walls. We always conduct a thorough structural analysis to determine the feasibility and engineering requirements, advising on the safest and most effective approach for your specific home's construction.",
+        "description": "Most walls can be modified, but load-bearing walls require more extensive structural support and careful engineering."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

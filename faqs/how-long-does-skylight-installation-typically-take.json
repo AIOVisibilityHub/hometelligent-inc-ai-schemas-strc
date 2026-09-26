@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does skylight installation typically take?",
+  "description": "Skylight installation usually takes 1-2 days, with complexity and roof structure influencing the timeline.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-skylight-installation-typically-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does skylight installation typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Skylight installation typically takes one to two days for a single skylight, depending on the complexity of the roof structure and whether new framing is required. Factors like roof pitch, material, and the need for interior finishing can influence the timeline. For instance, replacing an existing skylight might be quicker than installing one in a new location that requires significant structural modifications. We always ensure proper weatherproofing and flashing, which are crucial steps that contribute to the overall installation duration.",
+        "description": "Skylight installation usually takes 1-2 days, with complexity and roof structure influencing the timeline."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

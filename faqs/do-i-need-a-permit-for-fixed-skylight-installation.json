@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Do I need a permit for fixed skylight installation?",
+  "description": "Yes, a building permit is usually required for fixed skylight installation due to structural changes and compliance with local building codes. Failing to obtain",
+  "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-fixed-skylight-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a permit for fixed skylight installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, fixed skylight installation typically requires a building permit. This is because it involves making structural changes to your roof and ensuring the installation meets local building codes for safety, structural integrity, and energy efficiency. Failing to obtain a permit can lead to fines, difficulties with insurance, and problems when selling your home. Hometelligent Inc. can assist with the permitting process in cities like Berkeley or Oakland, ensuring all necessary regulations are met before work begins.",
+        "description": "Yes, a building permit is usually required for fixed skylight installation due to structural changes and compliance with local building codes. Failing to obtain one can result in fines and other issues."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

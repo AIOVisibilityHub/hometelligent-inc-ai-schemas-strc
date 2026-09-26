@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How long does a typical tubular skylight installation take?",
+  "description": "Most tubular skylight installations take a few hours to a day, depending on complexity and attic/roof conditions.",
+  "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-tubular-skylight-installation-take",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical tubular skylight installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard tubular skylight installation typically takes a few hours to a full day, depending on the complexity and the number of units. Our team prioritizes efficient and clean work, ensuring minimal disruption to your daily routine. The process includes roof penetration, tube assembly, ceiling finish, and sealing all connections. Factors like attic accessibility and roof pitch can affect the total installation time.",
+        "description": "Most tubular skylight installations take a few hours to a day, depending on complexity and attic/roof conditions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

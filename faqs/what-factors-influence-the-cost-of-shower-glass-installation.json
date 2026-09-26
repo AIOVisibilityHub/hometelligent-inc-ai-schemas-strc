@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "What factors influence the cost of shower glass installation?",
+  "description": "Cost factors include glass type and thickness, design (framed vs. frameless), hardware finish, and custom cuts for unique shower dimensions.",
+  "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-shower-glass-installation",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What factors influence the cost of shower glass installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of shower glass installation is influenced by several factors, including the type of glass (e.g., clear, frosted, low-iron), its thickness, and the design (framed, semi-frameless, or frameless). The hardware finish, such as chrome, brushed nickel, or matte black, also impacts the price. Additionally, any custom cuts for sloped ceilings or unique shower dimensions will add to the overall expense. During an initial consultation, we provide a detailed estimate based on your specific choices and bathroom layout.",
+        "description": "Cost factors include glass type and thickness, design (framed vs. frameless), hardware finish, and custom cuts for unique shower dimensions."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

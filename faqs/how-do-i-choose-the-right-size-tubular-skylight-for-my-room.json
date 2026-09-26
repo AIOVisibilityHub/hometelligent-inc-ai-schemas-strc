@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right size tubular skylight for my room?",
+  "description": "Select tubular skylight size based on room size, ceiling height, and desired light level; a consultation can help determine the best fit.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-size-tubular-skylight-for-my-room",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right size tubular skylight for my room?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right tubular skylight size depends on the room's square footage, ceiling height, and desired light level. Generally, smaller rooms like hallways or bathrooms may benefit from a 10-inch diameter, while larger areas such as kitchens or living rooms might require 14-inch or 21-inch units for optimal illumination. An on-site consultation helps determine the best size by evaluating your specific space and lighting goals.",
+        "description": "Select tubular skylight size based on room size, ceiling height, and desired light level; a consultation can help determine the best fit."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}

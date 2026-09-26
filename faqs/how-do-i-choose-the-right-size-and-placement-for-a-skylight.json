@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "How do I choose the right size and placement for a skylight?",
+  "description": "Choose skylight size and placement based on room function, desired light, and roof structure, aiming for 3-5% of the floor area.",
+  "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-size-and-placement-for-a-skylight",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the right size and placement for a skylight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choosing the right size and placement for a skylight involves considering the room's function, desired light level, and roof structure. Generally, a skylight area equivalent to 3-5% of the room's floor area is recommended for adequate light. Placement should optimize natural light throughout the day and avoid direct glare. A practical tradeoff to consider is balancing the desire for maximum natural light with potential heat gain in warmer months; strategic placement and glazing options can help mitigate this.",
+        "description": "Choose skylight size and placement based on room function, desired light, and roof structure, aiming for 3-5% of the floor area."
+      }
+    }
+  ],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".faq-question",
+      ".faq-answer",
+      "[itemprop=\"acceptedAnswer\"]"
+    ]
+  }
+}
