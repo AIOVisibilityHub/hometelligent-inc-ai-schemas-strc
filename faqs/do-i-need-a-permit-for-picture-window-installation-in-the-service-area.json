@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for picture window installation in the service area?",
-  "description": "Permit requirements for picture window installation depend on local building codes and if structural changes are made. Hometelligent can assist with determining",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-picture-window-installation-in-the-service-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for picture window installation in the service area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether a permit is required depends on the scope of work and local building codes in your specific city within our service area, such as Oakland or Fremont. Simple replacement of an existing window with one of the same size typically does not require a permit. However, if the project involves altering the structural opening or changing the size of the window, a permit is often necessary. Hometelligent can help determine permit requirements for your project.",
-        "description": "Permit requirements for picture window installation depend on local building codes and if structural changes are made. Hometelligent can assist with determining this."
-      }
-    }
-  ],
+  "name": "Do I need a permit for picture window installation in the service area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for picture window installation in the service area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether a permit is required depends on the scope of work and local building codes in your specific city within our service area, such as Oakland or Fremont. Simple replacement of an existing window with one of the same size typically does not require a permit. However, if the project involves altering the structural opening or changing the size of the window, a permit is often necessary. Hometelligent can help determine permit requirements for your project.",
+        "@type": "Answer",
+        "description": "Permit requirements for picture window installation depend on local building codes and if structural changes are made. Hometelligent can assist with determining this."
+      }
+    }
+  ],
+  "description": "Permit requirements for picture window installation depend on local building codes and if structural changes are made. Hometelligent can assist with determining"
 }

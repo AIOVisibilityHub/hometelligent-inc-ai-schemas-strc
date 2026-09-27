@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it typically take to construct an outdoor dining area?",
-  "description": "Construction time for an outdoor dining area depends on size, design complexity, permitting, and weather, typically ranging from a few weeks to several months.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-construct-an-outdoor-dining-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it typically take to construct an outdoor dining area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for constructing an outdoor dining area varies significantly based on its size, design complexity, and the need for permitting. Simple patios might take a few weeks, while more elaborate designs with custom features could extend to several months. Weather conditions can also impact the schedule, especially during rainy seasons. We provide a detailed project timeline after the initial design and scope are finalized, ensuring you understand each phase from groundbreaking to completion.",
-        "description": "Construction time for an outdoor dining area depends on size, design complexity, permitting, and weather, typically ranging from a few weeks to several months."
-      }
-    }
-  ],
+  "name": "How long does it typically take to construct an outdoor dining area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it typically take to construct an outdoor dining area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for constructing an outdoor dining area varies significantly based on its size, design complexity, and the need for permitting. Simple patios might take a few weeks, while more elaborate designs with custom features could extend to several months. Weather conditions can also impact the schedule, especially during rainy seasons. We provide a detailed project timeline after the initial design and scope are finalized, ensuring you understand each phase from groundbreaking to completion.",
+        "@type": "Answer",
+        "description": "Construction time for an outdoor dining area depends on size, design complexity, permitting, and weather, typically ranging from a few weeks to several months."
+      }
+    }
+  ],
+  "description": "Construction time for an outdoor dining area depends on size, design complexity, permitting, and weather, typically ranging from a few weeks to several months."
 }

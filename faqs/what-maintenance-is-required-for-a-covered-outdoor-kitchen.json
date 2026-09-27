@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for a covered outdoor kitchen?",
-  "description": "Maintenance involves regular cleaning of appliances, surfaces, and the cover. Periodic sealing may be needed for some materials. Ongoing care is a practical tra",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-covered-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for a covered outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance for a covered outdoor kitchen primarily involves regular cleaning of appliances, countertops, and the protective cover to prevent dirt and debris buildup. Depending on the materials chosen, you may also need to periodically seal natural stone surfaces or treat wood components. A practical tradeoff is that while a covered kitchen offers protection from the elements, it still requires ongoing care to ensure longevity and optimal performance. Neglecting maintenance can lead to accelerated wear and tear, reducing the lifespan of your investment.",
-        "description": "Maintenance involves regular cleaning of appliances, surfaces, and the cover. Periodic sealing may be needed for some materials. Ongoing care is a practical tradeoff for longevity and performance."
-      }
-    }
-  ],
+  "name": "What maintenance is required for a covered outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for a covered outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance for a covered outdoor kitchen primarily involves regular cleaning of appliances, countertops, and the protective cover to prevent dirt and debris buildup. Depending on the materials chosen, you may also need to periodically seal natural stone surfaces or treat wood components. A practical tradeoff is that while a covered kitchen offers protection from the elements, it still requires ongoing care to ensure longevity and optimal performance. Neglecting maintenance can lead to accelerated wear and tear, reducing the lifespan of your investment.",
+        "@type": "Answer",
+        "description": "Maintenance involves regular cleaning of appliances, surfaces, and the cover. Periodic sealing may be needed for some materials. Ongoing care is a practical tradeoff for longevity and performance."
+      }
+    }
+  ],
+  "description": "Maintenance involves regular cleaning of appliances, surfaces, and the cover. Periodic sealing may be needed for some materials. Ongoing care is a practical tra"
 }

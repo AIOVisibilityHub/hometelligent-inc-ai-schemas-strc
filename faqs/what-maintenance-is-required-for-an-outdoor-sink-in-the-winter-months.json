@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for an outdoor sink in the winter months?",
-  "description": "Winter maintenance includes shutting off water, draining pipes, and potentially covering the sink to prevent freezing and damage.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-an-outdoor-sink-in-the-winter-months",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for an outdoor sink in the winter months?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prevent damage during colder months, especially in areas that experience freezing temperatures, it's crucial to winterize your outdoor sink. This typically involves shutting off the water supply, draining all water from the pipes and faucet to prevent freezing and bursting, and disconnecting hoses. Covering the sink can also protect it from debris and prolong its life. Our installation guidance includes best practices for winterization specific to the Bay Area's climate.",
-        "description": "Winter maintenance includes shutting off water, draining pipes, and potentially covering the sink to prevent freezing and damage."
-      }
-    }
-  ],
+  "name": "What maintenance is required for an outdoor sink in the winter months?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for an outdoor sink in the winter months?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prevent damage during colder months, especially in areas that experience freezing temperatures, it's crucial to winterize your outdoor sink. This typically involves shutting off the water supply, draining all water from the pipes and faucet to prevent freezing and bursting, and disconnecting hoses. Covering the sink can also protect it from debris and prolong its life. Our installation guidance includes best practices for winterization specific to the Bay Area's climate.",
+        "@type": "Answer",
+        "description": "Winter maintenance includes shutting off water, draining pipes, and potentially covering the sink to prevent freezing and damage."
+      }
+    }
+  ],
+  "description": "Winter maintenance includes shutting off water, draining pipes, and potentially covering the sink to prevent freezing and damage."
 }

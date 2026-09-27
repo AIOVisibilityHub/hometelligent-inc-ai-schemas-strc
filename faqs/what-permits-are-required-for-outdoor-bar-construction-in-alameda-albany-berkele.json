@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for outdoor bar construction in Alameda, Albany, Berkeley, Dublin, or Emeryville?",
-  "description": "Permits are typically needed for outdoor bar construction involving plumbing, electrical, or significant structural changes, varying by city and project scope.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-outdoor-bar-construction-in-alameda-albany-berkele",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for outdoor bar construction in Alameda, Albany, Berkeley, Dublin, or Emeryville?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for outdoor bar construction vary by city and project scope. Generally, permits are needed for structures involving plumbing, electrical work, or significant structural changes, or if the bar exceeds certain size limitations. Hometelligent Inc. assists clients in Alameda, Albany, Berkeley, Dublin, and Emeryville with identifying and securing necessary permits from local building departments to ensure all construction is compliant with city codes.",
-        "description": "Permits are typically needed for outdoor bar construction involving plumbing, electrical, or significant structural changes, varying by city and project scope."
-      }
-    }
-  ],
+  "name": "What permits are required for outdoor bar construction in Alameda, Albany, Berkeley, Dublin, or Emeryville?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for outdoor bar construction in Alameda, Albany, Berkeley, Dublin, or Emeryville?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for outdoor bar construction vary by city and project scope. Generally, permits are needed for structures involving plumbing, electrical work, or significant structural changes, or if the bar exceeds certain size limitations. Hometelligent Inc. assists clients in Alameda, Albany, Berkeley, Dublin, and Emeryville with identifying and securing necessary permits from local building departments to ensure all construction is compliant with city codes.",
+        "@type": "Answer",
+        "description": "Permits are typically needed for outdoor bar construction involving plumbing, electrical, or significant structural changes, varying by city and project scope."
+      }
+    }
+  ],
+  "description": "Permits are typically needed for outdoor bar construction involving plumbing, electrical, or significant structural changes, varying by city and project scope."
 }

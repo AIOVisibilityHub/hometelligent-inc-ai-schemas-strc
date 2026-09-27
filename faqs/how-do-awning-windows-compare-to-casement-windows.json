@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do awning windows compare to casement windows?",
-  "description": "Awning windows hinge at the top, opening from the bottom; casement windows hinge at the side, opening like a door. Both offer good ventilation and efficiency.",
   "url": "https://hometelligentinc.com/faq/how-do-awning-windows-compare-to-casement-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do awning windows compare to casement windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Awning windows hinge at the top and open outward from the bottom, offering ventilation even during light rain, and are often used in smaller, higher locations. Casement windows, on the other hand, hinge at the side and open outward like a door, providing full top-to-bottom ventilation and unobstructed views. The choice often depends on the specific location in your home, desired ventilation patterns, and aesthetic preference. Both offer good energy efficiency when properly sealed.",
-        "description": "Awning windows hinge at the top, opening from the bottom; casement windows hinge at the side, opening like a door. Both offer good ventilation and efficiency."
-      }
-    }
-  ],
+  "name": "How do awning windows compare to casement windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do awning windows compare to casement windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Awning windows hinge at the top and open outward from the bottom, offering ventilation even during light rain, and are often used in smaller, higher locations. Casement windows, on the other hand, hinge at the side and open outward like a door, providing full top-to-bottom ventilation and unobstructed views. The choice often depends on the specific location in your home, desired ventilation patterns, and aesthetic preference. Both offer good energy efficiency when properly sealed.",
+        "@type": "Answer",
+        "description": "Awning windows hinge at the top, opening from the bottom; casement windows hinge at the side, opening like a door. Both offer good ventilation and efficiency."
+      }
+    }
+  ],
+  "description": "Awning windows hinge at the top, opening from the bottom; casement windows hinge at the side, opening like a door. Both offer good ventilation and efficiency."
 }

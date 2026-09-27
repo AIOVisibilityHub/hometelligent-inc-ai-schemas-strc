@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there specific regulations for outdoor kitchen lighting installation in Alameda?",
-  "description": "Installations in Alameda must comply with local building codes and electrical standards for safety. A contractor familiar with Alameda's ordinances ensures prop",
   "url": "https://hometelligentinc.com/faq/are-there-specific-regulations-for-outdoor-kitchen-lighting-installation-in-alam",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there specific regulations for outdoor kitchen lighting installation in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, outdoor kitchen lighting installations in Alameda, like other construction projects, must comply with local building codes and electrical standards. These regulations ensure safety and proper installation. Requirements can include specific wiring methods, conduit use, and adherence to minimum clearance distances from combustible materials. It's essential to work with a contractor familiar with Alameda's specific ordinances to ensure all installations meet these standards. This often involves obtaining necessary permits before beginning work.",
-        "description": "Installations in Alameda must comply with local building codes and electrical standards for safety. A contractor familiar with Alameda's ordinances ensures proper permitting and compliance."
-      }
-    }
-  ],
+  "name": "Are there specific regulations for outdoor kitchen lighting installation in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there specific regulations for outdoor kitchen lighting installation in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, outdoor kitchen lighting installations in Alameda, like other construction projects, must comply with local building codes and electrical standards. These regulations ensure safety and proper installation. Requirements can include specific wiring methods, conduit use, and adherence to minimum clearance distances from combustible materials. It's essential to work with a contractor familiar with Alameda's specific ordinances to ensure all installations meet these standards. This often involves obtaining necessary permits before beginning work.",
+        "@type": "Answer",
+        "description": "Installations in Alameda must comply with local building codes and electrical standards for safety. A contractor familiar with Alameda's ordinances ensures proper permitting and compliance."
+      }
+    }
+  ],
+  "description": "Installations in Alameda must comply with local building codes and electrical standards for safety. A contractor familiar with Alameda's ordinances ensures prop"
 }

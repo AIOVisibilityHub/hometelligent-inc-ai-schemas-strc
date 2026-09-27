@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to prepare my home for custom window installation?",
-  "description": "Yes, clear areas around windows, move furniture, and remove window treatments to provide installers with unobstructed access. Cover nearby items to protect from",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-prepare-my-home-for-custom-window-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to prepare my home for custom window installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, some preparation is typically required. Before installation day, it's helpful to clear the areas around the windows, both inside and out, to provide our team with unobstructed access. This includes moving furniture, removing window treatments, and taking down any wall hangings near the windows. We recommend covering any nearby items to protect them from dust. Our team will provide specific guidance during the planning phase to ensure a smooth and efficient installation.",
-        "description": "Yes, clear areas around windows, move furniture, and remove window treatments to provide installers with unobstructed access. Cover nearby items to protect from dust."
-      }
-    }
-  ],
+  "name": "Do I need to prepare my home for custom window installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to prepare my home for custom window installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, some preparation is typically required. Before installation day, it's helpful to clear the areas around the windows, both inside and out, to provide our team with unobstructed access. This includes moving furniture, removing window treatments, and taking down any wall hangings near the windows. We recommend covering any nearby items to protect them from dust. Our team will provide specific guidance during the planning phase to ensure a smooth and efficient installation.",
+        "@type": "Answer",
+        "description": "Yes, clear areas around windows, move furniture, and remove window treatments to provide installers with unobstructed access. Cover nearby items to protect from dust."
+      }
+    }
+  ],
+  "description": "Yes, clear areas around windows, move furniture, and remove window treatments to provide installers with unobstructed access. Cover nearby items to protect from"
 }

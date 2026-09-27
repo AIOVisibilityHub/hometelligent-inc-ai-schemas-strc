@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I replace a smaller window with a larger picture window?",
-  "description": "Yes, replacing a smaller window with a larger picture window is possible but often requires structural modifications and may need a permit.",
   "url": "https://hometelligentinc.com/faq/can-i-replace-a-smaller-window-with-a-larger-picture-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I replace a smaller window with a larger picture window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is possible to replace a smaller window with a larger picture window. This often involves structural modifications to the wall opening, which may require framing adjustments, lintel installation, and potentially a permit. While this expands views and light, it adds complexity to the project. Hometelligent will assess your home's structure and advise on feasibility and requirements for such an alteration.",
-        "description": "Yes, replacing a smaller window with a larger picture window is possible but often requires structural modifications and may need a permit."
-      }
-    }
-  ],
+  "name": "Can I replace a smaller window with a larger picture window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I replace a smaller window with a larger picture window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, it is possible to replace a smaller window with a larger picture window. This often involves structural modifications to the wall opening, which may require framing adjustments, lintel installation, and potentially a permit. While this expands views and light, it adds complexity to the project. Hometelligent will assess your home's structure and advise on feasibility and requirements for such an alteration.",
+        "@type": "Answer",
+        "description": "Yes, replacing a smaller window with a larger picture window is possible but often requires structural modifications and may need a permit."
+      }
+    }
+  ],
+  "description": "Yes, replacing a smaller window with a larger picture window is possible but often requires structural modifications and may need a permit."
 }

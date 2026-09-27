@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install outdoor kitchen lighting?",
-  "description": "Installation time varies from a day for simple additions to over a week for complex new systems, depending on scope and wiring needs. Weather and permits can af",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-outdoor-kitchen-lighting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install outdoor kitchen lighting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeline for outdoor kitchen lighting depends on the scope and complexity of the project. A simple addition of a few fixtures to an existing outdoor area might take a day or two. However, a comprehensive lighting plan for a new outdoor kitchen, involving extensive wiring, trenching, and multiple types of fixtures, could take several days to a week or more. The process can be affected by factors such as weather conditions and the need for permits. Coordinating with other construction phases can also streamline the timeline.",
-        "description": "Installation time varies from a day for simple additions to over a week for complex new systems, depending on scope and wiring needs. Weather and permits can affect the timeline."
-      }
-    }
-  ],
+  "name": "How long does it take to install outdoor kitchen lighting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install outdoor kitchen lighting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeline for outdoor kitchen lighting depends on the scope and complexity of the project. A simple addition of a few fixtures to an existing outdoor area might take a day or two. However, a comprehensive lighting plan for a new outdoor kitchen, involving extensive wiring, trenching, and multiple types of fixtures, could take several days to a week or more. The process can be affected by factors such as weather conditions and the need for permits. Coordinating with other construction phases can also streamline the timeline.",
+        "@type": "Answer",
+        "description": "Installation time varies from a day for simple additions to over a week for complex new systems, depending on scope and wiring needs. Weather and permits can affect the timeline."
+      }
+    }
+  ],
+  "description": "Installation time varies from a day for simple additions to over a week for complex new systems, depending on scope and wiring needs. Weather and permits can af"
 }

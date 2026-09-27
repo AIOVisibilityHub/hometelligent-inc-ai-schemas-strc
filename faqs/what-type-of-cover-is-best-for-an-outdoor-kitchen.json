@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of cover is best for an outdoor kitchen?",
-  "description": "Cover types vary from pergolas to full patio roofs, depending on climate and aesthetics. The tradeoff is between openness and weather protection, which impacts",
   "url": "https://hometelligentinc.com/faq/what-type-of-cover-is-best-for-an-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of cover is best for an outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best type of cover for an outdoor kitchen depends on your climate, aesthetic preferences, and budget. Options range from simple pergolas or awnings for partial shade to fully enclosed patio roofs or integrated extensions of your home for complete weather protection. A practical tradeoff exists between openness and protection; a pergola offers an airy feel but less rain protection, whereas a solid roof provides maximum shelter but can reduce natural light and ventilation. Your choice should align with how you plan to use the space and the level of year-round accessibility desired.",
-        "description": "Cover types vary from pergolas to full patio roofs, depending on climate and aesthetics. The tradeoff is between openness and weather protection, which impacts year-round use."
-      }
-    }
-  ],
+  "name": "What type of cover is best for an outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of cover is best for an outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best type of cover for an outdoor kitchen depends on your climate, aesthetic preferences, and budget. Options range from simple pergolas or awnings for partial shade to fully enclosed patio roofs or integrated extensions of your home for complete weather protection. A practical tradeoff exists between openness and protection; a pergola offers an airy feel but less rain protection, whereas a solid roof provides maximum shelter but can reduce natural light and ventilation. Your choice should align with how you plan to use the space and the level of year-round accessibility desired.",
+        "@type": "Answer",
+        "description": "Cover types vary from pergolas to full patio roofs, depending on climate and aesthetics. The tradeoff is between openness and weather protection, which impacts year-round use."
+      }
+    }
+  ],
+  "description": "Cover types vary from pergolas to full patio roofs, depending on climate and aesthetics. The tradeoff is between openness and weather protection, which impacts"
 }

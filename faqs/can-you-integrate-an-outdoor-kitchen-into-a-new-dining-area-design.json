@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can you integrate an outdoor kitchen into a new dining area design?",
-  "description": "Yes, we can integrate an outdoor kitchen, including plumbing, electrical, and gas lines, with weather-resistant appliances, into your dining area design for a c",
   "url": "https://hometelligentinc.com/faq/can-you-integrate-an-outdoor-kitchen-into-a-new-dining-area-design",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can you integrate an outdoor kitchen into a new dining area design?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, integrating an outdoor kitchen into your dining area design is a popular request and a specialty we offer. This involves planning for plumbing, electrical, and gas lines, as well as selecting appropriate weather-resistant appliances and countertops. We work to seamlessly blend the kitchen's functionality with the overall dining and entertainment space, ensuring a cohesive and enjoyable outdoor living experience. Consider how you intend to use the space most frequently when selecting kitchen components.",
-        "description": "Yes, we can integrate an outdoor kitchen, including plumbing, electrical, and gas lines, with weather-resistant appliances, into your dining area design for a cohesive space."
-      }
-    }
-  ],
+  "name": "Can you integrate an outdoor kitchen into a new dining area design?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can you integrate an outdoor kitchen into a new dining area design?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, integrating an outdoor kitchen into your dining area design is a popular request and a specialty we offer. This involves planning for plumbing, electrical, and gas lines, as well as selecting appropriate weather-resistant appliances and countertops. We work to seamlessly blend the kitchen's functionality with the overall dining and entertainment space, ensuring a cohesive and enjoyable outdoor living experience. Consider how you intend to use the space most frequently when selecting kitchen components.",
+        "@type": "Answer",
+        "description": "Yes, we can integrate an outdoor kitchen, including plumbing, electrical, and gas lines, with weather-resistant appliances, into your dining area design for a cohesive space."
+      }
+    }
+  ],
+  "description": "Yes, we can integrate an outdoor kitchen, including plumbing, electrical, and gas lines, with weather-resistant appliances, into your dining area design for a c"
 }

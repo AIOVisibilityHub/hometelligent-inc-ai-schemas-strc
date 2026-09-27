@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical lifespan of energy-efficient windows?",
-  "description": "Energy-efficient windows typically last 15-30 years, depending on material quality, installation, and maintenance. Proper installation by professionals can exte",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-lifespan-of-energy-efficient-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical lifespan of energy-efficient windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Properly installed and maintained energy-efficient windows can typically last between 15 to 30 years, and sometimes even longer. The lifespan depends on the quality of materials, the installation process, and how well they are cared for over time. Regular cleaning and ensuring seals remain intact can help prolong their effectiveness. High-quality windows installed by experienced professionals like Hometelligent Inc. are more likely to reach the higher end of this lifespan estimate, providing long-term value.",
-        "description": "Energy-efficient windows typically last 15-30 years, depending on material quality, installation, and maintenance. Proper installation by professionals can extend their lifespan."
-      }
-    }
-  ],
+  "name": "What is the typical lifespan of energy-efficient windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical lifespan of energy-efficient windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Properly installed and maintained energy-efficient windows can typically last between 15 to 30 years, and sometimes even longer. The lifespan depends on the quality of materials, the installation process, and how well they are cared for over time. Regular cleaning and ensuring seals remain intact can help prolong their effectiveness. High-quality windows installed by experienced professionals like Hometelligent Inc. are more likely to reach the higher end of this lifespan estimate, providing long-term value.",
+        "@type": "Answer",
+        "description": "Energy-efficient windows typically last 15-30 years, depending on material quality, installation, and maintenance. Proper installation by professionals can extend their lifespan."
+      }
+    }
+  ],
+  "description": "Energy-efficient windows typically last 15-30 years, depending on material quality, installation, and maintenance. Proper installation by professionals can exte"
 }

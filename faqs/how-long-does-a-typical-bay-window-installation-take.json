@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical bay window installation take?",
-  "description": "A typical bay window installation takes 1 to 3 days, though complex projects or structural changes can extend this timeline.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-bay-window-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical bay window installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation of a new bay window generally takes 1 to 3 days, depending on the complexity of the project and any structural modifications required. This timeline can extend if existing framing needs significant alteration or if custom materials are involved. Factors like the size of the window, material availability, and the specific structural needs of your property, particularly in older homes common in Berkeley or Albany, can influence the overall duration. We will provide a detailed project schedule after the initial assessment.",
-        "description": "A typical bay window installation takes 1 to 3 days, though complex projects or structural changes can extend this timeline."
-      }
-    }
-  ],
+  "name": "How long does a typical bay window installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical bay window installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation of a new bay window generally takes 1 to 3 days, depending on the complexity of the project and any structural modifications required. This timeline can extend if existing framing needs significant alteration or if custom materials are involved. Factors like the size of the window, material availability, and the specific structural needs of your property, particularly in older homes common in Berkeley or Albany, can influence the overall duration. We will provide a detailed project schedule after the initial assessment.",
+        "@type": "Answer",
+        "description": "A typical bay window installation takes 1 to 3 days, though complex projects or structural changes can extend this timeline."
+      }
+    }
+  ],
+  "description": "A typical bay window installation takes 1 to 3 days, though complex projects or structural changes can extend this timeline."
 }

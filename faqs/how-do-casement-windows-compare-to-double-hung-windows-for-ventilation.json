@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do casement windows compare to double-hung windows for ventilation?",
-  "description": "Casement windows offer superior ventilation by opening fully to catch breezes, while double-hung windows only open about halfway. This is a practical tradeoff f",
   "url": "https://hometelligentinc.com/faq/how-do-casement-windows-compare-to-double-hung-windows-for-ventilation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do casement windows compare to double-hung windows for ventilation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Casement windows generally offer superior ventilation compared to double-hung windows. Because casements open outwards completely from top to bottom, they can catch breezes and direct them into your home more effectively, often acting like a scoop. Double-hung windows, by contrast, typically open from the top or bottom, allowing only about half of the window area to be open for airflow at any given time. This practical tradeoff means casements are often preferred in areas where maximizing natural ventilation is a priority, such as warmer climates or rooms needing quick air circulation.",
-        "description": "Casement windows offer superior ventilation by opening fully to catch breezes, while double-hung windows only open about halfway. This is a practical tradeoff for maximizing airflow."
-      }
-    }
-  ],
+  "name": "How do casement windows compare to double-hung windows for ventilation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do casement windows compare to double-hung windows for ventilation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Casement windows generally offer superior ventilation compared to double-hung windows. Because casements open outwards completely from top to bottom, they can catch breezes and direct them into your home more effectively, often acting like a scoop. Double-hung windows, by contrast, typically open from the top or bottom, allowing only about half of the window area to be open for airflow at any given time. This practical tradeoff means casements are often preferred in areas where maximizing natural ventilation is a priority, such as warmer climates or rooms needing quick air circulation.",
+        "@type": "Answer",
+        "description": "Casement windows offer superior ventilation by opening fully to catch breezes, while double-hung windows only open about halfway. This is a practical tradeoff for maximizing airflow."
+      }
+    }
+  ],
+  "description": "Casement windows offer superior ventilation by opening fully to catch breezes, while double-hung windows only open about halfway. This is a practical tradeoff f"
 }

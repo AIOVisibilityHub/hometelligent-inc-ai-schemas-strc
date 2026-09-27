@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I replace an existing flat window with a bow window?",
-  "description": "Replacing a flat window with a bow window is possible but requires widening the opening, adding structural support, and adjusting surrounding finishes.",
   "url": "https://hometelligentinc.com/faq/can-i-replace-an-existing-flat-window-with-a-bow-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I replace an existing flat window with a bow window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is possible to replace an existing flat window with a bow window, but it requires careful planning and structural modifications. Since bow windows project outward, the existing opening will likely need to be widened and a new, stronger header installed to support the increased weight and projection. The exterior siding and interior wall finishes around the opening will also need to be adjusted to accommodate the new window's shape. This type of replacement is a significant renovation and should be planned with an experienced contractor to ensure structural integrity and proper sealing.",
-        "description": "Replacing a flat window with a bow window is possible but requires widening the opening, adding structural support, and adjusting surrounding finishes."
-      }
-    }
-  ],
+  "name": "Can I replace an existing flat window with a bow window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I replace an existing flat window with a bow window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, it is possible to replace an existing flat window with a bow window, but it requires careful planning and structural modifications. Since bow windows project outward, the existing opening will likely need to be widened and a new, stronger header installed to support the increased weight and projection. The exterior siding and interior wall finishes around the opening will also need to be adjusted to accommodate the new window's shape. This type of replacement is a significant renovation and should be planned with an experienced contractor to ensure structural integrity and proper sealing.",
+        "@type": "Answer",
+        "description": "Replacing a flat window with a bow window is possible but requires widening the opening, adding structural support, and adjusting surrounding finishes."
+      }
+    }
+  ],
+  "description": "Replacing a flat window with a bow window is possible but requires widening the opening, adding structural support, and adjusting surrounding finishes."
 }

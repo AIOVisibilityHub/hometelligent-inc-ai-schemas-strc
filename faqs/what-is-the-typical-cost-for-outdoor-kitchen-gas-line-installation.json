@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for outdoor kitchen gas line installation?",
-  "description": "Cost varies based on gas line length, trenching, and local permitting fees; a site visit is needed for an accurate estimate.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-outdoor-kitchen-gas-line-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for outdoor kitchen gas line installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost for outdoor kitchen gas line installation varies significantly based on factors like the length of the gas line, the type of trenching required, and the specific city's permitting fees. For instance, projects in areas like Berkeley might have different labor rates or material costs compared to those in Fremont. An accurate estimate requires a site visit to assess these variables and determine the scope of work. We provide detailed proposals after understanding your specific outdoor kitchen design.",
-        "description": "Cost varies based on gas line length, trenching, and local permitting fees; a site visit is needed for an accurate estimate."
-      }
-    }
-  ],
+  "name": "What is the typical cost for outdoor kitchen gas line installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for outdoor kitchen gas line installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost for outdoor kitchen gas line installation varies significantly based on factors like the length of the gas line, the type of trenching required, and the specific city's permitting fees. For instance, projects in areas like Berkeley might have different labor rates or material costs compared to those in Fremont. An accurate estimate requires a site visit to assess these variables and determine the scope of work. We provide detailed proposals after understanding your specific outdoor kitchen design.",
+        "@type": "Answer",
+        "description": "Cost varies based on gas line length, trenching, and local permitting fees; a site visit is needed for an accurate estimate."
+      }
+    }
+  ],
+  "description": "Cost varies based on gas line length, trenching, and local permitting fees; a site visit is needed for an accurate estimate."
 }

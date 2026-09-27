@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can picture windows improve my home's energy efficiency?",
-  "description": "Picture windows improve energy efficiency by reducing air leaks due to their fixed design. Energy-efficient glass options further enhance insulation and lower u",
   "url": "https://hometelligentinc.com/faq/how-can-picture-windows-improve-my-home-s-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can picture windows improve my home's energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Picture windows can significantly improve energy efficiency primarily because they are fixed and do not have operable parts, which reduces potential air leaks. When combined with energy-efficient glass options like double or triple glazing, low-emissivity (Low-E) coatings, or argon gas fills, they provide excellent insulation. This can help maintain stable indoor temperatures and reduce heating and cooling costs in your Alameda, Albany, or Berkeley home.",
-        "description": "Picture windows improve energy efficiency by reducing air leaks due to their fixed design. Energy-efficient glass options further enhance insulation and lower utility costs."
-      }
-    }
-  ],
+  "name": "How can picture windows improve my home's energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can picture windows improve my home's energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Picture windows can significantly improve energy efficiency primarily because they are fixed and do not have operable parts, which reduces potential air leaks. When combined with energy-efficient glass options like double or triple glazing, low-emissivity (Low-E) coatings, or argon gas fills, they provide excellent insulation. This can help maintain stable indoor temperatures and reduce heating and cooling costs in your Alameda, Albany, or Berkeley home.",
+        "@type": "Answer",
+        "description": "Picture windows improve energy efficiency by reducing air leaks due to their fixed design. Energy-efficient glass options further enhance insulation and lower utility costs."
+      }
+    }
+  ],
+  "description": "Picture windows improve energy efficiency by reducing air leaks due to their fixed design. Energy-efficient glass options further enhance insulation and lower u"
 }

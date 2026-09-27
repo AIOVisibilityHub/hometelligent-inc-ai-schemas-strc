@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical outdoor pizza oven installation take?",
-  "description": "Installation typically takes a few days for pre-fabricated ovens and several weeks for custom builds, depending on site preparation and complexity.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-outdoor-pizza-oven-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical outdoor pizza oven installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeline for an outdoor pizza oven varies based on the type of oven and site preparation required. A pre-fabricated oven installation might take a few days to a week, assuming the site is ready. Custom-built ovens or those requiring extensive base construction, utility lines (gas/electric), or landscape modifications could take several weeks. We provide a detailed project timeline after an initial site assessment.",
-        "description": "Installation typically takes a few days for pre-fabricated ovens and several weeks for custom builds, depending on site preparation and complexity."
-      }
-    }
-  ],
+  "name": "How long does a typical outdoor pizza oven installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical outdoor pizza oven installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeline for an outdoor pizza oven varies based on the type of oven and site preparation required. A pre-fabricated oven installation might take a few days to a week, assuming the site is ready. Custom-built ovens or those requiring extensive base construction, utility lines (gas/electric), or landscape modifications could take several weeks. We provide a detailed project timeline after an initial site assessment.",
+        "@type": "Answer",
+        "description": "Installation typically takes a few days for pre-fabricated ovens and several weeks for custom builds, depending on site preparation and complexity."
+      }
+    }
+  ],
+  "description": "Installation typically takes a few days for pre-fabricated ovens and several weeks for custom builds, depending on site preparation and complexity."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of outdoor sink materials are most durable for weather in the Bay Area?",
-  "description": "Stainless steel (304+), granite, and concrete are durable outdoor sink materials suitable for the Bay Area's weather. Consider resistance to UV, moisture, and t",
   "url": "https://hometelligentinc.com/faq/what-type-of-outdoor-sink-materials-are-most-durable-for-weather-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of outdoor sink materials are most durable for weather in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For durability in the Bay Area's varied climate, stainless steel (304 grade or higher) is an excellent choice for outdoor sinks due to its corrosion resistance and ease of cleaning. Granite and concrete are also robust options, offering distinct aesthetics and good weather resilience. When selecting materials, consider their resistance to UV exposure, moisture, and temperature fluctuations to ensure longevity and minimize maintenance. Our experience with local weather patterns helps us guide clients in choosing the best material for their specific needs.",
-        "description": "Stainless steel (304+), granite, and concrete are durable outdoor sink materials suitable for the Bay Area's weather. Consider resistance to UV, moisture, and temperature."
-      }
-    }
-  ],
+  "name": "What type of outdoor sink materials are most durable for weather in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of outdoor sink materials are most durable for weather in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For durability in the Bay Area's varied climate, stainless steel (304 grade or higher) is an excellent choice for outdoor sinks due to its corrosion resistance and ease of cleaning. Granite and concrete are also robust options, offering distinct aesthetics and good weather resilience. When selecting materials, consider their resistance to UV exposure, moisture, and temperature fluctuations to ensure longevity and minimize maintenance. Our experience with local weather patterns helps us guide clients in choosing the best material for their specific needs.",
+        "@type": "Answer",
+        "description": "Stainless steel (304+), granite, and concrete are durable outdoor sink materials suitable for the Bay Area's weather. Consider resistance to UV, moisture, and temperature."
+      }
+    }
+  ],
+  "description": "Stainless steel (304+), granite, and concrete are durable outdoor sink materials suitable for the Bay Area's weather. Consider resistance to UV, moisture, and t"
 }

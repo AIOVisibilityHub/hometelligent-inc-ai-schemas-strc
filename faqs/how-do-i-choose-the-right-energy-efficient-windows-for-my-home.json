@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right energy-efficient windows for my home?",
-  "description": "Select energy-efficient windows based on U-factor, SHGC, and air leakage ratings. Consider your home's sun exposure and climate for optimal heating and cooling",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-energy-efficient-windows-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right energy-efficient windows for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right energy-efficient windows involves evaluating factors like U-factor, Solar Heat Gain Coefficient (SHGC), and air leakage ratings, as well as the frame material. The U-factor measures heat loss, while SHGC indicates how well a window blocks heat from the sun. The best choice depends on your home's orientation, local climate, and specific needs. We recommend assessing your home's exposure to direct sunlight and considering both heating and cooling performance when making your selection.",
-        "description": "Select energy-efficient windows based on U-factor, SHGC, and air leakage ratings. Consider your home's sun exposure and climate for optimal heating and cooling performance."
-      }
-    }
-  ],
+  "name": "How do I choose the right energy-efficient windows for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right energy-efficient windows for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right energy-efficient windows involves evaluating factors like U-factor, Solar Heat Gain Coefficient (SHGC), and air leakage ratings, as well as the frame material. The U-factor measures heat loss, while SHGC indicates how well a window blocks heat from the sun. The best choice depends on your home's orientation, local climate, and specific needs. We recommend assessing your home's exposure to direct sunlight and considering both heating and cooling performance when making your selection.",
+        "@type": "Answer",
+        "description": "Select energy-efficient windows based on U-factor, SHGC, and air leakage ratings. Consider your home's sun exposure and climate for optimal heating and cooling performance."
+      }
+    }
+  ],
+  "description": "Select energy-efficient windows based on U-factor, SHGC, and air leakage ratings. Consider your home's sun exposure and climate for optimal heating and cooling"
 }

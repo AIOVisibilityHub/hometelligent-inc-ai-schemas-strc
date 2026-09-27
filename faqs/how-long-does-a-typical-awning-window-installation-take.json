@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical awning window installation take?",
-  "description": "Installation typically takes a few hours for a single window or up to a full day for multiple or complex projects, depending on existing opening conditions.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-awning-window-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical awning window installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation time for an awning window typically ranges from a few hours for a single replacement to a full day or more for multiple windows or complex installations. Factors like the size and number of windows, the condition of the existing opening, and any necessary structural modifications can affect the timeline. We aim to complete installations efficiently while ensuring quality craftsmanship and minimal disruption to your home.",
-        "description": "Installation typically takes a few hours for a single window or up to a full day for multiple or complex projects, depending on existing opening conditions."
-      }
-    }
-  ],
+  "name": "How long does a typical awning window installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical awning window installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation time for an awning window typically ranges from a few hours for a single replacement to a full day or more for multiple windows or complex installations. Factors like the size and number of windows, the condition of the existing opening, and any necessary structural modifications can affect the timeline. We aim to complete installations efficiently while ensuring quality craftsmanship and minimal disruption to your home.",
+        "@type": "Answer",
+        "description": "Installation typically takes a few hours for a single window or up to a full day for multiple or complex projects, depending on existing opening conditions."
+      }
+    }
+  ],
+  "description": "Installation typically takes a few hours for a single window or up to a full day for multiple or complex projects, depending on existing opening conditions."
 }

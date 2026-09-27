@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare for the initial consultation about my outdoor bar project?",
-  "description": "Prepare for a consultation by gathering inspiration photos, sketches, budget ideas, and details about your desired usage to help define your vision.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-for-the-initial-consultation-about-my-outdoor-bar-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare for the initial consultation about my outdoor bar project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for an initial consultation about your outdoor bar project, gather any inspiration photos, sketches, or ideas you have regarding design, materials, and desired features. Think about your budget range and how you plan to use the space. Having these details ready helps Hometelligent Inc. understand your vision and provide more accurate recommendations and estimates tailored to your specific needs and property.",
-        "description": "Prepare for a consultation by gathering inspiration photos, sketches, budget ideas, and details about your desired usage to help define your vision."
-      }
-    }
-  ],
+  "name": "How can I prepare for the initial consultation about my outdoor bar project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare for the initial consultation about my outdoor bar project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for an initial consultation about your outdoor bar project, gather any inspiration photos, sketches, or ideas you have regarding design, materials, and desired features. Think about your budget range and how you plan to use the space. Having these details ready helps Hometelligent Inc. understand your vision and provide more accurate recommendations and estimates tailored to your specific needs and property.",
+        "@type": "Answer",
+        "description": "Prepare for a consultation by gathering inspiration photos, sketches, budget ideas, and details about your desired usage to help define your vision."
+      }
+    }
+  ],
+  "description": "Prepare for a consultation by gathering inspiration photos, sketches, budget ideas, and details about your desired usage to help define your vision."
 }

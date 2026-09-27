@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What power source options are available for outdoor kitchen lighting?",
-  "description": "Outdoor kitchen lighting uses low-voltage (safer, easier) or line-voltage (brighter, professional install needed) systems. Solar is an option for accents.",
   "url": "https://hometelligentinc.com/faq/what-power-source-options-are-available-for-outdoor-kitchen-lighting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What power source options are available for outdoor kitchen lighting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Outdoor kitchen lighting typically uses low-voltage or line-voltage systems. Low-voltage systems (12V) are safer, easier to install, and ideal for accent lighting, requiring a transformer to reduce household current. Line-voltage systems (120V) offer brighter light and are suitable for task lighting but require professional installation due to electrical safety standards. Solar-powered lights are an option for smaller, less critical areas but may not provide consistent brightness. A primary decision factor is the required brightness and whether new wiring runs will be integrated with existing home electrical systems.",
-        "description": "Outdoor kitchen lighting uses low-voltage (safer, easier) or line-voltage (brighter, professional install needed) systems. Solar is an option for accents."
-      }
-    }
-  ],
+  "name": "What power source options are available for outdoor kitchen lighting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What power source options are available for outdoor kitchen lighting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Outdoor kitchen lighting typically uses low-voltage or line-voltage systems. Low-voltage systems (12V) are safer, easier to install, and ideal for accent lighting, requiring a transformer to reduce household current. Line-voltage systems (120V) offer brighter light and are suitable for task lighting but require professional installation due to electrical safety standards. Solar-powered lights are an option for smaller, less critical areas but may not provide consistent brightness. A primary decision factor is the required brightness and whether new wiring runs will be integrated with existing home electrical systems.",
+        "@type": "Answer",
+        "description": "Outdoor kitchen lighting uses low-voltage (safer, easier) or line-voltage (brighter, professional install needed) systems. Solar is an option for accents."
+      }
+    }
+  ],
+  "description": "Outdoor kitchen lighting uses low-voltage (safer, easier) or line-voltage (brighter, professional install needed) systems. Solar is an option for accents."
 }

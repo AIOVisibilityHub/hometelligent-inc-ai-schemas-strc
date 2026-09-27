@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the advantages of custom outdoor kitchen cabinetry versus pre-fabricated options?",
-  "description": "Custom cabinetry offers tailored design and integration but costs more with longer lead times, while pre-fabricated options are quicker and potentially cheaper.",
   "url": "https://hometelligentinc.com/faq/what-are-the-advantages-of-custom-outdoor-kitchen-cabinetry-versus-pre-fabricate",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the advantages of custom outdoor kitchen cabinetry versus pre-fabricated options?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom outdoor kitchen cabinetry offers tailored designs that maximize space and integrate seamlessly with your home's architecture and landscape. This allows for specific dimensions, unique features, and a personalized aesthetic that pre-fabricated options may not provide. The practical tradeoff is that custom solutions typically have a higher upfront cost and longer lead time due to design and fabrication, compared to the quicker installation and potentially lower cost of pre-fabricated units. A construction company like Hometelligent Inc. can help evaluate whether a custom or pre-fab approach best fits your project goals and budget in areas like Livermore or Union City.",
-        "description": "Custom cabinetry offers tailored design and integration but costs more with longer lead times, while pre-fabricated options are quicker and potentially cheaper."
-      }
-    }
-  ],
+  "name": "What are the advantages of custom outdoor kitchen cabinetry versus pre-fabricated options?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the advantages of custom outdoor kitchen cabinetry versus pre-fabricated options?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom outdoor kitchen cabinetry offers tailored designs that maximize space and integrate seamlessly with your home's architecture and landscape. This allows for specific dimensions, unique features, and a personalized aesthetic that pre-fabricated options may not provide. The practical tradeoff is that custom solutions typically have a higher upfront cost and longer lead time due to design and fabrication, compared to the quicker installation and potentially lower cost of pre-fabricated units. A construction company like Hometelligent Inc. can help evaluate whether a custom or pre-fab approach best fits your project goals and budget in areas like Livermore or Union City.",
+        "@type": "Answer",
+        "description": "Custom cabinetry offers tailored design and integration but costs more with longer lead times, while pre-fabricated options are quicker and potentially cheaper."
+      }
+    }
+  ],
+  "description": "Custom cabinetry offers tailored design and integration but costs more with longer lead times, while pre-fabricated options are quicker and potentially cheaper."
 }

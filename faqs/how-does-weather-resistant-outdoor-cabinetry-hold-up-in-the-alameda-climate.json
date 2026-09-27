@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does weather-resistant outdoor cabinetry hold up in the Alameda climate?",
-  "description": "Outdoor cabinetry in Alameda performs well with marine-grade polymer or stainless steel, resisting coastal moisture and sun. Proper installation and sealing are",
   "url": "https://hometelligentinc.com/faq/how-does-weather-resistant-outdoor-cabinetry-hold-up-in-the-alameda-climate",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does weather-resistant outdoor cabinetry hold up in the Alameda climate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Outdoor cabinetry in Alameda needs to withstand a mix of coastal moisture, sun exposure, and occasional fog. Materials like marine-grade polymer (HDPE) and stainless steel perform exceptionally well, resisting corrosion and fading. Even with these durable materials, proper installation and sealing are crucial to prevent moisture intrusion, especially in areas with varying humidity. Regular, simple cleaning can also extend the lifespan and appearance of your cabinetry, ensuring it remains functional and attractive for years in the local climate.",
-        "description": "Outdoor cabinetry in Alameda performs well with marine-grade polymer or stainless steel, resisting coastal moisture and sun. Proper installation and sealing are key."
-      }
-    }
-  ],
+  "name": "How does weather-resistant outdoor cabinetry hold up in the Alameda climate?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does weather-resistant outdoor cabinetry hold up in the Alameda climate?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Outdoor cabinetry in Alameda needs to withstand a mix of coastal moisture, sun exposure, and occasional fog. Materials like marine-grade polymer (HDPE) and stainless steel perform exceptionally well, resisting corrosion and fading. Even with these durable materials, proper installation and sealing are crucial to prevent moisture intrusion, especially in areas with varying humidity. Regular, simple cleaning can also extend the lifespan and appearance of your cabinetry, ensuring it remains functional and attractive for years in the local climate.",
+        "@type": "Answer",
+        "description": "Outdoor cabinetry in Alameda performs well with marine-grade polymer or stainless steel, resisting coastal moisture and sun. Proper installation and sealing are key."
+      }
+    }
+  ],
+  "description": "Outdoor cabinetry in Alameda performs well with marine-grade polymer or stainless steel, resisting coastal moisture and sun. Proper installation and sealing are"
 }

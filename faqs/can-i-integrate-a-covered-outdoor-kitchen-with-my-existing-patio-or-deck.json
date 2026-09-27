@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I integrate a covered outdoor kitchen with my existing patio or deck?",
-  "description": "Yes, integration is common, often extending rooflines or adding new structures. Hometelligent Inc. assesses your existing patio or deck's structural integrity t",
   "url": "https://hometelligentinc.com/faq/can-i-integrate-a-covered-outdoor-kitchen-with-my-existing-patio-or-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I integrate a covered outdoor kitchen with my existing patio or deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, integrating a covered outdoor kitchen with an existing patio or deck is a common approach. This can involve extending an existing roofline, building a freestanding cover, or constructing a new adjacent structure. For process clarity, our team at Hometelligent Inc. would evaluate the structural integrity and load-bearing capacity of your current patio or deck during the initial consultation. This assessment ensures that any new additions or covers are safely supported and comply with local building codes, preventing future structural issues.",
-        "description": "Yes, integration is common, often extending rooflines or adding new structures. Hometelligent Inc. assesses your existing patio or deck's structural integrity to ensure safe and compliant integration."
-      }
-    }
-  ],
+  "name": "Can I integrate a covered outdoor kitchen with my existing patio or deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I integrate a covered outdoor kitchen with my existing patio or deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, integrating a covered outdoor kitchen with an existing patio or deck is a common approach. This can involve extending an existing roofline, building a freestanding cover, or constructing a new adjacent structure. For process clarity, our team at Hometelligent Inc. would evaluate the structural integrity and load-bearing capacity of your current patio or deck during the initial consultation. This assessment ensures that any new additions or covers are safely supported and comply with local building codes, preventing future structural issues.",
+        "@type": "Answer",
+        "description": "Yes, integration is common, often extending rooflines or adding new structures. Hometelligent Inc. assesses your existing patio or deck's structural integrity to ensure safe and compliant integration."
+      }
+    }
+  ],
+  "description": "Yes, integration is common, often extending rooflines or adding new structures. Hometelligent Inc. assesses your existing patio or deck's structural integrity t"
 }

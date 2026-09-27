@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will I need to replace my existing window frames for energy-efficient windows?",
-  "description": "Frame replacement depends on their condition; good frames may allow for insert installation, while damaged frames require full replacement.",
   "url": "https://hometelligentinc.com/faq/will-i-need-to-replace-my-existing-window-frames-for-energy-efficient-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will I need to replace my existing window frames for energy-efficient windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you need to replace existing window frames depends on their current condition and structural integrity. If the frames are in good shape, a 'pocket' or 'insert' installation can often be done, where the new window unit fits directly into the old frame. However, if frames show signs of rot, warping, or damage, full frame replacement is recommended for optimal performance and to address any underlying issues, which is a critical step for long-term durability in older homes common in areas like Alameda or Piedmont.",
-        "description": "Frame replacement depends on their condition; good frames may allow for insert installation, while damaged frames require full replacement."
-      }
-    }
-  ],
+  "name": "Will I need to replace my existing window frames for energy-efficient windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will I need to replace my existing window frames for energy-efficient windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you need to replace existing window frames depends on their current condition and structural integrity. If the frames are in good shape, a 'pocket' or 'insert' installation can often be done, where the new window unit fits directly into the old frame. However, if frames show signs of rot, warping, or damage, full frame replacement is recommended for optimal performance and to address any underlying issues, which is a critical step for long-term durability in older homes common in areas like Alameda or Piedmont.",
+        "@type": "Answer",
+        "description": "Frame replacement depends on their condition; good frames may allow for insert installation, while damaged frames require full replacement."
+      }
+    }
+  ],
+  "description": "Frame replacement depends on their condition; good frames may allow for insert installation, while damaged frames require full replacement."
 }

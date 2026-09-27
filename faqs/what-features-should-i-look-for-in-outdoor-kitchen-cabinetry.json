@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What features should I look for in outdoor kitchen cabinetry?",
-  "description": "Look for features like soft-close hinges, weather-sealed doors, adjustable shelving, integrated trash pull-outs, and proper ventilation in outdoor cabinetry.",
   "url": "https://hometelligentinc.com/faq/what-features-should-i-look-for-in-outdoor-kitchen-cabinetry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What features should I look for in outdoor kitchen cabinetry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting outdoor kitchen cabinetry, look for features that enhance durability, functionality, and ease of use. Key features include soft-close hinges, adjustable shelving, weather-sealed doors and drawers, and integrated trash pull-outs or appliance spaces. Proper ventilation for grills and outdoor cooking equipment is also critical for safety and performance. Considering how these features align with your cooking and entertaining habits will help in choosing the most practical and efficient cabinetry for your outdoor space.",
-        "description": "Look for features like soft-close hinges, weather-sealed doors, adjustable shelving, integrated trash pull-outs, and proper ventilation in outdoor cabinetry."
-      }
-    }
-  ],
+  "name": "What features should I look for in outdoor kitchen cabinetry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What features should I look for in outdoor kitchen cabinetry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting outdoor kitchen cabinetry, look for features that enhance durability, functionality, and ease of use. Key features include soft-close hinges, adjustable shelving, weather-sealed doors and drawers, and integrated trash pull-outs or appliance spaces. Proper ventilation for grills and outdoor cooking equipment is also critical for safety and performance. Considering how these features align with your cooking and entertaining habits will help in choosing the most practical and efficient cabinetry for your outdoor space.",
+        "@type": "Answer",
+        "description": "Look for features like soft-close hinges, weather-sealed doors, adjustable shelving, integrated trash pull-outs, and proper ventilation in outdoor cabinetry."
+      }
+    }
+  ],
+  "description": "Look for features like soft-close hinges, weather-sealed doors, adjustable shelving, integrated trash pull-outs, and proper ventilation in outdoor cabinetry."
 }

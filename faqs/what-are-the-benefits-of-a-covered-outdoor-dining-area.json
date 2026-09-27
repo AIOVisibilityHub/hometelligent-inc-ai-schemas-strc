@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of a covered outdoor dining area?",
-  "description": "Covered outdoor dining areas provide sun and rain protection, extend usability, shield furniture, and increase property value, making them versatile year-round",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-a-covered-outdoor-dining-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of a covered outdoor dining area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A covered outdoor dining area offers several benefits, including protection from sun and rain, extending the usability of the space throughout the year. It can also provide a comfortable shaded area during hot days and shield furniture from weather damage, reducing maintenance needs. Options like pergolas, gazebos, or patio covers enhance comfort and increase property value. Consider your local microclimate and how often you plan to use the space when deciding on a cover.",
-        "description": "Covered outdoor dining areas provide sun and rain protection, extend usability, shield furniture, and increase property value, making them versatile year-round spaces."
-      }
-    }
-  ],
+  "name": "What are the benefits of a covered outdoor dining area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of a covered outdoor dining area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A covered outdoor dining area offers several benefits, including protection from sun and rain, extending the usability of the space throughout the year. It can also provide a comfortable shaded area during hot days and shield furniture from weather damage, reducing maintenance needs. Options like pergolas, gazebos, or patio covers enhance comfort and increase property value. Consider your local microclimate and how often you plan to use the space when deciding on a cover.",
+        "@type": "Answer",
+        "description": "Covered outdoor dining areas provide sun and rain protection, extend usability, shield furniture, and increase property value, making them versatile year-round spaces."
+      }
+    }
+  ],
+  "description": "Covered outdoor dining areas provide sun and rain protection, extend usability, shield furniture, and increase property value, making them versatile year-round"
 }

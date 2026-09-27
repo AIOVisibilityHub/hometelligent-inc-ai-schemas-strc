@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of gas line is best for an outdoor kitchen?",
-  "description": "The best gas line type, like black steel or CSST, depends on local codes and site conditions; we recommend the most suitable material.",
   "url": "https://hometelligentinc.com/faq/what-type-of-gas-line-is-best-for-an-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of gas line is best for an outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best type of gas line for an outdoor kitchen typically depends on local codes and specific site conditions. Options often include black steel pipe, copper tubing, or corrugated stainless steel tubing (CSST). While black steel is durable, CSST can be more flexible for routing. Hometelligent evaluates your outdoor kitchen's layout and environment to recommend the most suitable and code-compliant piping material, considering factors like exposure to weather and burial requirements.",
-        "description": "The best gas line type, like black steel or CSST, depends on local codes and site conditions; we recommend the most suitable material."
-      }
-    }
-  ],
+  "name": "What type of gas line is best for an outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of gas line is best for an outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best type of gas line for an outdoor kitchen typically depends on local codes and specific site conditions. Options often include black steel pipe, copper tubing, or corrugated stainless steel tubing (CSST). While black steel is durable, CSST can be more flexible for routing. Hometelligent evaluates your outdoor kitchen's layout and environment to recommend the most suitable and code-compliant piping material, considering factors like exposure to weather and burial requirements.",
+        "@type": "Answer",
+        "description": "The best gas line type, like black steel or CSST, depends on local codes and site conditions; we recommend the most suitable material."
+      }
+    }
+  ],
+  "description": "The best gas line type, like black steel or CSST, depends on local codes and site conditions; we recommend the most suitable material."
 }

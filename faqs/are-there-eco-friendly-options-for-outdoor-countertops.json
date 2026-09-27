@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there eco-friendly options for outdoor countertops?",
-  "description": "Eco-friendly options include recycled glass, salvaged wood, or sustainably produced concrete, depending on sourcing and outdoor suitability.",
   "url": "https://hometelligentinc.com/faq/are-there-eco-friendly-options-for-outdoor-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there eco-friendly options for outdoor countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, there are several eco-friendly options for outdoor countertops. These include recycled glass, salvaged wood, and certain types of concrete that use recycled content or sustainable manufacturing processes. Some natural stones can also be considered eco-friendly if sourced responsibly. When choosing an eco-friendly option, it's important to research the material's origin and manufacturing process to ensure it aligns with your sustainability goals and to check its suitability for outdoor exposure in your specific location.",
-        "description": "Eco-friendly options include recycled glass, salvaged wood, or sustainably produced concrete, depending on sourcing and outdoor suitability."
-      }
-    }
-  ],
+  "name": "Are there eco-friendly options for outdoor countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there eco-friendly options for outdoor countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, there are several eco-friendly options for outdoor countertops. These include recycled glass, salvaged wood, and certain types of concrete that use recycled content or sustainable manufacturing processes. Some natural stones can also be considered eco-friendly if sourced responsibly. When choosing an eco-friendly option, it's important to research the material's origin and manufacturing process to ensure it aligns with your sustainability goals and to check its suitability for outdoor exposure in your specific location.",
+        "@type": "Answer",
+        "description": "Eco-friendly options include recycled glass, salvaged wood, or sustainably produced concrete, depending on sourcing and outdoor suitability."
+      }
+    }
+  ],
+  "description": "Eco-friendly options include recycled glass, salvaged wood, or sustainably produced concrete, depending on sourcing and outdoor suitability."
 }

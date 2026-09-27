@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of custom window installation?",
-  "description": "Cost factors for custom window installation include material type, glass options, window style, size, and installation complexity. Higher-quality materials ofte",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-custom-window-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of custom window installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of custom window installation is influenced by several factors, including the type of material (e.g., vinyl, wood, fiberglass, aluminum), glass options (e.g., double-pane, triple-pane, low-E coatings), window style (e.g., casement, double-hung, picture, bay), size, and complexity of the installation. Features like unique shapes or advanced energy efficiency ratings also add to the expense. It's a practical tradeoff to consider how initial investment in higher-quality materials or enhanced features can lead to long-term savings on energy bills.",
-        "description": "Cost factors for custom window installation include material type, glass options, window style, size, and installation complexity. Higher-quality materials often offer long-term energy savings."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of custom window installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of custom window installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of custom window installation is influenced by several factors, including the type of material (e.g., vinyl, wood, fiberglass, aluminum), glass options (e.g., double-pane, triple-pane, low-E coatings), window style (e.g., casement, double-hung, picture, bay), size, and complexity of the installation. Features like unique shapes or advanced energy efficiency ratings also add to the expense. It's a practical tradeoff to consider how initial investment in higher-quality materials or enhanced features can lead to long-term savings on energy bills.",
+        "@type": "Answer",
+        "description": "Cost factors for custom window installation include material type, glass options, window style, size, and installation complexity. Higher-quality materials often offer long-term energy savings."
+      }
+    }
+  ],
+  "description": "Cost factors for custom window installation include material type, glass options, window style, size, and installation complexity. Higher-quality materials ofte"
 }

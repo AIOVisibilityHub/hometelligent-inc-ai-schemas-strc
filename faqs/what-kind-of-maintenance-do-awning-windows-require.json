@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of maintenance do awning windows require?",
-  "description": "Maintenance includes cleaning glass and frames, lubricating hardware, and inspecting seals and weatherstripping annually to ensure proper function and prevent l",
   "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-do-awning-windows-require",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of maintenance do awning windows require?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Awning windows require minimal maintenance. Regular cleaning of the glass and frames is recommended, along with periodic lubrication of the operating hardware to ensure smooth function. It's also important to inspect the seals and weatherstripping annually for any signs of wear or damage to maintain energy efficiency and prevent leaks. Addressing these small issues proactively can extend the lifespan of your windows.",
-        "description": "Maintenance includes cleaning glass and frames, lubricating hardware, and inspecting seals and weatherstripping annually to ensure proper function and prevent leaks."
-      }
-    }
-  ],
+  "name": "What kind of maintenance do awning windows require?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of maintenance do awning windows require?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Awning windows require minimal maintenance. Regular cleaning of the glass and frames is recommended, along with periodic lubrication of the operating hardware to ensure smooth function. It's also important to inspect the seals and weatherstripping annually for any signs of wear or damage to maintain energy efficiency and prevent leaks. Addressing these small issues proactively can extend the lifespan of your windows.",
+        "@type": "Answer",
+        "description": "Maintenance includes cleaning glass and frames, lubricating hardware, and inspecting seals and weatherstripping annually to ensure proper function and prevent leaks."
+      }
+    }
+  ],
+  "description": "Maintenance includes cleaning glass and frames, lubricating hardware, and inspecting seals and weatherstripping annually to ensure proper function and prevent l"
 }

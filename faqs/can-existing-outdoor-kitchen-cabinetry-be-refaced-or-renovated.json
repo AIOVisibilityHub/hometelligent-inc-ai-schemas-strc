@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can existing outdoor kitchen cabinetry be refaced or renovated?",
-  "description": "Existing outdoor kitchen cabinetry can be refaced if the cabinet boxes are in good condition, otherwise, a full replacement may be necessary.",
   "url": "https://hometelligentinc.com/faq/can-existing-outdoor-kitchen-cabinetry-be-refaced-or-renovated",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can existing outdoor kitchen cabinetry be refaced or renovated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, existing outdoor kitchen cabinetry can often be refaced or renovated, depending on the condition of the cabinet boxes and the material. Refacing involves replacing doors, drawer fronts, and applying a new veneer to existing cabinet frames, which can be a cost-effective way to update the look without a full replacement. However, if the cabinet boxes themselves are severely damaged by water, pests, or structural issues, a full replacement might be more appropriate and durable in the long run. An assessment by a construction professional is recommended to determine the best approach.",
-        "description": "Existing outdoor kitchen cabinetry can be refaced if the cabinet boxes are in good condition, otherwise, a full replacement may be necessary."
-      }
-    }
-  ],
+  "name": "Can existing outdoor kitchen cabinetry be refaced or renovated?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can existing outdoor kitchen cabinetry be refaced or renovated?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, existing outdoor kitchen cabinetry can often be refaced or renovated, depending on the condition of the cabinet boxes and the material. Refacing involves replacing doors, drawer fronts, and applying a new veneer to existing cabinet frames, which can be a cost-effective way to update the look without a full replacement. However, if the cabinet boxes themselves are severely damaged by water, pests, or structural issues, a full replacement might be more appropriate and durable in the long run. An assessment by a construction professional is recommended to determine the best approach.",
+        "@type": "Answer",
+        "description": "Existing outdoor kitchen cabinetry can be refaced if the cabinet boxes are in good condition, otherwise, a full replacement may be necessary."
+      }
+    }
+  ],
+  "description": "Existing outdoor kitchen cabinetry can be refaced if the cabinet boxes are in good condition, otherwise, a full replacement may be necessary."
 }

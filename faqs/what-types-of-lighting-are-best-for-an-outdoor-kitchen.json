@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of lighting are best for an outdoor kitchen?",
-  "description": "Combining task, accent, and overhead lighting creates a functional and inviting outdoor kitchen. Choose durable, weather-resistant fixtures for longevity.",
   "url": "https://hometelligentinc.com/faq/what-types-of-lighting-are-best-for-an-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of lighting are best for an outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best types of lighting for an outdoor kitchen combine functionality and ambiance. Task lighting, such as under-cabinet or recessed fixtures, is crucial for grilling and food preparation areas. Accent lighting, like LED strip lights or path lights, can highlight architectural features or landscaping. Overhead lighting, such as pendants or chandeliers designed for outdoor use, can provide general illumination. When selecting fixtures, consider the materials' durability and weather resistance to ensure longevity in the Alameda, Albany, Berkeley, Dublin, and Emeryville climates.",
-        "description": "Combining task, accent, and overhead lighting creates a functional and inviting outdoor kitchen. Choose durable, weather-resistant fixtures for longevity."
-      }
-    }
-  ],
+  "name": "What types of lighting are best for an outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of lighting are best for an outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best types of lighting for an outdoor kitchen combine functionality and ambiance. Task lighting, such as under-cabinet or recessed fixtures, is crucial for grilling and food preparation areas. Accent lighting, like LED strip lights or path lights, can highlight architectural features or landscaping. Overhead lighting, such as pendants or chandeliers designed for outdoor use, can provide general illumination. When selecting fixtures, consider the materials' durability and weather resistance to ensure longevity in the Alameda, Albany, Berkeley, Dublin, and Emeryville climates.",
+        "@type": "Answer",
+        "description": "Combining task, accent, and overhead lighting creates a functional and inviting outdoor kitchen. Choose durable, weather-resistant fixtures for longevity."
+      }
+    }
+  ],
+  "description": "Combining task, accent, and overhead lighting creates a functional and inviting outdoor kitchen. Choose durable, weather-resistant fixtures for longevity."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing outdoor cabinetry for my home?",
-  "description": "Consider your climate, desired aesthetic, intended use, and material (HDPE, stainless steel, teak) when choosing outdoor cabinetry. Functionality and maintenanc",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-outdoor-cabinetry-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing outdoor cabinetry for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing outdoor cabinetry, several factors should guide your decision. Consider your local climate's specific challenges, such as humidity, sun exposure, or salt air. Evaluate the intended use and desired aesthetic for your outdoor kitchen or living space. Material choice (HDPE, stainless steel, teak) will impact durability, maintenance, and cost. Additionally, think about functionality, such as storage needs, appliance integration, and ease of cleaning. These considerations will help you select cabinetry that performs well and complements your outdoor environment.",
-        "description": "Consider your climate, desired aesthetic, intended use, and material (HDPE, stainless steel, teak) when choosing outdoor cabinetry. Functionality and maintenance are also key."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing outdoor cabinetry for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing outdoor cabinetry for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing outdoor cabinetry, several factors should guide your decision. Consider your local climate's specific challenges, such as humidity, sun exposure, or salt air. Evaluate the intended use and desired aesthetic for your outdoor kitchen or living space. Material choice (HDPE, stainless steel, teak) will impact durability, maintenance, and cost. Additionally, think about functionality, such as storage needs, appliance integration, and ease of cleaning. These considerations will help you select cabinetry that performs well and complements your outdoor environment.",
+        "@type": "Answer",
+        "description": "Consider your climate, desired aesthetic, intended use, and material (HDPE, stainless steel, teak) when choosing outdoor cabinetry. Functionality and maintenance are also key."
+      }
+    }
+  ],
+  "description": "Consider your climate, desired aesthetic, intended use, and material (HDPE, stainless steel, teak) when choosing outdoor cabinetry. Functionality and maintenanc"
 }

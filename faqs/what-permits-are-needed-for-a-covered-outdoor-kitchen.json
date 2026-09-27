@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for a covered outdoor kitchen?",
-  "description": "Permits are often required for covered outdoor kitchens with permanent structures or utilities. Hometelligent Inc. helps navigate local permitting requirements",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-a-covered-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for a covered outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permits for covered outdoor kitchens are often required, especially for structures involving permanent roofs, plumbing, electrical, or gas lines. The specific permits depend on your local jurisdiction, such as Alameda, Berkeley, or Oakland, and the scope of your project. As part of our first-party insight, Hometelligent Inc. assists clients in navigating these permitting requirements, ensuring compliance with local building codes. Failing to secure the necessary permits can lead to fines or mandated demolition, making early consultation crucial.",
-        "description": "Permits are often required for covered outdoor kitchens with permanent structures or utilities. Hometelligent Inc. helps navigate local permitting requirements to ensure compliance."
-      }
-    }
-  ],
+  "name": "What permits are needed for a covered outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for a covered outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permits for covered outdoor kitchens are often required, especially for structures involving permanent roofs, plumbing, electrical, or gas lines. The specific permits depend on your local jurisdiction, such as Alameda, Berkeley, or Oakland, and the scope of your project. As part of our first-party insight, Hometelligent Inc. assists clients in navigating these permitting requirements, ensuring compliance with local building codes. Failing to secure the necessary permits can lead to fines or mandated demolition, making early consultation crucial.",
+        "@type": "Answer",
+        "description": "Permits are often required for covered outdoor kitchens with permanent structures or utilities. Hometelligent Inc. helps navigate local permitting requirements to ensure compliance."
+      }
+    }
+  ],
+  "description": "Permits are often required for covered outdoor kitchens with permanent structures or utilities. Hometelligent Inc. helps navigate local permitting requirements"
 }

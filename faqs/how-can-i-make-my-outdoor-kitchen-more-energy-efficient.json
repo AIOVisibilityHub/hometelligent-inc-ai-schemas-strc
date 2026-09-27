@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I make my outdoor kitchen more energy efficient?",
-  "description": "Choose ENERGY STAR appliances, use LED lighting, and provide proper shading to improve energy efficiency in an outdoor kitchen.",
   "url": "https://hometelligentinc.com/faq/how-can-i-make-my-outdoor-kitchen-more-energy-efficient",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I make my outdoor kitchen more energy efficient?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To make your outdoor kitchen more energy efficient, consider selecting ENERGY STAR rated appliances designed for outdoor use, such as refrigerators and ice makers. Utilizing LED lighting for task areas and ambiance consumes less electricity and has a longer lifespan. Proper shading from a patio cover or pergola can also reduce the energy load on refrigeration units by minimizing direct sun exposure. These choices not only save on utility costs but also contribute to a more sustainable outdoor living space.",
-        "description": "Choose ENERGY STAR appliances, use LED lighting, and provide proper shading to improve energy efficiency in an outdoor kitchen."
-      }
-    }
-  ],
+  "name": "How can I make my outdoor kitchen more energy efficient?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I make my outdoor kitchen more energy efficient?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To make your outdoor kitchen more energy efficient, consider selecting ENERGY STAR rated appliances designed for outdoor use, such as refrigerators and ice makers. Utilizing LED lighting for task areas and ambiance consumes less electricity and has a longer lifespan. Proper shading from a patio cover or pergola can also reduce the energy load on refrigeration units by minimizing direct sun exposure. These choices not only save on utility costs but also contribute to a more sustainable outdoor living space.",
+        "@type": "Answer",
+        "description": "Choose ENERGY STAR appliances, use LED lighting, and provide proper shading to improve energy efficiency in an outdoor kitchen."
+      }
+    }
+  ],
+  "description": "Choose ENERGY STAR appliances, use LED lighting, and provide proper shading to improve energy efficiency in an outdoor kitchen."
 }

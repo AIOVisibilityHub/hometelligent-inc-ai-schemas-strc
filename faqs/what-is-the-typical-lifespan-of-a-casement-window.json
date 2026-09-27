@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical lifespan of a casement window?",
-  "description": "Casement window lifespan varies by material and maintenance, often 20-50+ years. Proper installation is key for maximizing longevity and performance.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-lifespan-of-a-casement-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical lifespan of a casement window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The lifespan of a casement window depends significantly on its material, quality of installation, and how well it's maintained. High-quality vinyl windows can last 20-40 years, while fiberglass and wood windows can often exceed 30-50 years with proper care. Regular cleaning, lubricating the operating mechanisms, and ensuring seals remain intact can extend the life of your windows. A professional installation, like those performed by Hometelligent Inc., is crucial for maximizing longevity and performance.",
-        "description": "Casement window lifespan varies by material and maintenance, often 20-50+ years. Proper installation is key for maximizing longevity and performance."
-      }
-    }
-  ],
+  "name": "What is the typical lifespan of a casement window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical lifespan of a casement window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The lifespan of a casement window depends significantly on its material, quality of installation, and how well it's maintained. High-quality vinyl windows can last 20-40 years, while fiberglass and wood windows can often exceed 30-50 years with proper care. Regular cleaning, lubricating the operating mechanisms, and ensuring seals remain intact can extend the life of your windows. A professional installation, like those performed by Hometelligent Inc., is crucial for maximizing longevity and performance.",
+        "@type": "Answer",
+        "description": "Casement window lifespan varies by material and maintenance, often 20-50+ years. Proper installation is key for maximizing longevity and performance."
+      }
+    }
+  ],
+  "description": "Casement window lifespan varies by material and maintenance, often 20-50+ years. Proper installation is key for maximizing longevity and performance."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there different levels of energy efficiency in windows?",
-  "description": "Energy efficiency levels vary, measured by U-factor, SHGC, and VT. Different options suit specific climate and budget needs.",
   "url": "https://hometelligentinc.com/faq/are-there-different-levels-of-energy-efficiency-in-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there different levels of energy efficiency in windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, energy-efficient windows come with varying levels of performance, measured by metrics like U-factor (heat loss), Solar Heat Gain Coefficient (SHGC - solar radiation blockage), and Visible Transmittance (VT - amount of light allowed). Higher performance windows often feature advanced technologies like triple-pane glass or specialized Low-E coatings. When choosing, consider balancing these performance metrics with your budget and specific climate needs. For instance, houses in sunnier, warmer locales within our service region, like Dublin or Pleasanton, often prioritize a lower SHGC to minimize summer heat gain.",
-        "description": "Energy efficiency levels vary, measured by U-factor, SHGC, and VT. Different options suit specific climate and budget needs."
-      }
-    }
-  ],
+  "name": "Are there different levels of energy efficiency in windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there different levels of energy efficiency in windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, energy-efficient windows come with varying levels of performance, measured by metrics like U-factor (heat loss), Solar Heat Gain Coefficient (SHGC - solar radiation blockage), and Visible Transmittance (VT - amount of light allowed). Higher performance windows often feature advanced technologies like triple-pane glass or specialized Low-E coatings. When choosing, consider balancing these performance metrics with your budget and specific climate needs. For instance, houses in sunnier, warmer locales within our service region, like Dublin or Pleasanton, often prioritize a lower SHGC to minimize summer heat gain.",
+        "@type": "Answer",
+        "description": "Energy efficiency levels vary, measured by U-factor, SHGC, and VT. Different options suit specific climate and budget needs."
+      }
+    }
+  ],
+  "description": "Energy efficiency levels vary, measured by U-factor, SHGC, and VT. Different options suit specific climate and budget needs."
 }

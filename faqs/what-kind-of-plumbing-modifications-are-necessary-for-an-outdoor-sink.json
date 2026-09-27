@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of plumbing modifications are necessary for an outdoor sink?",
-  "description": "Outdoor sinks require extending water supply and drainage lines, often with trenching, and potentially a backflow prevention device. We handle all plumbing modi",
   "url": "https://hometelligentinc.com/faq/what-kind-of-plumbing-modifications-are-necessary-for-an-outdoor-sink",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of plumbing modifications are necessary for an outdoor sink?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing an outdoor sink requires extending existing water supply lines (hot and cold, if desired) and a drainage line from your home to the new sink location. This often involves trenching to bury pipes and connecting to your main plumbing system, typically through a wall or foundation. Depending on local regulations in cities like Oakland or Fremont, you might also need a backflow prevention device to protect your household water supply. Our team manages all necessary plumbing modifications to ensure proper function and code compliance.",
-        "description": "Outdoor sinks require extending water supply and drainage lines, often with trenching, and potentially a backflow prevention device. We handle all plumbing modifications."
-      }
-    }
-  ],
+  "name": "What kind of plumbing modifications are necessary for an outdoor sink?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of plumbing modifications are necessary for an outdoor sink?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing an outdoor sink requires extending existing water supply lines (hot and cold, if desired) and a drainage line from your home to the new sink location. This often involves trenching to bury pipes and connecting to your main plumbing system, typically through a wall or foundation. Depending on local regulations in cities like Oakland or Fremont, you might also need a backflow prevention device to protect your household water supply. Our team manages all necessary plumbing modifications to ensure proper function and code compliance.",
+        "@type": "Answer",
+        "description": "Outdoor sinks require extending water supply and drainage lines, often with trenching, and potentially a backflow prevention device. We handle all plumbing modifications."
+      }
+    }
+  ],
+  "description": "Outdoor sinks require extending water supply and drainage lines, often with trenching, and potentially a backflow prevention device. We handle all plumbing modi"
 }

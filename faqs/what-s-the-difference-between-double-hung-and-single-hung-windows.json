@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What's the difference between double-hung and single-hung windows?",
-  "description": "Double-hung windows allow both sashes to open, offering better ventilation and cleaning, while single-hung only allow the bottom sash to move.",
   "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-double-hung-and-single-hung-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What's the difference between double-hung and single-hung windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary difference between double-hung and single-hung windows lies in their functionality. In a double-hung window, both the top and bottom sashes can be opened and tilted, offering more ventilation options and easier cleaning. Single-hung windows, conversely, only allow the bottom sash to move. A practical tradeoff is that while single-hung windows are generally less expensive upfront, double-hung windows offer greater convenience and often better energy efficiency, which can lead to long-term savings and comfort.",
-        "description": "Double-hung windows allow both sashes to open, offering better ventilation and cleaning, while single-hung only allow the bottom sash to move."
-      }
-    }
-  ],
+  "name": "What's the difference between double-hung and single-hung windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What's the difference between double-hung and single-hung windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The primary difference between double-hung and single-hung windows lies in their functionality. In a double-hung window, both the top and bottom sashes can be opened and tilted, offering more ventilation options and easier cleaning. Single-hung windows, conversely, only allow the bottom sash to move. A practical tradeoff is that while single-hung windows are generally less expensive upfront, double-hung windows offer greater convenience and often better energy efficiency, which can lead to long-term savings and comfort.",
+        "@type": "Answer",
+        "description": "Double-hung windows allow both sashes to open, offering better ventilation and cleaning, while single-hung only allow the bottom sash to move."
+      }
+    }
+  ],
+  "description": "Double-hung windows allow both sashes to open, offering better ventilation and cleaning, while single-hung only allow the bottom sash to move."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are awning windows energy-efficient?",
-  "description": "Awning windows are energy-efficient due to their tight seal when closed. Look for features like multi-pane glass, Low-E coatings, and argon gas for best perform",
   "url": "https://hometelligentinc.com/faq/are-awning-windows-energy-efficient",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are awning windows energy-efficient?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, awning windows are generally considered energy-efficient. Their crank-out design creates a strong seal when closed, which helps to prevent air leakage better than some other window styles. To maximize energy efficiency, look for windows with features like double or triple-pane glass, low-emissivity (Low-E) coatings, and argon gas fills. These features help reduce heat transfer, keeping your home more comfortable and potentially lowering energy costs.",
-        "description": "Awning windows are energy-efficient due to their tight seal when closed. Look for features like multi-pane glass, Low-E coatings, and argon gas for best performance."
-      }
-    }
-  ],
+  "name": "Are awning windows energy-efficient?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are awning windows energy-efficient?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, awning windows are generally considered energy-efficient. Their crank-out design creates a strong seal when closed, which helps to prevent air leakage better than some other window styles. To maximize energy efficiency, look for windows with features like double or triple-pane glass, low-emissivity (Low-E) coatings, and argon gas fills. These features help reduce heat transfer, keeping your home more comfortable and potentially lowering energy costs.",
+        "@type": "Answer",
+        "description": "Awning windows are energy-efficient due to their tight seal when closed. Look for features like multi-pane glass, Low-E coatings, and argon gas for best performance."
+      }
+    }
+  ],
+  "description": "Awning windows are energy-efficient due to their tight seal when closed. Look for features like multi-pane glass, Low-E coatings, and argon gas for best perform"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I customize the look of weather-resistant outdoor cabinetry?",
-  "description": "Yes, outdoor cabinetry can be highly customized. Marine-grade polymer offers color variety, stainless steel has finish options, and teak can be naturally weathe",
   "url": "https://hometelligentinc.com/faq/can-i-customize-the-look-of-weather-resistant-outdoor-cabinetry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I customize the look of weather-resistant outdoor cabinetry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, weather-resistant outdoor cabinetry offers significant customization options to match your outdoor aesthetic. Marine-grade polymer is available in a wide range of colors and finishes, from traditional to contemporary. Stainless steel can be finished in various polishes and combined with other materials for accents. Even teak wood can be left to weather naturally or treated to maintain a specific hue. Your choices can significantly influence the overall design and functionality of your outdoor living space, allowing you to tailor the cabinetry to your specific style and functional requirements.",
-        "description": "Yes, outdoor cabinetry can be highly customized. Marine-grade polymer offers color variety, stainless steel has finish options, and teak can be naturally weathered or treated."
-      }
-    }
-  ],
+  "name": "Can I customize the look of weather-resistant outdoor cabinetry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I customize the look of weather-resistant outdoor cabinetry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, weather-resistant outdoor cabinetry offers significant customization options to match your outdoor aesthetic. Marine-grade polymer is available in a wide range of colors and finishes, from traditional to contemporary. Stainless steel can be finished in various polishes and combined with other materials for accents. Even teak wood can be left to weather naturally or treated to maintain a specific hue. Your choices can significantly influence the overall design and functionality of your outdoor living space, allowing you to tailor the cabinetry to your specific style and functional requirements.",
+        "@type": "Answer",
+        "description": "Yes, outdoor cabinetry can be highly customized. Marine-grade polymer offers color variety, stainless steel has finish options, and teak can be naturally weathered or treated."
+      }
+    }
+  ],
+  "description": "Yes, outdoor cabinetry can be highly customized. Marine-grade polymer offers color variety, stainless steel has finish options, and teak can be naturally weathe"
 }

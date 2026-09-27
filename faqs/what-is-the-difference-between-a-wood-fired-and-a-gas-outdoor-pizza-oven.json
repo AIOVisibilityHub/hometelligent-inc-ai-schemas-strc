@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a wood-fired and a gas outdoor pizza oven?",
-  "description": "Wood-fired ovens offer authentic flavor but require more effort, while gas ovens provide convenience and easier temperature control. The choice impacts usage an",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-wood-fired-and-a-gas-outdoor-pizza-oven",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a wood-fired and a gas outdoor pizza oven?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wood-fired ovens are prized for traditional flavor and high temperatures, offering an authentic pizza experience but requiring more attention to fuel and cleaning. Gas ovens provide convenience, faster heating times, and easier temperature control, often favored for frequent, less hands-on use. The practical tradeoff is between the unique culinary experience of wood-fired cooking and the operational ease of gas, influencing your usage and maintenance routines.",
-        "description": "Wood-fired ovens offer authentic flavor but require more effort, while gas ovens provide convenience and easier temperature control. The choice impacts usage and maintenance."
-      }
-    }
-  ],
+  "name": "What is the difference between a wood-fired and a gas outdoor pizza oven?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a wood-fired and a gas outdoor pizza oven?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Wood-fired ovens are prized for traditional flavor and high temperatures, offering an authentic pizza experience but requiring more attention to fuel and cleaning. Gas ovens provide convenience, faster heating times, and easier temperature control, often favored for frequent, less hands-on use. The practical tradeoff is between the unique culinary experience of wood-fired cooking and the operational ease of gas, influencing your usage and maintenance routines.",
+        "@type": "Answer",
+        "description": "Wood-fired ovens offer authentic flavor but require more effort, while gas ovens provide convenience and easier temperature control. The choice impacts usage and maintenance."
+      }
+    }
+  ],
+  "description": "Wood-fired ovens offer authentic flavor but require more effort, while gas ovens provide convenience and easier temperature control. The choice impacts usage an"
 }

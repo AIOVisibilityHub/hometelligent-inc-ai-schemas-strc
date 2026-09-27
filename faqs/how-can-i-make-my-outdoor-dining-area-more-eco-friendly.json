@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I make my outdoor dining area more eco-friendly?",
-  "description": "Make your outdoor dining area eco-friendly by using sustainable materials, drought-tolerant plants, LED lighting, and passive heating/cooling designs.",
   "url": "https://hometelligentinc.com/faq/how-can-i-make-my-outdoor-dining-area-more-eco-friendly",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I make my outdoor dining area more eco-friendly?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To make your outdoor dining area more eco-friendly, consider using sustainable or recycled materials like reclaimed wood, recycled plastic composite decking, or permeable pavers for better stormwater management. Incorporate drought-tolerant landscaping and efficient LED lighting. You might also explore passive heating/cooling strategies through thoughtful design, such as strategic shading. We can guide you in selecting materials and design elements that align with environmental responsibility, benefiting both your property and the planet.",
-        "description": "Make your outdoor dining area eco-friendly by using sustainable materials, drought-tolerant plants, LED lighting, and passive heating/cooling designs."
-      }
-    }
-  ],
+  "name": "How can I make my outdoor dining area more eco-friendly?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I make my outdoor dining area more eco-friendly?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To make your outdoor dining area more eco-friendly, consider using sustainable or recycled materials like reclaimed wood, recycled plastic composite decking, or permeable pavers for better stormwater management. Incorporate drought-tolerant landscaping and efficient LED lighting. You might also explore passive heating/cooling strategies through thoughtful design, such as strategic shading. We can guide you in selecting materials and design elements that align with environmental responsibility, benefiting both your property and the planet.",
+        "@type": "Answer",
+        "description": "Make your outdoor dining area eco-friendly by using sustainable materials, drought-tolerant plants, LED lighting, and passive heating/cooling designs."
+      }
+    }
+  ],
+  "description": "Make your outdoor dining area eco-friendly by using sustainable materials, drought-tolerant plants, LED lighting, and passive heating/cooling designs."
 }

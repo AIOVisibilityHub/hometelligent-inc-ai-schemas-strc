@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for bow window installation?",
-  "description": "The installation process involves consultation, removing the old window, preparing the opening, installing the new bow window, and finishing with sealing and tr",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-bow-window-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for bow window installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The bow window installation process typically begins with an initial consultation and measurement of the existing opening. We then prepare the wall by carefully removing the old window and framing. A new header may be installed to support the weight of the bow window, which is heavier than a standard window. The new window unit is then precisely set, leveled, and secured. Finally, the exterior is sealed and flashed to prevent water intrusion, and interior trim is applied. Factors like the existing wall structure and the size of the new window can influence the complexity and duration of this process.",
-        "description": "The installation process involves consultation, removing the old window, preparing the opening, installing the new bow window, and finishing with sealing and trimming."
-      }
-    }
-  ],
+  "name": "What is the typical process for bow window installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for bow window installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The bow window installation process typically begins with an initial consultation and measurement of the existing opening. We then prepare the wall by carefully removing the old window and framing. A new header may be installed to support the weight of the bow window, which is heavier than a standard window. The new window unit is then precisely set, leveled, and secured. Finally, the exterior is sealed and flashed to prevent water intrusion, and interior trim is applied. Factors like the existing wall structure and the size of the new window can influence the complexity and duration of this process.",
+        "@type": "Answer",
+        "description": "The installation process involves consultation, removing the old window, preparing the opening, installing the new bow window, and finishing with sealing and trimming."
+      }
+    }
+  ],
+  "description": "The installation process involves consultation, removing the old window, preparing the opening, installing the new bow window, and finishing with sealing and tr"
 }

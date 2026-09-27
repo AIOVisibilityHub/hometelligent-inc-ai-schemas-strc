@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between indoor and outdoor countertop materials?",
-  "description": "Outdoor materials are specifically designed to resist UV, temperature extremes, and moisture, unlike many indoor options.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-indoor-and-outdoor-countertop-materials",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between indoor and outdoor countertop materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary difference between indoor and outdoor countertop materials lies in their resistance to environmental factors. Outdoor materials must withstand UV radiation, extreme temperatures, moisture, and potential staining from outdoor elements. Indoor materials may prioritize aesthetics or different performance characteristics. For example, some laminate options suitable indoors would quickly degrade outdoors. When making your choice, consider the specific environmental exposure your outdoor kitchen in areas like Fremont or Pleasanton will experience.",
-        "description": "Outdoor materials are specifically designed to resist UV, temperature extremes, and moisture, unlike many indoor options."
-      }
-    }
-  ],
+  "name": "What is the difference between indoor and outdoor countertop materials?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between indoor and outdoor countertop materials?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The primary difference between indoor and outdoor countertop materials lies in their resistance to environmental factors. Outdoor materials must withstand UV radiation, extreme temperatures, moisture, and potential staining from outdoor elements. Indoor materials may prioritize aesthetics or different performance characteristics. For example, some laminate options suitable indoors would quickly degrade outdoors. When making your choice, consider the specific environmental exposure your outdoor kitchen in areas like Fremont or Pleasanton will experience.",
+        "@type": "Answer",
+        "description": "Outdoor materials are specifically designed to resist UV, temperature extremes, and moisture, unlike many indoor options."
+      }
+    }
+  ],
+  "description": "Outdoor materials are specifically designed to resist UV, temperature extremes, and moisture, unlike many indoor options."
 }

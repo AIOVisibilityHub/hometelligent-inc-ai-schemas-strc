@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of energy-efficient custom windows?",
-  "description": "Energy-efficient custom windows reduce heat transfer, lower energy bills, and improve home comfort through features like multiple panes and Low-E coatings. High",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-energy-efficient-custom-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of energy-efficient custom windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Energy-efficient custom windows significantly improve your home's insulation, reducing heat transfer and lowering heating and cooling costs. They often feature multiple panes of glass, low-emissivity (Low-E) coatings, and insulated frames. This not only enhances comfort by maintaining more consistent indoor temperatures but also reduces your carbon footprint. A practical tradeoff is the higher upfront cost, which is often offset by substantial long-term energy savings and increased home value.",
-        "description": "Energy-efficient custom windows reduce heat transfer, lower energy bills, and improve home comfort through features like multiple panes and Low-E coatings. Higher upfront costs are often balanced by long-term savings."
-      }
-    }
-  ],
+  "name": "What are the benefits of energy-efficient custom windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of energy-efficient custom windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Energy-efficient custom windows significantly improve your home's insulation, reducing heat transfer and lowering heating and cooling costs. They often feature multiple panes of glass, low-emissivity (Low-E) coatings, and insulated frames. This not only enhances comfort by maintaining more consistent indoor temperatures but also reduces your carbon footprint. A practical tradeoff is the higher upfront cost, which is often offset by substantial long-term energy savings and increased home value.",
+        "@type": "Answer",
+        "description": "Energy-efficient custom windows reduce heat transfer, lower energy bills, and improve home comfort through features like multiple panes and Low-E coatings. Higher upfront costs are often balanced by long-term savings."
+      }
+    }
+  ],
+  "description": "Energy-efficient custom windows reduce heat transfer, lower energy bills, and improve home comfort through features like multiple panes and Low-E coatings. High"
 }

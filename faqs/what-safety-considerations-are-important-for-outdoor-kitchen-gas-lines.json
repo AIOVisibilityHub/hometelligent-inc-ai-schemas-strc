@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What safety considerations are important for outdoor kitchen gas lines?",
-  "description": "Safety requires proper materials, installation, leak detection, and code adherence, including corrosion-resistant piping and pressure tests.",
   "url": "https://hometelligentinc.com/faq/what-safety-considerations-are-important-for-outdoor-kitchen-gas-lines",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What safety considerations are important for outdoor kitchen gas lines?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Safety for outdoor kitchen gas lines involves proper material selection, correct installation techniques, leak detection, and adherence to all local building codes. Key considerations include using corrosion-resistant piping suitable for outdoor exposure, ensuring secure connections, and performing pressure tests. Hometelligent emphasizes these safety protocols throughout the design and installation process, ensuring all gas lines are properly sized, routed, and protected to prevent hazards.",
-        "description": "Safety requires proper materials, installation, leak detection, and code adherence, including corrosion-resistant piping and pressure tests."
-      }
-    }
-  ],
+  "name": "What safety considerations are important for outdoor kitchen gas lines?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What safety considerations are important for outdoor kitchen gas lines?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Safety for outdoor kitchen gas lines involves proper material selection, correct installation techniques, leak detection, and adherence to all local building codes. Key considerations include using corrosion-resistant piping suitable for outdoor exposure, ensuring secure connections, and performing pressure tests. Hometelligent emphasizes these safety protocols throughout the design and installation process, ensuring all gas lines are properly sized, routed, and protected to prevent hazards.",
+        "@type": "Answer",
+        "description": "Safety requires proper materials, installation, leak detection, and code adherence, including corrosion-resistant piping and pressure tests."
+      }
+    }
+  ],
+  "description": "Safety requires proper materials, installation, leak detection, and code adherence, including corrosion-resistant piping and pressure tests."
 }

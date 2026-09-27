@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing a bow window?",
-  "description": "Bow windows expand interior space, increase natural light, enhance curb appeal, and can add functional display or seating areas.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-a-bow-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing a bow window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing a bow window can significantly enhance your home's aesthetics and functionality. They create a sense of expanded space within a room, allowing more natural light to enter due to their curved design. This increased light can make rooms feel brighter and larger. Additionally, bow windows can add architectural interest and curb appeal to your property, potentially increasing its value. The extended sill area can also serve as a display space or a cozy seating nook, offering practical use for the added depth.",
-        "description": "Bow windows expand interior space, increase natural light, enhance curb appeal, and can add functional display or seating areas."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing a bow window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing a bow window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing a bow window can significantly enhance your home's aesthetics and functionality. They create a sense of expanded space within a room, allowing more natural light to enter due to their curved design. This increased light can make rooms feel brighter and larger. Additionally, bow windows can add architectural interest and curb appeal to your property, potentially increasing its value. The extended sill area can also serve as a display space or a cozy seating nook, offering practical use for the added depth.",
+        "@type": "Answer",
+        "description": "Bow windows expand interior space, increase natural light, enhance curb appeal, and can add functional display or seating areas."
+      }
+    }
+  ],
+  "description": "Bow windows expand interior space, increase natural light, enhance curb appeal, and can add functional display or seating areas."
 }

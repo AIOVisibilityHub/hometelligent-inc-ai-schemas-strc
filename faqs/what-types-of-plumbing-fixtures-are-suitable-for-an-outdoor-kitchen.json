@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of plumbing fixtures are suitable for an outdoor kitchen?",
-  "description": "Suitable outdoor kitchen plumbing fixtures include durable, weather-resistant options like stainless steel sinks and outdoor-rated faucets. Consider local clima",
   "url": "https://hometelligentinc.com/faq/what-types-of-plumbing-fixtures-are-suitable-for-an-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of plumbing fixtures are suitable for an outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Outdoor kitchen plumbing fixtures need to be durable and weather-resistant. Common choices include stainless steel sinks, outdoor-rated faucets, and connections for ice makers or dishwashers. When selecting fixtures, consider the local climate in areas like Emeryville or Alameda to ensure they can withstand temperature fluctuations and moisture. The right selection balances functionality with longevity, preventing premature wear and tear.",
-        "description": "Suitable outdoor kitchen plumbing fixtures include durable, weather-resistant options like stainless steel sinks and outdoor-rated faucets. Consider local climate for longevity."
-      }
-    }
-  ],
+  "name": "What types of plumbing fixtures are suitable for an outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of plumbing fixtures are suitable for an outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Outdoor kitchen plumbing fixtures need to be durable and weather-resistant. Common choices include stainless steel sinks, outdoor-rated faucets, and connections for ice makers or dishwashers. When selecting fixtures, consider the local climate in areas like Emeryville or Alameda to ensure they can withstand temperature fluctuations and moisture. The right selection balances functionality with longevity, preventing premature wear and tear.",
+        "@type": "Answer",
+        "description": "Suitable outdoor kitchen plumbing fixtures include durable, weather-resistant options like stainless steel sinks and outdoor-rated faucets. Consider local climate for longevity."
+      }
+    }
+  ],
+  "description": "Suitable outdoor kitchen plumbing fixtures include durable, weather-resistant options like stainless steel sinks and outdoor-rated faucets. Consider local clima"
 }

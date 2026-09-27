@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What safety considerations are important for outdoor kitchen lighting?",
-  "description": "Outdoor-rated, properly grounded, and protected wiring are critical for safety. Consult qualified electricians and ensure clear access, noting any underground u",
   "url": "https://hometelligentinc.com/faq/what-safety-considerations-are-important-for-outdoor-kitchen-lighting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What safety considerations are important for outdoor kitchen lighting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Safety is paramount for outdoor kitchen lighting. All fixtures must be rated for outdoor use (wet or damp locations) to withstand exposure to elements. Proper grounding of electrical systems is critical to prevent shocks, and all wiring should be installed in appropriate conduit to protect against damage. It's crucial to consult with qualified electricians familiar with local building codes and outdoor electrical installations. One important preparation step for the homeowner is ensuring clear access to the installation area and discussing any existing underground utilities to avoid accidental damage during trenching.",
-        "description": "Outdoor-rated, properly grounded, and protected wiring are critical for safety. Consult qualified electricians and ensure clear access, noting any underground utilities."
-      }
-    }
-  ],
+  "name": "What safety considerations are important for outdoor kitchen lighting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What safety considerations are important for outdoor kitchen lighting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Safety is paramount for outdoor kitchen lighting. All fixtures must be rated for outdoor use (wet or damp locations) to withstand exposure to elements. Proper grounding of electrical systems is critical to prevent shocks, and all wiring should be installed in appropriate conduit to protect against damage. It's crucial to consult with qualified electricians familiar with local building codes and outdoor electrical installations. One important preparation step for the homeowner is ensuring clear access to the installation area and discussing any existing underground utilities to avoid accidental damage during trenching.",
+        "@type": "Answer",
+        "description": "Outdoor-rated, properly grounded, and protected wiring are critical for safety. Consult qualified electricians and ensure clear access, noting any underground utilities."
+      }
+    }
+  ],
+  "description": "Outdoor-rated, properly grounded, and protected wiring are critical for safety. Consult qualified electricians and ensure clear access, noting any underground u"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are available for bay windows and how do I choose?",
-  "description": "Bay windows come in vinyl, wood, and fiberglass; choose based on budget, aesthetics, climate, and maintenance preference, considering factors like bay-front exp",
   "url": "https://hometelligentinc.com/faq/what-materials-are-available-for-bay-windows-and-how-do-i-choose",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are available for bay windows and how do I choose?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bay windows are commonly available in vinyl, wood, and fiberglass materials, each with distinct advantages. Vinyl is durable, energy-efficient, and low-maintenance. Wood offers classic aesthetics but requires more upkeep. Fiberglass provides excellent strength, stability, and energy efficiency with minimal maintenance. Your choice should consider factors like your budget, desired aesthetics, climate, and maintenance preferences. For example, homes near the bay in Alameda might benefit from fiberglass for its resistance to environmental elements. We can guide you through the pros and cons of each material during your consultation.",
-        "description": "Bay windows come in vinyl, wood, and fiberglass; choose based on budget, aesthetics, climate, and maintenance preference, considering factors like bay-front exposure."
-      }
-    }
-  ],
+  "name": "What materials are available for bay windows and how do I choose?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are available for bay windows and how do I choose?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Bay windows are commonly available in vinyl, wood, and fiberglass materials, each with distinct advantages. Vinyl is durable, energy-efficient, and low-maintenance. Wood offers classic aesthetics but requires more upkeep. Fiberglass provides excellent strength, stability, and energy efficiency with minimal maintenance. Your choice should consider factors like your budget, desired aesthetics, climate, and maintenance preferences. For example, homes near the bay in Alameda might benefit from fiberglass for its resistance to environmental elements. We can guide you through the pros and cons of each material during your consultation.",
+        "@type": "Answer",
+        "description": "Bay windows come in vinyl, wood, and fiberglass; choose based on budget, aesthetics, climate, and maintenance preference, considering factors like bay-front exposure."
+      }
+    }
+  ],
+  "description": "Bay windows come in vinyl, wood, and fiberglass; choose based on budget, aesthetics, climate, and maintenance preference, considering factors like bay-front exp"
 }

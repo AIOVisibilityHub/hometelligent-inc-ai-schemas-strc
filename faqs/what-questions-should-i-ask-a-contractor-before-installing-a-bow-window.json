@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What questions should I ask a contractor before installing a bow window?",
-  "description": "Ask about contractor experience, material options, structural modification plans, sealing/insulation methods, warranty details, and project timeline.",
   "url": "https://hometelligentinc.com/faq/what-questions-should-i-ask-a-contractor-before-installing-a-bow-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What questions should I ask a contractor before installing a bow window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before committing to a bow window installation, ask potential contractors about their experience with bow window projects, including how many they've completed. Inquire about the types of window materials they offer and their recommendations for your specific home and climate. Crucially, ask about the structural modifications required and how they ensure proper sealing and insulation to prevent future issues. Confirm their warranty coverage on both the product and installation, and understand their timeline expectations and communication process throughout the project. This preparation helps ensure you select a qualified professional.",
-        "description": "Ask about contractor experience, material options, structural modification plans, sealing/insulation methods, warranty details, and project timeline."
-      }
-    }
-  ],
+  "name": "What questions should I ask a contractor before installing a bow window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What questions should I ask a contractor before installing a bow window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before committing to a bow window installation, ask potential contractors about their experience with bow window projects, including how many they've completed. Inquire about the types of window materials they offer and their recommendations for your specific home and climate. Crucially, ask about the structural modifications required and how they ensure proper sealing and insulation to prevent future issues. Confirm their warranty coverage on both the product and installation, and understand their timeline expectations and communication process throughout the project. This preparation helps ensure you select a qualified professional.",
+        "@type": "Answer",
+        "description": "Ask about contractor experience, material options, structural modification plans, sealing/insulation methods, warranty details, and project timeline."
+      }
+    }
+  ],
+  "description": "Ask about contractor experience, material options, structural modification plans, sealing/insulation methods, warranty details, and project timeline."
 }

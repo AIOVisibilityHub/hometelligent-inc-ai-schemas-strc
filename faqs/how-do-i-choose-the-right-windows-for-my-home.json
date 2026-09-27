@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right windows for my home?",
-  "description": "Choose windows based on architectural style, budget, energy efficiency needs, and operational preferences, considering material and glazing.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-windows-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right windows for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right windows involves considering factors such as your home's architectural style, budget, desired energy efficiency, and operational preferences. Evaluate materials like vinyl, wood, or fiberglass, and assess glazing options for insulation and UV protection. We recommend thinking about which rooms require specific features, such as noise reduction for bedrooms or ease of cleaning for upper-story windows, to make the best decision.",
-        "description": "Choose windows based on architectural style, budget, energy efficiency needs, and operational preferences, considering material and glazing."
-      }
-    }
-  ],
+  "name": "How do I choose the right windows for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right windows for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right windows involves considering factors such as your home's architectural style, budget, desired energy efficiency, and operational preferences. Evaluate materials like vinyl, wood, or fiberglass, and assess glazing options for insulation and UV protection. We recommend thinking about which rooms require specific features, such as noise reduction for bedrooms or ease of cleaning for upper-story windows, to make the best decision.",
+        "@type": "Answer",
+        "description": "Choose windows based on architectural style, budget, energy efficiency needs, and operational preferences, considering material and glazing."
+      }
+    }
+  ],
+  "description": "Choose windows based on architectural style, budget, energy efficiency needs, and operational preferences, considering material and glazing."
 }

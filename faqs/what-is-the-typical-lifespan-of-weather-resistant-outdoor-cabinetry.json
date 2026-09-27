@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical lifespan of weather-resistant outdoor cabinetry?",
-  "description": "High-quality weather-resistant outdoor cabinetry can last 15-25+ years, depending on material, exposure, and maintenance. Marine-grade polymer and stainless ste",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-lifespan-of-weather-resistant-outdoor-cabinetry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical lifespan of weather-resistant outdoor cabinetry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The lifespan of weather-resistant outdoor cabinetry varies significantly based on the material, exposure to elements, and maintenance. High-quality marine-grade polymer or stainless steel cabinets can last 15-25 years or more with proper care. Wood options like teak, while naturally durable, may require more frequent maintenance, such as oiling, to achieve a similar lifespan. When planning your outdoor kitchen, consider the long-term durability and maintenance requirements of different materials as a practical tradeoff against initial cost and desired aesthetic.",
-        "description": "High-quality weather-resistant outdoor cabinetry can last 15-25+ years, depending on material, exposure, and maintenance. Marine-grade polymer and stainless steel offer superior longevity."
-      }
-    }
-  ],
+  "name": "What is the typical lifespan of weather-resistant outdoor cabinetry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical lifespan of weather-resistant outdoor cabinetry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The lifespan of weather-resistant outdoor cabinetry varies significantly based on the material, exposure to elements, and maintenance. High-quality marine-grade polymer or stainless steel cabinets can last 15-25 years or more with proper care. Wood options like teak, while naturally durable, may require more frequent maintenance, such as oiling, to achieve a similar lifespan. When planning your outdoor kitchen, consider the long-term durability and maintenance requirements of different materials as a practical tradeoff against initial cost and desired aesthetic.",
+        "@type": "Answer",
+        "description": "High-quality weather-resistant outdoor cabinetry can last 15-25+ years, depending on material, exposure, and maintenance. Marine-grade polymer and stainless steel offer superior longevity."
+      }
+    }
+  ],
+  "description": "High-quality weather-resistant outdoor cabinetry can last 15-25+ years, depending on material, exposure, and maintenance. Marine-grade polymer and stainless ste"
 }

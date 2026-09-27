@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when designing the layout for outdoor kitchen cabinetry?",
-  "description": "Design the outdoor kitchen cabinetry layout considering the work triangle, entertainment style, utility access, and environmental factors.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-designing-the-layout-for-outdoor-kitchen-cabinetry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when designing the layout for outdoor kitchen cabinetry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When designing your outdoor kitchen cabinetry layout, consider the 'work triangle' concept for efficient workflow between the primary cooking, preparation, and storage zones. Think about how you entertain and cook outdoors, ensuring adequate counter space, access to utilities like water and electricity, and proximity to your indoor kitchen if desired. It's also important to account for sun exposure, wind patterns, and proximity to dining areas. Proper planning by a construction company in areas like Pleasanton or Dublin will ensure the layout maximizes functionality and integrates seamlessly with your existing outdoor space.",
-        "description": "Design the outdoor kitchen cabinetry layout considering the work triangle, entertainment style, utility access, and environmental factors."
-      }
-    }
-  ],
+  "name": "What should I consider when designing the layout for outdoor kitchen cabinetry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when designing the layout for outdoor kitchen cabinetry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When designing your outdoor kitchen cabinetry layout, consider the 'work triangle' concept for efficient workflow between the primary cooking, preparation, and storage zones. Think about how you entertain and cook outdoors, ensuring adequate counter space, access to utilities like water and electricity, and proximity to your indoor kitchen if desired. It's also important to account for sun exposure, wind patterns, and proximity to dining areas. Proper planning by a construction company in areas like Pleasanton or Dublin will ensure the layout maximizes functionality and integrates seamlessly with your existing outdoor space.",
+        "@type": "Answer",
+        "description": "Design the outdoor kitchen cabinetry layout considering the work triangle, entertainment style, utility access, and environmental factors."
+      }
+    }
+  ],
+  "description": "Design the outdoor kitchen cabinetry layout considering the work triangle, entertainment style, utility access, and environmental factors."
 }

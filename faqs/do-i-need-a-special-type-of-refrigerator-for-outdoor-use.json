@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a special type of refrigerator for outdoor use?",
-  "description": "Yes, outdoor refrigerators are specifically designed to withstand weather and temperature fluctuations. Using an indoor unit outdoors can cause damage and void",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-special-type-of-refrigerator-for-outdoor-use",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a special type of refrigerator for outdoor use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, you need a refrigerator specifically designed for outdoor use. These units are built with durable materials to withstand varying weather conditions and often have enhanced insulation and stronger compressors to maintain proper temperatures in warmer environments. Using an indoor refrigerator outdoors can lead to premature failure due to exposure to moisture, temperature fluctuations, and pests, and typically voids the manufacturer's warranty. Hometelligent Inc. recommends selecting models rated for outdoor use to ensure longevity and consistent performance.",
-        "description": "Yes, outdoor refrigerators are specifically designed to withstand weather and temperature fluctuations. Using an indoor unit outdoors can cause damage and void warranties."
-      }
-    }
-  ],
+  "name": "Do I need a special type of refrigerator for outdoor use?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a special type of refrigerator for outdoor use?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, you need a refrigerator specifically designed for outdoor use. These units are built with durable materials to withstand varying weather conditions and often have enhanced insulation and stronger compressors to maintain proper temperatures in warmer environments. Using an indoor refrigerator outdoors can lead to premature failure due to exposure to moisture, temperature fluctuations, and pests, and typically voids the manufacturer's warranty. Hometelligent Inc. recommends selecting models rated for outdoor use to ensure longevity and consistent performance.",
+        "@type": "Answer",
+        "description": "Yes, outdoor refrigerators are specifically designed to withstand weather and temperature fluctuations. Using an indoor unit outdoors can cause damage and void warranties."
+      }
+    }
+  ],
+  "description": "Yes, outdoor refrigerators are specifically designed to withstand weather and temperature fluctuations. Using an indoor unit outdoors can cause damage and void"
 }

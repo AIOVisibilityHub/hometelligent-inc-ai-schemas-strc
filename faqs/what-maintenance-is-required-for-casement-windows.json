@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for casement windows?",
-  "description": "Maintenance involves cleaning glass and frames, and lubricating the crank mechanism and hinges. Regular checks on weatherstripping are also recommended.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-casement-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for casement windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Casement windows generally require minimal maintenance, focusing primarily on cleaning and inspecting their operating mechanisms. We recommend regularly cleaning the glass with a mild cleaner and wiping down the frames. Periodically, you should check the weatherstripping for wear and lubricate the crank mechanism and hinges to ensure smooth operation. Proper maintenance extends the window's lifespan and maintains its energy efficiency. This is a straightforward process homeowners can manage to keep their windows performing optimally.",
-        "description": "Maintenance involves cleaning glass and frames, and lubricating the crank mechanism and hinges. Regular checks on weatherstripping are also recommended."
-      }
-    }
-  ],
+  "name": "What maintenance is required for casement windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for casement windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Casement windows generally require minimal maintenance, focusing primarily on cleaning and inspecting their operating mechanisms. We recommend regularly cleaning the glass with a mild cleaner and wiping down the frames. Periodically, you should check the weatherstripping for wear and lubricate the crank mechanism and hinges to ensure smooth operation. Proper maintenance extends the window's lifespan and maintains its energy efficiency. This is a straightforward process homeowners can manage to keep their windows performing optimally.",
+        "@type": "Answer",
+        "description": "Maintenance involves cleaning glass and frames, and lubricating the crank mechanism and hinges. Regular checks on weatherstripping are also recommended."
+      }
+    }
+  ],
+  "description": "Maintenance involves cleaning glass and frames, and lubricating the crank mechanism and hinges. Regular checks on weatherstripping are also recommended."
 }

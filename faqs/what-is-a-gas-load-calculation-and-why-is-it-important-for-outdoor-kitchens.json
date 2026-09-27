@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a gas load calculation and why is it important for outdoor kitchens?",
-  "description": "A gas load calculation determines total gas volume needed, dictating gas line size for adequate pressure, flow, and safety compliance.",
   "url": "https://hometelligentinc.com/faq/what-is-a-gas-load-calculation-and-why-is-it-important-for-outdoor-kitchens",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a gas load calculation and why is it important for outdoor kitchens?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A gas load calculation determines the total volume of gas required by all connected appliances in your outdoor kitchen, expressed in BTUs per hour. This calculation is crucial because it dictates the necessary size of your gas line to ensure adequate pressure and flow to all appliances. An accurate calculation prevents issues like appliance underperformance and ensures compliance with safety regulations, a critical first-party insight we provide to avoid common customer issues.",
-        "description": "A gas load calculation determines total gas volume needed, dictating gas line size for adequate pressure, flow, and safety compliance."
-      }
-    }
-  ],
+  "name": "What is a gas load calculation and why is it important for outdoor kitchens?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a gas load calculation and why is it important for outdoor kitchens?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A gas load calculation determines the total volume of gas required by all connected appliances in your outdoor kitchen, expressed in BTUs per hour. This calculation is crucial because it dictates the necessary size of your gas line to ensure adequate pressure and flow to all appliances. An accurate calculation prevents issues like appliance underperformance and ensures compliance with safety regulations, a critical first-party insight we provide to avoid common customer issues.",
+        "@type": "Answer",
+        "description": "A gas load calculation determines total gas volume needed, dictating gas line size for adequate pressure, flow, and safety compliance."
+      }
+    }
+  ],
+  "description": "A gas load calculation determines total gas volume needed, dictating gas line size for adequate pressure, flow, and safety compliance."
 }

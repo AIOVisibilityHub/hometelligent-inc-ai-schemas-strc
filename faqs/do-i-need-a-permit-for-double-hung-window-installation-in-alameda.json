@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for double-hung window installation in Alameda?",
-  "description": "Permits are often needed for window replacement in Alameda, especially for structural changes. Hometelligent assists with local permit requirements.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-double-hung-window-installation-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for double-hung window installation in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generally, permits are required for window replacement projects in many cities, including Alameda, especially if the opening size is altered or structural changes are made. However, regulations can vary by specific project scope and local municipality. To ensure compliance, Hometelligent assists clients by researching local permit requirements specific to your property in Alameda, Berkeley, or other cities we serve, and can help facilitate the permit application process.",
-        "description": "Permits are often needed for window replacement in Alameda, especially for structural changes. Hometelligent assists with local permit requirements."
-      }
-    }
-  ],
+  "name": "Do I need a permit for double-hung window installation in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for double-hung window installation in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Generally, permits are required for window replacement projects in many cities, including Alameda, especially if the opening size is altered or structural changes are made. However, regulations can vary by specific project scope and local municipality. To ensure compliance, Hometelligent assists clients by researching local permit requirements specific to your property in Alameda, Berkeley, or other cities we serve, and can help facilitate the permit application process.",
+        "@type": "Answer",
+        "description": "Permits are often needed for window replacement in Alameda, especially for structural changes. Hometelligent assists with local permit requirements."
+      }
+    }
+  ],
+  "description": "Permits are often needed for window replacement in Alameda, especially for structural changes. Hometelligent assists with local permit requirements."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What site preparations are needed before installing an outdoor pizza oven?",
-  "description": "Site preparation often requires a level, stable foundation to support the oven's weight and may include gas or electrical line installation depending on the mod",
   "url": "https://hometelligentinc.com/faq/what-site-preparations-are-needed-before-installing-an-outdoor-pizza-oven",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What site preparations are needed before installing an outdoor pizza oven?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before installation, adequate site preparation is crucial for safety and functionality. This typically includes a level, stable concrete pad or foundation capable of supporting the oven's weight, which can be considerable. Depending on your chosen oven and desired features, you might also need gas lines, electrical outlets, or dedicated ventilation. Hometelligent assists with identifying and implementing all necessary site preparations.",
-        "description": "Site preparation often requires a level, stable foundation to support the oven's weight and may include gas or electrical line installation depending on the model."
-      }
-    }
-  ],
+  "name": "What site preparations are needed before installing an outdoor pizza oven?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What site preparations are needed before installing an outdoor pizza oven?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before installation, adequate site preparation is crucial for safety and functionality. This typically includes a level, stable concrete pad or foundation capable of supporting the oven's weight, which can be considerable. Depending on your chosen oven and desired features, you might also need gas lines, electrical outlets, or dedicated ventilation. Hometelligent assists with identifying and implementing all necessary site preparations.",
+        "@type": "Answer",
+        "description": "Site preparation often requires a level, stable foundation to support the oven's weight and may include gas or electrical line installation depending on the model."
+      }
+    }
+  ],
+  "description": "Site preparation often requires a level, stable foundation to support the oven's weight and may include gas or electrical line installation depending on the mod"
 }

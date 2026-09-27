@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the different types of egress windows available?",
-  "description": "Common egress window types include casement, sliding, and double-hung, each with specific size and operational requirements to meet code.",
   "url": "https://hometelligentinc.com/faq/what-are-the-different-types-of-egress-windows-available",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the different types of egress windows available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There are several types of windows that can qualify as egress windows, provided they meet specific size and operational requirements. Common types include casement windows, which crank open wide for maximum clear opening, and sliding windows, which require a larger overall frame to achieve the necessary clear opening. Double-hung windows are also an option if they can open wide enough. The best choice often depends on the available wall space, basement depth, and aesthetic preferences. Each type has different operational requirements that impact the necessary window well size and accessibility features.",
-        "description": "Common egress window types include casement, sliding, and double-hung, each with specific size and operational requirements to meet code."
-      }
-    }
-  ],
+  "name": "What are the different types of egress windows available?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the different types of egress windows available?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "There are several types of windows that can qualify as egress windows, provided they meet specific size and operational requirements. Common types include casement windows, which crank open wide for maximum clear opening, and sliding windows, which require a larger overall frame to achieve the necessary clear opening. Double-hung windows are also an option if they can open wide enough. The best choice often depends on the available wall space, basement depth, and aesthetic preferences. Each type has different operational requirements that impact the necessary window well size and accessibility features.",
+        "@type": "Answer",
+        "description": "Common egress window types include casement, sliding, and double-hung, each with specific size and operational requirements to meet code."
+      }
+    }
+  ],
+  "description": "Common egress window types include casement, sliding, and double-hung, each with specific size and operational requirements to meet code."
 }

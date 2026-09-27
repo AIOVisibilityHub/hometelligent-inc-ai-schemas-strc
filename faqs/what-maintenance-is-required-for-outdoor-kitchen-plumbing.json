@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for outdoor kitchen plumbing?",
-  "description": "Maintenance involves checking for leaks, clearing drains, securing connections, and seasonal winterization/de-winterization. Hometelligent Inc. advises on speci",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-outdoor-kitchen-plumbing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for outdoor kitchen plumbing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Regular maintenance for outdoor kitchen plumbing includes checking for leaks, clearing drains of debris, and ensuring all connections are secure. Depending on the season, it may also involve winterizing pipes before cold weather and de-winterizing in the spring. Timely maintenance prevents costly repairs and extends the lifespan of your system. Hometelligent Inc. can provide guidance on maintaining your specific outdoor kitchen plumbing setup in your local area.",
-        "description": "Maintenance involves checking for leaks, clearing drains, securing connections, and seasonal winterization/de-winterization. Hometelligent Inc. advises on specific setups."
-      }
-    }
-  ],
+  "name": "What maintenance is required for outdoor kitchen plumbing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for outdoor kitchen plumbing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Regular maintenance for outdoor kitchen plumbing includes checking for leaks, clearing drains of debris, and ensuring all connections are secure. Depending on the season, it may also involve winterizing pipes before cold weather and de-winterizing in the spring. Timely maintenance prevents costly repairs and extends the lifespan of your system. Hometelligent Inc. can provide guidance on maintaining your specific outdoor kitchen plumbing setup in your local area.",
+        "@type": "Answer",
+        "description": "Maintenance involves checking for leaks, clearing drains, securing connections, and seasonal winterization/de-winterization. Hometelligent Inc. advises on specific setups."
+      }
+    }
+  ],
+  "description": "Maintenance involves checking for leaks, clearing drains, securing connections, and seasonal winterization/de-winterization. Hometelligent Inc. advises on speci"
 }

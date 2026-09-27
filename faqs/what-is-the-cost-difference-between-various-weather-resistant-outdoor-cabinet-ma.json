@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the cost difference between various weather-resistant outdoor cabinet materials?",
-  "description": "Costs vary: marine-grade polymer is mid-range, stainless steel and teak are typically higher. Consider the tradeoff between initial cost and long-term maintenan",
   "url": "https://hometelligentinc.com/faq/what-is-the-cost-difference-between-various-weather-resistant-outdoor-cabinet-ma",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the cost difference between various weather-resistant outdoor cabinet materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of weather-resistant outdoor cabinetry varies by material, design complexity, and brand. Marine-grade polymer (HDPE) cabinets often offer a mid-range price point, balancing durability and affordability. Stainless steel options can be at a higher price point due to material cost and fabrication, while natural woods like teak are typically the most expensive upfront due to their inherent qualities and sourcing. When making a decision, consider the practical tradeoff between initial investment and long-term maintenance needs, as some cheaper materials may require more frequent replacement or repair.",
-        "description": "Costs vary: marine-grade polymer is mid-range, stainless steel and teak are typically higher. Consider the tradeoff between initial cost and long-term maintenance."
-      }
-    }
-  ],
+  "name": "What is the cost difference between various weather-resistant outdoor cabinet materials?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the cost difference between various weather-resistant outdoor cabinet materials?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of weather-resistant outdoor cabinetry varies by material, design complexity, and brand. Marine-grade polymer (HDPE) cabinets often offer a mid-range price point, balancing durability and affordability. Stainless steel options can be at a higher price point due to material cost and fabrication, while natural woods like teak are typically the most expensive upfront due to their inherent qualities and sourcing. When making a decision, consider the practical tradeoff between initial investment and long-term maintenance needs, as some cheaper materials may require more frequent replacement or repair.",
+        "@type": "Answer",
+        "description": "Costs vary: marine-grade polymer is mid-range, stainless steel and teak are typically higher. Consider the tradeoff between initial cost and long-term maintenance."
+      }
+    }
+  ],
+  "description": "Costs vary: marine-grade polymer is mid-range, stainless steel and teak are typically higher. Consider the tradeoff between initial cost and long-term maintenan"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of building an outdoor dining area?",
-  "description": "Key factors influencing outdoor dining area costs include size, material choices, added features like pergolas or lighting, and necessary site preparation.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-an-outdoor-dining-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of building an outdoor dining area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of an outdoor dining area construction project is influenced by several factors, including the size and complexity of the design, the types of materials chosen (e.g., composite decking, natural stone, concrete), and the inclusion of features like pergolas, lighting, heating, or outdoor kitchens. Site preparation, such as grading or retaining walls, can also add to the overall expense. Considering these elements upfront helps in establishing a realistic budget. We can discuss various material options to fit your aesthetic and financial goals within the Alameda, Albany, Berkeley, Dublin, and Emeryville areas.",
-        "description": "Key factors influencing outdoor dining area costs include size, material choices, added features like pergolas or lighting, and necessary site preparation."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of building an outdoor dining area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of building an outdoor dining area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of an outdoor dining area construction project is influenced by several factors, including the size and complexity of the design, the types of materials chosen (e.g., composite decking, natural stone, concrete), and the inclusion of features like pergolas, lighting, heating, or outdoor kitchens. Site preparation, such as grading or retaining walls, can also add to the overall expense. Considering these elements upfront helps in establishing a realistic budget. We can discuss various material options to fit your aesthetic and financial goals within the Alameda, Albany, Berkeley, Dublin, and Emeryville areas.",
+        "@type": "Answer",
+        "description": "Key factors influencing outdoor dining area costs include size, material choices, added features like pergolas or lighting, and necessary site preparation."
+      }
+    }
+  ],
+  "description": "Key factors influencing outdoor dining area costs include size, material choices, added features like pergolas or lighting, and necessary site preparation."
 }

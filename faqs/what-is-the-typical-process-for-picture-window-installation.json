@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for picture window installation?",
-  "description": "Installation involves consultation, measurement, window ordering, removal of the old window, preparation of the opening, setting, insulating, sealing, and finis",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-picture-window-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for picture window installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process typically begins with a consultation and measurement, followed by ordering the custom-sized window. On installation day, the old window (if any) is removed, the opening is prepared, the new picture window is set into place, leveled, insulated, and sealed. Finally, interior and exterior trim work is completed. Hometelligent ensures a thorough cleanup after the installation is finished.",
-        "description": "Installation involves consultation, measurement, window ordering, removal of the old window, preparation of the opening, setting, insulating, sealing, and finishing trim."
-      }
-    }
-  ],
+  "name": "What is the typical process for picture window installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for picture window installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process typically begins with a consultation and measurement, followed by ordering the custom-sized window. On installation day, the old window (if any) is removed, the opening is prepared, the new picture window is set into place, leveled, insulated, and sealed. Finally, interior and exterior trim work is completed. Hometelligent ensures a thorough cleanup after the installation is finished.",
+        "@type": "Answer",
+        "description": "Installation involves consultation, measurement, window ordering, removal of the old window, preparation of the opening, setting, insulating, sealing, and finishing trim."
+      }
+    }
+  ],
+  "description": "Installation involves consultation, measurement, window ordering, removal of the old window, preparation of the opening, setting, insulating, sealing, and finis"
 }

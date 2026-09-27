@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can an outdoor refrigerator be installed in any outdoor kitchen setup?",
-  "description": "Outdoor refrigerators can fit various setups, but proper ventilation, drainage, and protection from elements are crucial. We assess your design for optimal inte",
   "url": "https://hometelligentinc.com/faq/can-an-outdoor-refrigerator-be-installed-in-any-outdoor-kitchen-setup",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can an outdoor refrigerator be installed in any outdoor kitchen setup?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An outdoor refrigerator can be integrated into most outdoor kitchen setups, but considerations for ventilation, drainage, and exposure to elements are key. Built-in models require specific cabinetry dimensions and airflow, while freestanding units need adequate clearance around them. Hometelligent Inc. assesses your outdoor kitchen design to ensure there's proper space, electrical access, and protection from direct sunlight or rain, which can impact the unit's efficiency and lifespan. Careful planning prevents common issues like overheating or water damage.",
-        "description": "Outdoor refrigerators can fit various setups, but proper ventilation, drainage, and protection from elements are crucial. We assess your design for optimal integration."
-      }
-    }
-  ],
+  "name": "Can an outdoor refrigerator be installed in any outdoor kitchen setup?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can an outdoor refrigerator be installed in any outdoor kitchen setup?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An outdoor refrigerator can be integrated into most outdoor kitchen setups, but considerations for ventilation, drainage, and exposure to elements are key. Built-in models require specific cabinetry dimensions and airflow, while freestanding units need adequate clearance around them. Hometelligent Inc. assesses your outdoor kitchen design to ensure there's proper space, electrical access, and protection from direct sunlight or rain, which can impact the unit's efficiency and lifespan. Careful planning prevents common issues like overheating or water damage.",
+        "@type": "Answer",
+        "description": "Outdoor refrigerators can fit various setups, but proper ventilation, drainage, and protection from elements are crucial. We assess your design for optimal integration."
+      }
+    }
+  ],
+  "description": "Outdoor refrigerators can fit various setups, but proper ventilation, drainage, and protection from elements are crucial. We assess your design for optimal inte"
 }

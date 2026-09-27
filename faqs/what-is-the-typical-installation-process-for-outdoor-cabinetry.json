@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical installation process for outdoor cabinetry?",
-  "description": "Installation involves site prep, cabinet assembly, utility integration, and sealing. We ensure a stable base and proper utility connections for a smooth process",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-installation-process-for-outdoor-cabinetry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical installation process for outdoor cabinetry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process for outdoor cabinetry typically begins with site preparation, ensuring a level and stable base, often a concrete slab or reinforced decking. We then assemble and position the cabinet frames, followed by the installation of doors, drawers, and countertops. Critical steps include integrating utilities like plumbing and electrical for sinks and appliances, and ensuring all connections are properly sealed and weather-protected. The process concludes with a final inspection and cleanup. During the design phase, Hometelligent Inc. works with you to confirm all necessary preparations are in place for a smooth and efficient installation.",
-        "description": "Installation involves site prep, cabinet assembly, utility integration, and sealing. We ensure a stable base and proper utility connections for a smooth process."
-      }
-    }
-  ],
+  "name": "What is the typical installation process for outdoor cabinetry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical installation process for outdoor cabinetry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process for outdoor cabinetry typically begins with site preparation, ensuring a level and stable base, often a concrete slab or reinforced decking. We then assemble and position the cabinet frames, followed by the installation of doors, drawers, and countertops. Critical steps include integrating utilities like plumbing and electrical for sinks and appliances, and ensuring all connections are properly sealed and weather-protected. The process concludes with a final inspection and cleanup. During the design phase, Hometelligent Inc. works with you to confirm all necessary preparations are in place for a smooth and efficient installation.",
+        "@type": "Answer",
+        "description": "Installation involves site prep, cabinet assembly, utility integration, and sealing. We ensure a stable base and proper utility connections for a smooth process."
+      }
+    }
+  ],
+  "description": "Installation involves site prep, cabinet assembly, utility integration, and sealing. We ensure a stable base and proper utility connections for a smooth process"
 }

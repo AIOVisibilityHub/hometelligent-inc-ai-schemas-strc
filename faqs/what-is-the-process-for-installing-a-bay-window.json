@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for installing a bay window?",
-  "description": "The installation process involves consultation, site prep, framing, window setting, and finishing trim work, ensuring a sealed and complete installation.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-a-bay-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for installing a bay window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The bay window installation process begins with an initial consultation and site assessment to determine feasibility and design options. Next, existing windows and wall sections are removed, and the opening is prepared. New framing and structural supports are installed as needed to bear the weight of the bay window. The new window unit is then carefully set, leveled, and sealed. Finally, interior and exterior trim work is completed, and the area is cleaned. Our team ensures a smooth process, minimizing disruption to your Dublin home.",
-        "description": "The installation process involves consultation, site prep, framing, window setting, and finishing trim work, ensuring a sealed and complete installation."
-      }
-    }
-  ],
+  "name": "What is the process for installing a bay window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for installing a bay window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The bay window installation process begins with an initial consultation and site assessment to determine feasibility and design options. Next, existing windows and wall sections are removed, and the opening is prepared. New framing and structural supports are installed as needed to bear the weight of the bay window. The new window unit is then carefully set, leveled, and sealed. Finally, interior and exterior trim work is completed, and the area is cleaned. Our team ensures a smooth process, minimizing disruption to your Dublin home.",
+        "@type": "Answer",
+        "description": "The installation process involves consultation, site prep, framing, window setting, and finishing trim work, ensuring a sealed and complete installation."
+      }
+    }
+  ],
+  "description": "The installation process involves consultation, site prep, framing, window setting, and finishing trim work, ensuring a sealed and complete installation."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install double-hung windows?",
-  "description": "Installation time depends on the number, size, and condition of windows. Clearing obstructions beforehand can speed up the process.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-double-hung-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install double-hung windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeframe for double-hung windows can vary based on the number of windows, their size, the condition of the existing frames, and the type of material. A single window might take a few hours, while a whole-house installation could span several days. To help prepare for the project, ensure easy access to all window openings by clearing any furniture or obstructions, which can significantly streamline the installation day.",
-        "description": "Installation time depends on the number, size, and condition of windows. Clearing obstructions beforehand can speed up the process."
-      }
-    }
-  ],
+  "name": "How long does it take to install double-hung windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install double-hung windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeframe for double-hung windows can vary based on the number of windows, their size, the condition of the existing frames, and the type of material. A single window might take a few hours, while a whole-house installation could span several days. To help prepare for the project, ensure easy access to all window openings by clearing any furniture or obstructions, which can significantly streamline the installation day.",
+        "@type": "Answer",
+        "description": "Installation time depends on the number, size, and condition of windows. Clearing obstructions beforehand can speed up the process."
+      }
+    }
+  ],
+  "description": "Installation time depends on the number, size, and condition of windows. Clearing obstructions beforehand can speed up the process."
 }

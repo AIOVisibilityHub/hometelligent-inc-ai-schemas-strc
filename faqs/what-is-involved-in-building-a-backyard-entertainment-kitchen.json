@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in building a backyard entertainment kitchen?",
-  "description": "Building a backyard entertainment kitchen involves design, planning, appliance selection, and installation of utilities like plumbing and electrical.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-building-a-backyard-entertainment-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in building a backyard entertainment kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building a backyard entertainment kitchen typically involves several stages, starting with design and planning. This includes selecting appliances like grills, refrigerators, and sinks, as well as choosing materials for countertops and cabinetry that can withstand outdoor conditions. Installation follows, covering plumbing, electrical work, and gas lines, ensuring all components are safely and correctly integrated. We work to ensure compliance with local building codes, which can vary across our service areas such as Alameda, Berkeley, and Dublin.",
-        "description": "Building a backyard entertainment kitchen involves design, planning, appliance selection, and installation of utilities like plumbing and electrical."
-      }
-    }
-  ],
+  "name": "What is involved in building a backyard entertainment kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in building a backyard entertainment kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building a backyard entertainment kitchen typically involves several stages, starting with design and planning. This includes selecting appliances like grills, refrigerators, and sinks, as well as choosing materials for countertops and cabinetry that can withstand outdoor conditions. Installation follows, covering plumbing, electrical work, and gas lines, ensuring all components are safely and correctly integrated. We work to ensure compliance with local building codes, which can vary across our service areas such as Alameda, Berkeley, and Dublin.",
+        "@type": "Answer",
+        "description": "Building a backyard entertainment kitchen involves design, planning, appliance selection, and installation of utilities like plumbing and electrical."
+      }
+    }
+  ],
+  "description": "Building a backyard entertainment kitchen involves design, planning, appliance selection, and installation of utilities like plumbing and electrical."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will installing an egress window increase my home's value?",
-  "description": "Yes, installing an egress window can increase home value by converting basement space into legal, habitable living areas, improving safety and marketability.",
   "url": "https://hometelligentinc.com/faq/will-installing-an-egress-window-increase-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will installing an egress window increase my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing an egress window can significantly increase your home's value, particularly by converting unfinished basement space into legal, habitable living areas like bedrooms or offices. This addition directly impacts the square footage that can be listed as living space, which is a key factor in home appraisals. Beyond monetary value, it also enhances safety and marketability. For homeowners in competitive real estate markets like Fremont or Livermore, adding a legal bedroom in the basement can be a compelling upgrade, attracting more potential buyers and a higher selling price.",
-        "description": "Yes, installing an egress window can increase home value by converting basement space into legal, habitable living areas, improving safety and marketability."
-      }
-    }
-  ],
+  "name": "Will installing an egress window increase my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will installing an egress window increase my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing an egress window can significantly increase your home's value, particularly by converting unfinished basement space into legal, habitable living areas like bedrooms or offices. This addition directly impacts the square footage that can be listed as living space, which is a key factor in home appraisals. Beyond monetary value, it also enhances safety and marketability. For homeowners in competitive real estate markets like Fremont or Livermore, adding a legal bedroom in the basement can be a compelling upgrade, attracting more potential buyers and a higher selling price.",
+        "@type": "Answer",
+        "description": "Yes, installing an egress window can increase home value by converting basement space into legal, habitable living areas, improving safety and marketability."
+      }
+    }
+  ],
+  "description": "Yes, installing an egress window can increase home value by converting basement space into legal, habitable living areas, improving safety and marketability."
 }

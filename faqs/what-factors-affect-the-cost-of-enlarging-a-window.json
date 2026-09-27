@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors affect the cost of enlarging a window?",
-  "description": "Cost factors include opening size, wall type, structural reinforcements, new window materials, and potential relocation of utilities.",
   "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-enlarging-a-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors affect the cost of enlarging a window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of enlarging a window is influenced by several factors, including the size of the new opening, the type of wall construction (e.g., wood frame, masonry), the need for structural reinforcements, and the chosen window materials. Additional costs can arise from relocating electrical wiring, plumbing, or HVAC components that may be within the wall. We provide a comprehensive, transparent quote that details all these potential costs after a thorough on-site assessment.",
-        "description": "Cost factors include opening size, wall type, structural reinforcements, new window materials, and potential relocation of utilities."
-      }
-    }
-  ],
+  "name": "What factors affect the cost of enlarging a window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors affect the cost of enlarging a window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of enlarging a window is influenced by several factors, including the size of the new opening, the type of wall construction (e.g., wood frame, masonry), the need for structural reinforcements, and the chosen window materials. Additional costs can arise from relocating electrical wiring, plumbing, or HVAC components that may be within the wall. We provide a comprehensive, transparent quote that details all these potential costs after a thorough on-site assessment.",
+        "@type": "Answer",
+        "description": "Cost factors include opening size, wall type, structural reinforcements, new window materials, and potential relocation of utilities."
+      }
+    }
+  ],
+  "description": "Cost factors include opening size, wall type, structural reinforcements, new window materials, and potential relocation of utilities."
 }

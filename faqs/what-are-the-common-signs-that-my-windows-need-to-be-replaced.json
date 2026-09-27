@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common signs that my windows need to be replaced?",
-  "description": "Signs include drafts, condensation between panes, difficulty operating, and frame deterioration.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-signs-that-my-windows-need-to-be-replaced",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common signs that my windows need to be replaced?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs that your windows need replacement include drafts, difficulty opening or closing, condensation between glass panes, and noticeable exterior noise. Deterioration of the window frame, such as rot or warping, also indicates a need for replacement. We often find that older, single-pane windows in areas like Alameda and Berkeley are particularly prone to these issues due to age and environmental exposure, making them less energy-efficient.",
-        "description": "Signs include drafts, condensation between panes, difficulty operating, and frame deterioration."
-      }
-    }
-  ],
+  "name": "What are the common signs that my windows need to be replaced?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common signs that my windows need to be replaced?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs that your windows need replacement include drafts, difficulty opening or closing, condensation between glass panes, and noticeable exterior noise. Deterioration of the window frame, such as rot or warping, also indicates a need for replacement. We often find that older, single-pane windows in areas like Alameda and Berkeley are particularly prone to these issues due to age and environmental exposure, making them less energy-efficient.",
+        "@type": "Answer",
+        "description": "Signs include drafts, condensation between panes, difficulty operating, and frame deterioration."
+      }
+    }
+  ],
+  "description": "Signs include drafts, condensation between panes, difficulty operating, and frame deterioration."
 }

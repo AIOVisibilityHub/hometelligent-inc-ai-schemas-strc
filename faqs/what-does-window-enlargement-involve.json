@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What does window enlargement involve?",
-  "description": "Window enlargement involves increasing an existing window opening, often requiring structural modifications like new headers to support the new size.",
   "url": "https://hometelligentinc.com/faq/what-does-window-enlargement-involve",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does window enlargement involve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Window enlargement typically involves increasing the size of an existing window opening or creating a new, larger opening in a wall. This process often requires structural modifications, such as installing new headers or reinforcing existing ones, to safely support the weight above the new opening. We assess the existing structure, wall materials, and foundation to ensure the enlargement can be done without compromising structural integrity. This upfront structural analysis is a key step in determining the project's feasibility and scope.",
-        "description": "Window enlargement involves increasing an existing window opening, often requiring structural modifications like new headers to support the new size."
-      }
-    }
-  ],
+  "name": "What does window enlargement involve?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What does window enlargement involve?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Window enlargement typically involves increasing the size of an existing window opening or creating a new, larger opening in a wall. This process often requires structural modifications, such as installing new headers or reinforcing existing ones, to safely support the weight above the new opening. We assess the existing structure, wall materials, and foundation to ensure the enlargement can be done without compromising structural integrity. This upfront structural analysis is a key step in determining the project's feasibility and scope.",
+        "@type": "Answer",
+        "description": "Window enlargement involves increasing an existing window opening, often requiring structural modifications like new headers to support the new size."
+      }
+    }
+  ],
+  "description": "Window enlargement involves increasing an existing window opening, often requiring structural modifications like new headers to support the new size."
 }

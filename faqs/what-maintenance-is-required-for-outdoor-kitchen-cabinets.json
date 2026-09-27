@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for outdoor kitchen cabinets?",
-  "description": "Maintenance varies by material: stainless steel needs regular cleaning, polymer cabinets are low-maintenance, and wood may require periodic sealing.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-outdoor-kitchen-cabinets",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for outdoor kitchen cabinets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The maintenance required for outdoor kitchen cabinets depends significantly on the material chosen. Stainless steel cabinets may need regular cleaning to prevent smudges and surface rust, especially in coastal areas like Fremont. Polymer or composite cabinets generally require less maintenance, often just soap and water. Wood cabinets, like teak, might need periodic sealing or oiling to maintain their appearance and protect against weathering. Understanding the specific maintenance schedule for your chosen material is crucial to ensure the longevity and appearance of your investment.",
-        "description": "Maintenance varies by material: stainless steel needs regular cleaning, polymer cabinets are low-maintenance, and wood may require periodic sealing."
-      }
-    }
-  ],
+  "name": "What maintenance is required for outdoor kitchen cabinets?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for outdoor kitchen cabinets?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The maintenance required for outdoor kitchen cabinets depends significantly on the material chosen. Stainless steel cabinets may need regular cleaning to prevent smudges and surface rust, especially in coastal areas like Fremont. Polymer or composite cabinets generally require less maintenance, often just soap and water. Wood cabinets, like teak, might need periodic sealing or oiling to maintain their appearance and protect against weathering. Understanding the specific maintenance schedule for your chosen material is crucial to ensure the longevity and appearance of your investment.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material: stainless steel needs regular cleaning, polymer cabinets are low-maintenance, and wood may require periodic sealing."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material: stainless steel needs regular cleaning, polymer cabinets are low-maintenance, and wood may require periodic sealing."
 }

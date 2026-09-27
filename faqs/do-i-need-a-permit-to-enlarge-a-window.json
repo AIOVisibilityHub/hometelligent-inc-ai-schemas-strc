@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit to enlarge a window?",
-  "description": "Yes, permits are almost always required for window enlargement due to structural modifications and local building codes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-enlarge-a-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit to enlarge a window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, window enlargement projects almost always require building permits because they involve structural modifications to your home. These permits ensure the work complies with local building codes, safety standards, and zoning regulations. Hometelligent Inc. manages the permit application process for our clients in areas like Alameda and Berkeley, helping to navigate the specific requirements and inspections needed to keep your project compliant and on schedule.",
-        "description": "Yes, permits are almost always required for window enlargement due to structural modifications and local building codes."
-      }
-    }
-  ],
+  "name": "Do I need a permit to enlarge a window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit to enlarge a window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, window enlargement projects almost always require building permits because they involve structural modifications to your home. These permits ensure the work complies with local building codes, safety standards, and zoning regulations. Hometelligent Inc. manages the permit application process for our clients in areas like Alameda and Berkeley, helping to navigate the specific requirements and inspections needed to keep your project compliant and on schedule.",
+        "@type": "Answer",
+        "description": "Yes, permits are almost always required for window enlargement due to structural modifications and local building codes."
+      }
+    }
+  ],
+  "description": "Yes, permits are almost always required for window enlargement due to structural modifications and local building codes."
 }

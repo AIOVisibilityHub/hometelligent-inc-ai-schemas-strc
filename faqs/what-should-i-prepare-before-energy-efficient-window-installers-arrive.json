@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before energy-efficient window installers arrive?",
-  "description": "Clear areas around windows, remove obstructions, and secure pets to ensure a smooth and safe installation process.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-energy-efficient-window-installers-arrive",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before energy-efficient window installers arrive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before installers arrive, you should clear the areas around your windows both inside and outside, removing any furniture, window treatments, or fragile items. Ensure a clear path for installers to move windows and tools. If you have pets, make arrangements for their safety and comfort away from the work areas. This preparation helps our team from Hometelligent Inc. work efficiently and safely, speeding up the installation process.",
-        "description": "Clear areas around windows, remove obstructions, and secure pets to ensure a smooth and safe installation process."
-      }
-    }
-  ],
+  "name": "What should I prepare before energy-efficient window installers arrive?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before energy-efficient window installers arrive?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before installers arrive, you should clear the areas around your windows both inside and outside, removing any furniture, window treatments, or fragile items. Ensure a clear path for installers to move windows and tools. If you have pets, make arrangements for their safety and comfort away from the work areas. This preparation helps our team from Hometelligent Inc. work efficiently and safely, speeding up the installation process.",
+        "@type": "Answer",
+        "description": "Clear areas around windows, remove obstructions, and secure pets to ensure a smooth and safe installation process."
+      }
+    }
+  ],
+  "description": "Clear areas around windows, remove obstructions, and secure pets to ensure a smooth and safe installation process."
 }

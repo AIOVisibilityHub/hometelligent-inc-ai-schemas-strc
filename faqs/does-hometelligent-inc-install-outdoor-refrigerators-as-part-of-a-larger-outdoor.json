@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does Hometelligent Inc. install outdoor refrigerators as part of a larger outdoor kitchen project?",
-  "description": "Yes, Hometelligent Inc. installs outdoor refrigerators as part of larger outdoor kitchen projects, ensuring seamless integration and code compliance.",
   "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-install-outdoor-refrigerators-as-part-of-a-larger-outdoor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does Hometelligent Inc. install outdoor refrigerators as part of a larger outdoor kitchen project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. frequently installs outdoor refrigerators as an integral component of comprehensive outdoor kitchen and living space construction projects. Integrating the appliance installation from the outset ensures seamless design, proper utility connections, and adherence to all local building codes. Our team manages the entire process, from initial design and site preparation to final appliance integration, ensuring all elements of your outdoor space in cities like San Leandro or Fremont are cohesive and functional.",
-        "description": "Yes, Hometelligent Inc. installs outdoor refrigerators as part of larger outdoor kitchen projects, ensuring seamless integration and code compliance."
-      }
-    }
-  ],
+  "name": "Does Hometelligent Inc. install outdoor refrigerators as part of a larger outdoor kitchen project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does Hometelligent Inc. install outdoor refrigerators as part of a larger outdoor kitchen project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. frequently installs outdoor refrigerators as an integral component of comprehensive outdoor kitchen and living space construction projects. Integrating the appliance installation from the outset ensures seamless design, proper utility connections, and adherence to all local building codes. Our team manages the entire process, from initial design and site preparation to final appliance integration, ensuring all elements of your outdoor space in cities like San Leandro or Fremont are cohesive and functional.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. installs outdoor refrigerators as part of larger outdoor kitchen projects, ensuring seamless integration and code compliance."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. installs outdoor refrigerators as part of larger outdoor kitchen projects, ensuring seamless integration and code compliance."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can an outdoor bar be integrated with an existing patio or outdoor kitchen?",
-  "description": "An outdoor bar can be integrated with existing patios or outdoor kitchens by matching aesthetics, materials, and utility connections for a cohesive space.",
   "url": "https://hometelligentinc.com/faq/can-an-outdoor-bar-be-integrated-with-an-existing-patio-or-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can an outdoor bar be integrated with an existing patio or outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, an outdoor bar can often be seamlessly integrated with an existing patio or outdoor kitchen, enhancing the functionality and entertainment value of your outdoor space. Integration involves careful planning to match existing aesthetics, materials, and utility connections, such as gas lines for grills or water lines for sinks. Hometelligent Inc. specializes in custom designs that blend new construction with existing features, ensuring a cohesive and unified outdoor living area for your home.",
-        "description": "An outdoor bar can be integrated with existing patios or outdoor kitchens by matching aesthetics, materials, and utility connections for a cohesive space."
-      }
-    }
-  ],
+  "name": "Can an outdoor bar be integrated with an existing patio or outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can an outdoor bar be integrated with an existing patio or outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, an outdoor bar can often be seamlessly integrated with an existing patio or outdoor kitchen, enhancing the functionality and entertainment value of your outdoor space. Integration involves careful planning to match existing aesthetics, materials, and utility connections, such as gas lines for grills or water lines for sinks. Hometelligent Inc. specializes in custom designs that blend new construction with existing features, ensuring a cohesive and unified outdoor living area for your home.",
+        "@type": "Answer",
+        "description": "An outdoor bar can be integrated with existing patios or outdoor kitchens by matching aesthetics, materials, and utility connections for a cohesive space."
+      }
+    }
+  ],
+  "description": "An outdoor bar can be integrated with existing patios or outdoor kitchens by matching aesthetics, materials, and utility connections for a cohesive space."
 }

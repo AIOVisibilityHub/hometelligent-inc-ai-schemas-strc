@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in outdoor refrigerator installation?",
-  "description": "Outdoor refrigerator installation involves site preparation, electrical wiring, and potentially plumbing. A dedicated GFCI-protected electrical outlet and prope",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-outdoor-refrigerator-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in outdoor refrigerator installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Outdoor refrigerator installation involves site preparation, electrical wiring, and sometimes plumbing. The process typically starts with selecting an appropriate location, ensuring it's level and protected from direct sunlight or extreme weather. For optimal performance and safety, proper ventilation and a dedicated GFCI-protected electrical outlet are crucial. As a construction company, Hometelligent Inc. can integrate the installation with existing outdoor kitchen designs or build new enclosures, ensuring all connections meet local codes for safety and durability.",
-        "description": "Outdoor refrigerator installation involves site preparation, electrical wiring, and potentially plumbing. A dedicated GFCI-protected electrical outlet and proper ventilation are essential for safety and performance."
-      }
-    }
-  ],
+  "name": "What is involved in outdoor refrigerator installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in outdoor refrigerator installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Outdoor refrigerator installation involves site preparation, electrical wiring, and sometimes plumbing. The process typically starts with selecting an appropriate location, ensuring it's level and protected from direct sunlight or extreme weather. For optimal performance and safety, proper ventilation and a dedicated GFCI-protected electrical outlet are crucial. As a construction company, Hometelligent Inc. can integrate the installation with existing outdoor kitchen designs or build new enclosures, ensuring all connections meet local codes for safety and durability.",
+        "@type": "Answer",
+        "description": "Outdoor refrigerator installation involves site preparation, electrical wiring, and potentially plumbing. A dedicated GFCI-protected electrical outlet and proper ventilation are essential for safety and performance."
+      }
+    }
+  ],
+  "description": "Outdoor refrigerator installation involves site preparation, electrical wiring, and potentially plumbing. A dedicated GFCI-protected electrical outlet and prope"
 }

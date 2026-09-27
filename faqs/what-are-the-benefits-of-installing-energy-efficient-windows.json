@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing energy-efficient windows?",
-  "description": "Benefits include lower energy bills, improved indoor comfort, increased home value, and better sound insulation.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-energy-efficient-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing energy-efficient windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing energy-efficient windows can lead to reduced energy bills by minimizing heat transfer, improved indoor comfort due to fewer drafts and more consistent temperatures, and increased home value. They also often offer enhanced sound dampening and UV protection for your furnishings. Considering the diverse climates within our service region, from coastal areas like Berkeley to inland cities like Pleasanton, these benefits can be particularly noticeable in maintaining comfortable indoor temperatures year-round.",
-        "description": "Benefits include lower energy bills, improved indoor comfort, increased home value, and better sound insulation."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing energy-efficient windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing energy-efficient windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing energy-efficient windows can lead to reduced energy bills by minimizing heat transfer, improved indoor comfort due to fewer drafts and more consistent temperatures, and increased home value. They also often offer enhanced sound dampening and UV protection for your furnishings. Considering the diverse climates within our service region, from coastal areas like Berkeley to inland cities like Pleasanton, these benefits can be particularly noticeable in maintaining comfortable indoor temperatures year-round.",
+        "@type": "Answer",
+        "description": "Benefits include lower energy bills, improved indoor comfort, increased home value, and better sound insulation."
+      }
+    }
+  ],
+  "description": "Benefits include lower energy bills, improved indoor comfort, increased home value, and better sound insulation."
 }

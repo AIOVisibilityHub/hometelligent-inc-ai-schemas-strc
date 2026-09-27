@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my backyard for outdoor kitchen cabinet installation?",
-  "description": "Prepare your backyard by ensuring a level, solid foundation, clearing obstructions, and confirming utility access for gas, water, and electricity.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-backyard-for-outdoor-kitchen-cabinet-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my backyard for outdoor kitchen cabinet installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare your backyard for outdoor kitchen cabinet installation, ensure the chosen site is level and has a solid foundation, such as a concrete slab or reinforced deck. Clear the area of any obstructions, vegetation, or debris. If utilities are needed, confirm that gas, water, and electrical lines are already stubbed out or accessible for connection, or plan for their installation. Proper preparation, including ensuring the ground is stable and utilities are available, helps streamline the installation process and prevents delays once construction begins.",
-        "description": "Prepare your backyard by ensuring a level, solid foundation, clearing obstructions, and confirming utility access for gas, water, and electricity."
-      }
-    }
-  ],
+  "name": "How can I prepare my backyard for outdoor kitchen cabinet installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my backyard for outdoor kitchen cabinet installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare your backyard for outdoor kitchen cabinet installation, ensure the chosen site is level and has a solid foundation, such as a concrete slab or reinforced deck. Clear the area of any obstructions, vegetation, or debris. If utilities are needed, confirm that gas, water, and electrical lines are already stubbed out or accessible for connection, or plan for their installation. Proper preparation, including ensuring the ground is stable and utilities are available, helps streamline the installation process and prevents delays once construction begins.",
+        "@type": "Answer",
+        "description": "Prepare your backyard by ensuring a level, solid foundation, clearing obstructions, and confirming utility access for gas, water, and electricity."
+      }
+    }
+  ],
+  "description": "Prepare your backyard by ensuring a level, solid foundation, clearing obstructions, and confirming utility access for gas, water, and electricity."
 }

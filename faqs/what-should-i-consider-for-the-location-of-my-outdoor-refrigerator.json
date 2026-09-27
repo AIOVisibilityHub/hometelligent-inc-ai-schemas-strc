@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider for the location of my outdoor refrigerator?",
-  "description": "Select a location that is accessible, protected from direct sunlight, and has good ventilation. This maximizes efficiency and longevity.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-for-the-location-of-my-outdoor-refrigerator",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider for the location of my outdoor refrigerator?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a location for your outdoor refrigerator, prioritize a spot that is easily accessible but also protected from direct sunlight and extreme weather. Direct sun exposure can significantly increase the unit's energy consumption and reduce its lifespan. Good ventilation around the unit is crucial to prevent overheating. Hometelligent Inc. advises on optimal placement to maximize efficiency and longevity, considering factors like shade, proximity to dining areas, and existing utility access points within your outdoor living space.",
-        "description": "Select a location that is accessible, protected from direct sunlight, and has good ventilation. This maximizes efficiency and longevity."
-      }
-    }
-  ],
+  "name": "What should I consider for the location of my outdoor refrigerator?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider for the location of my outdoor refrigerator?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a location for your outdoor refrigerator, prioritize a spot that is easily accessible but also protected from direct sunlight and extreme weather. Direct sun exposure can significantly increase the unit's energy consumption and reduce its lifespan. Good ventilation around the unit is crucial to prevent overheating. Hometelligent Inc. advises on optimal placement to maximize efficiency and longevity, considering factors like shade, proximity to dining areas, and existing utility access points within your outdoor living space.",
+        "@type": "Answer",
+        "description": "Select a location that is accessible, protected from direct sunlight, and has good ventilation. This maximizes efficiency and longevity."
+      }
+    }
+  ],
+  "description": "Select a location that is accessible, protected from direct sunlight, and has good ventilation. This maximizes efficiency and longevity."
 }

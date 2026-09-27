@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is custom window installation?",
-  "description": "Custom window installation involves designing and fitting windows to specific architectural, aesthetic, and performance needs of a home, rather than using stand",
   "url": "https://hometelligentinc.com/faq/what-is-custom-window-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is custom window installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom window installation involves selecting and fitting windows specifically designed to meet unique architectural requirements, aesthetic preferences, and performance needs of a home. Unlike standard sizes, custom windows can be tailored in terms of material, shape, size, and glass type to perfectly match an existing opening or a new design vision. A key decision factor is balancing design aesthetics with functional performance, such as energy efficiency or noise reduction, which can significantly influence material and glass choices.",
-        "description": "Custom window installation involves designing and fitting windows to specific architectural, aesthetic, and performance needs of a home, rather than using standard sizes."
-      }
-    }
-  ],
+  "name": "What is custom window installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is custom window installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom window installation involves selecting and fitting windows specifically designed to meet unique architectural requirements, aesthetic preferences, and performance needs of a home. Unlike standard sizes, custom windows can be tailored in terms of material, shape, size, and glass type to perfectly match an existing opening or a new design vision. A key decision factor is balancing design aesthetics with functional performance, such as energy efficiency or noise reduction, which can significantly influence material and glass choices.",
+        "@type": "Answer",
+        "description": "Custom window installation involves designing and fitting windows to specific architectural, aesthetic, and performance needs of a home, rather than using standard sizes."
+      }
+    }
+  ],
+  "description": "Custom window installation involves designing and fitting windows to specific architectural, aesthetic, and performance needs of a home, rather than using stand"
 }

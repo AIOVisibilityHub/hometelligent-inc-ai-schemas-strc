@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I use my existing home gas line for a new outdoor kitchen?",
-  "description": "It depends on your existing line's capacity and new appliance demand; an assessment determines if an upgrade is needed.",
   "url": "https://hometelligentinc.com/faq/can-i-use-my-existing-home-gas-line-for-a-new-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I use my existing home gas line for a new outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Using your existing home gas line for a new outdoor kitchen depends on the current line's capacity and the additional demand from your outdoor appliances. An undersized line can lead to insufficient gas pressure, affecting appliance performance. Our initial assessment includes calculating the total BTU load of your planned outdoor kitchen to determine if the existing gas line can safely support the additional demand, or if an upgrade is necessary.",
-        "description": "It depends on your existing line's capacity and new appliance demand; an assessment determines if an upgrade is needed."
-      }
-    }
-  ],
+  "name": "Can I use my existing home gas line for a new outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I use my existing home gas line for a new outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Using your existing home gas line for a new outdoor kitchen depends on the current line's capacity and the additional demand from your outdoor appliances. An undersized line can lead to insufficient gas pressure, affecting appliance performance. Our initial assessment includes calculating the total BTU load of your planned outdoor kitchen to determine if the existing gas line can safely support the additional demand, or if an upgrade is necessary.",
+        "@type": "Answer",
+        "description": "It depends on your existing line's capacity and new appliance demand; an assessment determines if an upgrade is needed."
+      }
+    }
+  ],
+  "description": "It depends on your existing line's capacity and new appliance demand; an assessment determines if an upgrade is needed."
 }

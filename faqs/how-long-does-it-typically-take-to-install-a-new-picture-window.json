@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it typically take to install a new picture window?",
-  "description": "Picture window installation typically takes a few hours to a full day. Complex projects requiring structural changes may take longer.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-install-a-new-picture-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it typically take to install a new picture window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeframe for a new picture window generally ranges from a few hours to a full day per window, depending on the opening's existing condition and any necessary structural modifications. Complex installations, such as enlarging an existing opening or creating a new one, will naturally take longer. Hometelligent will provide a detailed timeline after assessing your specific project in areas like Emeryville or Albany.",
-        "description": "Picture window installation typically takes a few hours to a full day. Complex projects requiring structural changes may take longer."
-      }
-    }
-  ],
+  "name": "How long does it typically take to install a new picture window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it typically take to install a new picture window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeframe for a new picture window generally ranges from a few hours to a full day per window, depending on the opening's existing condition and any necessary structural modifications. Complex installations, such as enlarging an existing opening or creating a new one, will naturally take longer. Hometelligent will provide a detailed timeline after assessing your specific project in areas like Emeryville or Albany.",
+        "@type": "Answer",
+        "description": "Picture window installation typically takes a few hours to a full day. Complex projects requiring structural changes may take longer."
+      }
+    }
+  ],
+  "description": "Picture window installation typically takes a few hours to a full day. Complex projects requiring structural changes may take longer."
 }

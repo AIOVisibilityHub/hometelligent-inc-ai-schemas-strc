@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does a covered outdoor kitchen typically cost?",
-  "description": "Costs vary significantly based on size, materials, and appliances. Budget is a key decision factor; prioritizing essentials helps manage costs, while luxury fea",
   "url": "https://hometelligentinc.com/faq/how-much-does-a-covered-outdoor-kitchen-typically-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does a covered outdoor kitchen typically cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a covered outdoor kitchen varies widely based on size, materials, appliances, and complexity of the overhead structure. Basic setups can start at a certain range, while fully customized, high-end kitchens with premium finishes and extensive features will be significantly more expensive. For decision factors, budget is paramount. Prioritizing essential appliances and durable, mid-range materials can help manage costs, while incorporating luxury elements or intricate architectural covers will increase the overall investment.",
-        "description": "Costs vary significantly based on size, materials, and appliances. Budget is a key decision factor; prioritizing essentials helps manage costs, while luxury features increase investment."
-      }
-    }
-  ],
+  "name": "How much does a covered outdoor kitchen typically cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does a covered outdoor kitchen typically cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a covered outdoor kitchen varies widely based on size, materials, appliances, and complexity of the overhead structure. Basic setups can start at a certain range, while fully customized, high-end kitchens with premium finishes and extensive features will be significantly more expensive. For decision factors, budget is paramount. Prioritizing essential appliances and durable, mid-range materials can help manage costs, while incorporating luxury elements or intricate architectural covers will increase the overall investment.",
+        "@type": "Answer",
+        "description": "Costs vary significantly based on size, materials, and appliances. Budget is a key decision factor; prioritizing essentials helps manage costs, while luxury features increase investment."
+      }
+    }
+  ],
+  "description": "Costs vary significantly based on size, materials, and appliances. Budget is a key decision factor; prioritizing essentials helps manage costs, while luxury fea"
 }

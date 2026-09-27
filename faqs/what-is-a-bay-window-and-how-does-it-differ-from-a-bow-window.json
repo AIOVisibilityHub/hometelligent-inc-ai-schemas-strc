@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a bay window and how does it differ from a bow window?",
-  "description": "Bay windows are angled with three units, while bow windows are more curved with four or more units. The choice depends on desired aesthetics and light.",
   "url": "https://hometelligentinc.com/faq/what-is-a-bay-window-and-how-does-it-differ-from-a-bow-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a bay window and how does it differ from a bow window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A bay window typically features three window units angled outwards from a wall, forming a projection from the home's exterior. The central window is usually fixed, with operating windows on the sides. In contrast, a bow window uses four or more windows, creating a more curved or arched appearance. The primary difference lies in their shape and the number of panels, affecting the aesthetic and the amount of light and view provided. For your home in Alameda, understanding these differences helps determine which style best suits your architectural needs and desired visual impact.",
-        "description": "Bay windows are angled with three units, while bow windows are more curved with four or more units. The choice depends on desired aesthetics and light."
-      }
-    }
-  ],
+  "name": "What is a bay window and how does it differ from a bow window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a bay window and how does it differ from a bow window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A bay window typically features three window units angled outwards from a wall, forming a projection from the home's exterior. The central window is usually fixed, with operating windows on the sides. In contrast, a bow window uses four or more windows, creating a more curved or arched appearance. The primary difference lies in their shape and the number of panels, affecting the aesthetic and the amount of light and view provided. For your home in Alameda, understanding these differences helps determine which style best suits your architectural needs and desired visual impact.",
+        "@type": "Answer",
+        "description": "Bay windows are angled with three units, while bow windows are more curved with four or more units. The choice depends on desired aesthetics and light."
+      }
+    }
+  ],
+  "description": "Bay windows are angled with three units, while bow windows are more curved with four or more units. The choice depends on desired aesthetics and light."
 }

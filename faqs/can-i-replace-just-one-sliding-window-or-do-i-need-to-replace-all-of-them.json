@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I replace just one sliding window, or do I need to replace all of them?",
-  "description": "You can replace a single sliding window, but many choose full replacement for consistent aesthetics and energy efficiency.",
   "url": "https://hometelligentinc.com/faq/can-i-replace-just-one-sliding-window-or-do-i-need-to-replace-all-of-them",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I replace just one sliding window, or do I need to replace all of them?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can absolutely replace just one sliding window if only that particular unit is damaged or underperforming. There's no requirement to replace all windows simultaneously, although many homeowners opt for a full replacement for consistent aesthetics and uniform energy efficiency improvements. Consider the age and condition of your other windows; replacing an isolated faulty window might be a cost-effective solution, but if other windows are also nearing the end of their lifespan, a phased replacement could be more strategic.",
-        "description": "You can replace a single sliding window, but many choose full replacement for consistent aesthetics and energy efficiency."
-      }
-    }
-  ],
+  "name": "Can I replace just one sliding window, or do I need to replace all of them?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I replace just one sliding window, or do I need to replace all of them?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You can absolutely replace just one sliding window if only that particular unit is damaged or underperforming. There's no requirement to replace all windows simultaneously, although many homeowners opt for a full replacement for consistent aesthetics and uniform energy efficiency improvements. Consider the age and condition of your other windows; replacing an isolated faulty window might be a cost-effective solution, but if other windows are also nearing the end of their lifespan, a phased replacement could be more strategic.",
+        "@type": "Answer",
+        "description": "You can replace a single sliding window, but many choose full replacement for consistent aesthetics and energy efficiency."
+      }
+    }
+  ],
+  "description": "You can replace a single sliding window, but many choose full replacement for consistent aesthetics and energy efficiency."
 }

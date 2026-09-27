@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to install an awning window?",
-  "description": "Installation cost varies by window size, material, glass options, and installation complexity. A precise estimate requires an on-site assessment.",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-install-an-awning-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to install an awning window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of installing an awning window varies widely based on factors such as the window's size, material (e.g., vinyl, wood, fiberglass), glass options, and the complexity of the installation. Custom sizes or specific finishes can also impact the price. A precise estimate requires an on-site assessment to evaluate the existing opening and any structural modifications needed. We provide detailed, transparent quotes after an initial consultation.",
-        "description": "Installation cost varies by window size, material, glass options, and installation complexity. A precise estimate requires an on-site assessment."
-      }
-    }
-  ],
+  "name": "How much does it cost to install an awning window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to install an awning window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of installing an awning window varies widely based on factors such as the window's size, material (e.g., vinyl, wood, fiberglass), glass options, and the complexity of the installation. Custom sizes or specific finishes can also impact the price. A precise estimate requires an on-site assessment to evaluate the existing opening and any structural modifications needed. We provide detailed, transparent quotes after an initial consultation.",
+        "@type": "Answer",
+        "description": "Installation cost varies by window size, material, glass options, and installation complexity. A precise estimate requires an on-site assessment."
+      }
+    }
+  ],
+  "description": "Installation cost varies by window size, material, glass options, and installation complexity. A precise estimate requires an on-site assessment."
 }

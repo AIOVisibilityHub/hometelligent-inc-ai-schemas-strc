@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a bow window and how does it differ from a bay window?",
-  "description": "A bow window has multiple panels forming a gentle curve, while a bay window typically has three angled panels. Bow windows offer a panoramic view, while bay win",
   "url": "https://hometelligentinc.com/faq/what-is-a-bow-window-and-how-does-it-differ-from-a-bay-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a bow window and how does it differ from a bay window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A bow window typically features four to six equally sized window panels that create a gentle, arching curve outward from your home's exterior. In contrast, a bay window usually consists of three windows: a large central picture window flanked by two smaller, angled windows. The primary difference lies in their shape and the number of panels, with bow windows offering a more panoramic view and bay windows providing a more defined, angular protrusion. When deciding between the two, consider the aesthetic you prefer and the amount of exterior space available, as bow windows require a wider wall opening.",
-        "description": "A bow window has multiple panels forming a gentle curve, while a bay window typically has three angled panels. Bow windows offer a panoramic view, while bay windows create a more angular projection."
-      }
-    }
-  ],
+  "name": "What is a bow window and how does it differ from a bay window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a bow window and how does it differ from a bay window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A bow window typically features four to six equally sized window panels that create a gentle, arching curve outward from your home's exterior. In contrast, a bay window usually consists of three windows: a large central picture window flanked by two smaller, angled windows. The primary difference lies in their shape and the number of panels, with bow windows offering a more panoramic view and bay windows providing a more defined, angular protrusion. When deciding between the two, consider the aesthetic you prefer and the amount of exterior space available, as bow windows require a wider wall opening.",
+        "@type": "Answer",
+        "description": "A bow window has multiple panels forming a gentle curve, while a bay window typically has three angled panels. Bow windows offer a panoramic view, while bay windows create a more angular projection."
+      }
+    }
+  ],
+  "description": "A bow window has multiple panels forming a gentle curve, while a bay window typically has three angled panels. Bow windows offer a panoramic view, while bay win"
 }

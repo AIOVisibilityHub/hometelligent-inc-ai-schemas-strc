@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider replacing my double-hung windows?",
-  "description": "Replace double-hung windows if you see drafts, condensation, damage, or rising energy bills. Older windows (15-20+ years) often benefit most from replacement.",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-double-hung-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider replacing my double-hung windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider replacing your double-hung windows if you notice drafts, condensation between glass panes, difficulty operating them, or visible damage to the frames. An increase in your energy bills can also be a strong indicator of poor window performance. A key decision factor is to consider the age of your current windows; if they are older than 15-20 years, newer models offer significant advancements in insulation and energy efficiency, making replacement a worthwhile investment.",
-        "description": "Replace double-hung windows if you see drafts, condensation, damage, or rising energy bills. Older windows (15-20+ years) often benefit most from replacement."
-      }
-    }
-  ],
+  "name": "When should I consider replacing my double-hung windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider replacing my double-hung windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider replacing your double-hung windows if you notice drafts, condensation between glass panes, difficulty operating them, or visible damage to the frames. An increase in your energy bills can also be a strong indicator of poor window performance. A key decision factor is to consider the age of your current windows; if they are older than 15-20 years, newer models offer significant advancements in insulation and energy efficiency, making replacement a worthwhile investment.",
+        "@type": "Answer",
+        "description": "Replace double-hung windows if you see drafts, condensation, damage, or rising energy bills. Older windows (15-20+ years) often benefit most from replacement."
+      }
+    }
+  ],
+  "description": "Replace double-hung windows if you see drafts, condensation, damage, or rising energy bills. Older windows (15-20+ years) often benefit most from replacement."
 }

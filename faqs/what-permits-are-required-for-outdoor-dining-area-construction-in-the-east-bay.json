@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for outdoor dining area construction in the East Bay?",
-  "description": "Permit requirements vary by East Bay city and are often needed for structures, grading changes, electrical, or plumbing. We manage the permitting process to ens",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-outdoor-dining-area-construction-in-the-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for outdoor dining area construction in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for outdoor dining area construction can vary significantly by municipality within the East Bay, such as Alameda, Albany, or Berkeley. Generally, permits are needed for structures exceeding a certain size, changes to existing grading, electrical work for lighting or appliances, or plumbing for outdoor kitchens. We handle the permit acquisition process, ensuring all designs comply with local building codes and zoning regulations relevant to your specific location.",
-        "description": "Permit requirements vary by East Bay city and are often needed for structures, grading changes, electrical, or plumbing. We manage the permitting process to ensure compliance."
-      }
-    }
-  ],
+  "name": "What permits are required for outdoor dining area construction in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for outdoor dining area construction in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for outdoor dining area construction can vary significantly by municipality within the East Bay, such as Alameda, Albany, or Berkeley. Generally, permits are needed for structures exceeding a certain size, changes to existing grading, electrical work for lighting or appliances, or plumbing for outdoor kitchens. We handle the permit acquisition process, ensuring all designs comply with local building codes and zoning regulations relevant to your specific location.",
+        "@type": "Answer",
+        "description": "Permit requirements vary by East Bay city and are often needed for structures, grading changes, electrical, or plumbing. We manage the permitting process to ensure compliance."
+      }
+    }
+  ],
+  "description": "Permit requirements vary by East Bay city and are often needed for structures, grading changes, electrical, or plumbing. We manage the permitting process to ens"
 }

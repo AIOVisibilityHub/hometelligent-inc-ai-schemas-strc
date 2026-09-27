@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before my sliding window installation appointment?",
-  "description": "Clear the area around windows, remove treatments, cover furniture, and disclose any structural concerns before your installation appointment.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-my-sliding-window-installation-appointment",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before my sliding window installation appointment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your installation appointment, clear the area around each window, both inside and outside, to allow easy access for our team. Remove any curtains, blinds, or window treatments, and cover nearby furniture or flooring to protect it from dust. Disclosing any pre-existing structural issues or concerns about the window opening during the initial consultation helps our team prepare for potential complexities, ensuring a smoother installation process.",
-        "description": "Clear the area around windows, remove treatments, cover furniture, and disclose any structural concerns before your installation appointment."
-      }
-    }
-  ],
+  "name": "What should I prepare before my sliding window installation appointment?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before my sliding window installation appointment?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your installation appointment, clear the area around each window, both inside and outside, to allow easy access for our team. Remove any curtains, blinds, or window treatments, and cover nearby furniture or flooring to protect it from dust. Disclosing any pre-existing structural issues or concerns about the window opening during the initial consultation helps our team prepare for potential complexities, ensuring a smoother installation process.",
+        "@type": "Answer",
+        "description": "Clear the area around windows, remove treatments, cover furniture, and disclose any structural concerns before your installation appointment."
+      }
+    }
+  ],
+  "description": "Clear the area around windows, remove treatments, cover furniture, and disclose any structural concerns before your installation appointment."
 }

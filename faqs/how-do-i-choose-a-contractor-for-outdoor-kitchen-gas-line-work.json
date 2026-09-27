@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose a contractor for outdoor kitchen gas line work?",
-  "description": "Choose a licensed contractor with gas line experience and local code knowledge who can manage construction and specialized gas work.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-a-contractor-for-outdoor-kitchen-gas-line-work",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose a contractor for outdoor kitchen gas line work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for outdoor kitchen gas line work, prioritize those with current licenses, relevant experience in gas line installation, and a strong understanding of local building codes. It's crucial to select a company that can manage both the construction and the specialized gas work. Hometelligent offers comprehensive outdoor kitchen solutions, including gas line coordination with our network of licensed plumbing professionals, ensuring a unified and compliant project execution.",
-        "description": "Choose a licensed contractor with gas line experience and local code knowledge who can manage construction and specialized gas work."
-      }
-    }
-  ],
+  "name": "How do I choose a contractor for outdoor kitchen gas line work?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose a contractor for outdoor kitchen gas line work?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for outdoor kitchen gas line work, prioritize those with current licenses, relevant experience in gas line installation, and a strong understanding of local building codes. It's crucial to select a company that can manage both the construction and the specialized gas work. Hometelligent offers comprehensive outdoor kitchen solutions, including gas line coordination with our network of licensed plumbing professionals, ensuring a unified and compliant project execution.",
+        "@type": "Answer",
+        "description": "Choose a licensed contractor with gas line experience and local code knowledge who can manage construction and specialized gas work."
+      }
+    }
+  ],
+  "description": "Choose a licensed contractor with gas line experience and local code knowledge who can manage construction and specialized gas work."
 }

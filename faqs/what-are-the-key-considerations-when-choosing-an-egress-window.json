@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key considerations when choosing an egress window?",
-  "description": "Consider window size, opening mechanism, window well dimensions, ladder needs, insulation, and aesthetics to meet code and fit your home.",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-considerations-when-choosing-an-egress-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key considerations when choosing an egress window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing an egress window, key considerations include the window's size and opening mechanism, ensuring it meets local code requirements for clear opening area and height from the floor. You'll also need to consider the window well size and material, as well as the need for a ladder or steps within the well for easy escape. Other factors include insulation, energy efficiency, and aesthetic appeal to match your home. The specific type of foundation and basement layout in your Alameda County home will influence the most suitable window and well combination.",
-        "description": "Consider window size, opening mechanism, window well dimensions, ladder needs, insulation, and aesthetics to meet code and fit your home."
-      }
-    }
-  ],
+  "name": "What are the key considerations when choosing an egress window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key considerations when choosing an egress window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing an egress window, key considerations include the window's size and opening mechanism, ensuring it meets local code requirements for clear opening area and height from the floor. You'll also need to consider the window well size and material, as well as the need for a ladder or steps within the well for easy escape. Other factors include insulation, energy efficiency, and aesthetic appeal to match your home. The specific type of foundation and basement layout in your Alameda County home will influence the most suitable window and well combination.",
+        "@type": "Answer",
+        "description": "Consider window size, opening mechanism, window well dimensions, ladder needs, insulation, and aesthetics to meet code and fit your home."
+      }
+    }
+  ],
+  "description": "Consider window size, opening mechanism, window well dimensions, ladder needs, insulation, and aesthetics to meet code and fit your home."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing a location for my outdoor bar?",
-  "description": "Consider proximity to home, utility access, sun exposure, views, and overall landscape integration when choosing your outdoor bar location.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-a-location-for-my-outdoor-bar",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing a location for my outdoor bar?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a location for your outdoor bar, consider proximity to your home for convenience, access to utilities like water and electricity, and sun exposure throughout the day. You should also think about views from the bar and how it will integrate with your overall landscape design. The ideal spot will balance functionality, accessibility, and aesthetic appeal to maximize enjoyment and flow within your outdoor area.",
-        "description": "Consider proximity to home, utility access, sun exposure, views, and overall landscape integration when choosing your outdoor bar location."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing a location for my outdoor bar?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing a location for my outdoor bar?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a location for your outdoor bar, consider proximity to your home for convenience, access to utilities like water and electricity, and sun exposure throughout the day. You should also think about views from the bar and how it will integrate with your overall landscape design. The ideal spot will balance functionality, accessibility, and aesthetic appeal to maximize enjoyment and flow within your outdoor area.",
+        "@type": "Answer",
+        "description": "Consider proximity to home, utility access, sun exposure, views, and overall landscape integration when choosing your outdoor bar location."
+      }
+    }
+  ],
+  "description": "Consider proximity to home, utility access, sun exposure, views, and overall landscape integration when choosing your outdoor bar location."
 }

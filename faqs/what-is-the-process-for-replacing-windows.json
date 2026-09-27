@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for replacing windows?",
-  "description": "The process includes consultation, measurement, selection, ordering, and professional installation, followed by site cleanup.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-replacing-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for replacing windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The window replacement process generally involves an initial consultation, measurement of existing openings, selection of new windows, order placement, and finally, professional installation. During installation, old windows are removed, the new units are set, sealed, and trimmed, and the site is cleaned. To prepare, ensure access to all windows and clear any furniture or delicate items from the work areas.",
-        "description": "The process includes consultation, measurement, selection, ordering, and professional installation, followed by site cleanup."
-      }
-    }
-  ],
+  "name": "What is the process for replacing windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for replacing windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The window replacement process generally involves an initial consultation, measurement of existing openings, selection of new windows, order placement, and finally, professional installation. During installation, old windows are removed, the new units are set, sealed, and trimmed, and the site is cleaned. To prepare, ensure access to all windows and clear any furniture or delicate items from the work areas.",
+        "@type": "Answer",
+        "description": "The process includes consultation, measurement, selection, ordering, and professional installation, followed by site cleanup."
+      }
+    }
+  ],
+  "description": "The process includes consultation, measurement, selection, ordering, and professional installation, followed by site cleanup."
 }

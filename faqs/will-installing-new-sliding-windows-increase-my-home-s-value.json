@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will installing new sliding windows increase my home's value?",
-  "description": "New, energy-efficient sliding windows can increase home value by improving aesthetics and energy performance, appealing to potential buyers.",
   "url": "https://hometelligentinc.com/faq/will-installing-new-sliding-windows-increase-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will installing new sliding windows increase my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing new, energy-efficient sliding windows can contribute to an increase in your home's value. Beyond the aesthetic upgrade, modern windows improve energy efficiency, which is a significant selling point for prospective buyers. The return on investment can vary based on the quality of the windows chosen and local real estate market conditions. While it's not a guarantee of a dollar-for-dollar return, new windows are often seen as a valuable upgrade.",
-        "description": "New, energy-efficient sliding windows can increase home value by improving aesthetics and energy performance, appealing to potential buyers."
-      }
-    }
-  ],
+  "name": "Will installing new sliding windows increase my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will installing new sliding windows increase my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing new, energy-efficient sliding windows can contribute to an increase in your home's value. Beyond the aesthetic upgrade, modern windows improve energy efficiency, which is a significant selling point for prospective buyers. The return on investment can vary based on the quality of the windows chosen and local real estate market conditions. While it's not a guarantee of a dollar-for-dollar return, new windows are often seen as a valuable upgrade.",
+        "@type": "Answer",
+        "description": "New, energy-efficient sliding windows can increase home value by improving aesthetics and energy performance, appealing to potential buyers."
+      }
+    }
+  ],
+  "description": "New, energy-efficient sliding windows can increase home value by improving aesthetics and energy performance, appealing to potential buyers."
 }

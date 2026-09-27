@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of maintenance is required for outdoor dining areas?",
-  "description": "Maintenance varies by material, with wood requiring sealing and composite needing cleaning. Regular cleaning and protection of furniture are common for all outd",
   "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-is-required-for-outdoor-dining-areas",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of maintenance is required for outdoor dining areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance requirements for outdoor dining areas vary based on the materials used. Wood decks may require periodic sealing or staining, while composite decking typically only needs cleaning. Stone or paver patios benefit from occasional cleaning and joint sand replenishment. Furniture and fixtures should be cleaned regularly and protected from harsh weather. Regular cleaning and timely minor repairs can significantly extend the life and appearance of your outdoor space.",
-        "description": "Maintenance varies by material, with wood requiring sealing and composite needing cleaning. Regular cleaning and protection of furniture are common for all outdoor dining areas."
-      }
-    }
-  ],
+  "name": "What kind of maintenance is required for outdoor dining areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of maintenance is required for outdoor dining areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance requirements for outdoor dining areas vary based on the materials used. Wood decks may require periodic sealing or staining, while composite decking typically only needs cleaning. Stone or paver patios benefit from occasional cleaning and joint sand replenishment. Furniture and fixtures should be cleaned regularly and protected from harsh weather. Regular cleaning and timely minor repairs can significantly extend the life and appearance of your outdoor space.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material, with wood requiring sealing and composite needing cleaning. Regular cleaning and protection of furniture are common for all outdoor dining areas."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material, with wood requiring sealing and composite needing cleaning. Regular cleaning and protection of furniture are common for all outd"
 }

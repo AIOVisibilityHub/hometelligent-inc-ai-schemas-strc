@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are best suited for an outdoor dining area in the East Bay climate?",
-  "description": "Durable materials like composite decking, natural hardwoods, concrete pavers, and stone are suitable for East Bay outdoor dining areas, balancing aesthetics wit",
   "url": "https://hometelligentinc.com/faq/what-materials-are-best-suited-for-an-outdoor-dining-area-in-the-east-bay-climat",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are best suited for an outdoor dining area in the East Bay climate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right materials is crucial for durability and aesthetics in the East Bay's diverse climate. Common options include weather-resistant composite decking, natural hardwoods like ipe or redwood, concrete pavers, and natural stone. For shade structures, materials like aluminum, cedar, or vinyl offer different levels of maintenance and longevity. Your selection should balance desired appearance, maintenance effort, and resistance to sun, moisture, and potential salt air depending on your specific location in our service area.",
-        "description": "Durable materials like composite decking, natural hardwoods, concrete pavers, and stone are suitable for East Bay outdoor dining areas, balancing aesthetics with climate resistance."
-      }
-    }
-  ],
+  "name": "What materials are best suited for an outdoor dining area in the East Bay climate?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are best suited for an outdoor dining area in the East Bay climate?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right materials is crucial for durability and aesthetics in the East Bay's diverse climate. Common options include weather-resistant composite decking, natural hardwoods like ipe or redwood, concrete pavers, and natural stone. For shade structures, materials like aluminum, cedar, or vinyl offer different levels of maintenance and longevity. Your selection should balance desired appearance, maintenance effort, and resistance to sun, moisture, and potential salt air depending on your specific location in our service area.",
+        "@type": "Answer",
+        "description": "Durable materials like composite decking, natural hardwoods, concrete pavers, and stone are suitable for East Bay outdoor dining areas, balancing aesthetics with climate resistance."
+      }
+    }
+  ],
+  "description": "Durable materials like composite decking, natural hardwoods, concrete pavers, and stone are suitable for East Bay outdoor dining areas, balancing aesthetics wit"
 }

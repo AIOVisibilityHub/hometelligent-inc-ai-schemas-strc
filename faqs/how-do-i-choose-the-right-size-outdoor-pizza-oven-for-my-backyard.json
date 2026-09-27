@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right size outdoor pizza oven for my backyard?",
-  "description": "Select an oven size based on how many pizzas you'll cook at once and your available backyard space, balancing capacity with footprint and fuel needs.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-size-outdoor-pizza-oven-for-my-backyard",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right size outdoor pizza oven for my backyard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right size depends primarily on your intended use and available space. Consider how many pizzas you plan to cook at once and for how many people. Larger ovens can accommodate multiple pizzas and larger gatherings, but require more footprint and fuel. A smaller oven might be perfect for casual family use in a compact backyard. Measure your available area and consider your entertaining habits.",
-        "description": "Select an oven size based on how many pizzas you'll cook at once and your available backyard space, balancing capacity with footprint and fuel needs."
-      }
-    }
-  ],
+  "name": "How do I choose the right size outdoor pizza oven for my backyard?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right size outdoor pizza oven for my backyard?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right size depends primarily on your intended use and available space. Consider how many pizzas you plan to cook at once and for how many people. Larger ovens can accommodate multiple pizzas and larger gatherings, but require more footprint and fuel. A smaller oven might be perfect for casual family use in a compact backyard. Measure your available area and consider your entertaining habits.",
+        "@type": "Answer",
+        "description": "Select an oven size based on how many pizzas you'll cook at once and your available backyard space, balancing capacity with footprint and fuel needs."
+      }
+    }
+  ],
+  "description": "Select an oven size based on how many pizzas you'll cook at once and your available backyard space, balancing capacity with footprint and fuel needs."
 }

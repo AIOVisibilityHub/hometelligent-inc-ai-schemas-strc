@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I maintain an egress window and window well?",
-  "description": "Maintain egress windows by keeping window wells clear of debris, checking window operation and locks, and ensuring proper drainage.",
   "url": "https://hometelligentinc.com/faq/how-do-i-maintain-an-egress-window-and-window-well",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I maintain an egress window and window well?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintaining an egress window and window well involves ensuring the well remains clear of debris like leaves, dirt, and snow, which can block drainage or impede escape. Regularly check the window's operation to ensure it opens smoothly and that the lock functions correctly. Inspect the well cover (if present) for damage and ensure it's securely in place. Proper drainage is key; clear any blockages from the well's drain to prevent water accumulation against your foundation. This preventative maintenance helps ensure the window remains a reliable emergency exit and protects your basement from water intrusion.",
-        "description": "Maintain egress windows by keeping window wells clear of debris, checking window operation and locks, and ensuring proper drainage."
-      }
-    }
-  ],
+  "name": "How do I maintain an egress window and window well?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I maintain an egress window and window well?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintaining an egress window and window well involves ensuring the well remains clear of debris like leaves, dirt, and snow, which can block drainage or impede escape. Regularly check the window's operation to ensure it opens smoothly and that the lock functions correctly. Inspect the well cover (if present) for damage and ensure it's securely in place. Proper drainage is key; clear any blockages from the well's drain to prevent water accumulation against your foundation. This preventative maintenance helps ensure the window remains a reliable emergency exit and protects your basement from water intrusion.",
+        "@type": "Answer",
+        "description": "Maintain egress windows by keeping window wells clear of debris, checking window operation and locks, and ensuring proper drainage."
+      }
+    }
+  ],
+  "description": "Maintain egress windows by keeping window wells clear of debris, checking window operation and locks, and ensuring proper drainage."
 }

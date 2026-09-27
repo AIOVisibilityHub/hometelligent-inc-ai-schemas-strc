@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for outdoor kitchen plumbing?",
-  "description": "Yes, permits are usually required for outdoor kitchen plumbing installations. Hometelligent Inc. handles permit applications to ensure compliance with local cod",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-outdoor-kitchen-plumbing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for outdoor kitchen plumbing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, permits are typically required for outdoor kitchen plumbing installations to ensure compliance with local building codes and health regulations. These permits cover aspects like water lines, drainage, and gas connections. The specific requirements can vary by city within our service area, such as Berkeley or Dublin. Hometelligent Inc. manages the necessary permit applications as part of our project process, helping to avoid delays and ensure your outdoor kitchen plumbing is installed legally and safely.",
-        "description": "Yes, permits are usually required for outdoor kitchen plumbing installations. Hometelligent Inc. handles permit applications to ensure compliance with local codes."
-      }
-    }
-  ],
+  "name": "Do I need permits for outdoor kitchen plumbing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for outdoor kitchen plumbing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, permits are typically required for outdoor kitchen plumbing installations to ensure compliance with local building codes and health regulations. These permits cover aspects like water lines, drainage, and gas connections. The specific requirements can vary by city within our service area, such as Berkeley or Dublin. Hometelligent Inc. manages the necessary permit applications as part of our project process, helping to avoid delays and ensure your outdoor kitchen plumbing is installed legally and safely.",
+        "@type": "Answer",
+        "description": "Yes, permits are usually required for outdoor kitchen plumbing installations. Hometelligent Inc. handles permit applications to ensure compliance with local codes."
+      }
+    }
+  ],
+  "description": "Yes, permits are usually required for outdoor kitchen plumbing installations. Hometelligent Inc. handles permit applications to ensure compliance with local cod"
 }

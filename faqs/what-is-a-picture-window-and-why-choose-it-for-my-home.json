@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a picture window and why choose it for my home?",
-  "description": "A picture window is a fixed, large pane of glass offering expansive views and maximum natural light. It enhances aesthetics and energy efficiency.",
   "url": "https://hometelligentinc.com/faq/what-is-a-picture-window-and-why-choose-it-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a picture window and why choose it for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A picture window is a large, fixed pane of glass designed to offer expansive, unobstructed views and allow maximum natural light into a room. Unlike other window types, it does not open, prioritizing scenic views and energy efficiency. Choosing a picture window can enhance your home's aesthetic, particularly in areas like Alameda or Berkeley with desirable outdoor views, and can contribute to better insulation due to its sealed design.",
-        "description": "A picture window is a fixed, large pane of glass offering expansive views and maximum natural light. It enhances aesthetics and energy efficiency."
-      }
-    }
-  ],
+  "name": "What is a picture window and why choose it for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a picture window and why choose it for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A picture window is a large, fixed pane of glass designed to offer expansive, unobstructed views and allow maximum natural light into a room. Unlike other window types, it does not open, prioritizing scenic views and energy efficiency. Choosing a picture window can enhance your home's aesthetic, particularly in areas like Alameda or Berkeley with desirable outdoor views, and can contribute to better insulation due to its sealed design.",
+        "@type": "Answer",
+        "description": "A picture window is a fixed, large pane of glass offering expansive views and maximum natural light. It enhances aesthetics and energy efficiency."
+      }
+    }
+  ],
+  "description": "A picture window is a fixed, large pane of glass offering expansive views and maximum natural light. It enhances aesthetics and energy efficiency."
 }

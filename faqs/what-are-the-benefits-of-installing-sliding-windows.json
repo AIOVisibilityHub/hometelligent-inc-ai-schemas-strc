@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing sliding windows?",
-  "description": "Sliding windows offer easy operation, space efficiency, good ventilation control, and clear views with low maintenance.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-sliding-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing sliding windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sliding windows offer several advantages, including ease of operation, space efficiency as they don't protrude outwards, and the ability to control airflow by opening one or both sashes. They provide clear views and are generally low maintenance. When considering sliding windows, think about the specific ventilation needs of the room and how often you plan to open them, as different styles might be better suited for frequent use versus occasional air circulation.",
-        "description": "Sliding windows offer easy operation, space efficiency, good ventilation control, and clear views with low maintenance."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing sliding windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing sliding windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Sliding windows offer several advantages, including ease of operation, space efficiency as they don't protrude outwards, and the ability to control airflow by opening one or both sashes. They provide clear views and are generally low maintenance. When considering sliding windows, think about the specific ventilation needs of the room and how often you plan to open them, as different styles might be better suited for frequent use versus occasional air circulation.",
+        "@type": "Answer",
+        "description": "Sliding windows offer easy operation, space efficiency, good ventilation control, and clear views with low maintenance."
+      }
+    }
+  ],
+  "description": "Sliding windows offer easy operation, space efficiency, good ventilation control, and clear views with low maintenance."
 }
