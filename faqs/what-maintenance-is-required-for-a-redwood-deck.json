@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for a redwood deck?",
-  "description": "Redwood decks need periodic cleaning and sealing every 1-3 years to preserve their look and durability.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-redwood-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for a redwood deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Redwood decks require periodic cleaning and sealing to maintain their appearance and extend their lifespan. Cleaning typically involves washing with a mild cleaner to remove dirt and mildew. Applying a UV-protective sealant every 1-3 years helps prevent graying and cracking, especially in areas with significant sun exposure. The frequency of maintenance can be a practical tradeoff, balancing the deck's appearance against the effort invested.",
-        "description": "Redwood decks need periodic cleaning and sealing every 1-3 years to preserve their look and durability."
-      }
-    }
-  ],
+  "name": "What maintenance is required for a redwood deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for a redwood deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Redwood decks require periodic cleaning and sealing to maintain their appearance and extend their lifespan. Cleaning typically involves washing with a mild cleaner to remove dirt and mildew. Applying a UV-protective sealant every 1-3 years helps prevent graying and cracking, especially in areas with significant sun exposure. The frequency of maintenance can be a practical tradeoff, balancing the deck's appearance against the effort invested.",
+        "@type": "Answer",
+        "description": "Redwood decks need periodic cleaning and sealing every 1-3 years to preserve their look and durability."
+      }
+    }
+  ],
+  "description": "Redwood decks need periodic cleaning and sealing every 1-3 years to preserve their look and durability."
 }

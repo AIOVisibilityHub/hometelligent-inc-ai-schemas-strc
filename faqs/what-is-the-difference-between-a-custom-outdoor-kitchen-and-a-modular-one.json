@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a custom outdoor kitchen and a modular one?",
-  "description": "Custom kitchens are tailor-made for unique spaces and styles, while modular kitchens use pre-fabricated units for quicker installation. Custom options allow for",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-custom-outdoor-kitchen-and-a-modular-one",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a custom outdoor kitchen and a modular one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A custom outdoor kitchen is designed and built from scratch to perfectly fit your space, style, and functional requirements, offering unique material and layout options. Modular kitchens, conversely, consist of pre-fabricated units that are assembled on-site, typically offering quicker installation and often a lower initial cost. The decision often comes down to balancing budget and desired customization; a custom approach allows for seamless integration with your existing home and landscape.",
-        "description": "Custom kitchens are tailor-made for unique spaces and styles, while modular kitchens use pre-fabricated units for quicker installation. Custom options allow for seamless integration with your existing home and landscape."
-      }
-    }
-  ],
+  "name": "What is the difference between a custom outdoor kitchen and a modular one?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a custom outdoor kitchen and a modular one?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A custom outdoor kitchen is designed and built from scratch to perfectly fit your space, style, and functional requirements, offering unique material and layout options. Modular kitchens, conversely, consist of pre-fabricated units that are assembled on-site, typically offering quicker installation and often a lower initial cost. The decision often comes down to balancing budget and desired customization; a custom approach allows for seamless integration with your existing home and landscape.",
+        "@type": "Answer",
+        "description": "Custom kitchens are tailor-made for unique spaces and styles, while modular kitchens use pre-fabricated units for quicker installation. Custom options allow for seamless integration with your existing home and landscape."
+      }
+    }
+  ],
+  "description": "Custom kitchens are tailor-made for unique spaces and styles, while modular kitchens use pre-fabricated units for quicker installation. Custom options allow for"
 }

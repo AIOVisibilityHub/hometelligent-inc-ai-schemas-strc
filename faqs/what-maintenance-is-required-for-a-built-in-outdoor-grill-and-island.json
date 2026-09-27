@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for a built-in outdoor grill and island?",
-  "description": "Maintenance includes regular grill cleaning, deep cleaning the interior, and upkeep of island surfaces, such as cleaning and sealing.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-built-in-outdoor-grill-and-island",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for a built-in outdoor grill and island?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance for a built-in outdoor grill and island involves regular cleaning of the grill grates and components, occasional deep cleaning of the grill interior, and upkeep of the island's surfaces. For the island, this may include cleaning countertops, wiping down cabinetry, and periodic sealing of stone surfaces to protect against weather and stains. Regular maintenance extends the life of your investment and keeps it looking its best. Hometelligent Inc. can provide guidance on specific care routines for the materials used in your installation, ensuring longevity for your outdoor kitchen in Montclair or Rockridge.",
-        "description": "Maintenance includes regular grill cleaning, deep cleaning the interior, and upkeep of island surfaces, such as cleaning and sealing."
-      }
-    }
-  ],
+  "name": "What maintenance is required for a built-in outdoor grill and island?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for a built-in outdoor grill and island?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance for a built-in outdoor grill and island involves regular cleaning of the grill grates and components, occasional deep cleaning of the grill interior, and upkeep of the island's surfaces. For the island, this may include cleaning countertops, wiping down cabinetry, and periodic sealing of stone surfaces to protect against weather and stains. Regular maintenance extends the life of your investment and keeps it looking its best. Hometelligent Inc. can provide guidance on specific care routines for the materials used in your installation, ensuring longevity for your outdoor kitchen in Montclair or Rockridge.",
+        "@type": "Answer",
+        "description": "Maintenance includes regular grill cleaning, deep cleaning the interior, and upkeep of island surfaces, such as cleaning and sealing."
+      }
+    }
+  ],
+  "description": "Maintenance includes regular grill cleaning, deep cleaning the interior, and upkeep of island surfaces, such as cleaning and sealing."
 }

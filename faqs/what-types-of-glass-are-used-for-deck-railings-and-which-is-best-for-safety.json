@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of glass are used for deck railings, and which is best for safety?",
-  "description": "Tempered glass is standard for deck railings due to safety. Laminated glass offers enhanced safety. Consult a professional for code compliance.",
   "url": "https://hometelligentinc.com/faq/what-types-of-glass-are-used-for-deck-railings-and-which-is-best-for-safety",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of glass are used for deck railings, and which is best for safety?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For deck railings, tempered glass is the standard due to its strength and safety properties. If it breaks, tempered glass shatters into small, blunt pieces rather than sharp shards, reducing injury risk. Laminated glass, which has a layer of plastic between two glass panes, offers even greater safety as the glass fragments remain adhered to the interlayer if broken. When making a decision, local building codes often mandate specific glass types and thicknesses for railing systems, so it's essential to consult with a professional to ensure compliance and optimal safety for your specific installation.",
-        "description": "Tempered glass is standard for deck railings due to safety. Laminated glass offers enhanced safety. Consult a professional for code compliance."
-      }
-    }
-  ],
+  "name": "What types of glass are used for deck railings, and which is best for safety?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of glass are used for deck railings, and which is best for safety?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For deck railings, tempered glass is the standard due to its strength and safety properties. If it breaks, tempered glass shatters into small, blunt pieces rather than sharp shards, reducing injury risk. Laminated glass, which has a layer of plastic between two glass panes, offers even greater safety as the glass fragments remain adhered to the interlayer if broken. When making a decision, local building codes often mandate specific glass types and thicknesses for railing systems, so it's essential to consult with a professional to ensure compliance and optimal safety for your specific installation.",
+        "@type": "Answer",
+        "description": "Tempered glass is standard for deck railings due to safety. Laminated glass offers enhanced safety. Consult a professional for code compliance."
+      }
+    }
+  ],
+  "description": "Tempered glass is standard for deck railings due to safety. Laminated glass offers enhanced safety. Consult a professional for code compliance."
 }

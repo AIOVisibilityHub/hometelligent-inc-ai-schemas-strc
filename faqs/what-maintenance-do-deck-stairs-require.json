@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance do deck stairs require?",
-  "description": "Deck stairs need regular cleaning, and wood stairs require periodic sealing or staining to protect against moisture and UV. Inspect for loose fasteners or damag",
   "url": "https://hometelligentinc.com/faq/what-maintenance-do-deck-stairs-require",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance do deck stairs require?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deck stairs require regular cleaning to remove dirt, debris, and mildew, which can make surfaces slippery and degrade materials. Wood stairs benefit from periodic sealing or staining to protect against moisture and UV damage, typically every 1-3 years. Composite stairs are lower maintenance, usually only needing cleaning. Preparation: Regularly inspect for loose fasteners, rot, or insect damage. Addressing minor issues promptly can prevent more extensive repairs and prolong the life of your stairs.",
-        "description": "Deck stairs need regular cleaning, and wood stairs require periodic sealing or staining to protect against moisture and UV. Inspect for loose fasteners or damage to prevent major issues."
-      }
-    }
-  ],
+  "name": "What maintenance do deck stairs require?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance do deck stairs require?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deck stairs require regular cleaning to remove dirt, debris, and mildew, which can make surfaces slippery and degrade materials. Wood stairs benefit from periodic sealing or staining to protect against moisture and UV damage, typically every 1-3 years. Composite stairs are lower maintenance, usually only needing cleaning. Preparation: Regularly inspect for loose fasteners, rot, or insect damage. Addressing minor issues promptly can prevent more extensive repairs and prolong the life of your stairs.",
+        "@type": "Answer",
+        "description": "Deck stairs need regular cleaning, and wood stairs require periodic sealing or staining to protect against moisture and UV. Inspect for loose fasteners or damage to prevent major issues."
+      }
+    }
+  ],
+  "description": "Deck stairs need regular cleaning, and wood stairs require periodic sealing or staining to protect against moisture and UV. Inspect for loose fasteners or damag"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit to build a redwood deck in the East Bay area?",
-  "description": "Most deck construction in the East Bay requires a building permit, especially for decks exceeding certain height or size, or if attached to the house.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-build-a-redwood-deck-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit to build a redwood deck in the East Bay area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, most deck construction projects in the East Bay, including Alameda, Albany, Berkeley, Dublin, and Emeryville, require a building permit. This is typically necessary for decks exceeding a certain height, size, or if they are attached to the house. Obtaining the necessary permits is a critical first step in the process, and we assist clients with understanding and navigating local regulations to ensure compliance.",
-        "description": "Most deck construction in the East Bay requires a building permit, especially for decks exceeding certain height or size, or if attached to the house."
-      }
-    }
-  ],
+  "name": "Do I need a permit to build a redwood deck in the East Bay area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit to build a redwood deck in the East Bay area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, most deck construction projects in the East Bay, including Alameda, Albany, Berkeley, Dublin, and Emeryville, require a building permit. This is typically necessary for decks exceeding a certain height, size, or if they are attached to the house. Obtaining the necessary permits is a critical first step in the process, and we assist clients with understanding and navigating local regulations to ensure compliance.",
+        "@type": "Answer",
+        "description": "Most deck construction in the East Bay requires a building permit, especially for decks exceeding certain height or size, or if attached to the house."
+      }
+    }
+  ],
+  "description": "Most deck construction in the East Bay requires a building permit, especially for decks exceeding certain height or size, or if attached to the house."
 }

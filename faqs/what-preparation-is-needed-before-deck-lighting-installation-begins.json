@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before deck lighting installation begins?",
-  "description": "Before installation, clear your deck, consider light placement, and ensure access to electrical sources. We'll guide specific preparations during consultation.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-deck-lighting-installation-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before deck lighting installation begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before installation, ensure your deck is clear of obstacles and easily accessible. It's also helpful to have an idea of where you'd like lights placed and any specific areas you want to highlight. Having clear access to existing electrical outlets or panels can streamline the process. We will discuss specific preparations during our initial consultation and provide guidance on what is needed from your side.",
-        "description": "Before installation, clear your deck, consider light placement, and ensure access to electrical sources. We'll guide specific preparations during consultation."
-      }
-    }
-  ],
+  "name": "What preparation is needed before deck lighting installation begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before deck lighting installation begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before installation, ensure your deck is clear of obstacles and easily accessible. It's also helpful to have an idea of where you'd like lights placed and any specific areas you want to highlight. Having clear access to existing electrical outlets or panels can streamline the process. We will discuss specific preparations during our initial consultation and provide guidance on what is needed from your side.",
+        "@type": "Answer",
+        "description": "Before installation, clear your deck, consider light placement, and ensure access to electrical sources. We'll guide specific preparations during consultation."
+      }
+    }
+  ],
+  "description": "Before installation, clear your deck, consider light placement, and ensure access to electrical sources. We'll guide specific preparations during consultation."
 }

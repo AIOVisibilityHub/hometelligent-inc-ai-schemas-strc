@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for a wood deck?",
-  "description": "Wood decks need annual cleaning and staining/sealing every 2-3 years to protect against weather and rot, maintaining their appearance and lifespan.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-wood-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for a wood deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintaining a wood deck typically involves regular cleaning, staining, and sealing to protect it from weather, rot, and UV damage. Cleaning should be done annually to remove dirt and mildew, while staining or sealing is usually recommended every 2-3 years, depending on the wood type and local climate. This preparation is crucial for prolonging the deck's lifespan and preserving its appearance. Neglecting maintenance can lead to accelerated deterioration, particularly in areas with fluctuating weather.",
-        "description": "Wood decks need annual cleaning and staining/sealing every 2-3 years to protect against weather and rot, maintaining their appearance and lifespan."
-      }
-    }
-  ],
+  "name": "What maintenance is required for a wood deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for a wood deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintaining a wood deck typically involves regular cleaning, staining, and sealing to protect it from weather, rot, and UV damage. Cleaning should be done annually to remove dirt and mildew, while staining or sealing is usually recommended every 2-3 years, depending on the wood type and local climate. This preparation is crucial for prolonging the deck's lifespan and preserving its appearance. Neglecting maintenance can lead to accelerated deterioration, particularly in areas with fluctuating weather.",
+        "@type": "Answer",
+        "description": "Wood decks need annual cleaning and staining/sealing every 2-3 years to protect against weather and rot, maintaining their appearance and lifespan."
+      }
+    }
+  ],
+  "description": "Wood decks need annual cleaning and staining/sealing every 2-3 years to protect against weather and rot, maintaining their appearance and lifespan."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are used for cable railing posts and cables?",
-  "description": "High-grade stainless steel, typically 316 for outdoors, is used for cables and posts. Posts can also be aluminum or wood. Material choice should consider local",
   "url": "https://hometelligentinc.com/faq/what-materials-are-used-for-cable-railing-posts-and-cables",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are used for cable railing posts and cables?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cable railing systems primarily use high-grade stainless steel for both the cables and posts due to its strength, durability, and corrosion resistance. Typically, 316-grade stainless steel is preferred for outdoor applications, especially in coastal regions, because of its superior resistance to saltwater corrosion compared to 304-grade. Posts can also be made from other durable materials such as aluminum or wood, often paired with stainless steel cables for a custom aesthetic. When choosing materials, consider the local environment, such as the specific weather patterns in places like Dublin or Pleasanton, to ensure long-term performance.",
-        "description": "High-grade stainless steel, typically 316 for outdoors, is used for cables and posts. Posts can also be aluminum or wood. Material choice should consider local environmental conditions."
-      }
-    }
-  ],
+  "name": "What materials are used for cable railing posts and cables?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are used for cable railing posts and cables?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Cable railing systems primarily use high-grade stainless steel for both the cables and posts due to its strength, durability, and corrosion resistance. Typically, 316-grade stainless steel is preferred for outdoor applications, especially in coastal regions, because of its superior resistance to saltwater corrosion compared to 304-grade. Posts can also be made from other durable materials such as aluminum or wood, often paired with stainless steel cables for a custom aesthetic. When choosing materials, consider the local environment, such as the specific weather patterns in places like Dublin or Pleasanton, to ensure long-term performance.",
+        "@type": "Answer",
+        "description": "High-grade stainless steel, typically 316 for outdoors, is used for cables and posts. Posts can also be aluminum or wood. Material choice should consider local environmental conditions."
+      }
+    }
+  ],
+  "description": "High-grade stainless steel, typically 316 for outdoors, is used for cables and posts. Posts can also be aluminum or wood. Material choice should consider local"
 }

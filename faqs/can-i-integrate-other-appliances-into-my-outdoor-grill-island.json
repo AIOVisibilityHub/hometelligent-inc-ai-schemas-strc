@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I integrate other appliances into my outdoor grill island?",
-  "description": "Yes, you can integrate appliances like refrigerators, side burners, and sinks, but it increases complexity due to utility requirements.",
   "url": "https://hometelligentinc.com/faq/can-i-integrate-other-appliances-into-my-outdoor-grill-island",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I integrate other appliances into my outdoor grill island?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, many homeowners choose to integrate various other appliances into their outdoor grill island for a complete outdoor kitchen experience. Popular additions include outdoor refrigerators, side burners, sinks, storage drawers, and even pizza ovens. This integration enhances functionality and convenience. The practical tradeoff is increased cost and complexity, as each additional appliance requires specific utility connections (electrical, water, gas) and careful design to ensure proper ventilation and spacing. Hometelligent Inc. specializes in designing comprehensive outdoor living spaces, ensuring all integrated elements function seamlessly.",
-        "description": "Yes, you can integrate appliances like refrigerators, side burners, and sinks, but it increases complexity due to utility requirements."
-      }
-    }
-  ],
+  "name": "Can I integrate other appliances into my outdoor grill island?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I integrate other appliances into my outdoor grill island?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, many homeowners choose to integrate various other appliances into their outdoor grill island for a complete outdoor kitchen experience. Popular additions include outdoor refrigerators, side burners, sinks, storage drawers, and even pizza ovens. This integration enhances functionality and convenience. The practical tradeoff is increased cost and complexity, as each additional appliance requires specific utility connections (electrical, water, gas) and careful design to ensure proper ventilation and spacing. Hometelligent Inc. specializes in designing comprehensive outdoor living spaces, ensuring all integrated elements function seamlessly.",
+        "@type": "Answer",
+        "description": "Yes, you can integrate appliances like refrigerators, side burners, and sinks, but it increases complexity due to utility requirements."
+      }
+    }
+  ],
+  "description": "Yes, you can integrate appliances like refrigerators, side burners, and sinks, but it increases complexity due to utility requirements."
 }

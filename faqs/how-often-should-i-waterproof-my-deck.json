@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How often should I waterproof my deck?",
-  "description": "Deck waterproofing frequency depends on material, exposure, and product, typically every 1-5 years. High-traffic or sun-exposed decks may need more frequent rea",
   "url": "https://hometelligentinc.com/faq/how-often-should-i-waterproof-my-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How often should I waterproof my deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The frequency of deck waterproofing depends on the type of material, exposure to elements, and the specific waterproofing product used. Typically, decks should be re-waterproofed every 1-5 years. Areas with direct sun exposure or heavy foot traffic, such as decks in Oakland Hills, may require more frequent reapplication. We can assess your deck's condition and recommend a suitable schedule during an inspection.",
-        "description": "Deck waterproofing frequency depends on material, exposure, and product, typically every 1-5 years. High-traffic or sun-exposed decks may need more frequent reapplication."
-      }
-    }
-  ],
+  "name": "How often should I waterproof my deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How often should I waterproof my deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The frequency of deck waterproofing depends on the type of material, exposure to elements, and the specific waterproofing product used. Typically, decks should be re-waterproofed every 1-5 years. Areas with direct sun exposure or heavy foot traffic, such as decks in Oakland Hills, may require more frequent reapplication. We can assess your deck's condition and recommend a suitable schedule during an inspection.",
+        "@type": "Answer",
+        "description": "Deck waterproofing frequency depends on material, exposure, and product, typically every 1-5 years. High-traffic or sun-exposed decks may need more frequent reapplication."
+      }
+    }
+  ],
+  "description": "Deck waterproofing frequency depends on material, exposure, and product, typically every 1-5 years. High-traffic or sun-exposed decks may need more frequent rea"
 }

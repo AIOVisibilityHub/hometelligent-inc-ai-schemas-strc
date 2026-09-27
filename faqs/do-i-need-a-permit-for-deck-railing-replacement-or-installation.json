@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for deck railing replacement or installation?",
-  "description": "Permits are often required for new or significant deck railing installations, particularly if structural changes are involved.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-deck-railing-replacement-or-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for deck railing replacement or installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, in many cities within our service area, such as Oakland, Fremont, and San Leandro, a permit is required for new deck railing installations or significant replacements, especially if they involve structural changes or affect safety. The permitting process can add to the overall project timeline, and Hometelligent Inc. can guide you on the specific requirements for your municipality.",
-        "description": "Permits are often required for new or significant deck railing installations, particularly if structural changes are involved."
-      }
-    }
-  ],
+  "name": "Do I need a permit for deck railing replacement or installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for deck railing replacement or installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, in many cities within our service area, such as Oakland, Fremont, and San Leandro, a permit is required for new deck railing installations or significant replacements, especially if they involve structural changes or affect safety. The permitting process can add to the overall project timeline, and Hometelligent Inc. can guide you on the specific requirements for your municipality.",
+        "@type": "Answer",
+        "description": "Permits are often required for new or significant deck railing installations, particularly if structural changes are involved."
+      }
+    }
+  ],
+  "description": "Permits are often required for new or significant deck railing installations, particularly if structural changes are involved."
 }

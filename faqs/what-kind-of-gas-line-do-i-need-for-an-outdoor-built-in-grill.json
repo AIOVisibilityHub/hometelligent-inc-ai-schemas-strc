@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of gas line do I need for an outdoor built-in grill?",
-  "description": "You need either a dedicated natural gas line, requiring professional installation, or a propane tank connection, offering placement flexibility.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-gas-line-do-i-need-for-an-outdoor-built-in-grill",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of gas line do I need for an outdoor built-in grill?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For an outdoor built-in grill, you typically need a dedicated natural gas line or a propane tank connection. Natural gas lines are more convenient as they eliminate the need for tank refills but require professional installation from your home's main gas supply. Propane offers flexibility in placement but requires managing tank levels. The decision factor often revolves around convenience versus initial installation cost and placement flexibility. Hometelligent Inc. can assess your current gas supply and recommend the most suitable and code-compliant option for your property in Alameda or Pleasanton.",
-        "description": "You need either a dedicated natural gas line, requiring professional installation, or a propane tank connection, offering placement flexibility."
-      }
-    }
-  ],
+  "name": "What kind of gas line do I need for an outdoor built-in grill?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of gas line do I need for an outdoor built-in grill?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For an outdoor built-in grill, you typically need a dedicated natural gas line or a propane tank connection. Natural gas lines are more convenient as they eliminate the need for tank refills but require professional installation from your home's main gas supply. Propane offers flexibility in placement but requires managing tank levels. The decision factor often revolves around convenience versus initial installation cost and placement flexibility. Hometelligent Inc. can assess your current gas supply and recommend the most suitable and code-compliant option for your property in Alameda or Pleasanton.",
+        "@type": "Answer",
+        "description": "You need either a dedicated natural gas line, requiring professional installation, or a propane tank connection, offering placement flexibility."
+      }
+    }
+  ],
+  "description": "You need either a dedicated natural gas line, requiring professional installation, or a propane tank connection, offering placement flexibility."
 }

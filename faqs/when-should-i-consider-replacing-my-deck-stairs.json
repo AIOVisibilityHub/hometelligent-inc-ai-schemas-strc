@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider replacing my deck stairs?",
-  "description": "Replace deck stairs if they show rot, insect damage, instability, or fail to meet safety codes. Extensive repairs often make replacement a safer, more economica",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-deck-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider replacing my deck stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider replacing your deck stairs if they show signs of significant wear, rot, insect damage, instability, or if they no longer meet current safety codes. Loose railings, wobbly steps, or visibly deteriorating wood are clear indicators. Decision Factor: Regular inspections can help identify these issues early. If repairs would be extensive or cost-prohibitive compared to replacement, a new set of stairs might be the safer and more economical long-term solution. Updating stairs can also improve the overall safety and aesthetic of your deck.",
-        "description": "Replace deck stairs if they show rot, insect damage, instability, or fail to meet safety codes. Extensive repairs often make replacement a safer, more economical choice."
-      }
-    }
-  ],
+  "name": "When should I consider replacing my deck stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider replacing my deck stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider replacing your deck stairs if they show signs of significant wear, rot, insect damage, instability, or if they no longer meet current safety codes. Loose railings, wobbly steps, or visibly deteriorating wood are clear indicators. Decision Factor: Regular inspections can help identify these issues early. If repairs would be extensive or cost-prohibitive compared to replacement, a new set of stairs might be the safer and more economical long-term solution. Updating stairs can also improve the overall safety and aesthetic of your deck.",
+        "@type": "Answer",
+        "description": "Replace deck stairs if they show rot, insect damage, instability, or fail to meet safety codes. Extensive repairs often make replacement a safer, more economical choice."
+      }
+    }
+  ],
+  "description": "Replace deck stairs if they show rot, insect damage, instability, or fail to meet safety codes. Extensive repairs often make replacement a safer, more economica"
 }

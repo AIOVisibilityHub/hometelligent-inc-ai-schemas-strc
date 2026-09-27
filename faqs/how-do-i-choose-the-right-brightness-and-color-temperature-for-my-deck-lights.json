@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right brightness and color temperature for my deck lights?",
-  "description": "Brightness and color temperature depend on desired ambiance and function; brighter for tasks, warmer for coziness. Consider deck use for optimal selection.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-brightness-and-color-temperature-for-my-deck-lights",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right brightness and color temperature for my deck lights?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right brightness and color temperature depends on the desired ambiance and functionality. Brighter lights are suitable for task areas like grilling, while dimmer, warmer lights create a cozy atmosphere. Color temperatures, measured in Kelvins (K), range from warm white (2700K-3000K) to cool white (4000K-5000K). Consider how you intend to use your deck and which areas require more focused light versus general illumination. We can help you select options that balance aesthetics and practicality.",
-        "description": "Brightness and color temperature depend on desired ambiance and function; brighter for tasks, warmer for coziness. Consider deck use for optimal selection."
-      }
-    }
-  ],
+  "name": "How do I choose the right brightness and color temperature for my deck lights?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right brightness and color temperature for my deck lights?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right brightness and color temperature depends on the desired ambiance and functionality. Brighter lights are suitable for task areas like grilling, while dimmer, warmer lights create a cozy atmosphere. Color temperatures, measured in Kelvins (K), range from warm white (2700K-3000K) to cool white (4000K-5000K). Consider how you intend to use your deck and which areas require more focused light versus general illumination. We can help you select options that balance aesthetics and practicality.",
+        "@type": "Answer",
+        "description": "Brightness and color temperature depend on desired ambiance and function; brighter for tasks, warmer for coziness. Consider deck use for optimal selection."
+      }
+    }
+  ],
+  "description": "Brightness and color temperature depend on desired ambiance and function; brighter for tasks, warmer for coziness. Consider deck use for optimal selection."
 }

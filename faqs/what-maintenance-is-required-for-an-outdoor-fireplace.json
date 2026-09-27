@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for an outdoor fireplace?",
-  "description": "Maintenance involves regular ash removal, chimney cleaning, masonry inspection, and protecting it with a cover. Gas fireplaces require annual professional check",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-an-outdoor-fireplace",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for an outdoor fireplace?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintaining an outdoor fireplace primarily involves keeping it clean and performing periodic inspections. This includes regularly removing ash and debris, ensuring the chimney flue is clear, and checking for cracks in the masonry or mortar joints. If you have a gas-burning fireplace, annual inspections by a qualified technician are recommended to ensure all components are functioning safely. Protecting the fireplace with a cover when not in use can extend its lifespan, especially in areas with significant rainfall or humidity. Addressing minor issues promptly can prevent more extensive repairs down the line.",
-        "description": "Maintenance involves regular ash removal, chimney cleaning, masonry inspection, and protecting it with a cover. Gas fireplaces require annual professional checks."
-      }
-    }
-  ],
+  "name": "What maintenance is required for an outdoor fireplace?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for an outdoor fireplace?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintaining an outdoor fireplace primarily involves keeping it clean and performing periodic inspections. This includes regularly removing ash and debris, ensuring the chimney flue is clear, and checking for cracks in the masonry or mortar joints. If you have a gas-burning fireplace, annual inspections by a qualified technician are recommended to ensure all components are functioning safely. Protecting the fireplace with a cover when not in use can extend its lifespan, especially in areas with significant rainfall or humidity. Addressing minor issues promptly can prevent more extensive repairs down the line.",
+        "@type": "Answer",
+        "description": "Maintenance involves regular ash removal, chimney cleaning, masonry inspection, and protecting it with a cover. Gas fireplaces require annual professional checks."
+      }
+    }
+  ],
+  "description": "Maintenance involves regular ash removal, chimney cleaning, masonry inspection, and protecting it with a cover. Gas fireplaces require annual professional check"
 }

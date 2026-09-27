@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right redwood grade for my deck?",
-  "description": "Selecting a redwood grade depends on your priorities for appearance, durability, and budget; Clear All Heart is premium, while Construction Heart is durable for",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-redwood-grade-for-my-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right redwood grade for my deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right redwood grade involves balancing appearance, durability, and budget. Grades like Clear All Heart offer premium aesthetics and decay resistance, ideal for visible surfaces, while Construction Heart provides excellent durability for structural components at a lower cost. Your decision factor should consider your aesthetic preference, desired lifespan, and specific use of the deck, which we can discuss during your consultation.",
-        "description": "Selecting a redwood grade depends on your priorities for appearance, durability, and budget; Clear All Heart is premium, while Construction Heart is durable for structure."
-      }
-    }
-  ],
+  "name": "How do I choose the right redwood grade for my deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right redwood grade for my deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right redwood grade involves balancing appearance, durability, and budget. Grades like Clear All Heart offer premium aesthetics and decay resistance, ideal for visible surfaces, while Construction Heart provides excellent durability for structural components at a lower cost. Your decision factor should consider your aesthetic preference, desired lifespan, and specific use of the deck, which we can discuss during your consultation.",
+        "@type": "Answer",
+        "description": "Selecting a redwood grade depends on your priorities for appearance, durability, and budget; Clear All Heart is premium, while Construction Heart is durable for structure."
+      }
+    }
+  ],
+  "description": "Selecting a redwood grade depends on your priorities for appearance, durability, and budget; Clear All Heart is premium, while Construction Heart is durable for"
 }

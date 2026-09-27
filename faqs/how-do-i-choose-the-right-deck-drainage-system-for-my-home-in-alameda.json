@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right deck drainage system for my home in Alameda?",
-  "description": "The right system depends on your deck's age, budget, desired look, and rainfall. Consider if you want to create a dry space underneath your deck, as this affect",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-deck-drainage-system-for-my-home-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right deck drainage system for my home in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right system involves considering your deck's current stage (new build vs. existing), budget, desired appearance, and the amount of rainfall your area receives. For new construction, an over-joist system might be ideal for maximum protection and a cleaner finish. For an existing deck, an under-joist system offers a practical retrofit solution. When making your decision, consider if you want to create a dry, usable living space underneath your deck; this goal will significantly influence the type of system and finishing options. Our team serves Alameda and can assess your specific deck structure and goals to recommend the best fit.",
-        "description": "The right system depends on your deck's age, budget, desired look, and rainfall. Consider if you want to create a dry space underneath your deck, as this affects the system choice."
-      }
-    }
-  ],
+  "name": "How do I choose the right deck drainage system for my home in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right deck drainage system for my home in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right system involves considering your deck's current stage (new build vs. existing), budget, desired appearance, and the amount of rainfall your area receives. For new construction, an over-joist system might be ideal for maximum protection and a cleaner finish. For an existing deck, an under-joist system offers a practical retrofit solution. When making your decision, consider if you want to create a dry, usable living space underneath your deck; this goal will significantly influence the type of system and finishing options. Our team serves Alameda and can assess your specific deck structure and goals to recommend the best fit.",
+        "@type": "Answer",
+        "description": "The right system depends on your deck's age, budget, desired look, and rainfall. Consider if you want to create a dry space underneath your deck, as this affects the system choice."
+      }
+    }
+  ],
+  "description": "The right system depends on your deck's age, budget, desired look, and rainfall. Consider if you want to create a dry space underneath your deck, as this affect"
 }

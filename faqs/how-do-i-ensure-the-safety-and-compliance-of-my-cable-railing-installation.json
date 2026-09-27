@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure the safety and compliance of my cable railing installation?",
-  "description": "Safety requires compliance with local building codes for height, spacing, and load capacity. Hometelligent Inc. ensures proper cable tension and spacing to meet",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-the-safety-and-compliance-of-my-cable-railing-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure the safety and compliance of my cable railing installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ensuring the safety and compliance of your cable railing involves selecting a design that meets local building codes, which often specify requirements for railing height, cable spacing, and load-bearing capacity. It's critical that cables are installed with proper tension to prevent sagging and maintain a tight, safe barrier. For projects within our service areas, such as Fremont or Hayward, Hometelligent Inc. prioritizes adherence to all relevant safety standards and building regulations. We ensure proper post spacing and cable tensioning, which are vital for preventing falls and meeting safety requirements.",
-        "description": "Safety requires compliance with local building codes for height, spacing, and load capacity. Hometelligent Inc. ensures proper cable tension and spacing to meet safety standards."
-      }
-    }
-  ],
+  "name": "How do I ensure the safety and compliance of my cable railing installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure the safety and compliance of my cable railing installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Ensuring the safety and compliance of your cable railing involves selecting a design that meets local building codes, which often specify requirements for railing height, cable spacing, and load-bearing capacity. It's critical that cables are installed with proper tension to prevent sagging and maintain a tight, safe barrier. For projects within our service areas, such as Fremont or Hayward, Hometelligent Inc. prioritizes adherence to all relevant safety standards and building regulations. We ensure proper post spacing and cable tensioning, which are vital for preventing falls and meeting safety requirements.",
+        "@type": "Answer",
+        "description": "Safety requires compliance with local building codes for height, spacing, and load capacity. Hometelligent Inc. ensures proper cable tension and spacing to meet safety standards."
+      }
+    }
+  ],
+  "description": "Safety requires compliance with local building codes for height, spacing, and load capacity. Hometelligent Inc. ensures proper cable tension and spacing to meet"
 }

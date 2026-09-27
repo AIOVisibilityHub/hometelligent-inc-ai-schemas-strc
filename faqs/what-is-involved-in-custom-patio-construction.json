@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in custom patio construction?",
-  "description": "Custom patio construction involves design, site assessment, material selection, and building an outdoor space tailored to your property and needs.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-custom-patio-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in custom patio construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom patio construction involves designing and building an outdoor living space tailored to your specific needs and property. This process typically includes an initial consultation to discuss your vision, site assessment to evaluate terrain and existing structures, design creation, material selection (such as concrete, pavers, or natural stone), and finally, the construction phase. The complexity can vary greatly depending on features like integrated seating, pergolas, or drainage systems.",
-        "description": "Custom patio construction involves design, site assessment, material selection, and building an outdoor space tailored to your property and needs."
-      }
-    }
-  ],
+  "name": "What is involved in custom patio construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in custom patio construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom patio construction involves designing and building an outdoor living space tailored to your specific needs and property. This process typically includes an initial consultation to discuss your vision, site assessment to evaluate terrain and existing structures, design creation, material selection (such as concrete, pavers, or natural stone), and finally, the construction phase. The complexity can vary greatly depending on features like integrated seating, pergolas, or drainage systems.",
+        "@type": "Answer",
+        "description": "Custom patio construction involves design, site assessment, material selection, and building an outdoor space tailored to your property and needs."
+      }
+    }
+  ],
+  "description": "Custom patio construction involves design, site assessment, material selection, and building an outdoor space tailored to your property and needs."
 }

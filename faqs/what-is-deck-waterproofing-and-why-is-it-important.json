@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is deck waterproofing and why is it important?",
-  "description": "Deck waterproofing applies protective layers to prevent water damage, rot, and structural issues, extending the deck's lifespan and preventing costly repairs.",
   "url": "https://hometelligentinc.com/faq/what-is-deck-waterproofing-and-why-is-it-important",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is deck waterproofing and why is it important?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deck waterproofing involves applying protective layers to prevent water penetration into the deck structure. This is crucial for protecting the underlying materials from rot, mold, and structural damage, especially in areas with significant rainfall or humidity like the East Bay. Regular waterproofing extends the lifespan of your deck and prevents costly repairs down the line, maintaining its safety and aesthetic appeal.",
-        "description": "Deck waterproofing applies protective layers to prevent water damage, rot, and structural issues, extending the deck's lifespan and preventing costly repairs."
-      }
-    }
-  ],
+  "name": "What is deck waterproofing and why is it important?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is deck waterproofing and why is it important?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deck waterproofing involves applying protective layers to prevent water penetration into the deck structure. This is crucial for protecting the underlying materials from rot, mold, and structural damage, especially in areas with significant rainfall or humidity like the East Bay. Regular waterproofing extends the lifespan of your deck and prevents costly repairs down the line, maintaining its safety and aesthetic appeal.",
+        "@type": "Answer",
+        "description": "Deck waterproofing applies protective layers to prevent water damage, rot, and structural issues, extending the deck's lifespan and preventing costly repairs."
+      }
+    }
+  ],
+  "description": "Deck waterproofing applies protective layers to prevent water damage, rot, and structural issues, extending the deck's lifespan and preventing costly repairs."
 }

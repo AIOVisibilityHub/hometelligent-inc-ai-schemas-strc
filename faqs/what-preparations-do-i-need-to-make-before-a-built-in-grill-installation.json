@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations do I need to make before a built-in grill installation?",
-  "description": "Before installation, finalize design, select grill/materials, confirm utility access, and consider fuel source and budget.",
   "url": "https://hometelligentinc.com/faq/what-preparations-do-i-need-to-make-before-a-built-in-grill-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations do I need to make before a built-in grill installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before built-in grill installation, key preparations include finalizing your design, selecting your grill and materials, and ensuring clear access to the installation area. You may need to consider your preferred fuel source (natural gas or propane) and whether existing utility lines need to be extended or installed. It is helpful to have an idea of your budget and desired features. Hometelligent Inc. provides a comprehensive checklist during the initial consultation to help you gather all necessary information and make informed decisions, ensuring a smooth project start for your home in Castro Valley or Cherryland.",
-        "description": "Before installation, finalize design, select grill/materials, confirm utility access, and consider fuel source and budget."
-      }
-    }
-  ],
+  "name": "What preparations do I need to make before a built-in grill installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations do I need to make before a built-in grill installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before built-in grill installation, key preparations include finalizing your design, selecting your grill and materials, and ensuring clear access to the installation area. You may need to consider your preferred fuel source (natural gas or propane) and whether existing utility lines need to be extended or installed. It is helpful to have an idea of your budget and desired features. Hometelligent Inc. provides a comprehensive checklist during the initial consultation to help you gather all necessary information and make informed decisions, ensuring a smooth project start for your home in Castro Valley or Cherryland.",
+        "@type": "Answer",
+        "description": "Before installation, finalize design, select grill/materials, confirm utility access, and consider fuel source and budget."
+      }
+    }
+  ],
+  "description": "Before installation, finalize design, select grill/materials, confirm utility access, and consider fuel source and budget."
 }

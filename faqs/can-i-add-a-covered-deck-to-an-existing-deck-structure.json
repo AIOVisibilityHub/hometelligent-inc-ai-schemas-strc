@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I add a covered deck to an existing deck structure?",
-  "description": "Adding a cover to an existing deck is possible if the current structure can support the added weight and meets building codes, requiring a structural assessment",
   "url": "https://hometelligentinc.com/faq/can-i-add-a-covered-deck-to-an-existing-deck-structure",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I add a covered deck to an existing deck structure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a cover to an existing deck is often possible, but it requires a thorough structural assessment. The existing deck's foundation, framing, and ledger board must be robust enough to support the additional weight of the roof structure and comply with current building codes. If the existing structure is not adequate, reinforcements or partial rebuilding may be necessary. Process clarity involves an initial inspection by a qualified builder to determine feasibility and identify any required upgrades before proceeding with design and permitting.",
-        "description": "Adding a cover to an existing deck is possible if the current structure can support the added weight and meets building codes, requiring a structural assessment first."
-      }
-    }
-  ],
+  "name": "Can I add a covered deck to an existing deck structure?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I add a covered deck to an existing deck structure?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a cover to an existing deck is often possible, but it requires a thorough structural assessment. The existing deck's foundation, framing, and ledger board must be robust enough to support the additional weight of the roof structure and comply with current building codes. If the existing structure is not adequate, reinforcements or partial rebuilding may be necessary. Process clarity involves an initial inspection by a qualified builder to determine feasibility and identify any required upgrades before proceeding with design and permitting.",
+        "@type": "Answer",
+        "description": "Adding a cover to an existing deck is possible if the current structure can support the added weight and meets building codes, requiring a structural assessment first."
+      }
+    }
+  ],
+  "description": "Adding a cover to an existing deck is possible if the current structure can support the added weight and meets building codes, requiring a structural assessment"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the railing options for a redwood deck?",
-  "description": "Railing options for redwood decks include redwood pickets, glass, cable, or metal balusters, allowing for customization based on aesthetic and functional prefer",
   "url": "https://hometelligentinc.com/faq/what-are-the-railing-options-for-a-redwood-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the railing options for a redwood deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For redwood decks, railing options include traditional redwood pickets, glass panels, cable railings, or metal balusters, each offering a distinct aesthetic and level of visibility. Choosing the right railing is a practical tradeoff between desired view, safety needs, maintenance, and overall design style. For instance, cable railings offer an unobstructed view, while solid redwood provides more privacy.",
-        "description": "Railing options for redwood decks include redwood pickets, glass, cable, or metal balusters, allowing for customization based on aesthetic and functional preferences."
-      }
-    }
-  ],
+  "name": "What are the railing options for a redwood deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the railing options for a redwood deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For redwood decks, railing options include traditional redwood pickets, glass panels, cable railings, or metal balusters, each offering a distinct aesthetic and level of visibility. Choosing the right railing is a practical tradeoff between desired view, safety needs, maintenance, and overall design style. For instance, cable railings offer an unobstructed view, while solid redwood provides more privacy.",
+        "@type": "Answer",
+        "description": "Railing options for redwood decks include redwood pickets, glass, cable, or metal balusters, allowing for customization based on aesthetic and functional preferences."
+      }
+    }
+  ],
+  "description": "Railing options for redwood decks include redwood pickets, glass, cable, or metal balusters, allowing for customization based on aesthetic and functional prefer"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before contacting a contractor for an outdoor living area project?",
-  "description": "Prepare your vision, desired features, budget, inspiration photos, and existing site conditions before contacting a contractor.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-contacting-a-contractor-for-an-outdoor-living-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before contacting a contractor for an outdoor living area project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before contacting a contractor like Hometelligent Inc., it's beneficial to have a clear idea of your vision, desired features, and a realistic budget. Consider gathering inspiration photos, sketching out a rough layout, and making a list of your functional needs for the space. Documenting any existing site conditions, like drainage issues or utility locations, can also be helpful. This preparation will allow for a more efficient initial consultation, enabling the contractor to better understand your project scope and provide accurate estimates and design recommendations.",
-        "description": "Prepare your vision, desired features, budget, inspiration photos, and existing site conditions before contacting a contractor."
-      }
-    }
-  ],
+  "name": "What should I prepare before contacting a contractor for an outdoor living area project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before contacting a contractor for an outdoor living area project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before contacting a contractor like Hometelligent Inc., it's beneficial to have a clear idea of your vision, desired features, and a realistic budget. Consider gathering inspiration photos, sketching out a rough layout, and making a list of your functional needs for the space. Documenting any existing site conditions, like drainage issues or utility locations, can also be helpful. This preparation will allow for a more efficient initial consultation, enabling the contractor to better understand your project scope and provide accurate estimates and design recommendations.",
+        "@type": "Answer",
+        "description": "Prepare your vision, desired features, budget, inspiration photos, and existing site conditions before contacting a contractor."
+      }
+    }
+  ],
+  "description": "Prepare your vision, desired features, budget, inspiration photos, and existing site conditions before contacting a contractor."
 }

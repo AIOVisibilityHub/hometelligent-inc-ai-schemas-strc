@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can an outdoor dining area increase my property value?",
-  "description": "A well-designed outdoor dining area can increase property value by expanding living space and enhancing curb appeal, depending on construction quality and integ",
   "url": "https://hometelligentinc.com/faq/can-an-outdoor-dining-area-increase-my-property-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can an outdoor dining area increase my property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An well-designed and constructed outdoor dining area can significantly enhance a property's appeal and potentially increase its market value. It expands usable living space and offers an attractive amenity to potential buyers. The return on investment often depends on the quality of construction, materials used, and how well the area integrates with the existing home and landscape. Hometelligent Inc. focuses on creating durable, attractive spaces that add lasting value.",
-        "description": "A well-designed outdoor dining area can increase property value by expanding living space and enhancing curb appeal, depending on construction quality and integration."
-      }
-    }
-  ],
+  "name": "Can an outdoor dining area increase my property value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can an outdoor dining area increase my property value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An well-designed and constructed outdoor dining area can significantly enhance a property's appeal and potentially increase its market value. It expands usable living space and offers an attractive amenity to potential buyers. The return on investment often depends on the quality of construction, materials used, and how well the area integrates with the existing home and landscape. Hometelligent Inc. focuses on creating durable, attractive spaces that add lasting value.",
+        "@type": "Answer",
+        "description": "A well-designed outdoor dining area can increase property value by expanding living space and enhancing curb appeal, depending on construction quality and integration."
+      }
+    }
+  ],
+  "description": "A well-designed outdoor dining area can increase property value by expanding living space and enhancing curb appeal, depending on construction quality and integ"
 }

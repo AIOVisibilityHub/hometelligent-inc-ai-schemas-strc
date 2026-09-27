@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do outdoor barbecue islands require specific permits in cities like Fremont or Pleasanton?",
-  "description": "Yes, permits are generally required for outdoor barbecue islands with integrated utilities. Hometelligent Inc. handles the permitting process, ensuring complian",
   "url": "https://hometelligentinc.com/faq/do-outdoor-barbecue-islands-require-specific-permits-in-cities-like-fremont-or-p",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do outdoor barbecue islands require specific permits in cities like Fremont or Pleasanton?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, building an outdoor barbecue island, especially one with integrated gas, electrical, or plumbing lines, typically requires permits from your local city planning and building departments. The specific requirements can vary by municipality; for instance, Fremont and Pleasanton may have slightly different codes. Our team at Hometelligent Inc. manages the permitting process for our clients, ensuring all designs comply with local zoning ordinances and building codes before construction begins. This includes submitting detailed plans and coordinating inspections to prevent any delays or issues.",
-        "description": "Yes, permits are generally required for outdoor barbecue islands with integrated utilities. Hometelligent Inc. handles the permitting process, ensuring compliance with local codes in cities like Fremont or Pleasanton."
-      }
-    }
-  ],
+  "name": "Do outdoor barbecue islands require specific permits in cities like Fremont or Pleasanton?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do outdoor barbecue islands require specific permits in cities like Fremont or Pleasanton?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, building an outdoor barbecue island, especially one with integrated gas, electrical, or plumbing lines, typically requires permits from your local city planning and building departments. The specific requirements can vary by municipality; for instance, Fremont and Pleasanton may have slightly different codes. Our team at Hometelligent Inc. manages the permitting process for our clients, ensuring all designs comply with local zoning ordinances and building codes before construction begins. This includes submitting detailed plans and coordinating inspections to prevent any delays or issues.",
+        "@type": "Answer",
+        "description": "Yes, permits are generally required for outdoor barbecue islands with integrated utilities. Hometelligent Inc. handles the permitting process, ensuring compliance with local codes in cities like Fremont or Pleasanton."
+      }
+    }
+  ],
+  "description": "Yes, permits are generally required for outdoor barbecue islands with integrated utilities. Hometelligent Inc. handles the permitting process, ensuring complian"
 }

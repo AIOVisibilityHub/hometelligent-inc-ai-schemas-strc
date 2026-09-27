@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my deck for restoration work?",
-  "description": "Clear all items from the deck, ensure access to water and electricity, and trim nearby vegetation to prepare for restoration.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-deck-for-restoration-work",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my deck for restoration work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare your deck for restoration, clear all furniture, planters, grills, and other items from the surface. Ensure access to water and electricity is available for the restoration team. Trimming back any overgrown bushes or trees around the deck can also help create a clear workspace. Providing a clear and accessible workspace enables our team to perform the restoration efficiently and safely, minimizing disruptions.",
-        "description": "Clear all items from the deck, ensure access to water and electricity, and trim nearby vegetation to prepare for restoration."
-      }
-    }
-  ],
+  "name": "How can I prepare my deck for restoration work?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my deck for restoration work?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare your deck for restoration, clear all furniture, planters, grills, and other items from the surface. Ensure access to water and electricity is available for the restoration team. Trimming back any overgrown bushes or trees around the deck can also help create a clear workspace. Providing a clear and accessible workspace enables our team to perform the restoration efficiently and safely, minimizing disruptions.",
+        "@type": "Answer",
+        "description": "Clear all items from the deck, ensure access to water and electricity, and trim nearby vegetation to prepare for restoration."
+      }
+    }
+  ],
+  "description": "Clear all items from the deck, ensure access to water and electricity, and trim nearby vegetation to prepare for restoration."
 }

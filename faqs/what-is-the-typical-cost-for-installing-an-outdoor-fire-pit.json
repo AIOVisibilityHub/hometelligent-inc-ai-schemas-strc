@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for installing an outdoor fire pit?",
-  "description": "Installation costs vary based on the fire pit's type, materials, and complexity. Custom designs, gas lines, and premium materials increase the price. Hometellig",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-installing-an-outdoor-fire-pit",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for installing an outdoor fire pit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of installing an outdoor fire pit varies significantly based on its type, materials, and complexity. A basic, pre-fabricated fire pit might have lower installation costs, while custom-built masonry or gas-fueled fire pits involve higher expenses due to design, labor, and material requirements. Factors like excavation, gas line extension, electrical work for ignitions, and choice of finishing materials (e.g., natural stone, concrete pavers) will impact the overall price. Hometelligent Inc. provides detailed estimates after an on-site consultation to accurately assess the scope and specific material costs for your desired fire pit in your specific location.",
-        "description": "Installation costs vary based on the fire pit's type, materials, and complexity. Custom designs, gas lines, and premium materials increase the price. Hometelligent Inc. provides detailed estimates after consultation."
-      }
-    }
-  ],
+  "name": "What is the typical cost for installing an outdoor fire pit?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for installing an outdoor fire pit?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of installing an outdoor fire pit varies significantly based on its type, materials, and complexity. A basic, pre-fabricated fire pit might have lower installation costs, while custom-built masonry or gas-fueled fire pits involve higher expenses due to design, labor, and material requirements. Factors like excavation, gas line extension, electrical work for ignitions, and choice of finishing materials (e.g., natural stone, concrete pavers) will impact the overall price. Hometelligent Inc. provides detailed estimates after an on-site consultation to accurately assess the scope and specific material costs for your desired fire pit in your specific location.",
+        "@type": "Answer",
+        "description": "Installation costs vary based on the fire pit's type, materials, and complexity. Custom designs, gas lines, and premium materials increase the price. Hometelligent Inc. provides detailed estimates after consultation."
+      }
+    }
+  ],
+  "description": "Installation costs vary based on the fire pit's type, materials, and complexity. Custom designs, gas lines, and premium materials increase the price. Hometellig"
 }

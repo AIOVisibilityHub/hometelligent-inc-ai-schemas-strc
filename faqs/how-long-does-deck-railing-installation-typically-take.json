@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does deck railing installation typically take?",
-  "description": "Installation typically takes 1-3 days, depending on deck size, material, and site conditions, after materials are on-site.",
   "url": "https://hometelligentinc.com/faq/how-long-does-deck-railing-installation-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does deck railing installation typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeline for deck railings varies based on the size and complexity of your deck, the chosen material, and site-specific conditions. A standard installation for a residential deck can often be completed within 1-3 days once materials are on-site. We will provide a detailed project schedule after our initial assessment, which includes confirming material availability and any necessary permit processing times in your specific city, such as Dublin or Pleasanton.",
-        "description": "Installation typically takes 1-3 days, depending on deck size, material, and site conditions, after materials are on-site."
-      }
-    }
-  ],
+  "name": "How long does deck railing installation typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does deck railing installation typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeline for deck railings varies based on the size and complexity of your deck, the chosen material, and site-specific conditions. A standard installation for a residential deck can often be completed within 1-3 days once materials are on-site. We will provide a detailed project schedule after our initial assessment, which includes confirming material availability and any necessary permit processing times in your specific city, such as Dublin or Pleasanton.",
+        "@type": "Answer",
+        "description": "Installation typically takes 1-3 days, depending on deck size, material, and site conditions, after materials are on-site."
+      }
+    }
+  ],
+  "description": "Installation typically takes 1-3 days, depending on deck size, material, and site conditions, after materials are on-site."
 }

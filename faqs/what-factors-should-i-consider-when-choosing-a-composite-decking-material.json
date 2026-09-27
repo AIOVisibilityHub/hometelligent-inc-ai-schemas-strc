@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing a composite decking material?",
-  "description": "Consider aesthetics, durability (fade/scratch resistance), cap material, budget, and warranty when choosing composite decking.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-a-composite-decking-material",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing a composite decking material?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing composite decking, consider factors like the desired aesthetic (color, grain pattern), durability features (fade, scratch, and stain resistance), and the cap material (PVC or polyethylene) which affects performance. Also, think about your budget and the manufacturer's warranty. Different brands offer varying levels of performance and aesthetics. Hometelligent can guide you through the available options, discussing how each choice aligns with your specific usage and local climate conditions in areas like Fremont or Pleasanton.",
-        "description": "Consider aesthetics, durability (fade/scratch resistance), cap material, budget, and warranty when choosing composite decking."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing a composite decking material?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing a composite decking material?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing composite decking, consider factors like the desired aesthetic (color, grain pattern), durability features (fade, scratch, and stain resistance), and the cap material (PVC or polyethylene) which affects performance. Also, think about your budget and the manufacturer's warranty. Different brands offer varying levels of performance and aesthetics. Hometelligent can guide you through the available options, discussing how each choice aligns with your specific usage and local climate conditions in areas like Fremont or Pleasanton.",
+        "@type": "Answer",
+        "description": "Consider aesthetics, durability (fade/scratch resistance), cap material, budget, and warranty when choosing composite decking."
+      }
+    }
+  ],
+  "description": "Consider aesthetics, durability (fade/scratch resistance), cap material, budget, and warranty when choosing composite decking."
 }

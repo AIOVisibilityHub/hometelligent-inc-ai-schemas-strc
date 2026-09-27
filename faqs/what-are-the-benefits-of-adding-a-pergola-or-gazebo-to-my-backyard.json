@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of adding a pergola or gazebo to my backyard?",
-  "description": "Pergolas and gazebos add shade, define spaces, and create architectural interest, enhancing comfort and usability. They can increase property value and serve as",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-adding-a-pergola-or-gazebo-to-my-backyard",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of adding a pergola or gazebo to my backyard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a pergola or gazebo can significantly enhance your backyard entertaining area by providing shade, defining a space, and adding architectural interest. Pergolas offer partial shade and can be adorned with climbing plants or retractable canopies, while gazebos provide more complete shelter from sun and rain. Both create a more intimate and comfortable outdoor living environment, increasing usability and potentially property value. They serve as excellent focal points for seating or dining areas.",
-        "description": "Pergolas and gazebos add shade, define spaces, and create architectural interest, enhancing comfort and usability. They can increase property value and serve as focal points."
-      }
-    }
-  ],
+  "name": "What are the benefits of adding a pergola or gazebo to my backyard?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of adding a pergola or gazebo to my backyard?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a pergola or gazebo can significantly enhance your backyard entertaining area by providing shade, defining a space, and adding architectural interest. Pergolas offer partial shade and can be adorned with climbing plants or retractable canopies, while gazebos provide more complete shelter from sun and rain. Both create a more intimate and comfortable outdoor living environment, increasing usability and potentially property value. They serve as excellent focal points for seating or dining areas.",
+        "@type": "Answer",
+        "description": "Pergolas and gazebos add shade, define spaces, and create architectural interest, enhancing comfort and usability. They can increase property value and serve as focal points."
+      }
+    }
+  ],
+  "description": "Pergolas and gazebos add shade, define spaces, and create architectural interest, enhancing comfort and usability. They can increase property value and serve as"
 }

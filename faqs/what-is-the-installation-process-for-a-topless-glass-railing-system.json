@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the installation process for a topless glass railing system?",
-  "description": "Topless glass railing installation involves securing panels directly to the deck with specialized hardware, requiring meticulous measurements and precise engine",
   "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-a-topless-glass-railing-system",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the installation process for a topless glass railing system?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A topless glass railing system, which eliminates a top rail for an even more seamless view, involves securing robust glass panels directly to the deck structure or fascia using specialized base shoe systems or stand-off clamps. The process typically begins with meticulous measurements, followed by the installation of the mounting hardware, and then the careful placement and alignment of the glass panels. As a process clarity detail, precise engineering and installation are critical for these systems to ensure structural integrity and safety without a continuous top support.",
-        "description": "Topless glass railing installation involves securing panels directly to the deck with specialized hardware, requiring meticulous measurements and precise engineering for safety."
-      }
-    }
-  ],
+  "name": "What is the installation process for a topless glass railing system?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the installation process for a topless glass railing system?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A topless glass railing system, which eliminates a top rail for an even more seamless view, involves securing robust glass panels directly to the deck structure or fascia using specialized base shoe systems or stand-off clamps. The process typically begins with meticulous measurements, followed by the installation of the mounting hardware, and then the careful placement and alignment of the glass panels. As a process clarity detail, precise engineering and installation are critical for these systems to ensure structural integrity and safety without a continuous top support.",
+        "@type": "Answer",
+        "description": "Topless glass railing installation involves securing panels directly to the deck with specialized hardware, requiring meticulous measurements and precise engineering for safety."
+      }
+    }
+  ],
+  "description": "Topless glass railing installation involves securing panels directly to the deck with specialized hardware, requiring meticulous measurements and precise engine"
 }

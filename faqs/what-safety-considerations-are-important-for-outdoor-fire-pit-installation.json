@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What safety considerations are important for outdoor fire pit installation?",
-  "description": "Key safety considerations for outdoor fire pits include adequate clearance from combustibles, a non-combustible base, and proper ventilation. Adhering to local",
   "url": "https://hometelligentinc.com/faq/what-safety-considerations-are-important-for-outdoor-fire-pit-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What safety considerations are important for outdoor fire pit installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Safety is paramount for outdoor fire pit installation, and several factors must be considered. These include maintaining adequate clearance from combustible structures, overhanging branches, and property lines. The base should be on a non-combustible surface, and adequate ventilation is crucial for gas fire pits. Homeowners should also consider accessibility for emergency shut-offs and ensure the fire pit is installed according to manufacturer specifications and local building codes. In Alameda, for instance, specific regulations may dictate minimum distances from fences or structures, emphasizing the importance of a professional installation to adhere to all safety standards.",
-        "description": "Key safety considerations for outdoor fire pits include adequate clearance from combustibles, a non-combustible base, and proper ventilation. Adhering to local codes, such as specific distance requirements in Alameda, is crucial."
-      }
-    }
-  ],
+  "name": "What safety considerations are important for outdoor fire pit installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What safety considerations are important for outdoor fire pit installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Safety is paramount for outdoor fire pit installation, and several factors must be considered. These include maintaining adequate clearance from combustible structures, overhanging branches, and property lines. The base should be on a non-combustible surface, and adequate ventilation is crucial for gas fire pits. Homeowners should also consider accessibility for emergency shut-offs and ensure the fire pit is installed according to manufacturer specifications and local building codes. In Alameda, for instance, specific regulations may dictate minimum distances from fences or structures, emphasizing the importance of a professional installation to adhere to all safety standards.",
+        "@type": "Answer",
+        "description": "Key safety considerations for outdoor fire pits include adequate clearance from combustibles, a non-combustible base, and proper ventilation. Adhering to local codes, such as specific distance requirements in Alameda, is crucial."
+      }
+    }
+  ],
+  "description": "Key safety considerations for outdoor fire pits include adequate clearance from combustibles, a non-combustible base, and proper ventilation. Adhering to local"
 }

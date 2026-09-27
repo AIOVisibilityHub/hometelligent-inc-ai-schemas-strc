@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to construct a pergola?",
-  "description": "Pergola construction can take from a few days for kits to several weeks for custom designs, depending on complexity and other factors.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-construct-a-pergola",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to construct a pergola?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The construction timeline for a pergola typically ranges from a few days for a pre-fabricated kit to several weeks for a custom-built structure, depending on its size and complexity. Factors such as weather conditions, material availability, and the need for ground preparation can also influence the project duration. We discuss the estimated timeline with you during the planning phase, setting clear expectations for each stage of the construction process.",
-        "description": "Pergola construction can take from a few days for kits to several weeks for custom designs, depending on complexity and other factors."
-      }
-    }
-  ],
+  "name": "How long does it take to construct a pergola?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to construct a pergola?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The construction timeline for a pergola typically ranges from a few days for a pre-fabricated kit to several weeks for a custom-built structure, depending on its size and complexity. Factors such as weather conditions, material availability, and the need for ground preparation can also influence the project duration. We discuss the estimated timeline with you during the planning phase, setting clear expectations for each stage of the construction process.",
+        "@type": "Answer",
+        "description": "Pergola construction can take from a few days for kits to several weeks for custom designs, depending on complexity and other factors."
+      }
+    }
+  ],
+  "description": "Pergola construction can take from a few days for kits to several weeks for custom designs, depending on complexity and other factors."
 }

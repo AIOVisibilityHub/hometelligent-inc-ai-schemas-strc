@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What safety features are important for deck stairs?",
-  "description": "Key safety features for deck stairs include sturdy handrails, consistent step dimensions, adequate lighting, and proper baluster spacing. Non-slip treads are al",
   "url": "https://hometelligentinc.com/faq/what-safety-features-are-important-for-deck-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What safety features are important for deck stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Important safety features for deck stairs include sturdy handrails on at least one side, consistent rise and run dimensions for each step, and adequate lighting. Balusters should be spaced to prevent small children or pets from falling through, typically less than 4 inches apart. Non-slip treads are also crucial, especially in wet climates like those experienced in parts of Alameda and Berkeley. First-Party Insight: Hometelligent Inc. prioritizes safety in all our deck construction, ensuring all handrails are securely fastened and steps are uniformly built to minimize trip hazards.",
-        "description": "Key safety features for deck stairs include sturdy handrails, consistent step dimensions, adequate lighting, and proper baluster spacing. Non-slip treads are also important."
-      }
-    }
-  ],
+  "name": "What safety features are important for deck stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What safety features are important for deck stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Important safety features for deck stairs include sturdy handrails on at least one side, consistent rise and run dimensions for each step, and adequate lighting. Balusters should be spaced to prevent small children or pets from falling through, typically less than 4 inches apart. Non-slip treads are also crucial, especially in wet climates like those experienced in parts of Alameda and Berkeley. First-Party Insight: Hometelligent Inc. prioritizes safety in all our deck construction, ensuring all handrails are securely fastened and steps are uniformly built to minimize trip hazards.",
+        "@type": "Answer",
+        "description": "Key safety features for deck stairs include sturdy handrails, consistent step dimensions, adequate lighting, and proper baluster spacing. Non-slip treads are also important."
+      }
+    }
+  ],
+  "description": "Key safety features for deck stairs include sturdy handrails, consistent step dimensions, adequate lighting, and proper baluster spacing. Non-slip treads are al"
 }

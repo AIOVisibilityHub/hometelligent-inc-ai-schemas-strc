@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to build deck stairs?",
-  "description": "Deck stair construction costs depend on materials, design complexity, size, and labor. Simpler designs using pressure-treated lumber are typically less expensiv",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-build-deck-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to build deck stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building deck stairs varies widely based on material choice, stair design (straight, L-shaped, spiral), length, width, and railing requirements. Labor costs also factor in significantly. Simple pressure-treated stairs will be less expensive than custom designs with composite decking and elaborate railings. As a Preparation step, we recommend clients consider their budget and specific design preferences early on, as these directly impact the overall project cost.",
-        "description": "Deck stair construction costs depend on materials, design complexity, size, and labor. Simpler designs using pressure-treated lumber are typically less expensive."
-      }
-    }
-  ],
+  "name": "How much does it cost to build deck stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to build deck stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building deck stairs varies widely based on material choice, stair design (straight, L-shaped, spiral), length, width, and railing requirements. Labor costs also factor in significantly. Simple pressure-treated stairs will be less expensive than custom designs with composite decking and elaborate railings. As a Preparation step, we recommend clients consider their budget and specific design preferences early on, as these directly impact the overall project cost.",
+        "@type": "Answer",
+        "description": "Deck stair construction costs depend on materials, design complexity, size, and labor. Simpler designs using pressure-treated lumber are typically less expensive."
+      }
+    }
+  ],
+  "description": "Deck stair construction costs depend on materials, design complexity, size, and labor. Simpler designs using pressure-treated lumber are typically less expensiv"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare for an outdoor kitchen consultation?",
-  "description": "Gather ideas on style, appliances, usage, budget, and location before a consultation. This helps us provide accurate recommendations and designs.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-for-an-outdoor-kitchen-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare for an outdoor kitchen consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for an outdoor kitchen consultation, gather ideas about your desired style, appliances, and how you envision using the space. Consider your budget range, potential location, and any existing utility hookups. Having these details ready helps our team at Hometelligent Inc. understand your vision and provide more accurate recommendations and preliminary designs tailored to your specific needs and property constraints.",
-        "description": "Gather ideas on style, appliances, usage, budget, and location before a consultation. This helps us provide accurate recommendations and designs."
-      }
-    }
-  ],
+  "name": "How can I prepare for an outdoor kitchen consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare for an outdoor kitchen consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for an outdoor kitchen consultation, gather ideas about your desired style, appliances, and how you envision using the space. Consider your budget range, potential location, and any existing utility hookups. Having these details ready helps our team at Hometelligent Inc. understand your vision and provide more accurate recommendations and preliminary designs tailored to your specific needs and property constraints.",
+        "@type": "Answer",
+        "description": "Gather ideas on style, appliances, usage, budget, and location before a consultation. This helps us provide accurate recommendations and designs."
+      }
+    }
+  ],
+  "description": "Gather ideas on style, appliances, usage, budget, and location before a consultation. This helps us provide accurate recommendations and designs."
 }

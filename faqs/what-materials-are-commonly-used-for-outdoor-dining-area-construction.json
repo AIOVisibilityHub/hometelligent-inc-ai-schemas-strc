@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are commonly used for outdoor dining area construction?",
-  "description": "Common materials are wood, composite decking, concrete, pavers, and metal, with choices impacting aesthetics, durability, cost, and maintenance.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-commonly-used-for-outdoor-dining-area-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are commonly used for outdoor dining area construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials include wood (such as redwood or cedar) for decking and pergolas, composite decking for low maintenance, concrete or pavers for patios, and various metals for structural supports and railings. The choice of materials impacts both the aesthetic and long-term durability of the space. A practical tradeoff is often between initial cost and long-term maintenance requirements, with some premium materials offering greater longevity and less upkeep.",
-        "description": "Common materials are wood, composite decking, concrete, pavers, and metal, with choices impacting aesthetics, durability, cost, and maintenance."
-      }
-    }
-  ],
+  "name": "What materials are commonly used for outdoor dining area construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are commonly used for outdoor dining area construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials include wood (such as redwood or cedar) for decking and pergolas, composite decking for low maintenance, concrete or pavers for patios, and various metals for structural supports and railings. The choice of materials impacts both the aesthetic and long-term durability of the space. A practical tradeoff is often between initial cost and long-term maintenance requirements, with some premium materials offering greater longevity and less upkeep.",
+        "@type": "Answer",
+        "description": "Common materials are wood, composite decking, concrete, pavers, and metal, with choices impacting aesthetics, durability, cost, and maintenance."
+      }
+    }
+  ],
+  "description": "Common materials are wood, composite decking, concrete, pavers, and metal, with choices impacting aesthetics, durability, cost, and maintenance."
 }

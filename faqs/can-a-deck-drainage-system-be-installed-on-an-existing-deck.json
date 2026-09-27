@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a deck drainage system be installed on an existing deck?",
-  "description": "Yes, many under-joist deck drainage systems can be installed on existing decks without removing boards, but the deck's structure must be sound.",
   "url": "https://hometelligentinc.com/faq/can-a-deck-drainage-system-be-installed-on-an-existing-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a deck drainage system be installed on an existing deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, many deck drainage systems, particularly under-joist designs, can be successfully installed on existing decks. This type of system is specifically designed to fit between or below your current deck joists without requiring the removal of your deck boards. However, the condition of your existing deck structure, including joist spacing and any potential rot, will be assessed first. Any necessary repairs to the deck's framework should be completed before installing the drainage system to ensure its longevity and effectiveness.",
-        "description": "Yes, many under-joist deck drainage systems can be installed on existing decks without removing boards, but the deck's structure must be sound."
-      }
-    }
-  ],
+  "name": "Can a deck drainage system be installed on an existing deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a deck drainage system be installed on an existing deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, many deck drainage systems, particularly under-joist designs, can be successfully installed on existing decks. This type of system is specifically designed to fit between or below your current deck joists without requiring the removal of your deck boards. However, the condition of your existing deck structure, including joist spacing and any potential rot, will be assessed first. Any necessary repairs to the deck's framework should be completed before installing the drainage system to ensure its longevity and effectiveness.",
+        "@type": "Answer",
+        "description": "Yes, many under-joist deck drainage systems can be installed on existing decks without removing boards, but the deck's structure must be sound."
+      }
+    }
+  ],
+  "description": "Yes, many under-joist deck drainage systems can be installed on existing decks without removing boards, but the deck's structure must be sound."
 }

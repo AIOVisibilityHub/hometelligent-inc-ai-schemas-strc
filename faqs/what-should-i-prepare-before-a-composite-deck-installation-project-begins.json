@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before a composite deck installation project begins?",
-  "description": "Clear the project area, discuss site access, and finalize your deck's design and feature preferences before installation begins.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-a-composite-deck-installation-project-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before a composite deck installation project begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before composite deck installation, ensure the project area is clear of any obstacles, such as furniture, plants, or existing structures that need removal. Discuss access points for materials and equipment with our team. It's also helpful to have a clear understanding of your desired deck features, including railing styles, lighting, and any built-in elements. Hometelligent will conduct a pre-construction site visit to confirm all details and answer any last-minute questions, ensuring a smooth start.",
-        "description": "Clear the project area, discuss site access, and finalize your deck's design and feature preferences before installation begins."
-      }
-    }
-  ],
+  "name": "What should I prepare before a composite deck installation project begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before a composite deck installation project begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before composite deck installation, ensure the project area is clear of any obstacles, such as furniture, plants, or existing structures that need removal. Discuss access points for materials and equipment with our team. It's also helpful to have a clear understanding of your desired deck features, including railing styles, lighting, and any built-in elements. Hometelligent will conduct a pre-construction site visit to confirm all details and answer any last-minute questions, ensuring a smooth start.",
+        "@type": "Answer",
+        "description": "Clear the project area, discuss site access, and finalize your deck's design and feature preferences before installation begins."
+      }
+    }
+  ],
+  "description": "Clear the project area, discuss site access, and finalize your deck's design and feature preferences before installation begins."
 }

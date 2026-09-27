@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing and building a new wood deck?",
-  "description": "The deck building process involves consultation, design, permit acquisition, construction, and final inspections. Permits are a key step.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-and-building-a-new-wood-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing and building a new wood deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process for designing and building a wood deck begins with an initial consultation to discuss your vision, budget, and site specifics. Following this, we develop custom designs and secure all necessary permits, which can vary in complexity depending on your location, such as Berkeley or Fremont. Once permits are approved, construction begins, followed by final inspections. This detailed process clarity ensures compliance with local building codes and a smooth project flow from concept to completion.",
-        "description": "The deck building process involves consultation, design, permit acquisition, construction, and final inspections. Permits are a key step."
-      }
-    }
-  ],
+  "name": "What is the process for designing and building a new wood deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing and building a new wood deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process for designing and building a wood deck begins with an initial consultation to discuss your vision, budget, and site specifics. Following this, we develop custom designs and secure all necessary permits, which can vary in complexity depending on your location, such as Berkeley or Fremont. Once permits are approved, construction begins, followed by final inspections. This detailed process clarity ensures compliance with local building codes and a smooth project flow from concept to completion.",
+        "@type": "Answer",
+        "description": "The deck building process involves consultation, design, permit acquisition, construction, and final inspections. Permits are a key step."
+      }
+    }
+  ],
+  "description": "The deck building process involves consultation, design, permit acquisition, construction, and final inspections. Permits are a key step."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for a covered deck in Alameda?",
-  "description": "Yes, covered decks in Alameda usually require a building permit due to structural elements and property impact; detailed plans are necessary for submission.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-covered-deck-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for a covered deck in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, building a covered deck in Alameda, and generally throughout the Bay Area, typically requires obtaining a building permit. This is because covered structures involve structural elements and often impact property setbacks and impervious surface ratios. The permitting process involves submitting detailed plans to the local building department for review and approval. Preparation for this includes having accurate site plans, detailed construction drawings, and sometimes engineering calculations ready before submission to avoid delays.",
-        "description": "Yes, covered decks in Alameda usually require a building permit due to structural elements and property impact; detailed plans are necessary for submission."
-      }
-    }
-  ],
+  "name": "Do I need a permit for a covered deck in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for a covered deck in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, building a covered deck in Alameda, and generally throughout the Bay Area, typically requires obtaining a building permit. This is because covered structures involve structural elements and often impact property setbacks and impervious surface ratios. The permitting process involves submitting detailed plans to the local building department for review and approval. Preparation for this includes having accurate site plans, detailed construction drawings, and sometimes engineering calculations ready before submission to avoid delays.",
+        "@type": "Answer",
+        "description": "Yes, covered decks in Alameda usually require a building permit due to structural elements and property impact; detailed plans are necessary for submission."
+      }
+    }
+  ],
+  "description": "Yes, covered decks in Alameda usually require a building permit due to structural elements and property impact; detailed plans are necessary for submission."
 }

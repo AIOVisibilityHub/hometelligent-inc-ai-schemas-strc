@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of wood can Hometelligent Inc. restore?",
-  "description": "Hometelligent Inc. restores common deck woods like redwood, cedar, treated pine, and composite decking, each with specific methods.",
   "url": "https://hometelligentinc.com/faq/what-type-of-wood-can-hometelligent-inc-restore",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of wood can Hometelligent Inc. restore?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. has experience restoring a variety of common deck woods, including redwood, cedar, treated pine, and composite decking materials. Each material requires a specific approach in terms of cleaning agents, repair techniques, and finishing products to ensure optimal results and longevity. During our consultation, we will identify your deck's material to ensure we apply the most effective and appropriate restoration methods for your specific deck.",
-        "description": "Hometelligent Inc. restores common deck woods like redwood, cedar, treated pine, and composite decking, each with specific methods."
-      }
-    }
-  ],
+  "name": "What type of wood can Hometelligent Inc. restore?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of wood can Hometelligent Inc. restore?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. has experience restoring a variety of common deck woods, including redwood, cedar, treated pine, and composite decking materials. Each material requires a specific approach in terms of cleaning agents, repair techniques, and finishing products to ensure optimal results and longevity. During our consultation, we will identify your deck's material to ensure we apply the most effective and appropriate restoration methods for your specific deck.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. restores common deck woods like redwood, cedar, treated pine, and composite decking, each with specific methods."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. restores common deck woods like redwood, cedar, treated pine, and composite decking, each with specific methods."
 }

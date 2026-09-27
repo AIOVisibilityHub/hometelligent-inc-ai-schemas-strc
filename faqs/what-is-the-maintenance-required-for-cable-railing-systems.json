@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the maintenance required for cable railing systems?",
-  "description": "Cable railing requires minimal maintenance, mainly periodic cleaning with mild soap and water. More frequent cleaning is advised in coastal areas, and cable ten",
   "url": "https://hometelligentinc.com/faq/what-is-the-maintenance-required-for-cable-railing-systems",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the maintenance required for cable railing systems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cable railing systems require minimal maintenance, primarily involving periodic cleaning to retain their aesthetic appeal and functionality. Stainless steel cables and posts should be wiped down occasionally with a mild detergent and water to remove dirt, grime, and environmental buildup. For systems installed outdoors, especially in coastal areas like Emeryville or Alameda where salt air exposure is higher, more frequent cleaning may be beneficial to prevent surface corrosion. Regularly checking the tension of the cables is also recommended to ensure ongoing safety and structural integrity.",
-        "description": "Cable railing requires minimal maintenance, mainly periodic cleaning with mild soap and water. More frequent cleaning is advised in coastal areas, and cable tension should be checked regularly."
-      }
-    }
-  ],
+  "name": "What is the maintenance required for cable railing systems?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the maintenance required for cable railing systems?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Cable railing systems require minimal maintenance, primarily involving periodic cleaning to retain their aesthetic appeal and functionality. Stainless steel cables and posts should be wiped down occasionally with a mild detergent and water to remove dirt, grime, and environmental buildup. For systems installed outdoors, especially in coastal areas like Emeryville or Alameda where salt air exposure is higher, more frequent cleaning may be beneficial to prevent surface corrosion. Regularly checking the tension of the cables is also recommended to ensure ongoing safety and structural integrity.",
+        "@type": "Answer",
+        "description": "Cable railing requires minimal maintenance, mainly periodic cleaning with mild soap and water. More frequent cleaning is advised in coastal areas, and cable tension should be checked regularly."
+      }
+    }
+  ],
+  "description": "Cable railing requires minimal maintenance, mainly periodic cleaning with mild soap and water. More frequent cleaning is advised in coastal areas, and cable ten"
 }

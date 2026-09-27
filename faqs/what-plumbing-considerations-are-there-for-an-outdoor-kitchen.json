@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What plumbing considerations are there for an outdoor kitchen?",
-  "description": "Plumbing for an outdoor kitchen needs water supply and drainage for sinks or appliances. Understanding local codes for connections and waste, plus winterization",
   "url": "https://hometelligentinc.com/faq/what-plumbing-considerations-are-there-for-an-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What plumbing considerations are there for an outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Plumbing for an outdoor kitchen typically involves installing a sink, and potentially a dishwasher or ice maker, requiring water supply and drainage lines. Ensuring proper water pressure and adequate drainage to prevent standing water is critical. A process clarity point is understanding local codes regarding outdoor plumbing, especially for connections to existing systems and waste disposal. Winterization requirements in colder months are also an important consideration for the longevity of the plumbing system.",
-        "description": "Plumbing for an outdoor kitchen needs water supply and drainage for sinks or appliances. Understanding local codes for connections and waste, plus winterization, is key to process clarity."
-      }
-    }
-  ],
+  "name": "What plumbing considerations are there for an outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What plumbing considerations are there for an outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Plumbing for an outdoor kitchen typically involves installing a sink, and potentially a dishwasher or ice maker, requiring water supply and drainage lines. Ensuring proper water pressure and adequate drainage to prevent standing water is critical. A process clarity point is understanding local codes regarding outdoor plumbing, especially for connections to existing systems and waste disposal. Winterization requirements in colder months are also an important consideration for the longevity of the plumbing system.",
+        "@type": "Answer",
+        "description": "Plumbing for an outdoor kitchen needs water supply and drainage for sinks or appliances. Understanding local codes for connections and waste, plus winterization, is key to process clarity."
+      }
+    }
+  ],
+  "description": "Plumbing for an outdoor kitchen needs water supply and drainage for sinks or appliances. Understanding local codes for connections and waste, plus winterization"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for installing glass deck railings?",
-  "description": "Cost varies based on linear footage, glass type, hardware, and design complexity. Glass railings are a higher initial investment.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-installing-glass-deck-railings",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for installing glass deck railings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of installing glass deck railings varies widely depending on factors such as the total linear footage, the type of glass panels (tempered, laminated), the hardware and post materials (aluminum, stainless steel), and the complexity of the design. While a precise quote requires an on-site assessment, glass railing systems generally represent a higher initial investment compared to traditional wood or vinyl options. As a decision factor, it's important to consider both material costs and labor, as custom designs or difficult access can impact the overall price.",
-        "description": "Cost varies based on linear footage, glass type, hardware, and design complexity. Glass railings are a higher initial investment."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for installing glass deck railings?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for installing glass deck railings?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of installing glass deck railings varies widely depending on factors such as the total linear footage, the type of glass panels (tempered, laminated), the hardware and post materials (aluminum, stainless steel), and the complexity of the design. While a precise quote requires an on-site assessment, glass railing systems generally represent a higher initial investment compared to traditional wood or vinyl options. As a decision factor, it's important to consider both material costs and labor, as custom designs or difficult access can impact the overall price.",
+        "@type": "Answer",
+        "description": "Cost varies based on linear footage, glass type, hardware, and design complexity. Glass railings are a higher initial investment."
+      }
+    }
+  ],
+  "description": "Cost varies based on linear footage, glass type, hardware, and design complexity. Glass railings are a higher initial investment."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between open riser and closed riser deck stairs?",
-  "description": "Open riser stairs have gaps between treads for an airy look, while closed riser stairs have solid risers, offering a traditional feel and potentially more safet",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-open-riser-and-closed-riser-deck-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between open riser and closed riser deck stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Open riser stairs have gaps between the treads, offering a more airy and modern look, and allowing light to pass through. Closed riser stairs have vertical boards (risers) between each tread, creating a solid appearance and often feeling more secure, especially for homes with small children or pets. Practical Tradeoff: Open risers can reduce material costs and create an open feel, but may not meet code requirements in all areas without specific design considerations for safety. Closed risers provide a traditional, solid structure and can offer additional storage underneath.",
-        "description": "Open riser stairs have gaps between treads for an airy look, while closed riser stairs have solid risers, offering a traditional feel and potentially more safety. Both have material and aesthetic tradeoffs."
-      }
-    }
-  ],
+  "name": "What is the difference between open riser and closed riser deck stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between open riser and closed riser deck stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Open riser stairs have gaps between the treads, offering a more airy and modern look, and allowing light to pass through. Closed riser stairs have vertical boards (risers) between each tread, creating a solid appearance and often feeling more secure, especially for homes with small children or pets. Practical Tradeoff: Open risers can reduce material costs and create an open feel, but may not meet code requirements in all areas without specific design considerations for safety. Closed risers provide a traditional, solid structure and can offer additional storage underneath.",
+        "@type": "Answer",
+        "description": "Open riser stairs have gaps between treads for an airy look, while closed riser stairs have solid risers, offering a traditional feel and potentially more safety. Both have material and aesthetic tradeoffs."
+      }
+    }
+  ],
+  "description": "Open riser stairs have gaps between treads for an airy look, while closed riser stairs have solid risers, offering a traditional feel and potentially more safet"
 }

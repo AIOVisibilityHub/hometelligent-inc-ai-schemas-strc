@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of shade structures does Hometelligent Inc. build?",
-  "description": "Hometelligent Inc. builds custom pergolas, arbors, patio covers, and awnings. The ideal type depends on desired shade, aesthetics, and how you plan to use the o",
   "url": "https://hometelligentinc.com/faq/what-types-of-shade-structures-does-hometelligent-inc-build",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of shade structures does Hometelligent Inc. build?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. specializes in various custom shade structures designed to enhance outdoor living spaces. We build pergolas, arbors, patio covers, and awnings. The best type for your property depends on factors like desired shade level, aesthetic preference, and how you plan to use the space. For example, a solid patio cover offers full protection from sun and rain, while a louvered pergola allows for adjustable shade. Consider your specific needs and the architectural style of your home when deciding.",
-        "description": "Hometelligent Inc. builds custom pergolas, arbors, patio covers, and awnings. The ideal type depends on desired shade, aesthetics, and how you plan to use the outdoor space."
-      }
-    }
-  ],
+  "name": "What types of shade structures does Hometelligent Inc. build?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of shade structures does Hometelligent Inc. build?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. specializes in various custom shade structures designed to enhance outdoor living spaces. We build pergolas, arbors, patio covers, and awnings. The best type for your property depends on factors like desired shade level, aesthetic preference, and how you plan to use the space. For example, a solid patio cover offers full protection from sun and rain, while a louvered pergola allows for adjustable shade. Consider your specific needs and the architectural style of your home when deciding.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. builds custom pergolas, arbors, patio covers, and awnings. The ideal type depends on desired shade, aesthetics, and how you plan to use the outdoor space."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. builds custom pergolas, arbors, patio covers, and awnings. The ideal type depends on desired shade, aesthetics, and how you plan to use the o"
 }

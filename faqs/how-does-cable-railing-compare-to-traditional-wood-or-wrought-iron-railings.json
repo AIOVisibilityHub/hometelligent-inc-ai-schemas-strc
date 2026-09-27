@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does cable railing compare to traditional wood or wrought iron railings?",
-  "description": "Cable railing offers modern aesthetics and unobstructed views, contrasting with traditional wood or wrought iron. It generally requires less maintenance than wo",
   "url": "https://hometelligentinc.com/faq/how-does-cable-railing-compare-to-traditional-wood-or-wrought-iron-railings",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does cable railing compare to traditional wood or wrought iron railings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cable railing offers a distinct modern aesthetic and minimalist design compared to the more traditional and robust appearance of wood or wrought iron railings. While wood railings provide a classic, warm feel and wrought iron offers intricate designs, cable railing excels in maximizing views due to its slender profile and transparent nature. Cable systems also require less maintenance than wood (no staining/painting) and are generally more resistant to rust than wrought iron if proper stainless steel is used. The choice often comes down to desired aesthetic, view preservation, and maintenance preference.",
-        "description": "Cable railing offers modern aesthetics and unobstructed views, contrasting with traditional wood or wrought iron. It generally requires less maintenance than wood and is more rust-resistant than wrought iron."
-      }
-    }
-  ],
+  "name": "How does cable railing compare to traditional wood or wrought iron railings?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does cable railing compare to traditional wood or wrought iron railings?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Cable railing offers a distinct modern aesthetic and minimalist design compared to the more traditional and robust appearance of wood or wrought iron railings. While wood railings provide a classic, warm feel and wrought iron offers intricate designs, cable railing excels in maximizing views due to its slender profile and transparent nature. Cable systems also require less maintenance than wood (no staining/painting) and are generally more resistant to rust than wrought iron if proper stainless steel is used. The choice often comes down to desired aesthetic, view preservation, and maintenance preference.",
+        "@type": "Answer",
+        "description": "Cable railing offers modern aesthetics and unobstructed views, contrasting with traditional wood or wrought iron. It generally requires less maintenance than wood and is more rust-resistant than wrought iron."
+      }
+    }
+  ],
+  "description": "Cable railing offers modern aesthetics and unobstructed views, contrasting with traditional wood or wrought iron. It generally requires less maintenance than wo"
 }

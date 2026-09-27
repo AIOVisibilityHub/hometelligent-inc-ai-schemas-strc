@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for composite deck installation in Alameda County?",
-  "description": "Building permits are usually required for deck installations in Alameda County, varying by city and deck specifications.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-composite-deck-installation-in-alameda-county",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for composite deck installation in Alameda County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In Alameda County, deck installations typically require a building permit, especially if the deck is attached to the house, over a certain height (e.g., 30 inches above grade), or exceeds a specified square footage. The specific requirements can vary slightly by city within the county, such as in Hayward or Union City. This permit process ensures the deck design and construction comply with local safety and structural codes. Hometelligent assists clients with navigating the permitting process, including preparing necessary plans and submitting applications.",
-        "description": "Building permits are usually required for deck installations in Alameda County, varying by city and deck specifications."
-      }
-    }
-  ],
+  "name": "What permits are needed for composite deck installation in Alameda County?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for composite deck installation in Alameda County?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "In Alameda County, deck installations typically require a building permit, especially if the deck is attached to the house, over a certain height (e.g., 30 inches above grade), or exceeds a specified square footage. The specific requirements can vary slightly by city within the county, such as in Hayward or Union City. This permit process ensures the deck design and construction comply with local safety and structural codes. Hometelligent assists clients with navigating the permitting process, including preparing necessary plans and submitting applications.",
+        "@type": "Answer",
+        "description": "Building permits are usually required for deck installations in Alameda County, varying by city and deck specifications."
+      }
+    }
+  ],
+  "description": "Building permits are usually required for deck installations in Alameda County, varying by city and deck specifications."
 }

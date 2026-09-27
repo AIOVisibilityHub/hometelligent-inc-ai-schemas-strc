@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for custom patio construction in the Bay Area?",
-  "description": "Permit needs for custom patios vary by city (e.g., Berkeley vs. Pleasanton) and project scope, often required for significant grading or structures. Check with",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-custom-patio-construction-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for custom patio construction in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for custom patio construction vary by city and the scope of the project. Typically, permits are needed for patios that involve significant grading, new impervious surfaces exceeding a certain size, or structures like pergolas or covers. For example, local regulations in Berkeley might differ from those in Pleasanton regarding drainage or setback requirements. It is essential to check with your local planning department in areas like Emeryville or Fremont early in the process to understand specific permit needs and avoid delays.",
-        "description": "Permit needs for custom patios vary by city (e.g., Berkeley vs. Pleasanton) and project scope, often required for significant grading or structures. Check with your local planning department."
-      }
-    }
-  ],
+  "name": "What permits are needed for custom patio construction in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for custom patio construction in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for custom patio construction vary by city and the scope of the project. Typically, permits are needed for patios that involve significant grading, new impervious surfaces exceeding a certain size, or structures like pergolas or covers. For example, local regulations in Berkeley might differ from those in Pleasanton regarding drainage or setback requirements. It is essential to check with your local planning department in areas like Emeryville or Fremont early in the process to understand specific permit needs and avoid delays.",
+        "@type": "Answer",
+        "description": "Permit needs for custom patios vary by city (e.g., Berkeley vs. Pleasanton) and project scope, often required for significant grading or structures. Check with your local planning department."
+      }
+    }
+  ],
+  "description": "Permit needs for custom patios vary by city (e.g., Berkeley vs. Pleasanton) and project scope, often required for significant grading or structures. Check with"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the recommended width for deck stairs?",
-  "description": "A minimum width of 36 inches is generally recommended for deck stairs, though 48 inches or wider is better for high-traffic areas. Consider anticipated traffic",
   "url": "https://hometelligentinc.com/faq/what-is-the-recommended-width-for-deck-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the recommended width for deck stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The recommended width for deck stairs is generally 36 inches minimum for comfortable passage and to meet most building codes. Wider stairs, such as 48 inches or more, are often preferred for higher traffic areas or if the deck is a primary outdoor living space, allowing two people to pass comfortably. Decision Factor: The ideal width should consider the anticipated traffic, the overall scale of your deck, and whether you need to move furniture or other large items up and down the stairs. A wider staircase can enhance the grandeur and functionality of your outdoor space.",
-        "description": "A minimum width of 36 inches is generally recommended for deck stairs, though 48 inches or wider is better for high-traffic areas. Consider anticipated traffic and deck scale."
-      }
-    }
-  ],
+  "name": "What is the recommended width for deck stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the recommended width for deck stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The recommended width for deck stairs is generally 36 inches minimum for comfortable passage and to meet most building codes. Wider stairs, such as 48 inches or more, are often preferred for higher traffic areas or if the deck is a primary outdoor living space, allowing two people to pass comfortably. Decision Factor: The ideal width should consider the anticipated traffic, the overall scale of your deck, and whether you need to move furniture or other large items up and down the stairs. A wider staircase can enhance the grandeur and functionality of your outdoor space.",
+        "@type": "Answer",
+        "description": "A minimum width of 36 inches is generally recommended for deck stairs, though 48 inches or wider is better for high-traffic areas. Consider anticipated traffic and deck scale."
+      }
+    }
+  ],
+  "description": "A minimum width of 36 inches is generally recommended for deck stairs, though 48 inches or wider is better for high-traffic areas. Consider anticipated traffic"
 }

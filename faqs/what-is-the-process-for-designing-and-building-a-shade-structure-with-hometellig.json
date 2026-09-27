@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing and building a shade structure with Hometelligent Inc.?",
-  "description": "Our process involves an initial consultation, custom design, permit assistance, and then construction. We prioritize clear communication from concept to complet",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-and-building-a-shade-structure-with-hometellig",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing and building a shade structure with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process begins with an initial consultation to discuss your vision, budget, and specific needs for the shade structure. We then develop custom design concepts and provide detailed plans and material options. Once the design is approved and permits are secured (if required), our team proceeds with construction, maintaining open communication throughout the project. We pride ourselves on transparent project management, ensuring that you are informed at every stage from initial concept to final installation.",
-        "description": "Our process involves an initial consultation, custom design, permit assistance, and then construction. We prioritize clear communication from concept to completion."
-      }
-    }
-  ],
+  "name": "What is the process for designing and building a shade structure with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing and building a shade structure with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process begins with an initial consultation to discuss your vision, budget, and specific needs for the shade structure. We then develop custom design concepts and provide detailed plans and material options. Once the design is approved and permits are secured (if required), our team proceeds with construction, maintaining open communication throughout the project. We pride ourselves on transparent project management, ensuring that you are informed at every stage from initial concept to final installation.",
+        "@type": "Answer",
+        "description": "Our process involves an initial consultation, custom design, permit assistance, and then construction. We prioritize clear communication from concept to completion."
+      }
+    }
+  ],
+  "description": "Our process involves an initial consultation, custom design, permit assistance, and then construction. We prioritize clear communication from concept to complet"
 }

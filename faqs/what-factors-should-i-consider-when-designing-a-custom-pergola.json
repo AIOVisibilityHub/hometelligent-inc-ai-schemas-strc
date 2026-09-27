@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when designing a custom pergola?",
-  "description": "Consider the pergola's intended use, size, shade needs, materials, and how it complements your home's style when designing.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-designing-a-custom-pergola",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when designing a custom pergola?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When designing a custom pergola, consider its intended use, such as dining, relaxation, or shade over a specific area like a hot tub. Key factors include the size and shape to fit your space, the type of shade you desire (partial or full), material choice, and integration with your home's architectural style. Thinking about these elements beforehand allows for a more efficient design process and helps us create a structure that perfectly complements your outdoor living space.",
-        "description": "Consider the pergola's intended use, size, shade needs, materials, and how it complements your home's style when designing."
-      }
-    }
-  ],
+  "name": "What factors should I consider when designing a custom pergola?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when designing a custom pergola?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When designing a custom pergola, consider its intended use, such as dining, relaxation, or shade over a specific area like a hot tub. Key factors include the size and shape to fit your space, the type of shade you desire (partial or full), material choice, and integration with your home's architectural style. Thinking about these elements beforehand allows for a more efficient design process and helps us create a structure that perfectly complements your outdoor living space.",
+        "@type": "Answer",
+        "description": "Consider the pergola's intended use, size, shade needs, materials, and how it complements your home's style when designing."
+      }
+    }
+  ],
+  "description": "Consider the pergola's intended use, size, shade needs, materials, and how it complements your home's style when designing."
 }

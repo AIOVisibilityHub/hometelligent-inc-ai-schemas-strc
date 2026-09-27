@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing a shade structure design?",
-  "description": "Consider the structure's function, your home's architectural style, space size, local climate, and budget. Ensure it complements your landscaping and furniture.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-a-shade-structure-design",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing a shade structure design?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a shade structure design, consider its primary function – do you need full sun protection, partial shade, or a decorative element? Also, evaluate the architectural style of your home to ensure the structure complements it. Other factors include the size of your outdoor space, local climate conditions in areas like Oakland or Berkeley, and your budget. Thinking about how the structure will integrate with existing landscaping and outdoor furniture is also key to a cohesive design.",
-        "description": "Consider the structure's function, your home's architectural style, space size, local climate, and budget. Ensure it complements your landscaping and furniture."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing a shade structure design?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing a shade structure design?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a shade structure design, consider its primary function – do you need full sun protection, partial shade, or a decorative element? Also, evaluate the architectural style of your home to ensure the structure complements it. Other factors include the size of your outdoor space, local climate conditions in areas like Oakland or Berkeley, and your budget. Thinking about how the structure will integrate with existing landscaping and outdoor furniture is also key to a cohesive design.",
+        "@type": "Answer",
+        "description": "Consider the structure's function, your home's architectural style, space size, local climate, and budget. Ensure it complements your landscaping and furniture."
+      }
+    }
+  ],
+  "description": "Consider the structure's function, your home's architectural style, space size, local climate, and budget. Ensure it complements your landscaping and furniture."
 }

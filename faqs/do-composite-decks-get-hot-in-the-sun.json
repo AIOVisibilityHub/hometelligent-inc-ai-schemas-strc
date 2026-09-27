@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do composite decks get hot in the sun?",
-  "description": "Darker composite decks can get hot in direct sun; lighter colors or shaded designs help manage surface temperature.",
   "url": "https://hometelligentinc.com/faq/do-composite-decks-get-hot-in-the-sun",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do composite decks get hot in the sun?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, composite decks can get warmer than natural wood decks when exposed to direct sunlight, especially darker colors. This is due to the materials used in their composition, which absorb and retain heat. Lighter-colored composite boards tend to be cooler than darker ones. If you anticipate high sun exposure and plan to walk barefoot, selecting a lighter shade or considering areas of shade in your design can help manage surface temperature. Many brands also offer specialized cooling technologies.",
-        "description": "Darker composite decks can get hot in direct sun; lighter colors or shaded designs help manage surface temperature."
-      }
-    }
-  ],
+  "name": "Do composite decks get hot in the sun?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do composite decks get hot in the sun?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, composite decks can get warmer than natural wood decks when exposed to direct sunlight, especially darker colors. This is due to the materials used in their composition, which absorb and retain heat. Lighter-colored composite boards tend to be cooler than darker ones. If you anticipate high sun exposure and plan to walk barefoot, selecting a lighter shade or considering areas of shade in your design can help manage surface temperature. Many brands also offer specialized cooling technologies.",
+        "@type": "Answer",
+        "description": "Darker composite decks can get hot in direct sun; lighter colors or shaded designs help manage surface temperature."
+      }
+    }
+  ],
+  "description": "Darker composite decks can get hot in direct sun; lighter colors or shaded designs help manage surface temperature."
 }

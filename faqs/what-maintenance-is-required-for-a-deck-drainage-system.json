@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for a deck drainage system?",
-  "description": "Maintenance is minimal, mainly involving regular inspection and clearing of gutters and downspouts to prevent blockages and ensure proper water flow.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-deck-drainage-system",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for a deck drainage system?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance for most deck drainage systems is minimal but essential for long-term performance. Regularly inspecting and clearing gutters and downspouts of leaves, debris, or sediment is crucial to prevent blockages and ensure proper water flow. Depending on the system, occasional rinsing may also be recommended to remove dirt build-up. Neglecting routine cleaning can lead to water pooling, which can overwhelm the system and potentially cause water to back up into the deck's substructure, defeating its purpose.",
-        "description": "Maintenance is minimal, mainly involving regular inspection and clearing of gutters and downspouts to prevent blockages and ensure proper water flow."
-      }
-    }
-  ],
+  "name": "What maintenance is required for a deck drainage system?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for a deck drainage system?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance for most deck drainage systems is minimal but essential for long-term performance. Regularly inspecting and clearing gutters and downspouts of leaves, debris, or sediment is crucial to prevent blockages and ensure proper water flow. Depending on the system, occasional rinsing may also be recommended to remove dirt build-up. Neglecting routine cleaning can lead to water pooling, which can overwhelm the system and potentially cause water to back up into the deck's substructure, defeating its purpose.",
+        "@type": "Answer",
+        "description": "Maintenance is minimal, mainly involving regular inspection and clearing of gutters and downspouts to prevent blockages and ensure proper water flow."
+      }
+    }
+  ],
+  "description": "Maintenance is minimal, mainly involving regular inspection and clearing of gutters and downspouts to prevent blockages and ensure proper water flow."
 }

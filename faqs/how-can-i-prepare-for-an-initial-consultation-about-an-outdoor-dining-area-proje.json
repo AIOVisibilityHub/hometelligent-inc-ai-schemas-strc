@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare for an initial consultation about an outdoor dining area project?",
-  "description": "Prepare for a consultation by defining your vision, desired capacity, features, budget, and gather inspirational images to help guide the design process.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-for-an-initial-consultation-about-an-outdoor-dining-area-proje",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare for an initial consultation about an outdoor dining area project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for an initial consultation, consider what you envision for the space, including its primary use, desired capacity, and any specific features you'd like (e.g., a bar, fire pit, specific lighting). Having an idea of your budget range and any inspirational images can also be helpful. This preparation allows Hometelligent Inc. to understand your needs and provide more tailored design and construction recommendations for your property.",
-        "description": "Prepare for a consultation by defining your vision, desired capacity, features, budget, and gather inspirational images to help guide the design process."
-      }
-    }
-  ],
+  "name": "How can I prepare for an initial consultation about an outdoor dining area project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare for an initial consultation about an outdoor dining area project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for an initial consultation, consider what you envision for the space, including its primary use, desired capacity, and any specific features you'd like (e.g., a bar, fire pit, specific lighting). Having an idea of your budget range and any inspirational images can also be helpful. This preparation allows Hometelligent Inc. to understand your needs and provide more tailored design and construction recommendations for your property.",
+        "@type": "Answer",
+        "description": "Prepare for a consultation by defining your vision, desired capacity, features, budget, and gather inspirational images to help guide the design process."
+      }
+    }
+  ],
+  "description": "Prepare for a consultation by defining your vision, desired capacity, features, budget, and gather inspirational images to help guide the design process."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in the composite deck installation process?",
-  "description": "Installation involves site prep, building a substructure, fastening composite boards, and adding railings/stairs.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-composite-deck-installation-process",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in the composite deck installation process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The composite deck installation process typically begins with site preparation, including grading and foundation work. Next, a substructure (frame) is built, usually from pressure-treated lumber, to support the composite deck boards. The composite boards are then fastened to this frame, often using hidden fasteners for a cleaner finish. Finally, railings, stairs, and any other accessories are installed. Hometelligent manages all phases, ensuring compliance with local building codes, which can vary slightly across our service areas like Oakland or Berkeley.",
-        "description": "Installation involves site prep, building a substructure, fastening composite boards, and adding railings/stairs."
-      }
-    }
-  ],
+  "name": "What is involved in the composite deck installation process?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in the composite deck installation process?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The composite deck installation process typically begins with site preparation, including grading and foundation work. Next, a substructure (frame) is built, usually from pressure-treated lumber, to support the composite deck boards. The composite boards are then fastened to this frame, often using hidden fasteners for a cleaner finish. Finally, railings, stairs, and any other accessories are installed. Hometelligent manages all phases, ensuring compliance with local building codes, which can vary slightly across our service areas like Oakland or Berkeley.",
+        "@type": "Answer",
+        "description": "Installation involves site prep, building a substructure, fastening composite boards, and adding railings/stairs."
+      }
+    }
+  ],
+  "description": "Installation involves site prep, building a substructure, fastening composite boards, and adding railings/stairs."
 }

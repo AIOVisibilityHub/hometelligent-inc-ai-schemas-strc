@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I integrate a custom patio with my existing landscaping?",
-  "description": "Yes, integrating a custom patio with existing landscaping is common. Design assessment considers current elements like trees and gardens to ensure a cohesive ou",
   "url": "https://hometelligentinc.com/faq/can-i-integrate-a-custom-patio-with-my-existing-landscaping",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I integrate a custom patio with my existing landscaping?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, integrating a custom patio with existing landscaping is a common and recommended approach to create a cohesive outdoor space. During the design phase, we assess your current landscape elements, such as mature trees, garden beds, and irrigation systems, to ensure the patio design complements them. This planning helps us avoid disrupting beneficial features and can inform the patio's shape, elevation, and material choices, creating a harmonious flow between your patio and garden.",
-        "description": "Yes, integrating a custom patio with existing landscaping is common. Design assessment considers current elements like trees and gardens to ensure a cohesive outdoor flow."
-      }
-    }
-  ],
+  "name": "Can I integrate a custom patio with my existing landscaping?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I integrate a custom patio with my existing landscaping?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, integrating a custom patio with existing landscaping is a common and recommended approach to create a cohesive outdoor space. During the design phase, we assess your current landscape elements, such as mature trees, garden beds, and irrigation systems, to ensure the patio design complements them. This planning helps us avoid disrupting beneficial features and can inform the patio's shape, elevation, and material choices, creating a harmonious flow between your patio and garden.",
+        "@type": "Answer",
+        "description": "Yes, integrating a custom patio with existing landscaping is common. Design assessment considers current elements like trees and gardens to ensure a cohesive outdoor flow."
+      }
+    }
+  ],
+  "description": "Yes, integrating a custom patio with existing landscaping is common. Design assessment considers current elements like trees and gardens to ensure a cohesive ou"
 }

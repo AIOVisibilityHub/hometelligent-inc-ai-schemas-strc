@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is deck restoration and when is it needed?",
-  "description": "Deck restoration repairs, cleans, and refinishes a deck to extend its life, needed when signs of wear like fading or splintering appear.",
   "url": "https://hometelligentinc.com/faq/what-is-deck-restoration-and-when-is-it-needed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is deck restoration and when is it needed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deck restoration is the process of repairing, cleaning, and refinishing a deck to improve its appearance and extend its lifespan. It is typically needed when a deck shows signs of wear such as fading, splintering, mildew growth, or loose boards. Regularly inspecting your deck for these issues can help you determine the optimal time for restoration, often before more extensive repairs are required. For homeowners in the Alameda and Albany areas, addressing these issues proactively is crucial due to varying weather conditions.",
-        "description": "Deck restoration repairs, cleans, and refinishes a deck to extend its life, needed when signs of wear like fading or splintering appear."
-      }
-    }
-  ],
+  "name": "What is deck restoration and when is it needed?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is deck restoration and when is it needed?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deck restoration is the process of repairing, cleaning, and refinishing a deck to improve its appearance and extend its lifespan. It is typically needed when a deck shows signs of wear such as fading, splintering, mildew growth, or loose boards. Regularly inspecting your deck for these issues can help you determine the optimal time for restoration, often before more extensive repairs are required. For homeowners in the Alameda and Albany areas, addressing these issues proactively is crucial due to varying weather conditions.",
+        "@type": "Answer",
+        "description": "Deck restoration repairs, cleans, and refinishes a deck to extend its life, needed when signs of wear like fading or splintering appear."
+      }
+    }
+  ],
+  "description": "Deck restoration repairs, cleans, and refinishes a deck to extend its life, needed when signs of wear like fading or splintering appear."
 }

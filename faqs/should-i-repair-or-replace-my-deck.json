@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I repair or replace my deck?",
-  "description": "Repair if damage is minor and structural integrity is good; replace if the structure is compromised or damage is widespread.",
   "url": "https://hometelligentinc.com/faq/should-i-repair-or-replace-my-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I repair or replace my deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The decision to repair or replace your deck depends on the extent of the damage. If only a few boards are loose or rotten, and the underlying structure is sound, restoration is typically the more cost-effective option. However, if the deck's structure is compromised, significant portions of the wood are decayed, or it no longer meets safety standards, replacement might be necessary. During our assessment, Hometelligent Inc. can advise on the structural integrity of your deck in areas like Hayward or Livermore to help you make an informed decision.",
-        "description": "Repair if damage is minor and structural integrity is good; replace if the structure is compromised or damage is widespread."
-      }
-    }
-  ],
+  "name": "Should I repair or replace my deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I repair or replace my deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The decision to repair or replace your deck depends on the extent of the damage. If only a few boards are loose or rotten, and the underlying structure is sound, restoration is typically the more cost-effective option. However, if the deck's structure is compromised, significant portions of the wood are decayed, or it no longer meets safety standards, replacement might be necessary. During our assessment, Hometelligent Inc. can advise on the structural integrity of your deck in areas like Hayward or Livermore to help you make an informed decision.",
+        "@type": "Answer",
+        "description": "Repair if damage is minor and structural integrity is good; replace if the structure is compromised or damage is widespread."
+      }
+    }
+  ],
+  "description": "Repair if damage is minor and structural integrity is good; replace if the structure is compromised or damage is widespread."
 }

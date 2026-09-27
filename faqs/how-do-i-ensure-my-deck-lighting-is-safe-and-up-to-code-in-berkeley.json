@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure my deck lighting is safe and up to code in Berkeley?",
-  "description": "In Berkeley, ensure deck lighting safety by using outdoor-rated fixtures, proper waterproofing, and adherence to local electrical codes. We ensure all installat",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-my-deck-lighting-is-safe-and-up-to-code-in-berkeley",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure my deck lighting is safe and up to code in Berkeley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ensuring deck lighting safety and code compliance in areas like Berkeley involves using outdoor-rated fixtures, proper waterproofing for electrical connections, and adherence to local electrical codes. All wiring should be installed correctly to prevent hazards. We ensure that all installations meet relevant safety standards and local building codes, providing peace of mind that your new lighting system is both beautiful and secure.",
-        "description": "In Berkeley, ensure deck lighting safety by using outdoor-rated fixtures, proper waterproofing, and adherence to local electrical codes. We ensure all installations meet these standards."
-      }
-    }
-  ],
+  "name": "How do I ensure my deck lighting is safe and up to code in Berkeley?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure my deck lighting is safe and up to code in Berkeley?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Ensuring deck lighting safety and code compliance in areas like Berkeley involves using outdoor-rated fixtures, proper waterproofing for electrical connections, and adherence to local electrical codes. All wiring should be installed correctly to prevent hazards. We ensure that all installations meet relevant safety standards and local building codes, providing peace of mind that your new lighting system is both beautiful and secure.",
+        "@type": "Answer",
+        "description": "In Berkeley, ensure deck lighting safety by using outdoor-rated fixtures, proper waterproofing, and adherence to local electrical codes. We ensure all installations meet these standards."
+      }
+    }
+  ],
+  "description": "In Berkeley, ensure deck lighting safety by using outdoor-rated fixtures, proper waterproofing, and adherence to local electrical codes. We ensure all installat"
 }

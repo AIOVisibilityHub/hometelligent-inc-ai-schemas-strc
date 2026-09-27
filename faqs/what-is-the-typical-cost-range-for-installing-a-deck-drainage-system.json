@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for installing a deck drainage system?",
-  "description": "Cost varies by system type, deck size, complexity, and finishes. Finished ceiling options will increase the overall project cost.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-installing-a-deck-drainage-system",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for installing a deck drainage system?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost for installing a deck drainage system varies widely based on the system type, deck size, complexity of the installation, and desired finishes. Under-joist systems can sometimes be less expensive for retrofits due to simpler installation without removing existing deck boards. However, if you opt for a system that includes a finished ceiling and lighting for the under-deck area, the overall project cost will increase. We provide detailed estimates after assessing your deck and discussing your specific needs and material preferences, as these factors significantly influence the final price.",
-        "description": "Cost varies by system type, deck size, complexity, and finishes. Finished ceiling options will increase the overall project cost."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for installing a deck drainage system?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for installing a deck drainage system?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost for installing a deck drainage system varies widely based on the system type, deck size, complexity of the installation, and desired finishes. Under-joist systems can sometimes be less expensive for retrofits due to simpler installation without removing existing deck boards. However, if you opt for a system that includes a finished ceiling and lighting for the under-deck area, the overall project cost will increase. We provide detailed estimates after assessing your deck and discussing your specific needs and material preferences, as these factors significantly influence the final price.",
+        "@type": "Answer",
+        "description": "Cost varies by system type, deck size, complexity, and finishes. Finished ceiling options will increase the overall project cost."
+      }
+    }
+  ],
+  "description": "Cost varies by system type, deck size, complexity, and finishes. Finished ceiling options will increase the overall project cost."
 }

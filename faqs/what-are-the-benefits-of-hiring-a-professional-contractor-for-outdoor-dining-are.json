@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of hiring a professional contractor for outdoor dining area construction?",
-  "description": "Professionals ensure safe, efficient, code-compliant construction with expert design, material selection, and project management for a high-quality result.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-hiring-a-professional-contractor-for-outdoor-dining-are",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of hiring a professional contractor for outdoor dining area construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hiring a professional contractor ensures that your outdoor dining area is constructed safely, efficiently, and in compliance with local building codes. Professionals bring expertise in design, material selection, and project management, which helps avoid costly errors and ensures a high-quality finish. Hometelligent Inc. manages the entire process from design to completion, offering peace of mind and a streamlined construction experience for clients.",
-        "description": "Professionals ensure safe, efficient, code-compliant construction with expert design, material selection, and project management for a high-quality result."
-      }
-    }
-  ],
+  "name": "What are the benefits of hiring a professional contractor for outdoor dining area construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of hiring a professional contractor for outdoor dining area construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hiring a professional contractor ensures that your outdoor dining area is constructed safely, efficiently, and in compliance with local building codes. Professionals bring expertise in design, material selection, and project management, which helps avoid costly errors and ensures a high-quality finish. Hometelligent Inc. manages the entire process from design to completion, offering peace of mind and a streamlined construction experience for clients.",
+        "@type": "Answer",
+        "description": "Professionals ensure safe, efficient, code-compliant construction with expert design, material selection, and project management for a high-quality result."
+      }
+    }
+  ],
+  "description": "Professionals ensure safe, efficient, code-compliant construction with expert design, material selection, and project management for a high-quality result."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does outdoor kitchen construction usually take?",
-  "description": "Construction time varies with design complexity, from a few weeks for simple setups to several months for custom builds. Detailed scheduling provides clarity on",
   "url": "https://hometelligentinc.com/faq/how-long-does-outdoor-kitchen-construction-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does outdoor kitchen construction usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Outdoor kitchen construction timelines depend on the complexity of the design and scope of work, including site preparation and utility installations. A simpler project might take a few weeks, while a more intricate custom build can extend to several months. Process clarity is achieved through detailed scheduling, where phases like foundation work, utility rough-ins, cabinetry installation, and finishing touches are outlined. Weather conditions can also be a factor that influences the overall project timeline.",
-        "description": "Construction time varies with design complexity, from a few weeks for simple setups to several months for custom builds. Detailed scheduling provides clarity on project phases and potential weather impacts."
-      }
-    }
-  ],
+  "name": "How long does outdoor kitchen construction usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does outdoor kitchen construction usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Outdoor kitchen construction timelines depend on the complexity of the design and scope of work, including site preparation and utility installations. A simpler project might take a few weeks, while a more intricate custom build can extend to several months. Process clarity is achieved through detailed scheduling, where phases like foundation work, utility rough-ins, cabinetry installation, and finishing touches are outlined. Weather conditions can also be a factor that influences the overall project timeline.",
+        "@type": "Answer",
+        "description": "Construction time varies with design complexity, from a few weeks for simple setups to several months for custom builds. Detailed scheduling provides clarity on project phases and potential weather impacts."
+      }
+    }
+  ],
+  "description": "Construction time varies with design complexity, from a few weeks for simple setups to several months for custom builds. Detailed scheduling provides clarity on"
 }

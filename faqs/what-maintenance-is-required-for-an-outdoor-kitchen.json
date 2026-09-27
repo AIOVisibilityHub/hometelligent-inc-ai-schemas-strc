@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for an outdoor kitchen?",
-  "description": "Maintenance includes regular cleaning of surfaces and appliances, plus seasonal checks. Protecting your outdoor kitchen with covers is important, especially in",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-an-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for an outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintaining an outdoor kitchen involves regular cleaning of surfaces and appliances, along with seasonal checks for wear and tear. Countertops and grills should be cleaned after each use to prevent buildup, and stainless steel components may require specific cleaners to prevent rust. In the Bay Area, protecting your outdoor kitchen from coastal moisture and occasional strong winds with covers is a smart preparation step, extending its lifespan and preserving its appearance.",
-        "description": "Maintenance includes regular cleaning of surfaces and appliances, plus seasonal checks. Protecting your outdoor kitchen with covers is important, especially in the Bay Area, to extend its lifespan."
-      }
-    }
-  ],
+  "name": "What maintenance is required for an outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for an outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintaining an outdoor kitchen involves regular cleaning of surfaces and appliances, along with seasonal checks for wear and tear. Countertops and grills should be cleaned after each use to prevent buildup, and stainless steel components may require specific cleaners to prevent rust. In the Bay Area, protecting your outdoor kitchen from coastal moisture and occasional strong winds with covers is a smart preparation step, extending its lifespan and preserving its appearance.",
+        "@type": "Answer",
+        "description": "Maintenance includes regular cleaning of surfaces and appliances, plus seasonal checks. Protecting your outdoor kitchen with covers is important, especially in the Bay Area, to extend its lifespan."
+      }
+    }
+  ],
+  "description": "Maintenance includes regular cleaning of surfaces and appliances, plus seasonal checks. Protecting your outdoor kitchen with covers is important, especially in"
 }

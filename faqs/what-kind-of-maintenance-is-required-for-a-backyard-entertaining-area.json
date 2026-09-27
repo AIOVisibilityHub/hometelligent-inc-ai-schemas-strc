@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of maintenance is required for a backyard entertaining area?",
-  "description": "Maintenance varies by material: wood decks need staining, concrete patios need cleaning. Outdoor kitchens require appliance care. We discuss low-maintenance opt",
   "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-is-required-for-a-backyard-entertaining-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of maintenance is required for a backyard entertaining area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance depends on the materials used. For example, wood decks may require periodic staining or sealing, while concrete patios might need occasional cleaning and sealing. Outdoor kitchens benefit from regular cleaning of appliances and surfaces to prevent wear and tear from weather and use. Features like fire pits or water features will also have specific cleaning requirements. During the design phase, Hometelligent Inc. can discuss low-maintenance material options to align with your lifestyle and ensure longevity.",
-        "description": "Maintenance varies by material: wood decks need staining, concrete patios need cleaning. Outdoor kitchens require appliance care. We discuss low-maintenance options during design."
-      }
-    }
-  ],
+  "name": "What kind of maintenance is required for a backyard entertaining area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of maintenance is required for a backyard entertaining area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance depends on the materials used. For example, wood decks may require periodic staining or sealing, while concrete patios might need occasional cleaning and sealing. Outdoor kitchens benefit from regular cleaning of appliances and surfaces to prevent wear and tear from weather and use. Features like fire pits or water features will also have specific cleaning requirements. During the design phase, Hometelligent Inc. can discuss low-maintenance material options to align with your lifestyle and ensure longevity.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material: wood decks need staining, concrete patios need cleaning. Outdoor kitchens require appliance care. We discuss low-maintenance options during design."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material: wood decks need staining, concrete patios need cleaning. Outdoor kitchens require appliance care. We discuss low-maintenance opt"
 }

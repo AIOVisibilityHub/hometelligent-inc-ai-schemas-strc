@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing a location for an outdoor fire pit?",
-  "description": "Consider proximity to structures, overhead obstructions, wind patterns, and seating space when choosing a fire pit location. Balancing a central spot with safet",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-a-location-for-an-outdoor-fire-pit",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing a location for an outdoor fire pit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a location for an outdoor fire pit, several factors are crucial for safety and enjoyment. You should consider proximity to your home or other structures, overhead obstructions like tree branches, and prevailing wind patterns. Ensuring adequate space for seating and safe egress is also important. Additionally, check for underground utilities before excavation. A practical tradeoff to consider is balancing a central gathering point with necessary safety clearances. Hometelligent Inc. can help you assess your yard's layout and identify the most suitable and compliant location, especially in densely populated areas like Berkeley where space and setback regulations are often strict.",
-        "description": "Consider proximity to structures, overhead obstructions, wind patterns, and seating space when choosing a fire pit location. Balancing a central spot with safety clearances is a practical tradeoff, especially in areas like Berkeley with strict regulations."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing a location for an outdoor fire pit?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing a location for an outdoor fire pit?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a location for an outdoor fire pit, several factors are crucial for safety and enjoyment. You should consider proximity to your home or other structures, overhead obstructions like tree branches, and prevailing wind patterns. Ensuring adequate space for seating and safe egress is also important. Additionally, check for underground utilities before excavation. A practical tradeoff to consider is balancing a central gathering point with necessary safety clearances. Hometelligent Inc. can help you assess your yard's layout and identify the most suitable and compliant location, especially in densely populated areas like Berkeley where space and setback regulations are often strict.",
+        "@type": "Answer",
+        "description": "Consider proximity to structures, overhead obstructions, wind patterns, and seating space when choosing a fire pit location. Balancing a central spot with safety clearances is a practical tradeoff, especially in areas like Berkeley with strict regulations."
+      }
+    }
+  ],
+  "description": "Consider proximity to structures, overhead obstructions, wind patterns, and seating space when choosing a fire pit location. Balancing a central spot with safet"
 }

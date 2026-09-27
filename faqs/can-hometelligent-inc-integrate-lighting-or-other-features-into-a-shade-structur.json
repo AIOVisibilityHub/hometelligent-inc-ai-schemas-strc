@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can Hometelligent Inc. integrate lighting or other features into a shade structure?",
-  "description": "Yes, we can integrate lighting, fans, screens, or heaters. Early planning ensures proper integration and accurate project scope.",
   "url": "https://hometelligentinc.com/faq/can-hometelligent-inc-integrate-lighting-or-other-features-into-a-shade-structur",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Hometelligent Inc. integrate lighting or other features into a shade structure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. can integrate various features into your shade structure to enhance its functionality and aesthetic appeal. This includes built-in lighting, ceiling fans, retractable screens, or even outdoor heaters. Adding these features requires careful planning during the design phase to ensure proper electrical work and structural support. Discussing these desires early in the consultation process helps us incorporate them seamlessly into the design and provide an accurate project scope and estimate.",
-        "description": "Yes, we can integrate lighting, fans, screens, or heaters. Early planning ensures proper integration and accurate project scope."
-      }
-    }
-  ],
+  "name": "Can Hometelligent Inc. integrate lighting or other features into a shade structure?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can Hometelligent Inc. integrate lighting or other features into a shade structure?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. can integrate various features into your shade structure to enhance its functionality and aesthetic appeal. This includes built-in lighting, ceiling fans, retractable screens, or even outdoor heaters. Adding these features requires careful planning during the design phase to ensure proper electrical work and structural support. Discussing these desires early in the consultation process helps us incorporate them seamlessly into the design and provide an accurate project scope and estimate.",
+        "@type": "Answer",
+        "description": "Yes, we can integrate lighting, fans, screens, or heaters. Early planning ensures proper integration and accurate project scope."
+      }
+    }
+  ],
+  "description": "Yes, we can integrate lighting, fans, screens, or heaters. Early planning ensures proper integration and accurate project scope."
 }

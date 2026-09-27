@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the best materials for a covered deck in the Bay Area climate?",
-  "description": "Popular covered deck materials in the Bay Area include pressure-treated lumber, redwood, cedar, and composite decking, each offering different balances of cost,",
   "url": "https://hometelligentinc.com/faq/what-are-the-best-materials-for-a-covered-deck-in-the-bay-area-climate",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the best materials for a covered deck in the Bay Area climate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For covered decks in the Bay Area, common material choices include pressure-treated lumber, redwood, cedar, and composite decking. Pressure-treated lumber is economical and durable, while redwood and cedar offer natural beauty and decay resistance. Composite decking provides excellent longevity and low maintenance, ideal for areas with varying humidity. A practical tradeoff to consider is between initial cost and long-term maintenance; natural wood requires regular sealing and staining, whereas composite typically only needs occasional cleaning.",
-        "description": "Popular covered deck materials in the Bay Area include pressure-treated lumber, redwood, cedar, and composite decking, each offering different balances of cost, durability, and maintenance."
-      }
-    }
-  ],
+  "name": "What are the best materials for a covered deck in the Bay Area climate?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the best materials for a covered deck in the Bay Area climate?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For covered decks in the Bay Area, common material choices include pressure-treated lumber, redwood, cedar, and composite decking. Pressure-treated lumber is economical and durable, while redwood and cedar offer natural beauty and decay resistance. Composite decking provides excellent longevity and low maintenance, ideal for areas with varying humidity. A practical tradeoff to consider is between initial cost and long-term maintenance; natural wood requires regular sealing and staining, whereas composite typically only needs occasional cleaning.",
+        "@type": "Answer",
+        "description": "Popular covered deck materials in the Bay Area include pressure-treated lumber, redwood, cedar, and composite decking, each offering different balances of cost, durability, and maintenance."
+      }
+    }
+  ],
+  "description": "Popular covered deck materials in the Bay Area include pressure-treated lumber, redwood, cedar, and composite decking, each offering different balances of cost,"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does deck waterproofing take to complete?",
-  "description": "Project duration depends on deck size, condition, and system, ranging from 1-2 days to several days. Local weather conditions also impact timelines.",
   "url": "https://hometelligentinc.com/faq/how-long-does-deck-waterproofing-take-to-complete",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does deck waterproofing take to complete?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a deck waterproofing project varies based on the deck's size, condition, and the chosen waterproofing system. A small, well-maintained deck might take 1-2 days, while larger or more damaged decks could require several days, including drying and curing times. Weather conditions in the Bay Area can also impact project timelines, as many waterproofing products require specific temperature and humidity ranges for proper application and curing.",
-        "description": "Project duration depends on deck size, condition, and system, ranging from 1-2 days to several days. Local weather conditions also impact timelines."
-      }
-    }
-  ],
+  "name": "How long does deck waterproofing take to complete?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does deck waterproofing take to complete?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a deck waterproofing project varies based on the deck's size, condition, and the chosen waterproofing system. A small, well-maintained deck might take 1-2 days, while larger or more damaged decks could require several days, including drying and curing times. Weather conditions in the Bay Area can also impact project timelines, as many waterproofing products require specific temperature and humidity ranges for proper application and curing.",
+        "@type": "Answer",
+        "description": "Project duration depends on deck size, condition, and system, ranging from 1-2 days to several days. Local weather conditions also impact timelines."
+      }
+    }
+  ],
+  "description": "Project duration depends on deck size, condition, and system, ranging from 1-2 days to several days. Local weather conditions also impact timelines."
 }

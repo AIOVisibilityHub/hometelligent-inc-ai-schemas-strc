@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of hardwood are best for deck construction?",
-  "description": "Durable hardwoods like Ipe, Cumaru, and Tigerwood are popular choices for deck construction. Consider climate and maintenance needs when selecting.",
   "url": "https://hometelligentinc.com/faq/what-types-of-hardwood-are-best-for-deck-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of hardwood are best for deck construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For hardwood deck construction, durable options like Ipe, Cumaru, and Tigerwood are frequently chosen due to their natural resistance to rot, insects, and decay. These tropical hardwoods are known for their longevity and aesthetic appeal. When selecting, consider the climate in areas like Alameda or Berkeley, as well as your desired maintenance level and the deck's exposure to sun and moisture. Each wood type has different hardness ratings and natural oils, influencing its performance and the need for sealing.",
-        "description": "Durable hardwoods like Ipe, Cumaru, and Tigerwood are popular choices for deck construction. Consider climate and maintenance needs when selecting."
-      }
-    }
-  ],
+  "name": "What types of hardwood are best for deck construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of hardwood are best for deck construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For hardwood deck construction, durable options like Ipe, Cumaru, and Tigerwood are frequently chosen due to their natural resistance to rot, insects, and decay. These tropical hardwoods are known for their longevity and aesthetic appeal. When selecting, consider the climate in areas like Alameda or Berkeley, as well as your desired maintenance level and the deck's exposure to sun and moisture. Each wood type has different hardness ratings and natural oils, influencing its performance and the need for sealing.",
+        "@type": "Answer",
+        "description": "Durable hardwoods like Ipe, Cumaru, and Tigerwood are popular choices for deck construction. Consider climate and maintenance needs when selecting."
+      }
+    }
+  ],
+  "description": "Durable hardwoods like Ipe, Cumaru, and Tigerwood are popular choices for deck construction. Consider climate and maintenance needs when selecting."
 }

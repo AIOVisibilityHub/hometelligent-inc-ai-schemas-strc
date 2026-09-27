@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for building a wood deck?",
-  "description": "Deck costs vary based on size, material, and design. A consultation provides the most accurate estimate for your specific project.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-building-a-wood-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for building a wood deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building a wood deck varies widely based on factors such as deck size, chosen wood material, design complexity, and site preparation needs. A basic pressure-treated pine deck might start at one price point, while a custom cedar or redwood deck with intricate railing designs would be significantly higher. It's a practical tradeoff between budget and desired aesthetics/durability. For an accurate estimate, it's best to have an on-site consultation to assess specific project requirements and discuss material options.",
-        "description": "Deck costs vary based on size, material, and design. A consultation provides the most accurate estimate for your specific project."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for building a wood deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for building a wood deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building a wood deck varies widely based on factors such as deck size, chosen wood material, design complexity, and site preparation needs. A basic pressure-treated pine deck might start at one price point, while a custom cedar or redwood deck with intricate railing designs would be significantly higher. It's a practical tradeoff between budget and desired aesthetics/durability. For an accurate estimate, it's best to have an on-site consultation to assess specific project requirements and discuss material options.",
+        "@type": "Answer",
+        "description": "Deck costs vary based on size, material, and design. A consultation provides the most accurate estimate for your specific project."
+      }
+    }
+  ],
+  "description": "Deck costs vary based on size, material, and design. A consultation provides the most accurate estimate for your specific project."
 }

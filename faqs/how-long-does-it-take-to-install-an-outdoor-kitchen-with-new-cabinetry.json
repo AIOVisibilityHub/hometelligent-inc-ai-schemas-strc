@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install an outdoor kitchen with new cabinetry?",
-  "description": "Installation of outdoor kitchen cabinetry typically takes 1-6 weeks, depending on complexity and additional features like utility connections.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-an-outdoor-kitchen-with-new-cabinetry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install an outdoor kitchen with new cabinetry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeframe for an outdoor kitchen with new cabinetry varies depending on the project's complexity, size, and chosen materials. A basic installation might take 1-2 weeks, while more elaborate designs with custom features or extensive utility connections could extend to 3-6 weeks. This timeline typically follows the design and planning phases. As a construction company serving areas like Alameda and Berkeley, Hometelligent Inc. often coordinates cabinetry installation with other outdoor living elements, such as utility hook-ups for gas or plumbing, which can influence the overall schedule.",
-        "description": "Installation of outdoor kitchen cabinetry typically takes 1-6 weeks, depending on complexity and additional features like utility connections."
-      }
-    }
-  ],
+  "name": "How long does it take to install an outdoor kitchen with new cabinetry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install an outdoor kitchen with new cabinetry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeframe for an outdoor kitchen with new cabinetry varies depending on the project's complexity, size, and chosen materials. A basic installation might take 1-2 weeks, while more elaborate designs with custom features or extensive utility connections could extend to 3-6 weeks. This timeline typically follows the design and planning phases. As a construction company serving areas like Alameda and Berkeley, Hometelligent Inc. often coordinates cabinetry installation with other outdoor living elements, such as utility hook-ups for gas or plumbing, which can influence the overall schedule.",
+        "@type": "Answer",
+        "description": "Installation of outdoor kitchen cabinetry typically takes 1-6 weeks, depending on complexity and additional features like utility connections."
+      }
+    }
+  ],
+  "description": "Installation of outdoor kitchen cabinetry typically takes 1-6 weeks, depending on complexity and additional features like utility connections."
 }

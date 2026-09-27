@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for a cable railing installation project with Hometelligent Inc.?",
-  "description": "The process involves consultation, on-site assessment, proposal, material procurement, installation of posts and cables, and a final inspection, with ongoing co",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-a-cable-railing-installation-project-with-homete",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for a cable railing installation project with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our cable railing installation process begins with an initial consultation and on-site assessment to discuss your vision, evaluate the site, and take precise measurements. Following this, we provide a detailed proposal and design plan. Once approved, we proceed with materials procurement and scheduling the installation. The installation involves securely mounting posts, running and tensioning the stainless steel cables, and performing a final inspection to ensure quality and compliance. Throughout the project, Hometelligent Inc. maintains open communication, ensuring you are informed at every stage from design to completion in areas like Oakland or Berkeley.",
-        "description": "The process involves consultation, on-site assessment, proposal, material procurement, installation of posts and cables, and a final inspection, with ongoing communication."
-      }
-    }
-  ],
+  "name": "What is the typical process for a cable railing installation project with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for a cable railing installation project with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our cable railing installation process begins with an initial consultation and on-site assessment to discuss your vision, evaluate the site, and take precise measurements. Following this, we provide a detailed proposal and design plan. Once approved, we proceed with materials procurement and scheduling the installation. The installation involves securely mounting posts, running and tensioning the stainless steel cables, and performing a final inspection to ensure quality and compliance. Throughout the project, Hometelligent Inc. maintains open communication, ensuring you are informed at every stage from design to completion in areas like Oakland or Berkeley.",
+        "@type": "Answer",
+        "description": "The process involves consultation, on-site assessment, proposal, material procurement, installation of posts and cables, and a final inspection, with ongoing communication."
+      }
+    }
+  ],
+  "description": "The process involves consultation, on-site assessment, proposal, material procurement, installation of posts and cables, and a final inspection, with ongoing co"
 }

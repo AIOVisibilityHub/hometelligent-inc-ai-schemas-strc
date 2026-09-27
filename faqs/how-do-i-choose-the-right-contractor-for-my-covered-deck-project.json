@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for my covered deck project?",
-  "description": "Choose a contractor based on experience, licensing, insurance, portfolio, local code knowledge, and client references for your covered deck project.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-covered-deck-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for my covered deck project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right contractor for a covered deck project involves evaluating their experience, licensing, insurance, and portfolio of similar work. It is crucial to select a contractor with a strong understanding of local building codes and permitting requirements, especially for covered structures that involve roofing. A key decision factor is checking references and reviewing past projects to ensure their craftsmanship and communication align with your expectations. We recommend obtaining multiple detailed bids to compare scope and pricing.",
-        "description": "Choose a contractor based on experience, licensing, insurance, portfolio, local code knowledge, and client references for your covered deck project."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for my covered deck project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for my covered deck project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right contractor for a covered deck project involves evaluating their experience, licensing, insurance, and portfolio of similar work. It is crucial to select a contractor with a strong understanding of local building codes and permitting requirements, especially for covered structures that involve roofing. A key decision factor is checking references and reviewing past projects to ensure their craftsmanship and communication align with your expectations. We recommend obtaining multiple detailed bids to compare scope and pricing.",
+        "@type": "Answer",
+        "description": "Choose a contractor based on experience, licensing, insurance, portfolio, local code knowledge, and client references for your covered deck project."
+      }
+    }
+  ],
+  "description": "Choose a contractor based on experience, licensing, insurance, portfolio, local code knowledge, and client references for your covered deck project."
 }

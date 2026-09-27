@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between deck staining and deck sealing?",
-  "description": "Staining adds color and protection, while sealing primarily waterproofs and protects, often without color change.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-deck-staining-and-deck-sealing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between deck staining and deck sealing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deck staining involves applying a product that adds color while also providing protection against UV rays and moisture. Deck sealing, on the other hand, typically involves a clear or semi-transparent coating designed primarily for waterproofing and protecting the wood from the elements without significantly changing its natural color. Many modern products combine both properties, offering color and robust protection. The choice between staining and sealing often depends on your aesthetic preference and the level of color retention desired for your deck.",
-        "description": "Staining adds color and protection, while sealing primarily waterproofs and protects, often without color change."
-      }
-    }
-  ],
+  "name": "What is the difference between deck staining and deck sealing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between deck staining and deck sealing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deck staining involves applying a product that adds color while also providing protection against UV rays and moisture. Deck sealing, on the other hand, typically involves a clear or semi-transparent coating designed primarily for waterproofing and protecting the wood from the elements without significantly changing its natural color. Many modern products combine both properties, offering color and robust protection. The choice between staining and sealing often depends on your aesthetic preference and the level of color retention desired for your deck.",
+        "@type": "Answer",
+        "description": "Staining adds color and protection, while sealing primarily waterproofs and protects, often without color change."
+      }
+    }
+  ],
+  "description": "Staining adds color and protection, while sealing primarily waterproofs and protects, often without color change."
 }

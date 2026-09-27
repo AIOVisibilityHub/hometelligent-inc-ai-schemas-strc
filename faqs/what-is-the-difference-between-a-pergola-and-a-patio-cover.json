@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a pergola and a patio cover?",
-  "description": "A pergola has an open, slatted roof for partial shade, while a patio cover has a solid roof for full protection. Choose based on desired sun/rain coverage.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-pergola-and-a-patio-cover",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a pergola and a patio cover?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary difference between a pergola and a patio cover lies in their roof structure and the amount of shade they provide. A pergola typically has an open, slatted roof that offers partial shade and is often used for aesthetics or to support climbing plants. A patio cover, on the other hand, usually has a solid roof that provides full protection from sun and rain. When deciding, consider whether you need filtered light or complete overhead shelter, especially for varying weather in regions like the East Bay.",
-        "description": "A pergola has an open, slatted roof for partial shade, while a patio cover has a solid roof for full protection. Choose based on desired sun/rain coverage."
-      }
-    }
-  ],
+  "name": "What is the difference between a pergola and a patio cover?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a pergola and a patio cover?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The primary difference between a pergola and a patio cover lies in their roof structure and the amount of shade they provide. A pergola typically has an open, slatted roof that offers partial shade and is often used for aesthetics or to support climbing plants. A patio cover, on the other hand, usually has a solid roof that provides full protection from sun and rain. When deciding, consider whether you need filtered light or complete overhead shelter, especially for varying weather in regions like the East Bay.",
+        "@type": "Answer",
+        "description": "A pergola has an open, slatted roof for partial shade, while a patio cover has a solid roof for full protection. Choose based on desired sun/rain coverage."
+      }
+    }
+  ],
+  "description": "A pergola has an open, slatted roof for partial shade, while a patio cover has a solid roof for full protection. Choose based on desired sun/rain coverage."
 }

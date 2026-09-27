@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are best for outdoor deck stairs?",
-  "description": "Pressure-treated lumber, cedar, redwood, composite, and exotic hardwoods are common materials for outdoor deck stairs. The best choice depends on budget, aesthe",
   "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-outdoor-deck-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are best for outdoor deck stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For outdoor deck stairs, common materials include pressure-treated lumber, cedar, redwood, composite decking, and exotic hardwoods. Pressure-treated lumber is durable and cost-effective, while cedar and redwood offer natural rot resistance and aesthetic appeal. Composite materials require less maintenance but can be more expensive upfront. The best choice depends on your budget, desired aesthetics, and maintenance preferences. Hometelligent Inc. can guide you through material options that suit your Alameda, Albany, Berkeley, or Dublin property, considering local climate and usage.",
-        "description": "Pressure-treated lumber, cedar, redwood, composite, and exotic hardwoods are common materials for outdoor deck stairs. The best choice depends on budget, aesthetics, and maintenance."
-      }
-    }
-  ],
+  "name": "What materials are best for outdoor deck stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are best for outdoor deck stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For outdoor deck stairs, common materials include pressure-treated lumber, cedar, redwood, composite decking, and exotic hardwoods. Pressure-treated lumber is durable and cost-effective, while cedar and redwood offer natural rot resistance and aesthetic appeal. Composite materials require less maintenance but can be more expensive upfront. The best choice depends on your budget, desired aesthetics, and maintenance preferences. Hometelligent Inc. can guide you through material options that suit your Alameda, Albany, Berkeley, or Dublin property, considering local climate and usage.",
+        "@type": "Answer",
+        "description": "Pressure-treated lumber, cedar, redwood, composite, and exotic hardwoods are common materials for outdoor deck stairs. The best choice depends on budget, aesthetics, and maintenance."
+      }
+    }
+  ],
+  "description": "Pressure-treated lumber, cedar, redwood, composite, and exotic hardwoods are common materials for outdoor deck stairs. The best choice depends on budget, aesthe"
 }

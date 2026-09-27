@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in built-in outdoor grill installation?",
-  "description": "Built-in outdoor grill installation involves custom design, site preparation, utility connections, island construction, grill installation, and finishing.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-built-in-outdoor-grill-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in built-in outdoor grill installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Built-in outdoor grill installation involves creating a custom outdoor kitchen or grilling island to seamlessly integrate a grill unit. This typically includes designing the structure, preparing the site with necessary utility connections (gas, electrical), constructing the island, installing the grill, and finishing with countertops and cladding materials. The process often requires coordination between gas fitters, electricians, and construction specialists to ensure safety and functionality. Hometelligent Inc. manages all aspects of this process, ensuring seamless integration and code compliance.",
-        "description": "Built-in outdoor grill installation involves custom design, site preparation, utility connections, island construction, grill installation, and finishing."
-      }
-    }
-  ],
+  "name": "What is involved in built-in outdoor grill installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in built-in outdoor grill installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Built-in outdoor grill installation involves creating a custom outdoor kitchen or grilling island to seamlessly integrate a grill unit. This typically includes designing the structure, preparing the site with necessary utility connections (gas, electrical), constructing the island, installing the grill, and finishing with countertops and cladding materials. The process often requires coordination between gas fitters, electricians, and construction specialists to ensure safety and functionality. Hometelligent Inc. manages all aspects of this process, ensuring seamless integration and code compliance.",
+        "@type": "Answer",
+        "description": "Built-in outdoor grill installation involves custom design, site preparation, utility connections, island construction, grill installation, and finishing."
+      }
+    }
+  ],
+  "description": "Built-in outdoor grill installation involves custom design, site preparation, utility connections, island construction, grill installation, and finishing."
 }

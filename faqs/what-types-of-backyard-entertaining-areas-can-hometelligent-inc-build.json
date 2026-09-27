@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of backyard entertaining areas can Hometelligent Inc. build?",
-  "description": "Hometelligent Inc. builds custom patios, decks, outdoor kitchens, fire pits, pergolas, and integrated seating areas. We design spaces for dining, lounging, and",
   "url": "https://hometelligentinc.com/faq/what-types-of-backyard-entertaining-areas-can-hometelligent-inc-build",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of backyard entertaining areas can Hometelligent Inc. build?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. specializes in designing and constructing a variety of backyard entertaining spaces tailored to your needs. This can include custom patios, decks, outdoor kitchens, fire pits, pergolas, and integrated seating areas. We focus on creating functional and aesthetically pleasing environments that extend your living space outdoors. The best type for you often depends on your primary intended use, such as dining, lounging, or cooking, and the specific characteristics of your existing yard.",
-        "description": "Hometelligent Inc. builds custom patios, decks, outdoor kitchens, fire pits, pergolas, and integrated seating areas. We design spaces for dining, lounging, and cooking, tailored to your yard."
-      }
-    }
-  ],
+  "name": "What types of backyard entertaining areas can Hometelligent Inc. build?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of backyard entertaining areas can Hometelligent Inc. build?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. specializes in designing and constructing a variety of backyard entertaining spaces tailored to your needs. This can include custom patios, decks, outdoor kitchens, fire pits, pergolas, and integrated seating areas. We focus on creating functional and aesthetically pleasing environments that extend your living space outdoors. The best type for you often depends on your primary intended use, such as dining, lounging, or cooking, and the specific characteristics of your existing yard.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. builds custom patios, decks, outdoor kitchens, fire pits, pergolas, and integrated seating areas. We design spaces for dining, lounging, and cooking, tailored to your yard."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. builds custom patios, decks, outdoor kitchens, fire pits, pergolas, and integrated seating areas. We design spaces for dining, lounging, and"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for deck resurfacing?",
-  "description": "The process involves inspection, cleaning, repairing, and applying a new finish. It varies by deck condition and material choices.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-deck-resurfacing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for deck resurfacing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The deck resurfacing process generally begins with a thorough inspection of the existing structure. We then clean the deck, remove old finishes, repair or replace damaged boards, and address any structural weaknesses. Finally, a new protective coating or stain is applied. The entire process can vary based on the deck's initial condition and the chosen materials. Hometelligent Inc. emphasizes meticulous preparation, especially for older decks in areas like Oakland or Fremont, to ensure the new surface adheres properly and lasts longer.",
-        "description": "The process involves inspection, cleaning, repairing, and applying a new finish. It varies by deck condition and material choices."
-      }
-    }
-  ],
+  "name": "What is the typical process for deck resurfacing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for deck resurfacing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The deck resurfacing process generally begins with a thorough inspection of the existing structure. We then clean the deck, remove old finishes, repair or replace damaged boards, and address any structural weaknesses. Finally, a new protective coating or stain is applied. The entire process can vary based on the deck's initial condition and the chosen materials. Hometelligent Inc. emphasizes meticulous preparation, especially for older decks in areas like Oakland or Fremont, to ensure the new surface adheres properly and lasts longer.",
+        "@type": "Answer",
+        "description": "The process involves inspection, cleaning, repairing, and applying a new finish. It varies by deck condition and material choices."
+      }
+    }
+  ],
+  "description": "The process involves inspection, cleaning, repairing, and applying a new finish. It varies by deck condition and material choices."
 }

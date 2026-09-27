@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for different types of outdoor living areas?",
-  "description": "Maintenance varies by material: wood decks need regular sealing, while pavers and outdoor kitchens require periodic cleaning and upkeep.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-different-types-of-outdoor-living-areas",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for different types of outdoor living areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance requirements for an outdoor living area vary based on the materials and features chosen. Wood decks, for example, typically require annual cleaning, sealing, or staining to prevent rot and weathering, which is a practical tradeoff compared to composite decking. Pavers and natural stone need periodic cleaning and occasional re-sanding or re-sealing. Outdoor kitchens require regular cleaning of appliances and surfaces to prevent grime buildup. Understanding these ongoing maintenance needs before construction can help you choose materials that align with your willingness to perform upkeep.",
-        "description": "Maintenance varies by material: wood decks need regular sealing, while pavers and outdoor kitchens require periodic cleaning and upkeep."
-      }
-    }
-  ],
+  "name": "What maintenance is required for different types of outdoor living areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for different types of outdoor living areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance requirements for an outdoor living area vary based on the materials and features chosen. Wood decks, for example, typically require annual cleaning, sealing, or staining to prevent rot and weathering, which is a practical tradeoff compared to composite decking. Pavers and natural stone need periodic cleaning and occasional re-sanding or re-sealing. Outdoor kitchens require regular cleaning of appliances and surfaces to prevent grime buildup. Understanding these ongoing maintenance needs before construction can help you choose materials that align with your willingness to perform upkeep.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material: wood decks need regular sealing, while pavers and outdoor kitchens require periodic cleaning and upkeep."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material: wood decks need regular sealing, while pavers and outdoor kitchens require periodic cleaning and upkeep."
 }

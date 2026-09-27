@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there specific considerations for deck restoration in the Bay Area?",
-  "description": "Bay Area restoration requires thorough cleaning and UV-protective, waterproofing solutions due to humidity, fog, and sun exposure.",
   "url": "https://hometelligentinc.com/faq/are-there-specific-considerations-for-deck-restoration-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there specific considerations for deck restoration in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, deck restoration in the Bay Area, particularly in cities like San Leandro or Union City, has specific considerations. The coastal climate with its humidity and occasional fog can accelerate mildew growth and moisture damage, necessitating thorough cleaning and effective waterproofing solutions. Additionally, sun exposure can be intense, making UV-protective stains and sealants crucial for long-term durability. We select products and techniques suited to withstand these local environmental challenges.",
-        "description": "Bay Area restoration requires thorough cleaning and UV-protective, waterproofing solutions due to humidity, fog, and sun exposure."
-      }
-    }
-  ],
+  "name": "Are there specific considerations for deck restoration in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there specific considerations for deck restoration in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, deck restoration in the Bay Area, particularly in cities like San Leandro or Union City, has specific considerations. The coastal climate with its humidity and occasional fog can accelerate mildew growth and moisture damage, necessitating thorough cleaning and effective waterproofing solutions. Additionally, sun exposure can be intense, making UV-protective stains and sealants crucial for long-term durability. We select products and techniques suited to withstand these local environmental challenges.",
+        "@type": "Answer",
+        "description": "Bay Area restoration requires thorough cleaning and UV-protective, waterproofing solutions due to humidity, fog, and sun exposure."
+      }
+    }
+  ],
+  "description": "Bay Area restoration requires thorough cleaning and UV-protective, waterproofing solutions due to humidity, fog, and sun exposure."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of a custom-built barbecue island compared to a modular kit?",
-  "description": "Custom-built islands offer tailored design and aesthetic integration, while modular kits are quicker and more budget-friendly but lack customization. Hometellig",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-a-custom-built-barbecue-island-compared-to-a-modular-ki",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of a custom-built barbecue island compared to a modular kit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A custom-built barbecue island offers unparalleled design flexibility, allowing you to tailor the size, shape, materials, and appliance layout precisely to your outdoor space and cooking preferences. This often results in a more cohesive aesthetic with your home and landscaping. In contrast, modular kits provide a quicker, often more budget-friendly solution with pre-determined configurations. While modular kits can be convenient, they may offer fewer options for customization and may not perfectly fit your unique space. Hometelligent Inc. specializes in custom designs that integrate seamlessly with your existing outdoor environment and personal style.",
-        "description": "Custom-built islands offer tailored design and aesthetic integration, while modular kits are quicker and more budget-friendly but lack customization. Hometelligent Inc. focuses on custom designs for seamless integration."
-      }
-    }
-  ],
+  "name": "What are the benefits of a custom-built barbecue island compared to a modular kit?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of a custom-built barbecue island compared to a modular kit?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A custom-built barbecue island offers unparalleled design flexibility, allowing you to tailor the size, shape, materials, and appliance layout precisely to your outdoor space and cooking preferences. This often results in a more cohesive aesthetic with your home and landscaping. In contrast, modular kits provide a quicker, often more budget-friendly solution with pre-determined configurations. While modular kits can be convenient, they may offer fewer options for customization and may not perfectly fit your unique space. Hometelligent Inc. specializes in custom designs that integrate seamlessly with your existing outdoor environment and personal style.",
+        "@type": "Answer",
+        "description": "Custom-built islands offer tailored design and aesthetic integration, while modular kits are quicker and more budget-friendly but lack customization. Hometelligent Inc. focuses on custom designs for seamless integration."
+      }
+    }
+  ],
+  "description": "Custom-built islands offer tailored design and aesthetic integration, while modular kits are quicker and more budget-friendly but lack customization. Hometellig"
 }

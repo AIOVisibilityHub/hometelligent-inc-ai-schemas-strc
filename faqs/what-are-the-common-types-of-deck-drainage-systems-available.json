@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common types of deck drainage systems available?",
-  "description": "Common types include over-joist (installed before decking) and under-joist (installed after decking) systems, each with different installation and aesthetic cha",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-deck-drainage-systems-available",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common types of deck drainage systems available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There are primarily two types: over-joist and under-joist systems. Over-joist systems are installed directly on top of the joists before the decking is laid, creating a waterproof membrane. Under-joist systems, conversely, are installed after the deck boards are in place, using panels or troughs attached below the joists. Each type has different installation requirements and aesthetic outcomes. For example, under-joist systems can often be retrofitted to existing decks, offering flexibility, but over-joist systems might integrate more seamlessly with new construction and provide superior protection if installed correctly from the start.",
-        "description": "Common types include over-joist (installed before decking) and under-joist (installed after decking) systems, each with different installation and aesthetic characteristics."
-      }
-    }
-  ],
+  "name": "What are the common types of deck drainage systems available?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common types of deck drainage systems available?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "There are primarily two types: over-joist and under-joist systems. Over-joist systems are installed directly on top of the joists before the decking is laid, creating a waterproof membrane. Under-joist systems, conversely, are installed after the deck boards are in place, using panels or troughs attached below the joists. Each type has different installation requirements and aesthetic outcomes. For example, under-joist systems can often be retrofitted to existing decks, offering flexibility, but over-joist systems might integrate more seamlessly with new construction and provide superior protection if installed correctly from the start.",
+        "@type": "Answer",
+        "description": "Common types include over-joist (installed before decking) and under-joist (installed after decking) systems, each with different installation and aesthetic characteristics."
+      }
+    }
+  ],
+  "description": "Common types include over-joist (installed before decking) and under-joist (installed after decking) systems, each with different installation and aesthetic cha"
 }

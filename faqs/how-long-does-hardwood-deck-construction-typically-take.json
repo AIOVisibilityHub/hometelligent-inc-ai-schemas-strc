@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does hardwood deck construction typically take?",
-  "description": "Hardwood deck construction typically takes 2-4 weeks, but complexity and site conditions can influence the timeline.",
   "url": "https://hometelligentinc.com/faq/how-long-does-hardwood-deck-construction-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does hardwood deck construction typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of hardwood deck construction varies based on the deck's size, design complexity, and site conditions. A standard-sized deck might take 2-4 weeks from start to finish, including planning, material delivery, and installation. Factors like intricate railing systems, multi-level designs, or challenging access at properties in the Oakland Hills or Montclair can extend the timeline. Efficient planning and timely material sourcing are crucial for staying on schedule.",
-        "description": "Hardwood deck construction typically takes 2-4 weeks, but complexity and site conditions can influence the timeline."
-      }
-    }
-  ],
+  "name": "How long does hardwood deck construction typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does hardwood deck construction typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of hardwood deck construction varies based on the deck's size, design complexity, and site conditions. A standard-sized deck might take 2-4 weeks from start to finish, including planning, material delivery, and installation. Factors like intricate railing systems, multi-level designs, or challenging access at properties in the Oakland Hills or Montclair can extend the timeline. Efficient planning and timely material sourcing are crucial for staying on schedule.",
+        "@type": "Answer",
+        "description": "Hardwood deck construction typically takes 2-4 weeks, but complexity and site conditions can influence the timeline."
+      }
+    }
+  ],
+  "description": "Hardwood deck construction typically takes 2-4 weeks, but complexity and site conditions can influence the timeline."
 }

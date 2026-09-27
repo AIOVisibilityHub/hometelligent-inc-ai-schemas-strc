@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I integrate a fire pit or fireplace into my outdoor kitchen design?",
-  "description": "Yes, fire pits or fireplaces can be integrated, enhancing ambiance and extending usability. Decision factors include desired use (casual vs. formal) and safe pl",
   "url": "https://hometelligentinc.com/faq/can-i-integrate-a-fire-pit-or-fireplace-into-my-outdoor-kitchen-design",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I integrate a fire pit or fireplace into my outdoor kitchen design?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, integrating a fire pit or fireplace into your outdoor kitchen design is a popular way to enhance ambiance and extend usability into cooler evenings. This often involves careful planning to ensure safe distances from combustible materials and proper ventilation. A decision factor is how you envision using the space; a fire pit fosters a casual gathering spot, while a fireplace offers a more formal focal point. The choice impacts the layout and material selection for the surrounding areas.",
-        "description": "Yes, fire pits or fireplaces can be integrated, enhancing ambiance and extending usability. Decision factors include desired use (casual vs. formal) and safe placement from combustibles and ventilation."
-      }
-    }
-  ],
+  "name": "Can I integrate a fire pit or fireplace into my outdoor kitchen design?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I integrate a fire pit or fireplace into my outdoor kitchen design?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, integrating a fire pit or fireplace into your outdoor kitchen design is a popular way to enhance ambiance and extend usability into cooler evenings. This often involves careful planning to ensure safe distances from combustible materials and proper ventilation. A decision factor is how you envision using the space; a fire pit fosters a casual gathering spot, while a fireplace offers a more formal focal point. The choice impacts the layout and material selection for the surrounding areas.",
+        "@type": "Answer",
+        "description": "Yes, fire pits or fireplaces can be integrated, enhancing ambiance and extending usability. Decision factors include desired use (casual vs. formal) and safe placement from combustibles and ventilation."
+      }
+    }
+  ],
+  "description": "Yes, fire pits or fireplaces can be integrated, enhancing ambiance and extending usability. Decision factors include desired use (casual vs. formal) and safe pl"
 }

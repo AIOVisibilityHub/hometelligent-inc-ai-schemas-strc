@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the design of a custom patio?",
-  "description": "Custom patio design is influenced by space, home style, lifestyle needs (entertaining, dining), budget, and environmental factors like sun and wind exposure.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-design-of-a-custom-patio",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the design of a custom patio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Several factors influence custom patio design, including the available space, your home's architectural style, your lifestyle needs (e.g., entertaining, dining, relaxation), and your budget. For example, if you frequently host gatherings, you might prioritize a larger dining area and integrated seating. The natural sunlight exposure and wind patterns of your yard also play a role in optimizing the patio's placement and features like shade structures or windbreaks, creating a truly functional space.",
-        "description": "Custom patio design is influenced by space, home style, lifestyle needs (entertaining, dining), budget, and environmental factors like sun and wind exposure."
-      }
-    }
-  ],
+  "name": "What factors influence the design of a custom patio?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the design of a custom patio?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Several factors influence custom patio design, including the available space, your home's architectural style, your lifestyle needs (e.g., entertaining, dining, relaxation), and your budget. For example, if you frequently host gatherings, you might prioritize a larger dining area and integrated seating. The natural sunlight exposure and wind patterns of your yard also play a role in optimizing the patio's placement and features like shade structures or windbreaks, creating a truly functional space.",
+        "@type": "Answer",
+        "description": "Custom patio design is influenced by space, home style, lifestyle needs (entertaining, dining), budget, and environmental factors like sun and wind exposure."
+      }
+    }
+  ],
+  "description": "Custom patio design is influenced by space, home style, lifestyle needs (entertaining, dining), budget, and environmental factors like sun and wind exposure."
 }

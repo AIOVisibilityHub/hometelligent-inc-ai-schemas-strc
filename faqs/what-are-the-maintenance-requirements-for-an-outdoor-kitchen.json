@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the maintenance requirements for an outdoor kitchen?",
-  "description": "Outdoor kitchen maintenance involves regular cleaning of surfaces and appliances, plus seasonal checks. Prepare with correct cleaning supplies and know material",
   "url": "https://hometelligentinc.com/faq/what-are-the-maintenance-requirements-for-an-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the maintenance requirements for an outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance for an outdoor kitchen primarily involves regular cleaning of surfaces and appliances, along with seasonal checks. This includes wiping down countertops, cleaning the grill, and inspecting plumbing and electrical connections. Preparation means having the right cleaning supplies and knowing the specific care instructions for your chosen materials and appliances to ensure their longevity. For instance, stainless steel appliances benefit from specific cleaners to prevent rust and maintain their finish.",
-        "description": "Outdoor kitchen maintenance involves regular cleaning of surfaces and appliances, plus seasonal checks. Prepare with correct cleaning supplies and know material-specific care to ensure longevity."
-      }
-    }
-  ],
+  "name": "What are the maintenance requirements for an outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the maintenance requirements for an outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance for an outdoor kitchen primarily involves regular cleaning of surfaces and appliances, along with seasonal checks. This includes wiping down countertops, cleaning the grill, and inspecting plumbing and electrical connections. Preparation means having the right cleaning supplies and knowing the specific care instructions for your chosen materials and appliances to ensure their longevity. For instance, stainless steel appliances benefit from specific cleaners to prevent rust and maintain their finish.",
+        "@type": "Answer",
+        "description": "Outdoor kitchen maintenance involves regular cleaning of surfaces and appliances, plus seasonal checks. Prepare with correct cleaning supplies and know material-specific care to ensure longevity."
+      }
+    }
+  ],
+  "description": "Outdoor kitchen maintenance involves regular cleaning of surfaces and appliances, plus seasonal checks. Prepare with correct cleaning supplies and know material"
 }

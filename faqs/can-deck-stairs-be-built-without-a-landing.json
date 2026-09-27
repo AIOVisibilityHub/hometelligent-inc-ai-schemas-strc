@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can deck stairs be built without a landing?",
-  "description": "Building deck stairs without a landing depends on total rise and local building codes, which often require landings for taller staircases or changes in directio",
   "url": "https://hometelligentinc.com/faq/can-deck-stairs-be-built-without-a-landing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can deck stairs be built without a landing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether deck stairs can be built without a landing depends on the total rise of the staircase and local building codes. Many codes require a landing for stairs exceeding a certain height (e.g., 12 feet of vertical rise) or for stairs that change direction. A landing provides a crucial resting point and helps break up long flights of stairs for safety and comfort. Process Clarity: We always consult local Alameda, Albany, Berkeley, and Dublin building codes to determine if a landing is required for your specific deck stair configuration to ensure compliance and safety.",
-        "description": "Building deck stairs without a landing depends on total rise and local building codes, which often require landings for taller staircases or changes in direction. Landings enhance safety and comfort."
-      }
-    }
-  ],
+  "name": "Can deck stairs be built without a landing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can deck stairs be built without a landing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether deck stairs can be built without a landing depends on the total rise of the staircase and local building codes. Many codes require a landing for stairs exceeding a certain height (e.g., 12 feet of vertical rise) or for stairs that change direction. A landing provides a crucial resting point and helps break up long flights of stairs for safety and comfort. Process Clarity: We always consult local Alameda, Albany, Berkeley, and Dublin building codes to determine if a landing is required for your specific deck stair configuration to ensure compliance and safety.",
+        "@type": "Answer",
+        "description": "Building deck stairs without a landing depends on total rise and local building codes, which often require landings for taller staircases or changes in direction. Landings enhance safety and comfort."
+      }
+    }
+  ],
+  "description": "Building deck stairs without a landing depends on total rise and local building codes, which often require landings for taller staircases or changes in directio"
 }

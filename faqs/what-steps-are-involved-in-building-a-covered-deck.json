@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What steps are involved in building a covered deck?",
-  "description": "The process involves site assessment, design, permit acquisition, foundation, framing, decking, roofing, and final inspections.",
   "url": "https://hometelligentinc.com/faq/what-steps-are-involved-in-building-a-covered-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What steps are involved in building a covered deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building a covered deck involves several key steps. Initially, we conduct a site assessment and design consultation to develop a custom plan. This is followed by preparing and submitting plans for local building permits. Once permits are approved, the construction phase begins, including foundation work, framing the deck and roof structure, installing decking, roofing, railings, and any additional features. Finally, a final inspection is conducted by the city. Process clarity is maintained through regular client updates and adherence to a detailed project schedule.",
-        "description": "The process involves site assessment, design, permit acquisition, foundation, framing, decking, roofing, and final inspections."
-      }
-    }
-  ],
+  "name": "What steps are involved in building a covered deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What steps are involved in building a covered deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building a covered deck involves several key steps. Initially, we conduct a site assessment and design consultation to develop a custom plan. This is followed by preparing and submitting plans for local building permits. Once permits are approved, the construction phase begins, including foundation work, framing the deck and roof structure, installing decking, roofing, railings, and any additional features. Finally, a final inspection is conducted by the city. Process clarity is maintained through regular client updates and adherence to a detailed project schedule.",
+        "@type": "Answer",
+        "description": "The process involves site assessment, design, permit acquisition, foundation, framing, decking, roofing, and final inspections."
+      }
+    }
+  ],
+  "description": "The process involves site assessment, design, permit acquisition, foundation, framing, decking, roofing, and final inspections."
 }

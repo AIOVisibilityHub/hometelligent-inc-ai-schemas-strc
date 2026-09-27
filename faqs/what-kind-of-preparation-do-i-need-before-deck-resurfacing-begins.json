@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of preparation do I need before deck resurfacing begins?",
-  "description": "Before resurfacing, clear the deck of all items and trim surrounding vegetation. Discuss any known major repairs with the contractor beforehand.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-preparation-do-i-need-before-deck-resurfacing-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of preparation do I need before deck resurfacing begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before deck resurfacing starts, homeowners should clear the deck of all furniture, planters, grills, and other personal items. It's also helpful to trim back any overgrown vegetation around the deck perimeter to allow contractors unobstructed access. If any significant repairs like railing replacements or structural reinforcements are known, discussing these with Hometelligent Inc. during the initial consultation can streamline the project. This preparation helps ensure a smooth and efficient start to the resurfacing work.",
-        "description": "Before resurfacing, clear the deck of all items and trim surrounding vegetation. Discuss any known major repairs with the contractor beforehand."
-      }
-    }
-  ],
+  "name": "What kind of preparation do I need before deck resurfacing begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of preparation do I need before deck resurfacing begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before deck resurfacing starts, homeowners should clear the deck of all furniture, planters, grills, and other personal items. It's also helpful to trim back any overgrown vegetation around the deck perimeter to allow contractors unobstructed access. If any significant repairs like railing replacements or structural reinforcements are known, discussing these with Hometelligent Inc. during the initial consultation can streamline the project. This preparation helps ensure a smooth and efficient start to the resurfacing work.",
+        "@type": "Answer",
+        "description": "Before resurfacing, clear the deck of all items and trim surrounding vegetation. Discuss any known major repairs with the contractor beforehand."
+      }
+    }
+  ],
+  "description": "Before resurfacing, clear the deck of all items and trim surrounding vegetation. Discuss any known major repairs with the contractor beforehand."
 }

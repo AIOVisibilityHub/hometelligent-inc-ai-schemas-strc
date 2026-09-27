@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right appliances for my outdoor kitchen?",
-  "description": "Select outdoor-rated appliances based on your entertaining needs and budget, focusing on grills, refrigerators, and sinks.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-appliances-for-my-outdoor-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right appliances for my outdoor kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right appliances involves considering your entertaining style, budget, and the specific functions you need. Key appliances often include a high-quality grill, outdoor-rated refrigerator, and a sink. Other options might be side burners, warming drawers, or pizza ovens. Ensure all appliances are specifically designed for outdoor use to withstand weather conditions and humidity. Think about the layout for efficient workflow, similar to an indoor kitchen, to maximize usability for cooking and serving.",
-        "description": "Select outdoor-rated appliances based on your entertaining needs and budget, focusing on grills, refrigerators, and sinks."
-      }
-    }
-  ],
+  "name": "How do I choose the right appliances for my outdoor kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right appliances for my outdoor kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right appliances involves considering your entertaining style, budget, and the specific functions you need. Key appliances often include a high-quality grill, outdoor-rated refrigerator, and a sink. Other options might be side burners, warming drawers, or pizza ovens. Ensure all appliances are specifically designed for outdoor use to withstand weather conditions and humidity. Think about the layout for efficient workflow, similar to an indoor kitchen, to maximize usability for cooking and serving.",
+        "@type": "Answer",
+        "description": "Select outdoor-rated appliances based on your entertaining needs and budget, focusing on grills, refrigerators, and sinks."
+      }
+    }
+  ],
+  "description": "Select outdoor-rated appliances based on your entertaining needs and budget, focusing on grills, refrigerators, and sinks."
 }

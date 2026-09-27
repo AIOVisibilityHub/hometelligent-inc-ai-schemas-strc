@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there energy-efficient deck lighting options available?",
-  "description": "LED deck lighting is the most energy-efficient, offering lower power consumption, longer lifespan, and often dimming or smart control options.",
   "url": "https://hometelligentinc.com/faq/are-there-energy-efficient-deck-lighting-options-available",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there energy-efficient deck lighting options available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, LED deck lighting is the most energy-efficient option available, consuming significantly less power and having a longer lifespan compared to traditional incandescent bulbs. Many LED systems also offer dimming capabilities and smart controls for further energy savings. Choosing LED lighting not only reduces electricity costs but also minimizes maintenance needs due to their extended durability.",
-        "description": "LED deck lighting is the most energy-efficient, offering lower power consumption, longer lifespan, and often dimming or smart control options."
-      }
-    }
-  ],
+  "name": "Are there energy-efficient deck lighting options available?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there energy-efficient deck lighting options available?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, LED deck lighting is the most energy-efficient option available, consuming significantly less power and having a longer lifespan compared to traditional incandescent bulbs. Many LED systems also offer dimming capabilities and smart controls for further energy savings. Choosing LED lighting not only reduces electricity costs but also minimizes maintenance needs due to their extended durability.",
+        "@type": "Answer",
+        "description": "LED deck lighting is the most energy-efficient, offering lower power consumption, longer lifespan, and often dimming or smart control options."
+      }
+    }
+  ],
+  "description": "LED deck lighting is the most energy-efficient, offering lower power consumption, longer lifespan, and often dimming or smart control options."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for a covered deck construction project?",
-  "description": "Covered deck construction costs vary based on size, materials, roof complexity, and added features, typically ranging from a few thousand to tens of thousands o",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-covered-deck-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for a covered deck construction project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of covered deck construction varies significantly based on several factors. These include the deck's size, the materials chosen (e.g., composite, redwood, cedar), the complexity of the roof structure, and whether additional features like lighting or railings are incorporated. Projects can range from several thousand dollars for basic designs to tens of thousands for larger, more elaborate structures with premium finishes. A practical tradeoff is balancing desired aesthetic and material longevity against budget; for example, composite decking offers lower maintenance but a higher upfront cost than pressure-treated lumber.",
-        "description": "Covered deck construction costs vary based on size, materials, roof complexity, and added features, typically ranging from a few thousand to tens of thousands of dollars."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for a covered deck construction project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for a covered deck construction project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of covered deck construction varies significantly based on several factors. These include the deck's size, the materials chosen (e.g., composite, redwood, cedar), the complexity of the roof structure, and whether additional features like lighting or railings are incorporated. Projects can range from several thousand dollars for basic designs to tens of thousands for larger, more elaborate structures with premium finishes. A practical tradeoff is balancing desired aesthetic and material longevity against budget; for example, composite decking offers lower maintenance but a higher upfront cost than pressure-treated lumber.",
+        "@type": "Answer",
+        "description": "Covered deck construction costs vary based on size, materials, roof complexity, and added features, typically ranging from a few thousand to tens of thousands of dollars."
+      }
+    }
+  ],
+  "description": "Covered deck construction costs vary based on size, materials, roof complexity, and added features, typically ranging from a few thousand to tens of thousands o"
 }

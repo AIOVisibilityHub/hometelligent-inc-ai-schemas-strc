@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for building an outdoor barbecue island in Alameda?",
-  "description": "Outdoor barbecue island costs range from $5,000 for basic models to over $25,000 for high-end, custom designs, depending on materials and features. Hometelligen",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-building-an-outdoor-barbecue-island-in-alamed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for building an outdoor barbecue island in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building an outdoor barbecue island varies significantly based on size, materials, integrated appliances, and features like refrigeration or custom storage. While a basic island might start around $5,000 to $10,000, more elaborate designs with premium finishes and high-end equipment can exceed $25,000. For our clients in Alameda, we recommend considering the long-term value and durability of materials, as this can influence both the initial investment and ongoing maintenance. We provide detailed estimates after an on-site consultation to ensure all project specifics are captured.",
-        "description": "Outdoor barbecue island costs range from $5,000 for basic models to over $25,000 for high-end, custom designs, depending on materials and features. Hometelligent Inc. provides detailed estimates after an on-site consultation in Alameda and surrounding areas."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for building an outdoor barbecue island in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for building an outdoor barbecue island in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building an outdoor barbecue island varies significantly based on size, materials, integrated appliances, and features like refrigeration or custom storage. While a basic island might start around $5,000 to $10,000, more elaborate designs with premium finishes and high-end equipment can exceed $25,000. For our clients in Alameda, we recommend considering the long-term value and durability of materials, as this can influence both the initial investment and ongoing maintenance. We provide detailed estimates after an on-site consultation to ensure all project specifics are captured.",
+        "@type": "Answer",
+        "description": "Outdoor barbecue island costs range from $5,000 for basic models to over $25,000 for high-end, custom designs, depending on materials and features. Hometelligent Inc. provides detailed estimates after an on-site consultation in Alameda and surrounding areas."
+      }
+    }
+  ],
+  "description": "Outdoor barbecue island costs range from $5,000 for basic models to over $25,000 for high-end, custom designs, depending on materials and features. Hometelligen"
 }

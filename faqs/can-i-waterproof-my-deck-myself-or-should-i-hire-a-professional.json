@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I waterproof my deck myself or should I hire a professional?",
-  "description": "Professional deck waterproofing is recommended for lasting protection due to specialized materials, equipment, and expertise, preventing improper application an",
   "url": "https://hometelligentinc.com/faq/can-i-waterproof-my-deck-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I waterproof my deck myself or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While some basic deck sealing can be a DIY project, professional deck waterproofing is recommended for comprehensive and long-lasting protection. Professionals have access to industrial-grade materials, specialized equipment, and the expertise to handle complex deck structures and ensure proper application. Attempting a DIY job without the right knowledge can lead to improper application, voided warranties, and potential water damage, particularly with multi-level decks common in areas like Rockridge.",
-        "description": "Professional deck waterproofing is recommended for lasting protection due to specialized materials, equipment, and expertise, preventing improper application and damage."
-      }
-    }
-  ],
+  "name": "Can I waterproof my deck myself or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I waterproof my deck myself or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While some basic deck sealing can be a DIY project, professional deck waterproofing is recommended for comprehensive and long-lasting protection. Professionals have access to industrial-grade materials, specialized equipment, and the expertise to handle complex deck structures and ensure proper application. Attempting a DIY job without the right knowledge can lead to improper application, voided warranties, and potential water damage, particularly with multi-level decks common in areas like Rockridge.",
+        "@type": "Answer",
+        "description": "Professional deck waterproofing is recommended for lasting protection due to specialized materials, equipment, and expertise, preventing improper application and damage."
+      }
+    }
+  ],
+  "description": "Professional deck waterproofing is recommended for lasting protection due to specialized materials, equipment, and expertise, preventing improper application an"
 }
