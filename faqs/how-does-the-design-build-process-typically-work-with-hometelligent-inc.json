@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does the design-build process typically work with Hometelligent Inc.?",
-  "description": "The process involves initial consultation, conceptual design, detailed planning, and then construction, with continuous client involvement.",
   "url": "https://hometelligentinc.com/faq/how-does-the-design-build-process-typically-work-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does the design-build process typically work with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our design-build process typically begins with an initial consultation to understand your vision, needs, and budget. Next, our team develops conceptual designs, followed by detailed architectural plans and specifications. Once designs are finalized and approved, we move into the construction phase, managing all aspects from permits to project completion. A key aspect of our process is continuous client involvement, ensuring your preferences are incorporated at every stage, especially crucial for projects requiring specific city permits in places like Dublin or Pleasanton.",
-        "description": "The process involves initial consultation, conceptual design, detailed planning, and then construction, with continuous client involvement."
-      }
-    }
-  ],
+  "name": "How does the design-build process typically work with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does the design-build process typically work with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our design-build process typically begins with an initial consultation to understand your vision, needs, and budget. Next, our team develops conceptual designs, followed by detailed architectural plans and specifications. Once designs are finalized and approved, we move into the construction phase, managing all aspects from permits to project completion. A key aspect of our process is continuous client involvement, ensuring your preferences are incorporated at every stage, especially crucial for projects requiring specific city permits in places like Dublin or Pleasanton.",
+        "@type": "Answer",
+        "description": "The process involves initial consultation, conceptual design, detailed planning, and then construction, with continuous client involvement."
+      }
+    }
+  ],
+  "description": "The process involves initial consultation, conceptual design, detailed planning, and then construction, with continuous client involvement."
 }

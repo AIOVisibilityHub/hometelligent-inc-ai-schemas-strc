@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors most significantly influence the overall cost of an ADU project?",
-  "description": "ADU costs are heavily influenced by size, type (conversion vs. new build), site conditions, and the quality of materials and finishes selected.",
   "url": "https://hometelligentinc.com/faq/what-factors-most-significantly-influence-the-overall-cost-of-an-adu-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors most significantly influence the overall cost of an ADU project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Several key factors impact ADU costs. The size and type (attached, detached, conversion) are primary drivers. Site conditions, such as topography, access, and soil quality, can also add significantly to foundation and utility extension costs. Furthermore, the choice of materials and finishes, from standard to high-end, will directly affect the budget. It's important to consider these elements early in planning, as unexpected site challenges or last-minute design changes can lead to cost overruns.",
-        "description": "ADU costs are heavily influenced by size, type (conversion vs. new build), site conditions, and the quality of materials and finishes selected."
-      }
-    }
-  ],
+  "name": "What factors most significantly influence the overall cost of an ADU project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors most significantly influence the overall cost of an ADU project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Several key factors impact ADU costs. The size and type (attached, detached, conversion) are primary drivers. Site conditions, such as topography, access, and soil quality, can also add significantly to foundation and utility extension costs. Furthermore, the choice of materials and finishes, from standard to high-end, will directly affect the budget. It's important to consider these elements early in planning, as unexpected site challenges or last-minute design changes can lead to cost overruns.",
+        "@type": "Answer",
+        "description": "ADU costs are heavily influenced by size, type (conversion vs. new build), site conditions, and the quality of materials and finishes selected."
+      }
+    }
+  ],
+  "description": "ADU costs are heavily influenced by size, type (conversion vs. new build), site conditions, and the quality of materials and finishes selected."
 }

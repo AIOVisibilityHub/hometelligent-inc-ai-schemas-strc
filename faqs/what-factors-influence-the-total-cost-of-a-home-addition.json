@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the total cost of a home addition?",
-  "description": "Factors influencing home addition costs include size, design complexity, material quality, labor, and site-specific challenges like foundation work.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-total-cost-of-a-home-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the total cost of a home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The total cost of a home addition is influenced by several factors, including the size and scope of the addition, the complexity of the design, the quality of materials selected, and labor costs. Site-specific challenges, such as foundation work or grading, can also impact the budget. For example, additions requiring significant excavation or utility relocation may incur higher costs. Hometelligent Inc. serves a wide range of areas from Alameda to Dublin, where material and labor costs can vary slightly, so understanding these local nuances is part of the planning process.",
-        "description": "Factors influencing home addition costs include size, design complexity, material quality, labor, and site-specific challenges like foundation work."
-      }
-    }
-  ],
+  "name": "What factors influence the total cost of a home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the total cost of a home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The total cost of a home addition is influenced by several factors, including the size and scope of the addition, the complexity of the design, the quality of materials selected, and labor costs. Site-specific challenges, such as foundation work or grading, can also impact the budget. For example, additions requiring significant excavation or utility relocation may incur higher costs. Hometelligent Inc. serves a wide range of areas from Alameda to Dublin, where material and labor costs can vary slightly, so understanding these local nuances is part of the planning process.",
+        "@type": "Answer",
+        "description": "Factors influencing home addition costs include size, design complexity, material quality, labor, and site-specific challenges like foundation work."
+      }
+    }
+  ],
+  "description": "Factors influencing home addition costs include size, design complexity, material quality, labor, and site-specific challenges like foundation work."
 }

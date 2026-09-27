@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the installation process for water-efficient fixtures?",
-  "description": "The process includes removing old fixtures, preparing plumbing, installing new units, and testing. Prepare by ensuring clear access to the installation area.",
   "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-water-efficient-fixtures",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the installation process for water-efficient fixtures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process typically involves removing existing fixtures, preparing the plumbing connections, installing the new water-efficient units, and testing for leaks and proper function. For a smooth process, clients in our service areas like Oakland or Hayward can prepare by ensuring clear access to the installation sites and confirming any specific fixture preferences beforehand. This helps our team work efficiently and minimizes disruption.",
-        "description": "The process includes removing old fixtures, preparing plumbing, installing new units, and testing. Prepare by ensuring clear access to the installation area."
-      }
-    }
-  ],
+  "name": "What is the installation process for water-efficient fixtures?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the installation process for water-efficient fixtures?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process typically involves removing existing fixtures, preparing the plumbing connections, installing the new water-efficient units, and testing for leaks and proper function. For a smooth process, clients in our service areas like Oakland or Hayward can prepare by ensuring clear access to the installation sites and confirming any specific fixture preferences beforehand. This helps our team work efficiently and minimizes disruption.",
+        "@type": "Answer",
+        "description": "The process includes removing old fixtures, preparing plumbing, installing new units, and testing. Prepare by ensuring clear access to the installation area."
+      }
+    }
+  ],
+  "description": "The process includes removing old fixtures, preparing plumbing, installing new units, and testing. Prepare by ensuring clear access to the installation area."
 }

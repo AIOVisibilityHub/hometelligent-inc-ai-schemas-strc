@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparatory steps should I take before contacting Hometelligent Inc. for green building consultation?",
-  "description": "Prepare by outlining your project's scope, budget, and sustainability goals. Gather existing plans, site surveys, and property documentation to facilitate consu",
   "url": "https://hometelligentinc.com/faq/what-preparatory-steps-should-i-take-before-contacting-hometelligent-inc-for-gre",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparatory steps should I take before contacting Hometelligent Inc. for green building consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before contacting Hometelligent Inc. for green building consultation, it's helpful to have a clear idea of your project's scope, budget, and any initial sustainability goals or priorities you may have. Gathering existing architectural plans, site surveys, and any relevant property documentation will also be beneficial for our initial assessment. Considering your desired timeline and any specific challenges you anticipate will help us prepare a more tailored and effective consultation for your project in our service areas like Dublin or Emeryville.",
-        "description": "Prepare by outlining your project's scope, budget, and sustainability goals. Gather existing plans, site surveys, and property documentation to facilitate consultation."
-      }
-    }
-  ],
+  "name": "What preparatory steps should I take before contacting Hometelligent Inc. for green building consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparatory steps should I take before contacting Hometelligent Inc. for green building consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before contacting Hometelligent Inc. for green building consultation, it's helpful to have a clear idea of your project's scope, budget, and any initial sustainability goals or priorities you may have. Gathering existing architectural plans, site surveys, and any relevant property documentation will also be beneficial for our initial assessment. Considering your desired timeline and any specific challenges you anticipate will help us prepare a more tailored and effective consultation for your project in our service areas like Dublin or Emeryville.",
+        "@type": "Answer",
+        "description": "Prepare by outlining your project's scope, budget, and sustainability goals. Gather existing plans, site surveys, and property documentation to facilitate consultation."
+      }
+    }
+  ],
+  "description": "Prepare by outlining your project's scope, budget, and sustainability goals. Gather existing plans, site surveys, and property documentation to facilitate consu"
 }

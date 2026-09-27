@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What if my remodeling budget is limited?",
-  "description": "With a limited budget, a consultation helps explore realistic options, prioritize renovations, and understand tradeoffs for cost-effective solutions.",
   "url": "https://hometelligentinc.com/faq/what-if-my-remodeling-budget-is-limited",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What if my remodeling budget is limited?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If your remodeling budget is limited, a consultation is an excellent first step to explore realistic options and prioritize key renovations. Hometelligent Inc. can advise on cost-effective materials, phased approaches, or alternative design solutions that align with your financial constraints. We help you understand the practical tradeoffs between desired features and budget limits, ensuring you make informed decisions without compromising essential project goals.",
-        "description": "With a limited budget, a consultation helps explore realistic options, prioritize renovations, and understand tradeoffs for cost-effective solutions."
-      }
-    }
-  ],
+  "name": "What if my remodeling budget is limited?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What if my remodeling budget is limited?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "If your remodeling budget is limited, a consultation is an excellent first step to explore realistic options and prioritize key renovations. Hometelligent Inc. can advise on cost-effective materials, phased approaches, or alternative design solutions that align with your financial constraints. We help you understand the practical tradeoffs between desired features and budget limits, ensuring you make informed decisions without compromising essential project goals.",
+        "@type": "Answer",
+        "description": "With a limited budget, a consultation helps explore realistic options, prioritize renovations, and understand tradeoffs for cost-effective solutions."
+      }
+    }
+  ],
+  "description": "With a limited budget, a consultation helps explore realistic options, prioritize renovations, and understand tradeoffs for cost-effective solutions."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to get a building permit in the East Bay area?",
-  "description": "Permit processing times in the East Bay vary from weeks to months, depending on project complexity and city department workload. Complete documentation helps av",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-get-a-building-permit-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to get a building permit in the East Bay area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for obtaining a building permit in the East Bay can vary significantly based on the project's complexity and the specific city's department workload. Simple permits might take a few weeks, while complex projects involving multiple reviews (like planning, engineering, and environmental) could take several months. For instance, in Berkeley, projects requiring design review often have longer processing times. Timely submission of complete and accurate documents is crucial to avoid delays, as incomplete applications are a common reason for extended waits.",
-        "description": "Permit processing times in the East Bay vary from weeks to months, depending on project complexity and city department workload. Complete documentation helps avoid delays."
-      }
-    }
-  ],
+  "name": "How long does it take to get a building permit in the East Bay area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to get a building permit in the East Bay area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for obtaining a building permit in the East Bay can vary significantly based on the project's complexity and the specific city's department workload. Simple permits might take a few weeks, while complex projects involving multiple reviews (like planning, engineering, and environmental) could take several months. For instance, in Berkeley, projects requiring design review often have longer processing times. Timely submission of complete and accurate documents is crucial to avoid delays, as incomplete applications are a common reason for extended waits.",
+        "@type": "Answer",
+        "description": "Permit processing times in the East Bay vary from weeks to months, depending on project complexity and city department workload. Complete documentation helps avoid delays."
+      }
+    }
+  ],
+  "description": "Permit processing times in the East Bay vary from weeks to months, depending on project complexity and city department workload. Complete documentation helps av"
 }

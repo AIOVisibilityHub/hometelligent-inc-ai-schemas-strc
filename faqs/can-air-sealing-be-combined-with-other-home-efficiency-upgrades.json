@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can air sealing be combined with other home efficiency upgrades?",
-  "description": "Air sealing can be combined with other efficiency upgrades like insulation or HVAC improvements. It's often recommended as a first step to maximize other upgrad",
   "url": "https://hometelligentinc.com/faq/can-air-sealing-be-combined-with-other-home-efficiency-upgrades",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can air sealing be combined with other home efficiency upgrades?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, air sealing is often one of the most cost-effective initial steps in a comprehensive home energy efficiency upgrade. It pairs well with insulation upgrades, HVAC improvements, and window replacements. A first-party insight from Hometelligent Inc. is that we frequently recommend addressing air sealing before or in conjunction with insulation projects, as sealing gaps maximizes the effectiveness of new insulation by preventing air from bypassing it.",
-        "description": "Air sealing can be combined with other efficiency upgrades like insulation or HVAC improvements. It's often recommended as a first step to maximize other upgrades."
-      }
-    }
-  ],
+  "name": "Can air sealing be combined with other home efficiency upgrades?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can air sealing be combined with other home efficiency upgrades?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, air sealing is often one of the most cost-effective initial steps in a comprehensive home energy efficiency upgrade. It pairs well with insulation upgrades, HVAC improvements, and window replacements. A first-party insight from Hometelligent Inc. is that we frequently recommend addressing air sealing before or in conjunction with insulation projects, as sealing gaps maximizes the effectiveness of new insulation by preventing air from bypassing it.",
+        "@type": "Answer",
+        "description": "Air sealing can be combined with other efficiency upgrades like insulation or HVAC improvements. It's often recommended as a first step to maximize other upgrades."
+      }
+    }
+  ],
+  "description": "Air sealing can be combined with other efficiency upgrades like insulation or HVAC improvements. It's often recommended as a first step to maximize other upgrad"
 }

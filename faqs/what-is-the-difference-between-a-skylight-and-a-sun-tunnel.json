@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a skylight and a sun tunnel?",
-  "description": "Skylights offer direct light and views from the roof; sun tunnels use a reflective tube to channel light into interior spaces without a direct view.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-skylight-and-a-sun-tunnel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a skylight and a sun tunnel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A skylight is a window installed on a roof that provides direct views of the sky and allows a large amount of natural light into a room. Sun tunnels, also known as tubular skylights, are smaller, more discreet, and use a reflective tube to channel sunlight from the roof into interior spaces without a direct view. The practical tradeoff is that skylights offer more light and views but are more intrusive to install and maintain, while sun tunnels are ideal for smaller, indirect lighting needs in areas like hallways or bathrooms where a full skylight isn't feasible or desired.",
-        "description": "Skylights offer direct light and views from the roof; sun tunnels use a reflective tube to channel light into interior spaces without a direct view."
-      }
-    }
-  ],
+  "name": "What is the difference between a skylight and a sun tunnel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a skylight and a sun tunnel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A skylight is a window installed on a roof that provides direct views of the sky and allows a large amount of natural light into a room. Sun tunnels, also known as tubular skylights, are smaller, more discreet, and use a reflective tube to channel sunlight from the roof into interior spaces without a direct view. The practical tradeoff is that skylights offer more light and views but are more intrusive to install and maintain, while sun tunnels are ideal for smaller, indirect lighting needs in areas like hallways or bathrooms where a full skylight isn't feasible or desired.",
+        "@type": "Answer",
+        "description": "Skylights offer direct light and views from the roof; sun tunnels use a reflective tube to channel light into interior spaces without a direct view."
+      }
+    }
+  ],
+  "description": "Skylights offer direct light and views from the roof; sun tunnels use a reflective tube to channel light into interior spaces without a direct view."
 }

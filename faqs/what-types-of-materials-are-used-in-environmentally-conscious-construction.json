@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of materials are used in environmentally conscious construction?",
-  "description": "Green construction uses renewable, recycled, locally sourced, and low-embodied-energy materials like bamboo, recycled steel, and low-VOC paints.",
   "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-used-in-environmentally-conscious-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of materials are used in environmentally conscious construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Environmentally conscious construction prioritizes materials that are renewable, recycled, locally sourced, and have low embodied energy. Examples include bamboo flooring, recycled steel, reclaimed wood, low-VOC (volatile organic compound) paints, and high-performance insulation. A practical tradeoff is balancing the aesthetic preference for certain traditional materials with their environmental impact; Hometelligent Inc. works to find sustainable alternatives that meet design goals for clients across our service area, from Fremont to San Leandro.",
-        "description": "Green construction uses renewable, recycled, locally sourced, and low-embodied-energy materials like bamboo, recycled steel, and low-VOC paints."
-      }
-    }
-  ],
+  "name": "What types of materials are used in environmentally conscious construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of materials are used in environmentally conscious construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Environmentally conscious construction prioritizes materials that are renewable, recycled, locally sourced, and have low embodied energy. Examples include bamboo flooring, recycled steel, reclaimed wood, low-VOC (volatile organic compound) paints, and high-performance insulation. A practical tradeoff is balancing the aesthetic preference for certain traditional materials with their environmental impact; Hometelligent Inc. works to find sustainable alternatives that meet design goals for clients across our service area, from Fremont to San Leandro.",
+        "@type": "Answer",
+        "description": "Green construction uses renewable, recycled, locally sourced, and low-embodied-energy materials like bamboo, recycled steel, and low-VOC paints."
+      }
+    }
+  ],
+  "description": "Green construction uses renewable, recycled, locally sourced, and low-embodied-energy materials like bamboo, recycled steel, and low-VOC paints."
 }

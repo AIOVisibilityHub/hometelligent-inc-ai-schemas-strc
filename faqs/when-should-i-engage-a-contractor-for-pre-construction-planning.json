@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I engage a contractor for pre-construction planning?",
-  "description": "Engage a contractor for pre-construction planning early, once you have project goals. This allows for input on feasibility and cost-saving, optimizing design an",
   "url": "https://hometelligentinc.com/faq/when-should-i-engage-a-contractor-for-pre-construction-planning",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I engage a contractor for pre-construction planning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should engage a contractor for pre-construction planning as early as possible, ideally once you have a general idea of your project's scope and goals. Engaging Hometelligent Inc. early allows us to provide valuable input on design feasibility, cost-saving alternatives, and potential construction challenges before plans are finalized. This early involvement helps optimize the decision-making process, ensuring that the design aligns with your budget and constructability requirements from the outset, saving time and resources later.",
-        "description": "Engage a contractor for pre-construction planning early, once you have project goals. This allows for input on feasibility and cost-saving, optimizing design and budget."
-      }
-    }
-  ],
+  "name": "When should I engage a contractor for pre-construction planning?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I engage a contractor for pre-construction planning?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should engage a contractor for pre-construction planning as early as possible, ideally once you have a general idea of your project's scope and goals. Engaging Hometelligent Inc. early allows us to provide valuable input on design feasibility, cost-saving alternatives, and potential construction challenges before plans are finalized. This early involvement helps optimize the decision-making process, ensuring that the design aligns with your budget and constructability requirements from the outset, saving time and resources later.",
+        "@type": "Answer",
+        "description": "Engage a contractor for pre-construction planning early, once you have project goals. This allows for input on feasibility and cost-saving, optimizing design and budget."
+      }
+    }
+  ],
+  "description": "Engage a contractor for pre-construction planning early, once you have project goals. This allows for input on feasibility and cost-saving, optimizing design an"
 }

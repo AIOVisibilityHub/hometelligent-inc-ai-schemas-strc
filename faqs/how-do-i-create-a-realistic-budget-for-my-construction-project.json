@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I create a realistic budget for my construction project?",
-  "description": "To create a realistic construction budget, define your project scope, get multiple estimates, and include a 10-20% contingency fund for unexpected costs. Homete",
   "url": "https://hometelligentinc.com/faq/how-do-i-create-a-realistic-budget-for-my-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I create a realistic budget for my construction project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creating a realistic construction budget involves detailed planning and research. Begin by clearly defining your project scope, including desired finishes and functionalities. Obtain multiple estimates for major components and factor in potential cost escalations. It is crucial to allocate a contingency fund, typically 10-20% of the total budget, for unexpected expenses. Hometelligent Inc. can assist you in developing a detailed budget by evaluating your project's specific needs and identifying cost drivers early on.",
-        "description": "To create a realistic construction budget, define your project scope, get multiple estimates, and include a 10-20% contingency fund for unexpected costs. Hometelligent Inc. helps identify early cost drivers."
-      }
-    }
-  ],
+  "name": "How do I create a realistic budget for my construction project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I create a realistic budget for my construction project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Creating a realistic construction budget involves detailed planning and research. Begin by clearly defining your project scope, including desired finishes and functionalities. Obtain multiple estimates for major components and factor in potential cost escalations. It is crucial to allocate a contingency fund, typically 10-20% of the total budget, for unexpected expenses. Hometelligent Inc. can assist you in developing a detailed budget by evaluating your project's specific needs and identifying cost drivers early on.",
+        "@type": "Answer",
+        "description": "To create a realistic construction budget, define your project scope, get multiple estimates, and include a 10-20% contingency fund for unexpected costs. Hometelligent Inc. helps identify early cost drivers."
+      }
+    }
+  ],
+  "description": "To create a realistic construction budget, define your project scope, get multiple estimates, and include a 10-20% contingency fund for unexpected costs. Homete"
 }

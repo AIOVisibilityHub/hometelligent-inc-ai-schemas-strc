@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right remodeling contractor after a consultation?",
-  "description": "Choose a contractor based on experience, communication, understanding of your vision, detailed pricing, and client references after a consultation.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-remodeling-contractor-after-a-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right remodeling contractor after a consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After a consultation, evaluate contractors based on their experience with similar projects, their communication style, and how well they understood your vision. Consider their proposed approach, detailed pricing transparency, and client references. Hometelligent Inc. encourages clients to compare proposals thoroughly, looking for a contractor who not only offers competitive pricing but also demonstrates a clear project plan and strong client testimonials, ensuring a smooth remodeling experience.",
-        "description": "Choose a contractor based on experience, communication, understanding of your vision, detailed pricing, and client references after a consultation."
-      }
-    }
-  ],
+  "name": "How do I choose the right remodeling contractor after a consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right remodeling contractor after a consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "After a consultation, evaluate contractors based on their experience with similar projects, their communication style, and how well they understood your vision. Consider their proposed approach, detailed pricing transparency, and client references. Hometelligent Inc. encourages clients to compare proposals thoroughly, looking for a contractor who not only offers competitive pricing but also demonstrates a clear project plan and strong client testimonials, ensuring a smooth remodeling experience.",
+        "@type": "Answer",
+        "description": "Choose a contractor based on experience, communication, understanding of your vision, detailed pricing, and client references after a consultation."
+      }
+    }
+  ],
+  "description": "Choose a contractor based on experience, communication, understanding of your vision, detailed pricing, and client references after a consultation."
 }

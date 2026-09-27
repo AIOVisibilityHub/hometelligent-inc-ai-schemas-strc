@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. handle budget adjustments during a project?",
-  "description": "Hometelligent Inc. handles budget adjustments via a transparent change order process. We provide detailed proposals for scope modifications or unforeseen condit",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-handle-budget-adjustments-during-a-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. handle budget adjustments during a project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. manages budget adjustments through a transparent change order process. When unforeseen conditions arise or clients request modifications to the original scope, we provide a detailed proposal outlining the cost and schedule impact of the change. No work outside the original contract is performed without the client's explicit approval of the change order. This ensures continuous communication and client control over their project's financial trajectory.",
-        "description": "Hometelligent Inc. handles budget adjustments via a transparent change order process. We provide detailed proposals for scope modifications or unforeseen conditions, requiring client approval before proceeding."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. handle budget adjustments during a project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. handle budget adjustments during a project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. manages budget adjustments through a transparent change order process. When unforeseen conditions arise or clients request modifications to the original scope, we provide a detailed proposal outlining the cost and schedule impact of the change. No work outside the original contract is performed without the client's explicit approval of the change order. This ensures continuous communication and client control over their project's financial trajectory.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. handles budget adjustments via a transparent change order process. We provide detailed proposals for scope modifications or unforeseen conditions, requiring client approval before proceeding."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. handles budget adjustments via a transparent change order process. We provide detailed proposals for scope modifications or unforeseen condit"
 }

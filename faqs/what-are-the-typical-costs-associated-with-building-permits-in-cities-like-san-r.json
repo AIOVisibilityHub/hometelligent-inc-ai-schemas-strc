@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the typical costs associated with building permits in cities like San Ramon or Walnut Creek?",
-  "description": "Building permit costs in cities like San Ramon or Walnut Creek depend on project valuation or square footage, covering plan checks, inspections, and impact fees",
   "url": "https://hometelligentinc.com/faq/what-are-the-typical-costs-associated-with-building-permits-in-cities-like-san-r",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the typical costs associated with building permits in cities like San Ramon or Walnut Creek?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building permit fees in cities like San Ramon or Walnut Creek are typically calculated based on the project's valuation or square footage, as well as the type of work being done. These fees can include plan check fees, inspection fees, and various impact fees, which support local infrastructure and services. For example, a major home addition will incur higher fees than a minor interior renovation. It's important to understand these costs upfront, as they are a necessary part of your overall project budget and vary by jurisdiction.",
-        "description": "Building permit costs in cities like San Ramon or Walnut Creek depend on project valuation or square footage, covering plan checks, inspections, and impact fees."
-      }
-    }
-  ],
+  "name": "What are the typical costs associated with building permits in cities like San Ramon or Walnut Creek?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the typical costs associated with building permits in cities like San Ramon or Walnut Creek?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building permit fees in cities like San Ramon or Walnut Creek are typically calculated based on the project's valuation or square footage, as well as the type of work being done. These fees can include plan check fees, inspection fees, and various impact fees, which support local infrastructure and services. For example, a major home addition will incur higher fees than a minor interior renovation. It's important to understand these costs upfront, as they are a necessary part of your overall project budget and vary by jurisdiction.",
+        "@type": "Answer",
+        "description": "Building permit costs in cities like San Ramon or Walnut Creek depend on project valuation or square footage, covering plan checks, inspections, and impact fees."
+      }
+    }
+  ],
+  "description": "Building permit costs in cities like San Ramon or Walnut Creek depend on project valuation or square footage, covering plan checks, inspections, and impact fees"
 }

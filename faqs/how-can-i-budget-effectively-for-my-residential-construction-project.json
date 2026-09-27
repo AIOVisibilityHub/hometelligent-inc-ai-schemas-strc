@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I budget effectively for my residential construction project?",
-  "description": "Budgeting requires estimating design, materials, labor, permits, and a contingency fund. Prioritizing features and getting multiple quotes helps manage costs ef",
   "url": "https://hometelligentinc.com/faq/how-can-i-budget-effectively-for-my-residential-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I budget effectively for my residential construction project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effective budgeting for residential construction involves estimating costs for design, materials, labor, permits, and a contingency fund (typically 10-20% of the total budget). To prepare, gather quotes from various contractors and suppliers, and prioritize your 'must-have' features versus 'nice-to-have' elements. A detailed budget helps you make informed decisions throughout the project and manage potential changes without financial strain.",
-        "description": "Budgeting requires estimating design, materials, labor, permits, and a contingency fund. Prioritizing features and getting multiple quotes helps manage costs effectively."
-      }
-    }
-  ],
+  "name": "How can I budget effectively for my residential construction project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I budget effectively for my residential construction project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Effective budgeting for residential construction involves estimating costs for design, materials, labor, permits, and a contingency fund (typically 10-20% of the total budget). To prepare, gather quotes from various contractors and suppliers, and prioritize your 'must-have' features versus 'nice-to-have' elements. A detailed budget helps you make informed decisions throughout the project and manage potential changes without financial strain.",
+        "@type": "Answer",
+        "description": "Budgeting requires estimating design, materials, labor, permits, and a contingency fund. Prioritizing features and getting multiple quotes helps manage costs effectively."
+      }
+    }
+  ],
+  "description": "Budgeting requires estimating design, materials, labor, permits, and a contingency fund. Prioritizing features and getting multiple quotes helps manage costs ef"
 }

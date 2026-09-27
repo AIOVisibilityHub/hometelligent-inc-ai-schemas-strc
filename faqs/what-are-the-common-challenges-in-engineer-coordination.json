@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common challenges in engineer coordination?",
-  "description": "Challenges include miscommunication, conflicting designs, and lack of central information, which we address with dedicated project managers.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-in-engineer-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common challenges in engineer coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges in engineer coordination include miscommunication between different engineering teams, conflicting design specifications, and a lack of a centralized information hub. Another challenge is incorporating late design changes without impacting other disciplines. For Hometelligent Inc., we address this by utilizing a dedicated project manager who serves as a central point of contact and facilitates regular, structured meetings with all involved engineers to maintain clear communication and shared understanding.",
-        "description": "Challenges include miscommunication, conflicting designs, and lack of central information, which we address with dedicated project managers."
-      }
-    }
-  ],
+  "name": "What are the common challenges in engineer coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common challenges in engineer coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges in engineer coordination include miscommunication between different engineering teams, conflicting design specifications, and a lack of a centralized information hub. Another challenge is incorporating late design changes without impacting other disciplines. For Hometelligent Inc., we address this by utilizing a dedicated project manager who serves as a central point of contact and facilitates regular, structured meetings with all involved engineers to maintain clear communication and shared understanding.",
+        "@type": "Answer",
+        "description": "Challenges include miscommunication, conflicting designs, and lack of central information, which we address with dedicated project managers."
+      }
+    }
+  ],
+  "description": "Challenges include miscommunication, conflicting designs, and lack of central information, which we address with dedicated project managers."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What documents are required for plan review coordination?",
-  "description": "Required documents typically include architectural, structural, MEP, and site plans, with specifics depending on project scope and local rules.",
   "url": "https://hometelligentinc.com/faq/what-documents-are-required-for-plan-review-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What documents are required for plan review coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Typical documents required for plan review coordination include architectural drawings, structural engineering plans, mechanical, electrical, and plumbing (MEP) designs, site plans, energy calculations, and sometimes landscape plans or environmental impact reports. The exact list depends on the project scope and local regulations. Gathering all necessary documents accurately and comprehensively before submission is a crucial preparation step to avoid immediate rejections or requests for further information.",
-        "description": "Required documents typically include architectural, structural, MEP, and site plans, with specifics depending on project scope and local rules."
-      }
-    }
-  ],
+  "name": "What documents are required for plan review coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What documents are required for plan review coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Typical documents required for plan review coordination include architectural drawings, structural engineering plans, mechanical, electrical, and plumbing (MEP) designs, site plans, energy calculations, and sometimes landscape plans or environmental impact reports. The exact list depends on the project scope and local regulations. Gathering all necessary documents accurately and comprehensively before submission is a crucial preparation step to avoid immediate rejections or requests for further information.",
+        "@type": "Answer",
+        "description": "Required documents typically include architectural, structural, MEP, and site plans, with specifics depending on project scope and local rules."
+      }
+    }
+  ],
+  "description": "Required documents typically include architectural, structural, MEP, and site plans, with specifics depending on project scope and local rules."
 }

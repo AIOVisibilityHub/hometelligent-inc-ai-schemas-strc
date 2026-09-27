@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of skylights are available for residential installation?",
-  "description": "Available skylight types include fixed for light, venting for light and air, and sun tunnels for smaller spaces. Selection depends on specific needs and budget.",
   "url": "https://hometelligentinc.com/faq/what-types-of-skylights-are-available-for-residential-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of skylights are available for residential installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Residential skylights come in several types, each suited for different needs. Fixed skylights are non-opening and provide natural light without ventilation. Venting skylights, which can be manual or electric, allow for fresh air and humidity control, beneficial for kitchens or bathrooms. Additionally, there are tubular daylighting devices, often called sun tunnels, which are ideal for smaller, darker spaces where a traditional skylight might not be feasible or necessary. Your choice depends on light needs, ventilation desires, and budget.",
-        "description": "Available skylight types include fixed for light, venting for light and air, and sun tunnels for smaller spaces. Selection depends on specific needs and budget."
-      }
-    }
-  ],
+  "name": "What types of skylights are available for residential installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of skylights are available for residential installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Residential skylights come in several types, each suited for different needs. Fixed skylights are non-opening and provide natural light without ventilation. Venting skylights, which can be manual or electric, allow for fresh air and humidity control, beneficial for kitchens or bathrooms. Additionally, there are tubular daylighting devices, often called sun tunnels, which are ideal for smaller, darker spaces where a traditional skylight might not be feasible or necessary. Your choice depends on light needs, ventilation desires, and budget.",
+        "@type": "Answer",
+        "description": "Available skylight types include fixed for light, venting for light and air, and sun tunnels for smaller spaces. Selection depends on specific needs and budget."
+      }
+    }
+  ],
+  "description": "Available skylight types include fixed for light, venting for light and air, and sun tunnels for smaller spaces. Selection depends on specific needs and budget."
 }

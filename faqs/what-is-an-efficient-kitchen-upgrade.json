@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an efficient kitchen upgrade?",
-  "description": "An efficient kitchen upgrade optimizes functionality, energy use, and workflow through smart appliance choices, layout improvements, and material selections.",
   "url": "https://hometelligentinc.com/faq/what-is-an-efficient-kitchen-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an efficient kitchen upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An efficient kitchen upgrade focuses on optimizing your kitchen's functionality, energy consumption, and overall workflow. This often involves selecting energy-efficient appliances, improving insulation, updating plumbing fixtures for water conservation, and redesigning the layout to minimize steps and maximize storage. Consideration of durable, low-maintenance materials also contributes to long-term efficiency by reducing replacement frequency and cleaning time. We often see customers prioritize a layout that supports their cooking habits, like placing prep areas near the sink and cooktop.",
-        "description": "An efficient kitchen upgrade optimizes functionality, energy use, and workflow through smart appliance choices, layout improvements, and material selections."
-      }
-    }
-  ],
+  "name": "What is an efficient kitchen upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an efficient kitchen upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An efficient kitchen upgrade focuses on optimizing your kitchen's functionality, energy consumption, and overall workflow. This often involves selecting energy-efficient appliances, improving insulation, updating plumbing fixtures for water conservation, and redesigning the layout to minimize steps and maximize storage. Consideration of durable, low-maintenance materials also contributes to long-term efficiency by reducing replacement frequency and cleaning time. We often see customers prioritize a layout that supports their cooking habits, like placing prep areas near the sink and cooktop.",
+        "@type": "Answer",
+        "description": "An efficient kitchen upgrade optimizes functionality, energy use, and workflow through smart appliance choices, layout improvements, and material selections."
+      }
+    }
+  ],
+  "description": "An efficient kitchen upgrade optimizes functionality, energy use, and workflow through smart appliance choices, layout improvements, and material selections."
 }

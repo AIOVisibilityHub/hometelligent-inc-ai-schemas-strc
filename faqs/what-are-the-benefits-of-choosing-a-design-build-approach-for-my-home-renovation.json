@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of choosing a design-build approach for my home renovation?",
-  "description": "Benefits include unified accountability, simplified communication, and often a faster project timeline, with better cost management from the start.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-choosing-a-design-build-approach-for-my-home-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of choosing a design-build approach for my home renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The design-build approach offers several benefits, including unified accountability, simplified communication, and often a faster project timeline. With one team responsible for both design and construction, there's less chance of miscommunication or disputes between separate designers and builders. This integrated model can also help manage costs more effectively from the initial design phase, as the construction team provides practical input on material and labor costs throughout. This is particularly valuable for complex renovations in diverse architectural styles found in areas like Oakland Hills or Rockridge.",
-        "description": "Benefits include unified accountability, simplified communication, and often a faster project timeline, with better cost management from the start."
-      }
-    }
-  ],
+  "name": "What are the benefits of choosing a design-build approach for my home renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of choosing a design-build approach for my home renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The design-build approach offers several benefits, including unified accountability, simplified communication, and often a faster project timeline. With one team responsible for both design and construction, there's less chance of miscommunication or disputes between separate designers and builders. This integrated model can also help manage costs more effectively from the initial design phase, as the construction team provides practical input on material and labor costs throughout. This is particularly valuable for complex renovations in diverse architectural styles found in areas like Oakland Hills or Rockridge.",
+        "@type": "Answer",
+        "description": "Benefits include unified accountability, simplified communication, and often a faster project timeline, with better cost management from the start."
+      }
+    }
+  ],
+  "description": "Benefits include unified accountability, simplified communication, and often a faster project timeline, with better cost management from the start."
 }

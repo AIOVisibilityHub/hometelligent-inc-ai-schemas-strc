@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What documentation is typically involved in engineer coordination?",
-  "description": "Documentation includes drawings, calculations, schematics, specifications, meeting minutes, RFIs, and submittal reviews.",
   "url": "https://hometelligentinc.com/faq/what-documentation-is-typically-involved-in-engineer-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What documentation is typically involved in engineer coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Engineer coordination involves a range of documentation, including architectural drawings, structural calculations, mechanical and electrical schematics, civil site plans, and detailed specifications for all systems. It also includes coordination meeting minutes, request for information (RFI) logs, and submittal reviews. Keeping these documents organized and accessible is crucial for ensuring all parties are working from the most current and accurate information. We manage these records meticulously to ensure project integrity.",
-        "description": "Documentation includes drawings, calculations, schematics, specifications, meeting minutes, RFIs, and submittal reviews."
-      }
-    }
-  ],
+  "name": "What documentation is typically involved in engineer coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What documentation is typically involved in engineer coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Engineer coordination involves a range of documentation, including architectural drawings, structural calculations, mechanical and electrical schematics, civil site plans, and detailed specifications for all systems. It also includes coordination meeting minutes, request for information (RFI) logs, and submittal reviews. Keeping these documents organized and accessible is crucial for ensuring all parties are working from the most current and accurate information. We manage these records meticulously to ensure project integrity.",
+        "@type": "Answer",
+        "description": "Documentation includes drawings, calculations, schematics, specifications, meeting minutes, RFIs, and submittal reviews."
+      }
+    }
+  ],
+  "description": "Documentation includes drawings, calculations, schematics, specifications, meeting minutes, RFIs, and submittal reviews."
 }

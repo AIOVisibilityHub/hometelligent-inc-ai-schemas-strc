@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does an efficient kitchen upgrade project typically take?",
-  "description": "Project timelines vary: minor updates take days to weeks, while full remodels can last 6-12 weeks, depending on scope and complexity.",
   "url": "https://hometelligentinc.com/faq/how-long-does-an-efficient-kitchen-upgrade-project-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does an efficient kitchen upgrade project typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for an efficient kitchen upgrade depends on the project's complexity and scope. Minor updates like appliance replacement or cabinet refacing might take a few days to a couple of weeks. A full kitchen remodel, involving layout changes, plumbing, electrical work, and new installations, can typically range from 6 to 12 weeks from start to finish. This timeframe includes design, material selection, permitting (if required), demolition, and construction. During our initial consultation, we can provide a more precise timeline based on your specific project details and material lead times.",
-        "description": "Project timelines vary: minor updates take days to weeks, while full remodels can last 6-12 weeks, depending on scope and complexity."
-      }
-    }
-  ],
+  "name": "How long does an efficient kitchen upgrade project typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does an efficient kitchen upgrade project typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for an efficient kitchen upgrade depends on the project's complexity and scope. Minor updates like appliance replacement or cabinet refacing might take a few days to a couple of weeks. A full kitchen remodel, involving layout changes, plumbing, electrical work, and new installations, can typically range from 6 to 12 weeks from start to finish. This timeframe includes design, material selection, permitting (if required), demolition, and construction. During our initial consultation, we can provide a more precise timeline based on your specific project details and material lead times.",
+        "@type": "Answer",
+        "description": "Project timelines vary: minor updates take days to weeks, while full remodels can last 6-12 weeks, depending on scope and complexity."
+      }
+    }
+  ],
+  "description": "Project timelines vary: minor updates take days to weeks, while full remodels can last 6-12 weeks, depending on scope and complexity."
 }

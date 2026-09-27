@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does the construction planning phase typically take?",
-  "description": "Construction planning duration depends on project complexity; smaller renovations take weeks, while larger builds can take months, depending on design and permi",
   "url": "https://hometelligentinc.com/faq/how-long-does-the-construction-planning-phase-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does the construction planning phase typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of the construction planning phase varies based on project complexity and size. Smaller renovations might take a few weeks, while larger new builds can extend to several months, especially when architectural design and extensive permitting are involved. We emphasize thorough planning to avoid delays later in the construction process, ensuring a smoother execution.",
-        "description": "Construction planning duration depends on project complexity; smaller renovations take weeks, while larger builds can take months, depending on design and permits."
-      }
-    }
-  ],
+  "name": "How long does the construction planning phase typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does the construction planning phase typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of the construction planning phase varies based on project complexity and size. Smaller renovations might take a few weeks, while larger new builds can extend to several months, especially when architectural design and extensive permitting are involved. We emphasize thorough planning to avoid delays later in the construction process, ensuring a smoother execution.",
+        "@type": "Answer",
+        "description": "Construction planning duration depends on project complexity; smaller renovations take weeks, while larger builds can take months, depending on design and permits."
+      }
+    }
+  ],
+  "description": "Construction planning duration depends on project complexity; smaller renovations take weeks, while larger builds can take months, depending on design and permi"
 }

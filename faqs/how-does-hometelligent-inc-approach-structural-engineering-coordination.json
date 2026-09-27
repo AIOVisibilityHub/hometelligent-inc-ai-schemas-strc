@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. approach structural engineering coordination?",
-  "description": "Hometelligent uses a collaborative design-build approach with regular meetings and BIM to align engineers, architects, and trades.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-approach-structural-engineering-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. approach structural engineering coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. integrates structural engineering coordination as a core part of our design-build process, utilizing a collaborative approach. We facilitate regular meetings and digital model sharing (BIM) among our in-house structural engineers, architects, and other trade professionals from areas like Fremont to San Leandro. This first-party insight ensures all disciplines are aligned, potential issues are resolved proactively, and designs meet both safety standards and aesthetic goals.",
-        "description": "Hometelligent uses a collaborative design-build approach with regular meetings and BIM to align engineers, architects, and trades."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. approach structural engineering coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. approach structural engineering coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. integrates structural engineering coordination as a core part of our design-build process, utilizing a collaborative approach. We facilitate regular meetings and digital model sharing (BIM) among our in-house structural engineers, architects, and other trade professionals from areas like Fremont to San Leandro. This first-party insight ensures all disciplines are aligned, potential issues are resolved proactively, and designs meet both safety standards and aesthetic goals.",
+        "@type": "Answer",
+        "description": "Hometelligent uses a collaborative design-build approach with regular meetings and BIM to align engineers, architects, and trades."
+      }
+    }
+  ],
+  "description": "Hometelligent uses a collaborative design-build approach with regular meetings and BIM to align engineers, architects, and trades."
 }

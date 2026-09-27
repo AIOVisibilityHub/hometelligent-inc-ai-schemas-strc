@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to do anything to prepare my home for air sealing work?",
-  "description": "Prepare by clearing access to attics, crawl spaces, and around windows/doors. Inform us of any known moisture or pest issues.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-do-anything-to-prepare-my-home-for-air-sealing-work",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to do anything to prepare my home for air sealing work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for air sealing, you may need to clear access to attics, crawl spaces, and around windows and doors, especially if these areas are cluttered. This preparation helps our technicians work efficiently and safely. We also recommend discussing any known moisture issues or previous pest problems, as these may need to be addressed before sealing to ensure a lasting and effective improvement.",
-        "description": "Prepare by clearing access to attics, crawl spaces, and around windows/doors. Inform us of any known moisture or pest issues."
-      }
-    }
-  ],
+  "name": "Do I need to do anything to prepare my home for air sealing work?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to do anything to prepare my home for air sealing work?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for air sealing, you may need to clear access to attics, crawl spaces, and around windows and doors, especially if these areas are cluttered. This preparation helps our technicians work efficiently and safely. We also recommend discussing any known moisture issues or previous pest problems, as these may need to be addressed before sealing to ensure a lasting and effective improvement.",
+        "@type": "Answer",
+        "description": "Prepare by clearing access to attics, crawl spaces, and around windows/doors. Inform us of any known moisture or pest issues."
+      }
+    }
+  ],
+  "description": "Prepare by clearing access to attics, crawl spaces, and around windows/doors. Inform us of any known moisture or pest issues."
 }

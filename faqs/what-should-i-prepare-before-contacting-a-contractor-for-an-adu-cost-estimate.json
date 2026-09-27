@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before contacting a contractor for an ADU cost estimate?",
-  "description": "Before contacting a contractor, prepare your ADU goals, desired size, intended use, property information, and a preliminary budget range for a more accurate est",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-contacting-a-contractor-for-an-adu-cost-estimate",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before contacting a contractor for an ADU cost estimate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before contacting a contractor for an ADU cost estimate, you should have a clear idea of your project's goals, desired size, and intended use for the ADU. Basic property information, such as lot size, existing structures, and any specific site challenges (e.g., slopes, limited access), will be helpful. Having a preliminary budget range in mind is also beneficial. This preparation helps us provide a more accurate and tailored estimate, as it allows us to understand the scope and potential complexities specific to your property in areas like Alameda or Berkeley.",
-        "description": "Before contacting a contractor, prepare your ADU goals, desired size, intended use, property information, and a preliminary budget range for a more accurate estimate."
-      }
-    }
-  ],
+  "name": "What should I prepare before contacting a contractor for an ADU cost estimate?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before contacting a contractor for an ADU cost estimate?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before contacting a contractor for an ADU cost estimate, you should have a clear idea of your project's goals, desired size, and intended use for the ADU. Basic property information, such as lot size, existing structures, and any specific site challenges (e.g., slopes, limited access), will be helpful. Having a preliminary budget range in mind is also beneficial. This preparation helps us provide a more accurate and tailored estimate, as it allows us to understand the scope and potential complexities specific to your property in areas like Alameda or Berkeley.",
+        "@type": "Answer",
+        "description": "Before contacting a contractor, prepare your ADU goals, desired size, intended use, property information, and a preliminary budget range for a more accurate estimate."
+      }
+    }
+  ],
+  "description": "Before contacting a contractor, prepare your ADU goals, desired size, intended use, property information, and a preliminary budget range for a more accurate est"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical skylight installation take?",
-  "description": "A standard skylight installation usually takes 1-2 days, but timing varies based on skylight type, structural needs, and weather conditions.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-skylight-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical skylight installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A standard skylight installation, involving a single unit in an accessible location, can often be completed within one to two days. However, the exact timeline can vary depending on factors such as the type of skylight, the extent of structural modifications required, weather conditions, and the complexity of interior finishing. For multiple skylights or more intricate projects, the duration will naturally be longer. We provide a projected timeline during the initial assessment.",
-        "description": "A standard skylight installation usually takes 1-2 days, but timing varies based on skylight type, structural needs, and weather conditions."
-      }
-    }
-  ],
+  "name": "How long does a typical skylight installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical skylight installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A standard skylight installation, involving a single unit in an accessible location, can often be completed within one to two days. However, the exact timeline can vary depending on factors such as the type of skylight, the extent of structural modifications required, weather conditions, and the complexity of interior finishing. For multiple skylights or more intricate projects, the duration will naturally be longer. We provide a projected timeline during the initial assessment.",
+        "@type": "Answer",
+        "description": "A standard skylight installation usually takes 1-2 days, but timing varies based on skylight type, structural needs, and weather conditions."
+      }
+    }
+  ],
+  "description": "A standard skylight installation usually takes 1-2 days, but timing varies based on skylight type, structural needs, and weather conditions."
 }

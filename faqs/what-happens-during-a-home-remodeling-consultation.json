@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What happens during a home remodeling consultation?",
-  "description": "A home remodeling consultation involves discussing your project vision, assessing your home's condition, and reviewing scope, budget, and local regulations.",
   "url": "https://hometelligentinc.com/faq/what-happens-during-a-home-remodeling-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What happens during a home remodeling consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "During a home remodeling consultation, Hometelligent Inc. discusses your vision, project goals, and functional needs. We assess your home's current condition and structural considerations. This initial meeting helps us understand the scope of work, potential challenges, and your budget parameters. We'll also review local zoning and building codes relevant to our service areas like Alameda or Berkeley, which can impact design choices and permits, ensuring your project complies from the outset.",
-        "description": "A home remodeling consultation involves discussing your project vision, assessing your home's condition, and reviewing scope, budget, and local regulations."
-      }
-    }
-  ],
+  "name": "What happens during a home remodeling consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What happens during a home remodeling consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "During a home remodeling consultation, Hometelligent Inc. discusses your vision, project goals, and functional needs. We assess your home's current condition and structural considerations. This initial meeting helps us understand the scope of work, potential challenges, and your budget parameters. We'll also review local zoning and building codes relevant to our service areas like Alameda or Berkeley, which can impact design choices and permits, ensuring your project complies from the outset.",
+        "@type": "Answer",
+        "description": "A home remodeling consultation involves discussing your project vision, assessing your home's condition, and reviewing scope, budget, and local regulations."
+      }
+    }
+  ],
+  "description": "A home remodeling consultation involves discussing your project vision, assessing your home's condition, and reviewing scope, budget, and local regulations."
 }

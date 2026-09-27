@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in construction planning for a residential project?",
-  "description": "Residential construction planning includes defining scope, timelines, budget, and materials, alongside securing necessary permits and adhering to local codes.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-construction-planning-for-a-residential-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in construction planning for a residential project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Construction planning for a residential project involves defining the scope, setting timelines, budgeting, and selecting materials. We work with clients to develop a detailed plan that aligns with their vision and local building codes. This initial phase also includes identifying necessary permits and ensuring all regulatory requirements are addressed, which is crucial for projects in Alameda and surrounding areas.",
-        "description": "Residential construction planning includes defining scope, timelines, budget, and materials, alongside securing necessary permits and adhering to local codes."
-      }
-    }
-  ],
+  "name": "What is involved in construction planning for a residential project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in construction planning for a residential project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Construction planning for a residential project involves defining the scope, setting timelines, budgeting, and selecting materials. We work with clients to develop a detailed plan that aligns with their vision and local building codes. This initial phase also includes identifying necessary permits and ensuring all regulatory requirements are addressed, which is crucial for projects in Alameda and surrounding areas.",
+        "@type": "Answer",
+        "description": "Residential construction planning includes defining scope, timelines, budget, and materials, alongside securing necessary permits and adhering to local codes."
+      }
+    }
+  ],
+  "description": "Residential construction planning includes defining scope, timelines, budget, and materials, alongside securing necessary permits and adhering to local codes."
 }

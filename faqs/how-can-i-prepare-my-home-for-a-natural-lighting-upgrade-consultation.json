@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my home for a natural lighting upgrade consultation?",
-  "description": "Prepare by identifying dimly lit rooms, considering your budget and aesthetic, and noting any architectural plans or existing issues for our consultation.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-home-for-a-natural-lighting-upgrade-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my home for a natural lighting upgrade consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for a natural lighting upgrade consultation, consider which rooms lack sufficient natural light and where you envision adding it. Gather any architectural plans if available, and think about your budget and aesthetic preferences. It's helpful to also note any existing issues like drafts from old windows or specific areas that feel dim. This preparation helps us understand your needs better and allows us to provide more accurate recommendations and a tailored estimate during our visit to your home.",
-        "description": "Prepare by identifying dimly lit rooms, considering your budget and aesthetic, and noting any architectural plans or existing issues for our consultation."
-      }
-    }
-  ],
+  "name": "How can I prepare my home for a natural lighting upgrade consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my home for a natural lighting upgrade consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for a natural lighting upgrade consultation, consider which rooms lack sufficient natural light and where you envision adding it. Gather any architectural plans if available, and think about your budget and aesthetic preferences. It's helpful to also note any existing issues like drafts from old windows or specific areas that feel dim. This preparation helps us understand your needs better and allows us to provide more accurate recommendations and a tailored estimate during our visit to your home.",
+        "@type": "Answer",
+        "description": "Prepare by identifying dimly lit rooms, considering your budget and aesthetic, and noting any architectural plans or existing issues for our consultation."
+      }
+    }
+  ],
+  "description": "Prepare by identifying dimly lit rooms, considering your budget and aesthetic, and noting any architectural plans or existing issues for our consultation."
 }

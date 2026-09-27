@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is green building consultation and why is it important?",
-  "description": "Green building consultation guides sustainable construction to reduce environmental impact and improve efficiency. It helps lower costs, create healthier spaces",
   "url": "https://hometelligentinc.com/faq/what-is-green-building-consultation-and-why-is-it-important",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is green building consultation and why is it important?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Green building consultation focuses on designing, constructing, and operating buildings sustainably, minimizing environmental impact while maximizing resource efficiency. It's important because it can lead to reduced energy and water consumption, lower operating costs, healthier indoor environments, and increased property value. Hometelligent Inc. provides guidance on materials, systems, and design strategies to meet specific environmental goals for your project, considering factors like local climate and resource availability in areas such as Alameda and Berkeley.",
-        "description": "Green building consultation guides sustainable construction to reduce environmental impact and improve efficiency. It helps lower costs, create healthier spaces, and increase property value."
-      }
-    }
-  ],
+  "name": "What is green building consultation and why is it important?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is green building consultation and why is it important?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Green building consultation focuses on designing, constructing, and operating buildings sustainably, minimizing environmental impact while maximizing resource efficiency. It's important because it can lead to reduced energy and water consumption, lower operating costs, healthier indoor environments, and increased property value. Hometelligent Inc. provides guidance on materials, systems, and design strategies to meet specific environmental goals for your project, considering factors like local climate and resource availability in areas such as Alameda and Berkeley.",
+        "@type": "Answer",
+        "description": "Green building consultation guides sustainable construction to reduce environmental impact and improve efficiency. It helps lower costs, create healthier spaces, and increase property value."
+      }
+    }
+  ],
+  "description": "Green building consultation guides sustainable construction to reduce environmental impact and improve efficiency. It helps lower costs, create healthier spaces"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of eco-friendly materials are commonly used in sustainable renovations?",
-  "description": "Eco-friendly materials include recycled drywall, low-VOC paints, renewable flooring, and reclaimed wood. The best choices depend on your renovation area and fun",
   "url": "https://hometelligentinc.com/faq/what-types-of-eco-friendly-materials-are-commonly-used-in-sustainable-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of eco-friendly materials are commonly used in sustainable renovations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common eco-friendly materials include recycled content drywall, low-VOC (volatile organic compound) paints and finishes, rapidly renewable flooring options like bamboo or cork, and reclaimed wood. We also utilize durable, locally sourced materials when possible to reduce transportation impacts. The best material choices often depend on the specific area of your home being renovated and its function; for instance, moisture-resistant, recycled-content tiles might be ideal for a bathroom, while natural fiber insulation could be best for attic spaces. Hometelligent Inc. helps clients select materials that align with both their aesthetic preferences and sustainability goals.",
-        "description": "Eco-friendly materials include recycled drywall, low-VOC paints, renewable flooring, and reclaimed wood. The best choices depend on your renovation area and function."
-      }
-    }
-  ],
+  "name": "What types of eco-friendly materials are commonly used in sustainable renovations?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of eco-friendly materials are commonly used in sustainable renovations?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common eco-friendly materials include recycled content drywall, low-VOC (volatile organic compound) paints and finishes, rapidly renewable flooring options like bamboo or cork, and reclaimed wood. We also utilize durable, locally sourced materials when possible to reduce transportation impacts. The best material choices often depend on the specific area of your home being renovated and its function; for instance, moisture-resistant, recycled-content tiles might be ideal for a bathroom, while natural fiber insulation could be best for attic spaces. Hometelligent Inc. helps clients select materials that align with both their aesthetic preferences and sustainability goals.",
+        "@type": "Answer",
+        "description": "Eco-friendly materials include recycled drywall, low-VOC paints, renewable flooring, and reclaimed wood. The best choices depend on your renovation area and function."
+      }
+    }
+  ],
+  "description": "Eco-friendly materials include recycled drywall, low-VOC paints, renewable flooring, and reclaimed wood. The best choices depend on your renovation area and fun"
 }

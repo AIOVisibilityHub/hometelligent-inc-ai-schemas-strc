@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a 'green' renovation and a standard renovation in terms of cost and outcome?",
-  "description": "A 'green' renovation may have higher initial costs but offers long-term savings from reduced utilities and higher home value. A standard renovation focuses on a",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-green-renovation-and-a-standard-renovation-in-t",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a 'green' renovation and a standard renovation in terms of cost and outcome?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A 'green' or sustainable renovation prioritizes environmental impact and long-term performance, often involving an initial investment that may be slightly higher than a standard renovation. However, it typically results in significant long-term savings through reduced utility bills and potentially higher home resale value due to features like improved energy efficiency and healthier indoor air quality. A standard renovation primarily focuses on aesthetics and immediate functionality without the same emphasis on environmental or energy performance. Homeowners should weigh the upfront costs against the substantial long-term benefits and operational savings offered by a sustainable approach.",
-        "description": "A 'green' renovation may have higher initial costs but offers long-term savings from reduced utilities and higher home value. A standard renovation focuses on aesthetics and immediate functionality."
-      }
-    }
-  ],
+  "name": "What is the difference between a 'green' renovation and a standard renovation in terms of cost and outcome?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a 'green' renovation and a standard renovation in terms of cost and outcome?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A 'green' or sustainable renovation prioritizes environmental impact and long-term performance, often involving an initial investment that may be slightly higher than a standard renovation. However, it typically results in significant long-term savings through reduced utility bills and potentially higher home resale value due to features like improved energy efficiency and healthier indoor air quality. A standard renovation primarily focuses on aesthetics and immediate functionality without the same emphasis on environmental or energy performance. Homeowners should weigh the upfront costs against the substantial long-term benefits and operational savings offered by a sustainable approach.",
+        "@type": "Answer",
+        "description": "A 'green' renovation may have higher initial costs but offers long-term savings from reduced utilities and higher home value. A standard renovation focuses on aesthetics and immediate functionality."
+      }
+    }
+  ],
+  "description": "A 'green' renovation may have higher initial costs but offers long-term savings from reduced utilities and higher home value. A standard renovation focuses on a"
 }

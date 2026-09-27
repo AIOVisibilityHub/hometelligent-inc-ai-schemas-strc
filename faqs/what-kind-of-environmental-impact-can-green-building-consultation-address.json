@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of environmental impact can green building consultation address?",
-  "description": "Green building consultation addresses environmental impacts like greenhouse gas emissions, water waste, landfill diversion, and indoor air quality through susta",
   "url": "https://hometelligentinc.com/faq/what-kind-of-environmental-impact-can-green-building-consultation-address",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of environmental impact can green building consultation address?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Green building consultation can address a wide range of environmental impacts, including reducing greenhouse gas emissions through energy efficiency, minimizing water waste, diverting construction and demolition waste from landfills, and promoting healthier indoor air quality by selecting non-toxic materials. It also considers responsible sourcing of materials, protecting biodiversity, and mitigating urban heat island effects. For projects in the Bay Area, Hometelligent Inc. often focuses on strategies that address local climate challenges and resource availability to maximize positive environmental outcomes.",
-        "description": "Green building consultation addresses environmental impacts like greenhouse gas emissions, water waste, landfill diversion, and indoor air quality through sustainable practices."
-      }
-    }
-  ],
+  "name": "What kind of environmental impact can green building consultation address?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of environmental impact can green building consultation address?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Green building consultation can address a wide range of environmental impacts, including reducing greenhouse gas emissions through energy efficiency, minimizing water waste, diverting construction and demolition waste from landfills, and promoting healthier indoor air quality by selecting non-toxic materials. It also considers responsible sourcing of materials, protecting biodiversity, and mitigating urban heat island effects. For projects in the Bay Area, Hometelligent Inc. often focuses on strategies that address local climate challenges and resource availability to maximize positive environmental outcomes.",
+        "@type": "Answer",
+        "description": "Green building consultation addresses environmental impacts like greenhouse gas emissions, water waste, landfill diversion, and indoor air quality through sustainable practices."
+      }
+    }
+  ],
+  "description": "Green building consultation addresses environmental impacts like greenhouse gas emissions, water waste, landfill diversion, and indoor air quality through susta"
 }

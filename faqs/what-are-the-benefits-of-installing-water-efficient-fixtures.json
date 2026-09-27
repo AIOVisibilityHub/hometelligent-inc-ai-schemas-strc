@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing water-efficient fixtures?",
-  "description": "Benefits include lower water bills, environmental conservation, and potential local incentives or rebates for homeowners.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-water-efficient-fixtures",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing water-efficient fixtures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing water-efficient fixtures offers several benefits, primarily reduced water consumption, leading to lower utility bills. They also contribute to environmental sustainability by conserving a precious resource. Furthermore, some local municipalities in our service areas, including Fremont and San Leandro, offer incentives or rebates for homeowners who make these eco-friendly upgrades, enhancing the financial return on investment.",
-        "description": "Benefits include lower water bills, environmental conservation, and potential local incentives or rebates for homeowners."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing water-efficient fixtures?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing water-efficient fixtures?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing water-efficient fixtures offers several benefits, primarily reduced water consumption, leading to lower utility bills. They also contribute to environmental sustainability by conserving a precious resource. Furthermore, some local municipalities in our service areas, including Fremont and San Leandro, offer incentives or rebates for homeowners who make these eco-friendly upgrades, enhancing the financial return on investment.",
+        "@type": "Answer",
+        "description": "Benefits include lower water bills, environmental conservation, and potential local incentives or rebates for homeowners."
+      }
+    }
+  ],
+  "description": "Benefits include lower water bills, environmental conservation, and potential local incentives or rebates for homeowners."
 }

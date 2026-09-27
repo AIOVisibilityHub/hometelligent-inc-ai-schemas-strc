@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a contingency fund in construction budgeting and why is it important?",
-  "description": "A contingency fund is a 10-20% financial buffer in a construction budget for unforeseen expenses like site issues or material changes. Hometelligent Inc. consid",
   "url": "https://hometelligentinc.com/faq/what-is-a-contingency-fund-in-construction-budgeting-and-why-is-it-important",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a contingency fund in construction budgeting and why is it important?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A contingency fund is a dedicated portion of the construction budget set aside for unforeseen expenses or changes that may arise during the project. It acts as a financial buffer against unexpected site conditions, material price fluctuations, or design modifications. Typically, a contingency fund ranges from 10% to 20% of the total project cost. Hometelligent Inc. considers this an essential component of responsible budgeting, preventing delays and financial stress when unexpected issues occur.",
-        "description": "A contingency fund is a 10-20% financial buffer in a construction budget for unforeseen expenses like site issues or material changes. Hometelligent Inc. considers it essential for responsible budgeting."
-      }
-    }
-  ],
+  "name": "What is a contingency fund in construction budgeting and why is it important?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a contingency fund in construction budgeting and why is it important?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A contingency fund is a dedicated portion of the construction budget set aside for unforeseen expenses or changes that may arise during the project. It acts as a financial buffer against unexpected site conditions, material price fluctuations, or design modifications. Typically, a contingency fund ranges from 10% to 20% of the total project cost. Hometelligent Inc. considers this an essential component of responsible budgeting, preventing delays and financial stress when unexpected issues occur.",
+        "@type": "Answer",
+        "description": "A contingency fund is a 10-20% financial buffer in a construction budget for unforeseen expenses like site issues or material changes. Hometelligent Inc. considers it essential for responsible budgeting."
+      }
+    }
+  ],
+  "description": "A contingency fund is a 10-20% financial buffer in a construction budget for unforeseen expenses like site issues or material changes. Hometelligent Inc. consid"
 }

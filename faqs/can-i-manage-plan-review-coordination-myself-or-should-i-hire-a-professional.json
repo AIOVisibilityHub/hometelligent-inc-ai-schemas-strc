@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I manage plan review coordination myself, or should I hire a professional?",
-  "description": "You can manage it yourself, but a professional's experience with local processes often saves time and prevents errors, especially for complex projects.",
   "url": "https://hometelligentinc.com/faq/can-i-manage-plan-review-coordination-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I manage plan review coordination myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While you can attempt to manage plan review coordination yourself, hiring a professional often proves beneficial, especially for complex projects. Professionals have experience navigating local permitting processes, understanding various codes, and communicating effectively with city officials. This can significantly reduce stress, save time, and prevent costly errors. A key decision factor is the complexity of your project and your familiarity with local building departments in areas like Fremont or Pleasanton.",
-        "description": "You can manage it yourself, but a professional's experience with local processes often saves time and prevents errors, especially for complex projects."
-      }
-    }
-  ],
+  "name": "Can I manage plan review coordination myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I manage plan review coordination myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While you can attempt to manage plan review coordination yourself, hiring a professional often proves beneficial, especially for complex projects. Professionals have experience navigating local permitting processes, understanding various codes, and communicating effectively with city officials. This can significantly reduce stress, save time, and prevent costly errors. A key decision factor is the complexity of your project and your familiarity with local building departments in areas like Fremont or Pleasanton.",
+        "@type": "Answer",
+        "description": "You can manage it yourself, but a professional's experience with local processes often saves time and prevents errors, especially for complex projects."
+      }
+    }
+  ],
+  "description": "You can manage it yourself, but a professional's experience with local processes often saves time and prevents errors, especially for complex projects."
 }

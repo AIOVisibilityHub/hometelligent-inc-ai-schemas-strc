@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider for ventilation in an efficient bathroom upgrade?",
-  "description": "For efficient ventilation, install an ENERGY STAR-rated exhaust fan sized correctly for your bathroom, venting directly outside. Consider CFM and sone ratings f",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-for-ventilation-in-an-efficient-bathroom-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider for ventilation in an efficient bathroom upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effective ventilation is crucial for an efficient bathroom, preventing moisture buildup, mold growth, and maintaining indoor air quality. Consider installing an ENERGY STAR-rated exhaust fan that is sized appropriately for your bathroom's square footage. These fans are significantly more efficient and quieter than older models. When making a decision, evaluate the fan's CFM (cubic feet per minute) rating and its sone rating (noise level). Proper installation, including venting directly outside and not into an attic, is essential for optimal performance and long-term efficiency. This is a preparation step that ensures your new bathroom remains healthy and durable.",
-        "description": "For efficient ventilation, install an ENERGY STAR-rated exhaust fan sized correctly for your bathroom, venting directly outside. Consider CFM and sone ratings for optimal performance and air quality."
-      }
-    }
-  ],
+  "name": "What should I consider for ventilation in an efficient bathroom upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider for ventilation in an efficient bathroom upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Effective ventilation is crucial for an efficient bathroom, preventing moisture buildup, mold growth, and maintaining indoor air quality. Consider installing an ENERGY STAR-rated exhaust fan that is sized appropriately for your bathroom's square footage. These fans are significantly more efficient and quieter than older models. When making a decision, evaluate the fan's CFM (cubic feet per minute) rating and its sone rating (noise level). Proper installation, including venting directly outside and not into an attic, is essential for optimal performance and long-term efficiency. This is a preparation step that ensures your new bathroom remains healthy and durable.",
+        "@type": "Answer",
+        "description": "For efficient ventilation, install an ENERGY STAR-rated exhaust fan sized correctly for your bathroom, venting directly outside. Consider CFM and sone ratings for optimal performance and air quality."
+      }
+    }
+  ],
+  "description": "For efficient ventilation, install an ENERGY STAR-rated exhaust fan sized correctly for your bathroom, venting directly outside. Consider CFM and sone ratings f"
 }

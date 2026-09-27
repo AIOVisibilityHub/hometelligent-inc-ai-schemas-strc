@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there any rebates or incentives for installing water-efficient fixtures in the East Bay?",
-  "description": "Yes, East Bay water districts like EBMUD and ACWD often offer rebates for installing water-efficient fixtures. Check with your local provider for details.",
   "url": "https://hometelligentinc.com/faq/are-there-any-rebates-or-incentives-for-installing-water-efficient-fixtures-in-t",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there any rebates or incentives for installing water-efficient fixtures in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, various water districts and municipalities within the East Bay often offer rebates or incentive programs for installing water-efficient fixtures. These can include rebates for high-efficiency toilets, smart irrigation controllers, and low-flow showerheads. Residents in areas like Dublin and Pleasanton should check with their local water provider, such as the East Bay Municipal Utility District (EBMUD) or Alameda County Water District (ACWD), for current eligibility and application processes before beginning their project.",
-        "description": "Yes, East Bay water districts like EBMUD and ACWD often offer rebates for installing water-efficient fixtures. Check with your local provider for details."
-      }
-    }
-  ],
+  "name": "Are there any rebates or incentives for installing water-efficient fixtures in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there any rebates or incentives for installing water-efficient fixtures in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, various water districts and municipalities within the East Bay often offer rebates or incentive programs for installing water-efficient fixtures. These can include rebates for high-efficiency toilets, smart irrigation controllers, and low-flow showerheads. Residents in areas like Dublin and Pleasanton should check with their local water provider, such as the East Bay Municipal Utility District (EBMUD) or Alameda County Water District (ACWD), for current eligibility and application processes before beginning their project.",
+        "@type": "Answer",
+        "description": "Yes, East Bay water districts like EBMUD and ACWD often offer rebates for installing water-efficient fixtures. Check with your local provider for details."
+      }
+    }
+  ],
+  "description": "Yes, East Bay water districts like EBMUD and ACWD often offer rebates for installing water-efficient fixtures. Check with your local provider for details."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information do I need to provide to Hometelligent Inc. to start the permit coordination process?",
-  "description": "Provide detailed project plans, property surveys, and project goals to start permit coordination. Gathering existing documentation upfront streamlines the proce",
   "url": "https://hometelligentinc.com/faq/what-information-do-i-need-to-provide-to-hometelligent-inc-to-start-the-permit-c",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information do I need to provide to Hometelligent Inc. to start the permit coordination process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To initiate permit coordination, you will need to provide detailed project plans, including architectural drawings and engineering specifications, along with property surveys and any existing site conditions. We also require an understanding of your project goals and desired timeline. Gathering all relevant documentation upfront, such as proof of ownership and prior permits for existing structures, helps streamline the application process significantly and prevents back-and-forth delays with city agencies.",
-        "description": "Provide detailed project plans, property surveys, and project goals to start permit coordination. Gathering existing documentation upfront streamlines the process."
-      }
-    }
-  ],
+  "name": "What information do I need to provide to Hometelligent Inc. to start the permit coordination process?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information do I need to provide to Hometelligent Inc. to start the permit coordination process?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To initiate permit coordination, you will need to provide detailed project plans, including architectural drawings and engineering specifications, along with property surveys and any existing site conditions. We also require an understanding of your project goals and desired timeline. Gathering all relevant documentation upfront, such as proof of ownership and prior permits for existing structures, helps streamline the application process significantly and prevents back-and-forth delays with city agencies.",
+        "@type": "Answer",
+        "description": "Provide detailed project plans, property surveys, and project goals to start permit coordination. Gathering existing documentation upfront streamlines the process."
+      }
+    }
+  ],
+  "description": "Provide detailed project plans, property surveys, and project goals to start permit coordination. Gathering existing documentation upfront streamlines the proce"
 }

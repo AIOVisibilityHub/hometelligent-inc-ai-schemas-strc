@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will natural lighting upgrades increase my home's value?",
-  "description": "Natural lighting upgrades can increase home value by enhancing aesthetics, functionality, and energy efficiency, making your property more appealing.",
   "url": "https://hometelligentinc.com/faq/will-natural-lighting-upgrades-increase-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will natural lighting upgrades increase my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, natural lighting upgrades can enhance your home's aesthetic appeal, functionality, and energy efficiency, which collectively contribute to an increase in property value. Homes with ample natural light are often perceived as more spacious, inviting, and modern, making them more attractive to potential buyers. While specific ROI can vary, improvements like new skylights or larger, energy-efficient windows are generally viewed as desirable features. This investment can improve daily living and potentially yield a good return upon resale.",
-        "description": "Natural lighting upgrades can increase home value by enhancing aesthetics, functionality, and energy efficiency, making your property more appealing."
-      }
-    }
-  ],
+  "name": "Will natural lighting upgrades increase my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will natural lighting upgrades increase my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, natural lighting upgrades can enhance your home's aesthetic appeal, functionality, and energy efficiency, which collectively contribute to an increase in property value. Homes with ample natural light are often perceived as more spacious, inviting, and modern, making them more attractive to potential buyers. While specific ROI can vary, improvements like new skylights or larger, energy-efficient windows are generally viewed as desirable features. This investment can improve daily living and potentially yield a good return upon resale.",
+        "@type": "Answer",
+        "description": "Natural lighting upgrades can increase home value by enhancing aesthetics, functionality, and energy efficiency, making your property more appealing."
+      }
+    }
+  ],
+  "description": "Natural lighting upgrades can increase home value by enhancing aesthetics, functionality, and energy efficiency, making your property more appealing."
 }

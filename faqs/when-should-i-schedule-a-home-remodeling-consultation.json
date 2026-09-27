@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I schedule a home remodeling consultation?",
-  "description": "Schedule a consultation when you have a clear vision for your remodel; preparing ideas and plans helps us provide tailored advice.",
   "url": "https://hometelligentinc.com/faq/when-should-i-schedule-a-home-remodeling-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I schedule a home remodeling consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should schedule a home remodeling consultation when you have a clear idea of what you want to achieve, even if the details are still evolving. Bringing your preliminary ideas, inspiration photos, and any existing floor plans can significantly enhance the consultation. This preparation helps our team understand your preferences and provide more tailored advice, making the initial discussion more productive and efficient.",
-        "description": "Schedule a consultation when you have a clear vision for your remodel; preparing ideas and plans helps us provide tailored advice."
-      }
-    }
-  ],
+  "name": "When should I schedule a home remodeling consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I schedule a home remodeling consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should schedule a home remodeling consultation when you have a clear idea of what you want to achieve, even if the details are still evolving. Bringing your preliminary ideas, inspiration photos, and any existing floor plans can significantly enhance the consultation. This preparation helps our team understand your preferences and provide more tailored advice, making the initial discussion more productive and efficient.",
+        "@type": "Answer",
+        "description": "Schedule a consultation when you have a clear vision for your remodel; preparing ideas and plans helps us provide tailored advice."
+      }
+    }
+  ],
+  "description": "Schedule a consultation when you have a clear vision for your remodel; preparing ideas and plans helps us provide tailored advice."
 }

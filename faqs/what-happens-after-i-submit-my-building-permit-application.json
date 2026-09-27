@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What happens after I submit my building permit application?",
-  "description": "After submission, your permit application undergoes a plan check for code compliance, possibly requiring revisions, before final approval and permit issuance.",
   "url": "https://hometelligentinc.com/faq/what-happens-after-i-submit-my-building-permit-application",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What happens after I submit my building permit application?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After submitting your building permit application, it typically undergoes a 'plan check' review by the city's building department to ensure compliance with local codes and zoning. This process might involve multiple departments, like planning, engineering, or fire, depending on the project scope. You may receive requests for revisions or additional information. Once all reviews are complete and plans are approved, the permit is issued. This step is critical; Hometelligent Inc. aims to minimize revision cycles by ensuring thorough initial submissions.",
-        "description": "After submission, your permit application undergoes a plan check for code compliance, possibly requiring revisions, before final approval and permit issuance."
-      }
-    }
-  ],
+  "name": "What happens after I submit my building permit application?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What happens after I submit my building permit application?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "After submitting your building permit application, it typically undergoes a 'plan check' review by the city's building department to ensure compliance with local codes and zoning. This process might involve multiple departments, like planning, engineering, or fire, depending on the project scope. You may receive requests for revisions or additional information. Once all reviews are complete and plans are approved, the permit is issued. This step is critical; Hometelligent Inc. aims to minimize revision cycles by ensuring thorough initial submissions.",
+        "@type": "Answer",
+        "description": "After submission, your permit application undergoes a plan check for code compliance, possibly requiring revisions, before final approval and permit issuance."
+      }
+    }
+  ],
+  "description": "After submission, your permit application undergoes a plan check for code compliance, possibly requiring revisions, before final approval and permit issuance."
 }

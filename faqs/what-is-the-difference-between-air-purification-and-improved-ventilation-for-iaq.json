@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between air purification and improved ventilation for IAQ?",
-  "description": "Air purification cleans existing air, while ventilation replaces stale air with fresh air. Ventilation addresses stagnation, purification targets specific pollu",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-air-purification-and-improved-ventilation-for-iaq",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between air purification and improved ventilation for IAQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Air purification targets specific pollutants within the existing indoor air, often using filters or UV light. Improved ventilation, conversely, brings in fresh outdoor air while expelling stale indoor air, diluting pollutants. Both methods can be effective, but ventilation addresses the root issue of stagnant air, whereas purification often supplements it. Deciding which is best depends on the primary sources and types of pollutants in your home.",
-        "description": "Air purification cleans existing air, while ventilation replaces stale air with fresh air. Ventilation addresses stagnation, purification targets specific pollutants."
-      }
-    }
-  ],
+  "name": "What is the difference between air purification and improved ventilation for IAQ?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between air purification and improved ventilation for IAQ?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Air purification targets specific pollutants within the existing indoor air, often using filters or UV light. Improved ventilation, conversely, brings in fresh outdoor air while expelling stale indoor air, diluting pollutants. Both methods can be effective, but ventilation addresses the root issue of stagnant air, whereas purification often supplements it. Deciding which is best depends on the primary sources and types of pollutants in your home.",
+        "@type": "Answer",
+        "description": "Air purification cleans existing air, while ventilation replaces stale air with fresh air. Ventilation addresses stagnation, purification targets specific pollutants."
+      }
+    }
+  ],
+  "description": "Air purification cleans existing air, while ventilation replaces stale air with fresh air. Ventilation addresses stagnation, purification targets specific pollu"
 }

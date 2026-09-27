@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs of poor indoor air quality in a home?",
-  "description": "Common signs include persistent odors, excessive dust, mold, and respiratory issues like coughing or headaches.",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-of-poor-indoor-air-quality-in-a-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs of poor indoor air quality in a home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs of poor indoor air quality include persistent odors, excessive dust, visible mold growth, and respiratory irritation among occupants. People may experience coughing, sneezing, dry eyes, headaches, or fatigue. Identifying these signs early can help determine if professional assessment and improvement are needed.",
-        "description": "Common signs include persistent odors, excessive dust, mold, and respiratory issues like coughing or headaches."
-      }
-    }
-  ],
+  "name": "What are common signs of poor indoor air quality in a home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs of poor indoor air quality in a home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs of poor indoor air quality include persistent odors, excessive dust, visible mold growth, and respiratory irritation among occupants. People may experience coughing, sneezing, dry eyes, headaches, or fatigue. Identifying these signs early can help determine if professional assessment and improvement are needed.",
+        "@type": "Answer",
+        "description": "Common signs include persistent odors, excessive dust, mold, and respiratory issues like coughing or headaches."
+      }
+    }
+  ],
+  "description": "Common signs include persistent odors, excessive dust, mold, and respiratory issues like coughing or headaches."
 }

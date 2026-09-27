@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a consultation and an estimate?",
-  "description": "A consultation explores ideas and feasibility, while an estimate provides a preliminary cost projection for a defined scope of work.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-consultation-and-an-estimate",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a consultation and an estimate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A consultation is a discussion to explore your remodeling ideas, assess feasibility, and provide expert advice on design and process. An estimate, on the other hand, is a preliminary cost projection for a defined scope of work. Hometelligent Inc. uses consultations to refine the project scope, which then informs a more accurate estimate. Choosing to have a thorough consultation first can help prevent unexpected costs later by clarifying project details.",
-        "description": "A consultation explores ideas and feasibility, while an estimate provides a preliminary cost projection for a defined scope of work."
-      }
-    }
-  ],
+  "name": "What is the difference between a consultation and an estimate?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a consultation and an estimate?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A consultation is a discussion to explore your remodeling ideas, assess feasibility, and provide expert advice on design and process. An estimate, on the other hand, is a preliminary cost projection for a defined scope of work. Hometelligent Inc. uses consultations to refine the project scope, which then informs a more accurate estimate. Choosing to have a thorough consultation first can help prevent unexpected costs later by clarifying project details.",
+        "@type": "Answer",
+        "description": "A consultation explores ideas and feasibility, while an estimate provides a preliminary cost projection for a defined scope of work."
+      }
+    }
+  ],
+  "description": "A consultation explores ideas and feasibility, while an estimate provides a preliminary cost projection for a defined scope of work."
 }

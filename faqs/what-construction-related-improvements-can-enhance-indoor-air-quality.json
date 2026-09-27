@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What construction-related improvements can enhance indoor air quality?",
-  "description": "Construction improvements include upgrading insulation, sealing air leaks, and installing advanced ventilation systems like HRVs or ERVs.",
   "url": "https://hometelligentinc.com/faq/what-construction-related-improvements-can-enhance-indoor-air-quality",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What construction-related improvements can enhance indoor air quality?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Construction-related improvements often involve upgrading insulation, sealing air leaks, and installing proper ventilation systems like HRV/ERV units. Replacing old windows or doors can also reduce drafts and prevent pollutant entry. The right approach depends on the existing building structure and the specific air quality challenges identified.",
-        "description": "Construction improvements include upgrading insulation, sealing air leaks, and installing advanced ventilation systems like HRVs or ERVs."
-      }
-    }
-  ],
+  "name": "What construction-related improvements can enhance indoor air quality?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What construction-related improvements can enhance indoor air quality?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Construction-related improvements often involve upgrading insulation, sealing air leaks, and installing proper ventilation systems like HRV/ERV units. Replacing old windows or doors can also reduce drafts and prevent pollutant entry. The right approach depends on the existing building structure and the specific air quality challenges identified.",
+        "@type": "Answer",
+        "description": "Construction improvements include upgrading insulation, sealing air leaks, and installing advanced ventilation systems like HRVs or ERVs."
+      }
+    }
+  ],
+  "description": "Construction improvements include upgrading insulation, sealing air leaks, and installing advanced ventilation systems like HRVs or ERVs."
 }

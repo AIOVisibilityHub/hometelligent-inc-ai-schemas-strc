@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the considerations for installing skylights in my Alameda home?",
-  "description": "For Alameda homes, consider local building codes, coastal humidity, and energy-efficient, impact-resistant skylights for compliance and performance. Our team is",
   "url": "https://hometelligentinc.com/faq/what-are-the-considerations-for-installing-skylights-in-my-alameda-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the considerations for installing skylights in my Alameda home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When installing skylights in Alameda, local building codes and specific climate considerations, such as occasional fog and coastal humidity, are important. We ensure that all installations meet or exceed local requirements for flashing and structural integrity. Additionally, selecting skylights with appropriate energy ratings and impact resistance, if applicable, can help with long-term performance and compliance with regional standards. Our team is familiar with the specific regulations for Alameda and surrounding areas.",
-        "description": "For Alameda homes, consider local building codes, coastal humidity, and energy-efficient, impact-resistant skylights for compliance and performance. Our team is familiar with these regulations."
-      }
-    }
-  ],
+  "name": "What are the considerations for installing skylights in my Alameda home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the considerations for installing skylights in my Alameda home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When installing skylights in Alameda, local building codes and specific climate considerations, such as occasional fog and coastal humidity, are important. We ensure that all installations meet or exceed local requirements for flashing and structural integrity. Additionally, selecting skylights with appropriate energy ratings and impact resistance, if applicable, can help with long-term performance and compliance with regional standards. Our team is familiar with the specific regulations for Alameda and surrounding areas.",
+        "@type": "Answer",
+        "description": "For Alameda homes, consider local building codes, coastal humidity, and energy-efficient, impact-resistant skylights for compliance and performance. Our team is familiar with these regulations."
+      }
+    }
+  ],
+  "description": "For Alameda homes, consider local building codes, coastal humidity, and energy-efficient, impact-resistant skylights for compliance and performance. Our team is"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What qualifies as an efficient bathroom upgrade?",
-  "description": "An efficient bathroom upgrade focuses on functionality, water and energy conservation, and aesthetics, often involving low-flow fixtures, LED lighting, and impr",
   "url": "https://hometelligentinc.com/faq/what-qualifies-as-an-efficient-bathroom-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What qualifies as an efficient bathroom upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An efficient bathroom upgrade focuses on maximizing functionality, water conservation, and energy savings while enhancing aesthetics. This often includes installing low-flow fixtures like toilets and showerheads, upgrading to LED lighting, and improving insulation or ventilation. When planning, consider your existing plumbing and electrical systems, as these can influence the scope and potential savings of new, more efficient installations. A key decision factor is balancing initial investment with long-term utility savings and environmental impact.",
-        "description": "An efficient bathroom upgrade focuses on functionality, water and energy conservation, and aesthetics, often involving low-flow fixtures, LED lighting, and improved ventilation."
-      }
-    }
-  ],
+  "name": "What qualifies as an efficient bathroom upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What qualifies as an efficient bathroom upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An efficient bathroom upgrade focuses on maximizing functionality, water conservation, and energy savings while enhancing aesthetics. This often includes installing low-flow fixtures like toilets and showerheads, upgrading to LED lighting, and improving insulation or ventilation. When planning, consider your existing plumbing and electrical systems, as these can influence the scope and potential savings of new, more efficient installations. A key decision factor is balancing initial investment with long-term utility savings and environmental impact.",
+        "@type": "Answer",
+        "description": "An efficient bathroom upgrade focuses on functionality, water and energy conservation, and aesthetics, often involving low-flow fixtures, LED lighting, and improved ventilation."
+      }
+    }
+  ],
+  "description": "An efficient bathroom upgrade focuses on functionality, water and energy conservation, and aesthetics, often involving low-flow fixtures, LED lighting, and impr"
 }

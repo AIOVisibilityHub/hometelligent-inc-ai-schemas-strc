@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is included in a typical remodeling cost estimate from Hometelligent Inc.?",
-  "description": "Hometelligent Inc.'s remodeling cost estimates include detailed breakdowns of labor, materials, subcontractor costs, and permit fees. We itemize each component",
   "url": "https://hometelligentinc.com/faq/what-is-included-in-a-typical-remodeling-cost-estimate-from-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is included in a typical remodeling cost estimate from Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A typical remodeling cost estimate from Hometelligent Inc. includes a detailed breakdown of labor, materials, subcontractor costs, and permit fees. Our estimates are tailored to your specific project, whether it's a kitchen remodel in Emeryville or a bathroom renovation in Piedmont. We aim for transparency, clearly itemizing each component so you understand where your money is going. This often includes a preliminary schedule and payment milestones. Our goal is to provide a comprehensive and clear proposal that avoids hidden costs and sets clear expectations from the start.",
-        "description": "Hometelligent Inc.'s remodeling cost estimates include detailed breakdowns of labor, materials, subcontractor costs, and permit fees. We itemize each component for transparency and tailor proposals to your specific project, avoiding hidden costs."
-      }
-    }
-  ],
+  "name": "What is included in a typical remodeling cost estimate from Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is included in a typical remodeling cost estimate from Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A typical remodeling cost estimate from Hometelligent Inc. includes a detailed breakdown of labor, materials, subcontractor costs, and permit fees. Our estimates are tailored to your specific project, whether it's a kitchen remodel in Emeryville or a bathroom renovation in Piedmont. We aim for transparency, clearly itemizing each component so you understand where your money is going. This often includes a preliminary schedule and payment milestones. Our goal is to provide a comprehensive and clear proposal that avoids hidden costs and sets clear expectations from the start.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc.'s remodeling cost estimates include detailed breakdowns of labor, materials, subcontractor costs, and permit fees. We itemize each component for transparency and tailor proposals to your specific project, avoiding hidden costs."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc.'s remodeling cost estimates include detailed breakdowns of labor, materials, subcontractor costs, and permit fees. We itemize each component"
 }

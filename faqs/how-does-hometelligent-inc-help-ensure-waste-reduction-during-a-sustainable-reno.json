@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. help ensure waste reduction during a sustainable renovation project?",
-  "description": "Hometelligent Inc. reduces waste by minimizing over-ordering, using salvaged materials, efficient sorting and recycling of debris, and exploring deconstruction.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-help-ensure-waste-reduction-during-a-sustainable-reno",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. help ensure waste reduction during a sustainable renovation project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. prioritizes waste reduction through careful planning and on-site management. This involves detailed material take-offs to minimize over-ordering, maximizing the use of salvaged or recycled materials, and implementing efficient sorting and recycling of construction debris. We often work with local recycling facilities in areas like Livermore and Pleasanton to divert waste from landfills. Our approach also includes exploring deconstruction rather than demolition where feasible, allowing for reusable materials to be salvaged and repurposed, further reducing the overall environmental footprint of your project.",
-        "description": "Hometelligent Inc. reduces waste by minimizing over-ordering, using salvaged materials, efficient sorting and recycling of debris, and exploring deconstruction. We work with local recycling facilities to divert waste from landfills."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. help ensure waste reduction during a sustainable renovation project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. help ensure waste reduction during a sustainable renovation project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. prioritizes waste reduction through careful planning and on-site management. This involves detailed material take-offs to minimize over-ordering, maximizing the use of salvaged or recycled materials, and implementing efficient sorting and recycling of construction debris. We often work with local recycling facilities in areas like Livermore and Pleasanton to divert waste from landfills. Our approach also includes exploring deconstruction rather than demolition where feasible, allowing for reusable materials to be salvaged and repurposed, further reducing the overall environmental footprint of your project.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. reduces waste by minimizing over-ordering, using salvaged materials, efficient sorting and recycling of debris, and exploring deconstruction. We work with local recycling facilities to divert waste from landfills."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. reduces waste by minimizing over-ordering, using salvaged materials, efficient sorting and recycling of debris, and exploring deconstruction."
 }

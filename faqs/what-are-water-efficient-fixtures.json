@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are water-efficient fixtures?",
-  "description": "Water-efficient fixtures are plumbing devices like low-flow toilets and showerheads designed to reduce water consumption without compromising performance.",
   "url": "https://hometelligentinc.com/faq/what-are-water-efficient-fixtures",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are water-efficient fixtures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Water-efficient fixtures are plumbing devices designed to reduce water consumption without compromising performance. This includes low-flow toilets, showerheads, faucets, and efficient irrigation systems. For homeowners in Alameda, Albany, Berkeley, Dublin, and Emeryville, upgrading to these fixtures can significantly lower utility bills and contribute to local water conservation efforts, which is often a key decision factor during home renovations.",
-        "description": "Water-efficient fixtures are plumbing devices like low-flow toilets and showerheads designed to reduce water consumption without compromising performance."
-      }
-    }
-  ],
+  "name": "What are water-efficient fixtures?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are water-efficient fixtures?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Water-efficient fixtures are plumbing devices designed to reduce water consumption without compromising performance. This includes low-flow toilets, showerheads, faucets, and efficient irrigation systems. For homeowners in Alameda, Albany, Berkeley, Dublin, and Emeryville, upgrading to these fixtures can significantly lower utility bills and contribute to local water conservation efforts, which is often a key decision factor during home renovations.",
+        "@type": "Answer",
+        "description": "Water-efficient fixtures are plumbing devices like low-flow toilets and showerheads designed to reduce water consumption without compromising performance."
+      }
+    }
+  ],
+  "description": "Water-efficient fixtures are plumbing devices like low-flow toilets and showerheads designed to reduce water consumption without compromising performance."
 }

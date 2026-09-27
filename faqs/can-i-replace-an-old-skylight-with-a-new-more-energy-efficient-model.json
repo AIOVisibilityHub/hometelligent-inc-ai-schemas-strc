@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I replace an old skylight with a new, more energy-efficient model?",
-  "description": "Yes, you can replace old skylights with energy-efficient models to improve insulation and reduce heat transfer. We also inspect the roof during replacement.",
   "url": "https://hometelligentinc.com/faq/can-i-replace-an-old-skylight-with-a-new-more-energy-efficient-model",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I replace an old skylight with a new, more energy-efficient model?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, replacing an old skylight with a newer, more energy-efficient model is a common and beneficial upgrade. Modern skylights often feature advanced glazing, low-emissivity coatings, and better sealing technologies that significantly improve insulation and reduce heat transfer. This can lead to substantial energy savings compared to older units. During the replacement, we also inspect the surrounding roof for any potential issues, ensuring a proper seal and updated flashing for longevity.",
-        "description": "Yes, you can replace old skylights with energy-efficient models to improve insulation and reduce heat transfer. We also inspect the roof during replacement."
-      }
-    }
-  ],
+  "name": "Can I replace an old skylight with a new, more energy-efficient model?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I replace an old skylight with a new, more energy-efficient model?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, replacing an old skylight with a newer, more energy-efficient model is a common and beneficial upgrade. Modern skylights often feature advanced glazing, low-emissivity coatings, and better sealing technologies that significantly improve insulation and reduce heat transfer. This can lead to substantial energy savings compared to older units. During the replacement, we also inspect the surrounding roof for any potential issues, ensuring a proper seal and updated flashing for longevity.",
+        "@type": "Answer",
+        "description": "Yes, you can replace old skylights with energy-efficient models to improve insulation and reduce heat transfer. We also inspect the roof during replacement."
+      }
+    }
+  ],
+  "description": "Yes, you can replace old skylights with energy-efficient models to improve insulation and reduce heat transfer. We also inspect the roof during replacement."
 }

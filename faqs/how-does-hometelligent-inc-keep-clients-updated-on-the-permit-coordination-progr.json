@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. keep clients updated on the permit coordination progress?",
-  "description": "Hometelligent Inc. provides regular updates on permit status and inspections via phone, email, or meetings, ensuring transparent communication throughout the pr",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-keep-clients-updated-on-the-permit-coordination-progr",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. keep clients updated on the permit coordination progress?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. keeps clients informed through regular updates via phone calls, emails, or scheduled meetings, detailing the status of permit applications, upcoming inspections, and any new developments. We provide transparency throughout the process, ensuring you are aware of each step and any actions required from your end. This continuous communication helps manage expectations and allows for timely responses to city requests, keeping your project on track.",
-        "description": "Hometelligent Inc. provides regular updates on permit status and inspections via phone, email, or meetings, ensuring transparent communication throughout the process."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. keep clients updated on the permit coordination progress?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. keep clients updated on the permit coordination progress?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. keeps clients informed through regular updates via phone calls, emails, or scheduled meetings, detailing the status of permit applications, upcoming inspections, and any new developments. We provide transparency throughout the process, ensuring you are aware of each step and any actions required from your end. This continuous communication helps manage expectations and allows for timely responses to city requests, keeping your project on track.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. provides regular updates on permit status and inspections via phone, email, or meetings, ensuring transparent communication throughout the process."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. provides regular updates on permit status and inspections via phone, email, or meetings, ensuring transparent communication throughout the pr"
 }

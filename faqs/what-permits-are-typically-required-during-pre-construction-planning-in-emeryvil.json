@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are typically required during pre-construction planning in Emeryville?",
-  "description": "Emeryville projects often require building, zoning, electrical, plumbing, or mechanical permits. Approval depends on adherence to city codes and environmental r",
   "url": "https://hometelligentinc.com/faq/what-permits-are-typically-required-during-pre-construction-planning-in-emeryvil",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are typically required during pre-construction planning in Emeryville?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For projects in Emeryville, various permits are typically required during pre-construction planning, depending on the scope of work. These often include building permits, zoning permits, and potentially specific permits for electrical, plumbing, or mechanical systems. The City of Emeryville Building Division outlines these requirements. Our team assists clients through this process, understanding that the decision factor for permit approval heavily relies on adherence to local codes, planning regulations, and environmental considerations unique to the Emeryville jurisdiction.",
-        "description": "Emeryville projects often require building, zoning, electrical, plumbing, or mechanical permits. Approval depends on adherence to city codes and environmental regulations."
-      }
-    }
-  ],
+  "name": "What permits are typically required during pre-construction planning in Emeryville?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are typically required during pre-construction planning in Emeryville?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For projects in Emeryville, various permits are typically required during pre-construction planning, depending on the scope of work. These often include building permits, zoning permits, and potentially specific permits for electrical, plumbing, or mechanical systems. The City of Emeryville Building Division outlines these requirements. Our team assists clients through this process, understanding that the decision factor for permit approval heavily relies on adherence to local codes, planning regulations, and environmental considerations unique to the Emeryville jurisdiction.",
+        "@type": "Answer",
+        "description": "Emeryville projects often require building, zoning, electrical, plumbing, or mechanical permits. Approval depends on adherence to city codes and environmental regulations."
+      }
+    }
+  ],
+  "description": "Emeryville projects often require building, zoning, electrical, plumbing, or mechanical permits. Approval depends on adherence to city codes and environmental r"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right architect coordination service for my project?",
-  "description": "Choose a service based on experience with similar projects, strong communication skills, and familiarity with local building codes, especially in your specific",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-architect-coordination-service-for-my-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right architect coordination service for my project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing an architect coordination service, look for experience with similar project types and a proven track record of successful collaboration with architects and builders. Evaluate their communication style and their approach to problem-solving, as effective coordination hinges on clear and proactive communication. Consider their familiarity with local regulations and building codes in your specific service area, as this can be a critical decision factor for projects in diverse municipalities like Oakland or San Leandro.",
-        "description": "Choose a service based on experience with similar projects, strong communication skills, and familiarity with local building codes, especially in your specific area."
-      }
-    }
-  ],
+  "name": "How do I choose the right architect coordination service for my project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right architect coordination service for my project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing an architect coordination service, look for experience with similar project types and a proven track record of successful collaboration with architects and builders. Evaluate their communication style and their approach to problem-solving, as effective coordination hinges on clear and proactive communication. Consider their familiarity with local regulations and building codes in your specific service area, as this can be a critical decision factor for projects in diverse municipalities like Oakland or San Leandro.",
+        "@type": "Answer",
+        "description": "Choose a service based on experience with similar projects, strong communication skills, and familiarity with local building codes, especially in your specific area."
+      }
+    }
+  ],
+  "description": "Choose a service based on experience with similar projects, strong communication skills, and familiarity with local building codes, especially in your specific"
 }

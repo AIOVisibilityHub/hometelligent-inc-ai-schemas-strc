@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for architect coordination on a residential renovation?",
-  "description": "The process involves regular meetings, drawing reviews, and site visits to align architects and construction teams, especially for unique conditions in older ho",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-architect-coordination-on-a-residential-renovati",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for architect coordination on a residential renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process typically begins with establishing regular communication protocols and meeting schedules among the client, architect, and construction team. This includes reviewing architectural drawings, specifications, and RFI (Request for Information) submissions to ensure clarity and resolve discrepancies. A key step involves conducting site visits together to address on-site conditions that may impact the design, which is particularly important for older homes in areas like Alameda or Berkeley where unexpected structural elements are common.",
-        "description": "The process involves regular meetings, drawing reviews, and site visits to align architects and construction teams, especially for unique conditions in older homes."
-      }
-    }
-  ],
+  "name": "What is the typical process for architect coordination on a residential renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for architect coordination on a residential renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process typically begins with establishing regular communication protocols and meeting schedules among the client, architect, and construction team. This includes reviewing architectural drawings, specifications, and RFI (Request for Information) submissions to ensure clarity and resolve discrepancies. A key step involves conducting site visits together to address on-site conditions that may impact the design, which is particularly important for older homes in areas like Alameda or Berkeley where unexpected structural elements are common.",
+        "@type": "Answer",
+        "description": "The process involves regular meetings, drawing reviews, and site visits to align architects and construction teams, especially for unique conditions in older homes."
+      }
+    }
+  ],
+  "description": "The process involves regular meetings, drawing reviews, and site visits to align architects and construction teams, especially for unique conditions in older ho"
 }

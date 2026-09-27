@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are design-build services?",
-  "description": "Design-build services combine project design and construction under a single contract with one team, streamlining the entire process.",
   "url": "https://hometelligentinc.com/faq/what-are-design-build-services",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are design-build services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Design-build services integrate the design and construction phases of a project into a single contract with one entity, like Hometelligent Inc. This approach fosters collaboration between designers and builders from the outset, aiming to streamline communication, reduce potential conflicts, and deliver projects more efficiently. For homeowners in areas like Alameda or Berkeley, this means a single point of contact responsible for both the architectural plans and the physical construction, simplifying project management.",
-        "description": "Design-build services combine project design and construction under a single contract with one team, streamlining the entire process."
-      }
-    }
-  ],
+  "name": "What are design-build services?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are design-build services?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Design-build services integrate the design and construction phases of a project into a single contract with one entity, like Hometelligent Inc. This approach fosters collaboration between designers and builders from the outset, aiming to streamline communication, reduce potential conflicts, and deliver projects more efficiently. For homeowners in areas like Alameda or Berkeley, this means a single point of contact responsible for both the architectural plans and the physical construction, simplifying project management.",
+        "@type": "Answer",
+        "description": "Design-build services combine project design and construction under a single contract with one team, streamlining the entire process."
+      }
+    }
+  ],
+  "description": "Design-build services combine project design and construction under a single contract with one team, streamlining the entire process."
 }

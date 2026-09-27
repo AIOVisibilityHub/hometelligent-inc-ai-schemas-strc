@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does the pre-construction planning phase typically take?",
-  "description": "Pre-construction planning duration varies by project complexity, size, and local permitting. It can range from weeks to months, influenced by design choices and",
   "url": "https://hometelligentinc.com/faq/how-long-does-the-pre-construction-planning-phase-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does the pre-construction planning phase typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of pre-construction planning varies significantly based on project complexity, size, and local permitting requirements. Simple renovations might take a few weeks, while larger custom builds could extend to several months. Factors like design iterations, material lead times, and the responsiveness of local building departments, such as those in Alameda or Albany, directly impact the timeline. It's essential to allow adequate time in this phase to prevent rushed decisions or unforeseen complications during construction.",
-        "description": "Pre-construction planning duration varies by project complexity, size, and local permitting. It can range from weeks to months, influenced by design choices and city approvals."
-      }
-    }
-  ],
+  "name": "How long does the pre-construction planning phase typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does the pre-construction planning phase typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of pre-construction planning varies significantly based on project complexity, size, and local permitting requirements. Simple renovations might take a few weeks, while larger custom builds could extend to several months. Factors like design iterations, material lead times, and the responsiveness of local building departments, such as those in Alameda or Albany, directly impact the timeline. It's essential to allow adequate time in this phase to prevent rushed decisions or unforeseen complications during construction.",
+        "@type": "Answer",
+        "description": "Pre-construction planning duration varies by project complexity, size, and local permitting. It can range from weeks to months, influenced by design choices and city approvals."
+      }
+    }
+  ],
+  "description": "Pre-construction planning duration varies by project complexity, size, and local permitting. It can range from weeks to months, influenced by design choices and"
 }

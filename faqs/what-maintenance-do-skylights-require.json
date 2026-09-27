@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance do skylights require?",
-  "description": "Skylight maintenance includes cleaning the glass, inspecting flashing and seals, and clearing roof debris. Venting models also need annual checks of their mecha",
   "url": "https://hometelligentinc.com/faq/what-maintenance-do-skylights-require",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance do skylights require?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Skylights generally require minimal maintenance, primarily consisting of periodic cleaning of the glass to ensure maximum light transmission and occasional inspection of the flashing and seals. It's important to clear any debris, such as leaves or branches, that might accumulate around the skylight on the roof, as this can impede drainage. For venting models, checking the operating mechanism and seals once a year is advisable to ensure smooth function and prevent leaks. Regular checks help extend the lifespan of the unit.",
-        "description": "Skylight maintenance includes cleaning the glass, inspecting flashing and seals, and clearing roof debris. Venting models also need annual checks of their mechanisms."
-      }
-    }
-  ],
+  "name": "What maintenance do skylights require?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance do skylights require?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Skylights generally require minimal maintenance, primarily consisting of periodic cleaning of the glass to ensure maximum light transmission and occasional inspection of the flashing and seals. It's important to clear any debris, such as leaves or branches, that might accumulate around the skylight on the roof, as this can impede drainage. For venting models, checking the operating mechanism and seals once a year is advisable to ensure smooth function and prevent leaks. Regular checks help extend the lifespan of the unit.",
+        "@type": "Answer",
+        "description": "Skylight maintenance includes cleaning the glass, inspecting flashing and seals, and clearing roof debris. Venting models also need annual checks of their mechanisms."
+      }
+    }
+  ],
+  "description": "Skylight maintenance includes cleaning the glass, inspecting flashing and seals, and clearing roof debris. Venting models also need annual checks of their mecha"
 }

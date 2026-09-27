@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What if my project crosses city lines, like between Oakland and Piedmont?",
-  "description": "Projects crossing city lines, like Oakland and Piedmont, may require engaging with both jurisdictions, each with distinct permitting requirements and review pro",
   "url": "https://hometelligentinc.com/faq/what-if-my-project-crosses-city-lines-like-between-oakland-and-piedmont",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What if my project crosses city lines, like between Oakland and Piedmont?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If your project's scope extends or has implications across city lines, such as a property located near the border of Oakland and Piedmont, you might need to engage with both jurisdictions. This is rare for a single structure but can occur with extensive landscaping or utility work affecting adjacent properties. Each city will have its own distinct permitting requirements and review processes. It's essential to understand which municipality holds primary jurisdiction over the majority of the work and to consult with both planning departments early in the process to ensure compliance and avoid potential conflicts.",
-        "description": "Projects crossing city lines, like Oakland and Piedmont, may require engaging with both jurisdictions, each with distinct permitting requirements and review processes."
-      }
-    }
-  ],
+  "name": "What if my project crosses city lines, like between Oakland and Piedmont?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What if my project crosses city lines, like between Oakland and Piedmont?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "If your project's scope extends or has implications across city lines, such as a property located near the border of Oakland and Piedmont, you might need to engage with both jurisdictions. This is rare for a single structure but can occur with extensive landscaping or utility work affecting adjacent properties. Each city will have its own distinct permitting requirements and review processes. It's essential to understand which municipality holds primary jurisdiction over the majority of the work and to consult with both planning departments early in the process to ensure compliance and avoid potential conflicts.",
+        "@type": "Answer",
+        "description": "Projects crossing city lines, like Oakland and Piedmont, may require engaging with both jurisdictions, each with distinct permitting requirements and review processes."
+      }
+    }
+  ],
+  "description": "Projects crossing city lines, like Oakland and Piedmont, may require engaging with both jurisdictions, each with distinct permitting requirements and review pro"
 }

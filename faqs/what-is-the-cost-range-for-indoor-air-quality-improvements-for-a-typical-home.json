@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the cost range for indoor air quality improvements for a typical home?",
-  "description": "Costs vary widely based on the scope, technology, and home size. An assessment is needed for an accurate estimate.",
   "url": "https://hometelligentinc.com/faq/what-is-the-cost-range-for-indoor-air-quality-improvements-for-a-typical-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the cost range for indoor air quality improvements for a typical home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of indoor air quality improvements varies significantly based on the scope of work, chosen technologies, and the size of the home. Simple fixes like sealing ducts might be minor, while comprehensive solutions such as installing a whole-home ventilation system or extensive mold remediation can be more substantial. An initial assessment can provide a more accurate estimate tailored to your home's needs.",
-        "description": "Costs vary widely based on the scope, technology, and home size. An assessment is needed for an accurate estimate."
-      }
-    }
-  ],
+  "name": "What is the cost range for indoor air quality improvements for a typical home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the cost range for indoor air quality improvements for a typical home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of indoor air quality improvements varies significantly based on the scope of work, chosen technologies, and the size of the home. Simple fixes like sealing ducts might be minor, while comprehensive solutions such as installing a whole-home ventilation system or extensive mold remediation can be more substantial. An initial assessment can provide a more accurate estimate tailored to your home's needs.",
+        "@type": "Answer",
+        "description": "Costs vary widely based on the scope, technology, and home size. An assessment is needed for an accurate estimate."
+      }
+    }
+  ],
+  "description": "Costs vary widely based on the scope, technology, and home size. An assessment is needed for an accurate estimate."
 }

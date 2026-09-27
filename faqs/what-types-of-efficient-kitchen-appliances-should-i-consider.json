@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of efficient kitchen appliances should I consider?",
-  "description": "Prioritize Energy Star refrigerators, dishwashers, and ovens, plus induction cooktops and low-flow faucets for maximum efficiency.",
   "url": "https://hometelligentinc.com/faq/what-types-of-efficient-kitchen-appliances-should-i-consider",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of efficient kitchen appliances should I consider?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When planning an efficient kitchen, consider Energy Star certified appliances such as refrigerators, dishwashers, and ovens, as these meet strict energy-efficiency guidelines. Induction cooktops offer faster heating and precise temperature control, using less energy than traditional electric or gas models. For water efficiency, look for low-flow faucets and dishwashers with sensor technology that adjusts water usage. We often discuss with clients the potential rebates available for Energy Star appliances in the Alameda, Albany, and Berkeley areas, which can help offset initial purchase costs.",
-        "description": "Prioritize Energy Star refrigerators, dishwashers, and ovens, plus induction cooktops and low-flow faucets for maximum efficiency."
-      }
-    }
-  ],
+  "name": "What types of efficient kitchen appliances should I consider?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of efficient kitchen appliances should I consider?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When planning an efficient kitchen, consider Energy Star certified appliances such as refrigerators, dishwashers, and ovens, as these meet strict energy-efficiency guidelines. Induction cooktops offer faster heating and precise temperature control, using less energy than traditional electric or gas models. For water efficiency, look for low-flow faucets and dishwashers with sensor technology that adjusts water usage. We often discuss with clients the potential rebates available for Energy Star appliances in the Alameda, Albany, and Berkeley areas, which can help offset initial purchase costs.",
+        "@type": "Answer",
+        "description": "Prioritize Energy Star refrigerators, dishwashers, and ovens, plus induction cooktops and low-flow faucets for maximum efficiency."
+      }
+    }
+  ],
+  "description": "Prioritize Energy Star refrigerators, dishwashers, and ovens, plus induction cooktops and low-flow faucets for maximum efficiency."
 }

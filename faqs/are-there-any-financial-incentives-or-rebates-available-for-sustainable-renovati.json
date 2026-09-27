@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there any financial incentives or rebates available for sustainable renovations in the Bay Area?",
-  "description": "Yes, financial incentives and rebates for sustainable renovations may be available from state, local, and utility programs like PG&E. Eligibility varies, and Ho",
   "url": "https://hometelligentinc.com/faq/are-there-any-financial-incentives-or-rebates-available-for-sustainable-renovati",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there any financial incentives or rebates available for sustainable renovations in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, homeowners in the Bay Area may be eligible for various financial incentives for sustainable renovations. These can include state and local rebates for energy-efficient appliances, solar panel installations, and water-saving fixtures. Programs like those offered by local utility providers, such as PG&E, often provide rebates for specific upgrades. It's important to research current programs and their eligibility requirements, which can change periodically. Hometelligent Inc. can guide you on potential opportunities relevant to your project and location, such as those applicable in cities like Oakland or Fremont, helping you maximize savings.",
-        "description": "Yes, financial incentives and rebates for sustainable renovations may be available from state, local, and utility programs like PG&E. Eligibility varies, and Hometelligent Inc. can help identify relevant opportunities."
-      }
-    }
-  ],
+  "name": "Are there any financial incentives or rebates available for sustainable renovations in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there any financial incentives or rebates available for sustainable renovations in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, homeowners in the Bay Area may be eligible for various financial incentives for sustainable renovations. These can include state and local rebates for energy-efficient appliances, solar panel installations, and water-saving fixtures. Programs like those offered by local utility providers, such as PG&E, often provide rebates for specific upgrades. It's important to research current programs and their eligibility requirements, which can change periodically. Hometelligent Inc. can guide you on potential opportunities relevant to your project and location, such as those applicable in cities like Oakland or Fremont, helping you maximize savings.",
+        "@type": "Answer",
+        "description": "Yes, financial incentives and rebates for sustainable renovations may be available from state, local, and utility programs like PG&E. Eligibility varies, and Hometelligent Inc. can help identify relevant opportunities."
+      }
+    }
+  ],
+  "description": "Yes, financial incentives and rebates for sustainable renovations may be available from state, local, and utility programs like PG&E. Eligibility varies, and Ho"
 }

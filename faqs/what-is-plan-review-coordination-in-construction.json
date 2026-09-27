@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is plan review coordination in construction?",
-  "description": "Plan review coordination manages the submission and review of construction plans by local authorities to ensure compliance with codes and regulations.",
   "url": "https://hometelligentinc.com/faq/what-is-plan-review-coordination-in-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is plan review coordination in construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Plan review coordination is the process of managing and facilitating the review of construction plans by various local government departments and agencies. This ensures that proposed projects comply with all applicable building codes, zoning ordinances, and environmental regulations before construction begins. A key part of the process is addressing comments and revisions requested by different departments, which can significantly impact project timelines if not managed efficiently.",
-        "description": "Plan review coordination manages the submission and review of construction plans by local authorities to ensure compliance with codes and regulations."
-      }
-    }
-  ],
+  "name": "What is plan review coordination in construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is plan review coordination in construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Plan review coordination is the process of managing and facilitating the review of construction plans by various local government departments and agencies. This ensures that proposed projects comply with all applicable building codes, zoning ordinances, and environmental regulations before construction begins. A key part of the process is addressing comments and revisions requested by different departments, which can significantly impact project timelines if not managed efficiently.",
+        "@type": "Answer",
+        "description": "Plan review coordination manages the submission and review of construction plans by local authorities to ensure compliance with codes and regulations."
+      }
+    }
+  ],
+  "description": "Plan review coordination manages the submission and review of construction plans by local authorities to ensure compliance with codes and regulations."
 }

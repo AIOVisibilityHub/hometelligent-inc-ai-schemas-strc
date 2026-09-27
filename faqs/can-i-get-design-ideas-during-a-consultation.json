@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I get design ideas during a consultation?",
-  "description": "Yes, you can get preliminary design insights and suggestions during a consultation to help solidify your vision.",
   "url": "https://hometelligentinc.com/faq/can-i-get-design-ideas-during-a-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I get design ideas during a consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, during a home remodeling consultation, Hometelligent Inc. provides preliminary design insights and suggestions based on your preferences and the property's potential. While a full design plan requires subsequent phases, our consultants can offer creative solutions and illustrate how certain design elements might enhance your space. This initial creative input helps solidify your vision and determine if our design philosophy aligns with your aesthetic.",
-        "description": "Yes, you can get preliminary design insights and suggestions during a consultation to help solidify your vision."
-      }
-    }
-  ],
+  "name": "Can I get design ideas during a consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I get design ideas during a consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, during a home remodeling consultation, Hometelligent Inc. provides preliminary design insights and suggestions based on your preferences and the property's potential. While a full design plan requires subsequent phases, our consultants can offer creative solutions and illustrate how certain design elements might enhance your space. This initial creative input helps solidify your vision and determine if our design philosophy aligns with your aesthetic.",
+        "@type": "Answer",
+        "description": "Yes, you can get preliminary design insights and suggestions during a consultation to help solidify your vision."
+      }
+    }
+  ],
+  "description": "Yes, you can get preliminary design insights and suggestions during a consultation to help solidify your vision."
 }

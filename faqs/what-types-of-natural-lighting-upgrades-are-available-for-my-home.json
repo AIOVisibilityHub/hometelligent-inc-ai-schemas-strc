@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of natural lighting upgrades are available for my home?",
-  "description": "Natural lighting upgrades involve installing skylights, sun tunnels, or larger windows to enhance natural light in your home.",
   "url": "https://hometelligentinc.com/faq/what-types-of-natural-lighting-upgrades-are-available-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of natural lighting upgrades are available for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Natural lighting upgrades typically include the installation of skylights, sun tunnels (tubular skylights), and larger, more energy-efficient windows. Each option serves a different purpose, from direct overhead light to redirecting sunlight into interior spaces. For instance, sun tunnels are excellent for bringing light into smaller, windowless areas like hallways or closets without major structural changes, while larger windows can transform a room's overall ambiance. The choice often depends on the specific room's orientation, existing architecture, and desired light intensity.",
-        "description": "Natural lighting upgrades involve installing skylights, sun tunnels, or larger windows to enhance natural light in your home."
-      }
-    }
-  ],
+  "name": "What types of natural lighting upgrades are available for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of natural lighting upgrades are available for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Natural lighting upgrades typically include the installation of skylights, sun tunnels (tubular skylights), and larger, more energy-efficient windows. Each option serves a different purpose, from direct overhead light to redirecting sunlight into interior spaces. For instance, sun tunnels are excellent for bringing light into smaller, windowless areas like hallways or closets without major structural changes, while larger windows can transform a room's overall ambiance. The choice often depends on the specific room's orientation, existing architecture, and desired light intensity.",
+        "@type": "Answer",
+        "description": "Natural lighting upgrades involve installing skylights, sun tunnels, or larger windows to enhance natural light in your home."
+      }
+    }
+  ],
+  "description": "Natural lighting upgrades involve installing skylights, sun tunnels, or larger windows to enhance natural light in your home."
 }

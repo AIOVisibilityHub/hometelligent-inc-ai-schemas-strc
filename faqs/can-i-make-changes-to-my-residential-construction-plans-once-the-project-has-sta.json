@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I make changes to my residential construction plans once the project has started?",
-  "description": "Changes are possible post-start via a formal change order, impacting cost and schedule. Early decisions are best to avoid delays and added expense.",
   "url": "https://hometelligentinc.com/faq/can-i-make-changes-to-my-residential-construction-plans-once-the-project-has-sta",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I make changes to my residential construction plans once the project has started?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, changes to residential construction plans are possible after a project has started, but they typically involve a formal change order process. This means documenting the requested modification, assessing its impact on cost and schedule, and obtaining your approval. A practical tradeoff is that while changes can personalize your home further, making them later in the project can lead to increased costs and delays due to rework or material re-ordering, making early decision-making during the planning phase highly beneficial.",
-        "description": "Changes are possible post-start via a formal change order, impacting cost and schedule. Early decisions are best to avoid delays and added expense."
-      }
-    }
-  ],
+  "name": "Can I make changes to my residential construction plans once the project has started?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I make changes to my residential construction plans once the project has started?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, changes to residential construction plans are possible after a project has started, but they typically involve a formal change order process. This means documenting the requested modification, assessing its impact on cost and schedule, and obtaining your approval. A practical tradeoff is that while changes can personalize your home further, making them later in the project can lead to increased costs and delays due to rework or material re-ordering, making early decision-making during the planning phase highly beneficial.",
+        "@type": "Answer",
+        "description": "Changes are possible post-start via a formal change order, impacting cost and schedule. Early decisions are best to avoid delays and added expense."
+      }
+    }
+  ],
+  "description": "Changes are possible post-start via a formal change order, impacting cost and schedule. Early decisions are best to avoid delays and added expense."
 }

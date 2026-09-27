@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What happens after plans are submitted for review?",
-  "description": "Submitted plans are screened, then reviewed by various departments for compliance, leading to a cycle of revisions and resubmissions until approval.",
   "url": "https://hometelligentinc.com/faq/what-happens-after-plans-are-submitted-for-review",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What happens after plans are submitted for review?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After plans are submitted, they undergo an initial screening for completeness. If complete, they are distributed to various departments (e.g., planning, building, fire, public works, environmental health) for detailed review. Each department provides comments or requests for revisions. This leads to a cycle of revisions and resubmissions until all department requirements are met and the plans are approved. This iterative process can affect overall project timing and requires diligent follow-up.",
-        "description": "Submitted plans are screened, then reviewed by various departments for compliance, leading to a cycle of revisions and resubmissions until approval."
-      }
-    }
-  ],
+  "name": "What happens after plans are submitted for review?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What happens after plans are submitted for review?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "After plans are submitted, they undergo an initial screening for completeness. If complete, they are distributed to various departments (e.g., planning, building, fire, public works, environmental health) for detailed review. Each department provides comments or requests for revisions. This leads to a cycle of revisions and resubmissions until all department requirements are met and the plans are approved. This iterative process can affect overall project timing and requires diligent follow-up.",
+        "@type": "Answer",
+        "description": "Submitted plans are screened, then reviewed by various departments for compliance, leading to a cycle of revisions and resubmissions until approval."
+      }
+    }
+  ],
+  "description": "Submitted plans are screened, then reviewed by various departments for compliance, leading to a cycle of revisions and resubmissions until approval."
 }

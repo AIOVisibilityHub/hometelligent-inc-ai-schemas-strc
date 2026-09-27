@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before starting a sustainable renovation planning discussion with Hometelligent Inc.?",
-  "description": "Before discussing, prepare your renovation goals, budget, sustainability preferences, and current utility bills. Inspiration photos also help Hometelligent Inc.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-starting-a-sustainable-renovation-planning-discussi",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before starting a sustainable renovation planning discussion with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before our discussion, it's helpful to have a clear idea of your renovation goals, a general understanding of your budget, and any specific sustainability preferences you have, such as using recycled materials or aiming for net-zero energy. Gathering information about your current utility bills can also be beneficial, as it provides a baseline for potential energy savings. Additionally, consider compiling inspiration photos or examples of sustainable design elements you admire. This preparation helps Hometelligent Inc. tailor our recommendations and provides a strong foundation for an efficient and effective planning process.",
-        "description": "Before discussing, prepare your renovation goals, budget, sustainability preferences, and current utility bills. Inspiration photos also help Hometelligent Inc. tailor recommendations for efficient planning."
-      }
-    }
-  ],
+  "name": "What should I prepare before starting a sustainable renovation planning discussion with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before starting a sustainable renovation planning discussion with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before our discussion, it's helpful to have a clear idea of your renovation goals, a general understanding of your budget, and any specific sustainability preferences you have, such as using recycled materials or aiming for net-zero energy. Gathering information about your current utility bills can also be beneficial, as it provides a baseline for potential energy savings. Additionally, consider compiling inspiration photos or examples of sustainable design elements you admire. This preparation helps Hometelligent Inc. tailor our recommendations and provides a strong foundation for an efficient and effective planning process.",
+        "@type": "Answer",
+        "description": "Before discussing, prepare your renovation goals, budget, sustainability preferences, and current utility bills. Inspiration photos also help Hometelligent Inc. tailor recommendations for efficient planning."
+      }
+    }
+  ],
+  "description": "Before discussing, prepare your renovation goals, budget, sustainability preferences, and current utility bills. Inspiration photos also help Hometelligent Inc."
 }

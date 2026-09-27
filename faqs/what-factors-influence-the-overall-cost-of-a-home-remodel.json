@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the overall cost of a home remodel?",
-  "description": "Factors influencing remodel costs include scope of work, material selections, labor rates, existing home condition, and potential unforeseen issues. Local marke",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-overall-cost-of-a-home-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the overall cost of a home remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The overall cost of a home remodel is influenced by several factors, including the scope of work, materials chosen, labor rates, and the existing condition of your home. For example, a kitchen remodel using custom cabinetry and high-end appliances will naturally cost more than one with standard selections. Additionally, unforeseen issues discovered during demolition, such as outdated electrical or plumbing, can increase costs, making a contingency budget crucial. Hometelligent Inc. serves a wide area including Alameda, Albany, and Berkeley, where material and labor costs can vary slightly, so local market conditions also play a role.",
-        "description": "Factors influencing remodel costs include scope of work, material selections, labor rates, existing home condition, and potential unforeseen issues. Local market conditions in areas like Alameda or Berkeley also contribute to cost variations."
-      }
-    }
-  ],
+  "name": "What factors influence the overall cost of a home remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the overall cost of a home remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The overall cost of a home remodel is influenced by several factors, including the scope of work, materials chosen, labor rates, and the existing condition of your home. For example, a kitchen remodel using custom cabinetry and high-end appliances will naturally cost more than one with standard selections. Additionally, unforeseen issues discovered during demolition, such as outdated electrical or plumbing, can increase costs, making a contingency budget crucial. Hometelligent Inc. serves a wide area including Alameda, Albany, and Berkeley, where material and labor costs can vary slightly, so local market conditions also play a role.",
+        "@type": "Answer",
+        "description": "Factors influencing remodel costs include scope of work, material selections, labor rates, existing home condition, and potential unforeseen issues. Local market conditions in areas like Alameda or Berkeley also contribute to cost variations."
+      }
+    }
+  ],
+  "description": "Factors influencing remodel costs include scope of work, material selections, labor rates, existing home condition, and potential unforeseen issues. Local marke"
 }

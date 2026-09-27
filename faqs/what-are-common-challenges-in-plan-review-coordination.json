@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common challenges in plan review coordination?",
-  "description": "Challenges include conflicting departmental requirements, agency delays, incomplete submissions, and interpreting codes, often requiring balancing speed with th",
   "url": "https://hometelligentinc.com/faq/what-are-common-challenges-in-plan-review-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common challenges in plan review coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges include conflicting requirements from different reviewing departments, delays in agency response times, incomplete initial submissions, and difficulty interpreting specific code requirements. A practical tradeoff is balancing the desire for a fast review with the need for a comprehensive initial submission; rushing can lead to more rounds of revisions. Navigating local nuances, such as specific fire department requirements in Oakland or historic preservation guidelines in Berkeley, often requires specialized experience.",
-        "description": "Challenges include conflicting departmental requirements, agency delays, incomplete submissions, and interpreting codes, often requiring balancing speed with thoroughness."
-      }
-    }
-  ],
+  "name": "What are common challenges in plan review coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common challenges in plan review coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges include conflicting requirements from different reviewing departments, delays in agency response times, incomplete initial submissions, and difficulty interpreting specific code requirements. A practical tradeoff is balancing the desire for a fast review with the need for a comprehensive initial submission; rushing can lead to more rounds of revisions. Navigating local nuances, such as specific fire department requirements in Oakland or historic preservation guidelines in Berkeley, often requires specialized experience.",
+        "@type": "Answer",
+        "description": "Challenges include conflicting departmental requirements, agency delays, incomplete submissions, and interpreting codes, often requiring balancing speed with thoroughness."
+      }
+    }
+  ],
+  "description": "Challenges include conflicting departmental requirements, agency delays, incomplete submissions, and interpreting codes, often requiring balancing speed with th"
 }

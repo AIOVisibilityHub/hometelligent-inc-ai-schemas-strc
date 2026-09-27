@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do ventilation systems like HRVs and ERVs improve indoor air quality?",
-  "description": "HRVs and ERVs improve IAQ by exchanging stale indoor air with fresh outdoor air while recovering heat or energy, reducing costs.",
   "url": "https://hometelligentinc.com/faq/how-do-ventilation-systems-like-hrvs-and-ervs-improve-indoor-air-quality",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do ventilation systems like HRVs and ERVs improve indoor air quality?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Heat Recovery Ventilators (HRVs) and Energy Recovery Ventilators (ERVs) improve indoor air quality by continuously exchanging stale indoor air with fresh outdoor air. They recover heat or energy from the exhaust air, reducing heating and cooling costs. The choice between HRV and ERV often depends on the climate and specific humidity control needs of your home.",
-        "description": "HRVs and ERVs improve IAQ by exchanging stale indoor air with fresh outdoor air while recovering heat or energy, reducing costs."
-      }
-    }
-  ],
+  "name": "How do ventilation systems like HRVs and ERVs improve indoor air quality?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do ventilation systems like HRVs and ERVs improve indoor air quality?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Heat Recovery Ventilators (HRVs) and Energy Recovery Ventilators (ERVs) improve indoor air quality by continuously exchanging stale indoor air with fresh outdoor air. They recover heat or energy from the exhaust air, reducing heating and cooling costs. The choice between HRV and ERV often depends on the climate and specific humidity control needs of your home.",
+        "@type": "Answer",
+        "description": "HRVs and ERVs improve IAQ by exchanging stale indoor air with fresh outdoor air while recovering heat or energy, reducing costs."
+      }
+    }
+  ],
+  "description": "HRVs and ERVs improve IAQ by exchanging stale indoor air with fresh outdoor air while recovering heat or energy, reducing costs."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for residential construction in the Bay Area?",
-  "description": "Building, zoning, and trade-specific permits are common in the Bay Area. Requirements vary by city, like Fremont versus Pleasanton, making early research vital",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-residential-construction-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for residential construction in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Residential construction in the Bay Area typically requires various permits, including building permits, zoning permits, and sometimes specialized permits for electrical, plumbing, or mechanical work. Specific requirements can vary significantly by city; for example, the City of Fremont may have different regulations than Pleasanton. Understanding these local requirements is a critical preparation step, as permits ensure your project complies with safety codes and local ordinances, avoiding potential delays or fines.",
-        "description": "Building, zoning, and trade-specific permits are common in the Bay Area. Requirements vary by city, like Fremont versus Pleasanton, making early research vital for compliance."
-      }
-    }
-  ],
+  "name": "What permits are needed for residential construction in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for residential construction in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Residential construction in the Bay Area typically requires various permits, including building permits, zoning permits, and sometimes specialized permits for electrical, plumbing, or mechanical work. Specific requirements can vary significantly by city; for example, the City of Fremont may have different regulations than Pleasanton. Understanding these local requirements is a critical preparation step, as permits ensure your project complies with safety codes and local ordinances, avoiding potential delays or fines.",
+        "@type": "Answer",
+        "description": "Building, zoning, and trade-specific permits are common in the Bay Area. Requirements vary by city, like Fremont versus Pleasanton, making early research vital for compliance."
+      }
+    }
+  ],
+  "description": "Building, zoning, and trade-specific permits are common in the Bay Area. Requirements vary by city, like Fremont versus Pleasanton, making early research vital"
 }

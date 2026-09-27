@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is included in a construction budget?",
-  "description": "A construction budget includes direct costs (materials, labor) and indirect costs (permits, project management, contingency funds). Hometelligent Inc. budgets d",
   "url": "https://hometelligentinc.com/faq/what-is-included-in-a-construction-budget",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is included in a construction budget?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A construction budget typically covers all anticipated costs from project inception to completion. This includes direct costs like materials, labor, equipment, and subcontractors. It also accounts for indirect costs such as permits, site preparation, project management fees, insurance, and contingency funds for unforeseen issues. At Hometelligent Inc., we ensure our budgets detail each phase, from initial design consultation through final inspections, providing a comprehensive financial overview.",
-        "description": "A construction budget includes direct costs (materials, labor) and indirect costs (permits, project management, contingency funds). Hometelligent Inc. budgets detail all phases from design to final inspection."
-      }
-    }
-  ],
+  "name": "What is included in a construction budget?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is included in a construction budget?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A construction budget typically covers all anticipated costs from project inception to completion. This includes direct costs like materials, labor, equipment, and subcontractors. It also accounts for indirect costs such as permits, site preparation, project management fees, insurance, and contingency funds for unforeseen issues. At Hometelligent Inc., we ensure our budgets detail each phase, from initial design consultation through final inspections, providing a comprehensive financial overview.",
+        "@type": "Answer",
+        "description": "A construction budget includes direct costs (materials, labor) and indirect costs (permits, project management, contingency funds). Hometelligent Inc. budgets detail all phases from design to final inspection."
+      }
+    }
+  ],
+  "description": "A construction budget includes direct costs (materials, labor) and indirect costs (permits, project management, contingency funds). Hometelligent Inc. budgets d"
 }

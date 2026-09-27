@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install water-efficient fixtures?",
-  "description": "Installation time varies; a single fixture might take an hour, while multiple fixtures could take a full day or more.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-water-efficient-fixtures",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install water-efficient fixtures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation time for water-efficient fixtures depends on the number and type of fixtures being replaced. A single faucet or showerhead replacement might take an hour, while a comprehensive upgrade of multiple bathrooms or a kitchen could take a full day or more. For larger projects, we work with clients in Livermore and Pleasanton to schedule installations to minimize inconvenience, often completing work within a day for typical residential upgrades.",
-        "description": "Installation time varies; a single fixture might take an hour, while multiple fixtures could take a full day or more."
-      }
-    }
-  ],
+  "name": "How long does it take to install water-efficient fixtures?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install water-efficient fixtures?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation time for water-efficient fixtures depends on the number and type of fixtures being replaced. A single faucet or showerhead replacement might take an hour, while a comprehensive upgrade of multiple bathrooms or a kitchen could take a full day or more. For larger projects, we work with clients in Livermore and Pleasanton to schedule installations to minimize inconvenience, often completing work within a day for typical residential upgrades.",
+        "@type": "Answer",
+        "description": "Installation time varies; a single fixture might take an hour, while multiple fixtures could take a full day or more."
+      }
+    }
+  ],
+  "description": "Installation time varies; a single fixture might take an hour, while multiple fixtures could take a full day or more."
 }

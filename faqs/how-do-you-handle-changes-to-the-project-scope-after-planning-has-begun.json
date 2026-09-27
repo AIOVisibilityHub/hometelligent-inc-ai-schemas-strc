@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do you handle changes to the project scope after planning has begun?",
-  "description": "Changes to project scope are handled via a formal change order process, documenting impacts on cost and timeline, and requiring client approval.",
   "url": "https://hometelligentinc.com/faq/how-do-you-handle-changes-to-the-project-scope-after-planning-has-begun",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do you handle changes to the project scope after planning has begun?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Changes to the project scope are managed through a formal change order process. This involves documenting the requested alteration, assessing its impact on cost and timeline, and obtaining your approval before implementation. This structured approach ensures that all modifications are clearly understood and agreed upon by both parties, maintaining project control.",
-        "description": "Changes to project scope are handled via a formal change order process, documenting impacts on cost and timeline, and requiring client approval."
-      }
-    }
-  ],
+  "name": "How do you handle changes to the project scope after planning has begun?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do you handle changes to the project scope after planning has begun?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Changes to the project scope are managed through a formal change order process. This involves documenting the requested alteration, assessing its impact on cost and timeline, and obtaining your approval before implementation. This structured approach ensures that all modifications are clearly understood and agreed upon by both parties, maintaining project control.",
+        "@type": "Answer",
+        "description": "Changes to project scope are handled via a formal change order process, documenting impacts on cost and timeline, and requiring client approval."
+      }
+    }
+  ],
+  "description": "Changes to project scope are handled via a formal change order process, documenting impacts on cost and timeline, and requiring client approval."
 }

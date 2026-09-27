@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is structural engineering coordination?",
-  "description": "Structural engineering coordination integrates structural design with other building systems to prevent conflicts and ensure safety and functionality.",
   "url": "https://hometelligentinc.com/faq/what-is-structural-engineering-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is structural engineering coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Structural engineering coordination involves integrating the structural design with other building systems, such as architectural, mechanical, electrical, and plumbing plans. This process ensures all elements fit together harmoniously, prevent conflicts during construction, and that the building remains safe and functional. Effective coordination minimizes redesigns and delays, contributing to a smoother construction process for projects in areas like Alameda and Berkeley.",
-        "description": "Structural engineering coordination integrates structural design with other building systems to prevent conflicts and ensure safety and functionality."
-      }
-    }
-  ],
+  "name": "What is structural engineering coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is structural engineering coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Structural engineering coordination involves integrating the structural design with other building systems, such as architectural, mechanical, electrical, and plumbing plans. This process ensures all elements fit together harmoniously, prevent conflicts during construction, and that the building remains safe and functional. Effective coordination minimizes redesigns and delays, contributing to a smoother construction process for projects in areas like Alameda and Berkeley.",
+        "@type": "Answer",
+        "description": "Structural engineering coordination integrates structural design with other building systems to prevent conflicts and ensure safety and functionality."
+      }
+    }
+  ],
+  "description": "Structural engineering coordination integrates structural design with other building systems to prevent conflicts and ensure safety and functionality."
 }

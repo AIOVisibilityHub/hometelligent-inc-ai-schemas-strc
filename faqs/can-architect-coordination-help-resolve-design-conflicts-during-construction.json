@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can architect coordination help resolve design conflicts during construction?",
-  "description": "Architect coordination helps resolve design conflicts during construction by mediating discussions and documenting solutions to maintain design intent.",
   "url": "https://hometelligentinc.com/faq/can-architect-coordination-help-resolve-design-conflicts-during-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can architect coordination help resolve design conflicts during construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a primary function of architect coordination is to identify and resolve design conflicts as they arise during construction. This involves facilitating discussions between the architect, engineers, and contractors to find practical solutions that maintain the design intent while addressing constructability issues. Our approach involves documenting all changes and decisions clearly, ensuring that all parties are informed and agree on the revised plan before work proceeds.",
-        "description": "Architect coordination helps resolve design conflicts during construction by mediating discussions and documenting solutions to maintain design intent."
-      }
-    }
-  ],
+  "name": "Can architect coordination help resolve design conflicts during construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can architect coordination help resolve design conflicts during construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a primary function of architect coordination is to identify and resolve design conflicts as they arise during construction. This involves facilitating discussions between the architect, engineers, and contractors to find practical solutions that maintain the design intent while addressing constructability issues. Our approach involves documenting all changes and decisions clearly, ensuring that all parties are informed and agree on the revised plan before work proceeds.",
+        "@type": "Answer",
+        "description": "Architect coordination helps resolve design conflicts during construction by mediating discussions and documenting solutions to maintain design intent."
+      }
+    }
+  ],
+  "description": "Architect coordination helps resolve design conflicts during construction by mediating discussions and documenting solutions to maintain design intent."
 }

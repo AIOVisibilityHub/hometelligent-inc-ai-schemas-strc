@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information should I prepare for a construction feasibility consultation?",
-  "description": "Prepare site plans, surveys, photos, project goals, and your budget. Knowing specific zoning or property history for your area helps streamline the process.",
   "url": "https://hometelligentinc.com/faq/what-information-should-i-prepare-for-a-construction-feasibility-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information should I prepare for a construction feasibility consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To make your construction feasibility consultation efficient, prepare any existing site plans, property surveys, photographs, and a clear description of your project vision and goals. Also, be ready to discuss your preliminary budget and timeline expectations. For projects in our service areas like Fremont or Hayward, knowledge of your property's specific zoning or any known historical issues can be very helpful for initial assessments.",
-        "description": "Prepare site plans, surveys, photos, project goals, and your budget. Knowing specific zoning or property history for your area helps streamline the process."
-      }
-    }
-  ],
+  "name": "What information should I prepare for a construction feasibility consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information should I prepare for a construction feasibility consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To make your construction feasibility consultation efficient, prepare any existing site plans, property surveys, photographs, and a clear description of your project vision and goals. Also, be ready to discuss your preliminary budget and timeline expectations. For projects in our service areas like Fremont or Hayward, knowledge of your property's specific zoning or any known historical issues can be very helpful for initial assessments.",
+        "@type": "Answer",
+        "description": "Prepare site plans, surveys, photos, project goals, and your budget. Knowing specific zoning or property history for your area helps streamline the process."
+      }
+    }
+  ],
+  "description": "Prepare site plans, surveys, photos, project goals, and your budget. Knowing specific zoning or property history for your area helps streamline the process."
 }

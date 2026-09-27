@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my home for an indoor air quality assessment?",
-  "description": "Ensure access to key areas like attics and crawl spaces. Document any odors, moisture, or health symptoms experienced.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-home-for-an-indoor-air-quality-assessment",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my home for an indoor air quality assessment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for an IAQ assessment, ensure good access to areas like attics, crawl spaces, and utility rooms. Note any specific odors, moisture issues, or health symptoms you or your family have experienced. Providing a clear history of your concerns and observations can help the professionals focus their investigation effectively.",
-        "description": "Ensure access to key areas like attics and crawl spaces. Document any odors, moisture, or health symptoms experienced."
-      }
-    }
-  ],
+  "name": "How can I prepare my home for an indoor air quality assessment?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my home for an indoor air quality assessment?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for an IAQ assessment, ensure good access to areas like attics, crawl spaces, and utility rooms. Note any specific odors, moisture issues, or health symptoms you or your family have experienced. Providing a clear history of your concerns and observations can help the professionals focus their investigation effectively.",
+        "@type": "Answer",
+        "description": "Ensure access to key areas like attics and crawl spaces. Document any odors, moisture, or health symptoms experienced."
+      }
+    }
+  ],
+  "description": "Ensure access to key areas like attics and crawl spaces. Document any odors, moisture, or health symptoms experienced."
 }

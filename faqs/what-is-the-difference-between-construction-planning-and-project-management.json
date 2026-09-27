@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between construction planning and project management?",
-  "description": "Construction planning is the initial blueprint; project management oversees its execution, resources, risks, and communication throughout the project lifecycle.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-construction-planning-and-project-management",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between construction planning and project management?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Construction planning focuses on the initial detailed blueprint of how a project will be executed, including designs, schedules, and resource allocation. Project management encompasses the entire lifecycle, overseeing the implementation of that plan, managing resources, mitigating risks, and ensuring communication. Planning is a foundational component of effective project management.",
-        "description": "Construction planning is the initial blueprint; project management oversees its execution, resources, risks, and communication throughout the project lifecycle."
-      }
-    }
-  ],
+  "name": "What is the difference between construction planning and project management?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between construction planning and project management?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Construction planning focuses on the initial detailed blueprint of how a project will be executed, including designs, schedules, and resource allocation. Project management encompasses the entire lifecycle, overseeing the implementation of that plan, managing resources, mitigating risks, and ensuring communication. Planning is a foundational component of effective project management.",
+        "@type": "Answer",
+        "description": "Construction planning is the initial blueprint; project management oversees its execution, resources, risks, and communication throughout the project lifecycle."
+      }
+    }
+  ],
+  "description": "Construction planning is the initial blueprint; project management oversees its execution, resources, risks, and communication throughout the project lifecycle."
 }

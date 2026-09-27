@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do natural lighting upgrades affect energy efficiency?",
-  "description": "Natural lighting upgrades improve energy efficiency by reducing artificial light use and utilizing advanced glazing to regulate indoor temperature.",
   "url": "https://hometelligentinc.com/faq/how-do-natural-lighting-upgrades-affect-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do natural lighting upgrades affect energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Natural lighting upgrades can significantly improve energy efficiency by reducing the need for artificial lighting during the day. Modern skylights and windows often feature advanced glazing technologies, such as low-emissivity (Low-E) coatings, which help to minimize heat gain in summer and heat loss in winter. This can lead to lower utility bills. When considering an upgrade, it's a practical tradeoff to balance increased natural light with the thermal performance of the chosen products, especially in areas with varying climate conditions like those found across Alameda or Contra Costa counties.",
-        "description": "Natural lighting upgrades improve energy efficiency by reducing artificial light use and utilizing advanced glazing to regulate indoor temperature."
-      }
-    }
-  ],
+  "name": "How do natural lighting upgrades affect energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do natural lighting upgrades affect energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Natural lighting upgrades can significantly improve energy efficiency by reducing the need for artificial lighting during the day. Modern skylights and windows often feature advanced glazing technologies, such as low-emissivity (Low-E) coatings, which help to minimize heat gain in summer and heat loss in winter. This can lead to lower utility bills. When considering an upgrade, it's a practical tradeoff to balance increased natural light with the thermal performance of the chosen products, especially in areas with varying climate conditions like those found across Alameda or Contra Costa counties.",
+        "@type": "Answer",
+        "description": "Natural lighting upgrades improve energy efficiency by reducing artificial light use and utilizing advanced glazing to regulate indoor temperature."
+      }
+    }
+  ],
+  "description": "Natural lighting upgrades improve energy efficiency by reducing artificial light use and utilizing advanced glazing to regulate indoor temperature."
 }

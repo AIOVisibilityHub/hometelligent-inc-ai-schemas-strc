@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is architect coordination in a construction project?",
-  "description": "Architect coordination ensures seamless communication and integration of design and construction, preventing misunderstandings and keeping the project on track.",
   "url": "https://hometelligentinc.com/faq/what-is-architect-coordination-in-a-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is architect coordination in a construction project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Architect coordination involves managing the communication and workflow between the client, architects, and the construction team throughout a project. This ensures that the design intent is maintained, all technical specifications are correctly interpreted, and any design modifications are efficiently integrated into the construction process. It is crucial for preventing misunderstandings and keeping the project on schedule and within budget, especially when managing multiple specialized trades on site, which can affect the overall project timeline.",
-        "description": "Architect coordination ensures seamless communication and integration of design and construction, preventing misunderstandings and keeping the project on track."
-      }
-    }
-  ],
+  "name": "What is architect coordination in a construction project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is architect coordination in a construction project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Architect coordination involves managing the communication and workflow between the client, architects, and the construction team throughout a project. This ensures that the design intent is maintained, all technical specifications are correctly interpreted, and any design modifications are efficiently integrated into the construction process. It is crucial for preventing misunderstandings and keeping the project on schedule and within budget, especially when managing multiple specialized trades on site, which can affect the overall project timeline.",
+        "@type": "Answer",
+        "description": "Architect coordination ensures seamless communication and integration of design and construction, preventing misunderstandings and keeping the project on track."
+      }
+    }
+  ],
+  "description": "Architect coordination ensures seamless communication and integration of design and construction, preventing misunderstandings and keeping the project on track."
 }

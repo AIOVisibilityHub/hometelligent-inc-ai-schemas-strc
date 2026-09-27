@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there any government incentives for green building in the Bay Area?",
-  "description": "Yes, federal, state, and local incentives like tax credits and rebates exist, often tied to certifications like LEED or GreenPoint Rated.",
   "url": "https://hometelligentinc.com/faq/are-there-any-government-incentives-for-green-building-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there any government incentives for green building in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, various federal, state, and local incentives can encourage green building practices. These may include tax credits, rebates for energy-efficient appliances, or reduced permit fees. Eligibility often depends on meeting specific certification standards like LEED or GreenPoint Rated. Hometelligent Inc. can advise on current incentives applicable to projects within our service areas such as Alameda, Albany, and Berkeley, helping clients identify potential financial benefits.",
-        "description": "Yes, federal, state, and local incentives like tax credits and rebates exist, often tied to certifications like LEED or GreenPoint Rated."
-      }
-    }
-  ],
+  "name": "Are there any government incentives for green building in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there any government incentives for green building in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, various federal, state, and local incentives can encourage green building practices. These may include tax credits, rebates for energy-efficient appliances, or reduced permit fees. Eligibility often depends on meeting specific certification standards like LEED or GreenPoint Rated. Hometelligent Inc. can advise on current incentives applicable to projects within our service areas such as Alameda, Albany, and Berkeley, helping clients identify potential financial benefits.",
+        "@type": "Answer",
+        "description": "Yes, federal, state, and local incentives like tax credits and rebates exist, often tied to certifications like LEED or GreenPoint Rated."
+      }
+    }
+  ],
+  "description": "Yes, federal, state, and local incentives like tax credits and rebates exist, often tied to certifications like LEED or GreenPoint Rated."
 }

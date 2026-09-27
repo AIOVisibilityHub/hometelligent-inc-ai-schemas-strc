@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What areas do you serve for home remodeling consultations?",
-  "description": "Hometelligent Inc. serves the East Bay area, including Alameda, Albany, Berkeley, Dublin, Emeryville, and surrounding communities for consultations.",
   "url": "https://hometelligentinc.com/faq/what-areas-do-you-serve-for-home-remodeling-consultations",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What areas do you serve for home remodeling consultations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. provides home remodeling consultations throughout the East Bay area, including cities such as Alameda, Albany, Berkeley, Dublin, and Emeryville. Our service extends to numerous surrounding communities within these regions. This broad service area ensures we can reach a wide range of homeowners, offering our expertise to diverse neighborhoods with varying architectural styles and local regulations.",
-        "description": "Hometelligent Inc. serves the East Bay area, including Alameda, Albany, Berkeley, Dublin, Emeryville, and surrounding communities for consultations."
-      }
-    }
-  ],
+  "name": "What areas do you serve for home remodeling consultations?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What areas do you serve for home remodeling consultations?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. provides home remodeling consultations throughout the East Bay area, including cities such as Alameda, Albany, Berkeley, Dublin, and Emeryville. Our service extends to numerous surrounding communities within these regions. This broad service area ensures we can reach a wide range of homeowners, offering our expertise to diverse neighborhoods with varying architectural styles and local regulations.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. serves the East Bay area, including Alameda, Albany, Berkeley, Dublin, Emeryville, and surrounding communities for consultations."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. serves the East Bay area, including Alameda, Albany, Berkeley, Dublin, Emeryville, and surrounding communities for consultations."
 }

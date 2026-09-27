@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before contacting Hometelligent Inc. about a design-build project?",
-  "description": "Before contacting us, prepare your project goals, desired functions, estimated budget, inspiration photos, and a list of 'must-have' features.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-contacting-hometelligent-inc-about-a-design-build-p",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before contacting Hometelligent Inc. about a design-build project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before contacting us, consider defining your project goals, desired functions for the space, and an estimated budget range. Gathering inspiration photos, making a list of 'must-have' features, and having an idea of your preferred timeline can also be very helpful. This preparation allows our team to better understand your vision and provide a more accurate initial assessment, helping to streamline the early design discussions for homes in areas like Fremont or San Leandro.",
-        "description": "Before contacting us, prepare your project goals, desired functions, estimated budget, inspiration photos, and a list of 'must-have' features."
-      }
-    }
-  ],
+  "name": "What should I prepare before contacting Hometelligent Inc. about a design-build project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before contacting Hometelligent Inc. about a design-build project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before contacting us, consider defining your project goals, desired functions for the space, and an estimated budget range. Gathering inspiration photos, making a list of 'must-have' features, and having an idea of your preferred timeline can also be very helpful. This preparation allows our team to better understand your vision and provide a more accurate initial assessment, helping to streamline the early design discussions for homes in areas like Fremont or San Leandro.",
+        "@type": "Answer",
+        "description": "Before contacting us, prepare your project goals, desired functions, estimated budget, inspiration photos, and a list of 'must-have' features."
+      }
+    }
+  ],
+  "description": "Before contacting us, prepare your project goals, desired functions, estimated budget, inspiration photos, and a list of 'must-have' features."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. handle unforeseen issues during residential construction?",
-  "description": "Hometelligent Inc. handles unforeseen issues with clear communication, proactive solutions, and transparent change orders. We discuss impacts and solutions with",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-handle-unforeseen-issues-during-residential-construct",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. handle unforeseen issues during residential construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. addresses unforeseen issues during residential construction through clear communication, proactive problem-solving, and transparent change order processes. For example, if an unexpected soil condition is discovered during excavation in areas like the Oakland Hills, we immediately assess the situation, propose solutions, and discuss any potential impact on the timeline or budget with the client. Our approach prioritizes keeping the project on track while maintaining quality and client satisfaction.",
-        "description": "Hometelligent Inc. handles unforeseen issues with clear communication, proactive solutions, and transparent change orders. We discuss impacts and solutions with clients promptly."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. handle unforeseen issues during residential construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. handle unforeseen issues during residential construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. addresses unforeseen issues during residential construction through clear communication, proactive problem-solving, and transparent change order processes. For example, if an unexpected soil condition is discovered during excavation in areas like the Oakland Hills, we immediately assess the situation, propose solutions, and discuss any potential impact on the timeline or budget with the client. Our approach prioritizes keeping the project on track while maintaining quality and client satisfaction.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. handles unforeseen issues with clear communication, proactive solutions, and transparent change orders. We discuss impacts and solutions with clients promptly."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. handles unforeseen issues with clear communication, proactive solutions, and transparent change orders. We discuss impacts and solutions with"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical return on investment (ROI) for building an ADU?",
-  "description": "An ADU can provide a strong ROI through increased property value and rental income, with specific returns depending on construction costs, location, and local m",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-return-on-investment-roi-for-building-an-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical return on investment (ROI) for building an ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building an ADU can offer a strong return on investment, primarily through increased property value and potential rental income. Depending on your location and the ADU's features, it can add significant value to your home. For example, in high-demand East Bay areas, rental income can offset construction costs over time and provide a consistent revenue stream. The specific ROI will vary based on initial construction costs, local rental rates, and property appreciation trends in your specific city, such as Oakland or Pleasanton.",
-        "description": "An ADU can provide a strong ROI through increased property value and rental income, with specific returns depending on construction costs, location, and local market trends."
-      }
-    }
-  ],
+  "name": "What is the typical return on investment (ROI) for building an ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical return on investment (ROI) for building an ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building an ADU can offer a strong return on investment, primarily through increased property value and potential rental income. Depending on your location and the ADU's features, it can add significant value to your home. For example, in high-demand East Bay areas, rental income can offset construction costs over time and provide a consistent revenue stream. The specific ROI will vary based on initial construction costs, local rental rates, and property appreciation trends in your specific city, such as Oakland or Pleasanton.",
+        "@type": "Answer",
+        "description": "An ADU can provide a strong ROI through increased property value and rental income, with specific returns depending on construction costs, location, and local market trends."
+      }
+    }
+  ],
+  "description": "An ADU can provide a strong ROI through increased property value and rental income, with specific returns depending on construction costs, location, and local m"
 }

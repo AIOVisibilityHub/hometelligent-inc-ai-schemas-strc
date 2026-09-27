@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of construction projects require engineer coordination?",
-  "description": "Most construction projects, from residential remodels to commercial tenant improvements, require engineer coordination, especially if they involve multiple syst",
   "url": "https://hometelligentinc.com/faq/what-types-of-construction-projects-require-engineer-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of construction projects require engineer coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most construction projects, especially those involving multiple building systems or complex designs, require thorough engineer coordination. This includes residential remodels, new custom homes, commercial tenant improvements, and even smaller additions. Any project where structural, electrical, plumbing, or HVAC systems interact demands careful planning to avoid clashes and ensure functionality. Our experience spans diverse project types across the East Bay, necessitating tailored coordination efforts for each.",
-        "description": "Most construction projects, from residential remodels to commercial tenant improvements, require engineer coordination, especially if they involve multiple systems."
-      }
-    }
-  ],
+  "name": "What types of construction projects require engineer coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of construction projects require engineer coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most construction projects, especially those involving multiple building systems or complex designs, require thorough engineer coordination. This includes residential remodels, new custom homes, commercial tenant improvements, and even smaller additions. Any project where structural, electrical, plumbing, or HVAC systems interact demands careful planning to avoid clashes and ensure functionality. Our experience spans diverse project types across the East Bay, necessitating tailored coordination efforts for each.",
+        "@type": "Answer",
+        "description": "Most construction projects, from residential remodels to commercial tenant improvements, require engineer coordination, especially if they involve multiple systems."
+      }
+    }
+  ],
+  "description": "Most construction projects, from residential remodels to commercial tenant improvements, require engineer coordination, especially if they involve multiple syst"
 }

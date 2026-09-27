@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When do I need to hire an architect versus a general contractor for my project?",
-  "description": "Hire an architect for detailed design on complex projects, and a general contractor for construction management after designs are firm. Design complexity guides",
   "url": "https://hometelligentinc.com/faq/when-do-i-need-to-hire-an-architect-versus-a-general-contractor-for-my-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When do I need to hire an architect versus a general contractor for my project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You typically hire an architect early in the process for significant design work, such as new home builds or major additions, to develop detailed plans. A general contractor, like Hometelligent Inc., is usually brought in after conceptual designs are firm, often during the bidding or pre-construction phase, to manage the actual building process. The decision to hire an architect depends on the complexity of your design needs; a general contractor can sometimes provide design-build services for simpler projects.",
-        "description": "Hire an architect for detailed design on complex projects, and a general contractor for construction management after designs are firm. Design complexity guides this decision."
-      }
-    }
-  ],
+  "name": "When do I need to hire an architect versus a general contractor for my project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When do I need to hire an architect versus a general contractor for my project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You typically hire an architect early in the process for significant design work, such as new home builds or major additions, to develop detailed plans. A general contractor, like Hometelligent Inc., is usually brought in after conceptual designs are firm, often during the bidding or pre-construction phase, to manage the actual building process. The decision to hire an architect depends on the complexity of your design needs; a general contractor can sometimes provide design-build services for simpler projects.",
+        "@type": "Answer",
+        "description": "Hire an architect for detailed design on complex projects, and a general contractor for construction management after designs are firm. Design complexity guides this decision."
+      }
+    }
+  ],
+  "description": "Hire an architect for detailed design on complex projects, and a general contractor for construction management after designs are firm. Design complexity guides"
 }

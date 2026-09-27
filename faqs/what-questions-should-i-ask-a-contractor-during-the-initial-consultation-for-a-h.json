@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What questions should I ask a contractor during the initial consultation for a home addition?",
-  "description": "Ask contractors about their experience, licensing, timeline, communication, change order process, and permit management during an initial consultation.",
   "url": "https://hometelligentinc.com/faq/what-questions-should-i-ask-a-contractor-during-the-initial-consultation-for-a-h",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What questions should I ask a contractor during the initial consultation for a home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "During an initial consultation for a home addition, ask about their experience with similar projects, their licensing and insurance status, and their typical project timeline. It's also important to inquire about their communication process, how they handle change orders, and how they manage permits and inspections. For optimal preparation, have your project ideas, budget range, and any existing plans or sketches ready to share.",
-        "description": "Ask contractors about their experience, licensing, timeline, communication, change order process, and permit management during an initial consultation."
-      }
-    }
-  ],
+  "name": "What questions should I ask a contractor during the initial consultation for a home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What questions should I ask a contractor during the initial consultation for a home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "During an initial consultation for a home addition, ask about their experience with similar projects, their licensing and insurance status, and their typical project timeline. It's also important to inquire about their communication process, how they handle change orders, and how they manage permits and inspections. For optimal preparation, have your project ideas, budget range, and any existing plans or sketches ready to share.",
+        "@type": "Answer",
+        "description": "Ask contractors about their experience, licensing, timeline, communication, change order process, and permit management during an initial consultation."
+      }
+    }
+  ],
+  "description": "Ask contractors about their experience, licensing, timeline, communication, change order process, and permit management during an initial consultation."
 }

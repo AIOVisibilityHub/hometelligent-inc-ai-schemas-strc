@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will water-efficient showerheads and faucets reduce water pressure?",
-  "description": "Modern water-efficient fixtures use advanced technology to maintain perceived water pressure, not just restrict flow. Proper installation is key.",
   "url": "https://hometelligentinc.com/faq/will-water-efficient-showerheads-and-faucets-reduce-water-pressure",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will water-efficient showerheads and faucets reduce water pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Modern water-efficient showerheads and faucets are designed to deliver satisfactory performance without reducing perceived water pressure. They achieve efficiency through advanced aeration and pressure compensation technologies, not simply by restricting flow. However, extremely old or improperly installed low-flow fixtures might have issues. We ensure proper installation and selection of quality products for homes in Berkeley and Oakland to maintain a comfortable water experience.",
-        "description": "Modern water-efficient fixtures use advanced technology to maintain perceived water pressure, not just restrict flow. Proper installation is key."
-      }
-    }
-  ],
+  "name": "Will water-efficient showerheads and faucets reduce water pressure?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will water-efficient showerheads and faucets reduce water pressure?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Modern water-efficient showerheads and faucets are designed to deliver satisfactory performance without reducing perceived water pressure. They achieve efficiency through advanced aeration and pressure compensation technologies, not simply by restricting flow. However, extremely old or improperly installed low-flow fixtures might have issues. We ensure proper installation and selection of quality products for homes in Berkeley and Oakland to maintain a comfortable water experience.",
+        "@type": "Answer",
+        "description": "Modern water-efficient fixtures use advanced technology to maintain perceived water pressure, not just restrict flow. Proper installation is key."
+      }
+    }
+  ],
+  "description": "Modern water-efficient fixtures use advanced technology to maintain perceived water pressure, not just restrict flow. Proper installation is key."
 }

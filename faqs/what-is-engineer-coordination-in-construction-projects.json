@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is engineer coordination in construction projects?",
-  "description": "Engineer coordination ensures all engineering disciplines work together on a construction project to prevent conflicts and delays.",
   "url": "https://hometelligentinc.com/faq/what-is-engineer-coordination-in-construction-projects",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is engineer coordination in construction projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Engineer coordination involves ensuring that all engineering disciplines—such as structural, civil, mechanical, electrical, and plumbing—work together seamlessly on a construction project. This includes reviewing plans for conflicts, aligning specifications, and facilitating communication to prevent errors and delays. For Hometelligent Inc., effective coordination ensures that our build plans are integrated, minimizing rework and keeping projects on schedule in the Alameda, Albany, Berkeley, Dublin, and Emeryville service areas.",
-        "description": "Engineer coordination ensures all engineering disciplines work together on a construction project to prevent conflicts and delays."
-      }
-    }
-  ],
+  "name": "What is engineer coordination in construction projects?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is engineer coordination in construction projects?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Engineer coordination involves ensuring that all engineering disciplines—such as structural, civil, mechanical, electrical, and plumbing—work together seamlessly on a construction project. This includes reviewing plans for conflicts, aligning specifications, and facilitating communication to prevent errors and delays. For Hometelligent Inc., effective coordination ensures that our build plans are integrated, minimizing rework and keeping projects on schedule in the Alameda, Albany, Berkeley, Dublin, and Emeryville service areas.",
+        "@type": "Answer",
+        "description": "Engineer coordination ensures all engineering disciplines work together on a construction project to prevent conflicts and delays."
+      }
+    }
+  ],
+  "description": "Engineer coordination ensures all engineering disciplines work together on a construction project to prevent conflicts and delays."
 }

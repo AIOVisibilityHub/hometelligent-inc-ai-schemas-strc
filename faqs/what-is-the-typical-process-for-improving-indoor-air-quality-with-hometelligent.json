@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for improving indoor air quality with Hometelligent Inc.?",
-  "description": "Our process involves consultation, assessment, a detailed proposal for improvements, and then scheduling and executing the work.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-improving-indoor-air-quality-with-hometelligent",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for improving indoor air quality with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process typically begins with an initial consultation and assessment to identify specific air quality issues. Following this, we provide a detailed proposal outlining recommended improvements, such as enhanced ventilation or moisture control. Once approved, our team schedules and executes the work, ensuring minimal disruption. This ensures a clear understanding of the project scope and timeline.",
-        "description": "Our process involves consultation, assessment, a detailed proposal for improvements, and then scheduling and executing the work."
-      }
-    }
-  ],
+  "name": "What is the typical process for improving indoor air quality with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for improving indoor air quality with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process typically begins with an initial consultation and assessment to identify specific air quality issues. Following this, we provide a detailed proposal outlining recommended improvements, such as enhanced ventilation or moisture control. Once approved, our team schedules and executes the work, ensuring minimal disruption. This ensures a clear understanding of the project scope and timeline.",
+        "@type": "Answer",
+        "description": "Our process involves consultation, assessment, a detailed proposal for improvements, and then scheduling and executing the work."
+      }
+    }
+  ],
+  "description": "Our process involves consultation, assessment, a detailed proposal for improvements, and then scheduling and executing the work."
 }

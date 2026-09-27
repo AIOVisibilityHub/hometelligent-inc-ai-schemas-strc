@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key benefits of an energy-efficient kitchen?",
-  "description": "Benefits include lower utility bills, increased comfort and functionality, reduced environmental impact, and enhanced appliance features.",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-benefits-of-an-energy-efficient-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key benefits of an energy-efficient kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An energy-efficient kitchen offers several key benefits, including reduced utility bills due to lower electricity and water consumption from appliances and fixtures. It also contributes to a more comfortable and functional space, with better lighting and optimized layouts. Environmentally, it lessens your home's carbon footprint. Practically, modern energy-efficient appliances often include advanced features that enhance cooking and cleaning convenience, making daily tasks easier. Many of our clients report greater satisfaction with their home after reducing their environmental impact and saving on recurring costs.",
-        "description": "Benefits include lower utility bills, increased comfort and functionality, reduced environmental impact, and enhanced appliance features."
-      }
-    }
-  ],
+  "name": "What are the key benefits of an energy-efficient kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key benefits of an energy-efficient kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An energy-efficient kitchen offers several key benefits, including reduced utility bills due to lower electricity and water consumption from appliances and fixtures. It also contributes to a more comfortable and functional space, with better lighting and optimized layouts. Environmentally, it lessens your home's carbon footprint. Practically, modern energy-efficient appliances often include advanced features that enhance cooking and cleaning convenience, making daily tasks easier. Many of our clients report greater satisfaction with their home after reducing their environmental impact and saving on recurring costs.",
+        "@type": "Answer",
+        "description": "Benefits include lower utility bills, increased comfort and functionality, reduced environmental impact, and enhanced appliance features."
+      }
+    }
+  ],
+  "description": "Benefits include lower utility bills, increased comfort and functionality, reduced environmental impact, and enhanced appliance features."
 }

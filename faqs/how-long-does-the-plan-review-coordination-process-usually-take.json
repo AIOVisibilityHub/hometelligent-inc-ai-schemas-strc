@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does the plan review coordination process usually take?",
-  "description": "The process length varies based on project complexity and jurisdiction, ranging from weeks to several months, and is affected by submission completeness.",
   "url": "https://hometelligentinc.com/faq/how-long-does-the-plan-review-coordination-process-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does the plan review coordination process usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of plan review coordination varies significantly based on the project's complexity, the jurisdiction, and the responsiveness of the reviewing agencies. Simple projects might take a few weeks, while complex commercial developments could take several months. Factors like the completeness of initial submissions and the promptness in addressing revision requests can also impact the timeline. Delays often occur when multiple departments require conflicting changes, which requires careful negotiation and revised submissions.",
-        "description": "The process length varies based on project complexity and jurisdiction, ranging from weeks to several months, and is affected by submission completeness."
-      }
-    }
-  ],
+  "name": "How long does the plan review coordination process usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does the plan review coordination process usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of plan review coordination varies significantly based on the project's complexity, the jurisdiction, and the responsiveness of the reviewing agencies. Simple projects might take a few weeks, while complex commercial developments could take several months. Factors like the completeness of initial submissions and the promptness in addressing revision requests can also impact the timeline. Delays often occur when multiple departments require conflicting changes, which requires careful negotiation and revised submissions.",
+        "@type": "Answer",
+        "description": "The process length varies based on project complexity and jurisdiction, ranging from weeks to several months, and is affected by submission completeness."
+      }
+    }
+  ],
+  "description": "The process length varies based on project complexity and jurisdiction, ranging from weeks to several months, and is affected by submission completeness."
 }

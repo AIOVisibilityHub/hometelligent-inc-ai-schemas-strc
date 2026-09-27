@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to hire an architect separately if I choose design-build services with Hometelligent Inc.?",
-  "description": "No, you do not need to hire a separate architect. Our design-build services include architectural and design expertise as part of our integrated team.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-hire-an-architect-separately-if-i-choose-design-build-services-with",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to hire an architect separately if I choose design-build services with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, if you choose design-build services with Hometelligent Inc., you do not need to hire an architect separately. Our design-build model includes architectural and design expertise as part of our comprehensive service offering. Our in-house or partnered designers work directly with our construction team from the project's inception, eliminating the need for you to manage separate contracts or coordinate between different professional entities. This integrated approach simplifies the entire project for homeowners in areas like Piedmont or Berkeley.",
-        "description": "No, you do not need to hire a separate architect. Our design-build services include architectural and design expertise as part of our integrated team."
-      }
-    }
-  ],
+  "name": "Do I need to hire an architect separately if I choose design-build services with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to hire an architect separately if I choose design-build services with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "No, if you choose design-build services with Hometelligent Inc., you do not need to hire an architect separately. Our design-build model includes architectural and design expertise as part of our comprehensive service offering. Our in-house or partnered designers work directly with our construction team from the project's inception, eliminating the need for you to manage separate contracts or coordinate between different professional entities. This integrated approach simplifies the entire project for homeowners in areas like Piedmont or Berkeley.",
+        "@type": "Answer",
+        "description": "No, you do not need to hire a separate architect. Our design-build services include architectural and design expertise as part of our integrated team."
+      }
+    }
+  ],
+  "description": "No, you do not need to hire a separate architect. Our design-build services include architectural and design expertise as part of our integrated team."
 }

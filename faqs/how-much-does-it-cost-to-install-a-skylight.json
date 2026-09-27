@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to install a skylight?",
-  "description": "Skylight installation costs vary based on type, size, roof complexity, and material choices. A detailed estimate is provided after an on-site assessment.",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-install-a-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to install a skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of skylight installation varies significantly based on several factors, including the type and size of the skylight, the complexity of the roof structure, and whether new framing or significant roof alterations are required. Other considerations include material choices like glass type (e.g., impact-resistant or energy-efficient) and whether you opt for fixed, venting, or electric models. We provide detailed estimates after assessing your specific home and project needs.",
-        "description": "Skylight installation costs vary based on type, size, roof complexity, and material choices. A detailed estimate is provided after an on-site assessment."
-      }
-    }
-  ],
+  "name": "How much does it cost to install a skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to install a skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of skylight installation varies significantly based on several factors, including the type and size of the skylight, the complexity of the roof structure, and whether new framing or significant roof alterations are required. Other considerations include material choices like glass type (e.g., impact-resistant or energy-efficient) and whether you opt for fixed, venting, or electric models. We provide detailed estimates after assessing your specific home and project needs.",
+        "@type": "Answer",
+        "description": "Skylight installation costs vary based on type, size, roof complexity, and material choices. A detailed estimate is provided after an on-site assessment."
+      }
+    }
+  ],
+  "description": "Skylight installation costs vary based on type, size, roof complexity, and material choices. A detailed estimate is provided after an on-site assessment."
 }

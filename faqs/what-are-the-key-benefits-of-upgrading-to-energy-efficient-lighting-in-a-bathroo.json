@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key benefits of upgrading to energy-efficient lighting in a bathroom?",
-  "description": "Energy-efficient LED lighting reduces electricity bills, lasts longer, and improves light quality. Higher upfront costs are offset by long-term savings and bett",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-benefits-of-upgrading-to-energy-efficient-lighting-in-a-bathroo",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key benefits of upgrading to energy-efficient lighting in a bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Upgrading to energy-efficient lighting, primarily LED fixtures, offers significant benefits including reduced electricity bills, longer bulb lifespan, and improved light quality. LEDs consume considerably less energy than traditional incandescent or fluorescent bulbs and can last for decades, minimizing replacement costs and maintenance. A practical tradeoff is the higher upfront cost of quality LED fixtures compared to conventional options; however, these costs are typically offset by energy savings over their lifespan. Additionally, LED technology allows for better control over color temperature and brightness, enhancing the bathroom's ambiance.",
-        "description": "Energy-efficient LED lighting reduces electricity bills, lasts longer, and improves light quality. Higher upfront costs are offset by long-term savings and better ambiance."
-      }
-    }
-  ],
+  "name": "What are the key benefits of upgrading to energy-efficient lighting in a bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key benefits of upgrading to energy-efficient lighting in a bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Upgrading to energy-efficient lighting, primarily LED fixtures, offers significant benefits including reduced electricity bills, longer bulb lifespan, and improved light quality. LEDs consume considerably less energy than traditional incandescent or fluorescent bulbs and can last for decades, minimizing replacement costs and maintenance. A practical tradeoff is the higher upfront cost of quality LED fixtures compared to conventional options; however, these costs are typically offset by energy savings over their lifespan. Additionally, LED technology allows for better control over color temperature and brightness, enhancing the bathroom's ambiance.",
+        "@type": "Answer",
+        "description": "Energy-efficient LED lighting reduces electricity bills, lasts longer, and improves light quality. Higher upfront costs are offset by long-term savings and better ambiance."
+      }
+    }
+  ],
+  "description": "Energy-efficient LED lighting reduces electricity bills, lasts longer, and improves light quality. Higher upfront costs are offset by long-term savings and bett"
 }

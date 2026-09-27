@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost structure for permit coordination services?",
-  "description": "Permit coordination costs vary by project complexity and city fees, often a flat fee, hourly rate, or percentage. A detailed proposal will outline all anticipat",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-structure-for-permit-coordination-services",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost structure for permit coordination services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost structure for permit coordination services typically varies based on the complexity and scope of your construction project, as well as the specific municipality's fees. It can be structured as a flat fee for defined services, an hourly rate, or a percentage of the total permit fees. We provide a detailed proposal outlining all anticipated costs, including city application fees, prior to starting work. Understanding the exact scope of services included in the fee is a critical decision factor when comparing providers, as some might exclude certain elements like revisions or specific departmental approvals.",
-        "description": "Permit coordination costs vary by project complexity and city fees, often a flat fee, hourly rate, or percentage. A detailed proposal will outline all anticipated costs."
-      }
-    }
-  ],
+  "name": "What is the typical cost structure for permit coordination services?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost structure for permit coordination services?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost structure for permit coordination services typically varies based on the complexity and scope of your construction project, as well as the specific municipality's fees. It can be structured as a flat fee for defined services, an hourly rate, or a percentage of the total permit fees. We provide a detailed proposal outlining all anticipated costs, including city application fees, prior to starting work. Understanding the exact scope of services included in the fee is a critical decision factor when comparing providers, as some might exclude certain elements like revisions or specific departmental approvals.",
+        "@type": "Answer",
+        "description": "Permit coordination costs vary by project complexity and city fees, often a flat fee, hourly rate, or percentage. A detailed proposal will outline all anticipated costs."
+      }
+    }
+  ],
+  "description": "Permit coordination costs vary by project complexity and city fees, often a flat fee, hourly rate, or percentage. A detailed proposal will outline all anticipat"
 }

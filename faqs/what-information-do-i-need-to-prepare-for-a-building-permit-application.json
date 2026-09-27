@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information do I need to prepare for a building permit application?",
-  "description": "You need detailed plans, drawings, and specifications for your project, such as architectural blueprints and site plans, to apply for a building permit.",
   "url": "https://hometelligentinc.com/faq/what-information-do-i-need-to-prepare-for-a-building-permit-application",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information do I need to prepare for a building permit application?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before applying for a building permit, you'll typically need detailed plans, drawings, and specifications of your proposed project. This includes architectural blueprints, structural calculations, site plans, and sometimes energy efficiency documentation. For example, if you're building an addition in Oakland, you'll need to show how the proposed structure fits zoning requirements and local design guidelines. Gathering all required documents and ensuring they meet local municipal standards beforehand can significantly streamline the application process.",
-        "description": "You need detailed plans, drawings, and specifications for your project, such as architectural blueprints and site plans, to apply for a building permit."
-      }
-    }
-  ],
+  "name": "What information do I need to prepare for a building permit application?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information do I need to prepare for a building permit application?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before applying for a building permit, you'll typically need detailed plans, drawings, and specifications of your proposed project. This includes architectural blueprints, structural calculations, site plans, and sometimes energy efficiency documentation. For example, if you're building an addition in Oakland, you'll need to show how the proposed structure fits zoning requirements and local design guidelines. Gathering all required documents and ensuring they meet local municipal standards beforehand can significantly streamline the application process.",
+        "@type": "Answer",
+        "description": "You need detailed plans, drawings, and specifications for your project, such as architectural blueprints and site plans, to apply for a building permit."
+      }
+    }
+  ],
+  "description": "You need detailed plans, drawings, and specifications for your project, such as architectural blueprints and site plans, to apply for a building permit."
 }

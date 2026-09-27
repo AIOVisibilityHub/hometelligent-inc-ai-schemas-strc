@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there specific materials that contribute to an efficient bathroom upgrade?",
-  "description": "Efficient bathroom upgrades benefit from sustainable materials like recycled countertops, low-VOC paints, and durable, easy-to-clean shower surfaces. Higher ini",
   "url": "https://hometelligentinc.com/faq/are-there-specific-materials-that-contribute-to-an-efficient-bathroom-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there specific materials that contribute to an efficient bathroom upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, several materials contribute to an efficient bathroom upgrade. Beyond fixtures, consider using sustainable or recycled materials for countertops and flooring, such as recycled glass, engineered quartz, or responsibly sourced wood. Low-VOC (volatile organic compound) paints and sealants improve indoor air quality. For showers, consider durable, easy-to-clean surfaces that reduce the need for harsh chemicals. A practical tradeoff is that while eco-friendly and high-performance materials often have a higher initial cost, they typically offer greater longevity, easier maintenance, and contribute to a healthier home environment.",
-        "description": "Efficient bathroom upgrades benefit from sustainable materials like recycled countertops, low-VOC paints, and durable, easy-to-clean shower surfaces. Higher initial costs are offset by longevity and health benefits."
-      }
-    }
-  ],
+  "name": "Are there specific materials that contribute to an efficient bathroom upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there specific materials that contribute to an efficient bathroom upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, several materials contribute to an efficient bathroom upgrade. Beyond fixtures, consider using sustainable or recycled materials for countertops and flooring, such as recycled glass, engineered quartz, or responsibly sourced wood. Low-VOC (volatile organic compound) paints and sealants improve indoor air quality. For showers, consider durable, easy-to-clean surfaces that reduce the need for harsh chemicals. A practical tradeoff is that while eco-friendly and high-performance materials often have a higher initial cost, they typically offer greater longevity, easier maintenance, and contribute to a healthier home environment.",
+        "@type": "Answer",
+        "description": "Efficient bathroom upgrades benefit from sustainable materials like recycled countertops, low-VOC paints, and durable, easy-to-clean shower surfaces. Higher initial costs are offset by longevity and health benefits."
+      }
+    }
+  ],
+  "description": "Efficient bathroom upgrades benefit from sustainable materials like recycled countertops, low-VOC paints, and durable, easy-to-clean shower surfaces. Higher ini"
 }

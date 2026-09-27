@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I engage a construction company like Hometelligent Inc. for my project?",
-  "description": "Engage Hometelligent Inc. early in the conceptual stage, ideally before final architectural plans, for input on feasibility, cost, and constructability.",
   "url": "https://hometelligentinc.com/faq/when-should-i-engage-a-construction-company-like-hometelligent-inc-for-my-projec",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I engage a construction company like Hometelligent Inc. for my project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is best to engage Hometelligent Inc. early in your project's conceptual stage, ideally before final architectural plans are complete. This allows us to provide valuable input on feasibility, cost-effectiveness, and constructability, potentially saving time and money. Early involvement helps align design with practical construction realities.",
-        "description": "Engage Hometelligent Inc. early in the conceptual stage, ideally before final architectural plans, for input on feasibility, cost, and constructability."
-      }
-    }
-  ],
+  "name": "When should I engage a construction company like Hometelligent Inc. for my project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I engage a construction company like Hometelligent Inc. for my project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "It is best to engage Hometelligent Inc. early in your project's conceptual stage, ideally before final architectural plans are complete. This allows us to provide valuable input on feasibility, cost-effectiveness, and constructability, potentially saving time and money. Early involvement helps align design with practical construction realities.",
+        "@type": "Answer",
+        "description": "Engage Hometelligent Inc. early in the conceptual stage, ideally before final architectural plans, for input on feasibility, cost, and constructability."
+      }
+    }
+  ],
+  "description": "Engage Hometelligent Inc. early in the conceptual stage, ideally before final architectural plans, for input on feasibility, cost, and constructability."
 }

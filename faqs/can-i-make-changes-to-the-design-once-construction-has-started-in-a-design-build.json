@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I make changes to the design once construction has started in a design-build project?",
-  "description": "Changes are possible during construction but may affect timeline and cost, handled via a formal change order process. Thorough design review beforehand is encou",
   "url": "https://hometelligentinc.com/faq/can-i-make-changes-to-the-design-once-construction-has-started-in-a-design-build",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I make changes to the design once construction has started in a design-build project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While design-build aims to finalize plans before construction, changes are possible, though they may impact the project timeline and cost. Our process emphasizes thorough design review and client approval before breaking ground to minimize such instances. If changes are necessary during construction, they will be handled through a formal change order process, clearly outlining any adjustments to the schedule or budget. Early decision-making and clear communication during the design phase are crucial to avoid extensive changes, especially for projects with strict timelines in areas like Livermore or Pleasanton.",
-        "description": "Changes are possible during construction but may affect timeline and cost, handled via a formal change order process. Thorough design review beforehand is encouraged."
-      }
-    }
-  ],
+  "name": "Can I make changes to the design once construction has started in a design-build project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I make changes to the design once construction has started in a design-build project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While design-build aims to finalize plans before construction, changes are possible, though they may impact the project timeline and cost. Our process emphasizes thorough design review and client approval before breaking ground to minimize such instances. If changes are necessary during construction, they will be handled through a formal change order process, clearly outlining any adjustments to the schedule or budget. Early decision-making and clear communication during the design phase are crucial to avoid extensive changes, especially for projects with strict timelines in areas like Livermore or Pleasanton.",
+        "@type": "Answer",
+        "description": "Changes are possible during construction but may affect timeline and cost, handled via a formal change order process. Thorough design review beforehand is encouraged."
+      }
+    }
+  ],
+  "description": "Changes are possible during construction but may affect timeline and cost, handled via a formal change order process. Thorough design review beforehand is encou"
 }

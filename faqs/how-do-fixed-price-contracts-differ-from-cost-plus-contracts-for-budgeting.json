@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do fixed-price contracts differ from cost-plus contracts for budgeting?",
-  "description": "Fixed-price contracts offer a set cost, while cost-plus contracts reimburse actual costs plus a fee. Hometelligent Inc. helps clients choose based on budget cer",
   "url": "https://hometelligentinc.com/faq/how-do-fixed-price-contracts-differ-from-cost-plus-contracts-for-budgeting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do fixed-price contracts differ from cost-plus contracts for budgeting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fixed-price contracts offer a single, predetermined cost for the entire project, providing budget certainty. The contractor assumes most of the risk for cost overruns. Cost-plus contracts, conversely, reimburse the contractor for actual project costs plus an agreed-upon fee or percentage. While less predictable, cost-plus can offer more flexibility for scope changes. Hometelligent Inc. helps clients understand the implications of each contract type and choose the best fit for their project's risk tolerance and desired control.",
-        "description": "Fixed-price contracts offer a set cost, while cost-plus contracts reimburse actual costs plus a fee. Hometelligent Inc. helps clients choose based on budget certainty and flexibility needs."
-      }
-    }
-  ],
+  "name": "How do fixed-price contracts differ from cost-plus contracts for budgeting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do fixed-price contracts differ from cost-plus contracts for budgeting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Fixed-price contracts offer a single, predetermined cost for the entire project, providing budget certainty. The contractor assumes most of the risk for cost overruns. Cost-plus contracts, conversely, reimburse the contractor for actual project costs plus an agreed-upon fee or percentage. While less predictable, cost-plus can offer more flexibility for scope changes. Hometelligent Inc. helps clients understand the implications of each contract type and choose the best fit for their project's risk tolerance and desired control.",
+        "@type": "Answer",
+        "description": "Fixed-price contracts offer a set cost, while cost-plus contracts reimburse actual costs plus a fee. Hometelligent Inc. helps clients choose based on budget certainty and flexibility needs."
+      }
+    }
+  ],
+  "description": "Fixed-price contracts offer a set cost, while cost-plus contracts reimburse actual costs plus a fee. Hometelligent Inc. helps clients choose based on budget cer"
 }

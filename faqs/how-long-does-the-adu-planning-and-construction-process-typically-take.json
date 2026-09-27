@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does the ADU planning and construction process typically take?",
-  "description": "ADU projects typically take 12-18 months from planning to completion, with permitting often taking 3-6 months depending on jurisdiction and project complexity.",
   "url": "https://hometelligentinc.com/faq/how-long-does-the-adu-planning-and-construction-process-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does the ADU planning and construction process typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The entire ADU planning and construction process typically ranges from 12 to 18 months, though it can vary. This includes initial design, permitting, and construction phases. The permitting phase often takes the longest, from 3 to 6 months, depending on the complexity of the project and the local jurisdiction's review times. For example, in some East Bay cities, streamlined ADU permit processes can expedite this phase. Proactive preparation of all required documents and clear communication with the city planning department can help keep the project on track.",
-        "description": "ADU projects typically take 12-18 months from planning to completion, with permitting often taking 3-6 months depending on jurisdiction and project complexity."
-      }
-    }
-  ],
+  "name": "How long does the ADU planning and construction process typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does the ADU planning and construction process typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The entire ADU planning and construction process typically ranges from 12 to 18 months, though it can vary. This includes initial design, permitting, and construction phases. The permitting phase often takes the longest, from 3 to 6 months, depending on the complexity of the project and the local jurisdiction's review times. For example, in some East Bay cities, streamlined ADU permit processes can expedite this phase. Proactive preparation of all required documents and clear communication with the city planning department can help keep the project on track.",
+        "@type": "Answer",
+        "description": "ADU projects typically take 12-18 months from planning to completion, with permitting often taking 3-6 months depending on jurisdiction and project complexity."
+      }
+    }
+  ],
+  "description": "ADU projects typically take 12-18 months from planning to completion, with permitting often taking 3-6 months depending on jurisdiction and project complexity."
 }

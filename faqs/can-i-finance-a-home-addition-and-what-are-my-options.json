@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I finance a home addition, and what are my options?",
-  "description": "Home additions can be financed via home equity loans, HELOCs, or cash-out refinances. Gather financial documents and project cost estimates for lenders.",
   "url": "https://hometelligentinc.com/faq/can-i-finance-a-home-addition-and-what-are-my-options",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I finance a home addition, and what are my options?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, you can finance a home addition through various options such as a home equity loan, home equity line of credit (HELOC), or a cash-out refinance. Each option has different interest rates, repayment terms, and eligibility requirements. When preparing for financing, you'll need to gather financial documentation and a clear estimate of your project costs to present to lenders.",
-        "description": "Home additions can be financed via home equity loans, HELOCs, or cash-out refinances. Gather financial documents and project cost estimates for lenders."
-      }
-    }
-  ],
+  "name": "Can I finance a home addition, and what are my options?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I finance a home addition, and what are my options?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, you can finance a home addition through various options such as a home equity loan, home equity line of credit (HELOC), or a cash-out refinance. Each option has different interest rates, repayment terms, and eligibility requirements. When preparing for financing, you'll need to gather financial documentation and a clear estimate of your project costs to present to lenders.",
+        "@type": "Answer",
+        "description": "Home additions can be financed via home equity loans, HELOCs, or cash-out refinances. Gather financial documents and project cost estimates for lenders."
+      }
+    }
+  ],
+  "description": "Home additions can be financed via home equity loans, HELOCs, or cash-out refinances. Gather financial documents and project cost estimates for lenders."
 }

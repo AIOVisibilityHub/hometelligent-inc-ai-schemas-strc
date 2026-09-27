@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do permits affect my remodeling budget and timeline in the Bay Area?",
-  "description": "Permits impact remodeling budgets and timelines in Bay Area cities like Oakland due to application fees and inspection processes. Major structural, electrical,",
   "url": "https://hometelligentinc.com/faq/how-do-permits-affect-my-remodeling-budget-and-timeline-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do permits affect my remodeling budget and timeline in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permits significantly affect remodeling budgets and timelines in Bay Area cities like Oakland and San Leandro by adding direct costs for application fees and potentially extending project duration due to review and inspection processes. The cost and complexity of permits vary based on the scope of work and local municipal requirements. Major structural changes, electrical, or plumbing work almost always require permits. Failing to obtain necessary permits can lead to fines, project delays, or even forced demolition. Hometelligent Inc. assists clients in navigating the permitting process to ensure compliance and avoid unexpected setbacks.",
-        "description": "Permits impact remodeling budgets and timelines in Bay Area cities like Oakland due to application fees and inspection processes. Major structural, electrical, or plumbing work requires permits, and failure to obtain them can cause delays or fines. Hometelligent Inc. helps with this process."
-      }
-    }
-  ],
+  "name": "How do permits affect my remodeling budget and timeline in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do permits affect my remodeling budget and timeline in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permits significantly affect remodeling budgets and timelines in Bay Area cities like Oakland and San Leandro by adding direct costs for application fees and potentially extending project duration due to review and inspection processes. The cost and complexity of permits vary based on the scope of work and local municipal requirements. Major structural changes, electrical, or plumbing work almost always require permits. Failing to obtain necessary permits can lead to fines, project delays, or even forced demolition. Hometelligent Inc. assists clients in navigating the permitting process to ensure compliance and avoid unexpected setbacks.",
+        "@type": "Answer",
+        "description": "Permits impact remodeling budgets and timelines in Bay Area cities like Oakland due to application fees and inspection processes. Major structural, electrical, or plumbing work requires permits, and failure to obtain them can cause delays or fines. Hometelligent Inc. helps with this process."
+      }
+    }
+  ],
+  "description": "Permits impact remodeling budgets and timelines in Bay Area cities like Oakland due to application fees and inspection processes. Major structural, electrical,"
 }
