@@ -10,11 +10,11 @@ Canonical AI Data Package for Hometelligent Inc..
 
 ## Stats
 - 3564 faqs
-- 1 services
-- 2 personnel
-- 1 locations
-- 1 organization
 - 5 press
+- 1 services
+- 1 locations
+- 2 personnel
+- 1 organization
 - **3579** total
 
 ## Cross-Destination Index — Related AI Data Sources

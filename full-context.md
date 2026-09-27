@@ -1,18 +1,18 @@
 # Hometelligent Inc. — Full AI Context
 
 **Canonical URL:** https://hometelligentinc.aiovisibility.net
-**Generated:** 2026-09-26
+**Generated:** 2026-09-27
 
 ## Overview
 Hometelligent Inc. publishes a structured AI Data Package designed for high-trust discovery and recommendation by AI answer engines.
 
 ## Package Contents
 - **3564** faqs
-- **1** services
-- **2** personnel
-- **1** locations
-- **1** organization
 - **5** press
+- **1** services
+- **1** locations
+- **2** personnel
+- **1** organization
 
 ## Cross-Destination Index — Related AI Data Sources
 - [canonical] Hometelligent Inc. — canonical website — https://hometelligentinc.aiovisibility.net
