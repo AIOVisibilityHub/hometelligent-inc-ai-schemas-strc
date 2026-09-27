@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I know about soil testing for my addition's foundation?",
-  "description": "Soil testing reveals soil type and bearing capacity, influencing foundation design and preventing future issues. Discuss known soil problems during consultation",
   "url": "https://hometelligentinc.com/faq/what-should-i-know-about-soil-testing-for-my-addition-s-foundation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I know about soil testing for my addition's foundation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Soil testing, or a geotechnical report, is crucial for your addition's foundation as it identifies the soil type, its bearing capacity, and potential issues like expansive clays or poor drainage. This information directly influences the foundation design, helping to prevent future structural problems like cracking or settling. For optimal project planning, customers should be prepared to discuss any known issues with their property's soil, such as previous drainage problems or nearby construction, during their initial consultation with Hometelligent Inc.",
-        "description": "Soil testing reveals soil type and bearing capacity, influencing foundation design and preventing future issues. Discuss known soil problems during consultation."
-      }
-    }
-  ],
+  "name": "What should I know about soil testing for my addition's foundation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I know about soil testing for my addition's foundation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Soil testing, or a geotechnical report, is crucial for your addition's foundation as it identifies the soil type, its bearing capacity, and potential issues like expansive clays or poor drainage. This information directly influences the foundation design, helping to prevent future structural problems like cracking or settling. For optimal project planning, customers should be prepared to discuss any known issues with their property's soil, such as previous drainage problems or nearby construction, during their initial consultation with Hometelligent Inc.",
+        "@type": "Answer",
+        "description": "Soil testing reveals soil type and bearing capacity, influencing foundation design and preventing future issues. Discuss known soil problems during consultation."
+      }
+    }
+  ],
+  "description": "Soil testing reveals soil type and bearing capacity, influencing foundation design and preventing future issues. Discuss known soil problems during consultation"
 }

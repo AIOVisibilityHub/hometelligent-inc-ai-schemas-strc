@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before starting a kitchen renovation?",
-  "description": "Before starting, consider your budget, timeline, desired functionality, and temporary kitchen setup. Plan your needs and preferences for design.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-starting-a-kitchen-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before starting a kitchen renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting a kitchen renovation, consider your budget, desired timeline, and the functionality you need from your new kitchen. Think about storage solutions, appliance preferences, and how the layout will impact your daily routine. It's also important to plan for a temporary kitchen setup during construction and understand the potential for disruption. Gathering inspiration photos and making a wish list helps us create a design that aligns with your vision and practical needs in areas like Alameda or Dublin.",
-        "description": "Before starting, consider your budget, timeline, desired functionality, and temporary kitchen setup. Plan your needs and preferences for design."
-      }
-    }
-  ],
+  "name": "What should I consider before starting a kitchen renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before starting a kitchen renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting a kitchen renovation, consider your budget, desired timeline, and the functionality you need from your new kitchen. Think about storage solutions, appliance preferences, and how the layout will impact your daily routine. It's also important to plan for a temporary kitchen setup during construction and understand the potential for disruption. Gathering inspiration photos and making a wish list helps us create a design that aligns with your vision and practical needs in areas like Alameda or Dublin.",
+        "@type": "Answer",
+        "description": "Before starting, consider your budget, timeline, desired functionality, and temporary kitchen setup. Plan your needs and preferences for design."
+      }
+    }
+  ],
+  "description": "Before starting, consider your budget, timeline, desired functionality, and temporary kitchen setup. Plan your needs and preferences for design."
 }

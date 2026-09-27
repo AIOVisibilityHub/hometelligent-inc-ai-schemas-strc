@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for unifying an open-concept kitchen with adjacent living areas?",
-  "description": "Design considerations for open-concept kitchens include consistent flooring, cohesive colors, and complementary lighting. Balance kitchen function with aestheti",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-unifying-an-open-concept-kitchen-wi",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for unifying an open-concept kitchen with adjacent living areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Unifying an open-concept kitchen with adjacent living areas involves careful selection of consistent flooring, cohesive color palettes, and complementary lighting. Creating a seamless transition can be achieved through shared design elements or a harmonious flow of materials. A practical tradeoff is balancing the distinct function of the kitchen with the aesthetic continuity of the open space. Consider using a consistent style for cabinetry and furniture, or employing strategic area rugs to define zones while maintaining overall unity.",
-        "description": "Design considerations for open-concept kitchens include consistent flooring, cohesive colors, and complementary lighting. Balance kitchen function with aesthetic continuity for a unified space."
-      }
-    }
-  ],
+  "name": "What design considerations are important for unifying an open-concept kitchen with adjacent living areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for unifying an open-concept kitchen with adjacent living areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Unifying an open-concept kitchen with adjacent living areas involves careful selection of consistent flooring, cohesive color palettes, and complementary lighting. Creating a seamless transition can be achieved through shared design elements or a harmonious flow of materials. A practical tradeoff is balancing the distinct function of the kitchen with the aesthetic continuity of the open space. Consider using a consistent style for cabinetry and furniture, or employing strategic area rugs to define zones while maintaining overall unity.",
+        "@type": "Answer",
+        "description": "Design considerations for open-concept kitchens include consistent flooring, cohesive colors, and complementary lighting. Balance kitchen function with aesthetic continuity for a unified space."
+      }
+    }
+  ],
+  "description": "Design considerations for open-concept kitchens include consistent flooring, cohesive colors, and complementary lighting. Balance kitchen function with aestheti"
 }

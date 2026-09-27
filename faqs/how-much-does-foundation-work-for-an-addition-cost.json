@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does foundation work for an addition cost?",
-  "description": "Foundation work costs vary based on type, size, soil conditions, and labor. Consider the tradeoff between upfront cost and long-term benefits of different found",
   "url": "https://hometelligentinc.com/faq/how-much-does-foundation-work-for-an-addition-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does foundation work for an addition cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of foundation work for an addition varies widely based on several factors, typically ranging from a few thousand to tens of thousands of dollars. Key determinants include the foundation type (slab, crawl space, or basement), the size of the addition, soil conditions requiring special preparation or grading, and local material and labor costs. A practical tradeoff is balancing the immediate construction cost with long-term benefits like increased usable space or ease of access for future repairs, which a basement or crawl space foundation provides compared to a slab.",
-        "description": "Foundation work costs vary based on type, size, soil conditions, and labor. Consider the tradeoff between upfront cost and long-term benefits of different foundation types."
-      }
-    }
-  ],
+  "name": "How much does foundation work for an addition cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does foundation work for an addition cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of foundation work for an addition varies widely based on several factors, typically ranging from a few thousand to tens of thousands of dollars. Key determinants include the foundation type (slab, crawl space, or basement), the size of the addition, soil conditions requiring special preparation or grading, and local material and labor costs. A practical tradeoff is balancing the immediate construction cost with long-term benefits like increased usable space or ease of access for future repairs, which a basement or crawl space foundation provides compared to a slab.",
+        "@type": "Answer",
+        "description": "Foundation work costs vary based on type, size, soil conditions, and labor. Consider the tradeoff between upfront cost and long-term benefits of different foundation types."
+      }
+    }
+  ],
+  "description": "Foundation work costs vary based on type, size, soil conditions, and labor. Consider the tradeoff between upfront cost and long-term benefits of different found"
 }

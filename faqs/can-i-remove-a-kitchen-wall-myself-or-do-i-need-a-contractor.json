@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I remove a kitchen wall myself, or do I need a contractor?",
-  "description": "A contractor is generally recommended due to structural and utility complexities, permits, and safety. DIY saves costs but risks safety and compliance.",
   "url": "https://hometelligentinc.com/faq/can-i-remove-a-kitchen-wall-myself-or-do-i-need-a-contractor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I remove a kitchen wall myself, or do I need a contractor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While it might seem like a straightforward demolition task, removing a kitchen wall typically requires the expertise of a professional contractor, especially if the wall is load-bearing or contains utilities. A contractor can accurately assess structural implications, obtain necessary permits, safely manage utility rerouting, and ensure proper structural support. The practical tradeoff is between potential cost savings of a DIY approach versus the safety, compliance, and guaranteed quality provided by a licensed professional.",
-        "description": "A contractor is generally recommended due to structural and utility complexities, permits, and safety. DIY saves costs but risks safety and compliance."
-      }
-    }
-  ],
+  "name": "Can I remove a kitchen wall myself, or do I need a contractor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I remove a kitchen wall myself, or do I need a contractor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While it might seem like a straightforward demolition task, removing a kitchen wall typically requires the expertise of a professional contractor, especially if the wall is load-bearing or contains utilities. A contractor can accurately assess structural implications, obtain necessary permits, safely manage utility rerouting, and ensure proper structural support. The practical tradeoff is between potential cost savings of a DIY approach versus the safety, compliance, and guaranteed quality provided by a licensed professional.",
+        "@type": "Answer",
+        "description": "A contractor is generally recommended due to structural and utility complexities, permits, and safety. DIY saves costs but risks safety and compliance."
+      }
+    }
+  ],
+  "description": "A contractor is generally recommended due to structural and utility complexities, permits, and safety. DIY saves costs but risks safety and compliance."
 }

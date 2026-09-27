@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I make my kitchen renovation more environmentally friendly?",
-  "description": "Make your renovation eco-friendly by using sustainable materials, ENERGY STAR appliances, and recycling demolition waste.",
   "url": "https://hometelligentinc.com/faq/how-can-i-make-my-kitchen-renovation-more-environmentally-friendly",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I make my kitchen renovation more environmentally friendly?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To make your kitchen renovation more environmentally friendly, consider using sustainable materials such as recycled content countertops, bamboo flooring, or salvaged wood for cabinetry. Opt for energy-efficient ENERGY STAR rated appliances to reduce utility consumption. Additionally, proper waste management during demolition, including recycling discarded materials, contributes to a greener project. We can guide clients in the East Bay, like those in Livermore or Pleasanton, on sourcing eco-conscious products and implementing practices that minimize environmental impact without compromising design or functionality.",
-        "description": "Make your renovation eco-friendly by using sustainable materials, ENERGY STAR appliances, and recycling demolition waste."
-      }
-    }
-  ],
+  "name": "How can I make my kitchen renovation more environmentally friendly?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I make my kitchen renovation more environmentally friendly?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To make your kitchen renovation more environmentally friendly, consider using sustainable materials such as recycled content countertops, bamboo flooring, or salvaged wood for cabinetry. Opt for energy-efficient ENERGY STAR rated appliances to reduce utility consumption. Additionally, proper waste management during demolition, including recycling discarded materials, contributes to a greener project. We can guide clients in the East Bay, like those in Livermore or Pleasanton, on sourcing eco-conscious products and implementing practices that minimize environmental impact without compromising design or functionality.",
+        "@type": "Answer",
+        "description": "Make your renovation eco-friendly by using sustainable materials, ENERGY STAR appliances, and recycling demolition waste."
+      }
+    }
+  ],
+  "description": "Make your renovation eco-friendly by using sustainable materials, ENERGY STAR appliances, and recycling demolition waste."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does the custom kitchen cabinetry design and installation process typically take?",
-  "description": "The custom cabinetry process, from design to installation, usually takes 8 to 16 weeks, varying with complexity and material choices.",
   "url": "https://hometelligentinc.com/faq/how-long-does-the-custom-kitchen-cabinetry-design-and-installation-process-typic",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does the custom kitchen cabinetry design and installation process typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The custom kitchen cabinetry process typically involves several stages: initial consultation, design finalization, cabinet fabrication, and installation. Depending on the complexity, material selection, and project scope, the entire process can range from 8 to 16 weeks. Factors like special order materials or intricate custom features can extend this timeline. To help streamline the process, having a clear idea of your aesthetic preferences and functional requirements, such as specific storage needs or appliance dimensions, before our initial consultation can significantly expedite the design phase.",
-        "description": "The custom cabinetry process, from design to installation, usually takes 8 to 16 weeks, varying with complexity and material choices."
-      }
-    }
-  ],
+  "name": "How long does the custom kitchen cabinetry design and installation process typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does the custom kitchen cabinetry design and installation process typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The custom kitchen cabinetry process typically involves several stages: initial consultation, design finalization, cabinet fabrication, and installation. Depending on the complexity, material selection, and project scope, the entire process can range from 8 to 16 weeks. Factors like special order materials or intricate custom features can extend this timeline. To help streamline the process, having a clear idea of your aesthetic preferences and functional requirements, such as specific storage needs or appliance dimensions, before our initial consultation can significantly expedite the design phase.",
+        "@type": "Answer",
+        "description": "The custom cabinetry process, from design to installation, usually takes 8 to 16 weeks, varying with complexity and material choices."
+      }
+    }
+  ],
+  "description": "The custom cabinetry process, from design to installation, usually takes 8 to 16 weeks, varying with complexity and material choices."
 }

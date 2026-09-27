@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors determine the cost of a kitchen island installation?",
-  "description": "Kitchen island installation costs depend on size, materials, plumbing/electrical needs, and design complexity. Factors like adding a sink or cooktop increase co",
   "url": "https://hometelligentinc.com/faq/what-factors-determine-the-cost-of-a-kitchen-island-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors determine the cost of a kitchen island installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a kitchen island installation varies based on several factors. Key considerations include the size and materials of the island, whether new plumbing or electrical lines are required, and the complexity of the design. For instance, an island requiring a sink or cooktop will incur higher costs due to additional utility work. We provide detailed estimates after an initial consultation to account for these specific project needs, ensuring transparency.",
-        "description": "Kitchen island installation costs depend on size, materials, plumbing/electrical needs, and design complexity. Factors like adding a sink or cooktop increase costs due to utility work."
-      }
-    }
-  ],
+  "name": "What factors determine the cost of a kitchen island installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors determine the cost of a kitchen island installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a kitchen island installation varies based on several factors. Key considerations include the size and materials of the island, whether new plumbing or electrical lines are required, and the complexity of the design. For instance, an island requiring a sink or cooktop will incur higher costs due to additional utility work. We provide detailed estimates after an initial consultation to account for these specific project needs, ensuring transparency.",
+        "@type": "Answer",
+        "description": "Kitchen island installation costs depend on size, materials, plumbing/electrical needs, and design complexity. Factors like adding a sink or cooktop increase costs due to utility work."
+      }
+    }
+  ],
+  "description": "Kitchen island installation costs depend on size, materials, plumbing/electrical needs, and design complexity. Factors like adding a sink or cooktop increase co"
 }

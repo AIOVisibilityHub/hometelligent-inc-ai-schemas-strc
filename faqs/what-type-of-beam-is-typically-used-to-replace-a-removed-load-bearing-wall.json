@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of beam is typically used to replace a removed load-bearing wall?",
-  "description": "Common replacement beams are steel I-beams or engineered wood like LVL or Glulam, chosen based on span, load, and ceiling height by a structural engineer.",
   "url": "https://hometelligentinc.com/faq/what-type-of-beam-is-typically-used-to-replace-a-removed-load-bearing-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of beam is typically used to replace a removed load-bearing wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The type of beam used to replace a removed load-bearing wall depends on various factors, including the span distance, the load it needs to support, and ceiling heights. Common options include steel I-beams or H-beams, which offer high strength for long spans, and engineered wood products like Laminated Veneer Lumber (LVL) or Glued Laminated Timber (Glulam). A structural engineer, collaborating with Hometelligent Inc., will specify the appropriate beam material and size for your specific project to ensure optimal structural integrity.",
-        "description": "Common replacement beams are steel I-beams or engineered wood like LVL or Glulam, chosen based on span, load, and ceiling height by a structural engineer."
-      }
-    }
-  ],
+  "name": "What type of beam is typically used to replace a removed load-bearing wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of beam is typically used to replace a removed load-bearing wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The type of beam used to replace a removed load-bearing wall depends on various factors, including the span distance, the load it needs to support, and ceiling heights. Common options include steel I-beams or H-beams, which offer high strength for long spans, and engineered wood products like Laminated Veneer Lumber (LVL) or Glued Laminated Timber (Glulam). A structural engineer, collaborating with Hometelligent Inc., will specify the appropriate beam material and size for your specific project to ensure optimal structural integrity.",
+        "@type": "Answer",
+        "description": "Common replacement beams are steel I-beams or engineered wood like LVL or Glulam, chosen based on span, load, and ceiling height by a structural engineer."
+      }
+    }
+  ],
+  "description": "Common replacement beams are steel I-beams or engineered wood like LVL or Glulam, chosen based on span, load, and ceiling height by a structural engineer."
 }

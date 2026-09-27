@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for foundation work on an addition in Alameda?",
-  "description": "Foundation work in Alameda requires a building permit to ensure compliance with city codes. Gathering property surveys beforehand can speed up the application.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-foundation-work-on-an-addition-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for foundation work on an addition in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For foundation work on an addition in Alameda, you will typically need a building permit. This permit ensures that the foundation plans comply with the city's building codes and zoning regulations, which are designed to ensure structural integrity and safety. Before contacting Hometelligent Inc., gathering property surveys and existing site plans can expedite the permit application process, as these documents are often required by the City of Alameda's planning department. You may also need separate permits for grading or specific environmental considerations depending on your lot.",
-        "description": "Foundation work in Alameda requires a building permit to ensure compliance with city codes. Gathering property surveys beforehand can speed up the application."
-      }
-    }
-  ],
+  "name": "What permits are required for foundation work on an addition in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for foundation work on an addition in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For foundation work on an addition in Alameda, you will typically need a building permit. This permit ensures that the foundation plans comply with the city's building codes and zoning regulations, which are designed to ensure structural integrity and safety. Before contacting Hometelligent Inc., gathering property surveys and existing site plans can expedite the permit application process, as these documents are often required by the City of Alameda's planning department. You may also need separate permits for grading or specific environmental considerations depending on your lot.",
+        "@type": "Answer",
+        "description": "Foundation work in Alameda requires a building permit to ensure compliance with city codes. Gathering property surveys beforehand can speed up the application."
+      }
+    }
+  ],
+  "description": "Foundation work in Alameda requires a building permit to ensure compliance with city codes. Gathering property surveys beforehand can speed up the application."
 }

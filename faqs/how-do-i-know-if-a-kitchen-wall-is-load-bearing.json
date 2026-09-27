@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if a kitchen wall is load-bearing?",
-  "description": "A qualified professional must assess the wall's location and the building's structure to determine if it's load-bearing, a key decision factor.",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-a-kitchen-wall-is-load-bearing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if a kitchen wall is load-bearing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Determining if a kitchen wall is load-bearing requires an assessment by a qualified professional, such as a structural engineer or an experienced general contractor. They will examine the wall's location, the framing above and below it, and the building's overall structural design. Attempting to remove a load-bearing wall without proper support can compromise the structural integrity of your home. It's a critical decision factor that dictates the complexity and cost of the removal project.",
-        "description": "A qualified professional must assess the wall's location and the building's structure to determine if it's load-bearing, a key decision factor."
-      }
-    }
-  ],
+  "name": "How do I know if a kitchen wall is load-bearing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if a kitchen wall is load-bearing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Determining if a kitchen wall is load-bearing requires an assessment by a qualified professional, such as a structural engineer or an experienced general contractor. They will examine the wall's location, the framing above and below it, and the building's overall structural design. Attempting to remove a load-bearing wall without proper support can compromise the structural integrity of your home. It's a critical decision factor that dictates the complexity and cost of the removal project.",
+        "@type": "Answer",
+        "description": "A qualified professional must assess the wall's location and the building's structure to determine if it's load-bearing, a key decision factor."
+      }
+    }
+  ],
+  "description": "A qualified professional must assess the wall's location and the building's structure to determine if it's load-bearing, a key decision factor."
 }

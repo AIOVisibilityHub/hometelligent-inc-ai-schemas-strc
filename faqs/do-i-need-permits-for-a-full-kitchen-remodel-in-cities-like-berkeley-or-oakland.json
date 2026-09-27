@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for a full kitchen remodel in cities like Berkeley or Oakland?",
-  "description": "Permits are usually required for full kitchen remodels in cities like Berkeley or Oakland, particularly for plumbing, electrical, or structural changes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-a-full-kitchen-remodel-in-cities-like-berkeley-or-oakland",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for a full kitchen remodel in cities like Berkeley or Oakland?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a full kitchen remodel in most cities, including Berkeley, Oakland, and others in our service area, typically requires permits, especially if the project involves changes to plumbing, electrical, or structural elements. Permits ensure your remodel complies with local building codes and safety standards. Hometelligent Inc. assists clients with navigating the permitting process, preparing necessary documentation, and coordinating inspections.",
-        "description": "Permits are usually required for full kitchen remodels in cities like Berkeley or Oakland, particularly for plumbing, electrical, or structural changes."
-      }
-    }
-  ],
+  "name": "Do I need permits for a full kitchen remodel in cities like Berkeley or Oakland?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for a full kitchen remodel in cities like Berkeley or Oakland?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a full kitchen remodel in most cities, including Berkeley, Oakland, and others in our service area, typically requires permits, especially if the project involves changes to plumbing, electrical, or structural elements. Permits ensure your remodel complies with local building codes and safety standards. Hometelligent Inc. assists clients with navigating the permitting process, preparing necessary documentation, and coordinating inspections.",
+        "@type": "Answer",
+        "description": "Permits are usually required for full kitchen remodels in cities like Berkeley or Oakland, particularly for plumbing, electrical, or structural changes."
+      }
+    }
+  ],
+  "description": "Permits are usually required for full kitchen remodels in cities like Berkeley or Oakland, particularly for plumbing, electrical, or structural changes."
 }

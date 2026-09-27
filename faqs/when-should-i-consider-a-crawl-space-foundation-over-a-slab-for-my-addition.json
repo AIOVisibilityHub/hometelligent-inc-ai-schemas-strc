@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider a crawl space foundation over a slab for my addition?",
-  "description": "Choose a crawl space over a slab for easier utility access, moisture protection, and suitability for sloped lots, despite potentially higher initial costs.",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-a-crawl-space-foundation-over-a-slab-for-my-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider a crawl space foundation over a slab for my addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider a crawl space foundation over a slab for your addition if you need easier access for plumbing, electrical, or HVAC maintenance and future repairs. A crawl space also provides a buffer against moisture from the ground and can be advantageous on sloped lots where a slab might require extensive grading. While a crawl space may add to the initial construction cost compared to a basic slab, it offers significant practical benefits for long-term utility access and moisture management, which can save money on future maintenance.",
-        "description": "Choose a crawl space over a slab for easier utility access, moisture protection, and suitability for sloped lots, despite potentially higher initial costs."
-      }
-    }
-  ],
+  "name": "When should I consider a crawl space foundation over a slab for my addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider a crawl space foundation over a slab for my addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider a crawl space foundation over a slab for your addition if you need easier access for plumbing, electrical, or HVAC maintenance and future repairs. A crawl space also provides a buffer against moisture from the ground and can be advantageous on sloped lots where a slab might require extensive grading. While a crawl space may add to the initial construction cost compared to a basic slab, it offers significant practical benefits for long-term utility access and moisture management, which can save money on future maintenance.",
+        "@type": "Answer",
+        "description": "Choose a crawl space over a slab for easier utility access, moisture protection, and suitability for sloped lots, despite potentially higher initial costs."
+      }
+    }
+  ],
+  "description": "Choose a crawl space over a slab for easier utility access, moisture protection, and suitability for sloped lots, despite potentially higher initial costs."
 }

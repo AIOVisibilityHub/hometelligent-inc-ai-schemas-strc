@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I prepare my home for a kitchen expansion project?",
-  "description": "Prepare by clearing the work area, securing valuables, setting up a temporary kitchen, and protecting adjacent rooms from dust.",
   "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-home-for-a-kitchen-expansion-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I prepare my home for a kitchen expansion project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before a kitchen expansion project begins, it's crucial to clear the immediate work area, secure valuables, and establish a temporary cooking setup if needed. Disconnecting and moving appliances, emptying cabinets, and protecting adjacent rooms from dust and debris are also important steps. Hometelligent Inc. will provide a detailed checklist of preparation tasks tailored to your project during the pre-construction phase to ensure a smooth start.",
-        "description": "Prepare by clearing the work area, securing valuables, setting up a temporary kitchen, and protecting adjacent rooms from dust."
-      }
-    }
-  ],
+  "name": "How do I prepare my home for a kitchen expansion project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I prepare my home for a kitchen expansion project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before a kitchen expansion project begins, it's crucial to clear the immediate work area, secure valuables, and establish a temporary cooking setup if needed. Disconnecting and moving appliances, emptying cabinets, and protecting adjacent rooms from dust and debris are also important steps. Hometelligent Inc. will provide a detailed checklist of preparation tasks tailored to your project during the pre-construction phase to ensure a smooth start.",
+        "@type": "Answer",
+        "description": "Prepare by clearing the work area, securing valuables, setting up a temporary kitchen, and protecting adjacent rooms from dust."
+      }
+    }
+  ],
+  "description": "Prepare by clearing the work area, securing valuables, setting up a temporary kitchen, and protecting adjacent rooms from dust."
 }

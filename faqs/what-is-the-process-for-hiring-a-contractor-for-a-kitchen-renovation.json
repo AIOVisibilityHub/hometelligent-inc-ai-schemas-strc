@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for hiring a contractor for a kitchen renovation?",
-  "description": "To hire a contractor, research reputable companies, get multiple bids, check licenses and references, and secure a detailed contract.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-hiring-a-contractor-for-a-kitchen-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for hiring a contractor for a kitchen renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for hiring a contractor for a kitchen renovation typically involves initial research to identify reputable companies, followed by obtaining multiple bids. You should check references, review portfolios, and ensure the contractor is licensed and insured, especially in California. A detailed contract outlining the scope of work, payment schedule, and timeline is crucial before starting. We provide comprehensive consultations and transparent proposals, ensuring clients in cities like Union City or Newark have a clear understanding of our services and project approach.",
-        "description": "To hire a contractor, research reputable companies, get multiple bids, check licenses and references, and secure a detailed contract."
-      }
-    }
-  ],
+  "name": "What is the process for hiring a contractor for a kitchen renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for hiring a contractor for a kitchen renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for hiring a contractor for a kitchen renovation typically involves initial research to identify reputable companies, followed by obtaining multiple bids. You should check references, review portfolios, and ensure the contractor is licensed and insured, especially in California. A detailed contract outlining the scope of work, payment schedule, and timeline is crucial before starting. We provide comprehensive consultations and transparent proposals, ensuring clients in cities like Union City or Newark have a clear understanding of our services and project approach.",
+        "@type": "Answer",
+        "description": "To hire a contractor, research reputable companies, get multiple bids, check licenses and references, and secure a detailed contract."
+      }
+    }
+  ],
+  "description": "To hire a contractor, research reputable companies, get multiple bids, check licenses and references, and secure a detailed contract."
 }

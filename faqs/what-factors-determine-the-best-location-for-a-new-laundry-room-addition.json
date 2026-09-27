@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors determine the best location for a new laundry room addition?",
-  "description": "Key factors for a laundry room addition include proximity to plumbing and electrical, noise considerations, and available space. Existing utility lines can redu",
   "url": "https://hometelligentinc.com/faq/what-factors-determine-the-best-location-for-a-new-laundry-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors determine the best location for a new laundry room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The ideal location for a laundry room addition depends on several practical factors, including proximity to existing plumbing and electrical lines, noise considerations, and available space. Adding a laundry room near a bathroom or kitchen can significantly reduce plumbing costs and complexity. Consider areas where noise from washing machines and dryers won't disrupt living spaces, such as a garage, basement, or an unused corner of a larger room. Assessing accessibility for plumbing and electrical hookups during an initial consultation helps determine the most efficient and cost-effective placement.",
-        "description": "Key factors for a laundry room addition include proximity to plumbing and electrical, noise considerations, and available space. Existing utility lines can reduce costs."
-      }
-    }
-  ],
+  "name": "What factors determine the best location for a new laundry room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors determine the best location for a new laundry room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The ideal location for a laundry room addition depends on several practical factors, including proximity to existing plumbing and electrical lines, noise considerations, and available space. Adding a laundry room near a bathroom or kitchen can significantly reduce plumbing costs and complexity. Consider areas where noise from washing machines and dryers won't disrupt living spaces, such as a garage, basement, or an unused corner of a larger room. Assessing accessibility for plumbing and electrical hookups during an initial consultation helps determine the most efficient and cost-effective placement.",
+        "@type": "Answer",
+        "description": "Key factors for a laundry room addition include proximity to plumbing and electrical, noise considerations, and available space. Existing utility lines can reduce costs."
+      }
+    }
+  ],
+  "description": "Key factors for a laundry room addition include proximity to plumbing and electrical, noise considerations, and available space. Existing utility lines can redu"
 }

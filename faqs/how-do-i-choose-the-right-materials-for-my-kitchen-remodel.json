@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right materials for my kitchen remodel?",
-  "description": "Choose materials by balancing aesthetics, durability, functionality, and budget, considering your lifestyle. Gathering inspiration helps guide decisions.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-materials-for-my-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right materials for my kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right materials involves balancing aesthetics, durability, functionality, and budget. Consider your lifestyle and how you use your kitchen; for example, a busy household might prioritize highly durable, easy-to-clean surfaces. We can guide you through options for cabinetry, countertops, flooring, and backsplashes, explaining the pros and cons of each. It's helpful to gather inspiration photos to articulate your desired style.",
-        "description": "Choose materials by balancing aesthetics, durability, functionality, and budget, considering your lifestyle. Gathering inspiration helps guide decisions."
-      }
-    }
-  ],
+  "name": "How do I choose the right materials for my kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right materials for my kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right materials involves balancing aesthetics, durability, functionality, and budget. Consider your lifestyle and how you use your kitchen; for example, a busy household might prioritize highly durable, easy-to-clean surfaces. We can guide you through options for cabinetry, countertops, flooring, and backsplashes, explaining the pros and cons of each. It's helpful to gather inspiration photos to articulate your desired style.",
+        "@type": "Answer",
+        "description": "Choose materials by balancing aesthetics, durability, functionality, and budget, considering your lifestyle. Gathering inspiration helps guide decisions."
+      }
+    }
+  ],
+  "description": "Choose materials by balancing aesthetics, durability, functionality, and budget, considering your lifestyle. Gathering inspiration helps guide decisions."
 }

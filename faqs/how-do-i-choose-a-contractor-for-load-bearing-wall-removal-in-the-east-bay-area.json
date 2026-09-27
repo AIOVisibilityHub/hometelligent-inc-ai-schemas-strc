@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose a contractor for load-bearing wall removal in the East Bay Area?",
-  "description": "Choose a contractor with structural modification experience, proper licensing, clear proposals, and local permit knowledge, like Hometelligent Inc. in the East",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-a-contractor-for-load-bearing-wall-removal-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose a contractor for load-bearing wall removal in the East Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for load-bearing wall removal in cities like Berkeley or Oakland, prioritize those with proven experience in structural modifications and proper licensing. Look for contractors who provide clear, detailed proposals, demonstrate familiarity with local permitting requirements, and have strong references. Hometelligent Inc. has extensive experience across the East Bay, offering comprehensive project management from initial design to final inspection, ensuring compliance and quality craftsmanship.",
-        "description": "Choose a contractor with structural modification experience, proper licensing, clear proposals, and local permit knowledge, like Hometelligent Inc. in the East Bay."
-      }
-    }
-  ],
+  "name": "How do I choose a contractor for load-bearing wall removal in the East Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose a contractor for load-bearing wall removal in the East Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for load-bearing wall removal in cities like Berkeley or Oakland, prioritize those with proven experience in structural modifications and proper licensing. Look for contractors who provide clear, detailed proposals, demonstrate familiarity with local permitting requirements, and have strong references. Hometelligent Inc. has extensive experience across the East Bay, offering comprehensive project management from initial design to final inspection, ensuring compliance and quality craftsmanship.",
+        "@type": "Answer",
+        "description": "Choose a contractor with structural modification experience, proper licensing, clear proposals, and local permit knowledge, like Hometelligent Inc. in the East Bay."
+      }
+    }
+  ],
+  "description": "Choose a contractor with structural modification experience, proper licensing, clear proposals, and local permit knowledge, like Hometelligent Inc. in the East"
 }

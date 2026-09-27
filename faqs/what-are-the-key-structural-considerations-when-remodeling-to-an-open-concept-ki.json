@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key structural considerations when remodeling to an open-concept kitchen?",
-  "description": "Key structural considerations involve identifying and replacing load-bearing walls with support beams or columns. An engineer's assessment and local building pe",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-structural-considerations-when-remodeling-to-an-open-concept-ki",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key structural considerations when remodeling to an open-concept kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Remodeling to an open-concept kitchen often involves removing load-bearing walls, which requires structural modifications and professional assessment. This process typically includes installing new support beams or columns to maintain the structural integrity of your home. Before starting, it is crucial to have an engineer or architect evaluate your home's structure and produce plans, which are then submitted for local building permits. In our service areas like Berkeley or Oakland, adhering to specific city building codes is a critical step.",
-        "description": "Key structural considerations involve identifying and replacing load-bearing walls with support beams or columns. An engineer's assessment and local building permits are essential."
-      }
-    }
-  ],
+  "name": "What are the key structural considerations when remodeling to an open-concept kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key structural considerations when remodeling to an open-concept kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Remodeling to an open-concept kitchen often involves removing load-bearing walls, which requires structural modifications and professional assessment. This process typically includes installing new support beams or columns to maintain the structural integrity of your home. Before starting, it is crucial to have an engineer or architect evaluate your home's structure and produce plans, which are then submitted for local building permits. In our service areas like Berkeley or Oakland, adhering to specific city building codes is a critical step.",
+        "@type": "Answer",
+        "description": "Key structural considerations involve identifying and replacing load-bearing walls with support beams or columns. An engineer's assessment and local building permits are essential."
+      }
+    }
+  ],
+  "description": "Key structural considerations involve identifying and replacing load-bearing walls with support beams or columns. An engineer's assessment and local building pe"
 }

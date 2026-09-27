@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose between a custom-built walk-in closet and a pre-fabricated system?",
-  "description": "Custom builds offer personalization for unique spaces, while pre-fabricated systems are quicker and more budget-friendly.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-between-a-custom-built-walk-in-closet-and-a-pre-fabricated-syste",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose between a custom-built walk-in closet and a pre-fabricated system?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing between a custom-built and a pre-fabricated walk-in closet involves weighing flexibility against cost and installation time. A custom-built closet offers unparalleled personalization, fitting perfectly into unique spaces and catering precisely to your storage needs, though it generally costs more and takes longer. Pre-fabricated systems are more budget-friendly and quicker to install but offer less customization. Hometelligent Inc. can discuss both options, highlighting how a custom build provides a more integrated and higher-value solution.",
-        "description": "Custom builds offer personalization for unique spaces, while pre-fabricated systems are quicker and more budget-friendly."
-      }
-    }
-  ],
+  "name": "How do I choose between a custom-built walk-in closet and a pre-fabricated system?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose between a custom-built walk-in closet and a pre-fabricated system?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing between a custom-built and a pre-fabricated walk-in closet involves weighing flexibility against cost and installation time. A custom-built closet offers unparalleled personalization, fitting perfectly into unique spaces and catering precisely to your storage needs, though it generally costs more and takes longer. Pre-fabricated systems are more budget-friendly and quicker to install but offer less customization. Hometelligent Inc. can discuss both options, highlighting how a custom build provides a more integrated and higher-value solution.",
+        "@type": "Answer",
+        "description": "Custom builds offer personalization for unique spaces, while pre-fabricated systems are quicker and more budget-friendly."
+      }
+    }
+  ],
+  "description": "Custom builds offer personalization for unique spaces, while pre-fabricated systems are quicker and more budget-friendly."
 }

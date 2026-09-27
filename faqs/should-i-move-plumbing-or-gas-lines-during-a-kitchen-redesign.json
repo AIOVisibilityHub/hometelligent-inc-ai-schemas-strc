@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I move plumbing or gas lines during a kitchen redesign?",
-  "description": "Moving plumbing or gas lines increases kitchen redesign cost and complexity, but offers design flexibility. It requires professional expertise and adherence to",
   "url": "https://hometelligentinc.com/faq/should-i-move-plumbing-or-gas-lines-during-a-kitchen-redesign",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I move plumbing or gas lines during a kitchen redesign?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moving plumbing or gas lines during a kitchen redesign can significantly impact project cost and complexity, but it might be necessary to achieve your desired layout. Relocating these utilities requires professional expertise and adherence to local building codes to ensure safety and proper function. While it offers greater design flexibility, it typically adds to the overall timeline and budget. We will evaluate the feasibility and cost-effectiveness of such changes during the initial design phase for your property.",
-        "description": "Moving plumbing or gas lines increases kitchen redesign cost and complexity, but offers design flexibility. It requires professional expertise and adherence to local building codes for safety."
-      }
-    }
-  ],
+  "name": "Should I move plumbing or gas lines during a kitchen redesign?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I move plumbing or gas lines during a kitchen redesign?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Moving plumbing or gas lines during a kitchen redesign can significantly impact project cost and complexity, but it might be necessary to achieve your desired layout. Relocating these utilities requires professional expertise and adherence to local building codes to ensure safety and proper function. While it offers greater design flexibility, it typically adds to the overall timeline and budget. We will evaluate the feasibility and cost-effectiveness of such changes during the initial design phase for your property.",
+        "@type": "Answer",
+        "description": "Moving plumbing or gas lines increases kitchen redesign cost and complexity, but offers design flexibility. It requires professional expertise and adherence to local building codes for safety."
+      }
+    }
+  ],
+  "description": "Moving plumbing or gas lines increases kitchen redesign cost and complexity, but offers design flexibility. It requires professional expertise and adherence to"
 }

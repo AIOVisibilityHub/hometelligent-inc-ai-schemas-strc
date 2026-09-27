@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I add plumbing or electrical outlets to an existing kitchen island?",
-  "description": "Adding plumbing or electrical to an existing island is possible but involves routing new lines, which requires more extensive work and depends on existing infra",
   "url": "https://hometelligentinc.com/faq/can-i-add-plumbing-or-electrical-outlets-to-an-existing-kitchen-island",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I add plumbing or electrical outlets to an existing kitchen island?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is often possible to add plumbing or electrical outlets to an existing kitchen island, but this typically involves more extensive work. Adding plumbing requires routing water lines and a drain, potentially from a nearby wall or floor. Electrical additions mean running new wiring, which may necessitate cutting into floors or cabinets. The feasibility and cost depend on your home's existing infrastructure and the island's construction. We evaluate your specific situation to determine the most practical approach.",
-        "description": "Adding plumbing or electrical to an existing island is possible but involves routing new lines, which requires more extensive work and depends on existing infrastructure. We evaluate feasibility."
-      }
-    }
-  ],
+  "name": "Can I add plumbing or electrical outlets to an existing kitchen island?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I add plumbing or electrical outlets to an existing kitchen island?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, it is often possible to add plumbing or electrical outlets to an existing kitchen island, but this typically involves more extensive work. Adding plumbing requires routing water lines and a drain, potentially from a nearby wall or floor. Electrical additions mean running new wiring, which may necessitate cutting into floors or cabinets. The feasibility and cost depend on your home's existing infrastructure and the island's construction. We evaluate your specific situation to determine the most practical approach.",
+        "@type": "Answer",
+        "description": "Adding plumbing or electrical to an existing island is possible but involves routing new lines, which requires more extensive work and depends on existing infrastructure. We evaluate feasibility."
+      }
+    }
+  ],
+  "description": "Adding plumbing or electrical to an existing island is possible but involves routing new lines, which requires more extensive work and depends on existing infra"
 }

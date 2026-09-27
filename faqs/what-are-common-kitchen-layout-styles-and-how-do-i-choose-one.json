@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common kitchen layout styles and how do I choose one?",
-  "description": "Common kitchen layouts are L-shape, U-shape, galley, and island, each with unique benefits. Your choice depends on kitchen size, existing structure, and how you",
   "url": "https://hometelligentinc.com/faq/what-are-common-kitchen-layout-styles-and-how-do-i-choose-one",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common kitchen layout styles and how do I choose one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common kitchen layout styles include the L-shape, U-shape, galley, and island layouts, each offering different functional benefits. An L-shape is great for smaller spaces, while a U-shape maximizes counter space and storage. Galley kitchens are efficient for single cooks, and an island adds prep space and seating. Choosing the right layout depends on your kitchen's size, existing structural elements, and how you typically use the space, such as whether you entertain often or require a dedicated dining area.",
-        "description": "Common kitchen layouts are L-shape, U-shape, galley, and island, each with unique benefits. Your choice depends on kitchen size, existing structure, and how you use the space."
-      }
-    }
-  ],
+  "name": "What are common kitchen layout styles and how do I choose one?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common kitchen layout styles and how do I choose one?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common kitchen layout styles include the L-shape, U-shape, galley, and island layouts, each offering different functional benefits. An L-shape is great for smaller spaces, while a U-shape maximizes counter space and storage. Galley kitchens are efficient for single cooks, and an island adds prep space and seating. Choosing the right layout depends on your kitchen's size, existing structural elements, and how you typically use the space, such as whether you entertain often or require a dedicated dining area.",
+        "@type": "Answer",
+        "description": "Common kitchen layouts are L-shape, U-shape, galley, and island, each with unique benefits. Your choice depends on kitchen size, existing structure, and how you use the space."
+      }
+    }
+  ],
+  "description": "Common kitchen layouts are L-shape, U-shape, galley, and island, each with unique benefits. Your choice depends on kitchen size, existing structure, and how you"
 }

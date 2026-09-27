@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for a structural home addition in the East Bay?",
-  "description": "Structural home additions in the East Bay require building, zoning, and trade-specific permits; requirements vary by city and project scope.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-a-structural-home-addition-in-the-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for a structural home addition in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Structural home additions in East Bay cities like Pleasanton or San Ramon typically require several permits, including building permits, zoning permits, and sometimes specific permits for electrical, plumbing, and mechanical work. The exact requirements vary by municipality and project scope. Hometelligent Inc. assists clients throughout the permit application process, ensuring all necessary documentation is submitted accurately and on time to the relevant local authorities.",
-        "description": "Structural home additions in the East Bay require building, zoning, and trade-specific permits; requirements vary by city and project scope."
-      }
-    }
-  ],
+  "name": "What permits are needed for a structural home addition in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for a structural home addition in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Structural home additions in East Bay cities like Pleasanton or San Ramon typically require several permits, including building permits, zoning permits, and sometimes specific permits for electrical, plumbing, and mechanical work. The exact requirements vary by municipality and project scope. Hometelligent Inc. assists clients throughout the permit application process, ensuring all necessary documentation is submitted accurately and on time to the relevant local authorities.",
+        "@type": "Answer",
+        "description": "Structural home additions in the East Bay require building, zoning, and trade-specific permits; requirements vary by city and project scope."
+      }
+    }
+  ],
+  "description": "Structural home additions in the East Bay require building, zoning, and trade-specific permits; requirements vary by city and project scope."
 }

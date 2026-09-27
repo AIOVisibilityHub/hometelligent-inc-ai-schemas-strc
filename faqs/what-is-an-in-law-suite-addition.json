@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an in-law suite addition?",
-  "description": "An in-law suite is a self-contained living space, usually with a bedroom, bathroom, and kitchenette, within or attached to an existing home.",
   "url": "https://hometelligentinc.com/faq/what-is-an-in-law-suite-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an in-law suite addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An in-law suite addition is a self-contained living space within or attached to an existing home, designed for extended family members or other long-term guests. It typically includes a bedroom, bathroom, and often a small kitchen or kitchenette. When planning such an addition in areas like Alameda or Berkeley, homeowners often consider direct access to outdoor spaces and independent entrances to maximize privacy and functionality.",
-        "description": "An in-law suite is a self-contained living space, usually with a bedroom, bathroom, and kitchenette, within or attached to an existing home."
-      }
-    }
-  ],
+  "name": "What is an in-law suite addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an in-law suite addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An in-law suite addition is a self-contained living space within or attached to an existing home, designed for extended family members or other long-term guests. It typically includes a bedroom, bathroom, and often a small kitchen or kitchenette. When planning such an addition in areas like Alameda or Berkeley, homeowners often consider direct access to outdoor spaces and independent entrances to maximize privacy and functionality.",
+        "@type": "Answer",
+        "description": "An in-law suite is a self-contained living space, usually with a bedroom, bathroom, and kitchenette, within or attached to an existing home."
+      }
+    }
+  ],
+  "description": "An in-law suite is a self-contained living space, usually with a bedroom, bathroom, and kitchenette, within or attached to an existing home."
 }

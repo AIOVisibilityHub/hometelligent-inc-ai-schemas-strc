@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my home for a walk-in closet addition project?",
-  "description": "Prepare by clearing the construction area, protecting adjacent rooms, and ensuring crew access. Hometelligent Inc. provides a checklist.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-home-for-a-walk-in-closet-addition-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my home for a walk-in closet addition project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for a walk-in closet addition, clear out the proposed construction area of any furniture, personal items, or valuables. Protecting adjacent rooms from dust with plastic sheeting and covering vents can also be beneficial. Ensure easy access for the construction crew. Hometelligent Inc. will provide a detailed checklist of preparatory steps during the initial planning phase, allowing for a smoother and more efficient project start.",
-        "description": "Prepare by clearing the construction area, protecting adjacent rooms, and ensuring crew access. Hometelligent Inc. provides a checklist."
-      }
-    }
-  ],
+  "name": "How can I prepare my home for a walk-in closet addition project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my home for a walk-in closet addition project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for a walk-in closet addition, clear out the proposed construction area of any furniture, personal items, or valuables. Protecting adjacent rooms from dust with plastic sheeting and covering vents can also be beneficial. Ensure easy access for the construction crew. Hometelligent Inc. will provide a detailed checklist of preparatory steps during the initial planning phase, allowing for a smoother and more efficient project start.",
+        "@type": "Answer",
+        "description": "Prepare by clearing the construction area, protecting adjacent rooms, and ensuring crew access. Hometelligent Inc. provides a checklist."
+      }
+    }
+  ],
+  "description": "Prepare by clearing the construction area, protecting adjacent rooms, and ensuring crew access. Hometelligent Inc. provides a checklist."
 }

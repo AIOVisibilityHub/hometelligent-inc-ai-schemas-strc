@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key design considerations for a functional walk-in closet?",
-  "description": "Key considerations include storage optimization, lighting, ventilation, and personalized wardrobe needs.",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-design-considerations-for-a-functional-walk-in-closet",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key design considerations for a functional walk-in closet?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key design considerations for a functional walk-in closet include optimizing storage solutions with shelving, hanging rods, and drawers, ensuring adequate lighting, and planning for proper ventilation. Consider your specific wardrobe needs and how you want to use the space for dressing or storage. Hometelligent Inc. collaborates with you to create a custom design that maximizes both utility and aesthetic appeal, tailored to your lifestyle.",
-        "description": "Key considerations include storage optimization, lighting, ventilation, and personalized wardrobe needs."
-      }
-    }
-  ],
+  "name": "What are the key design considerations for a functional walk-in closet?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key design considerations for a functional walk-in closet?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Key design considerations for a functional walk-in closet include optimizing storage solutions with shelving, hanging rods, and drawers, ensuring adequate lighting, and planning for proper ventilation. Consider your specific wardrobe needs and how you want to use the space for dressing or storage. Hometelligent Inc. collaborates with you to create a custom design that maximizes both utility and aesthetic appeal, tailored to your lifestyle.",
+        "@type": "Answer",
+        "description": "Key considerations include storage optimization, lighting, ventilation, and personalized wardrobe needs."
+      }
+    }
+  ],
+  "description": "Key considerations include storage optimization, lighting, ventilation, and personalized wardrobe needs."
 }

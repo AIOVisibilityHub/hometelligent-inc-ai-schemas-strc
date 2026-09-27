@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a kitchen layout redesign?",
-  "description": "Cost factors for a kitchen layout redesign include structural changes, material quality (cabinetry, countertops), appliance complexity, labor, design fees, and",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-kitchen-layout-redesign",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a kitchen layout redesign?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a kitchen layout redesign is influenced by several key factors. These include the extent of structural modifications, such as moving walls or plumbing, the quality and type of materials chosen for cabinetry, countertops, and flooring, and the complexity of appliance installations. Labor costs, design fees, and permitting expenses also contribute. Making early decisions about your desired finishes and functional needs can help us provide a more accurate estimate and manage your budget effectively.",
-        "description": "Cost factors for a kitchen layout redesign include structural changes, material quality (cabinetry, countertops), appliance complexity, labor, design fees, and permits. Early decisions help with accurate estimates."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a kitchen layout redesign?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a kitchen layout redesign?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a kitchen layout redesign is influenced by several key factors. These include the extent of structural modifications, such as moving walls or plumbing, the quality and type of materials chosen for cabinetry, countertops, and flooring, and the complexity of appliance installations. Labor costs, design fees, and permitting expenses also contribute. Making early decisions about your desired finishes and functional needs can help us provide a more accurate estimate and manage your budget effectively.",
+        "@type": "Answer",
+        "description": "Cost factors for a kitchen layout redesign include structural changes, material quality (cabinetry, countertops), appliance complexity, labor, design fees, and permits. Early decisions help with accurate estimates."
+      }
+    }
+  ],
+  "description": "Cost factors for a kitchen layout redesign include structural changes, material quality (cabinetry, countertops), appliance complexity, labor, design fees, and"
 }

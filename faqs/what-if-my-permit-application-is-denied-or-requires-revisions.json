@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What if my permit application is denied or requires revisions?",
-  "description": "A denied permit or required revisions mean plans don't meet codes; addressing these issues upfront prevents future problems, though it adds time and cost.",
   "url": "https://hometelligentinc.com/faq/what-if-my-permit-application-is-denied-or-requires-revisions",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What if my permit application is denied or requires revisions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If your permit application is denied or requires revisions, it typically means there are aspects of your plans that do not meet local building codes, zoning ordinances, or specific submission requirements. You will receive feedback detailing the issues that need to be addressed. The practical tradeoff here is that while revisions add time and potentially cost to the planning phase, addressing these issues upfront ensures your project meets safety standards and avoids more significant problems during construction or future property resale. Hometelligent Inc. assists in interpreting feedback and making necessary adjustments.",
-        "description": "A denied permit or required revisions mean plans don't meet codes; addressing these issues upfront prevents future problems, though it adds time and cost."
-      }
-    }
-  ],
+  "name": "What if my permit application is denied or requires revisions?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What if my permit application is denied or requires revisions?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "If your permit application is denied or requires revisions, it typically means there are aspects of your plans that do not meet local building codes, zoning ordinances, or specific submission requirements. You will receive feedback detailing the issues that need to be addressed. The practical tradeoff here is that while revisions add time and potentially cost to the planning phase, addressing these issues upfront ensures your project meets safety standards and avoids more significant problems during construction or future property resale. Hometelligent Inc. assists in interpreting feedback and making necessary adjustments.",
+        "@type": "Answer",
+        "description": "A denied permit or required revisions mean plans don't meet codes; addressing these issues upfront prevents future problems, though it adds time and cost."
+      }
+    }
+  ],
+  "description": "A denied permit or required revisions mean plans don't meet codes; addressing these issues upfront prevents future problems, though it adds time and cost."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do local zoning laws and building codes affect home addition design in Alameda?",
-  "description": "Local zoning and building codes in Alameda affect setbacks, height, and lot coverage, requiring designs to comply with specific city ordinances.",
   "url": "https://hometelligentinc.com/faq/how-do-local-zoning-laws-and-building-codes-affect-home-addition-design-in-alame",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do local zoning laws and building codes affect home addition design in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Local zoning laws and building codes significantly impact home addition design in Alameda, dictating factors such as setbacks, maximum height, lot coverage, and allowable uses. These regulations are designed to maintain neighborhood character, safety, and infrastructure capacity. For example, Alameda's specific waterfront and historic district guidelines may impose unique restrictions on design and materials. It's crucial for the design to comply with these local ordinances to avoid delays or costly modifications during the permitting process. Hometelligent Inc. has experience navigating Alameda's specific requirements.",
-        "description": "Local zoning and building codes in Alameda affect setbacks, height, and lot coverage, requiring designs to comply with specific city ordinances."
-      }
-    }
-  ],
+  "name": "How do local zoning laws and building codes affect home addition design in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do local zoning laws and building codes affect home addition design in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Local zoning laws and building codes significantly impact home addition design in Alameda, dictating factors such as setbacks, maximum height, lot coverage, and allowable uses. These regulations are designed to maintain neighborhood character, safety, and infrastructure capacity. For example, Alameda's specific waterfront and historic district guidelines may impose unique restrictions on design and materials. It's crucial for the design to comply with these local ordinances to avoid delays or costly modifications during the permitting process. Hometelligent Inc. has experience navigating Alameda's specific requirements.",
+        "@type": "Answer",
+        "description": "Local zoning and building codes in Alameda affect setbacks, height, and lot coverage, requiring designs to comply with specific city ordinances."
+      }
+    }
+  ],
+  "description": "Local zoning and building codes in Alameda affect setbacks, height, and lot coverage, requiring designs to comply with specific city ordinances."
 }

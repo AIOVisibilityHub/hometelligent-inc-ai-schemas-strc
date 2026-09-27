@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can Hometelligent Inc. help with converting existing space into an in-law suite?",
-  "description": "Yes, Hometelligent Inc. can convert existing spaces like garages or basements into in-law suites, which can be cost-effective but requires careful assessment.",
   "url": "https://hometelligentinc.com/faq/can-hometelligent-inc-help-with-converting-existing-space-into-an-in-law-suite",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Hometelligent Inc. help with converting existing space into an in-law suite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. specializes in converting existing spaces, such as garages, basements, or unused portions of the main house, into functional in-law suites. This approach can often be more cost-effective than new construction, as it leverages existing foundations and utilities. However, it requires careful assessment of structural integrity and zoning compliance. We can help you evaluate if your existing space in areas like Newark or Union City is suitable for conversion and manage the entire process.",
-        "description": "Yes, Hometelligent Inc. can convert existing spaces like garages or basements into in-law suites, which can be cost-effective but requires careful assessment."
-      }
-    }
-  ],
+  "name": "Can Hometelligent Inc. help with converting existing space into an in-law suite?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can Hometelligent Inc. help with converting existing space into an in-law suite?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. specializes in converting existing spaces, such as garages, basements, or unused portions of the main house, into functional in-law suites. This approach can often be more cost-effective than new construction, as it leverages existing foundations and utilities. However, it requires careful assessment of structural integrity and zoning compliance. We can help you evaluate if your existing space in areas like Newark or Union City is suitable for conversion and manage the entire process.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. can convert existing spaces like garages or basements into in-law suites, which can be cost-effective but requires careful assessment."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. can convert existing spaces like garages or basements into in-law suites, which can be cost-effective but requires careful assessment."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are best for a walk-in closet addition?",
-  "description": "Material choice depends on budget, aesthetics, and durability, from laminates to solid wood.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-a-walk-in-closet-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are best for a walk-in closet addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best materials for a walk-in closet addition depend on your budget, desired aesthetic, and durability requirements. Options range from cost-effective laminates and melamine to higher-end solid wood, custom cabinetry, and glass elements. Durable flooring like hardwood or tile is also a popular choice. Hometelligent Inc. helps you select materials that align with your home's style and your practical needs, ensuring longevity and visual appeal for your investment.",
-        "description": "Material choice depends on budget, aesthetics, and durability, from laminates to solid wood."
-      }
-    }
-  ],
+  "name": "What materials are best for a walk-in closet addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are best for a walk-in closet addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best materials for a walk-in closet addition depend on your budget, desired aesthetic, and durability requirements. Options range from cost-effective laminates and melamine to higher-end solid wood, custom cabinetry, and glass elements. Durable flooring like hardwood or tile is also a popular choice. Hometelligent Inc. helps you select materials that align with your home's style and your practical needs, ensuring longevity and visual appeal for your investment.",
+        "@type": "Answer",
+        "description": "Material choice depends on budget, aesthetics, and durability, from laminates to solid wood."
+      }
+    }
+  ],
+  "description": "Material choice depends on budget, aesthetics, and durability, from laminates to solid wood."
 }

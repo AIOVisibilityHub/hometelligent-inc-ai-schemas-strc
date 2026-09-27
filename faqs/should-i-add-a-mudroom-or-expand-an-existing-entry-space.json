@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I add a mudroom or expand an existing entry space?",
-  "description": "Decide between a new mudroom addition or expanding an existing entry based on space, budget, and desired functionality. An addition offers customized space; exp",
   "url": "https://hometelligentinc.com/faq/should-i-add-a-mudroom-or-expand-an-existing-entry-space",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I add a mudroom or expand an existing entry space?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing between a new mudroom addition and expanding an existing entry depends on your home's layout, available space, and budget. An addition offers the opportunity for a completely customized space and can significantly increase square footage, while expanding an existing area might be more cost-effective and less disruptive if the footprint allows. A practical tradeoff involves assessing the value of dedicated, specialized space versus the efficiency and lower cost of reconfiguring current square footage. Often, a mudroom addition provides better containment of outdoor elements.",
-        "description": "Decide between a new mudroom addition or expanding an existing entry based on space, budget, and desired functionality. An addition offers customized space; expansion may be more cost-effective."
-      }
-    }
-  ],
+  "name": "Should I add a mudroom or expand an existing entry space?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I add a mudroom or expand an existing entry space?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing between a new mudroom addition and expanding an existing entry depends on your home's layout, available space, and budget. An addition offers the opportunity for a completely customized space and can significantly increase square footage, while expanding an existing area might be more cost-effective and less disruptive if the footprint allows. A practical tradeoff involves assessing the value of dedicated, specialized space versus the efficiency and lower cost of reconfiguring current square footage. Often, a mudroom addition provides better containment of outdoor elements.",
+        "@type": "Answer",
+        "description": "Decide between a new mudroom addition or expanding an existing entry based on space, budget, and desired functionality. An addition offers customized space; expansion may be more cost-effective."
+      }
+    }
+  ],
+  "description": "Decide between a new mudroom addition or expanding an existing entry based on space, budget, and desired functionality. An addition offers customized space; exp"
 }

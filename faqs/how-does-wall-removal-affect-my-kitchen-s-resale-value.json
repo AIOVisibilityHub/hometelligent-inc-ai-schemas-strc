@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does wall removal affect my kitchen's resale value?",
-  "description": "Open-concept kitchen remodels often increase resale value by making homes feel more spacious and modern, if executed professionally.",
   "url": "https://hometelligentinc.com/faq/how-does-wall-removal-affect-my-kitchen-s-resale-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does wall removal affect my kitchen's resale value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Removing a kitchen wall to create an open-concept layout can positively impact your home's resale value, as open floor plans are highly sought after by many buyers. It can make a home feel more spacious, modern, and conducive to entertaining. However, poorly executed removal that compromises structural integrity or leaves unsightly finishes can detract from value. This contextual relevance detail emphasizes that a professionally executed open-concept kitchen enhances market appeal.",
-        "description": "Open-concept kitchen remodels often increase resale value by making homes feel more spacious and modern, if executed professionally."
-      }
-    }
-  ],
+  "name": "How does wall removal affect my kitchen's resale value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does wall removal affect my kitchen's resale value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Removing a kitchen wall to create an open-concept layout can positively impact your home's resale value, as open floor plans are highly sought after by many buyers. It can make a home feel more spacious, modern, and conducive to entertaining. However, poorly executed removal that compromises structural integrity or leaves unsightly finishes can detract from value. This contextual relevance detail emphasizes that a professionally executed open-concept kitchen enhances market appeal.",
+        "@type": "Answer",
+        "description": "Open-concept kitchen remodels often increase resale value by making homes feel more spacious and modern, if executed professionally."
+      }
+    }
+  ],
+  "description": "Open-concept kitchen remodels often increase resale value by making homes feel more spacious and modern, if executed professionally."
 }

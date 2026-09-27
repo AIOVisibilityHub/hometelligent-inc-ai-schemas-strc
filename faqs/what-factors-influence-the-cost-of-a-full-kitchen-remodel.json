@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a full kitchen remodel?",
-  "description": "Cost is influenced by kitchen size, material quality, structural changes, appliances, labor, and permitting fees. Transparency in estimates is key.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-full-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a full kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a full kitchen remodel is influenced by several factors, including the size of your kitchen, the quality of materials selected (e.g., custom cabinetry vs. semi-custom, natural stone vs. laminate countertops), the extent of structural changes, and the type of appliances chosen. Labor costs and permitting fees also contribute to the overall budget. We provide transparent estimates, detailing all potential expenses upfront.",
-        "description": "Cost is influenced by kitchen size, material quality, structural changes, appliances, labor, and permitting fees. Transparency in estimates is key."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a full kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a full kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a full kitchen remodel is influenced by several factors, including the size of your kitchen, the quality of materials selected (e.g., custom cabinetry vs. semi-custom, natural stone vs. laminate countertops), the extent of structural changes, and the type of appliances chosen. Labor costs and permitting fees also contribute to the overall budget. We provide transparent estimates, detailing all potential expenses upfront.",
+        "@type": "Answer",
+        "description": "Cost is influenced by kitchen size, material quality, structural changes, appliances, labor, and permitting fees. Transparency in estimates is key."
+      }
+    }
+  ],
+  "description": "Cost is influenced by kitchen size, material quality, structural changes, appliances, labor, and permitting fees. Transparency in estimates is key."
 }

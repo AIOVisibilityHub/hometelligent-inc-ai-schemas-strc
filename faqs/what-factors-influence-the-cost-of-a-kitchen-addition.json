@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a kitchen addition?",
-  "description": "Costs for a kitchen addition are influenced by size, structural complexity, material choices, utility rerouting, and site accessibility.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-kitchen-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a kitchen addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a kitchen addition depends on several key factors, including the size of the addition, the complexity of structural changes, the quality of materials selected for cabinets, countertops, and appliances, and the extent of utility rerouting (plumbing, electrical). Site accessibility and the need for excavation can also impact the budget. Hometelligent Inc. provides detailed estimates that account for these variables, helping clients in areas like Berkeley and Fremont understand the full financial scope before beginning construction.",
-        "description": "Costs for a kitchen addition are influenced by size, structural complexity, material choices, utility rerouting, and site accessibility."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a kitchen addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a kitchen addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a kitchen addition depends on several key factors, including the size of the addition, the complexity of structural changes, the quality of materials selected for cabinets, countertops, and appliances, and the extent of utility rerouting (plumbing, electrical). Site accessibility and the need for excavation can also impact the budget. Hometelligent Inc. provides detailed estimates that account for these variables, helping clients in areas like Berkeley and Fremont understand the full financial scope before beginning construction.",
+        "@type": "Answer",
+        "description": "Costs for a kitchen addition are influenced by size, structural complexity, material choices, utility rerouting, and site accessibility."
+      }
+    }
+  ],
+  "description": "Costs for a kitchen addition are influenced by size, structural complexity, material choices, utility rerouting, and site accessibility."
 }

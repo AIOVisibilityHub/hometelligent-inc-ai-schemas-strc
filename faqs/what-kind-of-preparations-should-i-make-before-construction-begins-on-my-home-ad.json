@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of preparations should I make before construction begins on my home addition?",
-  "description": "Before construction, clear adjacent areas, discuss access routes, and consider temporarily relocating valuables. We provide a pre-construction checklist.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-preparations-should-i-make-before-construction-begins-on-my-home-ad",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of preparations should I make before construction begins on my home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before construction begins, it's beneficial to declutter and secure the areas adjacent to the project site, both inside and outside your home. Discussing access routes for materials and workers, and establishing clear communication protocols for daily updates, helps ensure a smoother process. You may also need to temporarily relocate furniture or valuables, especially if interior work is involved. We provide a pre-construction checklist to help organize these details.",
-        "description": "Before construction, clear adjacent areas, discuss access routes, and consider temporarily relocating valuables. We provide a pre-construction checklist."
-      }
-    }
-  ],
+  "name": "What kind of preparations should I make before construction begins on my home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of preparations should I make before construction begins on my home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before construction begins, it's beneficial to declutter and secure the areas adjacent to the project site, both inside and outside your home. Discussing access routes for materials and workers, and establishing clear communication protocols for daily updates, helps ensure a smoother process. You may also need to temporarily relocate furniture or valuables, especially if interior work is involved. We provide a pre-construction checklist to help organize these details.",
+        "@type": "Answer",
+        "description": "Before construction, clear adjacent areas, discuss access routes, and consider temporarily relocating valuables. We provide a pre-construction checklist."
+      }
+    }
+  ],
+  "description": "Before construction, clear adjacent areas, discuss access routes, and consider temporarily relocating valuables. We provide a pre-construction checklist."
 }

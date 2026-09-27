@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the pros and cons of choosing a waterfall kitchen island?",
-  "description": "Pros are modern aesthetics and side durability; cons are higher cost and potential storage limitations.",
   "url": "https://hometelligentinc.com/faq/what-are-the-pros-and-cons-of-choosing-a-waterfall-kitchen-island",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the pros and cons of choosing a waterfall kitchen island?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pros include a luxurious, modern aesthetic, increased durability for the island's sides, and a strong visual focal point. Cons often involve higher material costs due to the extended countertop surface, and potentially less storage if the waterfall edge limits cabinet access. Homeowners in Hayward and Livermore often weigh the aesthetic impact against the budget implications and practical storage needs.",
-        "description": "Pros are modern aesthetics and side durability; cons are higher cost and potential storage limitations."
-      }
-    }
-  ],
+  "name": "What are the pros and cons of choosing a waterfall kitchen island?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the pros and cons of choosing a waterfall kitchen island?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Pros include a luxurious, modern aesthetic, increased durability for the island's sides, and a strong visual focal point. Cons often involve higher material costs due to the extended countertop surface, and potentially less storage if the waterfall edge limits cabinet access. Homeowners in Hayward and Livermore often weigh the aesthetic impact against the budget implications and practical storage needs.",
+        "@type": "Answer",
+        "description": "Pros are modern aesthetics and side durability; cons are higher cost and potential storage limitations."
+      }
+    }
+  ],
+  "description": "Pros are modern aesthetics and side durability; cons are higher cost and potential storage limitations."
 }

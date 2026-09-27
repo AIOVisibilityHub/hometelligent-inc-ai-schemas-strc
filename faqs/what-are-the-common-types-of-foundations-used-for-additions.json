@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common types of foundations used for additions?",
-  "description": "Common foundation types for additions are slab-on-grade, crawl space, and full basement, with the choice depending on soil, grading, and desired use.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-foundations-used-for-additions",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common types of foundations used for additions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common foundation types for additions include slab-on-grade, crawl space, and full basement foundations. A slab-on-grade involves pouring concrete directly on prepared ground, often suitable for smaller, simpler additions. A crawl space offers access for utilities and minimizes excavation compared to a basement. A full basement provides additional usable space but requires significant excavation. The most suitable type depends on your local soil conditions, property grading, and desired use for the space beneath the addition, affecting costs and project scope.",
-        "description": "Common foundation types for additions are slab-on-grade, crawl space, and full basement, with the choice depending on soil, grading, and desired use."
-      }
-    }
-  ],
+  "name": "What are the common types of foundations used for additions?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common types of foundations used for additions?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common foundation types for additions include slab-on-grade, crawl space, and full basement foundations. A slab-on-grade involves pouring concrete directly on prepared ground, often suitable for smaller, simpler additions. A crawl space offers access for utilities and minimizes excavation compared to a basement. A full basement provides additional usable space but requires significant excavation. The most suitable type depends on your local soil conditions, property grading, and desired use for the space beneath the addition, affecting costs and project scope.",
+        "@type": "Answer",
+        "description": "Common foundation types for additions are slab-on-grade, crawl space, and full basement, with the choice depending on soil, grading, and desired use."
+      }
+    }
+  ],
+  "description": "Common foundation types for additions are slab-on-grade, crawl space, and full basement, with the choice depending on soil, grading, and desired use."
 }

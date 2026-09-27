@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for an open-concept kitchen remodel?",
-  "description": "Open-concept remodels generally require building permits for structural, plumbing, or electrical changes. Specific permits vary by city, so it's vital to secure",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-an-open-concept-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for an open-concept kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An open-concept kitchen remodel typically requires building permits, especially if it involves structural changes like removing load-bearing walls, or modifications to plumbing and electrical systems. The specific permits needed will vary by municipality within our service area. For example, a project in Oakland will have different permit requirements than one in Pleasanton. It is crucial to have all necessary permits in place before construction begins to ensure safety, compliance with local codes, and avoid potential fines or project delays. We assist clients with this permitting process.",
-        "description": "Open-concept remodels generally require building permits for structural, plumbing, or electrical changes. Specific permits vary by city, so it's vital to secure them before starting construction."
-      }
-    }
-  ],
+  "name": "What permits are required for an open-concept kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for an open-concept kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An open-concept kitchen remodel typically requires building permits, especially if it involves structural changes like removing load-bearing walls, or modifications to plumbing and electrical systems. The specific permits needed will vary by municipality within our service area. For example, a project in Oakland will have different permit requirements than one in Pleasanton. It is crucial to have all necessary permits in place before construction begins to ensure safety, compliance with local codes, and avoid potential fines or project delays. We assist clients with this permitting process.",
+        "@type": "Answer",
+        "description": "Open-concept remodels generally require building permits for structural, plumbing, or electrical changes. Specific permits vary by city, so it's vital to secure them before starting construction."
+      }
+    }
+  ],
+  "description": "Open-concept remodels generally require building permits for structural, plumbing, or electrical changes. Specific permits vary by city, so it's vital to secure"
 }

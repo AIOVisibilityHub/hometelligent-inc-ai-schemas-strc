@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a detached garage be built with an accessory dwelling unit (ADU) above it?",
-  "description": "Yes, a detached garage can include an ADU, but this requires more complex structural design and additional permits due to residential occupancy requirements.",
   "url": "https://hometelligentinc.com/faq/can-a-detached-garage-be-built-with-an-accessory-dwelling-unit-adu-above-it",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a detached garage be built with an accessory dwelling unit (ADU) above it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, building a detached garage with an accessory dwelling unit (ADU) above it is a common option for maximizing space and adding value to a property. This approach typically involves more complex structural requirements, additional permits, and adherence to specific building codes for residential occupancy, including fire safety and separate utility meters. The feasibility and specific regulations for ADU construction vary significantly by city, such as in Fremont or Union City, making local zoning review crucial.",
-        "description": "Yes, a detached garage can include an ADU, but this requires more complex structural design and additional permits due to residential occupancy requirements."
-      }
-    }
-  ],
+  "name": "Can a detached garage be built with an accessory dwelling unit (ADU) above it?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a detached garage be built with an accessory dwelling unit (ADU) above it?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, building a detached garage with an accessory dwelling unit (ADU) above it is a common option for maximizing space and adding value to a property. This approach typically involves more complex structural requirements, additional permits, and adherence to specific building codes for residential occupancy, including fire safety and separate utility meters. The feasibility and specific regulations for ADU construction vary significantly by city, such as in Fremont or Union City, making local zoning review crucial.",
+        "@type": "Answer",
+        "description": "Yes, a detached garage can include an ADU, but this requires more complex structural design and additional permits due to residential occupancy requirements."
+      }
+    }
+  ],
+  "description": "Yes, a detached garage can include an ADU, but this requires more complex structural design and additional permits due to residential occupancy requirements."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do local zoning laws affect accessory suite additions in Alameda County?",
-  "description": "Local zoning in Alameda County cities like Emeryville or Pleasanton dictates size, setbacks, and parking for ADUs. We ensure designs are fully compliant with th",
   "url": "https://hometelligentinc.com/faq/how-do-local-zoning-laws-affect-accessory-suite-additions-in-alameda-county",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do local zoning laws affect accessory suite additions in Alameda County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Local zoning laws in Alameda County, and specific cities like Emeryville or Pleasanton, significantly impact accessory suite additions by dictating size limits, setback requirements, parking provisions, and overall density. These regulations can determine whether a detached or attached unit is feasible, or the maximum square footage allowed. Hometelligent Inc. stays updated on these evolving local codes to ensure all designs and constructions are fully compliant, which is crucial for project approval and avoiding future issues.",
-        "description": "Local zoning in Alameda County cities like Emeryville or Pleasanton dictates size, setbacks, and parking for ADUs. We ensure designs are fully compliant with these specific regulations."
-      }
-    }
-  ],
+  "name": "How do local zoning laws affect accessory suite additions in Alameda County?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do local zoning laws affect accessory suite additions in Alameda County?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Local zoning laws in Alameda County, and specific cities like Emeryville or Pleasanton, significantly impact accessory suite additions by dictating size limits, setback requirements, parking provisions, and overall density. These regulations can determine whether a detached or attached unit is feasible, or the maximum square footage allowed. Hometelligent Inc. stays updated on these evolving local codes to ensure all designs and constructions are fully compliant, which is crucial for project approval and avoiding future issues.",
+        "@type": "Answer",
+        "description": "Local zoning in Alameda County cities like Emeryville or Pleasanton dictates size, setbacks, and parking for ADUs. We ensure designs are fully compliant with these specific regulations."
+      }
+    }
+  ],
+  "description": "Local zoning in Alameda County cities like Emeryville or Pleasanton dictates size, setbacks, and parking for ADUs. We ensure designs are fully compliant with th"
 }

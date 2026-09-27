@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for adding an accessory suite?",
-  "description": "The typical process involves consultation, design, permitting, construction, and final inspection. We manage all phases, including navigating local requirements",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-adding-an-accessory-suite",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for adding an accessory suite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for adding an accessory suite typically begins with an initial consultation to discuss your vision and evaluate your property's potential. This is followed by design and architectural planning, where we develop custom plans tailored to your needs and local regulations. After design approval, we handle the permitting process, followed by construction, and finally, the completion and final inspection. We manage all phases from concept to completion, including navigating specific requirements for jurisdictions like Alameda or Berkeley.",
-        "description": "The typical process involves consultation, design, permitting, construction, and final inspection. We manage all phases, including navigating local requirements in our service areas."
-      }
-    }
-  ],
+  "name": "What is the typical process for adding an accessory suite?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for adding an accessory suite?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for adding an accessory suite typically begins with an initial consultation to discuss your vision and evaluate your property's potential. This is followed by design and architectural planning, where we develop custom plans tailored to your needs and local regulations. After design approval, we handle the permitting process, followed by construction, and finally, the completion and final inspection. We manage all phases from concept to completion, including navigating specific requirements for jurisdictions like Alameda or Berkeley.",
+        "@type": "Answer",
+        "description": "The typical process involves consultation, design, permitting, construction, and final inspection. We manage all phases, including navigating local requirements in our service areas."
+      }
+    }
+  ],
+  "description": "The typical process involves consultation, design, permitting, construction, and final inspection. We manage all phases, including navigating local requirements"
 }

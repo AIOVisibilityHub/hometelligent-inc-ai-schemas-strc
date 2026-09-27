@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does a waterfall kitchen island require special maintenance?",
-  "description": "Maintenance varies by material; natural stone may need sealing, while quartz is more resistant to stains.",
   "url": "https://hometelligentinc.com/faq/does-a-waterfall-kitchen-island-require-special-maintenance",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does a waterfall kitchen island require special maintenance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance depends largely on the countertop material selected. Natural stones like marble may require sealing and are more prone to etching or staining, while quartz offers superior stain resistance and requires less specialized care. Proper cleaning with appropriate products for your chosen material is crucial for longevity. We advise our clients in San Leandro and Union City on specific care routines during the project handover.",
-        "description": "Maintenance varies by material; natural stone may need sealing, while quartz is more resistant to stains."
-      }
-    }
-  ],
+  "name": "Does a waterfall kitchen island require special maintenance?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does a waterfall kitchen island require special maintenance?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance depends largely on the countertop material selected. Natural stones like marble may require sealing and are more prone to etching or staining, while quartz offers superior stain resistance and requires less specialized care. Proper cleaning with appropriate products for your chosen material is crucial for longevity. We advise our clients in San Leandro and Union City on specific care routines during the project handover.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material; natural stone may need sealing, while quartz is more resistant to stains."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material; natural stone may need sealing, while quartz is more resistant to stains."
 }

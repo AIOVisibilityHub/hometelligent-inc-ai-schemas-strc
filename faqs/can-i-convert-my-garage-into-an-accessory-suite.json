@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I convert my garage into an accessory suite?",
-  "description": "Yes, garage conversions are popular and can be cost-effective. We assess suitability, handle modifications, and manage permitting to ensure it meets residential",
   "url": "https://hometelligentinc.com/faq/can-i-convert-my-garage-into-an-accessory-suite",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I convert my garage into an accessory suite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, converting an existing garage into an accessory suite is a popular option. This approach can often be more cost-effective and have a shorter timeline compared to new construction, as it utilizes an existing structure and foundation. However, it requires ensuring the existing garage meets residential building codes for insulation, ceiling height, and accessibility. We assess your garage's suitability and handle all necessary modifications and permitting to transform it into a functional living space.",
-        "description": "Yes, garage conversions are popular and can be cost-effective. We assess suitability, handle modifications, and manage permitting to ensure it meets residential building codes."
-      }
-    }
-  ],
+  "name": "Can I convert my garage into an accessory suite?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I convert my garage into an accessory suite?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, converting an existing garage into an accessory suite is a popular option. This approach can often be more cost-effective and have a shorter timeline compared to new construction, as it utilizes an existing structure and foundation. However, it requires ensuring the existing garage meets residential building codes for insulation, ceiling height, and accessibility. We assess your garage's suitability and handle all necessary modifications and permitting to transform it into a functional living space.",
+        "@type": "Answer",
+        "description": "Yes, garage conversions are popular and can be cost-effective. We assess suitability, handle modifications, and manage permitting to ensure it meets residential building codes."
+      }
+    }
+  ],
+  "description": "Yes, garage conversions are popular and can be cost-effective. We assess suitability, handle modifications, and manage permitting to ensure it meets residential"
 }

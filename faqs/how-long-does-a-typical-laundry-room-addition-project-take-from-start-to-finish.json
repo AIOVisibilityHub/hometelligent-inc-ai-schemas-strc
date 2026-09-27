@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical laundry room addition project take from start to finish?",
-  "description": "Project duration for a laundry room addition ranges from 4-6 weeks for simple conversions to 8-12+ weeks for new constructions, depending on complexity and perm",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-laundry-room-addition-project-take-from-start-to-finish",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical laundry room addition project take from start to finish?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a laundry room addition can vary significantly based on its complexity, size, and the need for new utility lines. A simple conversion of an existing space might take 4-6 weeks, while a brand-new addition requiring extensive plumbing, electrical work, and structural changes could extend to 8-12 weeks or more. Factors like obtaining permits from local Alameda or Berkeley building departments and material availability can also impact the overall project duration. An initial site assessment helps in providing a more accurate estimate.",
-        "description": "Project duration for a laundry room addition ranges from 4-6 weeks for simple conversions to 8-12+ weeks for new constructions, depending on complexity and permitting."
-      }
-    }
-  ],
+  "name": "How long does a typical laundry room addition project take from start to finish?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical laundry room addition project take from start to finish?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a laundry room addition can vary significantly based on its complexity, size, and the need for new utility lines. A simple conversion of an existing space might take 4-6 weeks, while a brand-new addition requiring extensive plumbing, electrical work, and structural changes could extend to 8-12 weeks or more. Factors like obtaining permits from local Alameda or Berkeley building departments and material availability can also impact the overall project duration. An initial site assessment helps in providing a more accurate estimate.",
+        "@type": "Answer",
+        "description": "Project duration for a laundry room addition ranges from 4-6 weeks for simple conversions to 8-12+ weeks for new constructions, depending on complexity and permitting."
+      }
+    }
+  ],
+  "description": "Project duration for a laundry room addition ranges from 4-6 weeks for simple conversions to 8-12+ weeks for new constructions, depending on complexity and perm"
 }

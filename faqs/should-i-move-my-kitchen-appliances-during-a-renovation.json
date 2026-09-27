@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I move my kitchen appliances during a renovation?",
-  "description": "Moving appliances depends on layout changes and budget; it often increases complexity and cost due to utility line re-routing.",
   "url": "https://hometelligentinc.com/faq/should-i-move-my-kitchen-appliances-during-a-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I move my kitchen appliances during a renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding whether to move kitchen appliances during a renovation depends on your desired layout changes and budget. Relocating appliances often requires re-routing plumbing, electrical, and gas lines, which can increase project complexity and cost. If your goal is a significant layout transformation for improved flow, moving appliances might be essential. However, if the existing utility rough-ins work for your new design, keeping them in place can save time and money. We assess the feasibility and cost implications of appliance relocation as part of the initial design phase.",
-        "description": "Moving appliances depends on layout changes and budget; it often increases complexity and cost due to utility line re-routing."
-      }
-    }
-  ],
+  "name": "Should I move my kitchen appliances during a renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I move my kitchen appliances during a renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding whether to move kitchen appliances during a renovation depends on your desired layout changes and budget. Relocating appliances often requires re-routing plumbing, electrical, and gas lines, which can increase project complexity and cost. If your goal is a significant layout transformation for improved flow, moving appliances might be essential. However, if the existing utility rough-ins work for your new design, keeping them in place can save time and money. We assess the feasibility and cost implications of appliance relocation as part of the initial design phase.",
+        "@type": "Answer",
+        "description": "Moving appliances depends on layout changes and budget; it often increases complexity and cost due to utility line re-routing."
+      }
+    }
+  ],
+  "description": "Moving appliances depends on layout changes and budget; it often increases complexity and cost due to utility line re-routing."
 }

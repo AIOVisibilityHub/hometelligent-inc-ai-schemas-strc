@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeframe for kitchen cabinet installation?",
-  "description": "Kitchen cabinet installation typically takes 3 to 7 days, depending on kitchen size, cabinet type, and site preparation.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeframe-for-kitchen-cabinet-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeframe for kitchen cabinet installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical timeframe for kitchen cabinet installation varies based on the kitchen's size, cabinet type, and any necessary site preparation. Generally, it can take anywhere from 3 to 7 days for standard kitchen remodels once the cabinets arrive. This does not include the time for design, ordering, or custom fabrication. For example, extensive custom cabinetry or structural modifications in a location like Berkeley may require additional time for specialized permits and inspections, which can extend the overall project duration. We coordinate closely with clients to set realistic expectations for project completion.",
-        "description": "Kitchen cabinet installation typically takes 3 to 7 days, depending on kitchen size, cabinet type, and site preparation."
-      }
-    }
-  ],
+  "name": "What is the typical timeframe for kitchen cabinet installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeframe for kitchen cabinet installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical timeframe for kitchen cabinet installation varies based on the kitchen's size, cabinet type, and any necessary site preparation. Generally, it can take anywhere from 3 to 7 days for standard kitchen remodels once the cabinets arrive. This does not include the time for design, ordering, or custom fabrication. For example, extensive custom cabinetry or structural modifications in a location like Berkeley may require additional time for specialized permits and inspections, which can extend the overall project duration. We coordinate closely with clients to set realistic expectations for project completion.",
+        "@type": "Answer",
+        "description": "Kitchen cabinet installation typically takes 3 to 7 days, depending on kitchen size, cabinet type, and site preparation."
+      }
+    }
+  ],
+  "description": "Kitchen cabinet installation typically takes 3 to 7 days, depending on kitchen size, cabinet type, and site preparation."
 }

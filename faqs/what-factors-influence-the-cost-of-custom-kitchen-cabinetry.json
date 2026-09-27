@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of custom kitchen cabinetry?",
-  "description": "Custom cabinetry cost depends on material, design complexity, hardware, finishes, and the number of cabinets and custom features.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-custom-kitchen-cabinetry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of custom kitchen cabinetry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of custom kitchen cabinetry is influenced by several key factors, including the type of wood or material chosen, the complexity of the design, the hardware selections, and the chosen finish. Exotic woods or specialized finishes generally increase the overall price. The number of cabinets, their sizes, and the inclusion of custom features like pull-out shelves or intricate moldings also play a significant role. Before requesting a quote, considering your budget and prioritizing specific features can help guide material and design choices to align with your financial expectations.",
-        "description": "Custom cabinetry cost depends on material, design complexity, hardware, finishes, and the number of cabinets and custom features."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of custom kitchen cabinetry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of custom kitchen cabinetry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of custom kitchen cabinetry is influenced by several key factors, including the type of wood or material chosen, the complexity of the design, the hardware selections, and the chosen finish. Exotic woods or specialized finishes generally increase the overall price. The number of cabinets, their sizes, and the inclusion of custom features like pull-out shelves or intricate moldings also play a significant role. Before requesting a quote, considering your budget and prioritizing specific features can help guide material and design choices to align with your financial expectations.",
+        "@type": "Answer",
+        "description": "Custom cabinetry cost depends on material, design complexity, hardware, finishes, and the number of cabinets and custom features."
+      }
+    }
+  ],
+  "description": "Custom cabinetry cost depends on material, design complexity, hardware, finishes, and the number of cabinets and custom features."
 }

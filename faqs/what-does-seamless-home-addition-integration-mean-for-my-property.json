@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What does 'seamless home addition integration' mean for my property?",
-  "description": "It means a new addition is designed and built to blend perfectly with your home's existing style, materials, and internal flow, making it feel original.",
   "url": "https://hometelligentinc.com/faq/what-does-seamless-home-addition-integration-mean-for-my-property",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does 'seamless home addition integration' mean for my property?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Seamless home addition integration means designing and constructing an addition that blends harmoniously with your existing home's architectural style, materials, and internal flow. The goal is for the new space to feel like it was always part of the original structure, rather than an obvious add-on. This involves careful planning of rooflines, siding, windows, and interior transitions to ensure visual and functional continuity. We focus on matching existing finishes and ensuring consistent structural integrity.",
-        "description": "It means a new addition is designed and built to blend perfectly with your home's existing style, materials, and internal flow, making it feel original."
-      }
-    }
-  ],
+  "name": "What does 'seamless home addition integration' mean for my property?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What does 'seamless home addition integration' mean for my property?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Seamless home addition integration means designing and constructing an addition that blends harmoniously with your existing home's architectural style, materials, and internal flow. The goal is for the new space to feel like it was always part of the original structure, rather than an obvious add-on. This involves careful planning of rooflines, siding, windows, and interior transitions to ensure visual and functional continuity. We focus on matching existing finishes and ensuring consistent structural integrity.",
+        "@type": "Answer",
+        "description": "It means a new addition is designed and built to blend perfectly with your home's existing style, materials, and internal flow, making it feel original."
+      }
+    }
+  ],
+  "description": "It means a new addition is designed and built to blend perfectly with your home's existing style, materials, and internal flow, making it feel original."
 }

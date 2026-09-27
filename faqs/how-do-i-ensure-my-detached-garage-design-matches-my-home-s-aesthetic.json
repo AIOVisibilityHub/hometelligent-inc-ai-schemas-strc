@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure my detached garage design matches my home's aesthetic?",
-  "description": "Match roofing, siding, window styles, and colors to your home's aesthetic. Replicating key architectural features ensures a cohesive look.",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-my-detached-garage-design-matches-my-home-s-aesthetic",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure my detached garage design matches my home's aesthetic?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To ensure your detached garage complements your home's aesthetic, coordinate elements such as roofing materials, siding, window styles, and paint colors. Consider the architectural style of your existing house and try to replicate key features or choose complementary ones. For example, if your home has a specific trim detail, incorporate that into the garage design. Thoughtful design integration helps the garage look like an intentional part of your property, enhancing overall curb appeal.",
-        "description": "Match roofing, siding, window styles, and colors to your home's aesthetic. Replicating key architectural features ensures a cohesive look."
-      }
-    }
-  ],
+  "name": "How do I ensure my detached garage design matches my home's aesthetic?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure my detached garage design matches my home's aesthetic?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To ensure your detached garage complements your home's aesthetic, coordinate elements such as roofing materials, siding, window styles, and paint colors. Consider the architectural style of your existing house and try to replicate key features or choose complementary ones. For example, if your home has a specific trim detail, incorporate that into the garage design. Thoughtful design integration helps the garage look like an intentional part of your property, enhancing overall curb appeal.",
+        "@type": "Answer",
+        "description": "Match roofing, siding, window styles, and colors to your home's aesthetic. Replicating key architectural features ensures a cohesive look."
+      }
+    }
+  ],
+  "description": "Match roofing, siding, window styles, and colors to your home's aesthetic. Replicating key architectural features ensures a cohesive look."
 }

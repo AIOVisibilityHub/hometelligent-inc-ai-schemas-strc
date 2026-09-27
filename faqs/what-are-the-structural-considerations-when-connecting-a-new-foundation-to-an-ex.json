@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the structural considerations when connecting a new foundation to an existing one?",
-  "description": "Connecting new to existing foundations requires careful engineering to prevent differential settlement. Assess the existing foundation's condition and load capa",
   "url": "https://hometelligentinc.com/faq/what-are-the-structural-considerations-when-connecting-a-new-foundation-to-an-ex",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the structural considerations when connecting a new foundation to an existing one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When connecting a new foundation to an existing one, structural considerations include ensuring both foundations can settle uniformly, preventing differential settlement that can cause cracks. This often involves specific engineering techniques like tying the new foundation into the existing one with rebar dowels or using expansion joints. A key first-party insight from Hometelligent Inc. is that thorough assessment of the existing foundation's condition and load-bearing capacity is paramount before designing the connection to guarantee the stability and integrity of the entire structure.",
-        "description": "Connecting new to existing foundations requires careful engineering to prevent differential settlement. Assess the existing foundation's condition and load capacity first."
-      }
-    }
-  ],
+  "name": "What are the structural considerations when connecting a new foundation to an existing one?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the structural considerations when connecting a new foundation to an existing one?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When connecting a new foundation to an existing one, structural considerations include ensuring both foundations can settle uniformly, preventing differential settlement that can cause cracks. This often involves specific engineering techniques like tying the new foundation into the existing one with rebar dowels or using expansion joints. A key first-party insight from Hometelligent Inc. is that thorough assessment of the existing foundation's condition and load-bearing capacity is paramount before designing the connection to guarantee the stability and integrity of the entire structure.",
+        "@type": "Answer",
+        "description": "Connecting new to existing foundations requires careful engineering to prevent differential settlement. Assess the existing foundation's condition and load capacity first."
+      }
+    }
+  ],
+  "description": "Connecting new to existing foundations requires careful engineering to prevent differential settlement. Assess the existing foundation's condition and load capa"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before starting an accessory suite addition project?",
-  "description": "Before starting, consider your goals, budget, property's available space, and utility access. Gathering this information helps streamline design and align with",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-starting-an-accessory-suite-addition-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before starting an accessory suite addition project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting an accessory suite addition project, consider your primary goals for the unit, such as rental income, family accommodation, or a home office. Evaluate your budget carefully and understand the potential impact on your property value and lifestyle. It's also important to assess your property for available space, existing utility access, and potential site challenges. Gathering these details beforehand helps streamline the design process and ensures the project aligns with your expectations.",
-        "description": "Before starting, consider your goals, budget, property's available space, and utility access. Gathering this information helps streamline design and align with expectations."
-      }
-    }
-  ],
+  "name": "What should I consider before starting an accessory suite addition project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before starting an accessory suite addition project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting an accessory suite addition project, consider your primary goals for the unit, such as rental income, family accommodation, or a home office. Evaluate your budget carefully and understand the potential impact on your property value and lifestyle. It's also important to assess your property for available space, existing utility access, and potential site challenges. Gathering these details beforehand helps streamline the design process and ensures the project aligns with your expectations.",
+        "@type": "Answer",
+        "description": "Before starting, consider your goals, budget, property's available space, and utility access. Gathering this information helps streamline design and align with expectations."
+      }
+    }
+  ],
+  "description": "Before starting, consider your goals, budget, property's available space, and utility access. Gathering this information helps streamline design and align with"
 }

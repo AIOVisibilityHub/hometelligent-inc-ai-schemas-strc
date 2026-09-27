@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common challenges encountered during attached garage construction?",
-  "description": "Challenges include unexpected site conditions, complex permitting, and integrating with the existing home. A practical tradeoff is that highly customized design",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-encountered-during-attached-garage-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common challenges encountered during attached garage construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges during attached garage construction can include unexpected site conditions, such as unstable soil or utility line conflicts, which may require adjustments to the foundation or rerouting. Navigating complex local permitting processes, particularly in areas with strict zoning like Berkeley or Piedmont, can also lead to delays. Additionally, ensuring seamless integration with the existing home's structure and utilities often requires careful planning and skilled craftsmanship. A practical tradeoff is that a highly customized design may encounter more unforeseen structural challenges compared to a more standard, straightforward build. We proactively address these issues through thorough planning and site analysis.",
-        "description": "Challenges include unexpected site conditions, complex permitting, and integrating with the existing home. A practical tradeoff is that highly customized designs may present more unforeseen structural issues."
-      }
-    }
-  ],
+  "name": "What are the common challenges encountered during attached garage construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common challenges encountered during attached garage construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges during attached garage construction can include unexpected site conditions, such as unstable soil or utility line conflicts, which may require adjustments to the foundation or rerouting. Navigating complex local permitting processes, particularly in areas with strict zoning like Berkeley or Piedmont, can also lead to delays. Additionally, ensuring seamless integration with the existing home's structure and utilities often requires careful planning and skilled craftsmanship. A practical tradeoff is that a highly customized design may encounter more unforeseen structural challenges compared to a more standard, straightforward build. We proactively address these issues through thorough planning and site analysis.",
+        "@type": "Answer",
+        "description": "Challenges include unexpected site conditions, complex permitting, and integrating with the existing home. A practical tradeoff is that highly customized designs may present more unforeseen structural issues."
+      }
+    }
+  ],
+  "description": "Challenges include unexpected site conditions, complex permitting, and integrating with the existing home. A practical tradeoff is that highly customized design"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for starting a mudroom addition project with Hometelligent Inc.?",
-  "description": "The process starts with a consultation, moves to design, permitting, construction, and concludes with inspections. We provide regular updates throughout.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-starting-a-mudroom-addition-project-with-hometelligent-i",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for starting a mudroom addition project with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process for a mudroom addition begins with an initial consultation to discuss your vision, needs, and budget. Following this, we proceed with design and planning, including architectural drawings and material selections. Once designs are finalized and permits secured, construction commences, followed by final inspections and project completion. A key element of our first-party insight is providing regular updates and maintaining clear communication throughout each phase, ensuring you are informed and comfortable with the progress from groundbreaking to the final walkthrough.",
-        "description": "The process starts with a consultation, moves to design, permitting, construction, and concludes with inspections. We provide regular updates throughout."
-      }
-    }
-  ],
+  "name": "What is the process for starting a mudroom addition project with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for starting a mudroom addition project with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process for a mudroom addition begins with an initial consultation to discuss your vision, needs, and budget. Following this, we proceed with design and planning, including architectural drawings and material selections. Once designs are finalized and permits secured, construction commences, followed by final inspections and project completion. A key element of our first-party insight is providing regular updates and maintaining clear communication throughout each phase, ensuring you are informed and comfortable with the progress from groundbreaking to the final walkthrough.",
+        "@type": "Answer",
+        "description": "The process starts with a consultation, moves to design, permitting, construction, and concludes with inspections. We provide regular updates throughout."
+      }
+    }
+  ],
+  "description": "The process starts with a consultation, moves to design, permitting, construction, and concludes with inspections. We provide regular updates throughout."
 }

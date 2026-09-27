@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before removing a kitchen wall?",
-  "description": "Consider if the wall is load-bearing, check for utilities, plan for finish repairs, and understand permit needs. This is a crucial preparation step.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-removing-a-kitchen-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before removing a kitchen wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before removing a kitchen wall, consider several key factors. Firstly, determine if the wall is load-bearing. Secondly, assess the presence of plumbing, electrical, or HVAC lines within the wall, as these will need relocation. Thirdly, think about the impact on flooring, ceiling, and adjacent wall finishes, as these areas will require repair or replacement. Finally, understand the permitting requirements for your specific location. This preparation checklist ensures you account for all potential complexities.",
-        "description": "Consider if the wall is load-bearing, check for utilities, plan for finish repairs, and understand permit needs. This is a crucial preparation step."
-      }
-    }
-  ],
+  "name": "What should I consider before removing a kitchen wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before removing a kitchen wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before removing a kitchen wall, consider several key factors. Firstly, determine if the wall is load-bearing. Secondly, assess the presence of plumbing, electrical, or HVAC lines within the wall, as these will need relocation. Thirdly, think about the impact on flooring, ceiling, and adjacent wall finishes, as these areas will require repair or replacement. Finally, understand the permitting requirements for your specific location. This preparation checklist ensures you account for all potential complexities.",
+        "@type": "Answer",
+        "description": "Consider if the wall is load-bearing, check for utilities, plan for finish repairs, and understand permit needs. This is a crucial preparation step."
+      }
+    }
+  ],
+  "description": "Consider if the wall is load-bearing, check for utilities, plan for finish repairs, and understand permit needs. This is a crucial preparation step."
 }

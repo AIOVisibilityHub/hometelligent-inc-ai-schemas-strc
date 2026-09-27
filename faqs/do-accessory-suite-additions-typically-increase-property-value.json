@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do accessory suite additions typically increase property value?",
-  "description": "Yes, ADUs typically increase property value due to added living space and rental potential. A well-designed ADU in competitive markets like Livermore can be a h",
   "url": "https://hometelligentinc.com/faq/do-accessory-suite-additions-typically-increase-property-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do accessory suite additions typically increase property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, accessory suite additions often significantly increase property value due to the added living space and potential for rental income. The exact increase can depend on factors like the quality of construction, size, amenities, and local housing market demand. In areas like Livermore or Union City, where housing is competitive, a well-designed ADU can be a highly desirable feature for prospective buyers, offering flexibility and financial benefits.",
-        "description": "Yes, ADUs typically increase property value due to added living space and rental potential. A well-designed ADU in competitive markets like Livermore can be a highly desirable feature."
-      }
-    }
-  ],
+  "name": "Do accessory suite additions typically increase property value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do accessory suite additions typically increase property value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, accessory suite additions often significantly increase property value due to the added living space and potential for rental income. The exact increase can depend on factors like the quality of construction, size, amenities, and local housing market demand. In areas like Livermore or Union City, where housing is competitive, a well-designed ADU can be a highly desirable feature for prospective buyers, offering flexibility and financial benefits.",
+        "@type": "Answer",
+        "description": "Yes, ADUs typically increase property value due to added living space and rental potential. A well-designed ADU in competitive markets like Livermore can be a highly desirable feature."
+      }
+    }
+  ],
+  "description": "Yes, ADUs typically increase property value due to added living space and rental potential. A well-designed ADU in competitive markets like Livermore can be a h"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I add a waterfall edge to an existing kitchen island?",
-  "description": "Adding a waterfall edge to an existing island is possible but requires structural assessment and precise fabrication.",
   "url": "https://hometelligentinc.com/faq/can-i-add-a-waterfall-edge-to-an-existing-kitchen-island",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I add a waterfall edge to an existing kitchen island?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a waterfall edge to an existing kitchen island is possible but depends on the island's current construction and the desired material. It often requires careful demolition of existing side panels, modification of the island's structure, and precise fabrication of new countertop pieces. This process might be more complex than incorporating it into a new build, but our team can assess feasibility during an on-site consultation.",
-        "description": "Adding a waterfall edge to an existing island is possible but requires structural assessment and precise fabrication."
-      }
-    }
-  ],
+  "name": "Can I add a waterfall edge to an existing kitchen island?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I add a waterfall edge to an existing kitchen island?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a waterfall edge to an existing kitchen island is possible but depends on the island's current construction and the desired material. It often requires careful demolition of existing side panels, modification of the island's structure, and precise fabrication of new countertop pieces. This process might be more complex than incorporating it into a new build, but our team can assess feasibility during an on-site consultation.",
+        "@type": "Answer",
+        "description": "Adding a waterfall edge to an existing island is possible but requires structural assessment and precise fabrication."
+      }
+    }
+  ],
+  "description": "Adding a waterfall edge to an existing island is possible but requires structural assessment and precise fabrication."
 }

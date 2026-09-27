@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I decide if a second-story addition or a ground-level expansion is right for my home?",
-  "description": "Choose based on lot size, foundation capacity, and desired use; second stories save ground space but require structural work, while ground expansions need avail",
   "url": "https://hometelligentinc.com/faq/how-can-i-decide-if-a-second-story-addition-or-a-ground-level-expansion-is-right",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I decide if a second-story addition or a ground-level expansion is right for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding between a second-story addition and a ground-level expansion depends on several factors, including your lot size, existing foundation capabilities, and desired use of the new space. A second-story addition can maximize space on smaller lots and often provides better views, but it requires a robust foundation and staircase integration. A ground-level expansion might be less disruptive initially and offer easier access but requires available land. We can assess your property and discuss these tradeoffs during our initial consultation.",
-        "description": "Choose based on lot size, foundation capacity, and desired use; second stories save ground space but require structural work, while ground expansions need available land."
-      }
-    }
-  ],
+  "name": "How can I decide if a second-story addition or a ground-level expansion is right for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I decide if a second-story addition or a ground-level expansion is right for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding between a second-story addition and a ground-level expansion depends on several factors, including your lot size, existing foundation capabilities, and desired use of the new space. A second-story addition can maximize space on smaller lots and often provides better views, but it requires a robust foundation and staircase integration. A ground-level expansion might be less disruptive initially and offer easier access but requires available land. We can assess your property and discuss these tradeoffs during our initial consultation.",
+        "@type": "Answer",
+        "description": "Choose based on lot size, foundation capacity, and desired use; second stories save ground space but require structural work, while ground expansions need available land."
+      }
+    }
+  ],
+  "description": "Choose based on lot size, foundation capacity, and desired use; second stories save ground space but require structural work, while ground expansions need avail"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for a garage expansion?",
-  "description": "Garage expansions typically require building, zoning, electrical, and plumbing permits, varying by location and project scope. Hometelligent assists with the pe",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-a-garage-expansion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for a garage expansion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Garage expansions in cities like Oakland or Fremont typically require multiple permits, including building permits, and potentially zoning, electrical, and plumbing permits. The specific requirements depend on the scope of work and local municipal regulations. Failing to obtain the correct permits can lead to delays, fines, or even the need to redo construction. Hometelligent assists clients in navigating the permitting process to ensure compliance with all local codes and regulations.",
-        "description": "Garage expansions typically require building, zoning, electrical, and plumbing permits, varying by location and project scope. Hometelligent assists with the permitting process."
-      }
-    }
-  ],
+  "name": "What permits are needed for a garage expansion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for a garage expansion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Garage expansions in cities like Oakland or Fremont typically require multiple permits, including building permits, and potentially zoning, electrical, and plumbing permits. The specific requirements depend on the scope of work and local municipal regulations. Failing to obtain the correct permits can lead to delays, fines, or even the need to redo construction. Hometelligent assists clients in navigating the permitting process to ensure compliance with all local codes and regulations.",
+        "@type": "Answer",
+        "description": "Garage expansions typically require building, zoning, electrical, and plumbing permits, varying by location and project scope. Hometelligent assists with the permitting process."
+      }
+    }
+  ],
+  "description": "Garage expansions typically require building, zoning, electrical, and plumbing permits, varying by location and project scope. Hometelligent assists with the pe"
 }

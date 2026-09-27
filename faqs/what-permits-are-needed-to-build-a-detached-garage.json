@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed to build a detached garage?",
-  "description": "You will generally need building and zoning permits, and potentially electrical or plumbing permits. Requirements vary by specific city or county.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-to-build-a-detached-garage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed to build a detached garage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building a detached garage typically requires several permits, including a building permit, zoning approval, and potentially electrical or plumbing permits if these services are extended to the garage. The specific requirements can vary based on local regulations in areas like Alameda or Berkeley. It's crucial to check with your local planning department to understand all necessary permits before starting construction, as omitting them can lead to delays or fines. We can assist in identifying the necessary permits for your specific project location.",
-        "description": "You will generally need building and zoning permits, and potentially electrical or plumbing permits. Requirements vary by specific city or county."
-      }
-    }
-  ],
+  "name": "What permits are needed to build a detached garage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed to build a detached garage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building a detached garage typically requires several permits, including a building permit, zoning approval, and potentially electrical or plumbing permits if these services are extended to the garage. The specific requirements can vary based on local regulations in areas like Alameda or Berkeley. It's crucial to check with your local planning department to understand all necessary permits before starting construction, as omitting them can lead to delays or fines. We can assist in identifying the necessary permits for your specific project location.",
+        "@type": "Answer",
+        "description": "You will generally need building and zoning permits, and potentially electrical or plumbing permits. Requirements vary by specific city or county."
+      }
+    }
+  ],
+  "description": "You will generally need building and zoning permits, and potentially electrical or plumbing permits. Requirements vary by specific city or county."
 }

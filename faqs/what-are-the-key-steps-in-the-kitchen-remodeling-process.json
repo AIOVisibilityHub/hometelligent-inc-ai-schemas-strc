@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key steps in the kitchen remodeling process?",
-  "description": "Key steps include consultation, design, material selection, permitting, demolition, rough-ins, installation, and finishing touches.",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-steps-in-the-kitchen-remodeling-process",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key steps in the kitchen remodeling process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The kitchen remodeling process begins with an initial consultation and design phase, where your vision and requirements are established. This is followed by material selection, planning, and securing necessary permits. Construction then proceeds with demolition, rough-ins for plumbing and electrical, installation of cabinetry, countertops, and appliances, and finally, finishing touches. Hometelligent Inc. manages each step, coordinating trades and ensuring a smooth progression from concept to completion.",
-        "description": "Key steps include consultation, design, material selection, permitting, demolition, rough-ins, installation, and finishing touches."
-      }
-    }
-  ],
+  "name": "What are the key steps in the kitchen remodeling process?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key steps in the kitchen remodeling process?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The kitchen remodeling process begins with an initial consultation and design phase, where your vision and requirements are established. This is followed by material selection, planning, and securing necessary permits. Construction then proceeds with demolition, rough-ins for plumbing and electrical, installation of cabinetry, countertops, and appliances, and finally, finishing touches. Hometelligent Inc. manages each step, coordinating trades and ensuring a smooth progression from concept to completion.",
+        "@type": "Answer",
+        "description": "Key steps include consultation, design, material selection, permitting, demolition, rough-ins, installation, and finishing touches."
+      }
+    }
+  ],
+  "description": "Key steps include consultation, design, material selection, permitting, demolition, rough-ins, installation, and finishing touches."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How should I prepare my kitchen before cabinet installation begins?",
-  "description": "Before installation, clear your kitchen of all contents, appliances, and personal items. Ensure existing cabinets are removed if not part of our scope.",
   "url": "https://hometelligentinc.com/faq/how-should-i-prepare-my-kitchen-before-cabinet-installation-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How should I prepare my kitchen before cabinet installation begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before cabinet installation, ensure your kitchen space is clear and accessible. This includes removing all contents from existing cabinets and countertops, disconnecting and removing appliances, and clearing any decor or personal items. We also recommend having old cabinets removed prior to our team's arrival, unless demolition is part of your contracted scope of work. Having the area cleared and clean facilitates a smoother and more efficient installation process, minimizing potential delays. For clients in areas like Alameda, preparing the site ensures we can adhere to our scheduled timeline effectively.",
-        "description": "Before installation, clear your kitchen of all contents, appliances, and personal items. Ensure existing cabinets are removed if not part of our scope."
-      }
-    }
-  ],
+  "name": "How should I prepare my kitchen before cabinet installation begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How should I prepare my kitchen before cabinet installation begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before cabinet installation, ensure your kitchen space is clear and accessible. This includes removing all contents from existing cabinets and countertops, disconnecting and removing appliances, and clearing any decor or personal items. We also recommend having old cabinets removed prior to our team's arrival, unless demolition is part of your contracted scope of work. Having the area cleared and clean facilitates a smoother and more efficient installation process, minimizing potential delays. For clients in areas like Alameda, preparing the site ensures we can adhere to our scheduled timeline effectively.",
+        "@type": "Answer",
+        "description": "Before installation, clear your kitchen of all contents, appliances, and personal items. Ensure existing cabinets are removed if not part of our scope."
+      }
+    }
+  ],
+  "description": "Before installation, clear your kitchen of all contents, appliances, and personal items. Ensure existing cabinets are removed if not part of our scope."
 }

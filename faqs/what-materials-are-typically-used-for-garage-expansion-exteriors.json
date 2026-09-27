@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are typically used for garage expansion exteriors?",
-  "description": "Exterior materials for garage expansions typically match the existing home, using stucco, wood siding, fiber cement, or brick. Hometelligent helps choose durabl",
   "url": "https://hometelligentinc.com/faq/what-materials-are-typically-used-for-garage-expansion-exteriors",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are typically used for garage expansion exteriors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Exterior materials for a garage expansion are generally chosen to match or complement your existing home's aesthetic. Common options include stucco, wood siding (e.g., redwood, cedar), fiber cement boards, or brick and stone veneers. The choice of material impacts both the cost and the long-term maintenance requirements. It's important to select durable materials that can withstand local weather conditions in the East Bay, and Hometelligent helps clients choose options that blend seamlessly with their current property.",
-        "description": "Exterior materials for garage expansions typically match the existing home, using stucco, wood siding, fiber cement, or brick. Hometelligent helps choose durable options for local weather."
-      }
-    }
-  ],
+  "name": "What materials are typically used for garage expansion exteriors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are typically used for garage expansion exteriors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Exterior materials for a garage expansion are generally chosen to match or complement your existing home's aesthetic. Common options include stucco, wood siding (e.g., redwood, cedar), fiber cement boards, or brick and stone veneers. The choice of material impacts both the cost and the long-term maintenance requirements. It's important to select durable materials that can withstand local weather conditions in the East Bay, and Hometelligent helps clients choose options that blend seamlessly with their current property.",
+        "@type": "Answer",
+        "description": "Exterior materials for garage expansions typically match the existing home, using stucco, wood siding, fiber cement, or brick. Hometelligent helps choose durable options for local weather."
+      }
+    }
+  ],
+  "description": "Exterior materials for garage expansions typically match the existing home, using stucco, wood siding, fiber cement, or brick. Hometelligent helps choose durabl"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations should I make before my refacing project in Alameda?",
-  "description": "Clear countertops, empty cabinets, and ensure a clear path to the kitchen before your refacing project.",
   "url": "https://hometelligentinc.com/faq/what-preparations-should-i-make-before-my-refacing-project-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations should I make before my refacing project in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your refacing project in Alameda, we recommend clearing your countertops and creating a clear path to the kitchen. While you should empty all cabinets and drawers, there's no need to remove large appliances unless specifically instructed. Ensure that children and pets are kept away from the work area for safety. Our team will cover adjacent surfaces to minimize dust and disruption, but having the area clear helps us work efficiently and keeps your home organized during the process.",
-        "description": "Clear countertops, empty cabinets, and ensure a clear path to the kitchen before your refacing project."
-      }
-    }
-  ],
+  "name": "What preparations should I make before my refacing project in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations should I make before my refacing project in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your refacing project in Alameda, we recommend clearing your countertops and creating a clear path to the kitchen. While you should empty all cabinets and drawers, there's no need to remove large appliances unless specifically instructed. Ensure that children and pets are kept away from the work area for safety. Our team will cover adjacent surfaces to minimize dust and disruption, but having the area clear helps us work efficiently and keeps your home organized during the process.",
+        "@type": "Answer",
+        "description": "Clear countertops, empty cabinets, and ensure a clear path to the kitchen before your refacing project."
+      }
+    }
+  ],
+  "description": "Clear countertops, empty cabinets, and ensure a clear path to the kitchen before your refacing project."
 }

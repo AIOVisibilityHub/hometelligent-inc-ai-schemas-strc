@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of kitchen cabinets do you install?",
-  "description": "We install custom, semi-custom, and stock kitchen cabinets, offering flexibility for various designs and budgets.",
   "url": "https://hometelligentinc.com/faq/what-types-of-kitchen-cabinets-do-you-install",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of kitchen cabinets do you install?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We install a variety of kitchen cabinet types, including custom, semi-custom, and stock cabinets. Custom cabinets offer complete design flexibility and are built to your exact specifications, ideal for unique kitchen layouts in areas like Piedmont. Semi-custom cabinets provide more options than stock cabinets regarding sizes, finishes, and door styles, while stock cabinets are pre-manufactured and offer a more budget-friendly solution with quicker availability. The choice often depends on your budget, desired aesthetic, and the specific functional needs of your kitchen space. We can help you navigate these options to find the best fit.",
-        "description": "We install custom, semi-custom, and stock kitchen cabinets, offering flexibility for various designs and budgets."
-      }
-    }
-  ],
+  "name": "What types of kitchen cabinets do you install?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of kitchen cabinets do you install?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "We install a variety of kitchen cabinet types, including custom, semi-custom, and stock cabinets. Custom cabinets offer complete design flexibility and are built to your exact specifications, ideal for unique kitchen layouts in areas like Piedmont. Semi-custom cabinets provide more options than stock cabinets regarding sizes, finishes, and door styles, while stock cabinets are pre-manufactured and offer a more budget-friendly solution with quicker availability. The choice often depends on your budget, desired aesthetic, and the specific functional needs of your kitchen space. We can help you navigate these options to find the best fit.",
+        "@type": "Answer",
+        "description": "We install custom, semi-custom, and stock kitchen cabinets, offering flexibility for various designs and budgets."
+      }
+    }
+  ],
+  "description": "We install custom, semi-custom, and stock kitchen cabinets, offering flexibility for various designs and budgets."
 }

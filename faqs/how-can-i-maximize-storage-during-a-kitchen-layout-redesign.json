@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I maximize storage during a kitchen layout redesign?",
-  "description": "Maximize kitchen storage with floor-to-ceiling cabinets, corner solutions, pantry pull-outs, and specialized drawer inserts. Efficient space planning and custom",
   "url": "https://hometelligentinc.com/faq/how-can-i-maximize-storage-during-a-kitchen-layout-redesign",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I maximize storage during a kitchen layout redesign?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maximizing storage during a kitchen layout redesign involves smart design choices like incorporating floor-to-ceiling cabinetry, corner storage solutions, and pantry pull-outs. Consider specialized inserts for drawers, appliance garages, and open shelving where appropriate. Our designers focus on efficient space planning to utilize every available inch, creating custom solutions that cater to your specific storage needs and help declutter your countertop space.",
-        "description": "Maximize kitchen storage with floor-to-ceiling cabinets, corner solutions, pantry pull-outs, and specialized drawer inserts. Efficient space planning and custom solutions are key to decluttering."
-      }
-    }
-  ],
+  "name": "How can I maximize storage during a kitchen layout redesign?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I maximize storage during a kitchen layout redesign?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maximizing storage during a kitchen layout redesign involves smart design choices like incorporating floor-to-ceiling cabinetry, corner storage solutions, and pantry pull-outs. Consider specialized inserts for drawers, appliance garages, and open shelving where appropriate. Our designers focus on efficient space planning to utilize every available inch, creating custom solutions that cater to your specific storage needs and help declutter your countertop space.",
+        "@type": "Answer",
+        "description": "Maximize kitchen storage with floor-to-ceiling cabinets, corner solutions, pantry pull-outs, and specialized drawer inserts. Efficient space planning and custom solutions are key to decluttering."
+      }
+    }
+  ],
+  "description": "Maximize kitchen storage with floor-to-ceiling cabinets, corner solutions, pantry pull-outs, and specialized drawer inserts. Efficient space planning and custom"
 }

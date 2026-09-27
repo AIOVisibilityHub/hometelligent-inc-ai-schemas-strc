@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common challenges with waterfall kitchen island installation?",
-  "description": "Challenges include precise cuts, managing slab weight, achieving perfect alignment, and ensuring proper support structures.",
   "url": "https://hometelligentinc.com/faq/what-are-common-challenges-with-waterfall-kitchen-island-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common challenges with waterfall kitchen island installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges include ensuring precise cuts for a seamless vein match, managing the weight of large stone slabs during transport and installation, and achieving perfect alignment where the countertop meets the floor. Proper support structures within the island are also critical. Our experienced installers mitigate these challenges through meticulous planning and specialized equipment, particularly for larger projects in areas like Castro Valley or San Lorenzo.",
-        "description": "Challenges include precise cuts, managing slab weight, achieving perfect alignment, and ensuring proper support structures."
-      }
-    }
-  ],
+  "name": "What are common challenges with waterfall kitchen island installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common challenges with waterfall kitchen island installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges include ensuring precise cuts for a seamless vein match, managing the weight of large stone slabs during transport and installation, and achieving perfect alignment where the countertop meets the floor. Proper support structures within the island are also critical. Our experienced installers mitigate these challenges through meticulous planning and specialized equipment, particularly for larger projects in areas like Castro Valley or San Lorenzo.",
+        "@type": "Answer",
+        "description": "Challenges include precise cuts, managing slab weight, achieving perfect alignment, and ensuring proper support structures."
+      }
+    }
+  ],
+  "description": "Challenges include precise cuts, managing slab weight, achieving perfect alignment, and ensuring proper support structures."
 }

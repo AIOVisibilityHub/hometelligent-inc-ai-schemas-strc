@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common challenges in kitchen renovations and how are they managed?",
-  "description": "Challenges like unexpected structural issues or material delays are common. We manage these through thorough planning, clear communication, and contingency stra",
   "url": "https://hometelligentinc.com/faq/what-are-common-challenges-in-kitchen-renovations-and-how-are-they-managed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common challenges in kitchen renovations and how are they managed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges in kitchen renovations include unexpected structural issues, delays in material delivery, or changes in design scope during the project. These can impact timelines and budgets. We mitigate these by conducting thorough initial assessments, maintaining clear communication channels with clients and suppliers, and having contingency plans. For instance, if an older home in Oakland Hills reveals unforeseen plumbing issues, we address it promptly with the necessary expertise and transparently discuss solutions with the homeowner to minimize disruption.",
-        "description": "Challenges like unexpected structural issues or material delays are common. We manage these through thorough planning, clear communication, and contingency strategies."
-      }
-    }
-  ],
+  "name": "What are common challenges in kitchen renovations and how are they managed?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common challenges in kitchen renovations and how are they managed?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges in kitchen renovations include unexpected structural issues, delays in material delivery, or changes in design scope during the project. These can impact timelines and budgets. We mitigate these by conducting thorough initial assessments, maintaining clear communication channels with clients and suppliers, and having contingency plans. For instance, if an older home in Oakland Hills reveals unforeseen plumbing issues, we address it promptly with the necessary expertise and transparently discuss solutions with the homeowner to minimize disruption.",
+        "@type": "Answer",
+        "description": "Challenges like unexpected structural issues or material delays are common. We manage these through thorough planning, clear communication, and contingency strategies."
+      }
+    }
+  ],
+  "description": "Challenges like unexpected structural issues or material delays are common. We manage these through thorough planning, clear communication, and contingency stra"
 }

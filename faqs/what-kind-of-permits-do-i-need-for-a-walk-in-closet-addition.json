@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of permits do I need for a walk-in closet addition?",
-  "description": "Building permits are usually required; Hometelligent Inc. handles the permitting process with local municipalities.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-permits-do-i-need-for-a-walk-in-closet-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of permits do I need for a walk-in closet addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Walk-in closet additions typically require building permits from your local municipality to ensure compliance with safety and zoning regulations. The specific permits needed can vary by city, such as Berkeley or Dublin. Hometelligent Inc. manages the entire permitting process, including necessary inspections, to ensure your project adheres to all local codes and standards, simplifying the process for you.",
-        "description": "Building permits are usually required; Hometelligent Inc. handles the permitting process with local municipalities."
-      }
-    }
-  ],
+  "name": "What kind of permits do I need for a walk-in closet addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of permits do I need for a walk-in closet addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Walk-in closet additions typically require building permits from your local municipality to ensure compliance with safety and zoning regulations. The specific permits needed can vary by city, such as Berkeley or Dublin. Hometelligent Inc. manages the entire permitting process, including necessary inspections, to ensure your project adheres to all local codes and standards, simplifying the process for you.",
+        "@type": "Answer",
+        "description": "Building permits are usually required; Hometelligent Inc. handles the permitting process with local municipalities."
+      }
+    }
+  ],
+  "description": "Building permits are usually required; Hometelligent Inc. handles the permitting process with local municipalities."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install a kitchen island myself or should I hire a professional?",
-  "description": "Hiring a professional is recommended for most kitchen island installations, especially built-in or utility-connected ones, to ensure structural integrity, safet",
   "url": "https://hometelligentinc.com/faq/can-i-install-a-kitchen-island-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install a kitchen island myself or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While it might be tempting to install a simple, freestanding kitchen island yourself, hiring a professional is strongly recommended for most projects, especially those involving built-in islands, utility connections, or custom designs. Professionals ensure structural integrity, proper utility hook-ups to prevent hazards, and compliance with local building codes. Our expertise in cities like Pleasanton and Fremont means we understand regional regulations and can deliver a safe, durable, and aesthetically pleasing result.",
-        "description": "Hiring a professional is recommended for most kitchen island installations, especially built-in or utility-connected ones, to ensure structural integrity, safety, and code compliance. We understand regional regulations."
-      }
-    }
-  ],
+  "name": "Can I install a kitchen island myself or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install a kitchen island myself or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While it might be tempting to install a simple, freestanding kitchen island yourself, hiring a professional is strongly recommended for most projects, especially those involving built-in islands, utility connections, or custom designs. Professionals ensure structural integrity, proper utility hook-ups to prevent hazards, and compliance with local building codes. Our expertise in cities like Pleasanton and Fremont means we understand regional regulations and can deliver a safe, durable, and aesthetically pleasing result.",
+        "@type": "Answer",
+        "description": "Hiring a professional is recommended for most kitchen island installations, especially built-in or utility-connected ones, to ensure structural integrity, safety, and code compliance. We understand regional regulations."
+      }
+    }
+  ],
+  "description": "Hiring a professional is recommended for most kitchen island installations, especially built-in or utility-connected ones, to ensure structural integrity, safet"
 }

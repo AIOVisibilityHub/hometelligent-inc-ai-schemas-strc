@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of foundations are used for detached garages?",
-  "description": "Common foundations include slab-on-grade, stem wall, or pier and beam. The best choice depends on soil, garage size, and local building codes.",
   "url": "https://hometelligentinc.com/faq/what-types-of-foundations-are-used-for-detached-garages",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of foundations are used for detached garages?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common foundation types for detached garages include slab-on-grade, stem wall, or sometimes pier and beam foundations. Slab-on-grade is often the most economical for basic garages, offering a solid floor. A stem wall foundation elevates the garage slightly, protecting against moisture and accommodating sloped sites. The best foundation depends on soil conditions, garage size, anticipated load, and local building codes, especially in areas with specific seismic requirements like the Bay Area.",
-        "description": "Common foundations include slab-on-grade, stem wall, or pier and beam. The best choice depends on soil, garage size, and local building codes."
-      }
-    }
-  ],
+  "name": "What types of foundations are used for detached garages?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of foundations are used for detached garages?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common foundation types for detached garages include slab-on-grade, stem wall, or sometimes pier and beam foundations. Slab-on-grade is often the most economical for basic garages, offering a solid floor. A stem wall foundation elevates the garage slightly, protecting against moisture and accommodating sloped sites. The best foundation depends on soil conditions, garage size, anticipated load, and local building codes, especially in areas with specific seismic requirements like the Bay Area.",
+        "@type": "Answer",
+        "description": "Common foundations include slab-on-grade, stem wall, or pier and beam. The best choice depends on soil, garage size, and local building codes."
+      }
+    }
+  ],
+  "description": "Common foundations include slab-on-grade, stem wall, or pier and beam. The best choice depends on soil, garage size, and local building codes."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long after cabinet installation can I use my new kitchen?",
-  "description": "You can generally use your kitchen within 1-2 days after cabinet installation, depending on countertop installation and adhesive curing times.",
   "url": "https://hometelligentinc.com/faq/how-long-after-cabinet-installation-can-i-use-my-new-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long after cabinet installation can I use my new kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can typically start using your new kitchen within a day or two after cabinet installation is complete, assuming all utilities are reconnected and countertops are installed. The main factor is the curing time for any adhesives used for countertops or certain trim pieces, which may require 24-48 hours. If a new countertop is part of your project, it will need to be installed after the base cabinets are in place, potentially extending the full usability timeline. We will provide specific guidance based on the materials used in your project to ensure everything is properly set before heavy use.",
-        "description": "You can generally use your kitchen within 1-2 days after cabinet installation, depending on countertop installation and adhesive curing times."
-      }
-    }
-  ],
+  "name": "How long after cabinet installation can I use my new kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long after cabinet installation can I use my new kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You can typically start using your new kitchen within a day or two after cabinet installation is complete, assuming all utilities are reconnected and countertops are installed. The main factor is the curing time for any adhesives used for countertops or certain trim pieces, which may require 24-48 hours. If a new countertop is part of your project, it will need to be installed after the base cabinets are in place, potentially extending the full usability timeline. We will provide specific guidance based on the materials used in your project to ensure everything is properly set before heavy use.",
+        "@type": "Answer",
+        "description": "You can generally use your kitchen within 1-2 days after cabinet installation, depending on countertop installation and adhesive curing times."
+      }
+    }
+  ],
+  "description": "You can generally use your kitchen within 1-2 days after cabinet installation, depending on countertop installation and adhesive curing times."
 }

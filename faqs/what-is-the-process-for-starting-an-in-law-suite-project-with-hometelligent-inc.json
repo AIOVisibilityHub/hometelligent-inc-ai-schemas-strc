@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for starting an in-law suite project with Hometelligent Inc.?",
-  "description": "The process starts with a consultation and site visit, followed by design, permit acquisition, and then construction. Having existing property plans ready aids",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-starting-an-in-law-suite-project-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for starting an in-law suite project with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process begins with an initial consultation where we discuss your vision, budget, and property specifics. This is followed by a site visit to assess feasibility and develop preliminary designs. After design finalization, we handle the permitting process with your local city. A key preparation step for clients is to have any existing property surveys or architectural plans available for review, which streamlines the initial assessment and design phase. Construction then commences upon permit approval.",
-        "description": "The process starts with a consultation and site visit, followed by design, permit acquisition, and then construction. Having existing property plans ready aids the initial steps."
-      }
-    }
-  ],
+  "name": "What is the process for starting an in-law suite project with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for starting an in-law suite project with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process begins with an initial consultation where we discuss your vision, budget, and property specifics. This is followed by a site visit to assess feasibility and develop preliminary designs. After design finalization, we handle the permitting process with your local city. A key preparation step for clients is to have any existing property surveys or architectural plans available for review, which streamlines the initial assessment and design phase. Construction then commences upon permit approval.",
+        "@type": "Answer",
+        "description": "The process starts with a consultation and site visit, followed by design, permit acquisition, and then construction. Having existing property plans ready aids the initial steps."
+      }
+    }
+  ],
+  "description": "The process starts with a consultation and site visit, followed by design, permit acquisition, and then construction. Having existing property plans ready aids"
 }

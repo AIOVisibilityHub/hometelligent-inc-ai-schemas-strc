@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of a kitchen island with seating versus one without?",
-  "description": "An island with seating creates an informal dining or gathering spot but needs more floor space. An island without seating provides more prep and storage space i",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-a-kitchen-island-with-seating-versus-one-without",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of a kitchen island with seating versus one without?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A kitchen island with seating offers significant benefits by creating an informal dining area or a casual gathering spot, enhancing the kitchen's social function. It's ideal for quick meals, homework, or entertaining guests while you cook. However, islands with seating often require more floor space to accommodate chairs and comfortable legroom. An island without seating allows for more counter space for prep and cooking, and potentially more storage, while occupying less overall footprint.",
-        "description": "An island with seating creates an informal dining or gathering spot but needs more floor space. An island without seating provides more prep and storage space in a smaller footprint."
-      }
-    }
-  ],
+  "name": "What are the benefits of a kitchen island with seating versus one without?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of a kitchen island with seating versus one without?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A kitchen island with seating offers significant benefits by creating an informal dining area or a casual gathering spot, enhancing the kitchen's social function. It's ideal for quick meals, homework, or entertaining guests while you cook. However, islands with seating often require more floor space to accommodate chairs and comfortable legroom. An island without seating allows for more counter space for prep and cooking, and potentially more storage, while occupying less overall footprint.",
+        "@type": "Answer",
+        "description": "An island with seating creates an informal dining or gathering spot but needs more floor space. An island without seating provides more prep and storage space in a smaller footprint."
+      }
+    }
+  ],
+  "description": "An island with seating creates an informal dining or gathering spot but needs more floor space. An island without seating provides more prep and storage space i"
 }

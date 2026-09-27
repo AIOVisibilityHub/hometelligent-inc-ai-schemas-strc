@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of an attached garage project?",
-  "description": "Cost is impacted by garage size, materials, design complexity, and site conditions. Deciding between standard or premium materials is a key factor influencing b",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-an-attached-garage-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of an attached garage project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building an attached garage is influenced by several factors, including its size, the chosen materials, the complexity of the design, and site-specific conditions. Larger garages, premium finishes, or custom features like additional living space above will increase the overall expense. Site preparation costs can also vary based on grading, soil conditions, and accessibility. A key decision factor for budgeting is whether to prioritize immediate cost savings with standard materials or invest in higher-quality, more durable options that may offer long-term value and lower maintenance. We work with clients in areas like Hayward and San Leandro to provide detailed estimates based on these considerations.",
-        "description": "Cost is impacted by garage size, materials, design complexity, and site conditions. Deciding between standard or premium materials is a key factor influencing both initial expense and long-term value."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of an attached garage project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of an attached garage project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building an attached garage is influenced by several factors, including its size, the chosen materials, the complexity of the design, and site-specific conditions. Larger garages, premium finishes, or custom features like additional living space above will increase the overall expense. Site preparation costs can also vary based on grading, soil conditions, and accessibility. A key decision factor for budgeting is whether to prioritize immediate cost savings with standard materials or invest in higher-quality, more durable options that may offer long-term value and lower maintenance. We work with clients in areas like Hayward and San Leandro to provide detailed estimates based on these considerations.",
+        "@type": "Answer",
+        "description": "Cost is impacted by garage size, materials, design complexity, and site conditions. Deciding between standard or premium materials is a key factor influencing both initial expense and long-term value."
+      }
+    }
+  ],
+  "description": "Cost is impacted by garage size, materials, design complexity, and site conditions. Deciding between standard or premium materials is a key factor influencing b"
 }

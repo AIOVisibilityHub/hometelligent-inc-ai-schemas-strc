@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common challenges to anticipate with an open-concept kitchen remodel?",
-  "description": "Anticipate challenges like structural surprises, utility relocation, dust, and noise. Plan for effective ventilation and consider noise management in the open l",
   "url": "https://hometelligentinc.com/faq/what-are-common-challenges-to-anticipate-with-an-open-concept-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common challenges to anticipate with an open-concept kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges in an open-concept kitchen remodel include unexpected structural findings, coordinating utility relocations (plumbing, electrical, HVAC), and managing dust and noise during construction. Another challenge is ensuring proper ventilation for cooking odors in a larger, open space. A practical tradeoff is that while an open layout is desirable, it requires careful planning for noise management and maintaining cleanliness in an area visible from living spaces. Discuss these concerns with your contractor to develop proactive solutions.",
-        "description": "Anticipate challenges like structural surprises, utility relocation, dust, and noise. Plan for effective ventilation and consider noise management in the open layout."
-      }
-    }
-  ],
+  "name": "What are common challenges to anticipate with an open-concept kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common challenges to anticipate with an open-concept kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges in an open-concept kitchen remodel include unexpected structural findings, coordinating utility relocations (plumbing, electrical, HVAC), and managing dust and noise during construction. Another challenge is ensuring proper ventilation for cooking odors in a larger, open space. A practical tradeoff is that while an open layout is desirable, it requires careful planning for noise management and maintaining cleanliness in an area visible from living spaces. Discuss these concerns with your contractor to develop proactive solutions.",
+        "@type": "Answer",
+        "description": "Anticipate challenges like structural surprises, utility relocation, dust, and noise. Plan for effective ventilation and consider noise management in the open layout."
+      }
+    }
+  ],
+  "description": "Anticipate challenges like structural surprises, utility relocation, dust, and noise. Plan for effective ventilation and consider noise management in the open l"
 }

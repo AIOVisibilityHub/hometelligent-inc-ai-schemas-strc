@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. ensure an addition matches my home's existing style?",
-  "description": "We conduct detailed assessments of your home's architecture, matching materials, and replicating details to ensure aesthetic consistency.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-ensure-an-addition-matches-my-home-s-existing-style",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. ensure an addition matches my home's existing style?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We ensure an addition matches your home's existing style through meticulous design planning and material selection. This involves a detailed assessment of your home's architectural features, rooflines, window styles, exterior finishes, and interior trim. We often source materials to match existing siding, brick, or paint colors, and replicate architectural details to create a cohesive look. Our design phase specifically focuses on these aesthetic consistencies to achieve a truly seamless integration.",
-        "description": "We conduct detailed assessments of your home's architecture, matching materials, and replicating details to ensure aesthetic consistency."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. ensure an addition matches my home's existing style?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. ensure an addition matches my home's existing style?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "We ensure an addition matches your home's existing style through meticulous design planning and material selection. This involves a detailed assessment of your home's architectural features, rooflines, window styles, exterior finishes, and interior trim. We often source materials to match existing siding, brick, or paint colors, and replicate architectural details to create a cohesive look. Our design phase specifically focuses on these aesthetic consistencies to achieve a truly seamless integration.",
+        "@type": "Answer",
+        "description": "We conduct detailed assessments of your home's architecture, matching materials, and replicating details to ensure aesthetic consistency."
+      }
+    }
+  ],
+  "description": "We conduct detailed assessments of your home's architecture, matching materials, and replicating details to ensure aesthetic consistency."
 }

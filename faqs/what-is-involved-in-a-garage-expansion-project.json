@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a garage expansion project?",
-  "description": "A garage expansion increases the size of your existing garage, often involving new foundation, framing, roofing, and utility work to match the current structure",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-garage-expansion-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a garage expansion project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A garage expansion typically involves increasing the footprint or height of your existing garage to add more space. This can include extending the garage forward, backward, or to the side, or even adding a second story. The process often requires new foundation work, framing, roofing, and siding to match the existing structure, along with electrical and sometimes plumbing modifications. Hometelligent can help assess your current space and local zoning regulations to determine the most feasible expansion options for your property.",
-        "description": "A garage expansion increases the size of your existing garage, often involving new foundation, framing, roofing, and utility work to match the current structure."
-      }
-    }
-  ],
+  "name": "What is involved in a garage expansion project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a garage expansion project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A garage expansion typically involves increasing the footprint or height of your existing garage to add more space. This can include extending the garage forward, backward, or to the side, or even adding a second story. The process often requires new foundation work, framing, roofing, and siding to match the existing structure, along with electrical and sometimes plumbing modifications. Hometelligent can help assess your current space and local zoning regulations to determine the most feasible expansion options for your property.",
+        "@type": "Answer",
+        "description": "A garage expansion increases the size of your existing garage, often involving new foundation, framing, roofing, and utility work to match the current structure."
+      }
+    }
+  ],
+  "description": "A garage expansion increases the size of your existing garage, often involving new foundation, framing, roofing, and utility work to match the current structure"
 }

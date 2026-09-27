@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are best for mudroom flooring?",
-  "description": "Best mudroom flooring materials are durable, water-resistant, and easy to clean, such as ceramic tile, luxury vinyl plank, or polished concrete.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-mudroom-flooring",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are best for mudroom flooring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For mudroom flooring, the best materials are those that are durable, water-resistant, and easy to clean, given the high traffic and potential for dirt and moisture. Popular choices include ceramic or porcelain tile, luxury vinyl plank (LVP), and polished concrete. Each option presents a practical tradeoff: tile is extremely durable but can be cold; LVP offers wood aesthetics with water resistance but might not match tile's longevity; polished concrete is robust but less forgiving underfoot. Consider your budget and aesthetic preferences against these practicalities.",
-        "description": "Best mudroom flooring materials are durable, water-resistant, and easy to clean, such as ceramic tile, luxury vinyl plank, or polished concrete."
-      }
-    }
-  ],
+  "name": "What materials are best for mudroom flooring?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are best for mudroom flooring?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For mudroom flooring, the best materials are those that are durable, water-resistant, and easy to clean, given the high traffic and potential for dirt and moisture. Popular choices include ceramic or porcelain tile, luxury vinyl plank (LVP), and polished concrete. Each option presents a practical tradeoff: tile is extremely durable but can be cold; LVP offers wood aesthetics with water resistance but might not match tile's longevity; polished concrete is robust but less forgiving underfoot. Consider your budget and aesthetic preferences against these practicalities.",
+        "@type": "Answer",
+        "description": "Best mudroom flooring materials are durable, water-resistant, and easy to clean, such as ceramic tile, luxury vinyl plank, or polished concrete."
+      }
+    }
+  ],
+  "description": "Best mudroom flooring materials are durable, water-resistant, and easy to clean, such as ceramic tile, luxury vinyl plank, or polished concrete."
 }

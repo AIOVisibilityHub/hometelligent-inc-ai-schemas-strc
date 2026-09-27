@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common types of accessory suite additions?",
-  "description": "Common types include detached ADUs, attached ADUs, and conversions of existing spaces like garages or basements. The best type depends on available space, zonin",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-accessory-suite-additions",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common types of accessory suite additions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common types of accessory suite additions include detached ADUs, which are separate structures on your property, and attached ADUs, which are connected to the main house. We also handle conversions of existing spaces like garages, basements, or attics into living units. The best type for your property often depends on available space, local zoning regulations, and your specific goals for the unit, such as maximizing privacy or minimizing construction time.",
-        "description": "Common types include detached ADUs, attached ADUs, and conversions of existing spaces like garages or basements. The best type depends on available space, zoning, and your goals."
-      }
-    }
-  ],
+  "name": "What are the common types of accessory suite additions?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common types of accessory suite additions?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common types of accessory suite additions include detached ADUs, which are separate structures on your property, and attached ADUs, which are connected to the main house. We also handle conversions of existing spaces like garages, basements, or attics into living units. The best type for your property often depends on available space, local zoning regulations, and your specific goals for the unit, such as maximizing privacy or minimizing construction time.",
+        "@type": "Answer",
+        "description": "Common types include detached ADUs, attached ADUs, and conversions of existing spaces like garages or basements. The best type depends on available space, zoning, and your goals."
+      }
+    }
+  ],
+  "description": "Common types include detached ADUs, attached ADUs, and conversions of existing spaces like garages or basements. The best type depends on available space, zonin"
 }

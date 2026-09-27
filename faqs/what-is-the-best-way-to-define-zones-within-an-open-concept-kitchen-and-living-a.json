@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the best way to define zones within an open-concept kitchen and living area?",
-  "description": "Define zones in an open-concept space using different flooring, rugs, furniture, or lighting. A kitchen island can also serve as a natural divider.",
   "url": "https://hometelligentinc.com/faq/what-is-the-best-way-to-define-zones-within-an-open-concept-kitchen-and-living-a",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the best way to define zones within an open-concept kitchen and living area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Defining zones within an open-concept kitchen and living area can be achieved through various design elements without erecting new walls. Consider using different flooring materials, area rugs, strategic furniture placement, or varying ceiling heights and lighting fixtures to subtly delineate spaces. For example, a kitchen island with seating can act as a natural divider between the cooking and dining areas. This approach offers the benefit of maintaining an open feel while still providing functional separation for different activities.",
-        "description": "Define zones in an open-concept space using different flooring, rugs, furniture, or lighting. A kitchen island can also serve as a natural divider."
-      }
-    }
-  ],
+  "name": "What is the best way to define zones within an open-concept kitchen and living area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the best way to define zones within an open-concept kitchen and living area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Defining zones within an open-concept kitchen and living area can be achieved through various design elements without erecting new walls. Consider using different flooring materials, area rugs, strategic furniture placement, or varying ceiling heights and lighting fixtures to subtly delineate spaces. For example, a kitchen island with seating can act as a natural divider between the cooking and dining areas. This approach offers the benefit of maintaining an open feel while still providing functional separation for different activities.",
+        "@type": "Answer",
+        "description": "Define zones in an open-concept space using different flooring, rugs, furniture, or lighting. A kitchen island can also serve as a natural divider."
+      }
+    }
+  ],
+  "description": "Define zones in an open-concept space using different flooring, rugs, furniture, or lighting. A kitchen island can also serve as a natural divider."
 }

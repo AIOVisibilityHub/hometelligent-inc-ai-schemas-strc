@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for a kitchen expansion project?",
-  "description": "Kitchen expansion costs vary based on size, structural complexity, and material choices, typically ranging from tens to hundreds of thousands.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-kitchen-expansion-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for a kitchen expansion project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost for a kitchen expansion varies significantly based on factors like the size of the expansion, the complexity of structural changes, and the quality of materials selected. It can range from tens of thousands for minor bump-outs to hundreds of thousands for extensive additions requiring foundation work and new utilities. A detailed on-site assessment by Hometelligent Inc. is essential to provide an accurate estimate tailored to your specific project scope and desired finishes.",
-        "description": "Kitchen expansion costs vary based on size, structural complexity, and material choices, typically ranging from tens to hundreds of thousands."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for a kitchen expansion project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for a kitchen expansion project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost for a kitchen expansion varies significantly based on factors like the size of the expansion, the complexity of structural changes, and the quality of materials selected. It can range from tens of thousands for minor bump-outs to hundreds of thousands for extensive additions requiring foundation work and new utilities. A detailed on-site assessment by Hometelligent Inc. is essential to provide an accurate estimate tailored to your specific project scope and desired finishes.",
+        "@type": "Answer",
+        "description": "Kitchen expansion costs vary based on size, structural complexity, and material choices, typically ranging from tens to hundreds of thousands."
+      }
+    }
+  ],
+  "description": "Kitchen expansion costs vary based on size, structural complexity, and material choices, typically ranging from tens to hundreds of thousands."
 }

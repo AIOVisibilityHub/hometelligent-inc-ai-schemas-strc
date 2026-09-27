@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for building an in-law suite in the East Bay?",
-  "description": "Building an in-law suite (ADU) requires permits from local city planning and building departments, including zoning and construction permits.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-building-an-in-law-suite-in-the-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for building an in-law suite in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building an in-law suite, often referred to as an Accessory Dwelling Unit (ADU) in California, requires specific permits from your local city planning and building departments. In cities like Oakland or Fremont, this typically includes zoning approval, architectural review, and various construction permits (electrical, plumbing, mechanical). A critical preparation step is to consult with Hometelligent Inc. early in the process to understand the specific requirements for your property and jurisdiction.",
-        "description": "Building an in-law suite (ADU) requires permits from local city planning and building departments, including zoning and construction permits."
-      }
-    }
-  ],
+  "name": "What permits are required for building an in-law suite in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for building an in-law suite in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building an in-law suite, often referred to as an Accessory Dwelling Unit (ADU) in California, requires specific permits from your local city planning and building departments. In cities like Oakland or Fremont, this typically includes zoning approval, architectural review, and various construction permits (electrical, plumbing, mechanical). A critical preparation step is to consult with Hometelligent Inc. early in the process to understand the specific requirements for your property and jurisdiction.",
+        "@type": "Answer",
+        "description": "Building an in-law suite (ADU) requires permits from local city planning and building departments, including zoning and construction permits."
+      }
+    }
+  ],
+  "description": "Building an in-law suite (ADU) requires permits from local city planning and building departments, including zoning and construction permits."
 }

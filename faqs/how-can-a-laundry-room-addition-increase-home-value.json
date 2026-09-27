@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can a laundry room addition increase home value?",
-  "description": "A well-designed laundry room addition increases home value by boosting appeal and functionality, especially in competitive markets like the East Bay, attracting",
   "url": "https://hometelligentinc.com/faq/how-can-a-laundry-room-addition-increase-home-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can a laundry room addition increase home value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A well-designed and functional laundry room addition can significantly enhance a home's appeal and market value, particularly in competitive markets like the East Bay Area. Buyers often prioritize homes with dedicated and organized laundry spaces, seeing them as a major convenience and an indicator of modern living. Such an addition can improve a home's functionality, storage, and overall aesthetic, making it more attractive to potential buyers. The return on investment often depends on the quality of the work and how well the new space integrates with the existing home.",
-        "description": "A well-designed laundry room addition increases home value by boosting appeal and functionality, especially in competitive markets like the East Bay, attracting more buyers."
-      }
-    }
-  ],
+  "name": "How can a laundry room addition increase home value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can a laundry room addition increase home value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A well-designed and functional laundry room addition can significantly enhance a home's appeal and market value, particularly in competitive markets like the East Bay Area. Buyers often prioritize homes with dedicated and organized laundry spaces, seeing them as a major convenience and an indicator of modern living. Such an addition can improve a home's functionality, storage, and overall aesthetic, making it more attractive to potential buyers. The return on investment often depends on the quality of the work and how well the new space integrates with the existing home.",
+        "@type": "Answer",
+        "description": "A well-designed laundry room addition increases home value by boosting appeal and functionality, especially in competitive markets like the East Bay, attracting more buyers."
+      }
+    }
+  ],
+  "description": "A well-designed laundry room addition increases home value by boosting appeal and functionality, especially in competitive markets like the East Bay, attracting"
 }

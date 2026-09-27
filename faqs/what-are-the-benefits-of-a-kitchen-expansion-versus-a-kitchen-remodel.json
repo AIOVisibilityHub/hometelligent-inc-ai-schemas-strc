@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of a kitchen expansion versus a kitchen remodel?",
-  "description": "Expansion adds square footage and features not possible with a remodel, but it's more complex and costly.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-a-kitchen-expansion-versus-a-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of a kitchen expansion versus a kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A kitchen expansion offers increased square footage, allowing for a larger layout, more storage, and additional features like an island or dining nook, which a remodel alone cannot provide. A remodel focuses on updating aesthetics and functionality within the existing footprint. The practical tradeoff is that expansions are generally more complex, time-consuming, and costly due to structural work and permitting, but they deliver a significant increase in usable space and home value.",
-        "description": "Expansion adds square footage and features not possible with a remodel, but it's more complex and costly."
-      }
-    }
-  ],
+  "name": "What are the benefits of a kitchen expansion versus a kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of a kitchen expansion versus a kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A kitchen expansion offers increased square footage, allowing for a larger layout, more storage, and additional features like an island or dining nook, which a remodel alone cannot provide. A remodel focuses on updating aesthetics and functionality within the existing footprint. The practical tradeoff is that expansions are generally more complex, time-consuming, and costly due to structural work and permitting, but they deliver a significant increase in usable space and home value.",
+        "@type": "Answer",
+        "description": "Expansion adds square footage and features not possible with a remodel, but it's more complex and costly."
+      }
+    }
+  ],
+  "description": "Expansion adds square footage and features not possible with a remodel, but it's more complex and costly."
 }

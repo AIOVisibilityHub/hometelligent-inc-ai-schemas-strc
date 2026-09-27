@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to remove a kitchen wall?",
-  "description": "Costs vary based on load-bearing status, size, materials, and finishing work. Load-bearing walls cost more due to structural needs.",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-remove-a-kitchen-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to remove a kitchen wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of kitchen wall removal varies significantly based on factors such as whether the wall is load-bearing, its size, the materials involved, and the extent of finishing work required. Non-load-bearing walls are generally less expensive to remove than load-bearing ones, which necessitate structural reinforcement. The need for a structural engineer, permits, and subsequent repair work (like flooring or ceiling patches) also impacts the total cost. This practical tradeoff highlights that a simpler wall removal will have a lower cost.",
-        "description": "Costs vary based on load-bearing status, size, materials, and finishing work. Load-bearing walls cost more due to structural needs."
-      }
-    }
-  ],
+  "name": "How much does it cost to remove a kitchen wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to remove a kitchen wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of kitchen wall removal varies significantly based on factors such as whether the wall is load-bearing, its size, the materials involved, and the extent of finishing work required. Non-load-bearing walls are generally less expensive to remove than load-bearing ones, which necessitate structural reinforcement. The need for a structural engineer, permits, and subsequent repair work (like flooring or ceiling patches) also impacts the total cost. This practical tradeoff highlights that a simpler wall removal will have a lower cost.",
+        "@type": "Answer",
+        "description": "Costs vary based on load-bearing status, size, materials, and finishing work. Load-bearing walls cost more due to structural needs."
+      }
+    }
+  ],
+  "description": "Costs vary based on load-bearing status, size, materials, and finishing work. Load-bearing walls cost more due to structural needs."
 }

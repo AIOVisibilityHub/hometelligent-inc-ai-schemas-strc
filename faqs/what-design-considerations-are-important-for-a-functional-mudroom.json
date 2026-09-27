@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for a functional mudroom?",
-  "description": "Important design considerations include durable, easy-to-clean flooring, ample storage (cubbies, hooks), and seating. Consider integrating a utility sink for ad",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-a-functional-mudroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for a functional mudroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A functional mudroom design prioritizes storage, durability, and ease of cleaning. Consider practical elements like built-in benches for sitting, robust flooring that can withstand heavy traffic and moisture (e.g., tile or luxury vinyl), and ample storage solutions such as cubbies, hooks, and cabinets for coats, shoes, and bags. One decision factor is whether to integrate a utility sink for rinsing dirty items or caring for pets, which adds significant convenience but also impacts plumbing needs and overall layout.",
-        "description": "Important design considerations include durable, easy-to-clean flooring, ample storage (cubbies, hooks), and seating. Consider integrating a utility sink for added functionality."
-      }
-    }
-  ],
+  "name": "What design considerations are important for a functional mudroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for a functional mudroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A functional mudroom design prioritizes storage, durability, and ease of cleaning. Consider practical elements like built-in benches for sitting, robust flooring that can withstand heavy traffic and moisture (e.g., tile or luxury vinyl), and ample storage solutions such as cubbies, hooks, and cabinets for coats, shoes, and bags. One decision factor is whether to integrate a utility sink for rinsing dirty items or caring for pets, which adds significant convenience but also impacts plumbing needs and overall layout.",
+        "@type": "Answer",
+        "description": "Important design considerations include durable, easy-to-clean flooring, ample storage (cubbies, hooks), and seating. Consider integrating a utility sink for added functionality."
+      }
+    }
+  ],
+  "description": "Important design considerations include durable, easy-to-clean flooring, ample storage (cubbies, hooks), and seating. Consider integrating a utility sink for ad"
 }

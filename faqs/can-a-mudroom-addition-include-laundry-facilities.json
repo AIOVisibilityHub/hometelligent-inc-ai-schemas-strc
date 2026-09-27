@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a mudroom addition include laundry facilities?",
-  "description": "Yes, a mudroom addition can include laundry facilities, requiring careful planning for plumbing, electrical, and ventilation. Consider appliance dimensions earl",
   "url": "https://hometelligentinc.com/faq/can-a-mudroom-addition-include-laundry-facilities",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a mudroom addition include laundry facilities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, many homeowners choose to combine their mudroom addition with laundry facilities for enhanced convenience and space efficiency. This integration requires careful planning for plumbing and electrical hookups, ventilation, and sound insulation. The decision to combine these functions presents a preparation consideration: you'll need to account for washer/dryer dimensions, utility line accessibility, and exhaust venting requirements early in the design phase to ensure a seamless and functional multi-purpose space.",
-        "description": "Yes, a mudroom addition can include laundry facilities, requiring careful planning for plumbing, electrical, and ventilation. Consider appliance dimensions early in design."
-      }
-    }
-  ],
+  "name": "Can a mudroom addition include laundry facilities?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a mudroom addition include laundry facilities?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, many homeowners choose to combine their mudroom addition with laundry facilities for enhanced convenience and space efficiency. This integration requires careful planning for plumbing and electrical hookups, ventilation, and sound insulation. The decision to combine these functions presents a preparation consideration: you'll need to account for washer/dryer dimensions, utility line accessibility, and exhaust venting requirements early in the design phase to ensure a seamless and functional multi-purpose space.",
+        "@type": "Answer",
+        "description": "Yes, a mudroom addition can include laundry facilities, requiring careful planning for plumbing, electrical, and ventilation. Consider appliance dimensions early in design."
+      }
+    }
+  ],
+  "description": "Yes, a mudroom addition can include laundry facilities, requiring careful planning for plumbing, electrical, and ventilation. Consider appliance dimensions earl"
 }

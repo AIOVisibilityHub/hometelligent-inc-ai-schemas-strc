@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a home addition permit and why is it required?",
-  "description": "A home addition permit is official authorization from your local building department, ensuring compliance with zoning and building codes for safety and property",
   "url": "https://hometelligentinc.com/faq/what-is-a-home-addition-permit-and-why-is-it-required",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a home addition permit and why is it required?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A home addition permit is an official authorization from your local building department that allows construction on your property. It ensures your project complies with zoning ordinances, building codes, and safety standards. Permits are crucial for ensuring structural integrity, safety, and maintaining property value. Without a permit, you risk fines, forced demolition, or difficulties when selling your home. Hometelligent Inc. assists clients in Alameda, Albany, Berkeley, Dublin, and Emeryville with understanding and navigating these local requirements.",
-        "description": "A home addition permit is official authorization from your local building department, ensuring compliance with zoning and building codes for safety and property value."
-      }
-    }
-  ],
+  "name": "What is a home addition permit and why is it required?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a home addition permit and why is it required?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A home addition permit is an official authorization from your local building department that allows construction on your property. It ensures your project complies with zoning ordinances, building codes, and safety standards. Permits are crucial for ensuring structural integrity, safety, and maintaining property value. Without a permit, you risk fines, forced demolition, or difficulties when selling your home. Hometelligent Inc. assists clients in Alameda, Albany, Berkeley, Dublin, and Emeryville with understanding and navigating these local requirements.",
+        "@type": "Answer",
+        "description": "A home addition permit is official authorization from your local building department, ensuring compliance with zoning and building codes for safety and property value."
+      }
+    }
+  ],
+  "description": "A home addition permit is official authorization from your local building department, ensuring compliance with zoning and building codes for safety and property"
 }

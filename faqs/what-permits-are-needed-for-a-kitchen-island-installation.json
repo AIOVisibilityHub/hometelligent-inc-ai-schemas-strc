@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for a kitchen island installation?",
-  "description": "Permits are usually needed for kitchen island installations involving new plumbing, electrical, or structural changes, but not for simple, freestanding islands.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-a-kitchen-island-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for a kitchen island installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for kitchen island installation depend on the project's complexity and local building codes. If your installation involves new plumbing, electrical work, or structural changes, permits will likely be necessary. Simple, freestanding islands generally do not require permits. We assist clients in identifying and securing all required permits from local authorities in areas like Alameda or Berkeley to ensure compliance and a smooth project progression.",
-        "description": "Permits are usually needed for kitchen island installations involving new plumbing, electrical, or structural changes, but not for simple, freestanding islands. We help secure necessary permits from local authorities."
-      }
-    }
-  ],
+  "name": "What permits are needed for a kitchen island installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for a kitchen island installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for kitchen island installation depend on the project's complexity and local building codes. If your installation involves new plumbing, electrical work, or structural changes, permits will likely be necessary. Simple, freestanding islands generally do not require permits. We assist clients in identifying and securing all required permits from local authorities in areas like Alameda or Berkeley to ensure compliance and a smooth project progression.",
+        "@type": "Answer",
+        "description": "Permits are usually needed for kitchen island installations involving new plumbing, electrical, or structural changes, but not for simple, freestanding islands. We help secure necessary permits from local authorities."
+      }
+    }
+  ],
+  "description": "Permits are usually needed for kitchen island installations involving new plumbing, electrical, or structural changes, but not for simple, freestanding islands."
 }

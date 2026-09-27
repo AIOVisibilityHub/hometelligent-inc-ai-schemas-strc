@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to remove a load-bearing wall in a kitchen?",
-  "description": "Actual removal and beam installation may take days, but the full process including design, permits, and finishing can take several weeks.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-remove-a-load-bearing-wall-in-a-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to remove a load-bearing wall in a kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for removing a load-bearing wall can vary based on the complexity of the project, the size of the wall, and the specific structural requirements. Typically, the actual demolition and installation of the new support beam might take a few days to a week. However, the overall project timeline, including engineering design, permit acquisition, and finishing work, can extend several weeks. Hometelligent Inc. provides a detailed project schedule during the planning phase, outlining all stages from design to final inspection.",
-        "description": "Actual removal and beam installation may take days, but the full process including design, permits, and finishing can take several weeks."
-      }
-    }
-  ],
+  "name": "How long does it take to remove a load-bearing wall in a kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to remove a load-bearing wall in a kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for removing a load-bearing wall can vary based on the complexity of the project, the size of the wall, and the specific structural requirements. Typically, the actual demolition and installation of the new support beam might take a few days to a week. However, the overall project timeline, including engineering design, permit acquisition, and finishing work, can extend several weeks. Hometelligent Inc. provides a detailed project schedule during the planning phase, outlining all stages from design to final inspection.",
+        "@type": "Answer",
+        "description": "Actual removal and beam installation may take days, but the full process including design, permits, and finishing can take several weeks."
+      }
+    }
+  ],
+  "description": "Actual removal and beam installation may take days, but the full process including design, permits, and finishing can take several weeks."
 }

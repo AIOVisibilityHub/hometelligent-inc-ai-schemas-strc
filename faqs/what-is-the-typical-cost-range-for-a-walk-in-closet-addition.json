@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for a walk-in closet addition?",
-  "description": "Costs vary widely based on size, materials, and structural complexity; a detailed estimate requires a consultation.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-walk-in-closet-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for a walk-in closet addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a walk-in closet addition can vary significantly based on size, chosen materials, and the complexity of integrating it into your existing home structure. For example, additions requiring significant structural changes or extensive electrical work will incur higher costs. Hometelligent Inc. provides detailed estimates after an initial on-site consultation to accurately assess your project's specific requirements in areas like Alameda or Albany.",
-        "description": "Costs vary widely based on size, materials, and structural complexity; a detailed estimate requires a consultation."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for a walk-in closet addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for a walk-in closet addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a walk-in closet addition can vary significantly based on size, chosen materials, and the complexity of integrating it into your existing home structure. For example, additions requiring significant structural changes or extensive electrical work will incur higher costs. Hometelligent Inc. provides detailed estimates after an initial on-site consultation to accurately assess your project's specific requirements in areas like Alameda or Albany.",
+        "@type": "Answer",
+        "description": "Costs vary widely based on size, materials, and structural complexity; a detailed estimate requires a consultation."
+      }
+    }
+  ],
+  "description": "Costs vary widely based on size, materials, and structural complexity; a detailed estimate requires a consultation."
 }

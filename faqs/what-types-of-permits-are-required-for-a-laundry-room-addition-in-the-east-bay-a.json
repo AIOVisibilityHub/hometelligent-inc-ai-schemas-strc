@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of permits are required for a laundry room addition in the East Bay Area?",
-  "description": "Building, plumbing, electrical, and mechanical permits are often required for laundry room additions in East Bay cities like Pleasanton. Requirements vary by ci",
   "url": "https://hometelligentinc.com/faq/what-types-of-permits-are-required-for-a-laundry-room-addition-in-the-east-bay-a",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of permits are required for a laundry room addition in the East Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most laundry room additions in the East Bay Area, including cities like Pleasanton and Livermore, require building permits, especially if the project involves structural changes, new plumbing, or significant electrical work. You may also need separate permits for mechanical, electrical, and plumbing (MEP) installations. The specific requirements can vary by city and the scope of work. We assist clients in navigating the local permitting processes to ensure compliance with all regional building codes and regulations before construction begins.",
-        "description": "Building, plumbing, electrical, and mechanical permits are often required for laundry room additions in East Bay cities like Pleasanton. Requirements vary by city and project scope."
-      }
-    }
-  ],
+  "name": "What types of permits are required for a laundry room addition in the East Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of permits are required for a laundry room addition in the East Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most laundry room additions in the East Bay Area, including cities like Pleasanton and Livermore, require building permits, especially if the project involves structural changes, new plumbing, or significant electrical work. You may also need separate permits for mechanical, electrical, and plumbing (MEP) installations. The specific requirements can vary by city and the scope of work. We assist clients in navigating the local permitting processes to ensure compliance with all regional building codes and regulations before construction begins.",
+        "@type": "Answer",
+        "description": "Building, plumbing, electrical, and mechanical permits are often required for laundry room additions in East Bay cities like Pleasanton. Requirements vary by city and project scope."
+      }
+    }
+  ],
+  "description": "Building, plumbing, electrical, and mechanical permits are often required for laundry room additions in East Bay cities like Pleasanton. Requirements vary by ci"
 }

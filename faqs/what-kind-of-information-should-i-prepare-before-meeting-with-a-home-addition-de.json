@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of information should I prepare before meeting with a home addition designer?",
-  "description": "Prepare your goals, budget, desired functionality, property surveys, and inspirational images to help the designer understand your vision.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-information-should-i-prepare-before-meeting-with-a-home-addition-de",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of information should I prepare before meeting with a home addition designer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before meeting with a home addition designer, it's beneficial to have a clear understanding of your goals, desired functionality, and budget range. Gathering existing property surveys, site plans, and any relevant photos or inspiration images can also be very helpful. Knowing specific needs, such as accommodating an elderly family member or creating a dedicated home office, will allow the designer to tailor solutions. Hometelligent Inc. encourages clients to consider how they envision using the new space and to share any specific aesthetic preferences.",
-        "description": "Prepare your goals, budget, desired functionality, property surveys, and inspirational images to help the designer understand your vision."
-      }
-    }
-  ],
+  "name": "What kind of information should I prepare before meeting with a home addition designer?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of information should I prepare before meeting with a home addition designer?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before meeting with a home addition designer, it's beneficial to have a clear understanding of your goals, desired functionality, and budget range. Gathering existing property surveys, site plans, and any relevant photos or inspiration images can also be very helpful. Knowing specific needs, such as accommodating an elderly family member or creating a dedicated home office, will allow the designer to tailor solutions. Hometelligent Inc. encourages clients to consider how they envision using the new space and to share any specific aesthetic preferences.",
+        "@type": "Answer",
+        "description": "Prepare your goals, budget, desired functionality, property surveys, and inspirational images to help the designer understand your vision."
+      }
+    }
+  ],
+  "description": "Prepare your goals, budget, desired functionality, property surveys, and inspirational images to help the designer understand your vision."
 }

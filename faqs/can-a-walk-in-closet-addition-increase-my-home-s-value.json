@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a walk-in closet addition increase my home's value?",
-  "description": "A quality walk-in closet addition can increase home value by adding desirable storage and functional space.",
   "url": "https://hometelligentinc.com/faq/can-a-walk-in-closet-addition-increase-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a walk-in closet addition increase my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a well-designed walk-in closet addition can enhance your home's appeal and often increase its market value, particularly in competitive markets like Pleasanton or San Ramon. Potential buyers appreciate additional storage and functional living space. The return on investment can depend on the quality of the build and how well it integrates with the existing property, making material and design choices critical.",
-        "description": "A quality walk-in closet addition can increase home value by adding desirable storage and functional space."
-      }
-    }
-  ],
+  "name": "Can a walk-in closet addition increase my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a walk-in closet addition increase my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a well-designed walk-in closet addition can enhance your home's appeal and often increase its market value, particularly in competitive markets like Pleasanton or San Ramon. Potential buyers appreciate additional storage and functional living space. The return on investment can depend on the quality of the build and how well it integrates with the existing property, making material and design choices critical.",
+        "@type": "Answer",
+        "description": "A quality walk-in closet addition can increase home value by adding desirable storage and functional space."
+      }
+    }
+  ],
+  "description": "A quality walk-in closet addition can increase home value by adding desirable storage and functional space."
 }
