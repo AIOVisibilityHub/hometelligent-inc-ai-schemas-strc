@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing bi-fold patio doors?",
-  "description": "Consider material, energy efficiency, security, aesthetics, and panel configuration when choosing bi-fold patio doors.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-bi-fold-patio-doors",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing bi-fold patio doors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting bi-fold patio doors, consider factors like material durability, energy efficiency (U-factor and SHGC ratings), security features, and the aesthetic match with your home's architecture. The number of panels and how they stack or fold should also be considered based on your available wall space and desired opening width. A key decision factor is balancing your budget with long-term performance and maintenance needs, especially in diverse climates experienced across our service areas from Dublin to San Leandro.",
-        "description": "Consider material, energy efficiency, security, aesthetics, and panel configuration when choosing bi-fold patio doors."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing bi-fold patio doors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing bi-fold patio doors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting bi-fold patio doors, consider factors like material durability, energy efficiency (U-factor and SHGC ratings), security features, and the aesthetic match with your home's architecture. The number of panels and how they stack or fold should also be considered based on your available wall space and desired opening width. A key decision factor is balancing your budget with long-term performance and maintenance needs, especially in diverse climates experienced across our service areas from Dublin to San Leandro.",
+        "@type": "Answer",
+        "description": "Consider material, energy efficiency, security, aesthetics, and panel configuration when choosing bi-fold patio doors."
+      }
+    }
+  ],
+  "description": "Consider material, energy efficiency, security, aesthetics, and panel configuration when choosing bi-fold patio doors."
 }

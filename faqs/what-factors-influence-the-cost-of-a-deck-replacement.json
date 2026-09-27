@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a deck replacement?",
-  "description": "Cost factors include deck size, material choice, design complexity, foundation needs, railing type, and permit fees. Composite materials often have higher initi",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-deck-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a deck replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of deck replacement is primarily influenced by the deck's size, the type of materials selected (e.g., pressure-treated lumber, cedar, composite decking), and the complexity of the design, such as multiple levels or custom features. Foundation requirements, railing choices, and site accessibility also play a role. For instance, composite decking generally has a higher upfront material cost but may offer lower long-term maintenance expenses compared to wood. Permit fees, which vary by city in our service area like Hayward or Livermore, are also a necessary consideration in the overall budget.",
-        "description": "Cost factors include deck size, material choice, design complexity, foundation needs, railing type, and permit fees. Composite materials often have higher initial costs."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a deck replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a deck replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of deck replacement is primarily influenced by the deck's size, the type of materials selected (e.g., pressure-treated lumber, cedar, composite decking), and the complexity of the design, such as multiple levels or custom features. Foundation requirements, railing choices, and site accessibility also play a role. For instance, composite decking generally has a higher upfront material cost but may offer lower long-term maintenance expenses compared to wood. Permit fees, which vary by city in our service area like Hayward or Livermore, are also a necessary consideration in the overall budget.",
+        "@type": "Answer",
+        "description": "Cost factors include deck size, material choice, design complexity, foundation needs, railing type, and permit fees. Composite materials often have higher initial costs."
+      }
+    }
+  ],
+  "description": "Cost factors include deck size, material choice, design complexity, foundation needs, railing type, and permit fees. Composite materials often have higher initi"
 }

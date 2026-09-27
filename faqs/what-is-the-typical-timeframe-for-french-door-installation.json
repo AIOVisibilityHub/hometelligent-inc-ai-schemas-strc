@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeframe for French door installation?",
-  "description": "French door installation typically takes 1-5 days, depending on project complexity and whether structural modifications are required.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeframe-for-french-door-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeframe for French door installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical timeframe for French door installation can vary depending on factors like the complexity of the opening, whether it's a new installation or a replacement, and if structural modifications are needed. Generally, a standard replacement can take 1-2 days, while a new opening might require 3-5 days. For Hometelligent Inc., project scheduling and completion times in our service areas of Alameda, Albany, Berkeley, Dublin, and Emeryville can be discussed during an initial consultation, allowing us to assess site-specific conditions and provide a more accurate estimate.",
-        "description": "French door installation typically takes 1-5 days, depending on project complexity and whether structural modifications are required."
-      }
-    }
-  ],
+  "name": "What is the typical timeframe for French door installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeframe for French door installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical timeframe for French door installation can vary depending on factors like the complexity of the opening, whether it's a new installation or a replacement, and if structural modifications are needed. Generally, a standard replacement can take 1-2 days, while a new opening might require 3-5 days. For Hometelligent Inc., project scheduling and completion times in our service areas of Alameda, Albany, Berkeley, Dublin, and Emeryville can be discussed during an initial consultation, allowing us to assess site-specific conditions and provide a more accurate estimate.",
+        "@type": "Answer",
+        "description": "French door installation typically takes 1-5 days, depending on project complexity and whether structural modifications are required."
+      }
+    }
+  ],
+  "description": "French door installation typically takes 1-5 days, depending on project complexity and whether structural modifications are required."
 }

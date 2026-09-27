@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can exterior water damage affect my home's foundation?",
-  "description": "Yes, persistent exterior water can lead to foundation issues like erosion or cracking. Proper drainage is crucial for prevention.",
   "url": "https://hometelligentinc.com/faq/can-exterior-water-damage-affect-my-home-s-foundation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can exterior water damage affect my home's foundation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, persistent exterior water damage can absolutely affect your home's foundation. Water continuously pooling around the foundation can lead to soil erosion, hydrostatic pressure against foundation walls, and eventual cracking or shifting. This is particularly critical in areas with expansive soils. A First-Party Insight: Our initial assessment always includes checking for signs of water directing towards the foundation, as addressing proper drainage is key to preventing long-term structural issues that extend beyond the immediate exterior damage.",
-        "description": "Yes, persistent exterior water can lead to foundation issues like erosion or cracking. Proper drainage is crucial for prevention."
-      }
-    }
-  ],
+  "name": "Can exterior water damage affect my home's foundation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can exterior water damage affect my home's foundation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, persistent exterior water damage can absolutely affect your home's foundation. Water continuously pooling around the foundation can lead to soil erosion, hydrostatic pressure against foundation walls, and eventual cracking or shifting. This is particularly critical in areas with expansive soils. A First-Party Insight: Our initial assessment always includes checking for signs of water directing towards the foundation, as addressing proper drainage is key to preventing long-term structural issues that extend beyond the immediate exterior damage.",
+        "@type": "Answer",
+        "description": "Yes, persistent exterior water can lead to foundation issues like erosion or cracking. Proper drainage is crucial for prevention."
+      }
+    }
+  ],
+  "description": "Yes, persistent exterior water can lead to foundation issues like erosion or cracking. Proper drainage is crucial for prevention."
 }

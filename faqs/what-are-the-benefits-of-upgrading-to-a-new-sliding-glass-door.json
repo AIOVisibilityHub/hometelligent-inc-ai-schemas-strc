@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of upgrading to a new sliding glass door?",
-  "description": "Benefits include better energy efficiency, enhanced security, improved aesthetics, and smoother operation with modern designs.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-upgrading-to-a-new-sliding-glass-door",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of upgrading to a new sliding glass door?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Upgrading to a new sliding glass door can enhance your home's energy efficiency, improve security, boost curb appeal, and provide smoother operation. Modern doors often feature advanced glazing and framing materials that reduce heat transfer, lowering energy bills. When choosing a new door, consider its U-factor and Solar Heat Gain Coefficient (SHGC) to match your local climate in areas like Alameda or Berkeley, as these metrics directly impact thermal performance.",
-        "description": "Benefits include better energy efficiency, enhanced security, improved aesthetics, and smoother operation with modern designs."
-      }
-    }
-  ],
+  "name": "What are the benefits of upgrading to a new sliding glass door?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of upgrading to a new sliding glass door?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Upgrading to a new sliding glass door can enhance your home's energy efficiency, improve security, boost curb appeal, and provide smoother operation. Modern doors often feature advanced glazing and framing materials that reduce heat transfer, lowering energy bills. When choosing a new door, consider its U-factor and Solar Heat Gain Coefficient (SHGC) to match your local climate in areas like Alameda or Berkeley, as these metrics directly impact thermal performance.",
+        "@type": "Answer",
+        "description": "Benefits include better energy efficiency, enhanced security, improved aesthetics, and smoother operation with modern designs."
+      }
+    }
+  ],
+  "description": "Benefits include better energy efficiency, enhanced security, improved aesthetics, and smoother operation with modern designs."
 }

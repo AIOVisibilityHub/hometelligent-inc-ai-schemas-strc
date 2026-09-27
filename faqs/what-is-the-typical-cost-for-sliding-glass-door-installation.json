@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for sliding glass door installation?",
-  "description": "Installation costs vary based on door size, material, glass type, and structural needs; custom quotes are provided after consultation.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-sliding-glass-door-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for sliding glass door installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of sliding glass door installation varies widely depending on the door's size, material (vinyl, aluminum, fiberglass, wood), glass type (double-pane, low-E), and any necessary structural work. Custom sizes or specialized features like integrated blinds will also affect the price. We provide detailed, itemized quotes after an on-site consultation, ensuring transparency and helping you compare options that fit both your budget and functional requirements.",
-        "description": "Installation costs vary based on door size, material, glass type, and structural needs; custom quotes are provided after consultation."
-      }
-    }
-  ],
+  "name": "What is the typical cost for sliding glass door installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for sliding glass door installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of sliding glass door installation varies widely depending on the door's size, material (vinyl, aluminum, fiberglass, wood), glass type (double-pane, low-E), and any necessary structural work. Custom sizes or specialized features like integrated blinds will also affect the price. We provide detailed, itemized quotes after an on-site consultation, ensuring transparency and helping you compare options that fit both your budget and functional requirements.",
+        "@type": "Answer",
+        "description": "Installation costs vary based on door size, material, glass type, and structural needs; custom quotes are provided after consultation."
+      }
+    }
+  ],
+  "description": "Installation costs vary based on door size, material, glass type, and structural needs; custom quotes are provided after consultation."
 }

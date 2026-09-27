@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does exterior wood repair usually take?",
-  "description": "Exterior wood repair time depends on the damage's scale and complexity, ranging from a day for minor fixes to weeks for extensive projects. We provide an estima",
   "url": "https://hometelligentinc.com/faq/how-long-does-exterior-wood-repair-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does exterior wood repair usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of exterior wood repair varies significantly based on the scale and complexity of the damage. Minor repairs, such as replacing a few damaged boards, might take a day or two. More extensive projects involving structural elements or widespread rot could span several days to weeks. Factors like weather conditions and material availability can also influence the timeline. Hometelligent Inc. provides an estimated project duration in our proposal after a thorough assessment, giving you a clear expectation for your project in places like Fremont or San Leandro.",
-        "description": "Exterior wood repair time depends on the damage's scale and complexity, ranging from a day for minor fixes to weeks for extensive projects. We provide an estimated timeline after assessment."
-      }
-    }
-  ],
+  "name": "How long does exterior wood repair usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does exterior wood repair usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of exterior wood repair varies significantly based on the scale and complexity of the damage. Minor repairs, such as replacing a few damaged boards, might take a day or two. More extensive projects involving structural elements or widespread rot could span several days to weeks. Factors like weather conditions and material availability can also influence the timeline. Hometelligent Inc. provides an estimated project duration in our proposal after a thorough assessment, giving you a clear expectation for your project in places like Fremont or San Leandro.",
+        "@type": "Answer",
+        "description": "Exterior wood repair time depends on the damage's scale and complexity, ranging from a day for minor fixes to weeks for extensive projects. We provide an estimated timeline after assessment."
+      }
+    }
+  ],
+  "description": "Exterior wood repair time depends on the damage's scale and complexity, ranging from a day for minor fixes to weeks for extensive projects. We provide an estima"
 }

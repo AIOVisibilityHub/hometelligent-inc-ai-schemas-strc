@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for installing new exterior lighting?",
-  "description": "Installation starts with a consultation and design plan. Our team then handles trenching, mounting, wiring, and testing. Existing electrical infrastructure can",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-new-exterior-lighting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for installing new exterior lighting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process typically begins with a consultation to discuss your vision and assess your property. Following this, Hometelligent Inc. will create a design plan that includes fixture placement, wiring routes, and electrical requirements. Once approved, our team handles all aspects of installation, from trenching for wiring to mounting fixtures and connecting to your electrical system. After installation, we conduct thorough testing to ensure everything functions correctly. The timeline can be affected by factors like existing electrical infrastructure and the need for new power sources.",
-        "description": "Installation starts with a consultation and design plan. Our team then handles trenching, mounting, wiring, and testing. Existing electrical infrastructure can impact the timeline."
-      }
-    }
-  ],
+  "name": "What is the process for installing new exterior lighting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for installing new exterior lighting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process typically begins with a consultation to discuss your vision and assess your property. Following this, Hometelligent Inc. will create a design plan that includes fixture placement, wiring routes, and electrical requirements. Once approved, our team handles all aspects of installation, from trenching for wiring to mounting fixtures and connecting to your electrical system. After installation, we conduct thorough testing to ensure everything functions correctly. The timeline can be affected by factors like existing electrical infrastructure and the need for new power sources.",
+        "@type": "Answer",
+        "description": "Installation starts with a consultation and design plan. Our team then handles trenching, mounting, wiring, and testing. Existing electrical infrastructure can impact the timeline."
+      }
+    }
+  ],
+  "description": "Installation starts with a consultation and design plan. Our team then handles trenching, mounting, wiring, and testing. Existing electrical infrastructure can"
 }

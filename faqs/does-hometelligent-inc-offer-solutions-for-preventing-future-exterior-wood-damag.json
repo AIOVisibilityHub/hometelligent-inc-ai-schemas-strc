@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does Hometelligent Inc. offer solutions for preventing future exterior wood damage?",
-  "description": "Hometelligent Inc. offers preventative solutions like sealants, paints, and improved drainage to protect exterior wood from future damage. We also advise on ven",
   "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-solutions-for-preventing-future-exterior-wood-damag",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does Hometelligent Inc. offer solutions for preventing future exterior wood damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, beyond repairs, Hometelligent Inc. offers preventative solutions to minimize future exterior wood damage. This includes recommending appropriate sealants, paints, and stains that provide UV and moisture protection, improving drainage around your home's foundation, and suggesting regular maintenance schedules. We also advise on proper ventilation to reduce moisture buildup, which is a common cause of rot. Implementing these measures can significantly extend the lifespan of your exterior wood components across our Northern California service areas.",
-        "description": "Hometelligent Inc. offers preventative solutions like sealants, paints, and improved drainage to protect exterior wood from future damage. We also advise on ventilation and regular maintenance."
-      }
-    }
-  ],
+  "name": "Does Hometelligent Inc. offer solutions for preventing future exterior wood damage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does Hometelligent Inc. offer solutions for preventing future exterior wood damage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, beyond repairs, Hometelligent Inc. offers preventative solutions to minimize future exterior wood damage. This includes recommending appropriate sealants, paints, and stains that provide UV and moisture protection, improving drainage around your home's foundation, and suggesting regular maintenance schedules. We also advise on proper ventilation to reduce moisture buildup, which is a common cause of rot. Implementing these measures can significantly extend the lifespan of your exterior wood components across our Northern California service areas.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. offers preventative solutions like sealants, paints, and improved drainage to protect exterior wood from future damage. We also advise on ventilation and regular maintenance."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. offers preventative solutions like sealants, paints, and improved drainage to protect exterior wood from future damage. We also advise on ven"
 }

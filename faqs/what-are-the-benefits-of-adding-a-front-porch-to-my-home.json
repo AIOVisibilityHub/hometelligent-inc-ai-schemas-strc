@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of adding a front porch to my home?",
-  "description": "A front porch enhances curb appeal, adds outdoor living space, offers entry protection, and can increase property value. It transforms your home's exterior.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-adding-a-front-porch-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of adding a front porch to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a front porch offers multiple benefits, enhancing both the functionality and appeal of your home. It provides an inviting entry point, increases curb appeal, and can add usable outdoor living space for relaxation or entertaining. A porch can also offer protection from the elements at your doorway and potentially increase your property's value. For homeowners in the Alameda area, a well-designed porch by Hometelligent Inc. can transform the exterior of your home, creating a welcoming facade and an enjoyable outdoor extension.",
-        "description": "A front porch enhances curb appeal, adds outdoor living space, offers entry protection, and can increase property value. It transforms your home's exterior."
-      }
-    }
-  ],
+  "name": "What are the benefits of adding a front porch to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of adding a front porch to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a front porch offers multiple benefits, enhancing both the functionality and appeal of your home. It provides an inviting entry point, increases curb appeal, and can add usable outdoor living space for relaxation or entertaining. A porch can also offer protection from the elements at your doorway and potentially increase your property's value. For homeowners in the Alameda area, a well-designed porch by Hometelligent Inc. can transform the exterior of your home, creating a welcoming facade and an enjoyable outdoor extension.",
+        "@type": "Answer",
+        "description": "A front porch enhances curb appeal, adds outdoor living space, offers entry protection, and can increase property value. It transforms your home's exterior."
+      }
+    }
+  ],
+  "description": "A front porch enhances curb appeal, adds outdoor living space, offers entry protection, and can increase property value. It transforms your home's exterior."
 }

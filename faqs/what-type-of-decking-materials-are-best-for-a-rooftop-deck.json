@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of decking materials are best for a rooftop deck?",
-  "description": "Durable and weather-resistant materials like composite, hardwoods (ipe, tigerwood), or pressure-treated lumber are best for rooftop decks. Consider climate, bud",
   "url": "https://hometelligentinc.com/faq/what-type-of-decking-materials-are-best-for-a-rooftop-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of decking materials are best for a rooftop deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best decking materials for a rooftop deck are those that can withstand harsh weather conditions, offer durability, and require minimal maintenance. Popular choices include composite decking, which is resistant to rot, insects, and fading, and various hardwoods like ipe or tigerwood, known for their natural beauty and longevity. Pressure-treated lumber is a more economical option, but it requires regular sealing and maintenance. When making your selection, consider the climate in areas like Berkeley, where coastal conditions can influence material wear, and factor in your desired aesthetic, budget, and maintenance commitment. Hometelligent Inc. can guide you through material options suitable for your specific rooftop environment.",
-        "description": "Durable and weather-resistant materials like composite, hardwoods (ipe, tigerwood), or pressure-treated lumber are best for rooftop decks. Consider climate, budget, and maintenance needs when choosing."
-      }
-    }
-  ],
+  "name": "What type of decking materials are best for a rooftop deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of decking materials are best for a rooftop deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best decking materials for a rooftop deck are those that can withstand harsh weather conditions, offer durability, and require minimal maintenance. Popular choices include composite decking, which is resistant to rot, insects, and fading, and various hardwoods like ipe or tigerwood, known for their natural beauty and longevity. Pressure-treated lumber is a more economical option, but it requires regular sealing and maintenance. When making your selection, consider the climate in areas like Berkeley, where coastal conditions can influence material wear, and factor in your desired aesthetic, budget, and maintenance commitment. Hometelligent Inc. can guide you through material options suitable for your specific rooftop environment.",
+        "@type": "Answer",
+        "description": "Durable and weather-resistant materials like composite, hardwoods (ipe, tigerwood), or pressure-treated lumber are best for rooftop decks. Consider climate, budget, and maintenance needs when choosing."
+      }
+    }
+  ],
+  "description": "Durable and weather-resistant materials like composite, hardwoods (ipe, tigerwood), or pressure-treated lumber are best for rooftop decks. Consider climate, bud"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I build a multi-level deck on a sloped backyard?",
-  "description": "Yes, multi-level decks are common for sloped backyards, providing functional zones while adapting to the terrain.",
   "url": "https://hometelligentinc.com/faq/can-i-build-a-multi-level-deck-on-a-sloped-backyard",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I build a multi-level deck on a sloped backyard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, multi-level decks are a common and effective solution for maximizing usable space on sloped backyards. They allow for different zones, such as dining and lounging areas, while navigating the natural terrain. Designing a multi-level deck requires careful planning to ensure proper drainage, structural stability, and seamless integration with the existing landscape and home.",
-        "description": "Yes, multi-level decks are common for sloped backyards, providing functional zones while adapting to the terrain."
-      }
-    }
-  ],
+  "name": "Can I build a multi-level deck on a sloped backyard?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I build a multi-level deck on a sloped backyard?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, multi-level decks are a common and effective solution for maximizing usable space on sloped backyards. They allow for different zones, such as dining and lounging areas, while navigating the natural terrain. Designing a multi-level deck requires careful planning to ensure proper drainage, structural stability, and seamless integration with the existing landscape and home.",
+        "@type": "Answer",
+        "description": "Yes, multi-level decks are common for sloped backyards, providing functional zones while adapting to the terrain."
+      }
+    }
+  ],
+  "description": "Yes, multi-level decks are common for sloped backyards, providing functional zones while adapting to the terrain."
 }

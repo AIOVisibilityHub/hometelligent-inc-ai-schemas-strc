@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for exterior lighting?",
-  "description": "Maintenance includes cleaning fixtures, checking wiring, and replacing bulbs. LEDs reduce bulb changes. Annual inspections are recommended for optimal performan",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-exterior-lighting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for exterior lighting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Exterior lighting systems require minimal maintenance, primarily involving periodic cleaning of fixtures, checking for damaged wiring, and replacing bulbs as needed. LED systems, due to their long lifespan, significantly reduce the frequency of bulb replacement. We recommend an annual inspection to ensure all components are functioning optimally and to address any issues caused by weather exposure or landscaping changes. Regular maintenance helps prolong the life of your system and ensures consistent performance.",
-        "description": "Maintenance includes cleaning fixtures, checking wiring, and replacing bulbs. LEDs reduce bulb changes. Annual inspections are recommended for optimal performance."
-      }
-    }
-  ],
+  "name": "What maintenance is required for exterior lighting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for exterior lighting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Exterior lighting systems require minimal maintenance, primarily involving periodic cleaning of fixtures, checking for damaged wiring, and replacing bulbs as needed. LED systems, due to their long lifespan, significantly reduce the frequency of bulb replacement. We recommend an annual inspection to ensure all components are functioning optimally and to address any issues caused by weather exposure or landscaping changes. Regular maintenance helps prolong the life of your system and ensures consistent performance.",
+        "@type": "Answer",
+        "description": "Maintenance includes cleaning fixtures, checking wiring, and replacing bulbs. LEDs reduce bulb changes. Annual inspections are recommended for optimal performance."
+      }
+    }
+  ],
+  "description": "Maintenance includes cleaning fixtures, checking wiring, and replacing bulbs. LEDs reduce bulb changes. Annual inspections are recommended for optimal performan"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I expand my deck if it's currently at ground level?",
-  "description": "Expanding a ground-level deck is possible, but depends on the existing foundation and requires careful consideration of drainage.",
   "url": "https://hometelligentinc.com/faq/can-i-expand-my-deck-if-it-s-currently-at-ground-level",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I expand my deck if it's currently at ground level?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, expanding a ground-level deck is often feasible, but it depends on the existing foundation and drainage. We would assess if the current deck's structure can be safely extended and if the new section requires additional sub-surface preparation to prevent water accumulation or instability. It's crucial to ensure proper grading and drainage solutions are in place or added to protect both the new and existing deck sections from moisture damage.",
-        "description": "Expanding a ground-level deck is possible, but depends on the existing foundation and requires careful consideration of drainage."
-      }
-    }
-  ],
+  "name": "Can I expand my deck if it's currently at ground level?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I expand my deck if it's currently at ground level?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, expanding a ground-level deck is often feasible, but it depends on the existing foundation and drainage. We would assess if the current deck's structure can be safely extended and if the new section requires additional sub-surface preparation to prevent water accumulation or instability. It's crucial to ensure proper grading and drainage solutions are in place or added to protect both the new and existing deck sections from moisture damage.",
+        "@type": "Answer",
+        "description": "Expanding a ground-level deck is possible, but depends on the existing foundation and requires careful consideration of drainage."
+      }
+    }
+  ],
+  "description": "Expanding a ground-level deck is possible, but depends on the existing foundation and requires careful consideration of drainage."
 }

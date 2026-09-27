@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does dry rot affect my home's resale value?",
-  "description": "Untreated dry rot can lower your home's resale value. Proactively addressing it and providing repair documentation can reassure buyers.",
   "url": "https://hometelligentinc.com/faq/does-dry-rot-affect-my-home-s-resale-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does dry rot affect my home's resale value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, undetected or untreated dry rot can significantly impact your home's resale value. Potential buyers often perform detailed inspections, and discovery of dry rot can lead to reduced offers or scupper a sale entirely due to perceived structural issues and future repair costs. A key preparation step if selling your home is to address any known or suspected dry rot proactively; having professional repair documentation can demonstrate the issue has been competently resolved, reassuring potential buyers.",
-        "description": "Untreated dry rot can lower your home's resale value. Proactively addressing it and providing repair documentation can reassure buyers."
-      }
-    }
-  ],
+  "name": "Does dry rot affect my home's resale value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does dry rot affect my home's resale value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, undetected or untreated dry rot can significantly impact your home's resale value. Potential buyers often perform detailed inspections, and discovery of dry rot can lead to reduced offers or scupper a sale entirely due to perceived structural issues and future repair costs. A key preparation step if selling your home is to address any known or suspected dry rot proactively; having professional repair documentation can demonstrate the issue has been competently resolved, reassuring potential buyers.",
+        "@type": "Answer",
+        "description": "Untreated dry rot can lower your home's resale value. Proactively addressing it and providing repair documentation can reassure buyers."
+      }
+    }
+  ],
+  "description": "Untreated dry rot can lower your home's resale value. Proactively addressing it and providing repair documentation can reassure buyers."
 }

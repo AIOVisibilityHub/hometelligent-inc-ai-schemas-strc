@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common challenges of building a deck on a steep slope?",
-  "description": "Building on a steep slope presents challenges like difficult access, increased excavation, specialized foundations, and erosion concerns.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-of-building-a-deck-on-a-steep-slope",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common challenges of building a deck on a steep slope?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges of building on a steep slope include difficult access for machinery and materials, increased excavation and grading needs, specialized foundation requirements, and potential issues with erosion and drainage. These factors can prolong the construction timeline and increase labor costs. Proper planning and experienced contractors are crucial for managing these complexities.",
-        "description": "Building on a steep slope presents challenges like difficult access, increased excavation, specialized foundations, and erosion concerns."
-      }
-    }
-  ],
+  "name": "What are the common challenges of building a deck on a steep slope?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common challenges of building a deck on a steep slope?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges of building on a steep slope include difficult access for machinery and materials, increased excavation and grading needs, specialized foundation requirements, and potential issues with erosion and drainage. These factors can prolong the construction timeline and increase labor costs. Proper planning and experienced contractors are crucial for managing these complexities.",
+        "@type": "Answer",
+        "description": "Building on a steep slope presents challenges like difficult access, increased excavation, specialized foundations, and erosion concerns."
+      }
+    }
+  ],
+  "description": "Building on a steep slope presents challenges like difficult access, increased excavation, specialized foundations, and erosion concerns."
 }

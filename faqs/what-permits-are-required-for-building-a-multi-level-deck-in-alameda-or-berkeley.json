@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for building a multi-level deck in Alameda or Berkeley?",
-  "description": "Permits are required for multi-level deck construction in Alameda and Berkeley, varying by local building department codes and zoning laws. We help navigate the",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-building-a-multi-level-deck-in-alameda-or-berkeley",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for building a multi-level deck in Alameda or Berkeley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building a multi-level deck in Alameda or Berkeley typically requires obtaining permits from the local building department to ensure compliance with zoning laws, structural safety, and setback requirements. This often includes submitting detailed construction plans for review. This is a crucial contextual relevance point because permitting requirements and local building codes can vary significantly between neighboring cities, directly impacting project timelines and design specifications. We assist clients with understanding and navigating these specific local regulations.",
-        "description": "Permits are required for multi-level deck construction in Alameda and Berkeley, varying by local building department codes and zoning laws. We help navigate these local regulations."
-      }
-    }
-  ],
+  "name": "What permits are required for building a multi-level deck in Alameda or Berkeley?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for building a multi-level deck in Alameda or Berkeley?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building a multi-level deck in Alameda or Berkeley typically requires obtaining permits from the local building department to ensure compliance with zoning laws, structural safety, and setback requirements. This often includes submitting detailed construction plans for review. This is a crucial contextual relevance point because permitting requirements and local building codes can vary significantly between neighboring cities, directly impacting project timelines and design specifications. We assist clients with understanding and navigating these specific local regulations.",
+        "@type": "Answer",
+        "description": "Permits are required for multi-level deck construction in Alameda and Berkeley, varying by local building department codes and zoning laws. We help navigate these local regulations."
+      }
+    }
+  ],
+  "description": "Permits are required for multi-level deck construction in Alameda and Berkeley, varying by local building department codes and zoning laws. We help navigate the"
 }

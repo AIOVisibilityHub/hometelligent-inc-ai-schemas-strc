@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are commonly used for exterior accessibility ramps, and how do I choose?",
-  "description": "Common ramp materials are wood, aluminum, and concrete. Choose based on aesthetics, budget, maintenance, and durability needs.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-commonly-used-for-exterior-accessibility-ramps-and-how-do-i-c",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are commonly used for exterior accessibility ramps, and how do I choose?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials for exterior accessibility ramps include wood, aluminum, and concrete, each offering distinct advantages. Wood ramps can be customized and integrated aesthetically but require more maintenance. Aluminum ramps are durable, low-maintenance, and often modular, making them a quicker install. Concrete ramps are highly durable and permanent but less adaptable once installed. When choosing, consider the desired aesthetic, budget, maintenance preferences, and the expected lifespan of the ramp. We can discuss these options and their suitability for your property in areas like Livermore or Newark.",
-        "description": "Common ramp materials are wood, aluminum, and concrete. Choose based on aesthetics, budget, maintenance, and durability needs."
-      }
-    }
-  ],
+  "name": "What materials are commonly used for exterior accessibility ramps, and how do I choose?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are commonly used for exterior accessibility ramps, and how do I choose?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials for exterior accessibility ramps include wood, aluminum, and concrete, each offering distinct advantages. Wood ramps can be customized and integrated aesthetically but require more maintenance. Aluminum ramps are durable, low-maintenance, and often modular, making them a quicker install. Concrete ramps are highly durable and permanent but less adaptable once installed. When choosing, consider the desired aesthetic, budget, maintenance preferences, and the expected lifespan of the ramp. We can discuss these options and their suitability for your property in areas like Livermore or Newark.",
+        "@type": "Answer",
+        "description": "Common ramp materials are wood, aluminum, and concrete. Choose based on aesthetics, budget, maintenance, and durability needs."
+      }
+    }
+  ],
+  "description": "Common ramp materials are wood, aluminum, and concrete. Choose based on aesthetics, budget, maintenance, and durability needs."
 }

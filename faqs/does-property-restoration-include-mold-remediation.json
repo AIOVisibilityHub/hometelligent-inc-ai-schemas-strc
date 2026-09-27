@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does property restoration include mold remediation?",
-  "description": "Yes, property restoration often includes mold remediation, which is crucial for health and to prevent recurrence after water damage.",
   "url": "https://hometelligentinc.com/faq/does-property-restoration-include-mold-remediation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does property restoration include mold remediation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, property restoration often includes mold remediation, especially if the damage involved water or prolonged moisture exposure. Mold can develop rapidly, sometimes within 48 hours, and requires specialized containment and removal techniques to prevent recurrence and ensure a healthy environment. Hometelligent Inc. integrates mold remediation as a critical step in the restoration process when necessary, using proper protocols to address both visible mold and hidden spores.",
-        "description": "Yes, property restoration often includes mold remediation, which is crucial for health and to prevent recurrence after water damage."
-      }
-    }
-  ],
+  "name": "Does property restoration include mold remediation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does property restoration include mold remediation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, property restoration often includes mold remediation, especially if the damage involved water or prolonged moisture exposure. Mold can develop rapidly, sometimes within 48 hours, and requires specialized containment and removal techniques to prevent recurrence and ensure a healthy environment. Hometelligent Inc. integrates mold remediation as a critical step in the restoration process when necessary, using proper protocols to address both visible mold and hidden spores.",
+        "@type": "Answer",
+        "description": "Yes, property restoration often includes mold remediation, which is crucial for health and to prevent recurrence after water damage."
+      }
+    }
+  ],
+  "description": "Yes, property restoration often includes mold remediation, which is crucial for health and to prevent recurrence after water damage."
 }

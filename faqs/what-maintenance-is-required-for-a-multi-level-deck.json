@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for a multi-level deck?",
-  "description": "Maintenance varies by material: wood decks need regular cleaning, staining, or sealing, while composite decks require less. All decks need fastener and structur",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-multi-level-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for a multi-level deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The maintenance required for a multi-level deck depends largely on the materials used. Wood decks typically need regular cleaning, staining or sealing every few years to protect against weathering and rot. Composite decks require less maintenance, usually just periodic cleaning with soap and water. Regardless of material, inspecting for loose fasteners, structural integrity, and clearing debris from between boards is crucial. This is a practical tradeoff: less durable materials save on initial cost but require more long-term maintenance effort.",
-        "description": "Maintenance varies by material: wood decks need regular cleaning, staining, or sealing, while composite decks require less. All decks need fastener and structural checks."
-      }
-    }
-  ],
+  "name": "What maintenance is required for a multi-level deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for a multi-level deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The maintenance required for a multi-level deck depends largely on the materials used. Wood decks typically need regular cleaning, staining or sealing every few years to protect against weathering and rot. Composite decks require less maintenance, usually just periodic cleaning with soap and water. Regardless of material, inspecting for loose fasteners, structural integrity, and clearing debris from between boards is crucial. This is a practical tradeoff: less durable materials save on initial cost but require more long-term maintenance effort.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material: wood decks need regular cleaning, staining, or sealing, while composite decks require less. All decks need fastener and structural checks."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material: wood decks need regular cleaning, staining, or sealing, while composite decks require less. All decks need fastener and structur"
 }

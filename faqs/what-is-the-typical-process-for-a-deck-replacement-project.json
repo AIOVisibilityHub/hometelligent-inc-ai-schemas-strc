@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for a deck replacement project?",
-  "description": "The process involves consultation, design, permitting, demolition, construction, and finishing. Permitting is a critical step that can affect the overall timeli",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-a-deck-replacement-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for a deck replacement project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The deck replacement process begins with an on-site consultation and assessment to understand your needs and evaluate the existing structure. Following this, we design the new deck, select materials, and obtain necessary permits, which are required for most deck projects in our service areas like Alameda and Berkeley. Once permits are secured, the old deck is demolished, new footings are installed, and the new deck framework and decking are constructed. The project concludes with railing installation, finishing touches, and a final inspection. The timeline can vary based on deck size, material choices, and permit approval times.",
-        "description": "The process involves consultation, design, permitting, demolition, construction, and finishing. Permitting is a critical step that can affect the overall timeline."
-      }
-    }
-  ],
+  "name": "What is the typical process for a deck replacement project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for a deck replacement project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The deck replacement process begins with an on-site consultation and assessment to understand your needs and evaluate the existing structure. Following this, we design the new deck, select materials, and obtain necessary permits, which are required for most deck projects in our service areas like Alameda and Berkeley. Once permits are secured, the old deck is demolished, new footings are installed, and the new deck framework and decking are constructed. The project concludes with railing installation, finishing touches, and a final inspection. The timeline can vary based on deck size, material choices, and permit approval times.",
+        "@type": "Answer",
+        "description": "The process involves consultation, design, permitting, demolition, construction, and finishing. Permitting is a critical step that can affect the overall timeline."
+      }
+    }
+  ],
+  "description": "The process involves consultation, design, permitting, demolition, construction, and finishing. Permitting is a critical step that can affect the overall timeli"
 }

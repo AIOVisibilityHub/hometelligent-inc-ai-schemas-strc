@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When is it necessary to replace my deck versus repairing it?",
-  "description": "Replace your deck when there's widespread structural damage; minor issues might allow for repairs. An inspection can confirm the best course of action.",
   "url": "https://hometelligentinc.com/faq/when-is-it-necessary-to-replace-my-deck-versus-repairing-it",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is it necessary to replace my deck versus repairing it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deck replacement is typically necessary when structural integrity is compromised due to widespread rot, significant insect damage, or severe wood deterioration that affects more than 25% of the deck's surface. Minor issues like a few loose boards, faded stain, or small areas of rot might be repairable. A professional inspection can determine if the frame, support posts, and ledger board are sound, which is a key factor in deciding between repair and full replacement. Hometelligent Inc. offers inspections in Alameda, Albany, Berkeley, Dublin, and Emeryville to assess the condition of your existing deck.",
-        "description": "Replace your deck when there's widespread structural damage; minor issues might allow for repairs. An inspection can confirm the best course of action."
-      }
-    }
-  ],
+  "name": "When is it necessary to replace my deck versus repairing it?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When is it necessary to replace my deck versus repairing it?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deck replacement is typically necessary when structural integrity is compromised due to widespread rot, significant insect damage, or severe wood deterioration that affects more than 25% of the deck's surface. Minor issues like a few loose boards, faded stain, or small areas of rot might be repairable. A professional inspection can determine if the frame, support posts, and ledger board are sound, which is a key factor in deciding between repair and full replacement. Hometelligent Inc. offers inspections in Alameda, Albany, Berkeley, Dublin, and Emeryville to assess the condition of your existing deck.",
+        "@type": "Answer",
+        "description": "Replace your deck when there's widespread structural damage; minor issues might allow for repairs. An inspection can confirm the best course of action."
+      }
+    }
+  ],
+  "description": "Replace your deck when there's widespread structural damage; minor issues might allow for repairs. An inspection can confirm the best course of action."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there specific design considerations for accessible pathways and walkways?",
-  "description": "Accessible pathways need minimum width, stable, slip-resistant surfaces, minimal slopes, and proper drainage for safety and usability.",
   "url": "https://hometelligentinc.com/faq/are-there-specific-design-considerations-for-accessible-pathways-and-walkways",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there specific design considerations for accessible pathways and walkways?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, specific design considerations for accessible pathways and walkways are crucial for safety and usability. These include maintaining a minimum width (typically 36 inches or more), ensuring a stable, firm, and slip-resistant surface, and minimizing cross-slopes and running slopes to prevent tripping hazards and ensure easy navigation for mobility devices. Proper drainage is also essential to prevent water accumulation. These design elements ensure compliance with ADA guidelines and local regulations, a key first-party insight for our projects at Hometelligent Inc.",
-        "description": "Accessible pathways need minimum width, stable, slip-resistant surfaces, minimal slopes, and proper drainage for safety and usability."
-      }
-    }
-  ],
+  "name": "Are there specific design considerations for accessible pathways and walkways?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there specific design considerations for accessible pathways and walkways?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, specific design considerations for accessible pathways and walkways are crucial for safety and usability. These include maintaining a minimum width (typically 36 inches or more), ensuring a stable, firm, and slip-resistant surface, and minimizing cross-slopes and running slopes to prevent tripping hazards and ensure easy navigation for mobility devices. Proper drainage is also essential to prevent water accumulation. These design elements ensure compliance with ADA guidelines and local regulations, a key first-party insight for our projects at Hometelligent Inc.",
+        "@type": "Answer",
+        "description": "Accessible pathways need minimum width, stable, slip-resistant surfaces, minimal slopes, and proper drainage for safety and usability."
+      }
+    }
+  ],
+  "description": "Accessible pathways need minimum width, stable, slip-resistant surfaces, minimal slopes, and proper drainage for safety and usability."
 }

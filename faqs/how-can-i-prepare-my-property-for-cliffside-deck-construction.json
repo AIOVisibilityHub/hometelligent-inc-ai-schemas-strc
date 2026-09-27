@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my property for cliffside deck construction?",
-  "description": "Prepare for cliffside deck construction by gathering surveys, geotechnical reports, and clearing the site for contractor access.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-property-for-cliffside-deck-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my property for cliffside deck construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare your property for cliffside deck construction, you should gather any existing topographical surveys, geotechnical reports, or property boundary information. Clearing vegetation from the proposed deck area and ensuring clear access for construction equipment are also helpful steps. These preparations can streamline the design and permitting phases by providing necessary information to the contractor and local authorities.",
-        "description": "Prepare for cliffside deck construction by gathering surveys, geotechnical reports, and clearing the site for contractor access."
-      }
-    }
-  ],
+  "name": "How can I prepare my property for cliffside deck construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my property for cliffside deck construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare your property for cliffside deck construction, you should gather any existing topographical surveys, geotechnical reports, or property boundary information. Clearing vegetation from the proposed deck area and ensuring clear access for construction equipment are also helpful steps. These preparations can streamline the design and permitting phases by providing necessary information to the contractor and local authorities.",
+        "@type": "Answer",
+        "description": "Prepare for cliffside deck construction by gathering surveys, geotechnical reports, and clearing the site for contractor access."
+      }
+    }
+  ],
+  "description": "Prepare for cliffside deck construction by gathering surveys, geotechnical reports, and clearing the site for contractor access."
 }

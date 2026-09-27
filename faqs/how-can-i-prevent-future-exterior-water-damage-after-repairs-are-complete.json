@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prevent future exterior water damage after repairs are complete?",
-  "description": "Prevent future damage by cleaning gutters, maintaining proper grading, and regularly inspecting your roof and siding. We provide ongoing prevention recommendati",
   "url": "https://hometelligentinc.com/faq/how-can-i-prevent-future-exterior-water-damage-after-repairs-are-complete",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prevent future exterior water damage after repairs are complete?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prevent future exterior water damage, regular maintenance is key. Ensure your gutters and downspouts are clean and direct water away from the foundation, maintain proper grading around your home, and regularly inspect your roof and siding for any signs of wear or damage. We provide recommendations for ongoing preventative measures after repairs, such as sealing gaps and cracks, and can advise on specific landscaping solutions or exterior material upgrades to enhance your home's resistance to moisture.",
-        "description": "Prevent future damage by cleaning gutters, maintaining proper grading, and regularly inspecting your roof and siding. We provide ongoing prevention recommendations."
-      }
-    }
-  ],
+  "name": "How can I prevent future exterior water damage after repairs are complete?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prevent future exterior water damage after repairs are complete?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prevent future exterior water damage, regular maintenance is key. Ensure your gutters and downspouts are clean and direct water away from the foundation, maintain proper grading around your home, and regularly inspect your roof and siding for any signs of wear or damage. We provide recommendations for ongoing preventative measures after repairs, such as sealing gaps and cracks, and can advise on specific landscaping solutions or exterior material upgrades to enhance your home's resistance to moisture.",
+        "@type": "Answer",
+        "description": "Prevent future damage by cleaning gutters, maintaining proper grading, and regularly inspecting your roof and siding. We provide ongoing prevention recommendations."
+      }
+    }
+  ],
+  "description": "Prevent future damage by cleaning gutters, maintaining proper grading, and regularly inspecting your roof and siding. We provide ongoing prevention recommendati"
 }

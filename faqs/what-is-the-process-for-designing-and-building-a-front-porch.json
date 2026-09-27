@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing and building a front porch?",
-  "description": "The process involves consultation, design, permitting, construction (foundation, framing, decking, railings), and finishing. Having inspiration and functional n",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-and-building-a-front-porch",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing and building a front porch?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for designing and building a front porch generally begins with an initial consultation to discuss your vision, needs, and budget. This is followed by site assessment and detailed design, including material selection and structural considerations. Once plans are finalized and approved, and permits secured, construction commences, involving foundation work, framing, decking, railing installation, and any finishing touches. Throughout the project, Hometelligent Inc. provides regular updates and ensures quality control. It's helpful to gather inspiration photos and have a clear idea of your functional requirements before our first meeting.",
-        "description": "The process involves consultation, design, permitting, construction (foundation, framing, decking, railings), and finishing. Having inspiration and functional needs ready helps start the project smoothly."
-      }
-    }
-  ],
+  "name": "What is the process for designing and building a front porch?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing and building a front porch?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for designing and building a front porch generally begins with an initial consultation to discuss your vision, needs, and budget. This is followed by site assessment and detailed design, including material selection and structural considerations. Once plans are finalized and approved, and permits secured, construction commences, involving foundation work, framing, decking, railing installation, and any finishing touches. Throughout the project, Hometelligent Inc. provides regular updates and ensures quality control. It's helpful to gather inspiration photos and have a clear idea of your functional requirements before our first meeting.",
+        "@type": "Answer",
+        "description": "The process involves consultation, design, permitting, construction (foundation, framing, decking, railings), and finishing. Having inspiration and functional needs ready helps start the project smoothly."
+      }
+    }
+  ],
+  "description": "The process involves consultation, design, permitting, construction (foundation, framing, decking, railings), and finishing. Having inspiration and functional n"
 }

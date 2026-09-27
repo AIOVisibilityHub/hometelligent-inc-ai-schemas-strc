@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the installation process for new French doors?",
-  "description": "The process includes preparing the opening, installing the frame, hanging doors, installing hardware, sealing, trimming, and cleanup. Hometelligent Inc. ensures",
   "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-new-french-doors",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the installation process for new French doors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process for new French doors typically begins with preparing the opening, which may involve framing adjustments or creating a new rough opening. Next, the door frame is installed, leveled, and secured. The door panels are then hung, ensuring proper alignment and smooth operation. Finally, hardware is installed, and the surrounding area is sealed and trimmed, followed by a final cleanup. Hometelligent Inc. ensures that each step, from initial consultation to final inspection, adheres to quality standards, providing a seamless and professional installation experience for our clients in the Alameda and Emeryville areas.",
-        "description": "The process includes preparing the opening, installing the frame, hanging doors, installing hardware, sealing, trimming, and cleanup. Hometelligent Inc. ensures quality at each step."
-      }
-    }
-  ],
+  "name": "What is the installation process for new French doors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the installation process for new French doors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process for new French doors typically begins with preparing the opening, which may involve framing adjustments or creating a new rough opening. Next, the door frame is installed, leveled, and secured. The door panels are then hung, ensuring proper alignment and smooth operation. Finally, hardware is installed, and the surrounding area is sealed and trimmed, followed by a final cleanup. Hometelligent Inc. ensures that each step, from initial consultation to final inspection, adheres to quality standards, providing a seamless and professional installation experience for our clients in the Alameda and Emeryville areas.",
+        "@type": "Answer",
+        "description": "The process includes preparing the opening, installing the frame, hanging doors, installing hardware, sealing, trimming, and cleanup. Hometelligent Inc. ensures quality at each step."
+      }
+    }
+  ],
+  "description": "The process includes preparing the opening, installing the frame, hanging doors, installing hardware, sealing, trimming, and cleanup. Hometelligent Inc. ensures"
 }

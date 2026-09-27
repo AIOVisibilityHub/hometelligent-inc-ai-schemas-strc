@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for hillside deck construction in the Alameda area?",
-  "description": "Building and potential grading permits are typically required for hillside deck construction, with specific requirements varying by local jurisdiction.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-hillside-deck-construction-in-the-alameda-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for hillside deck construction in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hillside deck construction typically requires building permits from the local city or county planning department, as well as potential permits for grading or environmental impact depending on the slope and proximity to sensitive areas. In Alameda, this often involves specific structural and setback requirements due to seismic activity and erosion potential. Hometelligent Inc. assists with navigating these local permitting processes.",
-        "description": "Building and potential grading permits are typically required for hillside deck construction, with specific requirements varying by local jurisdiction."
-      }
-    }
-  ],
+  "name": "What permits are required for hillside deck construction in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for hillside deck construction in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hillside deck construction typically requires building permits from the local city or county planning department, as well as potential permits for grading or environmental impact depending on the slope and proximity to sensitive areas. In Alameda, this often involves specific structural and setback requirements due to seismic activity and erosion potential. Hometelligent Inc. assists with navigating these local permitting processes.",
+        "@type": "Answer",
+        "description": "Building and potential grading permits are typically required for hillside deck construction, with specific requirements varying by local jurisdiction."
+      }
+    }
+  ],
+  "description": "Building and potential grading permits are typically required for hillside deck construction, with specific requirements varying by local jurisdiction."
 }

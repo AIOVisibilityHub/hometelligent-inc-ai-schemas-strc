@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for safe and durable exterior stairs?",
-  "description": "Safe and durable exterior stairs require proper rise/run, handrail height, weather-resistant materials, slip resistance, good drainage, and a stable foundation.",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-safe-and-durable-exterior-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for safe and durable exterior stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key design considerations for safe and durable exterior stairs include proper rise and run dimensions for comfortable ascent/descent, adequate handrail height and grip, and the use of weather-resistant, slip-resistant materials. Correct drainage is essential to prevent water accumulation and material deterioration. Additionally, ensuring the foundation is stable and properly connected to the main structure is critical for long-term durability. We emphasize designs that prioritize safety, longevity, and adherence to local building codes.",
-        "description": "Safe and durable exterior stairs require proper rise/run, handrail height, weather-resistant materials, slip resistance, good drainage, and a stable foundation."
-      }
-    }
-  ],
+  "name": "What design considerations are important for safe and durable exterior stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for safe and durable exterior stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Key design considerations for safe and durable exterior stairs include proper rise and run dimensions for comfortable ascent/descent, adequate handrail height and grip, and the use of weather-resistant, slip-resistant materials. Correct drainage is essential to prevent water accumulation and material deterioration. Additionally, ensuring the foundation is stable and properly connected to the main structure is critical for long-term durability. We emphasize designs that prioritize safety, longevity, and adherence to local building codes.",
+        "@type": "Answer",
+        "description": "Safe and durable exterior stairs require proper rise/run, handrail height, weather-resistant materials, slip resistance, good drainage, and a stable foundation."
+      }
+    }
+  ],
+  "description": "Safe and durable exterior stairs require proper rise/run, handrail height, weather-resistant materials, slip resistance, good drainage, and a stable foundation."
 }

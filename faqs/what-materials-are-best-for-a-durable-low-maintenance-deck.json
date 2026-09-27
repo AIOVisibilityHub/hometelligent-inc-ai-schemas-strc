@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are best for a durable, low-maintenance deck?",
-  "description": "Composite decking is ideal for durability and low maintenance, resisting rot and insects without needing regular staining. It offers long-term savings despite a",
   "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-a-durable-low-maintenance-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are best for a durable, low-maintenance deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a durable and low-maintenance deck, composite decking materials are an excellent choice. These products, made from a blend of wood fibers and plastic, resist rot, insects, and splintering, and typically do not require staining or sealing. While the initial investment for composite decks is higher than for pressure-treated wood, they often save homeowners money and effort in the long run due to reduced maintenance needs. Other options like PVC decking offer similar benefits with enhanced fade resistance.",
-        "description": "Composite decking is ideal for durability and low maintenance, resisting rot and insects without needing regular staining. It offers long-term savings despite a higher upfront cost."
-      }
-    }
-  ],
+  "name": "What materials are best for a durable, low-maintenance deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are best for a durable, low-maintenance deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For a durable and low-maintenance deck, composite decking materials are an excellent choice. These products, made from a blend of wood fibers and plastic, resist rot, insects, and splintering, and typically do not require staining or sealing. While the initial investment for composite decks is higher than for pressure-treated wood, they often save homeowners money and effort in the long run due to reduced maintenance needs. Other options like PVC decking offer similar benefits with enhanced fade resistance.",
+        "@type": "Answer",
+        "description": "Composite decking is ideal for durability and low maintenance, resisting rot and insects without needing regular staining. It offers long-term savings despite a higher upfront cost."
+      }
+    }
+  ],
+  "description": "Composite decking is ideal for durability and low maintenance, resisting rot and insects without needing regular staining. It offers long-term savings despite a"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for different types of exterior stairs?",
-  "description": "Maintenance for exterior stairs depends on material: wood needs regular sealing, composite needs cleaning, and concrete/stone requires occasional cleaning and s",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-different-types-of-exterior-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for different types of exterior stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance requirements for exterior stairs vary by material. Wood stairs typically need regular cleaning, sealing, or painting every few years to prevent rot, insect damage, and weathering. Composite stairs are generally low-maintenance, requiring only periodic cleaning. Concrete and stone stairs are very durable but may need occasional cleaning and sealing to prevent staining and moss growth. Understanding these requirements helps you choose a material that aligns with your willingness to perform ongoing upkeep.",
-        "description": "Maintenance for exterior stairs depends on material: wood needs regular sealing, composite needs cleaning, and concrete/stone requires occasional cleaning and sealing."
-      }
-    }
-  ],
+  "name": "What maintenance is required for different types of exterior stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for different types of exterior stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance requirements for exterior stairs vary by material. Wood stairs typically need regular cleaning, sealing, or painting every few years to prevent rot, insect damage, and weathering. Composite stairs are generally low-maintenance, requiring only periodic cleaning. Concrete and stone stairs are very durable but may need occasional cleaning and sealing to prevent staining and moss growth. Understanding these requirements helps you choose a material that aligns with your willingness to perform ongoing upkeep.",
+        "@type": "Answer",
+        "description": "Maintenance for exterior stairs depends on material: wood needs regular sealing, composite needs cleaning, and concrete/stone requires occasional cleaning and sealing."
+      }
+    }
+  ],
+  "description": "Maintenance for exterior stairs depends on material: wood needs regular sealing, composite needs cleaning, and concrete/stone requires occasional cleaning and s"
 }

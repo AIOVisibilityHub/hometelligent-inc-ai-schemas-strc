@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit to build a deck in cities like Oakland or San Leandro?",
-  "description": "A building permit is usually required for deck construction in our service areas like Oakland or San Leandro, particularly for attached or elevated decks. We as",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-build-a-deck-in-cities-like-oakland-or-san-leandro",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit to build a deck in cities like Oakland or San Leandro?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, in cities such as Oakland or San Leandro, a building permit is typically required for new deck construction or significant deck renovations, especially if the deck is attached to the house or elevated. The specific requirements can vary slightly by city within our service areas, like Fremont or Hayward. We manage the permit application process as part of our service, ensuring all plans comply with local building codes. This includes preparing necessary drawings and documentation to help secure approval before construction starts.",
-        "description": "A building permit is usually required for deck construction in our service areas like Oakland or San Leandro, particularly for attached or elevated decks. We assist with the permit process."
-      }
-    }
-  ],
+  "name": "Do I need a permit to build a deck in cities like Oakland or San Leandro?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit to build a deck in cities like Oakland or San Leandro?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, in cities such as Oakland or San Leandro, a building permit is typically required for new deck construction or significant deck renovations, especially if the deck is attached to the house or elevated. The specific requirements can vary slightly by city within our service areas, like Fremont or Hayward. We manage the permit application process as part of our service, ensuring all plans comply with local building codes. This includes preparing necessary drawings and documentation to help secure approval before construction starts.",
+        "@type": "Answer",
+        "description": "A building permit is usually required for deck construction in our service areas like Oakland or San Leandro, particularly for attached or elevated decks. We assist with the permit process."
+      }
+    }
+  ],
+  "description": "A building permit is usually required for deck construction in our service areas like Oakland or San Leandro, particularly for attached or elevated decks. We as"
 }

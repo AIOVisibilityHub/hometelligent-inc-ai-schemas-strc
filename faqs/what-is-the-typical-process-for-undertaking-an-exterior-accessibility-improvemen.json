@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for undertaking an exterior accessibility improvement project with Hometelligent Inc.?",
-  "description": "Our process involves a consultation, site assessment, detailed proposal, and construction, ensuring all modifications meet local building codes.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-undertaking-an-exterior-accessibility-improvemen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for undertaking an exterior accessibility improvement project with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical process for an exterior accessibility improvement project with Hometelligent Inc. begins with an initial consultation and site assessment to understand your specific needs and the existing property conditions. Following this, we develop a detailed proposal outlining the recommended improvements, materials, and estimated timeline. Once approved, our team handles all necessary permits and executes the construction. A critical process step is ensuring that all modifications meet local building codes and accessibility guidelines relevant to locations such as Oakland or Hayward.",
-        "description": "Our process involves a consultation, site assessment, detailed proposal, and construction, ensuring all modifications meet local building codes."
-      }
-    }
-  ],
+  "name": "What is the typical process for undertaking an exterior accessibility improvement project with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for undertaking an exterior accessibility improvement project with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical process for an exterior accessibility improvement project with Hometelligent Inc. begins with an initial consultation and site assessment to understand your specific needs and the existing property conditions. Following this, we develop a detailed proposal outlining the recommended improvements, materials, and estimated timeline. Once approved, our team handles all necessary permits and executes the construction. A critical process step is ensuring that all modifications meet local building codes and accessibility guidelines relevant to locations such as Oakland or Hayward.",
+        "@type": "Answer",
+        "description": "Our process involves a consultation, site assessment, detailed proposal, and construction, ensuring all modifications meet local building codes."
+      }
+    }
+  ],
+  "description": "Our process involves a consultation, site assessment, detailed proposal, and construction, ensuring all modifications meet local building codes."
 }

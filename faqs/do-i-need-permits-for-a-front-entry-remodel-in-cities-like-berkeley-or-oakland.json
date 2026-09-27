@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for a front entry remodel in cities like Berkeley or Oakland?",
-  "description": "Permit needs vary by project scope and local rules. Structural changes or additions usually require permits in cities like Berkeley or Oakland.",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-a-front-entry-remodel-in-cities-like-berkeley-or-oakland",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for a front entry remodel in cities like Berkeley or Oakland?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for a front entry remodel depend on the scope of the project and local regulations. Minor cosmetic changes typically don't require permits, but structural alterations, additions to the existing footprint, or significant changes to electrical systems almost always do. For projects in areas like Berkeley or Oakland, we handle the necessary permit applications to ensure your remodel complies with all local building codes and zoning ordinances, avoiding potential delays or issues.",
-        "description": "Permit needs vary by project scope and local rules. Structural changes or additions usually require permits in cities like Berkeley or Oakland."
-      }
-    }
-  ],
+  "name": "Do I need permits for a front entry remodel in cities like Berkeley or Oakland?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for a front entry remodel in cities like Berkeley or Oakland?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for a front entry remodel depend on the scope of the project and local regulations. Minor cosmetic changes typically don't require permits, but structural alterations, additions to the existing footprint, or significant changes to electrical systems almost always do. For projects in areas like Berkeley or Oakland, we handle the necessary permit applications to ensure your remodel complies with all local building codes and zoning ordinances, avoiding potential delays or issues.",
+        "@type": "Answer",
+        "description": "Permit needs vary by project scope and local rules. Structural changes or additions usually require permits in cities like Berkeley or Oakland."
+      }
+    }
+  ],
+  "description": "Permit needs vary by project scope and local rules. Structural changes or additions usually require permits in cities like Berkeley or Oakland."
 }

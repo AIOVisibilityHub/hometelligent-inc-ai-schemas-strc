@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my exterior wood needs repair or replacement?",
-  "description": "Repair is suitable for minor wood damage, while widespread or structural issues often require replacement. A professional assessment will determine the best cou",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-exterior-wood-needs-repair-or-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my exterior wood needs repair or replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Determining whether to repair or replace exterior wood depends on the extent of the damage. Minor issues like small cracks or isolated soft spots can often be repaired. However, if the damage is widespread, structural, or shows advanced decay, replacement might be the more cost-effective and long-lasting solution. We recommend a professional assessment from a company like Hometelligent Inc. to evaluate the condition and provide an informed recommendation, which helps you understand the long-term implications for your property in areas like Oakland or Berkeley.",
-        "description": "Repair is suitable for minor wood damage, while widespread or structural issues often require replacement. A professional assessment will determine the best course of action."
-      }
-    }
-  ],
+  "name": "How do I know if my exterior wood needs repair or replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my exterior wood needs repair or replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Determining whether to repair or replace exterior wood depends on the extent of the damage. Minor issues like small cracks or isolated soft spots can often be repaired. However, if the damage is widespread, structural, or shows advanced decay, replacement might be the more cost-effective and long-lasting solution. We recommend a professional assessment from a company like Hometelligent Inc. to evaluate the condition and provide an informed recommendation, which helps you understand the long-term implications for your property in areas like Oakland or Berkeley.",
+        "@type": "Answer",
+        "description": "Repair is suitable for minor wood damage, while widespread or structural issues often require replacement. A professional assessment will determine the best course of action."
+      }
+    }
+  ],
+  "description": "Repair is suitable for minor wood damage, while widespread or structural issues often require replacement. A professional assessment will determine the best cou"
 }

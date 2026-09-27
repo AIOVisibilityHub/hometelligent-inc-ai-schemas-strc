@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What considerations are important when choosing materials for a deck expansion?",
-  "description": "Material choices for deck expansion should consider durability, maintenance, aesthetics, budget, and compliance with local regulations.",
   "url": "https://hometelligentinc.com/faq/what-considerations-are-important-when-choosing-materials-for-a-deck-expansion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What considerations are important when choosing materials for a deck expansion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing materials for a deck expansion, important considerations include durability, maintenance requirements, aesthetic match to your existing home, and budget. For example, while natural wood offers a classic look, composite decking, often used in our projects across cities like Fremont and Livermore, provides excellent resistance to rot, insects, and requires less upkeep. We also help you select materials that comply with fire safety regulations, which can be particularly relevant in certain zones.",
-        "description": "Material choices for deck expansion should consider durability, maintenance, aesthetics, budget, and compliance with local regulations."
-      }
-    }
-  ],
+  "name": "What considerations are important when choosing materials for a deck expansion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What considerations are important when choosing materials for a deck expansion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing materials for a deck expansion, important considerations include durability, maintenance requirements, aesthetic match to your existing home, and budget. For example, while natural wood offers a classic look, composite decking, often used in our projects across cities like Fremont and Livermore, provides excellent resistance to rot, insects, and requires less upkeep. We also help you select materials that comply with fire safety regulations, which can be particularly relevant in certain zones.",
+        "@type": "Answer",
+        "description": "Material choices for deck expansion should consider durability, maintenance, aesthetics, budget, and compliance with local regulations."
+      }
+    }
+  ],
+  "description": "Material choices for deck expansion should consider durability, maintenance, aesthetics, budget, and compliance with local regulations."
 }

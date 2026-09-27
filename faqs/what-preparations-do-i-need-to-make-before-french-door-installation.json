@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations do I need to make before French door installation?",
-  "description": "Clear the installation area inside and out, remove obstructions, and discuss new opening placements. Hometelligent Inc. will confirm specific preparation steps.",
   "url": "https://hometelligentinc.com/faq/what-preparations-do-i-need-to-make-before-french-door-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations do I need to make before French door installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before French door installation, you should clear the area around the old door or proposed opening, both inside and outside, to provide installers with clear access. Remove any window treatments, wall decorations, or furniture that might obstruct the work or be damaged. If you're having a new opening created, decide on the exact placement and dimensions with your contractor. For Hometelligent Inc. projects, our team will confirm any specific preparation steps during the consultation, ensuring a smooth process in your Alameda or Berkeley residence.",
-        "description": "Clear the installation area inside and out, remove obstructions, and discuss new opening placements. Hometelligent Inc. will confirm specific preparation steps."
-      }
-    }
-  ],
+  "name": "What preparations do I need to make before French door installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations do I need to make before French door installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before French door installation, you should clear the area around the old door or proposed opening, both inside and outside, to provide installers with clear access. Remove any window treatments, wall decorations, or furniture that might obstruct the work or be damaged. If you're having a new opening created, decide on the exact placement and dimensions with your contractor. For Hometelligent Inc. projects, our team will confirm any specific preparation steps during the consultation, ensuring a smooth process in your Alameda or Berkeley residence.",
+        "@type": "Answer",
+        "description": "Clear the installation area inside and out, remove obstructions, and discuss new opening placements. Hometelligent Inc. will confirm specific preparation steps."
+      }
+    }
+  ],
+  "description": "Clear the installation area inside and out, remove obstructions, and discuss new opening placements. Hometelligent Inc. will confirm specific preparation steps."
 }

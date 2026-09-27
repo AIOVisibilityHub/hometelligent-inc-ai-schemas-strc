@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of exterior lighting upgrades are available for homes?",
-  "description": "Exterior lighting upgrades include landscape, security, accent, and pathway lighting. Consider the primary function you want the lighting to serve to choose the",
   "url": "https://hometelligentinc.com/faq/what-types-of-exterior-lighting-upgrades-are-available-for-homes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of exterior lighting upgrades are available for homes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. offers a variety of exterior lighting upgrades, including landscape lighting, security lighting, accent lighting, and pathway lighting. Landscape lighting can enhance your garden and outdoor living spaces, while security lighting provides illumination for safety. Accent lighting highlights architectural features, and pathway lighting ensures safe navigation around your property. When selecting options, consider the primary function you want the lighting to serve, such as aesthetics, security, or usability, as this will help narrow down the appropriate fixtures and placement.",
-        "description": "Exterior lighting upgrades include landscape, security, accent, and pathway lighting. Consider the primary function you want the lighting to serve to choose the best option."
-      }
-    }
-  ],
+  "name": "What types of exterior lighting upgrades are available for homes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of exterior lighting upgrades are available for homes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. offers a variety of exterior lighting upgrades, including landscape lighting, security lighting, accent lighting, and pathway lighting. Landscape lighting can enhance your garden and outdoor living spaces, while security lighting provides illumination for safety. Accent lighting highlights architectural features, and pathway lighting ensures safe navigation around your property. When selecting options, consider the primary function you want the lighting to serve, such as aesthetics, security, or usability, as this will help narrow down the appropriate fixtures and placement.",
+        "@type": "Answer",
+        "description": "Exterior lighting upgrades include landscape, security, accent, and pathway lighting. Consider the primary function you want the lighting to serve to choose the best option."
+      }
+    }
+  ],
+  "description": "Exterior lighting upgrades include landscape, security, accent, and pathway lighting. Consider the primary function you want the lighting to serve to choose the"
 }

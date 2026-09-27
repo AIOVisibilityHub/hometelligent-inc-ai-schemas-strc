@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing bi-fold patio doors?",
-  "description": "Bi-fold patio doors maximize natural light and create a seamless indoor-outdoor connection, offering significant aesthetic and functional benefits for homes.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-bi-fold-patio-doors",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing bi-fold patio doors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bi-fold patio doors offer several advantages, including maximizing natural light and creating a seamless connection between indoor and outdoor spaces. They fold accordion-style, allowing for a wide opening that can dramatically transform a room's aesthetic and functionality. For instance, in areas like Berkeley or Alameda, where outdoor living is popular, these doors can significantly enhance your home's entertainment and relaxation areas. A key practical tradeoff to consider is the amount of wall space needed for the folded panels, which requires careful planning during installation.",
-        "description": "Bi-fold patio doors maximize natural light and create a seamless indoor-outdoor connection, offering significant aesthetic and functional benefits for homes."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing bi-fold patio doors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing bi-fold patio doors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Bi-fold patio doors offer several advantages, including maximizing natural light and creating a seamless connection between indoor and outdoor spaces. They fold accordion-style, allowing for a wide opening that can dramatically transform a room's aesthetic and functionality. For instance, in areas like Berkeley or Alameda, where outdoor living is popular, these doors can significantly enhance your home's entertainment and relaxation areas. A key practical tradeoff to consider is the amount of wall space needed for the folded panels, which requires careful planning during installation.",
+        "@type": "Answer",
+        "description": "Bi-fold patio doors maximize natural light and create a seamless indoor-outdoor connection, offering significant aesthetic and functional benefits for homes."
+      }
+    }
+  ],
+  "description": "Bi-fold patio doors maximize natural light and create a seamless indoor-outdoor connection, offering significant aesthetic and functional benefits for homes."
 }

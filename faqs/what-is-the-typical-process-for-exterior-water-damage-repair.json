@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for exterior water damage repair?",
-  "description": "The process involves inspection, water mitigation, removal and replacement of damaged materials, then sealing and finishing.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-exterior-water-damage-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for exterior water damage repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical process begins with a thorough inspection to identify the source and extent of the damage, followed by water mitigation to prevent further intrusion. Next, damaged materials such as siding, trim, or sheathing are carefully removed and replaced with new, water-resistant materials. Finally, the repaired areas are sealed and finished to match the existing exterior. This process often involves coordinating with multiple skilled trades to ensure a seamless repair and durable finish.",
-        "description": "The process involves inspection, water mitigation, removal and replacement of damaged materials, then sealing and finishing."
-      }
-    }
-  ],
+  "name": "What is the typical process for exterior water damage repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for exterior water damage repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical process begins with a thorough inspection to identify the source and extent of the damage, followed by water mitigation to prevent further intrusion. Next, damaged materials such as siding, trim, or sheathing are carefully removed and replaced with new, water-resistant materials. Finally, the repaired areas are sealed and finished to match the existing exterior. This process often involves coordinating with multiple skilled trades to ensure a seamless repair and durable finish.",
+        "@type": "Answer",
+        "description": "The process involves inspection, water mitigation, removal and replacement of damaged materials, then sealing and finishing."
+      }
+    }
+  ],
+  "description": "The process involves inspection, water mitigation, removal and replacement of damaged materials, then sealing and finishing."
 }

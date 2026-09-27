@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider replacing my roof after storm damage versus repairing it?",
-  "description": "Consider roof replacement if damage is extensive or structural, or if your roof is old. We can assess damage to advise on the best option.",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-roof-after-storm-damage-versus-repairing-it",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider replacing my roof after storm damage versus repairing it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The decision to repair or replace your roof after storm damage depends on several factors, including the extent of the damage, the age of your existing roof, and the type of roofing material. If damage is widespread or compromises the structural integrity, a replacement may be more cost-effective in the long run. Our comprehensive assessment can help you evaluate these factors and determine the best course of action to ensure lasting protection for your home.",
-        "description": "Consider roof replacement if damage is extensive or structural, or if your roof is old. We can assess damage to advise on the best option."
-      }
-    }
-  ],
+  "name": "When should I consider replacing my roof after storm damage versus repairing it?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider replacing my roof after storm damage versus repairing it?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The decision to repair or replace your roof after storm damage depends on several factors, including the extent of the damage, the age of your existing roof, and the type of roofing material. If damage is widespread or compromises the structural integrity, a replacement may be more cost-effective in the long run. Our comprehensive assessment can help you evaluate these factors and determine the best course of action to ensure lasting protection for your home.",
+        "@type": "Answer",
+        "description": "Consider roof replacement if damage is extensive or structural, or if your roof is old. We can assess damage to advise on the best option."
+      }
+    }
+  ],
+  "description": "Consider roof replacement if damage is extensive or structural, or if your roof is old. We can assess damage to advise on the best option."
 }

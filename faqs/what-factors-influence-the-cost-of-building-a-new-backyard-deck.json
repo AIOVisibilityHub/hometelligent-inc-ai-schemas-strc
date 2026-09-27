@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of building a new backyard deck?",
-  "description": "Deck size, material choice, design complexity, and site preparation are the main factors affecting the cost of a new backyard deck.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-a-new-backyard-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of building a new backyard deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building a new backyard deck is influenced by several factors, including the deck's size, material choices, design complexity, and site preparation needs. For example, pressure-treated lumber is generally more budget-friendly, while composite or exotic hardwoods offer durability and require less maintenance, but come at a higher initial cost. Complex designs involving multiple levels, built-in features, or custom railings also increase expenses. Before we provide a detailed estimate, we assess the site to determine if any significant grading or foundation work is required, which can impact the overall project cost.",
-        "description": "Deck size, material choice, design complexity, and site preparation are the main factors affecting the cost of a new backyard deck."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of building a new backyard deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of building a new backyard deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building a new backyard deck is influenced by several factors, including the deck's size, material choices, design complexity, and site preparation needs. For example, pressure-treated lumber is generally more budget-friendly, while composite or exotic hardwoods offer durability and require less maintenance, but come at a higher initial cost. Complex designs involving multiple levels, built-in features, or custom railings also increase expenses. Before we provide a detailed estimate, we assess the site to determine if any significant grading or foundation work is required, which can impact the overall project cost.",
+        "@type": "Answer",
+        "description": "Deck size, material choice, design complexity, and site preparation are the main factors affecting the cost of a new backyard deck."
+      }
+    }
+  ],
+  "description": "Deck size, material choice, design complexity, and site preparation are the main factors affecting the cost of a new backyard deck."
 }

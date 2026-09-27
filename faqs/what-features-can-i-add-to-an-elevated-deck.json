@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What features can I add to an elevated deck?",
-  "description": "Features like built-in seating, lighting, privacy screens, and pergolas can be added to an elevated deck to enhance its use and look.",
   "url": "https://hometelligentinc.com/faq/what-features-can-i-add-to-an-elevated-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What features can I add to an elevated deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can customize an elevated deck with various features to enhance its functionality and aesthetics. Popular additions include built-in seating, planters, privacy screens, custom lighting, pergolas, and outdoor kitchens. The choice of features can significantly impact the overall cost and complexity of the project, so it's a practical tradeoff between desired amenities and your budget.",
-        "description": "Features like built-in seating, lighting, privacy screens, and pergolas can be added to an elevated deck to enhance its use and look."
-      }
-    }
-  ],
+  "name": "What features can I add to an elevated deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What features can I add to an elevated deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You can customize an elevated deck with various features to enhance its functionality and aesthetics. Popular additions include built-in seating, planters, privacy screens, custom lighting, pergolas, and outdoor kitchens. The choice of features can significantly impact the overall cost and complexity of the project, so it's a practical tradeoff between desired amenities and your budget.",
+        "@type": "Answer",
+        "description": "Features like built-in seating, lighting, privacy screens, and pergolas can be added to an elevated deck to enhance its use and look."
+      }
+    }
+  ],
+  "description": "Features like built-in seating, lighting, privacy screens, and pergolas can be added to an elevated deck to enhance its use and look."
 }

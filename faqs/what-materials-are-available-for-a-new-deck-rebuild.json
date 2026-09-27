@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are available for a new deck rebuild?",
-  "description": "Available deck materials include pressure-treated wood, cedar, redwood, and composite decking. Your choice depends on maintenance, aesthetics, durability, and b",
   "url": "https://hometelligentinc.com/faq/what-materials-are-available-for-a-new-deck-rebuild",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are available for a new deck rebuild?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials for deck rebuilding include pressure-treated lumber, cedar, redwood, and composite decking. Pressure-treated lumber is cost-effective and durable, while cedar and redwood offer natural beauty and resistance to rot. Composite decking, made from recycled plastics and wood fibers, provides low maintenance and a long lifespan. When choosing, consider factors like maintenance requirements, desired aesthetic, durability, and budget, which Hometelligent Inc. can discuss with you to match your needs.",
-        "description": "Available deck materials include pressure-treated wood, cedar, redwood, and composite decking. Your choice depends on maintenance, aesthetics, durability, and budget."
-      }
-    }
-  ],
+  "name": "What materials are available for a new deck rebuild?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are available for a new deck rebuild?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials for deck rebuilding include pressure-treated lumber, cedar, redwood, and composite decking. Pressure-treated lumber is cost-effective and durable, while cedar and redwood offer natural beauty and resistance to rot. Composite decking, made from recycled plastics and wood fibers, provides low maintenance and a long lifespan. When choosing, consider factors like maintenance requirements, desired aesthetic, durability, and budget, which Hometelligent Inc. can discuss with you to match your needs.",
+        "@type": "Answer",
+        "description": "Available deck materials include pressure-treated wood, cedar, redwood, and composite decking. Your choice depends on maintenance, aesthetics, durability, and budget."
+      }
+    }
+  ],
+  "description": "Available deck materials include pressure-treated wood, cedar, redwood, and composite decking. Your choice depends on maintenance, aesthetics, durability, and b"
 }

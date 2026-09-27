@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider replacing my eaves instead of just repairing them?",
-  "description": "Consider replacing eaves when damage is extensive, widespread, or systemic. If over 25-30% shows significant rot, replacement is often more cost-effective long-",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-eaves-instead-of-just-repairing-them",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider replacing my eaves instead of just repairing them?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider replacing your eaves rather than just repairing them when the damage is extensive, widespread, or indicative of a systemic issue. If more than 25-30% of the eaves show signs of significant rot, structural weakness, or repeated water damage in multiple sections, a full replacement often offers a more durable and cost-effective long-term solution. This decision involves a practical tradeoff between the immediate lower cost of a repair versus the greater longevity and comprehensive protection offered by a full replacement.",
-        "description": "Consider replacing eaves when damage is extensive, widespread, or systemic. If over 25-30% shows significant rot, replacement is often more cost-effective long-term."
-      }
-    }
-  ],
+  "name": "When should I consider replacing my eaves instead of just repairing them?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider replacing my eaves instead of just repairing them?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider replacing your eaves rather than just repairing them when the damage is extensive, widespread, or indicative of a systemic issue. If more than 25-30% of the eaves show signs of significant rot, structural weakness, or repeated water damage in multiple sections, a full replacement often offers a more durable and cost-effective long-term solution. This decision involves a practical tradeoff between the immediate lower cost of a repair versus the greater longevity and comprehensive protection offered by a full replacement.",
+        "@type": "Answer",
+        "description": "Consider replacing eaves when damage is extensive, widespread, or systemic. If over 25-30% shows significant rot, replacement is often more cost-effective long-term."
+      }
+    }
+  ],
+  "description": "Consider replacing eaves when damage is extensive, widespread, or systemic. If over 25-30% shows significant rot, replacement is often more cost-effective long-"
 }

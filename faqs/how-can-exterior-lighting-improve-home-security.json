@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can exterior lighting improve home security?",
-  "description": "Exterior lighting deters intruders by eliminating dark spots and increasing visibility around your home. Motion-activated lights and consistent illumination enh",
   "url": "https://hometelligentinc.com/faq/how-can-exterior-lighting-improve-home-security",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can exterior lighting improve home security?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Exterior lighting enhances home security by deterring intruders and increasing visibility. Well-placed security lights, such as motion-activated floodlights, eliminate dark areas around your property, making it less appealing for unauthorized access. Consistent illumination around entry points, windows, and perimeter areas makes it harder for potential trespassers to operate unnoticed. Hometelligent Inc. can strategically install lighting that integrates with existing security systems, providing an extra layer of protection and peace of mind.",
-        "description": "Exterior lighting deters intruders by eliminating dark spots and increasing visibility around your home. Motion-activated lights and consistent illumination enhance security."
-      }
-    }
-  ],
+  "name": "How can exterior lighting improve home security?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can exterior lighting improve home security?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Exterior lighting enhances home security by deterring intruders and increasing visibility. Well-placed security lights, such as motion-activated floodlights, eliminate dark areas around your property, making it less appealing for unauthorized access. Consistent illumination around entry points, windows, and perimeter areas makes it harder for potential trespassers to operate unnoticed. Hometelligent Inc. can strategically install lighting that integrates with existing security systems, providing an extra layer of protection and peace of mind.",
+        "@type": "Answer",
+        "description": "Exterior lighting deters intruders by eliminating dark spots and increasing visibility around your home. Motion-activated lights and consistent illumination enhance security."
+      }
+    }
+  ],
+  "description": "Exterior lighting deters intruders by eliminating dark spots and increasing visibility around your home. Motion-activated lights and consistent illumination enh"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for a front porch?",
-  "description": "Maintenance varies by material: wood needs cleaning, staining/painting; composite requires cleaning; concrete may need sealing. Regular inspections are key for",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-front-porch",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for a front porch?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Front porch maintenance depends largely on the materials used. Wood porches typically require periodic cleaning, staining or painting every few years to protect against rot, insects, and weathering. Composite decking is lower maintenance, generally only needing occasional cleaning with soap and water. Concrete porches are very durable but may benefit from sealing to prevent stains and cracks. Regular inspection for loose boards, railings, or signs of wear is recommended for all types to ensure safety and longevity. Proactive maintenance helps extend the life and appearance of your investment.",
-        "description": "Maintenance varies by material: wood needs cleaning, staining/painting; composite requires cleaning; concrete may need sealing. Regular inspections are key for all types."
-      }
-    }
-  ],
+  "name": "What maintenance is required for a front porch?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for a front porch?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Front porch maintenance depends largely on the materials used. Wood porches typically require periodic cleaning, staining or painting every few years to protect against rot, insects, and weathering. Composite decking is lower maintenance, generally only needing occasional cleaning with soap and water. Concrete porches are very durable but may benefit from sealing to prevent stains and cracks. Regular inspection for loose boards, railings, or signs of wear is recommended for all types to ensure safety and longevity. Proactive maintenance helps extend the life and appearance of your investment.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material: wood needs cleaning, staining/painting; composite requires cleaning; concrete may need sealing. Regular inspections are key for all types."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material: wood needs cleaning, staining/painting; composite requires cleaning; concrete may need sealing. Regular inspections are key for"
 }

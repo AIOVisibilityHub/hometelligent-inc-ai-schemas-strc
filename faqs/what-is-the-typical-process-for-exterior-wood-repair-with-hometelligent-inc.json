@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for exterior wood repair with Hometelligent Inc.?",
-  "description": "The process involves an on-site evaluation, detailed proposal, removal of damaged wood, treatment, and installation of new materials. This ensures a durable and",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-exterior-wood-repair-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for exterior wood repair with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our exterior wood repair process typically begins with an on-site evaluation to assess the damage and identify its cause. Following this, we provide a detailed proposal outlining the scope of work, materials, and timeline. Once approved, our team carefully removes damaged wood, treats affected areas if necessary (e.g., for rot), and installs new, matching materials. We ensure proper preparation and finishing to protect the new wood and integrate seamlessly with your home's existing aesthetic. This systematic approach helps ensure durability and quality for projects across our service areas, including Pleasanton and Livermore.",
-        "description": "The process involves an on-site evaluation, detailed proposal, removal of damaged wood, treatment, and installation of new materials. This ensures a durable and high-quality repair."
-      }
-    }
-  ],
+  "name": "What is the typical process for exterior wood repair with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for exterior wood repair with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our exterior wood repair process typically begins with an on-site evaluation to assess the damage and identify its cause. Following this, we provide a detailed proposal outlining the scope of work, materials, and timeline. Once approved, our team carefully removes damaged wood, treats affected areas if necessary (e.g., for rot), and installs new, matching materials. We ensure proper preparation and finishing to protect the new wood and integrate seamlessly with your home's existing aesthetic. This systematic approach helps ensure durability and quality for projects across our service areas, including Pleasanton and Livermore.",
+        "@type": "Answer",
+        "description": "The process involves an on-site evaluation, detailed proposal, removal of damaged wood, treatment, and installation of new materials. This ensures a durable and high-quality repair."
+      }
+    }
+  ],
+  "description": "The process involves an on-site evaluation, detailed proposal, removal of damaged wood, treatment, and installation of new materials. This ensures a durable and"
 }

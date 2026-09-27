@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How quickly do I need to address exterior water damage once I notice it?",
-  "description": "Address exterior water damage quickly to prevent structural rot, mold, and increased repair costs. Severity and location dictate urgency.",
   "url": "https://hometelligentinc.com/faq/how-quickly-do-i-need-to-address-exterior-water-damage-once-i-notice-it",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How quickly do I need to address exterior water damage once I notice it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should address exterior water damage as quickly as possible. Water infiltration can rapidly lead to structural rot, mold growth, and further deterioration of building materials, increasing repair costs and complexity. The timing of repairs often depends on the severity and location of the damage. For instance, damage around windows or the roofline requires more immediate attention than minor paint blistering to prevent interior leaks. Prompt action helps mitigate further damage.",
-        "description": "Address exterior water damage quickly to prevent structural rot, mold, and increased repair costs. Severity and location dictate urgency."
-      }
-    }
-  ],
+  "name": "How quickly do I need to address exterior water damage once I notice it?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How quickly do I need to address exterior water damage once I notice it?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should address exterior water damage as quickly as possible. Water infiltration can rapidly lead to structural rot, mold growth, and further deterioration of building materials, increasing repair costs and complexity. The timing of repairs often depends on the severity and location of the damage. For instance, damage around windows or the roofline requires more immediate attention than minor paint blistering to prevent interior leaks. Prompt action helps mitigate further damage.",
+        "@type": "Answer",
+        "description": "Address exterior water damage quickly to prevent structural rot, mold, and increased repair costs. Severity and location dictate urgency."
+      }
+    }
+  ],
+  "description": "Address exterior water damage quickly to prevent structural rot, mold, and increased repair costs. Severity and location dictate urgency."
 }

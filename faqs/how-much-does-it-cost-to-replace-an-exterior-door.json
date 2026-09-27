@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to replace an exterior door?",
-  "description": "Costs vary based on door material, size, style, hardware, and any needed frame repairs. A detailed quote follows an on-site assessment.",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-replace-an-exterior-door",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to replace an exterior door?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of exterior door replacement varies widely based on the type of door material (steel, fiberglass, wood), its size, style, hardware choices, and any necessary frame repairs or modifications. Custom doors or those with advanced security features typically cost more. Hometelligent Inc. provides a detailed, itemized quote after an on-site assessment in the Alameda, Albany, Berkeley, or Emeryville area, ensuring transparency and addressing specific project requirements.",
-        "description": "Costs vary based on door material, size, style, hardware, and any needed frame repairs. A detailed quote follows an on-site assessment."
-      }
-    }
-  ],
+  "name": "How much does it cost to replace an exterior door?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to replace an exterior door?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of exterior door replacement varies widely based on the type of door material (steel, fiberglass, wood), its size, style, hardware choices, and any necessary frame repairs or modifications. Custom doors or those with advanced security features typically cost more. Hometelligent Inc. provides a detailed, itemized quote after an on-site assessment in the Alameda, Albany, Berkeley, or Emeryville area, ensuring transparency and addressing specific project requirements.",
+        "@type": "Answer",
+        "description": "Costs vary based on door material, size, style, hardware, and any needed frame repairs. A detailed quote follows an on-site assessment."
+      }
+    }
+  ],
+  "description": "Costs vary based on door material, size, style, hardware, and any needed frame repairs. A detailed quote follows an on-site assessment."
 }

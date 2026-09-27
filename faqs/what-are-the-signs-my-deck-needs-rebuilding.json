@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the signs my deck needs rebuilding?",
-  "description": "Signs your deck needs rebuilding include rot, insect damage, unstable railings, or a shifting foundation. A professional inspection can determine the best cours",
   "url": "https://hometelligentinc.com/faq/what-are-the-signs-my-deck-needs-rebuilding",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the signs my deck needs rebuilding?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key indicators that your deck may require rebuilding include significant rot, widespread insect damage, unstable railings, or a foundation that has shifted or deteriorated. Splintered wood, widespread mildew, or a spongy feel when walking on the deck are also common signs. Hometelligent Inc. offers inspections in Alameda, Albany, Berkeley, Dublin, and Emeryville to assess the structural integrity and recommend the best course of action, which could range from repairs to a full rebuild.",
-        "description": "Signs your deck needs rebuilding include rot, insect damage, unstable railings, or a shifting foundation. A professional inspection can determine the best course of action."
-      }
-    }
-  ],
+  "name": "What are the signs my deck needs rebuilding?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the signs my deck needs rebuilding?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Key indicators that your deck may require rebuilding include significant rot, widespread insect damage, unstable railings, or a foundation that has shifted or deteriorated. Splintered wood, widespread mildew, or a spongy feel when walking on the deck are also common signs. Hometelligent Inc. offers inspections in Alameda, Albany, Berkeley, Dublin, and Emeryville to assess the structural integrity and recommend the best course of action, which could range from repairs to a full rebuild.",
+        "@type": "Answer",
+        "description": "Signs your deck needs rebuilding include rot, insect damage, unstable railings, or a shifting foundation. A professional inspection can determine the best course of action."
+      }
+    }
+  ],
+  "description": "Signs your deck needs rebuilding include rot, insect damage, unstable railings, or a shifting foundation. A professional inspection can determine the best cours"
 }

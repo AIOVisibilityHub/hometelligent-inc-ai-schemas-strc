@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to build new exterior stairs?",
-  "description": "Building new exterior stairs can take from a few days for simple designs to several weeks for complex ones, depending on materials, design, and site conditions.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-new-exterior-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to build new exterior stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration for building new exterior stairs varies significantly based on complexity, material choice, and site conditions. Simple wooden stairs might take a few days, while complex designs with concrete or custom masonry can extend to several weeks. Factors like weather, accessibility of the site, and the need for excavation or specialized equipment also influence the timeline. We provide a detailed project schedule upfront, outlining key milestones and estimated completion dates for projects in areas like Berkeley and Oakland.",
-        "description": "Building new exterior stairs can take from a few days for simple designs to several weeks for complex ones, depending on materials, design, and site conditions."
-      }
-    }
-  ],
+  "name": "How long does it take to build new exterior stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to build new exterior stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration for building new exterior stairs varies significantly based on complexity, material choice, and site conditions. Simple wooden stairs might take a few days, while complex designs with concrete or custom masonry can extend to several weeks. Factors like weather, accessibility of the site, and the need for excavation or specialized equipment also influence the timeline. We provide a detailed project schedule upfront, outlining key milestones and estimated completion dates for projects in areas like Berkeley and Oakland.",
+        "@type": "Answer",
+        "description": "Building new exterior stairs can take from a few days for simple designs to several weeks for complex ones, depending on materials, design, and site conditions."
+      }
+    }
+  ],
+  "description": "Building new exterior stairs can take from a few days for simple designs to several weeks for complex ones, depending on materials, design, and site conditions."
 }

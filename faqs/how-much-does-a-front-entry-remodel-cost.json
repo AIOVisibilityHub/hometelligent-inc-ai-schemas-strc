@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does a front entry remodel cost?",
-  "description": "Costs vary based on materials, design complexity, and structural changes. A detailed estimate is provided after consultation.",
   "url": "https://hometelligentinc.com/faq/how-much-does-a-front-entry-remodel-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does a front entry remodel cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a front entry remodel can vary significantly based on the materials chosen, the complexity of the design, and the extent of structural changes. A basic door replacement will be less expensive than a complete porch overhaul with custom elements. We provide detailed estimates after an initial consultation, breaking down costs for labor, materials, and any necessary permits. Understanding these line items helps manage your budget effectively.",
-        "description": "Costs vary based on materials, design complexity, and structural changes. A detailed estimate is provided after consultation."
-      }
-    }
-  ],
+  "name": "How much does a front entry remodel cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does a front entry remodel cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a front entry remodel can vary significantly based on the materials chosen, the complexity of the design, and the extent of structural changes. A basic door replacement will be less expensive than a complete porch overhaul with custom elements. We provide detailed estimates after an initial consultation, breaking down costs for labor, materials, and any necessary permits. Understanding these line items helps manage your budget effectively.",
+        "@type": "Answer",
+        "description": "Costs vary based on materials, design complexity, and structural changes. A detailed estimate is provided after consultation."
+      }
+    }
+  ],
+  "description": "Costs vary based on materials, design complexity, and structural changes. A detailed estimate is provided after consultation."
 }

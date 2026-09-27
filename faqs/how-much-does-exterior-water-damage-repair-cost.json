@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does exterior water damage repair cost?",
-  "description": "Repair costs vary based on damage extent, materials, and accessibility. Minor repairs are hundreds, extensive damage thousands. Documentation helps with accurat",
   "url": "https://hometelligentinc.com/faq/how-much-does-exterior-water-damage-repair-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does exterior water damage repair cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of exterior water damage repair varies widely based on the extent of the damage, the materials needing replacement, and the accessibility of the affected areas. Minor repairs might involve a few hundred dollars, while extensive structural damage could run into several thousands. A thorough inspection is essential to provide an accurate estimate. Preparing by documenting the damage with photos and noting any contributing factors can help us assess the situation more accurately and provide a precise quote.",
-        "description": "Repair costs vary based on damage extent, materials, and accessibility. Minor repairs are hundreds, extensive damage thousands. Documentation helps with accurate estimates."
-      }
-    }
-  ],
+  "name": "How much does exterior water damage repair cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does exterior water damage repair cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of exterior water damage repair varies widely based on the extent of the damage, the materials needing replacement, and the accessibility of the affected areas. Minor repairs might involve a few hundred dollars, while extensive structural damage could run into several thousands. A thorough inspection is essential to provide an accurate estimate. Preparing by documenting the damage with photos and noting any contributing factors can help us assess the situation more accurately and provide a precise quote.",
+        "@type": "Answer",
+        "description": "Repair costs vary based on damage extent, materials, and accessibility. Minor repairs are hundreds, extensive damage thousands. Documentation helps with accurate estimates."
+      }
+    }
+  ],
+  "description": "Repair costs vary based on damage extent, materials, and accessibility. Minor repairs are hundreds, extensive damage thousands. Documentation helps with accurat"
 }

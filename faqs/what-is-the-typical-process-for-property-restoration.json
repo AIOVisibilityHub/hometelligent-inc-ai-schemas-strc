@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for property restoration?",
-  "description": "The process includes assessment, mitigation, cleanup, drying, structural repairs, and reconstruction to restore the property.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-property-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for property restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical property restoration process begins with an initial assessment and damage mitigation, such as water extraction or temporary repairs. This is followed by a detailed scope of work, including cleanup, drying, and structural repairs. Reconstruction then proceeds, often involving demolition of unsalvageable materials, followed by rebuilding and finishing touches. Customers should prepare to provide access for initial inspection and be available for discussions regarding material choices and scheduling throughout the reconstruction phase.",
-        "description": "The process includes assessment, mitigation, cleanup, drying, structural repairs, and reconstruction to restore the property."
-      }
-    }
-  ],
+  "name": "What is the typical process for property restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for property restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical property restoration process begins with an initial assessment and damage mitigation, such as water extraction or temporary repairs. This is followed by a detailed scope of work, including cleanup, drying, and structural repairs. Reconstruction then proceeds, often involving demolition of unsalvageable materials, followed by rebuilding and finishing touches. Customers should prepare to provide access for initial inspection and be available for discussions regarding material choices and scheduling throughout the reconstruction phase.",
+        "@type": "Answer",
+        "description": "The process includes assessment, mitigation, cleanup, drying, structural repairs, and reconstruction to restore the property."
+      }
+    }
+  ],
+  "description": "The process includes assessment, mitigation, cleanup, drying, structural repairs, and reconstruction to restore the property."
 }

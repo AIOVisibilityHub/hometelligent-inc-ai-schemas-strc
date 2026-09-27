@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can you handle emergency storm damage repairs?",
-  "description": "Yes, we offer emergency storm damage repairs like tarping and boarding up to secure your property and prevent further damage. Prompt action can reduce overall c",
   "url": "https://hometelligentinc.com/faq/can-you-handle-emergency-storm-damage-repairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can you handle emergency storm damage repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we provide emergency storm damage repair services to secure your property and prevent further damage immediately after a storm. This often includes services like tarping roofs, boarding up windows, and water extraction. Contacting us quickly after an incident is important because immediate mitigation can significantly reduce the overall repair costs and prevent secondary issues like mold growth.",
-        "description": "Yes, we offer emergency storm damage repairs like tarping and boarding up to secure your property and prevent further damage. Prompt action can reduce overall costs."
-      }
-    }
-  ],
+  "name": "Can you handle emergency storm damage repairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can you handle emergency storm damage repairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, we provide emergency storm damage repair services to secure your property and prevent further damage immediately after a storm. This often includes services like tarping roofs, boarding up windows, and water extraction. Contacting us quickly after an incident is important because immediate mitigation can significantly reduce the overall repair costs and prevent secondary issues like mold growth.",
+        "@type": "Answer",
+        "description": "Yes, we offer emergency storm damage repairs like tarping and boarding up to secure your property and prevent further damage. Prompt action can reduce overall costs."
+      }
+    }
+  ],
+  "description": "Yes, we offer emergency storm damage repairs like tarping and boarding up to secure your property and prevent further damage. Prompt action can reduce overall c"
 }

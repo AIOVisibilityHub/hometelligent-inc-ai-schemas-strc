@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can bi-fold doors be installed in any existing wall opening?",
-  "description": "Installation depends on the wall's structural integrity and opening dimensions; modifications may be needed to accommodate the doors.",
   "url": "https://hometelligentinc.com/faq/can-bi-fold-doors-be-installed-in-any-existing-wall-opening",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can bi-fold doors be installed in any existing wall opening?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While bi-fold doors can be installed in many existing wall openings, the feasibility depends on the structural integrity of the wall and the dimensions of the opening. It may be necessary to enlarge or reinforce the opening to accommodate the door's weight and operational requirements. A practical tradeoff is that a wider opening provides a more dramatic effect but may require more extensive structural work, impacting both cost and installation time. Our team assesses your current structure to determine the best approach.",
-        "description": "Installation depends on the wall's structural integrity and opening dimensions; modifications may be needed to accommodate the doors."
-      }
-    }
-  ],
+  "name": "Can bi-fold doors be installed in any existing wall opening?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can bi-fold doors be installed in any existing wall opening?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While bi-fold doors can be installed in many existing wall openings, the feasibility depends on the structural integrity of the wall and the dimensions of the opening. It may be necessary to enlarge or reinforce the opening to accommodate the door's weight and operational requirements. A practical tradeoff is that a wider opening provides a more dramatic effect but may require more extensive structural work, impacting both cost and installation time. Our team assesses your current structure to determine the best approach.",
+        "@type": "Answer",
+        "description": "Installation depends on the wall's structural integrity and opening dimensions; modifications may be needed to accommodate the doors."
+      }
+    }
+  ],
+  "description": "Installation depends on the wall's structural integrity and opening dimensions; modifications may be needed to accommodate the doors."
 }

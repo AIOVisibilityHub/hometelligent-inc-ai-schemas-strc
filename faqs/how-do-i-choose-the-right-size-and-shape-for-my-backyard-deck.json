@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right size and shape for my backyard deck?",
-  "description": "Select deck size and shape based on intended use, yard dimensions, home style, and existing landscape. We help assess your space for optimal design.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-size-and-shape-for-my-backyard-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right size and shape for my backyard deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right size and shape for your backyard deck involves considering how you plan to use the space, the size of your yard, and your home's architectural style. For example, a deck primarily for dining might need space for a table and chairs, while one for entertaining might benefit from multiple zones. You should also consider the flow from your home and any existing landscape features. We can help assess your outdoor area during a consultation, providing design suggestions that maximize functionality and aesthetic appeal while fitting within local setback requirements.",
-        "description": "Select deck size and shape based on intended use, yard dimensions, home style, and existing landscape. We help assess your space for optimal design."
-      }
-    }
-  ],
+  "name": "How do I choose the right size and shape for my backyard deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right size and shape for my backyard deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right size and shape for your backyard deck involves considering how you plan to use the space, the size of your yard, and your home's architectural style. For example, a deck primarily for dining might need space for a table and chairs, while one for entertaining might benefit from multiple zones. You should also consider the flow from your home and any existing landscape features. We can help assess your outdoor area during a consultation, providing design suggestions that maximize functionality and aesthetic appeal while fitting within local setback requirements.",
+        "@type": "Answer",
+        "description": "Select deck size and shape based on intended use, yard dimensions, home style, and existing landscape. We help assess your space for optimal design."
+      }
+    }
+  ],
+  "description": "Select deck size and shape based on intended use, yard dimensions, home style, and existing landscape. We help assess your space for optimal design."
 }

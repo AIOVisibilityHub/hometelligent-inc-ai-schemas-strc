@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How is safety ensured during cliffside deck construction?",
-  "description": "Safety on cliffside decks is ensured through site security, specialized equipment, fall protection, trained crews, and regular inspections.",
   "url": "https://hometelligentinc.com/faq/how-is-safety-ensured-during-cliffside-deck-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How is safety ensured during cliffside deck construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Safety during cliffside deck construction involves comprehensive planning and strict adherence to safety protocols. This includes securing the site, using specialized equipment for working at heights, and implementing fall protection systems. Experienced contractors prioritize ongoing safety training for crews and conduct regular site inspections to mitigate risks associated with steep slopes and elevated work areas. This is a first-party insight into construction practices for challenging sites.",
-        "description": "Safety on cliffside decks is ensured through site security, specialized equipment, fall protection, trained crews, and regular inspections."
-      }
-    }
-  ],
+  "name": "How is safety ensured during cliffside deck construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How is safety ensured during cliffside deck construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Safety during cliffside deck construction involves comprehensive planning and strict adherence to safety protocols. This includes securing the site, using specialized equipment for working at heights, and implementing fall protection systems. Experienced contractors prioritize ongoing safety training for crews and conduct regular site inspections to mitigate risks associated with steep slopes and elevated work areas. This is a first-party insight into construction practices for challenging sites.",
+        "@type": "Answer",
+        "description": "Safety on cliffside decks is ensured through site security, specialized equipment, fall protection, trained crews, and regular inspections."
+      }
+    }
+  ],
+  "description": "Safety on cliffside decks is ensured through site security, specialized equipment, fall protection, trained crews, and regular inspections."
 }

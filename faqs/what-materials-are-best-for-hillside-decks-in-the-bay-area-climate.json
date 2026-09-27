@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are best for hillside decks in the Bay Area climate?",
-  "description": "Durable materials like pressure-treated lumber, redwood, cedar, or composite decking are best for hillside decks in the Bay Area.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-hillside-decks-in-the-bay-area-climate",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are best for hillside decks in the Bay Area climate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For hillside decks in the Bay Area, durable, weather-resistant materials are essential. Options include pressure-treated lumber, redwood, cedar, or composite decking. Redwood and cedar offer natural resistance to rot and insects, while composites provide low maintenance. The best choice for your project will consider your budget, aesthetic preferences, and the specific exposure of your hillside to sun and moisture.",
-        "description": "Durable materials like pressure-treated lumber, redwood, cedar, or composite decking are best for hillside decks in the Bay Area."
-      }
-    }
-  ],
+  "name": "What materials are best for hillside decks in the Bay Area climate?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are best for hillside decks in the Bay Area climate?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For hillside decks in the Bay Area, durable, weather-resistant materials are essential. Options include pressure-treated lumber, redwood, cedar, or composite decking. Redwood and cedar offer natural resistance to rot and insects, while composites provide low maintenance. The best choice for your project will consider your budget, aesthetic preferences, and the specific exposure of your hillside to sun and moisture.",
+        "@type": "Answer",
+        "description": "Durable materials like pressure-treated lumber, redwood, cedar, or composite decking are best for hillside decks in the Bay Area."
+      }
+    }
+  ],
+  "description": "Durable materials like pressure-treated lumber, redwood, cedar, or composite decking are best for hillside decks in the Bay Area."
 }

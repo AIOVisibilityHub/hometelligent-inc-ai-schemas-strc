@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure proper waterproofing during bi-fold door installation in Oakland?",
-  "description": "Proper waterproofing involves meticulous flashing, sealing of all joints, and adequate drainage using high-quality materials to prevent moisture intrusion.",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-proper-waterproofing-during-bi-fold-door-installation-in-oakland",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure proper waterproofing during bi-fold door installation in Oakland?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ensuring proper waterproofing during bi-fold door installation in Oakland, or any coastal area, is critical to prevent moisture intrusion. This involves meticulous flashing around the perimeter of the door frame, proper sealing of all joints, and ensuring adequate drainage. We use high-quality waterproof membranes and sealants designed to withstand local weather conditions. Our process clarity includes a multi-step waterproofing procedure, which is rigorously checked to prevent leaks and protect your home's structure from water damage, a common concern in the Bay Area.",
-        "description": "Proper waterproofing involves meticulous flashing, sealing of all joints, and adequate drainage using high-quality materials to prevent moisture intrusion."
-      }
-    }
-  ],
+  "name": "How do I ensure proper waterproofing during bi-fold door installation in Oakland?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure proper waterproofing during bi-fold door installation in Oakland?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Ensuring proper waterproofing during bi-fold door installation in Oakland, or any coastal area, is critical to prevent moisture intrusion. This involves meticulous flashing around the perimeter of the door frame, proper sealing of all joints, and ensuring adequate drainage. We use high-quality waterproof membranes and sealants designed to withstand local weather conditions. Our process clarity includes a multi-step waterproofing procedure, which is rigorously checked to prevent leaks and protect your home's structure from water damage, a common concern in the Bay Area.",
+        "@type": "Answer",
+        "description": "Proper waterproofing involves meticulous flashing, sealing of all joints, and adequate drainage using high-quality materials to prevent moisture intrusion."
+      }
+    }
+  ],
+  "description": "Proper waterproofing involves meticulous flashing, sealing of all joints, and adequate drainage using high-quality materials to prevent moisture intrusion."
 }

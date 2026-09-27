@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What foundation types are suitable for decks on sloped properties?",
-  "description": "Suitable foundations for hillside decks include concrete piers, caissons, or helical piles, selected based on soil conditions and slope.",
   "url": "https://hometelligentinc.com/faq/what-foundation-types-are-suitable-for-decks-on-sloped-properties",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What foundation types are suitable for decks on sloped properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Foundations for hillside decks often include concrete piers, caissons, or helical piles, chosen based on soil conditions, slope steepness, and deck size. Caissons, drilled deep into the ground and filled with concrete and rebar, are common for steeper slopes to ensure stability. Your choice of foundation will depend on a geotechnical report assessing the soil composition and stability of your specific property.",
-        "description": "Suitable foundations for hillside decks include concrete piers, caissons, or helical piles, selected based on soil conditions and slope."
-      }
-    }
-  ],
+  "name": "What foundation types are suitable for decks on sloped properties?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What foundation types are suitable for decks on sloped properties?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Foundations for hillside decks often include concrete piers, caissons, or helical piles, chosen based on soil conditions, slope steepness, and deck size. Caissons, drilled deep into the ground and filled with concrete and rebar, are common for steeper slopes to ensure stability. Your choice of foundation will depend on a geotechnical report assessing the soil composition and stability of your specific property.",
+        "@type": "Answer",
+        "description": "Suitable foundations for hillside decks include concrete piers, caissons, or helical piles, selected based on soil conditions and slope."
+      }
+    }
+  ],
+  "description": "Suitable foundations for hillside decks include concrete piers, caissons, or helical piles, selected based on soil conditions and slope."
 }

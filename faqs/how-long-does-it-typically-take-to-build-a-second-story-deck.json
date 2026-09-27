@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it typically take to build a second-story deck?",
-  "description": "Second-story deck construction typically takes 3-6 weeks after permits are secured, depending on size, complexity, and material availability. Weather or custom",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-build-a-second-story-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it typically take to build a second-story deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The construction timeline for a second-story deck varies based on its size, design complexity, material availability, and the local permit approval process. On average, once permits are secured and materials are on-site, a standard second-story deck might take 3-6 weeks to complete. Unforeseen weather conditions or complex custom features can extend this timeframe. We provide a projected timeline during the planning phase.",
-        "description": "Second-story deck construction typically takes 3-6 weeks after permits are secured, depending on size, complexity, and material availability. Weather or custom features can extend this."
-      }
-    }
-  ],
+  "name": "How long does it typically take to build a second-story deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it typically take to build a second-story deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The construction timeline for a second-story deck varies based on its size, design complexity, material availability, and the local permit approval process. On average, once permits are secured and materials are on-site, a standard second-story deck might take 3-6 weeks to complete. Unforeseen weather conditions or complex custom features can extend this timeframe. We provide a projected timeline during the planning phase.",
+        "@type": "Answer",
+        "description": "Second-story deck construction typically takes 3-6 weeks after permits are secured, depending on size, complexity, and material availability. Weather or custom features can extend this."
+      }
+    }
+  ],
+  "description": "Second-story deck construction typically takes 3-6 weeks after permits are secured, depending on size, complexity, and material availability. Weather or custom"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the construction process for an elevated deck?",
-  "description": "The construction process involves site preparation, foundation, framing, decking installation, railings, and stairs, with integrated permitting and inspections.",
   "url": "https://hometelligentinc.com/faq/what-is-the-construction-process-for-an-elevated-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the construction process for an elevated deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The construction process for an elevated deck typically begins with site preparation and foundation work, followed by framing the deck structure, installing decking boards, and adding railings and stairs. Permitting and inspections are integrated throughout to ensure compliance with local building codes. Our team manages each phase, including post-construction clean-up, to ensure a smooth and efficient project completion.",
-        "description": "The construction process involves site preparation, foundation, framing, decking installation, railings, and stairs, with integrated permitting and inspections."
-      }
-    }
-  ],
+  "name": "What is the construction process for an elevated deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the construction process for an elevated deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The construction process for an elevated deck typically begins with site preparation and foundation work, followed by framing the deck structure, installing decking boards, and adding railings and stairs. Permitting and inspections are integrated throughout to ensure compliance with local building codes. Our team manages each phase, including post-construction clean-up, to ensure a smooth and efficient project completion.",
+        "@type": "Answer",
+        "description": "The construction process involves site preparation, foundation, framing, decking installation, railings, and stairs, with integrated permitting and inspections."
+      }
+    }
+  ],
+  "description": "The construction process involves site preparation, foundation, framing, decking installation, railings, and stairs, with integrated permitting and inspections."
 }

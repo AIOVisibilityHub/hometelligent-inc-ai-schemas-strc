@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does hillside terrain impact the cost of deck construction?",
-  "description": "Sloped terrain increases deck construction costs due to complex engineering, specialized foundations, and higher labor for excavation and material handling.",
   "url": "https://hometelligentinc.com/faq/how-does-hillside-terrain-impact-the-cost-of-deck-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does hillside terrain impact the cost of deck construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hillside terrain significantly impacts deck construction costs due to increased engineering requirements, specialized foundation systems (like caissons or helical piles), and more complex material delivery. Sloped sites often necessitate more labor for excavation and material handling compared to flat sites. The steeper the slope, the greater the potential for additional costs related to access and structural support.",
-        "description": "Sloped terrain increases deck construction costs due to complex engineering, specialized foundations, and higher labor for excavation and material handling."
-      }
-    }
-  ],
+  "name": "How does hillside terrain impact the cost of deck construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does hillside terrain impact the cost of deck construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hillside terrain significantly impacts deck construction costs due to increased engineering requirements, specialized foundation systems (like caissons or helical piles), and more complex material delivery. Sloped sites often necessitate more labor for excavation and material handling compared to flat sites. The steeper the slope, the greater the potential for additional costs related to access and structural support.",
+        "@type": "Answer",
+        "description": "Sloped terrain increases deck construction costs due to complex engineering, specialized foundations, and higher labor for excavation and material handling."
+      }
+    }
+  ],
+  "description": "Sloped terrain increases deck construction costs due to complex engineering, specialized foundations, and higher labor for excavation and material handling."
 }

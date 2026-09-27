@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a second-story deck?",
-  "description": "Cost factors include deck size, material type, design complexity, and site conditions. Hometelligent Inc. provides detailed estimates after a site consultation.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-second-story-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a second-story deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a second-story deck is influenced by several factors, including the deck's size, material choices (e.g., pressure-treated wood, composite, exotic hardwoods), complexity of the design, and site-specific conditions. For example, a cantilevered design or one requiring extensive foundation work will typically incur higher costs than a simpler, post-supported structure. We provide detailed estimates after an on-site consultation to accurately assess these variables.",
-        "description": "Cost factors include deck size, material type, design complexity, and site conditions. Hometelligent Inc. provides detailed estimates after a site consultation."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a second-story deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a second-story deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a second-story deck is influenced by several factors, including the deck's size, material choices (e.g., pressure-treated wood, composite, exotic hardwoods), complexity of the design, and site-specific conditions. For example, a cantilevered design or one requiring extensive foundation work will typically incur higher costs than a simpler, post-supported structure. We provide detailed estimates after an on-site consultation to accurately assess these variables.",
+        "@type": "Answer",
+        "description": "Cost factors include deck size, material type, design complexity, and site conditions. Hometelligent Inc. provides detailed estimates after a site consultation."
+      }
+    }
+  ],
+  "description": "Cost factors include deck size, material type, design complexity, and site conditions. Hometelligent Inc. provides detailed estimates after a site consultation."
 }

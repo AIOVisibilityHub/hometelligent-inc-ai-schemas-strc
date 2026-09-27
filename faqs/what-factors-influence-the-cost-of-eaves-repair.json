@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of eaves repair?",
-  "description": "Eaves repair cost is influenced by damage extent, material type, and accessibility. Extensive or complex repairs typically cost more.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-eaves-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of eaves repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of eaves repair is primarily influenced by the extent of the damage, the type of materials required, and the accessibility of the affected areas. Minor repairs to small sections will be less expensive than extensive damage that necessitates replacing long runs of fascia or soffit, especially if structural components like rafter tails are also compromised. Additionally, the complexity of the roofline and any specialized equipment needed for access can also impact the overall cost. Obtaining a detailed estimate that outlines these factors is key.",
-        "description": "Eaves repair cost is influenced by damage extent, material type, and accessibility. Extensive or complex repairs typically cost more."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of eaves repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of eaves repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of eaves repair is primarily influenced by the extent of the damage, the type of materials required, and the accessibility of the affected areas. Minor repairs to small sections will be less expensive than extensive damage that necessitates replacing long runs of fascia or soffit, especially if structural components like rafter tails are also compromised. Additionally, the complexity of the roofline and any specialized equipment needed for access can also impact the overall cost. Obtaining a detailed estimate that outlines these factors is key.",
+        "@type": "Answer",
+        "description": "Eaves repair cost is influenced by damage extent, material type, and accessibility. Extensive or complex repairs typically cost more."
+      }
+    }
+  ],
+  "description": "Eaves repair cost is influenced by damage extent, material type, and accessibility. Extensive or complex repairs typically cost more."
 }

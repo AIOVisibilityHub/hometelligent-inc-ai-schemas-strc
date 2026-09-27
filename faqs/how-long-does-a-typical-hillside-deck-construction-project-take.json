@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical hillside deck construction project take?",
-  "description": "Hillside deck construction typically takes several weeks to a few months, depending on permits, site accessibility, and design complexity.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-hillside-deck-construction-project-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical hillside deck construction project take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of hillside deck construction can vary significantly, ranging from several weeks to a few months. Factors like permit approval times, site accessibility, complexity of the design, and weather conditions all influence the timeline. Projects on steeper hillsides or those requiring extensive foundation work typically take longer due to the specialized nature of the construction.",
-        "description": "Hillside deck construction typically takes several weeks to a few months, depending on permits, site accessibility, and design complexity."
-      }
-    }
-  ],
+  "name": "How long does a typical hillside deck construction project take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical hillside deck construction project take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of hillside deck construction can vary significantly, ranging from several weeks to a few months. Factors like permit approval times, site accessibility, complexity of the design, and weather conditions all influence the timeline. Projects on steeper hillsides or those requiring extensive foundation work typically take longer due to the specialized nature of the construction.",
+        "@type": "Answer",
+        "description": "Hillside deck construction typically takes several weeks to a few months, depending on permits, site accessibility, and design complexity."
+      }
+    }
+  ],
+  "description": "Hillside deck construction typically takes several weeks to a few months, depending on permits, site accessibility, and design complexity."
 }

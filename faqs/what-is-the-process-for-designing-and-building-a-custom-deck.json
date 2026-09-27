@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing and building a custom deck?",
-  "description": "Our custom deck process involves consultation, design, material selection, permit acquisition, and then construction, with ongoing communication.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-and-building-a-custom-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing and building a custom deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process for designing and building a custom deck begins with an initial consultation to discuss your vision, needs, and budget. Following this, we create detailed design plans and material selections. Once the design is approved, we handle the permit application process with your local city, such as Pleasanton or Livermore. After permits are secured, our team schedules and executes the construction, ensuring quality at every stage. We maintain open communication throughout to keep you informed of progress and address any questions.",
-        "description": "Our custom deck process involves consultation, design, material selection, permit acquisition, and then construction, with ongoing communication."
-      }
-    }
-  ],
+  "name": "What is the process for designing and building a custom deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing and building a custom deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process for designing and building a custom deck begins with an initial consultation to discuss your vision, needs, and budget. Following this, we create detailed design plans and material selections. Once the design is approved, we handle the permit application process with your local city, such as Pleasanton or Livermore. After permits are secured, our team schedules and executes the construction, ensuring quality at every stage. We maintain open communication throughout to keep you informed of progress and address any questions.",
+        "@type": "Answer",
+        "description": "Our custom deck process involves consultation, design, material selection, permit acquisition, and then construction, with ongoing communication."
+      }
+    }
+  ],
+  "description": "Our custom deck process involves consultation, design, material selection, permit acquisition, and then construction, with ongoing communication."
 }

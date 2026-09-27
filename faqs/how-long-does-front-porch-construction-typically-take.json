@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does front porch construction typically take?",
-  "description": "Front porch construction time varies by size, design, and materials, from a few days for simple porches to several weeks for complex ones. Permitting and weathe",
   "url": "https://hometelligentinc.com/faq/how-long-does-front-porch-construction-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does front porch construction typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for front porch construction can vary depending on its size, design complexity, and material choices. A simple, small porch might take a few days to a week, while a larger, more intricate design with a roof or extensive foundation work could extend to several weeks. Permitting processes, material availability, and weather conditions can also affect project duration. Hometelligent Inc. aims to provide a clear project schedule upfront, outlining key milestones and estimated completion dates so you know what to expect from start to finish.",
-        "description": "Front porch construction time varies by size, design, and materials, from a few days for simple porches to several weeks for complex ones. Permitting and weather can also influence the timeline."
-      }
-    }
-  ],
+  "name": "How long does front porch construction typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does front porch construction typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for front porch construction can vary depending on its size, design complexity, and material choices. A simple, small porch might take a few days to a week, while a larger, more intricate design with a roof or extensive foundation work could extend to several weeks. Permitting processes, material availability, and weather conditions can also affect project duration. Hometelligent Inc. aims to provide a clear project schedule upfront, outlining key milestones and estimated completion dates so you know what to expect from start to finish.",
+        "@type": "Answer",
+        "description": "Front porch construction time varies by size, design, and materials, from a few days for simple porches to several weeks for complex ones. Permitting and weather can also influence the timeline."
+      }
+    }
+  ],
+  "description": "Front porch construction time varies by size, design, and materials, from a few days for simple porches to several weeks for complex ones. Permitting and weathe"
 }

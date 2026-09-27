@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical deck expansion project take?",
-  "description": "Deck expansion project timelines vary from a few weeks to several months, depending on size, complexity, and local permitting processes.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-deck-expansion-project-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical deck expansion project take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a deck expansion project varies based on the size and complexity of the expansion, as well as the local permitting process. A small expansion might take a few weeks from design to completion, while a larger, more intricate project could extend to several months, especially if significant foundation work or custom features are involved. The permitting phase can often be the most variable component, depending on the specific city's review times in our service areas like Berkeley or Pleasanton.",
-        "description": "Deck expansion project timelines vary from a few weeks to several months, depending on size, complexity, and local permitting processes."
-      }
-    }
-  ],
+  "name": "How long does a typical deck expansion project take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical deck expansion project take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a deck expansion project varies based on the size and complexity of the expansion, as well as the local permitting process. A small expansion might take a few weeks from design to completion, while a larger, more intricate project could extend to several months, especially if significant foundation work or custom features are involved. The permitting phase can often be the most variable component, depending on the specific city's review times in our service areas like Berkeley or Pleasanton.",
+        "@type": "Answer",
+        "description": "Deck expansion project timelines vary from a few weeks to several months, depending on size, complexity, and local permitting processes."
+      }
+    }
+  ],
+  "description": "Deck expansion project timelines vary from a few weeks to several months, depending on size, complexity, and local permitting processes."
 }

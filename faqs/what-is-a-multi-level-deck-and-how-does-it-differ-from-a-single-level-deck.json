@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a multi-level deck and how does it differ from a single-level deck?",
-  "description": "A multi-level deck has multiple sections at different heights, connected by stairs, offering zoned outdoor living space compared to a single-level design.",
   "url": "https://hometelligentinc.com/faq/what-is-a-multi-level-deck-and-how-does-it-differ-from-a-single-level-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a multi-level deck and how does it differ from a single-level deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A multi-level deck features two or more distinct sections at varying heights, connected by stairs or landings. Unlike a single-level deck, which typically extends from one elevation of a home, a multi-level design allows for zoning different activities, such as dining, lounging, or a hot tub area, across its footprint. This can be a practical tradeoff, as it offers more versatile outdoor living spaces but often requires more complex design and engineering due to varying elevations and support structures.",
-        "description": "A multi-level deck has multiple sections at different heights, connected by stairs, offering zoned outdoor living space compared to a single-level design."
-      }
-    }
-  ],
+  "name": "What is a multi-level deck and how does it differ from a single-level deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a multi-level deck and how does it differ from a single-level deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A multi-level deck features two or more distinct sections at varying heights, connected by stairs or landings. Unlike a single-level deck, which typically extends from one elevation of a home, a multi-level design allows for zoning different activities, such as dining, lounging, or a hot tub area, across its footprint. This can be a practical tradeoff, as it offers more versatile outdoor living spaces but often requires more complex design and engineering due to varying elevations and support structures.",
+        "@type": "Answer",
+        "description": "A multi-level deck has multiple sections at different heights, connected by stairs, offering zoned outdoor living space compared to a single-level design."
+      }
+    }
+  ],
+  "description": "A multi-level deck has multiple sections at different heights, connected by stairs, offering zoned outdoor living space compared to a single-level design."
 }

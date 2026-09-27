@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a ground-level deck and a hillside deck?",
-  "description": "Ground-level decks sit low with simple foundations, while hillside decks are elevated on slopes, requiring complex, robust foundations and engineering.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-ground-level-deck-and-a-hillside-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a ground-level deck and a hillside deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A ground-level deck is typically built close to the ground, requiring minimal foundation work, often just concrete footings or blocks. A hillside deck, by contrast, is elevated significantly above the ground to accommodate a slope, necessitating deeper, more robust foundations like piers or caissons, and often involves extensive structural engineering. The structural requirements and complexity are the main distinguishing factors.",
-        "description": "Ground-level decks sit low with simple foundations, while hillside decks are elevated on slopes, requiring complex, robust foundations and engineering."
-      }
-    }
-  ],
+  "name": "What is the difference between a ground-level deck and a hillside deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a ground-level deck and a hillside deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A ground-level deck is typically built close to the ground, requiring minimal foundation work, often just concrete footings or blocks. A hillside deck, by contrast, is elevated significantly above the ground to accommodate a slope, necessitating deeper, more robust foundations like piers or caissons, and often involves extensive structural engineering. The structural requirements and complexity are the main distinguishing factors.",
+        "@type": "Answer",
+        "description": "Ground-level decks sit low with simple foundations, while hillside decks are elevated on slopes, requiring complex, robust foundations and engineering."
+      }
+    }
+  ],
+  "description": "Ground-level decks sit low with simple foundations, while hillside decks are elevated on slopes, requiring complex, robust foundations and engineering."
 }

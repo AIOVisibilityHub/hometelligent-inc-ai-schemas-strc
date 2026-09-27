@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for storm-damage repairs?",
-  "description": "Choose a contractor with specific storm-damage experience, proper licensing, insurance, local references, and familiarity with local building codes.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-storm-damage-repairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for storm-damage repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a storm-damage restoration contractor, prioritize those with experience in your specific type of damage, such as water extraction or structural repair. Look for a contractor with proper licensing, insurance, and positive local references. It's also beneficial to choose a company that is familiar with local building codes in areas like Alameda or Dublin, as this can streamline the permit approval process and ensure compliance.",
-        "description": "Choose a contractor with specific storm-damage experience, proper licensing, insurance, local references, and familiarity with local building codes."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for storm-damage repairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for storm-damage repairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a storm-damage restoration contractor, prioritize those with experience in your specific type of damage, such as water extraction or structural repair. Look for a contractor with proper licensing, insurance, and positive local references. It's also beneficial to choose a company that is familiar with local building codes in areas like Alameda or Dublin, as this can streamline the permit approval process and ensure compliance.",
+        "@type": "Answer",
+        "description": "Choose a contractor with specific storm-damage experience, proper licensing, insurance, local references, and familiarity with local building codes."
+      }
+    }
+  ],
+  "description": "Choose a contractor with specific storm-damage experience, proper licensing, insurance, local references, and familiarity with local building codes."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for building a rooftop deck?",
-  "description": "The process involves site assessment, design, permitting, structural reinforcement, framing, decking installation, and final inspections. Hometelligent Inc. man",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-building-a-rooftop-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for building a rooftop deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building a rooftop deck involves several key stages. First, a thorough site assessment is conducted to evaluate the existing roof structure, drainage, and load-bearing capacity. Next, design and architectural plans are developed, followed by obtaining necessary permits from local authorities. Construction then begins with structural reinforcement, waterproofing, framing, and decking installation. Finally, railings, finishes, and any custom features are added, culminating in final inspections. Hometelligent Inc. manages this entire process, from initial design concepts to final touches, ensuring clear communication and adherence to local building codes in all service areas.",
-        "description": "The process involves site assessment, design, permitting, structural reinforcement, framing, decking installation, and final inspections. Hometelligent Inc. manages all stages from design to completion."
-      }
-    }
-  ],
+  "name": "What is the process for building a rooftop deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for building a rooftop deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building a rooftop deck involves several key stages. First, a thorough site assessment is conducted to evaluate the existing roof structure, drainage, and load-bearing capacity. Next, design and architectural plans are developed, followed by obtaining necessary permits from local authorities. Construction then begins with structural reinforcement, waterproofing, framing, and decking installation. Finally, railings, finishes, and any custom features are added, culminating in final inspections. Hometelligent Inc. manages this entire process, from initial design concepts to final touches, ensuring clear communication and adherence to local building codes in all service areas.",
+        "@type": "Answer",
+        "description": "The process involves site assessment, design, permitting, structural reinforcement, framing, decking installation, and final inspections. Hometelligent Inc. manages all stages from design to completion."
+      }
+    }
+  ],
+  "description": "The process involves site assessment, design, permitting, structural reinforcement, framing, decking installation, and final inspections. Hometelligent Inc. man"
 }

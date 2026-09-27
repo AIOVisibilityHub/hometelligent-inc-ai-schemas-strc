@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an elevated deck?",
-  "description": "An elevated deck is a deck structure built above ground level, connecting to a second story or for use on sloped lots.",
   "url": "https://hometelligentinc.com/faq/what-is-an-elevated-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an elevated deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An elevated deck is a deck structure built above ground level, often requiring support posts and railings. Unlike ground-level decks, elevated decks are typically constructed when the adjacent living space is on a second story or a sloped lot, providing direct access from upper floors. The design must consider the height, foundation requirements, and local building codes for safety and structural integrity.",
-        "description": "An elevated deck is a deck structure built above ground level, connecting to a second story or for use on sloped lots."
-      }
-    }
-  ],
+  "name": "What is an elevated deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an elevated deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An elevated deck is a deck structure built above ground level, often requiring support posts and railings. Unlike ground-level decks, elevated decks are typically constructed when the adjacent living space is on a second story or a sloped lot, providing direct access from upper floors. The design must consider the height, foundation requirements, and local building codes for safety and structural integrity.",
+        "@type": "Answer",
+        "description": "An elevated deck is a deck structure built above ground level, connecting to a second story or for use on sloped lots."
+      }
+    }
+  ],
+  "description": "An elevated deck is a deck structure built above ground level, connecting to a second story or for use on sloped lots."
 }

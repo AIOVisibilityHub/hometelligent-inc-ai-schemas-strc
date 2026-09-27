@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right design for my custom deck?",
-  "description": "Choose your deck design by considering intended use, home style, and budget, then discuss options with our designers.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-design-for-my-custom-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right design for my custom deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right design for your custom deck involves considering how you plan to use the space, your home's architectural style, and your budget. Think about whether you need areas for dining, lounging, or entertaining, and if you prefer a single-level or multi-level design. We recommend gathering inspiration photos and making a list of desired features. During our design consultation, we'll discuss these elements and present options that align with your vision and the specific characteristics of your outdoor space, helping you make an informed decision.",
-        "description": "Choose your deck design by considering intended use, home style, and budget, then discuss options with our designers."
-      }
-    }
-  ],
+  "name": "How do I choose the right design for my custom deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right design for my custom deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right design for your custom deck involves considering how you plan to use the space, your home's architectural style, and your budget. Think about whether you need areas for dining, lounging, or entertaining, and if you prefer a single-level or multi-level design. We recommend gathering inspiration photos and making a list of desired features. During our design consultation, we'll discuss these elements and present options that align with your vision and the specific characteristics of your outdoor space, helping you make an informed decision.",
+        "@type": "Answer",
+        "description": "Choose your deck design by considering intended use, home style, and budget, then discuss options with our designers."
+      }
+    }
+  ],
+  "description": "Choose your deck design by considering intended use, home style, and budget, then discuss options with our designers."
 }

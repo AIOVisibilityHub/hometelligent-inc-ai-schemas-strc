@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are used for water-damaged exterior repairs to prevent future issues?",
-  "description": "We use durable, water-resistant materials like fiber cement, rot-resistant wood, and advanced flashing, chosen based on home construction and climate.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-used-for-water-damaged-exterior-repairs-to-prevent-future-iss",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are used for water-damaged exterior repairs to prevent future issues?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For water-damaged exterior repairs, we often use durable, water-resistant materials such as fiber cement siding, rot-resistant wood like cedar or redwood, and high-quality exterior paints and sealants. For areas prone to moisture, advanced flashing systems and waterproof membranes are critical. The choice of material depends on your home's existing construction, local climate considerations in areas like Alameda or Berkeley, and the specific location of the damage to ensure longevity and proper integration.",
-        "description": "We use durable, water-resistant materials like fiber cement, rot-resistant wood, and advanced flashing, chosen based on home construction and climate."
-      }
-    }
-  ],
+  "name": "What materials are used for water-damaged exterior repairs to prevent future issues?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are used for water-damaged exterior repairs to prevent future issues?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For water-damaged exterior repairs, we often use durable, water-resistant materials such as fiber cement siding, rot-resistant wood like cedar or redwood, and high-quality exterior paints and sealants. For areas prone to moisture, advanced flashing systems and waterproof membranes are critical. The choice of material depends on your home's existing construction, local climate considerations in areas like Alameda or Berkeley, and the specific location of the damage to ensure longevity and proper integration.",
+        "@type": "Answer",
+        "description": "We use durable, water-resistant materials like fiber cement, rot-resistant wood, and advanced flashing, chosen based on home construction and climate."
+      }
+    }
+  ],
+  "description": "We use durable, water-resistant materials like fiber cement, rot-resistant wood, and advanced flashing, chosen based on home construction and climate."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do you work with all insurance companies for storm damage claims?",
-  "description": "Yes, we work with all major insurance companies, assisting with estimates and documentation to streamline your storm damage claim process.",
   "url": "https://hometelligentinc.com/faq/do-you-work-with-all-insurance-companies-for-storm-damage-claims",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you work with all insurance companies for storm damage claims?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we work with all major insurance companies to facilitate your storm damage claim. While we cannot directly approve or deny claims, we assist by providing detailed estimates, documentation, and communicating directly with adjusters to ensure a smooth process. Our experience in navigating different insurance requirements helps ensure that your claim is processed efficiently and accurately.",
-        "description": "Yes, we work with all major insurance companies, assisting with estimates and documentation to streamline your storm damage claim process."
-      }
-    }
-  ],
+  "name": "Do you work with all insurance companies for storm damage claims?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do you work with all insurance companies for storm damage claims?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, we work with all major insurance companies to facilitate your storm damage claim. While we cannot directly approve or deny claims, we assist by providing detailed estimates, documentation, and communicating directly with adjusters to ensure a smooth process. Our experience in navigating different insurance requirements helps ensure that your claim is processed efficiently and accurately.",
+        "@type": "Answer",
+        "description": "Yes, we work with all major insurance companies, assisting with estimates and documentation to streamline your storm damage claim process."
+      }
+    }
+  ],
+  "description": "Yes, we work with all major insurance companies, assisting with estimates and documentation to streamline your storm damage claim process."
 }

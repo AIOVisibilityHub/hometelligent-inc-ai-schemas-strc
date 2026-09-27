@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common material choices for second-story decks?",
-  "description": "Material options for second-story decks include pressure-treated wood, composite, and hardwoods. Your choice depends on budget, aesthetics, and maintenance pref",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-material-choices-for-second-story-decks",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common material choices for second-story decks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials for second-story decks include pressure-treated lumber, composite decking, and natural hardwoods like cedar or redwood. Pressure-treated wood is cost-effective and durable, while composite materials offer low maintenance and a wide range of colors. Hardwoods provide a premium aesthetic but require more regular maintenance. The best choice often depends on your budget, desired aesthetics, and maintenance preferences, which we discuss during design consultation.",
-        "description": "Material options for second-story decks include pressure-treated wood, composite, and hardwoods. Your choice depends on budget, aesthetics, and maintenance preferences, which Hometelligent Inc. can help you evaluate."
-      }
-    }
-  ],
+  "name": "What are the common material choices for second-story decks?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common material choices for second-story decks?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials for second-story decks include pressure-treated lumber, composite decking, and natural hardwoods like cedar or redwood. Pressure-treated wood is cost-effective and durable, while composite materials offer low maintenance and a wide range of colors. Hardwoods provide a premium aesthetic but require more regular maintenance. The best choice often depends on your budget, desired aesthetics, and maintenance preferences, which we discuss during design consultation.",
+        "@type": "Answer",
+        "description": "Material options for second-story decks include pressure-treated wood, composite, and hardwoods. Your choice depends on budget, aesthetics, and maintenance preferences, which Hometelligent Inc. can help you evaluate."
+      }
+    }
+  ],
+  "description": "Material options for second-story decks include pressure-treated wood, composite, and hardwoods. Your choice depends on budget, aesthetics, and maintenance pref"
 }

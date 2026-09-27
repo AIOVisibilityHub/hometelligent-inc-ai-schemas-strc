@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for deck construction in Alameda?",
-  "description": "Permits are usually required for decks over a certain height or attached to a house in Alameda to meet local codes. Hometelligent Inc. assists with this.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-deck-construction-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for deck construction in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For deck construction in Alameda, permits are typically required for any deck over a certain height, or if it's attached to the house. Specific requirements can vary, but generally, building permits are necessary to ensure the structure meets local safety and zoning codes. As part of our service at Hometelligent Inc., we assist with identifying and securing all required permits from the City of Alameda planning and building departments. This streamlines the process and ensures compliance.",
-        "description": "Permits are usually required for decks over a certain height or attached to a house in Alameda to meet local codes. Hometelligent Inc. assists with this."
-      }
-    }
-  ],
+  "name": "What permits are needed for deck construction in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for deck construction in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For deck construction in Alameda, permits are typically required for any deck over a certain height, or if it's attached to the house. Specific requirements can vary, but generally, building permits are necessary to ensure the structure meets local safety and zoning codes. As part of our service at Hometelligent Inc., we assist with identifying and securing all required permits from the City of Alameda planning and building departments. This streamlines the process and ensures compliance.",
+        "@type": "Answer",
+        "description": "Permits are usually required for decks over a certain height or attached to a house in Alameda to meet local codes. Hometelligent Inc. assists with this."
+      }
+    }
+  ],
+  "description": "Permits are usually required for decks over a certain height or attached to a house in Alameda to meet local codes. Hometelligent Inc. assists with this."
 }

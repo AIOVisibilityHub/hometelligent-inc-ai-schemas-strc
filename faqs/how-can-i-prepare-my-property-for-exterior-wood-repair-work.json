@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my property for exterior wood repair work?",
-  "description": "Prepare your property by clearing the work area of obstructions and ensuring easy access. Inform us of any underground lines near the repair site for safety and",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-property-for-exterior-wood-repair-work",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my property for exterior wood repair work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before exterior wood repair begins, it is helpful to clear the work area of any obstructions such as potted plants, patio furniture, or decorative items. Ensure easy access for our team and equipment, and inform us of any underground irrigation lines or invisible pet fences near the repair site. This preparation helps ensure the crew can work efficiently and safely, minimizing potential delays and ensuring a smooth process for your property in Alameda, Albany, or Berkeley.",
-        "description": "Prepare your property by clearing the work area of obstructions and ensuring easy access. Inform us of any underground lines near the repair site for safety and efficiency."
-      }
-    }
-  ],
+  "name": "How can I prepare my property for exterior wood repair work?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my property for exterior wood repair work?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before exterior wood repair begins, it is helpful to clear the work area of any obstructions such as potted plants, patio furniture, or decorative items. Ensure easy access for our team and equipment, and inform us of any underground irrigation lines or invisible pet fences near the repair site. This preparation helps ensure the crew can work efficiently and safely, minimizing potential delays and ensuring a smooth process for your property in Alameda, Albany, or Berkeley.",
+        "@type": "Answer",
+        "description": "Prepare your property by clearing the work area of obstructions and ensuring easy access. Inform us of any underground lines near the repair site for safety and efficiency."
+      }
+    }
+  ],
+  "description": "Prepare your property by clearing the work area of obstructions and ensuring easy access. Inform us of any underground lines near the repair site for safety and"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can Hometelligent Inc. help with deck expansion designs that complement my home's existing architecture?",
-  "description": "Yes, Hometelligent Inc. helps design deck expansions that complement your home's architecture by selecting appropriate materials, railings, and finishes.",
   "url": "https://hometelligentinc.com/faq/can-hometelligent-inc-help-with-deck-expansion-designs-that-complement-my-home-s",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Hometelligent Inc. help with deck expansion designs that complement my home's existing architecture?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. specializes in creating deck expansion designs that seamlessly integrate with your home's existing architecture and aesthetic. Our design process involves understanding your home's style, from traditional craftsman to modern contemporary, and recommending materials, railings, and finishes that enhance its overall look. We pay close attention to details like rooflines, window placement, and existing outdoor features to ensure the expanded deck looks like an original part of your home, not an addition.",
-        "description": "Yes, Hometelligent Inc. helps design deck expansions that complement your home's architecture by selecting appropriate materials, railings, and finishes."
-      }
-    }
-  ],
+  "name": "Can Hometelligent Inc. help with deck expansion designs that complement my home's existing architecture?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can Hometelligent Inc. help with deck expansion designs that complement my home's existing architecture?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. specializes in creating deck expansion designs that seamlessly integrate with your home's existing architecture and aesthetic. Our design process involves understanding your home's style, from traditional craftsman to modern contemporary, and recommending materials, railings, and finishes that enhance its overall look. We pay close attention to details like rooflines, window placement, and existing outdoor features to ensure the expanded deck looks like an original part of your home, not an addition.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. helps design deck expansions that complement your home's architecture by selecting appropriate materials, railings, and finishes."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. helps design deck expansions that complement your home's architecture by selecting appropriate materials, railings, and finishes."
 }

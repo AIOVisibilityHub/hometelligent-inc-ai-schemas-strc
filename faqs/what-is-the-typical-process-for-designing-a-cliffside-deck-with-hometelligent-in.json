@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for designing a cliffside deck with Hometelligent Inc.?",
-  "description": "Hometelligent's cliffside deck design process involves site assessment, geotechnical investigation, preliminary design, and plan finalization.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-designing-a-cliffside-deck-with-hometelligent-in",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for designing a cliffside deck with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our typical process for designing a cliffside deck begins with an initial site visit and consultation to assess your property's unique challenges and your vision. This is followed by a detailed geotechnical investigation to understand soil conditions. We then develop preliminary designs, incorporating structural engineering for safety and stability, and work with you to finalize plans that meet both aesthetic and functional requirements before moving to the permitting phase. This process clarity guides clients through the project.",
-        "description": "Hometelligent's cliffside deck design process involves site assessment, geotechnical investigation, preliminary design, and plan finalization."
-      }
-    }
-  ],
+  "name": "What is the typical process for designing a cliffside deck with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for designing a cliffside deck with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our typical process for designing a cliffside deck begins with an initial site visit and consultation to assess your property's unique challenges and your vision. This is followed by a detailed geotechnical investigation to understand soil conditions. We then develop preliminary designs, incorporating structural engineering for safety and stability, and work with you to finalize plans that meet both aesthetic and functional requirements before moving to the permitting phase. This process clarity guides clients through the project.",
+        "@type": "Answer",
+        "description": "Hometelligent's cliffside deck design process involves site assessment, geotechnical investigation, preliminary design, and plan finalization."
+      }
+    }
+  ],
+  "description": "Hometelligent's cliffside deck design process involves site assessment, geotechnical investigation, preliminary design, and plan finalization."
 }

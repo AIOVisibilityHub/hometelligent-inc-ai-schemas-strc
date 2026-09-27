@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs of dry rot in exterior wood, and why is it important to address?",
-  "description": "Dry rot signs include shrunken, discolored, or crumbling wood, often with a musty odor. Prompt repair is crucial to prevent structural compromise and spread.",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-of-dry-rot-in-exterior-wood-and-why-is-it-important-to-add",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs of dry rot in exterior wood, and why is it important to address?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs of dry rot include wood that appears shrunken, discolored, or crumbles easily to the touch. You might also notice a musty odor or the presence of fungal growth. It is crucial to address dry rot promptly because it can rapidly spread, compromising the structural integrity of your home and leading to more extensive and costly repairs if left untreated. Our team specializes in identifying and remediating dry rot to prevent further damage to properties throughout areas like Hayward and Dublin.",
-        "description": "Dry rot signs include shrunken, discolored, or crumbling wood, often with a musty odor. Prompt repair is crucial to prevent structural compromise and spread."
-      }
-    }
-  ],
+  "name": "What are common signs of dry rot in exterior wood, and why is it important to address?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs of dry rot in exterior wood, and why is it important to address?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs of dry rot include wood that appears shrunken, discolored, or crumbles easily to the touch. You might also notice a musty odor or the presence of fungal growth. It is crucial to address dry rot promptly because it can rapidly spread, compromising the structural integrity of your home and leading to more extensive and costly repairs if left untreated. Our team specializes in identifying and remediating dry rot to prevent further damage to properties throughout areas like Hayward and Dublin.",
+        "@type": "Answer",
+        "description": "Dry rot signs include shrunken, discolored, or crumbling wood, often with a musty odor. Prompt repair is crucial to prevent structural compromise and spread."
+      }
+    }
+  ],
+  "description": "Dry rot signs include shrunken, discolored, or crumbling wood, often with a musty odor. Prompt repair is crucial to prevent structural compromise and spread."
 }

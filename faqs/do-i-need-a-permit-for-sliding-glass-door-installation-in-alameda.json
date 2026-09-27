@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for sliding glass door installation in Alameda?",
-  "description": "Permit requirements for sliding glass door installation vary by local building codes and project scope; we assist with navigating this process.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-sliding-glass-door-installation-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for sliding glass door installation in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether a permit is required for sliding glass door installation can depend on local building codes and the scope of work. Simple replacements within an existing opening often don't require one, but projects involving structural changes, widening an opening, or altering egress may. Hometelligent Inc. helps navigate the permit process for your specific location within our service areas, such as Alameda or Oakland, ensuring compliance with all local regulations before starting any work.",
-        "description": "Permit requirements for sliding glass door installation vary by local building codes and project scope; we assist with navigating this process."
-      }
-    }
-  ],
+  "name": "Do I need a permit for sliding glass door installation in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for sliding glass door installation in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether a permit is required for sliding glass door installation can depend on local building codes and the scope of work. Simple replacements within an existing opening often don't require one, but projects involving structural changes, widening an opening, or altering egress may. Hometelligent Inc. helps navigate the permit process for your specific location within our service areas, such as Alameda or Oakland, ensuring compliance with all local regulations before starting any work.",
+        "@type": "Answer",
+        "description": "Permit requirements for sliding glass door installation vary by local building codes and project scope; we assist with navigating this process."
+      }
+    }
+  ],
+  "description": "Permit requirements for sliding glass door installation vary by local building codes and project scope; we assist with navigating this process."
 }

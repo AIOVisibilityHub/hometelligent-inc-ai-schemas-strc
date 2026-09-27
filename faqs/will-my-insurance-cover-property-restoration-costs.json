@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will my insurance cover property restoration costs?",
-  "description": "Insurance often covers restoration for sudden damage, but coverage varies; check your policy for details and deductibles.",
   "url": "https://hometelligentinc.com/faq/will-my-insurance-cover-property-restoration-costs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will my insurance cover property restoration costs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Many property insurance policies cover the costs of restoration due to sudden and accidental damage, such as fire, storms, or certain types of water damage. Coverage specifics vary by policy. It is crucial to review your policy or speak with your insurance provider to understand your coverage limits, deductibles, and claim procedures. Hometelligent Inc. can work with your insurance company by providing detailed estimates and documentation to support your claim, although we advise policyholders to understand their specific benefits.",
-        "description": "Insurance often covers restoration for sudden damage, but coverage varies; check your policy for details and deductibles."
-      }
-    }
-  ],
+  "name": "Will my insurance cover property restoration costs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will my insurance cover property restoration costs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Many property insurance policies cover the costs of restoration due to sudden and accidental damage, such as fire, storms, or certain types of water damage. Coverage specifics vary by policy. It is crucial to review your policy or speak with your insurance provider to understand your coverage limits, deductibles, and claim procedures. Hometelligent Inc. can work with your insurance company by providing detailed estimates and documentation to support your claim, although we advise policyholders to understand their specific benefits.",
+        "@type": "Answer",
+        "description": "Insurance often covers restoration for sudden damage, but coverage varies; check your policy for details and deductibles."
+      }
+    }
+  ],
+  "description": "Insurance often covers restoration for sudden damage, but coverage varies; check your policy for details and deductibles."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a front entry remodel?",
-  "description": "A front entry remodel updates elements like the front door, porch, and lighting to enhance curb appeal and functionality.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-front-entry-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a front entry remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A front entry remodel typically involves updating the entryway to enhance curb appeal, functionality, and security. This can include replacing the front door, adding or upgrading sidelights and transoms, improving porch flooring and railings, and updating lighting fixtures. Homeowners should consider how these elements complement their home's architectural style and their personal needs, as a unified design improves the overall aesthetic and value.",
-        "description": "A front entry remodel updates elements like the front door, porch, and lighting to enhance curb appeal and functionality."
-      }
-    }
-  ],
+  "name": "What is involved in a front entry remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a front entry remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A front entry remodel typically involves updating the entryway to enhance curb appeal, functionality, and security. This can include replacing the front door, adding or upgrading sidelights and transoms, improving porch flooring and railings, and updating lighting fixtures. Homeowners should consider how these elements complement their home's architectural style and their personal needs, as a unified design improves the overall aesthetic and value.",
+        "@type": "Answer",
+        "description": "A front entry remodel updates elements like the front door, porch, and lighting to enhance curb appeal and functionality."
+      }
+    }
+  ],
+  "description": "A front entry remodel updates elements like the front door, porch, and lighting to enhance curb appeal and functionality."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do hillside building codes affect deck design and size?",
-  "description": "Hillside building codes enforce stricter rules on structural integrity, setbacks, and height, impacting deck design and size for safety and compliance.",
   "url": "https://hometelligentinc.com/faq/how-do-hillside-building-codes-affect-deck-design-and-size",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do hillside building codes affect deck design and size?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hillside building codes often impose stricter requirements on structural integrity, setbacks from property lines, and height restrictions due to concerns about stability, erosion, and view corridors. These regulations can influence the maximum allowable size and footprint of your deck. Compliance ensures safety and avoids future legal issues, and Hometelligent Inc. ensures designs meet these local specifications.",
-        "description": "Hillside building codes enforce stricter rules on structural integrity, setbacks, and height, impacting deck design and size for safety and compliance."
-      }
-    }
-  ],
+  "name": "How do hillside building codes affect deck design and size?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do hillside building codes affect deck design and size?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hillside building codes often impose stricter requirements on structural integrity, setbacks from property lines, and height restrictions due to concerns about stability, erosion, and view corridors. These regulations can influence the maximum allowable size and footprint of your deck. Compliance ensures safety and avoids future legal issues, and Hometelligent Inc. ensures designs meet these local specifications.",
+        "@type": "Answer",
+        "description": "Hillside building codes enforce stricter rules on structural integrity, setbacks, and height, impacting deck design and size for safety and compliance."
+      }
+    }
+  ],
+  "description": "Hillside building codes enforce stricter rules on structural integrity, setbacks, and height, impacting deck design and size for safety and compliance."
 }

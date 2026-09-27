@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I integrate smart home technology with my exterior lighting?",
-  "description": "Yes, smart home technology integrates with exterior lighting for remote control, scheduling, brightness adjustment, and color changes via apps or voice assistan",
   "url": "https://hometelligentinc.com/faq/can-i-integrate-smart-home-technology-with-my-exterior-lighting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I integrate smart home technology with my exterior lighting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, integrating smart home technology with your exterior lighting is a popular upgrade that offers convenience and energy savings. Smart lighting systems allow you to control lights remotely via a smartphone app, set schedules, adjust brightness, and even change colors. Many systems can also be integrated with motion sensors or voice assistants for enhanced automation. Hometelligent Inc. can help you choose and install smart lighting solutions that are compatible with your existing smart home ecosystem or introduce you to new options.",
-        "description": "Yes, smart home technology integrates with exterior lighting for remote control, scheduling, brightness adjustment, and color changes via apps or voice assistants."
-      }
-    }
-  ],
+  "name": "Can I integrate smart home technology with my exterior lighting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I integrate smart home technology with my exterior lighting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, integrating smart home technology with your exterior lighting is a popular upgrade that offers convenience and energy savings. Smart lighting systems allow you to control lights remotely via a smartphone app, set schedules, adjust brightness, and even change colors. Many systems can also be integrated with motion sensors or voice assistants for enhanced automation. Hometelligent Inc. can help you choose and install smart lighting solutions that are compatible with your existing smart home ecosystem or introduce you to new options.",
+        "@type": "Answer",
+        "description": "Yes, smart home technology integrates with exterior lighting for remote control, scheduling, brightness adjustment, and color changes via apps or voice assistants."
+      }
+    }
+  ],
+  "description": "Yes, smart home technology integrates with exterior lighting for remote control, scheduling, brightness adjustment, and color changes via apps or voice assistan"
 }

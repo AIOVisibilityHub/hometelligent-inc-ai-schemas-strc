@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a ledger board and why is it important in deck replacement?",
-  "description": "The ledger board connects the deck to your house, bearing much of its weight. Proper installation with flashing and bolts is crucial to prevent water damage and",
   "url": "https://hometelligentinc.com/faq/what-is-a-ledger-board-and-why-is-it-important-in-deck-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a ledger board and why is it important in deck replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The ledger board is a crucial structural component of a deck, securely attaching the deck frame directly to your house. It typically runs along the exterior wall of the home and bears a significant portion of the deck's weight. During deck replacement, ensuring the ledger board is properly flashed, bolted, and sealed is paramount to prevent water intrusion into the house and to maintain structural integrity. Incorrect installation can lead to rot, structural failure, and costly damage to your home, making its correct installation a critical safety and longevity factor for any new deck.",
-        "description": "The ledger board connects the deck to your house, bearing much of its weight. Proper installation with flashing and bolts is crucial to prevent water damage and structural failure."
-      }
-    }
-  ],
+  "name": "What is a ledger board and why is it important in deck replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a ledger board and why is it important in deck replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The ledger board is a crucial structural component of a deck, securely attaching the deck frame directly to your house. It typically runs along the exterior wall of the home and bears a significant portion of the deck's weight. During deck replacement, ensuring the ledger board is properly flashed, bolted, and sealed is paramount to prevent water intrusion into the house and to maintain structural integrity. Incorrect installation can lead to rot, structural failure, and costly damage to your home, making its correct installation a critical safety and longevity factor for any new deck.",
+        "@type": "Answer",
+        "description": "The ledger board connects the deck to your house, bearing much of its weight. Proper installation with flashing and bolts is crucial to prevent water damage and structural failure."
+      }
+    }
+  ],
+  "description": "The ledger board connects the deck to your house, bearing much of its weight. Proper installation with flashing and bolts is crucial to prevent water damage and"
 }

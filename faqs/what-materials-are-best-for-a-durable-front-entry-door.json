@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are best for a durable front entry door?",
-  "description": "Fiberglass, steel, and solid wood are durable door materials. Choose based on climate, security needs, and maintenance preferences.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-a-durable-front-entry-door",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are best for a durable front entry door?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For durability, fiberglass, steel, and solid wood are popular choices for front entry doors. Fiberglass doors offer excellent resistance to dents and rot, requiring minimal maintenance. Steel doors provide superior security and insulation. Solid wood doors offer classic aesthetics but require more maintenance to protect against weather. When selecting, consider your home's exposure to elements, local climate in areas like Alameda, and the level of maintenance you are willing to undertake.",
-        "description": "Fiberglass, steel, and solid wood are durable door materials. Choose based on climate, security needs, and maintenance preferences."
-      }
-    }
-  ],
+  "name": "What materials are best for a durable front entry door?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are best for a durable front entry door?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For durability, fiberglass, steel, and solid wood are popular choices for front entry doors. Fiberglass doors offer excellent resistance to dents and rot, requiring minimal maintenance. Steel doors provide superior security and insulation. Solid wood doors offer classic aesthetics but require more maintenance to protect against weather. When selecting, consider your home's exposure to elements, local climate in areas like Alameda, and the level of maintenance you are willing to undertake.",
+        "@type": "Answer",
+        "description": "Fiberglass, steel, and solid wood are durable door materials. Choose based on climate, security needs, and maintenance preferences."
+      }
+    }
+  ],
+  "description": "Fiberglass, steel, and solid wood are durable door materials. Choose based on climate, security needs, and maintenance preferences."
 }

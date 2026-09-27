@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for replacing an exterior door?",
-  "description": "The process involves consultation, measurement, material selection, removal of the old door, installation of the new, and finishing touches.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-replacing-an-exterior-door",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for replacing an exterior door?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The exterior door replacement process begins with an initial consultation and measurement, followed by material selection. Once the new door is ready, the old door and frame are carefully removed. The new door and frame are then installed, ensuring proper alignment, insulation, and sealing to prevent drafts and water intrusion. Finally, trim and hardware are installed. Hometelligent Inc. ensures all necessary preparations are made to protect your home during installation and that the site is cleaned thoroughly afterward.",
-        "description": "The process involves consultation, measurement, material selection, removal of the old door, installation of the new, and finishing touches."
-      }
-    }
-  ],
+  "name": "What is the process for replacing an exterior door?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for replacing an exterior door?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The exterior door replacement process begins with an initial consultation and measurement, followed by material selection. Once the new door is ready, the old door and frame are carefully removed. The new door and frame are then installed, ensuring proper alignment, insulation, and sealing to prevent drafts and water intrusion. Finally, trim and hardware are installed. Hometelligent Inc. ensures all necessary preparations are made to protect your home during installation and that the site is cleaned thoroughly afterward.",
+        "@type": "Answer",
+        "description": "The process involves consultation, measurement, material selection, removal of the old door, installation of the new, and finishing touches."
+      }
+    }
+  ],
+  "description": "The process involves consultation, measurement, material selection, removal of the old door, installation of the new, and finishing touches."
 }

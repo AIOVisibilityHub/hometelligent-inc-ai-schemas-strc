@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How quickly should I contact a property restoration company after damage occurs?",
-  "description": "Contact a restoration company within 24-48 hours of damage to prevent secondary issues and minimize repair costs.",
   "url": "https://hometelligentinc.com/faq/how-quickly-should-i-contact-a-property-restoration-company-after-damage-occurs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How quickly should I contact a property restoration company after damage occurs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Contact a property restoration company as soon as possible after damage occurs, ideally within 24-48 hours. Rapid response is crucial, especially for water or fire damage, to prevent secondary issues like mold growth, structural deterioration, or lingering odors. Hometelligent Inc. prioritizes quick assessment and mitigation to minimize further damage and streamline the restoration process, which can reduce overall repair costs and time.",
-        "description": "Contact a restoration company within 24-48 hours of damage to prevent secondary issues and minimize repair costs."
-      }
-    }
-  ],
+  "name": "How quickly should I contact a property restoration company after damage occurs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How quickly should I contact a property restoration company after damage occurs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Contact a property restoration company as soon as possible after damage occurs, ideally within 24-48 hours. Rapid response is crucial, especially for water or fire damage, to prevent secondary issues like mold growth, structural deterioration, or lingering odors. Hometelligent Inc. prioritizes quick assessment and mitigation to minimize further damage and streamline the restoration process, which can reduce overall repair costs and time.",
+        "@type": "Answer",
+        "description": "Contact a restoration company within 24-48 hours of damage to prevent secondary issues and minimize repair costs."
+      }
+    }
+  ],
+  "description": "Contact a restoration company within 24-48 hours of damage to prevent secondary issues and minimize repair costs."
 }

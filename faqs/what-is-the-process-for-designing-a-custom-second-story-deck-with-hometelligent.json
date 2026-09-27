@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing a custom second-story deck with Hometelligent Inc.?",
-  "description": "Designing a custom second-story deck with Hometelligent Inc. starts with a consultation, moves to conceptual designs and material recommendations, and ends with",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-a-custom-second-story-deck-with-hometelligent",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing a custom second-story deck with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for designing a custom second-story deck begins with an initial consultation to discuss your vision, needs, and budget. Our team then develops conceptual designs and material recommendations. Once a design is approved, we create detailed plans for permit submission and construction. This iterative approach ensures your custom deck meets your aesthetic and functional requirements while adhering to local building codes.",
-        "description": "Designing a custom second-story deck with Hometelligent Inc. starts with a consultation, moves to conceptual designs and material recommendations, and ends with detailed plans for permits and construction."
-      }
-    }
-  ],
+  "name": "What is the process for designing a custom second-story deck with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing a custom second-story deck with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for designing a custom second-story deck begins with an initial consultation to discuss your vision, needs, and budget. Our team then develops conceptual designs and material recommendations. Once a design is approved, we create detailed plans for permit submission and construction. This iterative approach ensures your custom deck meets your aesthetic and functional requirements while adhering to local building codes.",
+        "@type": "Answer",
+        "description": "Designing a custom second-story deck with Hometelligent Inc. starts with a consultation, moves to conceptual designs and material recommendations, and ends with detailed plans for permits and construction."
+      }
+    }
+  ],
+  "description": "Designing a custom second-story deck with Hometelligent Inc. starts with a consultation, moves to conceptual designs and material recommendations, and ends with"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of exterior doors are available for replacement?",
-  "description": "Exterior door options include steel for security and cost, fiberglass for insulation and durability, and wood for aesthetics and customization.",
   "url": "https://hometelligentinc.com/faq/what-types-of-exterior-doors-are-available-for-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of exterior doors are available for replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common exterior door replacement options include steel, fiberglass, and wood. Steel doors offer excellent security and durability, often at a lower cost. Fiberglass doors provide good insulation, are resistant to dents, and can mimic the look of wood. Wood doors offer a classic aesthetic and can be customized, but require more maintenance. When choosing, consider the balance between budget, desired aesthetic, security features, and the level of maintenance you are willing to undertake.",
-        "description": "Exterior door options include steel for security and cost, fiberglass for insulation and durability, and wood for aesthetics and customization."
-      }
-    }
-  ],
+  "name": "What types of exterior doors are available for replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of exterior doors are available for replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common exterior door replacement options include steel, fiberglass, and wood. Steel doors offer excellent security and durability, often at a lower cost. Fiberglass doors provide good insulation, are resistant to dents, and can mimic the look of wood. Wood doors offer a classic aesthetic and can be customized, but require more maintenance. When choosing, consider the balance between budget, desired aesthetic, security features, and the level of maintenance you are willing to undertake.",
+        "@type": "Answer",
+        "description": "Exterior door options include steel for security and cost, fiberglass for insulation and durability, and wood for aesthetics and customization."
+      }
+    }
+  ],
+  "description": "Exterior door options include steel for security and cost, fiberglass for insulation and durability, and wood for aesthetics and customization."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can French doors be installed in any wall?",
-  "description": "No, French doors cannot be installed in just any wall. Load-bearing walls, utilities, and structural integrity must be assessed before installation.",
   "url": "https://hometelligentinc.com/faq/can-french-doors-be-installed-in-any-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can French doors be installed in any wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "French doors cannot be installed in just any wall without proper assessment. Structural considerations are paramount; load-bearing walls require header installation to redistribute weight, a complex task. Non-load-bearing walls are simpler but still need framing for the new opening. Electrical wiring, plumbing, and HVAC ducts within the wall also need to be identified and rerouted. Hometelligent Inc. provides comprehensive site evaluations in our service areas like Fremont and Hayward to determine feasibility and safely plan for any necessary structural or utility modifications, ensuring your home's integrity.",
-        "description": "No, French doors cannot be installed in just any wall. Load-bearing walls, utilities, and structural integrity must be assessed before installation."
-      }
-    }
-  ],
+  "name": "Can French doors be installed in any wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can French doors be installed in any wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "French doors cannot be installed in just any wall without proper assessment. Structural considerations are paramount; load-bearing walls require header installation to redistribute weight, a complex task. Non-load-bearing walls are simpler but still need framing for the new opening. Electrical wiring, plumbing, and HVAC ducts within the wall also need to be identified and rerouted. Hometelligent Inc. provides comprehensive site evaluations in our service areas like Fremont and Hayward to determine feasibility and safely plan for any necessary structural or utility modifications, ensuring your home's integrity.",
+        "@type": "Answer",
+        "description": "No, French doors cannot be installed in just any wall. Load-bearing walls, utilities, and structural integrity must be assessed before installation."
+      }
+    }
+  ],
+  "description": "No, French doors cannot be installed in just any wall. Load-bearing walls, utilities, and structural integrity must be assessed before installation."
 }

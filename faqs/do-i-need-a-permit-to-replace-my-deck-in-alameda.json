@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit to replace my deck in Alameda?",
-  "description": "Yes, a building permit is generally required for deck replacement in Alameda and surrounding areas. This ensures compliance with local building codes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-replace-my-deck-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit to replace my deck in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, in Alameda and most other cities within our service area, a building permit is typically required for deck replacement. This is because a deck replacement usually involves structural changes and ensures the new deck meets current building codes for safety and durability. Applying for and obtaining the necessary permits is a critical step in the project timeline. Hometelligent Inc. assists with permit applications, ensuring compliance with local regulations in jurisdictions like Alameda, to avoid delays or issues with inspections.",
-        "description": "Yes, a building permit is generally required for deck replacement in Alameda and surrounding areas. This ensures compliance with local building codes."
-      }
-    }
-  ],
+  "name": "Do I need a permit to replace my deck in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit to replace my deck in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, in Alameda and most other cities within our service area, a building permit is typically required for deck replacement. This is because a deck replacement usually involves structural changes and ensures the new deck meets current building codes for safety and durability. Applying for and obtaining the necessary permits is a critical step in the project timeline. Hometelligent Inc. assists with permit applications, ensuring compliance with local regulations in jurisdictions like Alameda, to avoid delays or issues with inspections.",
+        "@type": "Answer",
+        "description": "Yes, a building permit is generally required for deck replacement in Alameda and surrounding areas. This ensures compliance with local building codes."
+      }
+    }
+  ],
+  "description": "Yes, a building permit is generally required for deck replacement in Alameda and surrounding areas. This ensures compliance with local building codes."
 }

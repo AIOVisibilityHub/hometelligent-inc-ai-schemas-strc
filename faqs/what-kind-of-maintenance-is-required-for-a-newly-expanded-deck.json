@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of maintenance is required for a newly expanded deck?",
-  "description": "Maintenance varies by material: wood decks need regular cleaning and sealing, while composite decks require less frequent cleaning.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-is-required-for-a-newly-expanded-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of maintenance is required for a newly expanded deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance for a newly expanded deck depends heavily on the materials chosen. Wood decks typically require regular cleaning, sealing, or staining every 1-3 years to protect against weathering and rot. Composite decks, while lower maintenance, still benefit from occasional cleaning with soap and water to prevent mold and mildew buildup. Consistent maintenance helps prolong the life and appearance of your deck, regardless of material.",
-        "description": "Maintenance varies by material: wood decks need regular cleaning and sealing, while composite decks require less frequent cleaning."
-      }
-    }
-  ],
+  "name": "What kind of maintenance is required for a newly expanded deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of maintenance is required for a newly expanded deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance for a newly expanded deck depends heavily on the materials chosen. Wood decks typically require regular cleaning, sealing, or staining every 1-3 years to protect against weathering and rot. Composite decks, while lower maintenance, still benefit from occasional cleaning with soap and water to prevent mold and mildew buildup. Consistent maintenance helps prolong the life and appearance of your deck, regardless of material.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material: wood decks need regular cleaning and sealing, while composite decks require less frequent cleaning."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material: wood decks need regular cleaning and sealing, while composite decks require less frequent cleaning."
 }

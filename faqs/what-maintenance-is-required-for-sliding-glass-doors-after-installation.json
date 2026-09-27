@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for sliding glass doors after installation?",
-  "description": "Regular maintenance involves cleaning tracks, lubricating rollers, checking weather stripping, and cleaning glass for optimal performance.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-sliding-glass-doors-after-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for sliding glass doors after installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After installation, regular maintenance for sliding glass doors includes keeping the tracks clean of debris, lubricating the rollers occasionally, and checking weather stripping for wear. Cleaning the glass with appropriate solutions also helps maintain clarity. This routine care ensures continued smooth operation and extends the lifespan of your door. One first-party insight we often share is that small, consistent cleaning of the tracks can prevent larger issues like sticky or misaligned doors, which are common complaints we encounter.",
-        "description": "Regular maintenance involves cleaning tracks, lubricating rollers, checking weather stripping, and cleaning glass for optimal performance."
-      }
-    }
-  ],
+  "name": "What maintenance is required for sliding glass doors after installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for sliding glass doors after installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "After installation, regular maintenance for sliding glass doors includes keeping the tracks clean of debris, lubricating the rollers occasionally, and checking weather stripping for wear. Cleaning the glass with appropriate solutions also helps maintain clarity. This routine care ensures continued smooth operation and extends the lifespan of your door. One first-party insight we often share is that small, consistent cleaning of the tracks can prevent larger issues like sticky or misaligned doors, which are common complaints we encounter.",
+        "@type": "Answer",
+        "description": "Regular maintenance involves cleaning tracks, lubricating rollers, checking weather stripping, and cleaning glass for optimal performance."
+      }
+    }
+  ],
+  "description": "Regular maintenance involves cleaning tracks, lubricating rollers, checking weather stripping, and cleaning glass for optimal performance."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between dry rot and wet rot?",
-  "description": "Wet rot requires high moisture and is localized, while dry rot can spread aggressively through structures and thrives in lower moisture. Dry rot needs more exte",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-dry-rot-and-wet-rot",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between dry rot and wet rot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both dry rot and wet rot are wood-decaying fungi, but they differ in their appearance, spread, and moisture requirements. Wet rot needs higher moisture content (typically over 20%) and usually stays localized to the damp area. Dry rot (Serpula lacrymans), however, can thrive in lower moisture levels, transport water, and spread aggressively through masonry and plaster to find new timber sources. The practical tradeoff is that wet rot is often easier to identify and treat locally, while dry rot requires more extensive and invasive remediation to ensure complete eradication.",
-        "description": "Wet rot requires high moisture and is localized, while dry rot can spread aggressively through structures and thrives in lower moisture. Dry rot needs more extensive remediation."
-      }
-    }
-  ],
+  "name": "What is the difference between dry rot and wet rot?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between dry rot and wet rot?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Both dry rot and wet rot are wood-decaying fungi, but they differ in their appearance, spread, and moisture requirements. Wet rot needs higher moisture content (typically over 20%) and usually stays localized to the damp area. Dry rot (Serpula lacrymans), however, can thrive in lower moisture levels, transport water, and spread aggressively through masonry and plaster to find new timber sources. The practical tradeoff is that wet rot is often easier to identify and treat locally, while dry rot requires more extensive and invasive remediation to ensure complete eradication.",
+        "@type": "Answer",
+        "description": "Wet rot requires high moisture and is localized, while dry rot can spread aggressively through structures and thrives in lower moisture. Dry rot needs more extensive remediation."
+      }
+    }
+  ],
+  "description": "Wet rot requires high moisture and is localized, while dry rot can spread aggressively through structures and thrives in lower moisture. Dry rot needs more exte"
 }

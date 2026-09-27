@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the warranty for custom deck construction?",
-  "description": "Hometelligent Inc. provides a workmanship and structural integrity warranty for custom decks, detailed in your project contract.",
   "url": "https://hometelligentinc.com/faq/what-is-the-warranty-for-custom-deck-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the warranty for custom deck construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. provides a warranty on our custom deck construction, covering workmanship and structural integrity for a specified period. The exact terms and duration of the warranty are outlined in your project contract, typically covering issues arising from our installation. Material warranties are usually provided by the manufacturer. Understanding the warranty details is crucial for your long-term peace of mind, ensuring that your investment is protected against potential defects.",
-        "description": "Hometelligent Inc. provides a workmanship and structural integrity warranty for custom decks, detailed in your project contract."
-      }
-    }
-  ],
+  "name": "What is the warranty for custom deck construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the warranty for custom deck construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. provides a warranty on our custom deck construction, covering workmanship and structural integrity for a specified period. The exact terms and duration of the warranty are outlined in your project contract, typically covering issues arising from our installation. Material warranties are usually provided by the manufacturer. Understanding the warranty details is crucial for your long-term peace of mind, ensuring that your investment is protected against potential defects.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. provides a workmanship and structural integrity warranty for custom decks, detailed in your project contract."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. provides a workmanship and structural integrity warranty for custom decks, detailed in your project contract."
 }

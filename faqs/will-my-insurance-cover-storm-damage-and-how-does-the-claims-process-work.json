@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will my insurance cover storm damage, and how does the claims process work?",
-  "description": "Insurance usually covers storm damage, but policies vary. Contact your insurer to file a claim; we can help by providing comprehensive documentation for the adj",
   "url": "https://hometelligentinc.com/faq/will-my-insurance-cover-storm-damage-and-how-does-the-claims-process-work",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will my insurance cover storm damage, and how does the claims process work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most homeowners insurance policies cover sudden and accidental storm damage, but coverage details vary. Contact your insurer promptly to file a claim and understand your specific policy limits and deductibles. We can assist by providing detailed documentation, photos, and estimates to your insurance adjuster, which can help in streamlining the claims review process and securing appropriate compensation for repairs.",
-        "description": "Insurance usually covers storm damage, but policies vary. Contact your insurer to file a claim; we can help by providing comprehensive documentation for the adjuster."
-      }
-    }
-  ],
+  "name": "Will my insurance cover storm damage, and how does the claims process work?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will my insurance cover storm damage, and how does the claims process work?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most homeowners insurance policies cover sudden and accidental storm damage, but coverage details vary. Contact your insurer promptly to file a claim and understand your specific policy limits and deductibles. We can assist by providing detailed documentation, photos, and estimates to your insurance adjuster, which can help in streamlining the claims review process and securing appropriate compensation for repairs.",
+        "@type": "Answer",
+        "description": "Insurance usually covers storm damage, but policies vary. Contact your insurer to file a claim; we can help by providing comprehensive documentation for the adjuster."
+      }
+    }
+  ],
+  "description": "Insurance usually covers storm damage, but policies vary. Contact your insurer to file a claim; we can help by providing comprehensive documentation for the adj"
 }

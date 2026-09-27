@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When is the best time of year to rebuild a deck?",
-  "description": "Spring and fall are typically the best times for deck rebuilding in the East Bay due to milder weather, though projects can proceed year-round.",
   "url": "https://hometelligentinc.com/faq/when-is-the-best-time-of-year-to-rebuild-a-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is the best time of year to rebuild a deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deck rebuilding can often be done year-round, but spring and fall are generally ideal seasons in the East Bay due to milder weather conditions. Moderate temperatures minimize the impact of extreme heat or cold on materials and allow our crew to work efficiently. While winter projects are possible, rain or colder temperatures can sometimes lead to minor delays. Planning ahead in these seasons can also help with scheduling popular contractors.",
-        "description": "Spring and fall are typically the best times for deck rebuilding in the East Bay due to milder weather, though projects can proceed year-round."
-      }
-    }
-  ],
+  "name": "When is the best time of year to rebuild a deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When is the best time of year to rebuild a deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deck rebuilding can often be done year-round, but spring and fall are generally ideal seasons in the East Bay due to milder weather conditions. Moderate temperatures minimize the impact of extreme heat or cold on materials and allow our crew to work efficiently. While winter projects are possible, rain or colder temperatures can sometimes lead to minor delays. Planning ahead in these seasons can also help with scheduling popular contractors.",
+        "@type": "Answer",
+        "description": "Spring and fall are typically the best times for deck rebuilding in the East Bay due to milder weather, though projects can proceed year-round."
+      }
+    }
+  ],
+  "description": "Spring and fall are typically the best times for deck rebuilding in the East Bay due to milder weather, though projects can proceed year-round."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit to build an elevated deck in Alameda?",
-  "description": "Yes, an elevated deck in Alameda usually requires a building permit to ensure compliance with local safety and zoning regulations.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-build-an-elevated-deck-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit to build an elevated deck in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, building an elevated deck in Alameda, as with most cities in our service area like Berkeley or Oakland, typically requires a building permit. This ensures the structure meets local safety and zoning regulations. The permitting process involves submitting detailed plans for review and obtaining necessary approvals before construction can begin. We assist clients in navigating these requirements.",
-        "description": "Yes, an elevated deck in Alameda usually requires a building permit to ensure compliance with local safety and zoning regulations."
-      }
-    }
-  ],
+  "name": "Do I need a permit to build an elevated deck in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit to build an elevated deck in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, building an elevated deck in Alameda, as with most cities in our service area like Berkeley or Oakland, typically requires a building permit. This ensures the structure meets local safety and zoning regulations. The permitting process involves submitting detailed plans for review and obtaining necessary approvals before construction can begin. We assist clients in navigating these requirements.",
+        "@type": "Answer",
+        "description": "Yes, an elevated deck in Alameda usually requires a building permit to ensure compliance with local safety and zoning regulations."
+      }
+    }
+  ],
+  "description": "Yes, an elevated deck in Alameda usually requires a building permit to ensure compliance with local safety and zoning regulations."
 }

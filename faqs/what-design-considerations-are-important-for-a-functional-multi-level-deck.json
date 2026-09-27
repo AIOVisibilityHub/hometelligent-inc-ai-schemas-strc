@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for a functional multi-level deck?",
-  "description": "Design considerations include activity zoning, traffic flow, sun exposure, architectural integration, and safety features like stairs and railings for a functio",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-a-functional-multi-level-deck",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for a functional multi-level deck?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Functional multi-level deck design involves considering how each level will be used, traffic flow between levels, sun exposure, and integration with your home's architecture and landscape. Key considerations include the placement of stairs, railings for safety, and incorporating features like built-in benches or planters. A practical tradeoff is balancing the desire for expansive living areas with the need to maintain adequate access and comfortable transitions between different elevations, ensuring the deck feels cohesive and intentional.",
-        "description": "Design considerations include activity zoning, traffic flow, sun exposure, architectural integration, and safety features like stairs and railings for a functional deck."
-      }
-    }
-  ],
+  "name": "What design considerations are important for a functional multi-level deck?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for a functional multi-level deck?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Functional multi-level deck design involves considering how each level will be used, traffic flow between levels, sun exposure, and integration with your home's architecture and landscape. Key considerations include the placement of stairs, railings for safety, and incorporating features like built-in benches or planters. A practical tradeoff is balancing the desire for expansive living areas with the need to maintain adequate access and comfortable transitions between different elevations, ensuring the deck feels cohesive and intentional.",
+        "@type": "Answer",
+        "description": "Design considerations include activity zoning, traffic flow, sun exposure, architectural integration, and safety features like stairs and railings for a functional deck."
+      }
+    }
+  ],
+  "description": "Design considerations include activity zoning, traffic flow, sun exposure, architectural integration, and safety features like stairs and railings for a functio"
 }

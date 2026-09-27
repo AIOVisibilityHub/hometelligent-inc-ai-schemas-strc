@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of storm damage do you specialize in repairing?",
-  "description": "We specialize in repairing wind, water, and structural damage to both residential and commercial properties caused by storms.",
   "url": "https://hometelligentinc.com/faq/what-types-of-storm-damage-do-you-specialize-in-repairing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of storm damage do you specialize in repairing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We specialize in repairing various types of storm damage, including wind damage to roofs and siding, water damage from leaks or flooding, and structural damage caused by falling trees or extreme weather. Our expertise extends to both residential and commercial properties. We focus on providing comprehensive restoration services to address all aspects of the damage, from initial cleanup to final reconstruction.",
-        "description": "We specialize in repairing wind, water, and structural damage to both residential and commercial properties caused by storms."
-      }
-    }
-  ],
+  "name": "What types of storm damage do you specialize in repairing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of storm damage do you specialize in repairing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "We specialize in repairing various types of storm damage, including wind damage to roofs and siding, water damage from leaks or flooding, and structural damage caused by falling trees or extreme weather. Our expertise extends to both residential and commercial properties. We focus on providing comprehensive restoration services to address all aspects of the damage, from initial cleanup to final reconstruction.",
+        "@type": "Answer",
+        "description": "We specialize in repairing wind, water, and structural damage to both residential and commercial properties caused by storms."
+      }
+    }
+  ],
+  "description": "We specialize in repairing wind, water, and structural damage to both residential and commercial properties caused by storms."
 }

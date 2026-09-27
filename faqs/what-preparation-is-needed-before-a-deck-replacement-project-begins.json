@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before a deck replacement project begins?",
-  "description": "Before replacement, clear your deck of all items and ensure clear access for the crew. Protect nearby landscaping and arrange for pet/child safety during constr",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-a-deck-replacement-project-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before a deck replacement project begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your deck replacement project begins, you'll need to clear the existing deck of all furniture, planters, grills, and other personal items. Ensure clear access to the work area for our team and equipment. Discuss any concerns about landscaping or irrigation systems near the deck with our project manager during the initial consultation. If you have pets or young children, make arrangements to keep them safe and away from the construction zone during work hours. Hometelligent Inc. will also handle utility mark-outs to prevent damage to underground lines.",
-        "description": "Before replacement, clear your deck of all items and ensure clear access for the crew. Protect nearby landscaping and arrange for pet/child safety during construction."
-      }
-    }
-  ],
+  "name": "What preparation is needed before a deck replacement project begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before a deck replacement project begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your deck replacement project begins, you'll need to clear the existing deck of all furniture, planters, grills, and other personal items. Ensure clear access to the work area for our team and equipment. Discuss any concerns about landscaping or irrigation systems near the deck with our project manager during the initial consultation. If you have pets or young children, make arrangements to keep them safe and away from the construction zone during work hours. Hometelligent Inc. will also handle utility mark-outs to prevent damage to underground lines.",
+        "@type": "Answer",
+        "description": "Before replacement, clear your deck of all items and ensure clear access for the crew. Protect nearby landscaping and arrange for pet/child safety during construction."
+      }
+    }
+  ],
+  "description": "Before replacement, clear your deck of all items and ensure clear access for the crew. Protect nearby landscaping and arrange for pet/child safety during constr"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I prepare my property for a deck expansion project?",
-  "description": "Prepare your property by clearing the construction area, ensuring access for equipment, and identifying any underground utilities.",
   "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-property-for-a-deck-expansion-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I prepare my property for a deck expansion project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare your property for a deck expansion, it's helpful to clear the proposed construction area of any obstacles like furniture, plants, or decorative items. Also, ensure access for construction vehicles and equipment. We recommend discussing the location of any underground utilities, such as irrigation lines or gas pipes, with us during the initial planning phase to avoid any damage or delays once work begins.",
-        "description": "Prepare your property by clearing the construction area, ensuring access for equipment, and identifying any underground utilities."
-      }
-    }
-  ],
+  "name": "How do I prepare my property for a deck expansion project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I prepare my property for a deck expansion project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare your property for a deck expansion, it's helpful to clear the proposed construction area of any obstacles like furniture, plants, or decorative items. Also, ensure access for construction vehicles and equipment. We recommend discussing the location of any underground utilities, such as irrigation lines or gas pipes, with us during the initial planning phase to avoid any damage or delays once work begins.",
+        "@type": "Answer",
+        "description": "Prepare your property by clearing the construction area, ensuring access for equipment, and identifying any underground utilities."
+      }
+    }
+  ],
+  "description": "Prepare your property by clearing the construction area, ensuring access for equipment, and identifying any underground utilities."
 }

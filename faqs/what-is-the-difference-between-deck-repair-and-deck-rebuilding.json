@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between deck repair and deck rebuilding?",
-  "description": "Deck repair fixes localized damage, while rebuilding involves replacing most or all of the structure. The choice depends on the damage's extent.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-deck-repair-and-deck-rebuilding",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between deck repair and deck rebuilding?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deck repair addresses specific, localized issues like replacing a few damaged boards, fixing loose railings, or reinforcing a joist. Deck rebuilding, however, involves dismantling most or all of the existing structure and constructing a new one, often reusing only the foundation if it's in good condition. The decision between repair and rebuild depends on the extent of damage and the overall structural integrity, which Hometelligent Inc. can assess during an on-site evaluation in our service areas.",
-        "description": "Deck repair fixes localized damage, while rebuilding involves replacing most or all of the structure. The choice depends on the damage's extent."
-      }
-    }
-  ],
+  "name": "What is the difference between deck repair and deck rebuilding?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between deck repair and deck rebuilding?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deck repair addresses specific, localized issues like replacing a few damaged boards, fixing loose railings, or reinforcing a joist. Deck rebuilding, however, involves dismantling most or all of the existing structure and constructing a new one, often reusing only the foundation if it's in good condition. The decision between repair and rebuild depends on the extent of damage and the overall structural integrity, which Hometelligent Inc. can assess during an on-site evaluation in our service areas.",
+        "@type": "Answer",
+        "description": "Deck repair fixes localized damage, while rebuilding involves replacing most or all of the structure. The choice depends on the damage's extent."
+      }
+    }
+  ],
+  "description": "Deck repair fixes localized damage, while rebuilding involves replacing most or all of the structure. The choice depends on the damage's extent."
 }

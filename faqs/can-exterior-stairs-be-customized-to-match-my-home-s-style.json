@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can exterior stairs be customized to match my home's style?",
-  "description": "Exterior stairs can be customized through material, finish, and railing choices to perfectly match your home's architectural style and landscape.",
   "url": "https://hometelligentinc.com/faq/can-exterior-stairs-be-customized-to-match-my-home-s-style",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can exterior stairs be customized to match my home's style?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, exterior stairs can be highly customized to complement your home's architectural style and landscape. This includes selecting materials, finishes, and railing designs that align with your existing aesthetic, whether traditional, modern, or rustic. For example, a home in a historic district like Piedmont might benefit from classic wood or wrought iron, while a modern home in Dublin could feature sleek concrete or metal. Discussing your home's character and your personal preferences helps us design stairs that enhance your property's overall appeal.",
-        "description": "Exterior stairs can be customized through material, finish, and railing choices to perfectly match your home's architectural style and landscape."
-      }
-    }
-  ],
+  "name": "Can exterior stairs be customized to match my home's style?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can exterior stairs be customized to match my home's style?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, exterior stairs can be highly customized to complement your home's architectural style and landscape. This includes selecting materials, finishes, and railing designs that align with your existing aesthetic, whether traditional, modern, or rustic. For example, a home in a historic district like Piedmont might benefit from classic wood or wrought iron, while a modern home in Dublin could feature sleek concrete or metal. Discussing your home's character and your personal preferences helps us design stairs that enhance your property's overall appeal.",
+        "@type": "Answer",
+        "description": "Exterior stairs can be customized through material, finish, and railing choices to perfectly match your home's architectural style and landscape."
+      }
+    }
+  ],
+  "description": "Exterior stairs can be customized through material, finish, and railing choices to perfectly match your home's architectural style and landscape."
 }

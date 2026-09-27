@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before exterior door installation?",
-  "description": "Clear the work area, remove nearby decor, and protect furniture. Inform us of access needs and parking availability for a smooth installation.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-exterior-door-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before exterior door installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your exterior door installation, ensure the work area inside and outside the home is clear of obstructions. Remove any curtains, blinds, or decor from around the existing door. If necessary, arrange for temporary protection for nearby furniture or flooring. Hometelligent Inc. advises that you identify any specific access requirements for our crew and discuss parking availability, particularly in densely populated areas like downtown Oakland or Berkeley, to ensure a smooth and efficient process.",
-        "description": "Clear the work area, remove nearby decor, and protect furniture. Inform us of access needs and parking availability for a smooth installation."
-      }
-    }
-  ],
+  "name": "What preparation is needed before exterior door installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before exterior door installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your exterior door installation, ensure the work area inside and outside the home is clear of obstructions. Remove any curtains, blinds, or decor from around the existing door. If necessary, arrange for temporary protection for nearby furniture or flooring. Hometelligent Inc. advises that you identify any specific access requirements for our crew and discuss parking availability, particularly in densely populated areas like downtown Oakland or Berkeley, to ensure a smooth and efficient process.",
+        "@type": "Answer",
+        "description": "Clear the work area, remove nearby decor, and protect furniture. Inform us of access needs and parking availability for a smooth installation."
+      }
+    }
+  ],
+  "description": "Clear the work area, remove nearby decor, and protect furniture. Inform us of access needs and parking availability for a smooth installation."
 }

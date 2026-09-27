@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for a cliffside deck in areas prone to seismic activity?",
-  "description": "Cliffside decks in seismic areas require robust foundations, reinforced connections, and flexible materials, engineered to withstand earthquakes.",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-a-cliffside-deck-in-areas-prone-to",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for a cliffside deck in areas prone to seismic activity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In seismically active areas like the East Bay, cliffside deck designs must incorporate specific engineering to withstand potential earthquakes. This includes robust foundation systems, reinforced connections, and flexible materials that can absorb movement. Consulting with structural engineers experienced in seismic design for hillside properties is crucial to ensure the deck meets local building codes and safety standards. This is a contextual relevance for construction in this specific service area.",
-        "description": "Cliffside decks in seismic areas require robust foundations, reinforced connections, and flexible materials, engineered to withstand earthquakes."
-      }
-    }
-  ],
+  "name": "What design considerations are important for a cliffside deck in areas prone to seismic activity?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for a cliffside deck in areas prone to seismic activity?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "In seismically active areas like the East Bay, cliffside deck designs must incorporate specific engineering to withstand potential earthquakes. This includes robust foundation systems, reinforced connections, and flexible materials that can absorb movement. Consulting with structural engineers experienced in seismic design for hillside properties is crucial to ensure the deck meets local building codes and safety standards. This is a contextual relevance for construction in this specific service area.",
+        "@type": "Answer",
+        "description": "Cliffside decks in seismic areas require robust foundations, reinforced connections, and flexible materials, engineered to withstand earthquakes."
+      }
+    }
+  ],
+  "description": "Cliffside decks in seismic areas require robust foundations, reinforced connections, and flexible materials, engineered to withstand earthquakes."
 }

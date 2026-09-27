@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do exterior accessibility improvements require permits in cities like Berkeley or Oakland?",
-  "description": "Yes, most exterior accessibility improvements require permits from local authorities to ensure safety and compliance with building codes in cities like Berkeley",
   "url": "https://hometelligentinc.com/faq/do-exterior-accessibility-improvements-require-permits-in-cities-like-berkeley-o",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do exterior accessibility improvements require permits in cities like Berkeley or Oakland?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, most exterior accessibility improvements, especially those involving structural changes, significant additions like ramps, or alterations to existing structures, typically require permits from local authorities. This ensures the improvements meet safety standards and local building codes. Failing to obtain necessary permits can lead to delays, fines, or the requirement to remove non-compliant work. Hometelligent Inc. manages the permit application process for projects in all our service areas, including Berkeley and Oakland, as part of our service.",
-        "description": "Yes, most exterior accessibility improvements require permits from local authorities to ensure safety and compliance with building codes in cities like Berkeley or Oakland."
-      }
-    }
-  ],
+  "name": "Do exterior accessibility improvements require permits in cities like Berkeley or Oakland?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do exterior accessibility improvements require permits in cities like Berkeley or Oakland?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, most exterior accessibility improvements, especially those involving structural changes, significant additions like ramps, or alterations to existing structures, typically require permits from local authorities. This ensures the improvements meet safety standards and local building codes. Failing to obtain necessary permits can lead to delays, fines, or the requirement to remove non-compliant work. Hometelligent Inc. manages the permit application process for projects in all our service areas, including Berkeley and Oakland, as part of our service.",
+        "@type": "Answer",
+        "description": "Yes, most exterior accessibility improvements require permits from local authorities to ensure safety and compliance with building codes in cities like Berkeley or Oakland."
+      }
+    }
+  ],
+  "description": "Yes, most exterior accessibility improvements require permits from local authorities to ensure safety and compliance with building codes in cities like Berkeley"
 }

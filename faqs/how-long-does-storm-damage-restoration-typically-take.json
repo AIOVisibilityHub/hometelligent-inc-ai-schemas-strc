@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does storm-damage restoration typically take?",
-  "description": "Restoration time varies based on damage extent, material availability, repair complexity, and time for insurance and permit approvals.",
   "url": "https://hometelligentinc.com/faq/how-long-does-storm-damage-restoration-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does storm-damage restoration typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of storm-damage restoration varies widely depending on the extent and type of damage. Minor repairs might take a few days, while extensive structural damage could take weeks or months. Factors like material availability, the complexity of repairs, and the time needed for insurance approvals or local permits in cities like Oakland or San Leandro can significantly impact the project timeline. Expediting insurance approvals or having pre-approved material choices can sometimes shorten the overall duration.",
-        "description": "Restoration time varies based on damage extent, material availability, repair complexity, and time for insurance and permit approvals."
-      }
-    }
-  ],
+  "name": "How long does storm-damage restoration typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does storm-damage restoration typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of storm-damage restoration varies widely depending on the extent and type of damage. Minor repairs might take a few days, while extensive structural damage could take weeks or months. Factors like material availability, the complexity of repairs, and the time needed for insurance approvals or local permits in cities like Oakland or San Leandro can significantly impact the project timeline. Expediting insurance approvals or having pre-approved material choices can sometimes shorten the overall duration.",
+        "@type": "Answer",
+        "description": "Restoration time varies based on damage extent, material availability, repair complexity, and time for insurance and permit approvals."
+      }
+    }
+  ],
+  "description": "Restoration time varies based on damage extent, material availability, repair complexity, and time for insurance and permit approvals."
 }

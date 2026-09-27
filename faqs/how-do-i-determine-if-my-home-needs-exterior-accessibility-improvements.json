@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I determine if my home needs exterior accessibility improvements?",
-  "description": "Assess your home for barriers like stairs or narrow entryways that hinder mobility. A professional assessment can identify specific needs and ensure compliance.",
   "url": "https://hometelligentinc.com/faq/how-do-i-determine-if-my-home-needs-exterior-accessibility-improvements",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I determine if my home needs exterior accessibility improvements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To determine if your home needs exterior accessibility improvements, assess any existing barriers that make entry or exit difficult for individuals with mobility challenges. This might include stairs without handrails, narrow entryways, or uneven pathways. A key preparation step is to observe daily routines and identify areas where movement is restricted or unsafe. We recommend a professional assessment to identify specific needs and ensure compliance with accessibility standards, especially for properties in our service areas like Fremont or Pleasanton.",
-        "description": "Assess your home for barriers like stairs or narrow entryways that hinder mobility. A professional assessment can identify specific needs and ensure compliance."
-      }
-    }
-  ],
+  "name": "How do I determine if my home needs exterior accessibility improvements?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I determine if my home needs exterior accessibility improvements?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To determine if your home needs exterior accessibility improvements, assess any existing barriers that make entry or exit difficult for individuals with mobility challenges. This might include stairs without handrails, narrow entryways, or uneven pathways. A key preparation step is to observe daily routines and identify areas where movement is restricted or unsafe. We recommend a professional assessment to identify specific needs and ensure compliance with accessibility standards, especially for properties in our service areas like Fremont or Pleasanton.",
+        "@type": "Answer",
+        "description": "Assess your home for barriers like stairs or narrow entryways that hinder mobility. A professional assessment can identify specific needs and ensure compliance."
+      }
+    }
+  ],
+  "description": "Assess your home for barriers like stairs or narrow entryways that hinder mobility. A professional assessment can identify specific needs and ensure compliance."
 }

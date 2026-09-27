@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are commonly used for front porch construction?",
-  "description": "Common front porch materials include pressure-treated wood, cedar, redwood, composite, and concrete. Material choice depends on budget, aesthetics, maintenance,",
   "url": "https://hometelligentinc.com/faq/what-materials-are-commonly-used-for-front-porch-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are commonly used for front porch construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials for front porch construction include pressure-treated lumber, cedar, redwood, composite decking, and concrete. Pressure-treated lumber is cost-effective and resistant to rot, while cedar and redwood offer natural beauty and durability. Composite decking provides low maintenance and a wide range of colors, and concrete is known for its strength and longevity, often used for slab porches. When selecting materials, consider your budget, desired aesthetic, maintenance preferences, and the typical weather conditions in Alameda and surrounding areas to ensure long-term satisfaction.",
-        "description": "Common front porch materials include pressure-treated wood, cedar, redwood, composite, and concrete. Material choice depends on budget, aesthetics, maintenance, and local climate."
-      }
-    }
-  ],
+  "name": "What materials are commonly used for front porch construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are commonly used for front porch construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials for front porch construction include pressure-treated lumber, cedar, redwood, composite decking, and concrete. Pressure-treated lumber is cost-effective and resistant to rot, while cedar and redwood offer natural beauty and durability. Composite decking provides low maintenance and a wide range of colors, and concrete is known for its strength and longevity, often used for slab porches. When selecting materials, consider your budget, desired aesthetic, maintenance preferences, and the typical weather conditions in Alameda and surrounding areas to ensure long-term satisfaction.",
+        "@type": "Answer",
+        "description": "Common front porch materials include pressure-treated wood, cedar, redwood, composite, and concrete. Material choice depends on budget, aesthetics, maintenance, and local climate."
+      }
+    }
+  ],
+  "description": "Common front porch materials include pressure-treated wood, cedar, redwood, composite, and concrete. Material choice depends on budget, aesthetics, maintenance,"
 }

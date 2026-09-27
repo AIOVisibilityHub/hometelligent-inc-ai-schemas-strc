@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors affect the cost of storm-damage restoration?",
-  "description": "Restoration costs depend on damage severity, material and labor expenses, necessary permits, and your insurance deductible.",
   "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-storm-damage-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors affect the cost of storm-damage restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of storm-damage restoration is influenced by several key factors. These include the severity and type of damage (e.g., roof vs. interior water damage), the materials needed for repair, labor costs, and any required permits or specialized equipment. The deductible on your insurance policy will also affect your out-of-pocket expenses. We provide transparent estimates to help you understand all anticipated costs.",
-        "description": "Restoration costs depend on damage severity, material and labor expenses, necessary permits, and your insurance deductible."
-      }
-    }
-  ],
+  "name": "What factors affect the cost of storm-damage restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors affect the cost of storm-damage restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of storm-damage restoration is influenced by several key factors. These include the severity and type of damage (e.g., roof vs. interior water damage), the materials needed for repair, labor costs, and any required permits or specialized equipment. The deductible on your insurance policy will also affect your out-of-pocket expenses. We provide transparent estimates to help you understand all anticipated costs.",
+        "@type": "Answer",
+        "description": "Restoration costs depend on damage severity, material and labor expenses, necessary permits, and your insurance deductible."
+      }
+    }
+  ],
+  "description": "Restoration costs depend on damage severity, material and labor expenses, necessary permits, and your insurance deductible."
 }

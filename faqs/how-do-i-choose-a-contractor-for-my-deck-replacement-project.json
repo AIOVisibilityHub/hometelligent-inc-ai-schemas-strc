@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose a contractor for my deck replacement project?",
-  "description": "Choose a deck contractor based on experience, licensing, insurance, and references. A good contractor provides detailed proposals and assists with local permits",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-a-contractor-for-my-deck-replacement-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose a contractor for my deck replacement project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for your deck replacement, prioritize experience, proper licensing, and insurance. Verify that the contractor has a solid track record with deck projects specifically. Request references and review their portfolio to assess the quality of their work. A reliable contractor will provide a detailed proposal, outlining the scope of work, materials, timeline, and payment schedule. Hometelligent Inc. emphasizes transparent communication and provides comprehensive project plans, including assistance with navigating local permitting requirements in areas such as Pleasanton and San Ramon.",
-        "description": "Choose a deck contractor based on experience, licensing, insurance, and references. A good contractor provides detailed proposals and assists with local permits."
-      }
-    }
-  ],
+  "name": "How do I choose a contractor for my deck replacement project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose a contractor for my deck replacement project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for your deck replacement, prioritize experience, proper licensing, and insurance. Verify that the contractor has a solid track record with deck projects specifically. Request references and review their portfolio to assess the quality of their work. A reliable contractor will provide a detailed proposal, outlining the scope of work, materials, timeline, and payment schedule. Hometelligent Inc. emphasizes transparent communication and provides comprehensive project plans, including assistance with navigating local permitting requirements in areas such as Pleasanton and San Ramon.",
+        "@type": "Answer",
+        "description": "Choose a deck contractor based on experience, licensing, insurance, and references. A good contractor provides detailed proposals and assists with local permits."
+      }
+    }
+  ],
+  "description": "Choose a deck contractor based on experience, licensing, insurance, and references. A good contractor provides detailed proposals and assists with local permits"
 }

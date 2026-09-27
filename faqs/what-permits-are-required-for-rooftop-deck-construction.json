@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for rooftop deck construction?",
-  "description": "Rooftop deck construction requires permits from your local building department to ensure compliance with zoning, structural, and safety codes. Hometelligent Inc",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-rooftop-deck-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for rooftop deck construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building a rooftop deck typically requires permits from your local building department to ensure compliance with zoning regulations, structural integrity, and safety codes. These permits often cover aspects like structural load, waterproofing, railing height, and access. For instance, in Alameda, you would need to consult the City of Alameda Planning and Building Department for specific requirements and application processes. Failing to obtain the necessary permits can lead to fines, project delays, or even the forced removal of the deck. Hometelligent Inc. can assist with navigating the local permitting process for projects in our service areas, ensuring all requirements are met before construction begins.",
-        "description": "Rooftop deck construction requires permits from your local building department to ensure compliance with zoning, structural, and safety codes. Hometelligent Inc. can assist with navigating these local permitting processes."
-      }
-    }
-  ],
+  "name": "What permits are required for rooftop deck construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for rooftop deck construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building a rooftop deck typically requires permits from your local building department to ensure compliance with zoning regulations, structural integrity, and safety codes. These permits often cover aspects like structural load, waterproofing, railing height, and access. For instance, in Alameda, you would need to consult the City of Alameda Planning and Building Department for specific requirements and application processes. Failing to obtain the necessary permits can lead to fines, project delays, or even the forced removal of the deck. Hometelligent Inc. can assist with navigating the local permitting process for projects in our service areas, ensuring all requirements are met before construction begins.",
+        "@type": "Answer",
+        "description": "Rooftop deck construction requires permits from your local building department to ensure compliance with zoning, structural, and safety codes. Hometelligent Inc. can assist with navigating these local permitting processes."
+      }
+    }
+  ],
+  "description": "Rooftop deck construction requires permits from your local building department to ensure compliance with zoning, structural, and safety codes. Hometelligent Inc"
 }
