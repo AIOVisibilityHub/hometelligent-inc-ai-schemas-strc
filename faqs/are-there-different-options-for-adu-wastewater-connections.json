@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there different options for ADU wastewater connections?",
-  "description": "ADU wastewater can connect to municipal sewer or a septic system. The decision depends on location and whether existing systems have enough capacity for the add",
   "url": "https://hometelligentinc.com/faq/are-there-different-options-for-adu-wastewater-connections",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there different options for ADU wastewater connections?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, there are different options for ADU wastewater connections, primarily connecting to the existing municipal sewer system or, in some rural areas, installing a new or expanded septic system. The choice is largely dependent on the property's location and existing infrastructure. A critical decision factor is whether the existing sewer lateral or septic system has sufficient capacity for the additional load from the ADU. This assessment must be completed early to avoid costly issues or delays, as an undersized system will require upgrades.",
-        "description": "ADU wastewater can connect to municipal sewer or a septic system. The decision depends on location and whether existing systems have enough capacity for the added load."
-      }
-    }
-  ],
+  "name": "Are there different options for ADU wastewater connections?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there different options for ADU wastewater connections?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, there are different options for ADU wastewater connections, primarily connecting to the existing municipal sewer system or, in some rural areas, installing a new or expanded septic system. The choice is largely dependent on the property's location and existing infrastructure. A critical decision factor is whether the existing sewer lateral or septic system has sufficient capacity for the additional load from the ADU. This assessment must be completed early to avoid costly issues or delays, as an undersized system will require upgrades.",
+        "@type": "Answer",
+        "description": "ADU wastewater can connect to municipal sewer or a septic system. The decision depends on location and whether existing systems have enough capacity for the added load."
+      }
+    }
+  ],
+  "description": "ADU wastewater can connect to municipal sewer or a septic system. The decision depends on location and whether existing systems have enough capacity for the add"
 }

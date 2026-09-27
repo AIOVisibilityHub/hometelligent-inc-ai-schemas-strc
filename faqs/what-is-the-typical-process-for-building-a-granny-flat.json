@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for building a granny flat?",
-  "description": "Building a granny flat involves consultation, design, permit application, construction, and final inspection. Preparing property documents beforehand helps expe",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-building-a-granny-flat",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for building a granny flat?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical process for building a granny flat involves several key steps. It generally begins with an initial consultation and site assessment to determine feasibility, followed by design and architectural planning. Once designs are finalized, we proceed with permit applications, which can involve local zoning and building department approvals in areas like Alameda or Berkeley. After permits are secured, construction commences, concluding with final inspections and occupancy. The preparation phase, including gathering existing property surveys or utility maps, can significantly streamline the initial design and permitting stages.",
-        "description": "Building a granny flat involves consultation, design, permit application, construction, and final inspection. Preparing property documents beforehand helps expedite the process."
-      }
-    }
-  ],
+  "name": "What is the typical process for building a granny flat?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for building a granny flat?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical process for building a granny flat involves several key steps. It generally begins with an initial consultation and site assessment to determine feasibility, followed by design and architectural planning. Once designs are finalized, we proceed with permit applications, which can involve local zoning and building department approvals in areas like Alameda or Berkeley. After permits are secured, construction commences, concluding with final inspections and occupancy. The preparation phase, including gathering existing property surveys or utility maps, can significantly streamline the initial design and permitting stages.",
+        "@type": "Answer",
+        "description": "Building a granny flat involves consultation, design, permit application, construction, and final inspection. Preparing property documents beforehand helps expedite the process."
+      }
+    }
+  ],
+  "description": "Building a granny flat involves consultation, design, permit application, construction, and final inspection. Preparing property documents beforehand helps expe"
 }

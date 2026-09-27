@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between an attached and detached ADU for site planning?",
-  "description": "Attached ADUs integrate with existing structures; detached ADUs require independent placement and potentially new utility extensions, impacting site planning di",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-an-attached-and-detached-adu-for-site-planning",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between an attached and detached ADU for site planning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary difference in site planning for attached versus detached ADUs relates to proximity to the main home, required setbacks, and utility connections. An attached ADU typically involves integrating with existing structures and utilities, potentially simplifying some aspects of the build. Detached ADUs, conversely, require independent placement on the lot and may involve extending utility lines further, which can impact trenching and landscaping. Your property's size and shape are key decision factors here.",
-        "description": "Attached ADUs integrate with existing structures; detached ADUs require independent placement and potentially new utility extensions, impacting site planning differently."
-      }
-    }
-  ],
+  "name": "What is the difference between an attached and detached ADU for site planning?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between an attached and detached ADU for site planning?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The primary difference in site planning for attached versus detached ADUs relates to proximity to the main home, required setbacks, and utility connections. An attached ADU typically involves integrating with existing structures and utilities, potentially simplifying some aspects of the build. Detached ADUs, conversely, require independent placement on the lot and may involve extending utility lines further, which can impact trenching and landscaping. Your property's size and shape are key decision factors here.",
+        "@type": "Answer",
+        "description": "Attached ADUs integrate with existing structures; detached ADUs require independent placement and potentially new utility extensions, impacting site planning differently."
+      }
+    }
+  ],
+  "description": "Attached ADUs integrate with existing structures; detached ADUs require independent placement and potentially new utility extensions, impacting site planning di"
 }

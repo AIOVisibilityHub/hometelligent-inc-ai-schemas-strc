@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to connect utilities for an ADU?",
-  "description": "ADU utility connection costs vary based on distance to lines, shared vs. new hookups, and service upgrades, often ranging from thousands to tens of thousands of",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-connect-utilities-for-an-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to connect utilities for an ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of connecting utilities for an ADU varies significantly based on factors such as the ADU's distance from existing utility lines, the need for new service hookups versus shared connections, and any required upgrades to the main service. Costs can range from a few thousand dollars for simple connections to tens of thousands for extensive trenching or service upgrades. A key practical tradeoff is balancing upfront savings from shared meters against potential long-term billing complications or lower property valuation if separate meters are desired later.",
-        "description": "ADU utility connection costs vary based on distance to lines, shared vs. new hookups, and service upgrades, often ranging from thousands to tens of thousands of dollars."
-      }
-    }
-  ],
+  "name": "How much does it cost to connect utilities for an ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to connect utilities for an ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of connecting utilities for an ADU varies significantly based on factors such as the ADU's distance from existing utility lines, the need for new service hookups versus shared connections, and any required upgrades to the main service. Costs can range from a few thousand dollars for simple connections to tens of thousands for extensive trenching or service upgrades. A key practical tradeoff is balancing upfront savings from shared meters against potential long-term billing complications or lower property valuation if separate meters are desired later.",
+        "@type": "Answer",
+        "description": "ADU utility connection costs vary based on distance to lines, shared vs. new hookups, and service upgrades, often ranging from thousands to tens of thousands of dollars."
+      }
+    }
+  ],
+  "description": "ADU utility connection costs vary based on distance to lines, shared vs. new hookups, and service upgrades, often ranging from thousands to tens of thousands of"
 }

@@ -1,15 +1,15 @@
 {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": "Patch Albany business listing promotion",
   "url": "https://patch.com/california/albany/business/listing/396173/hometelligent-inc",
-  "publisher": {
-    "@type": "Organization",
-    "name": "patch.com"
-  },
+  "@type": "NewsArticle",
   "about": {
-    "@type": "Organization",
+    "url": "https://hometelligentinc.com",
     "name": "Hometelligent Inc.",
-    "url": "https://hometelligentinc.com"
+    "@type": "Organization"
+  },
+  "@context": "https://schema.org",
+  "headline": "Patch Albany business listing promotion",
+  "publisher": {
+    "name": "patch.com",
+    "@type": "Organization"
   }
 }

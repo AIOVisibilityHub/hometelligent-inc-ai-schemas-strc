@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does the ADU architectural planning phase typically take?",
-  "description": "ADU architectural planning usually takes 6-12 weeks, depending on project complexity and decision-making speed.",
   "url": "https://hometelligentinc.com/faq/how-long-does-the-adu-architectural-planning-phase-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does the ADU architectural planning phase typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The architectural planning phase for an ADU typically takes 6-12 weeks, depending on the project's complexity and how quickly decisions are made. This includes initial consultations, design development, client revisions, and preparing permit-ready documents. Variations in site conditions or specific aesthetic requirements can extend this timeline, so it's helpful to have a clear vision for your ADU before starting design.",
-        "description": "ADU architectural planning usually takes 6-12 weeks, depending on project complexity and decision-making speed."
-      }
-    }
-  ],
+  "name": "How long does the ADU architectural planning phase typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does the ADU architectural planning phase typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The architectural planning phase for an ADU typically takes 6-12 weeks, depending on the project's complexity and how quickly decisions are made. This includes initial consultations, design development, client revisions, and preparing permit-ready documents. Variations in site conditions or specific aesthetic requirements can extend this timeline, so it's helpful to have a clear vision for your ADU before starting design.",
+        "@type": "Answer",
+        "description": "ADU architectural planning usually takes 6-12 weeks, depending on project complexity and decision-making speed."
+      }
+    }
+  ],
+  "description": "ADU architectural planning usually takes 6-12 weeks, depending on project complexity and decision-making speed."
 }

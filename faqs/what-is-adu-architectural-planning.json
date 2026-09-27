@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is ADU architectural planning?",
-  "description": "ADU architectural planning designs your Accessory Dwelling Unit to meet regulations and your needs, including floor plans and structural details.",
   "url": "https://hometelligentinc.com/faq/what-is-adu-architectural-planning",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is ADU architectural planning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ADU architectural planning involves designing your Accessory Dwelling Unit to meet local zoning regulations, building codes, and your specific needs. This includes creating floor plans, elevations, sections, and structural details. Engaging in thorough architectural planning ensures your ADU design is feasible, meets all safety standards, and aligns with your property's existing structures, which is crucial for a smooth permit application process in Alameda, Albany, Berkeley, Dublin, and Emeryville.",
-        "description": "ADU architectural planning designs your Accessory Dwelling Unit to meet regulations and your needs, including floor plans and structural details."
-      }
-    }
-  ],
+  "name": "What is ADU architectural planning?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is ADU architectural planning?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "ADU architectural planning involves designing your Accessory Dwelling Unit to meet local zoning regulations, building codes, and your specific needs. This includes creating floor plans, elevations, sections, and structural details. Engaging in thorough architectural planning ensures your ADU design is feasible, meets all safety standards, and aligns with your property's existing structures, which is crucial for a smooth permit application process in Alameda, Albany, Berkeley, Dublin, and Emeryville.",
+        "@type": "Answer",
+        "description": "ADU architectural planning designs your Accessory Dwelling Unit to meet regulations and your needs, including floor plans and structural details."
+      }
+    }
+  ],
+  "description": "ADU architectural planning designs your Accessory Dwelling Unit to meet regulations and your needs, including floor plans and structural details."
 }

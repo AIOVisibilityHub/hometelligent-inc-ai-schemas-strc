@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I involve a contractor in the ADU site planning stage?",
-  "description": "Involve a contractor early in ADU site planning for practical insights on construction feasibility, cost, and to identify potential site challenges.",
   "url": "https://hometelligentinc.com/faq/when-should-i-involve-a-contractor-in-the-adu-site-planning-stage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I involve a contractor in the ADU site planning stage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is beneficial to involve a contractor like Hometelligent during the initial site planning stage to gain practical insights into construction feasibility and cost implications. Early contractor involvement can help identify potential challenges related to site access, grading, or utility connections that might not be apparent from plans alone. This helps refine the design to align with realistic construction methods and budget constraints, potentially saving time and money later in the project.",
-        "description": "Involve a contractor early in ADU site planning for practical insights on construction feasibility, cost, and to identify potential site challenges."
-      }
-    }
-  ],
+  "name": "When should I involve a contractor in the ADU site planning stage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I involve a contractor in the ADU site planning stage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "It is beneficial to involve a contractor like Hometelligent during the initial site planning stage to gain practical insights into construction feasibility and cost implications. Early contractor involvement can help identify potential challenges related to site access, grading, or utility connections that might not be apparent from plans alone. This helps refine the design to align with realistic construction methods and budget constraints, potentially saving time and money later in the project.",
+        "@type": "Answer",
+        "description": "Involve a contractor early in ADU site planning for practical insights on construction feasibility, cost, and to identify potential site challenges."
+      }
+    }
+  ],
+  "description": "Involve a contractor early in ADU site planning for practical insights on construction feasibility, cost, and to identify potential site challenges."
 }

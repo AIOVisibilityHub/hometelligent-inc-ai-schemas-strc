@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an attached ADU?",
-  "description": "An attached ADU is a secondary housing unit built onto an existing home, sharing a common wall or structural element.",
   "url": "https://hometelligentinc.com/faq/what-is-an-attached-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an attached ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An attached Accessory Dwelling Unit (ADU) is a secondary housing unit built onto an existing primary residence, sharing a common wall or structural element. This can involve converting a garage, basement, or adding a new section to your home. Compared to detached ADUs, attached units often have reduced construction costs and simpler permitting processes, especially when utilizing existing foundations or utility connections. Hometelligent specializes in designing and building these types of ADUs to integrate seamlessly with your current property.",
-        "description": "An attached ADU is a secondary housing unit built onto an existing home, sharing a common wall or structural element."
-      }
-    }
-  ],
+  "name": "What is an attached ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an attached ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An attached Accessory Dwelling Unit (ADU) is a secondary housing unit built onto an existing primary residence, sharing a common wall or structural element. This can involve converting a garage, basement, or adding a new section to your home. Compared to detached ADUs, attached units often have reduced construction costs and simpler permitting processes, especially when utilizing existing foundations or utility connections. Hometelligent specializes in designing and building these types of ADUs to integrate seamlessly with your current property.",
+        "@type": "Answer",
+        "description": "An attached ADU is a secondary housing unit built onto an existing home, sharing a common wall or structural element."
+      }
+    }
+  ],
+  "description": "An attached ADU is a secondary housing unit built onto an existing home, sharing a common wall or structural element."
 }

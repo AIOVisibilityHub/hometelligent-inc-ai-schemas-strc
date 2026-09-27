@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I choose an attached or detached granny flat?",
-  "description": "Choose between an attached or detached granny flat based on property layout, budget, and privacy needs. Attached can be cheaper; detached offers more independen",
   "url": "https://hometelligentinc.com/faq/should-i-choose-an-attached-or-detached-granny-flat",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I choose an attached or detached granny flat?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The choice between an attached or detached granny flat depends on your property layout, budget, and intended use. Attached units, often built within or as an extension of the existing home, can sometimes be more cost-effective due to shared walls and utility connections. Detached units offer more privacy and flexibility in design, but typically require more site work and can be more expensive. This decision involves a practical tradeoff between construction cost and the level of independence and privacy desired for the occupants.",
-        "description": "Choose between an attached or detached granny flat based on property layout, budget, and privacy needs. Attached can be cheaper; detached offers more independence."
-      }
-    }
-  ],
+  "name": "Should I choose an attached or detached granny flat?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I choose an attached or detached granny flat?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The choice between an attached or detached granny flat depends on your property layout, budget, and intended use. Attached units, often built within or as an extension of the existing home, can sometimes be more cost-effective due to shared walls and utility connections. Detached units offer more privacy and flexibility in design, but typically require more site work and can be more expensive. This decision involves a practical tradeoff between construction cost and the level of independence and privacy desired for the occupants.",
+        "@type": "Answer",
+        "description": "Choose between an attached or detached granny flat based on property layout, budget, and privacy needs. Attached can be cheaper; detached offers more independence."
+      }
+    }
+  ],
+  "description": "Choose between an attached or detached granny flat based on property layout, budget, and privacy needs. Attached can be cheaper; detached offers more independen"
 }

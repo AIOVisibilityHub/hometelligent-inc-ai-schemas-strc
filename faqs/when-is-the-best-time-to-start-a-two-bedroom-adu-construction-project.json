@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When is the best time to start a two-bedroom ADU construction project?",
-  "description": "Starting in late fall/early winter allows for permits before spring, ideal for groundbreaking and avoiding weather delays.",
   "url": "https://hometelligentinc.com/faq/when-is-the-best-time-to-start-a-two-bedroom-adu-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is the best time to start a two-bedroom ADU construction project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best time to start a two-bedroom ADU construction project often depends on weather conditions and the permitting timeline. Beginning the process in late fall or early winter allows ample time for permitting and design approvals, so groundbreaking can coincide with dryer spring weather, which is ideal for excavation and foundation work. This approach minimizes weather-related delays during critical construction phases. Consider this timing for your project, especially in areas like Dublin or Pleasanton, to optimize progress.",
-        "description": "Starting in late fall/early winter allows for permits before spring, ideal for groundbreaking and avoiding weather delays."
-      }
-    }
-  ],
+  "name": "When is the best time to start a two-bedroom ADU construction project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When is the best time to start a two-bedroom ADU construction project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best time to start a two-bedroom ADU construction project often depends on weather conditions and the permitting timeline. Beginning the process in late fall or early winter allows ample time for permitting and design approvals, so groundbreaking can coincide with dryer spring weather, which is ideal for excavation and foundation work. This approach minimizes weather-related delays during critical construction phases. Consider this timing for your project, especially in areas like Dublin or Pleasanton, to optimize progress.",
+        "@type": "Answer",
+        "description": "Starting in late fall/early winter allows for permits before spring, ideal for groundbreaking and avoiding weather delays."
+      }
+    }
+  ],
+  "description": "Starting in late fall/early winter allows for permits before spring, ideal for groundbreaking and avoiding weather delays."
 }

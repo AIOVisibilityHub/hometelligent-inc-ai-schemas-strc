@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I incorporate sustainable design elements into my ADU?",
-  "description": "Sustainable ADU design elements, such as energy-efficient windows, insulation, passive solar, water-saving fixtures, and solar panels, are highly recommended fo",
   "url": "https://hometelligentinc.com/faq/can-i-incorporate-sustainable-design-elements-into-my-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I incorporate sustainable design elements into my ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, incorporating sustainable design elements into your ADU is highly recommended and can lead to long-term savings and environmental benefits. This can include features like energy-efficient windows, high-performance insulation, passive solar design for heating and cooling, and water-saving fixtures. Options for renewable energy, such as solar panels, are also popular. When considering these elements, it's important to understand the upfront costs versus the long-term operational savings. We can guide you through selecting sustainable features that align with your budget and enhance the ADU's energy performance in the local climate of cities like Pleasanton or Livermore.",
-        "description": "Sustainable ADU design elements, such as energy-efficient windows, insulation, passive solar, water-saving fixtures, and solar panels, are highly recommended for long-term benefits. Balancing upfront costs with operational savings is a key consideration for these choices."
-      }
-    }
-  ],
+  "name": "Can I incorporate sustainable design elements into my ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I incorporate sustainable design elements into my ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, incorporating sustainable design elements into your ADU is highly recommended and can lead to long-term savings and environmental benefits. This can include features like energy-efficient windows, high-performance insulation, passive solar design for heating and cooling, and water-saving fixtures. Options for renewable energy, such as solar panels, are also popular. When considering these elements, it's important to understand the upfront costs versus the long-term operational savings. We can guide you through selecting sustainable features that align with your budget and enhance the ADU's energy performance in the local climate of cities like Pleasanton or Livermore.",
+        "@type": "Answer",
+        "description": "Sustainable ADU design elements, such as energy-efficient windows, insulation, passive solar, water-saving fixtures, and solar panels, are highly recommended for long-term benefits. Balancing upfront costs with operational savings is a key consideration for these choices."
+      }
+    }
+  ],
+  "description": "Sustainable ADU design elements, such as energy-efficient windows, insulation, passive solar, water-saving fixtures, and solar panels, are highly recommended fo"
 }

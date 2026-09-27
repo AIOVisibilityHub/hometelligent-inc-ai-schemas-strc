@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an Accessory Dwelling Unit (ADU) and what are its common design types?",
-  "description": "An ADU is a secondary housing unit on a single-family lot, with common types being detached, attached, garage conversions, and junior ADUs. The best design depe",
   "url": "https://hometelligentinc.com/faq/what-is-an-accessory-dwelling-unit-adu-and-what-are-its-common-design-types",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an Accessory Dwelling Unit (ADU) and what are its common design types?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot. Common design types include detached ADUs (separate from the main house), attached ADUs (connected to the main house), garage conversions, and junior ADUs (JADUs), which are smaller units within an existing home. The most suitable type often depends on your property size, existing structures, and local zoning regulations. Hometelligent Inc. serves clients in Alameda, Albany, Berkeley, Dublin, and Emeryville, where various ADU types are permissible, subject to local ordinances.",
-        "description": "An ADU is a secondary housing unit on a single-family lot, with common types being detached, attached, garage conversions, and junior ADUs. The best design depends on property specifics and local zoning."
-      }
-    }
-  ],
+  "name": "What is an Accessory Dwelling Unit (ADU) and what are its common design types?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an Accessory Dwelling Unit (ADU) and what are its common design types?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot. Common design types include detached ADUs (separate from the main house), attached ADUs (connected to the main house), garage conversions, and junior ADUs (JADUs), which are smaller units within an existing home. The most suitable type often depends on your property size, existing structures, and local zoning regulations. Hometelligent Inc. serves clients in Alameda, Albany, Berkeley, Dublin, and Emeryville, where various ADU types are permissible, subject to local ordinances.",
+        "@type": "Answer",
+        "description": "An ADU is a secondary housing unit on a single-family lot, with common types being detached, attached, garage conversions, and junior ADUs. The best design depends on property specifics and local zoning."
+      }
+    }
+  ],
+  "description": "An ADU is a secondary housing unit on a single-family lot, with common types being detached, attached, garage conversions, and junior ADUs. The best design depe"
 }

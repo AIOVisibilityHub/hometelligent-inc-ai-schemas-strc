@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I build a granny flat on any property?",
-  "description": "Not all properties can accommodate a granny flat; eligibility depends on zoning, lot size, and utility access. Provide your property details for an assessment.",
   "url": "https://hometelligentinc.com/faq/can-i-build-a-granny-flat-on-any-property",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I build a granny flat on any property?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, not every property is suitable for a granny flat. Eligibility largely depends on local zoning ordinances, lot size, and existing utility infrastructure. Most cities in our service area, including Berkeley and Hayward, have minimum lot size requirements and specific setback rules from property lines and existing structures. Additionally, access to utilities like sewer, water, and electricity is essential. A key preparation step is to gather your property's plat map and discuss your specific address with a contractor, as these details are critical for a preliminary assessment of feasibility.",
-        "description": "Not all properties can accommodate a granny flat; eligibility depends on zoning, lot size, and utility access. Provide your property details for an assessment."
-      }
-    }
-  ],
+  "name": "Can I build a granny flat on any property?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I build a granny flat on any property?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "No, not every property is suitable for a granny flat. Eligibility largely depends on local zoning ordinances, lot size, and existing utility infrastructure. Most cities in our service area, including Berkeley and Hayward, have minimum lot size requirements and specific setback rules from property lines and existing structures. Additionally, access to utilities like sewer, water, and electricity is essential. A key preparation step is to gather your property's plat map and discuss your specific address with a contractor, as these details are critical for a preliminary assessment of feasibility.",
+        "@type": "Answer",
+        "description": "Not all properties can accommodate a granny flat; eligibility depends on zoning, lot size, and utility access. Provide your property details for an assessment."
+      }
+    }
+  ],
+  "description": "Not all properties can accommodate a granny flat; eligibility depends on zoning, lot size, and utility access. Provide your property details for an assessment."
 }

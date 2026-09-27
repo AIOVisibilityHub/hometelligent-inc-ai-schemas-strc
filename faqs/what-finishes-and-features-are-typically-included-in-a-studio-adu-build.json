@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What finishes and features are typically included in a Studio ADU build?",
-  "description": "Studio ADU builds include a kitchenette, full bathroom, flooring, paint, windows, doors, and utility connections. Upgrades like HVAC or built-in storage offer a",
   "url": "https://hometelligentinc.com/faq/what-finishes-and-features-are-typically-included-in-a-studio-adu-build",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What finishes and features are typically included in a Studio ADU build?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A standard Studio ADU build typically includes essential finishes and features such as a functional kitchenette (sink, cabinets, space for appliances), a full bathroom (toilet, sink, shower), flooring, interior and exterior paint, windows, and doors. Electrical wiring, lighting fixtures, and plumbing are also standard. For enhanced comfort or specific use cases, clients often consider upgrades like mini-split HVAC systems, energy-efficient appliances, durable finishes for rental properties, or built-in storage solutions to maximize the compact space. Your choices here represent a practical tradeoff between initial cost and long-term utility or rental appeal.",
-        "description": "Studio ADU builds include a kitchenette, full bathroom, flooring, paint, windows, doors, and utility connections. Upgrades like HVAC or built-in storage offer a practical tradeoff between cost and long-term value."
-      }
-    }
-  ],
+  "name": "What finishes and features are typically included in a Studio ADU build?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What finishes and features are typically included in a Studio ADU build?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A standard Studio ADU build typically includes essential finishes and features such as a functional kitchenette (sink, cabinets, space for appliances), a full bathroom (toilet, sink, shower), flooring, interior and exterior paint, windows, and doors. Electrical wiring, lighting fixtures, and plumbing are also standard. For enhanced comfort or specific use cases, clients often consider upgrades like mini-split HVAC systems, energy-efficient appliances, durable finishes for rental properties, or built-in storage solutions to maximize the compact space. Your choices here represent a practical tradeoff between initial cost and long-term utility or rental appeal.",
+        "@type": "Answer",
+        "description": "Studio ADU builds include a kitchenette, full bathroom, flooring, paint, windows, doors, and utility connections. Upgrades like HVAC or built-in storage offer a practical tradeoff between cost and long-term value."
+      }
+    }
+  ],
+  "description": "Studio ADU builds include a kitchenette, full bathroom, flooring, paint, windows, doors, and utility connections. Upgrades like HVAC or built-in storage offer a"
 }

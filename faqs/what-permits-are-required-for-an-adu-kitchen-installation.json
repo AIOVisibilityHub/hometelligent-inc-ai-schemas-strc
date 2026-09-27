@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for an ADU kitchen installation?",
-  "description": "Building permits for plumbing, electrical, mechanical, and general construction are required for ADU kitchen installations, with specific requirements varying b",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-an-adu-kitchen-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for an ADU kitchen installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing a kitchen in an ADU typically requires building permits that cover plumbing, electrical, and mechanical work, as well as general construction. Specific requirements can vary by municipality; for instance, the City of Berkeley or Fremont may have distinct fire safety or accessibility standards for kitchen areas within ADUs. It's crucial to ensure all installations meet the California Residential Code and any local amendments. We handle the entire permitting application process for our clients, helping navigate the specific regulations in your service area.",
-        "description": "Building permits for plumbing, electrical, mechanical, and general construction are required for ADU kitchen installations, with specific requirements varying by city."
-      }
-    }
-  ],
+  "name": "What permits are required for an ADU kitchen installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for an ADU kitchen installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing a kitchen in an ADU typically requires building permits that cover plumbing, electrical, and mechanical work, as well as general construction. Specific requirements can vary by municipality; for instance, the City of Berkeley or Fremont may have distinct fire safety or accessibility standards for kitchen areas within ADUs. It's crucial to ensure all installations meet the California Residential Code and any local amendments. We handle the entire permitting application process for our clients, helping navigate the specific regulations in your service area.",
+        "@type": "Answer",
+        "description": "Building permits for plumbing, electrical, mechanical, and general construction are required for ADU kitchen installations, with specific requirements varying by city."
+      }
+    }
+  ],
+  "description": "Building permits for plumbing, electrical, mechanical, and general construction are required for ADU kitchen installations, with specific requirements varying b"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when designing a garage conversion ADU?",
-  "description": "Key design factors for a garage conversion ADU include size, structural integrity, utility placement, natural light, and functional layout.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-designing-a-garage-conversion-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when designing a garage conversion ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When designing a garage conversion ADU, consider factors such as the existing garage's size and structural integrity, the placement of plumbing and electrical lines, and ensuring adequate natural light and ventilation. It's crucial to plan for a functional layout that maximizes the living space, including a kitchen, bathroom, and sleeping area. Thinking about long-term use, such as accessibility features or energy efficiency, can add significant value. Hometelligent Inc. emphasizes efficient space planning and code compliance in all designs.",
-        "description": "Key design factors for a garage conversion ADU include size, structural integrity, utility placement, natural light, and functional layout."
-      }
-    }
-  ],
+  "name": "What factors should I consider when designing a garage conversion ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when designing a garage conversion ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When designing a garage conversion ADU, consider factors such as the existing garage's size and structural integrity, the placement of plumbing and electrical lines, and ensuring adequate natural light and ventilation. It's crucial to plan for a functional layout that maximizes the living space, including a kitchen, bathroom, and sleeping area. Thinking about long-term use, such as accessibility features or energy efficiency, can add significant value. Hometelligent Inc. emphasizes efficient space planning and code compliance in all designs.",
+        "@type": "Answer",
+        "description": "Key design factors for a garage conversion ADU include size, structural integrity, utility placement, natural light, and functional layout."
+      }
+    }
+  ],
+  "description": "Key design factors for a garage conversion ADU include size, structural integrity, utility placement, natural light, and functional layout."
 }

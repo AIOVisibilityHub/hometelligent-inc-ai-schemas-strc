@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I use my one-bedroom ADU as a rental property?",
-  "description": "Yes, you can often rent out a one-bedroom ADU, but local zoning and rental registration requirements vary by city, like in Fremont or Pleasanton.",
   "url": "https://hometelligentinc.com/faq/can-i-use-my-one-bedroom-adu-as-a-rental-property",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I use my one-bedroom ADU as a rental property?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, in many of our service areas, including cities like Fremont and Pleasanton, you can use your one-bedroom ADU as a rental property, subject to local zoning ordinances and rental registration requirements. The specific regulations regarding short-term versus long-term rentals can vary significantly by municipality. It's crucial to research the rental policies of your specific city before constructing the ADU to ensure compliance and avoid potential issues, as these policies may dictate certain design elements or amenities.",
-        "description": "Yes, you can often rent out a one-bedroom ADU, but local zoning and rental registration requirements vary by city, like in Fremont or Pleasanton."
-      }
-    }
-  ],
+  "name": "Can I use my one-bedroom ADU as a rental property?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I use my one-bedroom ADU as a rental property?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, in many of our service areas, including cities like Fremont and Pleasanton, you can use your one-bedroom ADU as a rental property, subject to local zoning ordinances and rental registration requirements. The specific regulations regarding short-term versus long-term rentals can vary significantly by municipality. It's crucial to research the rental policies of your specific city before constructing the ADU to ensure compliance and avoid potential issues, as these policies may dictate certain design elements or amenities.",
+        "@type": "Answer",
+        "description": "Yes, you can often rent out a one-bedroom ADU, but local zoning and rental registration requirements vary by city, like in Fremont or Pleasanton."
+      }
+    }
+  ],
+  "description": "Yes, you can often rent out a one-bedroom ADU, but local zoning and rental registration requirements vary by city, like in Fremont or Pleasanton."
 }

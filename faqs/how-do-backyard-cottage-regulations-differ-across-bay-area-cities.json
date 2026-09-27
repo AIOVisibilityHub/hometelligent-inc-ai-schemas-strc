@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do backyard cottage regulations differ across Bay Area cities?",
-  "description": "Regulations for backyard cottages vary by Bay Area city, covering size, height, setbacks, and parking. Local ordinances significantly impact design and feasibil",
   "url": "https://hometelligentinc.com/faq/how-do-backyard-cottage-regulations-differ-across-bay-area-cities",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do backyard cottage regulations differ across Bay Area cities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Backyard cottage regulations can vary significantly even among neighboring cities in the Bay Area. While state laws provide a general framework, specific municipalities like Fremont, Dublin, or Pleasanton have their own zoning ordinances regarding maximum size, height, setbacks from property lines, and parking requirements. Some cities may also have design review processes. It's essential to check the specific ADU ordinances for your property's jurisdiction, as these local nuances will directly impact your design choices and construction feasibility.",
-        "description": "Regulations for backyard cottages vary by Bay Area city, covering size, height, setbacks, and parking. Local ordinances significantly impact design and feasibility."
-      }
-    }
-  ],
+  "name": "How do backyard cottage regulations differ across Bay Area cities?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do backyard cottage regulations differ across Bay Area cities?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Backyard cottage regulations can vary significantly even among neighboring cities in the Bay Area. While state laws provide a general framework, specific municipalities like Fremont, Dublin, or Pleasanton have their own zoning ordinances regarding maximum size, height, setbacks from property lines, and parking requirements. Some cities may also have design review processes. It's essential to check the specific ADU ordinances for your property's jurisdiction, as these local nuances will directly impact your design choices and construction feasibility.",
+        "@type": "Answer",
+        "description": "Regulations for backyard cottages vary by Bay Area city, covering size, height, setbacks, and parking. Local ordinances significantly impact design and feasibility."
+      }
+    }
+  ],
+  "description": "Regulations for backyard cottages vary by Bay Area city, covering size, height, setbacks, and parking. Local ordinances significantly impact design and feasibil"
 }

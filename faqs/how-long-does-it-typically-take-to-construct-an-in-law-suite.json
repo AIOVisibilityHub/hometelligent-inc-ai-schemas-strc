@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it typically take to construct an in-law suite?",
-  "description": "Construction time for an in-law suite typically ranges from 6 to 12 months, varying by project complexity and local permitting processes. Unforeseen delays can",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-construct-an-in-law-suite",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it typically take to construct an in-law suite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The construction timeline for an in-law suite varies based on its size, complexity, and whether it's a conversion, attached, or detached unit. Generally, projects can take anywhere from 6 to 12 months, including design, permitting, and construction. Permitting in cities like San Leandro or Hayward can sometimes add significant time to the process. A key process clarity point is that delays can occur due to unforeseen site conditions or changes requested during construction. Establishing a clear project plan and realistic timeline upfront with your contractor is crucial for managing expectations.",
-        "description": "Construction time for an in-law suite typically ranges from 6 to 12 months, varying by project complexity and local permitting processes. Unforeseen delays can occur."
-      }
-    }
-  ],
+  "name": "How long does it typically take to construct an in-law suite?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it typically take to construct an in-law suite?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The construction timeline for an in-law suite varies based on its size, complexity, and whether it's a conversion, attached, or detached unit. Generally, projects can take anywhere from 6 to 12 months, including design, permitting, and construction. Permitting in cities like San Leandro or Hayward can sometimes add significant time to the process. A key process clarity point is that delays can occur due to unforeseen site conditions or changes requested during construction. Establishing a clear project plan and realistic timeline upfront with your contractor is crucial for managing expectations.",
+        "@type": "Answer",
+        "description": "Construction time for an in-law suite typically ranges from 6 to 12 months, varying by project complexity and local permitting processes. Unforeseen delays can occur."
+      }
+    }
+  ],
+  "description": "Construction time for an in-law suite typically ranges from 6 to 12 months, varying by project complexity and local permitting processes. Unforeseen delays can"
 }

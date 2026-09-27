@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of building a granny flat?",
-  "description": "Granny flat costs depend on size, design, materials, site conditions, utility upgrades, and local permitting fees. Budgeting requires considering these factors.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-a-granny-flat",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of building a granny flat?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building a granny flat is influenced by several factors, including its size, complexity of design, choice of materials, site conditions, and necessary utility upgrades. Permitting fees, which vary by jurisdiction within our Alameda and Contra Costa County service areas, also contribute significantly. For instance, a custom-designed detached unit will generally be more expensive than a smaller, simpler attached conversion. Understanding these factors is crucial for preparation, as it helps establish a realistic budget and prioritize features that align with your financial goals.",
-        "description": "Granny flat costs depend on size, design, materials, site conditions, utility upgrades, and local permitting fees. Budgeting requires considering these factors."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of building a granny flat?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of building a granny flat?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building a granny flat is influenced by several factors, including its size, complexity of design, choice of materials, site conditions, and necessary utility upgrades. Permitting fees, which vary by jurisdiction within our Alameda and Contra Costa County service areas, also contribute significantly. For instance, a custom-designed detached unit will generally be more expensive than a smaller, simpler attached conversion. Understanding these factors is crucial for preparation, as it helps establish a realistic budget and prioritize features that align with your financial goals.",
+        "@type": "Answer",
+        "description": "Granny flat costs depend on size, design, materials, site conditions, utility upgrades, and local permitting fees. Budgeting requires considering these factors."
+      }
+    }
+  ],
+  "description": "Granny flat costs depend on size, design, materials, site conditions, utility upgrades, and local permitting fees. Budgeting requires considering these factors."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What utility considerations are important for a one-bedroom ADU?",
-  "description": "Utility planning for an ADU includes connecting to existing water, sewer, electrical, and gas lines, which may require panel upgrades or new lines.",
   "url": "https://hometelligentinc.com/faq/what-utility-considerations-are-important-for-a-one-bedroom-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What utility considerations are important for a one-bedroom ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Utility considerations for a one-bedroom ADU involve connecting to existing water, sewer, electrical, and gas lines, or establishing new independent connections. Depending on the ADU's distance from the main house and existing utility capacity, you may need upgrades to your electrical panel or new sewer lines, which can significantly impact the project's complexity and cost. Customers should prepare by understanding the existing utility layout of their property before starting the design phase.",
-        "description": "Utility planning for an ADU includes connecting to existing water, sewer, electrical, and gas lines, which may require panel upgrades or new lines."
-      }
-    }
-  ],
+  "name": "What utility considerations are important for a one-bedroom ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What utility considerations are important for a one-bedroom ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Utility considerations for a one-bedroom ADU involve connecting to existing water, sewer, electrical, and gas lines, or establishing new independent connections. Depending on the ADU's distance from the main house and existing utility capacity, you may need upgrades to your electrical panel or new sewer lines, which can significantly impact the project's complexity and cost. Customers should prepare by understanding the existing utility layout of their property before starting the design phase.",
+        "@type": "Answer",
+        "description": "Utility planning for an ADU includes connecting to existing water, sewer, electrical, and gas lines, which may require panel upgrades or new lines."
+      }
+    }
+  ],
+  "description": "Utility planning for an ADU includes connecting to existing water, sewer, electrical, and gas lines, which may require panel upgrades or new lines."
 }

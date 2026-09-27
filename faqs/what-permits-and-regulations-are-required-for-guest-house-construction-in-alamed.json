@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits and regulations are required for guest house construction in Alameda County?",
-  "description": "Guest house construction in Alameda County requires zoning, building, and utility permits, with specific regulations varying by city like Dublin or Hayward. Com",
   "url": "https://hometelligentinc.com/faq/what-permits-and-regulations-are-required-for-guest-house-construction-in-alamed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits and regulations are required for guest house construction in Alameda County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Guest house construction in Alameda County requires various permits, including zoning clearance, building permits, and potentially special permits for utilities or environmental considerations. Local jurisdictions like Dublin, Emeryville, and Hayward each have specific zoning ordinances, setback requirements, and density limits that dictate what can be built. You will need to submit detailed plans for structural integrity, electrical, plumbing, and mechanical systems. Engaging with a contractor experienced in these local regulations is a practical way to ensure compliance and avoid costly delays, as permit rules can be complex and frequently updated.",
-        "description": "Guest house construction in Alameda County requires zoning, building, and utility permits, with specific regulations varying by city like Dublin or Hayward. Compliance with local ordinances and setback requirements is crucial."
-      }
-    }
-  ],
+  "name": "What permits and regulations are required for guest house construction in Alameda County?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits and regulations are required for guest house construction in Alameda County?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Guest house construction in Alameda County requires various permits, including zoning clearance, building permits, and potentially special permits for utilities or environmental considerations. Local jurisdictions like Dublin, Emeryville, and Hayward each have specific zoning ordinances, setback requirements, and density limits that dictate what can be built. You will need to submit detailed plans for structural integrity, electrical, plumbing, and mechanical systems. Engaging with a contractor experienced in these local regulations is a practical way to ensure compliance and avoid costly delays, as permit rules can be complex and frequently updated.",
+        "@type": "Answer",
+        "description": "Guest house construction in Alameda County requires zoning, building, and utility permits, with specific regulations varying by city like Dublin or Hayward. Compliance with local ordinances and setback requirements is crucial."
+      }
+    }
+  ],
+  "description": "Guest house construction in Alameda County requires zoning, building, and utility permits, with specific regulations varying by city like Dublin or Hayward. Com"
 }

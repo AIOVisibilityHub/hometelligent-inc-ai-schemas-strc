@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to design an ADU in the Bay Area?",
-  "description": "ADU design costs vary based on size, complexity, materials, and custom features, typically ranging from 8-15% of total construction. Site-specific factors and l",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-design-an-adu-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to design an ADU in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of ADU design varies significantly based on factors such as the size and complexity of the unit, the chosen materials, site conditions, and the extent of custom features. Design fees typically range from 8-15% of the total construction cost. For instance, a basic garage conversion design might be less expensive than a custom two-story detached ADU. We recommend discussing your vision with our team to receive a preliminary estimate tailored to your project in cities like Berkeley or Alameda, as design requirements can differ slightly by jurisdiction.",
-        "description": "ADU design costs vary based on size, complexity, materials, and custom features, typically ranging from 8-15% of total construction. Site-specific factors and local regulations, like those in Berkeley or Alameda, also influence the final design fee."
-      }
-    }
-  ],
+  "name": "How much does it cost to design an ADU in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to design an ADU in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of ADU design varies significantly based on factors such as the size and complexity of the unit, the chosen materials, site conditions, and the extent of custom features. Design fees typically range from 8-15% of the total construction cost. For instance, a basic garage conversion design might be less expensive than a custom two-story detached ADU. We recommend discussing your vision with our team to receive a preliminary estimate tailored to your project in cities like Berkeley or Alameda, as design requirements can differ slightly by jurisdiction.",
+        "@type": "Answer",
+        "description": "ADU design costs vary based on size, complexity, materials, and custom features, typically ranging from 8-15% of total construction. Site-specific factors and local regulations, like those in Berkeley or Alameda, also influence the final design fee."
+      }
+    }
+  ],
+  "description": "ADU design costs vary based on size, complexity, materials, and custom features, typically ranging from 8-15% of total construction. Site-specific factors and l"
 }

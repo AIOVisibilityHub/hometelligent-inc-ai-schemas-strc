@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for adding a multigenerational living suite to my home?",
-  "description": "The process involves design, permitting, construction, and inspections, with local permit requirements being a key step.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-adding-a-multigenerational-living-suite-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for adding a multigenerational living suite to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process generally begins with design and planning, followed by obtaining necessary permits, construction, and final inspections. For homeowners in areas like Berkeley or Oakland, Hometelligent Inc. can assist with design and navigating local permitting requirements. This includes ensuring compliance with zoning ordinances and building codes specific to accessory dwelling units. A detailed project plan helps streamline construction and avoids delays.",
-        "description": "The process involves design, permitting, construction, and inspections, with local permit requirements being a key step."
-      }
-    }
-  ],
+  "name": "What is the process for adding a multigenerational living suite to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for adding a multigenerational living suite to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process generally begins with design and planning, followed by obtaining necessary permits, construction, and final inspections. For homeowners in areas like Berkeley or Oakland, Hometelligent Inc. can assist with design and navigating local permitting requirements. This includes ensuring compliance with zoning ordinances and building codes specific to accessory dwelling units. A detailed project plan helps streamline construction and avoids delays.",
+        "@type": "Answer",
+        "description": "The process involves design, permitting, construction, and inspections, with local permit requirements being a key step."
+      }
+    }
+  ],
+  "description": "The process involves design, permitting, construction, and inspections, with local permit requirements being a key step."
 }

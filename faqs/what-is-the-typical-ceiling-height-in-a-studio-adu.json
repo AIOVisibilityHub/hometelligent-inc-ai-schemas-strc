@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical ceiling height in a Studio ADU?",
-  "description": "Typical Studio ADU ceiling height is 8 feet, but higher ceilings are an option to create a spacious feel. This is a practical tradeoff that can increase costs a",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-ceiling-height-in-a-studio-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical ceiling height in a Studio ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical ceiling height in a Studio ADU generally aligns with standard residential construction, which is often 8 feet. However, local building codes and design preferences can influence this. Some homeowners opt for higher ceilings, such as 9 or 10 feet, to create a more spacious feel, which is a practical tradeoff that can increase construction costs slightly due to additional materials and labor. When considering ceiling height, it's also important to factor in any necessary structural elements or utility lines that might reduce usable height, especially in a compact studio space. We ensure all designs meet minimum code requirements for habitable spaces.",
-        "description": "Typical Studio ADU ceiling height is 8 feet, but higher ceilings are an option to create a spacious feel. This is a practical tradeoff that can increase costs and needs to account for structural elements."
-      }
-    }
-  ],
+  "name": "What is the typical ceiling height in a Studio ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical ceiling height in a Studio ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical ceiling height in a Studio ADU generally aligns with standard residential construction, which is often 8 feet. However, local building codes and design preferences can influence this. Some homeowners opt for higher ceilings, such as 9 or 10 feet, to create a more spacious feel, which is a practical tradeoff that can increase construction costs slightly due to additional materials and labor. When considering ceiling height, it's also important to factor in any necessary structural elements or utility lines that might reduce usable height, especially in a compact studio space. We ensure all designs meet minimum code requirements for habitable spaces.",
+        "@type": "Answer",
+        "description": "Typical Studio ADU ceiling height is 8 feet, but higher ceilings are an option to create a spacious feel. This is a practical tradeoff that can increase costs and needs to account for structural elements."
+      }
+    }
+  ],
+  "description": "Typical Studio ADU ceiling height is 8 feet, but higher ceilings are an option to create a spacious feel. This is a practical tradeoff that can increase costs a"
 }

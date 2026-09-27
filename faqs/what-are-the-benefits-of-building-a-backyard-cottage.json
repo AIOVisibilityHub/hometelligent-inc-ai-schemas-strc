@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of building a backyard cottage?",
-  "description": "Benefits of a backyard cottage include increased property value, flexible living space, potential rental income, or a dedicated workspace.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-building-a-backyard-cottage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of building a backyard cottage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building a backyard cottage offers several benefits, including increasing property value, providing flexible living space for family members, or generating passive rental income. It can also serve as a dedicated home office, a guest suite, or a space for aging parents. The decision to build an ADU often involves weighing these benefits against the initial investment and the potential for increased property taxes. Homeowners in high-demand areas like Berkeley or Oakland often find the rental income potential particularly appealing.",
-        "description": "Benefits of a backyard cottage include increased property value, flexible living space, potential rental income, or a dedicated workspace."
-      }
-    }
-  ],
+  "name": "What are the benefits of building a backyard cottage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of building a backyard cottage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building a backyard cottage offers several benefits, including increasing property value, providing flexible living space for family members, or generating passive rental income. It can also serve as a dedicated home office, a guest suite, or a space for aging parents. The decision to build an ADU often involves weighing these benefits against the initial investment and the potential for increased property taxes. Homeowners in high-demand areas like Berkeley or Oakland often find the rental income potential particularly appealing.",
+        "@type": "Answer",
+        "description": "Benefits of a backyard cottage include increased property value, flexible living space, potential rental income, or a dedicated workspace."
+      }
+    }
+  ],
+  "description": "Benefits of a backyard cottage include increased property value, flexible living space, potential rental income, or a dedicated workspace."
 }

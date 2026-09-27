@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a rental ADU and how does it differ from a regular ADU?",
-  "description": "A rental ADU is an Accessory Dwelling Unit designed for leasing to tenants, focusing on features that optimize it for income generation and tenant occupancy.",
   "url": "https://hometelligentinc.com/faq/what-is-a-rental-adu-and-how-does-it-differ-from-a-regular-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a rental ADU and how does it differ from a regular ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A rental ADU (Accessory Dwelling Unit) is a secondary housing unit on a single-family lot specifically intended for lease to tenants. While all ADUs provide additional living space, a 'rental ADU' emphasizes the income-generating aspect. The primary difference often lies in the owner's intent and how the unit's design and features prioritize long-term tenant appeal, privacy, and durability for rental occupancy, rather than just accommodating family or guests.",
-        "description": "A rental ADU is an Accessory Dwelling Unit designed for leasing to tenants, focusing on features that optimize it for income generation and tenant occupancy."
-      }
-    }
-  ],
+  "name": "What is a rental ADU and how does it differ from a regular ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a rental ADU and how does it differ from a regular ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A rental ADU (Accessory Dwelling Unit) is a secondary housing unit on a single-family lot specifically intended for lease to tenants. While all ADUs provide additional living space, a 'rental ADU' emphasizes the income-generating aspect. The primary difference often lies in the owner's intent and how the unit's design and features prioritize long-term tenant appeal, privacy, and durability for rental occupancy, rather than just accommodating family or guests.",
+        "@type": "Answer",
+        "description": "A rental ADU is an Accessory Dwelling Unit designed for leasing to tenants, focusing on features that optimize it for income generation and tenant occupancy."
+      }
+    }
+  ],
+  "description": "A rental ADU is an Accessory Dwelling Unit designed for leasing to tenants, focusing on features that optimize it for income generation and tenant occupancy."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the permit requirements for building a Studio ADU in the East Bay Area?",
-  "description": "Permit requirements for Studio ADUs in the East Bay, like Oakland or Fremont, include local zoning, building codes, and state laws. Prepare architectural and si",
   "url": "https://hometelligentinc.com/faq/what-are-the-permit-requirements-for-building-a-studio-adu-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the permit requirements for building a Studio ADU in the East Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for Studio ADUs in East Bay Area cities like Oakland, Fremont, or Livermore involve adhering to local zoning ordinances, building codes, and state ADU laws. You'll typically need architectural plans, site plans, structural engineering, and sometimes geological reports or utility impact assessments. Specific requirements vary by city; for instance, setback rules or maximum ADU sizes might differ slightly. A crucial preparation step is to consult your city's planning department or engage a qualified contractor to understand the exact documentation needed. This proactive approach helps avoid delays during the application process.",
-        "description": "Permit requirements for Studio ADUs in the East Bay, like Oakland or Fremont, include local zoning, building codes, and state laws. Prepare architectural and site plans, as specific needs vary by city."
-      }
-    }
-  ],
+  "name": "What are the permit requirements for building a Studio ADU in the East Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the permit requirements for building a Studio ADU in the East Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for Studio ADUs in East Bay Area cities like Oakland, Fremont, or Livermore involve adhering to local zoning ordinances, building codes, and state ADU laws. You'll typically need architectural plans, site plans, structural engineering, and sometimes geological reports or utility impact assessments. Specific requirements vary by city; for instance, setback rules or maximum ADU sizes might differ slightly. A crucial preparation step is to consult your city's planning department or engage a qualified contractor to understand the exact documentation needed. This proactive approach helps avoid delays during the application process.",
+        "@type": "Answer",
+        "description": "Permit requirements for Studio ADUs in the East Bay, like Oakland or Fremont, include local zoning, building codes, and state laws. Prepare architectural and site plans, as specific needs vary by city."
+      }
+    }
+  ],
+  "description": "Permit requirements for Studio ADUs in the East Bay, like Oakland or Fremont, include local zoning, building codes, and state laws. Prepare architectural and si"
 }

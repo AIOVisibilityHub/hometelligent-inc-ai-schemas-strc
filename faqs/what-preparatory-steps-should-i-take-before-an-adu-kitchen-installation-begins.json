@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparatory steps should I take before an ADU kitchen installation begins?",
-  "description": "Before installation, finalize design preferences, set a budget, ensure ADU structure readiness, and plan for temporary living arrangements if occupied.",
   "url": "https://hometelligentinc.com/faq/what-preparatory-steps-should-i-take-before-an-adu-kitchen-installation-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparatory steps should I take before an ADU kitchen installation begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before an ADU kitchen installation begins, it's beneficial to have a clear understanding of your design preferences, budget, and desired timeline. You should also ensure the ADU structure is ready for interior work, including framing and rough-ins for plumbing and electrical. Gathering inspiration photos, making a list of must-have features, and deciding on appliance types will help streamline the design phase. We also recommend having a temporary living arrangement if the ADU is already occupied, as the kitchen will be non-functional during construction.",
-        "description": "Before installation, finalize design preferences, set a budget, ensure ADU structure readiness, and plan for temporary living arrangements if occupied."
-      }
-    }
-  ],
+  "name": "What preparatory steps should I take before an ADU kitchen installation begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparatory steps should I take before an ADU kitchen installation begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before an ADU kitchen installation begins, it's beneficial to have a clear understanding of your design preferences, budget, and desired timeline. You should also ensure the ADU structure is ready for interior work, including framing and rough-ins for plumbing and electrical. Gathering inspiration photos, making a list of must-have features, and deciding on appliance types will help streamline the design phase. We also recommend having a temporary living arrangement if the ADU is already occupied, as the kitchen will be non-functional during construction.",
+        "@type": "Answer",
+        "description": "Before installation, finalize design preferences, set a budget, ensure ADU structure readiness, and plan for temporary living arrangements if occupied."
+      }
+    }
+  ],
+  "description": "Before installation, finalize design preferences, set a budget, ensure ADU structure readiness, and plan for temporary living arrangements if occupied."
 }

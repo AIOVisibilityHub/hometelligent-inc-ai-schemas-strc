@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will converting my garage affect my property value and taxes?",
-  "description": "Garage conversions can increase property value by adding living space but will likely also increase property taxes due to reassessed home value.",
   "url": "https://hometelligentinc.com/faq/will-converting-my-garage-affect-my-property-value-and-taxes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will converting my garage affect my property value and taxes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Converting your garage into living space can increase your property value by adding habitable square footage and enhancing functionality, especially if it becomes an ADU. However, it will also likely lead to an increase in your property taxes, as the assessed value of your home will be reassessed to reflect the improvements. The extent of the value increase and tax adjustment depends on the quality of the conversion, its functionality, and local market conditions in your specific area. It's advisable to consult with a local real estate professional and your county assessor's office for a more precise estimate.",
-        "description": "Garage conversions can increase property value by adding living space but will likely also increase property taxes due to reassessed home value."
-      }
-    }
-  ],
+  "name": "Will converting my garage affect my property value and taxes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will converting my garage affect my property value and taxes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Converting your garage into living space can increase your property value by adding habitable square footage and enhancing functionality, especially if it becomes an ADU. However, it will also likely lead to an increase in your property taxes, as the assessed value of your home will be reassessed to reflect the improvements. The extent of the value increase and tax adjustment depends on the quality of the conversion, its functionality, and local market conditions in your specific area. It's advisable to consult with a local real estate professional and your county assessor's office for a more precise estimate.",
+        "@type": "Answer",
+        "description": "Garage conversions can increase property value by adding living space but will likely also increase property taxes due to reassessed home value."
+      }
+    }
+  ],
+  "description": "Garage conversions can increase property value by adding living space but will likely also increase property taxes due to reassessed home value."
 }

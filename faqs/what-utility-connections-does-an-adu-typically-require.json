@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What utility connections does an ADU typically require?",
-  "description": "ADUs typically need connections for electricity, water, sewer/septic, and optionally gas. The choice between independent or sub-metered connections depends on l",
   "url": "https://hometelligentinc.com/faq/what-utility-connections-does-an-adu-typically-require",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What utility connections does an ADU typically require?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An Accessory Dwelling Unit (ADU) typically requires connections to essential utilities such as electricity, water, sewer or septic, and gas (if applicable). These connections can either be independent from the primary dwelling or sub-metered/shared, depending on local regulations and the ADU's design. A key decision factor is whether the ADU will have its own meter for utilities, which can impact billing and potential rental income. The choice often depends on the property owner's long-term plans for the ADU.",
-        "description": "ADUs typically need connections for electricity, water, sewer/septic, and optionally gas. The choice between independent or sub-metered connections depends on local regulations and design."
-      }
-    }
-  ],
+  "name": "What utility connections does an ADU typically require?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What utility connections does an ADU typically require?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An Accessory Dwelling Unit (ADU) typically requires connections to essential utilities such as electricity, water, sewer or septic, and gas (if applicable). These connections can either be independent from the primary dwelling or sub-metered/shared, depending on local regulations and the ADU's design. A key decision factor is whether the ADU will have its own meter for utilities, which can impact billing and potential rental income. The choice often depends on the property owner's long-term plans for the ADU.",
+        "@type": "Answer",
+        "description": "ADUs typically need connections for electricity, water, sewer/septic, and optionally gas. The choice between independent or sub-metered connections depends on local regulations and design."
+      }
+    }
+  ],
+  "description": "ADUs typically need connections for electricity, water, sewer/septic, and optionally gas. The choice between independent or sub-metered connections depends on l"
 }

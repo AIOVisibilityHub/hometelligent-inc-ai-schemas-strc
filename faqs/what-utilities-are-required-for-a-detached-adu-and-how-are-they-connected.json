@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What utilities are required for a detached ADU and how are they connected?",
-  "description": "Detached ADUs need water, sewer, electricity, and gas connections, which can be independent or tied to the main house. We manage utility planning and coordinati",
   "url": "https://hometelligentinc.com/faq/what-utilities-are-required-for-a-detached-adu-and-how-are-they-connected",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What utilities are required for a detached ADU and how are they connected?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A detached ADU requires connections for water, sewer (or septic), electricity, and gas (if applicable), independent of or tied into the main house's utilities. These connections often necessitate trenching across the property. Before construction, it's essential to understand the capacity of your existing utility services and potential upgrades needed. Hometelligent manages the planning and coordination for utility extensions, working with local service providers and adhering to regulations in areas like Castro Valley and Newark.",
-        "description": "Detached ADUs need water, sewer, electricity, and gas connections, which can be independent or tied to the main house. We manage utility planning and coordination."
-      }
-    }
-  ],
+  "name": "What utilities are required for a detached ADU and how are they connected?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What utilities are required for a detached ADU and how are they connected?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A detached ADU requires connections for water, sewer (or septic), electricity, and gas (if applicable), independent of or tied into the main house's utilities. These connections often necessitate trenching across the property. Before construction, it's essential to understand the capacity of your existing utility services and potential upgrades needed. Hometelligent manages the planning and coordination for utility extensions, working with local service providers and adhering to regulations in areas like Castro Valley and Newark.",
+        "@type": "Answer",
+        "description": "Detached ADUs need water, sewer, electricity, and gas connections, which can be independent or tied to the main house. We manage utility planning and coordination."
+      }
+    }
+  ],
+  "description": "Detached ADUs need water, sewer, electricity, and gas connections, which can be independent or tied to the main house. We manage utility planning and coordinati"
 }

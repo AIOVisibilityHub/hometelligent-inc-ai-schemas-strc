@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common uses for a converted garage?",
-  "description": "Converted garages are commonly used as bedrooms, home offices, family rooms, or accessory dwelling units (ADUs).",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-uses-for-a-converted-garage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common uses for a converted garage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common uses for a converted garage include creating a new bedroom, a home office, a family room, an art studio, or an accessory dwelling unit (ADU). An ADU often includes a kitchen and bathroom, allowing it to function as a separate living space for extended family or as a rental unit. When deciding on the use, consider your long-term needs and the potential return on investment, as different uses may require varying levels of finishes and amenities. For example, an ADU conversion in Alameda may be subject to specific local ordinances regarding rental units.",
-        "description": "Converted garages are commonly used as bedrooms, home offices, family rooms, or accessory dwelling units (ADUs)."
-      }
-    }
-  ],
+  "name": "What are the common uses for a converted garage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common uses for a converted garage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common uses for a converted garage include creating a new bedroom, a home office, a family room, an art studio, or an accessory dwelling unit (ADU). An ADU often includes a kitchen and bathroom, allowing it to function as a separate living space for extended family or as a rental unit. When deciding on the use, consider your long-term needs and the potential return on investment, as different uses may require varying levels of finishes and amenities. For example, an ADU conversion in Alameda may be subject to specific local ordinances regarding rental units.",
+        "@type": "Answer",
+        "description": "Converted garages are commonly used as bedrooms, home offices, family rooms, or accessory dwelling units (ADUs)."
+      }
+    }
+  ],
+  "description": "Converted garages are commonly used as bedrooms, home offices, family rooms, or accessory dwelling units (ADUs)."
 }

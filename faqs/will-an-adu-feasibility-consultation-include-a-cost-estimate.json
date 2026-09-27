@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will an ADU feasibility consultation include a cost estimate?",
-  "description": "Yes, preliminary cost estimates are often included, offering a broad range based on typical construction costs in your area.",
   "url": "https://hometelligentinc.com/faq/will-an-adu-feasibility-consultation-include-a-cost-estimate",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will an ADU feasibility consultation include a cost estimate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Many ADU feasibility consultations include a preliminary cost estimate based on typical construction costs for similar projects in your area. This estimate is usually a broad range, not a fixed bid, as it depends on final design choices and material selections. Hometelligent provides realistic cost considerations for various ADU types within our service regions.",
-        "description": "Yes, preliminary cost estimates are often included, offering a broad range based on typical construction costs in your area."
-      }
-    }
-  ],
+  "name": "Will an ADU feasibility consultation include a cost estimate?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will an ADU feasibility consultation include a cost estimate?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Many ADU feasibility consultations include a preliminary cost estimate based on typical construction costs for similar projects in your area. This estimate is usually a broad range, not a fixed bid, as it depends on final design choices and material selections. Hometelligent provides realistic cost considerations for various ADU types within our service regions.",
+        "@type": "Answer",
+        "description": "Yes, preliminary cost estimates are often included, offering a broad range based on typical construction costs in your area."
+      }
+    }
+  ],
+  "description": "Yes, preliminary cost estimates are often included, offering a broad range based on typical construction costs in your area."
 }

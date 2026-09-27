@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What does an ADU feasibility consultation typically cover?",
-  "description": "It covers zoning, setbacks, utilities, costs, and design, considering property specifics and local conditions that might affect ADU options.",
   "url": "https://hometelligentinc.com/faq/what-does-an-adu-feasibility-consultation-typically-cover",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does an ADU feasibility consultation typically cover?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A consultation typically covers zoning compliance, setback requirements, utility access, potential construction costs, and preliminary design considerations. We also discuss your property's specific characteristics and how they might influence the ADU's size, placement, and type. For instance, limited space in Oakland or steep lots in Berkeley Hills can significantly impact options.",
-        "description": "It covers zoning, setbacks, utilities, costs, and design, considering property specifics and local conditions that might affect ADU options."
-      }
-    }
-  ],
+  "name": "What does an ADU feasibility consultation typically cover?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What does an ADU feasibility consultation typically cover?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A consultation typically covers zoning compliance, setback requirements, utility access, potential construction costs, and preliminary design considerations. We also discuss your property's specific characteristics and how they might influence the ADU's size, placement, and type. For instance, limited space in Oakland or steep lots in Berkeley Hills can significantly impact options.",
+        "@type": "Answer",
+        "description": "It covers zoning, setbacks, utilities, costs, and design, considering property specifics and local conditions that might affect ADU options."
+      }
+    }
+  ],
+  "description": "It covers zoning, setbacks, utilities, costs, and design, considering property specifics and local conditions that might affect ADU options."
 }

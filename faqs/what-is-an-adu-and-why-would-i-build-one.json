@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an ADU and why would I build one?",
-  "description": "An ADU is a secondary dwelling unit on a residential lot, built for additional living space, rental income, or property value increase.",
   "url": "https://hometelligentinc.com/faq/what-is-an-adu-and-why-would-i-build-one",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an ADU and why would I build one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An Accessory Dwelling Unit (ADU) is a secondary dwelling unit on a single-family or multi-family residential lot. Building an ADU can provide additional living space for family members, generate rental income, or increase property value. Before starting, consider your primary motivation, such as housing a relative or renting it out, as this will influence the design and features of the unit.",
-        "description": "An ADU is a secondary dwelling unit on a residential lot, built for additional living space, rental income, or property value increase."
-      }
-    }
-  ],
+  "name": "What is an ADU and why would I build one?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an ADU and why would I build one?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An Accessory Dwelling Unit (ADU) is a secondary dwelling unit on a single-family or multi-family residential lot. Building an ADU can provide additional living space for family members, generate rental income, or increase property value. Before starting, consider your primary motivation, such as housing a relative or renting it out, as this will influence the design and features of the unit.",
+        "@type": "Answer",
+        "description": "An ADU is a secondary dwelling unit on a residential lot, built for additional living space, rental income, or property value increase."
+      }
+    }
+  ],
+  "description": "An ADU is a secondary dwelling unit on a residential lot, built for additional living space, rental income, or property value increase."
 }

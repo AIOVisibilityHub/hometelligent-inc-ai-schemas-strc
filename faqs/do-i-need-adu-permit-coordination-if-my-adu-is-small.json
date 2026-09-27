@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need ADU permit coordination if my ADU is small?",
-  "description": "Yes, all ADUs, regardless of size, require permit coordination to comply with local zoning laws and building codes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-adu-permit-coordination-if-my-adu-is-small",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need ADU permit coordination if my ADU is small?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, even small ADUs require permit coordination. All Accessory Dwelling Units, regardless of size, must comply with local zoning laws and building codes. While smaller projects might have a slightly simpler review process, they still necessitate proper plan submission, inspections, and approval to ensure safety and legality. Attempting to bypass this can lead to significant issues, including fines or orders to demolish, making professional coordination advisable.",
-        "description": "Yes, all ADUs, regardless of size, require permit coordination to comply with local zoning laws and building codes."
-      }
-    }
-  ],
+  "name": "Do I need ADU permit coordination if my ADU is small?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need ADU permit coordination if my ADU is small?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, even small ADUs require permit coordination. All Accessory Dwelling Units, regardless of size, must comply with local zoning laws and building codes. While smaller projects might have a slightly simpler review process, they still necessitate proper plan submission, inspections, and approval to ensure safety and legality. Attempting to bypass this can lead to significant issues, including fines or orders to demolish, making professional coordination advisable.",
+        "@type": "Answer",
+        "description": "Yes, all ADUs, regardless of size, require permit coordination to comply with local zoning laws and building codes."
+      }
+    }
+  ],
+  "description": "Yes, all ADUs, regardless of size, require permit coordination to comply with local zoning laws and building codes."
 }

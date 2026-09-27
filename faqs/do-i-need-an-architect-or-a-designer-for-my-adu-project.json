@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need an architect or a designer for my ADU project?",
-  "description": "Most ADU projects require a licensed architect or experienced building designer to ensure structural integrity, energy efficiency, and compliance with local bui",
   "url": "https://hometelligentinc.com/faq/do-i-need-an-architect-or-a-designer-for-my-adu-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need an architect or a designer for my ADU project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most ADU projects, particularly those involving new construction or significant structural changes, a licensed architect or experienced building designer is typically required. Their expertise ensures the design meets structural integrity, energy efficiency, and local building codes, which can vary across our service areas like Fremont or Pleasanton. While a draftsperson might handle simpler plans, an architect or designer provides creative solutions, navigates complex regulations, and ensures the final design is both functional and aesthetically pleasing.",
-        "description": "Most ADU projects require a licensed architect or experienced building designer to ensure structural integrity, energy efficiency, and compliance with local building codes. Their expertise is crucial for complex designs and navigating regulations."
-      }
-    }
-  ],
+  "name": "Do I need an architect or a designer for my ADU project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need an architect or a designer for my ADU project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For most ADU projects, particularly those involving new construction or significant structural changes, a licensed architect or experienced building designer is typically required. Their expertise ensures the design meets structural integrity, energy efficiency, and local building codes, which can vary across our service areas like Fremont or Pleasanton. While a draftsperson might handle simpler plans, an architect or designer provides creative solutions, navigates complex regulations, and ensures the final design is both functional and aesthetically pleasing.",
+        "@type": "Answer",
+        "description": "Most ADU projects require a licensed architect or experienced building designer to ensure structural integrity, energy efficiency, and compliance with local building codes. Their expertise is crucial for complex designs and navigating regulations."
+      }
+    }
+  ],
+  "description": "Most ADU projects require a licensed architect or experienced building designer to ensure structural integrity, energy efficiency, and compliance with local bui"
 }

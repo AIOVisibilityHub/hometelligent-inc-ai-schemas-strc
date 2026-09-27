@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a garage conversion?",
-  "description": "Cost factors for garage conversions include garage size, desired finishes, plumbing/electrical needs, structural changes, and local building regulations.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-garage-conversion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a garage conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a garage conversion is influenced by several key factors. These include the size of the garage, the desired finishes, the need for plumbing or electrical upgrades, structural modifications, and the addition of features like new windows or doors. Converting to an accessory dwelling unit (ADU) with a kitchen and bathroom will generally be more expensive than creating a simple home office. Additionally, the specific requirements and regulations of your city, such as those in Emeryville or San Leandro, can impact material choices and labor costs. Having a clear budget and scope defined early in the process is essential.",
-        "description": "Cost factors for garage conversions include garage size, desired finishes, plumbing/electrical needs, structural changes, and local building regulations."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a garage conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a garage conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a garage conversion is influenced by several key factors. These include the size of the garage, the desired finishes, the need for plumbing or electrical upgrades, structural modifications, and the addition of features like new windows or doors. Converting to an accessory dwelling unit (ADU) with a kitchen and bathroom will generally be more expensive than creating a simple home office. Additionally, the specific requirements and regulations of your city, such as those in Emeryville or San Leandro, can impact material choices and labor costs. Having a clear budget and scope defined early in the process is essential.",
+        "@type": "Answer",
+        "description": "Cost factors for garage conversions include garage size, desired finishes, plumbing/electrical needs, structural changes, and local building regulations."
+      }
+    }
+  ],
+  "description": "Cost factors for garage conversions include garage size, desired finishes, plumbing/electrical needs, structural changes, and local building regulations."
 }

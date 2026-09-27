@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I build a detached one-bedroom ADU or convert an existing garage?",
-  "description": "A detached ADU offers design flexibility and privacy but costs more; a garage conversion is cheaper and faster but has structural limitations.",
   "url": "https://hometelligentinc.com/faq/should-i-build-a-detached-one-bedroom-adu-or-convert-an-existing-garage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I build a detached one-bedroom ADU or convert an existing garage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding between a detached one-bedroom ADU and a garage conversion involves weighing several practical tradeoffs. A detached unit offers greater design flexibility and potential for privacy but typically incurs higher construction costs and a longer timeline due to new foundation and utility work. A garage conversion is often more cost-effective and quicker to complete, leveraging existing structures, but may be limited by the garage's original footprint and ceiling height. Your property's available space and long-term goals for the ADU are key factors in this decision.",
-        "description": "A detached ADU offers design flexibility and privacy but costs more; a garage conversion is cheaper and faster but has structural limitations."
-      }
-    }
-  ],
+  "name": "Should I build a detached one-bedroom ADU or convert an existing garage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I build a detached one-bedroom ADU or convert an existing garage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding between a detached one-bedroom ADU and a garage conversion involves weighing several practical tradeoffs. A detached unit offers greater design flexibility and potential for privacy but typically incurs higher construction costs and a longer timeline due to new foundation and utility work. A garage conversion is often more cost-effective and quicker to complete, leveraging existing structures, but may be limited by the garage's original footprint and ceiling height. Your property's available space and long-term goals for the ADU are key factors in this decision.",
+        "@type": "Answer",
+        "description": "A detached ADU offers design flexibility and privacy but costs more; a garage conversion is cheaper and faster but has structural limitations."
+      }
+    }
+  ],
+  "description": "A detached ADU offers design flexibility and privacy but costs more; a garage conversion is cheaper and faster but has structural limitations."
 }

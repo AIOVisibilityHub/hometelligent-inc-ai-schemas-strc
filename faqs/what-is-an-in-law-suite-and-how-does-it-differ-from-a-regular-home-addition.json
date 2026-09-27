@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an in-law suite and how does it differ from a regular home addition?",
-  "description": "An in-law suite is a self-contained living space, typically with a kitchen and bathroom, often for family. It differs from a regular addition by functioning as",
   "url": "https://hometelligentinc.com/faq/what-is-an-in-law-suite-and-how-does-it-differ-from-a-regular-home-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an in-law suite and how does it differ from a regular home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An in-law suite, also known as an accessory dwelling unit (ADU), is a secondary living space on a property designed for independent living, often for family members. It typically includes a bedroom, bathroom, and kitchen or kitchenette. Unlike a standard home addition, an in-law suite is intended to function as a complete, separate dwelling. Understanding local zoning laws and building codes is a crucial preparation step, as these regulations often dictate size, access, and occupancy requirements specific to ADUs in areas like Alameda or Berkeley, which can differ significantly from general additions.",
-        "description": "An in-law suite is a self-contained living space, typically with a kitchen and bathroom, often for family. It differs from a regular addition by functioning as a separate dwelling and having specific zoning requirements."
-      }
-    }
-  ],
+  "name": "What is an in-law suite and how does it differ from a regular home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an in-law suite and how does it differ from a regular home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An in-law suite, also known as an accessory dwelling unit (ADU), is a secondary living space on a property designed for independent living, often for family members. It typically includes a bedroom, bathroom, and kitchen or kitchenette. Unlike a standard home addition, an in-law suite is intended to function as a complete, separate dwelling. Understanding local zoning laws and building codes is a crucial preparation step, as these regulations often dictate size, access, and occupancy requirements specific to ADUs in areas like Alameda or Berkeley, which can differ significantly from general additions.",
+        "@type": "Answer",
+        "description": "An in-law suite is a self-contained living space, typically with a kitchen and bathroom, often for family. It differs from a regular addition by functioning as a separate dwelling and having specific zoning requirements."
+      }
+    }
+  ],
+  "description": "An in-law suite is a self-contained living space, typically with a kitchen and bathroom, often for family. It differs from a regular addition by functioning as"
 }

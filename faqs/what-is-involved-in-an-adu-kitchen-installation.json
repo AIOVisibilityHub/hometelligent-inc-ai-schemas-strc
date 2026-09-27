@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in an ADU kitchen installation?",
-  "description": "ADU kitchen installation includes design, permitting, plumbing, electrical work, cabinet, countertop, and appliance installation, with careful attention to loca",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-an-adu-kitchen-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in an ADU kitchen installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ADU kitchen installation involves several key steps, including design, permitting, plumbing, electrical work, cabinet and countertop installation, and appliance integration. Initially, we work with you to finalize a design that fits your ADU's layout and your functional needs. Permitting is a critical early step to ensure compliance with local building codes, especially in areas like Alameda and Berkeley, where regulations can be specific. Our process ensures all utility connections are properly installed and inspected before finishing touches like backsplash and flooring are added. We prioritize efficient project management to minimize disruption.",
-        "description": "ADU kitchen installation includes design, permitting, plumbing, electrical work, cabinet, countertop, and appliance installation, with careful attention to local building codes."
-      }
-    }
-  ],
+  "name": "What is involved in an ADU kitchen installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in an ADU kitchen installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "ADU kitchen installation involves several key steps, including design, permitting, plumbing, electrical work, cabinet and countertop installation, and appliance integration. Initially, we work with you to finalize a design that fits your ADU's layout and your functional needs. Permitting is a critical early step to ensure compliance with local building codes, especially in areas like Alameda and Berkeley, where regulations can be specific. Our process ensures all utility connections are properly installed and inspected before finishing touches like backsplash and flooring are added. We prioritize efficient project management to minimize disruption.",
+        "@type": "Answer",
+        "description": "ADU kitchen installation includes design, permitting, plumbing, electrical work, cabinet, countertop, and appliance installation, with careful attention to local building codes."
+      }
+    }
+  ],
+  "description": "ADU kitchen installation includes design, permitting, plumbing, electrical work, cabinet, countertop, and appliance installation, with careful attention to loca"
 }

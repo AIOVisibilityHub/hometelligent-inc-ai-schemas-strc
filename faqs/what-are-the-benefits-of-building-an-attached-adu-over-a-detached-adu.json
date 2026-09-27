@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of building an attached ADU over a detached ADU?",
-  "description": "Attached ADUs often have lower costs and simpler permitting due to shared elements, but may offer less privacy than detached units.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-building-an-attached-adu-over-a-detached-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of building an attached ADU over a detached ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building an attached ADU can offer several benefits compared to a detached unit, including potentially lower construction costs due to shared walls and utilities, and sometimes a simpler permitting process. An attached ADU often integrates more closely with the main house, which can be beneficial for families needing to care for relatives or wanting closer proximity to tenants. However, attached ADUs may offer less privacy for occupants compared to detached units, which is a practical tradeoff to consider.",
-        "description": "Attached ADUs often have lower costs and simpler permitting due to shared elements, but may offer less privacy than detached units."
-      }
-    }
-  ],
+  "name": "What are the benefits of building an attached ADU over a detached ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of building an attached ADU over a detached ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building an attached ADU can offer several benefits compared to a detached unit, including potentially lower construction costs due to shared walls and utilities, and sometimes a simpler permitting process. An attached ADU often integrates more closely with the main house, which can be beneficial for families needing to care for relatives or wanting closer proximity to tenants. However, attached ADUs may offer less privacy for occupants compared to detached units, which is a practical tradeoff to consider.",
+        "@type": "Answer",
+        "description": "Attached ADUs often have lower costs and simpler permitting due to shared elements, but may offer less privacy than detached units."
+      }
+    }
+  ],
+  "description": "Attached ADUs often have lower costs and simpler permitting due to shared elements, but may offer less privacy than detached units."
 }

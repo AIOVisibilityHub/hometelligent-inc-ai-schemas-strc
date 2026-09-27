@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of building a rental ADU?",
-  "description": "Costs are influenced by size, design, materials, site conditions, and utility hookups; converting existing structures is usually more affordable than new builds",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-a-rental-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of building a rental ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ADU construction costs vary significantly based on size, complexity of design, materials chosen, site conditions, and utility hookups. For instance, converting an existing garage is often less expensive than building a new detached unit. Preparing for this, consider your budget range and what features are essential for a desirable rental versus what might be considered an upgrade, as these choices directly impact the overall investment.",
-        "description": "Costs are influenced by size, design, materials, site conditions, and utility hookups; converting existing structures is usually more affordable than new builds."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of building a rental ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of building a rental ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "ADU construction costs vary significantly based on size, complexity of design, materials chosen, site conditions, and utility hookups. For instance, converting an existing garage is often less expensive than building a new detached unit. Preparing for this, consider your budget range and what features are essential for a desirable rental versus what might be considered an upgrade, as these choices directly impact the overall investment.",
+        "@type": "Answer",
+        "description": "Costs are influenced by size, design, materials, site conditions, and utility hookups; converting existing structures is usually more affordable than new builds."
+      }
+    }
+  ],
+  "description": "Costs are influenced by size, design, materials, site conditions, and utility hookups; converting existing structures is usually more affordable than new builds"
 }

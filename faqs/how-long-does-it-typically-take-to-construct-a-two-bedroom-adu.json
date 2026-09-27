@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it typically take to construct a two-bedroom ADU?",
-  "description": "Construction of a two-bedroom ADU usually takes 6-12 months, influenced by permitting and site readiness.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-construct-a-two-bedroom-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it typically take to construct a two-bedroom ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The construction timeline for a two-bedroom ADU typically ranges from 6 to 12 months, depending on various factors such as permitting, site preparation, and the complexity of the design. The permitting phase alone can take several months, as it involves reviewing plans for compliance with local building codes and zoning ordinances. Site-specific challenges, like extensive excavation or utility trenching, can also add to the overall duration. We specialize in efficient project management to help navigate these phases, especially for projects in our service areas like Oakland and Berkeley.",
-        "description": "Construction of a two-bedroom ADU usually takes 6-12 months, influenced by permitting and site readiness."
-      }
-    }
-  ],
+  "name": "How long does it typically take to construct a two-bedroom ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it typically take to construct a two-bedroom ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The construction timeline for a two-bedroom ADU typically ranges from 6 to 12 months, depending on various factors such as permitting, site preparation, and the complexity of the design. The permitting phase alone can take several months, as it involves reviewing plans for compliance with local building codes and zoning ordinances. Site-specific challenges, like extensive excavation or utility trenching, can also add to the overall duration. We specialize in efficient project management to help navigate these phases, especially for projects in our service areas like Oakland and Berkeley.",
+        "@type": "Answer",
+        "description": "Construction of a two-bedroom ADU usually takes 6-12 months, influenced by permitting and site readiness."
+      }
+    }
+  ],
+  "description": "Construction of a two-bedroom ADU usually takes 6-12 months, influenced by permitting and site readiness."
 }

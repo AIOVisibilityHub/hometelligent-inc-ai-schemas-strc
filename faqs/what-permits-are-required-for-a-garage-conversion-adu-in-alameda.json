@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for a garage conversion ADU in Alameda?",
-  "description": "Garage conversion ADUs in Alameda require building, plumbing, and electrical permits, adhering to local zoning and safety regulations.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-garage-conversion-adu-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for a garage conversion ADU in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Converting a garage into an ADU in Alameda requires specific permits to ensure compliance with local zoning laws, building codes, and safety regulations. These typically include building permits, plumbing permits, electrical permits, and sometimes mechanical permits. The City of Alameda has specific requirements regarding setbacks, maximum size, and parking. Hometelligent Inc. assists clients in navigating the permit application process and understanding the local regulations relevant to their property.",
-        "description": "Garage conversion ADUs in Alameda require building, plumbing, and electrical permits, adhering to local zoning and safety regulations."
-      }
-    }
-  ],
+  "name": "What permits are required for a garage conversion ADU in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for a garage conversion ADU in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Converting a garage into an ADU in Alameda requires specific permits to ensure compliance with local zoning laws, building codes, and safety regulations. These typically include building permits, plumbing permits, electrical permits, and sometimes mechanical permits. The City of Alameda has specific requirements regarding setbacks, maximum size, and parking. Hometelligent Inc. assists clients in navigating the permit application process and understanding the local regulations relevant to their property.",
+        "@type": "Answer",
+        "description": "Garage conversion ADUs in Alameda require building, plumbing, and electrical permits, adhering to local zoning and safety regulations."
+      }
+    }
+  ],
+  "description": "Garage conversion ADUs in Alameda require building, plumbing, and electrical permits, adhering to local zoning and safety regulations."
 }

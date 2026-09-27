@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common types of ADUs and how do I choose one?",
-  "description": "Common ADU types are detached, attached, garage conversions, and junior ADUs. Choice depends on property layout, existing structures, and local zoning.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-adus-and-how-do-i-choose-one",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common types of ADUs and how do I choose one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common ADU types include detached (freestanding), attached (connected to the main house), garage conversions, and junior ADUs (JADUs) which are internal conversions. The best type for you depends on your property layout, existing structures, and local zoning ordinances. Consider factors like available yard space, existing garage structure, and your budget to determine which type aligns best with your property's potential and your goals.",
-        "description": "Common ADU types are detached, attached, garage conversions, and junior ADUs. Choice depends on property layout, existing structures, and local zoning."
-      }
-    }
-  ],
+  "name": "What are the common types of ADUs and how do I choose one?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common types of ADUs and how do I choose one?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common ADU types include detached (freestanding), attached (connected to the main house), garage conversions, and junior ADUs (JADUs) which are internal conversions. The best type for you depends on your property layout, existing structures, and local zoning ordinances. Consider factors like available yard space, existing garage structure, and your budget to determine which type aligns best with your property's potential and your goals.",
+        "@type": "Answer",
+        "description": "Common ADU types are detached, attached, garage conversions, and junior ADUs. Choice depends on property layout, existing structures, and local zoning."
+      }
+    }
+  ],
+  "description": "Common ADU types are detached, attached, garage conversions, and junior ADUs. Choice depends on property layout, existing structures, and local zoning."
 }

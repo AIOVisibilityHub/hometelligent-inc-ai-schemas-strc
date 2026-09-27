@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I convert my garage if it's attached to my home?",
-  "description": "Yes, attached garages can be converted; the process involves integrating the new space with the home, considering fire separation and matching finishes.",
   "url": "https://hometelligentinc.com/faq/can-i-convert-my-garage-if-it-s-attached-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I convert my garage if it's attached to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, you can convert an attached garage into living space. This is a common type of conversion as it directly extends your existing home's footprint. The process is similar to converting a detached garage but often involves integrating the new space seamlessly with the existing structure. Considerations may include matching exterior finishes, ensuring proper fire separation between the new living space and any remaining garage areas or adjacent homes, and integrating HVAC systems. In cities like Livermore or Newark, specific fire codes and zoning requirements for attached structures will need to be strictly followed during the planning and construction phases.",
-        "description": "Yes, attached garages can be converted; the process involves integrating the new space with the home, considering fire separation and matching finishes."
-      }
-    }
-  ],
+  "name": "Can I convert my garage if it's attached to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I convert my garage if it's attached to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, you can convert an attached garage into living space. This is a common type of conversion as it directly extends your existing home's footprint. The process is similar to converting a detached garage but often involves integrating the new space seamlessly with the existing structure. Considerations may include matching exterior finishes, ensuring proper fire separation between the new living space and any remaining garage areas or adjacent homes, and integrating HVAC systems. In cities like Livermore or Newark, specific fire codes and zoning requirements for attached structures will need to be strictly followed during the planning and construction phases.",
+        "@type": "Answer",
+        "description": "Yes, attached garages can be converted; the process involves integrating the new space with the home, considering fire separation and matching finishes."
+      }
+    }
+  ],
+  "description": "Yes, attached garages can be converted; the process involves integrating the new space with the home, considering fire separation and matching finishes."
 }

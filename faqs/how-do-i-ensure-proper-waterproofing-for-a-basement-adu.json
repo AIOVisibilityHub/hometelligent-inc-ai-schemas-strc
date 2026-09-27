@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure proper waterproofing for a basement ADU?",
-  "description": "Waterproofing involves exterior and interior methods. Consider the tradeoff between costlier but more effective exterior drainage versus more affordable interio",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-proper-waterproofing-for-a-basement-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure proper waterproofing for a basement ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ensuring proper waterproofing for a basement ADU involves a combination of exterior and interior strategies. Exterior waterproofing may include excavation to apply membrane systems and install proper drainage, while interior solutions can involve sump pumps and moisture barriers. A practical tradeoff is choosing between less invasive interior solutions, which are generally more affordable but may not address exterior water sources, and comprehensive exterior drainage, which is more effective but costly due to excavation.",
-        "description": "Waterproofing involves exterior and interior methods. Consider the tradeoff between costlier but more effective exterior drainage versus more affordable interior solutions."
-      }
-    }
-  ],
+  "name": "How do I ensure proper waterproofing for a basement ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure proper waterproofing for a basement ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Ensuring proper waterproofing for a basement ADU involves a combination of exterior and interior strategies. Exterior waterproofing may include excavation to apply membrane systems and install proper drainage, while interior solutions can involve sump pumps and moisture barriers. A practical tradeoff is choosing between less invasive interior solutions, which are generally more affordable but may not address exterior water sources, and comprehensive exterior drainage, which is more effective but costly due to excavation.",
+        "@type": "Answer",
+        "description": "Waterproofing involves exterior and interior methods. Consider the tradeoff between costlier but more effective exterior drainage versus more affordable interior solutions."
+      }
+    }
+  ],
+  "description": "Waterproofing involves exterior and interior methods. Consider the tradeoff between costlier but more effective exterior drainage versus more affordable interio"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What surveys or reports might I need for ADU site planning?",
-  "description": "ADU site planning may require topographic, boundary, and arborist surveys, plus geotechnical reports, depending on local city requirements.",
   "url": "https://hometelligentinc.com/faq/what-surveys-or-reports-might-i-need-for-adu-site-planning",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What surveys or reports might I need for ADU site planning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For ADU site planning, you might need a topographic survey to map your property's contours, a boundary survey to confirm property lines, and an arborist report if significant trees are present. Geotechnical reports (soil analysis) may be required in certain areas or for specific foundation types. Understanding which specific reports your city, like Dublin or Pleasanton, requires is a key preparation step that impacts both timeline and cost.",
-        "description": "ADU site planning may require topographic, boundary, and arborist surveys, plus geotechnical reports, depending on local city requirements."
-      }
-    }
-  ],
+  "name": "What surveys or reports might I need for ADU site planning?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What surveys or reports might I need for ADU site planning?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For ADU site planning, you might need a topographic survey to map your property's contours, a boundary survey to confirm property lines, and an arborist report if significant trees are present. Geotechnical reports (soil analysis) may be required in certain areas or for specific foundation types. Understanding which specific reports your city, like Dublin or Pleasanton, requires is a key preparation step that impacts both timeline and cost.",
+        "@type": "Answer",
+        "description": "ADU site planning may require topographic, boundary, and arborist surveys, plus geotechnical reports, depending on local city requirements."
+      }
+    }
+  ],
+  "description": "ADU site planning may require topographic, boundary, and arborist surveys, plus geotechnical reports, depending on local city requirements."
 }

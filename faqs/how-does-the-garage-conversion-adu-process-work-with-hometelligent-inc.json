@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does the garage conversion ADU process work with Hometelligent Inc.?",
-  "description": "Hometelligent Inc.'s process for garage conversion ADUs includes consultation, site assessment, design, permitting, and construction management.",
   "url": "https://hometelligentinc.com/faq/how-does-the-garage-conversion-adu-process-work-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does the garage conversion ADU process work with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process with Hometelligent Inc. typically begins with an initial consultation to discuss your vision, budget, and the feasibility of your garage conversion. Following this, we conduct a site assessment and develop preliminary designs. Once designs are approved, we handle the permitting process with local jurisdictions like Emeryville. Upon permit approval, our team manages the construction phase, from demolition to final finishes, with regular communication and quality checks to ensure a smooth project delivery.",
-        "description": "Hometelligent Inc.'s process for garage conversion ADUs includes consultation, site assessment, design, permitting, and construction management."
-      }
-    }
-  ],
+  "name": "How does the garage conversion ADU process work with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does the garage conversion ADU process work with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process with Hometelligent Inc. typically begins with an initial consultation to discuss your vision, budget, and the feasibility of your garage conversion. Following this, we conduct a site assessment and develop preliminary designs. Once designs are approved, we handle the permitting process with local jurisdictions like Emeryville. Upon permit approval, our team manages the construction phase, from demolition to final finishes, with regular communication and quality checks to ensure a smooth project delivery.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc.'s process for garage conversion ADUs includes consultation, site assessment, design, permitting, and construction management."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc.'s process for garage conversion ADUs includes consultation, site assessment, design, permitting, and construction management."
 }

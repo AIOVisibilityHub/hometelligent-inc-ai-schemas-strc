@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeline for constructing a one-bedroom ADU?",
-  "description": "Construction of a one-bedroom ADU typically takes 8 to 18 months, including design, permitting, and building.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeline-for-constructing-a-one-bedroom-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeline for constructing a one-bedroom ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical timeline for constructing a one-bedroom ADU can range from 8 to 18 months, encompassing design, permitting, and construction phases. The permitting process can vary significantly based on the specific city regulations within our service areas like Berkeley or Alameda, which may influence the overall duration. Preparing all necessary property surveys and existing site plans before contacting us can help streamline the initial design and permitting stages.",
-        "description": "Construction of a one-bedroom ADU typically takes 8 to 18 months, including design, permitting, and building."
-      }
-    }
-  ],
+  "name": "What is the typical timeline for constructing a one-bedroom ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeline for constructing a one-bedroom ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical timeline for constructing a one-bedroom ADU can range from 8 to 18 months, encompassing design, permitting, and construction phases. The permitting process can vary significantly based on the specific city regulations within our service areas like Berkeley or Alameda, which may influence the overall duration. Preparing all necessary property surveys and existing site plans before contacting us can help streamline the initial design and permitting stages.",
+        "@type": "Answer",
+        "description": "Construction of a one-bedroom ADU typically takes 8 to 18 months, including design, permitting, and building."
+      }
+    }
+  ],
+  "description": "Construction of a one-bedroom ADU typically takes 8 to 18 months, including design, permitting, and building."
 }

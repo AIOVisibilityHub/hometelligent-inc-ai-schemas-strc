@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for constructing a backyard cottage with Hometelligent Inc.?",
-  "description": "Hometelligent Inc.'s process involves consultation, detailed design, permitting, and construction management, with regular updates.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-constructing-a-backyard-cottage-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for constructing a backyard cottage with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process with Hometelligent Inc. for constructing a backyard cottage typically begins with an initial consultation to discuss your vision, budget, and property specifics. Following this, we move into detailed design and architectural planning, ensuring compliance with local ADU regulations in your specific city, such as Emeryville or Hayward. Once designs are finalized and permits are secured, our team manages the construction phase through to completion, including inspections. Throughout the project, we provide regular updates, ensuring transparency and efficient communication.",
-        "description": "Hometelligent Inc.'s process involves consultation, detailed design, permitting, and construction management, with regular updates."
-      }
-    }
-  ],
+  "name": "What is the process for constructing a backyard cottage with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for constructing a backyard cottage with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process with Hometelligent Inc. for constructing a backyard cottage typically begins with an initial consultation to discuss your vision, budget, and property specifics. Following this, we move into detailed design and architectural planning, ensuring compliance with local ADU regulations in your specific city, such as Emeryville or Hayward. Once designs are finalized and permits are secured, our team manages the construction phase through to completion, including inspections. Throughout the project, we provide regular updates, ensuring transparency and efficient communication.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc.'s process involves consultation, detailed design, permitting, and construction management, with regular updates."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc.'s process involves consultation, detailed design, permitting, and construction management, with regular updates."
 }

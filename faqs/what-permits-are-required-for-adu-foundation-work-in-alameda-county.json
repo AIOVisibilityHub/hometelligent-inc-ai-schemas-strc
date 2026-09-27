@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for ADU foundation work in Alameda County?",
-  "description": "ADU foundation work in Alameda County requires building permits, including structural and potentially grading permits.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-adu-foundation-work-in-alameda-county",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for ADU foundation work in Alameda County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In Alameda County, ADU foundation work requires specific building permits to ensure compliance with local zoning ordinances and structural safety codes. This includes structural permits for the foundation itself, and potentially grading permits if significant earthwork is involved. Hometelligent Inc. assists clients in navigating the permitting process, ensuring all necessary approvals are secured before construction begins to avoid delays and ensure legal compliance.",
-        "description": "ADU foundation work in Alameda County requires building permits, including structural and potentially grading permits."
-      }
-    }
-  ],
+  "name": "What permits are required for ADU foundation work in Alameda County?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for ADU foundation work in Alameda County?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "In Alameda County, ADU foundation work requires specific building permits to ensure compliance with local zoning ordinances and structural safety codes. This includes structural permits for the foundation itself, and potentially grading permits if significant earthwork is involved. Hometelligent Inc. assists clients in navigating the permitting process, ensuring all necessary approvals are secured before construction begins to avoid delays and ensure legal compliance.",
+        "@type": "Answer",
+        "description": "ADU foundation work in Alameda County requires building permits, including structural and potentially grading permits."
+      }
+    }
+  ],
+  "description": "ADU foundation work in Alameda County requires building permits, including structural and potentially grading permits."
 }

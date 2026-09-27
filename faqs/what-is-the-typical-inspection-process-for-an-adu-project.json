@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical inspection process for an ADU project?",
-  "description": "ADU inspection involves multiple stages like foundation, framing, and final occupancy to ensure code compliance, with coordination crucial for progress.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-inspection-process-for-an-adu-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical inspection process for an ADU project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The ADU inspection process involves multiple stages, from foundation and framing to plumbing, electrical, and final occupancy inspections. Each phase ensures the construction meets safety codes and approved plans. Being present or having your contractor coordinate these inspections is crucial to keep the project moving and address any issues promptly, particularly for complex utility tie-ins.",
-        "description": "ADU inspection involves multiple stages like foundation, framing, and final occupancy to ensure code compliance, with coordination crucial for progress."
-      }
-    }
-  ],
+  "name": "What is the typical inspection process for an ADU project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical inspection process for an ADU project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The ADU inspection process involves multiple stages, from foundation and framing to plumbing, electrical, and final occupancy inspections. Each phase ensures the construction meets safety codes and approved plans. Being present or having your contractor coordinate these inspections is crucial to keep the project moving and address any issues promptly, particularly for complex utility tie-ins.",
+        "@type": "Answer",
+        "description": "ADU inspection involves multiple stages like foundation, framing, and final occupancy to ensure code compliance, with coordination crucial for progress."
+      }
+    }
+  ],
+  "description": "ADU inspection involves multiple stages like foundation, framing, and final occupancy to ensure code compliance, with coordination crucial for progress."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I build an attached or detached multigenerational living suite?",
-  "description": "Choose based on property size, desired privacy, and existing home layout; detached offers more independence, attached may be cheaper.",
   "url": "https://hometelligentinc.com/faq/should-i-build-an-attached-or-detached-multigenerational-living-suite",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I build an attached or detached multigenerational living suite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The choice between an attached or detached multigenerational living suite depends on your property size, existing home layout, and desired level of privacy. Detached units offer more independence and potentially less disruption during construction, while attached units can be more cost-effective if existing space can be converted. Consider factors like available yard space, access to utilities, and how much separation you want between the primary residence and the new suite when making this decision.",
-        "description": "Choose based on property size, desired privacy, and existing home layout; detached offers more independence, attached may be cheaper."
-      }
-    }
-  ],
+  "name": "Should I build an attached or detached multigenerational living suite?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I build an attached or detached multigenerational living suite?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The choice between an attached or detached multigenerational living suite depends on your property size, existing home layout, and desired level of privacy. Detached units offer more independence and potentially less disruption during construction, while attached units can be more cost-effective if existing space can be converted. Consider factors like available yard space, access to utilities, and how much separation you want between the primary residence and the new suite when making this decision.",
+        "@type": "Answer",
+        "description": "Choose based on property size, desired privacy, and existing home layout; detached offers more independence, attached may be cheaper."
+      }
+    }
+  ],
+  "description": "Choose based on property size, desired privacy, and existing home layout; detached offers more independence, attached may be cheaper."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed on my property before ADU foundation work begins?",
-  "description": "Preparation includes clearing the site, ensuring utility access, and having approved plans and permits before foundation work begins.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-on-my-property-before-adu-foundation-work-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed on my property before ADU foundation work begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before ADU foundation work, your property will need site preparation, including clearing vegetation, debris, and ensuring clear access for equipment. Utility lines (water, sewer, electrical) may need to be located or rerouted. Often, an approved site plan, foundation plan, and any necessary permits must be in place. Hometelligent Inc. helps coordinate these initial steps, advising on specifics like tree removal or temporary utility adjustments to ensure a smooth start.",
-        "description": "Preparation includes clearing the site, ensuring utility access, and having approved plans and permits before foundation work begins."
-      }
-    }
-  ],
+  "name": "What preparation is needed on my property before ADU foundation work begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed on my property before ADU foundation work begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before ADU foundation work, your property will need site preparation, including clearing vegetation, debris, and ensuring clear access for equipment. Utility lines (water, sewer, electrical) may need to be located or rerouted. Often, an approved site plan, foundation plan, and any necessary permits must be in place. Hometelligent Inc. helps coordinate these initial steps, advising on specifics like tree removal or temporary utility adjustments to ensure a smooth start.",
+        "@type": "Answer",
+        "description": "Preparation includes clearing the site, ensuring utility access, and having approved plans and permits before foundation work begins."
+      }
+    }
+  ],
+  "description": "Preparation includes clearing the site, ensuring utility access, and having approved plans and permits before foundation work begins."
 }

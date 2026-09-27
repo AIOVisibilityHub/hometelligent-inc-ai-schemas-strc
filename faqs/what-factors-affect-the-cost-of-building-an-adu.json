@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors affect the cost of building an ADU?",
-  "description": "ADU costs vary by size, type, materials, site preparation, and finishes. Custom designs or difficult sites can increase expenses.",
   "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-building-an-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors affect the cost of building an ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building an ADU is influenced by its size, type (e.g., detached vs. garage conversion), materials chosen, site preparation needs, and interior finishes. Custom designs or challenging site conditions can increase overall expenses. Establishing a clear budget early on and discussing material choices with your builder can help manage costs effectively.",
-        "description": "ADU costs vary by size, type, materials, site preparation, and finishes. Custom designs or difficult sites can increase expenses."
-      }
-    }
-  ],
+  "name": "What factors affect the cost of building an ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors affect the cost of building an ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building an ADU is influenced by its size, type (e.g., detached vs. garage conversion), materials chosen, site preparation needs, and interior finishes. Custom designs or challenging site conditions can increase overall expenses. Establishing a clear budget early on and discussing material choices with your builder can help manage costs effectively.",
+        "@type": "Answer",
+        "description": "ADU costs vary by size, type, materials, site preparation, and finishes. Custom designs or difficult sites can increase expenses."
+      }
+    }
+  ],
+  "description": "ADU costs vary by size, type, materials, site preparation, and finishes. Custom designs or difficult sites can increase expenses."
 }

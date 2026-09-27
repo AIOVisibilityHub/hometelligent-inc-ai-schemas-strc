@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common challenges of converting a basement into an ADU?",
-  "description": "Challenges include ceiling height, waterproofing, egress, and system integration. Foundation work can be a significant decision factor.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-of-converting-a-basement-into-an-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common challenges of converting a basement into an ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges include ensuring adequate ceiling height, managing moisture and waterproofing, establishing proper egress (exits), and integrating new plumbing and electrical systems into existing infrastructure. A key decision factor for homeowners in areas like Fremont or Hayward is whether the existing basement slab can be lowered or if foundation underpinning is needed, as this significantly impacts cost and structural requirements.",
-        "description": "Challenges include ceiling height, waterproofing, egress, and system integration. Foundation work can be a significant decision factor."
-      }
-    }
-  ],
+  "name": "What are the common challenges of converting a basement into an ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common challenges of converting a basement into an ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges include ensuring adequate ceiling height, managing moisture and waterproofing, establishing proper egress (exits), and integrating new plumbing and electrical systems into existing infrastructure. A key decision factor for homeowners in areas like Fremont or Hayward is whether the existing basement slab can be lowered or if foundation underpinning is needed, as this significantly impacts cost and structural requirements.",
+        "@type": "Answer",
+        "description": "Challenges include ceiling height, waterproofing, egress, and system integration. Foundation work can be a significant decision factor."
+      }
+    }
+  ],
+  "description": "Challenges include ceiling height, waterproofing, egress, and system integration. Foundation work can be a significant decision factor."
 }

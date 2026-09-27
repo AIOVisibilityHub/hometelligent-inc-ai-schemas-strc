@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of adding a granny flat to my property?",
-  "description": "Granny flats increase property value, offer rental income, and provide flexible family living. Consider the initial investment versus long-term benefits.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-adding-a-granny-flat-to-my-property",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of adding a granny flat to my property?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a granny flat to your property offers several advantages, including increased property value, potential rental income, and flexible living arrangements for family members. It provides an independent living space while keeping loved ones close. For example, it can house aging parents, adult children, or serve as a dedicated workspace. A practical tradeoff to consider is the initial investment and construction timeline versus the long-term benefits of increased property functionality and financial returns through rent or improved resale value.",
-        "description": "Granny flats increase property value, offer rental income, and provide flexible family living. Consider the initial investment versus long-term benefits."
-      }
-    }
-  ],
+  "name": "What are the benefits of adding a granny flat to my property?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of adding a granny flat to my property?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a granny flat to your property offers several advantages, including increased property value, potential rental income, and flexible living arrangements for family members. It provides an independent living space while keeping loved ones close. For example, it can house aging parents, adult children, or serve as a dedicated workspace. A practical tradeoff to consider is the initial investment and construction timeline versus the long-term benefits of increased property functionality and financial returns through rent or improved resale value.",
+        "@type": "Answer",
+        "description": "Granny flats increase property value, offer rental income, and provide flexible family living. Consider the initial investment versus long-term benefits."
+      }
+    }
+  ],
+  "description": "Granny flats increase property value, offer rental income, and provide flexible family living. Consider the initial investment versus long-term benefits."
 }

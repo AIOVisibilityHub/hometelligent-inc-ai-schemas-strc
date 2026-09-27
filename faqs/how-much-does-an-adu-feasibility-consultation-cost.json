@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does an ADU feasibility consultation cost?",
-  "description": "Consultation costs vary by property complexity and analysis depth. We provide quotes based on location and project scope.",
   "url": "https://hometelligentinc.com/faq/how-much-does-an-adu-feasibility-consultation-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does an ADU feasibility consultation cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost for an ADU feasibility consultation varies based on the complexity of your property and the depth of analysis required. Some companies offer a basic review, while others provide a more comprehensive report including preliminary cost estimates. We can provide a clear quote once we understand your specific location and project scope within our service areas like Fremont or Pleasanton.",
-        "description": "Consultation costs vary by property complexity and analysis depth. We provide quotes based on location and project scope."
-      }
-    }
-  ],
+  "name": "How much does an ADU feasibility consultation cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does an ADU feasibility consultation cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost for an ADU feasibility consultation varies based on the complexity of your property and the depth of analysis required. Some companies offer a basic review, while others provide a more comprehensive report including preliminary cost estimates. We can provide a clear quote once we understand your specific location and project scope within our service areas like Fremont or Pleasanton.",
+        "@type": "Answer",
+        "description": "Consultation costs vary by property complexity and analysis depth. We provide quotes based on location and project scope."
+      }
+    }
+  ],
+  "description": "Consultation costs vary by property complexity and analysis depth. We provide quotes based on location and project scope."
 }

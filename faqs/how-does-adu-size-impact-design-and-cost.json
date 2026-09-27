@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does ADU size impact design and cost?",
-  "description": "ADU size impacts design and cost due to materials, labor, and foundation work, with local regulations also dictating maximum sizes.",
   "url": "https://hometelligentinc.com/faq/how-does-adu-size-impact-design-and-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does ADU size impact design and cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ADU size significantly impacts both design complexity and overall cost, as larger units typically require more materials, labor, and potentially more extensive foundation work. Local regulations in areas like Pleasanton or Livermore also dictate maximum allowable ADU sizes, which can influence design options. Optimizing the layout within a smaller footprint can sometimes provide significant cost savings without sacrificing functionality.",
-        "description": "ADU size impacts design and cost due to materials, labor, and foundation work, with local regulations also dictating maximum sizes."
-      }
-    }
-  ],
+  "name": "How does ADU size impact design and cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does ADU size impact design and cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "ADU size significantly impacts both design complexity and overall cost, as larger units typically require more materials, labor, and potentially more extensive foundation work. Local regulations in areas like Pleasanton or Livermore also dictate maximum allowable ADU sizes, which can influence design options. Optimizing the layout within a smaller footprint can sometimes provide significant cost savings without sacrificing functionality.",
+        "@type": "Answer",
+        "description": "ADU size impacts design and cost due to materials, labor, and foundation work, with local regulations also dictating maximum sizes."
+      }
+    }
+  ],
+  "description": "ADU size impacts design and cost due to materials, labor, and foundation work, with local regulations also dictating maximum sizes."
 }

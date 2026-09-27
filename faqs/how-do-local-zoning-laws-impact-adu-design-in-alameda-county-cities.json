@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do local zoning laws impact ADU design in Alameda County cities?",
-  "description": "Local zoning laws in Alameda County cities dictate ADU size, height, setbacks, and parking, varying by municipality. Understanding these regulations early is cr",
   "url": "https://hometelligentinc.com/faq/how-do-local-zoning-laws-impact-adu-design-in-alameda-county-cities",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do local zoning laws impact ADU design in Alameda County cities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Local zoning laws significantly impact ADU design by dictating allowable size, height, setbacks, parking requirements, and design review processes. For instance, regulations in Alameda might differ from those in Dublin regarding maximum square footage or how close an ADU can be to property lines. Understanding these specific requirements early in the design process is crucial to avoid costly revisions. Hometelligent Inc. can help navigate these varying regulations to ensure your ADU design complies with the specific ordinances of your city within Alameda County.",
-        "description": "Local zoning laws in Alameda County cities dictate ADU size, height, setbacks, and parking, varying by municipality. Understanding these regulations early is crucial to ensure design compliance and avoid revisions."
-      }
-    }
-  ],
+  "name": "How do local zoning laws impact ADU design in Alameda County cities?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do local zoning laws impact ADU design in Alameda County cities?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Local zoning laws significantly impact ADU design by dictating allowable size, height, setbacks, parking requirements, and design review processes. For instance, regulations in Alameda might differ from those in Dublin regarding maximum square footage or how close an ADU can be to property lines. Understanding these specific requirements early in the design process is crucial to avoid costly revisions. Hometelligent Inc. can help navigate these varying regulations to ensure your ADU design complies with the specific ordinances of your city within Alameda County.",
+        "@type": "Answer",
+        "description": "Local zoning laws in Alameda County cities dictate ADU size, height, setbacks, and parking, varying by municipality. Understanding these regulations early is crucial to ensure design compliance and avoid revisions."
+      }
+    }
+  ],
+  "description": "Local zoning laws in Alameda County cities dictate ADU size, height, setbacks, and parking, varying by municipality. Understanding these regulations early is cr"
 }

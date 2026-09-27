@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What considerations are important when choosing a location for a detached ADU on my property?",
-  "description": "Choosing a detached ADU location involves considering setbacks, utility access, sunlight, privacy, and construction access. A site assessment helps find the opt",
   "url": "https://hometelligentinc.com/faq/what-considerations-are-important-when-choosing-a-location-for-a-detached-adu-on",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What considerations are important when choosing a location for a detached ADU on my property?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right location for a detached ADU on your property involves several considerations, including local setback requirements, utility access, sunlight exposure, and privacy for both the main home and the ADU. Adequate space for construction access is also crucial. Hometelligent's initial site assessment will help identify the optimal placement, considering these practical tradeoffs and ensuring compliance with municipal codes in areas such as Livermore or Union City.",
-        "description": "Choosing a detached ADU location involves considering setbacks, utility access, sunlight, privacy, and construction access. A site assessment helps find the optimal, compliant spot."
-      }
-    }
-  ],
+  "name": "What considerations are important when choosing a location for a detached ADU on my property?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What considerations are important when choosing a location for a detached ADU on my property?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right location for a detached ADU on your property involves several considerations, including local setback requirements, utility access, sunlight exposure, and privacy for both the main home and the ADU. Adequate space for construction access is also crucial. Hometelligent's initial site assessment will help identify the optimal placement, considering these practical tradeoffs and ensuring compliance with municipal codes in areas such as Livermore or Union City.",
+        "@type": "Answer",
+        "description": "Choosing a detached ADU location involves considering setbacks, utility access, sunlight, privacy, and construction access. A site assessment helps find the optimal, compliant spot."
+      }
+    }
+  ],
+  "description": "Choosing a detached ADU location involves considering setbacks, utility access, sunlight, privacy, and construction access. A site assessment helps find the opt"
 }

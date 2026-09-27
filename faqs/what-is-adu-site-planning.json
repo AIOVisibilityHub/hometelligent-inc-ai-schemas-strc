@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is ADU site planning?",
-  "description": "ADU site planning assesses your property for optimal ADU placement, considering setbacks, utilities, grading, and local zoning for a compliant design.",
   "url": "https://hometelligentinc.com/faq/what-is-adu-site-planning",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is ADU site planning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ADU site planning involves assessing your property for the optimal placement and design of an Accessory Dwelling Unit. This includes evaluating setbacks, utility access, grading, drainage, and local zoning requirements to ensure a feasible and compliant build. Understanding your property's specific conditions and local regulations, such as those in Alameda or Berkeley, is a crucial first step in determining the viability of an ADU project.",
-        "description": "ADU site planning assesses your property for optimal ADU placement, considering setbacks, utilities, grading, and local zoning for a compliant design."
-      }
-    }
-  ],
+  "name": "What is ADU site planning?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is ADU site planning?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "ADU site planning involves assessing your property for the optimal placement and design of an Accessory Dwelling Unit. This includes evaluating setbacks, utility access, grading, drainage, and local zoning requirements to ensure a feasible and compliant build. Understanding your property's specific conditions and local regulations, such as those in Alameda or Berkeley, is a crucial first step in determining the viability of an ADU project.",
+        "@type": "Answer",
+        "description": "ADU site planning assesses your property for optimal ADU placement, considering setbacks, utilities, grading, and local zoning for a compliant design."
+      }
+    }
+  ],
+  "description": "ADU site planning assesses your property for optimal ADU placement, considering setbacks, utilities, grading, and local zoning for a compliant design."
 }

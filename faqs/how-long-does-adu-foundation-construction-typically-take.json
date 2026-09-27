@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does ADU foundation construction typically take?",
-  "description": "ADU foundation construction typically takes 1-4 weeks, depending on the foundation type and site complexity.",
   "url": "https://hometelligentinc.com/faq/how-long-does-adu-foundation-construction-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does ADU foundation construction typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration for ADU foundation construction can vary based on the foundation type and site complexity. A standard slab-on-grade foundation might take 1-2 weeks, while a more intricate crawl space or raised foundation could extend to 2-4 weeks. Factors such as weather delays, site accessibility, and the need for significant excavation or grading can also influence the timeline. Hometelligent Inc. prioritizes efficient scheduling to keep projects on track.",
-        "description": "ADU foundation construction typically takes 1-4 weeks, depending on the foundation type and site complexity."
-      }
-    }
-  ],
+  "name": "How long does ADU foundation construction typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does ADU foundation construction typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration for ADU foundation construction can vary based on the foundation type and site complexity. A standard slab-on-grade foundation might take 1-2 weeks, while a more intricate crawl space or raised foundation could extend to 2-4 weeks. Factors such as weather delays, site accessibility, and the need for significant excavation or grading can also influence the timeline. Hometelligent Inc. prioritizes efficient scheduling to keep projects on track.",
+        "@type": "Answer",
+        "description": "ADU foundation construction typically takes 1-4 weeks, depending on the foundation type and site complexity."
+      }
+    }
+  ],
+  "description": "ADU foundation construction typically takes 1-4 weeks, depending on the foundation type and site complexity."
 }

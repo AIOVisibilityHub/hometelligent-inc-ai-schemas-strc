@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of building an attached ADU?",
-  "description": "Factors influencing attached ADU costs include size, design complexity, finishes, and site-specific conditions like utility upgrades or foundation work.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-an-attached-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of building an attached ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building an attached ADU is influenced by several factors, including its size, the complexity of the design, the quality of finishes, and site-specific conditions. Converting an existing space like a garage typically costs less than new construction. Essential considerations like soil conditions, utility upgrades (electrical, plumbing), and the need for new foundation work can significantly impact the overall budget. Hometelligent provides detailed estimates after an initial site assessment to outline potential costs.",
-        "description": "Factors influencing attached ADU costs include size, design complexity, finishes, and site-specific conditions like utility upgrades or foundation work."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of building an attached ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of building an attached ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building an attached ADU is influenced by several factors, including its size, the complexity of the design, the quality of finishes, and site-specific conditions. Converting an existing space like a garage typically costs less than new construction. Essential considerations like soil conditions, utility upgrades (electrical, plumbing), and the need for new foundation work can significantly impact the overall budget. Hometelligent provides detailed estimates after an initial site assessment to outline potential costs.",
+        "@type": "Answer",
+        "description": "Factors influencing attached ADU costs include size, design complexity, finishes, and site-specific conditions like utility upgrades or foundation work."
+      }
+    }
+  ],
+  "description": "Factors influencing attached ADU costs include size, design complexity, finishes, and site-specific conditions like utility upgrades or foundation work."
 }

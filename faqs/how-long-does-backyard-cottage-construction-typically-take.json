@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does backyard cottage construction typically take?",
-  "description": "Backyard cottage construction usually takes 8-18 months, including design, permitting, and building. Permitting times vary by location.",
   "url": "https://hometelligentinc.com/faq/how-long-does-backyard-cottage-construction-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does backyard cottage construction typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The construction timeline for a backyard cottage varies, but a typical project from design to completion can take 8 to 18 months. This includes the initial design phase, securing permits, and the actual build. Permitting can be a significant factor, as local government approvals in cities like Oakland or Fremont have specific requirements that can extend the waiting period. Understanding the local permitting process is a key preparation step that helps set realistic expectations for your project's duration.",
-        "description": "Backyard cottage construction usually takes 8-18 months, including design, permitting, and building. Permitting times vary by location."
-      }
-    }
-  ],
+  "name": "How long does backyard cottage construction typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does backyard cottage construction typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The construction timeline for a backyard cottage varies, but a typical project from design to completion can take 8 to 18 months. This includes the initial design phase, securing permits, and the actual build. Permitting can be a significant factor, as local government approvals in cities like Oakland or Fremont have specific requirements that can extend the waiting period. Understanding the local permitting process is a key preparation step that helps set realistic expectations for your project's duration.",
+        "@type": "Answer",
+        "description": "Backyard cottage construction usually takes 8-18 months, including design, permitting, and building. Permitting times vary by location."
+      }
+    }
+  ],
+  "description": "Backyard cottage construction usually takes 8-18 months, including design, permitting, and building. Permitting times vary by location."
 }

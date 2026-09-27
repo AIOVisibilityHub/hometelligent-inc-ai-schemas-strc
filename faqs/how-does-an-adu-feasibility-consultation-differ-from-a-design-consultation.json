@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does an ADU feasibility consultation differ from a design consultation?",
-  "description": "Feasibility checks if an ADU is possible and practical, while design focuses on architectural plans and aesthetics after feasibility is confirmed.",
   "url": "https://hometelligentinc.com/faq/how-does-an-adu-feasibility-consultation-differ-from-a-design-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does an ADU feasibility consultation differ from a design consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An ADU feasibility consultation primarily focuses on whether an ADU project is possible and practical, considering regulatory and site constraints. A design consultation, on the other hand, comes after feasibility is established and delves into architectural plans, aesthetics, and material selections. The feasibility consultation determines if it's worth moving to the design phase.",
-        "description": "Feasibility checks if an ADU is possible and practical, while design focuses on architectural plans and aesthetics after feasibility is confirmed."
-      }
-    }
-  ],
+  "name": "How does an ADU feasibility consultation differ from a design consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does an ADU feasibility consultation differ from a design consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An ADU feasibility consultation primarily focuses on whether an ADU project is possible and practical, considering regulatory and site constraints. A design consultation, on the other hand, comes after feasibility is established and delves into architectural plans, aesthetics, and material selections. The feasibility consultation determines if it's worth moving to the design phase.",
+        "@type": "Answer",
+        "description": "Feasibility checks if an ADU is possible and practical, while design focuses on architectural plans and aesthetics after feasibility is confirmed."
+      }
+    }
+  ],
+  "description": "Feasibility checks if an ADU is possible and practical, while design focuses on architectural plans and aesthetics after feasibility is confirmed."
 }

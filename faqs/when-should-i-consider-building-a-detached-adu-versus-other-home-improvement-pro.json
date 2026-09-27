@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider building a detached ADU versus other home improvement projects?",
-  "description": "Consider a detached ADU for extra living space, rental income, or a separate workspace. It can be more cost-effective than buying a new home or making large add",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-building-a-detached-adu-versus-other-home-improvement-pro",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider building a detached ADU versus other home improvement projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider building a detached ADU if you need additional living space for family, desire a rental income opportunity, or want a dedicated home office or studio separate from your main residence. It's often a more cost-effective solution than purchasing a larger home or extensive additions. Before proceeding, gather property information, including lot size and existing utility locations, which Hometelligent uses in the initial assessment to determine feasibility and optimal design in your service area.",
-        "description": "Consider a detached ADU for extra living space, rental income, or a separate workspace. It can be more cost-effective than buying a new home or making large additions."
-      }
-    }
-  ],
+  "name": "When should I consider building a detached ADU versus other home improvement projects?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider building a detached ADU versus other home improvement projects?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider building a detached ADU if you need additional living space for family, desire a rental income opportunity, or want a dedicated home office or studio separate from your main residence. It's often a more cost-effective solution than purchasing a larger home or extensive additions. Before proceeding, gather property information, including lot size and existing utility locations, which Hometelligent uses in the initial assessment to determine feasibility and optimal design in your service area.",
+        "@type": "Answer",
+        "description": "Consider a detached ADU for extra living space, rental income, or a separate workspace. It can be more cost-effective than buying a new home or making large additions."
+      }
+    }
+  ],
+  "description": "Consider a detached ADU for extra living space, rental income, or a separate workspace. It can be more cost-effective than buying a new home or making large add"
 }

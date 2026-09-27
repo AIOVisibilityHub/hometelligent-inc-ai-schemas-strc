@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I convert my basement into an ADU if it has low ceiling height?",
-  "description": "Yes, but it may require expensive foundation underpinning to lower the floor. Evaluate if the added cost justifies the return.",
   "url": "https://hometelligentinc.com/faq/can-i-convert-my-basement-into-an-adu-if-it-has-low-ceiling-height",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I convert my basement into an ADU if it has low ceiling height?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it's often possible to convert a basement with low ceiling height into an ADU, but it may require underpinning the foundation to lower the floor. This is a complex structural modification that adds significant cost and time to the project. A practical tradeoff involves evaluating if the added expense of underpinning provides a sufficient return on investment, compared to finding alternative solutions or accepting a more compact design, relevant for many older homes in Berkeley or Oakland.",
-        "description": "Yes, but it may require expensive foundation underpinning to lower the floor. Evaluate if the added cost justifies the return."
-      }
-    }
-  ],
+  "name": "Can I convert my basement into an ADU if it has low ceiling height?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I convert my basement into an ADU if it has low ceiling height?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, it's often possible to convert a basement with low ceiling height into an ADU, but it may require underpinning the foundation to lower the floor. This is a complex structural modification that adds significant cost and time to the project. A practical tradeoff involves evaluating if the added expense of underpinning provides a sufficient return on investment, compared to finding alternative solutions or accepting a more compact design, relevant for many older homes in Berkeley or Oakland.",
+        "@type": "Answer",
+        "description": "Yes, but it may require expensive foundation underpinning to lower the floor. Evaluate if the added cost justifies the return."
+      }
+    }
+  ],
+  "description": "Yes, but it may require expensive foundation underpinning to lower the floor. Evaluate if the added cost justifies the return."
 }

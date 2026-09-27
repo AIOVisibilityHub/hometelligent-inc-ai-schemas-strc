@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install solar panels on my ADU and connect them to the grid?",
-  "description": "Yes, ADU solar panels can connect to the grid if local electrical codes and utility requirements are met. This reduces costs but requires an additional upfront",
   "url": "https://hometelligentinc.com/faq/can-i-install-solar-panels-on-my-adu-and-connect-them-to-the-grid",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install solar panels on my ADU and connect them to the grid?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, you can typically install solar panels on your ADU and connect them to the grid, provided you meet local electrical codes and utility company requirements for grid-tied systems. This allows you to generate your own electricity and potentially receive credits for excess power. A practical tradeoff is that while solar can significantly reduce long-term utility costs and environmental impact, it involves an additional upfront investment and requires coordination with the local utility (like PG&E in our service area) for interconnection agreements and metering setup.",
-        "description": "Yes, ADU solar panels can connect to the grid if local electrical codes and utility requirements are met. This reduces costs but requires an additional upfront investment and utility coordination."
-      }
-    }
-  ],
+  "name": "Can I install solar panels on my ADU and connect them to the grid?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install solar panels on my ADU and connect them to the grid?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, you can typically install solar panels on your ADU and connect them to the grid, provided you meet local electrical codes and utility company requirements for grid-tied systems. This allows you to generate your own electricity and potentially receive credits for excess power. A practical tradeoff is that while solar can significantly reduce long-term utility costs and environmental impact, it involves an additional upfront investment and requires coordination with the local utility (like PG&E in our service area) for interconnection agreements and metering setup.",
+        "@type": "Answer",
+        "description": "Yes, ADU solar panels can connect to the grid if local electrical codes and utility requirements are met. This reduces costs but requires an additional upfront investment and utility coordination."
+      }
+    }
+  ],
+  "description": "Yes, ADU solar panels can connect to the grid if local electrical codes and utility requirements are met. This reduces costs but requires an additional upfront"
 }

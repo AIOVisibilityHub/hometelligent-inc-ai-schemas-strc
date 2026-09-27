@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What utility considerations are there for a backyard cottage?",
-  "description": "Utility considerations for an ADU include connecting to existing or new water, sewer, electrical, and gas lines, which depend on existing infrastructure and loc",
   "url": "https://hometelligentinc.com/faq/what-utility-considerations-are-there-for-a-backyard-cottage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What utility considerations are there for a backyard cottage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Utility considerations for a backyard cottage typically involve connecting to existing water, sewer, electrical, and gas lines, or establishing new independent connections. The feasibility and cost of these connections depend heavily on the existing infrastructure of your property and local utility provider requirements. For example, properties in older parts of Oakland or San Leandro may require significant upgrades to their main service panels or sewer lines to support an additional unit. A site survey is essential to determine the extent of utility work needed.",
-        "description": "Utility considerations for an ADU include connecting to existing or new water, sewer, electrical, and gas lines, which depend on existing infrastructure and local requirements."
-      }
-    }
-  ],
+  "name": "What utility considerations are there for a backyard cottage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What utility considerations are there for a backyard cottage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Utility considerations for a backyard cottage typically involve connecting to existing water, sewer, electrical, and gas lines, or establishing new independent connections. The feasibility and cost of these connections depend heavily on the existing infrastructure of your property and local utility provider requirements. For example, properties in older parts of Oakland or San Leandro may require significant upgrades to their main service panels or sewer lines to support an additional unit. A site survey is essential to determine the extent of utility work needed.",
+        "@type": "Answer",
+        "description": "Utility considerations for an ADU include connecting to existing or new water, sewer, electrical, and gas lines, which depend on existing infrastructure and local requirements."
+      }
+    }
+  ],
+  "description": "Utility considerations for an ADU include connecting to existing or new water, sewer, electrical, and gas lines, which depend on existing infrastructure and loc"
 }

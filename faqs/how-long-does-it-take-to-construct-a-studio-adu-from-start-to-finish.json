@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to construct a Studio ADU from start to finish?",
-  "description": "Studio ADU construction usually takes 6 to 12 months, covering design, permitting, and building. Permitting times in cities like Alameda or Berkeley can impact",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-construct-a-studio-adu-from-start-to-finish",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to construct a Studio ADU from start to finish?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for Studio ADU construction typically ranges from 6 to 12 months, encompassing design, permitting, and actual construction phases. The design process can take 1-3 months, while obtaining permits from local jurisdictions like Alameda or Berkeley often requires 2-4 months, depending on the complexity of the plans and city backlog. The actual construction phase usually lasts 3-5 months. Site-specific challenges, such as difficult terrain or existing utility issues, can extend the overall timeline. Clear communication and efficient preparation during the design phase can help streamline the permitting process.",
-        "description": "Studio ADU construction usually takes 6 to 12 months, covering design, permitting, and building. Permitting times in cities like Alameda or Berkeley can impact the overall schedule."
-      }
-    }
-  ],
+  "name": "How long does it take to construct a Studio ADU from start to finish?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to construct a Studio ADU from start to finish?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for Studio ADU construction typically ranges from 6 to 12 months, encompassing design, permitting, and actual construction phases. The design process can take 1-3 months, while obtaining permits from local jurisdictions like Alameda or Berkeley often requires 2-4 months, depending on the complexity of the plans and city backlog. The actual construction phase usually lasts 3-5 months. Site-specific challenges, such as difficult terrain or existing utility issues, can extend the overall timeline. Clear communication and efficient preparation during the design phase can help streamline the permitting process.",
+        "@type": "Answer",
+        "description": "Studio ADU construction usually takes 6 to 12 months, covering design, permitting, and building. Permitting times in cities like Alameda or Berkeley can impact the overall schedule."
+      }
+    }
+  ],
+  "description": "Studio ADU construction usually takes 6 to 12 months, covering design, permitting, and building. Permitting times in cities like Alameda or Berkeley can impact"
 }

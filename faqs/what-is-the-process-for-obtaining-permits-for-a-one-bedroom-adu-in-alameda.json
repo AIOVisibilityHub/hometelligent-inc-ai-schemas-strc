@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for obtaining permits for a one-bedroom ADU in Alameda?",
-  "description": "Permit acquisition in Alameda for a one-bedroom ADU requires submitting architectural and site plans to city departments, adhering to local zoning and historica",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-obtaining-permits-for-a-one-bedroom-adu-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for obtaining permits for a one-bedroom ADU in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for obtaining permits for a one-bedroom ADU in Alameda involves submitting architectural plans, site plans, and other required documentation to the city's planning and building departments. Specific requirements can vary, including zoning overlays and historical district considerations, which are unique to Alameda. Hometelligent assists clients with navigating these local regulations, ensuring all submissions meet city standards, which helps to avoid delays in the permitting process.",
-        "description": "Permit acquisition in Alameda for a one-bedroom ADU requires submitting architectural and site plans to city departments, adhering to local zoning and historical guidelines."
-      }
-    }
-  ],
+  "name": "What is the process for obtaining permits for a one-bedroom ADU in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for obtaining permits for a one-bedroom ADU in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for obtaining permits for a one-bedroom ADU in Alameda involves submitting architectural plans, site plans, and other required documentation to the city's planning and building departments. Specific requirements can vary, including zoning overlays and historical district considerations, which are unique to Alameda. Hometelligent assists clients with navigating these local regulations, ensuring all submissions meet city standards, which helps to avoid delays in the permitting process.",
+        "@type": "Answer",
+        "description": "Permit acquisition in Alameda for a one-bedroom ADU requires submitting architectural and site plans to city departments, adhering to local zoning and historical guidelines."
+      }
+    }
+  ],
+  "description": "Permit acquisition in Alameda for a one-bedroom ADU requires submitting architectural and site plans to city departments, adhering to local zoning and historica"
 }

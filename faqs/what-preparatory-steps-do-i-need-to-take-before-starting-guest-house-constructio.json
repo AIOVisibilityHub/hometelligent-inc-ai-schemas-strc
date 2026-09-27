@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparatory steps do I need to take before starting guest house construction?",
-  "description": "Before starting, define your guest house's purpose and size, assess your property, and establish a budget. A property survey and understanding utility needs wil",
   "url": "https://hometelligentinc.com/faq/what-preparatory-steps-do-i-need-to-take-before-starting-guest-house-constructio",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparatory steps do I need to take before starting guest house construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting guest house construction, you'll need to gather several pieces of information and make some key decisions. This includes defining the purpose and desired size of your guest house, assessing your property for suitable locations, and understanding your budget. It is helpful to have a recent property survey and to identify any potential utility challenges. Preparing these details will help streamline the initial consultation and design phases with your contractor, ensuring a more efficient project start.",
-        "description": "Before starting, define your guest house's purpose and size, assess your property, and establish a budget. A property survey and understanding utility needs will streamline the initial design and consultation phases."
-      }
-    }
-  ],
+  "name": "What preparatory steps do I need to take before starting guest house construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparatory steps do I need to take before starting guest house construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting guest house construction, you'll need to gather several pieces of information and make some key decisions. This includes defining the purpose and desired size of your guest house, assessing your property for suitable locations, and understanding your budget. It is helpful to have a recent property survey and to identify any potential utility challenges. Preparing these details will help streamline the initial consultation and design phases with your contractor, ensuring a more efficient project start.",
+        "@type": "Answer",
+        "description": "Before starting, define your guest house's purpose and size, assess your property, and establish a budget. A property survey and understanding utility needs will streamline the initial design and consultation phases."
+      }
+    }
+  ],
+  "description": "Before starting, define your guest house's purpose and size, assess your property, and establish a budget. A property survey and understanding utility needs wil"
 }

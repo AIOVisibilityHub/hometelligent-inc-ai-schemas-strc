@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does an ADU feasibility consultation take?",
-  "description": "The duration varies from a quick call to a multi-hour site visit, depending on property complexity and local regulations.",
   "url": "https://hometelligentinc.com/faq/how-long-does-an-adu-feasibility-consultation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does an ADU feasibility consultation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of an ADU feasibility consultation can range from a quick phone discussion to a more in-depth site visit lasting several hours, depending on the complexity of your property and local regulations. A typical on-site consultation for a standard lot in cities like Dublin or Livermore might take 1-2 hours.",
-        "description": "The duration varies from a quick call to a multi-hour site visit, depending on property complexity and local regulations."
-      }
-    }
-  ],
+  "name": "How long does an ADU feasibility consultation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does an ADU feasibility consultation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of an ADU feasibility consultation can range from a quick phone discussion to a more in-depth site visit lasting several hours, depending on the complexity of your property and local regulations. A typical on-site consultation for a standard lot in cities like Dublin or Livermore might take 1-2 hours.",
+        "@type": "Answer",
+        "description": "The duration varies from a quick call to a multi-hour site visit, depending on property complexity and local regulations."
+      }
+    }
+  ],
+  "description": "The duration varies from a quick call to a multi-hour site visit, depending on property complexity and local regulations."
 }

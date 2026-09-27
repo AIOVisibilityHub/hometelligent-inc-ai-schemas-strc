@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common design considerations for small ADU kitchens?",
-  "description": "For small ADU kitchens, prioritize compact appliances, multi-functional elements, vertical storage, and efficient layouts to maximize space and functionality.",
   "url": "https://hometelligentinc.com/faq/what-are-common-design-considerations-for-small-adu-kitchens",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common design considerations for small ADU kitchens?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common design considerations for small ADU kitchens focus on maximizing functionality and space efficiency. This often includes using compact appliances, incorporating multi-functional elements like a pull-out cutting board or integrated dining nook, and utilizing vertical storage with tall cabinets or open shelving. Smart layouts such as galley or L-shaped designs can optimize workflow. We also recommend bright colors and good lighting to make the space feel larger. Careful planning of appliance placement and traffic flow is crucial to avoid a cramped feel.",
-        "description": "For small ADU kitchens, prioritize compact appliances, multi-functional elements, vertical storage, and efficient layouts to maximize space and functionality."
-      }
-    }
-  ],
+  "name": "What are common design considerations for small ADU kitchens?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common design considerations for small ADU kitchens?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common design considerations for small ADU kitchens focus on maximizing functionality and space efficiency. This often includes using compact appliances, incorporating multi-functional elements like a pull-out cutting board or integrated dining nook, and utilizing vertical storage with tall cabinets or open shelving. Smart layouts such as galley or L-shaped designs can optimize workflow. We also recommend bright colors and good lighting to make the space feel larger. Careful planning of appliance placement and traffic flow is crucial to avoid a cramped feel.",
+        "@type": "Answer",
+        "description": "For small ADU kitchens, prioritize compact appliances, multi-functional elements, vertical storage, and efficient layouts to maximize space and functionality."
+      }
+    }
+  ],
+  "description": "For small ADU kitchens, prioritize compact appliances, multi-functional elements, vertical storage, and efficient layouts to maximize space and functionality."
 }

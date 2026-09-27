@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose a contractor for my garage conversion?",
-  "description": "Choose a contractor by checking licenses, insurance, references, portfolio, and local code familiarity, and get detailed bids and a clear contract.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-a-contractor-for-my-garage-conversion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose a contractor for my garage conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for your garage conversion, look for experienced professionals who specialize in residential renovations and ADUs. Important decision factors include verifying their license and insurance, checking references, reviewing their portfolio of similar projects, and obtaining multiple detailed bids. Ensure they are familiar with local building codes and permitting processes in your specific area, such as Oakland or Pleasanton. A clear contract outlining the scope of work, timeline, payment schedule, and warranty is also crucial for a successful project.",
-        "description": "Choose a contractor by checking licenses, insurance, references, portfolio, and local code familiarity, and get detailed bids and a clear contract."
-      }
-    }
-  ],
+  "name": "How do I choose a contractor for my garage conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose a contractor for my garage conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for your garage conversion, look for experienced professionals who specialize in residential renovations and ADUs. Important decision factors include verifying their license and insurance, checking references, reviewing their portfolio of similar projects, and obtaining multiple detailed bids. Ensure they are familiar with local building codes and permitting processes in your specific area, such as Oakland or Pleasanton. A clear contract outlining the scope of work, timeline, payment schedule, and warranty is also crucial for a successful project.",
+        "@type": "Answer",
+        "description": "Choose a contractor by checking licenses, insurance, references, portfolio, and local code familiarity, and get detailed bids and a clear contract."
+      }
+    }
+  ],
+  "description": "Choose a contractor by checking licenses, insurance, references, portfolio, and local code familiarity, and get detailed bids and a clear contract."
 }

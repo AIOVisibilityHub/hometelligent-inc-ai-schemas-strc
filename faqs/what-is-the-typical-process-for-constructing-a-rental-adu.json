@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for constructing a rental ADU?",
-  "description": "The process involves design, permitting, construction phases, and final inspections, starting with a property assessment to understand local regulations and fea",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-constructing-a-rental-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for constructing a rental ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process generally begins with design and permitting, followed by site preparation, foundation work, framing, utility connections, interior and exterior finishing, and final inspections. A crucial first step is to assess your property for feasibility, considering zoning regulations, available space, and utility access in your specific Alameda or East Bay location. Hometelligent Inc. assists with navigating these initial assessments and local requirements.",
-        "description": "The process involves design, permitting, construction phases, and final inspections, starting with a property assessment to understand local regulations and feasibility."
-      }
-    }
-  ],
+  "name": "What is the typical process for constructing a rental ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for constructing a rental ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process generally begins with design and permitting, followed by site preparation, foundation work, framing, utility connections, interior and exterior finishing, and final inspections. A crucial first step is to assess your property for feasibility, considering zoning regulations, available space, and utility access in your specific Alameda or East Bay location. Hometelligent Inc. assists with navigating these initial assessments and local requirements.",
+        "@type": "Answer",
+        "description": "The process involves design, permitting, construction phases, and final inspections, starting with a property assessment to understand local regulations and feasibility."
+      }
+    }
+  ],
+  "description": "The process involves design, permitting, construction phases, and final inspections, starting with a property assessment to understand local regulations and fea"
 }

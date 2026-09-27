@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I choose custom or pre-fabricated cabinets for my ADU kitchen?",
-  "description": "Pre-fabricated cabinets are cost-effective and quicker, while custom cabinets offer design flexibility and tailored solutions for ADU kitchens.",
   "url": "https://hometelligentinc.com/faq/should-i-choose-custom-or-pre-fabricated-cabinets-for-my-adu-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I choose custom or pre-fabricated cabinets for my ADU kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing between custom and pre-fabricated cabinets for your ADU kitchen involves a trade-off between cost, design flexibility, and installation time. Pre-fabricated cabinets are generally more affordable and have shorter lead times, making them a good option for budget-conscious projects or tighter schedules. However, custom cabinets offer superior design flexibility to maximize storage in smaller ADU spaces and can be tailored to unique dimensions or aesthetic preferences. The decision often depends on your budget, desired look, and the specific layout constraints of your ADU.",
-        "description": "Pre-fabricated cabinets are cost-effective and quicker, while custom cabinets offer design flexibility and tailored solutions for ADU kitchens."
-      }
-    }
-  ],
+  "name": "Should I choose custom or pre-fabricated cabinets for my ADU kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I choose custom or pre-fabricated cabinets for my ADU kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing between custom and pre-fabricated cabinets for your ADU kitchen involves a trade-off between cost, design flexibility, and installation time. Pre-fabricated cabinets are generally more affordable and have shorter lead times, making them a good option for budget-conscious projects or tighter schedules. However, custom cabinets offer superior design flexibility to maximize storage in smaller ADU spaces and can be tailored to unique dimensions or aesthetic preferences. The decision often depends on your budget, desired look, and the specific layout constraints of your ADU.",
+        "@type": "Answer",
+        "description": "Pre-fabricated cabinets are cost-effective and quicker, while custom cabinets offer design flexibility and tailored solutions for ADU kitchens."
+      }
+    }
+  ],
+  "description": "Pre-fabricated cabinets are cost-effective and quicker, while custom cabinets offer design flexibility and tailored solutions for ADU kitchens."
 }

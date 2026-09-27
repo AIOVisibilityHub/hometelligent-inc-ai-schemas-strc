@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before contacting a builder for a two-bedroom ADU project?",
-  "description": "Before contacting a builder, prepare property information, utility locations, desired ADU use, and a preliminary budget.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-contacting-a-builder-for-a-two-bedroom-adu-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before contacting a builder for a two-bedroom ADU project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before contacting a builder for a two-bedroom ADU project, it's beneficial to have a clear understanding of your property's size and zoning, any existing utility locations, and a general idea of your desired ADU use (e.g., rental, family). Gathering property surveys, site plans, and having a preliminary budget in mind will also streamline the initial consultation. This preparation allows us to provide more accurate assessments and design recommendations tailored to your specific needs and the requirements of your chosen city like Pleasanton or Livermore.",
-        "description": "Before contacting a builder, prepare property information, utility locations, desired ADU use, and a preliminary budget."
-      }
-    }
-  ],
+  "name": "What should I prepare before contacting a builder for a two-bedroom ADU project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before contacting a builder for a two-bedroom ADU project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before contacting a builder for a two-bedroom ADU project, it's beneficial to have a clear understanding of your property's size and zoning, any existing utility locations, and a general idea of your desired ADU use (e.g., rental, family). Gathering property surveys, site plans, and having a preliminary budget in mind will also streamline the initial consultation. This preparation allows us to provide more accurate assessments and design recommendations tailored to your specific needs and the requirements of your chosen city like Pleasanton or Livermore.",
+        "@type": "Answer",
+        "description": "Before contacting a builder, prepare property information, utility locations, desired ADU use, and a preliminary budget."
+      }
+    }
+  ],
+  "description": "Before contacting a builder, prepare property information, utility locations, desired ADU use, and a preliminary budget."
 }

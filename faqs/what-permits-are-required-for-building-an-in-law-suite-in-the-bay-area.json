@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for building an in-law suite in the Bay Area?",
-  "description": "In-law suites in the Bay Area require various permits, such as zoning and building permits. Requirements vary by city, impacting design and timeline, making loc",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-building-an-in-law-suite-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for building an in-law suite in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building an in-law suite in the Bay Area typically requires several permits, including zoning clearance, building permits, and potentially permits for plumbing, electrical, and mechanical work. Specific requirements vary by city; for example, Oakland and Fremont may have different ADU ordinances regarding size, setbacks, and parking. A practical tradeoff is balancing desired features with local regulations, as these can impact the final design and construction timeline. Consulting with a contractor experienced in ADU construction in your specific municipality can help navigate the complex permitting process and ensure compliance.",
-        "description": "In-law suites in the Bay Area require various permits, such as zoning and building permits. Requirements vary by city, impacting design and timeline, making local expertise valuable."
-      }
-    }
-  ],
+  "name": "What permits are required for building an in-law suite in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for building an in-law suite in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building an in-law suite in the Bay Area typically requires several permits, including zoning clearance, building permits, and potentially permits for plumbing, electrical, and mechanical work. Specific requirements vary by city; for example, Oakland and Fremont may have different ADU ordinances regarding size, setbacks, and parking. A practical tradeoff is balancing desired features with local regulations, as these can impact the final design and construction timeline. Consulting with a contractor experienced in ADU construction in your specific municipality can help navigate the complex permitting process and ensure compliance.",
+        "@type": "Answer",
+        "description": "In-law suites in the Bay Area require various permits, such as zoning and building permits. Requirements vary by city, impacting design and timeline, making local expertise valuable."
+      }
+    }
+  ],
+  "description": "In-law suites in the Bay Area require various permits, such as zoning and building permits. Requirements vary by city, impacting design and timeline, making loc"
 }

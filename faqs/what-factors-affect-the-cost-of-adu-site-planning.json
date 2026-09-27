@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors affect the cost of ADU site planning?",
-  "description": "Costs for ADU site planning vary based on property complexity, survey needs, utility infrastructure, and specific city requirements like soil or arborist report",
   "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-adu-site-planning",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors affect the cost of ADU site planning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of ADU site planning is influenced by several factors, including the complexity of your property, the need for detailed surveys (topographic, boundary), existing utility infrastructure, and specific city requirements for reports like soil analyses or arborist reports. A property with significant slopes or limited existing utility connections in areas like Oakland Hills will typically require more extensive planning and associated costs.",
-        "description": "Costs for ADU site planning vary based on property complexity, survey needs, utility infrastructure, and specific city requirements like soil or arborist reports."
-      }
-    }
-  ],
+  "name": "What factors affect the cost of ADU site planning?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors affect the cost of ADU site planning?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of ADU site planning is influenced by several factors, including the complexity of your property, the need for detailed surveys (topographic, boundary), existing utility infrastructure, and specific city requirements for reports like soil analyses or arborist reports. A property with significant slopes or limited existing utility connections in areas like Oakland Hills will typically require more extensive planning and associated costs.",
+        "@type": "Answer",
+        "description": "Costs for ADU site planning vary based on property complexity, survey needs, utility infrastructure, and specific city requirements like soil or arborist reports."
+      }
+    }
+  ],
+  "description": "Costs for ADU site planning vary based on property complexity, survey needs, utility infrastructure, and specific city requirements like soil or arborist report"
 }

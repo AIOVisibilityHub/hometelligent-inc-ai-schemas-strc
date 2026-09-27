@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation should I do before contacting a contractor about an ADU?",
-  "description": "Before contacting a contractor, define your budget, desired ADU function, and gather property surveys/plans to facilitate initial discussions.",
   "url": "https://hometelligentinc.com/faq/what-preparation-should-i-do-before-contacting-a-contractor-about-an-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation should I do before contacting a contractor about an ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before contacting a contractor, consider your budget range, desired ADU function (e.g., rental, family use), and gather any existing property surveys or plans you might have. Thinking about your desired number of bedrooms and bathrooms will also help in the initial design discussions. Having these details ready allows for a more productive first consultation.",
-        "description": "Before contacting a contractor, define your budget, desired ADU function, and gather property surveys/plans to facilitate initial discussions."
-      }
-    }
-  ],
+  "name": "What preparation should I do before contacting a contractor about an ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation should I do before contacting a contractor about an ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before contacting a contractor, consider your budget range, desired ADU function (e.g., rental, family use), and gather any existing property surveys or plans you might have. Thinking about your desired number of bedrooms and bathrooms will also help in the initial design discussions. Having these details ready allows for a more productive first consultation.",
+        "@type": "Answer",
+        "description": "Before contacting a contractor, define your budget, desired ADU function, and gather property surveys/plans to facilitate initial discussions."
+      }
+    }
+  ],
+  "description": "Before contacting a contractor, define your budget, desired ADU function, and gather property surveys/plans to facilitate initial discussions."
 }

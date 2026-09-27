@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install an ADU bathroom myself, or should I hire a professional?",
-  "description": "ADU bathroom installation involves complex plumbing and electrical work, usually requiring professionals for code compliance and safety. DIY saves labor but ris",
   "url": "https://hometelligentinc.com/faq/can-i-install-an-adu-bathroom-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install an ADU bathroom myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While some homeowners may have the skills for DIY projects, installing an ADU bathroom involves complex plumbing, electrical, and structural work that typically requires professional expertise. Hiring a professional contractor ensures the work complies with all local building codes and safety regulations, which is crucial for passing inspections and avoiding costly rectifications. A practical tradeoff is that while a DIY approach might save on labor costs, it carries risks of improper installation, permit issues, and potential safety hazards. Professionals also often have access to better pricing on materials and can complete the project more efficiently.",
-        "description": "ADU bathroom installation involves complex plumbing and electrical work, usually requiring professionals for code compliance and safety. DIY saves labor but risks improper installation and permit issues, while professionals offer efficiency and material access."
-      }
-    }
-  ],
+  "name": "Can I install an ADU bathroom myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install an ADU bathroom myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While some homeowners may have the skills for DIY projects, installing an ADU bathroom involves complex plumbing, electrical, and structural work that typically requires professional expertise. Hiring a professional contractor ensures the work complies with all local building codes and safety regulations, which is crucial for passing inspections and avoiding costly rectifications. A practical tradeoff is that while a DIY approach might save on labor costs, it carries risks of improper installation, permit issues, and potential safety hazards. Professionals also often have access to better pricing on materials and can complete the project more efficiently.",
+        "@type": "Answer",
+        "description": "ADU bathroom installation involves complex plumbing and electrical work, usually requiring professionals for code compliance and safety. DIY saves labor but risks improper installation and permit issues, while professionals offer efficiency and material access."
+      }
+    }
+  ],
+  "description": "ADU bathroom installation involves complex plumbing and electrical work, usually requiring professionals for code compliance and safety. DIY saves labor but ris"
 }

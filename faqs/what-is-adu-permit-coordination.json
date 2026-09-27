@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is ADU permit coordination?",
-  "description": "ADU permit coordination manages the entire permitting process for Accessory Dwelling Units, including document submission and compliance with local regulations.",
   "url": "https://hometelligentinc.com/faq/what-is-adu-permit-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is ADU permit coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ADU permit coordination involves managing the entire permitting process for Accessory Dwelling Units. This includes preparing and submitting all necessary documents, plans, and applications to local city or county planning departments, responding to agency feedback, and ensuring compliance with zoning ordinances and building codes. For homeowners in Alameda or Berkeley, for example, navigating specific local regulations regarding setback requirements or design standards is a crucial part of this coordination.",
-        "description": "ADU permit coordination manages the entire permitting process for Accessory Dwelling Units, including document submission and compliance with local regulations."
-      }
-    }
-  ],
+  "name": "What is ADU permit coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is ADU permit coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "ADU permit coordination involves managing the entire permitting process for Accessory Dwelling Units. This includes preparing and submitting all necessary documents, plans, and applications to local city or county planning departments, responding to agency feedback, and ensuring compliance with zoning ordinances and building codes. For homeowners in Alameda or Berkeley, for example, navigating specific local regulations regarding setback requirements or design standards is a crucial part of this coordination.",
+        "@type": "Answer",
+        "description": "ADU permit coordination manages the entire permitting process for Accessory Dwelling Units, including document submission and compliance with local regulations."
+      }
+    }
+  ],
+  "description": "ADU permit coordination manages the entire permitting process for Accessory Dwelling Units, including document submission and compliance with local regulations."
 }

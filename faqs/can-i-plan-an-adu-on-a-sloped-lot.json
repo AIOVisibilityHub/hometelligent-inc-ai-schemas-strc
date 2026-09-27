@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I plan an ADU on a sloped lot?",
-  "description": "Yes, an ADU can be planned on a sloped lot, but it often requires specialized foundation designs and careful grading due to increased complexity.",
   "url": "https://hometelligentinc.com/faq/can-i-plan-an-adu-on-a-sloped-lot",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I plan an ADU on a sloped lot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is possible to plan an ADU on a sloped lot, but it typically introduces more complexity to the site planning process. Sloped lots often require specialized foundation designs, such as retaining walls or pier and beam foundations, to ensure structural stability. The degree of the slope and soil conditions are primary decision factors that will determine the engineering requirements and, consequently, the overall construction cost. Careful grading and drainage planning are essential for these sites.",
-        "description": "Yes, an ADU can be planned on a sloped lot, but it often requires specialized foundation designs and careful grading due to increased complexity."
-      }
-    }
-  ],
+  "name": "Can I plan an ADU on a sloped lot?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I plan an ADU on a sloped lot?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, it is possible to plan an ADU on a sloped lot, but it typically introduces more complexity to the site planning process. Sloped lots often require specialized foundation designs, such as retaining walls or pier and beam foundations, to ensure structural stability. The degree of the slope and soil conditions are primary decision factors that will determine the engineering requirements and, consequently, the overall construction cost. Careful grading and drainage planning are essential for these sites.",
+        "@type": "Answer",
+        "description": "Yes, an ADU can be planned on a sloped lot, but it often requires specialized foundation designs and careful grading due to increased complexity."
+      }
+    }
+  ],
+  "description": "Yes, an ADU can be planned on a sloped lot, but it often requires specialized foundation designs and careful grading due to increased complexity."
 }

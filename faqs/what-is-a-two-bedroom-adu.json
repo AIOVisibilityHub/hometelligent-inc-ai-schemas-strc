@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a two-bedroom ADU?",
-  "description": "A two-bedroom ADU is a self-contained living unit with two bedrooms on the same property as a main house, providing independent living.",
   "url": "https://hometelligentinc.com/faq/what-is-a-two-bedroom-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a two-bedroom ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A two-bedroom Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot that includes two separate bedrooms, a kitchen, and a bathroom. These units provide independent living facilities for one or more people, distinct from the primary dwelling. When planning for a two-bedroom ADU, consider the specific zoning regulations in Alameda, Albany, Berkeley, or Emeryville, as these can dictate maximum size, setbacks, and parking requirements, which directly influence the feasibility and design of a larger ADU.",
-        "description": "A two-bedroom ADU is a self-contained living unit with two bedrooms on the same property as a main house, providing independent living."
-      }
-    }
-  ],
+  "name": "What is a two-bedroom ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a two-bedroom ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A two-bedroom Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot that includes two separate bedrooms, a kitchen, and a bathroom. These units provide independent living facilities for one or more people, distinct from the primary dwelling. When planning for a two-bedroom ADU, consider the specific zoning regulations in Alameda, Albany, Berkeley, or Emeryville, as these can dictate maximum size, setbacks, and parking requirements, which directly influence the feasibility and design of a larger ADU.",
+        "@type": "Answer",
+        "description": "A two-bedroom ADU is a self-contained living unit with two bedrooms on the same property as a main house, providing independent living."
+      }
+    }
+  ],
+  "description": "A two-bedroom ADU is a self-contained living unit with two bedrooms on the same property as a main house, providing independent living."
 }

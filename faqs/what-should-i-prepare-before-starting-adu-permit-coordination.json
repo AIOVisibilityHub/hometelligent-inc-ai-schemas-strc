@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before starting ADU permit coordination?",
-  "description": "Before starting, prepare your ADU's design concept, property survey, and any existing property documents to aid project assessment.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-starting-adu-permit-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before starting ADU permit coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting ADU permit coordination, you should have a clear idea of your ADU's purpose and basic design concept, along with a recent survey of your property. Gathering any existing property documents, such as previous permits or architectural drawings, can also be very helpful. This initial preparation allows our team to accurately assess the project feasibility and potential regulatory hurdles specific to your property and desired ADU type, informing the optimal coordination strategy.",
-        "description": "Before starting, prepare your ADU's design concept, property survey, and any existing property documents to aid project assessment."
-      }
-    }
-  ],
+  "name": "What should I prepare before starting ADU permit coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before starting ADU permit coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting ADU permit coordination, you should have a clear idea of your ADU's purpose and basic design concept, along with a recent survey of your property. Gathering any existing property documents, such as previous permits or architectural drawings, can also be very helpful. This initial preparation allows our team to accurately assess the project feasibility and potential regulatory hurdles specific to your property and desired ADU type, informing the optimal coordination strategy.",
+        "@type": "Answer",
+        "description": "Before starting, prepare your ADU's design concept, property survey, and any existing property documents to aid project assessment."
+      }
+    }
+  ],
+  "description": "Before starting, prepare your ADU's design concept, property survey, and any existing property documents to aid project assessment."
 }

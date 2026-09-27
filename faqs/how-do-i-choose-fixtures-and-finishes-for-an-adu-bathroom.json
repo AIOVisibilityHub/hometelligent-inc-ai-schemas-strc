@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose fixtures and finishes for an ADU bathroom?",
-  "description": "Choose ADU bathroom fixtures and finishes by balancing aesthetics, durability, and budget, considering the ADU's intended use. Durable, easy-to-clean materials",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-fixtures-and-finishes-for-an-adu-bathroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose fixtures and finishes for an ADU bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing fixtures and finishes for an ADU bathroom involves balancing aesthetics, durability, and budget. It's important to consider the overall style of the ADU and main property to maintain a cohesive look. A key Decision Factor is the intended use of the ADU; a rental unit might benefit from more durable, easy-to-clean materials, while a guest suite could allow for more personalized or luxurious choices. Researching water-efficient fixtures can also provide long-term savings on utility bills. Always check if your chosen materials meet local building codes, especially for shower surrounds and flooring.",
-        "description": "Choose ADU bathroom fixtures and finishes by balancing aesthetics, durability, and budget, considering the ADU's intended use. Durable, easy-to-clean materials are good for rentals, while water-efficient fixtures offer long-term savings."
-      }
-    }
-  ],
+  "name": "How do I choose fixtures and finishes for an ADU bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose fixtures and finishes for an ADU bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing fixtures and finishes for an ADU bathroom involves balancing aesthetics, durability, and budget. It's important to consider the overall style of the ADU and main property to maintain a cohesive look. A key Decision Factor is the intended use of the ADU; a rental unit might benefit from more durable, easy-to-clean materials, while a guest suite could allow for more personalized or luxurious choices. Researching water-efficient fixtures can also provide long-term savings on utility bills. Always check if your chosen materials meet local building codes, especially for shower surrounds and flooring.",
+        "@type": "Answer",
+        "description": "Choose ADU bathroom fixtures and finishes by balancing aesthetics, durability, and budget, considering the ADU's intended use. Durable, easy-to-clean materials are good for rentals, while water-efficient fixtures offer long-term savings."
+      }
+    }
+  ],
+  "description": "Choose ADU bathroom fixtures and finishes by balancing aesthetics, durability, and budget, considering the ADU's intended use. Durable, easy-to-clean materials"
 }

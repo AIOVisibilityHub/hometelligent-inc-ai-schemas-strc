@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the typical costs associated with building a Studio ADU?",
-  "description": "Typical Studio ADU costs depend on size, materials, finishes, and site conditions, but are generally lower than larger ADUs. Customization level significantly i",
   "url": "https://hometelligentinc.com/faq/what-are-the-typical-costs-associated-with-building-a-studio-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the typical costs associated with building a Studio ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building a Studio ADU varies significantly based on factors such as size, materials, finishes, site conditions, and utility connections. Generally, Studio ADUs are less expensive than larger ADUs due to their smaller square footage. Expenses include design and permitting fees, foundation work, framing, roofing, interior finishes, plumbing, electrical, and landscaping. A key decision factor influencing cost is the level of customization desired; a more standard design often reduces expenses compared to bespoke architectural plans. We recommend discussing your vision with our team to get a clear cost estimate tailored to your project.",
-        "description": "Typical Studio ADU costs depend on size, materials, finishes, and site conditions, but are generally lower than larger ADUs. Customization level significantly impacts the final expense."
-      }
-    }
-  ],
+  "name": "What are the typical costs associated with building a Studio ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the typical costs associated with building a Studio ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building a Studio ADU varies significantly based on factors such as size, materials, finishes, site conditions, and utility connections. Generally, Studio ADUs are less expensive than larger ADUs due to their smaller square footage. Expenses include design and permitting fees, foundation work, framing, roofing, interior finishes, plumbing, electrical, and landscaping. A key decision factor influencing cost is the level of customization desired; a more standard design often reduces expenses compared to bespoke architectural plans. We recommend discussing your vision with our team to get a clear cost estimate tailored to your project.",
+        "@type": "Answer",
+        "description": "Typical Studio ADU costs depend on size, materials, finishes, and site conditions, but are generally lower than larger ADUs. Customization level significantly impacts the final expense."
+      }
+    }
+  ],
+  "description": "Typical Studio ADU costs depend on size, materials, finishes, and site conditions, but are generally lower than larger ADUs. Customization level significantly i"
 }

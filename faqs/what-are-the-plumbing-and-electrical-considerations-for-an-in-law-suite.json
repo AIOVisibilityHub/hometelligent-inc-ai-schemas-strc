@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the plumbing and electrical considerations for an in-law suite?",
-  "description": "Plumbing requires connecting to water, sewer, and gas for kitchen and bathroom. Electrical involves extending the main panel for new outlets and lighting. Early",
   "url": "https://hometelligentinc.com/faq/what-are-the-plumbing-and-electrical-considerations-for-an-in-law-suite",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the plumbing and electrical considerations for an in-law suite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Plumbing for an in-law suite typically requires connections to existing water, sewer, and gas lines, or the installation of new ones if the existing infrastructure is insufficient. This includes provisions for a kitchen sink, bathroom facilities, and potentially a laundry area. Electrical work involves extending the main electrical panel to accommodate the new load, installing outlets, lighting, and HVAC systems, all while adhering to current electrical codes. A process clarity point is that careful planning of utility connections early in the design phase is critical to avoid costly rework, especially when dealing with complex existing systems in older homes common in areas like Alameda or Berkeley.",
-        "description": "Plumbing requires connecting to water, sewer, and gas for kitchen and bathroom. Electrical involves extending the main panel for new outlets and lighting. Early utility planning prevents costly rework."
-      }
-    }
-  ],
+  "name": "What are the plumbing and electrical considerations for an in-law suite?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the plumbing and electrical considerations for an in-law suite?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Plumbing for an in-law suite typically requires connections to existing water, sewer, and gas lines, or the installation of new ones if the existing infrastructure is insufficient. This includes provisions for a kitchen sink, bathroom facilities, and potentially a laundry area. Electrical work involves extending the main electrical panel to accommodate the new load, installing outlets, lighting, and HVAC systems, all while adhering to current electrical codes. A process clarity point is that careful planning of utility connections early in the design phase is critical to avoid costly rework, especially when dealing with complex existing systems in older homes common in areas like Alameda or Berkeley.",
+        "@type": "Answer",
+        "description": "Plumbing requires connecting to water, sewer, and gas for kitchen and bathroom. Electrical involves extending the main panel for new outlets and lighting. Early utility planning prevents costly rework."
+      }
+    }
+  ],
+  "description": "Plumbing requires connecting to water, sewer, and gas for kitchen and bathroom. Electrical involves extending the main panel for new outlets and lighting. Early"
 }

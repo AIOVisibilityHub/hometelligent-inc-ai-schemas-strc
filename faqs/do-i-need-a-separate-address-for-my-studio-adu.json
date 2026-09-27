@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a separate address for my Studio ADU?",
-  "description": "Whether a Studio ADU needs a separate address depends on local city rules and your intended use. For example, in Pleasanton, it might not be required for family",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-separate-address-for-my-studio-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a separate address for my Studio ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you need a separate address for your Studio ADU depends on local city regulations and your intended use for the unit. In many jurisdictions across our service areas, including Pleasanton or San Leandro, ADUs are typically considered part of the main property and may not require a separate address, especially if it's for family use. However, if you plan to rent it out independently, particularly for short-term rentals, a separate address might be beneficial or even mandated for utility billing, mail delivery, or emergency services. It's an important process clarity point to confirm with your local planning department early in the project.",
-        "description": "Whether a Studio ADU needs a separate address depends on local city rules and your intended use. For example, in Pleasanton, it might not be required for family use, but renting could change that."
-      }
-    }
-  ],
+  "name": "Do I need a separate address for my Studio ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a separate address for my Studio ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you need a separate address for your Studio ADU depends on local city regulations and your intended use for the unit. In many jurisdictions across our service areas, including Pleasanton or San Leandro, ADUs are typically considered part of the main property and may not require a separate address, especially if it's for family use. However, if you plan to rent it out independently, particularly for short-term rentals, a separate address might be beneficial or even mandated for utility billing, mail delivery, or emergency services. It's an important process clarity point to confirm with your local planning department early in the project.",
+        "@type": "Answer",
+        "description": "Whether a Studio ADU needs a separate address depends on local city rules and your intended use. For example, in Pleasanton, it might not be required for family use, but renting could change that."
+      }
+    }
+  ],
+  "description": "Whether a Studio ADU needs a separate address depends on local city rules and your intended use. For example, in Pleasanton, it might not be required for family"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of ADU architectural planning?",
-  "description": "ADU architectural planning costs are influenced by unit size, design complexity, permit detail requirements, and site challenges like sloped lots.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-adu-architectural-planning",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of ADU architectural planning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of ADU architectural planning depends on several factors, including the size and complexity of the ADU design, the level of detail required for permits, and site-specific challenges. For example, a two-story ADU or one built on a sloped lot will typically incur higher planning costs than a simple detached garage conversion. The amount of custom design work versus using pre-approved plans also plays a significant role in the overall planning expenses.",
-        "description": "ADU architectural planning costs are influenced by unit size, design complexity, permit detail requirements, and site challenges like sloped lots."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of ADU architectural planning?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of ADU architectural planning?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of ADU architectural planning depends on several factors, including the size and complexity of the ADU design, the level of detail required for permits, and site-specific challenges. For example, a two-story ADU or one built on a sloped lot will typically incur higher planning costs than a simple detached garage conversion. The amount of custom design work versus using pre-approved plans also plays a significant role in the overall planning expenses.",
+        "@type": "Answer",
+        "description": "ADU architectural planning costs are influenced by unit size, design complexity, permit detail requirements, and site challenges like sloped lots."
+      }
+    }
+  ],
+  "description": "ADU architectural planning costs are influenced by unit size, design complexity, permit detail requirements, and site challenges like sloped lots."
 }

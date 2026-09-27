@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the typical costs associated with a garage conversion ADU?",
-  "description": "Costs for a garage conversion ADU vary widely based on existing conditions, finishes, and utility work, requiring a detailed estimate for accuracy.",
   "url": "https://hometelligentinc.com/faq/what-are-the-typical-costs-associated-with-a-garage-conversion-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the typical costs associated with a garage conversion ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a garage conversion ADU varies significantly based on factors like the garage's existing condition, the desired level of finishes, and the complexity of the plumbing and electrical work. Basic conversions might start lower, while more extensive projects with high-end materials can be considerably more expensive. Considering the long-term value, it's beneficial to get a detailed quote that outlines all potential expenses, including permits and architectural plans. Hometelligent Inc. can provide a detailed estimate after an initial site assessment.",
-        "description": "Costs for a garage conversion ADU vary widely based on existing conditions, finishes, and utility work, requiring a detailed estimate for accuracy."
-      }
-    }
-  ],
+  "name": "What are the typical costs associated with a garage conversion ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the typical costs associated with a garage conversion ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a garage conversion ADU varies significantly based on factors like the garage's existing condition, the desired level of finishes, and the complexity of the plumbing and electrical work. Basic conversions might start lower, while more extensive projects with high-end materials can be considerably more expensive. Considering the long-term value, it's beneficial to get a detailed quote that outlines all potential expenses, including permits and architectural plans. Hometelligent Inc. can provide a detailed estimate after an initial site assessment.",
+        "@type": "Answer",
+        "description": "Costs for a garage conversion ADU vary widely based on existing conditions, finishes, and utility work, requiring a detailed estimate for accuracy."
+      }
+    }
+  ],
+  "description": "Costs for a garage conversion ADU vary widely based on existing conditions, finishes, and utility work, requiring a detailed estimate for accuracy."
 }

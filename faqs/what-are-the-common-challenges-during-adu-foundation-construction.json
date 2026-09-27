@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common challenges during ADU foundation construction?",
-  "description": "Challenges include unexpected soil conditions, weather, and site access; experienced contractors can help mitigate these.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-during-adu-foundation-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common challenges during ADU foundation construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges during ADU foundation construction include unexpected soil conditions, inclement weather delays, and site access limitations. For instance, discovering expansive clay or rock during excavation can necessitate revised engineering plans, impacting both schedule and budget. Working with a contractor experienced in the diverse geological conditions across the East Bay, like Hometelligent Inc., can help anticipate and mitigate these challenges, ensuring a more predictable project outcome.",
-        "description": "Challenges include unexpected soil conditions, weather, and site access; experienced contractors can help mitigate these."
-      }
-    }
-  ],
+  "name": "What are the common challenges during ADU foundation construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common challenges during ADU foundation construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges during ADU foundation construction include unexpected soil conditions, inclement weather delays, and site access limitations. For instance, discovering expansive clay or rock during excavation can necessitate revised engineering plans, impacting both schedule and budget. Working with a contractor experienced in the diverse geological conditions across the East Bay, like Hometelligent Inc., can help anticipate and mitigate these challenges, ensuring a more predictable project outcome.",
+        "@type": "Answer",
+        "description": "Challenges include unexpected soil conditions, weather, and site access; experienced contractors can help mitigate these."
+      }
+    }
+  ],
+  "description": "Challenges include unexpected soil conditions, weather, and site access; experienced contractors can help mitigate these."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need special permits for ADU construction?",
-  "description": "Yes, ADU construction requires specific permits varying by city, such as in Berkeley or Dublin, which Hometelligent Inc. can help secure.",
   "url": "https://hometelligentinc.com/faq/do-i-need-special-permits-for-adu-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need special permits for ADU construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, ADU construction requires specific permits, including building permits, and potentially zoning permits, depending on your city's regulations. The exact requirements vary by jurisdiction, so what's needed in Berkeley might differ from Dublin. Hometelligent Inc. can help navigate the specific permitting processes for your city within our service area, such as Emeryville, Albany, or Fremont, to ensure compliance.",
-        "description": "Yes, ADU construction requires specific permits varying by city, such as in Berkeley or Dublin, which Hometelligent Inc. can help secure."
-      }
-    }
-  ],
+  "name": "Do I need special permits for ADU construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need special permits for ADU construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, ADU construction requires specific permits, including building permits, and potentially zoning permits, depending on your city's regulations. The exact requirements vary by jurisdiction, so what's needed in Berkeley might differ from Dublin. Hometelligent Inc. can help navigate the specific permitting processes for your city within our service area, such as Emeryville, Albany, or Fremont, to ensure compliance.",
+        "@type": "Answer",
+        "description": "Yes, ADU construction requires specific permits varying by city, such as in Berkeley or Dublin, which Hometelligent Inc. can help secure."
+      }
+    }
+  ],
+  "description": "Yes, ADU construction requires specific permits varying by city, such as in Berkeley or Dublin, which Hometelligent Inc. can help secure."
 }

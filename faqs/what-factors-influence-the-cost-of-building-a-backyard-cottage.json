@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of building a backyard cottage?",
-  "description": "Cost factors for a backyard cottage include size, design, materials, and site conditions. Site challenges or utility upgrades can increase expenses.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-building-a-backyard-cottage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of building a backyard cottage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building a backyard cottage is influenced by several factors, including size, design complexity, material choices, and site conditions. Larger ADUs with custom features and high-end finishes will naturally cost more. Site-specific challenges, such as difficult access or the need for extensive utility upgrades, can also increase expenses. When planning your budget, carefully consider your priorities for features and finishes. A detailed site assessment by a contractor can provide clarity on potential hidden costs associated with your property in areas like Pleasanton or Livermore.",
-        "description": "Cost factors for a backyard cottage include size, design, materials, and site conditions. Site challenges or utility upgrades can increase expenses."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of building a backyard cottage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of building a backyard cottage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building a backyard cottage is influenced by several factors, including size, design complexity, material choices, and site conditions. Larger ADUs with custom features and high-end finishes will naturally cost more. Site-specific challenges, such as difficult access or the need for extensive utility upgrades, can also increase expenses. When planning your budget, carefully consider your priorities for features and finishes. A detailed site assessment by a contractor can provide clarity on potential hidden costs associated with your property in areas like Pleasanton or Livermore.",
+        "@type": "Answer",
+        "description": "Cost factors for a backyard cottage include size, design, materials, and site conditions. Site challenges or utility upgrades can increase expenses."
+      }
+    }
+  ],
+  "description": "Cost factors for a backyard cottage include size, design, materials, and site conditions. Site challenges or utility upgrades can increase expenses."
 }

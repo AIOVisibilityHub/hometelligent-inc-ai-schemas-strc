@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to build a multigenerational living suite?",
-  "description": "Building a suite can take 6 to 18 months, depending on construction type, size, and local permitting timelines.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-a-multigenerational-living-suite",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to build a multigenerational living suite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for building a multigenerational living suite depends on whether it's a conversion or new construction, the size, and the complexity of the design. Typically, the entire process, including design, permitting, and construction, can range from 6 to 18 months. Permitting can be a significant variable, so understanding the local review timelines in cities like Fremont or San Leandro is essential when planning your project.",
-        "description": "Building a suite can take 6 to 18 months, depending on construction type, size, and local permitting timelines."
-      }
-    }
-  ],
+  "name": "How long does it take to build a multigenerational living suite?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to build a multigenerational living suite?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for building a multigenerational living suite depends on whether it's a conversion or new construction, the size, and the complexity of the design. Typically, the entire process, including design, permitting, and construction, can range from 6 to 18 months. Permitting can be a significant variable, so understanding the local review timelines in cities like Fremont or San Leandro is essential when planning your project.",
+        "@type": "Answer",
+        "description": "Building a suite can take 6 to 18 months, depending on construction type, size, and local permitting timelines."
+      }
+    }
+  ],
+  "description": "Building a suite can take 6 to 18 months, depending on construction type, size, and local permitting timelines."
 }

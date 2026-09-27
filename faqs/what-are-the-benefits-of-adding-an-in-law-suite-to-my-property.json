@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of adding an in-law suite to my property?",
-  "description": "Benefits of an in-law suite include increased property value, rental income potential, flexible family housing, and enhanced privacy. Evaluate your specific nee",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-adding-an-in-law-suite-to-my-property",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of adding an in-law suite to my property?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding an in-law suite offers several benefits, including increased property value, potential rental income, flexible housing for aging family members or adult children, and additional living space. It can also provide privacy and independence for occupants while keeping loved ones close. A decision factor for homeowners in the Bay Area is evaluating their specific needs and goals; for example, if long-term care for a parent is a priority, an in-law suite offers a practical solution. Conversely, if maximizing rental income is the primary goal, careful consideration of local rental markets in areas like San Jose or Santa Clara is important.",
-        "description": "Benefits of an in-law suite include increased property value, rental income potential, flexible family housing, and enhanced privacy. Evaluate your specific needs to determine the best approach."
-      }
-    }
-  ],
+  "name": "What are the benefits of adding an in-law suite to my property?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of adding an in-law suite to my property?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding an in-law suite offers several benefits, including increased property value, potential rental income, flexible housing for aging family members or adult children, and additional living space. It can also provide privacy and independence for occupants while keeping loved ones close. A decision factor for homeowners in the Bay Area is evaluating their specific needs and goals; for example, if long-term care for a parent is a priority, an in-law suite offers a practical solution. Conversely, if maximizing rental income is the primary goal, careful consideration of local rental markets in areas like San Jose or Santa Clara is important.",
+        "@type": "Answer",
+        "description": "Benefits of an in-law suite include increased property value, rental income potential, flexible family housing, and enhanced privacy. Evaluate your specific needs to determine the best approach."
+      }
+    }
+  ],
+  "description": "Benefits of an in-law suite include increased property value, rental income potential, flexible family housing, and enhanced privacy. Evaluate your specific nee"
 }

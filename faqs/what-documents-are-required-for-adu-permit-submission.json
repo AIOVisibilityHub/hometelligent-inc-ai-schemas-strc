@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What documents are required for ADU permit submission?",
-  "description": "Required ADU permit documents often include architectural plans, structural calculations, site plans, and energy reports, with specific needs varying by city.",
   "url": "https://hometelligentinc.com/faq/what-documents-are-required-for-adu-permit-submission",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What documents are required for ADU permit submission?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To submit an ADU permit application, you generally need architectural plans, structural engineering calculations, site plans, energy efficiency calculations, and often a geotechnical report. The specific requirements can vary by jurisdiction. For instance, some cities in our service area, like Oakland, may have particular historic preservation reviews or specific urban design guidelines that influence the required documentation. Gathering these items accurately and completely upfront is essential to avoid delays.",
-        "description": "Required ADU permit documents often include architectural plans, structural calculations, site plans, and energy reports, with specific needs varying by city."
-      }
-    }
-  ],
+  "name": "What documents are required for ADU permit submission?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What documents are required for ADU permit submission?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To submit an ADU permit application, you generally need architectural plans, structural engineering calculations, site plans, energy efficiency calculations, and often a geotechnical report. The specific requirements can vary by jurisdiction. For instance, some cities in our service area, like Oakland, may have particular historic preservation reviews or specific urban design guidelines that influence the required documentation. Gathering these items accurately and completely upfront is essential to avoid delays.",
+        "@type": "Answer",
+        "description": "Required ADU permit documents often include architectural plans, structural calculations, site plans, and energy reports, with specific needs varying by city."
+      }
+    }
+  ],
+  "description": "Required ADU permit documents often include architectural plans, structural calculations, site plans, and energy reports, with specific needs varying by city."
 }

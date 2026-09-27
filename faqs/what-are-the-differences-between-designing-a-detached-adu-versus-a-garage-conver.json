@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the differences between designing a detached ADU versus a garage conversion?",
-  "description": "Detached ADUs offer more design flexibility and customization, while garage conversions utilize existing structures, potentially saving costs but limiting layou",
   "url": "https://hometelligentinc.com/faq/what-are-the-differences-between-designing-a-detached-adu-versus-a-garage-conver",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the differences between designing a detached ADU versus a garage conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Designing a detached ADU offers greater flexibility in terms of size, layout, and architectural style, as it's built from the ground up. This option often provides more privacy and the ability to customize all aspects. A garage conversion, on the other hand, utilizes an existing structure, which can save on foundation and framing costs but may limit layout options due to existing walls and rooflines. Both types require careful consideration of utility connections, such as plumbing and electrical, and adherence to specific setback requirements that vary by city, such as in Hayward or Union City.",
-        "description": "Detached ADUs offer more design flexibility and customization, while garage conversions utilize existing structures, potentially saving costs but limiting layouts. Both require utility planning and adherence to local setback rules."
-      }
-    }
-  ],
+  "name": "What are the differences between designing a detached ADU versus a garage conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the differences between designing a detached ADU versus a garage conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Designing a detached ADU offers greater flexibility in terms of size, layout, and architectural style, as it's built from the ground up. This option often provides more privacy and the ability to customize all aspects. A garage conversion, on the other hand, utilizes an existing structure, which can save on foundation and framing costs but may limit layout options due to existing walls and rooflines. Both types require careful consideration of utility connections, such as plumbing and electrical, and adherence to specific setback requirements that vary by city, such as in Hayward or Union City.",
+        "@type": "Answer",
+        "description": "Detached ADUs offer more design flexibility and customization, while garage conversions utilize existing structures, potentially saving costs but limiting layouts. Both require utility planning and adherence to local setback rules."
+      }
+    }
+  ],
+  "description": "Detached ADUs offer more design flexibility and customization, while garage conversions utilize existing structures, potentially saving costs but limiting layou"
 }

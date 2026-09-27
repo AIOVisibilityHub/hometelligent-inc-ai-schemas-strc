@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an Accessory Dwelling Unit (ADU) and how does it relate to a guest house?",
-  "description": "An ADU is a legally permitted, secondary housing unit on a residential lot, which a guest house can often qualify as, particularly in areas like Alameda and Ber",
   "url": "https://hometelligentinc.com/faq/what-is-an-accessory-dwelling-unit-adu-and-how-does-it-relate-to-a-guest-house",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an Accessory Dwelling Unit (ADU) and how does it relate to a guest house?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot. While a guest house typically implies a non-rental dwelling for visitors, an ADU specifically refers to a legally permitted, independent living space that can be rented out or used by family members. Building a guest house often falls under ADU regulations in areas like Alameda and Berkeley, offering benefits such as increased property value or potential rental income. Understanding local zoning is a critical first step to determine if your guest house project qualifies as an ADU and what specific requirements apply.",
-        "description": "An ADU is a legally permitted, secondary housing unit on a residential lot, which a guest house can often qualify as, particularly in areas like Alameda and Berkeley. It allows for independent living and can offer rental income or increased property value."
-      }
-    }
-  ],
+  "name": "What is an Accessory Dwelling Unit (ADU) and how does it relate to a guest house?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an Accessory Dwelling Unit (ADU) and how does it relate to a guest house?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot. While a guest house typically implies a non-rental dwelling for visitors, an ADU specifically refers to a legally permitted, independent living space that can be rented out or used by family members. Building a guest house often falls under ADU regulations in areas like Alameda and Berkeley, offering benefits such as increased property value or potential rental income. Understanding local zoning is a critical first step to determine if your guest house project qualifies as an ADU and what specific requirements apply.",
+        "@type": "Answer",
+        "description": "An ADU is a legally permitted, secondary housing unit on a residential lot, which a guest house can often qualify as, particularly in areas like Alameda and Berkeley. It allows for independent living and can offer rental income or increased property value."
+      }
+    }
+  ],
+  "description": "An ADU is a legally permitted, secondary housing unit on a residential lot, which a guest house can often qualify as, particularly in areas like Alameda and Ber"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the first steps Hometelligent takes for ADU site planning?",
-  "description": "Hometelligent begins ADU site planning with a comprehensive site visit and property assessment, evaluating characteristics, utilities, access, and zoning for fe",
   "url": "https://hometelligentinc.com/faq/what-are-the-first-steps-hometelligent-takes-for-adu-site-planning",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the first steps Hometelligent takes for ADU site planning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent's first steps in ADU site planning involve a comprehensive site visit and a detailed property assessment. We evaluate your property's unique characteristics, existing utilities, access points, and specific zoning regulations for your city (e.g., Union City or Hayward). This initial assessment helps us understand the feasibility of your project and identify potential constraints or opportunities, forming the basis for a tailored design and planning strategy.",
-        "description": "Hometelligent begins ADU site planning with a comprehensive site visit and property assessment, evaluating characteristics, utilities, access, and zoning for feasibility."
-      }
-    }
-  ],
+  "name": "What are the first steps Hometelligent takes for ADU site planning?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the first steps Hometelligent takes for ADU site planning?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent's first steps in ADU site planning involve a comprehensive site visit and a detailed property assessment. We evaluate your property's unique characteristics, existing utilities, access points, and specific zoning regulations for your city (e.g., Union City or Hayward). This initial assessment helps us understand the feasibility of your project and identify potential constraints or opportunities, forming the basis for a tailored design and planning strategy.",
+        "@type": "Answer",
+        "description": "Hometelligent begins ADU site planning with a comprehensive site visit and property assessment, evaluating characteristics, utilities, access, and zoning for feasibility."
+      }
+    }
+  ],
+  "description": "Hometelligent begins ADU site planning with a comprehensive site visit and property assessment, evaluating characteristics, utilities, access, and zoning for fe"
 }
