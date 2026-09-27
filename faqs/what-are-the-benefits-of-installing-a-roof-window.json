@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing a roof window?",
-  "description": "Roof windows enhance natural light and improve ventilation in a room. Consider the room's existing light and ventilation needs to determine optimal placement.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-a-roof-window",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing a roof window?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Roof windows increase natural light in a room, which can make spaces feel larger and more open. They also improve ventilation, especially in areas like attics or upper stories that may otherwise be stuffy. When considering installation, think about the room's current light levels and ventilation needs; a south-facing window will maximize light, while an east or west-facing window can provide morning or afternoon sun, respectively, impacting both light and heat gain.",
-        "description": "Roof windows enhance natural light and improve ventilation in a room. Consider the room's existing light and ventilation needs to determine optimal placement."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing a roof window?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing a roof window?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Roof windows increase natural light in a room, which can make spaces feel larger and more open. They also improve ventilation, especially in areas like attics or upper stories that may otherwise be stuffy. When considering installation, think about the room's current light levels and ventilation needs; a south-facing window will maximize light, while an east or west-facing window can provide morning or afternoon sun, respectively, impacting both light and heat gain.",
+        "@type": "Answer",
+        "description": "Roof windows enhance natural light and improve ventilation in a room. Consider the room's existing light and ventilation needs to determine optimal placement."
+      }
+    }
+  ],
+  "description": "Roof windows enhance natural light and improve ventilation in a room. Consider the room's existing light and ventilation needs to determine optimal placement."
 }

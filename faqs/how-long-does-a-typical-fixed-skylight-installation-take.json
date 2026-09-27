@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical fixed skylight installation take?",
-  "description": "A typical fixed skylight installation takes one to two days, depending on roof complexity and interior finishing requirements. This duration covers opening, fra",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-fixed-skylight-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical fixed skylight installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A standard fixed skylight installation typically takes one to two days, depending on the complexity of the roof structure and interior finishing. This includes cutting the roof opening, framing, installing the skylight unit, flashing, and sealing. The process may extend if existing damage needs repair or if custom interior trim is required. Hometelligent Inc. prioritizes efficient and thorough work, ensuring minimal disruption to your daily routine during installations in places like Oakland or Fremont.",
-        "description": "A typical fixed skylight installation takes one to two days, depending on roof complexity and interior finishing requirements. This duration covers opening, framing, installation, flashing, and sealing."
-      }
-    }
-  ],
+  "name": "How long does a typical fixed skylight installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical fixed skylight installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A standard fixed skylight installation typically takes one to two days, depending on the complexity of the roof structure and interior finishing. This includes cutting the roof opening, framing, installing the skylight unit, flashing, and sealing. The process may extend if existing damage needs repair or if custom interior trim is required. Hometelligent Inc. prioritizes efficient and thorough work, ensuring minimal disruption to your daily routine during installations in places like Oakland or Fremont.",
+        "@type": "Answer",
+        "description": "A typical fixed skylight installation takes one to two days, depending on roof complexity and interior finishing requirements. This duration covers opening, framing, installation, flashing, and sealing."
+      }
+    }
+  ],
+  "description": "A typical fixed skylight installation takes one to two days, depending on roof complexity and interior finishing requirements. This duration covers opening, fra"
 }

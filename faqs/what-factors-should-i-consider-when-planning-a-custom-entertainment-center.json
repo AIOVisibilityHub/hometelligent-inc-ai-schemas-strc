@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when planning a custom entertainment center?",
-  "description": "Consider TV/equipment size, storage needs, wiring, ventilation, and room layout to ensure optimal design and integration.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-planning-a-custom-entertainment-center",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when planning a custom entertainment center?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When planning a custom entertainment center, consider the size and type of your television, audio equipment, and gaming consoles, as well as the need for storage for media, remotes, and decorative items. Think about wiring management and ventilation requirements for electronics. Hometelligent Inc. also advises considering the room's overall layout and natural light to ensure the unit enhances the space without overwhelming it, making sure it aligns with your lifestyle and viewing habits.",
-        "description": "Consider TV/equipment size, storage needs, wiring, ventilation, and room layout to ensure optimal design and integration."
-      }
-    }
-  ],
+  "name": "What factors should I consider when planning a custom entertainment center?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when planning a custom entertainment center?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When planning a custom entertainment center, consider the size and type of your television, audio equipment, and gaming consoles, as well as the need for storage for media, remotes, and decorative items. Think about wiring management and ventilation requirements for electronics. Hometelligent Inc. also advises considering the room's overall layout and natural light to ensure the unit enhances the space without overwhelming it, making sure it aligns with your lifestyle and viewing habits.",
+        "@type": "Answer",
+        "description": "Consider TV/equipment size, storage needs, wiring, ventilation, and room layout to ensure optimal design and integration."
+      }
+    }
+  ],
+  "description": "Consider TV/equipment size, storage needs, wiring, ventilation, and room layout to ensure optimal design and integration."
 }

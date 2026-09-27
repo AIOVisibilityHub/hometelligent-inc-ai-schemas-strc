@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a custom media wall incorporate a fireplace?",
-  "description": "Yes, a custom media wall can integrate a fireplace, but it adds design complexity and cost due to safety and ventilation needs.",
   "url": "https://hometelligentinc.com/faq/can-a-custom-media-wall-incorporate-a-fireplace",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a custom media wall incorporate a fireplace?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, custom media walls can be designed to seamlessly integrate various features, including electric or gas fireplaces. This creates a focal point that combines entertainment with warmth and ambiance. A practical tradeoff is that incorporating a fireplace adds complexity to the design and installation, requiring careful consideration of ventilation, heat dispersion, and safety clearances, which can increase overall project costs and duration.",
-        "description": "Yes, a custom media wall can integrate a fireplace, but it adds design complexity and cost due to safety and ventilation needs."
-      }
-    }
-  ],
+  "name": "Can a custom media wall incorporate a fireplace?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a custom media wall incorporate a fireplace?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, custom media walls can be designed to seamlessly integrate various features, including electric or gas fireplaces. This creates a focal point that combines entertainment with warmth and ambiance. A practical tradeoff is that incorporating a fireplace adds complexity to the design and installation, requiring careful consideration of ventilation, heat dispersion, and safety clearances, which can increase overall project costs and duration.",
+        "@type": "Answer",
+        "description": "Yes, a custom media wall can integrate a fireplace, but it adds design complexity and cost due to safety and ventilation needs."
+      }
+    }
+  ],
+  "description": "Yes, a custom media wall can integrate a fireplace, but it adds design complexity and cost due to safety and ventilation needs."
 }

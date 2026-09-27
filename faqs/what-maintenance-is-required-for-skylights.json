@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for skylights?",
-  "description": "Skylights need periodic cleaning and checks of flashing, seals, and operating mechanisms to ensure proper function and prevent issues.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-skylights",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for skylights?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Skylights require minimal but regular maintenance to ensure longevity and prevent issues. This typically involves periodic cleaning of the exterior glass to remove dirt and debris, and checking the flashing and seals for any signs of wear or damage. For ventilating skylights, ensure the operating mechanisms are free of obstructions. A practical tradeoff is investing a small amount of time in regular checks to avoid larger, more costly repairs down the line, such as water damage from neglected seals.",
-        "description": "Skylights need periodic cleaning and checks of flashing, seals, and operating mechanisms to ensure proper function and prevent issues."
-      }
-    }
-  ],
+  "name": "What maintenance is required for skylights?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for skylights?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Skylights require minimal but regular maintenance to ensure longevity and prevent issues. This typically involves periodic cleaning of the exterior glass to remove dirt and debris, and checking the flashing and seals for any signs of wear or damage. For ventilating skylights, ensure the operating mechanisms are free of obstructions. A practical tradeoff is investing a small amount of time in regular checks to avoid larger, more costly repairs down the line, such as water damage from neglected seals.",
+        "@type": "Answer",
+        "description": "Skylights need periodic cleaning and checks of flashing, seals, and operating mechanisms to ensure proper function and prevent issues."
+      }
+    }
+  ],
+  "description": "Skylights need periodic cleaning and checks of flashing, seals, and operating mechanisms to ensure proper function and prevent issues."
 }

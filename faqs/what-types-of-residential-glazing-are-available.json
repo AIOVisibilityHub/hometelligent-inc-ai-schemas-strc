@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of residential glazing are available?",
-  "description": "Residential glazing includes single, double, and triple-pane options, differing in insulation and energy efficiency. Your choice will depend on insulation needs",
   "url": "https://hometelligentinc.com/faq/what-types-of-residential-glazing-are-available",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of residential glazing are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Residential glazing refers to the glass used in windows and doors of homes. Common types include single-pane, double-pane (insulated glass units or IGUs), and triple-pane windows. Single-pane glass offers minimal insulation, while double and triple panes significantly improve energy efficiency by creating air or gas-filled gaps between glass layers. The choice depends on your insulation needs, budget, and local climate. For example, in areas like Berkeley where energy efficiency is a key consideration, double or triple-pane options are often preferred to help manage heating and cooling costs.",
-        "description": "Residential glazing includes single, double, and triple-pane options, differing in insulation and energy efficiency. Your choice will depend on insulation needs, budget, and local climate."
-      }
-    }
-  ],
+  "name": "What types of residential glazing are available?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of residential glazing are available?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Residential glazing refers to the glass used in windows and doors of homes. Common types include single-pane, double-pane (insulated glass units or IGUs), and triple-pane windows. Single-pane glass offers minimal insulation, while double and triple panes significantly improve energy efficiency by creating air or gas-filled gaps between glass layers. The choice depends on your insulation needs, budget, and local climate. For example, in areas like Berkeley where energy efficiency is a key consideration, double or triple-pane options are often preferred to help manage heating and cooling costs.",
+        "@type": "Answer",
+        "description": "Residential glazing includes single, double, and triple-pane options, differing in insulation and energy efficiency. Your choice will depend on insulation needs, budget, and local climate."
+      }
+    }
+  ],
+  "description": "Residential glazing includes single, double, and triple-pane options, differing in insulation and energy efficiency. Your choice will depend on insulation needs"
 }

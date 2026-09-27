@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are energy-efficient glazing upgrades?",
-  "description": "Energy-efficient glazing upgrades replace standard window glass with advanced materials like low-e coated, multi-pane units to reduce heat transfer and improve",
   "url": "https://hometelligentinc.com/faq/what-are-energy-efficient-glazing-upgrades",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are energy-efficient glazing upgrades?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Energy-efficient glazing upgrades involve replacing existing window glass with materials designed to improve thermal performance. This typically includes double-pane or triple-pane windows with low-emissivity (low-e) coatings and inert gas fills, such as argon or krypton, between the panes. These features reduce heat transfer, keeping your home warmer in winter and cooler in summer. Hometelligent focuses on ensuring these upgrades are tailored to the specific climate challenges of the Alameda, Albany, Berkeley, Dublin, and Emeryville areas, considering both heating and cooling needs.",
-        "description": "Energy-efficient glazing upgrades replace standard window glass with advanced materials like low-e coated, multi-pane units to reduce heat transfer and improve insulation."
-      }
-    }
-  ],
+  "name": "What are energy-efficient glazing upgrades?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are energy-efficient glazing upgrades?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Energy-efficient glazing upgrades involve replacing existing window glass with materials designed to improve thermal performance. This typically includes double-pane or triple-pane windows with low-emissivity (low-e) coatings and inert gas fills, such as argon or krypton, between the panes. These features reduce heat transfer, keeping your home warmer in winter and cooler in summer. Hometelligent focuses on ensuring these upgrades are tailored to the specific climate challenges of the Alameda, Albany, Berkeley, Dublin, and Emeryville areas, considering both heating and cooling needs.",
+        "@type": "Answer",
+        "description": "Energy-efficient glazing upgrades replace standard window glass with advanced materials like low-e coated, multi-pane units to reduce heat transfer and improve insulation."
+      }
+    }
+  ],
+  "description": "Energy-efficient glazing upgrades replace standard window glass with advanced materials like low-e coated, multi-pane units to reduce heat transfer and improve"
 }

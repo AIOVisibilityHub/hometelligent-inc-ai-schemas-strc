@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of glass are available for patio door replacement?",
-  "description": "Common types include tempered, annealed, double-pane, and Low-E glass, each offering different safety and energy efficiency benefits.",
   "url": "https://hometelligentinc.com/faq/what-types-of-glass-are-available-for-patio-door-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of glass are available for patio door replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When replacing patio door glass, common options include tempered glass for safety and standard annealed glass. You can also choose from various energy-efficient options like double-pane or low-emissivity (Low-E) glass, which help improve insulation and reduce energy costs by reflecting heat. Consider your local climate in Alameda or surrounding areas; areas with more direct sunlight might benefit significantly from Low-E coatings to prevent heat gain.",
-        "description": "Common types include tempered, annealed, double-pane, and Low-E glass, each offering different safety and energy efficiency benefits."
-      }
-    }
-  ],
+  "name": "What types of glass are available for patio door replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of glass are available for patio door replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When replacing patio door glass, common options include tempered glass for safety and standard annealed glass. You can also choose from various energy-efficient options like double-pane or low-emissivity (Low-E) glass, which help improve insulation and reduce energy costs by reflecting heat. Consider your local climate in Alameda or surrounding areas; areas with more direct sunlight might benefit significantly from Low-E coatings to prevent heat gain.",
+        "@type": "Answer",
+        "description": "Common types include tempered, annealed, double-pane, and Low-E glass, each offering different safety and energy efficiency benefits."
+      }
+    }
+  ],
+  "description": "Common types include tempered, annealed, double-pane, and Low-E glass, each offering different safety and energy efficiency benefits."
 }

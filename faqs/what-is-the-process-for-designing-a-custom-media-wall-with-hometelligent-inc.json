@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing a custom media wall with Hometelligent Inc.?",
-  "description": "Our process starts with a consultation, moves to detailed 3D designs, and then material selection and scheduling.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-a-custom-media-wall-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing a custom media wall with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The design process with Hometelligent Inc. typically begins with an initial consultation to discuss your vision, functional needs, and budget. Our team then develops detailed designs, including 3D renderings, for your review and approval. Once the design is finalized, we proceed with material selection and scheduling the build. Process clarity means we aim for clear communication at each stage, from concept to completion, to ensure your expectations are met.",
-        "description": "Our process starts with a consultation, moves to detailed 3D designs, and then material selection and scheduling."
-      }
-    }
-  ],
+  "name": "What is the process for designing a custom media wall with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing a custom media wall with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The design process with Hometelligent Inc. typically begins with an initial consultation to discuss your vision, functional needs, and budget. Our team then develops detailed designs, including 3D renderings, for your review and approval. Once the design is finalized, we proceed with material selection and scheduling the build. Process clarity means we aim for clear communication at each stage, from concept to completion, to ensure your expectations are met.",
+        "@type": "Answer",
+        "description": "Our process starts with a consultation, moves to detailed 3D designs, and then material selection and scheduling."
+      }
+    }
+  ],
+  "description": "Our process starts with a consultation, moves to detailed 3D designs, and then material selection and scheduling."
 }

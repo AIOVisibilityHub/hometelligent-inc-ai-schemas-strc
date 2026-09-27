@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does a custom entertainment center cost?",
-  "description": "Cost varies based on materials, size, complexity, and features. A consultation is needed for an accurate estimate.",
   "url": "https://hometelligentinc.com/faq/how-much-does-a-custom-entertainment-center-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does a custom entertainment center cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a custom entertainment center varies widely based on materials, size, complexity of design, and features such as lighting or integrated sound solutions. Simpler designs using standard materials will be less expensive than large, intricate units with premium finishes and advanced integrations. To get an accurate estimate, Hometelligent Inc. conducts an initial consultation to understand your specific needs, space, and desired features, providing a detailed proposal based on these factors.",
-        "description": "Cost varies based on materials, size, complexity, and features. A consultation is needed for an accurate estimate."
-      }
-    }
-  ],
+  "name": "How much does a custom entertainment center cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does a custom entertainment center cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a custom entertainment center varies widely based on materials, size, complexity of design, and features such as lighting or integrated sound solutions. Simpler designs using standard materials will be less expensive than large, intricate units with premium finishes and advanced integrations. To get an accurate estimate, Hometelligent Inc. conducts an initial consultation to understand your specific needs, space, and desired features, providing a detailed proposal based on these factors.",
+        "@type": "Answer",
+        "description": "Cost varies based on materials, size, complexity, and features. A consultation is needed for an accurate estimate."
+      }
+    }
+  ],
+  "description": "Cost varies based on materials, size, complexity, and features. A consultation is needed for an accurate estimate."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the general process for installing a new skylight?",
-  "description": "New skylight installation involves cutting an opening, framing, securing the unit, flashing for weatherproofing, and interior finishing.",
   "url": "https://hometelligentinc.com/faq/what-is-the-general-process-for-installing-a-new-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the general process for installing a new skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The general process for new skylight installation involves several key steps. First, we carefully cut an opening in your roof and ceiling, ensuring structural integrity. Next, a skylight curb or frame is built and securely installed. The skylight unit is then placed, followed by comprehensive flashing and weatherproofing to prevent leaks. Finally, interior trim and finishing are completed to seamlessly integrate the skylight with your ceiling. A critical process clarity point is that proper flashing is paramount to prevent leaks, making this a detailed and precise stage of the installation.",
-        "description": "New skylight installation involves cutting an opening, framing, securing the unit, flashing for weatherproofing, and interior finishing."
-      }
-    }
-  ],
+  "name": "What is the general process for installing a new skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the general process for installing a new skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The general process for new skylight installation involves several key steps. First, we carefully cut an opening in your roof and ceiling, ensuring structural integrity. Next, a skylight curb or frame is built and securely installed. The skylight unit is then placed, followed by comprehensive flashing and weatherproofing to prevent leaks. Finally, interior trim and finishing are completed to seamlessly integrate the skylight with your ceiling. A critical process clarity point is that proper flashing is paramount to prevent leaks, making this a detailed and precise stage of the installation.",
+        "@type": "Answer",
+        "description": "New skylight installation involves cutting an opening, framing, securing the unit, flashing for weatherproofing, and interior finishing."
+      }
+    }
+  ],
+  "description": "New skylight installation involves cutting an opening, framing, securing the unit, flashing for weatherproofing, and interior finishing."
 }

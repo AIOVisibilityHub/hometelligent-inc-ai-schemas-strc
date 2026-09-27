@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What steps are involved in the fixed skylight installation process with Hometelligent Inc.?",
-  "description": "Hometelligent Inc.'s fixed skylight installation involves consultation, site assessment, proposal, permitting assistance, roof opening, skylight installation wi",
   "url": "https://hometelligentinc.com/faq/what-steps-are-involved-in-the-fixed-skylight-installation-process-with-hometell",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What steps are involved in the fixed skylight installation process with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process with Hometelligent Inc. begins with an initial consultation and site assessment to determine the best placement and type of fixed skylight for your needs. This is followed by a detailed proposal and assistance with obtaining necessary permits. Once approved, our team carefully prepares the roof opening, installs the skylight unit with proper flashing for watertightness, and finishes the interior trim. A final inspection ensures quality and customer satisfaction, reflecting our commitment to thoroughness in areas like Union City.",
-        "description": "Hometelligent Inc.'s fixed skylight installation involves consultation, site assessment, proposal, permitting assistance, roof opening, skylight installation with flashing, interior finishing, and a final inspection."
-      }
-    }
-  ],
+  "name": "What steps are involved in the fixed skylight installation process with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What steps are involved in the fixed skylight installation process with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process with Hometelligent Inc. begins with an initial consultation and site assessment to determine the best placement and type of fixed skylight for your needs. This is followed by a detailed proposal and assistance with obtaining necessary permits. Once approved, our team carefully prepares the roof opening, installs the skylight unit with proper flashing for watertightness, and finishes the interior trim. A final inspection ensures quality and customer satisfaction, reflecting our commitment to thoroughness in areas like Union City.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc.'s fixed skylight installation involves consultation, site assessment, proposal, permitting assistance, roof opening, skylight installation with flashing, interior finishing, and a final inspection."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc.'s fixed skylight installation involves consultation, site assessment, proposal, permitting assistance, roof opening, skylight installation wi"
 }

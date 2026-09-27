@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does Hometelligent Inc. offer custom carpentry services in Alameda and the surrounding East Bay areas?",
-  "description": "Yes, Hometelligent Inc. provides custom carpentry services across Alameda and the East Bay, including Albany, Berkeley, Dublin, and Emeryville, with local exper",
   "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-custom-carpentry-services-in-alameda-and-the-surrou",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does Hometelligent Inc. offer custom carpentry services in Alameda and the surrounding East Bay areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. proudly offers custom carpentry services throughout Alameda and the broader East Bay region, including Albany, Berkeley, Dublin, and Emeryville, among others. Our local presence allows us to provide timely consultations and on-site work within these communities. We are familiar with the architectural styles prevalent in these areas, enabling us to create custom pieces that complement your home's character.",
-        "description": "Yes, Hometelligent Inc. provides custom carpentry services across Alameda and the East Bay, including Albany, Berkeley, Dublin, and Emeryville, with local expertise."
-      }
-    }
-  ],
+  "name": "Does Hometelligent Inc. offer custom carpentry services in Alameda and the surrounding East Bay areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does Hometelligent Inc. offer custom carpentry services in Alameda and the surrounding East Bay areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. proudly offers custom carpentry services throughout Alameda and the broader East Bay region, including Albany, Berkeley, Dublin, and Emeryville, among others. Our local presence allows us to provide timely consultations and on-site work within these communities. We are familiar with the architectural styles prevalent in these areas, enabling us to create custom pieces that complement your home's character.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. provides custom carpentry services across Alameda and the East Bay, including Albany, Berkeley, Dublin, and Emeryville, with local expertise."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. provides custom carpentry services across Alameda and the East Bay, including Albany, Berkeley, Dublin, and Emeryville, with local exper"
 }

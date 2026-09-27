@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of materials are used in finish carpentry?",
-  "description": "Finish carpentry materials range from hardwoods and softwoods for natural or painted finishes, to MDF and composites for various aesthetic and budget needs.",
   "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-used-in-finish-carpentry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of materials are used in finish carpentry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Finish carpentry utilizes a variety of materials, primarily different types of wood, MDF (medium-density fiberboard), and composite materials. Hardwoods like oak, maple, and cherry are valued for their durability and grain, often used for stained trim or custom built-ins. Softwoods such as pine and poplar are common for painted trim due to their smooth finish and cost-effectiveness. MDF offers a very smooth surface ideal for painted applications and is dimensionally stable, though less resistant to impact. The choice of material should align with the desired aesthetic, durability needs, and budget for your project.",
-        "description": "Finish carpentry materials range from hardwoods and softwoods for natural or painted finishes, to MDF and composites for various aesthetic and budget needs."
-      }
-    }
-  ],
+  "name": "What types of materials are used in finish carpentry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of materials are used in finish carpentry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Finish carpentry utilizes a variety of materials, primarily different types of wood, MDF (medium-density fiberboard), and composite materials. Hardwoods like oak, maple, and cherry are valued for their durability and grain, often used for stained trim or custom built-ins. Softwoods such as pine and poplar are common for painted trim due to their smooth finish and cost-effectiveness. MDF offers a very smooth surface ideal for painted applications and is dimensionally stable, though less resistant to impact. The choice of material should align with the desired aesthetic, durability needs, and budget for your project.",
+        "@type": "Answer",
+        "description": "Finish carpentry materials range from hardwoods and softwoods for natural or painted finishes, to MDF and composites for various aesthetic and budget needs."
+      }
+    }
+  ],
+  "description": "Finish carpentry materials range from hardwoods and softwoods for natural or painted finishes, to MDF and composites for various aesthetic and budget needs."
 }

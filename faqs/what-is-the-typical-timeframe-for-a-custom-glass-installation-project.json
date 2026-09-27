@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeframe for a custom glass installation project?",
-  "description": "Custom glass installation typically takes 2-6 weeks, depending on design complexity and fabrication time. Simple mirrors are faster; complex enclosures take lon",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeframe-for-a-custom-glass-installation-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeframe for a custom glass installation project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical timeframe for a custom glass installation project with Hometelligent Inc. can vary significantly, usually ranging from 2 to 6 weeks from initial consultation to completion. This timeline is affected by the custom fabrication process, which depends on the complexity of the glass design and current lead times from our suppliers. Simple projects like custom mirrors may be quicker, while complex shower enclosures or large architectural pieces require more extensive measurement, fabrication, and precise installation. Timely decision-making on design choices can help keep the project on schedule.",
-        "description": "Custom glass installation typically takes 2-6 weeks, depending on design complexity and fabrication time. Simple mirrors are faster; complex enclosures take longer."
-      }
-    }
-  ],
+  "name": "What is the typical timeframe for a custom glass installation project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeframe for a custom glass installation project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical timeframe for a custom glass installation project with Hometelligent Inc. can vary significantly, usually ranging from 2 to 6 weeks from initial consultation to completion. This timeline is affected by the custom fabrication process, which depends on the complexity of the glass design and current lead times from our suppliers. Simple projects like custom mirrors may be quicker, while complex shower enclosures or large architectural pieces require more extensive measurement, fabrication, and precise installation. Timely decision-making on design choices can help keep the project on schedule.",
+        "@type": "Answer",
+        "description": "Custom glass installation typically takes 2-6 weeks, depending on design complexity and fabrication time. Simple mirrors are faster; complex enclosures take longer."
+      }
+    }
+  ],
+  "description": "Custom glass installation typically takes 2-6 weeks, depending on design complexity and fabrication time. Simple mirrors are faster; complex enclosures take lon"
 }

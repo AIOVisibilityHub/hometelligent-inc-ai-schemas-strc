@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for window frame repair?",
-  "description": "The process involves inspection, damage assessment, removal of compromised sections, repair or replacement of materials, and finishing.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-window-frame-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for window frame repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical process for window frame repair begins with an inspection to assess the damage and identify the underlying cause. Depending on the issue, it may involve removing compromised sections, treating for pests or rot, reinforcing the structure, and replacing damaged wood or materials. We then match existing finishes to ensure a seamless repair. The complexity of the repair can affect the timeline.",
-        "description": "The process involves inspection, damage assessment, removal of compromised sections, repair or replacement of materials, and finishing."
-      }
-    }
-  ],
+  "name": "What is the typical process for window frame repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for window frame repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical process for window frame repair begins with an inspection to assess the damage and identify the underlying cause. Depending on the issue, it may involve removing compromised sections, treating for pests or rot, reinforcing the structure, and replacing damaged wood or materials. We then match existing finishes to ensure a seamless repair. The complexity of the repair can affect the timeline.",
+        "@type": "Answer",
+        "description": "The process involves inspection, damage assessment, removal of compromised sections, repair or replacement of materials, and finishing."
+      }
+    }
+  ],
+  "description": "The process involves inspection, damage assessment, removal of compromised sections, repair or replacement of materials, and finishing."
 }

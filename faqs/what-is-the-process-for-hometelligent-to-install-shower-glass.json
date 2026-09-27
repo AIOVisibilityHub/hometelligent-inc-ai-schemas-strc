@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for Hometelligent to install shower glass?",
-  "description": "The installation process involves consultation, precise measurements, custom fabrication, site preparation, careful installation, sealing, and a final quality c",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-hometelligent-to-install-shower-glass",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for Hometelligent to install shower glass?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process begins with an initial consultation and precise measurements of your shower space to ensure a perfect fit. Once the custom glass is fabricated, our expert technicians prepare the site by protecting surrounding areas. They then carefully install the glass panels, hinges, and handles, ensuring proper alignment and sealing all joints to prevent leaks. Finally, they conduct a quality check and provide instructions for care. The entire process is managed to ensure a smooth transition from measurement to a finished, functional shower.",
-        "description": "The installation process involves consultation, precise measurements, custom fabrication, site preparation, careful installation, sealing, and a final quality check."
-      }
-    }
-  ],
+  "name": "What is the process for Hometelligent to install shower glass?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for Hometelligent to install shower glass?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process begins with an initial consultation and precise measurements of your shower space to ensure a perfect fit. Once the custom glass is fabricated, our expert technicians prepare the site by protecting surrounding areas. They then carefully install the glass panels, hinges, and handles, ensuring proper alignment and sealing all joints to prevent leaks. Finally, they conduct a quality check and provide instructions for care. The entire process is managed to ensure a smooth transition from measurement to a finished, functional shower.",
+        "@type": "Answer",
+        "description": "The installation process involves consultation, precise measurements, custom fabrication, site preparation, careful installation, sealing, and a final quality check."
+      }
+    }
+  ],
+  "description": "The installation process involves consultation, precise measurements, custom fabrication, site preparation, careful installation, sealing, and a final quality c"
 }

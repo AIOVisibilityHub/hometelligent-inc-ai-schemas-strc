@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does window frame repair take?",
-  "description": "Repair time varies from a few hours for minor issues to several days for extensive damage, depending on scope and weather.",
   "url": "https://hometelligentinc.com/faq/how-long-does-window-frame-repair-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does window frame repair take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of window frame repair depends on the scope and complexity of the damage. Simple repairs to a single frame might take a few hours, while extensive rot or multiple window repairs could span several days. Weather conditions can also impact the timeline for exterior work. We aim to provide an accurate time estimate during the initial consultation.",
-        "description": "Repair time varies from a few hours for minor issues to several days for extensive damage, depending on scope and weather."
-      }
-    }
-  ],
+  "name": "How long does window frame repair take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does window frame repair take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of window frame repair depends on the scope and complexity of the damage. Simple repairs to a single frame might take a few hours, while extensive rot or multiple window repairs could span several days. Weather conditions can also impact the timeline for exterior work. We aim to provide an accurate time estimate during the initial consultation.",
+        "@type": "Answer",
+        "description": "Repair time varies from a few hours for minor issues to several days for extensive damage, depending on scope and weather."
+      }
+    }
+  ],
+  "description": "Repair time varies from a few hours for minor issues to several days for extensive damage, depending on scope and weather."
 }

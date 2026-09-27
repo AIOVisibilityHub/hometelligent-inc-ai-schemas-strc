@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing glass partitions in a workplace?",
-  "description": "Glass partitions increase natural light, improve morale, create open yet defined spaces, and offer design flexibility.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-glass-partitions-in-a-workplace",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing glass partitions in a workplace?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing glass partitions can significantly enhance a workplace by increasing natural light, improving employee morale, and creating a more open, collaborative environment while maintaining defined spaces. They also offer design flexibility, allowing for easy reconfigurations of office layouts as business needs evolve. Businesses working with Hometelligent Inc. often seek glass partitions to modernize their space and achieve a brighter, more inviting atmosphere compared to traditional solid walls.",
-        "description": "Glass partitions increase natural light, improve morale, create open yet defined spaces, and offer design flexibility."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing glass partitions in a workplace?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing glass partitions in a workplace?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing glass partitions can significantly enhance a workplace by increasing natural light, improving employee morale, and creating a more open, collaborative environment while maintaining defined spaces. They also offer design flexibility, allowing for easy reconfigurations of office layouts as business needs evolve. Businesses working with Hometelligent Inc. often seek glass partitions to modernize their space and achieve a brighter, more inviting atmosphere compared to traditional solid walls.",
+        "@type": "Answer",
+        "description": "Glass partitions increase natural light, improve morale, create open yet defined spaces, and offer design flexibility."
+      }
+    }
+  ],
+  "description": "Glass partitions increase natural light, improve morale, create open yet defined spaces, and offer design flexibility."
 }

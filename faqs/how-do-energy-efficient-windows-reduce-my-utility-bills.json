@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do energy-efficient windows reduce my utility bills?",
-  "description": "They reduce utility bills by minimizing heat transfer, which lowers the demand on your heating and air conditioning systems.",
   "url": "https://hometelligentinc.com/faq/how-do-energy-efficient-windows-reduce-my-utility-bills",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do energy-efficient windows reduce my utility bills?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Energy-efficient windows reduce utility bills by minimizing heat loss in colder months and heat gain in warmer months. Better insulation means your heating and air conditioning systems don't have to work as hard to maintain a comfortable indoor temperature. The specific amount saved can vary based on factors like your home's age, insulation levels, local climate, and existing window performance. We often find that homes in areas like Pleasanton or Livermore, with greater temperature swings, see significant benefits from these upgrades.",
-        "description": "They reduce utility bills by minimizing heat transfer, which lowers the demand on your heating and air conditioning systems."
-      }
-    }
-  ],
+  "name": "How do energy-efficient windows reduce my utility bills?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do energy-efficient windows reduce my utility bills?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Energy-efficient windows reduce utility bills by minimizing heat loss in colder months and heat gain in warmer months. Better insulation means your heating and air conditioning systems don't have to work as hard to maintain a comfortable indoor temperature. The specific amount saved can vary based on factors like your home's age, insulation levels, local climate, and existing window performance. We often find that homes in areas like Pleasanton or Livermore, with greater temperature swings, see significant benefits from these upgrades.",
+        "@type": "Answer",
+        "description": "They reduce utility bills by minimizing heat transfer, which lowers the demand on your heating and air conditioning systems."
+      }
+    }
+  ],
+  "description": "They reduce utility bills by minimizing heat transfer, which lowers the demand on your heating and air conditioning systems."
 }

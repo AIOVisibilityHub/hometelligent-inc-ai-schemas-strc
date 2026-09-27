@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in the initial consultation for custom built-ins?",
-  "description": "The initial consultation involves us visiting your home to measure the space, discuss your needs and ideas, and gather information for design and estimation.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-initial-consultation-for-custom-built-ins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in the initial consultation for custom built-ins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "During the initial consultation, a Hometelligent Inc. representative will visit your home to discuss your project in detail. We'll take precise measurements of the space, understand your functional needs and aesthetic preferences, and review any inspiration photos or ideas you may have. This meeting is crucial for us to gather all necessary information to develop a preliminary design concept and provide an accurate estimate. To make the most of this consultation, consider preparing a list of your storage requirements and any specific features you envision for your built-ins.",
-        "description": "The initial consultation involves us visiting your home to measure the space, discuss your needs and ideas, and gather information for design and estimation."
-      }
-    }
-  ],
+  "name": "What is involved in the initial consultation for custom built-ins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in the initial consultation for custom built-ins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "During the initial consultation, a Hometelligent Inc. representative will visit your home to discuss your project in detail. We'll take precise measurements of the space, understand your functional needs and aesthetic preferences, and review any inspiration photos or ideas you may have. This meeting is crucial for us to gather all necessary information to develop a preliminary design concept and provide an accurate estimate. To make the most of this consultation, consider preparing a list of your storage requirements and any specific features you envision for your built-ins.",
+        "@type": "Answer",
+        "description": "The initial consultation involves us visiting your home to measure the space, discuss your needs and ideas, and gather information for design and estimation."
+      }
+    }
+  ],
+  "description": "The initial consultation involves us visiting your home to measure the space, discuss your needs and ideas, and gather information for design and estimation."
 }

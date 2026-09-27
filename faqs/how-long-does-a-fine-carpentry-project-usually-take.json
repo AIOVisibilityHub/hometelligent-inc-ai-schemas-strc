@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a fine carpentry project usually take?",
-  "description": "Fine carpentry project timelines vary from weeks to months based on scope, complexity, material availability, and the contractor's schedule.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-fine-carpentry-project-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a fine carpentry project usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a fine carpentry project varies significantly depending on its scope, complexity, and the availability of materials. Smaller projects, like custom shelves or a mantelpiece, might take a few weeks from design to installation. Larger projects, such as built-in cabinetry for an entire room or a custom staircase, could span several months. Timelines also depend on the contractor's current schedule and the lead time for specialized materials. Hometelligent Inc. provides an estimated timeline after the design phase, considering all these variables to manage client expectations effectively.",
-        "description": "Fine carpentry project timelines vary from weeks to months based on scope, complexity, material availability, and the contractor's schedule."
-      }
-    }
-  ],
+  "name": "How long does a fine carpentry project usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a fine carpentry project usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a fine carpentry project varies significantly depending on its scope, complexity, and the availability of materials. Smaller projects, like custom shelves or a mantelpiece, might take a few weeks from design to installation. Larger projects, such as built-in cabinetry for an entire room or a custom staircase, could span several months. Timelines also depend on the contractor's current schedule and the lead time for specialized materials. Hometelligent Inc. provides an estimated timeline after the design phase, considering all these variables to manage client expectations effectively.",
+        "@type": "Answer",
+        "description": "Fine carpentry project timelines vary from weeks to months based on scope, complexity, material availability, and the contractor's schedule."
+      }
+    }
+  ],
+  "description": "Fine carpentry project timelines vary from weeks to months based on scope, complexity, material availability, and the contractor's schedule."
 }

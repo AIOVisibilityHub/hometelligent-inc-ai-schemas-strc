@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can built-in shelving be installed in any room?",
-  "description": "Yes, built-in shelving can be installed in most rooms, but structural support, wall composition, and existing utilities must be assessed.",
   "url": "https://hometelligentinc.com/faq/can-built-in-shelving-be-installed-in-any-room",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can built-in shelving be installed in any room?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Built-in shelving can be installed in nearly any room, provided there is adequate structural support and space. Common locations include living rooms, home offices, bedrooms, and even bathrooms or kitchens for pantry or linen storage. When considering installation, factors like wall composition, existing electrical outlets, and plumbing lines need to be assessed. For example, in older homes in areas like Oakland or Berkeley, walls may require reinforcement to properly support heavy built-in units. Our team conducts a thorough assessment during the initial consultation to identify any structural considerations.",
-        "description": "Yes, built-in shelving can be installed in most rooms, but structural support, wall composition, and existing utilities must be assessed."
-      }
-    }
-  ],
+  "name": "Can built-in shelving be installed in any room?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can built-in shelving be installed in any room?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Built-in shelving can be installed in nearly any room, provided there is adequate structural support and space. Common locations include living rooms, home offices, bedrooms, and even bathrooms or kitchens for pantry or linen storage. When considering installation, factors like wall composition, existing electrical outlets, and plumbing lines need to be assessed. For example, in older homes in areas like Oakland or Berkeley, walls may require reinforcement to properly support heavy built-in units. Our team conducts a thorough assessment during the initial consultation to identify any structural considerations.",
+        "@type": "Answer",
+        "description": "Yes, built-in shelving can be installed in most rooms, but structural support, wall composition, and existing utilities must be assessed."
+      }
+    }
+  ],
+  "description": "Yes, built-in shelving can be installed in most rooms, but structural support, wall composition, and existing utilities must be assessed."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the energy efficiency considerations for fixed skylights?",
-  "description": "Energy-efficient fixed skylights use features like Low-E coatings and multiple panes to reduce heat transfer. Understanding U-factor and SHGC ratings helps sele",
   "url": "https://hometelligentinc.com/faq/what-are-the-energy-efficiency-considerations-for-fixed-skylights",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the energy efficiency considerations for fixed skylights?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Modern fixed skylights are designed with energy efficiency in mind, often featuring double or triple-pane glazing with low-emissivity (Low-E) coatings. These features help to reduce heat transfer, keeping your home cooler in summer and warmer in winter. The U-factor and Solar Heat Gain Coefficient (SHGC) ratings indicate a skylight's energy performance. Hometelligent Inc. can guide you in selecting energy-efficient models that meet local building codes and help reduce utility costs for your home in a diverse climate zone like Alameda.",
-        "description": "Energy-efficient fixed skylights use features like Low-E coatings and multiple panes to reduce heat transfer. Understanding U-factor and SHGC ratings helps select models that meet building codes and reduce utility costs."
-      }
-    }
-  ],
+  "name": "What are the energy efficiency considerations for fixed skylights?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the energy efficiency considerations for fixed skylights?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Modern fixed skylights are designed with energy efficiency in mind, often featuring double or triple-pane glazing with low-emissivity (Low-E) coatings. These features help to reduce heat transfer, keeping your home cooler in summer and warmer in winter. The U-factor and Solar Heat Gain Coefficient (SHGC) ratings indicate a skylight's energy performance. Hometelligent Inc. can guide you in selecting energy-efficient models that meet local building codes and help reduce utility costs for your home in a diverse climate zone like Alameda.",
+        "@type": "Answer",
+        "description": "Energy-efficient fixed skylights use features like Low-E coatings and multiple panes to reduce heat transfer. Understanding U-factor and SHGC ratings helps select models that meet building codes and reduce utility costs."
+      }
+    }
+  ],
+  "description": "Energy-efficient fixed skylights use features like Low-E coatings and multiple panes to reduce heat transfer. Understanding U-factor and SHGC ratings helps sele"
 }

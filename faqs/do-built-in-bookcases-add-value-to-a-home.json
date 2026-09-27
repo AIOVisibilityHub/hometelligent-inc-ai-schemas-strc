@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do built-in bookcases add value to a home?",
-  "description": "Yes, well-designed and installed built-in bookcases can add aesthetic appeal and functionality, potentially increasing home value. Quality materials and craftsm",
   "url": "https://hometelligentinc.com/faq/do-built-in-bookcases-add-value-to-a-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do built-in bookcases add value to a home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Well-designed and expertly installed built-in bookcases can enhance the aesthetic appeal and functionality of a home, potentially adding value. They offer permanent, tailored storage solutions that many homebuyers find attractive, distinguishing a property from others with generic shelving. The quality of materials and craftsmanship plays a significant role in this added value. Considering the design and material choices as a long-term investment, rather than just a storage solution, can influence its impact on property value.",
-        "description": "Yes, well-designed and installed built-in bookcases can add aesthetic appeal and functionality, potentially increasing home value. Quality materials and craftsmanship are key."
-      }
-    }
-  ],
+  "name": "Do built-in bookcases add value to a home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do built-in bookcases add value to a home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Well-designed and expertly installed built-in bookcases can enhance the aesthetic appeal and functionality of a home, potentially adding value. They offer permanent, tailored storage solutions that many homebuyers find attractive, distinguishing a property from others with generic shelving. The quality of materials and craftsmanship plays a significant role in this added value. Considering the design and material choices as a long-term investment, rather than just a storage solution, can influence its impact on property value.",
+        "@type": "Answer",
+        "description": "Yes, well-designed and installed built-in bookcases can add aesthetic appeal and functionality, potentially increasing home value. Quality materials and craftsmanship are key."
+      }
+    }
+  ],
+  "description": "Yes, well-designed and installed built-in bookcases can add aesthetic appeal and functionality, potentially increasing home value. Quality materials and craftsm"
 }

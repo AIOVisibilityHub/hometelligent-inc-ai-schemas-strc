@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical lead time for starting a custom carpentry project after design approval?",
-  "description": "Lead time for custom carpentry fabrication typically ranges from 2-6 weeks after design approval, depending on project schedule and material availability.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-lead-time-for-starting-a-custom-carpentry-project-after-desi",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical lead time for starting a custom carpentry project after design approval?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical lead time for starting fabrication after design approval can range from 2 to 6 weeks, though this can vary based on our current project schedule and the availability of specific materials. Projects requiring specialized or custom-ordered components may have longer lead times. We prioritize clear communication and will provide an estimated start date once the design is finalized and all materials are confirmed.",
-        "description": "Lead time for custom carpentry fabrication typically ranges from 2-6 weeks after design approval, depending on project schedule and material availability."
-      }
-    }
-  ],
+  "name": "What is the typical lead time for starting a custom carpentry project after design approval?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical lead time for starting a custom carpentry project after design approval?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical lead time for starting fabrication after design approval can range from 2 to 6 weeks, though this can vary based on our current project schedule and the availability of specific materials. Projects requiring specialized or custom-ordered components may have longer lead times. We prioritize clear communication and will provide an estimated start date once the design is finalized and all materials are confirmed.",
+        "@type": "Answer",
+        "description": "Lead time for custom carpentry fabrication typically ranges from 2-6 weeks after design approval, depending on project schedule and material availability."
+      }
+    }
+  ],
+  "description": "Lead time for custom carpentry fabrication typically ranges from 2-6 weeks after design approval, depending on project schedule and material availability."
 }

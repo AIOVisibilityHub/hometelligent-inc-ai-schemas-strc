@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the installation process for energy-efficient windows?",
-  "description": "The process involves consultation, measurement, ordering, removal of old windows, precise installation and sealing of new units, and finishing work.",
   "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-energy-efficient-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the installation process for energy-efficient windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process typically begins with an initial consultation and measurement, followed by ordering custom-sized windows. Once windows arrive, our team prepares the existing openings by carefully removing old windows and frames. New, energy-efficient units are then installed, plumbed, leveled, and sealed to ensure optimal performance and weather resistance. The final steps include interior and exterior finishing work. Throughout projects in communities like Castro Valley or Livermore, we conduct thorough quality checks to ensure precise installation.",
-        "description": "The process involves consultation, measurement, ordering, removal of old windows, precise installation and sealing of new units, and finishing work."
-      }
-    }
-  ],
+  "name": "What is the installation process for energy-efficient windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the installation process for energy-efficient windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process typically begins with an initial consultation and measurement, followed by ordering custom-sized windows. Once windows arrive, our team prepares the existing openings by carefully removing old windows and frames. New, energy-efficient units are then installed, plumbed, leveled, and sealed to ensure optimal performance and weather resistance. The final steps include interior and exterior finishing work. Throughout projects in communities like Castro Valley or Livermore, we conduct thorough quality checks to ensure precise installation.",
+        "@type": "Answer",
+        "description": "The process involves consultation, measurement, ordering, removal of old windows, precise installation and sealing of new units, and finishing work."
+      }
+    }
+  ],
+  "description": "The process involves consultation, measurement, ordering, removal of old windows, precise installation and sealing of new units, and finishing work."
 }

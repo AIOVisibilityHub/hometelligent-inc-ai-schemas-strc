@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right glass partition system for my office?",
-  "description": "Evaluate privacy, sound, aesthetics, and budget. Define functional and aesthetic needs before consulting with Hometelligent Inc. to choose the right system.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-glass-partition-system-for-my-office",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right glass partition system for my office?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right glass partition system involves evaluating your specific needs for privacy, sound insulation, aesthetics, and budget. Consider whether you need full transparency, frosted or tinted glass for privacy, or acoustic glass for noise reduction. Also, think about the traffic flow and if sliding or hinged doors are more appropriate. Preparing by clearly defining these functional and aesthetic requirements before contacting Hometelligent Inc. will streamline the selection process and ensure the final installation meets your expectations.",
-        "description": "Evaluate privacy, sound, aesthetics, and budget. Define functional and aesthetic needs before consulting with Hometelligent Inc. to choose the right system."
-      }
-    }
-  ],
+  "name": "How do I choose the right glass partition system for my office?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right glass partition system for my office?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right glass partition system involves evaluating your specific needs for privacy, sound insulation, aesthetics, and budget. Consider whether you need full transparency, frosted or tinted glass for privacy, or acoustic glass for noise reduction. Also, think about the traffic flow and if sliding or hinged doors are more appropriate. Preparing by clearly defining these functional and aesthetic requirements before contacting Hometelligent Inc. will streamline the selection process and ensure the final installation meets your expectations.",
+        "@type": "Answer",
+        "description": "Evaluate privacy, sound, aesthetics, and budget. Define functional and aesthetic needs before consulting with Hometelligent Inc. to choose the right system."
+      }
+    }
+  ],
+  "description": "Evaluate privacy, sound, aesthetics, and budget. Define functional and aesthetic needs before consulting with Hometelligent Inc. to choose the right system."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors affect the cost of glass wall installation?",
-  "description": "Cost factors include glass type and thickness, design complexity, hardware, size, and custom finishes. Structural modifications to the space can also affect the",
   "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-glass-wall-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors affect the cost of glass wall installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of glass wall installation is influenced by several factors, including the type of glass (e.g., tempered, laminated, low-iron), the thickness of the glass, the complexity of the design, and the hardware chosen (e.g., frameless, semi-frameless, fully framed systems, door types). The size and number of panels also play a significant role. Custom finishes, privacy treatments like frosting, and the need for structural modifications to the existing space can further impact the final price. Understanding these variables helps clients make informed decisions about their budget and design preferences.",
-        "description": "Cost factors include glass type and thickness, design complexity, hardware, size, and custom finishes. Structural modifications to the space can also affect the final price."
-      }
-    }
-  ],
+  "name": "What factors affect the cost of glass wall installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors affect the cost of glass wall installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of glass wall installation is influenced by several factors, including the type of glass (e.g., tempered, laminated, low-iron), the thickness of the glass, the complexity of the design, and the hardware chosen (e.g., frameless, semi-frameless, fully framed systems, door types). The size and number of panels also play a significant role. Custom finishes, privacy treatments like frosting, and the need for structural modifications to the existing space can further impact the final price. Understanding these variables helps clients make informed decisions about their budget and design preferences.",
+        "@type": "Answer",
+        "description": "Cost factors include glass type and thickness, design complexity, hardware, size, and custom finishes. Structural modifications to the space can also affect the final price."
+      }
+    }
+  ],
+  "description": "Cost factors include glass type and thickness, design complexity, hardware, size, and custom finishes. Structural modifications to the space can also affect the"
 }

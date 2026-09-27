@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do operable skylights require specific maintenance?",
-  "description": "Regular maintenance for operable skylights includes cleaning glass, checking seals, lubricating moving parts, and inspecting flashing for longevity.",
   "url": "https://hometelligentinc.com/faq/do-operable-skylights-require-specific-maintenance",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do operable skylights require specific maintenance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Operable skylights benefit from periodic maintenance to ensure proper function and longevity. This typically involves cleaning the glass, checking the seals for any signs of wear, and lubricating moving parts if it's a manual or electric model. Inspecting the flashing around the skylight for any damage is also crucial for preventing leaks, especially after severe weather. We recommend a visual inspection at least twice a year and addressing any issues promptly to maintain optimal performance.",
-        "description": "Regular maintenance for operable skylights includes cleaning glass, checking seals, lubricating moving parts, and inspecting flashing for longevity."
-      }
-    }
-  ],
+  "name": "Do operable skylights require specific maintenance?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do operable skylights require specific maintenance?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Operable skylights benefit from periodic maintenance to ensure proper function and longevity. This typically involves cleaning the glass, checking the seals for any signs of wear, and lubricating moving parts if it's a manual or electric model. Inspecting the flashing around the skylight for any damage is also crucial for preventing leaks, especially after severe weather. We recommend a visual inspection at least twice a year and addressing any issues promptly to maintain optimal performance.",
+        "@type": "Answer",
+        "description": "Regular maintenance for operable skylights includes cleaning glass, checking seals, lubricating moving parts, and inspecting flashing for longevity."
+      }
+    }
+  ],
+  "description": "Regular maintenance for operable skylights includes cleaning glass, checking seals, lubricating moving parts, and inspecting flashing for longevity."
 }

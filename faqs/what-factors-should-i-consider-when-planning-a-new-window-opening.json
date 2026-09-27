@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when planning a new window opening?",
-  "description": "Consider room function, light, ventilation, privacy, exterior aesthetics, sun exposure, and local zoning restrictions when planning a new window opening.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-planning-a-new-window-opening",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when planning a new window opening?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When planning a new window opening, consider the room's function, desired natural light and ventilation, privacy needs, and exterior aesthetics. Think about the direction the window will face for sun exposure and energy efficiency, and how it will impact the overall design of your home. Preparation includes visualizing the new opening's placement and size, considering furniture layouts, and understanding local zoning restrictions regarding window placement and setbacks, which can be particularly relevant in denser areas like Lake Merritt.",
-        "description": "Consider room function, light, ventilation, privacy, exterior aesthetics, sun exposure, and local zoning restrictions when planning a new window opening."
-      }
-    }
-  ],
+  "name": "What factors should I consider when planning a new window opening?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when planning a new window opening?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When planning a new window opening, consider the room's function, desired natural light and ventilation, privacy needs, and exterior aesthetics. Think about the direction the window will face for sun exposure and energy efficiency, and how it will impact the overall design of your home. Preparation includes visualizing the new opening's placement and size, considering furniture layouts, and understanding local zoning restrictions regarding window placement and setbacks, which can be particularly relevant in denser areas like Lake Merritt.",
+        "@type": "Answer",
+        "description": "Consider room function, light, ventilation, privacy, exterior aesthetics, sun exposure, and local zoning restrictions when planning a new window opening."
+      }
+    }
+  ],
+  "description": "Consider room function, light, ventilation, privacy, exterior aesthetics, sun exposure, and local zoning restrictions when planning a new window opening."
 }

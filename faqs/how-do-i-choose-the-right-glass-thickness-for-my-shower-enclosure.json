@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right glass thickness for my shower enclosure?",
-  "description": "Glass thickness depends on the enclosure type; frameless needs thicker glass (3/8\"-1/2\"), while framed can use thinner (1/4\"). Thicker glass offers more stabili",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-glass-thickness-for-my-shower-enclosure",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right glass thickness for my shower enclosure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right glass thickness depends on the type of enclosure and desired stability. Frameless shower doors typically require thicker glass, such as 3/8-inch or 1/2-inch, to ensure structural integrity without a frame. Framed and semi-frameless enclosures can use thinner glass, like 1/4-inch, as the frame provides support. A thicker glass provides a more luxurious feel and superior sound dampening. Hometelligent can guide you through these options, ensuring your choice meets safety standards and your aesthetic preferences.",
-        "description": "Glass thickness depends on the enclosure type; frameless needs thicker glass (3/8\"-1/2\"), while framed can use thinner (1/4\"). Thicker glass offers more stability and a luxurious feel."
-      }
-    }
-  ],
+  "name": "How do I choose the right glass thickness for my shower enclosure?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right glass thickness for my shower enclosure?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right glass thickness depends on the type of enclosure and desired stability. Frameless shower doors typically require thicker glass, such as 3/8-inch or 1/2-inch, to ensure structural integrity without a frame. Framed and semi-frameless enclosures can use thinner glass, like 1/4-inch, as the frame provides support. A thicker glass provides a more luxurious feel and superior sound dampening. Hometelligent can guide you through these options, ensuring your choice meets safety standards and your aesthetic preferences.",
+        "@type": "Answer",
+        "description": "Glass thickness depends on the enclosure type; frameless needs thicker glass (3/8\"-1/2\"), while framed can use thinner (1/4\"). Thicker glass offers more stability and a luxurious feel."
+      }
+    }
+  ],
+  "description": "Glass thickness depends on the enclosure type; frameless needs thicker glass (3/8\"-1/2\"), while framed can use thinner (1/4\"). Thicker glass offers more stabili"
 }

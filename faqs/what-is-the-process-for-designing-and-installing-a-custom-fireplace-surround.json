@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing and installing a custom fireplace surround?",
-  "description": "The process involves consultation, design, material sourcing, fabrication, and installation, with continuous communication. You'll receive progress updates thro",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-and-installing-a-custom-fireplace-surround",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing and installing a custom fireplace surround?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process begins with an initial consultation to discuss your vision, budget, and material preferences. Next, our designers create detailed renderings or sketches for your approval. Once the design is finalized, materials are sourced, and any necessary fabrication is completed off-site. Installation then proceeds, often involving site preparation, assembly, and finishing touches. Throughout the project, we ensure clear communication and adherence to timelines. Regular updates are provided to keep you informed of progress.",
-        "description": "The process involves consultation, design, material sourcing, fabrication, and installation, with continuous communication. You'll receive progress updates throughout the project."
-      }
-    }
-  ],
+  "name": "What is the process for designing and installing a custom fireplace surround?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing and installing a custom fireplace surround?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process begins with an initial consultation to discuss your vision, budget, and material preferences. Next, our designers create detailed renderings or sketches for your approval. Once the design is finalized, materials are sourced, and any necessary fabrication is completed off-site. Installation then proceeds, often involving site preparation, assembly, and finishing touches. Throughout the project, we ensure clear communication and adherence to timelines. Regular updates are provided to keep you informed of progress.",
+        "@type": "Answer",
+        "description": "The process involves consultation, design, material sourcing, fabrication, and installation, with continuous communication. You'll receive progress updates throughout the project."
+      }
+    }
+  ],
+  "description": "The process involves consultation, design, material sourcing, fabrication, and installation, with continuous communication. You'll receive progress updates thro"
 }

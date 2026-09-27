@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing custom carpentry with Hometelligent Inc.?",
-  "description": "Our design process involves an initial consultation, conceptual drawings with material recommendations, client feedback, revisions, and final approval before fa",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-custom-carpentry-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing custom carpentry with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The design process with Hometelligent Inc. begins with an initial consultation to discuss your vision, needs, and budget. Our team then develops conceptual drawings and material recommendations. We will present these to you for feedback, making revisions until the design fully aligns with your expectations. Final approval of the design and materials is required before fabrication begins, ensuring transparency and client satisfaction throughout.",
-        "description": "Our design process involves an initial consultation, conceptual drawings with material recommendations, client feedback, revisions, and final approval before fabrication."
-      }
-    }
-  ],
+  "name": "What is the process for designing custom carpentry with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing custom carpentry with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The design process with Hometelligent Inc. begins with an initial consultation to discuss your vision, needs, and budget. Our team then develops conceptual drawings and material recommendations. We will present these to you for feedback, making revisions until the design fully aligns with your expectations. Final approval of the design and materials is required before fabrication begins, ensuring transparency and client satisfaction throughout.",
+        "@type": "Answer",
+        "description": "Our design process involves an initial consultation, conceptual drawings with material recommendations, client feedback, revisions, and final approval before fabrication."
+      }
+    }
+  ],
+  "description": "Our design process involves an initial consultation, conceptual drawings with material recommendations, client feedback, revisions, and final approval before fa"
 }

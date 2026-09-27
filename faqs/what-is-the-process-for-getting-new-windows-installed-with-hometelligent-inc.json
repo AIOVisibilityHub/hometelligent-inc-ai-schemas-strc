@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for getting new windows installed with Hometelligent Inc.?",
-  "description": "The process involves consultation, on-site measurement, quote, custom window order, installation, and a final walkthrough. Prepare by having a clear budget and",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-getting-new-windows-installed-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for getting new windows installed with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for new window installation with Hometelligent Inc. typically begins with a consultation to discuss your needs and preferences, followed by an on-site measurement and detailed quote. Once you approve the quote, we order the custom windows. Upon arrival, our certified team schedules and performs the installation, ensuring proper sealing and insulation. Finally, we conduct a walkthrough to ensure your satisfaction. To prepare, ensure you have a clear idea of your budget and any specific aesthetic or performance goals. This preparation helps us streamline the process for your project.",
-        "description": "The process involves consultation, on-site measurement, quote, custom window order, installation, and a final walkthrough. Prepare by having a clear budget and specific goals in mind."
-      }
-    }
-  ],
+  "name": "What is the process for getting new windows installed with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for getting new windows installed with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for new window installation with Hometelligent Inc. typically begins with a consultation to discuss your needs and preferences, followed by an on-site measurement and detailed quote. Once you approve the quote, we order the custom windows. Upon arrival, our certified team schedules and performs the installation, ensuring proper sealing and insulation. Finally, we conduct a walkthrough to ensure your satisfaction. To prepare, ensure you have a clear idea of your budget and any specific aesthetic or performance goals. This preparation helps us streamline the process for your project.",
+        "@type": "Answer",
+        "description": "The process involves consultation, on-site measurement, quote, custom window order, installation, and a final walkthrough. Prepare by having a clear budget and specific goals in mind."
+      }
+    }
+  ],
+  "description": "The process involves consultation, on-site measurement, quote, custom window order, installation, and a final walkthrough. Prepare by having a clear budget and"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for getting a quote for built-in bookcases from Hometelligent Inc.?",
-  "description": "Contact Hometelligent Inc. for an initial consultation to discuss your vision and take measurements. We then provide a detailed proposal and quote.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-getting-a-quote-for-built-in-bookcases-from-hometelligen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for getting a quote for built-in bookcases from Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To get a quote for built-in bookcases from Hometelligent Inc., you can start by contacting us via phone or our website to schedule an initial consultation. During this meeting, we'll discuss your vision, take measurements of your space, and explore design options and material preferences. Following this, we will prepare a detailed proposal outlining the design, materials, timeline, and estimated cost. The clarity of your initial ideas and any inspiration you provide can help streamline the consultation and quote process.",
-        "description": "Contact Hometelligent Inc. for an initial consultation to discuss your vision and take measurements. We then provide a detailed proposal and quote."
-      }
-    }
-  ],
+  "name": "What is the process for getting a quote for built-in bookcases from Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for getting a quote for built-in bookcases from Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To get a quote for built-in bookcases from Hometelligent Inc., you can start by contacting us via phone or our website to schedule an initial consultation. During this meeting, we'll discuss your vision, take measurements of your space, and explore design options and material preferences. Following this, we will prepare a detailed proposal outlining the design, materials, timeline, and estimated cost. The clarity of your initial ideas and any inspiration you provide can help streamline the consultation and quote process.",
+        "@type": "Answer",
+        "description": "Contact Hometelligent Inc. for an initial consultation to discuss your vision and take measurements. We then provide a detailed proposal and quote."
+      }
+    }
+  ],
+  "description": "Contact Hometelligent Inc. for an initial consultation to discuss your vision and take measurements. We then provide a detailed proposal and quote."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing glass for high-traffic areas?",
-  "description": "For high-traffic areas, prioritize safety and durability; tempered or laminated glass is recommended. This decision factor balances aesthetics with impact resis",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-glass-for-high-traffic-areas",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing glass for high-traffic areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing glass for high-traffic areas, such as commercial storefronts or busy home entryways, safety and durability are primary concerns. Tempered or laminated glass is often recommended due to its enhanced strength and safety characteristics; tempered glass shatters into small, blunt pieces, while laminated glass holds together when broken. This decision is a crucial decision factor, balancing aesthetic appeal with the need for impact resistance and public safety. Consider the specific use case and local building codes for installations in high-traffic zones within areas like Downtown Oakland or Emeryville.",
-        "description": "For high-traffic areas, prioritize safety and durability; tempered or laminated glass is recommended. This decision factor balances aesthetics with impact resistance and safety, considering local building codes."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing glass for high-traffic areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing glass for high-traffic areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing glass for high-traffic areas, such as commercial storefronts or busy home entryways, safety and durability are primary concerns. Tempered or laminated glass is often recommended due to its enhanced strength and safety characteristics; tempered glass shatters into small, blunt pieces, while laminated glass holds together when broken. This decision is a crucial decision factor, balancing aesthetic appeal with the need for impact resistance and public safety. Consider the specific use case and local building codes for installations in high-traffic zones within areas like Downtown Oakland or Emeryville.",
+        "@type": "Answer",
+        "description": "For high-traffic areas, prioritize safety and durability; tempered or laminated glass is recommended. This decision factor balances aesthetics with impact resistance and safety, considering local building codes."
+      }
+    }
+  ],
+  "description": "For high-traffic areas, prioritize safety and durability; tempered or laminated glass is recommended. This decision factor balances aesthetics with impact resis"
 }

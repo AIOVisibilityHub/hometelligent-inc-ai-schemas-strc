@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of mess or disruption should I expect during window enlargement?",
-  "description": "Expect dust, debris, and noise during demolition. We minimize disruption by sealing work areas and protecting surfaces.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-mess-or-disruption-should-i-expect-during-window-enlargement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of mess or disruption should I expect during window enlargement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Window enlargement projects generate dust, debris, and some noise due to demolition and construction. We take measures to minimize disruption by sealing off work areas, protecting surrounding surfaces, and performing regular cleanup. We also coordinate with you to manage utility shut-offs (e.g., electricity for safety) and ensure necessary access for our crew, aiming to keep your daily routine as undisrupted as possible.",
-        "description": "Expect dust, debris, and noise during demolition. We minimize disruption by sealing work areas and protecting surfaces."
-      }
-    }
-  ],
+  "name": "What kind of mess or disruption should I expect during window enlargement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of mess or disruption should I expect during window enlargement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Window enlargement projects generate dust, debris, and some noise due to demolition and construction. We take measures to minimize disruption by sealing off work areas, protecting surrounding surfaces, and performing regular cleanup. We also coordinate with you to manage utility shut-offs (e.g., electricity for safety) and ensure necessary access for our crew, aiming to keep your daily routine as undisrupted as possible.",
+        "@type": "Answer",
+        "description": "Expect dust, debris, and noise during demolition. We minimize disruption by sealing work areas and protecting surfaces."
+      }
+    }
+  ],
+  "description": "Expect dust, debris, and noise during demolition. We minimize disruption by sealing work areas and protecting surfaces."
 }

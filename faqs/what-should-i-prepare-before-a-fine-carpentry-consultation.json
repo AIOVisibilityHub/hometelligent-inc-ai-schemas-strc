@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before a fine carpentry consultation?",
-  "description": "Before a consultation, prepare inspiration, functional needs, aesthetic preferences, budget, and details about the installation space to help guide the design.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-a-fine-carpentry-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before a fine carpentry consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before a fine carpentry consultation, it's helpful to gather any inspiration photos, sketches, or ideas you have for your project. Consider the functionality you need, your aesthetic preferences, and your estimated budget. Also, think about the specific space where the carpentry will be installed, including measurements if possible, and how it interacts with other elements in the room. Hometelligent Inc. encourages clients to come prepared with their vision and any practical constraints, as this helps our team understand your needs and provide the most accurate recommendations and design proposals.",
-        "description": "Before a consultation, prepare inspiration, functional needs, aesthetic preferences, budget, and details about the installation space to help guide the design."
-      }
-    }
-  ],
+  "name": "What should I prepare before a fine carpentry consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before a fine carpentry consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before a fine carpentry consultation, it's helpful to gather any inspiration photos, sketches, or ideas you have for your project. Consider the functionality you need, your aesthetic preferences, and your estimated budget. Also, think about the specific space where the carpentry will be installed, including measurements if possible, and how it interacts with other elements in the room. Hometelligent Inc. encourages clients to come prepared with their vision and any practical constraints, as this helps our team understand your needs and provide the most accurate recommendations and design proposals.",
+        "@type": "Answer",
+        "description": "Before a consultation, prepare inspiration, functional needs, aesthetic preferences, budget, and details about the installation space to help guide the design."
+      }
+    }
+  ],
+  "description": "Before a consultation, prepare inspiration, functional needs, aesthetic preferences, budget, and details about the installation space to help guide the design."
 }

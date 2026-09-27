@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for patio door glass replacement?",
-  "description": "The process includes assessment, measuring, ordering, removal of old glass, installation of new glass, and sealing.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-patio-door-glass-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for patio door glass replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process generally involves an initial assessment and measurement of the damaged glass, followed by ordering the new glass unit. Once the new glass arrives, our team carefully removes the old glass, cleans the frame, installs the new unit, and ensures it's properly sealed. This process is designed to minimize disruption and ensure a weather-tight seal for your home.",
-        "description": "The process includes assessment, measuring, ordering, removal of old glass, installation of new glass, and sealing."
-      }
-    }
-  ],
+  "name": "What is the process for patio door glass replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for patio door glass replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process generally involves an initial assessment and measurement of the damaged glass, followed by ordering the new glass unit. Once the new glass arrives, our team carefully removes the old glass, cleans the frame, installs the new unit, and ensures it's properly sealed. This process is designed to minimize disruption and ensure a weather-tight seal for your home.",
+        "@type": "Answer",
+        "description": "The process includes assessment, measuring, ordering, removal of old glass, installation of new glass, and sealing."
+      }
+    }
+  ],
+  "description": "The process includes assessment, measuring, ordering, removal of old glass, installation of new glass, and sealing."
 }

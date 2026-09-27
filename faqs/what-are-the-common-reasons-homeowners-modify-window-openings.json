@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common reasons homeowners modify window openings?",
-  "description": "Common reasons include improving light, ventilation, aesthetics, or energy efficiency, or creating new access points to outdoor areas.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-reasons-homeowners-modify-window-openings",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common reasons homeowners modify window openings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Homeowners often modify window openings to improve natural light, enhance ventilation, change the aesthetic appeal of their home, or improve energy efficiency by installing larger or more modern windows. Some modifications, such as converting a window to a door, are done to create new access points to outdoor living spaces. Others may be part of a larger renovation to update a home's design or improve functionality. A key decision factor is balancing the desired outcome with the structural feasibility and cost implications.",
-        "description": "Common reasons include improving light, ventilation, aesthetics, or energy efficiency, or creating new access points to outdoor areas."
-      }
-    }
-  ],
+  "name": "What are the common reasons homeowners modify window openings?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common reasons homeowners modify window openings?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Homeowners often modify window openings to improve natural light, enhance ventilation, change the aesthetic appeal of their home, or improve energy efficiency by installing larger or more modern windows. Some modifications, such as converting a window to a door, are done to create new access points to outdoor living spaces. Others may be part of a larger renovation to update a home's design or improve functionality. A key decision factor is balancing the desired outcome with the structural feasibility and cost implications.",
+        "@type": "Answer",
+        "description": "Common reasons include improving light, ventilation, aesthetics, or energy efficiency, or creating new access points to outdoor areas."
+      }
+    }
+  ],
+  "description": "Common reasons include improving light, ventilation, aesthetics, or energy efficiency, or creating new access points to outdoor areas."
 }

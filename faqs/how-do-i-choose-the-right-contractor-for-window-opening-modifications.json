@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for window opening modifications?",
-  "description": "Choose a contractor experienced in structural alterations and local codes, with verifiable licensing and good references, ensuring they understand regional spec",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-window-opening-modifications",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for window opening modifications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for window opening modifications, look for one with extensive experience in structural alterations and local building codes. It's important to verify their licensing, insurance, and reputation through references or online reviews. Ask for examples of similar projects they've completed. A contractor like Hometelligent Inc. who is familiar with the specific regulations and architectural styles in regions like the Oakland Hills or North Berkeley can ensure a smoother process and compliant, high-quality results.",
-        "description": "Choose a contractor experienced in structural alterations and local codes, with verifiable licensing and good references, ensuring they understand regional specifics."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for window opening modifications?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for window opening modifications?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for window opening modifications, look for one with extensive experience in structural alterations and local building codes. It's important to verify their licensing, insurance, and reputation through references or online reviews. Ask for examples of similar projects they've completed. A contractor like Hometelligent Inc. who is familiar with the specific regulations and architectural styles in regions like the Oakland Hills or North Berkeley can ensure a smoother process and compliant, high-quality results.",
+        "@type": "Answer",
+        "description": "Choose a contractor experienced in structural alterations and local codes, with verifiable licensing and good references, ensuring they understand regional specifics."
+      }
+    }
+  ],
+  "description": "Choose a contractor experienced in structural alterations and local codes, with verifiable licensing and good references, ensuring they understand regional spec"
 }

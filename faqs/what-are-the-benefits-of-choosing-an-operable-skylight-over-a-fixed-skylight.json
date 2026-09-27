@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of choosing an operable skylight over a fixed skylight?",
-  "description": "Operable skylights provide ventilation in addition to natural light, improving air circulation, temperature control, and humidity reduction, unlike fixed skylig",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-choosing-an-operable-skylight-over-a-fixed-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of choosing an operable skylight over a fixed skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opting for an operable skylight offers distinct advantages over a fixed unit, primarily providing ventilation in addition to natural light. This allows for improved air circulation, which can help manage indoor temperatures, reduce humidity, and remove stale air or odors. The ability to open the skylight provides practical control over your home's environment, enhancing comfort and energy efficiency by minimizing reliance on air conditioning. Consider your primary goals – whether purely aesthetic light or also functional ventilation – when making this decision.",
-        "description": "Operable skylights provide ventilation in addition to natural light, improving air circulation, temperature control, and humidity reduction, unlike fixed skylights."
-      }
-    }
-  ],
+  "name": "What are the benefits of choosing an operable skylight over a fixed skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of choosing an operable skylight over a fixed skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Opting for an operable skylight offers distinct advantages over a fixed unit, primarily providing ventilation in addition to natural light. This allows for improved air circulation, which can help manage indoor temperatures, reduce humidity, and remove stale air or odors. The ability to open the skylight provides practical control over your home's environment, enhancing comfort and energy efficiency by minimizing reliance on air conditioning. Consider your primary goals – whether purely aesthetic light or also functional ventilation – when making this decision.",
+        "@type": "Answer",
+        "description": "Operable skylights provide ventilation in addition to natural light, improving air circulation, temperature control, and humidity reduction, unlike fixed skylights."
+      }
+    }
+  ],
+  "description": "Operable skylights provide ventilation in addition to natural light, improving air circulation, temperature control, and humidity reduction, unlike fixed skylig"
 }

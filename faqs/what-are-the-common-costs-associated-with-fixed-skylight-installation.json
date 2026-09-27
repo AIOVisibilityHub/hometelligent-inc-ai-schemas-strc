@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common costs associated with fixed skylight installation?",
-  "description": "Fixed skylight installation costs depend on the skylight's size, material, brand, and roof complexity, including labor and finishing. Fixed units are generally",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-costs-associated-with-fixed-skylight-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common costs associated with fixed skylight installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of fixed skylight installation varies based on the skylight's size, material (e.g., acrylic, glass), brand, and the complexity of your roof. Installation labor, flashing kits, and interior finishing materials also contribute to the overall price. Generally, fixed skylights are less expensive than their vented counterparts. Hometelligent Inc. provides detailed estimates after an on-site evaluation in areas such as Hayward or Livermore, ensuring transparency and no hidden fees based on your specific project needs.",
-        "description": "Fixed skylight installation costs depend on the skylight's size, material, brand, and roof complexity, including labor and finishing. Fixed units are generally more affordable than vented options."
-      }
-    }
-  ],
+  "name": "What are the common costs associated with fixed skylight installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common costs associated with fixed skylight installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of fixed skylight installation varies based on the skylight's size, material (e.g., acrylic, glass), brand, and the complexity of your roof. Installation labor, flashing kits, and interior finishing materials also contribute to the overall price. Generally, fixed skylights are less expensive than their vented counterparts. Hometelligent Inc. provides detailed estimates after an on-site evaluation in areas such as Hayward or Livermore, ensuring transparency and no hidden fees based on your specific project needs.",
+        "@type": "Answer",
+        "description": "Fixed skylight installation costs depend on the skylight's size, material, brand, and roof complexity, including labor and finishing. Fixed units are generally more affordable than vented options."
+      }
+    }
+  ],
+  "description": "Fixed skylight installation costs depend on the skylight's size, material, brand, and roof complexity, including labor and finishing. Fixed units are generally"
 }

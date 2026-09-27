@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing a tubular skylight?",
-  "description": "Tubular skylights bring natural daylight into windowless rooms, offering energy savings and improved indoor comfort.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-a-tubular-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing a tubular skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tubular skylights, also known as sun tunnels or solar tubes, bring natural daylight into interior spaces that lack windows, reducing the need for artificial lighting during the day. Benefits include energy savings, improved indoor comfort, and a brighter aesthetic. When considering installation, factors like the room's orientation, ceiling type, and potential obstructions in the attic can influence the optimal placement and light delivery.",
-        "description": "Tubular skylights bring natural daylight into windowless rooms, offering energy savings and improved indoor comfort."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing a tubular skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing a tubular skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Tubular skylights, also known as sun tunnels or solar tubes, bring natural daylight into interior spaces that lack windows, reducing the need for artificial lighting during the day. Benefits include energy savings, improved indoor comfort, and a brighter aesthetic. When considering installation, factors like the room's orientation, ceiling type, and potential obstructions in the attic can influence the optimal placement and light delivery.",
+        "@type": "Answer",
+        "description": "Tubular skylights bring natural daylight into windowless rooms, offering energy savings and improved indoor comfort."
+      }
+    }
+  ],
+  "description": "Tubular skylights bring natural daylight into windowless rooms, offering energy savings and improved indoor comfort."
 }

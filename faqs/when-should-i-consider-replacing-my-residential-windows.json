@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider replacing my residential windows?",
-  "description": "Replace windows if you notice drafts, condensation, high energy bills, visible damage, or difficulty operating them. Older, single-pane windows especially benef",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-residential-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider replacing my residential windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider replacing your residential windows if you notice drafts, condensation between panes, increasing energy bills, visible damage like cracks or rot, or if your windows are difficult to open or close. Old, inefficient windows often contribute significantly to heat loss or gain. As a first-party insight from Hometelligent Inc., we often find that homes with original single-pane windows, especially in older neighborhoods within our service areas like Oakland, greatly benefit from upgrades to modern double-pane units for improved comfort and energy savings.",
-        "description": "Replace windows if you notice drafts, condensation, high energy bills, visible damage, or difficulty operating them. Older, single-pane windows especially benefit from replacement."
-      }
-    }
-  ],
+  "name": "When should I consider replacing my residential windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider replacing my residential windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider replacing your residential windows if you notice drafts, condensation between panes, increasing energy bills, visible damage like cracks or rot, or if your windows are difficult to open or close. Old, inefficient windows often contribute significantly to heat loss or gain. As a first-party insight from Hometelligent Inc., we often find that homes with original single-pane windows, especially in older neighborhoods within our service areas like Oakland, greatly benefit from upgrades to modern double-pane units for improved comfort and energy savings.",
+        "@type": "Answer",
+        "description": "Replace windows if you notice drafts, condensation, high energy bills, visible damage, or difficulty operating them. Older, single-pane windows especially benefit from replacement."
+      }
+    }
+  ],
+  "description": "Replace windows if you notice drafts, condensation, high energy bills, visible damage, or difficulty operating them. Older, single-pane windows especially benef"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to have a design plan before contacting Hometelligent Inc. for custom built-ins?",
-  "description": "No, a full design plan isn't required. We start with a consultation to discuss your ideas and needs, then collaborate to create a custom design.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-have-a-design-plan-before-contacting-hometelligent-inc-for-custom-b",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to have a design plan before contacting Hometelligent Inc. for custom built-ins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You do not need a fully developed design plan before contacting us. We encourage clients to share their ideas, inspiration images, and functional needs. Our process typically begins with an initial consultation where we discuss your vision, assess your space, and understand your requirements. We then collaborate with you to create a custom design that meets your aesthetic and practical goals. Having a clear idea of what you want to store and how you envision the built-in functioning will greatly help in the initial design discussions.",
-        "description": "No, a full design plan isn't required. We start with a consultation to discuss your ideas and needs, then collaborate to create a custom design."
-      }
-    }
-  ],
+  "name": "Do I need to have a design plan before contacting Hometelligent Inc. for custom built-ins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to have a design plan before contacting Hometelligent Inc. for custom built-ins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You do not need a fully developed design plan before contacting us. We encourage clients to share their ideas, inspiration images, and functional needs. Our process typically begins with an initial consultation where we discuss your vision, assess your space, and understand your requirements. We then collaborate with you to create a custom design that meets your aesthetic and practical goals. Having a clear idea of what you want to store and how you envision the built-in functioning will greatly help in the initial design discussions.",
+        "@type": "Answer",
+        "description": "No, a full design plan isn't required. We start with a consultation to discuss your ideas and needs, then collaborate to create a custom design."
+      }
+    }
+  ],
+  "description": "No, a full design plan isn't required. We start with a consultation to discuss your ideas and needs, then collaborate to create a custom design."
 }

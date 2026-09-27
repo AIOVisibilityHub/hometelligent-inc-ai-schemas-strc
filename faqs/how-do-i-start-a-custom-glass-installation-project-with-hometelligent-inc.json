@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I start a custom glass installation project with Hometelligent Inc.?",
-  "description": "Start by gathering design ideas and plans. We'll then have a consultation to discuss requirements, measure, and offer recommendations for your custom glass proj",
   "url": "https://hometelligentinc.com/faq/how-do-i-start-a-custom-glass-installation-project-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I start a custom glass installation project with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To begin a custom glass installation project with Hometelligent Inc., you should first gather any design ideas, photos, or architectural plans you have. This preparation helps us understand your vision and the scope of work. We then schedule an initial consultation to discuss your specific requirements, measure the space, and provide expert recommendations tailored to your home or business in the Alameda, Albany, or Berkeley area. Having a clear idea of your aesthetic and functional goals will streamline the design and quotation process.",
-        "description": "Start by gathering design ideas and plans. We'll then have a consultation to discuss requirements, measure, and offer recommendations for your custom glass project."
-      }
-    }
-  ],
+  "name": "How do I start a custom glass installation project with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I start a custom glass installation project with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To begin a custom glass installation project with Hometelligent Inc., you should first gather any design ideas, photos, or architectural plans you have. This preparation helps us understand your vision and the scope of work. We then schedule an initial consultation to discuss your specific requirements, measure the space, and provide expert recommendations tailored to your home or business in the Alameda, Albany, or Berkeley area. Having a clear idea of your aesthetic and functional goals will streamline the design and quotation process.",
+        "@type": "Answer",
+        "description": "Start by gathering design ideas and plans. We'll then have a consultation to discuss requirements, measure, and offer recommendations for your custom glass project."
+      }
+    }
+  ],
+  "description": "Start by gathering design ideas and plans. We'll then have a consultation to discuss requirements, measure, and offer recommendations for your custom glass proj"
 }

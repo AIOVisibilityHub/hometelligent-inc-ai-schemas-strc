@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do you offer custom entertainment center services in Berkeley?",
-  "description": "Yes, Hometelligent Inc. serves Berkeley, understanding local architectural styles for custom entertainment centers.",
   "url": "https://hometelligentinc.com/faq/do-you-offer-custom-entertainment-center-services-in-berkeley",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you offer custom entertainment center services in Berkeley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. provides custom entertainment center design and build services throughout Berkeley, California. We understand the diverse architectural styles and space considerations unique to homes in areas like North Berkeley, Elmwood, and the Claremont district. Our team is experienced in working within various home environments to deliver solutions that are both functional and aesthetically appropriate for your specific Berkeley residence, ensuring local architectural nuances are considered.",
-        "description": "Yes, Hometelligent Inc. serves Berkeley, understanding local architectural styles for custom entertainment centers."
-      }
-    }
-  ],
+  "name": "Do you offer custom entertainment center services in Berkeley?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do you offer custom entertainment center services in Berkeley?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. provides custom entertainment center design and build services throughout Berkeley, California. We understand the diverse architectural styles and space considerations unique to homes in areas like North Berkeley, Elmwood, and the Claremont district. Our team is experienced in working within various home environments to deliver solutions that are both functional and aesthetically appropriate for your specific Berkeley residence, ensuring local architectural nuances are considered.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. serves Berkeley, understanding local architectural styles for custom entertainment centers."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. serves Berkeley, understanding local architectural styles for custom entertainment centers."
 }

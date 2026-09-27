@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of custom carpentry services?",
-  "description": "Custom carpentry costs depend on material choice, design complexity, project size, and finishes, with intricate details and exotic woods raising the price.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-custom-carpentry-services",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of custom carpentry services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of custom carpentry services is influenced by several factors, including the type of wood and materials selected, the complexity of the design, the size of the project, and the required finishes. For example, exotic hardwoods and intricate joinery will increase costs compared to standard lumber and simpler designs. Projects requiring extensive on-site customization or unique hardware also tend to be more expensive due to increased labor and specialized components.",
-        "description": "Custom carpentry costs depend on material choice, design complexity, project size, and finishes, with intricate details and exotic woods raising the price."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of custom carpentry services?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of custom carpentry services?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of custom carpentry services is influenced by several factors, including the type of wood and materials selected, the complexity of the design, the size of the project, and the required finishes. For example, exotic hardwoods and intricate joinery will increase costs compared to standard lumber and simpler designs. Projects requiring extensive on-site customization or unique hardware also tend to be more expensive due to increased labor and specialized components.",
+        "@type": "Answer",
+        "description": "Custom carpentry costs depend on material choice, design complexity, project size, and finishes, with intricate details and exotic woods raising the price."
+      }
+    }
+  ],
+  "description": "Custom carpentry costs depend on material choice, design complexity, project size, and finishes, with intricate details and exotic woods raising the price."
 }

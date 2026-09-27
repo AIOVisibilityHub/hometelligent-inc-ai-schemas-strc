@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are available for custom entertainment centers?",
-  "description": "Materials include various woods, MDF, laminates, and veneers. Selection affects durability and aesthetic.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-available-for-custom-entertainment-centers",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are available for custom entertainment centers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. offers a wide range of materials for custom entertainment centers, including various wood species like oak, maple, and cherry, as well as MDF and plywood for painted finishes. You can also choose from different laminates, veneers, and hardware options. The selection of materials impacts both the durability and aesthetic of the final product. We discuss material properties, finishes, and their implications for maintenance and longevity during the design phase to help you make informed decisions.",
-        "description": "Materials include various woods, MDF, laminates, and veneers. Selection affects durability and aesthetic."
-      }
-    }
-  ],
+  "name": "What materials are available for custom entertainment centers?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are available for custom entertainment centers?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. offers a wide range of materials for custom entertainment centers, including various wood species like oak, maple, and cherry, as well as MDF and plywood for painted finishes. You can also choose from different laminates, veneers, and hardware options. The selection of materials impacts both the durability and aesthetic of the final product. We discuss material properties, finishes, and their implications for maintenance and longevity during the design phase to help you make informed decisions.",
+        "@type": "Answer",
+        "description": "Materials include various woods, MDF, laminates, and veneers. Selection affects durability and aesthetic."
+      }
+    }
+  ],
+  "description": "Materials include various woods, MDF, laminates, and veneers. Selection affects durability and aesthetic."
 }

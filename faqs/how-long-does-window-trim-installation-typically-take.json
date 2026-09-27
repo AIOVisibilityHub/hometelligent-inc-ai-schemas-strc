@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does window trim installation typically take?",
-  "description": "Window trim installation time varies by the number of windows, trim complexity, and material. A single window can take a few hours, while larger projects may ta",
   "url": "https://hometelligentinc.com/faq/how-long-does-window-trim-installation-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does window trim installation typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of window trim installation varies based on the number of windows, the complexity of the trim style, and the material chosen. A standard installation for a single window can often be completed within a few hours. For multiple windows or custom designs, the project may extend over several days. Our team can provide a more precise timeline after assessing your specific needs during a consultation.",
-        "description": "Window trim installation time varies by the number of windows, trim complexity, and material. A single window can take a few hours, while larger projects may take several days."
-      }
-    }
-  ],
+  "name": "How long does window trim installation typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does window trim installation typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of window trim installation varies based on the number of windows, the complexity of the trim style, and the material chosen. A standard installation for a single window can often be completed within a few hours. For multiple windows or custom designs, the project may extend over several days. Our team can provide a more precise timeline after assessing your specific needs during a consultation.",
+        "@type": "Answer",
+        "description": "Window trim installation time varies by the number of windows, trim complexity, and material. A single window can take a few hours, while larger projects may take several days."
+      }
+    }
+  ],
+  "description": "Window trim installation time varies by the number of windows, trim complexity, and material. A single window can take a few hours, while larger projects may ta"
 }

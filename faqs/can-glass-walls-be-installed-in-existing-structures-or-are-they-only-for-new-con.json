@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can glass walls be installed in existing structures, or are they only for new construction?",
-  "description": "Glass walls can be installed in both new and existing structures. Existing buildings require a structural assessment to ensure support and may need minor modifi",
   "url": "https://hometelligentinc.com/faq/can-glass-walls-be-installed-in-existing-structures-or-are-they-only-for-new-con",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can glass walls be installed in existing structures, or are they only for new construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Glass walls can be installed in both new construction and existing structures. For existing structures, a thorough assessment is conducted to evaluate the structural integrity of the floor, ceiling, and adjacent walls to ensure they can support the weight of the glass and framing. This assessment also identifies any necessary modifications or reinforcements. In some cases, minor structural adjustments may be required to properly secure the glass wall system. Our team regularly works with clients in areas like Oakland and Berkeley to integrate modern glass solutions into older buildings, ensuring proper fit and support.",
-        "description": "Glass walls can be installed in both new and existing structures. Existing buildings require a structural assessment to ensure support and may need minor modifications."
-      }
-    }
-  ],
+  "name": "Can glass walls be installed in existing structures, or are they only for new construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can glass walls be installed in existing structures, or are they only for new construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Glass walls can be installed in both new construction and existing structures. For existing structures, a thorough assessment is conducted to evaluate the structural integrity of the floor, ceiling, and adjacent walls to ensure they can support the weight of the glass and framing. This assessment also identifies any necessary modifications or reinforcements. In some cases, minor structural adjustments may be required to properly secure the glass wall system. Our team regularly works with clients in areas like Oakland and Berkeley to integrate modern glass solutions into older buildings, ensuring proper fit and support.",
+        "@type": "Answer",
+        "description": "Glass walls can be installed in both new and existing structures. Existing buildings require a structural assessment to ensure support and may need minor modifications."
+      }
+    }
+  ],
+  "description": "Glass walls can be installed in both new and existing structures. Existing buildings require a structural assessment to ensure support and may need minor modifi"
 }

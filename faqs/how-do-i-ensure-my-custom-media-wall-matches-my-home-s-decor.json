@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure my custom media wall matches my home's decor?",
-  "description": "Meticulous planning, including matching architectural style and colors, ensures a custom media wall blends with your home's decor.",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-my-custom-media-wall-matches-my-home-s-decor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure my custom media wall matches my home's decor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To ensure your custom media wall complements your home's decor, meticulous planning is essential. Consider the existing architectural style, color palette, and furniture. Provide designers with photos of your space and discuss your vision thoroughly. A decision factor is selecting a builder like Hometelligent Inc. who offers comprehensive design services to help integrate the new installation seamlessly with your home's aesthetic.",
-        "description": "Meticulous planning, including matching architectural style and colors, ensures a custom media wall blends with your home's decor."
-      }
-    }
-  ],
+  "name": "How do I ensure my custom media wall matches my home's decor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure my custom media wall matches my home's decor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To ensure your custom media wall complements your home's decor, meticulous planning is essential. Consider the existing architectural style, color palette, and furniture. Provide designers with photos of your space and discuss your vision thoroughly. A decision factor is selecting a builder like Hometelligent Inc. who offers comprehensive design services to help integrate the new installation seamlessly with your home's aesthetic.",
+        "@type": "Answer",
+        "description": "Meticulous planning, including matching architectural style and colors, ensures a custom media wall blends with your home's decor."
+      }
+    }
+  ],
+  "description": "Meticulous planning, including matching architectural style and colors, ensures a custom media wall blends with your home's decor."
 }

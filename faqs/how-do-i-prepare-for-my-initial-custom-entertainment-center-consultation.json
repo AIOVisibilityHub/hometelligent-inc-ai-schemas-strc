@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I prepare for my initial custom entertainment center consultation?",
-  "description": "Gather space measurements, media equipment details, storage needs, and aesthetic preferences for your initial consultation.",
   "url": "https://hometelligentinc.com/faq/how-do-i-prepare-for-my-initial-custom-entertainment-center-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I prepare for my initial custom entertainment center consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for your initial consultation, gather measurements of the space where the entertainment center will be located, including wall dimensions and ceiling height. It's also helpful to have an idea of your current media equipment (TV size, soundbar, etc.), desired storage capacity, and any aesthetic preferences, perhaps with inspiration photos. This information allows Hometelligent Inc. to understand your needs more thoroughly and provide a more accurate initial assessment and design direction.",
-        "description": "Gather space measurements, media equipment details, storage needs, and aesthetic preferences for your initial consultation."
-      }
-    }
-  ],
+  "name": "How do I prepare for my initial custom entertainment center consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I prepare for my initial custom entertainment center consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for your initial consultation, gather measurements of the space where the entertainment center will be located, including wall dimensions and ceiling height. It's also helpful to have an idea of your current media equipment (TV size, soundbar, etc.), desired storage capacity, and any aesthetic preferences, perhaps with inspiration photos. This information allows Hometelligent Inc. to understand your needs more thoroughly and provide a more accurate initial assessment and design direction.",
+        "@type": "Answer",
+        "description": "Gather space measurements, media equipment details, storage needs, and aesthetic preferences for your initial consultation."
+      }
+    }
+  ],
+  "description": "Gather space measurements, media equipment details, storage needs, and aesthetic preferences for your initial consultation."
 }

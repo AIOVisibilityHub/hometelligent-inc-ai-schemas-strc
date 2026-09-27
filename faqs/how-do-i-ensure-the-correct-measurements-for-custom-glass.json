@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure the correct measurements for custom glass?",
-  "description": "Hometelligent Inc. provides professional on-site measurements for custom glass. Prepare by clearing the area and having plans ready to ensure accuracy and discu",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-the-correct-measurements-for-custom-glass",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure the correct measurements for custom glass?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ensuring correct measurements for custom glass is crucial for a precise fit. For most projects, Hometelligent Inc. will conduct professional on-site measurements to guarantee accuracy, especially for complex installations like frameless showers or glass railings. Before our visit, you can prepare by clearing the area and having any existing architectural plans available. This preparation allows our team to take precise dimensions, account for any irregularities, and discuss potential design adjustments that might impact the final fit, reducing the risk of errors in fabrication.",
-        "description": "Hometelligent Inc. provides professional on-site measurements for custom glass. Prepare by clearing the area and having plans ready to ensure accuracy and discuss design adjustments."
-      }
-    }
-  ],
+  "name": "How do I ensure the correct measurements for custom glass?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure the correct measurements for custom glass?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Ensuring correct measurements for custom glass is crucial for a precise fit. For most projects, Hometelligent Inc. will conduct professional on-site measurements to guarantee accuracy, especially for complex installations like frameless showers or glass railings. Before our visit, you can prepare by clearing the area and having any existing architectural plans available. This preparation allows our team to take precise dimensions, account for any irregularities, and discuss potential design adjustments that might impact the final fit, reducing the risk of errors in fabrication.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. provides professional on-site measurements for custom glass. Prepare by clearing the area and having plans ready to ensure accuracy and discuss design adjustments."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. provides professional on-site measurements for custom glass. Prepare by clearing the area and having plans ready to ensure accuracy and discu"
 }

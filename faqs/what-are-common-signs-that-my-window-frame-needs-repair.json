@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs that my window frame needs repair?",
-  "description": "Visible rot, cracks, warping, moisture, and drafts are common signs that indicate your window frame may need repair.",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-my-window-frame-needs-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs that my window frame needs repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs that your window frame needs repair include visible rot, cracks, warping, moisture infiltration around the frame, difficulty opening or closing windows, and increased drafts. Ignoring these issues can lead to further damage to your home's structure and reduced energy efficiency. A professional assessment can help determine the extent of the damage.",
-        "description": "Visible rot, cracks, warping, moisture, and drafts are common signs that indicate your window frame may need repair."
-      }
-    }
-  ],
+  "name": "What are common signs that my window frame needs repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs that my window frame needs repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs that your window frame needs repair include visible rot, cracks, warping, moisture infiltration around the frame, difficulty opening or closing windows, and increased drafts. Ignoring these issues can lead to further damage to your home's structure and reduced energy efficiency. A professional assessment can help determine the extent of the damage.",
+        "@type": "Answer",
+        "description": "Visible rot, cracks, warping, moisture, and drafts are common signs that indicate your window frame may need repair."
+      }
+    }
+  ],
+  "description": "Visible rot, cracks, warping, moisture, and drafts are common signs that indicate your window frame may need repair."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install a custom fireplace surround?",
-  "description": "Installation typically ranges from a few days to several weeks, depending on design complexity and materials. A detailed schedule is provided after consultation",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-a-custom-fireplace-surround",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install a custom fireplace surround?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation time for a custom fireplace surround varies depending on the material, complexity of the design, and site preparation required. Simple surrounds might take a few days, while more elaborate designs involving custom fabrication, intricate tiling, or extensive masonry work could extend to several weeks. Factors like existing fireplace conditions and the need for structural modifications can also influence the timeline. We will provide a detailed project schedule after the design consultation.",
-        "description": "Installation typically ranges from a few days to several weeks, depending on design complexity and materials. A detailed schedule is provided after consultation."
-      }
-    }
-  ],
+  "name": "How long does it take to install a custom fireplace surround?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install a custom fireplace surround?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation time for a custom fireplace surround varies depending on the material, complexity of the design, and site preparation required. Simple surrounds might take a few days, while more elaborate designs involving custom fabrication, intricate tiling, or extensive masonry work could extend to several weeks. Factors like existing fireplace conditions and the need for structural modifications can also influence the timeline. We will provide a detailed project schedule after the design consultation.",
+        "@type": "Answer",
+        "description": "Installation typically ranges from a few days to several weeks, depending on design complexity and materials. A detailed schedule is provided after consultation."
+      }
+    }
+  ],
+  "description": "Installation typically ranges from a few days to several weeks, depending on design complexity and materials. A detailed schedule is provided after consultation"
 }

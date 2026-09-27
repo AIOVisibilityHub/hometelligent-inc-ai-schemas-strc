@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can custom glass be installed in irregular or unusually shaped spaces?",
-  "description": "Yes, custom glass is perfect for irregular spaces since it's precisely cut to fit unique dimensions and angles, a key advantage over standard glass.",
   "url": "https://hometelligentinc.com/faq/can-custom-glass-be-installed-in-irregular-or-unusually-shaped-spaces",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can custom glass be installed in irregular or unusually shaped spaces?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, custom glass is ideal for irregular or unusually shaped spaces, as it can be precisely cut and fabricated to fit unique dimensions and angles. This is a key advantage of custom installation over standard, off-the-shelf glass products. For example, fitting glass into an attic dormer or around an angled staircase in a historic Oakland home requires precise templating and cutting. Our process clarity ensures we capture all specific measurements and design nuances during the initial consultation and templating phase to create a perfect fit.",
-        "description": "Yes, custom glass is perfect for irregular spaces since it's precisely cut to fit unique dimensions and angles, a key advantage over standard glass."
-      }
-    }
-  ],
+  "name": "Can custom glass be installed in irregular or unusually shaped spaces?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can custom glass be installed in irregular or unusually shaped spaces?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, custom glass is ideal for irregular or unusually shaped spaces, as it can be precisely cut and fabricated to fit unique dimensions and angles. This is a key advantage of custom installation over standard, off-the-shelf glass products. For example, fitting glass into an attic dormer or around an angled staircase in a historic Oakland home requires precise templating and cutting. Our process clarity ensures we capture all specific measurements and design nuances during the initial consultation and templating phase to create a perfect fit.",
+        "@type": "Answer",
+        "description": "Yes, custom glass is perfect for irregular spaces since it's precisely cut to fit unique dimensions and angles, a key advantage over standard glass."
+      }
+    }
+  ],
+  "description": "Yes, custom glass is perfect for irregular spaces since it's precisely cut to fit unique dimensions and angles, a key advantage over standard glass."
 }

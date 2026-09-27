@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right design for my custom fireplace surround?",
-  "description": "Consider your home's architecture, personal style, and room function when choosing a design. Professional design consultation can help integrate the surround wi",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-design-for-my-custom-fireplace-surround",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right design for my custom fireplace surround?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right design involves considering your home's existing architecture, your personal style, and the function of the room. Modern homes might suit minimalist concrete or sleek metal designs, while traditional homes could benefit from carved wood or classic stone. It's helpful to gather inspiration from various sources and discuss your vision with a designer who can offer material and style recommendations. Evaluating how the new surround will integrate with your current décor and furniture is a key decision factor.",
-        "description": "Consider your home's architecture, personal style, and room function when choosing a design. Professional design consultation can help integrate the surround with your décor."
-      }
-    }
-  ],
+  "name": "How do I choose the right design for my custom fireplace surround?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right design for my custom fireplace surround?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right design involves considering your home's existing architecture, your personal style, and the function of the room. Modern homes might suit minimalist concrete or sleek metal designs, while traditional homes could benefit from carved wood or classic stone. It's helpful to gather inspiration from various sources and discuss your vision with a designer who can offer material and style recommendations. Evaluating how the new surround will integrate with your current décor and furniture is a key decision factor.",
+        "@type": "Answer",
+        "description": "Consider your home's architecture, personal style, and room function when choosing a design. Professional design consultation can help integrate the surround with your décor."
+      }
+    }
+  ],
+  "description": "Consider your home's architecture, personal style, and room function when choosing a design. Professional design consultation can help integrate the surround wi"
 }

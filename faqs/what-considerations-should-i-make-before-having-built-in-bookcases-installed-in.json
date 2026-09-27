@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What considerations should I make before having built-in bookcases installed in my home?",
-  "description": "Consider room purpose, items to store, and wall structure before installing built-in bookcases. Prepare inspiration photos and a list of specific design needs.",
   "url": "https://hometelligentinc.com/faq/what-considerations-should-i-make-before-having-built-in-bookcases-installed-in",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What considerations should I make before having built-in bookcases installed in my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before installing built-in bookcases, consider the room's purpose and how the units will complement existing decor and furniture. Think about the type of items you plan to store, which will dictate shelf depth, height, and overall design. Also, assess the structural integrity of the wall for support, especially for large units. Gathering inspiration photos and making a list of specific needs, such as adjustable shelves or integrated desks, will help us create a design that perfectly fits your space and lifestyle.",
-        "description": "Consider room purpose, items to store, and wall structure before installing built-in bookcases. Prepare inspiration photos and a list of specific design needs."
-      }
-    }
-  ],
+  "name": "What considerations should I make before having built-in bookcases installed in my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What considerations should I make before having built-in bookcases installed in my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before installing built-in bookcases, consider the room's purpose and how the units will complement existing decor and furniture. Think about the type of items you plan to store, which will dictate shelf depth, height, and overall design. Also, assess the structural integrity of the wall for support, especially for large units. Gathering inspiration photos and making a list of specific needs, such as adjustable shelves or integrated desks, will help us create a design that perfectly fits your space and lifestyle.",
+        "@type": "Answer",
+        "description": "Consider room purpose, items to store, and wall structure before installing built-in bookcases. Prepare inspiration photos and a list of specific design needs."
+      }
+    }
+  ],
+  "description": "Consider room purpose, items to store, and wall structure before installing built-in bookcases. Prepare inspiration photos and a list of specific design needs."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of built-in shelving compared to freestanding units?",
-  "description": "Built-in shelving offers a custom, integrated look, maximizes space, and enhances property value, fitting precisely into your home's architecture.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-built-in-shelving-compared-to-freestanding-units",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of built-in shelving compared to freestanding units?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Built-in shelving offers a custom, integrated look that enhances a room's aesthetic and can increase property value. Unlike freestanding units, built-ins maximize space utilization by fitting precisely into alcoves, around windows, or along entire walls, often without visible gaps. This customization allows for tailored storage solutions that perfectly match your needs and the existing decor, providing a seamless and permanent storage solution. A key practical tradeoff is that while built-ins offer superior aesthetics and space efficiency, they are a permanent fixture, making them less flexible for rearrangement compared to freestanding options.",
-        "description": "Built-in shelving offers a custom, integrated look, maximizes space, and enhances property value, fitting precisely into your home's architecture."
-      }
-    }
-  ],
+  "name": "What are the benefits of built-in shelving compared to freestanding units?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of built-in shelving compared to freestanding units?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Built-in shelving offers a custom, integrated look that enhances a room's aesthetic and can increase property value. Unlike freestanding units, built-ins maximize space utilization by fitting precisely into alcoves, around windows, or along entire walls, often without visible gaps. This customization allows for tailored storage solutions that perfectly match your needs and the existing decor, providing a seamless and permanent storage solution. A key practical tradeoff is that while built-ins offer superior aesthetics and space efficiency, they are a permanent fixture, making them less flexible for rearrangement compared to freestanding options.",
+        "@type": "Answer",
+        "description": "Built-in shelving offers a custom, integrated look, maximizes space, and enhances property value, fitting precisely into your home's architecture."
+      }
+    }
+  ],
+  "description": "Built-in shelving offers a custom, integrated look, maximizes space, and enhances property value, fitting precisely into your home's architecture."
 }

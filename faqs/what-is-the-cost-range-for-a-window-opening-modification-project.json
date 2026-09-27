@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the cost range for a window opening modification project?",
-  "description": "Costs vary significantly based on project complexity, structural work, window type, and finishing, ranging from a few thousand dollars to over $10,000.",
   "url": "https://hometelligentinc.com/faq/what-is-the-cost-range-for-a-window-opening-modification-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the cost range for a window opening modification project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a window opening modification project can vary widely, typically ranging from a few thousand dollars for a simple enlargement to upwards of $10,000 or more for complex structural changes or conversions to larger doors. Key factors influencing cost include the size of the new opening, structural requirements, type of new window or door selected, and finishing work. The need for engineering plans and permits also adds to the overall expense. We provide detailed estimates tailored to your specific project needs.",
-        "description": "Costs vary significantly based on project complexity, structural work, window type, and finishing, ranging from a few thousand dollars to over $10,000."
-      }
-    }
-  ],
+  "name": "What is the cost range for a window opening modification project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the cost range for a window opening modification project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a window opening modification project can vary widely, typically ranging from a few thousand dollars for a simple enlargement to upwards of $10,000 or more for complex structural changes or conversions to larger doors. Key factors influencing cost include the size of the new opening, structural requirements, type of new window or door selected, and finishing work. The need for engineering plans and permits also adds to the overall expense. We provide detailed estimates tailored to your specific project needs.",
+        "@type": "Answer",
+        "description": "Costs vary significantly based on project complexity, structural work, window type, and finishing, ranging from a few thousand dollars to over $10,000."
+      }
+    }
+  ],
+  "description": "Costs vary significantly based on project complexity, structural work, window type, and finishing, ranging from a few thousand dollars to over $10,000."
 }

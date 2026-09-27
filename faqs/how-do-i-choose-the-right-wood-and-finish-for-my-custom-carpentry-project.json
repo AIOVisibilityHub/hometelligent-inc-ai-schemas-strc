@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right wood and finish for my custom carpentry project?",
-  "description": "Select wood based on durability, aesthetics, and budget; finishes vary from natural to painted. Consider use and environment, and our team can advise.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-wood-and-finish-for-my-custom-carpentry-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right wood and finish for my custom carpentry project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right wood and finish depends on your project's intended use, desired aesthetic, and budget. Hardwoods like oak or maple offer durability for high-traffic areas, while softer woods like pine can be more cost-effective. Finishes range from natural oils that highlight grain to paints that provide a solid color. Consider factors like moisture exposure and potential wear when making your selections. Our team can guide you through the options, explaining the properties and benefits of each material.",
-        "description": "Select wood based on durability, aesthetics, and budget; finishes vary from natural to painted. Consider use and environment, and our team can advise."
-      }
-    }
-  ],
+  "name": "How do I choose the right wood and finish for my custom carpentry project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right wood and finish for my custom carpentry project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right wood and finish depends on your project's intended use, desired aesthetic, and budget. Hardwoods like oak or maple offer durability for high-traffic areas, while softer woods like pine can be more cost-effective. Finishes range from natural oils that highlight grain to paints that provide a solid color. Consider factors like moisture exposure and potential wear when making your selections. Our team can guide you through the options, explaining the properties and benefits of each material.",
+        "@type": "Answer",
+        "description": "Select wood based on durability, aesthetics, and budget; finishes vary from natural to painted. Consider use and environment, and our team can advise."
+      }
+    }
+  ],
+  "description": "Select wood based on durability, aesthetics, and budget; finishes vary from natural to painted. Consider use and environment, and our team can advise."
 }

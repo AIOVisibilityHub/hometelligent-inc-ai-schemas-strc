@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical glass partition installation take?",
-  "description": "Installation time varies by project scope, partition type, and size, from a few days to over a week for complex jobs.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-glass-partition-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical glass partition installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a glass partition installation varies depending on the project's scope, the type of partition, and the size of the area. A small, straightforward installation might take a day or two, while larger or more complex projects with multiple offices or custom designs could extend to several days or even a week. Hometelligent Inc. provides a detailed timeline during the initial consultation and site assessment, helping you plan around the installation process efficiently.",
-        "description": "Installation time varies by project scope, partition type, and size, from a few days to over a week for complex jobs."
-      }
-    }
-  ],
+  "name": "How long does a typical glass partition installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical glass partition installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a glass partition installation varies depending on the project's scope, the type of partition, and the size of the area. A small, straightforward installation might take a day or two, while larger or more complex projects with multiple offices or custom designs could extend to several days or even a week. Hometelligent Inc. provides a detailed timeline during the initial consultation and site assessment, helping you plan around the installation process efficiently.",
+        "@type": "Answer",
+        "description": "Installation time varies by project scope, partition type, and size, from a few days to over a week for complex jobs."
+      }
+    }
+  ],
+  "description": "Installation time varies by project scope, partition type, and size, from a few days to over a week for complex jobs."
 }

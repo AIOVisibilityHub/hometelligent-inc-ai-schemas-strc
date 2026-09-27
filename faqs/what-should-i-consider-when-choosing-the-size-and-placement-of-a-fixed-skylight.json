@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing the size and placement of a fixed skylight?",
-  "description": "Consider room size, function, and desired light when choosing a fixed skylight's size and placement. Optimize placement for light distribution, avoiding obstruc",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-the-size-and-placement-of-a-fixed-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing the size and placement of a fixed skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a fixed skylight, consider the room's size, its primary function, and the amount of natural light desired. Larger skylights provide more light but can introduce more heat, while smaller ones offer ambient illumination. Placement should optimize light distribution, avoid obstruction by trees, and consider sun exposure throughout the day to prevent excessive glare or heat gain. Hometelligent Inc. can advise on optimal sizing and placement during an on-site consultation to maximize benefits for your home in a sun-exposed area like Pleasanton.",
-        "description": "Consider room size, function, and desired light when choosing a fixed skylight's size and placement. Optimize placement for light distribution, avoiding obstructions and managing sun exposure."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing the size and placement of a fixed skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing the size and placement of a fixed skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a fixed skylight, consider the room's size, its primary function, and the amount of natural light desired. Larger skylights provide more light but can introduce more heat, while smaller ones offer ambient illumination. Placement should optimize light distribution, avoid obstruction by trees, and consider sun exposure throughout the day to prevent excessive glare or heat gain. Hometelligent Inc. can advise on optimal sizing and placement during an on-site consultation to maximize benefits for your home in a sun-exposed area like Pleasanton.",
+        "@type": "Answer",
+        "description": "Consider room size, function, and desired light when choosing a fixed skylight's size and placement. Optimize placement for light distribution, avoiding obstructions and managing sun exposure."
+      }
+    }
+  ],
+  "description": "Consider room size, function, and desired light when choosing a fixed skylight's size and placement. Optimize placement for light distribution, avoiding obstruc"
 }

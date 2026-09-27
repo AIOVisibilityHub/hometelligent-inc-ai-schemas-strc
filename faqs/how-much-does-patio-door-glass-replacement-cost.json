@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does patio door glass replacement cost?",
-  "description": "Costs vary based on glass type, size, frame condition, and labor. Specialty glass options are generally more expensive.",
   "url": "https://hometelligentinc.com/faq/how-much-does-patio-door-glass-replacement-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does patio door glass replacement cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of patio door glass replacement varies widely based on factors such as glass type, size, frame condition, and labor. Standard clear tempered glass will be less expensive than specialized options like tinted, frosted, or energy-efficient low-emissivity glass. We can provide a detailed estimate after assessing your specific door and glass requirements.",
-        "description": "Costs vary based on glass type, size, frame condition, and labor. Specialty glass options are generally more expensive."
-      }
-    }
-  ],
+  "name": "How much does patio door glass replacement cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does patio door glass replacement cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of patio door glass replacement varies widely based on factors such as glass type, size, frame condition, and labor. Standard clear tempered glass will be less expensive than specialized options like tinted, frosted, or energy-efficient low-emissivity glass. We can provide a detailed estimate after assessing your specific door and glass requirements.",
+        "@type": "Answer",
+        "description": "Costs vary based on glass type, size, frame condition, and labor. Specialty glass options are generally more expensive."
+      }
+    }
+  ],
+  "description": "Costs vary based on glass type, size, frame condition, and labor. Specialty glass options are generally more expensive."
 }

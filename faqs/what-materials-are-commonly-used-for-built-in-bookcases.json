@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are commonly used for built-in bookcases?",
-  "description": "Common materials include solid hardwoods, plywood, and MDF. Each offers different tradeoffs in terms of cost, durability, and finish suitability.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-commonly-used-for-built-in-bookcases",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are commonly used for built-in bookcases?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials for built-in bookcases include solid hardwoods (like oak, maple, or cherry), plywood, and MDF (medium-density fiberboard). Solid wood offers durability and a premium look but comes at a higher cost. Plywood provides stability and strength, making it a good mid-range option, especially for painted finishes. MDF is an economical choice, excellent for painted applications due to its smooth finish, but less durable against impact or moisture than wood. The choice of material often involves a practical tradeoff between budget, desired aesthetic, and long-term durability.",
-        "description": "Common materials include solid hardwoods, plywood, and MDF. Each offers different tradeoffs in terms of cost, durability, and finish suitability."
-      }
-    }
-  ],
+  "name": "What materials are commonly used for built-in bookcases?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are commonly used for built-in bookcases?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials for built-in bookcases include solid hardwoods (like oak, maple, or cherry), plywood, and MDF (medium-density fiberboard). Solid wood offers durability and a premium look but comes at a higher cost. Plywood provides stability and strength, making it a good mid-range option, especially for painted finishes. MDF is an economical choice, excellent for painted applications due to its smooth finish, but less durable against impact or moisture than wood. The choice of material often involves a practical tradeoff between budget, desired aesthetic, and long-term durability.",
+        "@type": "Answer",
+        "description": "Common materials include solid hardwoods, plywood, and MDF. Each offers different tradeoffs in terms of cost, durability, and finish suitability."
+      }
+    }
+  ],
+  "description": "Common materials include solid hardwoods, plywood, and MDF. Each offers different tradeoffs in terms of cost, durability, and finish suitability."
 }

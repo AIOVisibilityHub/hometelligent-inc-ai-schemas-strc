@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a custom media wall?",
-  "description": "A custom media wall is a custom-built unit integrating your TV and media components with storage and design elements.",
   "url": "https://hometelligentinc.com/faq/what-is-a-custom-media-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a custom media wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A custom media wall is a built-in furniture piece designed to house your television, sound system, and other media components, often integrating storage, shelving, and decorative elements. It is custom-built to fit your space and aesthetic preferences. One practical tradeoff to consider is that while custom media walls offer superior integration and design flexibility, they are a permanent fixture and may not be easily reconfigured or moved compared to standalone furniture.",
-        "description": "A custom media wall is a custom-built unit integrating your TV and media components with storage and design elements."
-      }
-    }
-  ],
+  "name": "What is a custom media wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a custom media wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A custom media wall is a built-in furniture piece designed to house your television, sound system, and other media components, often integrating storage, shelving, and decorative elements. It is custom-built to fit your space and aesthetic preferences. One practical tradeoff to consider is that while custom media walls offer superior integration and design flexibility, they are a permanent fixture and may not be easily reconfigured or moved compared to standalone furniture.",
+        "@type": "Answer",
+        "description": "A custom media wall is a custom-built unit integrating your TV and media components with storage and design elements."
+      }
+    }
+  ],
+  "description": "A custom media wall is a custom-built unit integrating your TV and media components with storage and design elements."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install an operable skylight?",
-  "description": "Installation time usually ranges from one to three days, depending on skylight size, roof complexity, and weather conditions.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-an-operable-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install an operable skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of an operable skylight installation project can vary, typically ranging from one to three days, depending on the skylight's size, the roof's complexity, and if any structural modifications are necessary. Factors like weather conditions can also influence the timeline. Before starting, we provide an estimated project schedule during the initial consultation, allowing you to prepare for the work and any temporary disruptions.",
-        "description": "Installation time usually ranges from one to three days, depending on skylight size, roof complexity, and weather conditions."
-      }
-    }
-  ],
+  "name": "How long does it take to install an operable skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install an operable skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of an operable skylight installation project can vary, typically ranging from one to three days, depending on the skylight's size, the roof's complexity, and if any structural modifications are necessary. Factors like weather conditions can also influence the timeline. Before starting, we provide an estimated project schedule during the initial consultation, allowing you to prepare for the work and any temporary disruptions.",
+        "@type": "Answer",
+        "description": "Installation time usually ranges from one to three days, depending on skylight size, roof complexity, and weather conditions."
+      }
+    }
+  ],
+  "description": "Installation time usually ranges from one to three days, depending on skylight size, roof complexity, and weather conditions."
 }

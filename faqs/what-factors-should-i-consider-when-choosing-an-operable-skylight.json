@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing an operable skylight?",
-  "description": "Consider size, opening mechanism, glazing, frame material, warranty, and accessories when choosing an operable skylight.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-an-operable-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing an operable skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting an operable skylight, key considerations include the skylight's size and placement for optimal light and ventilation, the type of opening mechanism (manual, electric, or solar-powered), glazing options for energy efficiency and UV protection, and the material of the frame. Also, evaluate the warranty and available accessories like blinds or rain sensors. Your choice should align with your aesthetic preferences, budget, and specific needs for light and airflow within your home.",
-        "description": "Consider size, opening mechanism, glazing, frame material, warranty, and accessories when choosing an operable skylight."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing an operable skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing an operable skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting an operable skylight, key considerations include the skylight's size and placement for optimal light and ventilation, the type of opening mechanism (manual, electric, or solar-powered), glazing options for energy efficiency and UV protection, and the material of the frame. Also, evaluate the warranty and available accessories like blinds or rain sensors. Your choice should align with your aesthetic preferences, budget, and specific needs for light and airflow within your home.",
+        "@type": "Answer",
+        "description": "Consider size, opening mechanism, glazing, frame material, warranty, and accessories when choosing an operable skylight."
+      }
+    }
+  ],
+  "description": "Consider size, opening mechanism, glazing, frame material, warranty, and accessories when choosing an operable skylight."
 }

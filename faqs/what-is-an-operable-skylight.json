@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an operable skylight?",
-  "description": "An operable skylight is a roof-mounted window that can open for ventilation and light, unlike a fixed skylight.",
   "url": "https://hometelligentinc.com/faq/what-is-an-operable-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an operable skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An operable skylight is a window installed on a roof that can be opened or closed, either manually or via a remote control system. This feature allows for natural ventilation, helping to regulate indoor temperatures and improve air quality. It differs from a fixed skylight, which provides natural light but does not open. When considering an operable skylight, assess your ventilation needs and roof access to determine if a manual crank or an electric/solar-powered option is more suitable for your home.",
-        "description": "An operable skylight is a roof-mounted window that can open for ventilation and light, unlike a fixed skylight."
-      }
-    }
-  ],
+  "name": "What is an operable skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an operable skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An operable skylight is a window installed on a roof that can be opened or closed, either manually or via a remote control system. This feature allows for natural ventilation, helping to regulate indoor temperatures and improve air quality. It differs from a fixed skylight, which provides natural light but does not open. When considering an operable skylight, assess your ventilation needs and roof access to determine if a manual crank or an electric/solar-powered option is more suitable for your home.",
+        "@type": "Answer",
+        "description": "An operable skylight is a roof-mounted window that can open for ventilation and light, unlike a fixed skylight."
+      }
+    }
+  ],
+  "description": "An operable skylight is a roof-mounted window that can open for ventilation and light, unlike a fixed skylight."
 }

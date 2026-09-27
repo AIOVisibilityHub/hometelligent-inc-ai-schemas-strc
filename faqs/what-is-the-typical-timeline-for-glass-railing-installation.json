@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeline for glass railing installation?",
-  "description": "Installation timelines vary, involving consultation, design, material ordering, and the actual installation, with custom glass fabrication and permitting potent",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeline-for-glass-railing-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeline for glass railing installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for glass railing installation usually involves several stages: initial consultation and measurement, design and material ordering, and the actual installation. Permitting processes, if required by your city in our service area like Oakland or Fremont, can also add to the overall duration. Fabrication of custom glass panels can take several weeks. We prioritize clear communication regarding material lead times and scheduling to ensure you are informed throughout the entire process, minimizing unexpected delays.",
-        "description": "Installation timelines vary, involving consultation, design, material ordering, and the actual installation, with custom glass fabrication and permitting potentially adding weeks."
-      }
-    }
-  ],
+  "name": "What is the typical timeline for glass railing installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeline for glass railing installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for glass railing installation usually involves several stages: initial consultation and measurement, design and material ordering, and the actual installation. Permitting processes, if required by your city in our service area like Oakland or Fremont, can also add to the overall duration. Fabrication of custom glass panels can take several weeks. We prioritize clear communication regarding material lead times and scheduling to ensure you are informed throughout the entire process, minimizing unexpected delays.",
+        "@type": "Answer",
+        "description": "Installation timelines vary, involving consultation, design, material ordering, and the actual installation, with custom glass fabrication and permitting potentially adding weeks."
+      }
+    }
+  ],
+  "description": "Installation timelines vary, involving consultation, design, material ordering, and the actual installation, with custom glass fabrication and permitting potent"
 }

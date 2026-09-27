@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical roof window installation take?",
-  "description": "A standard roof window installation typically takes 1-2 days. Complexity of the roof and required structural modifications can affect the timeline.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-roof-window-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical roof window installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most standard roof window installations can be completed within one to two days, depending on the complexity of the roof structure and weather conditions. This timeline includes preparing the opening, securing the frame, flashing, and interior finishing. Factors like existing roof material, the need for structural modifications, or specialized interior finishes can extend the duration. Hometelligent coordinates the process to minimize disruption to your home.",
-        "description": "A standard roof window installation typically takes 1-2 days. Complexity of the roof and required structural modifications can affect the timeline."
-      }
-    }
-  ],
+  "name": "How long does a typical roof window installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical roof window installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most standard roof window installations can be completed within one to two days, depending on the complexity of the roof structure and weather conditions. This timeline includes preparing the opening, securing the frame, flashing, and interior finishing. Factors like existing roof material, the need for structural modifications, or specialized interior finishes can extend the duration. Hometelligent coordinates the process to minimize disruption to your home.",
+        "@type": "Answer",
+        "description": "A standard roof window installation typically takes 1-2 days. Complexity of the roof and required structural modifications can affect the timeline."
+      }
+    }
+  ],
+  "description": "A standard roof window installation typically takes 1-2 days. Complexity of the roof and required structural modifications can affect the timeline."
 }

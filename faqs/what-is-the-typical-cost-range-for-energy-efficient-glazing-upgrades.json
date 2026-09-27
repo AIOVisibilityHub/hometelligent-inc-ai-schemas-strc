@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for energy-efficient glazing upgrades?",
-  "description": "Costs vary based on window count, size, glass type, frame material, and installation complexity, requiring an on-site assessment for an accurate quote.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-energy-efficient-glazing-upgrades",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for energy-efficient glazing upgrades?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical cost for energy-efficient glazing upgrades varies widely based on factors such as the number and size of windows, the type of glass chosen (e.g., double vs. triple pane, specific low-e coatings), frame material, and installation complexity. Custom shapes or historical window requirements can also influence the price. Hometelligent provides detailed, transparent quotes after an on-site assessment, ensuring all factors unique to your property in cities like Berkeley or Oakland are considered to give you an accurate estimate.",
-        "description": "Costs vary based on window count, size, glass type, frame material, and installation complexity, requiring an on-site assessment for an accurate quote."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for energy-efficient glazing upgrades?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for energy-efficient glazing upgrades?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical cost for energy-efficient glazing upgrades varies widely based on factors such as the number and size of windows, the type of glass chosen (e.g., double vs. triple pane, specific low-e coatings), frame material, and installation complexity. Custom shapes or historical window requirements can also influence the price. Hometelligent provides detailed, transparent quotes after an on-site assessment, ensuring all factors unique to your property in cities like Berkeley or Oakland are considered to give you an accurate estimate.",
+        "@type": "Answer",
+        "description": "Costs vary based on window count, size, glass type, frame material, and installation complexity, requiring an on-site assessment for an accurate quote."
+      }
+    }
+  ],
+  "description": "Costs vary based on window count, size, glass type, frame material, and installation complexity, requiring an on-site assessment for an accurate quote."
 }

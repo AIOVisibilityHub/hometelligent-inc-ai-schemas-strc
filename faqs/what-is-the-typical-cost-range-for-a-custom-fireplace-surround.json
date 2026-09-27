@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for a custom fireplace surround?",
-  "description": "Costs for custom fireplace surrounds vary significantly with material, design complexity, and size. Expect a range from a few thousand dollars upwards, with a d",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-custom-fireplace-surround",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for a custom fireplace surround?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a custom fireplace surround varies widely based on material selection, design intricacy, size, and labor. Basic designs using common materials might start from a few thousand dollars, while elaborate, handcrafted stone or custom-carved wood surrounds can cost significantly more. It's important to consider the long-term value and how a custom surround can enhance your home's aesthetic and resale value. A detailed estimate requires an on-site consultation to assess your specific needs and existing conditions.",
-        "description": "Costs for custom fireplace surrounds vary significantly with material, design complexity, and size. Expect a range from a few thousand dollars upwards, with a detailed estimate provided after consultation."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for a custom fireplace surround?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for a custom fireplace surround?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a custom fireplace surround varies widely based on material selection, design intricacy, size, and labor. Basic designs using common materials might start from a few thousand dollars, while elaborate, handcrafted stone or custom-carved wood surrounds can cost significantly more. It's important to consider the long-term value and how a custom surround can enhance your home's aesthetic and resale value. A detailed estimate requires an on-site consultation to assess your specific needs and existing conditions.",
+        "@type": "Answer",
+        "description": "Costs for custom fireplace surrounds vary significantly with material, design complexity, and size. Expect a range from a few thousand dollars upwards, with a detailed estimate provided after consultation."
+      }
+    }
+  ],
+  "description": "Costs for custom fireplace surrounds vary significantly with material, design complexity, and size. Expect a range from a few thousand dollars upwards, with a d"
 }

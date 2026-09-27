@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of skylights are available for home installation?",
-  "description": "Common types of skylights include fixed, ventilating, and tubular, offering options for natural light and ventilation.",
   "url": "https://hometelligentinc.com/faq/what-types-of-skylights-are-available-for-home-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of skylights are available for home installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There are several common types of skylights, including fixed, ventilating (manual or electric), and tubular. Fixed skylights are sealed and do not open, providing natural light. Ventilating skylights can be opened to allow fresh air and passive cooling. Tubular skylights are designed for small spaces, channeling natural light through a reflective tube. When considering types, a key decision factor is whether you prioritize ventilation and air circulation in addition to natural light; this will help determine if a fixed or ventilating model is more suitable for your space.",
-        "description": "Common types of skylights include fixed, ventilating, and tubular, offering options for natural light and ventilation."
-      }
-    }
-  ],
+  "name": "What types of skylights are available for home installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of skylights are available for home installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "There are several common types of skylights, including fixed, ventilating (manual or electric), and tubular. Fixed skylights are sealed and do not open, providing natural light. Ventilating skylights can be opened to allow fresh air and passive cooling. Tubular skylights are designed for small spaces, channeling natural light through a reflective tube. When considering types, a key decision factor is whether you prioritize ventilation and air circulation in addition to natural light; this will help determine if a fixed or ventilating model is more suitable for your space.",
+        "@type": "Answer",
+        "description": "Common types of skylights include fixed, ventilating, and tubular, offering options for natural light and ventilation."
+      }
+    }
+  ],
+  "description": "Common types of skylights include fixed, ventilating, and tubular, offering options for natural light and ventilation."
 }

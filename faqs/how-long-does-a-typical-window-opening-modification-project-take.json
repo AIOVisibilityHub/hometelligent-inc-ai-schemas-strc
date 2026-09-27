@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical window opening modification project take?",
-  "description": "Project duration varies by complexity, from a few days for simple changes to several weeks for major structural modifications or custom fabrications.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-window-opening-modification-project-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical window opening modification project take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a window opening modification project depends on its complexity, the number of windows, and the specific structural changes required. Simple enlargements might take a few days, while converting a window into a large sliding door with significant structural alterations could take several weeks. Factors like the age of the home, weather conditions, and the need for custom window fabrication also influence the timeline. We provide a detailed project schedule after the initial assessment, considering factors such as material lead times and permitting processes common in areas like Oakland or Fremont.",
-        "description": "Project duration varies by complexity, from a few days for simple changes to several weeks for major structural modifications or custom fabrications."
-      }
-    }
-  ],
+  "name": "How long does a typical window opening modification project take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical window opening modification project take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a window opening modification project depends on its complexity, the number of windows, and the specific structural changes required. Simple enlargements might take a few days, while converting a window into a large sliding door with significant structural alterations could take several weeks. Factors like the age of the home, weather conditions, and the need for custom window fabrication also influence the timeline. We provide a detailed project schedule after the initial assessment, considering factors such as material lead times and permitting processes common in areas like Oakland or Fremont.",
+        "@type": "Answer",
+        "description": "Project duration varies by complexity, from a few days for simple changes to several weeks for major structural modifications or custom fabrications."
+      }
+    }
+  ],
+  "description": "Project duration varies by complexity, from a few days for simple changes to several weeks for major structural modifications or custom fabrications."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can finish carpentry add value to my home?",
-  "description": "Quality finish carpentry, like custom built-ins and moldings, adds significant aesthetic and resale value by enhancing a home's craftsmanship and appeal.",
   "url": "https://hometelligentinc.com/faq/can-finish-carpentry-add-value-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can finish carpentry add value to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, high-quality finish carpentry can significantly enhance a home's perceived value and aesthetic appeal. Well-executed trim work, custom built-ins, and detailed moldings create a sense of craftsmanship and luxury that distinguishes a property. Prospective buyers often notice these refined details, which can contribute to a higher selling price. When planning your project, Hometelligent Inc. can guide you on options that offer strong returns on investment, considering current market trends in areas like Berkeley or Alameda.",
-        "description": "Quality finish carpentry, like custom built-ins and moldings, adds significant aesthetic and resale value by enhancing a home's craftsmanship and appeal."
-      }
-    }
-  ],
+  "name": "Can finish carpentry add value to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can finish carpentry add value to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, high-quality finish carpentry can significantly enhance a home's perceived value and aesthetic appeal. Well-executed trim work, custom built-ins, and detailed moldings create a sense of craftsmanship and luxury that distinguishes a property. Prospective buyers often notice these refined details, which can contribute to a higher selling price. When planning your project, Hometelligent Inc. can guide you on options that offer strong returns on investment, considering current market trends in areas like Berkeley or Alameda.",
+        "@type": "Answer",
+        "description": "Quality finish carpentry, like custom built-ins and moldings, adds significant aesthetic and resale value by enhancing a home's craftsmanship and appeal."
+      }
+    }
+  ],
+  "description": "Quality finish carpentry, like custom built-ins and moldings, adds significant aesthetic and resale value by enhancing a home's craftsmanship and appeal."
 }

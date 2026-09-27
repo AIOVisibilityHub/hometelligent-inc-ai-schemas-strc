@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the signs that my skylight needs to be replaced?",
-  "description": "Signs include leaks, drafts, condensation, cracks, or yellowing/fogging of the dome, especially in older units.",
   "url": "https://hometelligentinc.com/faq/what-are-the-signs-that-my-skylight-needs-to-be-replaced",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the signs that my skylight needs to be replaced?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common indicators that your skylight may need replacement include visible leaks, drafts, condensation between the glass panes, or cracks in the glass or frame. You might also notice a yellowing or fogging of the acrylic or polycarbonate dome, which reduces light transmission. Older skylights, especially those over 20 years old, are often less energy-efficient and may benefit from replacement with modern, insulated units to improve your home's thermal performance.",
-        "description": "Signs include leaks, drafts, condensation, cracks, or yellowing/fogging of the dome, especially in older units."
-      }
-    }
-  ],
+  "name": "What are the signs that my skylight needs to be replaced?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the signs that my skylight needs to be replaced?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common indicators that your skylight may need replacement include visible leaks, drafts, condensation between the glass panes, or cracks in the glass or frame. You might also notice a yellowing or fogging of the acrylic or polycarbonate dome, which reduces light transmission. Older skylights, especially those over 20 years old, are often less energy-efficient and may benefit from replacement with modern, insulated units to improve your home's thermal performance.",
+        "@type": "Answer",
+        "description": "Signs include leaks, drafts, condensation, cracks, or yellowing/fogging of the dome, especially in older units."
+      }
+    }
+  ],
+  "description": "Signs include leaks, drafts, condensation, cracks, or yellowing/fogging of the dome, especially in older units."
 }

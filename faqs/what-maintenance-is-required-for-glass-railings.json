@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for glass railings?",
-  "description": "Glass railings primarily need regular cleaning of glass panels and occasional inspection of hardware, particularly in coastal areas.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-glass-railings",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for glass railings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Glass railings require relatively low maintenance. The primary task is regular cleaning of the glass panels to remove dirt, smudges, and water spots, which can be done with standard glass cleaner or mild soap and water. For hardware, occasional inspection for loose connections or signs of corrosion, especially in coastal areas like Alameda, is recommended. Timely cleaning not only preserves the aesthetic appeal but also helps prevent buildup that could etch the glass over time, ensuring longevity.",
-        "description": "Glass railings primarily need regular cleaning of glass panels and occasional inspection of hardware, particularly in coastal areas."
-      }
-    }
-  ],
+  "name": "What maintenance is required for glass railings?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for glass railings?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Glass railings require relatively low maintenance. The primary task is regular cleaning of the glass panels to remove dirt, smudges, and water spots, which can be done with standard glass cleaner or mild soap and water. For hardware, occasional inspection for loose connections or signs of corrosion, especially in coastal areas like Alameda, is recommended. Timely cleaning not only preserves the aesthetic appeal but also helps prevent buildup that could etch the glass over time, ensuring longevity.",
+        "@type": "Answer",
+        "description": "Glass railings primarily need regular cleaning of glass panels and occasional inspection of hardware, particularly in coastal areas."
+      }
+    }
+  ],
+  "description": "Glass railings primarily need regular cleaning of glass panels and occasional inspection of hardware, particularly in coastal areas."
 }

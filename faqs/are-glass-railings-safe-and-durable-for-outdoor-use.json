@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are glass railings safe and durable for outdoor use?",
-  "description": "Glass railings are safe and durable for outdoor use, utilizing tempered or laminated safety glass and corrosion-resistant hardware for longevity.",
   "url": "https://hometelligentinc.com/faq/are-glass-railings-safe-and-durable-for-outdoor-use",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are glass railings safe and durable for outdoor use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, glass railings are designed to be safe and durable for outdoor environments. We use tempered or laminated safety glass, which is significantly stronger than standard glass and designed to break into small, blunt pieces if shattered. For outdoor applications, hardware is typically made from marine-grade stainless steel or aluminum to resist corrosion from weather exposure. Regular cleaning and occasional inspection of hardware can help maintain the railing's integrity and appearance over time, ensuring long-term safety.",
-        "description": "Glass railings are safe and durable for outdoor use, utilizing tempered or laminated safety glass and corrosion-resistant hardware for longevity."
-      }
-    }
-  ],
+  "name": "Are glass railings safe and durable for outdoor use?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are glass railings safe and durable for outdoor use?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, glass railings are designed to be safe and durable for outdoor environments. We use tempered or laminated safety glass, which is significantly stronger than standard glass and designed to break into small, blunt pieces if shattered. For outdoor applications, hardware is typically made from marine-grade stainless steel or aluminum to resist corrosion from weather exposure. Regular cleaning and occasional inspection of hardware can help maintain the railing's integrity and appearance over time, ensuring long-term safety.",
+        "@type": "Answer",
+        "description": "Glass railings are safe and durable for outdoor use, utilizing tempered or laminated safety glass and corrosion-resistant hardware for longevity."
+      }
+    }
+  ],
+  "description": "Glass railings are safe and durable for outdoor use, utilizing tempered or laminated safety glass and corrosion-resistant hardware for longevity."
 }

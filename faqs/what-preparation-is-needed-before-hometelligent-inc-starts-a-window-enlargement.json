@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before Hometelligent Inc. starts a window enlargement project?",
-  "description": "Clear the work area of furniture and decor, and trim exterior landscaping. We will discuss specific preparations during consultation.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-hometelligent-inc-starts-a-window-enlargement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before Hometelligent Inc. starts a window enlargement project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before we begin, we recommend clearing the work area of furniture, decor, and personal items to protect them from dust and allow our team unobstructed access. If the work involves exterior modifications, ensure landscaping around the window is trimmed back. We'll discuss specific preparations during our consultation, including any temporary utility adjustments, to ensure a smooth and efficient start to your project.",
-        "description": "Clear the work area of furniture and decor, and trim exterior landscaping. We will discuss specific preparations during consultation."
-      }
-    }
-  ],
+  "name": "What preparation is needed before Hometelligent Inc. starts a window enlargement project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before Hometelligent Inc. starts a window enlargement project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before we begin, we recommend clearing the work area of furniture, decor, and personal items to protect them from dust and allow our team unobstructed access. If the work involves exterior modifications, ensure landscaping around the window is trimmed back. We'll discuss specific preparations during our consultation, including any temporary utility adjustments, to ensure a smooth and efficient start to your project.",
+        "@type": "Answer",
+        "description": "Clear the work area of furniture and decor, and trim exterior landscaping. We will discuss specific preparations during consultation."
+      }
+    }
+  ],
+  "description": "Clear the work area of furniture and decor, and trim exterior landscaping. We will discuss specific preparations during consultation."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before a skylight installation appointment?",
-  "description": "Before installation, clear the interior and exterior areas around the skylight location, and discuss any concerns with the installation team.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-a-skylight-installation-appointment",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before a skylight installation appointment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your skylight installation appointment, you should clear the area directly below and around where the skylight will be installed, both inside and outside your home. This includes moving furniture, valuables, and plants to protect them from dust and debris. We also recommend discussing any specific concerns or aesthetic preferences with our team beforehand. This preparation ensures our crew has clear access and helps the installation proceed smoothly and efficiently, minimizing disruption to your home.",
-        "description": "Before installation, clear the interior and exterior areas around the skylight location, and discuss any concerns with the installation team."
-      }
-    }
-  ],
+  "name": "What should I prepare before a skylight installation appointment?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before a skylight installation appointment?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your skylight installation appointment, you should clear the area directly below and around where the skylight will be installed, both inside and outside your home. This includes moving furniture, valuables, and plants to protect them from dust and debris. We also recommend discussing any specific concerns or aesthetic preferences with our team beforehand. This preparation ensures our crew has clear access and helps the installation proceed smoothly and efficiently, minimizing disruption to your home.",
+        "@type": "Answer",
+        "description": "Before installation, clear the interior and exterior areas around the skylight location, and discuss any concerns with the installation team."
+      }
+    }
+  ],
+  "description": "Before installation, clear the interior and exterior areas around the skylight location, and discuss any concerns with the installation team."
 }

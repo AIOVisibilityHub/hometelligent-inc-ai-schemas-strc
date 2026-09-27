@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of energy-efficient glazing are available?",
-  "description": "Available types include double and triple-pane windows with inert gas fills and low-emissivity coatings, chosen based on budget, energy goals, and climate.",
   "url": "https://hometelligentinc.com/faq/what-types-of-energy-efficient-glazing-are-available",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of energy-efficient glazing are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Several types of energy-efficient glazing are available, primarily differing in the number of panes, the type of gas fill, and the low-e coatings used. Options include double-pane, triple-pane, and even some specialized quadruple-pane units. Low-e coatings are applied to glass surfaces to reflect infrared light, improving thermal performance. The best choice for your home depends on factors like your budget, desired energy savings, and local climate conditions. For example, in sunnier areas like Fremont or Hayward Acres, specific low-e coatings designed to block solar heat gain might be prioritized.",
-        "description": "Available types include double and triple-pane windows with inert gas fills and low-emissivity coatings, chosen based on budget, energy goals, and climate."
-      }
-    }
-  ],
+  "name": "What types of energy-efficient glazing are available?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of energy-efficient glazing are available?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Several types of energy-efficient glazing are available, primarily differing in the number of panes, the type of gas fill, and the low-e coatings used. Options include double-pane, triple-pane, and even some specialized quadruple-pane units. Low-e coatings are applied to glass surfaces to reflect infrared light, improving thermal performance. The best choice for your home depends on factors like your budget, desired energy savings, and local climate conditions. For example, in sunnier areas like Fremont or Hayward Acres, specific low-e coatings designed to block solar heat gain might be prioritized.",
+        "@type": "Answer",
+        "description": "Available types include double and triple-pane windows with inert gas fills and low-emissivity coatings, chosen based on budget, energy goals, and climate."
+      }
+    }
+  ],
+  "description": "Available types include double and triple-pane windows with inert gas fills and low-emissivity coatings, chosen based on budget, energy goals, and climate."
 }

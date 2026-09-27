@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common types of glass used for interior glass walls?",
-  "description": "Tempered and laminated glass are commonly used for interior glass walls due to their safety and durability. The best type depends on the specific application an",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-glass-used-for-interior-glass-walls",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common types of glass used for interior glass walls?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Interior glass walls commonly use tempered or laminated glass for safety and durability. Tempered glass is heat-treated to be four to five times stronger than standard glass and shatters into small, blunt pieces if broken. Laminated glass consists of two or more glass panes bonded with a plastic interlayer, which holds the glass together if it breaks. The choice depends on the specific application, desired level of sound insulation, and safety requirements. For instance, a higher traffic area might benefit more from laminated glass due to its enhanced safety properties.",
-        "description": "Tempered and laminated glass are commonly used for interior glass walls due to their safety and durability. The best type depends on the specific application and safety needs."
-      }
-    }
-  ],
+  "name": "What are the common types of glass used for interior glass walls?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common types of glass used for interior glass walls?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Interior glass walls commonly use tempered or laminated glass for safety and durability. Tempered glass is heat-treated to be four to five times stronger than standard glass and shatters into small, blunt pieces if broken. Laminated glass consists of two or more glass panes bonded with a plastic interlayer, which holds the glass together if it breaks. The choice depends on the specific application, desired level of sound insulation, and safety requirements. For instance, a higher traffic area might benefit more from laminated glass due to its enhanced safety properties.",
+        "@type": "Answer",
+        "description": "Tempered and laminated glass are commonly used for interior glass walls due to their safety and durability. The best type depends on the specific application and safety needs."
+      }
+    }
+  ],
+  "description": "Tempered and laminated glass are commonly used for interior glass walls due to their safety and durability. The best type depends on the specific application an"
 }

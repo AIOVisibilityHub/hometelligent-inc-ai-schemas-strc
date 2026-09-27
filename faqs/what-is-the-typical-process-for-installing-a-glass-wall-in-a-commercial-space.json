@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for installing a glass wall in a commercial space?",
-  "description": "The process involves site assessment, precise measurements, framing installation, glass panel placement, and hardware integration. Accurate initial measurements",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-installing-a-glass-wall-in-a-commercial-space",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for installing a glass wall in a commercial space?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process begins with a site assessment and precise measurements to ensure a perfect fit. This is followed by preparing the floor, ceiling, and adjacent walls for the framing system. Once the framing is securely installed, the custom-cut glass panels are carefully fitted and secured into place. Finally, any necessary hardware, such as doors or privacy features, are integrated, and the system is thoroughly cleaned and inspected. Precise measurements during the initial phase are critical to avoid delays and ensure a seamless installation, especially in commercial environments where disruptions must be minimized.",
-        "description": "The process involves site assessment, precise measurements, framing installation, glass panel placement, and hardware integration. Accurate initial measurements are crucial for a smooth commercial installation."
-      }
-    }
-  ],
+  "name": "What is the typical process for installing a glass wall in a commercial space?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for installing a glass wall in a commercial space?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process begins with a site assessment and precise measurements to ensure a perfect fit. This is followed by preparing the floor, ceiling, and adjacent walls for the framing system. Once the framing is securely installed, the custom-cut glass panels are carefully fitted and secured into place. Finally, any necessary hardware, such as doors or privacy features, are integrated, and the system is thoroughly cleaned and inspected. Precise measurements during the initial phase are critical to avoid delays and ensure a seamless installation, especially in commercial environments where disruptions must be minimized.",
+        "@type": "Answer",
+        "description": "The process involves site assessment, precise measurements, framing installation, glass panel placement, and hardware integration. Accurate initial measurements are crucial for a smooth commercial installation."
+      }
+    }
+  ],
+  "description": "The process involves site assessment, precise measurements, framing installation, glass panel placement, and hardware integration. Accurate initial measurements"
 }

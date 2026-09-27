@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When is the best time for finish carpentry during a home renovation?",
-  "description": "The best time for finish carpentry is usually after painting and before flooring installation, protecting delicate finishes.",
   "url": "https://hometelligentinc.com/faq/when-is-the-best-time-for-finish-carpentry-during-a-home-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is the best time for finish carpentry during a home renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Finish carpentry is typically performed after drywall installation and painting are completed, but before flooring is laid, especially for delicate wood species. This sequence ensures that the finished surfaces are protected from damage during messy construction phases and that trim pieces can be perfectly fitted against clean walls. Planning the timing with your overall renovation schedule is crucial to avoid delays and ensure the highest quality outcome for these detailed installations. Your project manager at Hometelligent Inc. will coordinate these stages to maintain efficiency and precision.",
-        "description": "The best time for finish carpentry is usually after painting and before flooring installation, protecting delicate finishes."
-      }
-    }
-  ],
+  "name": "When is the best time for finish carpentry during a home renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When is the best time for finish carpentry during a home renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Finish carpentry is typically performed after drywall installation and painting are completed, but before flooring is laid, especially for delicate wood species. This sequence ensures that the finished surfaces are protected from damage during messy construction phases and that trim pieces can be perfectly fitted against clean walls. Planning the timing with your overall renovation schedule is crucial to avoid delays and ensure the highest quality outcome for these detailed installations. Your project manager at Hometelligent Inc. will coordinate these stages to maintain efficiency and precision.",
+        "@type": "Answer",
+        "description": "The best time for finish carpentry is usually after painting and before flooring installation, protecting delicate finishes."
+      }
+    }
+  ],
+  "description": "The best time for finish carpentry is usually after painting and before flooring installation, protecting delicate finishes."
 }

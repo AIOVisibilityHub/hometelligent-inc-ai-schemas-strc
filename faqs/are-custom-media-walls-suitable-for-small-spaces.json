@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are custom media walls suitable for small spaces?",
-  "description": "Custom media walls are ideal for small spaces, optimizing vertical room and providing integrated storage to reduce clutter.",
   "url": "https://hometelligentinc.com/faq/are-custom-media-walls-suitable-for-small-spaces",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are custom media walls suitable for small spaces?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, custom media walls are particularly well-suited for small spaces because they optimize vertical space and can be designed to exact dimensions, eliminating wasted room. This allows for integrated storage and a streamlined appearance, making the room feel larger and less cluttered. A decision factor is that a well-designed custom unit can maximize functionality and aesthetics in constrained areas far better than off-the-shelf solutions.",
-        "description": "Custom media walls are ideal for small spaces, optimizing vertical room and providing integrated storage to reduce clutter."
-      }
-    }
-  ],
+  "name": "Are custom media walls suitable for small spaces?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are custom media walls suitable for small spaces?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, custom media walls are particularly well-suited for small spaces because they optimize vertical space and can be designed to exact dimensions, eliminating wasted room. This allows for integrated storage and a streamlined appearance, making the room feel larger and less cluttered. A decision factor is that a well-designed custom unit can maximize functionality and aesthetics in constrained areas far better than off-the-shelf solutions.",
+        "@type": "Answer",
+        "description": "Custom media walls are ideal for small spaces, optimizing vertical room and providing integrated storage to reduce clutter."
+      }
+    }
+  ],
+  "description": "Custom media walls are ideal for small spaces, optimizing vertical room and providing integrated storage to reduce clutter."
 }

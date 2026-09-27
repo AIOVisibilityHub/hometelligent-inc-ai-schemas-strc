@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install a custom media wall?",
-  "description": "Installation time varies by complexity, from a few days to a couple of weeks, with unforeseen structural work potentially extending it.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-a-custom-media-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install a custom media wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeline for a custom media wall varies based on its complexity, size, and chosen materials. Typically, after the design phase and material procurement, on-site installation can range from a few days to a couple of weeks. Process clarity suggests that unforeseen structural elements or extensive electrical work discovered during demolition can extend this timeline.",
-        "description": "Installation time varies by complexity, from a few days to a couple of weeks, with unforeseen structural work potentially extending it."
-      }
-    }
-  ],
+  "name": "How long does it take to install a custom media wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install a custom media wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeline for a custom media wall varies based on its complexity, size, and chosen materials. Typically, after the design phase and material procurement, on-site installation can range from a few days to a couple of weeks. Process clarity suggests that unforeseen structural elements or extensive electrical work discovered during demolition can extend this timeline.",
+        "@type": "Answer",
+        "description": "Installation time varies by complexity, from a few days to a couple of weeks, with unforeseen structural work potentially extending it."
+      }
+    }
+  ],
+  "description": "Installation time varies by complexity, from a few days to a couple of weeks, with unforeseen structural work potentially extending it."
 }

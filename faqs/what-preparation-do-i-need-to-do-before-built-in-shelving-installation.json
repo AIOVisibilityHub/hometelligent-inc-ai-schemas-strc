@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation do I need to do before built-in shelving installation?",
-  "description": "Clear the installation area of furniture and belongings, discuss electrical/plumbing needs, and consider protecting nearby items.",
   "url": "https://hometelligentinc.com/faq/what-preparation-do-i-need-to-do-before-built-in-shelving-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation do I need to do before built-in shelving installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before built-in shelving installation, you'll need to clear the designated area of all furniture, decor, and personal belongings. This ensures our team has unobstructed access to the workspace. If any electrical outlets or switches are in the installation area, discuss relocation or modification with us during the design phase. We also recommend protecting nearby floors and furniture with drop cloths, though our team will take precautions to keep the workspace tidy. This preparation ensures a smooth and efficient installation process for your custom shelving project.",
-        "description": "Clear the installation area of furniture and belongings, discuss electrical/plumbing needs, and consider protecting nearby items."
-      }
-    }
-  ],
+  "name": "What preparation do I need to do before built-in shelving installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation do I need to do before built-in shelving installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before built-in shelving installation, you'll need to clear the designated area of all furniture, decor, and personal belongings. This ensures our team has unobstructed access to the workspace. If any electrical outlets or switches are in the installation area, discuss relocation or modification with us during the design phase. We also recommend protecting nearby floors and furniture with drop cloths, though our team will take precautions to keep the workspace tidy. This preparation ensures a smooth and efficient installation process for your custom shelving project.",
+        "@type": "Answer",
+        "description": "Clear the installation area of furniture and belongings, discuss electrical/plumbing needs, and consider protecting nearby items."
+      }
+    }
+  ],
+  "description": "Clear the installation area of furniture and belongings, discuss electrical/plumbing needs, and consider protecting nearby items."
 }

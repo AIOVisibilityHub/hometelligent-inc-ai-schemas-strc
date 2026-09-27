@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to install a tubular skylight?",
-  "description": "Installation costs for tubular skylights vary by size, tube length, roof type, and installation complexity.",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-install-a-tubular-skylight",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to install a tubular skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of installing a tubular skylight varies based on factors such as the size of the skylight, the length of the light tube required, roof type, and the complexity of the installation. For example, installations on tile or metal roofs might incur slightly higher labor costs than on standard asphalt shingle roofs. We provide detailed estimates after an on-site assessment to ensure accuracy, considering the specific conditions of your home.",
-        "description": "Installation costs for tubular skylights vary by size, tube length, roof type, and installation complexity."
-      }
-    }
-  ],
+  "name": "How much does it cost to install a tubular skylight?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to install a tubular skylight?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of installing a tubular skylight varies based on factors such as the size of the skylight, the length of the light tube required, roof type, and the complexity of the installation. For example, installations on tile or metal roofs might incur slightly higher labor costs than on standard asphalt shingle roofs. We provide detailed estimates after an on-site assessment to ensure accuracy, considering the specific conditions of your home.",
+        "@type": "Answer",
+        "description": "Installation costs for tubular skylights vary by size, tube length, roof type, and installation complexity."
+      }
+    }
+  ],
+  "description": "Installation costs for tubular skylights vary by size, tube length, roof type, and installation complexity."
 }

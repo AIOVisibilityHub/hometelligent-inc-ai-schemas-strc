@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does double-pane glazing improve home energy efficiency?",
-  "description": "Double-pane glazing improves energy efficiency by creating an insulating air or gas-filled barrier between two glass panes, reducing heat transfer and lowering",
   "url": "https://hometelligentinc.com/faq/how-does-double-pane-glazing-improve-home-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does double-pane glazing improve home energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Double-pane glazing, also known as insulated glass units (IGUs), enhances energy efficiency by creating a sealed air or gas-filled space between two panes of glass. This gap acts as an insulating barrier, reducing heat transfer through the window. This means your home stays warmer in winter and cooler in summer, leading to lower energy bills. When considering an upgrade in areas like Alameda, it's a practical tradeoff: the initial investment in IGUs is higher than single-pane, but the long-term energy savings often outweigh the upfront cost.",
-        "description": "Double-pane glazing improves energy efficiency by creating an insulating air or gas-filled barrier between two glass panes, reducing heat transfer and lowering energy costs."
-      }
-    }
-  ],
+  "name": "How does double-pane glazing improve home energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does double-pane glazing improve home energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Double-pane glazing, also known as insulated glass units (IGUs), enhances energy efficiency by creating a sealed air or gas-filled space between two panes of glass. This gap acts as an insulating barrier, reducing heat transfer through the window. This means your home stays warmer in winter and cooler in summer, leading to lower energy bills. When considering an upgrade in areas like Alameda, it's a practical tradeoff: the initial investment in IGUs is higher than single-pane, but the long-term energy savings often outweigh the upfront cost.",
+        "@type": "Answer",
+        "description": "Double-pane glazing improves energy efficiency by creating an insulating air or gas-filled barrier between two glass panes, reducing heat transfer and lowering energy costs."
+      }
+    }
+  ],
+  "description": "Double-pane glazing improves energy efficiency by creating an insulating air or gas-filled barrier between two glass panes, reducing heat transfer and lowering"
 }

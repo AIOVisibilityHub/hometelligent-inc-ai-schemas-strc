@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there energy-efficient options for skylights?",
-  "description": "Energy-efficient skylights feature low-e coatings, insulated glass, and gas fills to reduce heat transfer and improve insulation.",
   "url": "https://hometelligentinc.com/faq/are-there-energy-efficient-options-for-skylights",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there energy-efficient options for skylights?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, many energy-efficient skylight options are available. These often feature low-emissivity (low-e) coatings, insulated glass (double or triple-pane), and inert gas fills like argon or krypton between panes. These features help to reduce heat transfer, keeping your home cooler in summer and warmer in winter. When making a comparison, consider the U-factor (heat loss) and Solar Heat Gain Coefficient (SHGC - solar radiation admitted) ratings; lower values generally indicate better energy performance and can lead to significant savings on utility bills.",
-        "description": "Energy-efficient skylights feature low-e coatings, insulated glass, and gas fills to reduce heat transfer and improve insulation."
-      }
-    }
-  ],
+  "name": "Are there energy-efficient options for skylights?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there energy-efficient options for skylights?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, many energy-efficient skylight options are available. These often feature low-emissivity (low-e) coatings, insulated glass (double or triple-pane), and inert gas fills like argon or krypton between panes. These features help to reduce heat transfer, keeping your home cooler in summer and warmer in winter. When making a comparison, consider the U-factor (heat loss) and Solar Heat Gain Coefficient (SHGC - solar radiation admitted) ratings; lower values generally indicate better energy performance and can lead to significant savings on utility bills.",
+        "@type": "Answer",
+        "description": "Energy-efficient skylights feature low-e coatings, insulated glass, and gas fills to reduce heat transfer and improve insulation."
+      }
+    }
+  ],
+  "description": "Energy-efficient skylights feature low-e coatings, insulated glass, and gas fills to reduce heat transfer and improve insulation."
 }

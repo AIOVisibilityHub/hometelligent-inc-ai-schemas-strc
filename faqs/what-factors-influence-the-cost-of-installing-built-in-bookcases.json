@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of installing built-in bookcases?",
-  "description": "Cost factors for built-in bookcases include design complexity, material type, finishes, special features, and labor. Material and design choices are key determi",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-installing-built-in-bookcases",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of installing built-in bookcases?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of installing built-in bookcases is influenced by several factors, including the size and complexity of the design, the type of materials used (e.g., solid wood, plywood, MDF), the finishes (paint, stain, custom trim), and any special features like lighting or integrated cabinetry. Labor costs, which vary based on the project's intricacy and the installation duration, also play a significant role. Preparing your budget by considering these material and design choices beforehand helps manage the overall investment.",
-        "description": "Cost factors for built-in bookcases include design complexity, material type, finishes, special features, and labor. Material and design choices are key determinants."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of installing built-in bookcases?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of installing built-in bookcases?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of installing built-in bookcases is influenced by several factors, including the size and complexity of the design, the type of materials used (e.g., solid wood, plywood, MDF), the finishes (paint, stain, custom trim), and any special features like lighting or integrated cabinetry. Labor costs, which vary based on the project's intricacy and the installation duration, also play a significant role. Preparing your budget by considering these material and design choices beforehand helps manage the overall investment.",
+        "@type": "Answer",
+        "description": "Cost factors for built-in bookcases include design complexity, material type, finishes, special features, and labor. Material and design choices are key determinants."
+      }
+    }
+  ],
+  "description": "Cost factors for built-in bookcases include design complexity, material type, finishes, special features, and labor. Material and design choices are key determi"
 }

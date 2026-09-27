@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to get permits for installing built-in bookcases in Alameda?",
-  "description": "Generally, permits are not needed for standard built-in bookcases in Alameda. However, structural changes or significant electrical work may require one. Consul",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-get-permits-for-installing-built-in-bookcases-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to get permits for installing built-in bookcases in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most standard built-in bookcase installations in Alameda, a permit is typically not required as they are considered aesthetic improvements or non-structural modifications. However, if the installation involves structural changes to walls, significant electrical work for integrated lighting, or plumbing, then a permit may be necessary. It's always advisable to consult with Hometelligent Inc. during your initial consultation, as we can help assess whether your specific project might require local permits based on Alameda building codes. This due diligence ensures compliance and avoids potential issues.",
-        "description": "Generally, permits are not needed for standard built-in bookcases in Alameda. However, structural changes or significant electrical work may require one. Consult us to confirm for your specific project."
-      }
-    }
-  ],
+  "name": "Do I need to get permits for installing built-in bookcases in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to get permits for installing built-in bookcases in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For most standard built-in bookcase installations in Alameda, a permit is typically not required as they are considered aesthetic improvements or non-structural modifications. However, if the installation involves structural changes to walls, significant electrical work for integrated lighting, or plumbing, then a permit may be necessary. It's always advisable to consult with Hometelligent Inc. during your initial consultation, as we can help assess whether your specific project might require local permits based on Alameda building codes. This due diligence ensures compliance and avoids potential issues.",
+        "@type": "Answer",
+        "description": "Generally, permits are not needed for standard built-in bookcases in Alameda. However, structural changes or significant electrical work may require one. Consult us to confirm for your specific project."
+      }
+    }
+  ],
+  "description": "Generally, permits are not needed for standard built-in bookcases in Alameda. However, structural changes or significant electrical work may require one. Consul"
 }

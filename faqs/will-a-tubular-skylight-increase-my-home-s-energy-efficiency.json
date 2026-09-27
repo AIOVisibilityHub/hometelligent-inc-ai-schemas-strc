@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will a tubular skylight increase my home's energy efficiency?",
-  "description": "Yes, tubular skylights can increase energy efficiency by reducing the need for artificial lighting and are designed with insulating features.",
   "url": "https://hometelligentinc.com/faq/will-a-tubular-skylight-increase-my-home-s-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will a tubular skylight increase my home's energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a properly installed tubular skylight can contribute to your home's energy efficiency. By maximizing natural daylight, it reduces reliance on electric lighting during daytime hours, lowering electricity consumption. Modern tubular skylights are designed with efficient seals and often include options for insulation or energy-star rated diffusers to minimize heat gain in summer and heat loss in winter. Our installations ensure these energy-saving features are fully utilized.",
-        "description": "Yes, tubular skylights can increase energy efficiency by reducing the need for artificial lighting and are designed with insulating features."
-      }
-    }
-  ],
+  "name": "Will a tubular skylight increase my home's energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will a tubular skylight increase my home's energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a properly installed tubular skylight can contribute to your home's energy efficiency. By maximizing natural daylight, it reduces reliance on electric lighting during daytime hours, lowering electricity consumption. Modern tubular skylights are designed with efficient seals and often include options for insulation or energy-star rated diffusers to minimize heat gain in summer and heat loss in winter. Our installations ensure these energy-saving features are fully utilized.",
+        "@type": "Answer",
+        "description": "Yes, tubular skylights can increase energy efficiency by reducing the need for artificial lighting and are designed with insulating features."
+      }
+    }
+  ],
+  "description": "Yes, tubular skylights can increase energy efficiency by reducing the need for artificial lighting and are designed with insulating features."
 }

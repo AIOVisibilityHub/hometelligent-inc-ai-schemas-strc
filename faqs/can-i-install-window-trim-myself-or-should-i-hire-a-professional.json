@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install window trim myself, or should I hire a professional?",
-  "description": "For precise and durable window trim installation, hiring a professional is recommended over DIY. Professionals offer expertise, specialized tools, and prevent p",
   "url": "https://hometelligentinc.com/faq/can-i-install-window-trim-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install window trim myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While DIY window trim installation is possible for simple projects, hiring a professional like Hometelligent Inc. ensures a precise, seamless, and durable finish. Professionals have the specialized tools, experience, and knowledge to handle complex cuts, different material types, and unexpected issues. An improper installation can lead to gaps, poor insulation, or even damage to the window frame, costing more in repairs down the line. We recommend professional installation for optimal results.",
-        "description": "For precise and durable window trim installation, hiring a professional is recommended over DIY. Professionals offer expertise, specialized tools, and prevent potential issues from improper installation."
-      }
-    }
-  ],
+  "name": "Can I install window trim myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install window trim myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While DIY window trim installation is possible for simple projects, hiring a professional like Hometelligent Inc. ensures a precise, seamless, and durable finish. Professionals have the specialized tools, experience, and knowledge to handle complex cuts, different material types, and unexpected issues. An improper installation can lead to gaps, poor insulation, or even damage to the window frame, costing more in repairs down the line. We recommend professional installation for optimal results.",
+        "@type": "Answer",
+        "description": "For precise and durable window trim installation, hiring a professional is recommended over DIY. Professionals offer expertise, specialized tools, and prevent potential issues from improper installation."
+      }
+    }
+  ],
+  "description": "For precise and durable window trim installation, hiring a professional is recommended over DIY. Professionals offer expertise, specialized tools, and prevent p"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What areas does Hometelligent Inc. serve for custom built-ins?",
-  "description": "Hometelligent Inc. serves the East Bay area, including Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont, Pl",
   "url": "https://hometelligentinc.com/faq/what-areas-does-hometelligent-inc-serve-for-custom-built-ins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What areas does Hometelligent Inc. serve for custom built-ins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. proudly serves a wide range of communities in the East Bay area for custom built-in projects. Our service area includes Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont, Pleasanton, San Leandro, and Union City. We are committed to bringing high-quality craftsmanship to homes throughout these cities, providing personalized design and installation services directly to your neighborhood.",
-        "description": "Hometelligent Inc. serves the East Bay area, including Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont, Pleasanton, San Leandro, and Union City."
-      }
-    }
-  ],
+  "name": "What areas does Hometelligent Inc. serve for custom built-ins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What areas does Hometelligent Inc. serve for custom built-ins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. proudly serves a wide range of communities in the East Bay area for custom built-in projects. Our service area includes Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont, Pleasanton, San Leandro, and Union City. We are committed to bringing high-quality craftsmanship to homes throughout these cities, providing personalized design and installation services directly to your neighborhood.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. serves the East Bay area, including Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont, Pleasanton, San Leandro, and Union City."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. serves the East Bay area, including Alameda, Albany, Berkeley, Dublin, Emeryville, Fremont, Hayward, Livermore, Newark, Oakland, Piedmont, Pl"
 }

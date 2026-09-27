@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a custom entertainment center?",
-  "description": "A custom entertainment center is a built-in unit tailored to your home and media equipment, integrating storage and design.",
   "url": "https://hometelligentinc.com/faq/what-is-a-custom-entertainment-center",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a custom entertainment center?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A custom entertainment center is a built-in furniture unit designed specifically for your home's dimensions and your media equipment. It integrates storage for electronics, media, and decor, often including shelving, cabinets, and custom openings for speakers or wiring. Hometelligent Inc. designs these units to match your interior aesthetic and optimize your viewing experience, considering factors like room layout and specific equipment dimensions.",
-        "description": "A custom entertainment center is a built-in unit tailored to your home and media equipment, integrating storage and design."
-      }
-    }
-  ],
+  "name": "What is a custom entertainment center?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a custom entertainment center?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A custom entertainment center is a built-in furniture unit designed specifically for your home's dimensions and your media equipment. It integrates storage for electronics, media, and decor, often including shelving, cabinets, and custom openings for speakers or wiring. Hometelligent Inc. designs these units to match your interior aesthetic and optimize your viewing experience, considering factors like room layout and specific equipment dimensions.",
+        "@type": "Answer",
+        "description": "A custom entertainment center is a built-in unit tailored to your home and media equipment, integrating storage and design."
+      }
+    }
+  ],
+  "description": "A custom entertainment center is a built-in unit tailored to your home and media equipment, integrating storage and design."
 }

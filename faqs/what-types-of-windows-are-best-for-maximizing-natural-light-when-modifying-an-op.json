@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of windows are best for maximizing natural light when modifying an opening?",
-  "description": "Large picture, casement, or bay/bow windows are excellent for maximizing natural light, each offering different aesthetic and functional tradeoffs.",
   "url": "https://hometelligentinc.com/faq/what-types-of-windows-are-best-for-maximizing-natural-light-when-modifying-an-op",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of windows are best for maximizing natural light when modifying an opening?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To maximize natural light when modifying a window opening, consider options like large picture windows, casement windows, or bay/bow windows. Picture windows offer expansive, unobstructed views and light, while casement windows open fully to allow significant airflow. Bay and bow windows extend outward, capturing light from multiple angles and adding architectural interest. The 'best' type also depends on the structural feasibility of the opening and the aesthetic you want to achieve, a practical tradeoff to balance light gain with overall design and cost.",
-        "description": "Large picture, casement, or bay/bow windows are excellent for maximizing natural light, each offering different aesthetic and functional tradeoffs."
-      }
-    }
-  ],
+  "name": "What types of windows are best for maximizing natural light when modifying an opening?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of windows are best for maximizing natural light when modifying an opening?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To maximize natural light when modifying a window opening, consider options like large picture windows, casement windows, or bay/bow windows. Picture windows offer expansive, unobstructed views and light, while casement windows open fully to allow significant airflow. Bay and bow windows extend outward, capturing light from multiple angles and adding architectural interest. The 'best' type also depends on the structural feasibility of the opening and the aesthetic you want to achieve, a practical tradeoff to balance light gain with overall design and cost.",
+        "@type": "Answer",
+        "description": "Large picture, casement, or bay/bow windows are excellent for maximizing natural light, each offering different aesthetic and functional tradeoffs."
+      }
+    }
+  ],
+  "description": "Large picture, casement, or bay/bow windows are excellent for maximizing natural light, each offering different aesthetic and functional tradeoffs."
 }

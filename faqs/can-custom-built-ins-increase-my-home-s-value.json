@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can custom built-ins increase my home's value?",
-  "description": "Yes, high-quality custom built-ins can increase home value by offering tailored storage and enhancing aesthetic appeal, particularly in competitive housing mark",
   "url": "https://hometelligentinc.com/faq/can-custom-built-ins-increase-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can custom built-ins increase my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, well-designed and high-quality custom built-ins can positively impact your home's value and appeal. They offer tailored storage solutions and a sense of permanence and craftsmanship that can be attractive to potential buyers. Unlike freestanding furniture, built-ins integrate seamlessly with your home's architecture, enhancing its functionality and aesthetic coherence. The most impactful built-ins often solve common storage dilemmas or create functional zones, such as home offices or entertainment centers, making your property more desirable in competitive markets like Alameda or Berkeley.",
-        "description": "Yes, high-quality custom built-ins can increase home value by offering tailored storage and enhancing aesthetic appeal, particularly in competitive housing markets."
-      }
-    }
-  ],
+  "name": "Can custom built-ins increase my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can custom built-ins increase my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, well-designed and high-quality custom built-ins can positively impact your home's value and appeal. They offer tailored storage solutions and a sense of permanence and craftsmanship that can be attractive to potential buyers. Unlike freestanding furniture, built-ins integrate seamlessly with your home's architecture, enhancing its functionality and aesthetic coherence. The most impactful built-ins often solve common storage dilemmas or create functional zones, such as home offices or entertainment centers, making your property more desirable in competitive markets like Alameda or Berkeley.",
+        "@type": "Answer",
+        "description": "Yes, high-quality custom built-ins can increase home value by offering tailored storage and enhancing aesthetic appeal, particularly in competitive housing markets."
+      }
+    }
+  ],
+  "description": "Yes, high-quality custom built-ins can increase home value by offering tailored storage and enhancing aesthetic appeal, particularly in competitive housing mark"
 }

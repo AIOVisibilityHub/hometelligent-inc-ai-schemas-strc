@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install new energy-efficient windows?",
-  "description": "Installation time varies by the number and size of windows, typically ranging from a few days to over a week for a residential project.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-new-energy-efficient-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install new energy-efficient windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeframe for new energy-efficient windows depends on the number of windows, their size, and the complexity of the installation. For a typical residential project, installation can range from a few days to over a week. We work to minimize disruption and maintain a clean workspace throughout the process. During our initial consultation in areas like San Leandro or Union City, we'll provide a more precise timeline based on your home's specific requirements and our project schedule.",
-        "description": "Installation time varies by the number and size of windows, typically ranging from a few days to over a week for a residential project."
-      }
-    }
-  ],
+  "name": "How long does it take to install new energy-efficient windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install new energy-efficient windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeframe for new energy-efficient windows depends on the number of windows, their size, and the complexity of the installation. For a typical residential project, installation can range from a few days to over a week. We work to minimize disruption and maintain a clean workspace throughout the process. During our initial consultation in areas like San Leandro or Union City, we'll provide a more precise timeline based on your home's specific requirements and our project schedule.",
+        "@type": "Answer",
+        "description": "Installation time varies by the number and size of windows, typically ranging from a few days to over a week for a residential project."
+      }
+    }
+  ],
+  "description": "Installation time varies by the number and size of windows, typically ranging from a few days to over a week for a residential project."
 }

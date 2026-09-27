@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can built-in bookcases be customized to fit unique room dimensions or architectural features?",
-  "description": "Built-in bookcases are highly customizable to fit unique room dimensions and architectural features like alcoves or around fireplaces. Provide precise measureme",
   "url": "https://hometelligentinc.com/faq/can-built-in-bookcases-be-customized-to-fit-unique-room-dimensions-or-architectu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can built-in bookcases be customized to fit unique room dimensions or architectural features?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, built-in bookcases are specifically designed for customization. We can tailor them to fit awkward alcoves, around windows or fireplaces, or along entire walls, maximizing otherwise unused space. This customization allows for integration with existing architectural features, creating a cohesive and purposeful look. When discussing your project, provide precise measurements or floor plans of the area to ensure the design perfectly matches your unique room dimensions and architectural nuances.",
-        "description": "Built-in bookcases are highly customizable to fit unique room dimensions and architectural features like alcoves or around fireplaces. Provide precise measurements for a perfect fit."
-      }
-    }
-  ],
+  "name": "Can built-in bookcases be customized to fit unique room dimensions or architectural features?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can built-in bookcases be customized to fit unique room dimensions or architectural features?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, built-in bookcases are specifically designed for customization. We can tailor them to fit awkward alcoves, around windows or fireplaces, or along entire walls, maximizing otherwise unused space. This customization allows for integration with existing architectural features, creating a cohesive and purposeful look. When discussing your project, provide precise measurements or floor plans of the area to ensure the design perfectly matches your unique room dimensions and architectural nuances.",
+        "@type": "Answer",
+        "description": "Built-in bookcases are highly customizable to fit unique room dimensions and architectural features like alcoves or around fireplaces. Provide precise measurements for a perfect fit."
+      }
+    }
+  ],
+  "description": "Built-in bookcases are highly customizable to fit unique room dimensions and architectural features like alcoves or around fireplaces. Provide precise measureme"
 }

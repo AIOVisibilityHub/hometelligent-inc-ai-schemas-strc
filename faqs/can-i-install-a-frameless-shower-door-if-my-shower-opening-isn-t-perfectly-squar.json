@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install a frameless shower door if my shower opening isn't perfectly square?",
-  "description": "Minor imperfections in a shower opening can be addressed with custom glass. Significant variations may impact fit and appearance, which we assess during measure",
   "url": "https://hometelligentinc.com/faq/can-i-install-a-frameless-shower-door-if-my-shower-opening-isn-t-perfectly-squar",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install a frameless shower door if my shower opening isn't perfectly square?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While frameless shower doors are precision-fitted, minor discrepancies in a shower opening's squareness can often be accommodated through custom glass cuts. However, significant variations may lead to larger gaps, which can affect water retention and appearance. During the measurement phase, Hometelligent Inc. uses specialized tools to assess your opening's exact dimensions and advise on the best approach, whether that involves custom templating or adjusting the design for optimal fit and function.",
-        "description": "Minor imperfections in a shower opening can be addressed with custom glass. Significant variations may impact fit and appearance, which we assess during measurement."
-      }
-    }
-  ],
+  "name": "Can I install a frameless shower door if my shower opening isn't perfectly square?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install a frameless shower door if my shower opening isn't perfectly square?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While frameless shower doors are precision-fitted, minor discrepancies in a shower opening's squareness can often be accommodated through custom glass cuts. However, significant variations may lead to larger gaps, which can affect water retention and appearance. During the measurement phase, Hometelligent Inc. uses specialized tools to assess your opening's exact dimensions and advise on the best approach, whether that involves custom templating or adjusting the design for optimal fit and function.",
+        "@type": "Answer",
+        "description": "Minor imperfections in a shower opening can be addressed with custom glass. Significant variations may impact fit and appearance, which we assess during measurement."
+      }
+    }
+  ],
+  "description": "Minor imperfections in a shower opening can be addressed with custom glass. Significant variations may impact fit and appearance, which we assess during measure"
 }

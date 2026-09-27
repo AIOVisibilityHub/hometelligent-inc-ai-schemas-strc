@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Is it better to repair or replace a damaged window frame?",
-  "description": "Repair is suitable for minor damage, while replacement is often better for extensive structural issues or very old windows.",
   "url": "https://hometelligentinc.com/faq/is-it-better-to-repair-or-replace-a-damaged-window-frame",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is it better to repair or replace a damaged window frame?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding whether to repair or replace a damaged window frame depends on the severity of the damage, the age of the window, and your budget. Minor issues like small cracks or superficial rot can often be repaired cost-effectively. However, extensive structural damage, severe warping, or issues affecting multiple components might make replacement a more durable and energy-efficient long-term solution. Our assessment helps you weigh these factors.",
-        "description": "Repair is suitable for minor damage, while replacement is often better for extensive structural issues or very old windows."
-      }
-    }
-  ],
+  "name": "Is it better to repair or replace a damaged window frame?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Is it better to repair or replace a damaged window frame?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding whether to repair or replace a damaged window frame depends on the severity of the damage, the age of the window, and your budget. Minor issues like small cracks or superficial rot can often be repaired cost-effectively. However, extensive structural damage, severe warping, or issues affecting multiple components might make replacement a more durable and energy-efficient long-term solution. Our assessment helps you weigh these factors.",
+        "@type": "Answer",
+        "description": "Repair is suitable for minor damage, while replacement is often better for extensive structural issues or very old windows."
+      }
+    }
+  ],
+  "description": "Repair is suitable for minor damage, while replacement is often better for extensive structural issues or very old windows."
 }

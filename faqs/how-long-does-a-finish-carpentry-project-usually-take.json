@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a finish carpentry project usually take?",
-  "description": "Project duration varies by scope, from a few days for basic trim to several weeks for extensive custom work, depending on material, drying times, and existing c",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-finish-carpentry-project-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a finish carpentry project usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a finish carpentry project varies widely depending on the scope and complexity of the work. Installing baseboards and door casings in a few rooms might take a few days, while extensive custom built-ins, wainscoting, or crown molding throughout an entire home could span several weeks. Factors like material availability, drying times for finishes, and the existing condition of walls also impact the timeline. Your Hometelligent Inc. team will provide a detailed project schedule during the initial consultation, allowing for clear expectations and coordination.",
-        "description": "Project duration varies by scope, from a few days for basic trim to several weeks for extensive custom work, depending on material, drying times, and existing conditions."
-      }
-    }
-  ],
+  "name": "How long does a finish carpentry project usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a finish carpentry project usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a finish carpentry project varies widely depending on the scope and complexity of the work. Installing baseboards and door casings in a few rooms might take a few days, while extensive custom built-ins, wainscoting, or crown molding throughout an entire home could span several weeks. Factors like material availability, drying times for finishes, and the existing condition of walls also impact the timeline. Your Hometelligent Inc. team will provide a detailed project schedule during the initial consultation, allowing for clear expectations and coordination.",
+        "@type": "Answer",
+        "description": "Project duration varies by scope, from a few days for basic trim to several weeks for extensive custom work, depending on material, drying times, and existing conditions."
+      }
+    }
+  ],
+  "description": "Project duration varies by scope, from a few days for basic trim to several weeks for extensive custom work, depending on material, drying times, and existing c"
 }

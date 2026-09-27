@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure a high-quality finish carpentry installation?",
-  "description": "Ensure quality by hiring experienced craftsmen, checking for precise cuts and tight joints, and relying on project managers for quality control.",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-a-high-quality-finish-carpentry-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure a high-quality finish carpentry installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To ensure a high-quality finish carpentry installation, prioritize hiring experienced craftsmen with a strong portfolio of detailed work. Look for precise cuts, tight joints, and seamless transitions between different pieces of trim. Proper fastening techniques that minimize visible nail holes and thorough sanding are also indicators of quality. A first-party insight from Hometelligent Inc. is that our project managers conduct regular quality checks throughout the installation process, ensuring that every detail, from material selection to the final finish, meets our rigorous standards and your expectations.",
-        "description": "Ensure quality by hiring experienced craftsmen, checking for precise cuts and tight joints, and relying on project managers for quality control."
-      }
-    }
-  ],
+  "name": "How do I ensure a high-quality finish carpentry installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure a high-quality finish carpentry installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To ensure a high-quality finish carpentry installation, prioritize hiring experienced craftsmen with a strong portfolio of detailed work. Look for precise cuts, tight joints, and seamless transitions between different pieces of trim. Proper fastening techniques that minimize visible nail holes and thorough sanding are also indicators of quality. A first-party insight from Hometelligent Inc. is that our project managers conduct regular quality checks throughout the installation process, ensuring that every detail, from material selection to the final finish, meets our rigorous standards and your expectations.",
+        "@type": "Answer",
+        "description": "Ensure quality by hiring experienced craftsmen, checking for precise cuts and tight joints, and relying on project managers for quality control."
+      }
+    }
+  ],
+  "description": "Ensure quality by hiring experienced craftsmen, checking for precise cuts and tight joints, and relying on project managers for quality control."
 }

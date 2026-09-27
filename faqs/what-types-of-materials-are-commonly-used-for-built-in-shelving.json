@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of materials are commonly used for built-in shelving?",
-  "description": "Common materials include plywood, MDF, and solid hardwoods like oak or maple, chosen based on durability, finish, and budget.",
   "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-commonly-used-for-built-in-shelving",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of materials are commonly used for built-in shelving?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials for built-in shelving include various wood types like plywood, MDF (medium-density fiberboard), and solid hardwoods such as oak or maple. Plywood and MDF are often used for their stability and cost-effectiveness, especially when painted, while hardwoods are chosen for their durability, natural beauty, and ability to be stained or left natural. When selecting materials, consider the intended use, desired finish, and your budget. For example, shelves designed to hold heavy items may benefit from stronger, thicker materials like solid wood to prevent bowing over time.",
-        "description": "Common materials include plywood, MDF, and solid hardwoods like oak or maple, chosen based on durability, finish, and budget."
-      }
-    }
-  ],
+  "name": "What types of materials are commonly used for built-in shelving?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of materials are commonly used for built-in shelving?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials for built-in shelving include various wood types like plywood, MDF (medium-density fiberboard), and solid hardwoods such as oak or maple. Plywood and MDF are often used for their stability and cost-effectiveness, especially when painted, while hardwoods are chosen for their durability, natural beauty, and ability to be stained or left natural. When selecting materials, consider the intended use, desired finish, and your budget. For example, shelves designed to hold heavy items may benefit from stronger, thicker materials like solid wood to prevent bowing over time.",
+        "@type": "Answer",
+        "description": "Common materials include plywood, MDF, and solid hardwoods like oak or maple, chosen based on durability, finish, and budget."
+      }
+    }
+  ],
+  "description": "Common materials include plywood, MDF, and solid hardwoods like oak or maple, chosen based on durability, finish, and budget."
 }

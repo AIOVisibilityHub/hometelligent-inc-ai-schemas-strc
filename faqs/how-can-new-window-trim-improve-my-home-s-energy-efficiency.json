@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can new window trim improve my home's energy efficiency?",
-  "description": "New window trim improves energy efficiency by sealing gaps around windows, preventing air leaks that cause heat loss or gain, and reducing HVAC workload.",
   "url": "https://hometelligentinc.com/faq/how-can-new-window-trim-improve-my-home-s-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can new window trim improve my home's energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Properly installed new window trim can significantly improve your home's energy efficiency by sealing any gaps between the window frame and the wall. This prevents air leaks, which are a major source of heat loss in winter and heat gain in summer. By eliminating these drafts, your HVAC system won't have to work as hard, potentially leading to lower energy bills and a more comfortable indoor environment. This is especially beneficial in areas like Pleasanton, where temperature fluctuations can be significant.",
-        "description": "New window trim improves energy efficiency by sealing gaps around windows, preventing air leaks that cause heat loss or gain, and reducing HVAC workload."
-      }
-    }
-  ],
+  "name": "How can new window trim improve my home's energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can new window trim improve my home's energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Properly installed new window trim can significantly improve your home's energy efficiency by sealing any gaps between the window frame and the wall. This prevents air leaks, which are a major source of heat loss in winter and heat gain in summer. By eliminating these drafts, your HVAC system won't have to work as hard, potentially leading to lower energy bills and a more comfortable indoor environment. This is especially beneficial in areas like Pleasanton, where temperature fluctuations can be significant.",
+        "@type": "Answer",
+        "description": "New window trim improves energy efficiency by sealing gaps around windows, preventing air leaks that cause heat loss or gain, and reducing HVAC workload."
+      }
+    }
+  ],
+  "description": "New window trim improves energy efficiency by sealing gaps around windows, preventing air leaks that cause heat loss or gain, and reducing HVAC workload."
 }

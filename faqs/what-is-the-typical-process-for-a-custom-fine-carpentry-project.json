@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for a custom fine carpentry project?",
-  "description": "A custom fine carpentry project involves consultation, detailed design, material selection, fabrication, and on-site installation, with client feedback througho",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-a-custom-fine-carpentry-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for a custom fine carpentry project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for a custom fine carpentry project typically begins with a consultation to understand your vision, requirements, and budget. This is followed by detailed design and planning, where sketches or 3D renderings are often created for your approval. Once the design is finalized, material selection takes place, and then fabrication begins in a workshop. The final steps involve installation and finishing on-site. Hometelligent Inc. emphasizes thorough planning and client feedback at each stage to ensure the final product perfectly matches your expectations and integrates flawlessly into your space.",
-        "description": "A custom fine carpentry project involves consultation, detailed design, material selection, fabrication, and on-site installation, with client feedback throughout."
-      }
-    }
-  ],
+  "name": "What is the typical process for a custom fine carpentry project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for a custom fine carpentry project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for a custom fine carpentry project typically begins with a consultation to understand your vision, requirements, and budget. This is followed by detailed design and planning, where sketches or 3D renderings are often created for your approval. Once the design is finalized, material selection takes place, and then fabrication begins in a workshop. The final steps involve installation and finishing on-site. Hometelligent Inc. emphasizes thorough planning and client feedback at each stage to ensure the final product perfectly matches your expectations and integrates flawlessly into your space.",
+        "@type": "Answer",
+        "description": "A custom fine carpentry project involves consultation, detailed design, material selection, fabrication, and on-site installation, with client feedback throughout."
+      }
+    }
+  ],
+  "description": "A custom fine carpentry project involves consultation, detailed design, material selection, fabrication, and on-site installation, with client feedback througho"
 }

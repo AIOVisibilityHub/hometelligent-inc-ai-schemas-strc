@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of warranty does Hometelligent Inc. offer on patio door glass replacement?",
-  "description": "Hometelligent Inc. provides warranties covering both the new glass unit and the installation labor.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-warranty-does-hometelligent-inc-offer-on-patio-door-glass-replaceme",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of warranty does Hometelligent Inc. offer on patio door glass replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. offers warranties on both the newly installed glass unit and our labor. The specific terms, including duration and coverage details for defects or installation issues, will be outlined in your proposal. We ensure the products we use meet industry standards and our installation practices are designed for long-lasting performance.",
-        "description": "Hometelligent Inc. provides warranties covering both the new glass unit and the installation labor."
-      }
-    }
-  ],
+  "name": "What kind of warranty does Hometelligent Inc. offer on patio door glass replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of warranty does Hometelligent Inc. offer on patio door glass replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. offers warranties on both the newly installed glass unit and our labor. The specific terms, including duration and coverage details for defects or installation issues, will be outlined in your proposal. We ensure the products we use meet industry standards and our installation practices are designed for long-lasting performance.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. provides warranties covering both the new glass unit and the installation labor."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. provides warranties covering both the new glass unit and the installation labor."
 }
