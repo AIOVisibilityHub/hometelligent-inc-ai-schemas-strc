@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need an architect for a bedroom addition?",
-  "description": "An architect is highly recommended for bedroom additions to ensure functional design, structural integrity, and compliance with building codes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-an-architect-for-a-bedroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need an architect for a bedroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While not always legally required for minor additions, hiring an architect or a design-build firm for a bedroom addition is highly recommended. An architect can create a functional and aesthetically pleasing design, ensure structural integrity, and navigate complex zoning and building codes. This expertise helps avoid costly errors and ensures the addition integrates seamlessly with your existing home. Our team can provide design assistance as part of a comprehensive service.",
-        "description": "An architect is highly recommended for bedroom additions to ensure functional design, structural integrity, and compliance with building codes."
-      }
-    }
-  ],
+  "name": "Do I need an architect for a bedroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need an architect for a bedroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While not always legally required for minor additions, hiring an architect or a design-build firm for a bedroom addition is highly recommended. An architect can create a functional and aesthetically pleasing design, ensure structural integrity, and navigate complex zoning and building codes. This expertise helps avoid costly errors and ensures the addition integrates seamlessly with your existing home. Our team can provide design assistance as part of a comprehensive service.",
+        "@type": "Answer",
+        "description": "An architect is highly recommended for bedroom additions to ensure functional design, structural integrity, and compliance with building codes."
+      }
+    }
+  ],
+  "description": "An architect is highly recommended for bedroom additions to ensure functional design, structural integrity, and compliance with building codes."
 }

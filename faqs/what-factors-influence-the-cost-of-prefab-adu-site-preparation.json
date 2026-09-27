@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of prefab ADU site preparation?",
-  "description": "Costs are influenced by ADU size, land condition, utility work, and challenges like steep slopes or rock removal.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-prefab-adu-site-preparation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of prefab ADU site preparation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Several factors influence the cost of prefab ADU site preparation, including the size of the ADU, the condition of the existing land, and the extent of utility work required. Steep slopes, rock removal, extensive tree clearing, or the need to bring new utility lines from a distance can increase costs. Customers should consider these site-specific conditions, as they can significantly impact the overall project budget.",
-        "description": "Costs are influenced by ADU size, land condition, utility work, and challenges like steep slopes or rock removal."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of prefab ADU site preparation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of prefab ADU site preparation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Several factors influence the cost of prefab ADU site preparation, including the size of the ADU, the condition of the existing land, and the extent of utility work required. Steep slopes, rock removal, extensive tree clearing, or the need to bring new utility lines from a distance can increase costs. Customers should consider these site-specific conditions, as they can significantly impact the overall project budget.",
+        "@type": "Answer",
+        "description": "Costs are influenced by ADU size, land condition, utility work, and challenges like steep slopes or rock removal."
+      }
+    }
+  ],
+  "description": "Costs are influenced by ADU size, land condition, utility work, and challenges like steep slopes or rock removal."
 }

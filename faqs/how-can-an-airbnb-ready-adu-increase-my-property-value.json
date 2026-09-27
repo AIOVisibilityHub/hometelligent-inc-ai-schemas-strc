@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can an Airbnb-ready ADU increase my property value?",
-  "description": "An Airbnb-ready ADU increases property value by creating a proven income-generating asset, appealing to buyers seeking supplemental income and enhancing market",
   "url": "https://hometelligentinc.com/faq/how-can-an-airbnb-ready-adu-increase-my-property-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can an Airbnb-ready ADU increase my property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An Airbnb-ready ADU can significantly increase your property value by providing a proven income-generating asset. The dedicated design for short-term rentals makes it attractive to potential buyers who are also interested in supplemental income or multi-generational living options. The added square footage, modern amenities, and the demonstrated ability to generate revenue can distinguish your property in the competitive East Bay real estate market. This potential for rental income often translates directly into higher appraisal values.",
-        "description": "An Airbnb-ready ADU increases property value by creating a proven income-generating asset, appealing to buyers seeking supplemental income and enhancing market distinction."
-      }
-    }
-  ],
+  "name": "How can an Airbnb-ready ADU increase my property value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can an Airbnb-ready ADU increase my property value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An Airbnb-ready ADU can significantly increase your property value by providing a proven income-generating asset. The dedicated design for short-term rentals makes it attractive to potential buyers who are also interested in supplemental income or multi-generational living options. The added square footage, modern amenities, and the demonstrated ability to generate revenue can distinguish your property in the competitive East Bay real estate market. This potential for rental income often translates directly into higher appraisal values.",
+        "@type": "Answer",
+        "description": "An Airbnb-ready ADU increases property value by creating a proven income-generating asset, appealing to buyers seeking supplemental income and enhancing market distinction."
+      }
+    }
+  ],
+  "description": "An Airbnb-ready ADU increases property value by creating a proven income-generating asset, appealing to buyers seeking supplemental income and enhancing market"
 }

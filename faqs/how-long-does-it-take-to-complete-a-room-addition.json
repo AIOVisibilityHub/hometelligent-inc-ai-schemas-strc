@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to complete a room addition?",
-  "description": "Room addition timelines vary from a few months to over six months, depending on scale, complexity, and local permitting processes.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-complete-a-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to complete a room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a room addition varies widely based on its scale, design complexity, and the local permitting process. Smaller, straightforward additions might take a few months, while larger or more intricate projects can extend to six months or more. Permitting in specific cities like San Leandro or Union City can introduce variable wait times. The lead time for material procurement, particularly for specialized or custom items, can also influence the overall duration. Effective project management and clear communication are key to staying on schedule.",
-        "description": "Room addition timelines vary from a few months to over six months, depending on scale, complexity, and local permitting processes."
-      }
-    }
-  ],
+  "name": "How long does it take to complete a room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to complete a room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a room addition varies widely based on its scale, design complexity, and the local permitting process. Smaller, straightforward additions might take a few months, while larger or more intricate projects can extend to six months or more. Permitting in specific cities like San Leandro or Union City can introduce variable wait times. The lead time for material procurement, particularly for specialized or custom items, can also influence the overall duration. Effective project management and clear communication are key to staying on schedule.",
+        "@type": "Answer",
+        "description": "Room addition timelines vary from a few months to over six months, depending on scale, complexity, and local permitting processes."
+      }
+    }
+  ],
+  "description": "Room addition timelines vary from a few months to over six months, depending on scale, complexity, and local permitting processes."
 }

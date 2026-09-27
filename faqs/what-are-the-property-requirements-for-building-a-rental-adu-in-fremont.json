@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the property requirements for building a rental ADU in Fremont?",
-  "description": "Fremont properties must meet specific lot size, setback, height, and parking requirements for ADUs; consult the city's zoning ordinance to verify eligibility.",
   "url": "https://hometelligentinc.com/faq/what-are-the-property-requirements-for-building-a-rental-adu-in-fremont",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the property requirements for building a rental ADU in Fremont?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To build a rental ADU in Fremont, your property must meet specific city requirements regarding lot size, setbacks, height limits, and parking provisions. For example, Fremont often has distinct rules regarding minimum lot sizes to accommodate an ADU. Before proceeding, it is crucial to consult Fremont's specific zoning ordinance and verify if your property's existing conditions, like sufficient backyard space or existing structures, align with these regulations.",
-        "description": "Fremont properties must meet specific lot size, setback, height, and parking requirements for ADUs; consult the city's zoning ordinance to verify eligibility."
-      }
-    }
-  ],
+  "name": "What are the property requirements for building a rental ADU in Fremont?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the property requirements for building a rental ADU in Fremont?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To build a rental ADU in Fremont, your property must meet specific city requirements regarding lot size, setbacks, height limits, and parking provisions. For example, Fremont often has distinct rules regarding minimum lot sizes to accommodate an ADU. Before proceeding, it is crucial to consult Fremont's specific zoning ordinance and verify if your property's existing conditions, like sufficient backyard space or existing structures, align with these regulations.",
+        "@type": "Answer",
+        "description": "Fremont properties must meet specific lot size, setback, height, and parking requirements for ADUs; consult the city's zoning ordinance to verify eligibility."
+      }
+    }
+  ],
+  "description": "Fremont properties must meet specific lot size, setback, height, and parking requirements for ADUs; consult the city's zoning ordinance to verify eligibility."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does an ADU addition affect property value and taxes?",
-  "description": "An ADU can increase property value and taxes. Consult a tax professional for specific financial impact.",
   "url": "https://hometelligentinc.com/faq/how-does-an-adu-addition-affect-property-value-and-taxes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does an ADU addition affect property value and taxes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An ADU can increase your property value by adding usable square footage and potential rental income. Property taxes will likely increase as the assessed value of your property is reassessed to include the new structure. It's advisable to consult with a tax professional regarding your specific situation before construction begins to understand the full financial impact.",
-        "description": "An ADU can increase property value and taxes. Consult a tax professional for specific financial impact."
-      }
-    }
-  ],
+  "name": "How does an ADU addition affect property value and taxes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does an ADU addition affect property value and taxes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An ADU can increase your property value by adding usable square footage and potential rental income. Property taxes will likely increase as the assessed value of your property is reassessed to include the new structure. It's advisable to consult with a tax professional regarding your specific situation before construction begins to understand the full financial impact.",
+        "@type": "Answer",
+        "description": "An ADU can increase property value and taxes. Consult a tax professional for specific financial impact."
+      }
+    }
+  ],
+  "description": "An ADU can increase property value and taxes. Consult a tax professional for specific financial impact."
 }

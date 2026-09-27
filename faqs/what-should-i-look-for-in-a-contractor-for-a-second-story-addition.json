@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I look for in a contractor for a second-story addition?",
-  "description": "Look for experienced, licensed, insured contractors with good references for second-story additions. Balance cost with reputation and quality of work.",
   "url": "https://hometelligentinc.com/faq/what-should-i-look-for-in-a-contractor-for-a-second-story-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I look for in a contractor for a second-story addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for a second-story addition, look for extensive experience with similar projects, valid licenses, comprehensive insurance, and strong local references. A practical tradeoff to consider is balancing cost with the contractor's reputation and quality of work; the lowest bid isn't always the best value for such a significant structural project. Ensure they provide clear communication and detailed contracts.",
-        "description": "Look for experienced, licensed, insured contractors with good references for second-story additions. Balance cost with reputation and quality of work."
-      }
-    }
-  ],
+  "name": "What should I look for in a contractor for a second-story addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I look for in a contractor for a second-story addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for a second-story addition, look for extensive experience with similar projects, valid licenses, comprehensive insurance, and strong local references. A practical tradeoff to consider is balancing cost with the contractor's reputation and quality of work; the lowest bid isn't always the best value for such a significant structural project. Ensure they provide clear communication and detailed contracts.",
+        "@type": "Answer",
+        "description": "Look for experienced, licensed, insured contractors with good references for second-story additions. Balance cost with reputation and quality of work."
+      }
+    }
+  ],
+  "description": "Look for experienced, licensed, insured contractors with good references for second-story additions. Balance cost with reputation and quality of work."
 }

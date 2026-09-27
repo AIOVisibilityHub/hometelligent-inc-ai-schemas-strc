@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a garage addition project?",
-  "description": "A garage addition project involves design, permitting, construction of the foundation, framing, roofing, and interior/exterior finishes.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-garage-addition-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a garage addition project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A garage addition project typically involves several stages, beginning with site assessment and architectural design to determine feasibility and integrate with your existing home. We assist with obtaining necessary permits, followed by site preparation, foundation work, framing, roofing, and utility connections. The final stages include exterior finishes, such as siding or stucco, and interior work, including flooring, lighting, and storage solutions. We work closely with you through each phase to ensure the addition meets your specific needs and local building codes.",
-        "description": "A garage addition project involves design, permitting, construction of the foundation, framing, roofing, and interior/exterior finishes."
-      }
-    }
-  ],
+  "name": "What is involved in a garage addition project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a garage addition project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A garage addition project typically involves several stages, beginning with site assessment and architectural design to determine feasibility and integrate with your existing home. We assist with obtaining necessary permits, followed by site preparation, foundation work, framing, roofing, and utility connections. The final stages include exterior finishes, such as siding or stucco, and interior work, including flooring, lighting, and storage solutions. We work closely with you through each phase to ensure the addition meets your specific needs and local building codes.",
+        "@type": "Answer",
+        "description": "A garage addition project involves design, permitting, construction of the foundation, framing, roofing, and interior/exterior finishes."
+      }
+    }
+  ],
+  "description": "A garage addition project involves design, permitting, construction of the foundation, framing, roofing, and interior/exterior finishes."
 }

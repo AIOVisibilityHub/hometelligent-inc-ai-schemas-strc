@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for adding a bonus room to my home?",
-  "description": "The process involves consultation, design, permitting, and construction, covering stages from foundation to finishing touches, with communication throughout.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-adding-a-bonus-room-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for adding a bonus room to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process typically starts with an initial consultation and site assessment to discuss your vision and feasibility. This is followed by design and architectural planning, permit application submission, and then construction. During construction, phases include foundation work, framing, roofing, utility rough-ins, insulation, drywall, and finishing touches. Throughout the project, Hometelligent Inc. prioritizes clear communication and manages all aspects from design to final inspection.",
-        "description": "The process involves consultation, design, permitting, and construction, covering stages from foundation to finishing touches, with communication throughout."
-      }
-    }
-  ],
+  "name": "What is the process for adding a bonus room to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for adding a bonus room to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process typically starts with an initial consultation and site assessment to discuss your vision and feasibility. This is followed by design and architectural planning, permit application submission, and then construction. During construction, phases include foundation work, framing, roofing, utility rough-ins, insulation, drywall, and finishing touches. Throughout the project, Hometelligent Inc. prioritizes clear communication and manages all aspects from design to final inspection.",
+        "@type": "Answer",
+        "description": "The process involves consultation, design, permitting, and construction, covering stages from foundation to finishing touches, with communication throughout."
+      }
+    }
+  ],
+  "description": "The process involves consultation, design, permitting, and construction, covering stages from foundation to finishing touches, with communication throughout."
 }

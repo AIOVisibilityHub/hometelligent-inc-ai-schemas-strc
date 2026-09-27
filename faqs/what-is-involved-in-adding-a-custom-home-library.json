@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in adding a custom home library?",
-  "description": "Adding a custom home library involves consultation, detailed design, structural planning, construction, and finishing. The process balances custom features with",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-adding-a-custom-home-library",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in adding a custom home library?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a custom home library involves several stages, starting with a consultation to understand your vision, space requirements, and design preferences. This leads to a detailed design phase, including material selection and structural considerations, especially for extensive shelving to support heavy book collections. Construction follows, encompassing framing, electrical work for lighting, custom carpentry, and finishing touches like paint and built-in elements. A practical tradeoff is balancing the desire for extensive custom features with your budget and the structural capacity of your existing home. We ensure all additions meet local building codes in areas like Berkeley and Albany.",
-        "description": "Adding a custom home library involves consultation, detailed design, structural planning, construction, and finishing. The process balances custom features with budget and structural capacity."
-      }
-    }
-  ],
+  "name": "What is involved in adding a custom home library?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in adding a custom home library?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a custom home library involves several stages, starting with a consultation to understand your vision, space requirements, and design preferences. This leads to a detailed design phase, including material selection and structural considerations, especially for extensive shelving to support heavy book collections. Construction follows, encompassing framing, electrical work for lighting, custom carpentry, and finishing touches like paint and built-in elements. A practical tradeoff is balancing the desire for extensive custom features with your budget and the structural capacity of your existing home. We ensure all additions meet local building codes in areas like Berkeley and Albany.",
+        "@type": "Answer",
+        "description": "Adding a custom home library involves consultation, detailed design, structural planning, construction, and finishing. The process balances custom features with budget and structural capacity."
+      }
+    }
+  ],
+  "description": "Adding a custom home library involves consultation, detailed design, structural planning, construction, and finishing. The process balances custom features with"
 }

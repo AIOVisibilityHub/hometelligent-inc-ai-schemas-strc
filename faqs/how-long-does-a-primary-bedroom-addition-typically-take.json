@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a primary bedroom addition typically take?",
-  "description": "Primary bedroom additions typically take 3-9 months, depending on complexity and size. Project timelines are influenced by design approval, permitting, and mate",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-primary-bedroom-addition-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a primary bedroom addition typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a primary bedroom addition varies significantly based on its complexity and size. A straightforward addition might take 3-6 months, while a more elaborate suite with a new bathroom could extend to 6-9 months or longer. Factors such as design approval, permitting schedules, material lead times, and the extent of utility rerouting all impact the overall duration. We provide a detailed project schedule outlining key milestones and estimated completion dates to manage expectations.",
-        "description": "Primary bedroom additions typically take 3-9 months, depending on complexity and size. Project timelines are influenced by design approval, permitting, and material availability."
-      }
-    }
-  ],
+  "name": "How long does a primary bedroom addition typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a primary bedroom addition typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a primary bedroom addition varies significantly based on its complexity and size. A straightforward addition might take 3-6 months, while a more elaborate suite with a new bathroom could extend to 6-9 months or longer. Factors such as design approval, permitting schedules, material lead times, and the extent of utility rerouting all impact the overall duration. We provide a detailed project schedule outlining key milestones and estimated completion dates to manage expectations.",
+        "@type": "Answer",
+        "description": "Primary bedroom additions typically take 3-9 months, depending on complexity and size. Project timelines are influenced by design approval, permitting, and material availability."
+      }
+    }
+  ],
+  "description": "Primary bedroom additions typically take 3-9 months, depending on complexity and size. Project timelines are influenced by design approval, permitting, and mate"
 }

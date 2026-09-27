@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a home office addition and a renovation of an existing space?",
-  "description": "An addition builds new space, offering more design flexibility but higher cost and longer timelines. Renovation reworks an existing room.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-home-office-addition-and-a-renovation-of-an-exi",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a home office addition and a renovation of an existing space?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A home office addition involves constructing new square footage onto your existing home, providing a completely new space for your office. A renovation, conversely, reconfigures or updates an existing room within your home to serve as an office. An addition typically offers more flexibility in design and layout, but also incurs higher costs and a longer timeline due to new foundation work and extensive construction. The choice depends on available land, budget, and desired spatial separation.",
-        "description": "An addition builds new space, offering more design flexibility but higher cost and longer timelines. Renovation reworks an existing room."
-      }
-    }
-  ],
+  "name": "What is the difference between a home office addition and a renovation of an existing space?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a home office addition and a renovation of an existing space?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A home office addition involves constructing new square footage onto your existing home, providing a completely new space for your office. A renovation, conversely, reconfigures or updates an existing room within your home to serve as an office. An addition typically offers more flexibility in design and layout, but also incurs higher costs and a longer timeline due to new foundation work and extensive construction. The choice depends on available land, budget, and desired spatial separation.",
+        "@type": "Answer",
+        "description": "An addition builds new space, offering more design flexibility but higher cost and longer timelines. Renovation reworks an existing room."
+      }
+    }
+  ],
+  "description": "An addition builds new space, offering more design flexibility but higher cost and longer timelines. Renovation reworks an existing room."
 }

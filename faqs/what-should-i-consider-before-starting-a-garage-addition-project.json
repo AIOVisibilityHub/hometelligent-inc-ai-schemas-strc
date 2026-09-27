@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before starting a garage addition project?",
-  "description": "Consider your space needs, budget, home integration, and local zoning laws before starting. Researching zoning early can streamline permitting.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-starting-a-garage-addition-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before starting a garage addition project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting a garage addition, consider your specific needs for space, your budget, and how the addition will integrate with your existing home's architecture and landscape. It's helpful to also research local zoning laws and setback requirements, which can vary significantly even within neighboring areas like Fremont and Newark. Understanding these elements beforehand helps streamline the design and permitting phases.",
-        "description": "Consider your space needs, budget, home integration, and local zoning laws before starting. Researching zoning early can streamline permitting."
-      }
-    }
-  ],
+  "name": "What should I consider before starting a garage addition project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before starting a garage addition project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting a garage addition, consider your specific needs for space, your budget, and how the addition will integrate with your existing home's architecture and landscape. It's helpful to also research local zoning laws and setback requirements, which can vary significantly even within neighboring areas like Fremont and Newark. Understanding these elements beforehand helps streamline the design and permitting phases.",
+        "@type": "Answer",
+        "description": "Consider your space needs, budget, home integration, and local zoning laws before starting. Researching zoning early can streamline permitting."
+      }
+    }
+  ],
+  "description": "Consider your space needs, budget, home integration, and local zoning laws before starting. Researching zoning early can streamline permitting."
 }

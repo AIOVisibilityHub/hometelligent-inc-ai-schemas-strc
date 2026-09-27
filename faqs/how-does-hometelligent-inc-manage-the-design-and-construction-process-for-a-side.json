@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. manage the design and construction process for a side addition?",
-  "description": "Hometelligent Inc. manages side additions from initial consultation and conceptual design, through permit applications and all construction phases, with regular",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-manage-the-design-and-construction-process-for-a-side",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. manage the design and construction process for a side addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. manages the design and construction process for a side addition through a structured approach, starting with an initial consultation to understand your vision and requirements. We then proceed with conceptual design, incorporating your preferences and ensuring feasibility within local zoning codes. Once designs are approved, we handle permit applications and oversee all construction phases, from foundation and framing to interior finishes. Our process includes regular communication, site supervision, and quality checks to ensure the project stays on track, meets safety standards, and aligns with your expectations through completion.",
-        "description": "Hometelligent Inc. manages side additions from initial consultation and conceptual design, through permit applications and all construction phases, with regular communication and quality checks."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. manage the design and construction process for a side addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. manage the design and construction process for a side addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. manages the design and construction process for a side addition through a structured approach, starting with an initial consultation to understand your vision and requirements. We then proceed with conceptual design, incorporating your preferences and ensuring feasibility within local zoning codes. Once designs are approved, we handle permit applications and oversee all construction phases, from foundation and framing to interior finishes. Our process includes regular communication, site supervision, and quality checks to ensure the project stays on track, meets safety standards, and aligns with your expectations through completion.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. manages side additions from initial consultation and conceptual design, through permit applications and all construction phases, with regular communication and quality checks."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. manages side additions from initial consultation and conceptual design, through permit applications and all construction phases, with regular"
 }

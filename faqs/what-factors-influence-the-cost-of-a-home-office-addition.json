@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a home office addition?",
-  "description": "Costs vary based on size, materials, design complexity, and site conditions. Custom features and high-end finishes increase the overall expense.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-home-office-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a home office addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a home office addition is primarily influenced by its size, the chosen materials, and the complexity of the design. High-end finishes, custom built-ins, and extensive electrical or plumbing work will increase the overall expense. Site accessibility and any necessary foundation work also play a role. It's beneficial to have a clear budget and prioritized features before design to help manage costs effectively.",
-        "description": "Costs vary based on size, materials, design complexity, and site conditions. Custom features and high-end finishes increase the overall expense."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a home office addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a home office addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a home office addition is primarily influenced by its size, the chosen materials, and the complexity of the design. High-end finishes, custom built-ins, and extensive electrical or plumbing work will increase the overall expense. Site accessibility and any necessary foundation work also play a role. It's beneficial to have a clear budget and prioritized features before design to help manage costs effectively.",
+        "@type": "Answer",
+        "description": "Costs vary based on size, materials, design complexity, and site conditions. Custom features and high-end finishes increase the overall expense."
+      }
+    }
+  ],
+  "description": "Costs vary based on size, materials, design complexity, and site conditions. Custom features and high-end finishes increase the overall expense."
 }

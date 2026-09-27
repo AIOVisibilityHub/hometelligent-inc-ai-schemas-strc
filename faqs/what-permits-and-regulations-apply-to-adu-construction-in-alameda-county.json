@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits and regulations apply to ADU construction in Alameda County?",
-  "description": "ADU construction in Alameda County follows state and local regulations for size, setbacks, and parking, with city-specific nuances.",
   "url": "https://hometelligentinc.com/faq/what-permits-and-regulations-apply-to-adu-construction-in-alameda-county",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits and regulations apply to ADU construction in Alameda County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ADU construction in Alameda County is subject to state-mandated regulations and local zoning ordinances, which cover aspects like size limits, setbacks, and parking requirements. These regulations are designed to facilitate ADU development while ensuring community compatibility. It's essential to understand that while state law provides a framework, each city within Alameda County, such as Berkeley or Fremont, may have specific nuances to its permitting process and additional local standards. Hometelligent Inc. assists with navigating these requirements to ensure compliance.",
-        "description": "ADU construction in Alameda County follows state and local regulations for size, setbacks, and parking, with city-specific nuances."
-      }
-    }
-  ],
+  "name": "What permits and regulations apply to ADU construction in Alameda County?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits and regulations apply to ADU construction in Alameda County?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "ADU construction in Alameda County is subject to state-mandated regulations and local zoning ordinances, which cover aspects like size limits, setbacks, and parking requirements. These regulations are designed to facilitate ADU development while ensuring community compatibility. It's essential to understand that while state law provides a framework, each city within Alameda County, such as Berkeley or Fremont, may have specific nuances to its permitting process and additional local standards. Hometelligent Inc. assists with navigating these requirements to ensure compliance.",
+        "@type": "Answer",
+        "description": "ADU construction in Alameda County follows state and local regulations for size, setbacks, and parking, with city-specific nuances."
+      }
+    }
+  ],
+  "description": "ADU construction in Alameda County follows state and local regulations for size, setbacks, and parking, with city-specific nuances."
 }

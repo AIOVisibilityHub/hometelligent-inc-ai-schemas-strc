@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of materials are best for home library shelving?",
-  "description": "Material choice for home library shelving depends on aesthetics, budget, and book weight. Solid hardwoods are durable, while plywood offers cost-effectiveness.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-materials-are-best-for-home-library-shelving",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of materials are best for home library shelving?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best materials for home library shelving depend on your aesthetic preferences, budget, and the weight of your book collection. Common choices include solid hardwoods like oak, maple, or cherry for durability and a classic look, as well as high-quality plywood with veneer for a more cost-effective yet robust option. Melamine or laminate are suitable for lighter loads and offer a wider range of finishes. A key decision factor is the density of your books; heavier collections require sturdier, thicker shelving materials to prevent sagging over time. We can guide you through material selection during our design phase.",
-        "description": "Material choice for home library shelving depends on aesthetics, budget, and book weight. Solid hardwoods are durable, while plywood offers cost-effectiveness. Heavier collections require sturdier materials to prevent sagging."
-      }
-    }
-  ],
+  "name": "What kind of materials are best for home library shelving?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of materials are best for home library shelving?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best materials for home library shelving depend on your aesthetic preferences, budget, and the weight of your book collection. Common choices include solid hardwoods like oak, maple, or cherry for durability and a classic look, as well as high-quality plywood with veneer for a more cost-effective yet robust option. Melamine or laminate are suitable for lighter loads and offer a wider range of finishes. A key decision factor is the density of your books; heavier collections require sturdier, thicker shelving materials to prevent sagging over time. We can guide you through material selection during our design phase.",
+        "@type": "Answer",
+        "description": "Material choice for home library shelving depends on aesthetics, budget, and book weight. Solid hardwoods are durable, while plywood offers cost-effectiveness. Heavier collections require sturdier materials to prevent sagging."
+      }
+    }
+  ],
+  "description": "Material choice for home library shelving depends on aesthetics, budget, and book weight. Solid hardwoods are durable, while plywood offers cost-effectiveness."
 }

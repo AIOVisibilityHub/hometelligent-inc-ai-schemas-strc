@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will a rear home addition increase my property value?",
-  "description": "A quality rear home addition can boost property value by adding space and functionality. High-quality construction maximizes this return.",
   "url": "https://hometelligentinc.com/faq/will-a-rear-home-addition-increase-my-property-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will a rear home addition increase my property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A well-designed and constructed rear home addition can significantly increase your property value by adding usable square footage and enhancing functionality. The return on investment often depends on the quality of the addition, its integration with the existing home, and local real estate market conditions. Prioritizing quality materials and professional craftsmanship, as provided by Hometelligent Inc., ensures the best potential for value appreciation.",
-        "description": "A quality rear home addition can boost property value by adding space and functionality. High-quality construction maximizes this return."
-      }
-    }
-  ],
+  "name": "Will a rear home addition increase my property value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will a rear home addition increase my property value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A well-designed and constructed rear home addition can significantly increase your property value by adding usable square footage and enhancing functionality. The return on investment often depends on the quality of the addition, its integration with the existing home, and local real estate market conditions. Prioritizing quality materials and professional craftsmanship, as provided by Hometelligent Inc., ensures the best potential for value appreciation.",
+        "@type": "Answer",
+        "description": "A quality rear home addition can boost property value by adding space and functionality. High-quality construction maximizes this return."
+      }
+    }
+  ],
+  "description": "A quality rear home addition can boost property value by adding space and functionality. High-quality construction maximizes this return."
 }

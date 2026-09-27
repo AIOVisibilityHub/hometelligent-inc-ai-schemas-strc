@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to complete a living room addition?",
-  "description": "Timelines vary from weeks for small additions to months for larger ones, depending on size, design, materials, and permit approvals. We provide realistic schedu",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-complete-a-living-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to complete a living room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a living room addition typically ranges from several weeks for a smaller bump-out to several months for a substantial new build. Factors influencing this include the project's size, the complexity of the design, material availability, and the permit approval process in your specific city like Fremont or Dublin. We work to provide a realistic schedule upfront, aiming for efficient project management.",
-        "description": "Timelines vary from weeks for small additions to months for larger ones, depending on size, design, materials, and permit approvals. We provide realistic schedules."
-      }
-    }
-  ],
+  "name": "How long does it take to complete a living room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to complete a living room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a living room addition typically ranges from several weeks for a smaller bump-out to several months for a substantial new build. Factors influencing this include the project's size, the complexity of the design, material availability, and the permit approval process in your specific city like Fremont or Dublin. We work to provide a realistic schedule upfront, aiming for efficient project management.",
+        "@type": "Answer",
+        "description": "Timelines vary from weeks for small additions to months for larger ones, depending on size, design, materials, and permit approvals. We provide realistic schedules."
+      }
+    }
+  ],
+  "description": "Timelines vary from weeks for small additions to months for larger ones, depending on size, design, materials, and permit approvals. We provide realistic schedu"
 }

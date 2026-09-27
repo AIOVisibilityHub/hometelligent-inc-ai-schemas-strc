@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for a room addition project?",
-  "description": "The typical process involves design, securing permits, construction (foundation, framing, utilities, finishes), and final inspections.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-a-room-addition-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for a room addition project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for a room addition generally begins with design and planning, where architectural drawings are created and finalized. This is followed by securing necessary permits from local authorities, such as those in Berkeley or Fremont, which can vary based on project scope and city regulations. Once permits are approved, construction commences, involving foundation work, framing, roofing, rough-ins for utilities, and finishes. The project concludes with final inspections and cleanup. Understanding the permit acquisition phase is crucial, as this can significantly influence the project timeline.",
-        "description": "The typical process involves design, securing permits, construction (foundation, framing, utilities, finishes), and final inspections."
-      }
-    }
-  ],
+  "name": "What is the typical process for a room addition project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for a room addition project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for a room addition generally begins with design and planning, where architectural drawings are created and finalized. This is followed by securing necessary permits from local authorities, such as those in Berkeley or Fremont, which can vary based on project scope and city regulations. Once permits are approved, construction commences, involving foundation work, framing, roofing, rough-ins for utilities, and finishes. The project concludes with final inspections and cleanup. Understanding the permit acquisition phase is crucial, as this can significantly influence the project timeline.",
+        "@type": "Answer",
+        "description": "The typical process involves design, securing permits, construction (foundation, framing, utilities, finishes), and final inspections."
+      }
+    }
+  ],
+  "description": "The typical process involves design, securing permits, construction (foundation, framing, utilities, finishes), and final inspections."
 }

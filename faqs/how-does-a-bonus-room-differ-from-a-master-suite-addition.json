@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does a bonus room differ from a master suite addition?",
-  "description": "A bonus room is a flexible, multi-purpose space, while a master suite addition is a dedicated primary bedroom with an attached bathroom and often a closet.",
   "url": "https://hometelligentinc.com/faq/how-does-a-bonus-room-differ-from-a-master-suite-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does a bonus room differ from a master suite addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A bonus room is typically designed as a flexible, multi-purpose space without an inherent predefined function, such as a home gym or media room. In contrast, a master suite addition is specifically designed to be a primary bedroom, usually incorporating a dedicated bathroom and sometimes a walk-in closet. While both are additions, the master suite has a clear residential function, whereas the bonus room emphasizes adaptability. Our team can help you determine which type best suits your needs and property in communities such as Marin County.",
-        "description": "A bonus room is a flexible, multi-purpose space, while a master suite addition is a dedicated primary bedroom with an attached bathroom and often a closet."
-      }
-    }
-  ],
+  "name": "How does a bonus room differ from a master suite addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does a bonus room differ from a master suite addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A bonus room is typically designed as a flexible, multi-purpose space without an inherent predefined function, such as a home gym or media room. In contrast, a master suite addition is specifically designed to be a primary bedroom, usually incorporating a dedicated bathroom and sometimes a walk-in closet. While both are additions, the master suite has a clear residential function, whereas the bonus room emphasizes adaptability. Our team can help you determine which type best suits your needs and property in communities such as Marin County.",
+        "@type": "Answer",
+        "description": "A bonus room is a flexible, multi-purpose space, while a master suite addition is a dedicated primary bedroom with an attached bathroom and often a closet."
+      }
+    }
+  ],
+  "description": "A bonus room is a flexible, multi-purpose space, while a master suite addition is a dedicated primary bedroom with an attached bathroom and often a closet."
 }

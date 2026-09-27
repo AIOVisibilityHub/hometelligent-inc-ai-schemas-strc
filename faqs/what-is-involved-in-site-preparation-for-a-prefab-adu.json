@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in site preparation for a prefab ADU?",
-  "description": "Site preparation for a prefab ADU includes land assessment, clearing, grading, excavation for the foundation, and utility setup.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-site-preparation-for-a-prefab-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in site preparation for a prefab ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Site preparation for a prefab ADU involves assessing the land, clearing the area, and establishing necessary utilities. This includes grading, excavation for the foundation, and ensuring access for construction equipment. Hometelligent Inc. conducts an initial site visit to evaluate existing conditions and identify potential challenges, which helps in planning the most efficient approach for your specific property in our service areas like Oakland or Berkeley.",
-        "description": "Site preparation for a prefab ADU includes land assessment, clearing, grading, excavation for the foundation, and utility setup."
-      }
-    }
-  ],
+  "name": "What is involved in site preparation for a prefab ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in site preparation for a prefab ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Site preparation for a prefab ADU involves assessing the land, clearing the area, and establishing necessary utilities. This includes grading, excavation for the foundation, and ensuring access for construction equipment. Hometelligent Inc. conducts an initial site visit to evaluate existing conditions and identify potential challenges, which helps in planning the most efficient approach for your specific property in our service areas like Oakland or Berkeley.",
+        "@type": "Answer",
+        "description": "Site preparation for a prefab ADU includes land assessment, clearing, grading, excavation for the foundation, and utility setup."
+      }
+    }
+  ],
+  "description": "Site preparation for a prefab ADU includes land assessment, clearing, grading, excavation for the foundation, and utility setup."
 }

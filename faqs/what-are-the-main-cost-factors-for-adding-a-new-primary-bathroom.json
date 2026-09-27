@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the main cost factors for adding a new primary bathroom?",
-  "description": "Cost factors for a primary bathroom addition include size, material quality, and plumbing/electrical complexity. Choosing higher-end finishes is a key tradeoff",
   "url": "https://hometelligentinc.com/faq/what-are-the-main-cost-factors-for-adding-a-new-primary-bathroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the main cost factors for adding a new primary bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a primary bathroom addition is influenced by several factors, including its size, the quality of materials selected, and the complexity of plumbing and electrical work. Higher-end fixtures, custom cabinetry, and extensive tile work will increase the overall investment. A practical tradeoff is balancing desired luxury with budget, as premium selections can significantly escalate costs compared to standard options. We provide detailed estimates to help you understand these cost drivers.",
-        "description": "Cost factors for a primary bathroom addition include size, material quality, and plumbing/electrical complexity. Choosing higher-end finishes is a key tradeoff that can increase the budget."
-      }
-    }
-  ],
+  "name": "What are the main cost factors for adding a new primary bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the main cost factors for adding a new primary bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a primary bathroom addition is influenced by several factors, including its size, the quality of materials selected, and the complexity of plumbing and electrical work. Higher-end fixtures, custom cabinetry, and extensive tile work will increase the overall investment. A practical tradeoff is balancing desired luxury with budget, as premium selections can significantly escalate costs compared to standard options. We provide detailed estimates to help you understand these cost drivers.",
+        "@type": "Answer",
+        "description": "Cost factors for a primary bathroom addition include size, material quality, and plumbing/electrical complexity. Choosing higher-end finishes is a key tradeoff that can increase the budget."
+      }
+    }
+  ],
+  "description": "Cost factors for a primary bathroom addition include size, material quality, and plumbing/electrical complexity. Choosing higher-end finishes is a key tradeoff"
 }

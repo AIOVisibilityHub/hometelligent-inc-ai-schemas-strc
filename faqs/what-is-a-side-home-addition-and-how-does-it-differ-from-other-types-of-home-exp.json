@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a side home addition and how does it differ from other types of home expansions?",
-  "description": "A side home addition expands your living space laterally from an existing exterior wall, differing from rear or second-story expansions by building outwards rat",
   "url": "https://hometelligentinc.com/faq/what-is-a-side-home-addition-and-how-does-it-differ-from-other-types-of-home-exp",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a side home addition and how does it differ from other types of home expansions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A side home addition expands your living space by building outwards from an existing exterior wall. This differs from rear additions, which extend into the backyard, or second-story additions, which build upwards. Side additions are often chosen when property lines allow for lateral expansion and homeowners want to maintain backyard space or avoid extensive roofline changes. They are particularly suitable for adding new rooms like bedrooms, offices, or larger living areas without significant structural changes to the existing roof or foundation beyond the new footprint.",
-        "description": "A side home addition expands your living space laterally from an existing exterior wall, differing from rear or second-story expansions by building outwards rather than backwards or upwards."
-      }
-    }
-  ],
+  "name": "What is a side home addition and how does it differ from other types of home expansions?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a side home addition and how does it differ from other types of home expansions?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A side home addition expands your living space by building outwards from an existing exterior wall. This differs from rear additions, which extend into the backyard, or second-story additions, which build upwards. Side additions are often chosen when property lines allow for lateral expansion and homeowners want to maintain backyard space or avoid extensive roofline changes. They are particularly suitable for adding new rooms like bedrooms, offices, or larger living areas without significant structural changes to the existing roof or foundation beyond the new footprint.",
+        "@type": "Answer",
+        "description": "A side home addition expands your living space laterally from an existing exterior wall, differing from rear or second-story expansions by building outwards rather than backwards or upwards."
+      }
+    }
+  ],
+  "description": "A side home addition expands your living space laterally from an existing exterior wall, differing from rear or second-story expansions by building outwards rat"
 }

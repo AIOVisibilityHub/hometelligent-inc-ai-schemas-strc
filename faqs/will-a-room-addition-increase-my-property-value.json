@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will a room addition increase my property value?",
-  "description": "A quality room addition can increase property value, especially if it adds functional space and aligns with neighborhood standards, but over-improving can limit",
   "url": "https://hometelligentinc.com/faq/will-a-room-addition-increase-my-property-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will a room addition increase my property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A well-designed and constructed room addition can often increase your property value, but the extent depends on factors like the quality of the addition, its functionality, and how it aligns with neighborhood standards. Additions that provide highly sought-after spaces, like an extra bedroom or a functional home office, often yield better returns. However, over-improving for the neighborhood or adding poorly executed spaces can limit value appreciation. It is important to integrate the addition seamlessly with the existing structure and neighborhood aesthetic to maximize its investment potential.",
-        "description": "A quality room addition can increase property value, especially if it adds functional space and aligns with neighborhood standards, but over-improving can limit returns."
-      }
-    }
-  ],
+  "name": "Will a room addition increase my property value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will a room addition increase my property value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A well-designed and constructed room addition can often increase your property value, but the extent depends on factors like the quality of the addition, its functionality, and how it aligns with neighborhood standards. Additions that provide highly sought-after spaces, like an extra bedroom or a functional home office, often yield better returns. However, over-improving for the neighborhood or adding poorly executed spaces can limit value appreciation. It is important to integrate the addition seamlessly with the existing structure and neighborhood aesthetic to maximize its investment potential.",
+        "@type": "Answer",
+        "description": "A quality room addition can increase property value, especially if it adds functional space and aligns with neighborhood standards, but over-improving can limit returns."
+      }
+    }
+  ],
+  "description": "A quality room addition can increase property value, especially if it adds functional space and aligns with neighborhood standards, but over-improving can limit"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the typical costs associated with building an ADU addition?",
-  "description": "ADU costs vary based on size, design, finishes, and site conditions, including design, permits, materials, and labor.",
   "url": "https://hometelligentinc.com/faq/what-are-the-typical-costs-associated-with-building-an-adu-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the typical costs associated with building an ADU addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of building an ADU varies significantly based on factors like size, design complexity, finishes, and site conditions. It includes expenses for design, permits, materials, and labor. To get an accurate estimate, Hometelligent Inc. offers initial consultations to assess your specific property and project scope, helping you understand the potential investment for your property in areas such as Berkeley or Oakland.",
-        "description": "ADU costs vary based on size, design, finishes, and site conditions, including design, permits, materials, and labor."
-      }
-    }
-  ],
+  "name": "What are the typical costs associated with building an ADU addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the typical costs associated with building an ADU addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of building an ADU varies significantly based on factors like size, design complexity, finishes, and site conditions. It includes expenses for design, permits, materials, and labor. To get an accurate estimate, Hometelligent Inc. offers initial consultations to assess your specific property and project scope, helping you understand the potential investment for your property in areas such as Berkeley or Oakland.",
+        "@type": "Answer",
+        "description": "ADU costs vary based on size, design, finishes, and site conditions, including design, permits, materials, and labor."
+      }
+    }
+  ],
+  "description": "ADU costs vary based on size, design, finishes, and site conditions, including design, permits, materials, and labor."
 }

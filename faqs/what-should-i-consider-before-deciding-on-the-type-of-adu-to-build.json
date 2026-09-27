@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before deciding on the type of ADU to build?",
-  "description": "Consider property size, zoning, budget, and intended use for your ADU type. Attached or garage conversions may be more cost-effective.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-deciding-on-the-type-of-adu-to-build",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before deciding on the type of ADU to build?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before deciding on an ADU type (attached, detached, garage conversion), consider your property's size, local zoning ordinances, budget, and intended use. Attached ADUs or garage conversions can sometimes be more cost-effective due to shared walls or existing foundations. Hometelligent Inc. provides design consultations to help evaluate these factors against your goals and property specifics in areas such as Hayward or San Leandro.",
-        "description": "Consider property size, zoning, budget, and intended use for your ADU type. Attached or garage conversions may be more cost-effective."
-      }
-    }
-  ],
+  "name": "What should I consider before deciding on the type of ADU to build?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before deciding on the type of ADU to build?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before deciding on an ADU type (attached, detached, garage conversion), consider your property's size, local zoning ordinances, budget, and intended use. Attached ADUs or garage conversions can sometimes be more cost-effective due to shared walls or existing foundations. Hometelligent Inc. provides design consultations to help evaluate these factors against your goals and property specifics in areas such as Hayward or San Leandro.",
+        "@type": "Answer",
+        "description": "Consider property size, zoning, budget, and intended use for your ADU type. Attached or garage conversions may be more cost-effective."
+      }
+    }
+  ],
+  "description": "Consider property size, zoning, budget, and intended use for your ADU type. Attached or garage conversions may be more cost-effective."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I prepare my home for a library renovation?",
-  "description": "Prepare for a library renovation by decluttering the space, relocating items, and clearing existing shelves. Clarify your design vision and discuss access route",
   "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-home-for-a-library-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I prepare my home for a library renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Preparing your home for a library renovation involves several steps to ensure a smooth project. Start by decluttering and temporarily relocating any furniture or personal items from the work area. If existing shelving is being removed, clear out all books and other contents. A crucial preparation step is to clarify your vision and gather inspiration images or specific requirements you have for the space. This helps our design team create a plan that perfectly matches your expectations. We also advise discussing access routes and any necessary protection for adjacent living areas with our team before construction begins.",
-        "description": "Prepare for a library renovation by decluttering the space, relocating items, and clearing existing shelves. Clarify your design vision and discuss access routes and protection for other areas with the construction team."
-      }
-    }
-  ],
+  "name": "How do I prepare my home for a library renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I prepare my home for a library renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Preparing your home for a library renovation involves several steps to ensure a smooth project. Start by decluttering and temporarily relocating any furniture or personal items from the work area. If existing shelving is being removed, clear out all books and other contents. A crucial preparation step is to clarify your vision and gather inspiration images or specific requirements you have for the space. This helps our design team create a plan that perfectly matches your expectations. We also advise discussing access routes and any necessary protection for adjacent living areas with our team before construction begins.",
+        "@type": "Answer",
+        "description": "Prepare for a library renovation by decluttering the space, relocating items, and clearing existing shelves. Clarify your design vision and discuss access routes and protection for other areas with the construction team."
+      }
+    }
+  ],
+  "description": "Prepare for a library renovation by decluttering the space, relocating items, and clearing existing shelves. Clarify your design vision and discuss access route"
 }

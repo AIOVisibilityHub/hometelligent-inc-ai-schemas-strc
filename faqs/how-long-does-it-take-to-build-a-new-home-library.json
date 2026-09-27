@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to build a new home library?",
-  "description": "The timeline for a new home library depends on size and complexity, ranging from weeks for simple units to months for dedicated room additions. Permitting and m",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-a-new-home-library",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to build a new home library?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for building a new home library varies significantly based on its size, complexity, and the extent of custom features. A smaller, simpler built-in unit might take a few weeks from design to completion, while a dedicated room addition with extensive custom millwork and structural modifications could take several months. Process clarity is achieved by detailing each project phase during the initial consultation, including design approvals, material lead times, and construction scheduling. Factors like permitting in cities such as Oakland or Fremont can also influence the overall duration, so early planning is crucial.",
-        "description": "The timeline for a new home library depends on size and complexity, ranging from weeks for simple units to months for dedicated room additions. Permitting and material lead times also affect the schedule."
-      }
-    }
-  ],
+  "name": "How long does it take to build a new home library?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to build a new home library?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for building a new home library varies significantly based on its size, complexity, and the extent of custom features. A smaller, simpler built-in unit might take a few weeks from design to completion, while a dedicated room addition with extensive custom millwork and structural modifications could take several months. Process clarity is achieved by detailing each project phase during the initial consultation, including design approvals, material lead times, and construction scheduling. Factors like permitting in cities such as Oakland or Fremont can also influence the overall duration, so early planning is crucial.",
+        "@type": "Answer",
+        "description": "The timeline for a new home library depends on size and complexity, ranging from weeks for simple units to months for dedicated room additions. Permitting and material lead times also affect the schedule."
+      }
+    }
+  ],
+  "description": "The timeline for a new home library depends on size and complexity, ranging from weeks for simple units to months for dedicated room additions. Permitting and m"
 }

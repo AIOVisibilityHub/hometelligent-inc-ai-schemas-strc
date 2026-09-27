@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors affect the cost of a bonus room addition?",
-  "description": "Cost is affected by size, finish quality, structural complexity, and utility needs. Foundation work and exterior matching also contribute significantly.",
   "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-a-bonus-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors affect the cost of a bonus room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a bonus room addition is influenced by several factors, including the room's square footage, the quality of finishes chosen, the complexity of structural work, and the need for new utility connections like plumbing or electrical. Foundation work, roofline integration, and exterior siding matching also play a significant role. Hometelligent Inc. provides detailed estimates after understanding your specific design requirements and site conditions in locations such as Oakland or San Leandro.",
-        "description": "Cost is affected by size, finish quality, structural complexity, and utility needs. Foundation work and exterior matching also contribute significantly."
-      }
-    }
-  ],
+  "name": "What factors affect the cost of a bonus room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors affect the cost of a bonus room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a bonus room addition is influenced by several factors, including the room's square footage, the quality of finishes chosen, the complexity of structural work, and the need for new utility connections like plumbing or electrical. Foundation work, roofline integration, and exterior siding matching also play a significant role. Hometelligent Inc. provides detailed estimates after understanding your specific design requirements and site conditions in locations such as Oakland or San Leandro.",
+        "@type": "Answer",
+        "description": "Cost is affected by size, finish quality, structural complexity, and utility needs. Foundation work and exterior matching also contribute significantly."
+      }
+    }
+  ],
+  "description": "Cost is affected by size, finish quality, structural complexity, and utility needs. Foundation work and exterior matching also contribute significantly."
 }

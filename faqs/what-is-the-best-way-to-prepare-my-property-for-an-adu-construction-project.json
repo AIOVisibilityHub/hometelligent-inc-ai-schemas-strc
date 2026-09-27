@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the best way to prepare my property for an ADU construction project?",
-  "description": "Clear the construction area, ensure access, and consider utility connections. A site visit helps identify specific preparations.",
   "url": "https://hometelligentinc.com/faq/what-is-the-best-way-to-prepare-my-property-for-an-adu-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the best way to prepare my property for an ADU construction project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare your property, clear the proposed construction area of any obstructions and ensure easy access for construction vehicles and materials. You should also consider where utilities will connect and if upgrades are needed. Hometelligent Inc. will conduct a site visit to identify any specific preparations needed and discuss logistics, ensuring a smooth start to your project.",
-        "description": "Clear the construction area, ensure access, and consider utility connections. A site visit helps identify specific preparations."
-      }
-    }
-  ],
+  "name": "What is the best way to prepare my property for an ADU construction project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the best way to prepare my property for an ADU construction project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare your property, clear the proposed construction area of any obstructions and ensure easy access for construction vehicles and materials. You should also consider where utilities will connect and if upgrades are needed. Hometelligent Inc. will conduct a site visit to identify any specific preparations needed and discuss logistics, ensuring a smooth start to your project.",
+        "@type": "Answer",
+        "description": "Clear the construction area, ensure access, and consider utility connections. A site visit helps identify specific preparations."
+      }
+    }
+  ],
+  "description": "Clear the construction area, ensure access, and consider utility connections. A site visit helps identify specific preparations."
 }

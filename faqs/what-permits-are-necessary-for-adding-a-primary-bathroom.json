@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are necessary for adding a primary bathroom?",
-  "description": "Primary bathroom additions typically require building, plumbing, and electrical permits. Our team can assist with navigating local permit requirements in our se",
   "url": "https://hometelligentinc.com/faq/what-permits-are-necessary-for-adding-a-primary-bathroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are necessary for adding a primary bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a primary bathroom generally requires multiple permits, including building, plumbing, and electrical permits. Depending on the scope, you might also need mechanical or zoning permits. These permits ensure the addition complies with local safety and construction standards. For projects within our service areas, such as Alameda or Berkeley, we have experience navigating the specific permit requirements and can assist in preparing and submitting the necessary documentation to the local authorities.",
-        "description": "Primary bathroom additions typically require building, plumbing, and electrical permits. Our team can assist with navigating local permit requirements in our service areas."
-      }
-    }
-  ],
+  "name": "What permits are necessary for adding a primary bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are necessary for adding a primary bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a primary bathroom generally requires multiple permits, including building, plumbing, and electrical permits. Depending on the scope, you might also need mechanical or zoning permits. These permits ensure the addition complies with local safety and construction standards. For projects within our service areas, such as Alameda or Berkeley, we have experience navigating the specific permit requirements and can assist in preparing and submitting the necessary documentation to the local authorities.",
+        "@type": "Answer",
+        "description": "Primary bathroom additions typically require building, plumbing, and electrical permits. Our team can assist with navigating local permit requirements in our service areas."
+      }
+    }
+  ],
+  "description": "Primary bathroom additions typically require building, plumbing, and electrical permits. Our team can assist with navigating local permit requirements in our se"
 }

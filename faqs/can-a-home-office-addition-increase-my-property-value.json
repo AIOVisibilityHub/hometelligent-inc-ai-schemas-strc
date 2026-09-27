@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a home office addition increase my property value?",
-  "description": "A quality home office addition can increase property value, particularly in areas like the Bay Area, by adding desirable functional space.",
   "url": "https://hometelligentinc.com/faq/can-a-home-office-addition-increase-my-property-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a home office addition increase my property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A well-designed and constructed home office addition can significantly increase your property value, especially in competitive real estate markets like the Bay Area. It adds functional living space that is highly sought after by buyers. The return on investment depends on the quality of the addition, how well it integrates with the existing home, and local market trends. Ensure the design is versatile to appeal to a broad range of potential buyers.",
-        "description": "A quality home office addition can increase property value, particularly in areas like the Bay Area, by adding desirable functional space."
-      }
-    }
-  ],
+  "name": "Can a home office addition increase my property value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a home office addition increase my property value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A well-designed and constructed home office addition can significantly increase your property value, especially in competitive real estate markets like the Bay Area. It adds functional living space that is highly sought after by buyers. The return on investment depends on the quality of the addition, how well it integrates with the existing home, and local market trends. Ensure the design is versatile to appeal to a broad range of potential buyers.",
+        "@type": "Answer",
+        "description": "A quality home office addition can increase property value, particularly in areas like the Bay Area, by adding desirable functional space."
+      }
+    }
+  ],
+  "description": "A quality home office addition can increase property value, particularly in areas like the Bay Area, by adding desirable functional space."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What lighting options are best for a home library?",
-  "description": "Optimal home library lighting combines ambient, task (e.g., under-shelf LEDs), and accent lighting. The best choice depends on whether the library is for readin",
   "url": "https://hometelligentinc.com/faq/what-lighting-options-are-best-for-a-home-library",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What lighting options are best for a home library?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effective lighting in a home library combines ambient, task, and accent lighting to create a comfortable and functional space. Recessed lighting or track lighting can provide general illumination. Task lighting, such as under-shelf LED strips or strategically placed reading lamps, is crucial for reducing eye strain. Accent lighting can highlight specific architectural features or book collections. A key decision factor is the primary use of the library; a space primarily for reading requires more focused task lighting, while a display-oriented library might prioritize accent lighting to showcase collections. Dimmer switches are also a versatile addition.",
-        "description": "Optimal home library lighting combines ambient, task (e.g., under-shelf LEDs), and accent lighting. The best choice depends on whether the library is for reading or display, and dimmer switches are versatile."
-      }
-    }
-  ],
+  "name": "What lighting options are best for a home library?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What lighting options are best for a home library?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Effective lighting in a home library combines ambient, task, and accent lighting to create a comfortable and functional space. Recessed lighting or track lighting can provide general illumination. Task lighting, such as under-shelf LED strips or strategically placed reading lamps, is crucial for reducing eye strain. Accent lighting can highlight specific architectural features or book collections. A key decision factor is the primary use of the library; a space primarily for reading requires more focused task lighting, while a display-oriented library might prioritize accent lighting to showcase collections. Dimmer switches are also a versatile addition.",
+        "@type": "Answer",
+        "description": "Optimal home library lighting combines ambient, task (e.g., under-shelf LEDs), and accent lighting. The best choice depends on whether the library is for reading or display, and dimmer switches are versatile."
+      }
+    }
+  ],
+  "description": "Optimal home library lighting combines ambient, task (e.g., under-shelf LEDs), and accent lighting. The best choice depends on whether the library is for readin"
 }

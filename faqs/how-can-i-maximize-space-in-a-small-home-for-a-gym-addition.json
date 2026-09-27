@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I maximize space in a small home for a gym addition?",
-  "description": "Maximize space with multi-functional equipment, vertical storage, and foldable machines, prioritizing essentials to avoid overcrowding.",
   "url": "https://hometelligentinc.com/faq/how-can-i-maximize-space-in-a-small-home-for-a-gym-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I maximize space in a small home for a gym addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maximizing space in a small home for a gym addition often involves creative solutions like multi-functional equipment, vertical storage, and foldable machines. Consider built-in shelving or cabinets to keep the area organized and clutter-free. A decision factor here is prioritizing essential equipment over non-essential items to maintain functionality without overcrowding the space, ensuring an efficient layout.",
-        "description": "Maximize space with multi-functional equipment, vertical storage, and foldable machines, prioritizing essentials to avoid overcrowding."
-      }
-    }
-  ],
+  "name": "How can I maximize space in a small home for a gym addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I maximize space in a small home for a gym addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maximizing space in a small home for a gym addition often involves creative solutions like multi-functional equipment, vertical storage, and foldable machines. Consider built-in shelving or cabinets to keep the area organized and clutter-free. A decision factor here is prioritizing essential equipment over non-essential items to maintain functionality without overcrowding the space, ensuring an efficient layout.",
+        "@type": "Answer",
+        "description": "Maximize space with multi-functional equipment, vertical storage, and foldable machines, prioritizing essentials to avoid overcrowding."
+      }
+    }
+  ],
+  "description": "Maximize space with multi-functional equipment, vertical storage, and foldable machines, prioritizing essentials to avoid overcrowding."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a primary suite addition?",
-  "description": "A primary suite addition expands your home by adding new square footage for a larger bedroom, en-suite bathroom, and often a walk-in closet. It requires evaluat",
   "url": "https://hometelligentinc.com/faq/what-is-a-primary-suite-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a primary suite addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A primary suite addition involves expanding your home to create a new, larger bedroom area that often includes an en-suite bathroom and a walk-in closet. This type of addition is distinct from a remodel because it adds new square footage to your property, rather than simply reconfiguring existing space. Key considerations for a primary suite addition include evaluating your property's available space, local zoning regulations in cities like Berkeley or Pleasanton, and how the new structure will integrate with your home's existing architecture and foundation.",
-        "description": "A primary suite addition expands your home by adding new square footage for a larger bedroom, en-suite bathroom, and often a walk-in closet. It requires evaluating available space and local zoning regulations."
-      }
-    }
-  ],
+  "name": "What is a primary suite addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a primary suite addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A primary suite addition involves expanding your home to create a new, larger bedroom area that often includes an en-suite bathroom and a walk-in closet. This type of addition is distinct from a remodel because it adds new square footage to your property, rather than simply reconfiguring existing space. Key considerations for a primary suite addition include evaluating your property's available space, local zoning regulations in cities like Berkeley or Pleasanton, and how the new structure will integrate with your home's existing architecture and foundation.",
+        "@type": "Answer",
+        "description": "A primary suite addition expands your home by adding new square footage for a larger bedroom, en-suite bathroom, and often a walk-in closet. It requires evaluating available space and local zoning regulations."
+      }
+    }
+  ],
+  "description": "A primary suite addition expands your home by adding new square footage for a larger bedroom, en-suite bathroom, and often a walk-in closet. It requires evaluat"
 }

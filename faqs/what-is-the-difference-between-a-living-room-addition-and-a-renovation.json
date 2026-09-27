@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a living room addition and a renovation?",
-  "description": "An addition expands your home's footprint, adding new square footage, while a renovation updates existing space within current walls. We offer both services.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-living-room-addition-and-a-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a living room addition and a renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A living room addition involves expanding your home's footprint or adding an entirely new structure, increasing square footage. A renovation, on the other hand, typically involves updating or modifying the existing space within your home's current walls without changing its size. While both can improve functionality and aesthetics, an addition provides new space, whereas a renovation optimizes existing space. Hometelligent Inc. offers both services, guiding you to the best option for your goals.",
-        "description": "An addition expands your home's footprint, adding new square footage, while a renovation updates existing space within current walls. We offer both services."
-      }
-    }
-  ],
+  "name": "What is the difference between a living room addition and a renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a living room addition and a renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A living room addition involves expanding your home's footprint or adding an entirely new structure, increasing square footage. A renovation, on the other hand, typically involves updating or modifying the existing space within your home's current walls without changing its size. While both can improve functionality and aesthetics, an addition provides new space, whereas a renovation optimizes existing space. Hometelligent Inc. offers both services, guiding you to the best option for your goals.",
+        "@type": "Answer",
+        "description": "An addition expands your home's footprint, adding new square footage, while a renovation updates existing space within current walls. We offer both services."
+      }
+    }
+  ],
+  "description": "An addition expands your home's footprint, adding new square footage, while a renovation updates existing space within current walls. We offer both services."
 }

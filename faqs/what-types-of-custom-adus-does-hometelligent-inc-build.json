@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of custom ADUs does Hometelligent Inc. build?",
-  "description": "Hometelligent Inc. builds detached, attached, and garage conversion ADUs, customized to integrate with existing properties and owner needs.",
   "url": "https://hometelligentinc.com/faq/what-types-of-custom-adus-does-hometelligent-inc-build",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of custom ADUs does Hometelligent Inc. build?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. specializes in various custom ADU types, including detached new construction, garage conversions, and attached ADUs. Our approach focuses on tailoring each project to the specific needs and aesthetic preferences of the homeowner, ensuring seamless integration with the existing property. When considering a custom ADU, think about its intended use, whether it needs a separate entrance, and how it will interact with your current landscape to help guide the design choice.",
-        "description": "Hometelligent Inc. builds detached, attached, and garage conversion ADUs, customized to integrate with existing properties and owner needs."
-      }
-    }
-  ],
+  "name": "What types of custom ADUs does Hometelligent Inc. build?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of custom ADUs does Hometelligent Inc. build?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. specializes in various custom ADU types, including detached new construction, garage conversions, and attached ADUs. Our approach focuses on tailoring each project to the specific needs and aesthetic preferences of the homeowner, ensuring seamless integration with the existing property. When considering a custom ADU, think about its intended use, whether it needs a separate entrance, and how it will interact with your current landscape to help guide the design choice.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. builds detached, attached, and garage conversion ADUs, customized to integrate with existing properties and owner needs."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. builds detached, attached, and garage conversion ADUs, customized to integrate with existing properties and owner needs."
 }

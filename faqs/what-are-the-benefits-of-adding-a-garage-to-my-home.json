@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of adding a garage to my home?",
-  "description": "Benefits include increased storage, property value, vehicle protection, and potential for a workshop or ADU conversion.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-adding-a-garage-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of adding a garage to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a garage provides numerous benefits, including increased storage space, enhanced property value, and improved vehicle protection from weather and theft. It can also offer flexibility for a workshop, home gym, or future conversion into an Accessory Dwelling Unit (ADU) depending on local zoning. A well-designed addition integrates seamlessly with your existing home's aesthetic, which is a key focus for Hometelligent Inc.",
-        "description": "Benefits include increased storage, property value, vehicle protection, and potential for a workshop or ADU conversion."
-      }
-    }
-  ],
+  "name": "What are the benefits of adding a garage to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of adding a garage to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a garage provides numerous benefits, including increased storage space, enhanced property value, and improved vehicle protection from weather and theft. It can also offer flexibility for a workshop, home gym, or future conversion into an Accessory Dwelling Unit (ADU) depending on local zoning. A well-designed addition integrates seamlessly with your existing home's aesthetic, which is a key focus for Hometelligent Inc.",
+        "@type": "Answer",
+        "description": "Benefits include increased storage, property value, vehicle protection, and potential for a workshop or ADU conversion."
+      }
+    }
+  ],
+  "description": "Benefits include increased storage, property value, vehicle protection, and potential for a workshop or ADU conversion."
 }

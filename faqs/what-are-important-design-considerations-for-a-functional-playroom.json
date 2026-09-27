@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are important design considerations for a functional playroom?",
-  "description": "Key playroom design considerations include age-appropriateness, safety, storage, and future flexibility. Adaptable layouts and durable materials are important d",
   "url": "https://hometelligentinc.com/faq/what-are-important-design-considerations-for-a-functional-playroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are important design considerations for a functional playroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Designing a functional playroom involves considering factors like age-appropriateness, safety, storage solutions, and future flexibility. For instance, incorporating built-in shelving and cabinets can maximize space and keep toys organized. The choice of flooring, such as durable LVP or carpet, is a practical tradeoff between easy cleaning and comfort. Thinking about how the space might evolve as children grow is a key decision factor; open layouts with adaptable zones often prove most versatile over time for families in areas like Fremont or Hayward.",
-        "description": "Key playroom design considerations include age-appropriateness, safety, storage, and future flexibility. Adaptable layouts and durable materials are important decision factors for long-term use."
-      }
-    }
-  ],
+  "name": "What are important design considerations for a functional playroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are important design considerations for a functional playroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Designing a functional playroom involves considering factors like age-appropriateness, safety, storage solutions, and future flexibility. For instance, incorporating built-in shelving and cabinets can maximize space and keep toys organized. The choice of flooring, such as durable LVP or carpet, is a practical tradeoff between easy cleaning and comfort. Thinking about how the space might evolve as children grow is a key decision factor; open layouts with adaptable zones often prove most versatile over time for families in areas like Fremont or Hayward.",
+        "@type": "Answer",
+        "description": "Key playroom design considerations include age-appropriateness, safety, storage, and future flexibility. Adaptable layouts and durable materials are important decision factors for long-term use."
+      }
+    }
+  ],
+  "description": "Key playroom design considerations include age-appropriateness, safety, storage, and future flexibility. Adaptable layouts and durable materials are important d"
 }

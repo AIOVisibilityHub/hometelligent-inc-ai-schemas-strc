@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for my home gym addition in the Bay Area?",
-  "description": "Choose a contractor with relevant experience, local licensing, and good reviews, ensuring they understand Bay Area building codes.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-home-gym-addition-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for my home gym addition in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right contractor for your home gym addition involves looking for experience in similar projects, local licensing, and positive client testimonials. It's beneficial to select a contractor familiar with Bay Area specific building codes and regulations, such as those in Fremont or Oakland. Requesting detailed bids and understanding their communication process can help in your decision. Hometelligent, for example, specializes in residential additions across the region, providing first-party insight into local requirements.",
-        "description": "Choose a contractor with relevant experience, local licensing, and good reviews, ensuring they understand Bay Area building codes."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for my home gym addition in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for my home gym addition in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right contractor for your home gym addition involves looking for experience in similar projects, local licensing, and positive client testimonials. It's beneficial to select a contractor familiar with Bay Area specific building codes and regulations, such as those in Fremont or Oakland. Requesting detailed bids and understanding their communication process can help in your decision. Hometelligent, for example, specializes in residential additions across the region, providing first-party insight into local requirements.",
+        "@type": "Answer",
+        "description": "Choose a contractor with relevant experience, local licensing, and good reviews, ensuring they understand Bay Area building codes."
+      }
+    }
+  ],
+  "description": "Choose a contractor with relevant experience, local licensing, and good reviews, ensuring they understand Bay Area building codes."
 }

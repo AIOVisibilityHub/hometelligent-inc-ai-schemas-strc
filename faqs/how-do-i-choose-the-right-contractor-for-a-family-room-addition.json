@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for a family room addition?",
-  "description": "Choose a contractor with experience in similar projects, good references, proper licensing, and clear communication.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-a-family-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for a family room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a contractor for a family room addition, prioritize those with proven experience in similar projects and a strong local reputation. Look for contractors who are licensed and insured, provide clear communication, and offer transparent bidding. Checking references from previous clients and reviewing portfolios of past work can give you confidence in their capabilities. It's essential to find a contractor who understands your vision and can execute it efficiently.",
-        "description": "Choose a contractor with experience in similar projects, good references, proper licensing, and clear communication."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for a family room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for a family room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a contractor for a family room addition, prioritize those with proven experience in similar projects and a strong local reputation. Look for contractors who are licensed and insured, provide clear communication, and offer transparent bidding. Checking references from previous clients and reviewing portfolios of past work can give you confidence in their capabilities. It's essential to find a contractor who understands your vision and can execute it efficiently.",
+        "@type": "Answer",
+        "description": "Choose a contractor with experience in similar projects, good references, proper licensing, and clear communication."
+      }
+    }
+  ],
+  "description": "Choose a contractor with experience in similar projects, good references, proper licensing, and clear communication."
 }

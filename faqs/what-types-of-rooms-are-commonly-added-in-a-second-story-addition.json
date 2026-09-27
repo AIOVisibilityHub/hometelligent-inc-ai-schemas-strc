@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of rooms are commonly added in a second-story addition?",
-  "description": "Bedrooms, bathrooms, master suites, offices, and family rooms are common. Consider current and future needs for functional space.",
   "url": "https://hometelligentinc.com/faq/what-types-of-rooms-are-commonly-added-in-a-second-story-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of rooms are commonly added in a second-story addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common additions include extra bedrooms, bathrooms, a master suite, a home office, or a family room. The best choice depends on your family's needs and lifestyle. A key decision factor is assessing current and future space requirements to ensure the added space is both functional and enhances the overall value of your home for the long term.",
-        "description": "Bedrooms, bathrooms, master suites, offices, and family rooms are common. Consider current and future needs for functional space."
-      }
-    }
-  ],
+  "name": "What types of rooms are commonly added in a second-story addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of rooms are commonly added in a second-story addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common additions include extra bedrooms, bathrooms, a master suite, a home office, or a family room. The best choice depends on your family's needs and lifestyle. A key decision factor is assessing current and future space requirements to ensure the added space is both functional and enhances the overall value of your home for the long term.",
+        "@type": "Answer",
+        "description": "Bedrooms, bathrooms, master suites, offices, and family rooms are common. Consider current and future needs for functional space."
+      }
+    }
+  ],
+  "description": "Bedrooms, bathrooms, master suites, offices, and family rooms are common. Consider current and future needs for functional space."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I add a primary bedroom or move to a larger house?",
-  "description": "The choice between an addition and moving depends on property value, market conditions, and personal preference. An addition can increase home value and offer c",
   "url": "https://hometelligentinc.com/faq/should-i-add-a-primary-bedroom-or-move-to-a-larger-house",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I add a primary bedroom or move to a larger house?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding between adding a primary bedroom and moving depends on several factors, including your current property value, local real estate market, and personal attachment to your home and neighborhood. An addition can enhance your property value and provide customized space without the disruption and costs associated with moving, such as realtor fees and closing costs. Consider if your current lot can accommodate an expansion and if the architectural style of an addition will blend seamlessly with your existing home. We can help assess the feasibility and potential return on investment for an addition.",
-        "description": "The choice between an addition and moving depends on property value, market conditions, and personal preference. An addition can increase home value and offer custom space, avoiding moving costs."
-      }
-    }
-  ],
+  "name": "Should I add a primary bedroom or move to a larger house?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I add a primary bedroom or move to a larger house?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding between adding a primary bedroom and moving depends on several factors, including your current property value, local real estate market, and personal attachment to your home and neighborhood. An addition can enhance your property value and provide customized space without the disruption and costs associated with moving, such as realtor fees and closing costs. Consider if your current lot can accommodate an expansion and if the architectural style of an addition will blend seamlessly with your existing home. We can help assess the feasibility and potential return on investment for an addition.",
+        "@type": "Answer",
+        "description": "The choice between an addition and moving depends on property value, market conditions, and personal preference. An addition can increase home value and offer custom space, avoiding moving costs."
+      }
+    }
+  ],
+  "description": "The choice between an addition and moving depends on property value, market conditions, and personal preference. An addition can increase home value and offer c"
 }

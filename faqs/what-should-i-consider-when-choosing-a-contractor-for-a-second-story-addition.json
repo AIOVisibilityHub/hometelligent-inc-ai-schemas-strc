@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing a contractor for a second-story addition?",
-  "description": "Choose a contractor with specific second-story addition experience, proper licensing, insurance, and good references.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-a-contractor-for-a-second-story-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing a contractor for a second-story addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a contractor for a second-story addition, it's crucial to look for experience specifically with this type of complex project, proper licensing, and comprehensive insurance. Reviewing their portfolio of similar projects and checking references can provide insight into their quality of work and reliability. Hometelligent Inc. emphasizes transparent communication, detailed project planning, and adherence to timelines for projects in areas like Dublin and Fremont, which are key considerations for a smooth construction process.",
-        "description": "Choose a contractor with specific second-story addition experience, proper licensing, insurance, and good references."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing a contractor for a second-story addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing a contractor for a second-story addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a contractor for a second-story addition, it's crucial to look for experience specifically with this type of complex project, proper licensing, and comprehensive insurance. Reviewing their portfolio of similar projects and checking references can provide insight into their quality of work and reliability. Hometelligent Inc. emphasizes transparent communication, detailed project planning, and adherence to timelines for projects in areas like Dublin and Fremont, which are key considerations for a smooth construction process.",
+        "@type": "Answer",
+        "description": "Choose a contractor with specific second-story addition experience, proper licensing, insurance, and good references."
+      }
+    }
+  ],
+  "description": "Choose a contractor with specific second-story addition experience, proper licensing, insurance, and good references."
 }

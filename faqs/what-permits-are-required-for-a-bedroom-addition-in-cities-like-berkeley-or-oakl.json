@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for a bedroom addition in cities like Berkeley or Oakland?",
-  "description": "Bedroom additions require building permits from your local planning department, with specific requirements varying by city, such as in Berkeley or Oakland.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-bedroom-addition-in-cities-like-berkeley-or-oakl",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for a bedroom addition in cities like Berkeley or Oakland?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a bedroom generally requires a building permit from your local city or county planning department. This typically involves submitting detailed architectural plans, structural calculations, and demonstrating compliance with local zoning ordinances and building codes. For instance, in Berkeley or Oakland, specific requirements might include setbacks, height restrictions, and energy efficiency standards. We assist clients in navigating the permitting process to ensure all necessary approvals are obtained before construction begins.",
-        "description": "Bedroom additions require building permits from your local planning department, with specific requirements varying by city, such as in Berkeley or Oakland."
-      }
-    }
-  ],
+  "name": "What permits are required for a bedroom addition in cities like Berkeley or Oakland?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for a bedroom addition in cities like Berkeley or Oakland?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a bedroom generally requires a building permit from your local city or county planning department. This typically involves submitting detailed architectural plans, structural calculations, and demonstrating compliance with local zoning ordinances and building codes. For instance, in Berkeley or Oakland, specific requirements might include setbacks, height restrictions, and energy efficiency standards. We assist clients in navigating the permitting process to ensure all necessary approvals are obtained before construction begins.",
+        "@type": "Answer",
+        "description": "Bedroom additions require building permits from your local planning department, with specific requirements varying by city, such as in Berkeley or Oakland."
+      }
+    }
+  ],
+  "description": "Bedroom additions require building permits from your local planning department, with specific requirements varying by city, such as in Berkeley or Oakland."
 }

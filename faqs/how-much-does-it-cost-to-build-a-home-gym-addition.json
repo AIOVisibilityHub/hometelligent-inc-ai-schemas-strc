@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to build a home gym addition?",
-  "description": "Costs vary widely based on size, complexity, and materials, ranging from a few thousand for basic conversions to tens of thousands for custom builds.",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-build-a-home-gym-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to build a home gym addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a home gym addition varies significantly based on its size, complexity, materials, and equipment. A basic conversion might start from a few thousand dollars, while a custom-built extension with high-end finishes and specialized electrical can exceed tens of thousands. Preparing a detailed list of your desired features and discussing it with a contractor will help define the scope and associated costs. A practical tradeoff to consider is the upfront investment versus long-term gym membership savings.",
-        "description": "Costs vary widely based on size, complexity, and materials, ranging from a few thousand for basic conversions to tens of thousands for custom builds."
-      }
-    }
-  ],
+  "name": "How much does it cost to build a home gym addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to build a home gym addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a home gym addition varies significantly based on its size, complexity, materials, and equipment. A basic conversion might start from a few thousand dollars, while a custom-built extension with high-end finishes and specialized electrical can exceed tens of thousands. Preparing a detailed list of your desired features and discussing it with a contractor will help define the scope and associated costs. A practical tradeoff to consider is the upfront investment versus long-term gym membership savings.",
+        "@type": "Answer",
+        "description": "Costs vary widely based on size, complexity, and materials, ranging from a few thousand for basic conversions to tens of thousands for custom builds."
+      }
+    }
+  ],
+  "description": "Costs vary widely based on size, complexity, and materials, ranging from a few thousand for basic conversions to tens of thousands for custom builds."
 }

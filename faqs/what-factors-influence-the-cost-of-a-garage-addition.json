@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a garage addition?",
-  "description": "Costs are influenced by size, materials, utility connections, and finishes. Detached vs. attached and custom features also play a role.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-garage-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a garage addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Several factors impact the cost of a garage addition, including its size, materials selected, and whether it includes plumbing, electrical, or HVAC systems. A detached garage often has different site preparation costs compared to an attached one. The level of finish, such as custom cabinetry or specialized flooring, will also affect the overall budget. We provide detailed estimates that break down these costs based on your specific project scope and preferences.",
-        "description": "Costs are influenced by size, materials, utility connections, and finishes. Detached vs. attached and custom features also play a role."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a garage addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a garage addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Several factors impact the cost of a garage addition, including its size, materials selected, and whether it includes plumbing, electrical, or HVAC systems. A detached garage often has different site preparation costs compared to an attached one. The level of finish, such as custom cabinetry or specialized flooring, will also affect the overall budget. We provide detailed estimates that break down these costs based on your specific project scope and preferences.",
+        "@type": "Answer",
+        "description": "Costs are influenced by size, materials, utility connections, and finishes. Detached vs. attached and custom features also play a role."
+      }
+    }
+  ],
+  "description": "Costs are influenced by size, materials, utility connections, and finishes. Detached vs. attached and custom features also play a role."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a bonus room addition?",
-  "description": "A bonus room addition creates a new, versatile space in your home, designed for adaptability rather than a single fixed purpose.",
   "url": "https://hometelligentinc.com/faq/what-is-a-bonus-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a bonus room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A bonus room addition refers to expanding your home's footprint to create a new, versatile space. Unlike a standard room that might have a defined purpose like a bedroom, a bonus room is designed to be adaptable, serving functions such as a home office, gym, playroom, or media room. Hometelligent Inc. works with clients in areas like Alameda and Berkeley to design additions that integrate seamlessly with existing structures while fulfilling specific homeowner needs.",
-        "description": "A bonus room addition creates a new, versatile space in your home, designed for adaptability rather than a single fixed purpose."
-      }
-    }
-  ],
+  "name": "What is a bonus room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a bonus room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A bonus room addition refers to expanding your home's footprint to create a new, versatile space. Unlike a standard room that might have a defined purpose like a bedroom, a bonus room is designed to be adaptable, serving functions such as a home office, gym, playroom, or media room. Hometelligent Inc. works with clients in areas like Alameda and Berkeley to design additions that integrate seamlessly with existing structures while fulfilling specific homeowner needs.",
+        "@type": "Answer",
+        "description": "A bonus room addition creates a new, versatile space in your home, designed for adaptability rather than a single fixed purpose."
+      }
+    }
+  ],
+  "description": "A bonus room addition creates a new, versatile space in your home, designed for adaptability rather than a single fixed purpose."
 }

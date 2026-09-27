@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I determine if my property is suitable for a side home addition?",
-  "description": "Determine suitability for a side home addition by checking available space, local zoning setback requirements, and maximum lot coverage. A site survey and profe",
   "url": "https://hometelligentinc.com/faq/how-do-i-determine-if-my-property-is-suitable-for-a-side-home-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I determine if my property is suitable for a side home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To determine suitability for a side home addition, assess your property's available space and local zoning regulations. Key factors include setback requirements, which dictate how close you can build to property lines, and maximum lot coverage limits. A professional site survey can precisely map your property boundaries and existing structures. Additionally, consider the impact on natural light for existing rooms and neighboring properties. Hometelligent Inc. can assist with an initial site assessment to evaluate these considerations before detailed design work begins.",
-        "description": "Determine suitability for a side home addition by checking available space, local zoning setback requirements, and maximum lot coverage. A site survey and professional assessment clarify feasibility."
-      }
-    }
-  ],
+  "name": "How do I determine if my property is suitable for a side home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I determine if my property is suitable for a side home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To determine suitability for a side home addition, assess your property's available space and local zoning regulations. Key factors include setback requirements, which dictate how close you can build to property lines, and maximum lot coverage limits. A professional site survey can precisely map your property boundaries and existing structures. Additionally, consider the impact on natural light for existing rooms and neighboring properties. Hometelligent Inc. can assist with an initial site assessment to evaluate these considerations before detailed design work begins.",
+        "@type": "Answer",
+        "description": "Determine suitability for a side home addition by checking available space, local zoning setback requirements, and maximum lot coverage. A site survey and professional assessment clarify feasibility."
+      }
+    }
+  ],
+  "description": "Determine suitability for a side home addition by checking available space, local zoning setback requirements, and maximum lot coverage. A site survey and profe"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need planning permission for a second-floor addition in the East Bay area?",
-  "description": "Yes, planning permission and building permits are always required for second-floor additions in our service areas. Local regulations vary by city.",
   "url": "https://hometelligentinc.com/faq/do-i-need-planning-permission-for-a-second-floor-addition-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need planning permission for a second-floor addition in the East Bay area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, second-floor additions always require planning permission and building permits in all Hometelligent Inc. service areas, including cities like Alameda, Berkeley, and Oakland. Regulations vary slightly by municipality regarding zoning, setbacks, and height restrictions. It's crucial to understand these local ordinances early in the design phase to ensure your plans comply and avoid delays. We help navigate the specific requirements for your local jurisdiction.",
-        "description": "Yes, planning permission and building permits are always required for second-floor additions in our service areas. Local regulations vary by city."
-      }
-    }
-  ],
+  "name": "Do I need planning permission for a second-floor addition in the East Bay area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need planning permission for a second-floor addition in the East Bay area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, second-floor additions always require planning permission and building permits in all Hometelligent Inc. service areas, including cities like Alameda, Berkeley, and Oakland. Regulations vary slightly by municipality regarding zoning, setbacks, and height restrictions. It's crucial to understand these local ordinances early in the design phase to ensure your plans comply and avoid delays. We help navigate the specific requirements for your local jurisdiction.",
+        "@type": "Answer",
+        "description": "Yes, planning permission and building permits are always required for second-floor additions in our service areas. Local regulations vary by city."
+      }
+    }
+  ],
+  "description": "Yes, planning permission and building permits are always required for second-floor additions in our service areas. Local regulations vary by city."
 }

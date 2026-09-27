@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a rear home addition?",
-  "description": "Costs are determined by size, materials, finishes, system integration, and site complexity. Hometelligent Inc. offers transparent estimates during planning.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-rear-home-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a rear home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a rear home addition is influenced by several factors, including the size and scope of the addition, chosen materials, finishes, and the complexity of integrating new plumbing or electrical systems. Site-specific challenges, such as grading or existing utility lines, can also impact the budget. Hometelligent Inc. provides transparent estimates, outlining all potential costs involved during the planning phase to help you manage your budget effectively.",
-        "description": "Costs are determined by size, materials, finishes, system integration, and site complexity. Hometelligent Inc. offers transparent estimates during planning."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a rear home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a rear home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a rear home addition is influenced by several factors, including the size and scope of the addition, chosen materials, finishes, and the complexity of integrating new plumbing or electrical systems. Site-specific challenges, such as grading or existing utility lines, can also impact the budget. Hometelligent Inc. provides transparent estimates, outlining all potential costs involved during the planning phase to help you manage your budget effectively.",
+        "@type": "Answer",
+        "description": "Costs are determined by size, materials, finishes, system integration, and site complexity. Hometelligent Inc. offers transparent estimates during planning."
+      }
+    }
+  ],
+  "description": "Costs are determined by size, materials, finishes, system integration, and site complexity. Hometelligent Inc. offers transparent estimates during planning."
 }

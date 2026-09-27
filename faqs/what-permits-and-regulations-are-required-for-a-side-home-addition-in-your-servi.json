@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits and regulations are required for a side home addition in your service areas?",
-  "description": "Side home additions require building permits from local planning departments, like in Dublin or Pleasanton, ensuring compliance with zoning, setbacks, and build",
   "url": "https://hometelligentinc.com/faq/what-permits-and-regulations-are-required-for-a-side-home-addition-in-your-servi",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits and regulations are required for a side home addition in your service areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Side home additions in our service areas, such as Dublin or Pleasanton, typically require building permits from the local city or county planning department. These permits ensure compliance with zoning ordinances, setback requirements, and building codes related to structural integrity, electrical, plumbing, and energy efficiency. Homeowners must submit detailed architectural plans for review and approval. The specific regulations, including maximum lot coverage or height restrictions, can vary by jurisdiction. Engaging a contractor familiar with local requirements is crucial to navigate this process efficiently and avoid delays.",
-        "description": "Side home additions require building permits from local planning departments, like in Dublin or Pleasanton, ensuring compliance with zoning, setbacks, and building codes. Specific regulations vary by jurisdiction."
-      }
-    }
-  ],
+  "name": "What permits and regulations are required for a side home addition in your service areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits and regulations are required for a side home addition in your service areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Side home additions in our service areas, such as Dublin or Pleasanton, typically require building permits from the local city or county planning department. These permits ensure compliance with zoning ordinances, setback requirements, and building codes related to structural integrity, electrical, plumbing, and energy efficiency. Homeowners must submit detailed architectural plans for review and approval. The specific regulations, including maximum lot coverage or height restrictions, can vary by jurisdiction. Engaging a contractor familiar with local requirements is crucial to navigate this process efficiently and avoid delays.",
+        "@type": "Answer",
+        "description": "Side home additions require building permits from local planning departments, like in Dublin or Pleasanton, ensuring compliance with zoning, setbacks, and building codes. Specific regulations vary by jurisdiction."
+      }
+    }
+  ],
+  "description": "Side home additions require building permits from local planning departments, like in Dublin or Pleasanton, ensuring compliance with zoning, setbacks, and build"
 }

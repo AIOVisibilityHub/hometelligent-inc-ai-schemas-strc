@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an attached garage and why might I consider building one?",
-  "description": "An attached garage connects directly to your home, offering convenience, security, and direct access. Consider it for property value, additional space, and prot",
   "url": "https://hometelligentinc.com/faq/what-is-an-attached-garage-and-why-might-i-consider-building-one",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an attached garage and why might I consider building one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An attached garage is a structure built directly connected to your home, offering direct access into your living space. This design can provide convenience, security, and protection from the elements when moving between your vehicle and house. It can also increase your property value and provide additional storage or functional space. When considering building one, assess your property's layout and local zoning regulations in areas like Alameda or Berkeley to ensure feasibility and compliance, as setbacks and impervious surface limits can impact design. This initial assessment is crucial before proceeding with plans.",
-        "description": "An attached garage connects directly to your home, offering convenience, security, and direct access. Consider it for property value, additional space, and protection from elements, ensuring to check local zoning regulations first."
-      }
-    }
-  ],
+  "name": "What is an attached garage and why might I consider building one?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an attached garage and why might I consider building one?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An attached garage is a structure built directly connected to your home, offering direct access into your living space. This design can provide convenience, security, and protection from the elements when moving between your vehicle and house. It can also increase your property value and provide additional storage or functional space. When considering building one, assess your property's layout and local zoning regulations in areas like Alameda or Berkeley to ensure feasibility and compliance, as setbacks and impervious surface limits can impact design. This initial assessment is crucial before proceeding with plans.",
+        "@type": "Answer",
+        "description": "An attached garage connects directly to your home, offering convenience, security, and direct access. Consider it for property value, additional space, and protection from elements, ensuring to check local zoning regulations first."
+      }
+    }
+  ],
+  "description": "An attached garage connects directly to your home, offering convenience, security, and direct access. Consider it for property value, additional space, and prot"
 }

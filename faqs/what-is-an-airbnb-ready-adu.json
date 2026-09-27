@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an Airbnb-ready ADU?",
-  "description": "An Airbnb-ready ADU is a secondary living unit designed and built for short-term rentals, considering privacy, amenities, and compliance with local regulations.",
   "url": "https://hometelligentinc.com/faq/what-is-an-airbnb-ready-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an Airbnb-ready ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An Airbnb-ready ADU (Accessory Dwelling Unit) is a secondary living space on your property specifically designed and constructed to meet the requirements for short-term rental platforms like Airbnb. This typically involves considerations for privacy, separate entrances, kitchenette facilities, and compliance with local rental regulations from the outset of the design and build process. Choosing an Airbnb-ready design early can streamline the permit process and ensure your ADU meets necessary occupancy and safety standards for guests.",
-        "description": "An Airbnb-ready ADU is a secondary living unit designed and built for short-term rentals, considering privacy, amenities, and compliance with local regulations."
-      }
-    }
-  ],
+  "name": "What is an Airbnb-ready ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an Airbnb-ready ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An Airbnb-ready ADU (Accessory Dwelling Unit) is a secondary living space on your property specifically designed and constructed to meet the requirements for short-term rental platforms like Airbnb. This typically involves considerations for privacy, separate entrances, kitchenette facilities, and compliance with local rental regulations from the outset of the design and build process. Choosing an Airbnb-ready design early can streamline the permit process and ensure your ADU meets necessary occupancy and safety standards for guests.",
+        "@type": "Answer",
+        "description": "An Airbnb-ready ADU is a secondary living unit designed and built for short-term rentals, considering privacy, amenities, and compliance with local regulations."
+      }
+    }
+  ],
+  "description": "An Airbnb-ready ADU is a secondary living unit designed and built for short-term rentals, considering privacy, amenities, and compliance with local regulations."
 }

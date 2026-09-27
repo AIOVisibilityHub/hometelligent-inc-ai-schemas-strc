@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a sunroom addition and how does it differ from a regular room addition?",
-  "description": "A sunroom maximizes natural light and views with extensive glass, differing from a traditional room addition which is fully integrated into the home's structure",
   "url": "https://hometelligentinc.com/faq/what-is-a-sunroom-addition-and-how-does-it-differ-from-a-regular-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a sunroom addition and how does it differ from a regular room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A sunroom addition is a structure primarily designed to bring natural light and views into a home, often featuring a large amount of glass in its walls and roof. Unlike a traditional room addition, which is fully integrated into the existing HVAC system and construction, sunrooms are typically less energy-intensive and are often designed for enjoyment of the outdoors from indoors. Hometelligent Inc. specializes in various sunroom styles, including four-season and three-season rooms, each with distinct insulation and climate control considerations. The choice depends on desired year-round use and energy efficiency goals.",
-        "description": "A sunroom maximizes natural light and views with extensive glass, differing from a traditional room addition which is fully integrated into the home's structure and HVAC."
-      }
-    }
-  ],
+  "name": "What is a sunroom addition and how does it differ from a regular room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a sunroom addition and how does it differ from a regular room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A sunroom addition is a structure primarily designed to bring natural light and views into a home, often featuring a large amount of glass in its walls and roof. Unlike a traditional room addition, which is fully integrated into the existing HVAC system and construction, sunrooms are typically less energy-intensive and are often designed for enjoyment of the outdoors from indoors. Hometelligent Inc. specializes in various sunroom styles, including four-season and three-season rooms, each with distinct insulation and climate control considerations. The choice depends on desired year-round use and energy efficiency goals.",
+        "@type": "Answer",
+        "description": "A sunroom maximizes natural light and views with extensive glass, differing from a traditional room addition which is fully integrated into the home's structure and HVAC."
+      }
+    }
+  ],
+  "description": "A sunroom maximizes natural light and views with extensive glass, differing from a traditional room addition which is fully integrated into the home's structure"
 }

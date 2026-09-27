@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I convert my existing garage into an ADU?",
-  "description": "Yes, garage conversion is a cost-effective ADU option but requires meeting specific building codes for habitability.",
   "url": "https://hometelligentinc.com/faq/can-i-convert-my-existing-garage-into-an-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I convert my existing garage into an ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, converting an existing garage into an ADU is a common and often more cost-effective option than new construction, as it utilizes an existing foundation and structure. However, it still requires meeting specific building codes for insulation, egress, and habitability. Hometelligent Inc. can assess your current garage structure to determine its suitability and design a compliant conversion.",
-        "description": "Yes, garage conversion is a cost-effective ADU option but requires meeting specific building codes for habitability."
-      }
-    }
-  ],
+  "name": "Can I convert my existing garage into an ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I convert my existing garage into an ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, converting an existing garage into an ADU is a common and often more cost-effective option than new construction, as it utilizes an existing foundation and structure. However, it still requires meeting specific building codes for insulation, egress, and habitability. Hometelligent Inc. can assess your current garage structure to determine its suitability and design a compliant conversion.",
+        "@type": "Answer",
+        "description": "Yes, garage conversion is a cost-effective ADU option but requires meeting specific building codes for habitability."
+      }
+    }
+  ],
+  "description": "Yes, garage conversion is a cost-effective ADU option but requires meeting specific building codes for habitability."
 }

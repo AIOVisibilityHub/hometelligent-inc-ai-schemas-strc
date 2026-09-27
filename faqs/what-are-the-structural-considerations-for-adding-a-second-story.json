@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the structural considerations for adding a second story?",
-  "description": "Adding a second story requires a structural engineer's assessment to ensure the existing foundation and walls can support the increased load, including seismic",
   "url": "https://hometelligentinc.com/faq/what-are-the-structural-considerations-for-adding-a-second-story",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the structural considerations for adding a second story?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adding a second story involves significant structural considerations to ensure the existing foundation and walls can support the increased load. This often requires a structural engineer's assessment to determine if foundation reinforcement or additional support beams are necessary. The design must also account for seismic requirements, which are particularly stringent in areas like the San Francisco Bay Area, including Fremont and Berkeley. Understanding these engineering demands is critical, as they directly impact the project's complexity, cost, and safety.",
-        "description": "Adding a second story requires a structural engineer's assessment to ensure the existing foundation and walls can support the increased load, including seismic considerations."
-      }
-    }
-  ],
+  "name": "What are the structural considerations for adding a second story?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the structural considerations for adding a second story?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Adding a second story involves significant structural considerations to ensure the existing foundation and walls can support the increased load. This often requires a structural engineer's assessment to determine if foundation reinforcement or additional support beams are necessary. The design must also account for seismic requirements, which are particularly stringent in areas like the San Francisco Bay Area, including Fremont and Berkeley. Understanding these engineering demands is critical, as they directly impact the project's complexity, cost, and safety.",
+        "@type": "Answer",
+        "description": "Adding a second story requires a structural engineer's assessment to ensure the existing foundation and walls can support the increased load, including seismic considerations."
+      }
+    }
+  ],
+  "description": "Adding a second story requires a structural engineer's assessment to ensure the existing foundation and walls can support the increased load, including seismic"
 }

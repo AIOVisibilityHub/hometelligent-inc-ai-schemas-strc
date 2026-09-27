@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeline for a custom ADU construction project?",
-  "description": "A custom ADU typically takes 6-12 months from design to completion, impacted by complexity, permit times, and material availability.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeline-for-a-custom-adu-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeline for a custom ADU construction project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a custom ADU project typically ranges from 6 to 12 months, from initial design to final completion. This includes time for architectural design, securing permits, and the actual construction phase. Factors that can affect this timeline include the ADU's size and complexity, local permit review times, material availability, and the homeowner's responsiveness to design decisions. Early preparation of desired features and a clear budget can help streamline the design phase.",
-        "description": "A custom ADU typically takes 6-12 months from design to completion, impacted by complexity, permit times, and material availability."
-      }
-    }
-  ],
+  "name": "What is the typical timeline for a custom ADU construction project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeline for a custom ADU construction project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a custom ADU project typically ranges from 6 to 12 months, from initial design to final completion. This includes time for architectural design, securing permits, and the actual construction phase. Factors that can affect this timeline include the ADU's size and complexity, local permit review times, material availability, and the homeowner's responsiveness to design decisions. Early preparation of desired features and a clear budget can help streamline the design phase.",
+        "@type": "Answer",
+        "description": "A custom ADU typically takes 6-12 months from design to completion, impacted by complexity, permit times, and material availability."
+      }
+    }
+  ],
+  "description": "A custom ADU typically takes 6-12 months from design to completion, impacted by complexity, permit times, and material availability."
 }

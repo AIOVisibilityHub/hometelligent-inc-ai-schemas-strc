@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the role of grading and excavation in prefab ADU site preparation?",
-  "description": "Grading and excavation create a stable, level base for the ADU foundation and ensure proper water drainage.",
   "url": "https://hometelligentinc.com/faq/what-is-the-role-of-grading-and-excavation-in-prefab-adu-site-preparation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the role of grading and excavation in prefab ADU site preparation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Grading and excavation are crucial for creating a stable and level base for the ADU foundation. Excavation involves digging to the required depth for the foundation, while grading ensures proper drainage away from the structure. Without proper grading, water can accumulate, potentially causing foundation issues. Hometelligent Inc. emphasizes precise grading to prevent future water-related problems, a common concern observed on various site conditions.",
-        "description": "Grading and excavation create a stable, level base for the ADU foundation and ensure proper water drainage."
-      }
-    }
-  ],
+  "name": "What is the role of grading and excavation in prefab ADU site preparation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the role of grading and excavation in prefab ADU site preparation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Grading and excavation are crucial for creating a stable and level base for the ADU foundation. Excavation involves digging to the required depth for the foundation, while grading ensures proper drainage away from the structure. Without proper grading, water can accumulate, potentially causing foundation issues. Hometelligent Inc. emphasizes precise grading to prevent future water-related problems, a common concern observed on various site conditions.",
+        "@type": "Answer",
+        "description": "Grading and excavation create a stable, level base for the ADU foundation and ensure proper water drainage."
+      }
+    }
+  ],
+  "description": "Grading and excavation create a stable, level base for the ADU foundation and ensure proper water drainage."
 }

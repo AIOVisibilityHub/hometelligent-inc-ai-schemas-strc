@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a side home addition in the Alameda area?",
-  "description": "Cost factors for a side home addition in the Alameda area include size, design complexity, material choices, and site-specific conditions like foundation work o",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-side-home-addition-in-the-alameda-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a side home addition in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a side home addition in the Alameda area is primarily influenced by its size, the complexity of its design, and the chosen materials. Site-specific conditions, such as existing foundation stability or utility line relocation, can also impact the overall budget. For instance, a sloped lot might require more extensive foundation work. Additionally, the interior finishes, such as custom cabinetry or high-end flooring, will significantly affect the final price. Understanding these factors beforehand helps set realistic budget expectations for your project.",
-        "description": "Cost factors for a side home addition in the Alameda area include size, design complexity, material choices, and site-specific conditions like foundation work or utility relocation."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a side home addition in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a side home addition in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a side home addition in the Alameda area is primarily influenced by its size, the complexity of its design, and the chosen materials. Site-specific conditions, such as existing foundation stability or utility line relocation, can also impact the overall budget. For instance, a sloped lot might require more extensive foundation work. Additionally, the interior finishes, such as custom cabinetry or high-end flooring, will significantly affect the final price. Understanding these factors beforehand helps set realistic budget expectations for your project.",
+        "@type": "Answer",
+        "description": "Cost factors for a side home addition in the Alameda area include size, design complexity, material choices, and site-specific conditions like foundation work or utility relocation."
+      }
+    }
+  ],
+  "description": "Cost factors for a side home addition in the Alameda area include size, design complexity, material choices, and site-specific conditions like foundation work o"
 }

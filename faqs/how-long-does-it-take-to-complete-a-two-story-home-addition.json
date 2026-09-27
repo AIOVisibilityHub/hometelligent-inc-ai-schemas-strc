@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to complete a two-story home addition?",
-  "description": "Two-story home additions typically take 6 to 12 months, depending on complexity, size, and local permitting processes.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-complete-a-two-story-home-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to complete a two-story home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a two-story home addition varies based on complexity, size, and permitting requirements. Generally, these projects can take anywhere from 6 to 12 months, or sometimes longer. Factors like the architectural design, material selections, and necessary inspections can impact the duration. A key aspect that can influence the timeline, especially in areas like Alameda or Berkeley, is the local permitting process, which can sometimes extend project start dates.",
-        "description": "Two-story home additions typically take 6 to 12 months, depending on complexity, size, and local permitting processes."
-      }
-    }
-  ],
+  "name": "How long does it take to complete a two-story home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to complete a two-story home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a two-story home addition varies based on complexity, size, and permitting requirements. Generally, these projects can take anywhere from 6 to 12 months, or sometimes longer. Factors like the architectural design, material selections, and necessary inspections can impact the duration. A key aspect that can influence the timeline, especially in areas like Alameda or Berkeley, is the local permitting process, which can sometimes extend project start dates.",
+        "@type": "Answer",
+        "description": "Two-story home additions typically take 6 to 12 months, depending on complexity, size, and local permitting processes."
+      }
+    }
+  ],
+  "description": "Two-story home additions typically take 6 to 12 months, depending on complexity, size, and local permitting processes."
 }

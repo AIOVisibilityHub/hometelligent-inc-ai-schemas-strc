@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to build a garage addition?",
-  "description": "Garage addition timelines vary by complexity, size, and local permitting. Simple additions may take 8-12 weeks, complex ones 4-6 months or more.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-a-garage-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to build a garage addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a garage addition project varies depending on its complexity, size, and local permitting requirements. Simple additions might take 8-12 weeks from design to completion, while larger or more complex projects, like those involving living space above, can extend to 4-6 months or more. Permitting in cities like Berkeley or Oakland can sometimes extend the initial phase. Weather conditions and material availability can also influence the schedule.",
-        "description": "Garage addition timelines vary by complexity, size, and local permitting. Simple additions may take 8-12 weeks, complex ones 4-6 months or more."
-      }
-    }
-  ],
+  "name": "How long does it take to build a garage addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to build a garage addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a garage addition project varies depending on its complexity, size, and local permitting requirements. Simple additions might take 8-12 weeks from design to completion, while larger or more complex projects, like those involving living space above, can extend to 4-6 months or more. Permitting in cities like Berkeley or Oakland can sometimes extend the initial phase. Weather conditions and material availability can also influence the schedule.",
+        "@type": "Answer",
+        "description": "Garage addition timelines vary by complexity, size, and local permitting. Simple additions may take 8-12 weeks, complex ones 4-6 months or more."
+      }
+    }
+  ],
+  "description": "Garage addition timelines vary by complexity, size, and local permitting. Simple additions may take 8-12 weeks, complex ones 4-6 months or more."
 }

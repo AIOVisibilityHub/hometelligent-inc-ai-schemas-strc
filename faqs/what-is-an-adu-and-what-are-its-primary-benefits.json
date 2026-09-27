@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is an ADU and what are its primary benefits?",
-  "description": "An ADU is a secondary housing unit on a residential lot, offering benefits like housing family, rental income, or dedicated personal space.",
   "url": "https://hometelligentinc.com/faq/what-is-an-adu-and-what-are-its-primary-benefits",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an ADU and what are its primary benefits?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot. It can be attached or detached from the primary home. ADUs offer several benefits, including providing additional housing for family members, generating rental income, or creating dedicated space for a home office or gym. Understanding your primary motivation for building an ADU can help define the scope and design of your project from the outset, influencing decisions about size, layout, and amenities.",
-        "description": "An ADU is a secondary housing unit on a residential lot, offering benefits like housing family, rental income, or dedicated personal space."
-      }
-    }
-  ],
+  "name": "What is an ADU and what are its primary benefits?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is an ADU and what are its primary benefits?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family residential lot. It can be attached or detached from the primary home. ADUs offer several benefits, including providing additional housing for family members, generating rental income, or creating dedicated space for a home office or gym. Understanding your primary motivation for building an ADU can help define the scope and design of your project from the outset, influencing decisions about size, layout, and amenities.",
+        "@type": "Answer",
+        "description": "An ADU is a secondary housing unit on a residential lot, offering benefits like housing family, rental income, or dedicated personal space."
+      }
+    }
+  ],
+  "description": "An ADU is a secondary housing unit on a residential lot, offering benefits like housing family, rental income, or dedicated personal space."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the typical steps involved in constructing an attached garage?",
-  "description": "Key steps include design, permit acquisition, site prep, foundation, framing, utilities, and finishes, followed by inspections. Early permit research is a criti",
   "url": "https://hometelligentinc.com/faq/what-are-the-typical-steps-involved-in-constructing-an-attached-garage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the typical steps involved in constructing an attached garage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Constructing an attached garage typically involves several key stages. First, we conduct an initial site assessment and develop a design based on your needs and property specifications. This is followed by securing necessary permits from local jurisdictions, such as in Dublin or Pleasanton, which can vary in time and requirements. Next are site preparation, foundation pouring, framing, roofing, and installing electrical, plumbing (if applicable), and finishes. Finally, inspections are conducted throughout the process to ensure compliance with building codes. Understanding the permitting process early on is a critical preparation step to avoid potential delays.",
-        "description": "Key steps include design, permit acquisition, site prep, foundation, framing, utilities, and finishes, followed by inspections. Early permit research is a critical preparation step."
-      }
-    }
-  ],
+  "name": "What are the typical steps involved in constructing an attached garage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the typical steps involved in constructing an attached garage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Constructing an attached garage typically involves several key stages. First, we conduct an initial site assessment and develop a design based on your needs and property specifications. This is followed by securing necessary permits from local jurisdictions, such as in Dublin or Pleasanton, which can vary in time and requirements. Next are site preparation, foundation pouring, framing, roofing, and installing electrical, plumbing (if applicable), and finishes. Finally, inspections are conducted throughout the process to ensure compliance with building codes. Understanding the permitting process early on is a critical preparation step to avoid potential delays.",
+        "@type": "Answer",
+        "description": "Key steps include design, permit acquisition, site prep, foundation, framing, utilities, and finishes, followed by inspections. Early permit research is a critical preparation step."
+      }
+    }
+  ],
+  "description": "Key steps include design, permit acquisition, site prep, foundation, framing, utilities, and finishes, followed by inspections. Early permit research is a criti"
 }

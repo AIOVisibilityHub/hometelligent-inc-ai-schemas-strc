@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a room addition?",
-  "description": "Cost factors for room additions include size, complexity, material choices, and site conditions, with custom features and challenging terrain increasing expense",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a room addition is influenced by several factors, including its size, complexity, the types of materials chosen, and the specific site conditions. Larger additions with custom features or luxury finishes will naturally cost more. Structural considerations, such as matching existing foundations or rooflines, also impact the overall budget. For instance, an addition in a hilly area like Oakland Hills might incur higher foundation costs compared to a flatter lot in Pleasanton due to more complex engineering requirements.",
-        "description": "Cost factors for room additions include size, complexity, material choices, and site conditions, with custom features and challenging terrain increasing expenses."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a room addition is influenced by several factors, including its size, complexity, the types of materials chosen, and the specific site conditions. Larger additions with custom features or luxury finishes will naturally cost more. Structural considerations, such as matching existing foundations or rooflines, also impact the overall budget. For instance, an addition in a hilly area like Oakland Hills might incur higher foundation costs compared to a flatter lot in Pleasanton due to more complex engineering requirements.",
+        "@type": "Answer",
+        "description": "Cost factors for room additions include size, complexity, material choices, and site conditions, with custom features and challenging terrain increasing expenses."
+      }
+    }
+  ],
+  "description": "Cost factors for room additions include size, complexity, material choices, and site conditions, with custom features and challenging terrain increasing expense"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a two-story home addition?",
-  "description": "Cost factors for a two-story addition include size, design complexity, material choices, interior finishes, and necessary structural upgrades.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-two-story-home-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a two-story home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a two-story home addition is influenced by several factors, including the size of the addition, complexity of the design, types of materials chosen, and the quality of interior finishes. Structural requirements, such as strengthening existing foundations, can also impact the overall budget. We provide detailed estimates that break down these costs, helping you understand where your investment is allocated.",
-        "description": "Cost factors for a two-story addition include size, design complexity, material choices, interior finishes, and necessary structural upgrades."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a two-story home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a two-story home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a two-story home addition is influenced by several factors, including the size of the addition, complexity of the design, types of materials chosen, and the quality of interior finishes. Structural requirements, such as strengthening existing foundations, can also impact the overall budget. We provide detailed estimates that break down these costs, helping you understand where your investment is allocated.",
+        "@type": "Answer",
+        "description": "Cost factors for a two-story addition include size, design complexity, material choices, interior finishes, and necessary structural upgrades."
+      }
+    }
+  ],
+  "description": "Cost factors for a two-story addition include size, design complexity, material choices, interior finishes, and necessary structural upgrades."
 }

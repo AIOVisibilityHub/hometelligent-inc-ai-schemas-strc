@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common design considerations for a functional home office addition?",
-  "description": "Focus on lighting, ergonomic layout, electrical needs, and sound insulation. Built-in storage is also crucial for functionality.",
   "url": "https://hometelligentinc.com/faq/what-are-common-design-considerations-for-a-functional-home-office-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common design considerations for a functional home office addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common design considerations for a functional home office include adequate natural and artificial lighting, ergonomic layout for furniture, and sufficient electrical outlets for technology. Consider sound insulation if the office is near high-traffic areas in your home, and incorporate built-in storage to keep the space organized. Discussing these specific functional needs early in the design phase helps tailor the space to your workflow.",
-        "description": "Focus on lighting, ergonomic layout, electrical needs, and sound insulation. Built-in storage is also crucial for functionality."
-      }
-    }
-  ],
+  "name": "What are common design considerations for a functional home office addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common design considerations for a functional home office addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common design considerations for a functional home office include adequate natural and artificial lighting, ergonomic layout for furniture, and sufficient electrical outlets for technology. Consider sound insulation if the office is near high-traffic areas in your home, and incorporate built-in storage to keep the space organized. Discussing these specific functional needs early in the design phase helps tailor the space to your workflow.",
+        "@type": "Answer",
+        "description": "Focus on lighting, ergonomic layout, electrical needs, and sound insulation. Built-in storage is also crucial for functionality."
+      }
+    }
+  ],
+  "description": "Focus on lighting, ergonomic layout, electrical needs, and sound insulation. Built-in storage is also crucial for functionality."
 }

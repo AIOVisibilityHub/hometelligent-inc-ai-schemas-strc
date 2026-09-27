@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure the new addition matches my existing home's style?",
-  "description": "Ensure design consistency by carefully selecting exterior and interior materials, roofing, windows, and architectural details to match your existing home.",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-the-new-addition-matches-my-existing-home-s-style",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure the new addition matches my existing home's style?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Matching the new addition to your existing home's style involves careful selection of exterior materials, roofing, windows, and architectural details that complement the original design. Interior finishes, flooring, and trim work should also harmonize to create a cohesive look. Hometelligent Inc. emphasizes design continuity, working closely with clients to achieve a seamless blend, preserving or enhancing your home's aesthetic appeal.",
-        "description": "Ensure design consistency by carefully selecting exterior and interior materials, roofing, windows, and architectural details to match your existing home."
-      }
-    }
-  ],
+  "name": "How do I ensure the new addition matches my existing home's style?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure the new addition matches my existing home's style?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Matching the new addition to your existing home's style involves careful selection of exterior materials, roofing, windows, and architectural details that complement the original design. Interior finishes, flooring, and trim work should also harmonize to create a cohesive look. Hometelligent Inc. emphasizes design continuity, working closely with clients to achieve a seamless blend, preserving or enhancing your home's aesthetic appeal.",
+        "@type": "Answer",
+        "description": "Ensure design consistency by carefully selecting exterior and interior materials, roofing, windows, and architectural details to match your existing home."
+      }
+    }
+  ],
+  "description": "Ensure design consistency by carefully selecting exterior and interior materials, roofing, windows, and architectural details to match your existing home."
 }

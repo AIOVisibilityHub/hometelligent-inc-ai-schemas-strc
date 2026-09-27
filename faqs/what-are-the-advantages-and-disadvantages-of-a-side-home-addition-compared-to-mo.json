@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the advantages and disadvantages of a side home addition compared to moving to a larger home?",
-  "description": "A side home addition expands your space without moving costs, allowing you to stay in your neighborhood. Disadvantages include potential yard reduction or limit",
   "url": "https://hometelligentinc.com/faq/what-are-the-advantages-and-disadvantages-of-a-side-home-addition-compared-to-mo",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the advantages and disadvantages of a side home addition compared to moving to a larger home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A side home addition offers the advantage of expanding your living space without the disruption and financial costs associated with moving, such as realtor fees and closing costs. It allows you to stay in your current neighborhood and school district. A potential disadvantage is that the addition might not fully meet all desired space requirements if property size is very limited, or it could impact yard space. While moving offers a fresh start, an addition maintains your established community ties and allows for a customized expansion tailored to your specific needs within your current property.",
-        "description": "A side home addition expands your space without moving costs, allowing you to stay in your neighborhood. Disadvantages include potential yard reduction or limited expansion if lot size is small."
-      }
-    }
-  ],
+  "name": "What are the advantages and disadvantages of a side home addition compared to moving to a larger home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the advantages and disadvantages of a side home addition compared to moving to a larger home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A side home addition offers the advantage of expanding your living space without the disruption and financial costs associated with moving, such as realtor fees and closing costs. It allows you to stay in your current neighborhood and school district. A potential disadvantage is that the addition might not fully meet all desired space requirements if property size is very limited, or it could impact yard space. While moving offers a fresh start, an addition maintains your established community ties and allows for a customized expansion tailored to your specific needs within your current property.",
+        "@type": "Answer",
+        "description": "A side home addition expands your space without moving costs, allowing you to stay in your neighborhood. Disadvantages include potential yard reduction or limited expansion if lot size is small."
+      }
+    }
+  ],
+  "description": "A side home addition expands your space without moving costs, allowing you to stay in your neighborhood. Disadvantages include potential yard reduction or limit"
 }

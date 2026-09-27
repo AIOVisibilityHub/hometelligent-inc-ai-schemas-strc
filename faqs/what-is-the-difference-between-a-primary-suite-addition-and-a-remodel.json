@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a primary suite addition and a remodel?",
-  "description": "A primary suite addition adds new square footage to your home, while a remodel updates existing space. Additions involve more structural work and different perm",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-primary-suite-addition-and-a-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a primary suite addition and a remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary difference between a primary suite addition and a remodel is that an addition expands the physical footprint of your home by adding new square footage, while a remodel reconfigures or updates existing space within the current structure. An addition typically involves more extensive structural work, foundation changes, and new rooflines. This distinction impacts the complexity of planning, permit requirements, and overall cost. For example, adding an entirely new wing versus updating an existing bedroom in a city like Fremont involves different scopes of work and regulations.",
-        "description": "A primary suite addition adds new square footage to your home, while a remodel updates existing space. Additions involve more structural work and different permit requirements."
-      }
-    }
-  ],
+  "name": "What is the difference between a primary suite addition and a remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a primary suite addition and a remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The primary difference between a primary suite addition and a remodel is that an addition expands the physical footprint of your home by adding new square footage, while a remodel reconfigures or updates existing space within the current structure. An addition typically involves more extensive structural work, foundation changes, and new rooflines. This distinction impacts the complexity of planning, permit requirements, and overall cost. For example, adding an entirely new wing versus updating an existing bedroom in a city like Fremont involves different scopes of work and regulations.",
+        "@type": "Answer",
+        "description": "A primary suite addition adds new square footage to your home, while a remodel updates existing space. Additions involve more structural work and different permit requirements."
+      }
+    }
+  ],
+  "description": "A primary suite addition adds new square footage to your home, while a remodel updates existing space. Additions involve more structural work and different perm"
 }

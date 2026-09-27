@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the structural considerations for a rear home addition?",
-  "description": "Key structural considerations include foundation integration, load-bearing capacity, and seamless roofline connection, all planned by our engineering team.",
   "url": "https://hometelligentinc.com/faq/what-are-the-structural-considerations-for-a-rear-home-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the structural considerations for a rear home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Structural considerations for a rear home addition include ensuring the new foundation is properly integrated with the existing one, assessing the load-bearing capacity of the existing structure, and designing a roofline that seamlessly connects. Our engineering team meticulously plans these elements to ensure the long-term stability and safety of your expanded home. This is a critical step in projects we undertake in areas like Dublin and Emeryville.",
-        "description": "Key structural considerations include foundation integration, load-bearing capacity, and seamless roofline connection, all planned by our engineering team."
-      }
-    }
-  ],
+  "name": "What are the structural considerations for a rear home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the structural considerations for a rear home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Structural considerations for a rear home addition include ensuring the new foundation is properly integrated with the existing one, assessing the load-bearing capacity of the existing structure, and designing a roofline that seamlessly connects. Our engineering team meticulously plans these elements to ensure the long-term stability and safety of your expanded home. This is a critical step in projects we undertake in areas like Dublin and Emeryville.",
+        "@type": "Answer",
+        "description": "Key structural considerations include foundation integration, load-bearing capacity, and seamless roofline connection, all planned by our engineering team."
+      }
+    }
+  ],
+  "description": "Key structural considerations include foundation integration, load-bearing capacity, and seamless roofline connection, all planned by our engineering team."
 }

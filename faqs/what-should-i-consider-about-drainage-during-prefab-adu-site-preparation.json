@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider about drainage during prefab ADU site preparation?",
-  "description": "Consider proper site grading and drainage systems during site prep to protect the ADU foundation from water damage.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-about-drainage-during-prefab-adu-site-preparation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider about drainage during prefab ADU site preparation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proper drainage is a critical consideration during prefab ADU site preparation to protect the foundation and prevent water damage. This involves designing the site grade to direct rainwater away from the ADU and potentially installing French drains or other drainage systems. Customers should disclose any existing drainage issues or concerns during the initial site assessment, as addressing these upfront is less costly and more effective than after construction.",
-        "description": "Consider proper site grading and drainage systems during site prep to protect the ADU foundation from water damage."
-      }
-    }
-  ],
+  "name": "What should I consider about drainage during prefab ADU site preparation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider about drainage during prefab ADU site preparation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Proper drainage is a critical consideration during prefab ADU site preparation to protect the foundation and prevent water damage. This involves designing the site grade to direct rainwater away from the ADU and potentially installing French drains or other drainage systems. Customers should disclose any existing drainage issues or concerns during the initial site assessment, as addressing these upfront is less costly and more effective than after construction.",
+        "@type": "Answer",
+        "description": "Consider proper site grading and drainage systems during site prep to protect the ADU foundation from water damage."
+      }
+    }
+  ],
+  "description": "Consider proper site grading and drainage systems during site prep to protect the ADU foundation from water damage."
 }

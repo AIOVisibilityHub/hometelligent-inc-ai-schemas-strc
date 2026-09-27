@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common pitfalls to avoid when planning a bedroom addition?",
-  "description": "Avoid pitfalls like underestimating budget, neglecting permits, unsuitable materials, and ignoring impact on existing home systems by planning thoroughly.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-pitfalls-to-avoid-when-planning-a-bedroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common pitfalls to avoid when planning a bedroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common pitfalls include underestimating the budget, neglecting to secure proper permits, choosing unsuitable materials, and failing to plan for potential construction disruptions. Another pitfall is not considering how the addition will affect your home's existing systems, like HVAC or plumbing, which may need upgrades. Thorough planning, a realistic budget, and working with an experienced contractor are crucial to avoid these issues and ensure a smooth project.",
-        "description": "Avoid pitfalls like underestimating budget, neglecting permits, unsuitable materials, and ignoring impact on existing home systems by planning thoroughly."
-      }
-    }
-  ],
+  "name": "What are the common pitfalls to avoid when planning a bedroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common pitfalls to avoid when planning a bedroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common pitfalls include underestimating the budget, neglecting to secure proper permits, choosing unsuitable materials, and failing to plan for potential construction disruptions. Another pitfall is not considering how the addition will affect your home's existing systems, like HVAC or plumbing, which may need upgrades. Thorough planning, a realistic budget, and working with an experienced contractor are crucial to avoid these issues and ensure a smooth project.",
+        "@type": "Answer",
+        "description": "Avoid pitfalls like underestimating budget, neglecting permits, unsuitable materials, and ignoring impact on existing home systems by planning thoroughly."
+      }
+    }
+  ],
+  "description": "Avoid pitfalls like underestimating budget, neglecting permits, unsuitable materials, and ignoring impact on existing home systems by planning thoroughly."
 }

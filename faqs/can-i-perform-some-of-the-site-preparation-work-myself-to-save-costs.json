@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I perform some of the site preparation work myself to save costs?",
-  "description": "Performing site preparation yourself may save costs, but often requires permits and expertise, and improper work can cause delays or hazards.",
   "url": "https://hometelligentinc.com/faq/can-i-perform-some-of-the-site-preparation-work-myself-to-save-costs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I perform some of the site preparation work myself to save costs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While it might seem appealing to perform some site preparation yourself, certain tasks, especially those involving excavation, utility connections, and structural grading, often require specific permits and expertise. Improper execution can lead to delays, costly rework, or safety hazards. Customers should carefully consider the tradeoffs between potential cost savings and the risks associated with unpermitted or inexperienced work, especially regarding critical elements like foundation stability and utility compliance.",
-        "description": "Performing site preparation yourself may save costs, but often requires permits and expertise, and improper work can cause delays or hazards."
-      }
-    }
-  ],
+  "name": "Can I perform some of the site preparation work myself to save costs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I perform some of the site preparation work myself to save costs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While it might seem appealing to perform some site preparation yourself, certain tasks, especially those involving excavation, utility connections, and structural grading, often require specific permits and expertise. Improper execution can lead to delays, costly rework, or safety hazards. Customers should carefully consider the tradeoffs between potential cost savings and the risks associated with unpermitted or inexperienced work, especially regarding critical elements like foundation stability and utility compliance.",
+        "@type": "Answer",
+        "description": "Performing site preparation yourself may save costs, but often requires permits and expertise, and improper work can cause delays or hazards."
+      }
+    }
+  ],
+  "description": "Performing site preparation yourself may save costs, but often requires permits and expertise, and improper work can cause delays or hazards."
 }

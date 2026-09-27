@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of flooring is best for a bathroom addition?",
-  "description": "Durable, water-resistant, and slip-resistant flooring like ceramic tile, LVP, or natural stone are best for bathroom additions.",
   "url": "https://hometelligentinc.com/faq/what-type-of-flooring-is-best-for-a-bathroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of flooring is best for a bathroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best flooring for a bathroom addition is durable, water-resistant, and slip-resistant. Popular choices include ceramic or porcelain tile, luxury vinyl plank (LVP), and natural stone. Each material offers a practical tradeoff; for instance, tile is highly water-resistant and durable but can be cold, while LVP offers warmth and resilience but may not have the same premium feel as stone. We can help you compare options based on your aesthetic and functional priorities.",
-        "description": "Durable, water-resistant, and slip-resistant flooring like ceramic tile, LVP, or natural stone are best for bathroom additions."
-      }
-    }
-  ],
+  "name": "What type of flooring is best for a bathroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of flooring is best for a bathroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best flooring for a bathroom addition is durable, water-resistant, and slip-resistant. Popular choices include ceramic or porcelain tile, luxury vinyl plank (LVP), and natural stone. Each material offers a practical tradeoff; for instance, tile is highly water-resistant and durable but can be cold, while LVP offers warmth and resilience but may not have the same premium feel as stone. We can help you compare options based on your aesthetic and functional priorities.",
+        "@type": "Answer",
+        "description": "Durable, water-resistant, and slip-resistant flooring like ceramic tile, LVP, or natural stone are best for bathroom additions."
+      }
+    }
+  ],
+  "description": "Durable, water-resistant, and slip-resistant flooring like ceramic tile, LVP, or natural stone are best for bathroom additions."
 }

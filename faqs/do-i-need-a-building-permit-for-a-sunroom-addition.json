@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a building permit for a sunroom addition?",
-  "description": "Yes, a building permit is almost always required for a sunroom addition. Hometelligent Inc. assists with permit acquisition to ensure compliance with local buil",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-building-permit-for-a-sunroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a building permit for a sunroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a building permit is almost always required for a sunroom addition, as it involves structural changes, electrical work, and adherence to local building codes. Obtaining permits ensures the addition is safe, structurally sound, and compliant with zoning regulations. Hometelligent Inc. assists clients throughout the entire permitting process, handling necessary documentation and inspections for projects across our service areas, including Pleasanton and San Leandro, to ensure a smooth and compliant construction experience.",
-        "description": "Yes, a building permit is almost always required for a sunroom addition. Hometelligent Inc. assists with permit acquisition to ensure compliance with local building codes."
-      }
-    }
-  ],
+  "name": "Do I need a building permit for a sunroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a building permit for a sunroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a building permit is almost always required for a sunroom addition, as it involves structural changes, electrical work, and adherence to local building codes. Obtaining permits ensures the addition is safe, structurally sound, and compliant with zoning regulations. Hometelligent Inc. assists clients throughout the entire permitting process, handling necessary documentation and inspections for projects across our service areas, including Pleasanton and San Leandro, to ensure a smooth and compliant construction experience.",
+        "@type": "Answer",
+        "description": "Yes, a building permit is almost always required for a sunroom addition. Hometelligent Inc. assists with permit acquisition to ensure compliance with local building codes."
+      }
+    }
+  ],
+  "description": "Yes, a building permit is almost always required for a sunroom addition. Hometelligent Inc. assists with permit acquisition to ensure compliance with local buil"
 }

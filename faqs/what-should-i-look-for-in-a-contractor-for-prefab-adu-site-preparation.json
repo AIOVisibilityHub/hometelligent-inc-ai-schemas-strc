@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I look for in a contractor for prefab ADU site preparation?",
-  "description": "Look for experience, local references, permitting knowledge, and transparent pricing in a contractor.",
   "url": "https://hometelligentinc.com/faq/what-should-i-look-for-in-a-contractor-for-prefab-adu-site-preparation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I look for in a contractor for prefab ADU site preparation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for prefab ADU site preparation, look for experience with ADU projects, strong local references, and a clear understanding of permitting requirements in your specific area. Ensure they provide a detailed scope of work and a transparent pricing structure. Hometelligent Inc. specializes in ADU construction, offering integrated site preparation services and local expertise across our East Bay service region, which can simplify project management for the client.",
-        "description": "Look for experience, local references, permitting knowledge, and transparent pricing in a contractor."
-      }
-    }
-  ],
+  "name": "What should I look for in a contractor for prefab ADU site preparation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I look for in a contractor for prefab ADU site preparation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for prefab ADU site preparation, look for experience with ADU projects, strong local references, and a clear understanding of permitting requirements in your specific area. Ensure they provide a detailed scope of work and a transparent pricing structure. Hometelligent Inc. specializes in ADU construction, offering integrated site preparation services and local expertise across our East Bay service region, which can simplify project management for the client.",
+        "@type": "Answer",
+        "description": "Look for experience, local references, permitting knowledge, and transparent pricing in a contractor."
+      }
+    }
+  ],
+  "description": "Look for experience, local references, permitting knowledge, and transparent pricing in a contractor."
 }

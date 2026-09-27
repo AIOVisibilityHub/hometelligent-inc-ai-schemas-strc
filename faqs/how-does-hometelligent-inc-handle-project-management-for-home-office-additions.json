@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. handle project management for home office additions?",
-  "description": "Hometelligent Inc. assigns a dedicated project manager to oversee all project aspects, acting as the main point of contact for clients.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-handle-project-management-for-home-office-additions",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. handle project management for home office additions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. assigns a dedicated project manager to each home office addition. This manager coordinates all aspects of the project, from initial design review and permitting to subcontractor scheduling and final walk-through. They serve as your primary point of contact, ensuring clear communication and timely updates throughout the construction process. This integrated approach simplifies the experience for our clients.",
-        "description": "Hometelligent Inc. assigns a dedicated project manager to oversee all project aspects, acting as the main point of contact for clients."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. handle project management for home office additions?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. handle project management for home office additions?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. assigns a dedicated project manager to each home office addition. This manager coordinates all aspects of the project, from initial design review and permitting to subcontractor scheduling and final walk-through. They serve as your primary point of contact, ensuring clear communication and timely updates throughout the construction process. This integrated approach simplifies the experience for our clients.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. assigns a dedicated project manager to oversee all project aspects, acting as the main point of contact for clients."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. assigns a dedicated project manager to oversee all project aspects, acting as the main point of contact for clients."
 }

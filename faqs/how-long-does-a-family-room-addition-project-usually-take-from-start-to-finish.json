@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a family room addition project usually take from start to finish?",
-  "description": "A family room addition typically takes 3-6 months, influenced by project scope, permitting, and material availability.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-family-room-addition-project-usually-take-from-start-to-finish",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a family room addition project usually take from start to finish?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a family room addition project can range from three to six months, depending on the scope of work, local permitting processes, and material availability. Design and permitting can take several weeks or even months before construction begins. For instance, projects in cities like Pleasanton or Livermore might experience different permit review times. We work to provide a detailed project schedule that accounts for these variables.",
-        "description": "A family room addition typically takes 3-6 months, influenced by project scope, permitting, and material availability."
-      }
-    }
-  ],
+  "name": "How long does a family room addition project usually take from start to finish?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a family room addition project usually take from start to finish?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a family room addition project can range from three to six months, depending on the scope of work, local permitting processes, and material availability. Design and permitting can take several weeks or even months before construction begins. For instance, projects in cities like Pleasanton or Livermore might experience different permit review times. We work to provide a detailed project schedule that accounts for these variables.",
+        "@type": "Answer",
+        "description": "A family room addition typically takes 3-6 months, influenced by project scope, permitting, and material availability."
+      }
+    }
+  ],
+  "description": "A family room addition typically takes 3-6 months, influenced by project scope, permitting, and material availability."
 }

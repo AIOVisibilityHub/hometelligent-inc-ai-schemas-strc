@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for a bedroom addition in the Alameda area?",
-  "description": "Bedroom addition costs in areas like Alameda vary from $50,000 to over $150,000, depending on size, design, materials, and local permitting.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-bedroom-addition-in-the-alameda-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for a bedroom addition in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a bedroom addition varies significantly based on factors such as size, complexity of design, materials chosen, and site conditions. For example, adding a standard bedroom with a basic bathroom in Alameda might range from $50,000 to $100,000+, while a larger master suite with premium finishes could exceed $150,000. Costs are also influenced by local labor rates and permitting fees in specific cities like Alameda or Berkeley. We provide detailed estimates after an initial consultation to assess your specific project scope.",
-        "description": "Bedroom addition costs in areas like Alameda vary from $50,000 to over $150,000, depending on size, design, materials, and local permitting."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for a bedroom addition in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for a bedroom addition in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a bedroom addition varies significantly based on factors such as size, complexity of design, materials chosen, and site conditions. For example, adding a standard bedroom with a basic bathroom in Alameda might range from $50,000 to $100,000+, while a larger master suite with premium finishes could exceed $150,000. Costs are also influenced by local labor rates and permitting fees in specific cities like Alameda or Berkeley. We provide detailed estimates after an initial consultation to assess your specific project scope.",
+        "@type": "Answer",
+        "description": "Bedroom addition costs in areas like Alameda vary from $50,000 to over $150,000, depending on size, design, materials, and local permitting."
+      }
+    }
+  ],
+  "description": "Bedroom addition costs in areas like Alameda vary from $50,000 to over $150,000, depending on size, design, materials, and local permitting."
 }

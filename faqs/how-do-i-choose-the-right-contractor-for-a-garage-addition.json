@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for a garage addition?",
-  "description": "Choose a licensed, insured contractor with a strong portfolio and local permitting experience. Obtain multiple bids and check references.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-a-garage-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for a garage addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a contractor for your garage addition, look for licensed and insured professionals with a strong portfolio of similar projects and positive client testimonials. It's important to choose a company with experience navigating the specific permitting processes in your city, like Hayward or San Leandro. We recommend obtaining multiple detailed bids and verifying references to ensure quality and reliability.",
-        "description": "Choose a licensed, insured contractor with a strong portfolio and local permitting experience. Obtain multiple bids and check references."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for a garage addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for a garage addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a contractor for your garage addition, look for licensed and insured professionals with a strong portfolio of similar projects and positive client testimonials. It's important to choose a company with experience navigating the specific permitting processes in your city, like Hayward or San Leandro. We recommend obtaining multiple detailed bids and verifying references to ensure quality and reliability.",
+        "@type": "Answer",
+        "description": "Choose a licensed, insured contractor with a strong portfolio and local permitting experience. Obtain multiple bids and check references."
+      }
+    }
+  ],
+  "description": "Choose a licensed, insured contractor with a strong portfolio and local permitting experience. Obtain multiple bids and check references."
 }

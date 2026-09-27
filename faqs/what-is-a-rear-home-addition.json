@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a rear home addition?",
-  "description": "A rear home addition expands your house by extending it towards the back of your property, adding new living space or enlarging existing rooms.",
   "url": "https://hometelligentinc.com/faq/what-is-a-rear-home-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a rear home addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A rear home addition extends your existing house structure towards the back of your property, expanding living space. This type of addition often involves adding new rooms, enlarging existing ones, or creating features like sunrooms or additional bedrooms. It requires careful planning for foundation, roofline integration, and utility extensions, which Hometelligent Inc. manages from design to completion.",
-        "description": "A rear home addition expands your house by extending it towards the back of your property, adding new living space or enlarging existing rooms."
-      }
-    }
-  ],
+  "name": "What is a rear home addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a rear home addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A rear home addition extends your existing house structure towards the back of your property, expanding living space. This type of addition often involves adding new rooms, enlarging existing ones, or creating features like sunrooms or additional bedrooms. It requires careful planning for foundation, roofline integration, and utility extensions, which Hometelligent Inc. manages from design to completion.",
+        "@type": "Answer",
+        "description": "A rear home addition expands your house by extending it towards the back of your property, adding new living space or enlarging existing rooms."
+      }
+    }
+  ],
+  "description": "A rear home addition expands your house by extending it towards the back of your property, adding new living space or enlarging existing rooms."
 }

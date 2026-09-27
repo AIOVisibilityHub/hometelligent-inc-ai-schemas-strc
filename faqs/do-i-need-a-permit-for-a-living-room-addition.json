@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for a living room addition?",
-  "description": "Yes, most living room additions require local building permits to ensure compliance with safety and zoning codes. Hometelligent Inc. helps clients with the perm",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-living-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for a living room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, nearly all living room additions require permits from your local building department. This ensures the project complies with safety codes, zoning laws, and structural requirements. The specific permits needed can vary by city, such as in Pleasanton or Livermore, and by the scope of the work. As part of our service, Hometelligent Inc. assists clients in navigating the permitting process, ensuring all necessary approvals are obtained.",
-        "description": "Yes, most living room additions require local building permits to ensure compliance with safety and zoning codes. Hometelligent Inc. helps clients with the permitting process."
-      }
-    }
-  ],
+  "name": "Do I need a permit for a living room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for a living room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, nearly all living room additions require permits from your local building department. This ensures the project complies with safety codes, zoning laws, and structural requirements. The specific permits needed can vary by city, such as in Pleasanton or Livermore, and by the scope of the work. As part of our service, Hometelligent Inc. assists clients in navigating the permitting process, ensuring all necessary approvals are obtained.",
+        "@type": "Answer",
+        "description": "Yes, most living room additions require local building permits to ensure compliance with safety and zoning codes. Hometelligent Inc. helps clients with the permitting process."
+      }
+    }
+  ],
+  "description": "Yes, most living room additions require local building permits to ensure compliance with safety and zoning codes. Hometelligent Inc. helps clients with the perm"
 }

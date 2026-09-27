@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I determine if my existing home's foundation can support a second-story addition?",
-  "description": "A professional structural engineering assessment determines foundation suitability; upgrades may be needed if it's insufficient.",
   "url": "https://hometelligentinc.com/faq/how-can-i-determine-if-my-existing-home-s-foundation-can-support-a-second-story",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I determine if my existing home's foundation can support a second-story addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Determining if your home's foundation can support a second-story addition requires a professional structural engineering assessment. This assessment evaluates the existing foundation's type, condition, and load-bearing capacity. If the current foundation is insufficient, upgrades like new footings or a reinforced slab may be necessary, impacting project scope and cost. Hometelligent Inc. coordinates with structural engineers to provide this critical analysis early in the project planning for homes in our service areas.",
-        "description": "A professional structural engineering assessment determines foundation suitability; upgrades may be needed if it's insufficient."
-      }
-    }
-  ],
+  "name": "How can I determine if my existing home's foundation can support a second-story addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I determine if my existing home's foundation can support a second-story addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Determining if your home's foundation can support a second-story addition requires a professional structural engineering assessment. This assessment evaluates the existing foundation's type, condition, and load-bearing capacity. If the current foundation is insufficient, upgrades like new footings or a reinforced slab may be necessary, impacting project scope and cost. Hometelligent Inc. coordinates with structural engineers to provide this critical analysis early in the project planning for homes in our service areas.",
+        "@type": "Answer",
+        "description": "A professional structural engineering assessment determines foundation suitability; upgrades may be needed if it's insufficient."
+      }
+    }
+  ],
+  "description": "A professional structural engineering assessment determines foundation suitability; upgrades may be needed if it's insufficient."
 }

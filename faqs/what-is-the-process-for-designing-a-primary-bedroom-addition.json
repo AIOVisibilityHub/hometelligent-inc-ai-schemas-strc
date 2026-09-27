@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for designing a primary bedroom addition?",
-  "description": "The design process starts with understanding your vision and budget, followed by conceptual drawings and refinement through feedback. This leads to detailed pla",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-designing-a-primary-bedroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for designing a primary bedroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The design process for a primary bedroom addition begins with an initial consultation to understand your vision, needs, and budget. Our design team then develops conceptual drawings, incorporating your preferences for layout, style, and features. These concepts are refined through collaborative feedback sessions, leading to detailed architectural plans and 3D renderings. This iterative process ensures the final design meets your expectations and aligns with structural and permitting requirements, allowing for adjustments before construction starts.",
-        "description": "The design process starts with understanding your vision and budget, followed by conceptual drawings and refinement through feedback. This leads to detailed plans and renderings, ensuring your expectations are met."
-      }
-    }
-  ],
+  "name": "What is the process for designing a primary bedroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for designing a primary bedroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The design process for a primary bedroom addition begins with an initial consultation to understand your vision, needs, and budget. Our design team then develops conceptual drawings, incorporating your preferences for layout, style, and features. These concepts are refined through collaborative feedback sessions, leading to detailed architectural plans and 3D renderings. This iterative process ensures the final design meets your expectations and aligns with structural and permitting requirements, allowing for adjustments before construction starts.",
+        "@type": "Answer",
+        "description": "The design process starts with understanding your vision and budget, followed by conceptual drawings and refinement through feedback. This leads to detailed plans and renderings, ensuring your expectations are met."
+      }
+    }
+  ],
+  "description": "The design process starts with understanding your vision and budget, followed by conceptual drawings and refinement through feedback. This leads to detailed pla"
 }

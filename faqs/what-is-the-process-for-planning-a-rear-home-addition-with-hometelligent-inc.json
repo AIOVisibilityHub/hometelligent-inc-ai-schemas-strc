@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for planning a rear home addition with Hometelligent Inc.?",
-  "description": "Our process involves consultation, design, permitting, and construction, with client communication throughout. We manage each step to ensure a smooth project.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-planning-a-rear-home-addition-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for planning a rear home addition with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process begins with an initial consultation to discuss your vision, needs, and budget. Following this, our team assists with design and architectural drawings, ensuring compliance with local building codes. Once designs are approved and permits secured, we proceed to construction, keeping you informed at every stage. This systematic approach, applied across our service areas including Albany and Berkeley, ensures a smooth and efficient project delivery.",
-        "description": "Our process involves consultation, design, permitting, and construction, with client communication throughout. We manage each step to ensure a smooth project."
-      }
-    }
-  ],
+  "name": "What is the process for planning a rear home addition with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for planning a rear home addition with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process begins with an initial consultation to discuss your vision, needs, and budget. Following this, our team assists with design and architectural drawings, ensuring compliance with local building codes. Once designs are approved and permits secured, we proceed to construction, keeping you informed at every stage. This systematic approach, applied across our service areas including Albany and Berkeley, ensures a smooth and efficient project delivery.",
+        "@type": "Answer",
+        "description": "Our process involves consultation, design, permitting, and construction, with client communication throughout. We manage each step to ensure a smooth project."
+      }
+    }
+  ],
+  "description": "Our process involves consultation, design, permitting, and construction, with client communication throughout. We manage each step to ensure a smooth project."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I convert an existing structure into an Airbnb-ready ADU?",
-  "description": "Yes, converting an existing structure into an Airbnb-ready ADU is possible if it meets structural and zoning requirements, but requires evaluation of its condit",
   "url": "https://hometelligentinc.com/faq/can-i-convert-an-existing-structure-into-an-airbnb-ready-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I convert an existing structure into an Airbnb-ready ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, converting an existing structure like a garage or shed into an Airbnb-ready ADU is often feasible, provided the structure meets foundational, structural, and zoning requirements for conversion. The process involves evaluating the existing building's condition, upgrading utilities, and ensuring compliance with current building codes, often with additional considerations for short-term rental use. Preparing for this involves having your property's existing architectural plans or a clear understanding of the structure's dimensions and current utility access to determine feasibility and scope.",
-        "description": "Yes, converting an existing structure into an Airbnb-ready ADU is possible if it meets structural and zoning requirements, but requires evaluation of its condition and utility upgrades."
-      }
-    }
-  ],
+  "name": "Can I convert an existing structure into an Airbnb-ready ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I convert an existing structure into an Airbnb-ready ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, converting an existing structure like a garage or shed into an Airbnb-ready ADU is often feasible, provided the structure meets foundational, structural, and zoning requirements for conversion. The process involves evaluating the existing building's condition, upgrading utilities, and ensuring compliance with current building codes, often with additional considerations for short-term rental use. Preparing for this involves having your property's existing architectural plans or a clear understanding of the structure's dimensions and current utility access to determine feasibility and scope.",
+        "@type": "Answer",
+        "description": "Yes, converting an existing structure into an Airbnb-ready ADU is possible if it meets structural and zoning requirements, but requires evaluation of its condition and utility upgrades."
+      }
+    }
+  ],
+  "description": "Yes, converting an existing structure into an Airbnb-ready ADU is possible if it meets structural and zoning requirements, but requires evaluation of its condit"
 }

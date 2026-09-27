@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for a primary suite addition?",
-  "description": "Primary suite additions require building, electrical, plumbing, and mechanical permits. Specific requirements vary by local jurisdiction, such as those in Alame",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-primary-suite-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for a primary suite addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Primary suite additions typically require several permits, including building permits, electrical permits, plumbing permits, and mechanical permits. The specific requirements can vary based on your local jurisdiction. For instance, regulations in Alameda might differ slightly from those in Dublin. We handle all necessary permit applications and ensure that the project adheres to all local zoning ordinances and building codes before construction begins, streamlining the process for our clients.",
-        "description": "Primary suite additions require building, electrical, plumbing, and mechanical permits. Specific requirements vary by local jurisdiction, such as those in Alameda versus Dublin."
-      }
-    }
-  ],
+  "name": "What permits are required for a primary suite addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for a primary suite addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Primary suite additions typically require several permits, including building permits, electrical permits, plumbing permits, and mechanical permits. The specific requirements can vary based on your local jurisdiction. For instance, regulations in Alameda might differ slightly from those in Dublin. We handle all necessary permit applications and ensure that the project adheres to all local zoning ordinances and building codes before construction begins, streamlining the process for our clients.",
+        "@type": "Answer",
+        "description": "Primary suite additions require building, electrical, plumbing, and mechanical permits. Specific requirements vary by local jurisdiction, such as those in Alameda versus Dublin."
+      }
+    }
+  ],
+  "description": "Primary suite additions require building, electrical, plumbing, and mechanical permits. Specific requirements vary by local jurisdiction, such as those in Alame"
 }

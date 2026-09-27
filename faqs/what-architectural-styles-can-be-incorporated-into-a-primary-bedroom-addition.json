@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What architectural styles can be incorporated into a primary bedroom addition?",
-  "description": "We can integrate various architectural styles, like Craftsman or Contemporary, into a primary bedroom addition. The key is ensuring the new structure complement",
   "url": "https://hometelligentinc.com/faq/what-architectural-styles-can-be-incorporated-into-a-primary-bedroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What architectural styles can be incorporated into a primary bedroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We can incorporate various architectural styles into a primary bedroom addition to seamlessly blend with your existing home or introduce a complementary aesthetic. This includes contemporary, Craftsman, Mediterranean, or modern farmhouses, among others. The primary consideration is ensuring the new structure respects the original architecture, maintaining curb appeal and structural integrity. Our design team works to match or complement existing materials, roof lines, and exterior details to create a cohesive appearance.",
-        "description": "We can integrate various architectural styles, like Craftsman or Contemporary, into a primary bedroom addition. The key is ensuring the new structure complements your existing home's aesthetic and integrity."
-      }
-    }
-  ],
+  "name": "What architectural styles can be incorporated into a primary bedroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What architectural styles can be incorporated into a primary bedroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "We can incorporate various architectural styles into a primary bedroom addition to seamlessly blend with your existing home or introduce a complementary aesthetic. This includes contemporary, Craftsman, Mediterranean, or modern farmhouses, among others. The primary consideration is ensuring the new structure respects the original architecture, maintaining curb appeal and structural integrity. Our design team works to match or complement existing materials, roof lines, and exterior details to create a cohesive appearance.",
+        "@type": "Answer",
+        "description": "We can integrate various architectural styles, like Craftsman or Contemporary, into a primary bedroom addition. The key is ensuring the new structure complements your existing home's aesthetic and integrity."
+      }
+    }
+  ],
+  "description": "We can integrate various architectural styles, like Craftsman or Contemporary, into a primary bedroom addition. The key is ensuring the new structure complement"
 }

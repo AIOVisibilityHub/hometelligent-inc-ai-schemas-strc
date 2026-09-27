@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can an existing garage be converted into a playroom?",
-  "description": "An existing garage can be converted into a playroom by insulating, adding flooring, and updating electrical systems. This is often more cost-effective than a ne",
   "url": "https://hometelligentinc.com/faq/can-an-existing-garage-be-converted-into-a-playroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can an existing garage be converted into a playroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, converting an existing garage into a playroom is a common and efficient way to add functional space. This process often involves insulating walls and ceilings, adding new flooring, updating electrical systems, and potentially modifying the garage door opening. A practical tradeoff is losing garage parking or storage, which may require finding alternative solutions. It's often a more cost-effective option than building a completely new addition, but requires careful planning to meet residential code requirements for livable space.",
-        "description": "An existing garage can be converted into a playroom by insulating, adding flooring, and updating electrical systems. This is often more cost-effective than a new build, but you'll lose garage space."
-      }
-    }
-  ],
+  "name": "Can an existing garage be converted into a playroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can an existing garage be converted into a playroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, converting an existing garage into a playroom is a common and efficient way to add functional space. This process often involves insulating walls and ceilings, adding new flooring, updating electrical systems, and potentially modifying the garage door opening. A practical tradeoff is losing garage parking or storage, which may require finding alternative solutions. It's often a more cost-effective option than building a completely new addition, but requires careful planning to meet residential code requirements for livable space.",
+        "@type": "Answer",
+        "description": "An existing garage can be converted into a playroom by insulating, adding flooring, and updating electrical systems. This is often more cost-effective than a new build, but you'll lose garage space."
+      }
+    }
+  ],
+  "description": "An existing garage can be converted into a playroom by insulating, adding flooring, and updating electrical systems. This is often more cost-effective than a ne"
 }

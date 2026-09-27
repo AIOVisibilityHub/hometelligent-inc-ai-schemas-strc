@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of return on investment can I expect from a bonus room addition?",
-  "description": "ROI varies based on addition quality, utility, and local real estate markets, with seamless, functional additions often providing better returns.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-return-on-investment-can-i-expect-from-a-bonus-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of return on investment can I expect from a bonus room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While a bonus room addition enhances your living space and functionality, its return on investment (ROI) can vary. Factors like the quality of the addition, its utility, and prevailing real estate market conditions in your specific area, such as Berkeley Hills or Rockridge, will influence resale value. Typically, additions that blend seamlessly and add highly desired features, such as an extra bedroom or office, tend to offer better returns.",
-        "description": "ROI varies based on addition quality, utility, and local real estate markets, with seamless, functional additions often providing better returns."
-      }
-    }
-  ],
+  "name": "What kind of return on investment can I expect from a bonus room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of return on investment can I expect from a bonus room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While a bonus room addition enhances your living space and functionality, its return on investment (ROI) can vary. Factors like the quality of the addition, its utility, and prevailing real estate market conditions in your specific area, such as Berkeley Hills or Rockridge, will influence resale value. Typically, additions that blend seamlessly and add highly desired features, such as an extra bedroom or office, tend to offer better returns.",
+        "@type": "Answer",
+        "description": "ROI varies based on addition quality, utility, and local real estate markets, with seamless, functional additions often providing better returns."
+      }
+    }
+  ],
+  "description": "ROI varies based on addition quality, utility, and local real estate markets, with seamless, functional additions often providing better returns."
 }

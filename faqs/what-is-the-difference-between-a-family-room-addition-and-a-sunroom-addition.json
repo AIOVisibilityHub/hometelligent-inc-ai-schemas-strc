@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a family room addition and a sunroom addition?",
-  "description": "A family room is a fully integrated, insulated living space, while a sunroom typically emphasizes natural light with more glass and may not be fully climate-con",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-family-room-addition-and-a-sunroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a family room addition and a sunroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A family room addition is typically a fully integrated, insulated space designed to be a permanent extension of your home's living area, complete with HVAC, standard windows, and finishes. In contrast, a sunroom is often designed to maximize natural light with extensive glass, may not be fully insulated for year-round use, and might have simpler foundation requirements. The key trade-off lies in year-round comfort and full integration versus abundant natural light and potentially lower cost.",
-        "description": "A family room is a fully integrated, insulated living space, while a sunroom typically emphasizes natural light with more glass and may not be fully climate-controlled."
-      }
-    }
-  ],
+  "name": "What is the difference between a family room addition and a sunroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a family room addition and a sunroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A family room addition is typically a fully integrated, insulated space designed to be a permanent extension of your home's living area, complete with HVAC, standard windows, and finishes. In contrast, a sunroom is often designed to maximize natural light with extensive glass, may not be fully insulated for year-round use, and might have simpler foundation requirements. The key trade-off lies in year-round comfort and full integration versus abundant natural light and potentially lower cost.",
+        "@type": "Answer",
+        "description": "A family room is a fully integrated, insulated living space, while a sunroom typically emphasizes natural light with more glass and may not be fully climate-controlled."
+      }
+    }
+  ],
+  "description": "A family room is a fully integrated, insulated living space, while a sunroom typically emphasizes natural light with more glass and may not be fully climate-con"
 }

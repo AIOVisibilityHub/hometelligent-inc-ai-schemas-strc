@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when deciding between adding a new bedroom versus remodeling an existing space?",
-  "description": "Decide between adding a new bedroom or remodeling by considering your home's footprint, lot size, and if you need new square footage versus reconfigured space.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-deciding-between-adding-a-new-bedroom-versus",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when deciding between adding a new bedroom versus remodeling an existing space?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When evaluating whether to add a new bedroom or convert an existing space, consider your current home's footprint, lot size, and structural limitations. A new addition expands your home's square footage, often increasing property value. Remodeling existing space may be less disruptive and quicker, but it doesn't add new square footage. The decision often hinges on whether you need more overall living space or simply a reconfigured interior, and which option better fits local zoning in areas like Emeryville or San Leandro.",
-        "description": "Decide between adding a new bedroom or remodeling by considering your home's footprint, lot size, and if you need new square footage versus reconfigured space."
-      }
-    }
-  ],
+  "name": "What factors should I consider when deciding between adding a new bedroom versus remodeling an existing space?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when deciding between adding a new bedroom versus remodeling an existing space?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When evaluating whether to add a new bedroom or convert an existing space, consider your current home's footprint, lot size, and structural limitations. A new addition expands your home's square footage, often increasing property value. Remodeling existing space may be less disruptive and quicker, but it doesn't add new square footage. The decision often hinges on whether you need more overall living space or simply a reconfigured interior, and which option better fits local zoning in areas like Emeryville or San Leandro.",
+        "@type": "Answer",
+        "description": "Decide between adding a new bedroom or remodeling by considering your home's footprint, lot size, and if you need new square footage versus reconfigured space."
+      }
+    }
+  ],
+  "description": "Decide between adding a new bedroom or remodeling by considering your home's footprint, lot size, and if you need new square footage versus reconfigured space."
 }

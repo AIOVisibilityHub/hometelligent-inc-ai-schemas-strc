@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for an Airbnb-ready ADU?",
-  "description": "Important design considerations for an Airbnb-ready ADU include privacy, efficient layouts, durable finishes, a separate entrance, and smart home tech for guest",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-an-airbnb-ready-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for an Airbnb-ready ADU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key design considerations for an Airbnb-ready ADU include maximizing privacy for both the main home and the ADU, incorporating efficient kitchen and bathroom layouts, and selecting durable, low-maintenance finishes suitable for frequent guest turnover. A separate entrance, soundproofing, and smart home technology integration for guest access and security are also important. We focus on designing spaces that are functional for guests, easy to maintain, and compliant with local building and short-term rental regulations in areas like Alameda and Albany.",
-        "description": "Important design considerations for an Airbnb-ready ADU include privacy, efficient layouts, durable finishes, a separate entrance, and smart home tech for guest management and compliance."
-      }
-    }
-  ],
+  "name": "What design considerations are important for an Airbnb-ready ADU?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for an Airbnb-ready ADU?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Key design considerations for an Airbnb-ready ADU include maximizing privacy for both the main home and the ADU, incorporating efficient kitchen and bathroom layouts, and selecting durable, low-maintenance finishes suitable for frequent guest turnover. A separate entrance, soundproofing, and smart home technology integration for guest access and security are also important. We focus on designing spaces that are functional for guests, easy to maintain, and compliant with local building and short-term rental regulations in areas like Alameda and Albany.",
+        "@type": "Answer",
+        "description": "Important design considerations for an Airbnb-ready ADU include privacy, efficient layouts, durable finishes, a separate entrance, and smart home tech for guest management and compliance."
+      }
+    }
+  ],
+  "description": "Important design considerations for an Airbnb-ready ADU include privacy, efficient layouts, durable finishes, a separate entrance, and smart home tech for guest"
 }

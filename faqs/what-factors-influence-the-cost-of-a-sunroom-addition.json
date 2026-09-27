@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a sunroom addition?",
-  "description": "Sunroom costs depend on size, materials, foundation, and whether it's a three-season or four-season design. Site preparation and custom features also influence",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-sunroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a sunroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a sunroom addition varies based on several factors, including size, materials (e.g., type of glass, framing), foundation requirements, and whether it's a three-season or four-season room. Four-season sunrooms, designed for year-round use with better insulation and HVAC integration, are generally more expensive. Additional costs can arise from site preparation, electrical work, and custom features. Hometelligent Inc. provides detailed estimates after an initial consultation to account for specific design choices and local building code compliance in areas like Alameda and Berkeley.",
-        "description": "Sunroom costs depend on size, materials, foundation, and whether it's a three-season or four-season design. Site preparation and custom features also influence the final price."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a sunroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a sunroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a sunroom addition varies based on several factors, including size, materials (e.g., type of glass, framing), foundation requirements, and whether it's a three-season or four-season room. Four-season sunrooms, designed for year-round use with better insulation and HVAC integration, are generally more expensive. Additional costs can arise from site preparation, electrical work, and custom features. Hometelligent Inc. provides detailed estimates after an initial consultation to account for specific design choices and local building code compliance in areas like Alameda and Berkeley.",
+        "@type": "Answer",
+        "description": "Sunroom costs depend on size, materials, foundation, and whether it's a three-season or four-season design. Site preparation and custom features also influence the final price."
+      }
+    }
+  ],
+  "description": "Sunroom costs depend on size, materials, foundation, and whether it's a three-season or four-season design. Site preparation and custom features also influence"
 }

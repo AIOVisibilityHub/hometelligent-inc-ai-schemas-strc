@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for a room addition?",
-  "description": "Room additions require building, electrical, plumbing, and mechanical permits. Local building departments enforce specific codes, making proper permitting essen",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-room-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for a room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Room additions require various permits, including building permits, and potentially electrical, plumbing, and mechanical permits, depending on the scope of the work. Local building departments in each city, such as Emeryville or Hayward, enforce specific codes and zoning regulations. It is essential to ensure that all required permits are obtained before construction begins to avoid delays, fines, or rework. Proper permitting ensures the addition meets safety standards and local ordinances.",
-        "description": "Room additions require building, electrical, plumbing, and mechanical permits. Local building departments enforce specific codes, making proper permitting essential before construction."
-      }
-    }
-  ],
+  "name": "What permits are required for a room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for a room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Room additions require various permits, including building permits, and potentially electrical, plumbing, and mechanical permits, depending on the scope of the work. Local building departments in each city, such as Emeryville or Hayward, enforce specific codes and zoning regulations. It is essential to ensure that all required permits are obtained before construction begins to avoid delays, fines, or rework. Proper permitting ensures the addition meets safety standards and local ordinances.",
+        "@type": "Answer",
+        "description": "Room additions require building, electrical, plumbing, and mechanical permits. Local building departments enforce specific codes, making proper permitting essential before construction."
+      }
+    }
+  ],
+  "description": "Room additions require building, electrical, plumbing, and mechanical permits. Local building departments enforce specific codes, making proper permitting essen"
 }

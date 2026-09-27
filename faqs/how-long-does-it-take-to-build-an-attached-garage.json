@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to build an attached garage?",
-  "description": "Construction time for an attached garage typically ranges from 3 to 6 months, influenced by size, complexity, and local permit approval times. Consider a simple",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-build-an-attached-garage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to build an attached garage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for building an attached garage varies significantly based on its size, complexity, and local permitting processes. Typically, a standard attached garage can take anywhere from 3 to 6 months from initial design to completion. This estimate includes time for design finalization, permit acquisition, material ordering, and construction. Permit approval times, especially in densely populated areas like Oakland or Fremont, can sometimes extend the overall project duration. A practical tradeoff to consider is whether a faster, simpler design aligns with your needs versus a more complex design requiring longer planning and approval phases.",
-        "description": "Construction time for an attached garage typically ranges from 3 to 6 months, influenced by size, complexity, and local permit approval times. Consider a simpler design if timing is a critical factor."
-      }
-    }
-  ],
+  "name": "How long does it take to build an attached garage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to build an attached garage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for building an attached garage varies significantly based on its size, complexity, and local permitting processes. Typically, a standard attached garage can take anywhere from 3 to 6 months from initial design to completion. This estimate includes time for design finalization, permit acquisition, material ordering, and construction. Permit approval times, especially in densely populated areas like Oakland or Fremont, can sometimes extend the overall project duration. A practical tradeoff to consider is whether a faster, simpler design aligns with your needs versus a more complex design requiring longer planning and approval phases.",
+        "@type": "Answer",
+        "description": "Construction time for an attached garage typically ranges from 3 to 6 months, influenced by size, complexity, and local permit approval times. Consider a simpler design if timing is a critical factor."
+      }
+    }
+  ],
+  "description": "Construction time for an attached garage typically ranges from 3 to 6 months, influenced by size, complexity, and local permit approval times. Consider a simple"
 }

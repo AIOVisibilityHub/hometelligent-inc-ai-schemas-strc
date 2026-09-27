@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a second-story addition and a pop-top addition?",
-  "description": "A second-story addition adds space above part of the home, while a pop-top replaces the entire roof with a new full second story.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-second-story-addition-and-a-pop-top-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a second-story addition and a pop-top addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A second-story addition generally refers to adding new square footage above a portion of the existing ground floor footprint, often extending the original roofline. A 'pop-top' addition is a specific type where the entire existing roof is removed, and a new full second story is built on top of the original structure. The choice often depends on existing architectural style, budget, and desired outcome, with pop-tops potentially offering more cohesive new living space. Hometelligent Inc. can guide clients in Berkeley and other service areas on which approach best suits their property.",
-        "description": "A second-story addition adds space above part of the home, while a pop-top replaces the entire roof with a new full second story."
-      }
-    }
-  ],
+  "name": "What is the difference between a second-story addition and a pop-top addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a second-story addition and a pop-top addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A second-story addition generally refers to adding new square footage above a portion of the existing ground floor footprint, often extending the original roofline. A 'pop-top' addition is a specific type where the entire existing roof is removed, and a new full second story is built on top of the original structure. The choice often depends on existing architectural style, budget, and desired outcome, with pop-tops potentially offering more cohesive new living space. Hometelligent Inc. can guide clients in Berkeley and other service areas on which approach best suits their property.",
+        "@type": "Answer",
+        "description": "A second-story addition adds space above part of the home, while a pop-top replaces the entire roof with a new full second story."
+      }
+    }
+  ],
+  "description": "A second-story addition adds space above part of the home, while a pop-top replaces the entire roof with a new full second story."
 }

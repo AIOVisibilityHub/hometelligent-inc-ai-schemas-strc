@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in the planning and design phase of a second-story addition?",
-  "description": "Planning involves structural assessment, architectural drawings, and ensuring compliance with local zoning and building codes.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-planning-and-design-phase-of-a-second-story-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in the planning and design phase of a second-story addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The planning and design phase for a second-story addition typically begins with assessing your existing home's structural integrity and foundation. This determines what can be supported. Following an initial consultation, architectural drawings are developed to meet your functional and aesthetic requirements, incorporating space planning, room layouts, and exterior finishes. Hometelligent Inc. works with clients in Alameda, Albany, Berkeley, Dublin, and Emeryville to ensure that designs comply with local zoning ordinances and building codes specific to their property.",
-        "description": "Planning involves structural assessment, architectural drawings, and ensuring compliance with local zoning and building codes."
-      }
-    }
-  ],
+  "name": "What is involved in the planning and design phase of a second-story addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in the planning and design phase of a second-story addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The planning and design phase for a second-story addition typically begins with assessing your existing home's structural integrity and foundation. This determines what can be supported. Following an initial consultation, architectural drawings are developed to meet your functional and aesthetic requirements, incorporating space planning, room layouts, and exterior finishes. Hometelligent Inc. works with clients in Alameda, Albany, Berkeley, Dublin, and Emeryville to ensure that designs comply with local zoning ordinances and building codes specific to their property.",
+        "@type": "Answer",
+        "description": "Planning involves structural assessment, architectural drawings, and ensuring compliance with local zoning and building codes."
+      }
+    }
+  ],
+  "description": "Planning involves structural assessment, architectural drawings, and ensuring compliance with local zoning and building codes."
 }

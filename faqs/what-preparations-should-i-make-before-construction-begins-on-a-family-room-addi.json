@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations should I make before construction begins on a family room addition?",
-  "description": "Prepare the construction area, secure outdoor items, and plan for temporary routine changes and clear communication with your contractor.",
   "url": "https://hometelligentinc.com/faq/what-preparations-should-i-make-before-construction-begins-on-a-family-room-addi",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations should I make before construction begins on a family room addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before construction starts, you should clear the designated construction area, secure any valuable outdoor items, and make arrangements for temporary changes to your daily routine, such as noise or limited access to certain areas of your yard. We recommend discussing access routes for materials and equipment with your contractor. Having a clear communication plan for daily updates and decision-making during the project is also crucial for a smooth process.",
-        "description": "Prepare the construction area, secure outdoor items, and plan for temporary routine changes and clear communication with your contractor."
-      }
-    }
-  ],
+  "name": "What preparations should I make before construction begins on a family room addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations should I make before construction begins on a family room addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before construction starts, you should clear the designated construction area, secure any valuable outdoor items, and make arrangements for temporary changes to your daily routine, such as noise or limited access to certain areas of your yard. We recommend discussing access routes for materials and equipment with your contractor. Having a clear communication plan for daily updates and decision-making during the project is also crucial for a smooth process.",
+        "@type": "Answer",
+        "description": "Prepare the construction area, secure outdoor items, and plan for temporary routine changes and clear communication with your contractor."
+      }
+    }
+  ],
+  "description": "Prepare the construction area, secure outdoor items, and plan for temporary routine changes and clear communication with your contractor."
 }

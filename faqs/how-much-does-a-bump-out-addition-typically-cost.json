@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does a bump-out addition typically cost?",
-  "description": "Costs for a bump-out addition vary by size, complexity, and materials, typically being less than a full room addition but more than simple renovations.",
   "url": "https://hometelligentinc.com/faq/how-much-does-a-bump-out-addition-typically-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does a bump-out addition typically cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a bump-out addition varies significantly based on its size, complexity, materials, and the room it's extending. For instance, extending a kitchen might require more expensive plumbing or electrical work compared to expanding a closet. Generally, you can expect costs to be lower than a full room addition, but higher than simple interior renovations. Our project managers at Hometelligent Inc. can provide a detailed estimate after assessing your specific needs and site conditions within our service areas like Pleasanton or San Leandro.",
-        "description": "Costs for a bump-out addition vary by size, complexity, and materials, typically being less than a full room addition but more than simple renovations."
-      }
-    }
-  ],
+  "name": "How much does a bump-out addition typically cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does a bump-out addition typically cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a bump-out addition varies significantly based on its size, complexity, materials, and the room it's extending. For instance, extending a kitchen might require more expensive plumbing or electrical work compared to expanding a closet. Generally, you can expect costs to be lower than a full room addition, but higher than simple interior renovations. Our project managers at Hometelligent Inc. can provide a detailed estimate after assessing your specific needs and site conditions within our service areas like Pleasanton or San Leandro.",
+        "@type": "Answer",
+        "description": "Costs for a bump-out addition vary by size, complexity, and materials, typically being less than a full room addition but more than simple renovations."
+      }
+    }
+  ],
+  "description": "Costs for a bump-out addition vary by size, complexity, and materials, typically being less than a full room addition but more than simple renovations."
 }

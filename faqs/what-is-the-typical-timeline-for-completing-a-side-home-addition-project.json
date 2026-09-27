@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeline for completing a side home addition project?",
-  "description": "The timeline for a side home addition varies by scale, typically 6-12 months, with design and permitting in areas like Berkeley often taking 2-4 months before c",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeline-for-completing-a-side-home-addition-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeline for completing a side home addition project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical timeline for a side home addition can range from several months to over a year, depending on the project's scale and complexity. Initial phases include design and permitting, which alone can take 2-4 months in areas like Berkeley or Oakland due to local review processes. Construction then follows, involving foundation work, framing, roofing, exterior finishes, and interior build-out. Material lead times, subcontractor availability, and unforeseen site conditions can extend this timeline. Timely decision-making on finishes and fixtures can help keep the project on schedule.",
-        "description": "The timeline for a side home addition varies by scale, typically 6-12 months, with design and permitting in areas like Berkeley often taking 2-4 months before construction begins."
-      }
-    }
-  ],
+  "name": "What is the typical timeline for completing a side home addition project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeline for completing a side home addition project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical timeline for a side home addition can range from several months to over a year, depending on the project's scale and complexity. Initial phases include design and permitting, which alone can take 2-4 months in areas like Berkeley or Oakland due to local review processes. Construction then follows, involving foundation work, framing, roofing, exterior finishes, and interior build-out. Material lead times, subcontractor availability, and unforeseen site conditions can extend this timeline. Timely decision-making on finishes and fixtures can help keep the project on schedule.",
+        "@type": "Answer",
+        "description": "The timeline for a side home addition varies by scale, typically 6-12 months, with design and permitting in areas like Berkeley often taking 2-4 months before construction begins."
+      }
+    }
+  ],
+  "description": "The timeline for a side home addition varies by scale, typically 6-12 months, with design and permitting in areas like Berkeley often taking 2-4 months before c"
 }

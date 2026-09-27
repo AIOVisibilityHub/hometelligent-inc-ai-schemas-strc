@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for a new bedroom addition?",
-  "description": "Design considerations include architectural harmony, natural light, ventilation, floor plan integration, and optimizing for traffic flow and privacy.",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-a-new-bedroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for a new bedroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Important design considerations for a new bedroom addition include ensuring it complements your home's architectural style, optimizing natural light and ventilation, and integrating it seamlessly with the existing floor plan. Think about traffic flow, privacy, and storage needs. For instance, incorporating specific window types or ceiling heights can greatly enhance comfort and appeal, while thoughtful placement of the addition can maximize backyard space in cities with smaller lots like Albany.",
-        "description": "Design considerations include architectural harmony, natural light, ventilation, floor plan integration, and optimizing for traffic flow and privacy."
-      }
-    }
-  ],
+  "name": "What design considerations are important for a new bedroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for a new bedroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Important design considerations for a new bedroom addition include ensuring it complements your home's architectural style, optimizing natural light and ventilation, and integrating it seamlessly with the existing floor plan. Think about traffic flow, privacy, and storage needs. For instance, incorporating specific window types or ceiling heights can greatly enhance comfort and appeal, while thoughtful placement of the addition can maximize backyard space in cities with smaller lots like Albany.",
+        "@type": "Answer",
+        "description": "Design considerations include architectural harmony, natural light, ventilation, floor plan integration, and optimizing for traffic flow and privacy."
+      }
+    }
+  ],
+  "description": "Design considerations include architectural harmony, natural light, ventilation, floor plan integration, and optimizing for traffic flow and privacy."
 }

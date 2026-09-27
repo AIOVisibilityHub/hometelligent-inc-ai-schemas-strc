@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a primary suite addition?",
-  "description": "Cost factors for a primary suite addition include size, complexity, material quality, and site work. Extensive foundation work or specialized finishes can incre",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-primary-suite-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a primary suite addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a primary suite addition is influenced by several key factors, including the size and complexity of the new space, the quality of materials selected, and the extent of any site work required. For example, additions that require extensive foundation work or specialized finishes like custom cabinetry in your chosen area of Alameda or Walnut Creek will typically incur higher costs. We provide detailed estimates that break down expenses for design, permits, materials, and labor, helping you understand the overall investment.",
-        "description": "Cost factors for a primary suite addition include size, complexity, material quality, and site work. Extensive foundation work or specialized finishes can increase costs."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a primary suite addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a primary suite addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a primary suite addition is influenced by several key factors, including the size and complexity of the new space, the quality of materials selected, and the extent of any site work required. For example, additions that require extensive foundation work or specialized finishes like custom cabinetry in your chosen area of Alameda or Walnut Creek will typically incur higher costs. We provide detailed estimates that break down expenses for design, permits, materials, and labor, helping you understand the overall investment.",
+        "@type": "Answer",
+        "description": "Cost factors for a primary suite addition include size, complexity, material quality, and site work. Extensive foundation work or specialized finishes can increase costs."
+      }
+    }
+  ],
+  "description": "Cost factors for a primary suite addition include size, complexity, material quality, and site work. Extensive foundation work or specialized finishes can incre"
 }

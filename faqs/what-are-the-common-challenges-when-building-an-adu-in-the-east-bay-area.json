@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common challenges when building an ADU in the East Bay area?",
-  "description": "Challenges include varied zoning, site access, architectural integration, and utility connections, especially in dense East Bay areas.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-when-building-an-adu-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common challenges when building an ADU in the East Bay area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges in the East Bay area include navigating diverse local zoning ordinances, managing site access on smaller lots, and ensuring design integrates with existing architecture. Soil conditions and utility connections can also add complexity. Hometelligent Inc. has experience addressing these specific challenges across its service areas, including cities like Albany, Emeryville, and Piedmont.",
-        "description": "Challenges include varied zoning, site access, architectural integration, and utility connections, especially in dense East Bay areas."
-      }
-    }
-  ],
+  "name": "What are the common challenges when building an ADU in the East Bay area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common challenges when building an ADU in the East Bay area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges in the East Bay area include navigating diverse local zoning ordinances, managing site access on smaller lots, and ensuring design integrates with existing architecture. Soil conditions and utility connections can also add complexity. Hometelligent Inc. has experience addressing these specific challenges across its service areas, including cities like Albany, Emeryville, and Piedmont.",
+        "@type": "Answer",
+        "description": "Challenges include varied zoning, site access, architectural integration, and utility connections, especially in dense East Bay areas."
+      }
+    }
+  ],
+  "description": "Challenges include varied zoning, site access, architectural integration, and utility connections, especially in dense East Bay areas."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can Hometelligent Inc. help with my living room addition in the East Bay?",
-  "description": "Hometelligent Inc. offers comprehensive services for living room additions in the East Bay, from design and planning to construction. Our local expertise ensure",
   "url": "https://hometelligentinc.com/faq/how-can-hometelligent-inc-help-with-my-living-room-addition-in-the-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can Hometelligent Inc. help with my living room addition in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. specializes in custom living room additions across the East Bay, including cities like Emeryville, Hayward, and Newark. We provide comprehensive services from initial design and architectural planning to permit acquisition and full construction. Our local experience means we understand the specific building codes and community requirements in these areas, ensuring your project is compliant, efficient, and tailored to your needs.",
-        "description": "Hometelligent Inc. offers comprehensive services for living room additions in the East Bay, from design and planning to construction. Our local expertise ensures compliance and efficiency."
-      }
-    }
-  ],
+  "name": "How can Hometelligent Inc. help with my living room addition in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can Hometelligent Inc. help with my living room addition in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. specializes in custom living room additions across the East Bay, including cities like Emeryville, Hayward, and Newark. We provide comprehensive services from initial design and architectural planning to permit acquisition and full construction. Our local experience means we understand the specific building codes and community requirements in these areas, ensuring your project is compliant, efficient, and tailored to your needs.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. offers comprehensive services for living room additions in the East Bay, from design and planning to construction. Our local expertise ensures compliance and efficiency."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. offers comprehensive services for living room additions in the East Bay, from design and planning to construction. Our local expertise ensure"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for a playroom addition?",
-  "description": "Playroom additions require various permits, including structural, electrical, and plumbing, from your local building department. We handle the permitting proces",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-a-playroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for a playroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building a playroom addition requires obtaining permits from your local city or county building department. This typically includes structural, electrical, and plumbing permits, depending on the scope of work. The specific requirements can vary slightly between municipalities within our service area, such as Oakland versus Pleasanton. We manage the entire permitting process on your behalf, ensuring all necessary documentation is submitted accurately and on time to avoid delays. Preparation involves having a clear design plan ready for submission.",
-        "description": "Playroom additions require various permits, including structural, electrical, and plumbing, from your local building department. We handle the permitting process, which can vary slightly by city."
-      }
-    }
-  ],
+  "name": "What permits are needed for a playroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for a playroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building a playroom addition requires obtaining permits from your local city or county building department. This typically includes structural, electrical, and plumbing permits, depending on the scope of work. The specific requirements can vary slightly between municipalities within our service area, such as Oakland versus Pleasanton. We manage the entire permitting process on your behalf, ensuring all necessary documentation is submitted accurately and on time to avoid delays. Preparation involves having a clear design plan ready for submission.",
+        "@type": "Answer",
+        "description": "Playroom additions require various permits, including structural, electrical, and plumbing, from your local building department. We handle the permitting process, which can vary slightly by city."
+      }
+    }
+  ],
+  "description": "Playroom additions require various permits, including structural, electrical, and plumbing, from your local building department. We handle the permitting proces"
 }
