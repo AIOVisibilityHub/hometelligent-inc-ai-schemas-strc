@@ -7,11 +7,12 @@ Hometelligent Inc. maintains a canonical AI Data Package designed so AI systems 
 
 Package contents:
 - 3564 faqs
-- 5 press
+- 239 helpArticles
 - 1 services
-- 1 locations
 - 2 personnel
+- 1 locations
 - 1 organization
+- 5 press
 
 ## Cross-Destination Index — Related AI Data Sources
 - [canonical] Hometelligent Inc. — canonical website — https://hometelligentinc.aiovisibility.net
@@ -4386,23 +4387,267 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/faqs/will-using-low-voc-materials-affect-the-durability-or-performance-of-my-renovati.json — schema
 - https://hometelligentinc.aiovisibility.net/faqs/will-water-efficient-showerheads-and-faucets-reduce-water-pressure.json — schema
 
-### Public Pages (6)
+### Help Articles (239)
+- https://hometelligentinc.aiovisibility.net/help/accessory-dwelling-unit-construction-what-affects-your-project-timeline.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adding-an-in-law-suite-understanding-the-permit-process.json — schema
+- https://hometelligentinc.aiovisibility.net/help/addressing-common-issues-during-adu-plan-review.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adu-architectural-planning-common-mistakes-to-avoid.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adu-architectural-planning-where-to-start-your-design.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adu-feasibility-consultation-is-it-right-for-your-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adu-feasibility-consultations-what-to-ask-your-contractor.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adu-feasibility-is-your-bay-area-property-a-good-fit.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adu-feasibility-understanding-local-zoning-before-you-design.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adu-site-plan-mistakes-don-t-let-them-derail-your-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/adu-site-planning-when-to-bring-in-a-professional.json — schema
+- https://hometelligentinc.aiovisibility.net/help/assessing-your-site-for-a-detached-adu-what-matters.json — schema
+- https://hometelligentinc.aiovisibility.net/help/attached-adu-construction-a-step-by-step-guide-to-success.json — schema
+- https://hometelligentinc.aiovisibility.net/help/attached-adu-construction-is-it-right-for-my-property.json — schema
+- https://hometelligentinc.aiovisibility.net/help/attached-adu-construction-is-your-home-a-good-candidate.json — schema
+- https://hometelligentinc.aiovisibility.net/help/attached-adu-construction-timeline-what-to-expect.json — schema
+- https://hometelligentinc.aiovisibility.net/help/attached-adu-construction-what-to-consider-before-you-build.json — schema
+- https://hometelligentinc.aiovisibility.net/help/attached-adu-what-to-know-before-you-design.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-adu-site-planning-pitfalls-a-critical-checklist.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-common-pitfalls-in-adu-construction.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-common-pitfalls-in-attached-adu-construction.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-costly-mistakes-in-detached-adu-construction.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-costly-mistakes-in-your-adu-feasibility-study.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-costly-mistakes-in-your-garage-adu-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-costly-mistakes-in-your-guest-house-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-delays-in-your-adu-permit-process.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-hidden-hurdles-in-guest-house-construction.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-mistakes-in-backyard-cottage-permitting.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-mistakes-in-your-detached-adu-build.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-pitfalls-in-attached-adu-construction.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-pitfalls-in-your-adu-construction-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-pitfalls-when-building-your-in-law-suite.json — schema
+- https://hometelligentinc.aiovisibility.net/help/avoiding-unexpected-costs-in-your-backyard-cottage-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/backyard-cottage-construction-avoiding-common-pitfalls.json — schema
+- https://hometelligentinc.aiovisibility.net/help/backyard-cottage-construction-is-your-lot-ready.json — schema
+- https://hometelligentinc.aiovisibility.net/help/backyard-cottage-construction-key-mistakes-to-sidestep.json — schema
+- https://hometelligentinc.aiovisibility.net/help/backyard-cottage-construction-what-are-the-site-requirements.json — schema
+- https://hometelligentinc.aiovisibility.net/help/backyard-cottage-construction-what-to-ask-before-you-decide.json — schema
+- https://hometelligentinc.aiovisibility.net/help/backyard-cottage-construction-what-to-consider-first.json — schema
+- https://hometelligentinc.aiovisibility.net/help/backyard-cottage-project-when-to-call-an-expert.json — schema
+- https://hometelligentinc.aiovisibility.net/help/basement-adu-conversion-is-your-home-eligible.json — schema
+- https://hometelligentinc.aiovisibility.net/help/basement-adu-conversions-avoiding-common-approval-mistakes.json — schema
+- https://hometelligentinc.aiovisibility.net/help/basement-adu-conversions-when-to-get-expert-help.json — schema
+- https://hometelligentinc.aiovisibility.net/help/budgeting-for-your-backyard-cottage-beyond-the-building-costs.json — schema
+- https://hometelligentinc.aiovisibility.net/help/building-a-granny-flat-how-to-choose-the-right-approval-pathway.json — schema
+- https://hometelligentinc.aiovisibility.net/help/building-an-in-law-suite-what-to-expect-during-the-process.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-a-contractor-for-your-attached-adu-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-a-contractor-for-your-basement-adu-what-to-look-for.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-a-contractor-for-your-garage-conversion-adu-key-questions-to-ask.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-a-contractor-for-your-guest-house-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-a-contractor-for-your-in-law-suite-how-to-compare-options.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-an-adu-architectural-planning-service-what-to-ask.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-an-adu-contractor-what-to-look-for-in-experience.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-an-adu-contractor-what-to-look-for.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-an-adu-design-what-to-consider-for-your-property.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-an-adu-feasibility-consultant-questions-to-ask.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-an-adu-feasibility-consultant-what-to-look-for.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-an-adu-permit-coordinator-what-to-ask-before-you-hire.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-between-an-attached-and-detached-adu.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-the-right-adu-builder-what-to-ask-before-you-commit.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-the-right-adu-builder-what-to-look-for.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-the-right-adu-placement-factors-to-consider.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-the-right-adu-type-for-your-property.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-your-adu-architectural-plan-custom-vs-pre-designed.json — schema
+- https://hometelligentinc.aiovisibility.net/help/choosing-your-adu-type-guest-house-vs-granny-flat-nuances.json — schema
+- https://hometelligentinc.aiovisibility.net/help/common-pitfalls-in-adu-architectural-planning-and-how-to-sidestep-them.json — schema
+- https://hometelligentinc.aiovisibility.net/help/common-pitfalls-in-garage-conversion-adu-planning.json — schema
+- https://hometelligentinc.aiovisibility.net/help/comparing-garage-adu-vs-living-space-conversion-which-is-right-for-you.json — schema
+- https://hometelligentinc.aiovisibility.net/help/comparing-granny-flats-what-to-look-for-in-a-contractor.json — schema
+- https://hometelligentinc.aiovisibility.net/help/considering-a-basement-adu-when-to-bring-in-the-experts.json — schema
+- https://hometelligentinc.aiovisibility.net/help/considering-a-granny-flat-how-to-avoid-costly-mistakes.json — schema
+- https://hometelligentinc.aiovisibility.net/help/considering-a-guest-house-what-to-know-about-timing-your-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/considering-a-guest-house-what-to-prepare-before-you-start.json — schema
+- https://hometelligentinc.aiovisibility.net/help/considering-an-in-law-suite-what-are-your-options.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-a-basement-to-an-adu-mistakes-to-avoid.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-a-garage-to-an-adu-how-to-get-started.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-a-garage-to-an-adu-when-professional-help-is-key.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-basement-to-an-adu-what-to-know-about-eligibility.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-basement-to-an-adu-what-to-know-before-you-start.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-basement-what-makes-it-legally-habitable.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-garage-into-an-attached-adu-what-to-know.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-garage-to-an-adu-what-to-ask-before-you-hire.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-garage-to-an-adu-what-to-expect-with-permits.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-garage-to-an-adu-what-to-know-before-you-start.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-garage-to-an-adu-what-to-know-first.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-garage-to-living-space-questions-to-ask-about-permits.json — schema
+- https://hometelligentinc.aiovisibility.net/help/converting-your-garage-to-living-space-what-permits-do-you-need.json — schema
+- https://hometelligentinc.aiovisibility.net/help/deciding-between-custom-vs-pre-designed-adu-plans.json — schema
+- https://hometelligentinc.aiovisibility.net/help/deciding-between-shared-and-private-spaces-in-a-multigenerational-home.json — schema
+- https://hometelligentinc.aiovisibility.net/help/deciding-on-a-guest-house-builder-what-to-ask-for-experience.json — schema
+- https://hometelligentinc.aiovisibility.net/help/deciding-on-an-adu-attached-vs-detached.json — schema
+- https://hometelligentinc.aiovisibility.net/help/deciding-on-an-adu-design-pre-designed-vs-custom-plans.json — schema
+- https://hometelligentinc.aiovisibility.net/help/deciding-on-professional-help-for-adu-permit-coordination.json — schema
+- https://hometelligentinc.aiovisibility.net/help/decoding-adu-regulations-how-to-avoid-costly-missteps.json — schema
+- https://hometelligentinc.aiovisibility.net/help/demystifying-permits-for-your-backyard-cottage-adu.json — schema
+- https://hometelligentinc.aiovisibility.net/help/designing-a-multigenerational-home-avoiding-common-planning-mistakes.json — schema
+- https://hometelligentinc.aiovisibility.net/help/detached-adu-construction-understanding-utility-connections.json — schema
+- https://hometelligentinc.aiovisibility.net/help/detached-adu-construction-what-affects-your-project-timeline.json — schema
+- https://hometelligentinc.aiovisibility.net/help/detached-adu-construction-what-to-consider-for-your-property.json — schema
+- https://hometelligentinc.aiovisibility.net/help/detached-adu-permitting-what-to-expect.json — schema
+- https://hometelligentinc.aiovisibility.net/help/garage-adu-conversion-common-mistakes-to-avoid.json — schema
+- https://hometelligentinc.aiovisibility.net/help/garage-conversion-adus-when-to-get-professional-help.json — schema
+- https://hometelligentinc.aiovisibility.net/help/garage-conversion-project-when-to-bring-in-a-professional.json — schema
+- https://hometelligentinc.aiovisibility.net/help/garage-to-living-space-conversion-what-to-prepare-before-you-start.json — schema
+- https://hometelligentinc.aiovisibility.net/help/garage-to-living-space-conversions-avoiding-common-pitfalls.json — schema
+- https://hometelligentinc.aiovisibility.net/help/garage-to-living-space-when-to-hire-a-pro-vs-diy.json — schema
+- https://hometelligentinc.aiovisibility.net/help/getting-started-with-adu-site-planning-a-step-by-step-guide.json — schema
+- https://hometelligentinc.aiovisibility.net/help/getting-started-with-your-detached-adu-project-what-to-prepare.json — schema
+- https://hometelligentinc.aiovisibility.net/help/getting-started-with-your-garage-to-living-space-conversion.json — schema
+- https://hometelligentinc.aiovisibility.net/help/getting-your-adu-project-started-a-step-by-step-guide.json — schema
+- https://hometelligentinc.aiovisibility.net/help/granny-flat-budgeting-what-costs-are-easy-to-overlook.json — schema
+- https://hometelligentinc.aiovisibility.net/help/granny-flat-construction-avoiding-common-site-and-utility-mistakes.json — schema
+- https://hometelligentinc.aiovisibility.net/help/granny-flat-construction-common-mistakes-to-avoid.json — schema
+- https://hometelligentinc.aiovisibility.net/help/granny-flat-mistakes-that-can-derail-your-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/granny-flat-permitting-a-step-by-step-timeline.json — schema
+- https://hometelligentinc.aiovisibility.net/help/granny-flat-project-timeline-what-to-expect-from-start-to-finish.json — schema
+- https://hometelligentinc.aiovisibility.net/help/guest-house-construction-7-mistakes-to-avoid.json — schema
+- https://hometelligentinc.aiovisibility.net/help/guest-house-construction-how-to-navigate-the-permit-process.json — schema
+- https://hometelligentinc.aiovisibility.net/help/guest-house-construction-how-to-plan-for-permits-and-regulations.json — schema
+- https://hometelligentinc.aiovisibility.net/help/guest-house-construction-what-to-consider-before-you-build.json — schema
+- https://hometelligentinc.aiovisibility.net/help/guest-house-or-adu-how-to-determine-the-right-build-for-your-property.json — schema
+- https://hometelligentinc.aiovisibility.net/help/guest-house-project-planning-key-steps-for-a-smooth-start.json — schema
+- https://hometelligentinc.aiovisibility.net/help/hiring-a-guest-house-contractor-what-to-ask-before-you-decide.json — schema
+- https://hometelligentinc.aiovisibility.net/help/hiring-an-adu-contractor-what-to-look-for.json — schema
+- https://hometelligentinc.aiovisibility.net/help/hiring-for-basement-adu-conversion-questions-to-ask-your-contractor.json — schema
+- https://hometelligentinc.aiovisibility.net/help/how-to-get-started-with-adu-feasibility-for-your-adu.json — schema
+- https://hometelligentinc.aiovisibility.net/help/how-to-plan-for-changing-needs-in-a-multigenerational-home.json — schema
+- https://hometelligentinc.aiovisibility.net/help/how-to-prepare-for-your-adu-feasibility-consultation.json — schema
+- https://hometelligentinc.aiovisibility.net/help/how-to-prepare-for-your-adu-permit-application.json — schema
+- https://hometelligentinc.aiovisibility.net/help/in-law-suite-construction-avoiding-common-pitfalls.json — schema
+- https://hometelligentinc.aiovisibility.net/help/in-law-suite-construction-when-does-it-need-separate-permits.json — schema
+- https://hometelligentinc.aiovisibility.net/help/integrating-accessibility-into-multigenerational-suites-a-checklist.json — schema
+- https://hometelligentinc.aiovisibility.net/help/is-a-granny-flat-right-for-your-property-understanding-the-regulations.json — schema
+- https://hometelligentinc.aiovisibility.net/help/is-a-multigenerational-suite-right-for-my-family-a-q-a.json — schema
+- https://hometelligentinc.aiovisibility.net/help/is-an-adu-feasible-on-your-bay-area-property.json — schema
+- https://hometelligentinc.aiovisibility.net/help/is-an-adu-project-right-for-my-bay-area-home.json — schema
+- https://hometelligentinc.aiovisibility.net/help/is-your-basement-ready-for-an-adu-conversion-a-quick-checklist.json — schema
+- https://hometelligentinc.aiovisibility.net/help/is-your-garage-a-candidate-for-an-adu-conversion.json — schema
+- https://hometelligentinc.aiovisibility.net/help/is-your-garage-ready-for-a-living-space-conversion-a-checklist.json — schema
+- https://hometelligentinc.aiovisibility.net/help/key-steps-to-building-a-backyard-cottage-in-the-bay-area.json — schema
+- https://hometelligentinc.aiovisibility.net/help/making-the-call-on-your-in-law-suite-design.json — schema
+- https://hometelligentinc.aiovisibility.net/help/mistakes-to-avoid-when-planning-your-adu-architecture.json — schema
+- https://hometelligentinc.aiovisibility.net/help/multigenerational-living-suite-vs-adu-which-is-right-for-you.json — schema
+- https://hometelligentinc.aiovisibility.net/help/multigenerational-suite-design-avoiding-common-pitfalls.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-architectural-planning-a-step-by-step-guide.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-architectural-planning-when-to-bring-in-the-experts.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-construction-permits-in-albany-ca.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-feasibility-what-to-know-before-you-build.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-permit-corrections-your-action-plan.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-permit-requirements-a-step-by-step-guide.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-permits-in-alameda-county-what-to-know.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-permits-in-albany-what-homeowners-need-to-know.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-permits-what-to-expect-in-the-bay-area.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-regulations-common-mistakes-to-avoid.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-adu-site-planning-what-to-show-on-your-plans.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-approvals-for-your-granny-flat-what-to-know.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-attached-adu-permitting-a-step-by-step-guide.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-granny-flat-permits-what-to-prepare-before-you-apply.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-in-law-suite-regulations-key-differences-to-understand.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-permits-for-your-attached-adu-a-homeowner-s-guide.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-permits-for-your-attached-adu-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-permitting-for-your-accessory-dwelling-unit.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-permitting-for-your-backyard-cottage.json — schema
+- https://hometelligentinc.aiovisibility.net/help/navigating-regulatory-hurdles-for-your-garage-conversion-adu.json — schema
+- https://hometelligentinc.aiovisibility.net/help/permitting-an-accessory-dwelling-unit-what-to-expect-during-the-process.json — schema
+- https://hometelligentinc.aiovisibility.net/help/planning-a-multigenerational-suite-when-professional-guidance-helps.json — schema
+- https://hometelligentinc.aiovisibility.net/help/planning-an-in-law-suite-key-decisions-to-make-upfront.json — schema
+- https://hometelligentinc.aiovisibility.net/help/planning-an-in-law-suite-what-to-ask-your-contractor.json — schema
+- https://hometelligentinc.aiovisibility.net/help/planning-for-changing-needs-in-your-multigenerational-living-suite.json — schema
+- https://hometelligentinc.aiovisibility.net/help/planning-your-adu-construction-key-steps-to-success.json — schema
+- https://hometelligentinc.aiovisibility.net/help/planning-your-adu-site-key-considerations.json — schema
+- https://hometelligentinc.aiovisibility.net/help/planning-your-garage-to-living-space-conversion-avoiding-costly-delays.json — schema
+- https://hometelligentinc.aiovisibility.net/help/planning-your-in-law-suite-defining-its-independence.json — schema
+- https://hometelligentinc.aiovisibility.net/help/preparing-for-adu-site-planning-what-you-need-to-know.json — schema
+- https://hometelligentinc.aiovisibility.net/help/preparing-for-your-adu-consultation-what-to-gather.json — schema
+- https://hometelligentinc.aiovisibility.net/help/preparing-your-property-for-a-detached-adu-build.json — schema
+- https://hometelligentinc.aiovisibility.net/help/property-obstacles-affecting-your-adu-feasibility.json — schema
+- https://hometelligentinc.aiovisibility.net/help/selecting-a-builder-for-your-in-law-suite-key-considerations.json — schema
+- https://hometelligentinc.aiovisibility.net/help/selecting-an-adu-permit-coordination-specialist.json — schema
+- https://hometelligentinc.aiovisibility.net/help/selecting-an-adu-site-planner-key-considerations.json — schema
+- https://hometelligentinc.aiovisibility.net/help/siting-your-detached-adu-avoiding-common-mistakes.json — schema
+- https://hometelligentinc.aiovisibility.net/help/speeding-up-your-adu-permit-in-alameda-county-what-to-know.json — schema
+- https://hometelligentinc.aiovisibility.net/help/starting-your-adu-project-steps-for-feasibility-assessment.json — schema
+- https://hometelligentinc.aiovisibility.net/help/thinking-about-a-garage-adu-common-mistakes-to-avoid.json — schema
+- https://hometelligentinc.aiovisibility.net/help/turning-your-garage-into-habitable-space-do-you-need-a-permit.json — schema
+- https://hometelligentinc.aiovisibility.net/help/understanding-adu-costs-key-factors-to-consider.json — schema
+- https://hometelligentinc.aiovisibility.net/help/understanding-detached-adu-costs-what-to-look-for-in-a-quote.json — schema
+- https://hometelligentinc.aiovisibility.net/help/understanding-detached-adu-site-challenges.json — schema
+- https://hometelligentinc.aiovisibility.net/help/understanding-site-constraints-for-your-backyard-cottage-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/understanding-the-adu-permit-coordination-process.json — schema
+- https://hometelligentinc.aiovisibility.net/help/understanding-the-cost-of-your-detached-adu-key-factors.json — schema
+- https://hometelligentinc.aiovisibility.net/help/understanding-the-costs-of-a-new-adu-in-the-east-bay.json — schema
+- https://hometelligentinc.aiovisibility.net/help/understanding-your-property-for-adu-site-planning.json — schema
+- https://hometelligentinc.aiovisibility.net/help/unsure-if-your-property-can-host-an-adu-get-clarity-first.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-are-the-common-mistakes-to-avoid-in-multigenerational-suite-planning.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-happens-during-granny-flat-construction.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-ask-before-hiring-a-guest-house-contractor.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-consider-before-building-a-backyard-cottage.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-expect-during-the-adu-permit-coordination-process.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-expect-during-your-basement-adu-conversion-process.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-expect-when-adding-an-adu-to-your-property.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-expect-when-planning-your-adu-site.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-look-for-in-a-garage-conversion-contractor.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-prepare-before-designing-your-multigenerational-suite.json — schema
+- https://hometelligentinc.aiovisibility.net/help/what-to-prepare-before-starting-your-in-law-suite-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-a-basement-adu-conversion-becomes-too-complex.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-do-you-need-professional-help-for-multigenerational-suite-construction.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-is-an-architect-essential-for-your-adu-design.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-is-professional-adu-architectural-planning-essential.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-is-professional-guidance-crucial-for-your-granny-flat-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-is-professional-guidance-essential-for-your-adu-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-is-professional-help-essential-for-adu-site-planning.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-professional-guidance-helps-with-your-garage-adu.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-to-bring-in-a-pro-for-multigenerational-suite-construction.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-to-bring-in-a-professional-for-your-adu.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-to-call-a-professional-for-your-granny-flat-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-to-consider-a-detached-adu-vs-an-attached-one.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-to-get-expert-help-with-adu-permits.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-to-get-professional-help-with-adu-permit-coordination.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-you-need-a-pro-for-your-attached-adu-signs-to-look-for.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-you-need-professional-help-for-your-garage-to-living-space-project.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-your-garage-conversion-hits-unexpected-challenges.json — schema
+- https://hometelligentinc.aiovisibility.net/help/when-your-granny-flat-project-needs-professional-guidance-key-indicators.json — schema
+- https://hometelligentinc.aiovisibility.net/help/where-exactly-can-my-adu-go-site-planning-essentials.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-is-my-property-ineligible-for-an-adu.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-isn-t-my-adu-permit-application-moving-forward.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-won-t-my-garage-convert-easily-to-living-space.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-adu-architectural-plans-might-get-rejected.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-adu-construction-project-might-be-delayed.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-adu-design-might-not-fit-your-property.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-adu-permit-application-keeps-getting-delayed.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-adu-permit-application-might-get-delayed.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-adu-site-plan-needs-professional-input.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-attached-adu-estimate-might-be-too-low.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-basement-adu-project-needs-professional-help.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-garage-conversion-adu-might-need-an-expert.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-in-law-suite-construction-costs-more-than-you-expected.json — schema
+- https://hometelligentinc.aiovisibility.net/help/why-your-multigenerational-suite-needs-professional-design.json — schema
+- https://hometelligentinc.aiovisibility.net/help/your-basement-adu-conversion-checklist.json — schema
+
+### Public Pages (14)
 - https://hometelligentinc.aiovisibility.net/about.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/care-and-maintenance.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/getting-started.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/local-service-guidance.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/planning-and-preparation.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/pricing-and-estimates.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/services-and-process.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/unassigned.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/contact.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/faqs.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/index.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/services.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/team-members.html — LLM-optimized public page
 
-### Press (10)
-- https://hometelligentinc.aiovisibility.net/press/best-of-houzz-press-release-11.json — schema
+### Press (5)
 - https://hometelligentinc.aiovisibility.net/press/best-of-houzz-press-release.json — schema
-- https://hometelligentinc.aiovisibility.net/press/diamond-certified-press-release-12.json — schema
 - https://hometelligentinc.aiovisibility.net/press/diamond-certified-press-release.json — schema
-- https://hometelligentinc.aiovisibility.net/press/owner-s-indexed-copy-of-houzz-13.json — schema
 - https://hometelligentinc.aiovisibility.net/press/owner-s-indexed-copy-of-houzz.json — schema
-- https://hometelligentinc.aiovisibility.net/press/patch-albany-business-listing-promotion-14.json — schema
 - https://hometelligentinc.aiovisibility.net/press/patch-albany-business-listing-promotion.json — schema
-- https://hometelligentinc.aiovisibility.net/press/redwood-credit-union-home-services-contractor-program-15.json — schema
 - https://hometelligentinc.aiovisibility.net/press/redwood-credit-union-home-services-contractor-program.json — schema
 

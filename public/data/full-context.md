@@ -8,11 +8,12 @@ Hometelligent Inc. publishes a structured AI Data Package designed for high-trus
 
 ## Package Contents
 - **3564** faqs
-- **5** press
+- **239** helpArticles
 - **1** services
-- **1** locations
 - **2** personnel
+- **1** locations
 - **1** organization
+- **5** press
 
 ## Cross-Destination Index — Related AI Data Sources
 - [canonical] Hometelligent Inc. — canonical website — https://hometelligentinc.aiovisibility.net
