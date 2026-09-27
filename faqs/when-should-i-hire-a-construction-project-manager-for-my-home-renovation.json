@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I hire a construction project manager for my home renovation?",
-  "description": "Hire a construction project manager early in the planning phase, especially for complex renovations, to establish realistic budgets and schedules.",
   "url": "https://hometelligentinc.com/faq/when-should-i-hire-a-construction-project-manager-for-my-home-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I hire a construction project manager for my home renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider hiring a construction project manager early in the planning stages of your home renovation, ideally before design finalization. This allows us to contribute to realistic budgeting and scheduling from the outset, helping to prevent costly changes later. For complex renovations or projects involving multiple trades, such as those common in older Berkeley or Emeryville homes, a project manager ensures better coordination and risk mitigation.",
-        "description": "Hire a construction project manager early in the planning phase, especially for complex renovations, to establish realistic budgets and schedules."
-      }
-    }
-  ],
+  "name": "When should I hire a construction project manager for my home renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I hire a construction project manager for my home renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider hiring a construction project manager early in the planning stages of your home renovation, ideally before design finalization. This allows us to contribute to realistic budgeting and scheduling from the outset, helping to prevent costly changes later. For complex renovations or projects involving multiple trades, such as those common in older Berkeley or Emeryville homes, a project manager ensures better coordination and risk mitigation.",
+        "@type": "Answer",
+        "description": "Hire a construction project manager early in the planning phase, especially for complex renovations, to establish realistic budgets and schedules."
+      }
+    }
+  ],
+  "description": "Hire a construction project manager early in the planning phase, especially for complex renovations, to establish realistic budgets and schedules."
 }

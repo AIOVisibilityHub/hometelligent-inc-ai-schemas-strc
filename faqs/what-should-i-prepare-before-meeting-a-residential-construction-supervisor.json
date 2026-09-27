@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before meeting a residential construction supervisor?",
-  "description": "Prepare your project's scope, plans, budget, goals, and questions before meeting a supervisor to facilitate a tailored discussion.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-meeting-a-residential-construction-supervisor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before meeting a residential construction supervisor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before meeting a residential construction supervisor, you should prepare a clear understanding of your project's scope, including any existing architectural plans, design specifications, and your budget range. It's also helpful to list your primary goals, desired timeline, and any specific concerns or questions you have. This preparation enables the supervisor to accurately assess your needs and provide more relevant guidance and a tailored approach from the initial consultation.",
-        "description": "Prepare your project's scope, plans, budget, goals, and questions before meeting a supervisor to facilitate a tailored discussion."
-      }
-    }
-  ],
+  "name": "What should I prepare before meeting a residential construction supervisor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before meeting a residential construction supervisor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before meeting a residential construction supervisor, you should prepare a clear understanding of your project's scope, including any existing architectural plans, design specifications, and your budget range. It's also helpful to list your primary goals, desired timeline, and any specific concerns or questions you have. This preparation enables the supervisor to accurately assess your needs and provide more relevant guidance and a tailored approach from the initial consultation.",
+        "@type": "Answer",
+        "description": "Prepare your project's scope, plans, budget, goals, and questions before meeting a supervisor to facilitate a tailored discussion."
+      }
+    }
+  ],
+  "description": "Prepare your project's scope, plans, budget, goals, and questions before meeting a supervisor to facilitate a tailored discussion."
 }

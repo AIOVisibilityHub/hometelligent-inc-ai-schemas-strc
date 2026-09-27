@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a residential construction supervisor help with selecting materials and finishes?",
-  "description": "Yes, a supervisor can help with material and finish selection, advising on durability, cost, and availability, and connecting you with suppliers.",
   "url": "https://hometelligentinc.com/faq/can-a-residential-construction-supervisor-help-with-selecting-materials-and-fini",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a residential construction supervisor help with selecting materials and finishes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a residential construction supervisor can assist with selecting materials and finishes. While their primary role is project management, an experienced supervisor often provides valuable input on material durability, cost-effectiveness, and availability, especially within the context of your project's budget and timeline. They can also connect you with trusted suppliers and showrooms. This guidance helps in making informed decisions that balance aesthetic preferences with practical considerations and ensures process clarity in procurement.",
-        "description": "Yes, a supervisor can help with material and finish selection, advising on durability, cost, and availability, and connecting you with suppliers."
-      }
-    }
-  ],
+  "name": "Can a residential construction supervisor help with selecting materials and finishes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a residential construction supervisor help with selecting materials and finishes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a residential construction supervisor can assist with selecting materials and finishes. While their primary role is project management, an experienced supervisor often provides valuable input on material durability, cost-effectiveness, and availability, especially within the context of your project's budget and timeline. They can also connect you with trusted suppliers and showrooms. This guidance helps in making informed decisions that balance aesthetic preferences with practical considerations and ensures process clarity in procurement.",
+        "@type": "Answer",
+        "description": "Yes, a supervisor can help with material and finish selection, advising on durability, cost, and availability, and connecting you with suppliers."
+      }
+    }
+  ],
+  "description": "Yes, a supervisor can help with material and finish selection, advising on durability, cost, and availability, and connecting you with suppliers."
 }

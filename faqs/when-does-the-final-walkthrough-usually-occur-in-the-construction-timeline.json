@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When does the final walkthrough usually occur in the construction timeline?",
-  "description": "The final walkthrough happens after construction is substantially complete, before final payment and property handover.",
   "url": "https://hometelligentinc.com/faq/when-does-the-final-walkthrough-usually-occur-in-the-construction-timeline",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When does the final walkthrough usually occur in the construction timeline?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The final walkthrough typically occurs after all construction work is substantially complete, but before the final payment is made and often before the official handover of the property. It serves as the last opportunity to identify and address any outstanding issues. For Process Clarity, Hometelligent Inc. schedules this event once all municipal inspections have passed and the project is cosmetically finished, allowing any minor adjustments to be made swiftly.",
-        "description": "The final walkthrough happens after construction is substantially complete, before final payment and property handover."
-      }
-    }
-  ],
+  "name": "When does the final walkthrough usually occur in the construction timeline?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When does the final walkthrough usually occur in the construction timeline?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The final walkthrough typically occurs after all construction work is substantially complete, but before the final payment is made and often before the official handover of the property. It serves as the last opportunity to identify and address any outstanding issues. For Process Clarity, Hometelligent Inc. schedules this event once all municipal inspections have passed and the project is cosmetically finished, allowing any minor adjustments to be made swiftly.",
+        "@type": "Answer",
+        "description": "The final walkthrough happens after construction is substantially complete, before final payment and property handover."
+      }
+    }
+  ],
+  "description": "The final walkthrough happens after construction is substantially complete, before final payment and property handover."
 }

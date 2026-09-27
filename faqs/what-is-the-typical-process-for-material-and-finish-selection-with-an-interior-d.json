@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for material and finish selection with an interior designer and Hometelligent Inc.?",
-  "description": "Your designer presents options, you approve, they provide specifications to us. We review for compatibility and availability, then manage procurement and instal",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-material-and-finish-selection-with-an-interior-d",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for material and finish selection with an interior designer and Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical process involves your interior designer presenting material and finish options for your approval, based on your aesthetic and budget. Once approved, the designer provides detailed specifications to Hometelligent Inc. Our team then reviews these specifications to confirm availability, lead times, and compatibility with the construction schedule and structural requirements. We manage the procurement and installation, ensuring the selected items are integrated smoothly into your project.",
-        "description": "Your designer presents options, you approve, they provide specifications to us. We review for compatibility and availability, then manage procurement and installation."
-      }
-    }
-  ],
+  "name": "What is the typical process for material and finish selection with an interior designer and Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for material and finish selection with an interior designer and Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical process involves your interior designer presenting material and finish options for your approval, based on your aesthetic and budget. Once approved, the designer provides detailed specifications to Hometelligent Inc. Our team then reviews these specifications to confirm availability, lead times, and compatibility with the construction schedule and structural requirements. We manage the procurement and installation, ensuring the selected items are integrated smoothly into your project.",
+        "@type": "Answer",
+        "description": "Your designer presents options, you approve, they provide specifications to us. We review for compatibility and availability, then manage procurement and installation."
+      }
+    }
+  ],
+  "description": "Your designer presents options, you approve, they provide specifications to us. We review for compatibility and availability, then manage procurement and instal"
 }

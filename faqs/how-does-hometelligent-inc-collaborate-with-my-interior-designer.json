@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. collaborate with my interior designer?",
-  "description": "Hometelligent Inc. collaborates with your interior designer through established communication channels and regular meetings, acting as a central point of contac",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-collaborate-with-my-interior-designer",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. collaborate with my interior designer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. collaborates with your interior designer by establishing clear communication channels and regular meetings. We act as a central point of contact, sharing architectural plans, construction schedules, and site progress with your designer, and relaying their specifications and selections to our build team and subcontractors. This systematic approach ensures that all parties are aligned and any design-related questions or adjustments are addressed efficiently, minimizing disruptions to the construction timeline.",
-        "description": "Hometelligent Inc. collaborates with your interior designer through established communication channels and regular meetings, acting as a central point of contact to integrate design specifications into the construction process."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. collaborate with my interior designer?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. collaborate with my interior designer?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. collaborates with your interior designer by establishing clear communication channels and regular meetings. We act as a central point of contact, sharing architectural plans, construction schedules, and site progress with your designer, and relaying their specifications and selections to our build team and subcontractors. This systematic approach ensures that all parties are aligned and any design-related questions or adjustments are addressed efficiently, minimizing disruptions to the construction timeline.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. collaborates with your interior designer through established communication channels and regular meetings, acting as a central point of contact to integrate design specifications into the construction process."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. collaborates with your interior designer through established communication channels and regular meetings, acting as a central point of contac"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Why is clear communication important between the client, designer, and construction team?",
-  "description": "Clear communication among all parties prevents misinterpretations, costly errors, and delays, ensuring project goals, budget, and timeline are met effectively.",
   "url": "https://hometelligentinc.com/faq/why-is-clear-communication-important-between-the-client-designer-and-constructio",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why is clear communication important between the client, designer, and construction team?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Clear communication among the client, interior designer, and construction team is crucial for successful project delivery. It ensures that everyone understands the project goals, design intent, budget, and timeline, preventing misinterpretations that could lead to costly errors or delays. Regular and open dialogue, facilitated by our coordination, ensures that any concerns or changes are addressed promptly, maintaining project momentum and client satisfaction.",
-        "description": "Clear communication among all parties prevents misinterpretations, costly errors, and delays, ensuring project goals, budget, and timeline are met effectively."
-      }
-    }
-  ],
+  "name": "Why is clear communication important between the client, designer, and construction team?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Why is clear communication important between the client, designer, and construction team?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Clear communication among the client, interior designer, and construction team is crucial for successful project delivery. It ensures that everyone understands the project goals, design intent, budget, and timeline, preventing misinterpretations that could lead to costly errors or delays. Regular and open dialogue, facilitated by our coordination, ensures that any concerns or changes are addressed promptly, maintaining project momentum and client satisfaction.",
+        "@type": "Answer",
+        "description": "Clear communication among all parties prevents misinterpretations, costly errors, and delays, ensuring project goals, budget, and timeline are met effectively."
+      }
+    }
+  ],
+  "description": "Clear communication among all parties prevents misinterpretations, costly errors, and delays, ensuring project goals, budget, and timeline are met effectively."
 }

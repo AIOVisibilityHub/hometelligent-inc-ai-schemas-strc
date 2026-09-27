@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is construction project management?",
-  "description": "Construction project management oversees all aspects of a building project, including planning, scheduling, budgeting, and quality control.",
   "url": "https://hometelligentinc.com/faq/what-is-construction-project-management",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is construction project management?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Construction project management involves overseeing all aspects of a building project from inception to completion. This includes planning, scheduling, budgeting, resource allocation, and quality control. At Hometelligent Inc., our project managers ensure that every phase of your project, whether a new build or a renovation in Alameda or Albany, adheres to specifications and local regulations, streamlining the process for a smooth outcome.",
-        "description": "Construction project management oversees all aspects of a building project, including planning, scheduling, budgeting, and quality control."
-      }
-    }
-  ],
+  "name": "What is construction project management?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is construction project management?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Construction project management involves overseeing all aspects of a building project from inception to completion. This includes planning, scheduling, budgeting, resource allocation, and quality control. At Hometelligent Inc., our project managers ensure that every phase of your project, whether a new build or a renovation in Alameda or Albany, adheres to specifications and local regulations, streamlining the process for a smooth outcome.",
+        "@type": "Answer",
+        "description": "Construction project management oversees all aspects of a building project, including planning, scheduling, budgeting, and quality control."
+      }
+    }
+  ],
+  "description": "Construction project management oversees all aspects of a building project, including planning, scheduling, budgeting, and quality control."
 }

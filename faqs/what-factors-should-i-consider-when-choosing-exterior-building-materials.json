@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing exterior building materials?",
-  "description": "Consider durability, aesthetics, maintenance, and fire resistance when choosing exterior building materials to ensure they suit local conditions and project nee",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-exterior-building-materials",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing exterior building materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing exterior building materials, consider durability against local weather conditions, aesthetic harmony with the surrounding environment, maintenance requirements, and fire resistance. For instance, in areas like Oakland or Berkeley, materials must withstand diverse weather patterns while adhering to local aesthetic guidelines. Hometelligent Inc. evaluates these factors, along with your budget, to recommend materials that offer both performance and curb appeal for your specific build.",
-        "description": "Consider durability, aesthetics, maintenance, and fire resistance when choosing exterior building materials to ensure they suit local conditions and project needs."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing exterior building materials?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing exterior building materials?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing exterior building materials, consider durability against local weather conditions, aesthetic harmony with the surrounding environment, maintenance requirements, and fire resistance. For instance, in areas like Oakland or Berkeley, materials must withstand diverse weather patterns while adhering to local aesthetic guidelines. Hometelligent Inc. evaluates these factors, along with your budget, to recommend materials that offer both performance and curb appeal for your specific build.",
+        "@type": "Answer",
+        "description": "Consider durability, aesthetics, maintenance, and fire resistance when choosing exterior building materials to ensure they suit local conditions and project needs."
+      }
+    }
+  ],
+  "description": "Consider durability, aesthetics, maintenance, and fire resistance when choosing exterior building materials to ensure they suit local conditions and project nee"
 }

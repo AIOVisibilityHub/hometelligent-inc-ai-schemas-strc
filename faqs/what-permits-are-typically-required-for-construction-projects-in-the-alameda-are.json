@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are typically required for construction projects in the Alameda area?",
-  "description": "Permits for building, electrical, plumbing, and mechanical work are typically needed in Alameda. A project manager handles permit acquisition and compliance.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-typically-required-for-construction-projects-in-the-alameda-are",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are typically required for construction projects in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Construction projects in the Alameda area typically require permits for building, electrical, plumbing, and mechanical work. Specific requirements can vary based on the project's scope and the city's municipal codes. A project manager will identify all necessary permits, prepare and submit applications to the relevant authorities, and ensure your project complies with local zoning laws and building safety standards, simplifying this often complex process.",
-        "description": "Permits for building, electrical, plumbing, and mechanical work are typically needed in Alameda. A project manager handles permit acquisition and compliance."
-      }
-    }
-  ],
+  "name": "What permits are typically required for construction projects in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are typically required for construction projects in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Construction projects in the Alameda area typically require permits for building, electrical, plumbing, and mechanical work. Specific requirements can vary based on the project's scope and the city's municipal codes. A project manager will identify all necessary permits, prepare and submit applications to the relevant authorities, and ensure your project complies with local zoning laws and building safety standards, simplifying this often complex process.",
+        "@type": "Answer",
+        "description": "Permits for building, electrical, plumbing, and mechanical work are typically needed in Alameda. A project manager handles permit acquisition and compliance."
+      }
+    }
+  ],
+  "description": "Permits for building, electrical, plumbing, and mechanical work are typically needed in Alameda. A project manager handles permit acquisition and compliance."
 }

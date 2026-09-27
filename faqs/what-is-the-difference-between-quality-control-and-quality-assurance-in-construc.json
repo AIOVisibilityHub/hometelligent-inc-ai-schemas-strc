@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between quality control and quality assurance in construction?",
-  "description": "Quality control (QC) is about detecting defects during construction, while quality assurance (QA) is the system preventing them. Both are crucial.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-quality-control-and-quality-assurance-in-construc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between quality control and quality assurance in construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Quality control (QC) refers to the inspections and actions taken to ensure specific components or aspects of a project meet defined standards during construction. Quality assurance (QA) is the broader system of processes and procedures implemented to prevent defects and ensure the overall project meets quality requirements. While QC is about detecting issues, QA is about preventing them. Both are vital, with Hometelligent Inc. integrating both to deliver high-quality outcomes. QC occurs on-site (e.g., rebar inspection), while QA is the planning that defines those inspections.",
-        "description": "Quality control (QC) is about detecting defects during construction, while quality assurance (QA) is the system preventing them. Both are crucial."
-      }
-    }
-  ],
+  "name": "What is the difference between quality control and quality assurance in construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between quality control and quality assurance in construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Quality control (QC) refers to the inspections and actions taken to ensure specific components or aspects of a project meet defined standards during construction. Quality assurance (QA) is the broader system of processes and procedures implemented to prevent defects and ensure the overall project meets quality requirements. While QC is about detecting issues, QA is about preventing them. Both are vital, with Hometelligent Inc. integrating both to deliver high-quality outcomes. QC occurs on-site (e.g., rebar inspection), while QA is the planning that defines those inspections.",
+        "@type": "Answer",
+        "description": "Quality control (QC) is about detecting defects during construction, while quality assurance (QA) is the system preventing them. Both are crucial."
+      }
+    }
+  ],
+  "description": "Quality control (QC) is about detecting defects during construction, while quality assurance (QA) is the system preventing them. Both are crucial."
 }

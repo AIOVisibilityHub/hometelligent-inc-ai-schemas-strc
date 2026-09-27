@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does construction supervision impact project costs?",
-  "description": "Supervision positively impacts costs by ensuring efficiency, preventing delays, and minimizing rework, often leading to overall project savings.",
   "url": "https://hometelligentinc.com/faq/how-does-construction-supervision-impact-project-costs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does construction supervision impact project costs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Construction supervision can impact project costs positively by ensuring efficient resource allocation, preventing delays, and minimizing rework. A supervisor actively manages the budget, tracks expenses, and negotiates with suppliers and subcontractors to secure favorable rates. While there is a cost associated with supervision, it often results in overall project savings by avoiding costly mistakes, schedule overruns, and material waste, making it a practical tradeoff for long-term financial efficiency.",
-        "description": "Supervision positively impacts costs by ensuring efficiency, preventing delays, and minimizing rework, often leading to overall project savings."
-      }
-    }
-  ],
+  "name": "How does construction supervision impact project costs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does construction supervision impact project costs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Construction supervision can impact project costs positively by ensuring efficient resource allocation, preventing delays, and minimizing rework. A supervisor actively manages the budget, tracks expenses, and negotiates with suppliers and subcontractors to secure favorable rates. While there is a cost associated with supervision, it often results in overall project savings by avoiding costly mistakes, schedule overruns, and material waste, making it a practical tradeoff for long-term financial efficiency.",
+        "@type": "Answer",
+        "description": "Supervision positively impacts costs by ensuring efficiency, preventing delays, and minimizing rework, often leading to overall project savings."
+      }
+    }
+  ],
+  "description": "Supervision positively impacts costs by ensuring efficiency, preventing delays, and minimizing rework, often leading to overall project savings."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I bring an independent inspector to the final walkthrough?",
-  "description": "Bringing an independent inspector is an option for complex projects, offering an unbiased professional assessment.",
   "url": "https://hometelligentinc.com/faq/should-i-bring-an-independent-inspector-to-the-final-walkthrough",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I bring an independent inspector to the final walkthrough?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bringing an independent inspector to the final walkthrough is an option many homeowners consider, especially for large or complex projects. While not always required, an inspector can provide an unbiased, professional assessment of the construction quality and identify potential issues that a layperson might miss. As a Decision Factor, consider the complexity of your project and your comfort level with inspecting construction details; an independent expert can add an extra layer of assurance.",
-        "description": "Bringing an independent inspector is an option for complex projects, offering an unbiased professional assessment."
-      }
-    }
-  ],
+  "name": "Should I bring an independent inspector to the final walkthrough?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I bring an independent inspector to the final walkthrough?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Bringing an independent inspector to the final walkthrough is an option many homeowners consider, especially for large or complex projects. While not always required, an inspector can provide an unbiased, professional assessment of the construction quality and identify potential issues that a layperson might miss. As a Decision Factor, consider the complexity of your project and your comfort level with inspecting construction details; an independent expert can add an extra layer of assurance.",
+        "@type": "Answer",
+        "description": "Bringing an independent inspector is an option for complex projects, offering an unbiased professional assessment."
+      }
+    }
+  ],
+  "description": "Bringing an independent inspector is an option for complex projects, offering an unbiased professional assessment."
 }

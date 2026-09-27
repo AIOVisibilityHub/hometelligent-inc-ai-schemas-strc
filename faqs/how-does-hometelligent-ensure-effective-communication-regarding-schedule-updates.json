@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent ensure effective communication regarding schedule updates?",
-  "description": "Hometelligent ensures effective schedule communication through regular client updates via meetings, calls, and reports from a dedicated project manager.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-ensure-effective-communication-regarding-schedule-updates",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent ensure effective communication regarding schedule updates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effective communication is crucial for managing construction schedules. We provide regular updates to clients through scheduled meetings, phone calls, and digital progress reports. Our project managers serve as your primary point of contact, ensuring you receive timely information about upcoming milestones, potential delays, or necessary adjustments. This first-party insight into our communication policy ensures transparency, allowing clients to stay informed and address any concerns proactively throughout the project in areas like Oakland or Hayward.",
-        "description": "Hometelligent ensures effective schedule communication through regular client updates via meetings, calls, and reports from a dedicated project manager."
-      }
-    }
-  ],
+  "name": "How does Hometelligent ensure effective communication regarding schedule updates?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent ensure effective communication regarding schedule updates?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Effective communication is crucial for managing construction schedules. We provide regular updates to clients through scheduled meetings, phone calls, and digital progress reports. Our project managers serve as your primary point of contact, ensuring you receive timely information about upcoming milestones, potential delays, or necessary adjustments. This first-party insight into our communication policy ensures transparency, allowing clients to stay informed and address any concerns proactively throughout the project in areas like Oakland or Hayward.",
+        "@type": "Answer",
+        "description": "Hometelligent ensures effective schedule communication through regular client updates via meetings, calls, and reports from a dedicated project manager."
+      }
+    }
+  ],
+  "description": "Hometelligent ensures effective schedule communication through regular client updates via meetings, calls, and reports from a dedicated project manager."
 }

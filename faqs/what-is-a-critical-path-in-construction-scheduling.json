@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a critical path in construction scheduling?",
-  "description": "The critical path is the sequence of tasks that must finish on time for a project to meet its deadline; delays here affect overall completion.",
   "url": "https://hometelligentinc.com/faq/what-is-a-critical-path-in-construction-scheduling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a critical path in construction scheduling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The critical path in construction scheduling identifies the sequence of tasks that must be completed on time for the entire project to meet its deadline. Any delay in a critical path task will directly delay the project's completion. Understanding the critical path allows us to prioritize resources and monitor these key activities closely. As part of our first-party insight, our project managers specifically highlight these critical tasks during planning, offering clients clarity on which stages are most time-sensitive and require careful attention.",
-        "description": "The critical path is the sequence of tasks that must finish on time for a project to meet its deadline; delays here affect overall completion."
-      }
-    }
-  ],
+  "name": "What is a critical path in construction scheduling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a critical path in construction scheduling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The critical path in construction scheduling identifies the sequence of tasks that must be completed on time for the entire project to meet its deadline. Any delay in a critical path task will directly delay the project's completion. Understanding the critical path allows us to prioritize resources and monitor these key activities closely. As part of our first-party insight, our project managers specifically highlight these critical tasks during planning, offering clients clarity on which stages are most time-sensitive and require careful attention.",
+        "@type": "Answer",
+        "description": "The critical path is the sequence of tasks that must finish on time for a project to meet its deadline; delays here affect overall completion."
+      }
+    }
+  ],
+  "description": "The critical path is the sequence of tasks that must finish on time for a project to meet its deadline; delays here affect overall completion."
 }

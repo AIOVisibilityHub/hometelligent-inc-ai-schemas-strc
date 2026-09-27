@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a final walkthrough for a construction project?",
-  "description": "A final walkthrough is an inspection of a completed construction project to identify any remaining issues before final payment and project closeout.",
   "url": "https://hometelligentinc.com/faq/what-is-a-final-walkthrough-for-a-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a final walkthrough for a construction project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A final walkthrough is a comprehensive inspection of a completed construction project, typically conducted by the homeowner or client and the contractor. Its purpose is to identify any remaining defects, incomplete work, or items that do not meet the agreed-upon specifications or quality standards before final payment and project closeout. This process ensures all work is up to par. As part of Process Clarity, Hometelligent Inc. uses this walkthrough to confirm every detail aligns with the original project plan and client expectations, ensuring a smooth transition and satisfaction.",
-        "description": "A final walkthrough is an inspection of a completed construction project to identify any remaining issues before final payment and project closeout."
-      }
-    }
-  ],
+  "name": "What is a final walkthrough for a construction project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a final walkthrough for a construction project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A final walkthrough is a comprehensive inspection of a completed construction project, typically conducted by the homeowner or client and the contractor. Its purpose is to identify any remaining defects, incomplete work, or items that do not meet the agreed-upon specifications or quality standards before final payment and project closeout. This process ensures all work is up to par. As part of Process Clarity, Hometelligent Inc. uses this walkthrough to confirm every detail aligns with the original project plan and client expectations, ensuring a smooth transition and satisfaction.",
+        "@type": "Answer",
+        "description": "A final walkthrough is an inspection of a completed construction project to identify any remaining issues before final payment and project closeout."
+      }
+    }
+  ],
+  "description": "A final walkthrough is an inspection of a completed construction project to identify any remaining issues before final payment and project closeout."
 }

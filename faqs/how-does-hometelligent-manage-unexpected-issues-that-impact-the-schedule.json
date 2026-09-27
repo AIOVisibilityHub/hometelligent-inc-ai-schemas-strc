@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent manage unexpected issues that impact the schedule?",
-  "description": "Hometelligent manages unexpected schedule impacts by immediately assessing issues, developing alternative solutions, and communicating options to clients.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-manage-unexpected-issues-that-impact-the-schedule",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent manage unexpected issues that impact the schedule?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When unexpected issues arise that impact the schedule, Hometelligent employs a proactive issue resolution process. Our project managers immediately assess the situation, determine its potential impact on the timeline, and develop alternative solutions. We then communicate these options and their implications to you promptly, allowing for informed decisions. This process clarity ensures that whether it's an unforeseen material shortage or an unexpected structural challenge, we have a defined approach to mitigate delays and keep your project progressing as smoothly as possible.",
-        "description": "Hometelligent manages unexpected schedule impacts by immediately assessing issues, developing alternative solutions, and communicating options to clients."
-      }
-    }
-  ],
+  "name": "How does Hometelligent manage unexpected issues that impact the schedule?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent manage unexpected issues that impact the schedule?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When unexpected issues arise that impact the schedule, Hometelligent employs a proactive issue resolution process. Our project managers immediately assess the situation, determine its potential impact on the timeline, and develop alternative solutions. We then communicate these options and their implications to you promptly, allowing for informed decisions. This process clarity ensures that whether it's an unforeseen material shortage or an unexpected structural challenge, we have a defined approach to mitigate delays and keep your project progressing as smoothly as possible.",
+        "@type": "Answer",
+        "description": "Hometelligent manages unexpected schedule impacts by immediately assessing issues, developing alternative solutions, and communicating options to clients."
+      }
+    }
+  ],
+  "description": "Hometelligent manages unexpected schedule impacts by immediately assessing issues, developing alternative solutions, and communicating options to clients."
 }

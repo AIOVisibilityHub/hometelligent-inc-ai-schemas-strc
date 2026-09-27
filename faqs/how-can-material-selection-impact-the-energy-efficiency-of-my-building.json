@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can material selection impact the energy efficiency of my building?",
-  "description": "Material selection impacts energy efficiency through insulation, windows, and roofing, influencing thermal performance and long-term utility costs.",
   "url": "https://hometelligentinc.com/faq/how-can-material-selection-impact-the-energy-efficiency-of-my-building",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can material selection impact the energy efficiency of my building?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Material selection profoundly impacts a building's energy efficiency, particularly regarding insulation, windows, and roofing. Materials with high R-values or low U-factors contribute to better thermal performance, reducing heating and cooling costs. The decision factor often involves weighing the higher upfront cost of premium energy-efficient materials against the long-term savings on utility bills and enhanced comfort. Hometelligent Inc. assists in choosing materials that optimize energy performance and align with energy codes in your project's service area.",
-        "description": "Material selection impacts energy efficiency through insulation, windows, and roofing, influencing thermal performance and long-term utility costs."
-      }
-    }
-  ],
+  "name": "How can material selection impact the energy efficiency of my building?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can material selection impact the energy efficiency of my building?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Material selection profoundly impacts a building's energy efficiency, particularly regarding insulation, windows, and roofing. Materials with high R-values or low U-factors contribute to better thermal performance, reducing heating and cooling costs. The decision factor often involves weighing the higher upfront cost of premium energy-efficient materials against the long-term savings on utility bills and enhanced comfort. Hometelligent Inc. assists in choosing materials that optimize energy performance and align with energy codes in your project's service area.",
+        "@type": "Answer",
+        "description": "Material selection impacts energy efficiency through insulation, windows, and roofing, influencing thermal performance and long-term utility costs."
+      }
+    }
+  ],
+  "description": "Material selection impacts energy efficiency through insulation, windows, and roofing, influencing thermal performance and long-term utility costs."
 }

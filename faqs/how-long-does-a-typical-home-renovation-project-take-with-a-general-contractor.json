@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical home renovation project take with a general contractor?",
-  "description": "Project duration varies by scope, complexity, material availability, and permits; discuss timelines with your general contractor for realistic expectations.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-home-renovation-project-take-with-a-general-contractor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical home renovation project take with a general contractor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a home renovation project varies significantly based on its scope and complexity, as well as material availability and permitting processes. A small bathroom remodel might take a few weeks, while a major whole-home renovation or addition could extend to several months. Establishing clear timelines and milestones with your general contractor early in the planning stage helps manage expectations and track progress effectively.",
-        "description": "Project duration varies by scope, complexity, material availability, and permits; discuss timelines with your general contractor for realistic expectations."
-      }
-    }
-  ],
+  "name": "How long does a typical home renovation project take with a general contractor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical home renovation project take with a general contractor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a home renovation project varies significantly based on its scope and complexity, as well as material availability and permitting processes. A small bathroom remodel might take a few weeks, while a major whole-home renovation or addition could extend to several months. Establishing clear timelines and milestones with your general contractor early in the planning stage helps manage expectations and track progress effectively.",
+        "@type": "Answer",
+        "description": "Project duration varies by scope, complexity, material availability, and permits; discuss timelines with your general contractor for realistic expectations."
+      }
+    }
+  ],
+  "description": "Project duration varies by scope, complexity, material availability, and permits; discuss timelines with your general contractor for realistic expectations."
 }

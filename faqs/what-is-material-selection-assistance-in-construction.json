@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is material selection assistance in construction?",
-  "description": "Material selection assistance helps you choose appropriate building materials based on project requirements, budget, and desired outcomes.",
   "url": "https://hometelligentinc.com/faq/what-is-material-selection-assistance-in-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is material selection assistance in construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Material selection assistance involves an expert guiding you through choosing the best building materials for your project. This includes considering factors like durability, aesthetic appeal, budget, and environmental impact. Hometelligent Inc. provides this service to ensure your selections meet project requirements and local building codes for areas like Alameda and Berkeley, helping you achieve optimal performance and longevity for your construction.",
-        "description": "Material selection assistance helps you choose appropriate building materials based on project requirements, budget, and desired outcomes."
-      }
-    }
-  ],
+  "name": "What is material selection assistance in construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is material selection assistance in construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Material selection assistance involves an expert guiding you through choosing the best building materials for your project. This includes considering factors like durability, aesthetic appeal, budget, and environmental impact. Hometelligent Inc. provides this service to ensure your selections meet project requirements and local building codes for areas like Alameda and Berkeley, helping you achieve optimal performance and longevity for your construction.",
+        "@type": "Answer",
+        "description": "Material selection assistance helps you choose appropriate building materials based on project requirements, budget, and desired outcomes."
+      }
+    }
+  ],
+  "description": "Material selection assistance helps you choose appropriate building materials based on project requirements, budget, and desired outcomes."
 }

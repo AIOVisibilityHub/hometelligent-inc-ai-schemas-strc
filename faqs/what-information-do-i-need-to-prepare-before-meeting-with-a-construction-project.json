@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information do I need to prepare before meeting with a construction project manager?",
-  "description": "Prepare your project goals, desired scope, budget expectations, and any existing architectural plans before meeting a project manager.",
   "url": "https://hometelligentinc.com/faq/what-information-do-i-need-to-prepare-before-meeting-with-a-construction-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information do I need to prepare before meeting with a construction project manager?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before meeting with a construction project manager, it's helpful to have a clear understanding of your project goals, desired scope, and budget expectations. Gathering any existing architectural plans, surveys, or relevant property information will also be beneficial. This initial preparation allows us to accurately assess your needs and provide more tailored advice and a preliminary project overview, especially for custom projects.",
-        "description": "Prepare your project goals, desired scope, budget expectations, and any existing architectural plans before meeting a project manager."
-      }
-    }
-  ],
+  "name": "What information do I need to prepare before meeting with a construction project manager?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information do I need to prepare before meeting with a construction project manager?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before meeting with a construction project manager, it's helpful to have a clear understanding of your project goals, desired scope, and budget expectations. Gathering any existing architectural plans, surveys, or relevant property information will also be beneficial. This initial preparation allows us to accurately assess your needs and provide more tailored advice and a preliminary project overview, especially for custom projects.",
+        "@type": "Answer",
+        "description": "Prepare your project goals, desired scope, budget expectations, and any existing architectural plans before meeting a project manager."
+      }
+    }
+  ],
+  "description": "Prepare your project goals, desired scope, budget expectations, and any existing architectural plans before meeting a project manager."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeline for a standard home renovation project?",
-  "description": "Home renovation timelines vary greatly, from weeks to months, depending on project scope, material availability, and local permitting needs.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeline-for-a-standard-home-renovation-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeline for a standard home renovation project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical timeline for a standard home renovation project varies significantly based on its scope and complexity, ranging from a few weeks for minor updates to several months for major overhauls. For example, a bathroom remodel might take 3-6 weeks, while a full kitchen renovation could be 6-12 weeks. Key decision factors impacting this timeline include the extent of structural changes, the type and availability of chosen materials, and the need for specialized permits in specific locations such as Piedmont or Kensington, which can extend the initial planning phase.",
-        "description": "Home renovation timelines vary greatly, from weeks to months, depending on project scope, material availability, and local permitting needs."
-      }
-    }
-  ],
+  "name": "What is the typical timeline for a standard home renovation project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeline for a standard home renovation project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical timeline for a standard home renovation project varies significantly based on its scope and complexity, ranging from a few weeks for minor updates to several months for major overhauls. For example, a bathroom remodel might take 3-6 weeks, while a full kitchen renovation could be 6-12 weeks. Key decision factors impacting this timeline include the extent of structural changes, the type and availability of chosen materials, and the need for specialized permits in specific locations such as Piedmont or Kensington, which can extend the initial planning phase.",
+        "@type": "Answer",
+        "description": "Home renovation timelines vary greatly, from weeks to months, depending on project scope, material availability, and local permitting needs."
+      }
+    }
+  ],
+  "description": "Home renovation timelines vary greatly, from weeks to months, depending on project scope, material availability, and local permitting needs."
 }

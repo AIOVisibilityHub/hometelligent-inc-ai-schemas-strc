@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does Hometelligent Inc. provide interior design services directly?",
-  "description": "Hometelligent Inc. specializes in construction and does not offer direct interior design services, focusing instead on coordinating with your chosen designer to",
   "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-provide-interior-design-services-directly",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does Hometelligent Inc. provide interior design services directly?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. specializes in construction services and does not offer in-house interior design services directly. Our expertise lies in executing construction projects with precision and coordinating effectively with your chosen interior designer. We focus on building to your specifications and facilitating a seamless integration of your designer's vision, ensuring a high-quality finished product.",
-        "description": "Hometelligent Inc. specializes in construction and does not offer direct interior design services, focusing instead on coordinating with your chosen designer to execute your project."
-      }
-    }
-  ],
+  "name": "Does Hometelligent Inc. provide interior design services directly?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does Hometelligent Inc. provide interior design services directly?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. specializes in construction services and does not offer in-house interior design services directly. Our expertise lies in executing construction projects with precision and coordinating effectively with your chosen interior designer. We focus on building to your specifications and facilitating a seamless integration of your designer's vision, ensuring a high-quality finished product.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. specializes in construction and does not offer direct interior design services, focusing instead on coordinating with your chosen designer to execute your project."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. specializes in construction and does not offer direct interior design services, focusing instead on coordinating with your chosen designer to"
 }

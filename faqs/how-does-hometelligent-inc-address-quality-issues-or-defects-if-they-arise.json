@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. address quality issues or defects if they arise?",
-  "description": "Hometelligent Inc. addresses quality issues by immediate identification, investigation, corrective action, and transparent communication with the client.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-address-quality-issues-or-defects-if-they-arise",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. address quality issues or defects if they arise?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If quality issues or defects arise on a Hometelligent Inc. project, our process involves immediate identification, thorough investigation to determine the root cause, and prompt corrective action. We prioritize transparency by communicating findings and proposed solutions to the client without delay. Our experienced project managers oversee the remediation to ensure it meets our high standards and client satisfaction. This commitment to quickly resolving issues minimizes disruption and upholds the integrity of the project, a core tenet of our service in places like Fremont and Hayward.",
-        "description": "Hometelligent Inc. addresses quality issues by immediate identification, investigation, corrective action, and transparent communication with the client."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. address quality issues or defects if they arise?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. address quality issues or defects if they arise?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "If quality issues or defects arise on a Hometelligent Inc. project, our process involves immediate identification, thorough investigation to determine the root cause, and prompt corrective action. We prioritize transparency by communicating findings and proposed solutions to the client without delay. Our experienced project managers oversee the remediation to ensure it meets our high standards and client satisfaction. This commitment to quickly resolving issues minimizes disruption and upholds the integrity of the project, a core tenet of our service in places like Fremont and Hayward.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. addresses quality issues by immediate identification, investigation, corrective action, and transparent communication with the client."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. addresses quality issues by immediate identification, investigation, corrective action, and transparent communication with the client."
 }

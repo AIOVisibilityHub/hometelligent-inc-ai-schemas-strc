@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What services do general contractors typically offer?",
-  "description": "General contractors manage all aspects of a construction project, including planning, scheduling, budgeting, and overseeing subcontractors for various trades.",
   "url": "https://hometelligentinc.com/faq/what-services-do-general-contractors-typically-offer",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What services do general contractors typically offer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "General contractors manage all aspects of a construction project, from start to finish. This includes planning, scheduling, budgeting, and overseeing subcontractors for various trades such as electrical, plumbing, carpentry, and roofing. Hometelligent Inc. specializes in residential and commercial construction projects within the Alameda and Contra Costa counties, ensuring a streamlined process from concept to completion.",
-        "description": "General contractors manage all aspects of a construction project, including planning, scheduling, budgeting, and overseeing subcontractors for various trades."
-      }
-    }
-  ],
+  "name": "What services do general contractors typically offer?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What services do general contractors typically offer?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "General contractors manage all aspects of a construction project, from start to finish. This includes planning, scheduling, budgeting, and overseeing subcontractors for various trades such as electrical, plumbing, carpentry, and roofing. Hometelligent Inc. specializes in residential and commercial construction projects within the Alameda and Contra Costa counties, ensuring a streamlined process from concept to completion.",
+        "@type": "Answer",
+        "description": "General contractors manage all aspects of a construction project, including planning, scheduling, budgeting, and overseeing subcontractors for various trades."
+      }
+    }
+  ],
+  "description": "General contractors manage all aspects of a construction project, including planning, scheduling, budgeting, and overseeing subcontractors for various trades."
 }

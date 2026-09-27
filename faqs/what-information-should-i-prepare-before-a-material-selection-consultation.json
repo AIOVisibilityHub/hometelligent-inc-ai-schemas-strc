@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information should I prepare before a material selection consultation?",
-  "description": "Prepare architectural plans, a material budget, aesthetic preferences, and functional requirements before a material selection consultation.",
   "url": "https://hometelligentinc.com/faq/what-information-should-i-prepare-before-a-material-selection-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information should I prepare before a material selection consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before a material selection consultation, it is helpful to gather any existing architectural plans, an approximate budget for materials, and a list of your aesthetic preferences or desired styles. Consider also the functionality of each space and any specific performance requirements, such as soundproofing or moisture resistance. This preparation allows Hometelligent Inc. to efficiently narrow down options and provide tailored recommendations that align with your vision and project constraints.",
-        "description": "Prepare architectural plans, a material budget, aesthetic preferences, and functional requirements before a material selection consultation."
-      }
-    }
-  ],
+  "name": "What information should I prepare before a material selection consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information should I prepare before a material selection consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before a material selection consultation, it is helpful to gather any existing architectural plans, an approximate budget for materials, and a list of your aesthetic preferences or desired styles. Consider also the functionality of each space and any specific performance requirements, such as soundproofing or moisture resistance. This preparation allows Hometelligent Inc. to efficiently narrow down options and provide tailored recommendations that align with your vision and project constraints.",
+        "@type": "Answer",
+        "description": "Prepare architectural plans, a material budget, aesthetic preferences, and functional requirements before a material selection consultation."
+      }
+    }
+  ],
+  "description": "Prepare architectural plans, a material budget, aesthetic preferences, and functional requirements before a material selection consultation."
 }

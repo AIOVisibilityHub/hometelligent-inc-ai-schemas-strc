@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of hiring a general contractor in the Alameda area?",
-  "description": "General contractor costs in Alameda depend on project complexity, size, material choices, labor rates, and the contractor's experience and market demand.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-hiring-a-general-contractor-in-the-alameda-ar",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of hiring a general contractor in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of hiring a general contractor in the Alameda area is influenced by several factors, including the project's complexity and size, material selections, and the specific labor rates for various trades. Additionally, the contractor's experience level, their overhead, and current market demand for construction services can impact pricing. Securing detailed bids that clearly outline all costs is essential for an accurate comparison.",
-        "description": "General contractor costs in Alameda depend on project complexity, size, material choices, labor rates, and the contractor's experience and market demand."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of hiring a general contractor in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of hiring a general contractor in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of hiring a general contractor in the Alameda area is influenced by several factors, including the project's complexity and size, material selections, and the specific labor rates for various trades. Additionally, the contractor's experience level, their overhead, and current market demand for construction services can impact pricing. Securing detailed bids that clearly outline all costs is essential for an accurate comparison.",
+        "@type": "Answer",
+        "description": "General contractor costs in Alameda depend on project complexity, size, material choices, labor rates, and the contractor's experience and market demand."
+      }
+    }
+  ],
+  "description": "General contractor costs in Alameda depend on project complexity, size, material choices, labor rates, and the contractor's experience and market demand."
 }

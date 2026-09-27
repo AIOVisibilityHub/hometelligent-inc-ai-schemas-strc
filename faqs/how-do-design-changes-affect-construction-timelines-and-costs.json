@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do design changes affect construction timelines and costs?",
-  "description": "Late design changes can significantly impact construction timelines and costs due to reordering, rescheduling, and re-work. Early finalization of design details",
   "url": "https://hometelligentinc.com/faq/how-do-design-changes-affect-construction-timelines-and-costs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do design changes affect construction timelines and costs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Design changes, especially those introduced late in the construction process, can significantly impact timelines and costs. Modifications to materials, layouts, or structural elements often require reordering supplies, rescheduling trades, and re-doing completed work, leading to delays and increased expenses. Our coordination efforts aim to finalize design details early to minimize such disruptions, but clients should anticipate potential adjustments if significant changes are requested post-commencement.",
-        "description": "Late design changes can significantly impact construction timelines and costs due to reordering, rescheduling, and re-work. Early finalization of design details minimizes these disruptions."
-      }
-    }
-  ],
+  "name": "How do design changes affect construction timelines and costs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do design changes affect construction timelines and costs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Design changes, especially those introduced late in the construction process, can significantly impact timelines and costs. Modifications to materials, layouts, or structural elements often require reordering supplies, rescheduling trades, and re-doing completed work, leading to delays and increased expenses. Our coordination efforts aim to finalize design details early to minimize such disruptions, but clients should anticipate potential adjustments if significant changes are requested post-commencement.",
+        "@type": "Answer",
+        "description": "Late design changes can significantly impact construction timelines and costs due to reordering, rescheduling, and re-work. Early finalization of design details minimizes these disruptions."
+      }
+    }
+  ],
+  "description": "Late design changes can significantly impact construction timelines and costs due to reordering, rescheduling, and re-work. Early finalization of design details"
 }

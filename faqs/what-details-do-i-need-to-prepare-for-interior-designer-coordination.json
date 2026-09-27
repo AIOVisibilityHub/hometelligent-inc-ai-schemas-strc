@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What details do I need to prepare for interior designer coordination?",
-  "description": "Prepare design concepts, inspiration, aesthetic preferences, functional needs, and any preliminary budget details for finishes and fixtures to facilitate smooth",
   "url": "https://hometelligentinc.com/faq/what-details-do-i-need-to-prepare-for-interior-designer-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What details do I need to prepare for interior designer coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for interior designer coordination, compile any existing design concepts, inspiration images, and a preliminary list of your aesthetic preferences and functional needs. Having a general budget for finishes, fixtures, and furnishings, if known, can also be beneficial. This initial information helps both your designer and our team understand your vision and constraints, ensuring that coordination efforts are focused and efficient from the start.",
-        "description": "Prepare design concepts, inspiration, aesthetic preferences, functional needs, and any preliminary budget details for finishes and fixtures to facilitate smooth coordination."
-      }
-    }
-  ],
+  "name": "What details do I need to prepare for interior designer coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What details do I need to prepare for interior designer coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for interior designer coordination, compile any existing design concepts, inspiration images, and a preliminary list of your aesthetic preferences and functional needs. Having a general budget for finishes, fixtures, and furnishings, if known, can also be beneficial. This initial information helps both your designer and our team understand your vision and constraints, ensuring that coordination efforts are focused and efficient from the start.",
+        "@type": "Answer",
+        "description": "Prepare design concepts, inspiration, aesthetic preferences, functional needs, and any preliminary budget details for finishes and fixtures to facilitate smooth coordination."
+      }
+    }
+  ],
+  "description": "Prepare design concepts, inspiration, aesthetic preferences, functional needs, and any preliminary budget details for finishes and fixtures to facilitate smooth"
 }

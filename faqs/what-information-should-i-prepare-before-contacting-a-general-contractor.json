@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information should I prepare before contacting a general contractor?",
-  "description": "Prepare your project goals, a preliminary budget, and any existing plans or designs before contacting a general contractor to ensure a productive discussion.",
   "url": "https://hometelligentinc.com/faq/what-information-should-i-prepare-before-contacting-a-general-contractor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information should I prepare before contacting a general contractor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before contacting a general contractor, it's beneficial to have a clear understanding of your project goals, a preliminary budget range, and any existing plans or designs. Gathering inspirational images or a detailed scope of work can significantly aid in communicating your vision. This preparation helps the contractor provide a more accurate estimate and allows for a more productive initial consultation.",
-        "description": "Prepare your project goals, a preliminary budget, and any existing plans or designs before contacting a general contractor to ensure a productive discussion."
-      }
-    }
-  ],
+  "name": "What information should I prepare before contacting a general contractor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information should I prepare before contacting a general contractor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before contacting a general contractor, it's beneficial to have a clear understanding of your project goals, a preliminary budget range, and any existing plans or designs. Gathering inspirational images or a detailed scope of work can significantly aid in communicating your vision. This preparation helps the contractor provide a more accurate estimate and allows for a more productive initial consultation.",
+        "@type": "Answer",
+        "description": "Prepare your project goals, a preliminary budget, and any existing plans or designs before contacting a general contractor to ensure a productive discussion."
+      }
+    }
+  ],
+  "description": "Prepare your project goals, a preliminary budget, and any existing plans or designs before contacting a general contractor to ensure a productive discussion."
 }

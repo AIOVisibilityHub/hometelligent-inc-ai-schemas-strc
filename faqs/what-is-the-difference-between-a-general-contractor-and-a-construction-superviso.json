@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a general contractor and a construction supervisor?",
-  "description": "A general contractor manages the entire project and holds contractual responsibility, while a construction supervisor focuses on daily site oversight and qualit",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-general-contractor-and-a-construction-superviso",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a general contractor and a construction supervisor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A general contractor is typically responsible for the entire project, including hiring subcontractors, managing budgets, and overseeing all work. A construction supervisor, often employed by the general contractor or directly by the homeowner, focuses specifically on the day-to-day oversight of site activities, quality control, and schedule adherence. While both roles are crucial, the general contractor holds ultimate contractual responsibility, whereas the supervisor's role is more about direct on-site management, which is a practical tradeoff in project management structure.",
-        "description": "A general contractor manages the entire project and holds contractual responsibility, while a construction supervisor focuses on daily site oversight and quality."
-      }
-    }
-  ],
+  "name": "What is the difference between a general contractor and a construction supervisor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a general contractor and a construction supervisor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A general contractor is typically responsible for the entire project, including hiring subcontractors, managing budgets, and overseeing all work. A construction supervisor, often employed by the general contractor or directly by the homeowner, focuses specifically on the day-to-day oversight of site activities, quality control, and schedule adherence. While both roles are crucial, the general contractor holds ultimate contractual responsibility, whereas the supervisor's role is more about direct on-site management, which is a practical tradeoff in project management structure.",
+        "@type": "Answer",
+        "description": "A general contractor manages the entire project and holds contractual responsibility, while a construction supervisor focuses on daily site oversight and quality."
+      }
+    }
+  ],
+  "description": "A general contractor manages the entire project and holds contractual responsibility, while a construction supervisor focuses on daily site oversight and qualit"
 }

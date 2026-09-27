@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How are changes to the project scope handled by a general contractor?",
-  "description": "Project scope changes are managed through formal change orders, which document impacts on timeline and cost and require your approval before implementation.",
   "url": "https://hometelligentinc.com/faq/how-are-changes-to-the-project-scope-handled-by-a-general-contractor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How are changes to the project scope handled by a general contractor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Changes to the project scope, often called 'change orders,' are typically handled through a formal amendment to the original contract. This process involves documenting the requested changes, outlining their impact on the timeline and cost, and obtaining your approval before any new work begins. Clear communication with your general contractor about any desired modifications ensures transparency and prevents misunderstandings.",
-        "description": "Project scope changes are managed through formal change orders, which document impacts on timeline and cost and require your approval before implementation."
-      }
-    }
-  ],
+  "name": "How are changes to the project scope handled by a general contractor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How are changes to the project scope handled by a general contractor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Changes to the project scope, often called 'change orders,' are typically handled through a formal amendment to the original contract. This process involves documenting the requested changes, outlining their impact on the timeline and cost, and obtaining your approval before any new work begins. Clear communication with your general contractor about any desired modifications ensures transparency and prevents misunderstandings.",
+        "@type": "Answer",
+        "description": "Project scope changes are managed through formal change orders, which document impacts on timeline and cost and require your approval before implementation."
+      }
+    }
+  ],
+  "description": "Project scope changes are managed through formal change orders, which document impacts on timeline and cost and require your approval before implementation."
 }
