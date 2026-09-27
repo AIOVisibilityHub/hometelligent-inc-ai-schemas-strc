@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the installation process for marble countertops?",
-  "description": "The process involves templating, marble cutting, careful placement, seaming, and professional sealing to protect the surface.",
   "url": "https://hometelligentinc.com/faq/what-is-the-installation-process-for-marble-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the installation process for marble countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process begins with an accurate template created from your existing cabinets. This template is used to precisely cut your selected marble slabs. During installation, our team carefully transports the finished pieces, sets them in place, ensures levelness, and then seals the seams with color-matched epoxy. The final step involves applying a professional-grade sealant to protect the marble, a critical step Hometelligent Inc. performs to enhance durability.",
-        "description": "The process involves templating, marble cutting, careful placement, seaming, and professional sealing to protect the surface."
-      }
-    }
-  ],
+  "name": "What is the installation process for marble countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the installation process for marble countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process begins with an accurate template created from your existing cabinets. This template is used to precisely cut your selected marble slabs. During installation, our team carefully transports the finished pieces, sets them in place, ensures levelness, and then seals the seams with color-matched epoxy. The final step involves applying a professional-grade sealant to protect the marble, a critical step Hometelligent Inc. performs to enhance durability.",
+        "@type": "Answer",
+        "description": "The process involves templating, marble cutting, careful placement, seaming, and professional sealing to protect the surface."
+      }
+    }
+  ],
+  "description": "The process involves templating, marble cutting, careful placement, seaming, and professional sealing to protect the surface."
 }

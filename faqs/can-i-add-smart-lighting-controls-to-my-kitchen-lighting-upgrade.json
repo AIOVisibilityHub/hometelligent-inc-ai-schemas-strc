@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I add smart lighting controls to my kitchen lighting upgrade?",
-  "description": "Smart lighting controls, like dimmers and app-controlled systems, can be added for convenience and energy management, requiring careful planning.",
   "url": "https://hometelligentinc.com/faq/can-i-add-smart-lighting-controls-to-my-kitchen-lighting-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I add smart lighting controls to my kitchen lighting upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, smart lighting controls can be integrated into your kitchen lighting upgrade for enhanced convenience and energy management. Options include dimmers, motion sensors, and systems controllable via smartphone apps or voice commands. These controls allow you to adjust brightness, schedule lighting, and even change light color, creating different moods throughout the day. Integrating smart controls requires careful planning to ensure compatibility with your chosen fixtures and existing electrical system.",
-        "description": "Smart lighting controls, like dimmers and app-controlled systems, can be added for convenience and energy management, requiring careful planning."
-      }
-    }
-  ],
+  "name": "Can I add smart lighting controls to my kitchen lighting upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I add smart lighting controls to my kitchen lighting upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, smart lighting controls can be integrated into your kitchen lighting upgrade for enhanced convenience and energy management. Options include dimmers, motion sensors, and systems controllable via smartphone apps or voice commands. These controls allow you to adjust brightness, schedule lighting, and even change light color, creating different moods throughout the day. Integrating smart controls requires careful planning to ensure compatibility with your chosen fixtures and existing electrical system.",
+        "@type": "Answer",
+        "description": "Smart lighting controls, like dimmers and app-controlled systems, can be added for convenience and energy management, requiring careful planning."
+      }
+    }
+  ],
+  "description": "Smart lighting controls, like dimmers and app-controlled systems, can be added for convenience and energy management, requiring careful planning."
 }

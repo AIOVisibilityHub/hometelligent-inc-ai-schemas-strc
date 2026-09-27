@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I maximize space in a small walk-in pantry?",
-  "description": "Maximize space in a small walk-in pantry with vertical storage, rotating corner units, and door-mounted racks, utilizing custom solutions.",
   "url": "https://hometelligentinc.com/faq/how-can-i-maximize-space-in-a-small-walk-in-pantry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I maximize space in a small walk-in pantry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To maximize space in a small walk-in pantry, focus on vertical storage and efficient organization. This can involve floor-to-ceiling shelving, rotating corner units, door-mounted racks, and multi-tiered drawers. During our initial consultation, Hometelligent Inc. assesses your specific spatial constraints and suggests custom solutions that make the most of every inch.",
-        "description": "Maximize space in a small walk-in pantry with vertical storage, rotating corner units, and door-mounted racks, utilizing custom solutions."
-      }
-    }
-  ],
+  "name": "How can I maximize space in a small walk-in pantry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I maximize space in a small walk-in pantry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To maximize space in a small walk-in pantry, focus on vertical storage and efficient organization. This can involve floor-to-ceiling shelving, rotating corner units, door-mounted racks, and multi-tiered drawers. During our initial consultation, Hometelligent Inc. assesses your specific spatial constraints and suggests custom solutions that make the most of every inch.",
+        "@type": "Answer",
+        "description": "Maximize space in a small walk-in pantry with vertical storage, rotating corner units, and door-mounted racks, utilizing custom solutions."
+      }
+    }
+  ],
+  "description": "Maximize space in a small walk-in pantry with vertical storage, rotating corner units, and door-mounted racks, utilizing custom solutions."
 }

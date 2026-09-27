@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between grout and caulk for a backsplash?",
-  "description": "Grout fills spaces between tiles for structural integrity, while caulk is a flexible sealant used at joints where the backsplash meets other surfaces for waterp",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-grout-and-caulk-for-a-backsplash",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between grout and caulk for a backsplash?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Grout is a cement-based mixture used to fill the spaces between tiles, providing structural integrity and a finished look. It is rigid and available in sanded or unsanded varieties depending on the joint width. Caulk, on the other hand, is a flexible, waterproof sealant used where the backsplash meets the countertop, cabinets, or other surfaces to allow for movement and prevent water penetration. Using the correct product in each area is crucial for a durable and watertight installation.",
-        "description": "Grout fills spaces between tiles for structural integrity, while caulk is a flexible sealant used at joints where the backsplash meets other surfaces for waterproofing."
-      }
-    }
-  ],
+  "name": "What is the difference between grout and caulk for a backsplash?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between grout and caulk for a backsplash?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Grout is a cement-based mixture used to fill the spaces between tiles, providing structural integrity and a finished look. It is rigid and available in sanded or unsanded varieties depending on the joint width. Caulk, on the other hand, is a flexible, waterproof sealant used where the backsplash meets the countertop, cabinets, or other surfaces to allow for movement and prevent water penetration. Using the correct product in each area is crucial for a durable and watertight installation.",
+        "@type": "Answer",
+        "description": "Grout fills spaces between tiles for structural integrity, while caulk is a flexible sealant used at joints where the backsplash meets other surfaces for waterproofing."
+      }
+    }
+  ],
+  "description": "Grout fills spaces between tiles for structural integrity, while caulk is a flexible sealant used at joints where the backsplash meets other surfaces for waterp"
 }

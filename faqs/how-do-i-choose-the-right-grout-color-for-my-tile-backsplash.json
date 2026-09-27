@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right grout color for my tile backsplash?",
-  "description": "Choose grout to either match the tile for a seamless look or contrast it to highlight the pattern. Consider how light or dark grout affects appearance and maint",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-grout-color-for-my-tile-backsplash",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right grout color for my tile backsplash?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right grout color can significantly impact the final look of your tile backsplash. A general rule is to either match the tile color for a seamless, uniform appearance or choose a contrasting color to highlight the tile pattern and shape. Lighter grouts can make a space feel larger but show dirt more easily, while darker grouts can conceal imperfections but may make the backsplash appear busier. Consider samples of grout next to your chosen tiles in different lighting conditions before making a final decision. Hometelligent Inc. can provide samples and expert advice on how different colors will affect the overall aesthetic.",
-        "description": "Choose grout to either match the tile for a seamless look or contrast it to highlight the pattern. Consider how light or dark grout affects appearance and maintenance, and view samples in different lighting."
-      }
-    }
-  ],
+  "name": "How do I choose the right grout color for my tile backsplash?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right grout color for my tile backsplash?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right grout color can significantly impact the final look of your tile backsplash. A general rule is to either match the tile color for a seamless, uniform appearance or choose a contrasting color to highlight the tile pattern and shape. Lighter grouts can make a space feel larger but show dirt more easily, while darker grouts can conceal imperfections but may make the backsplash appear busier. Consider samples of grout next to your chosen tiles in different lighting conditions before making a final decision. Hometelligent Inc. can provide samples and expert advice on how different colors will affect the overall aesthetic.",
+        "@type": "Answer",
+        "description": "Choose grout to either match the tile for a seamless look or contrast it to highlight the pattern. Consider how light or dark grout affects appearance and maintenance, and view samples in different lighting."
+      }
+    }
+  ],
+  "description": "Choose grout to either match the tile for a seamless look or contrast it to highlight the pattern. Consider how light or dark grout affects appearance and maint"
 }

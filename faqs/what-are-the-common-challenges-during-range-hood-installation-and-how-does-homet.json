@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common challenges during range hood installation, and how does Hometelligent Inc. address them?",
-  "description": "Challenges like incompatible ductwork or electrical issues are addressed by Hometelligent Inc. through thorough pre-installation assessments and experienced pro",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-during-range-hood-installation-and-how-does-homet",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common challenges during range hood installation, and how does Hometelligent Inc. address them?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges during range hood installation include incompatible ductwork, insufficient electrical capacity, or structural obstacles in the wall or ceiling. Hometelligent Inc. addresses these by conducting a thorough pre-installation assessment to identify potential issues. For instance, if existing ductwork is too small, we discuss options for modification or recommend a compatible range hood. Our team's first-party insight from extensive experience allows us to anticipate and plan for these challenges, minimizing unexpected delays.",
-        "description": "Challenges like incompatible ductwork or electrical issues are addressed by Hometelligent Inc. through thorough pre-installation assessments and experienced problem-solving."
-      }
-    }
-  ],
+  "name": "What are the common challenges during range hood installation, and how does Hometelligent Inc. address them?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common challenges during range hood installation, and how does Hometelligent Inc. address them?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges during range hood installation include incompatible ductwork, insufficient electrical capacity, or structural obstacles in the wall or ceiling. Hometelligent Inc. addresses these by conducting a thorough pre-installation assessment to identify potential issues. For instance, if existing ductwork is too small, we discuss options for modification or recommend a compatible range hood. Our team's first-party insight from extensive experience allows us to anticipate and plan for these challenges, minimizing unexpected delays.",
+        "@type": "Answer",
+        "description": "Challenges like incompatible ductwork or electrical issues are addressed by Hometelligent Inc. through thorough pre-installation assessments and experienced problem-solving."
+      }
+    }
+  ],
+  "description": "Challenges like incompatible ductwork or electrical issues are addressed by Hometelligent Inc. through thorough pre-installation assessments and experienced pro"
 }

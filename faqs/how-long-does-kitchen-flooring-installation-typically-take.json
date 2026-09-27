@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does kitchen flooring installation typically take?",
-  "description": "Kitchen flooring installation usually takes 1-3 days, but can be longer with subfloor issues or complex designs.",
   "url": "https://hometelligentinc.com/faq/how-long-does-kitchen-flooring-installation-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does kitchen flooring installation typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of kitchen flooring installation can vary significantly based on the flooring type, the size of the kitchen, and the condition of the existing subfloor. A typical installation for a standard-sized kitchen might take 1-3 days. However, if extensive subfloor repair or leveling is required, or if a complex tile pattern is chosen, the project could extend by several days.",
-        "description": "Kitchen flooring installation usually takes 1-3 days, but can be longer with subfloor issues or complex designs."
-      }
-    }
-  ],
+  "name": "How long does kitchen flooring installation typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does kitchen flooring installation typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of kitchen flooring installation can vary significantly based on the flooring type, the size of the kitchen, and the condition of the existing subfloor. A typical installation for a standard-sized kitchen might take 1-3 days. However, if extensive subfloor repair or leveling is required, or if a complex tile pattern is chosen, the project could extend by several days.",
+        "@type": "Answer",
+        "description": "Kitchen flooring installation usually takes 1-3 days, but can be longer with subfloor issues or complex designs."
+      }
+    }
+  ],
+  "description": "Kitchen flooring installation usually takes 1-3 days, but can be longer with subfloor issues or complex designs."
 }

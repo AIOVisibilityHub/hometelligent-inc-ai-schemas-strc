@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. manage a luxury kitchen remodel project in Alameda?",
-  "description": "Hometelligent Inc. manages Alameda luxury kitchen remodels with detailed design, meticulous material sourcing, a dedicated project manager, and expertise in loc",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-manage-a-luxury-kitchen-remodel-project-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. manage a luxury kitchen remodel project in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. manages luxury kitchen remodels in Alameda through a detailed, client-focused process starting with a comprehensive design consultation to understand your vision. We then develop precise plans and 3D renderings, followed by meticulous material sourcing from trusted suppliers. Throughout the construction phase, a dedicated project manager oversees all aspects, ensuring quality control, adherence to timelines, and regular communication with the homeowner. Our experience in local Alameda regulations helps streamline the permitting process, ensuring your project progresses efficiently and meets all municipal requirements. Our team handles everything from initial concept to the final inspection.",
-        "description": "Hometelligent Inc. manages Alameda luxury kitchen remodels with detailed design, meticulous material sourcing, a dedicated project manager, and expertise in local regulations."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. manage a luxury kitchen remodel project in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. manage a luxury kitchen remodel project in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. manages luxury kitchen remodels in Alameda through a detailed, client-focused process starting with a comprehensive design consultation to understand your vision. We then develop precise plans and 3D renderings, followed by meticulous material sourcing from trusted suppliers. Throughout the construction phase, a dedicated project manager oversees all aspects, ensuring quality control, adherence to timelines, and regular communication with the homeowner. Our experience in local Alameda regulations helps streamline the permitting process, ensuring your project progresses efficiently and meets all municipal requirements. Our team handles everything from initial concept to the final inspection.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. manages Alameda luxury kitchen remodels with detailed design, meticulous material sourcing, a dedicated project manager, and expertise in local regulations."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. manages Alameda luxury kitchen remodels with detailed design, meticulous material sourcing, a dedicated project manager, and expertise in loc"
 }

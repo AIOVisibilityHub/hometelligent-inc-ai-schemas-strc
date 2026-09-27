@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for upgrading kitchen lighting?",
-  "description": "The process involves consultation, design, old fixture removal, electrical modifications, and new lighting installation and testing.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-upgrading-kitchen-lighting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for upgrading kitchen lighting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for upgrading kitchen lighting typically begins with an initial consultation to understand your vision and assess your existing electrical system. We then design a lighting plan, selecting fixtures that align with your aesthetic and functional goals. Once the design is approved, our team handles the removal of old fixtures, any necessary electrical modifications, and the installation of new lighting. The project concludes with testing to ensure everything operates correctly. Clear communication throughout the project ensures a smooth process from start to finish.",
-        "description": "The process involves consultation, design, old fixture removal, electrical modifications, and new lighting installation and testing."
-      }
-    }
-  ],
+  "name": "What is the process for upgrading kitchen lighting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for upgrading kitchen lighting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for upgrading kitchen lighting typically begins with an initial consultation to understand your vision and assess your existing electrical system. We then design a lighting plan, selecting fixtures that align with your aesthetic and functional goals. Once the design is approved, our team handles the removal of old fixtures, any necessary electrical modifications, and the installation of new lighting. The project concludes with testing to ensure everything operates correctly. Clear communication throughout the project ensures a smooth process from start to finish.",
+        "@type": "Answer",
+        "description": "The process involves consultation, design, old fixture removal, electrical modifications, and new lighting installation and testing."
+      }
+    }
+  ],
+  "description": "The process involves consultation, design, old fixture removal, electrical modifications, and new lighting installation and testing."
 }

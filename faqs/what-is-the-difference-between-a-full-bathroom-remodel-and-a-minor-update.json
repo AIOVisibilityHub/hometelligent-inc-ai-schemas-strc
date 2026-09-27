@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a full bathroom remodel and a minor update?",
-  "description": "A full remodel replaces major components and may alter layout/utilities, while a minor update focuses on cosmetic changes without structural work.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-full-bathroom-remodel-and-a-minor-update",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a full bathroom remodel and a minor update?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A full bathroom remodel typically involves gutting and replacing most major components, often including changes to the layout, plumbing, and electrical systems. A minor update, in contrast, focuses on cosmetic changes like painting, replacing a vanity or toilet, or re-grouting tiles without altering the room's structure or utility lines. The primary tradeoff is the scope of change versus cost and disruption.",
-        "description": "A full remodel replaces major components and may alter layout/utilities, while a minor update focuses on cosmetic changes without structural work."
-      }
-    }
-  ],
+  "name": "What is the difference between a full bathroom remodel and a minor update?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a full bathroom remodel and a minor update?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A full bathroom remodel typically involves gutting and replacing most major components, often including changes to the layout, plumbing, and electrical systems. A minor update, in contrast, focuses on cosmetic changes like painting, replacing a vanity or toilet, or re-grouting tiles without altering the room's structure or utility lines. The primary tradeoff is the scope of change versus cost and disruption.",
+        "@type": "Answer",
+        "description": "A full remodel replaces major components and may alter layout/utilities, while a minor update focuses on cosmetic changes without structural work."
+      }
+    }
+  ],
+  "description": "A full remodel replaces major components and may alter layout/utilities, while a minor update focuses on cosmetic changes without structural work."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right color temperature for my kitchen lights?",
-  "description": "Choose warmer temperatures (2700K-3000K) for a cozy feel or cooler temperatures (3500K-5000K) for task lighting, depending on kitchen use.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-color-temperature-for-my-kitchen-lights",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right color temperature for my kitchen lights?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right color temperature for kitchen lights impacts the room's mood and functionality. Measured in Kelvins (K), warmer temperatures (2700K-3000K) create a cozy, inviting feel, suitable for dining areas. Cooler temperatures (3500K-5000K) provide brighter, more stimulating light, ideal for task-oriented areas like food preparation. Consider your kitchen's aesthetics and primary use when deciding. We can offer recommendations during the design phase to match your preferences and needs.",
-        "description": "Choose warmer temperatures (2700K-3000K) for a cozy feel or cooler temperatures (3500K-5000K) for task lighting, depending on kitchen use."
-      }
-    }
-  ],
+  "name": "How do I choose the right color temperature for my kitchen lights?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right color temperature for my kitchen lights?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right color temperature for kitchen lights impacts the room's mood and functionality. Measured in Kelvins (K), warmer temperatures (2700K-3000K) create a cozy, inviting feel, suitable for dining areas. Cooler temperatures (3500K-5000K) provide brighter, more stimulating light, ideal for task-oriented areas like food preparation. Consider your kitchen's aesthetics and primary use when deciding. We can offer recommendations during the design phase to match your preferences and needs.",
+        "@type": "Answer",
+        "description": "Choose warmer temperatures (2700K-3000K) for a cozy feel or cooler temperatures (3500K-5000K) for task lighting, depending on kitchen use."
+      }
+    }
+  ],
+  "description": "Choose warmer temperatures (2700K-3000K) for a cozy feel or cooler temperatures (3500K-5000K) for task lighting, depending on kitchen use."
 }

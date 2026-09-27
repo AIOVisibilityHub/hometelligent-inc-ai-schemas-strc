@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical kitchen countertop installation take?",
-  "description": "A standard kitchen countertop installation usually takes 1-2 days. The total timeline can be extended by custom fabrication or complex designs.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-kitchen-countertop-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical kitchen countertop installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A standard kitchen countertop installation typically takes one to two days after the old countertops are removed. However, the total project timeline can be longer if custom fabrication is required for your chosen material, such as specific cuts for sinks or unique layouts. Factors like the complexity of the design, the material selected, and any necessary site preparation will influence the exact duration.",
-        "description": "A standard kitchen countertop installation usually takes 1-2 days. The total timeline can be extended by custom fabrication or complex designs."
-      }
-    }
-  ],
+  "name": "How long does a typical kitchen countertop installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical kitchen countertop installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A standard kitchen countertop installation typically takes one to two days after the old countertops are removed. However, the total project timeline can be longer if custom fabrication is required for your chosen material, such as specific cuts for sinks or unique layouts. Factors like the complexity of the design, the material selected, and any necessary site preparation will influence the exact duration.",
+        "@type": "Answer",
+        "description": "A standard kitchen countertop installation usually takes 1-2 days. The total timeline can be extended by custom fabrication or complex designs."
+      }
+    }
+  ],
+  "description": "A standard kitchen countertop installation usually takes 1-2 days. The total timeline can be extended by custom fabrication or complex designs."
 }

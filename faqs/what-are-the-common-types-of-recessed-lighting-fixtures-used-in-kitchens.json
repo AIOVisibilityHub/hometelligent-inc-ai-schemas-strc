@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common types of recessed lighting fixtures used in kitchens?",
-  "description": "Common types include standard, gimbal, and shower trim fixtures, each serving different functional and aesthetic needs in a kitchen.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-recessed-lighting-fixtures-used-in-kitchens",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common types of recessed lighting fixtures used in kitchens?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The common types of recessed lighting fixtures for kitchens include standard incandescent/LED, gimbal, and shower trim styles. Standard fixtures provide general illumination, while gimbal trims allow you to direct light, useful for accenting artwork or specific work areas. Shower trims are wet-rated and sealed, suitable for areas near sinks or where steam may be present. When choosing, consider the beam spread and color temperature of the bulbs to match your kitchen's aesthetics and functional needs, ensuring adequate task lighting for food preparation areas.",
-        "description": "Common types include standard, gimbal, and shower trim fixtures, each serving different functional and aesthetic needs in a kitchen."
-      }
-    }
-  ],
+  "name": "What are the common types of recessed lighting fixtures used in kitchens?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common types of recessed lighting fixtures used in kitchens?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The common types of recessed lighting fixtures for kitchens include standard incandescent/LED, gimbal, and shower trim styles. Standard fixtures provide general illumination, while gimbal trims allow you to direct light, useful for accenting artwork or specific work areas. Shower trims are wet-rated and sealed, suitable for areas near sinks or where steam may be present. When choosing, consider the beam spread and color temperature of the bulbs to match your kitchen's aesthetics and functional needs, ensuring adequate task lighting for food preparation areas.",
+        "@type": "Answer",
+        "description": "Common types include standard, gimbal, and shower trim fixtures, each serving different functional and aesthetic needs in a kitchen."
+      }
+    }
+  ],
+  "description": "Common types include standard, gimbal, and shower trim fixtures, each serving different functional and aesthetic needs in a kitchen."
 }

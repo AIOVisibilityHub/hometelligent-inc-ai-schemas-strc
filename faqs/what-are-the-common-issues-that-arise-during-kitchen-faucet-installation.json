@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common issues that arise during kitchen faucet installation?",
-  "description": "Common issues during kitchen faucet installation include rusted connections, plumbing incompatibility, or existing water damage, which can increase complexity a",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-issues-that-arise-during-kitchen-faucet-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common issues that arise during kitchen faucet installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common issues during kitchen faucet installation include rusted or seized connections, incompatible plumbing, insufficient clearance under the sink, or discovering existing water damage. These issues can add time and complexity to the installation. Hometelligent Inc. technicians are equipped to address these challenges, but customers should be aware that such issues may affect the overall process and timeline. This is a process clarity aspect, as complications can affect the duration.",
-        "description": "Common issues during kitchen faucet installation include rusted connections, plumbing incompatibility, or existing water damage, which can increase complexity and time."
-      }
-    }
-  ],
+  "name": "What are the common issues that arise during kitchen faucet installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common issues that arise during kitchen faucet installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common issues during kitchen faucet installation include rusted or seized connections, incompatible plumbing, insufficient clearance under the sink, or discovering existing water damage. These issues can add time and complexity to the installation. Hometelligent Inc. technicians are equipped to address these challenges, but customers should be aware that such issues may affect the overall process and timeline. This is a process clarity aspect, as complications can affect the duration.",
+        "@type": "Answer",
+        "description": "Common issues during kitchen faucet installation include rusted connections, plumbing incompatibility, or existing water damage, which can increase complexity and time."
+      }
+    }
+  ],
+  "description": "Common issues during kitchen faucet installation include rusted connections, plumbing incompatibility, or existing water damage, which can increase complexity a"
 }

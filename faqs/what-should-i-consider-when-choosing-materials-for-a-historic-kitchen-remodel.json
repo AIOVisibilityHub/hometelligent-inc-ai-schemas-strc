@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing materials for a historic kitchen remodel?",
-  "description": "Choose materials for a historic kitchen remodel that are historically accurate or complementary to your home's era, such as period-appropriate cabinetry, counte",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-materials-for-a-historic-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing materials for a historic kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing materials for a historic kitchen remodel, prioritize those that are historically accurate or complementary to the home's era. This includes selecting appropriate cabinetry styles, countertops (like soapstone or marble for older homes), flooring (hardwood or linoleum patterns), and fixtures. A preparation step is to research the common materials and styles used during your home's original construction period. This helps ensure that new additions blend seamlessly. Consider the durability and maintenance requirements of materials, especially for high-traffic areas, to ensure longevity without compromising authenticity.",
-        "description": "Choose materials for a historic kitchen remodel that are historically accurate or complementary to your home's era, such as period-appropriate cabinetry, countertops, and flooring. Researching original construction materials is a good starting point."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing materials for a historic kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing materials for a historic kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing materials for a historic kitchen remodel, prioritize those that are historically accurate or complementary to the home's era. This includes selecting appropriate cabinetry styles, countertops (like soapstone or marble for older homes), flooring (hardwood or linoleum patterns), and fixtures. A preparation step is to research the common materials and styles used during your home's original construction period. This helps ensure that new additions blend seamlessly. Consider the durability and maintenance requirements of materials, especially for high-traffic areas, to ensure longevity without compromising authenticity.",
+        "@type": "Answer",
+        "description": "Choose materials for a historic kitchen remodel that are historically accurate or complementary to your home's era, such as period-appropriate cabinetry, countertops, and flooring. Researching original construction materials is a good starting point."
+      }
+    }
+  ],
+  "description": "Choose materials for a historic kitchen remodel that are historically accurate or complementary to your home's era, such as period-appropriate cabinetry, counte"
 }

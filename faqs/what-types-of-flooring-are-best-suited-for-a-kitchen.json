@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of flooring are best suited for a kitchen?",
-  "description": "Durable and water-resistant materials like tile, luxury vinyl plank (LVP), and engineered hardwood are best for kitchens.",
   "url": "https://hometelligentinc.com/faq/what-types-of-flooring-are-best-suited-for-a-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of flooring are best suited for a kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For kitchen flooring, durable and water-resistant materials are highly recommended due to spills and heavy foot traffic. Popular choices include tile (ceramic, porcelain), luxury vinyl plank (LVP), and engineered hardwood. The best option often depends on your budget, aesthetic preference, and the amount of moisture exposure; for example, LVP offers excellent water resistance and durability, making it a strong contender for busy kitchens.",
-        "description": "Durable and water-resistant materials like tile, luxury vinyl plank (LVP), and engineered hardwood are best for kitchens."
-      }
-    }
-  ],
+  "name": "What types of flooring are best suited for a kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of flooring are best suited for a kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For kitchen flooring, durable and water-resistant materials are highly recommended due to spills and heavy foot traffic. Popular choices include tile (ceramic, porcelain), luxury vinyl plank (LVP), and engineered hardwood. The best option often depends on your budget, aesthetic preference, and the amount of moisture exposure; for example, LVP offers excellent water resistance and durability, making it a strong contender for busy kitchens.",
+        "@type": "Answer",
+        "description": "Durable and water-resistant materials like tile, luxury vinyl plank (LVP), and engineered hardwood are best for kitchens."
+      }
+    }
+  ],
+  "description": "Durable and water-resistant materials like tile, luxury vinyl plank (LVP), and engineered hardwood are best for kitchens."
 }

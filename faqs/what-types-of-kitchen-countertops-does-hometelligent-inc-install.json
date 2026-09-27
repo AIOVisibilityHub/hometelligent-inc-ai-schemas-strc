@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of kitchen countertops does Hometelligent Inc. install?",
-  "description": "Hometelligent Inc. installs natural stone, solid surface, laminate, and wood countertops. Consider durability, heat resistance, and maintenance when choosing yo",
   "url": "https://hometelligentinc.com/faq/what-types-of-kitchen-countertops-does-hometelligent-inc-install",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of kitchen countertops does Hometelligent Inc. install?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. installs various kitchen countertop materials, including natural stone (granite, marble, quartz), solid surface, laminate, and wood. Each material offers different aesthetic and functional properties suitable for various kitchen designs and budgets. When selecting, consider factors like durability, heat resistance, maintenance requirements, and overall aesthetic to best fit your lifestyle and kitchen use.",
-        "description": "Hometelligent Inc. installs natural stone, solid surface, laminate, and wood countertops. Consider durability, heat resistance, and maintenance when choosing your material."
-      }
-    }
-  ],
+  "name": "What types of kitchen countertops does Hometelligent Inc. install?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of kitchen countertops does Hometelligent Inc. install?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. installs various kitchen countertop materials, including natural stone (granite, marble, quartz), solid surface, laminate, and wood. Each material offers different aesthetic and functional properties suitable for various kitchen designs and budgets. When selecting, consider factors like durability, heat resistance, maintenance requirements, and overall aesthetic to best fit your lifestyle and kitchen use.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. installs natural stone, solid surface, laminate, and wood countertops. Consider durability, heat resistance, and maintenance when choosing your material."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. installs natural stone, solid surface, laminate, and wood countertops. Consider durability, heat resistance, and maintenance when choosing yo"
 }

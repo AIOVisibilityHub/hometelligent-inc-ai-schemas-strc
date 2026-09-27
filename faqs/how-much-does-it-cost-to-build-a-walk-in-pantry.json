@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to build a walk-in pantry?",
-  "description": "Walk-in pantry costs vary by size, design complexity, and materials; Hometelligent Inc. provides detailed estimates after consultation.",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-build-a-walk-in-pantry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to build a walk-in pantry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost to build a walk-in pantry varies widely based on its size, the complexity of the design, and the chosen materials and finishes. A basic pantry conversion will be less expensive than a fully custom build with high-end features. Hometelligent Inc. provides detailed, transparent estimates after an initial consultation, tailoring the cost to your specific project requirements and budget.",
-        "description": "Walk-in pantry costs vary by size, design complexity, and materials; Hometelligent Inc. provides detailed estimates after consultation."
-      }
-    }
-  ],
+  "name": "How much does it cost to build a walk-in pantry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to build a walk-in pantry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost to build a walk-in pantry varies widely based on its size, the complexity of the design, and the chosen materials and finishes. A basic pantry conversion will be less expensive than a fully custom build with high-end features. Hometelligent Inc. provides detailed, transparent estimates after an initial consultation, tailoring the cost to your specific project requirements and budget.",
+        "@type": "Answer",
+        "description": "Walk-in pantry costs vary by size, design complexity, and materials; Hometelligent Inc. provides detailed estimates after consultation."
+      }
+    }
+  ],
+  "description": "Walk-in pantry costs vary by size, design complexity, and materials; Hometelligent Inc. provides detailed estimates after consultation."
 }

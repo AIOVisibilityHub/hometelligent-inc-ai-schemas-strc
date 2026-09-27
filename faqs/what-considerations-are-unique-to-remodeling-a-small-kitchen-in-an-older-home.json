@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What considerations are unique to remodeling a small kitchen in an older home?",
-  "description": "Older homes may have outdated plumbing/electrical, uneven surfaces, or hazardous materials requiring upgrades and specialized handling. Inspections address thes",
   "url": "https://hometelligentinc.com/faq/what-considerations-are-unique-to-remodeling-a-small-kitchen-in-an-older-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What considerations are unique to remodeling a small kitchen in an older home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Remodeling a small kitchen in an older home, common in areas like Berkeley and Piedmont, often presents unique considerations. These can include outdated plumbing and electrical systems that may require significant upgrades to meet current codes and support modern appliances. Uneven floors or walls, and the potential presence of hazardous materials like lead paint or asbestos (requiring professional abatement), are also factors. Our team conducts thorough inspections to identify these issues upfront, ensuring a safe and compliant remodel, and integrating new designs seamlessly with your home's historic charm.",
-        "description": "Older homes may have outdated plumbing/electrical, uneven surfaces, or hazardous materials requiring upgrades and specialized handling. Inspections address these."
-      }
-    }
-  ],
+  "name": "What considerations are unique to remodeling a small kitchen in an older home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What considerations are unique to remodeling a small kitchen in an older home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Remodeling a small kitchen in an older home, common in areas like Berkeley and Piedmont, often presents unique considerations. These can include outdated plumbing and electrical systems that may require significant upgrades to meet current codes and support modern appliances. Uneven floors or walls, and the potential presence of hazardous materials like lead paint or asbestos (requiring professional abatement), are also factors. Our team conducts thorough inspections to identify these issues upfront, ensuring a safe and compliant remodel, and integrating new designs seamlessly with your home's historic charm.",
+        "@type": "Answer",
+        "description": "Older homes may have outdated plumbing/electrical, uneven surfaces, or hazardous materials requiring upgrades and specialized handling. Inspections address these."
+      }
+    }
+  ],
+  "description": "Older homes may have outdated plumbing/electrical, uneven surfaces, or hazardous materials requiring upgrades and specialized handling. Inspections address thes"
 }

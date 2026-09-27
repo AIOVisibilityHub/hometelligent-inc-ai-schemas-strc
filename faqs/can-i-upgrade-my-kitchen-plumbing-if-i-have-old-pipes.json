@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I upgrade my kitchen plumbing if I have old pipes?",
-  "description": "Upgrading with old pipes is possible but may require replacing outdated or corroded sections. This ensures compatibility and prevents future issues, depending o",
   "url": "https://hometelligentinc.com/faq/can-i-upgrade-my-kitchen-plumbing-if-i-have-old-pipes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I upgrade my kitchen plumbing if I have old pipes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, you can upgrade your kitchen plumbing even with older pipes, but it might involve additional steps. If existing pipes are outdated, corroded, or made from problematic materials like galvanized steel, we might recommend replacing sections or the entire system to ensure compatibility and prevent future leaks. This decision often depends on the overall condition of your plumbing system and can be a practical tradeoff to avoid issues down the line.",
-        "description": "Upgrading with old pipes is possible but may require replacing outdated or corroded sections. This ensures compatibility and prevents future issues, depending on your system's condition."
-      }
-    }
-  ],
+  "name": "Can I upgrade my kitchen plumbing if I have old pipes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I upgrade my kitchen plumbing if I have old pipes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, you can upgrade your kitchen plumbing even with older pipes, but it might involve additional steps. If existing pipes are outdated, corroded, or made from problematic materials like galvanized steel, we might recommend replacing sections or the entire system to ensure compatibility and prevent future leaks. This decision often depends on the overall condition of your plumbing system and can be a practical tradeoff to avoid issues down the line.",
+        "@type": "Answer",
+        "description": "Upgrading with old pipes is possible but may require replacing outdated or corroded sections. This ensures compatibility and prevents future issues, depending on your system's condition."
+      }
+    }
+  ],
+  "description": "Upgrading with old pipes is possible but may require replacing outdated or corroded sections. This ensures compatibility and prevents future issues, depending o"
 }

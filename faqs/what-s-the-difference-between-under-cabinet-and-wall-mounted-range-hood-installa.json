@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What's the difference between under-cabinet and wall-mounted range hood installation?",
-  "description": "Under-cabinet hoods fit below existing cabinets; wall-mounted hoods attach directly to the wall. Under-cabinet models save space, while wall-mounted can be a de",
   "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-under-cabinet-and-wall-mounted-range-hood-installa",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What's the difference between under-cabinet and wall-mounted range hood installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under-cabinet range hoods are installed directly beneath existing kitchen cabinets, often utilizing the cabinet space above. Wall-mounted range hoods, on the other hand, attach directly to the wall and typically stand alone without upper cabinetry. A practical tradeoff is that under-cabinet models usually integrate more subtly and are ideal for maximizing cabinet storage, while wall-mounted models, especially chimney styles, can become a significant design feature but require an open wall space.",
-        "description": "Under-cabinet hoods fit below existing cabinets; wall-mounted hoods attach directly to the wall. Under-cabinet models save space, while wall-mounted can be a design feature."
-      }
-    }
-  ],
+  "name": "What's the difference between under-cabinet and wall-mounted range hood installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What's the difference between under-cabinet and wall-mounted range hood installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Under-cabinet range hoods are installed directly beneath existing kitchen cabinets, often utilizing the cabinet space above. Wall-mounted range hoods, on the other hand, attach directly to the wall and typically stand alone without upper cabinetry. A practical tradeoff is that under-cabinet models usually integrate more subtly and are ideal for maximizing cabinet storage, while wall-mounted models, especially chimney styles, can become a significant design feature but require an open wall space.",
+        "@type": "Answer",
+        "description": "Under-cabinet hoods fit below existing cabinets; wall-mounted hoods attach directly to the wall. Under-cabinet models save space, while wall-mounted can be a design feature."
+      }
+    }
+  ],
+  "description": "Under-cabinet hoods fit below existing cabinets; wall-mounted hoods attach directly to the wall. Under-cabinet models save space, while wall-mounted can be a de"
 }

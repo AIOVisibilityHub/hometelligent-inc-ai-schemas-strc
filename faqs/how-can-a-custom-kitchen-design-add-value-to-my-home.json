@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can a custom kitchen design add value to my home?",
-  "description": "A custom kitchen adds home value by improving functionality, aesthetics, and energy efficiency, appealing to buyers. Quality craftsmanship and modern amenities",
   "url": "https://hometelligentinc.com/faq/how-can-a-custom-kitchen-design-add-value-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can a custom kitchen design add value to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A well-executed custom kitchen design can significantly enhance your home's value by improving functionality, aesthetic appeal, and energy efficiency. Buyers often prioritize updated kitchens, viewing them as a central hub for daily living and entertaining. A thoughtfully designed custom kitchen reflects quality craftsmanship and modern amenities, making your property more attractive and potentially yielding a higher return on investment, particularly in competitive housing markets like those found in the Bay Area.",
-        "description": "A custom kitchen adds home value by improving functionality, aesthetics, and energy efficiency, appealing to buyers. Quality craftsmanship and modern amenities make your property more attractive and can yield a higher return on investment."
-      }
-    }
-  ],
+  "name": "How can a custom kitchen design add value to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can a custom kitchen design add value to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A well-executed custom kitchen design can significantly enhance your home's value by improving functionality, aesthetic appeal, and energy efficiency. Buyers often prioritize updated kitchens, viewing them as a central hub for daily living and entertaining. A thoughtfully designed custom kitchen reflects quality craftsmanship and modern amenities, making your property more attractive and potentially yielding a higher return on investment, particularly in competitive housing markets like those found in the Bay Area.",
+        "@type": "Answer",
+        "description": "A custom kitchen adds home value by improving functionality, aesthetics, and energy efficiency, appealing to buyers. Quality craftsmanship and modern amenities make your property more attractive and can yield a higher return on investment."
+      }
+    }
+  ],
+  "description": "A custom kitchen adds home value by improving functionality, aesthetics, and energy efficiency, appealing to buyers. Quality craftsmanship and modern amenities"
 }

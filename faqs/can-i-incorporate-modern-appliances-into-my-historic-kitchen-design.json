@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I incorporate modern appliances into my historic kitchen design?",
-  "description": "Yes, modern appliances can be incorporated into historic kitchens by choosing vintage-style models or concealing them behind custom cabinetry panels. This allow",
   "url": "https://hometelligentinc.com/faq/can-i-incorporate-modern-appliances-into-my-historic-kitchen-design",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I incorporate modern appliances into my historic kitchen design?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, modern appliances can be seamlessly integrated into a historic kitchen design. The key is to select appliances that either have a vintage aesthetic or can be hidden behind custom cabinetry panels. This practical tradeoff allows for contemporary functionality without detracting from the historic look. For example, panel-ready refrigerators and dishwashers can be concealed, while professional-style ranges can complement certain period designs. We work to specify appliances that meet your functional needs while preserving the integrity and aesthetic of your historic kitchen.",
-        "description": "Yes, modern appliances can be incorporated into historic kitchens by choosing vintage-style models or concealing them behind custom cabinetry panels. This allows for modern functionality while preserving the historic aesthetic."
-      }
-    }
-  ],
+  "name": "Can I incorporate modern appliances into my historic kitchen design?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I incorporate modern appliances into my historic kitchen design?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, modern appliances can be seamlessly integrated into a historic kitchen design. The key is to select appliances that either have a vintage aesthetic or can be hidden behind custom cabinetry panels. This practical tradeoff allows for contemporary functionality without detracting from the historic look. For example, panel-ready refrigerators and dishwashers can be concealed, while professional-style ranges can complement certain period designs. We work to specify appliances that meet your functional needs while preserving the integrity and aesthetic of your historic kitchen.",
+        "@type": "Answer",
+        "description": "Yes, modern appliances can be incorporated into historic kitchens by choosing vintage-style models or concealing them behind custom cabinetry panels. This allows for modern functionality while preserving the historic aesthetic."
+      }
+    }
+  ],
+  "description": "Yes, modern appliances can be incorporated into historic kitchens by choosing vintage-style models or concealing them behind custom cabinetry panels. This allow"
 }

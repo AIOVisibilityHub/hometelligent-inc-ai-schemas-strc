@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for an accessible kitchen remodel?",
-  "description": "Costs for accessible kitchen remodels typically range from $25,000 to $75,000+, depending on project scope and materials.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-an-accessible-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for an accessible kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of an accessible kitchen remodel can vary widely, generally ranging from $25,000 to $75,000 or more, depending on the extent of modifications, material choices, and the size of the kitchen. Key factors influencing cost include appliance selection (e.g., smart, height-adjustable), custom cabinetry, structural alterations for improved access, and specialized fixtures. Hometelligent Inc. offers detailed estimates after an on-site assessment to align the design with your budget and accessibility needs.",
-        "description": "Costs for accessible kitchen remodels typically range from $25,000 to $75,000+, depending on project scope and materials."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for an accessible kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for an accessible kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of an accessible kitchen remodel can vary widely, generally ranging from $25,000 to $75,000 or more, depending on the extent of modifications, material choices, and the size of the kitchen. Key factors influencing cost include appliance selection (e.g., smart, height-adjustable), custom cabinetry, structural alterations for improved access, and specialized fixtures. Hometelligent Inc. offers detailed estimates after an on-site assessment to align the design with your budget and accessibility needs.",
+        "@type": "Answer",
+        "description": "Costs for accessible kitchen remodels typically range from $25,000 to $75,000+, depending on project scope and materials."
+      }
+    }
+  ],
+  "description": "Costs for accessible kitchen remodels typically range from $25,000 to $75,000+, depending on project scope and materials."
 }

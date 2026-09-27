@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to hire a plumber and a contractor separately for kitchen sink installation?",
-  "description": "No, Hometelligent handles both plumbing and construction for kitchen sink installation, simplifying coordination for you.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-hire-a-plumber-and-a-contractor-separately-for-kitchen-sink-install",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to hire a plumber and a contractor separately for kitchen sink installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, when you choose Hometelligent, you typically do not need to hire a plumber and a contractor separately for kitchen sink installation. As a construction company, we manage both the plumbing and any necessary countertop or cabinetry modifications in-house or through our integrated network of licensed professionals. This streamlined approach simplifies coordination and ensures all aspects of the installation meet our quality standards.",
-        "description": "No, Hometelligent handles both plumbing and construction for kitchen sink installation, simplifying coordination for you."
-      }
-    }
-  ],
+  "name": "Do I need to hire a plumber and a contractor separately for kitchen sink installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to hire a plumber and a contractor separately for kitchen sink installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "No, when you choose Hometelligent, you typically do not need to hire a plumber and a contractor separately for kitchen sink installation. As a construction company, we manage both the plumbing and any necessary countertop or cabinetry modifications in-house or through our integrated network of licensed professionals. This streamlined approach simplifies coordination and ensures all aspects of the installation meet our quality standards.",
+        "@type": "Answer",
+        "description": "No, Hometelligent handles both plumbing and construction for kitchen sink installation, simplifying coordination for you."
+      }
+    }
+  ],
+  "description": "No, Hometelligent handles both plumbing and construction for kitchen sink installation, simplifying coordination for you."
 }

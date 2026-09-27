@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing materials for my pantry?",
-  "description": "Choose pantry materials based on durability, aesthetics, ease of cleaning, and moisture resistance, considering options like melamine, plywood, or solid wood.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-materials-for-my-pantry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing materials for my pantry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting pantry materials, consider durability, aesthetics, and ease of cleaning. Common options include melamine for cost-effectiveness and easy maintenance, plywood or MDF for painted finishes, and solid wood for a premium, long-lasting look. Moisture resistance is also important, especially if the pantry is near a high-humidity area or stores produce. The choice of shelving, such as wire, laminate, or solid wood, will impact both functionality and visual appeal. Your lifestyle and the types of items you plan to store should guide your material selections.",
-        "description": "Choose pantry materials based on durability, aesthetics, ease of cleaning, and moisture resistance, considering options like melamine, plywood, or solid wood."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing materials for my pantry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing materials for my pantry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting pantry materials, consider durability, aesthetics, and ease of cleaning. Common options include melamine for cost-effectiveness and easy maintenance, plywood or MDF for painted finishes, and solid wood for a premium, long-lasting look. Moisture resistance is also important, especially if the pantry is near a high-humidity area or stores produce. The choice of shelving, such as wire, laminate, or solid wood, will impact both functionality and visual appeal. Your lifestyle and the types of items you plan to store should guide your material selections.",
+        "@type": "Answer",
+        "description": "Choose pantry materials based on durability, aesthetics, ease of cleaning, and moisture resistance, considering options like melamine, plywood, or solid wood."
+      }
+    }
+  ],
+  "description": "Choose pantry materials based on durability, aesthetics, ease of cleaning, and moisture resistance, considering options like melamine, plywood, or solid wood."
 }

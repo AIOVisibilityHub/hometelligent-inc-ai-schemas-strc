@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a kitchen peninsula and how is it different from an island?",
-  "description": "A kitchen peninsula is a countertop extension attached to one wall, while an island is freestanding. Peninsulas offer extra counter space and maintain an open f",
   "url": "https://hometelligentinc.com/faq/what-is-a-kitchen-peninsula-and-how-is-it-different-from-an-island",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a kitchen peninsula and how is it different from an island?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A kitchen peninsula is a countertop extension attached to one wall, forming an L- or U-shaped kitchen layout. Unlike a kitchen island, which is freestanding, a peninsula is anchored at one end. This design often provides additional counter space for prep, dining, or appliances, while maintaining an open feel. When considering a peninsula, assess the available wall space and the desired flow between the kitchen and adjacent rooms to determine the best fit for your home's layout.",
-        "description": "A kitchen peninsula is a countertop extension attached to one wall, while an island is freestanding. Peninsulas offer extra counter space and maintain an open feel."
-      }
-    }
-  ],
+  "name": "What is a kitchen peninsula and how is it different from an island?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a kitchen peninsula and how is it different from an island?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A kitchen peninsula is a countertop extension attached to one wall, forming an L- or U-shaped kitchen layout. Unlike a kitchen island, which is freestanding, a peninsula is anchored at one end. This design often provides additional counter space for prep, dining, or appliances, while maintaining an open feel. When considering a peninsula, assess the available wall space and the desired flow between the kitchen and adjacent rooms to determine the best fit for your home's layout.",
+        "@type": "Answer",
+        "description": "A kitchen peninsula is a countertop extension attached to one wall, while an island is freestanding. Peninsulas offer extra counter space and maintain an open feel."
+      }
+    }
+  ],
+  "description": "A kitchen peninsula is a countertop extension attached to one wall, while an island is freestanding. Peninsulas offer extra counter space and maintain an open f"
 }

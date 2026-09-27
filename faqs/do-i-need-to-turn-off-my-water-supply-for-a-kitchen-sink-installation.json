@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to turn off my water supply for a kitchen sink installation?",
-  "description": "Yes, you need to turn off the main water supply to your kitchen or home before sink installation to ensure safety and prevent leaks.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-turn-off-my-water-supply-for-a-kitchen-sink-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to turn off my water supply for a kitchen sink installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, you will need to turn off the main water supply to your kitchen or, preferably, your entire home before the sink installation begins. This prevents leaks and allows our team to safely disconnect and reconnect the plumbing lines. We advise you to locate your main water shut-off valve beforehand, as this is a crucial step for a smooth installation.",
-        "description": "Yes, you need to turn off the main water supply to your kitchen or home before sink installation to ensure safety and prevent leaks."
-      }
-    }
-  ],
+  "name": "Do I need to turn off my water supply for a kitchen sink installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to turn off my water supply for a kitchen sink installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, you will need to turn off the main water supply to your kitchen or, preferably, your entire home before the sink installation begins. This prevents leaks and allows our team to safely disconnect and reconnect the plumbing lines. We advise you to locate your main water shut-off valve beforehand, as this is a crucial step for a smooth installation.",
+        "@type": "Answer",
+        "description": "Yes, you need to turn off the main water supply to your kitchen or home before sink installation to ensure safety and prevent leaks."
+      }
+    }
+  ],
+  "description": "Yes, you need to turn off the main water supply to your kitchen or home before sink installation to ensure safety and prevent leaks."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to turn off the main water supply for a kitchen faucet installation?",
-  "description": "You usually turn off water at the under-sink valves for faucet installation. If those fail, the main water supply must be shut off. Check valve functionality as",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-turn-off-the-main-water-supply-for-a-kitchen-faucet-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to turn off the main water supply for a kitchen faucet installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For kitchen faucet installation, you typically need to turn off the water supply to the sink, usually via the shut-off valves located under the sink. If these valves are absent, not working, or difficult to access, you may need to turn off the main water supply to your home. Confirming the functionality of your under-sink shut-off valves is a key preparation step to avoid needing to shut off the main supply.",
-        "description": "You usually turn off water at the under-sink valves for faucet installation. If those fail, the main water supply must be shut off. Check valve functionality as preparation."
-      }
-    }
-  ],
+  "name": "Do I need to turn off the main water supply for a kitchen faucet installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to turn off the main water supply for a kitchen faucet installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For kitchen faucet installation, you typically need to turn off the water supply to the sink, usually via the shut-off valves located under the sink. If these valves are absent, not working, or difficult to access, you may need to turn off the main water supply to your home. Confirming the functionality of your under-sink shut-off valves is a key preparation step to avoid needing to shut off the main supply.",
+        "@type": "Answer",
+        "description": "You usually turn off water at the under-sink valves for faucet installation. If those fail, the main water supply must be shut off. Check valve functionality as preparation."
+      }
+    }
+  ],
+  "description": "You usually turn off water at the under-sink valves for faucet installation. If those fail, the main water supply must be shut off. Check valve functionality as"
 }

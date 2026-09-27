@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a luxury kitchen remodel typically take?",
-  "description": "A luxury kitchen remodel typically takes 10 to 20 weeks, but can be longer based on custom materials, structural changes, and specialized system integration.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-luxury-kitchen-remodel-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a luxury kitchen remodel typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a luxury kitchen remodel can vary significantly, often ranging from 10 to 20 weeks from demolition to completion, depending on the scope and complexity. This timeline can be affected by factors such as custom material lead times, the extent of structural changes, and the integration of specialized systems. Projects involving extensive reconfigurations or bespoke elements may require more time for planning, fabrication, and installation. Delays in material delivery or unexpected structural issues can also extend the project timeline. Careful planning and clear communication with your contractor can help manage expectations and minimize potential delays.",
-        "description": "A luxury kitchen remodel typically takes 10 to 20 weeks, but can be longer based on custom materials, structural changes, and specialized system integration."
-      }
-    }
-  ],
+  "name": "How long does a luxury kitchen remodel typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a luxury kitchen remodel typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a luxury kitchen remodel can vary significantly, often ranging from 10 to 20 weeks from demolition to completion, depending on the scope and complexity. This timeline can be affected by factors such as custom material lead times, the extent of structural changes, and the integration of specialized systems. Projects involving extensive reconfigurations or bespoke elements may require more time for planning, fabrication, and installation. Delays in material delivery or unexpected structural issues can also extend the project timeline. Careful planning and clear communication with your contractor can help manage expectations and minimize potential delays.",
+        "@type": "Answer",
+        "description": "A luxury kitchen remodel typically takes 10 to 20 weeks, but can be longer based on custom materials, structural changes, and specialized system integration."
+      }
+    }
+  ],
+  "description": "A luxury kitchen remodel typically takes 10 to 20 weeks, but can be longer based on custom materials, structural changes, and specialized system integration."
 }

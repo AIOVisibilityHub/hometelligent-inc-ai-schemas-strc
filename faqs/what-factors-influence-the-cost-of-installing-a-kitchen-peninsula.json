@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of installing a kitchen peninsula?",
-  "description": "Peninsula installation costs depend on size, materials, and utility integration. Custom designs and high-end finishes increase the investment.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-installing-a-kitchen-peninsula",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of installing a kitchen peninsula?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of installing a kitchen peninsula varies based on several factors, including its size, materials chosen for the countertop and cabinetry, and the complexity of integrating utilities like plumbing or electrical. Custom designs, high-end finishes, and extensive structural modifications for support or utility lines will increase the overall investment. Hometelligent provides detailed estimates after a site assessment to ensure all project specifics are accurately captured, giving you a clear understanding of the costs involved.",
-        "description": "Peninsula installation costs depend on size, materials, and utility integration. Custom designs and high-end finishes increase the investment."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of installing a kitchen peninsula?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of installing a kitchen peninsula?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of installing a kitchen peninsula varies based on several factors, including its size, materials chosen for the countertop and cabinetry, and the complexity of integrating utilities like plumbing or electrical. Custom designs, high-end finishes, and extensive structural modifications for support or utility lines will increase the overall investment. Hometelligent provides detailed estimates after a site assessment to ensure all project specifics are accurately captured, giving you a clear understanding of the costs involved.",
+        "@type": "Answer",
+        "description": "Peninsula installation costs depend on size, materials, and utility integration. Custom designs and high-end finishes increase the investment."
+      }
+    }
+  ],
+  "description": "Peninsula installation costs depend on size, materials, and utility integration. Custom designs and high-end finishes increase the investment."
 }

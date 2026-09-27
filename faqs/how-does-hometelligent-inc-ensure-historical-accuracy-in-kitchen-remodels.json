@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. ensure historical accuracy in kitchen remodels?",
-  "description": "Hometelligent Inc. ensures historical accuracy through detailed planning, research into the home's architectural period, and using appropriate materials and tec",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-ensure-historical-accuracy-in-kitchen-remodels",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. ensure historical accuracy in kitchen remodels?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. ensures historical accuracy through meticulous planning, research into the home's architectural period, and the use of appropriate materials and techniques. Our first-party insight involves working closely with clients to understand their home's specific history and consulting with local historical resources when necessary. We focus on details such as trim profiles, hardware styles, and color palettes that align with the era of the home. This commitment to authenticity helps us deliver a kitchen that feels both updated and true to its original character, whether it's in a Victorian in Alameda or a Craftsman in Berkeley.",
-        "description": "Hometelligent Inc. ensures historical accuracy through detailed planning, research into the home's architectural period, and using appropriate materials and techniques. We focus on details like trim, hardware, and color palettes to match the home's era."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. ensure historical accuracy in kitchen remodels?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. ensure historical accuracy in kitchen remodels?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. ensures historical accuracy through meticulous planning, research into the home's architectural period, and the use of appropriate materials and techniques. Our first-party insight involves working closely with clients to understand their home's specific history and consulting with local historical resources when necessary. We focus on details such as trim profiles, hardware styles, and color palettes that align with the era of the home. This commitment to authenticity helps us deliver a kitchen that feels both updated and true to its original character, whether it's in a Victorian in Alameda or a Craftsman in Berkeley.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. ensures historical accuracy through detailed planning, research into the home's architectural period, and using appropriate materials and techniques. We focus on details like trim, hardware, and color palettes to match the home's era."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. ensures historical accuracy through detailed planning, research into the home's architectural period, and using appropriate materials and tec"
 }

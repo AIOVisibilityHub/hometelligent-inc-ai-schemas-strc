@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between kitchen refacing and replacing cabinets in a small remodel?",
-  "description": "Refacing updates cabinet exteriors with new veneers and doors, while replacing installs entirely new units, allowing for layout changes.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-kitchen-refacing-and-replacing-cabinets-in-a-smal",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between kitchen refacing and replacing cabinets in a small remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cabinet refacing involves applying a new veneer over your existing cabinet boxes and replacing doors and drawer fronts, offering a fresh look at a lower cost and quicker timeline. Replacing cabinets means removing the old units entirely and installing new ones, which allows for changes to the layout, configuration, and structural integrity. The decision between refacing and replacing often depends on the condition of your current cabinet boxes and your budget. Refacing is a practical tradeoff for cosmetic updates, while replacement offers greater design flexibility.",
-        "description": "Refacing updates cabinet exteriors with new veneers and doors, while replacing installs entirely new units, allowing for layout changes."
-      }
-    }
-  ],
+  "name": "What is the difference between kitchen refacing and replacing cabinets in a small remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between kitchen refacing and replacing cabinets in a small remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Cabinet refacing involves applying a new veneer over your existing cabinet boxes and replacing doors and drawer fronts, offering a fresh look at a lower cost and quicker timeline. Replacing cabinets means removing the old units entirely and installing new ones, which allows for changes to the layout, configuration, and structural integrity. The decision between refacing and replacing often depends on the condition of your current cabinet boxes and your budget. Refacing is a practical tradeoff for cosmetic updates, while replacement offers greater design flexibility.",
+        "@type": "Answer",
+        "description": "Refacing updates cabinet exteriors with new veneers and doors, while replacing installs entirely new units, allowing for layout changes."
+      }
+    }
+  ],
+  "description": "Refacing updates cabinet exteriors with new veneers and doors, while replacing installs entirely new units, allowing for layout changes."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of marble are best suited for kitchen countertops?",
-  "description": "Carrara, Calacatta, and Statuario are popular kitchen marble choices, balancing aesthetic appeal with practical considerations regarding etching visibility.",
   "url": "https://hometelligentinc.com/faq/what-types-of-marble-are-best-suited-for-kitchen-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of marble are best suited for kitchen countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While many types of marble are available, some popular choices for kitchen countertops include Carrara, Calacatta, and Statuario. These varieties are highly valued for their distinct veining and elegant appearance. When selecting marble, consider that lighter marbles tend to show etching more readily, while darker options might conceal minor marks better. Your choice should balance aesthetic preference with practical considerations for kitchen use.",
-        "description": "Carrara, Calacatta, and Statuario are popular kitchen marble choices, balancing aesthetic appeal with practical considerations regarding etching visibility."
-      }
-    }
-  ],
+  "name": "What types of marble are best suited for kitchen countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of marble are best suited for kitchen countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While many types of marble are available, some popular choices for kitchen countertops include Carrara, Calacatta, and Statuario. These varieties are highly valued for their distinct veining and elegant appearance. When selecting marble, consider that lighter marbles tend to show etching more readily, while darker options might conceal minor marks better. Your choice should balance aesthetic preference with practical considerations for kitchen use.",
+        "@type": "Answer",
+        "description": "Carrara, Calacatta, and Statuario are popular kitchen marble choices, balancing aesthetic appeal with practical considerations regarding etching visibility."
+      }
+    }
+  ],
+  "description": "Carrara, Calacatta, and Statuario are popular kitchen marble choices, balancing aesthetic appeal with practical considerations regarding etching visibility."
 }

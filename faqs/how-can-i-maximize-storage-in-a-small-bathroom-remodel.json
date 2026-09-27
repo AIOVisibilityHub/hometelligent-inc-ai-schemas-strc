@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I maximize storage in a small bathroom remodel?",
-  "description": "Maximize small bathroom storage with vertical units, wall-mounted vanities, recessed cabinets, and shower niches.",
   "url": "https://hometelligentinc.com/faq/how-can-i-maximize-storage-in-a-small-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I maximize storage in a small bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To maximize storage in a small bathroom, consider vertical storage solutions such as tall, narrow cabinets or shelving units. Wall-mounted vanities can create an illusion of more space and allow for storage underneath. Recessed medicine cabinets, shower niches, and over-the-toilet storage units also provide practical solutions without encroaching on floor space. Careful planning is essential for optimal use of every inch.",
-        "description": "Maximize small bathroom storage with vertical units, wall-mounted vanities, recessed cabinets, and shower niches."
-      }
-    }
-  ],
+  "name": "How can I maximize storage in a small bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I maximize storage in a small bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To maximize storage in a small bathroom, consider vertical storage solutions such as tall, narrow cabinets or shelving units. Wall-mounted vanities can create an illusion of more space and allow for storage underneath. Recessed medicine cabinets, shower niches, and over-the-toilet storage units also provide practical solutions without encroaching on floor space. Careful planning is essential for optimal use of every inch.",
+        "@type": "Answer",
+        "description": "Maximize small bathroom storage with vertical units, wall-mounted vanities, recessed cabinets, and shower niches."
+      }
+    }
+  ],
+  "description": "Maximize small bathroom storage with vertical units, wall-mounted vanities, recessed cabinets, and shower niches."
 }

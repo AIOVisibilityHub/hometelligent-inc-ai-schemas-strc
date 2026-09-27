@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing new kitchen plumbing fixtures?",
-  "description": "Consider functionality, aesthetics, water efficiency, durability, and compatibility when choosing kitchen plumbing fixtures. Balance budget with desired feature",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-new-kitchen-plumbing-fixtures",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing new kitchen plumbing fixtures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting new kitchen plumbing fixtures, consider both functionality and aesthetics. Factors include water efficiency, material durability, finish, and compatibility with your existing kitchen design. Think about how the fixture will be used daily, such as a pull-down faucet for ease of cleaning large pots. The right choice often balances your budget with desired features and long-term performance, making it important to research options thoroughly.",
-        "description": "Consider functionality, aesthetics, water efficiency, durability, and compatibility when choosing kitchen plumbing fixtures. Balance budget with desired features and daily use."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing new kitchen plumbing fixtures?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing new kitchen plumbing fixtures?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting new kitchen plumbing fixtures, consider both functionality and aesthetics. Factors include water efficiency, material durability, finish, and compatibility with your existing kitchen design. Think about how the fixture will be used daily, such as a pull-down faucet for ease of cleaning large pots. The right choice often balances your budget with desired features and long-term performance, making it important to research options thoroughly.",
+        "@type": "Answer",
+        "description": "Consider functionality, aesthetics, water efficiency, durability, and compatibility when choosing kitchen plumbing fixtures. Balance budget with desired features and daily use."
+      }
+    }
+  ],
+  "description": "Consider functionality, aesthetics, water efficiency, durability, and compatibility when choosing kitchen plumbing fixtures. Balance budget with desired feature"
 }

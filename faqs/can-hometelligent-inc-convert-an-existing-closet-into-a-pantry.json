@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can Hometelligent Inc. convert an existing closet into a pantry?",
-  "description": "Yes, Hometelligent Inc. can convert existing closets into pantries, assessing feasibility based on size, location, and structural integrity during consultation.",
   "url": "https://hometelligentinc.com/faq/can-hometelligent-inc-convert-an-existing-closet-into-a-pantry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Hometelligent Inc. convert an existing closet into a pantry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. frequently converts existing closets into functional pantries. This often involves removing existing fixtures, patching and painting walls, and installing new shelving, drawers, and organizational accessories tailored to food storage. The feasibility depends on the closet's size, location within the kitchen or adjacent areas, and access to electrical outlets if you plan to include small appliances. We assess the structural integrity and available space during our consultation to ensure a successful and efficient conversion.",
-        "description": "Yes, Hometelligent Inc. can convert existing closets into pantries, assessing feasibility based on size, location, and structural integrity during consultation."
-      }
-    }
-  ],
+  "name": "Can Hometelligent Inc. convert an existing closet into a pantry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can Hometelligent Inc. convert an existing closet into a pantry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. frequently converts existing closets into functional pantries. This often involves removing existing fixtures, patching and painting walls, and installing new shelving, drawers, and organizational accessories tailored to food storage. The feasibility depends on the closet's size, location within the kitchen or adjacent areas, and access to electrical outlets if you plan to include small appliances. We assess the structural integrity and available space during our consultation to ensure a successful and efficient conversion.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. can convert existing closets into pantries, assessing feasibility based on size, location, and structural integrity during consultation."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. can convert existing closets into pantries, assessing feasibility based on size, location, and structural integrity during consultation."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the warranty for marble countertop installation?",
-  "description": "Our warranty covers installation workmanship for a specified period, while marble material is covered by the manufacturer's warranty.",
   "url": "https://hometelligentinc.com/faq/what-is-the-warranty-for-marble-countertop-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the warranty for marble countertop installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. stands behind the quality of our workmanship for marble countertop installations. We typically offer a warranty that covers installation-related issues, such as seam integrity and proper leveling, for a specified period. The marble material itself is covered by the manufacturer's warranty, which varies by supplier. We provide full details of both our installation warranty and applicable material warranties during the consultation phase for complete clarity.",
-        "description": "Our warranty covers installation workmanship for a specified period, while marble material is covered by the manufacturer's warranty."
-      }
-    }
-  ],
+  "name": "What is the warranty for marble countertop installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the warranty for marble countertop installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. stands behind the quality of our workmanship for marble countertop installations. We typically offer a warranty that covers installation-related issues, such as seam integrity and proper leveling, for a specified period. The marble material itself is covered by the manufacturer's warranty, which varies by supplier. We provide full details of both our installation warranty and applicable material warranties during the consultation phase for complete clarity.",
+        "@type": "Answer",
+        "description": "Our warranty covers installation workmanship for a specified period, while marble material is covered by the manufacturer's warranty."
+      }
+    }
+  ],
+  "description": "Our warranty covers installation workmanship for a specified period, while marble material is covered by the manufacturer's warranty."
 }

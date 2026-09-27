@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can under-cabinet lighting be installed in existing kitchens?",
-  "description": "Under-cabinet lighting can be installed in most existing kitchens, with hardwired options offering a cleaner look.",
   "url": "https://hometelligentinc.com/faq/can-under-cabinet-lighting-be-installed-in-existing-kitchens",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can under-cabinet lighting be installed in existing kitchens?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, under-cabinet lighting can be installed in most existing kitchens. The process typically involves either hardwiring the fixtures into your home's electrical system or using plug-in options. Hardwiring provides a cleaner, integrated look, but may require minor electrical work to conceal wires. Hometelligent Inc. specializes in seamless integration, often identifying optimal wiring paths during the initial walkthrough to avoid visible conduits.",
-        "description": "Under-cabinet lighting can be installed in most existing kitchens, with hardwired options offering a cleaner look."
-      }
-    }
-  ],
+  "name": "Can under-cabinet lighting be installed in existing kitchens?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can under-cabinet lighting be installed in existing kitchens?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, under-cabinet lighting can be installed in most existing kitchens. The process typically involves either hardwiring the fixtures into your home's electrical system or using plug-in options. Hardwiring provides a cleaner, integrated look, but may require minor electrical work to conceal wires. Hometelligent Inc. specializes in seamless integration, often identifying optimal wiring paths during the initial walkthrough to avoid visible conduits.",
+        "@type": "Answer",
+        "description": "Under-cabinet lighting can be installed in most existing kitchens, with hardwired options offering a cleaner look."
+      }
+    }
+  ],
+  "description": "Under-cabinet lighting can be installed in most existing kitchens, with hardwired options offering a cleaner look."
 }

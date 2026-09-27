@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I choose my own appliance delivery date?",
-  "description": "Yes, but coordinate delivery with us to ensure cabinetry is installed and utilities are ready, preventing damage or storage issues.",
   "url": "https://hometelligentinc.com/faq/can-i-choose-my-own-appliance-delivery-date",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I choose my own appliance delivery date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can generally choose your appliance delivery date, but it's crucial to coordinate this with Hometelligent Inc. to align with your kitchen remodel schedule. We recommend scheduling delivery only after cabinetry is installed and utility rough-ins are complete, but before final finishes. This ensures there is a safe and accessible space for placement, minimizing the risk of damage or needing to store appliances off-site, which can add cost or complexity.",
-        "description": "Yes, but coordinate delivery with us to ensure cabinetry is installed and utilities are ready, preventing damage or storage issues."
-      }
-    }
-  ],
+  "name": "Can I choose my own appliance delivery date?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I choose my own appliance delivery date?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You can generally choose your appliance delivery date, but it's crucial to coordinate this with Hometelligent Inc. to align with your kitchen remodel schedule. We recommend scheduling delivery only after cabinetry is installed and utility rough-ins are complete, but before final finishes. This ensures there is a safe and accessible space for placement, minimizing the risk of damage or needing to store appliances off-site, which can add cost or complexity.",
+        "@type": "Answer",
+        "description": "Yes, but coordinate delivery with us to ensure cabinetry is installed and utilities are ready, preventing damage or storage issues."
+      }
+    }
+  ],
+  "description": "Yes, but coordinate delivery with us to ensure cabinetry is installed and utilities are ready, preventing damage or storage issues."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the general construction process for building a butler's pantry?",
-  "description": "Construction involves design, framing, utilities, drywall, cabinetry, and finishes. Custom orders and appliance lead times can affect the timeline. Hometelligen",
   "url": "https://hometelligentinc.com/faq/what-is-the-general-construction-process-for-building-a-butler-s-pantry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the general construction process for building a butler's pantry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The general construction process for a butler's pantry typically involves initial design and planning, demolition (if applicable), framing, electrical and plumbing rough-ins, drywall installation, cabinetry and countertop installation, flooring, and final fixture installation. What can affect the process and timing significantly are custom cabinetry orders and specific appliance lead times, which should be factored into the project schedule. Our team at Hometelligent Inc. manages these stages, ensuring coordination with specialized trades for a smooth execution in the Alameda area.",
-        "description": "Construction involves design, framing, utilities, drywall, cabinetry, and finishes. Custom orders and appliance lead times can affect the timeline. Hometelligent Inc. coordinates these stages in the Alameda area."
-      }
-    }
-  ],
+  "name": "What is the general construction process for building a butler's pantry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the general construction process for building a butler's pantry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The general construction process for a butler's pantry typically involves initial design and planning, demolition (if applicable), framing, electrical and plumbing rough-ins, drywall installation, cabinetry and countertop installation, flooring, and final fixture installation. What can affect the process and timing significantly are custom cabinetry orders and specific appliance lead times, which should be factored into the project schedule. Our team at Hometelligent Inc. manages these stages, ensuring coordination with specialized trades for a smooth execution in the Alameda area.",
+        "@type": "Answer",
+        "description": "Construction involves design, framing, utilities, drywall, cabinetry, and finishes. Custom orders and appliance lead times can affect the timeline. Hometelligent Inc. coordinates these stages in the Alameda area."
+      }
+    }
+  ],
+  "description": "Construction involves design, framing, utilities, drywall, cabinetry, and finishes. Custom orders and appliance lead times can affect the timeline. Hometelligen"
 }

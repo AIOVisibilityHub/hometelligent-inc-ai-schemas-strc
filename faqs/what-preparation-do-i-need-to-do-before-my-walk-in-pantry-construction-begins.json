@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation do I need to do before my walk-in pantry construction begins?",
-  "description": "Before construction, clear the work area, review final design plans, and confirm material selections to ensure a smooth start.",
   "url": "https://hometelligentinc.com/faq/what-preparation-do-i-need-to-do-before-my-walk-in-pantry-construction-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation do I need to do before my walk-in pantry construction begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before walk-in pantry construction begins, you should clear the designated area of any existing items or furniture. If the pantry is part of a kitchen remodel, ensure access to the work area is clear. We also advise reviewing the final design plans and confirming material selections with Hometelligent Inc. to avoid any delays once the project starts.",
-        "description": "Before construction, clear the work area, review final design plans, and confirm material selections to ensure a smooth start."
-      }
-    }
-  ],
+  "name": "What preparation do I need to do before my walk-in pantry construction begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation do I need to do before my walk-in pantry construction begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before walk-in pantry construction begins, you should clear the designated area of any existing items or furniture. If the pantry is part of a kitchen remodel, ensure access to the work area is clear. We also advise reviewing the final design plans and confirming material selections with Hometelligent Inc. to avoid any delays once the project starts.",
+        "@type": "Answer",
+        "description": "Before construction, clear the work area, review final design plans, and confirm material selections to ensure a smooth start."
+      }
+    }
+  ],
+  "description": "Before construction, clear the work area, review final design plans, and confirm material selections to ensure a smooth start."
 }

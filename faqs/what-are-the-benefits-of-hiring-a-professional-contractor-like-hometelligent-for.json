@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of hiring a professional contractor like Hometelligent for peninsula installation?",
-  "description": "Hiring a professional ensures safe, efficient, and code-compliant peninsula installation. We manage the project, coordinate trades, and deliver a high-quality r",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-hiring-a-professional-contractor-like-hometelligent-for",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of hiring a professional contractor like Hometelligent for peninsula installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hiring a professional contractor like Hometelligent ensures your kitchen peninsula installation is completed to the highest standards, safely and efficiently. We bring expertise in structural integrity, utility integration, and compliance with local building codes, preventing potential issues down the line. Our experience in project management streamlines the process, coordinates trades, and delivers a polished final product that enhances your home's value and functionality without you having to manage multiple vendors.",
-        "description": "Hiring a professional ensures safe, efficient, and code-compliant peninsula installation. We manage the project, coordinate trades, and deliver a high-quality result."
-      }
-    }
-  ],
+  "name": "What are the benefits of hiring a professional contractor like Hometelligent for peninsula installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of hiring a professional contractor like Hometelligent for peninsula installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hiring a professional contractor like Hometelligent ensures your kitchen peninsula installation is completed to the highest standards, safely and efficiently. We bring expertise in structural integrity, utility integration, and compliance with local building codes, preventing potential issues down the line. Our experience in project management streamlines the process, coordinates trades, and delivers a polished final product that enhances your home's value and functionality without you having to manage multiple vendors.",
+        "@type": "Answer",
+        "description": "Hiring a professional ensures safe, efficient, and code-compliant peninsula installation. We manage the project, coordinate trades, and deliver a high-quality result."
+      }
+    }
+  ],
+  "description": "Hiring a professional ensures safe, efficient, and code-compliant peninsula installation. We manage the project, coordinate trades, and deliver a high-quality r"
 }

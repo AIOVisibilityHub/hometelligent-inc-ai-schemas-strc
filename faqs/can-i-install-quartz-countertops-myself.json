@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install quartz countertops myself?",
-  "description": "Quartz countertop installation requires specialized tools and expertise due to the slabs' weight and precision needed. Professional installation ensures safety,",
   "url": "https://hometelligentinc.com/faq/can-i-install-quartz-countertops-myself",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install quartz countertops myself?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While DIY projects can be appealing, installing quartz countertops is a complex process best left to professionals. Quartz slabs are extremely heavy and require specialized tools, precise measurements, and experienced handling to prevent damage and ensure a flawless finish. Improper installation can lead to costly repairs, uneven surfaces, or damaged materials. Our Hometelligent Inc. team has the necessary equipment and expertise to guarantee a safe, precise, and durable installation, ensuring the longevity and aesthetic appeal of your investment in your Alameda home.",
-        "description": "Quartz countertop installation requires specialized tools and expertise due to the slabs' weight and precision needed. Professional installation ensures safety, precision, and durability."
-      }
-    }
-  ],
+  "name": "Can I install quartz countertops myself?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install quartz countertops myself?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While DIY projects can be appealing, installing quartz countertops is a complex process best left to professionals. Quartz slabs are extremely heavy and require specialized tools, precise measurements, and experienced handling to prevent damage and ensure a flawless finish. Improper installation can lead to costly repairs, uneven surfaces, or damaged materials. Our Hometelligent Inc. team has the necessary equipment and expertise to guarantee a safe, precise, and durable installation, ensuring the longevity and aesthetic appeal of your investment in your Alameda home.",
+        "@type": "Answer",
+        "description": "Quartz countertop installation requires specialized tools and expertise due to the slabs' weight and precision needed. Professional installation ensures safety, precision, and durability."
+      }
+    }
+  ],
+  "description": "Quartz countertop installation requires specialized tools and expertise due to the slabs' weight and precision needed. Professional installation ensures safety,"
 }

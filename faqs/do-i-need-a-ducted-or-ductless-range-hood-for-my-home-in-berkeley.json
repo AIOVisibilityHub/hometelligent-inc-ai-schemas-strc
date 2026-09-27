@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a ducted or ductless range hood for my home in Berkeley?",
-  "description": "Ducted hoods vent outside, requiring ductwork; ductless hoods filter and recirculate air. Your choice depends on existing infrastructure and local building code",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-ducted-or-ductless-range-hood-for-my-home-in-berkeley",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a ducted or ductless range hood for my home in Berkeley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you need a ducted or ductless range hood depends on your kitchen's exhaust system capabilities and local building codes. Ducted hoods vent cooking fumes and odors outside, offering superior ventilation, but require ductwork installation to the exterior. Ductless hoods filter and recirculate air, which is a simpler installation for homes without existing ductwork or where exterior venting is not practical. For homes in Berkeley, we recommend a site assessment to determine the most effective and compliant option for your specific property.",
-        "description": "Ducted hoods vent outside, requiring ductwork; ductless hoods filter and recirculate air. Your choice depends on existing infrastructure and local building codes."
-      }
-    }
-  ],
+  "name": "Do I need a ducted or ductless range hood for my home in Berkeley?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a ducted or ductless range hood for my home in Berkeley?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you need a ducted or ductless range hood depends on your kitchen's exhaust system capabilities and local building codes. Ducted hoods vent cooking fumes and odors outside, offering superior ventilation, but require ductwork installation to the exterior. Ductless hoods filter and recirculate air, which is a simpler installation for homes without existing ductwork or where exterior venting is not practical. For homes in Berkeley, we recommend a site assessment to determine the most effective and compliant option for your specific property.",
+        "@type": "Answer",
+        "description": "Ducted hoods vent outside, requiring ductwork; ductless hoods filter and recirculate air. Your choice depends on existing infrastructure and local building codes."
+      }
+    }
+  ],
+  "description": "Ducted hoods vent outside, requiring ductwork; ductless hoods filter and recirculate air. Your choice depends on existing infrastructure and local building code"
 }

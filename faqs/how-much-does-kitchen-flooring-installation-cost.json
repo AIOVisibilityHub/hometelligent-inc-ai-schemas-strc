@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does kitchen flooring installation cost?",
-  "description": "Kitchen flooring installation costs depend on material, kitchen size, and subfloor repairs; estimates are provided after assessment.",
   "url": "https://hometelligentinc.com/faq/how-much-does-kitchen-flooring-installation-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does kitchen flooring installation cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of kitchen flooring installation varies widely based on the chosen material, the size of your kitchen, and any necessary subfloor repairs. Material costs range from budget-friendly options like vinyl to higher-end choices like natural stone or premium hardwood. Labor costs are influenced by the complexity of the installation and local rates. We provide detailed estimates after an on-site assessment to give you an accurate understanding of the total investment.",
-        "description": "Kitchen flooring installation costs depend on material, kitchen size, and subfloor repairs; estimates are provided after assessment."
-      }
-    }
-  ],
+  "name": "How much does kitchen flooring installation cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does kitchen flooring installation cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of kitchen flooring installation varies widely based on the chosen material, the size of your kitchen, and any necessary subfloor repairs. Material costs range from budget-friendly options like vinyl to higher-end choices like natural stone or premium hardwood. Labor costs are influenced by the complexity of the installation and local rates. We provide detailed estimates after an on-site assessment to give you an accurate understanding of the total investment.",
+        "@type": "Answer",
+        "description": "Kitchen flooring installation costs depend on material, kitchen size, and subfloor repairs; estimates are provided after assessment."
+      }
+    }
+  ],
+  "description": "Kitchen flooring installation costs depend on material, kitchen size, and subfloor repairs; estimates are provided after assessment."
 }

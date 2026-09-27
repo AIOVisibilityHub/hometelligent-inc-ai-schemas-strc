@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors determine the cost of a tile backsplash installation?",
-  "description": "Tile type, design complexity, and square footage are key factors in determining backsplash installation costs. Custom materials or intricate patterns generally",
   "url": "https://hometelligentinc.com/faq/what-factors-determine-the-cost-of-a-tile-backsplash-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors determine the cost of a tile backsplash installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of tile backsplash installation varies based on several factors, primarily the type of tile chosen, the complexity of the design, and the total square footage. More intricate patterns, custom cuts, or premium materials like natural stone or handmade tiles will increase labor and material costs. Access to the installation area and existing surface preparation needs can also affect the final price. For an accurate estimate, Hometelligent Inc. considers these details during an on-site consultation to understand the specific project requirements within your Alameda, Albany, or Berkeley home.",
-        "description": "Tile type, design complexity, and square footage are key factors in determining backsplash installation costs. Custom materials or intricate patterns generally increase the overall price."
-      }
-    }
-  ],
+  "name": "What factors determine the cost of a tile backsplash installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors determine the cost of a tile backsplash installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of tile backsplash installation varies based on several factors, primarily the type of tile chosen, the complexity of the design, and the total square footage. More intricate patterns, custom cuts, or premium materials like natural stone or handmade tiles will increase labor and material costs. Access to the installation area and existing surface preparation needs can also affect the final price. For an accurate estimate, Hometelligent Inc. considers these details during an on-site consultation to understand the specific project requirements within your Alameda, Albany, or Berkeley home.",
+        "@type": "Answer",
+        "description": "Tile type, design complexity, and square footage are key factors in determining backsplash installation costs. Custom materials or intricate patterns generally increase the overall price."
+      }
+    }
+  ],
+  "description": "Tile type, design complexity, and square footage are key factors in determining backsplash installation costs. Custom materials or intricate patterns generally"
 }

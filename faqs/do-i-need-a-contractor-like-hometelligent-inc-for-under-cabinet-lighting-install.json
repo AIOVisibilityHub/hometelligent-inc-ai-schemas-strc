@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a contractor like Hometelligent Inc. for under-cabinet lighting installation in my Alameda home?",
-  "description": "For hardwired systems in Alameda, a licensed contractor is recommended to ensure safety and code compliance.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-contractor-like-hometelligent-inc-for-under-cabinet-lighting-install",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a contractor like Hometelligent Inc. for under-cabinet lighting installation in my Alameda home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For simple plug-in or battery-operated under-cabinet lighting, a DIY approach might be feasible. However, for hardwired systems that require connecting to your home's electrical system, it is highly recommended to hire a licensed contractor. This ensures the installation is safe, up to code, and properly integrated, preventing potential electrical hazards. Hometelligent Inc. serves Alameda and surrounding areas, providing professional, compliant electrical and installation services.",
-        "description": "For hardwired systems in Alameda, a licensed contractor is recommended to ensure safety and code compliance."
-      }
-    }
-  ],
+  "name": "Do I need a contractor like Hometelligent Inc. for under-cabinet lighting installation in my Alameda home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a contractor like Hometelligent Inc. for under-cabinet lighting installation in my Alameda home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For simple plug-in or battery-operated under-cabinet lighting, a DIY approach might be feasible. However, for hardwired systems that require connecting to your home's electrical system, it is highly recommended to hire a licensed contractor. This ensures the installation is safe, up to code, and properly integrated, preventing potential electrical hazards. Hometelligent Inc. serves Alameda and surrounding areas, providing professional, compliant electrical and installation services.",
+        "@type": "Answer",
+        "description": "For hardwired systems in Alameda, a licensed contractor is recommended to ensure safety and code compliance."
+      }
+    }
+  ],
+  "description": "For hardwired systems in Alameda, a licensed contractor is recommended to ensure safety and code compliance."
 }

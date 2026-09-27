@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common edge profiles available for granite countertops?",
-  "description": "Common edge profiles include eased, bevel, bullnose, ogee, and waterfall. Your choice impacts kitchen aesthetics and fabrication cost, with simpler profiles bei",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-edge-profiles-available-for-granite-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common edge profiles available for granite countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common edge profiles for granite countertops include eased, bevel, bullnose, ogee, and waterfall. The eased edge is a simple, slightly rounded profile; the bevel has a 45-degree angle; the bullnose is fully rounded; the ogee features an S-curve; and the waterfall flows directly to the floor. The choice of edge profile is a decision factor that significantly impacts the aesthetic of your kitchen. Simpler profiles are generally more economical, while more intricate designs like ogee can add elegance and cost more due to increased fabrication time.",
-        "description": "Common edge profiles include eased, bevel, bullnose, ogee, and waterfall. Your choice impacts kitchen aesthetics and fabrication cost, with simpler profiles being more economical."
-      }
-    }
-  ],
+  "name": "What are the common edge profiles available for granite countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common edge profiles available for granite countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common edge profiles for granite countertops include eased, bevel, bullnose, ogee, and waterfall. The eased edge is a simple, slightly rounded profile; the bevel has a 45-degree angle; the bullnose is fully rounded; the ogee features an S-curve; and the waterfall flows directly to the floor. The choice of edge profile is a decision factor that significantly impacts the aesthetic of your kitchen. Simpler profiles are generally more economical, while more intricate designs like ogee can add elegance and cost more due to increased fabrication time.",
+        "@type": "Answer",
+        "description": "Common edge profiles include eased, bevel, bullnose, ogee, and waterfall. Your choice impacts kitchen aesthetics and fabrication cost, with simpler profiles being more economical."
+      }
+    }
+  ],
+  "description": "Common edge profiles include eased, bevel, bullnose, ogee, and waterfall. Your choice impacts kitchen aesthetics and fabrication cost, with simpler profiles bei"
 }

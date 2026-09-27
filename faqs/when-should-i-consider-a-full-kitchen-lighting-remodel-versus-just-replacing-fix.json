@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider a full kitchen lighting remodel versus just replacing fixtures?",
-  "description": "Choose a full remodel for insufficient lighting layouts or larger renovations; replace fixtures for updated looks or energy efficiency if current layout is fine",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-a-full-kitchen-lighting-remodel-versus-just-replacing-fix",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider a full kitchen lighting remodel versus just replacing fixtures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider a full kitchen lighting remodel if your current lighting layout is insufficient, poorly placed, or if you're undertaking a larger kitchen renovation. Replacing fixtures is suitable when the existing electrical infrastructure and lighting placement meet your needs, but you want an updated look or more energy-efficient bulbs. A remodel addresses fundamental issues like dark spots or lack of task lighting, while replacements focus on aesthetics and efficiency. We can help assess whether your kitchen needs a simple update or a comprehensive overhaul.",
-        "description": "Choose a full remodel for insufficient lighting layouts or larger renovations; replace fixtures for updated looks or energy efficiency if current layout is fine."
-      }
-    }
-  ],
+  "name": "When should I consider a full kitchen lighting remodel versus just replacing fixtures?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider a full kitchen lighting remodel versus just replacing fixtures?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider a full kitchen lighting remodel if your current lighting layout is insufficient, poorly placed, or if you're undertaking a larger kitchen renovation. Replacing fixtures is suitable when the existing electrical infrastructure and lighting placement meet your needs, but you want an updated look or more energy-efficient bulbs. A remodel addresses fundamental issues like dark spots or lack of task lighting, while replacements focus on aesthetics and efficiency. We can help assess whether your kitchen needs a simple update or a comprehensive overhaul.",
+        "@type": "Answer",
+        "description": "Choose a full remodel for insufficient lighting layouts or larger renovations; replace fixtures for updated looks or energy efficiency if current layout is fine."
+      }
+    }
+  ],
+  "description": "Choose a full remodel for insufficient lighting layouts or larger renovations; replace fixtures for updated looks or energy efficiency if current layout is fine"
 }

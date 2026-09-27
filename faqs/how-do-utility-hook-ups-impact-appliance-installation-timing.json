@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do utility hook-ups impact appliance installation timing?",
-  "description": "Utility hook-ups must be correctly in place and up to code before appliance installation; delays in this step will delay the entire project.",
   "url": "https://hometelligentinc.com/faq/how-do-utility-hook-ups-impact-appliance-installation-timing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do utility hook-ups impact appliance installation timing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Utility hook-ups are critical and directly impact appliance installation timing. Proper electrical, gas, and plumbing lines must be in place and accessible according to local codes before appliances can be set. Our team ensures that these rough-ins are completed by licensed tradespeople at the appropriate stage of construction. Delays in utility readiness mean appliances cannot be fully connected or tested, thus pushing back project completion, which is why accurate early planning is essential.",
-        "description": "Utility hook-ups must be correctly in place and up to code before appliance installation; delays in this step will delay the entire project."
-      }
-    }
-  ],
+  "name": "How do utility hook-ups impact appliance installation timing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do utility hook-ups impact appliance installation timing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Utility hook-ups are critical and directly impact appliance installation timing. Proper electrical, gas, and plumbing lines must be in place and accessible according to local codes before appliances can be set. Our team ensures that these rough-ins are completed by licensed tradespeople at the appropriate stage of construction. Delays in utility readiness mean appliances cannot be fully connected or tested, thus pushing back project completion, which is why accurate early planning is essential.",
+        "@type": "Answer",
+        "description": "Utility hook-ups must be correctly in place and up to code before appliance installation; delays in this step will delay the entire project."
+      }
+    }
+  ],
+  "description": "Utility hook-ups must be correctly in place and up to code before appliance installation; delays in this step will delay the entire project."
 }

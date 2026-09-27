@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between solid hardwood and engineered hardwood for kitchens?",
-  "description": "Solid hardwood is one piece of wood, while engineered hardwood has a layered core, offering better moisture resistance for kitchens.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-solid-hardwood-and-engineered-hardwood-for-kitche",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between solid hardwood and engineered hardwood for kitchens?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Solid hardwood is made from a single piece of wood, offering a classic look and the ability to be refinished multiple times. Engineered hardwood, however, has a core of plywood or HDF with a real wood veneer on top, making it more stable and resistant to moisture fluctuations, which is beneficial in a kitchen environment. While solid hardwood can be more susceptible to warping from spills, engineered hardwood offers better dimensional stability in humid conditions.",
-        "description": "Solid hardwood is one piece of wood, while engineered hardwood has a layered core, offering better moisture resistance for kitchens."
-      }
-    }
-  ],
+  "name": "What is the difference between solid hardwood and engineered hardwood for kitchens?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between solid hardwood and engineered hardwood for kitchens?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Solid hardwood is made from a single piece of wood, offering a classic look and the ability to be refinished multiple times. Engineered hardwood, however, has a core of plywood or HDF with a real wood veneer on top, making it more stable and resistant to moisture fluctuations, which is beneficial in a kitchen environment. While solid hardwood can be more susceptible to warping from spills, engineered hardwood offers better dimensional stability in humid conditions.",
+        "@type": "Answer",
+        "description": "Solid hardwood is one piece of wood, while engineered hardwood has a layered core, offering better moisture resistance for kitchens."
+      }
+    }
+  ],
+  "description": "Solid hardwood is one piece of wood, while engineered hardwood has a layered core, offering better moisture resistance for kitchens."
 }

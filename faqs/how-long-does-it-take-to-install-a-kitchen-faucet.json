@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install a kitchen faucet?",
-  "description": "Kitchen faucet installation time varies from 1-3 hours for standard replacements to longer for complex jobs or plumbing modifications. Hometelligent Inc. provid",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-a-kitchen-faucet",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install a kitchen faucet?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The time required for a kitchen faucet installation can vary depending on factors such as the complexity of the faucet, the condition of existing plumbing, and ease of access under the sink. A straightforward replacement might take 1-3 hours. However, if modifications to the sink or plumbing are needed, or if there are seized connections, it could take longer. Hometelligent Inc. will provide an estimated timeframe after an initial assessment.",
-        "description": "Kitchen faucet installation time varies from 1-3 hours for standard replacements to longer for complex jobs or plumbing modifications. Hometelligent Inc. provides estimates after assessment."
-      }
-    }
-  ],
+  "name": "How long does it take to install a kitchen faucet?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install a kitchen faucet?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The time required for a kitchen faucet installation can vary depending on factors such as the complexity of the faucet, the condition of existing plumbing, and ease of access under the sink. A straightforward replacement might take 1-3 hours. However, if modifications to the sink or plumbing are needed, or if there are seized connections, it could take longer. Hometelligent Inc. will provide an estimated timeframe after an initial assessment.",
+        "@type": "Answer",
+        "description": "Kitchen faucet installation time varies from 1-3 hours for standard replacements to longer for complex jobs or plumbing modifications. Hometelligent Inc. provides estimates after assessment."
+      }
+    }
+  ],
+  "description": "Kitchen faucet installation time varies from 1-3 hours for standard replacements to longer for complex jobs or plumbing modifications. Hometelligent Inc. provid"
 }

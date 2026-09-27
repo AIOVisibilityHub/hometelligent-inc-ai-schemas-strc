@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to prepare anything before quartz countertop installers arrive?",
-  "description": "Before installation, clear existing countertops and cabinets, and disconnect/remove sinks, faucets, and cooktops. We provide a preparation checklist during the",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-prepare-anything-before-quartz-countertop-installers-arrive",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to prepare anything before quartz countertop installers arrive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, preparing your space before our team arrives ensures a smoother and more efficient installation. We recommend clearing all items from your existing countertops and cabinets directly beneath where the new quartz will be installed. Disconnecting and removing your sink, faucet, and any cooktop appliances is also necessary. If old countertops are being removed, arrangements should be made for their disposal. Our team at Hometelligent Inc. can discuss specific preparation checklists during the pre-installation walkthrough to ensure everything is ready.",
-        "description": "Before installation, clear existing countertops and cabinets, and disconnect/remove sinks, faucets, and cooktops. We provide a preparation checklist during the pre-installation walkthrough."
-      }
-    }
-  ],
+  "name": "Do I need to prepare anything before quartz countertop installers arrive?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to prepare anything before quartz countertop installers arrive?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, preparing your space before our team arrives ensures a smoother and more efficient installation. We recommend clearing all items from your existing countertops and cabinets directly beneath where the new quartz will be installed. Disconnecting and removing your sink, faucet, and any cooktop appliances is also necessary. If old countertops are being removed, arrangements should be made for their disposal. Our team at Hometelligent Inc. can discuss specific preparation checklists during the pre-installation walkthrough to ensure everything is ready.",
+        "@type": "Answer",
+        "description": "Before installation, clear existing countertops and cabinets, and disconnect/remove sinks, faucets, and cooktops. We provide a preparation checklist during the pre-installation walkthrough."
+      }
+    }
+  ],
+  "description": "Before installation, clear existing countertops and cabinets, and disconnect/remove sinks, faucets, and cooktops. We provide a preparation checklist during the"
 }

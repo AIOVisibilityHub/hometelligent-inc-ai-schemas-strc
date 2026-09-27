@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I incorporate smart home technology into my custom kitchen design?",
-  "description": "Yes, smart home technology like integrated appliances, lighting, and voice assistants can be seamlessly incorporated into your custom kitchen design. We discuss",
   "url": "https://hometelligentinc.com/faq/can-i-incorporate-smart-home-technology-into-my-custom-kitchen-design",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I incorporate smart home technology into my custom kitchen design?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, incorporating smart home technology into your custom kitchen design is a growing trend and can significantly enhance convenience and efficiency. This can include integrated smart appliances, lighting systems, climate control, and voice-activated assistants. During the design phase, we can discuss various smart home options and integrate them seamlessly into your kitchen layout and electrical plans, ensuring compatibility and ease of use in your home in areas like Dublin or Livermore.",
-        "description": "Yes, smart home technology like integrated appliances, lighting, and voice assistants can be seamlessly incorporated into your custom kitchen design. We discuss and integrate these options during the design phase."
-      }
-    }
-  ],
+  "name": "Can I incorporate smart home technology into my custom kitchen design?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I incorporate smart home technology into my custom kitchen design?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, incorporating smart home technology into your custom kitchen design is a growing trend and can significantly enhance convenience and efficiency. This can include integrated smart appliances, lighting systems, climate control, and voice-activated assistants. During the design phase, we can discuss various smart home options and integrate them seamlessly into your kitchen layout and electrical plans, ensuring compatibility and ease of use in your home in areas like Dublin or Livermore.",
+        "@type": "Answer",
+        "description": "Yes, smart home technology like integrated appliances, lighting, and voice assistants can be seamlessly incorporated into your custom kitchen design. We discuss and integrate these options during the design phase."
+      }
+    }
+  ],
+  "description": "Yes, smart home technology like integrated appliances, lighting, and voice assistants can be seamlessly incorporated into your custom kitchen design. We discuss"
 }

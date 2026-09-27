@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for a kitchen sink and faucet replacement?",
-  "description": "Sink and faucet replacement involves shutting off water, removing old fixtures, installing new ones, connecting plumbing, and testing for leaks. Please clear un",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-a-kitchen-sink-and-faucet-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for a kitchen sink and faucet replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for replacing a kitchen sink and faucet typically involves shutting off the water supply, disconnecting the old fixtures, and preparing the area for installation. We then install the new sink, connect the plumbing lines, and mount the new faucet, ensuring all connections are secure and leak-free. After installation, we test the water flow and drainage. Before we start, clear the area under your sink of any items to allow easy access for our plumbers.",
-        "description": "Sink and faucet replacement involves shutting off water, removing old fixtures, installing new ones, connecting plumbing, and testing for leaks. Please clear under-sink areas beforehand."
-      }
-    }
-  ],
+  "name": "What is the process for a kitchen sink and faucet replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for a kitchen sink and faucet replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for replacing a kitchen sink and faucet typically involves shutting off the water supply, disconnecting the old fixtures, and preparing the area for installation. We then install the new sink, connect the plumbing lines, and mount the new faucet, ensuring all connections are secure and leak-free. After installation, we test the water flow and drainage. Before we start, clear the area under your sink of any items to allow easy access for our plumbers.",
+        "@type": "Answer",
+        "description": "Sink and faucet replacement involves shutting off water, removing old fixtures, installing new ones, connecting plumbing, and testing for leaks. Please clear under-sink areas beforehand."
+      }
+    }
+  ],
+  "description": "Sink and faucet replacement involves shutting off water, removing old fixtures, installing new ones, connecting plumbing, and testing for leaks. Please clear un"
 }

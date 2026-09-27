@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before Hometelligent Inc. installs my new range hood?",
-  "description": "Clear the stove area, have your range hood accessible, and know your circuit breaker location before installation.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-hometelligent-inc-installs-my-new-range-hood",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before Hometelligent Inc. installs my new range hood?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your range hood installation, ensure the area around your stove is clear of all cookware, small appliances, and decorations. If you've purchased the range hood yourself, have it readily accessible along with any manufacturer-supplied accessories or instructions. We also recommend knowing the location of your main circuit breaker in case we need to temporarily shut off power to the kitchen area for safety during the electrical hookup process.",
-        "description": "Clear the stove area, have your range hood accessible, and know your circuit breaker location before installation."
-      }
-    }
-  ],
+  "name": "What should I prepare before Hometelligent Inc. installs my new range hood?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before Hometelligent Inc. installs my new range hood?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your range hood installation, ensure the area around your stove is clear of all cookware, small appliances, and decorations. If you've purchased the range hood yourself, have it readily accessible along with any manufacturer-supplied accessories or instructions. We also recommend knowing the location of your main circuit breaker in case we need to temporarily shut off power to the kitchen area for safety during the electrical hookup process.",
+        "@type": "Answer",
+        "description": "Clear the stove area, have your range hood accessible, and know your circuit breaker location before installation."
+      }
+    }
+  ],
+  "description": "Clear the stove area, have your range hood accessible, and know your circuit breaker location before installation."
 }

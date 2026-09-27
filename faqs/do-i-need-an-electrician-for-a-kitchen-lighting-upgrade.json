@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need an electrician for a kitchen lighting upgrade?",
-  "description": "A qualified electrician is recommended and often required for most kitchen lighting upgrades involving new wiring or complex installations.",
   "url": "https://hometelligentinc.com/faq/do-i-need-an-electrician-for-a-kitchen-lighting-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need an electrician for a kitchen lighting upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most kitchen lighting upgrades, particularly those involving new wiring, moving switches, or installing recessed lighting, hiring a qualified electrician is highly recommended, and often required by local codes in cities like Berkeley or Fremont. Electrical work can be complex and unsafe for untrained individuals. A professional ensures the work complies with safety standards, prevents electrical hazards, and guarantees proper functionality. Our team includes licensed professionals who handle all electrical aspects of your lighting upgrade.",
-        "description": "A qualified electrician is recommended and often required for most kitchen lighting upgrades involving new wiring or complex installations."
-      }
-    }
-  ],
+  "name": "Do I need an electrician for a kitchen lighting upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need an electrician for a kitchen lighting upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For most kitchen lighting upgrades, particularly those involving new wiring, moving switches, or installing recessed lighting, hiring a qualified electrician is highly recommended, and often required by local codes in cities like Berkeley or Fremont. Electrical work can be complex and unsafe for untrained individuals. A professional ensures the work complies with safety standards, prevents electrical hazards, and guarantees proper functionality. Our team includes licensed professionals who handle all electrical aspects of your lighting upgrade.",
+        "@type": "Answer",
+        "description": "A qualified electrician is recommended and often required for most kitchen lighting upgrades involving new wiring or complex installations."
+      }
+    }
+  ],
+  "description": "A qualified electrician is recommended and often required for most kitchen lighting upgrades involving new wiring or complex installations."
 }

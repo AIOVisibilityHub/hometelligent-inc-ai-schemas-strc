@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What if my new appliances don't fit the prepared spaces?",
-  "description": "Mismatched appliances require costly adjustments and delays; precise measurement verification upfront prevents issues during installation.",
   "url": "https://hometelligentinc.com/faq/what-if-my-new-appliances-don-t-fit-the-prepared-spaces",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What if my new appliances don't fit the prepared spaces?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If new appliances don't fit the prepared spaces, it typically requires adjustments to the cabinetry or utility lines, which can lead to additional costs and project delays. To avoid this, Hometelligent Inc. emphasizes accurate measurement verification of appliance dimensions and rough-in requirements during the design phase. It's a practical tradeoff: spending time on precise planning upfront prevents costly and time-consuming modifications later during installation.",
-        "description": "Mismatched appliances require costly adjustments and delays; precise measurement verification upfront prevents issues during installation."
-      }
-    }
-  ],
+  "name": "What if my new appliances don't fit the prepared spaces?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What if my new appliances don't fit the prepared spaces?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "If new appliances don't fit the prepared spaces, it typically requires adjustments to the cabinetry or utility lines, which can lead to additional costs and project delays. To avoid this, Hometelligent Inc. emphasizes accurate measurement verification of appliance dimensions and rough-in requirements during the design phase. It's a practical tradeoff: spending time on precise planning upfront prevents costly and time-consuming modifications later during installation.",
+        "@type": "Answer",
+        "description": "Mismatched appliances require costly adjustments and delays; precise measurement verification upfront prevents issues during installation."
+      }
+    }
+  ],
+  "description": "Mismatched appliances require costly adjustments and delays; precise measurement verification upfront prevents issues during installation."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for installing quartz countertops?",
-  "description": "The process involves precise measurement, fabrication, careful transportation, strategic placement, and securing of the quartz countertops. We provide detailed",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-installing-quartz-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for installing quartz countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation of quartz countertops generally involves several key steps. First, we'll schedule a precise measurement of your existing countertops or new cabinet layout. After fabrication of your custom quartz slabs, our team carefully transports and positions the pieces. This often requires two or more installers due to the weight and size of quartz. Seams are minimized and strategically placed to ensure the best aesthetic outcome. The final step involves securing the countertops and sealing any necessary areas around sinks or cooktops. For projects in Alameda, Albany, Berkeley, or Emeryville, our team provides detailed timelines upfront to manage expectations.",
-        "description": "The process involves precise measurement, fabrication, careful transportation, strategic placement, and securing of the quartz countertops. We provide detailed timelines for projects in our service area."
-      }
-    }
-  ],
+  "name": "What is the typical process for installing quartz countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for installing quartz countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation of quartz countertops generally involves several key steps. First, we'll schedule a precise measurement of your existing countertops or new cabinet layout. After fabrication of your custom quartz slabs, our team carefully transports and positions the pieces. This often requires two or more installers due to the weight and size of quartz. Seams are minimized and strategically placed to ensure the best aesthetic outcome. The final step involves securing the countertops and sealing any necessary areas around sinks or cooktops. For projects in Alameda, Albany, Berkeley, or Emeryville, our team provides detailed timelines upfront to manage expectations.",
+        "@type": "Answer",
+        "description": "The process involves precise measurement, fabrication, careful transportation, strategic placement, and securing of the quartz countertops. We provide detailed timelines for projects in our service area."
+      }
+    }
+  ],
+  "description": "The process involves precise measurement, fabrication, careful transportation, strategic placement, and securing of the quartz countertops. We provide detailed"
 }

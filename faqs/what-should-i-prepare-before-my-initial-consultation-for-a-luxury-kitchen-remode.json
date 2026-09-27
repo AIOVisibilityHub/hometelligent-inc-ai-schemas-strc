@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before my initial consultation for a luxury kitchen remodel?",
-  "description": "Before consultation, prepare ideas of styles and features you like, consider functional needs, have a general budget idea, and list specific questions or challe",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-my-initial-consultation-for-a-luxury-kitchen-remode",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before my initial consultation for a luxury kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your initial consultation for a luxury kitchen remodel, it's beneficial to gather ideas of styles, materials, and features you like, perhaps from magazines or online platforms. Consider your functional needs, such as storage requirements, cooking habits, and how you envision using the space for entertaining or daily life. Having a general idea of your budget range can also help guide the discussion effectively. Preparing a list of questions for the contractor and outlining any specific challenges or desires for your current kitchen will ensure a productive first meeting and help us understand your vision for the project.",
-        "description": "Before consultation, prepare ideas of styles and features you like, consider functional needs, have a general budget idea, and list specific questions or challenges."
-      }
-    }
-  ],
+  "name": "What should I prepare before my initial consultation for a luxury kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before my initial consultation for a luxury kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your initial consultation for a luxury kitchen remodel, it's beneficial to gather ideas of styles, materials, and features you like, perhaps from magazines or online platforms. Consider your functional needs, such as storage requirements, cooking habits, and how you envision using the space for entertaining or daily life. Having a general idea of your budget range can also help guide the discussion effectively. Preparing a list of questions for the contractor and outlining any specific challenges or desires for your current kitchen will ensure a productive first meeting and help us understand your vision for the project.",
+        "@type": "Answer",
+        "description": "Before consultation, prepare ideas of styles and features you like, consider functional needs, have a general budget idea, and list specific questions or challenges."
+      }
+    }
+  ],
+  "description": "Before consultation, prepare ideas of styles and features you like, consider functional needs, have a general budget idea, and list specific questions or challe"
 }

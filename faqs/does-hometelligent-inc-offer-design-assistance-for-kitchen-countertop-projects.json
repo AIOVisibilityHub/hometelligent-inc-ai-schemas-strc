@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does Hometelligent Inc. offer design assistance for kitchen countertop projects?",
-  "description": "Hometelligent Inc. focuses on installation but can offer guidance on material suitability and aesthetics. Come prepared with your design preferences.",
   "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-design-assistance-for-kitchen-countertop-projects",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does Hometelligent Inc. offer design assistance for kitchen countertop projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While Hometelligent Inc.'s primary focus is the professional installation of kitchen countertops, we can offer guidance on material suitability and aesthetic considerations based on our experience. We recommend clients have a clear idea of their design preferences and kitchen layout. We can work with your existing design plans or offer practical advice during the initial measurement and consultation phase to help you make informed decisions.",
-        "description": "Hometelligent Inc. focuses on installation but can offer guidance on material suitability and aesthetics. Come prepared with your design preferences."
-      }
-    }
-  ],
+  "name": "Does Hometelligent Inc. offer design assistance for kitchen countertop projects?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does Hometelligent Inc. offer design assistance for kitchen countertop projects?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While Hometelligent Inc.'s primary focus is the professional installation of kitchen countertops, we can offer guidance on material suitability and aesthetic considerations based on our experience. We recommend clients have a clear idea of their design preferences and kitchen layout. We can work with your existing design plans or offer practical advice during the initial measurement and consultation phase to help you make informed decisions.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. focuses on installation but can offer guidance on material suitability and aesthetics. Come prepared with your design preferences."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. focuses on installation but can offer guidance on material suitability and aesthetics. Come prepared with your design preferences."
 }

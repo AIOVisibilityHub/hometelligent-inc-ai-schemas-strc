@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What happens to my sink during quartz countertop installation?",
-  "description": "Your existing sink is removed; a precise cutout is made in the new quartz for your chosen sink, usually an undermount. We ensure accurate cutting and proper, wa",
   "url": "https://hometelligentinc.com/faq/what-happens-to-my-sink-during-quartz-countertop-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What happens to my sink during quartz countertop installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "During quartz countertop installation, your existing sink will need to be disconnected and removed. For your new quartz, we will cut a precise opening to accommodate your chosen sink. Most homeowners opt for an undermount sink with quartz, which is installed directly to the underside of the countertop for a seamless look. Our team will ensure the sink cutout is accurate and the sink is properly mounted and sealed. This process requires specialized tools and expertise to ensure a watertight and durable seal, which is a critical step for preventing future issues. We recommend coordinating plumbing services for reconnection post-installation.",
-        "description": "Your existing sink is removed; a precise cutout is made in the new quartz for your chosen sink, usually an undermount. We ensure accurate cutting and proper, watertight sealing for durability."
-      }
-    }
-  ],
+  "name": "What happens to my sink during quartz countertop installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What happens to my sink during quartz countertop installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "During quartz countertop installation, your existing sink will need to be disconnected and removed. For your new quartz, we will cut a precise opening to accommodate your chosen sink. Most homeowners opt for an undermount sink with quartz, which is installed directly to the underside of the countertop for a seamless look. Our team will ensure the sink cutout is accurate and the sink is properly mounted and sealed. This process requires specialized tools and expertise to ensure a watertight and durable seal, which is a critical step for preventing future issues. We recommend coordinating plumbing services for reconnection post-installation.",
+        "@type": "Answer",
+        "description": "Your existing sink is removed; a precise cutout is made in the new quartz for your chosen sink, usually an undermount. We ensure accurate cutting and proper, watertight sealing for durability."
+      }
+    }
+  ],
+  "description": "Your existing sink is removed; a precise cutout is made in the new quartz for your chosen sink, usually an undermount. We ensure accurate cutting and proper, wa"
 }

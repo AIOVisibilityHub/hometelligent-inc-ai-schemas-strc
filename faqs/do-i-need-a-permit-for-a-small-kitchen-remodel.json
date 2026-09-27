@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for a small kitchen remodel?",
-  "description": "Permits are usually needed if your remodel alters plumbing, electrical, or structural elements, but not for minor cosmetic changes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-small-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for a small kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether a permit is required for a small kitchen remodel depends on the scope of work and local building codes. Minor cosmetic updates like painting or replacing cabinet doors typically don't require one. However, if your project involves altering plumbing, electrical systems, or making structural changes, even minor ones, a permit is usually necessary. As a contractor operating in cities like Alameda and Emeryville, Hometelligent Inc. is knowledgeable about local regulations and will advise you on permit requirements and handle the application process on your behalf.",
-        "description": "Permits are usually needed if your remodel alters plumbing, electrical, or structural elements, but not for minor cosmetic changes."
-      }
-    }
-  ],
+  "name": "Do I need a permit for a small kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for a small kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether a permit is required for a small kitchen remodel depends on the scope of work and local building codes. Minor cosmetic updates like painting or replacing cabinet doors typically don't require one. However, if your project involves altering plumbing, electrical systems, or making structural changes, even minor ones, a permit is usually necessary. As a contractor operating in cities like Alameda and Emeryville, Hometelligent Inc. is knowledgeable about local regulations and will advise you on permit requirements and handle the application process on your behalf.",
+        "@type": "Answer",
+        "description": "Permits are usually needed if your remodel alters plumbing, electrical, or structural elements, but not for minor cosmetic changes."
+      }
+    }
+  ],
+  "description": "Permits are usually needed if your remodel alters plumbing, electrical, or structural elements, but not for minor cosmetic changes."
 }

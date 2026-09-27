@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right backsplash material for my kitchen style?",
-  "description": "Consider your kitchen's style, color scheme, practical needs, durability, and budget when choosing backsplash material. Photos can help guide selection.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-backsplash-material-for-my-kitchen-style",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right backsplash material for my kitchen style?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right backsplash material involves considering your kitchen's overall aesthetic, existing color scheme, and practical needs. For a modern look, consider glass or stainless steel; for traditional, ceramic or natural stone might be suitable. Factors such as durability, maintenance, and your budget also play a significant role. Bringing photos of your kitchen and inspiration images can help us guide you through material selections and design options that complement your home.",
-        "description": "Consider your kitchen's style, color scheme, practical needs, durability, and budget when choosing backsplash material. Photos can help guide selection."
-      }
-    }
-  ],
+  "name": "How do I choose the right backsplash material for my kitchen style?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right backsplash material for my kitchen style?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right backsplash material involves considering your kitchen's overall aesthetic, existing color scheme, and practical needs. For a modern look, consider glass or stainless steel; for traditional, ceramic or natural stone might be suitable. Factors such as durability, maintenance, and your budget also play a significant role. Bringing photos of your kitchen and inspiration images can help us guide you through material selections and design options that complement your home.",
+        "@type": "Answer",
+        "description": "Consider your kitchen's style, color scheme, practical needs, durability, and budget when choosing backsplash material. Photos can help guide selection."
+      }
+    }
+  ],
+  "description": "Consider your kitchen's style, color scheme, practical needs, durability, and budget when choosing backsplash material. Photos can help guide selection."
 }

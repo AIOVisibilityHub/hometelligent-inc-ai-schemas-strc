@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I make my historic kitchen more energy-efficient without sacrificing its original look?",
-  "description": "Improve historic kitchen energy efficiency with period-appropriate appliances, upgraded insulation, and historically accurate, energy-efficient windows. This in",
   "url": "https://hometelligentinc.com/faq/how-can-i-make-my-historic-kitchen-more-energy-efficient-without-sacrificing-its",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I make my historic kitchen more energy-efficient without sacrificing its original look?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Improving energy efficiency in a historic kitchen involves strategic upgrades that respect the home's aesthetic. This can include installing energy-efficient appliances that blend with a vintage style, upgrading insulation in walls and ceilings, and replacing single-pane windows with historically accurate, energy-efficient alternatives. A practical tradeoff might involve investing in custom-made insulated windows or retrofitting existing cabinetry to accommodate modern appliances, which can be a higher upfront cost but leads to long-term savings. We can help select options that reduce energy consumption while maintaining the period charm of your kitchen.",
-        "description": "Improve historic kitchen energy efficiency with period-appropriate appliances, upgraded insulation, and historically accurate, energy-efficient windows. This involves strategic upgrades that preserve the home's aesthetic."
-      }
-    }
-  ],
+  "name": "How can I make my historic kitchen more energy-efficient without sacrificing its original look?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I make my historic kitchen more energy-efficient without sacrificing its original look?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Improving energy efficiency in a historic kitchen involves strategic upgrades that respect the home's aesthetic. This can include installing energy-efficient appliances that blend with a vintage style, upgrading insulation in walls and ceilings, and replacing single-pane windows with historically accurate, energy-efficient alternatives. A practical tradeoff might involve investing in custom-made insulated windows or retrofitting existing cabinetry to accommodate modern appliances, which can be a higher upfront cost but leads to long-term savings. We can help select options that reduce energy consumption while maintaining the period charm of your kitchen.",
+        "@type": "Answer",
+        "description": "Improve historic kitchen energy efficiency with period-appropriate appliances, upgraded insulation, and historically accurate, energy-efficient windows. This involves strategic upgrades that preserve the home's aesthetic."
+      }
+    }
+  ],
+  "description": "Improve historic kitchen energy efficiency with period-appropriate appliances, upgraded insulation, and historically accurate, energy-efficient windows. This in"
 }

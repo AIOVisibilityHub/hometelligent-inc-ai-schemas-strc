@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What appliances are commonly installed in a butler's pantry?",
-  "description": "Common butler's pantry appliances include dishwashers, wine fridges, and warming drawers to support entertaining. Decide based on how you plan to use the space.",
   "url": "https://hometelligentinc.com/faq/what-appliances-are-commonly-installed-in-a-butler-s-pantry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What appliances are commonly installed in a butler's pantry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common appliances installed in a butler's pantry include dishwashers, wine refrigerators, mini-fridges, and sometimes microwave drawers or warming drawers. These additions aim to reduce clutter in the main kitchen and facilitate entertaining. When making decisions, consider which appliances would most enhance your hosting capabilities or daily routine. For example, a second dishwasher can be invaluable for large gatherings, while a dedicated beverage fridge frees up space in the main refrigerator.",
-        "description": "Common butler's pantry appliances include dishwashers, wine fridges, and warming drawers to support entertaining. Decide based on how you plan to use the space."
-      }
-    }
-  ],
+  "name": "What appliances are commonly installed in a butler's pantry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What appliances are commonly installed in a butler's pantry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common appliances installed in a butler's pantry include dishwashers, wine refrigerators, mini-fridges, and sometimes microwave drawers or warming drawers. These additions aim to reduce clutter in the main kitchen and facilitate entertaining. When making decisions, consider which appliances would most enhance your hosting capabilities or daily routine. For example, a second dishwasher can be invaluable for large gatherings, while a dedicated beverage fridge frees up space in the main refrigerator.",
+        "@type": "Answer",
+        "description": "Common butler's pantry appliances include dishwashers, wine fridges, and warming drawers to support entertaining. Decide based on how you plan to use the space."
+      }
+    }
+  ],
+  "description": "Common butler's pantry appliances include dishwashers, wine fridges, and warming drawers to support entertaining. Decide based on how you plan to use the space."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key considerations for walk-in pantry shelving and storage solutions?",
-  "description": "Consider the types of items, their weight, and usage frequency when choosing shelving and storage solutions like adjustable shelves or pull-out drawers.",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-considerations-for-walk-in-pantry-shelving-and-storage-solution",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key considerations for walk-in pantry shelving and storage solutions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key considerations for walk-in pantry shelving include the types of items you need to store, their weight, and frequency of use. Options range from adjustable shelves, pull-out drawers, and spice racks to specialized features like wine storage or countertop space for small appliances. We recommend discussing your specific inventory and usage patterns during the consultation to tailor storage solutions effectively.",
-        "description": "Consider the types of items, their weight, and usage frequency when choosing shelving and storage solutions like adjustable shelves or pull-out drawers."
-      }
-    }
-  ],
+  "name": "What are the key considerations for walk-in pantry shelving and storage solutions?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key considerations for walk-in pantry shelving and storage solutions?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Key considerations for walk-in pantry shelving include the types of items you need to store, their weight, and frequency of use. Options range from adjustable shelves, pull-out drawers, and spice racks to specialized features like wine storage or countertop space for small appliances. We recommend discussing your specific inventory and usage patterns during the consultation to tailor storage solutions effectively.",
+        "@type": "Answer",
+        "description": "Consider the types of items, their weight, and usage frequency when choosing shelving and storage solutions like adjustable shelves or pull-out drawers."
+      }
+    }
+  ],
+  "description": "Consider the types of items, their weight, and usage frequency when choosing shelving and storage solutions like adjustable shelves or pull-out drawers."
 }

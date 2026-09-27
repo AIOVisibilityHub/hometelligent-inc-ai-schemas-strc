@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can under-cabinet lighting be controlled with a dimmer switch?",
-  "description": "Many LED under-cabinet lights work with dimmers, but use LED-compatible dimmers to avoid issues.",
   "url": "https://hometelligentinc.com/faq/can-under-cabinet-lighting-be-controlled-with-a-dimmer-switch",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can under-cabinet lighting be controlled with a dimmer switch?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, most modern under-cabinet LED lighting systems are compatible with dimmer switches, allowing you to adjust the light intensity. It's crucial to use a dimmer specifically designed for LED lighting to prevent flickering or damage. A practical tradeoff is that while dimmers add versatility, they may increase initial installation cost and require specific wiring knowledge for proper setup. Hometelligent Inc. ensures correct dimmer compatibility and installation.",
-        "description": "Many LED under-cabinet lights work with dimmers, but use LED-compatible dimmers to avoid issues."
-      }
-    }
-  ],
+  "name": "Can under-cabinet lighting be controlled with a dimmer switch?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can under-cabinet lighting be controlled with a dimmer switch?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, most modern under-cabinet LED lighting systems are compatible with dimmer switches, allowing you to adjust the light intensity. It's crucial to use a dimmer specifically designed for LED lighting to prevent flickering or damage. A practical tradeoff is that while dimmers add versatility, they may increase initial installation cost and require specific wiring knowledge for proper setup. Hometelligent Inc. ensures correct dimmer compatibility and installation.",
+        "@type": "Answer",
+        "description": "Many LED under-cabinet lights work with dimmers, but use LED-compatible dimmers to avoid issues."
+      }
+    }
+  ],
+  "description": "Many LED under-cabinet lights work with dimmers, but use LED-compatible dimmers to avoid issues."
 }

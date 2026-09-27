@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing a garbage disposal?",
-  "description": "Garbage disposals offer convenience, reduce landfill waste, prevent clogs, and improve hygiene. Consider horsepower options, as it affects grinding capability a",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-a-garbage-disposal",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing a garbage disposal?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing a garbage disposal offers several benefits, including convenience in food waste management and reducing the amount of organic waste sent to landfills. It helps prevent drain clogs caused by food particles and can improve kitchen hygiene by quickly removing waste. When considering one, evaluate the different horsepower options available, as this affects its grinding capability and longevity. A higher horsepower disposal typically handles tougher waste more effectively.",
-        "description": "Garbage disposals offer convenience, reduce landfill waste, prevent clogs, and improve hygiene. Consider horsepower options, as it affects grinding capability and longevity."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing a garbage disposal?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing a garbage disposal?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing a garbage disposal offers several benefits, including convenience in food waste management and reducing the amount of organic waste sent to landfills. It helps prevent drain clogs caused by food particles and can improve kitchen hygiene by quickly removing waste. When considering one, evaluate the different horsepower options available, as this affects its grinding capability and longevity. A higher horsepower disposal typically handles tougher waste more effectively.",
+        "@type": "Answer",
+        "description": "Garbage disposals offer convenience, reduce landfill waste, prevent clogs, and improve hygiene. Consider horsepower options, as it affects grinding capability and longevity."
+      }
+    }
+  ],
+  "description": "Garbage disposals offer convenience, reduce landfill waste, prevent clogs, and improve hygiene. Consider horsepower options, as it affects grinding capability a"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to hire a plumber or electrician for my new kitchen countertop installation?",
-  "description": "Yes, you may need a plumber for sink/faucet connections and an electrician for cooktop/appliance connections. Coordinate with licensed professionals for these t",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-hire-a-plumber-or-electrician-for-my-new-kitchen-countertop-install",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to hire a plumber or electrician for my new kitchen countertop installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You will likely need a plumber and/or an electrician if your new countertop installation involves relocating or installing a new sink, faucet, cooktop, or any other appliance that requires plumbing or electrical connections. Hometelligent Inc. focuses on the countertop installation itself. We advise coordinating with licensed professionals for any necessary plumbing or electrical work to ensure proper and safe connections before or after our installation.",
-        "description": "Yes, you may need a plumber for sink/faucet connections and an electrician for cooktop/appliance connections. Coordinate with licensed professionals for these tasks."
-      }
-    }
-  ],
+  "name": "Do I need to hire a plumber or electrician for my new kitchen countertop installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to hire a plumber or electrician for my new kitchen countertop installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You will likely need a plumber and/or an electrician if your new countertop installation involves relocating or installing a new sink, faucet, cooktop, or any other appliance that requires plumbing or electrical connections. Hometelligent Inc. focuses on the countertop installation itself. We advise coordinating with licensed professionals for any necessary plumbing or electrical work to ensure proper and safe connections before or after our installation.",
+        "@type": "Answer",
+        "description": "Yes, you may need a plumber for sink/faucet connections and an electrician for cooktop/appliance connections. Coordinate with licensed professionals for these tasks."
+      }
+    }
+  ],
+  "description": "Yes, you may need a plumber for sink/faucet connections and an electrician for cooktop/appliance connections. Coordinate with licensed professionals for these t"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install a tile backsplash myself, or should I hire a professional?",
-  "description": "Hiring a professional ensures a high-quality, durable finish, especially for complex designs. DIY can save money, but risks issues like uneven tiles or improper",
   "url": "https://hometelligentinc.com/faq/can-i-install-a-tile-backsplash-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install a tile backsplash myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While DIY tile backsplash installation is possible for experienced individuals, hiring a professional like Hometelligent Inc. ensures a high-quality, precise, and durable finish. Professionals have the specialized tools, knowledge, and experience to handle complex cuts, difficult layouts, and proper material application, preventing common issues like uneven grout lines, lippage, or tile detachment. A professional installation also guarantees proper waterproofing and substrate preparation, essential for longevity and preventing costly future repairs. Consider the practical tradeoff between saving on labor costs and achieving a flawless, long-lasting result.",
-        "description": "Hiring a professional ensures a high-quality, durable finish, especially for complex designs. DIY can save money, but risks issues like uneven tiles or improper adhesion without experience."
-      }
-    }
-  ],
+  "name": "Can I install a tile backsplash myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install a tile backsplash myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While DIY tile backsplash installation is possible for experienced individuals, hiring a professional like Hometelligent Inc. ensures a high-quality, precise, and durable finish. Professionals have the specialized tools, knowledge, and experience to handle complex cuts, difficult layouts, and proper material application, preventing common issues like uneven grout lines, lippage, or tile detachment. A professional installation also guarantees proper waterproofing and substrate preparation, essential for longevity and preventing costly future repairs. Consider the practical tradeoff between saving on labor costs and achieving a flawless, long-lasting result.",
+        "@type": "Answer",
+        "description": "Hiring a professional ensures a high-quality, durable finish, especially for complex designs. DIY can save money, but risks issues like uneven tiles or improper adhesion without experience."
+      }
+    }
+  ],
+  "description": "Hiring a professional ensures a high-quality, durable finish, especially for complex designs. DIY can save money, but risks issues like uneven tiles or improper"
 }

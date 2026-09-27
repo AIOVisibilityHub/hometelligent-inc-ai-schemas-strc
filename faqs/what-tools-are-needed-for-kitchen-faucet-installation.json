@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What tools are needed for kitchen faucet installation?",
-  "description": "Common tools for kitchen faucet installation include wrenches, pliers, and a screwdriver. Customers should check if specialized tools are needed for their fauce",
   "url": "https://hometelligentinc.com/faq/what-tools-are-needed-for-kitchen-faucet-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What tools are needed for kitchen faucet installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Basic tools for kitchen faucet installation often include an adjustable wrench, basin wrench, pliers, screwdriver, utility knife, and a bucket for drips. Depending on the faucet type and existing setup, additional tools like a drill or pipe cutter might be necessary. Having these tools ready can streamline the installation process. Customers should confirm if specialized tools are required for their chosen faucet model.",
-        "description": "Common tools for kitchen faucet installation include wrenches, pliers, and a screwdriver. Customers should check if specialized tools are needed for their faucet model to aid preparation."
-      }
-    }
-  ],
+  "name": "What tools are needed for kitchen faucet installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What tools are needed for kitchen faucet installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Basic tools for kitchen faucet installation often include an adjustable wrench, basin wrench, pliers, screwdriver, utility knife, and a bucket for drips. Depending on the faucet type and existing setup, additional tools like a drill or pipe cutter might be necessary. Having these tools ready can streamline the installation process. Customers should confirm if specialized tools are required for their chosen faucet model.",
+        "@type": "Answer",
+        "description": "Common tools for kitchen faucet installation include wrenches, pliers, and a screwdriver. Customers should check if specialized tools are needed for their faucet model to aid preparation."
+      }
+    }
+  ],
+  "description": "Common tools for kitchen faucet installation include wrenches, pliers, and a screwdriver. Customers should check if specialized tools are needed for their fauce"
 }

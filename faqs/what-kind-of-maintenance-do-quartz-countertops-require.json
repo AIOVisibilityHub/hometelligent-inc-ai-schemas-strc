@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of maintenance do quartz countertops require?",
-  "description": "Quartz countertops are low maintenance; they don't require sealing and can be cleaned with mild soap and water. Avoid harsh chemicals and extreme heat to protec",
   "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-do-quartz-countertops-require",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of maintenance do quartz countertops require?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Quartz countertops are known for their low maintenance requirements due to their non-porous nature. This means they do not require sealing, unlike natural stone options. Regular cleaning with mild soap and water is typically sufficient to keep them looking pristine. It's advisable to avoid harsh chemicals, abrasive cleaners, and extreme heat directly on the surface, as these can potentially damage the resin binders. Promptly wiping up spills helps maintain their appearance. Our team provides specific care instructions tailored to your chosen quartz product after installation.",
-        "description": "Quartz countertops are low maintenance; they don't require sealing and can be cleaned with mild soap and water. Avoid harsh chemicals and extreme heat to protect the surface."
-      }
-    }
-  ],
+  "name": "What kind of maintenance do quartz countertops require?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of maintenance do quartz countertops require?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Quartz countertops are known for their low maintenance requirements due to their non-porous nature. This means they do not require sealing, unlike natural stone options. Regular cleaning with mild soap and water is typically sufficient to keep them looking pristine. It's advisable to avoid harsh chemicals, abrasive cleaners, and extreme heat directly on the surface, as these can potentially damage the resin binders. Promptly wiping up spills helps maintain their appearance. Our team provides specific care instructions tailored to your chosen quartz product after installation.",
+        "@type": "Answer",
+        "description": "Quartz countertops are low maintenance; they don't require sealing and can be cleaned with mild soap and water. Avoid harsh chemicals and extreme heat to protect the surface."
+      }
+    }
+  ],
+  "description": "Quartz countertops are low maintenance; they don't require sealing and can be cleaned with mild soap and water. Avoid harsh chemicals and extreme heat to protec"
 }

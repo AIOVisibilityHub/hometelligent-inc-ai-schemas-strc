@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How many recessed lights do I need for my kitchen?",
-  "description": "The number of recessed lights depends on kitchen size, ceiling height, and desired light levels; a professional design ensures optimal illumination.",
   "url": "https://hometelligentinc.com/faq/how-many-recessed-lights-do-i-need-for-my-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How many recessed lights do I need for my kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The number of recessed lights needed for a kitchen depends on its size, ceiling height, and the desired light levels. A general rule of thumb is to calculate the room's total wattage, aiming for 20-40 watts per square foot, or use lumens per square foot (around 30-40 lumens/sq ft for general kitchen lighting). For optimal results, Hometelligent Inc. recommends a professional lighting design consultation to consider cabinet placement, natural light sources, and specific task areas, ensuring uniform illumination without dark spots or excessive glare.",
-        "description": "The number of recessed lights depends on kitchen size, ceiling height, and desired light levels; a professional design ensures optimal illumination."
-      }
-    }
-  ],
+  "name": "How many recessed lights do I need for my kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How many recessed lights do I need for my kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The number of recessed lights needed for a kitchen depends on its size, ceiling height, and the desired light levels. A general rule of thumb is to calculate the room's total wattage, aiming for 20-40 watts per square foot, or use lumens per square foot (around 30-40 lumens/sq ft for general kitchen lighting). For optimal results, Hometelligent Inc. recommends a professional lighting design consultation to consider cabinet placement, natural light sources, and specific task areas, ensuring uniform illumination without dark spots or excessive glare.",
+        "@type": "Answer",
+        "description": "The number of recessed lights depends on kitchen size, ceiling height, and desired light levels; a professional design ensures optimal illumination."
+      }
+    }
+  ],
+  "description": "The number of recessed lights depends on kitchen size, ceiling height, and desired light levels; a professional design ensures optimal illumination."
 }

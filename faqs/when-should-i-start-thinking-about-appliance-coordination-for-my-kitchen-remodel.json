@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I start thinking about appliance coordination for my kitchen remodel?",
-  "description": "Start considering appliance coordination early in the kitchen design phase to allow for selection, ordering, and delivery lead times, ensuring smooth integratio",
   "url": "https://hometelligentinc.com/faq/when-should-i-start-thinking-about-appliance-coordination-for-my-kitchen-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I start thinking about appliance coordination for my kitchen remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should begin considering appliance coordination early in the planning phase of your kitchen remodel, ideally when finalizing your kitchen design and cabinetry. This allows ample time to select appliances, confirm their specifications, and order them, factoring in potential lead times for delivery, which can sometimes be several weeks or months. Early planning helps Hometelligent Inc. integrate appliance installation into the project timeline efficiently.",
-        "description": "Start considering appliance coordination early in the kitchen design phase to allow for selection, ordering, and delivery lead times, ensuring smooth integration into your remodel timeline."
-      }
-    }
-  ],
+  "name": "When should I start thinking about appliance coordination for my kitchen remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I start thinking about appliance coordination for my kitchen remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should begin considering appliance coordination early in the planning phase of your kitchen remodel, ideally when finalizing your kitchen design and cabinetry. This allows ample time to select appliances, confirm their specifications, and order them, factoring in potential lead times for delivery, which can sometimes be several weeks or months. Early planning helps Hometelligent Inc. integrate appliance installation into the project timeline efficiently.",
+        "@type": "Answer",
+        "description": "Start considering appliance coordination early in the kitchen design phase to allow for selection, ordering, and delivery lead times, ensuring smooth integration into your remodel timeline."
+      }
+    }
+  ],
+  "description": "Start considering appliance coordination early in the kitchen design phase to allow for selection, ordering, and delivery lead times, ensuring smooth integratio"
 }

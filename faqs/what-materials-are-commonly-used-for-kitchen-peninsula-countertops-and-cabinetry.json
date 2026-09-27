@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are commonly used for kitchen peninsula countertops and cabinetry?",
-  "description": "Countertop materials include granite, quartz, and laminate; cabinetry options range from wood to MDF. Choose based on aesthetics, budget, and durability.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-commonly-used-for-kitchen-peninsula-countertops-and-cabinetry",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are commonly used for kitchen peninsula countertops and cabinetry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials for kitchen peninsula countertops include granite, quartz, marble, laminate, and solid surface, each offering distinct aesthetics and durability. For cabinetry, options range from solid wood and plywood to MDF, with various finishes like paint, stain, or thermofoil. Your choice of materials should align with your aesthetic preferences, budget, and desired maintenance level, ensuring longevity and cohesion with your existing kitchen design.",
-        "description": "Countertop materials include granite, quartz, and laminate; cabinetry options range from wood to MDF. Choose based on aesthetics, budget, and durability."
-      }
-    }
-  ],
+  "name": "What materials are commonly used for kitchen peninsula countertops and cabinetry?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are commonly used for kitchen peninsula countertops and cabinetry?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials for kitchen peninsula countertops include granite, quartz, marble, laminate, and solid surface, each offering distinct aesthetics and durability. For cabinetry, options range from solid wood and plywood to MDF, with various finishes like paint, stain, or thermofoil. Your choice of materials should align with your aesthetic preferences, budget, and desired maintenance level, ensuring longevity and cohesion with your existing kitchen design.",
+        "@type": "Answer",
+        "description": "Countertop materials include granite, quartz, and laminate; cabinetry options range from wood to MDF. Choose based on aesthetics, budget, and durability."
+      }
+    }
+  ],
+  "description": "Countertop materials include granite, quartz, and laminate; cabinetry options range from wood to MDF. Choose based on aesthetics, budget, and durability."
 }

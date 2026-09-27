@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do marble countertops compare to granite or quartz for kitchen use?",
-  "description": "Marble offers classic beauty but is softer than granite or quartz, making it more prone to etching and staining, a key tradeoff for kitchen use.",
   "url": "https://hometelligentinc.com/faq/how-do-marble-countertops-compare-to-granite-or-quartz-for-kitchen-use",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do marble countertops compare to granite or quartz for kitchen use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Marble offers a classic, luxurious aesthetic with unique veining patterns, providing a timeless look. However, it is a softer, more porous stone than granite or quartz, making it more susceptible to etching from acids and staining. Granite is harder and more stain-resistant, while quartz is engineered for high durability and consistency. A practical tradeoff is choosing between marble's natural beauty and the lower maintenance requirements of granite or quartz.",
-        "description": "Marble offers classic beauty but is softer than granite or quartz, making it more prone to etching and staining, a key tradeoff for kitchen use."
-      }
-    }
-  ],
+  "name": "How do marble countertops compare to granite or quartz for kitchen use?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do marble countertops compare to granite or quartz for kitchen use?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Marble offers a classic, luxurious aesthetic with unique veining patterns, providing a timeless look. However, it is a softer, more porous stone than granite or quartz, making it more susceptible to etching from acids and staining. Granite is harder and more stain-resistant, while quartz is engineered for high durability and consistency. A practical tradeoff is choosing between marble's natural beauty and the lower maintenance requirements of granite or quartz.",
+        "@type": "Answer",
+        "description": "Marble offers classic beauty but is softer than granite or quartz, making it more prone to etching and staining, a key tradeoff for kitchen use."
+      }
+    }
+  ],
+  "description": "Marble offers classic beauty but is softer than granite or quartz, making it more prone to etching and staining, a key tradeoff for kitchen use."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations are needed before Hometelligent Inc. starts pantry construction?",
-  "description": "Before construction, clear the pantry area, arrange temporary food storage, ensure clear access for the team, and confirm the final design and materials.",
   "url": "https://hometelligentinc.com/faq/what-preparations-are-needed-before-hometelligent-inc-starts-pantry-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations are needed before Hometelligent Inc. starts pantry construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before Hometelligent Inc. begins pantry construction, you'll need to clear out the designated area completely, removing all food items, dishes, and any existing shelving or cabinetry that won't be reused. If the pantry is in an active kitchen, consider setting up a temporary food storage solution. We also recommend having a clear pathway for our team and ensuring access to necessary utilities. Reviewing the final design one last time and confirming material selections helps ensure a smooth start to the project. Our team will provide a detailed checklist of preparations during the planning phase.",
-        "description": "Before construction, clear the pantry area, arrange temporary food storage, ensure clear access for the team, and confirm the final design and materials."
-      }
-    }
-  ],
+  "name": "What preparations are needed before Hometelligent Inc. starts pantry construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations are needed before Hometelligent Inc. starts pantry construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before Hometelligent Inc. begins pantry construction, you'll need to clear out the designated area completely, removing all food items, dishes, and any existing shelving or cabinetry that won't be reused. If the pantry is in an active kitchen, consider setting up a temporary food storage solution. We also recommend having a clear pathway for our team and ensuring access to necessary utilities. Reviewing the final design one last time and confirming material selections helps ensure a smooth start to the project. Our team will provide a detailed checklist of preparations during the planning phase.",
+        "@type": "Answer",
+        "description": "Before construction, clear the pantry area, arrange temporary food storage, ensure clear access for the team, and confirm the final design and materials."
+      }
+    }
+  ],
+  "description": "Before construction, clear the pantry area, arrange temporary food storage, ensure clear access for the team, and confirm the final design and materials."
 }

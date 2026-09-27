@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is Hometelligent's service area for kitchen sink installation?",
-  "description": "Hometelligent offers kitchen sink installation services in Alameda, Albany, Berkeley, Dublin, and Emeryville.",
   "url": "https://hometelligentinc.com/faq/what-is-hometelligent-s-service-area-for-kitchen-sink-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Hometelligent's service area for kitchen sink installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent provides kitchen sink installation services in Alameda, Albany, Berkeley, Dublin, and Emeryville. Our local presence in these specific areas allows us to respond efficiently to project inquiries and provide timely service. If you are located within these cities, we are well-equipped to assist with your installation needs.",
-        "description": "Hometelligent offers kitchen sink installation services in Alameda, Albany, Berkeley, Dublin, and Emeryville."
-      }
-    }
-  ],
+  "name": "What is Hometelligent's service area for kitchen sink installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is Hometelligent's service area for kitchen sink installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent provides kitchen sink installation services in Alameda, Albany, Berkeley, Dublin, and Emeryville. Our local presence in these specific areas allows us to respond efficiently to project inquiries and provide timely service. If you are located within these cities, we are well-equipped to assist with your installation needs.",
+        "@type": "Answer",
+        "description": "Hometelligent offers kitchen sink installation services in Alameda, Albany, Berkeley, Dublin, and Emeryville."
+      }
+    }
+  ],
+  "description": "Hometelligent offers kitchen sink installation services in Alameda, Albany, Berkeley, Dublin, and Emeryville."
 }

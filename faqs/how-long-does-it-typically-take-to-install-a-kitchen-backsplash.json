@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it typically take to install a kitchen backsplash?",
-  "description": "Installation typically takes one to three days, varying with backsplash size, design complexity, and material.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-to-install-a-kitchen-backsplash",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it typically take to install a kitchen backsplash?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation time for a kitchen backsplash generally ranges from one to three days, depending on the size of the area, the complexity of the design, and the chosen material. More intricate patterns or materials like small mosaic tiles can extend the timeline. Preparation work, such as surface cleaning and leveling, also contributes to the overall duration. We provide a detailed project timeline during the consultation based on your specific kitchen and material choices.",
-        "description": "Installation typically takes one to three days, varying with backsplash size, design complexity, and material."
-      }
-    }
-  ],
+  "name": "How long does it typically take to install a kitchen backsplash?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it typically take to install a kitchen backsplash?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation time for a kitchen backsplash generally ranges from one to three days, depending on the size of the area, the complexity of the design, and the chosen material. More intricate patterns or materials like small mosaic tiles can extend the timeline. Preparation work, such as surface cleaning and leveling, also contributes to the overall duration. We provide a detailed project timeline during the consultation based on your specific kitchen and material choices.",
+        "@type": "Answer",
+        "description": "Installation typically takes one to three days, varying with backsplash size, design complexity, and material."
+      }
+    }
+  ],
+  "description": "Installation typically takes one to three days, varying with backsplash size, design complexity, and material."
 }

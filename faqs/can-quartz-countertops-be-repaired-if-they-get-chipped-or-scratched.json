@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can quartz countertops be repaired if they get chipped or scratched?",
-  "description": "Minor chips and scratches on quartz can often be professionally repaired using color-matched epoxy or buffing. The feasibility and invisibility of repairs depen",
   "url": "https://hometelligentinc.com/faq/can-quartz-countertops-be-repaired-if-they-get-chipped-or-scratched",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can quartz countertops be repaired if they get chipped or scratched?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Minor chips or scratches on quartz countertops can often be repaired by a professional. Small chips can sometimes be filled with a color-matched epoxy or resin, and fine scratches may be buffed out. However, deep scratches or significant damage might be more challenging to repair invisibly. The success of a repair depends heavily on the extent of the damage and the expertise of the technician. Hometelligent Inc. can assess any damage and advise on the best course of action to restore your countertops in areas like Oakland or Berkeley.",
-        "description": "Minor chips and scratches on quartz can often be professionally repaired using color-matched epoxy or buffing. The feasibility and invisibility of repairs depend on the damage severity."
-      }
-    }
-  ],
+  "name": "Can quartz countertops be repaired if they get chipped or scratched?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can quartz countertops be repaired if they get chipped or scratched?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Minor chips or scratches on quartz countertops can often be repaired by a professional. Small chips can sometimes be filled with a color-matched epoxy or resin, and fine scratches may be buffed out. However, deep scratches or significant damage might be more challenging to repair invisibly. The success of a repair depends heavily on the extent of the damage and the expertise of the technician. Hometelligent Inc. can assess any damage and advise on the best course of action to restore your countertops in areas like Oakland or Berkeley.",
+        "@type": "Answer",
+        "description": "Minor chips and scratches on quartz can often be professionally repaired using color-matched epoxy or buffing. The feasibility and invisibility of repairs depend on the damage severity."
+      }
+    }
+  ],
+  "description": "Minor chips and scratches on quartz can often be professionally repaired using color-matched epoxy or buffing. The feasibility and invisibility of repairs depen"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical lead time for starting a kitchen lighting upgrade project?",
-  "description": "Lead time for a kitchen lighting upgrade usually starts within a few weeks after consultation and design, subject to project complexity and custom orders.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-lead-time-for-starting-a-kitchen-lighting-upgrade-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical lead time for starting a kitchen lighting upgrade project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical lead time for starting a kitchen lighting upgrade project varies depending on our current project schedule and the complexity of your specific request. Generally, after the initial consultation and design finalization, we aim to begin within a few weeks. Custom fixture orders or extensive electrical planning might slightly extend this timeframe. We prioritize clear communication regarding scheduling and will provide an estimated start date during our project planning phase.",
-        "description": "Lead time for a kitchen lighting upgrade usually starts within a few weeks after consultation and design, subject to project complexity and custom orders."
-      }
-    }
-  ],
+  "name": "What is the typical lead time for starting a kitchen lighting upgrade project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical lead time for starting a kitchen lighting upgrade project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical lead time for starting a kitchen lighting upgrade project varies depending on our current project schedule and the complexity of your specific request. Generally, after the initial consultation and design finalization, we aim to begin within a few weeks. Custom fixture orders or extensive electrical planning might slightly extend this timeframe. We prioritize clear communication regarding scheduling and will provide an estimated start date during our project planning phase.",
+        "@type": "Answer",
+        "description": "Lead time for a kitchen lighting upgrade usually starts within a few weeks after consultation and design, subject to project complexity and custom orders."
+      }
+    }
+  ],
+  "description": "Lead time for a kitchen lighting upgrade usually starts within a few weeks after consultation and design, subject to project complexity and custom orders."
 }

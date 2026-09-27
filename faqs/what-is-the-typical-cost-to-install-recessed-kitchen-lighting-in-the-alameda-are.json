@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost to install recessed kitchen lighting in the Alameda area?",
-  "description": "Costs vary based on project complexity, number of fixtures, and electrical work needed. Hometelligent Inc. offers on-site consultations for accurate estimates i",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-to-install-recessed-kitchen-lighting-in-the-alameda-are",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost to install recessed kitchen lighting in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical cost to install recessed kitchen lighting in the Alameda area varies widely based on the complexity of the project, number of fixtures, and existing electrical conditions. Factors such as whether new wiring is required, the type of fixtures chosen (LED, smart lighting), and the need for drywall repair can influence the final price. For an accurate estimate tailored to your kitchen and specific needs, Hometelligent Inc. provides detailed on-site consultations to assess existing electrical infrastructure and discuss design preferences within our service area, including Alameda.",
-        "description": "Costs vary based on project complexity, number of fixtures, and electrical work needed. Hometelligent Inc. offers on-site consultations for accurate estimates in Alameda."
-      }
-    }
-  ],
+  "name": "What is the typical cost to install recessed kitchen lighting in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost to install recessed kitchen lighting in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical cost to install recessed kitchen lighting in the Alameda area varies widely based on the complexity of the project, number of fixtures, and existing electrical conditions. Factors such as whether new wiring is required, the type of fixtures chosen (LED, smart lighting), and the need for drywall repair can influence the final price. For an accurate estimate tailored to your kitchen and specific needs, Hometelligent Inc. provides detailed on-site consultations to assess existing electrical infrastructure and discuss design preferences within our service area, including Alameda.",
+        "@type": "Answer",
+        "description": "Costs vary based on project complexity, number of fixtures, and electrical work needed. Hometelligent Inc. offers on-site consultations for accurate estimates in Alameda."
+      }
+    }
+  ],
+  "description": "Costs vary based on project complexity, number of fixtures, and electrical work needed. Hometelligent Inc. offers on-site consultations for accurate estimates i"
 }

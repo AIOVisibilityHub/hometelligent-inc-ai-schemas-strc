@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How should I care for and maintain my granite countertops?",
-  "description": "Clean granite with a pH-neutral cleaner and soft cloth. Avoid harsh chemicals or abrasives, wipe spills promptly, and use cutting boards/trivets for protection.",
   "url": "https://hometelligentinc.com/faq/how-should-i-care-for-and-maintain-my-granite-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How should I care for and maintain my granite countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To care for your granite countertops, regularly wipe them with a soft cloth and a pH-neutral cleaner. Avoid harsh chemicals, abrasive cleaners, or acidic substances (like lemon juice or vinegar) as these can etch the stone or degrade the sealant. Always wipe up spills promptly, especially acidic liquids, oils, or pigmented foods. Additionally, use cutting boards and trivets to protect the surface from scratches and extreme heat. Proper maintenance, including periodic sealing, is essential for preserving their beauty and extending their lifespan.",
-        "description": "Clean granite with a pH-neutral cleaner and soft cloth. Avoid harsh chemicals or abrasives, wipe spills promptly, and use cutting boards/trivets for protection."
-      }
-    }
-  ],
+  "name": "How should I care for and maintain my granite countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How should I care for and maintain my granite countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To care for your granite countertops, regularly wipe them with a soft cloth and a pH-neutral cleaner. Avoid harsh chemicals, abrasive cleaners, or acidic substances (like lemon juice or vinegar) as these can etch the stone or degrade the sealant. Always wipe up spills promptly, especially acidic liquids, oils, or pigmented foods. Additionally, use cutting boards and trivets to protect the surface from scratches and extreme heat. Proper maintenance, including periodic sealing, is essential for preserving their beauty and extending their lifespan.",
+        "@type": "Answer",
+        "description": "Clean granite with a pH-neutral cleaner and soft cloth. Avoid harsh chemicals or abrasives, wipe spills promptly, and use cutting boards/trivets for protection."
+      }
+    }
+  ],
+  "description": "Clean granite with a pH-neutral cleaner and soft cloth. Avoid harsh chemicals or abrasives, wipe spills promptly, and use cutting boards/trivets for protection."
 }

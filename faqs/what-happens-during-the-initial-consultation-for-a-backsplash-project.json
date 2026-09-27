@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What happens during the initial consultation for a backsplash project?",
-  "description": "The initial consultation involves an on-site visit to discuss design ideas, assess the space, take measurements, and inspect wall conditions. We provide recomme",
   "url": "https://hometelligentinc.com/faq/what-happens-during-the-initial-consultation-for-a-backsplash-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What happens during the initial consultation for a backsplash project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "During an initial consultation for a backsplash project, a Hometelligent Inc. representative will visit your home in areas like Alameda, Albany, Berkeley, or Emeryville to assess the existing space. We discuss your design ideas, desired materials, and budget. Measurements of the backsplash area are taken, and we inspect the wall condition to identify any necessary preparation. This meeting allows us to understand your vision, offer professional recommendations on tile types and layouts, and address any questions you may have, ensuring a clear scope of work for your personalized estimate.",
-        "description": "The initial consultation involves an on-site visit to discuss design ideas, assess the space, take measurements, and inspect wall conditions. We provide recommendations and develop a project scope for your estimate."
-      }
-    }
-  ],
+  "name": "What happens during the initial consultation for a backsplash project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What happens during the initial consultation for a backsplash project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "During an initial consultation for a backsplash project, a Hometelligent Inc. representative will visit your home in areas like Alameda, Albany, Berkeley, or Emeryville to assess the existing space. We discuss your design ideas, desired materials, and budget. Measurements of the backsplash area are taken, and we inspect the wall condition to identify any necessary preparation. This meeting allows us to understand your vision, offer professional recommendations on tile types and layouts, and address any questions you may have, ensuring a clear scope of work for your personalized estimate.",
+        "@type": "Answer",
+        "description": "The initial consultation involves an on-site visit to discuss design ideas, assess the space, take measurements, and inspect wall conditions. We provide recommendations and develop a project scope for your estimate."
+      }
+    }
+  ],
+  "description": "The initial consultation involves an on-site visit to discuss design ideas, assess the space, take measurements, and inspect wall conditions. We provide recomme"
 }

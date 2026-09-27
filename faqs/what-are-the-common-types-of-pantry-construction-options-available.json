@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common types of pantry construction options available?",
-  "description": "Common pantry construction options include reach-in, walk-in, butler's, and larder pantries, each offering different storage capacities and integration methods.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-pantry-construction-options-available",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common types of pantry construction options available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pantry construction offers various options to suit different needs and kitchen layouts. Common types include reach-in pantries, often integrated into existing kitchen walls, and walk-in pantries, which provide more storage space and often include custom shelving systems. Additionally, some homeowners opt for butler's pantries, which offer extended counter space and storage, or larder cabinets for smaller, freestanding solutions. The best option depends on your available space, budget, and specific storage requirements, such as whether you need space for small appliances or bulk food items.",
-        "description": "Common pantry construction options include reach-in, walk-in, butler's, and larder pantries, each offering different storage capacities and integration methods."
-      }
-    }
-  ],
+  "name": "What are the common types of pantry construction options available?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common types of pantry construction options available?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Pantry construction offers various options to suit different needs and kitchen layouts. Common types include reach-in pantries, often integrated into existing kitchen walls, and walk-in pantries, which provide more storage space and often include custom shelving systems. Additionally, some homeowners opt for butler's pantries, which offer extended counter space and storage, or larder cabinets for smaller, freestanding solutions. The best option depends on your available space, budget, and specific storage requirements, such as whether you need space for small appliances or bulk food items.",
+        "@type": "Answer",
+        "description": "Common pantry construction options include reach-in, walk-in, butler's, and larder pantries, each offering different storage capacities and integration methods."
+      }
+    }
+  ],
+  "description": "Common pantry construction options include reach-in, walk-in, butler's, and larder pantries, each offering different storage capacities and integration methods."
 }

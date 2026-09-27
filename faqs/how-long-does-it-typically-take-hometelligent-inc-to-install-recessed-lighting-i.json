@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it typically take Hometelligent Inc. to install recessed lighting in a kitchen?",
-  "description": "Installation time varies by project scope, from 1-2 days for straightforward jobs to 3-5 days for more complex setups with significant rewiring.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-typically-take-hometelligent-inc-to-install-recessed-lighting-i",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it typically take Hometelligent Inc. to install recessed lighting in a kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical timeframe for Hometelligent Inc. to install recessed lighting in a kitchen varies depending on the project's scope, including the number of lights, ceiling type, and existing electrical work required. A straightforward installation in a moderately sized kitchen with accessible attic space might take 1-2 days. More complex projects involving significant rewiring or ceiling modifications could extend to 3-5 days. During our initial consultation, we provide a detailed project timeline, outlining each phase from preparation to final cleanup and testing.",
-        "description": "Installation time varies by project scope, from 1-2 days for straightforward jobs to 3-5 days for more complex setups with significant rewiring."
-      }
-    }
-  ],
+  "name": "How long does it typically take Hometelligent Inc. to install recessed lighting in a kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it typically take Hometelligent Inc. to install recessed lighting in a kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical timeframe for Hometelligent Inc. to install recessed lighting in a kitchen varies depending on the project's scope, including the number of lights, ceiling type, and existing electrical work required. A straightforward installation in a moderately sized kitchen with accessible attic space might take 1-2 days. More complex projects involving significant rewiring or ceiling modifications could extend to 3-5 days. During our initial consultation, we provide a detailed project timeline, outlining each phase from preparation to final cleanup and testing.",
+        "@type": "Answer",
+        "description": "Installation time varies by project scope, from 1-2 days for straightforward jobs to 3-5 days for more complex setups with significant rewiring."
+      }
+    }
+  ],
+  "description": "Installation time varies by project scope, from 1-2 days for straightforward jobs to 3-5 days for more complex setups with significant rewiring."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are commonly used for countertops in luxury kitchen remodels?",
-  "description": "Luxury kitchen countertops commonly use natural stone (marble, granite, quartzite) or high-end engineered quartz, chosen for aesthetics, durability, and mainten",
   "url": "https://hometelligentinc.com/faq/what-materials-are-commonly-used-for-countertops-in-luxury-kitchen-remodels",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are commonly used for countertops in luxury kitchen remodels?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For luxury kitchen countertops, popular choices include natural stone like marble, granite, and quartzite, as well as high-end engineered quartz and durable solid surfaces. Marble offers a classic, elegant look but requires more maintenance, while granite and quartzite are known for their durability and unique patterns. Engineered quartz provides a consistent appearance and excellent stain resistance. The selection of countertop material should consider both aesthetic appeal and practical factors such as durability, maintenance requirements, and how well it complements other kitchen elements. Thickness and edge profiles also contribute to the luxurious feel.",
-        "description": "Luxury kitchen countertops commonly use natural stone (marble, granite, quartzite) or high-end engineered quartz, chosen for aesthetics, durability, and maintenance."
-      }
-    }
-  ],
+  "name": "What materials are commonly used for countertops in luxury kitchen remodels?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are commonly used for countertops in luxury kitchen remodels?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For luxury kitchen countertops, popular choices include natural stone like marble, granite, and quartzite, as well as high-end engineered quartz and durable solid surfaces. Marble offers a classic, elegant look but requires more maintenance, while granite and quartzite are known for their durability and unique patterns. Engineered quartz provides a consistent appearance and excellent stain resistance. The selection of countertop material should consider both aesthetic appeal and practical factors such as durability, maintenance requirements, and how well it complements other kitchen elements. Thickness and edge profiles also contribute to the luxurious feel.",
+        "@type": "Answer",
+        "description": "Luxury kitchen countertops commonly use natural stone (marble, granite, quartzite) or high-end engineered quartz, chosen for aesthetics, durability, and maintenance."
+      }
+    }
+  ],
+  "description": "Luxury kitchen countertops commonly use natural stone (marble, granite, quartzite) or high-end engineered quartz, chosen for aesthetics, durability, and mainten"
 }

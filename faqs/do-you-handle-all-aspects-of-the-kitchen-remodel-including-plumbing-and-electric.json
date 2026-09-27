@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do you handle all aspects of the kitchen remodel, including plumbing and electrical work?",
-  "description": "Yes, Hometelligent Inc. manages all aspects of kitchen remodels, including demolition, plumbing, electrical, and installation. Our integrated approach ensures s",
   "url": "https://hometelligentinc.com/faq/do-you-handle-all-aspects-of-the-kitchen-remodel-including-plumbing-and-electric",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you handle all aspects of the kitchen remodel, including plumbing and electrical work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, as a full-service construction company, Hometelligent Inc. manages all aspects of your kitchen remodel project from start to finish. This includes demolition, structural changes, plumbing, electrical, flooring, cabinetry installation, and final finishing touches. Our integrated approach ensures seamless coordination between all trades and adherence to local building codes and permits, simplifying the process for homeowners throughout our service area, including Alameda, Albany, and Emeryville.",
-        "description": "Yes, Hometelligent Inc. manages all aspects of kitchen remodels, including demolition, plumbing, electrical, and installation. Our integrated approach ensures seamless coordination and adherence to building codes."
-      }
-    }
-  ],
+  "name": "Do you handle all aspects of the kitchen remodel, including plumbing and electrical work?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do you handle all aspects of the kitchen remodel, including plumbing and electrical work?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, as a full-service construction company, Hometelligent Inc. manages all aspects of your kitchen remodel project from start to finish. This includes demolition, structural changes, plumbing, electrical, flooring, cabinetry installation, and final finishing touches. Our integrated approach ensures seamless coordination between all trades and adherence to local building codes and permits, simplifying the process for homeowners throughout our service area, including Alameda, Albany, and Emeryville.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. manages all aspects of kitchen remodels, including demolition, plumbing, electrical, and installation. Our integrated approach ensures seamless coordination and adherence to building codes."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. manages all aspects of kitchen remodels, including demolition, plumbing, electrical, and installation. Our integrated approach ensures s"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information do you need about my appliances for installation coordination?",
-  "description": "We need detailed appliance specifications like dimensions, electrical, plumbing, and gas requirements to ensure proper utility rough-ins and prevent installatio",
   "url": "https://hometelligentinc.com/faq/what-information-do-you-need-about-my-appliances-for-installation-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information do you need about my appliances for installation coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For effective installation coordination, Hometelligent Inc. needs detailed specifications for each appliance, including precise dimensions (height, width, depth), electrical requirements (voltage, amperage, plug type), plumbing connections (water supply, drain), and gas line requirements. Providing these details early in the project helps us ensure that rough-ins and utility connections are correctly prepared before appliance delivery, preventing on-site delays or modifications.",
-        "description": "We need detailed appliance specifications like dimensions, electrical, plumbing, and gas requirements to ensure proper utility rough-ins and prevent installation delays."
-      }
-    }
-  ],
+  "name": "What information do you need about my appliances for installation coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information do you need about my appliances for installation coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For effective installation coordination, Hometelligent Inc. needs detailed specifications for each appliance, including precise dimensions (height, width, depth), electrical requirements (voltage, amperage, plug type), plumbing connections (water supply, drain), and gas line requirements. Providing these details early in the project helps us ensure that rough-ins and utility connections are correctly prepared before appliance delivery, preventing on-site delays or modifications.",
+        "@type": "Answer",
+        "description": "We need detailed appliance specifications like dimensions, electrical, plumbing, and gas requirements to ensure proper utility rough-ins and prevent installation delays."
+      }
+    }
+  ],
+  "description": "We need detailed appliance specifications like dimensions, electrical, plumbing, and gas requirements to ensure proper utility rough-ins and prevent installatio"
 }

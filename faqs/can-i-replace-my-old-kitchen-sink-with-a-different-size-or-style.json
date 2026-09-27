@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I replace my old kitchen sink with a different size or style?",
-  "description": "Yes, you can replace your old sink with a different size or style, though it may require countertop or cabinetry modifications.",
   "url": "https://hometelligentinc.com/faq/can-i-replace-my-old-kitchen-sink-with-a-different-size-or-style",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I replace my old kitchen sink with a different size or style?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is often possible to replace your old kitchen sink with a different size or style, but it may require modifications to your countertop and/or cabinetry. For example, upsizing a sink or switching to a farmhouse style might necessitate cutting a larger opening in the countertop or altering the base cabinet. We can assess your current setup to determine the feasibility and discuss any structural adjustments needed.",
-        "description": "Yes, you can replace your old sink with a different size or style, though it may require countertop or cabinetry modifications."
-      }
-    }
-  ],
+  "name": "Can I replace my old kitchen sink with a different size or style?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I replace my old kitchen sink with a different size or style?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, it is often possible to replace your old kitchen sink with a different size or style, but it may require modifications to your countertop and/or cabinetry. For example, upsizing a sink or switching to a farmhouse style might necessitate cutting a larger opening in the countertop or altering the base cabinet. We can assess your current setup to determine the feasibility and discuss any structural adjustments needed.",
+        "@type": "Answer",
+        "description": "Yes, you can replace your old sink with a different size or style, though it may require countertop or cabinetry modifications."
+      }
+    }
+  ],
+  "description": "Yes, you can replace your old sink with a different size or style, though it may require countertop or cabinetry modifications."
 }

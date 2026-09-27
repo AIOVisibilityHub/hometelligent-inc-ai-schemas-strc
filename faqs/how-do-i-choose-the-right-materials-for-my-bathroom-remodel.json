@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right materials for my bathroom remodel?",
-  "description": "Choose materials by balancing aesthetics, durability, and budget, ensuring they perform well in high-moisture environments.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-materials-for-my-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right materials for my bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right materials involves balancing aesthetics, durability, and budget. Consider how each material will perform in a high-moisture environment and its longevity. For example, porcelain tile is durable and water-resistant for flooring and showers, while quartz is a low-maintenance option for countertops. Evaluate samples in your home's lighting to ensure they match your vision.",
-        "description": "Choose materials by balancing aesthetics, durability, and budget, ensuring they perform well in high-moisture environments."
-      }
-    }
-  ],
+  "name": "How do I choose the right materials for my bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right materials for my bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right materials involves balancing aesthetics, durability, and budget. Consider how each material will perform in a high-moisture environment and its longevity. For example, porcelain tile is durable and water-resistant for flooring and showers, while quartz is a low-maintenance option for countertops. Evaluate samples in your home's lighting to ensure they match your vision.",
+        "@type": "Answer",
+        "description": "Choose materials by balancing aesthetics, durability, and budget, ensuring they perform well in high-moisture environments."
+      }
+    }
+  ],
+  "description": "Choose materials by balancing aesthetics, durability, and budget, ensuring they perform well in high-moisture environments."
 }

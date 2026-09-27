@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for an accessible kitchen remodel with Hometelligent Inc.?",
-  "description": "The remodel process includes consultation, design, permit acquisition, and construction, with continuous client communication.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-an-accessible-kitchen-remodel-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for an accessible kitchen remodel with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc.'s process for an accessible kitchen remodel begins with an initial consultation to understand your specific needs and vision. This is followed by a detailed design phase, where we create plans incorporating accessibility features and material selections. Once designs are approved, we handle permit acquisition (if needed) and then proceed to construction, managing all aspects from demolition to final installation. Regular communication and project updates are provided throughout, ensuring your project in the greater East Bay area progresses smoothly.",
-        "description": "The remodel process includes consultation, design, permit acquisition, and construction, with continuous client communication."
-      }
-    }
-  ],
+  "name": "What is the process for an accessible kitchen remodel with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for an accessible kitchen remodel with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc.'s process for an accessible kitchen remodel begins with an initial consultation to understand your specific needs and vision. This is followed by a detailed design phase, where we create plans incorporating accessibility features and material selections. Once designs are approved, we handle permit acquisition (if needed) and then proceed to construction, managing all aspects from demolition to final installation. Regular communication and project updates are provided throughout, ensuring your project in the greater East Bay area progresses smoothly.",
+        "@type": "Answer",
+        "description": "The remodel process includes consultation, design, permit acquisition, and construction, with continuous client communication."
+      }
+    }
+  ],
+  "description": "The remodel process includes consultation, design, permit acquisition, and construction, with continuous client communication."
 }

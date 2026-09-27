@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of kitchen faucet is best for my sink?",
-  "description": "The best kitchen faucet depends on your sink's holes, style, and desired features. Match the faucet's configuration to your sink's existing holes or plan for mo",
   "url": "https://hometelligentinc.com/faq/what-type-of-kitchen-faucet-is-best-for-my-sink",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of kitchen faucet is best for my sink?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best type of kitchen faucet for your sink depends on several decision factors, including the number of holes in your sink or countertop, your preferred style, and desired features like pull-down sprayers or touchless operation. Ensure the new faucet's configuration matches your sink's existing holes or that you are prepared for modifications. Measuring the hole spacing and understanding your sink's setup is crucial before purchasing a new faucet.",
-        "description": "The best kitchen faucet depends on your sink's holes, style, and desired features. Match the faucet's configuration to your sink's existing holes or plan for modifications."
-      }
-    }
-  ],
+  "name": "What type of kitchen faucet is best for my sink?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of kitchen faucet is best for my sink?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best type of kitchen faucet for your sink depends on several decision factors, including the number of holes in your sink or countertop, your preferred style, and desired features like pull-down sprayers or touchless operation. Ensure the new faucet's configuration matches your sink's existing holes or that you are prepared for modifications. Measuring the hole spacing and understanding your sink's setup is crucial before purchasing a new faucet.",
+        "@type": "Answer",
+        "description": "The best kitchen faucet depends on your sink's holes, style, and desired features. Match the faucet's configuration to your sink's existing holes or plan for modifications."
+      }
+    }
+  ],
+  "description": "The best kitchen faucet depends on your sink's holes, style, and desired features. Match the faucet's configuration to your sink's existing holes or plan for mo"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a standard kitchen faucet installation?",
-  "description": "A standard kitchen faucet installation involves removing the old faucet, installing the new one, connecting water lines, and testing for leaks. Compatibility wi",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-standard-kitchen-faucet-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a standard kitchen faucet installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A standard kitchen faucet installation typically involves turning off the water supply, removing the old faucet, cleaning the mounting area, installing the new faucet body and its components (like the sprayer and soap dispenser), connecting the water supply lines, and testing for leaks. The process can vary based on the faucet type and existing plumbing. Preparation includes confirming the new faucet's compatibility with your sink's existing holes and ensuring you have access under the sink.",
-        "description": "A standard kitchen faucet installation involves removing the old faucet, installing the new one, connecting water lines, and testing for leaks. Compatibility with existing sink holes is a key preparation step."
-      }
-    }
-  ],
+  "name": "What is involved in a standard kitchen faucet installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a standard kitchen faucet installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A standard kitchen faucet installation typically involves turning off the water supply, removing the old faucet, cleaning the mounting area, installing the new faucet body and its components (like the sprayer and soap dispenser), connecting the water supply lines, and testing for leaks. The process can vary based on the faucet type and existing plumbing. Preparation includes confirming the new faucet's compatibility with your sink's existing holes and ensuring you have access under the sink.",
+        "@type": "Answer",
+        "description": "A standard kitchen faucet installation involves removing the old faucet, installing the new one, connecting water lines, and testing for leaks. Compatibility with existing sink holes is a key preparation step."
+      }
+    }
+  ],
+  "description": "A standard kitchen faucet installation involves removing the old faucet, installing the new one, connecting water lines, and testing for leaks. Compatibility wi"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation do I need to do before kitchen flooring installation?",
-  "description": "Prepare for kitchen flooring installation by clearing out appliances and furniture, and potentially removing old flooring.",
   "url": "https://hometelligentinc.com/faq/what-preparation-do-i-need-to-do-before-kitchen-flooring-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation do I need to do before kitchen flooring installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before installation begins, you'll need to clear out all appliances, furniture, and personal items from your kitchen. It's also advisable to remove existing flooring if you are planning a full replacement, though some new flooring types can be installed over existing surfaces. Discussing these specific preparation steps with our team during the initial consultation ensures a smooth start to the project.",
-        "description": "Prepare for kitchen flooring installation by clearing out appliances and furniture, and potentially removing old flooring."
-      }
-    }
-  ],
+  "name": "What preparation do I need to do before kitchen flooring installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation do I need to do before kitchen flooring installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before installation begins, you'll need to clear out all appliances, furniture, and personal items from your kitchen. It's also advisable to remove existing flooring if you are planning a full replacement, though some new flooring types can be installed over existing surfaces. Discussing these specific preparation steps with our team during the initial consultation ensures a smooth start to the project.",
+        "@type": "Answer",
+        "description": "Prepare for kitchen flooring installation by clearing out appliances and furniture, and potentially removing old flooring."
+      }
+    }
+  ],
+  "description": "Prepare for kitchen flooring installation by clearing out appliances and furniture, and potentially removing old flooring."
 }

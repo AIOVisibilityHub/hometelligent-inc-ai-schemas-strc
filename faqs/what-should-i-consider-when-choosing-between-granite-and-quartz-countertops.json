@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing between granite and quartz countertops?",
-  "description": "Granite is natural, unique, and requires sealing, while quartz is engineered, non-porous, and maintenance-free. Your choice depends on aesthetic preference and",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-between-granite-and-quartz-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing between granite and quartz countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing between granite and quartz, consider their distinct properties. Granite is a natural stone, offering unique patterns and requiring periodic sealing, while quartz is engineered, non-porous, and typically maintenance-free. Your decision may depend on your preference for natural variations versus consistent patterns, and your willingness to maintain the surface. Both are durable options, but granite's natural origin means each slab is unique, whereas quartz offers a wider range of consistent colors and patterns.",
-        "description": "Granite is natural, unique, and requires sealing, while quartz is engineered, non-porous, and maintenance-free. Your choice depends on aesthetic preference and maintenance tolerance."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing between granite and quartz countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing between granite and quartz countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing between granite and quartz, consider their distinct properties. Granite is a natural stone, offering unique patterns and requiring periodic sealing, while quartz is engineered, non-porous, and typically maintenance-free. Your decision may depend on your preference for natural variations versus consistent patterns, and your willingness to maintain the surface. Both are durable options, but granite's natural origin means each slab is unique, whereas quartz offers a wider range of consistent colors and patterns.",
+        "@type": "Answer",
+        "description": "Granite is natural, unique, and requires sealing, while quartz is engineered, non-porous, and maintenance-free. Your choice depends on aesthetic preference and maintenance tolerance."
+      }
+    }
+  ],
+  "description": "Granite is natural, unique, and requires sealing, while quartz is engineered, non-porous, and maintenance-free. Your choice depends on aesthetic preference and"
 }

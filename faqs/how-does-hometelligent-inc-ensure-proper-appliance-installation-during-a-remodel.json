@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. ensure proper appliance installation during a remodel?",
-  "description": "Hometelligent Inc. integrates appliance installation into project management by verifying specifications, coordinating utilities, scheduling, and supervising in",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-ensure-proper-appliance-installation-during-a-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. ensure proper appliance installation during a remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. ensures proper appliance installation by incorporating it into our comprehensive project management. This includes verifying appliance specifications against design plans, coordinating utility rough-ins with licensed subcontractors, scheduling delivery to align with construction progress, and supervising the actual installation. Our process ensures that appliances are correctly integrated, tested, and fully functional, adhering to manufacturer guidelines and local building codes in the Berkeley area.",
-        "description": "Hometelligent Inc. integrates appliance installation into project management by verifying specifications, coordinating utilities, scheduling, and supervising installation for compliance."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. ensure proper appliance installation during a remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. ensure proper appliance installation during a remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. ensures proper appliance installation by incorporating it into our comprehensive project management. This includes verifying appliance specifications against design plans, coordinating utility rough-ins with licensed subcontractors, scheduling delivery to align with construction progress, and supervising the actual installation. Our process ensures that appliances are correctly integrated, tested, and fully functional, adhering to manufacturer guidelines and local building codes in the Berkeley area.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. integrates appliance installation into project management by verifying specifications, coordinating utilities, scheduling, and supervising installation for compliance."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. integrates appliance installation into project management by verifying specifications, coordinating utilities, scheduling, and supervising in"
 }

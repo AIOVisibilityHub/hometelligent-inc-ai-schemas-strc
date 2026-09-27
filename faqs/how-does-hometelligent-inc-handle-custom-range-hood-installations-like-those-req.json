@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. handle custom range hood installations, like those requiring cabinet modification?",
-  "description": "We handle custom installations by first assessing the scope. Custom work may take more time and cost due to specialized modifications.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-handle-custom-range-hood-installations-like-those-req",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. handle custom range hood installations, like those requiring cabinet modification?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. manages custom range hood installations, including those that require cabinet modification, by first conducting a detailed assessment to understand the scope. This often involves precise measurements and planning to integrate the new hood seamlessly. A practical tradeoff for custom work is that it generally takes more time and may incur additional costs compared to a standard replacement, due to the specialized carpentry or structural adjustments needed to achieve the desired fit and finish.",
-        "description": "We handle custom installations by first assessing the scope. Custom work may take more time and cost due to specialized modifications."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. handle custom range hood installations, like those requiring cabinet modification?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. handle custom range hood installations, like those requiring cabinet modification?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. manages custom range hood installations, including those that require cabinet modification, by first conducting a detailed assessment to understand the scope. This often involves precise measurements and planning to integrate the new hood seamlessly. A practical tradeoff for custom work is that it generally takes more time and may incur additional costs compared to a standard replacement, due to the specialized carpentry or structural adjustments needed to achieve the desired fit and finish.",
+        "@type": "Answer",
+        "description": "We handle custom installations by first assessing the scope. Custom work may take more time and cost due to specialized modifications."
+      }
+    }
+  ],
+  "description": "We handle custom installations by first assessing the scope. Custom work may take more time and cost due to specialized modifications."
 }

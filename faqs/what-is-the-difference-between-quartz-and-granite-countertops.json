@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between quartz and granite countertops?",
-  "description": "Quartz is an engineered, non-porous stone with consistent patterns, while granite is natural, porous, and has unique variations. Quartz offers lower maintenance",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-quartz-and-granite-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between quartz and granite countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Quartz countertops are engineered stone products made from natural quartz crystals combined with resins and pigments, offering consistent patterns and non-porous surfaces. Granite, on the other hand, is a natural stone, meaning each slab has unique variations in color and pattern, and it requires periodic sealing due to its porous nature. When choosing between them, consider that quartz offers greater stain resistance and does not require sealing, making it a lower maintenance option for busy households in areas like Fremont or Pleasanton. Granite provides a completely natural aesthetic with unique geological variations.",
-        "description": "Quartz is an engineered, non-porous stone with consistent patterns, while granite is natural, porous, and has unique variations. Quartz offers lower maintenance and higher stain resistance."
-      }
-    }
-  ],
+  "name": "What is the difference between quartz and granite countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between quartz and granite countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Quartz countertops are engineered stone products made from natural quartz crystals combined with resins and pigments, offering consistent patterns and non-porous surfaces. Granite, on the other hand, is a natural stone, meaning each slab has unique variations in color and pattern, and it requires periodic sealing due to its porous nature. When choosing between them, consider that quartz offers greater stain resistance and does not require sealing, making it a lower maintenance option for busy households in areas like Fremont or Pleasanton. Granite provides a completely natural aesthetic with unique geological variations.",
+        "@type": "Answer",
+        "description": "Quartz is an engineered, non-porous stone with consistent patterns, while granite is natural, porous, and has unique variations. Quartz offers lower maintenance and higher stain resistance."
+      }
+    }
+  ],
+  "description": "Quartz is an engineered, non-porous stone with consistent patterns, while granite is natural, porous, and has unique variations. Quartz offers lower maintenance"
 }

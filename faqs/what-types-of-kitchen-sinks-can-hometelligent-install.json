@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of kitchen sinks can Hometelligent install?",
-  "description": "We install drop-in, undermount, farmhouse, and integrated kitchen sinks. The suitable type depends on your countertop and cabinet structure.",
   "url": "https://hometelligentinc.com/faq/what-types-of-kitchen-sinks-can-hometelligent-install",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of kitchen sinks can Hometelligent install?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent installs various kitchen sink types, including drop-in (top-mount), undermount, farmhouses/apron-front, and integrated sinks. The best option for your kitchen often depends on your existing countertop material and cabinet structure. For example, undermount sinks offer a seamless look but require a solid surface countertop, while farmhouse sinks may necessitate cabinet modifications.",
-        "description": "We install drop-in, undermount, farmhouse, and integrated kitchen sinks. The suitable type depends on your countertop and cabinet structure."
-      }
-    }
-  ],
+  "name": "What types of kitchen sinks can Hometelligent install?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of kitchen sinks can Hometelligent install?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent installs various kitchen sink types, including drop-in (top-mount), undermount, farmhouses/apron-front, and integrated sinks. The best option for your kitchen often depends on your existing countertop material and cabinet structure. For example, undermount sinks offer a seamless look but require a solid surface countertop, while farmhouse sinks may necessitate cabinet modifications.",
+        "@type": "Answer",
+        "description": "We install drop-in, undermount, farmhouse, and integrated kitchen sinks. The suitable type depends on your countertop and cabinet structure."
+      }
+    }
+  ],
+  "description": "We install drop-in, undermount, farmhouse, and integrated kitchen sinks. The suitable type depends on your countertop and cabinet structure."
 }

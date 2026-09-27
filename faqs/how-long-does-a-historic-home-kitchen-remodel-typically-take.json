@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a historic-home kitchen remodel typically take?",
-  "description": "A historic-home kitchen remodel typically takes 8 to 20 weeks, depending on the scope and unforeseen issues. Detailed planning and material sourcing are key fac",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-historic-home-kitchen-remodel-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a historic-home kitchen remodel typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a historic-home kitchen remodel varies significantly based on the project's scope and the home's specific requirements. On average, these projects can take anywhere from 8 to 20 weeks from demolition to completion. Process clarity is essential, as unexpected discoveries in older homes, such as outdated plumbing or electrical systems, can extend the duration. Detailed planning, including obtaining necessary permits and sourcing period-appropriate materials, is crucial to manage expectations and minimize delays. We work to establish a clear timeline upfront and communicate any potential adjustments promptly.",
-        "description": "A historic-home kitchen remodel typically takes 8 to 20 weeks, depending on the scope and unforeseen issues. Detailed planning and material sourcing are key factors in the timeline."
-      }
-    }
-  ],
+  "name": "How long does a historic-home kitchen remodel typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a historic-home kitchen remodel typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a historic-home kitchen remodel varies significantly based on the project's scope and the home's specific requirements. On average, these projects can take anywhere from 8 to 20 weeks from demolition to completion. Process clarity is essential, as unexpected discoveries in older homes, such as outdated plumbing or electrical systems, can extend the duration. Detailed planning, including obtaining necessary permits and sourcing period-appropriate materials, is crucial to manage expectations and minimize delays. We work to establish a clear timeline upfront and communicate any potential adjustments promptly.",
+        "@type": "Answer",
+        "description": "A historic-home kitchen remodel typically takes 8 to 20 weeks, depending on the scope and unforeseen issues. Detailed planning and material sourcing are key factors in the timeline."
+      }
+    }
+  ],
+  "description": "A historic-home kitchen remodel typically takes 8 to 20 weeks, depending on the scope and unforeseen issues. Detailed planning and material sourcing are key fac"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing the size and shape of my kitchen peninsula?",
-  "description": "Consider available space for clearance and the peninsula's intended use when choosing its size and shape to optimize kitchen flow.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-the-size-and-shape-of-my-kitchen-peninsula",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing the size and shape of my kitchen peninsula?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing the size and shape of your kitchen peninsula, consider the available space to ensure adequate clearance for movement around it, especially in high-traffic areas. Also, think about its intended use: a larger surface is ideal for entertaining or serious cooking, while a smaller one might suffice for a breakfast bar. Our design team can help you balance aesthetics with practical space requirements to optimize flow and utility.",
-        "description": "Consider available space for clearance and the peninsula's intended use when choosing its size and shape to optimize kitchen flow."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing the size and shape of my kitchen peninsula?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing the size and shape of my kitchen peninsula?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing the size and shape of your kitchen peninsula, consider the available space to ensure adequate clearance for movement around it, especially in high-traffic areas. Also, think about its intended use: a larger surface is ideal for entertaining or serious cooking, while a smaller one might suffice for a breakfast bar. Our design team can help you balance aesthetics with practical space requirements to optimize flow and utility.",
+        "@type": "Answer",
+        "description": "Consider available space for clearance and the peninsula's intended use when choosing its size and shape to optimize kitchen flow."
+      }
+    }
+  ],
+  "description": "Consider available space for clearance and the peninsula's intended use when choosing its size and shape to optimize kitchen flow."
 }

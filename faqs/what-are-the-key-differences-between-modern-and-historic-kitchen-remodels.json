@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key differences between modern and historic kitchen remodels?",
-  "description": "Modern kitchen remodels prioritize contemporary aesthetics and technology, while historic remodels focus on preserving original elements. Historic remodels ofte",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-differences-between-modern-and-historic-kitchen-remodels",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key differences between modern and historic kitchen remodels?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary difference lies in the design philosophy and constraints. Modern kitchen remodels often prioritize sleek, minimalist aesthetics and cutting-edge technology, while historic remodels focus on preserving or restoring original elements and integrating modern conveniences discreetly. A practical tradeoff is that historic remodels may limit certain open-concept layouts or require custom-built elements to match existing architectural styles, which can influence material costs and construction methods. We ensure that any new additions or alterations respect the historical context of your home, avoiding elements that would look out of place.",
-        "description": "Modern kitchen remodels prioritize contemporary aesthetics and technology, while historic remodels focus on preserving original elements. Historic remodels often require custom solutions to maintain period accuracy."
-      }
-    }
-  ],
+  "name": "What are the key differences between modern and historic kitchen remodels?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key differences between modern and historic kitchen remodels?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The primary difference lies in the design philosophy and constraints. Modern kitchen remodels often prioritize sleek, minimalist aesthetics and cutting-edge technology, while historic remodels focus on preserving or restoring original elements and integrating modern conveniences discreetly. A practical tradeoff is that historic remodels may limit certain open-concept layouts or require custom-built elements to match existing architectural styles, which can influence material costs and construction methods. We ensure that any new additions or alterations respect the historical context of your home, avoiding elements that would look out of place.",
+        "@type": "Answer",
+        "description": "Modern kitchen remodels prioritize contemporary aesthetics and technology, while historic remodels focus on preserving original elements. Historic remodels often require custom solutions to maintain period accuracy."
+      }
+    }
+  ],
+  "description": "Modern kitchen remodels prioritize contemporary aesthetics and technology, while historic remodels focus on preserving original elements. Historic remodels ofte"
 }
