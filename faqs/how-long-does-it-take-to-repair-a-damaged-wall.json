@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to repair a damaged wall?",
-  "description": "Repair time depends on damage size and complexity; small patches can be done in a day, while larger repairs take longer, factoring in drying times.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-repair-a-damaged-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to repair a damaged wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The time required for wall repair varies significantly based on the size and complexity of the damage. Small patches can often be completed within a day, including drying time for spackle or joint compound. Larger repairs involving extensive drywall replacement or structural corrections may take several days. We provide an estimated timeline during the initial consultation, factoring in the necessary steps and material drying periods.",
-        "description": "Repair time depends on damage size and complexity; small patches can be done in a day, while larger repairs take longer, factoring in drying times."
-      }
-    }
-  ],
+  "name": "How long does it take to repair a damaged wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to repair a damaged wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The time required for wall repair varies significantly based on the size and complexity of the damage. Small patches can often be completed within a day, including drying time for spackle or joint compound. Larger repairs involving extensive drywall replacement or structural corrections may take several days. We provide an estimated timeline during the initial consultation, factoring in the necessary steps and material drying periods.",
+        "@type": "Answer",
+        "description": "Repair time depends on damage size and complexity; small patches can be done in a day, while larger repairs take longer, factoring in drying times."
+      }
+    }
+  ],
+  "description": "Repair time depends on damage size and complexity; small patches can be done in a day, while larger repairs take longer, factoring in drying times."
 }

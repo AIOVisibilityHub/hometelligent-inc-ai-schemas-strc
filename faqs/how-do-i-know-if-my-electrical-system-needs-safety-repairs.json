@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my electrical system needs safety repairs?",
-  "description": "Signs of electrical issues needing repair include flickering lights, frequently tripped breakers, warm outlets, or burning smells. A professional inspection can",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-electrical-system-needs-safety-repairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my electrical system needs safety repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You may need electrical safety repairs if you experience flickering lights, frequently tripped breakers, outlets that feel warm to the touch, or a burning smell coming from electrical fixtures. These signs can indicate overloaded circuits, faulty wiring, or outdated electrical panels, posing fire hazards. A qualified electrician can perform a safety inspection to diagnose issues and recommend necessary upgrades. Before contacting a professional, note down any specific observations about when these issues occur, such as during the use of certain appliances, as this can help expedite the diagnostic process.",
-        "description": "Signs of electrical issues needing repair include flickering lights, frequently tripped breakers, warm outlets, or burning smells. A professional inspection can identify problems."
-      }
-    }
-  ],
+  "name": "How do I know if my electrical system needs safety repairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my electrical system needs safety repairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You may need electrical safety repairs if you experience flickering lights, frequently tripped breakers, outlets that feel warm to the touch, or a burning smell coming from electrical fixtures. These signs can indicate overloaded circuits, faulty wiring, or outdated electrical panels, posing fire hazards. A qualified electrician can perform a safety inspection to diagnose issues and recommend necessary upgrades. Before contacting a professional, note down any specific observations about when these issues occur, such as during the use of certain appliances, as this can help expedite the diagnostic process.",
+        "@type": "Answer",
+        "description": "Signs of electrical issues needing repair include flickering lights, frequently tripped breakers, warm outlets, or burning smells. A professional inspection can identify problems."
+      }
+    }
+  ],
+  "description": "Signs of electrical issues needing repair include flickering lights, frequently tripped breakers, warm outlets, or burning smells. A professional inspection can"
 }

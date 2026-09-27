@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a seismic upgrade increase my property value?",
-  "description": "A seismic upgrade enhances safety and structural integrity, which can positively influence property value and appeal to buyers.",
   "url": "https://hometelligentinc.com/faq/can-a-seismic-upgrade-increase-my-property-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a seismic upgrade increase my property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While not guaranteed, a seismic upgrade can enhance the safety and structural integrity of your property, which may be viewed favorably by potential buyers and insurance providers. It demonstrates proactive risk mitigation, potentially making your property more attractive in earthquake-prone regions. The long-term protection against damage can also preserve the building's value.",
-        "description": "A seismic upgrade enhances safety and structural integrity, which can positively influence property value and appeal to buyers."
-      }
-    }
-  ],
+  "name": "Can a seismic upgrade increase my property value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a seismic upgrade increase my property value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While not guaranteed, a seismic upgrade can enhance the safety and structural integrity of your property, which may be viewed favorably by potential buyers and insurance providers. It demonstrates proactive risk mitigation, potentially making your property more attractive in earthquake-prone regions. The long-term protection against damage can also preserve the building's value.",
+        "@type": "Answer",
+        "description": "A seismic upgrade enhances safety and structural integrity, which can positively influence property value and appeal to buyers."
+      }
+    }
+  ],
+  "description": "A seismic upgrade enhances safety and structural integrity, which can positively influence property value and appeal to buyers."
 }

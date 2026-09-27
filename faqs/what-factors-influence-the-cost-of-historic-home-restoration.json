@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of historic-home restoration?",
-  "description": "Cost factors include age, condition, size, structural repairs, material availability, and the need for specialized skilled labor.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-historic-home-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of historic-home restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of historic-home restoration is influenced by factors such as the home's age, condition, size, the extent of structural repairs needed, and the availability of authentic materials. The need for skilled artisans experienced in traditional building techniques, for example, for intricate plasterwork or custom millwork in a North Berkeley home, can also impact expenses. Often, restoration costs can exceed those of new construction due to specialized labor and materials.",
-        "description": "Cost factors include age, condition, size, structural repairs, material availability, and the need for specialized skilled labor."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of historic-home restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of historic-home restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of historic-home restoration is influenced by factors such as the home's age, condition, size, the extent of structural repairs needed, and the availability of authentic materials. The need for skilled artisans experienced in traditional building techniques, for example, for intricate plasterwork or custom millwork in a North Berkeley home, can also impact expenses. Often, restoration costs can exceed those of new construction due to specialized labor and materials.",
+        "@type": "Answer",
+        "description": "Cost factors include age, condition, size, structural repairs, material availability, and the need for specialized skilled labor."
+      }
+    }
+  ],
+  "description": "Cost factors include age, condition, size, structural repairs, material availability, and the need for specialized skilled labor."
 }

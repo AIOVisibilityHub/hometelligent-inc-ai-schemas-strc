@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does earthquake retrofit coordination typically take?",
-  "description": "Coordination time varies from weeks to months, depending on project complexity, permit review times, and material availability.",
   "url": "https://hometelligentinc.com/faq/how-long-does-earthquake-retrofit-coordination-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does earthquake retrofit coordination typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of earthquake retrofit coordination varies depending on the scope and complexity of the project. Simple retrofits might take a few weeks from assessment to completion, while more extensive projects involving significant structural work or complex permitting can take several months. Factors like permit review times in your specific city (e.g., Fremont or Oakland) and material availability can influence the timeline.",
-        "description": "Coordination time varies from weeks to months, depending on project complexity, permit review times, and material availability."
-      }
-    }
-  ],
+  "name": "How long does earthquake retrofit coordination typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does earthquake retrofit coordination typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of earthquake retrofit coordination varies depending on the scope and complexity of the project. Simple retrofits might take a few weeks from assessment to completion, while more extensive projects involving significant structural work or complex permitting can take several months. Factors like permit review times in your specific city (e.g., Fremont or Oakland) and material availability can influence the timeline.",
+        "@type": "Answer",
+        "description": "Coordination time varies from weeks to months, depending on project complexity, permit review times, and material availability."
+      }
+    }
+  ],
+  "description": "Coordination time varies from weeks to months, depending on project complexity, permit review times, and material availability."
 }

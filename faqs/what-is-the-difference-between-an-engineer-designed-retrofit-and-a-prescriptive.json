@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between an engineer-designed retrofit and a prescriptive retrofit?",
-  "description": "Engineer-designed retrofits use custom plans for complex homes, while prescriptive retrofits follow standard guidelines for simpler structures. The best approac",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-an-engineer-designed-retrofit-and-a-prescriptive",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between an engineer-designed retrofit and a prescriptive retrofit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An engineer-designed retrofit involves a licensed structural engineer creating custom plans for your home, which is often necessary for complex or non-standard structures. A prescriptive retrofit follows pre-approved, standardized guidelines, suitable for simpler, typical wood-frame homes built before 1979. The choice depends on your home's unique characteristics and local building department requirements; for example, many older homes in areas like Piedmont may benefit from an engineered approach.",
-        "description": "Engineer-designed retrofits use custom plans for complex homes, while prescriptive retrofits follow standard guidelines for simpler structures. The best approach depends on your home."
-      }
-    }
-  ],
+  "name": "What is the difference between an engineer-designed retrofit and a prescriptive retrofit?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between an engineer-designed retrofit and a prescriptive retrofit?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An engineer-designed retrofit involves a licensed structural engineer creating custom plans for your home, which is often necessary for complex or non-standard structures. A prescriptive retrofit follows pre-approved, standardized guidelines, suitable for simpler, typical wood-frame homes built before 1979. The choice depends on your home's unique characteristics and local building department requirements; for example, many older homes in areas like Piedmont may benefit from an engineered approach.",
+        "@type": "Answer",
+        "description": "Engineer-designed retrofits use custom plans for complex homes, while prescriptive retrofits follow standard guidelines for simpler structures. The best approach depends on your home."
+      }
+    }
+  ],
+  "description": "Engineer-designed retrofits use custom plans for complex homes, while prescriptive retrofits follow standard guidelines for simpler structures. The best approac"
 }

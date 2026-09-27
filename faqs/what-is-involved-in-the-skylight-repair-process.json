@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in the skylight repair process?",
-  "description": "The repair process involves inspection, identifying damage, and then resealing, replacing parts, or addressing structural issues.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-skylight-repair-process",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in the skylight repair process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The skylight repair process typically begins with an inspection to identify the source and extent of the damage. Depending on the issue, it may involve cleaning and resealing old flashing, replacing worn-out gaskets, repairing or replacing damaged glass panes, or addressing structural concerns around the skylight opening. Our team carefully prepares the work area to protect your property and ensures proper sealing and insulation upon completion. The specific steps taken will be outlined in your repair plan, ensuring transparency throughout the process.",
-        "description": "The repair process involves inspection, identifying damage, and then resealing, replacing parts, or addressing structural issues."
-      }
-    }
-  ],
+  "name": "What is involved in the skylight repair process?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in the skylight repair process?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The skylight repair process typically begins with an inspection to identify the source and extent of the damage. Depending on the issue, it may involve cleaning and resealing old flashing, replacing worn-out gaskets, repairing or replacing damaged glass panes, or addressing structural concerns around the skylight opening. Our team carefully prepares the work area to protect your property and ensures proper sealing and insulation upon completion. The specific steps taken will be outlined in your repair plan, ensuring transparency throughout the process.",
+        "@type": "Answer",
+        "description": "The repair process involves inspection, identifying damage, and then resealing, replacing parts, or addressing structural issues."
+      }
+    }
+  ],
+  "description": "The repair process involves inspection, identifying damage, and then resealing, replacing parts, or addressing structural issues."
 }

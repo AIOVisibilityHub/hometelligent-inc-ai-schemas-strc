@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can foundation repair coordination help if my home is in a high seismic activity zone?",
-  "description": "Yes, coordination is crucial for homes in seismic zones, as it includes specialized engineering and designs for earthquake-resistant repairs.",
   "url": "https://hometelligentinc.com/faq/can-foundation-repair-coordination-help-if-my-home-is-in-a-high-seismic-activity",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can foundation repair coordination help if my home is in a high seismic activity zone?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, foundation repair coordination is particularly beneficial for homes in high seismic activity zones, common throughout the San Francisco Bay Area, including cities like Hayward, Fremont, and Berkeley. Hometelligent Inc.'s coordination services include working with structural engineers who specialize in seismic retrofitting and designing solutions that comply with stringent local earthquake building codes. This ensures that repairs not only address existing damage but also enhance your home's resilience against future seismic events.",
-        "description": "Yes, coordination is crucial for homes in seismic zones, as it includes specialized engineering and designs for earthquake-resistant repairs."
-      }
-    }
-  ],
+  "name": "Can foundation repair coordination help if my home is in a high seismic activity zone?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can foundation repair coordination help if my home is in a high seismic activity zone?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, foundation repair coordination is particularly beneficial for homes in high seismic activity zones, common throughout the San Francisco Bay Area, including cities like Hayward, Fremont, and Berkeley. Hometelligent Inc.'s coordination services include working with structural engineers who specialize in seismic retrofitting and designing solutions that comply with stringent local earthquake building codes. This ensures that repairs not only address existing damage but also enhance your home's resilience against future seismic events.",
+        "@type": "Answer",
+        "description": "Yes, coordination is crucial for homes in seismic zones, as it includes specialized engineering and designs for earthquake-resistant repairs."
+      }
+    }
+  ],
+  "description": "Yes, coordination is crucial for homes in seismic zones, as it includes specialized engineering and designs for earthquake-resistant repairs."
 }

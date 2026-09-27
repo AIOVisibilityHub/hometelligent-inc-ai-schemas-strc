@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I improve energy efficiency in an older home without compromising its character?",
-  "description": "Improve energy efficiency in an older home by adding insulation, upgrading to period-appropriate windows, and sealing air leaks.",
   "url": "https://hometelligentinc.com/faq/how-can-i-improve-energy-efficiency-in-an-older-home-without-compromising-its-ch",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I improve energy efficiency in an older home without compromising its character?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Improving energy efficiency in an older home without compromising its character can be achieved through careful material selection and strategic upgrades. Options include adding insulation to attics and walls, upgrading to historically appropriate double-pane windows, and sealing air leaks around doors and windows. For homes in diverse architectural areas like Piedmont or Rockridge, balancing modern efficiency with original aesthetics is key. This might involve choosing windows that mimic original designs or using blown-in insulation that doesn't disrupt existing structures, offering a practical tradeoff between preservation and performance.",
-        "description": "Improve energy efficiency in an older home by adding insulation, upgrading to period-appropriate windows, and sealing air leaks."
-      }
-    }
-  ],
+  "name": "How can I improve energy efficiency in an older home without compromising its character?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I improve energy efficiency in an older home without compromising its character?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Improving energy efficiency in an older home without compromising its character can be achieved through careful material selection and strategic upgrades. Options include adding insulation to attics and walls, upgrading to historically appropriate double-pane windows, and sealing air leaks around doors and windows. For homes in diverse architectural areas like Piedmont or Rockridge, balancing modern efficiency with original aesthetics is key. This might involve choosing windows that mimic original designs or using blown-in insulation that doesn't disrupt existing structures, offering a practical tradeoff between preservation and performance.",
+        "@type": "Answer",
+        "description": "Improve energy efficiency in an older home by adding insulation, upgrading to period-appropriate windows, and sealing air leaks."
+      }
+    }
+  ],
+  "description": "Improve energy efficiency in an older home by adding insulation, upgrading to period-appropriate windows, and sealing air leaks."
 }

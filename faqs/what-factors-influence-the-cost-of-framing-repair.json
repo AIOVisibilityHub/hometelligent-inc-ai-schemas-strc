@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of framing repair?",
-  "description": "Framing repair costs depend on damage extent, material type, accessibility, and the need for demolition or engineering. Local labor rates and permits also influ",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-framing-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of framing repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of framing repair is influenced by several key factors: the extent and location of the damage, the type of framing material (e.g., standard lumber, engineered wood), and the accessibility of the affected area. Repairs requiring demolition, structural engineering input, or extensive shoring will typically cost more. The need for permits and specialized labor also impacts the overall expense. For properties in our service areas, such as Dublin or Emeryville, local labor rates and material availability can also play a role. A detailed estimate after an onsite assessment provides the most accurate cost projection.",
-        "description": "Framing repair costs depend on damage extent, material type, accessibility, and the need for demolition or engineering. Local labor rates and permits also influence the final price, requiring an onsite estimate."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of framing repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of framing repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of framing repair is influenced by several key factors: the extent and location of the damage, the type of framing material (e.g., standard lumber, engineered wood), and the accessibility of the affected area. Repairs requiring demolition, structural engineering input, or extensive shoring will typically cost more. The need for permits and specialized labor also impacts the overall expense. For properties in our service areas, such as Dublin or Emeryville, local labor rates and material availability can also play a role. A detailed estimate after an onsite assessment provides the most accurate cost projection.",
+        "@type": "Answer",
+        "description": "Framing repair costs depend on damage extent, material type, accessibility, and the need for demolition or engineering. Local labor rates and permits also influence the final price, requiring an onsite estimate."
+      }
+    }
+  ],
+  "description": "Framing repair costs depend on damage extent, material type, accessibility, and the need for demolition or engineering. Local labor rates and permits also influ"
 }

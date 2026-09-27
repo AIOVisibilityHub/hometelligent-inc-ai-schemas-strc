@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does Hometelligent Inc. offer stair repair for commercial properties in Oakland?",
-  "description": "Yes, Hometelligent Inc. offers stair repair for commercial properties in Oakland, addressing high-traffic wear and safety compliance, with coordinated repairs t",
   "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-stair-repair-for-commercial-properties-in-oakland",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does Hometelligent Inc. offer stair repair for commercial properties in Oakland?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. provides stair repair services for commercial properties in Oakland, in addition to residential homes. Commercial staircases often experience higher traffic and may require more robust materials or specific safety compliance considerations. Our team is experienced in assessing and repairing commercial stair issues, ensuring they meet both functional and safety requirements for public and employee use. We can coordinate repairs to minimize disruption to your business operations.",
-        "description": "Yes, Hometelligent Inc. offers stair repair for commercial properties in Oakland, addressing high-traffic wear and safety compliance, with coordinated repairs to minimize business disruption."
-      }
-    }
-  ],
+  "name": "Does Hometelligent Inc. offer stair repair for commercial properties in Oakland?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does Hometelligent Inc. offer stair repair for commercial properties in Oakland?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. provides stair repair services for commercial properties in Oakland, in addition to residential homes. Commercial staircases often experience higher traffic and may require more robust materials or specific safety compliance considerations. Our team is experienced in assessing and repairing commercial stair issues, ensuring they meet both functional and safety requirements for public and employee use. We can coordinate repairs to minimize disruption to your business operations.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. offers stair repair for commercial properties in Oakland, addressing high-traffic wear and safety compliance, with coordinated repairs to minimize business disruption."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. offers stair repair for commercial properties in Oakland, addressing high-traffic wear and safety compliance, with coordinated repairs t"
 }

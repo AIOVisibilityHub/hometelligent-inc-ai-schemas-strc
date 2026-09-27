@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for scheduling stair repair with Hometelligent Inc. in Alameda?",
-  "description": "To schedule stair repair in Alameda, contact Hometelligent Inc. for an initial consultation where a specialist will assess the stairs and provide a detailed est",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-scheduling-stair-repair-with-hometelligent-inc-in-alamed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for scheduling stair repair with Hometelligent Inc. in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To schedule stair repair with Hometelligent Inc. in Alameda, you can contact us via phone or our website to request an initial consultation. During this consultation, one of our specialists will visit your home to assess the condition of your stairs, discuss the issues you've observed, and recommend appropriate repair solutions. We will then provide a detailed, transparent estimate for the work before scheduling the repair at your convenience. This ensures all aspects are clear before work begins.",
-        "description": "To schedule stair repair in Alameda, contact Hometelligent Inc. for an initial consultation where a specialist will assess the stairs and provide a detailed estimate before scheduling the repair."
-      }
-    }
-  ],
+  "name": "What is the process for scheduling stair repair with Hometelligent Inc. in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for scheduling stair repair with Hometelligent Inc. in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To schedule stair repair with Hometelligent Inc. in Alameda, you can contact us via phone or our website to request an initial consultation. During this consultation, one of our specialists will visit your home to assess the condition of your stairs, discuss the issues you've observed, and recommend appropriate repair solutions. We will then provide a detailed, transparent estimate for the work before scheduling the repair at your convenience. This ensures all aspects are clear before work begins.",
+        "@type": "Answer",
+        "description": "To schedule stair repair in Alameda, contact Hometelligent Inc. for an initial consultation where a specialist will assess the stairs and provide a detailed estimate before scheduling the repair."
+      }
+    }
+  ],
+  "description": "To schedule stair repair in Alameda, contact Hometelligent Inc. for an initial consultation where a specialist will assess the stairs and provide a detailed est"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common causes of exterior trim damage in the Bay Area?",
-  "description": "Exterior trim damage in the Bay Area commonly results from moisture exposure (rain/fog), pest activity, and weather-related wear like UV and temperature changes",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-causes-of-exterior-trim-damage-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common causes of exterior trim damage in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common causes of exterior trim damage in the Bay Area include prolonged moisture exposure from rain and fog, which can lead to wood rot, especially in areas with less sunlight. Termite and pest activity are also significant contributors to trim deterioration. Additionally, fluctuations in temperature and UV exposure can cause paint to peel and materials to crack over time, necessitating repair to maintain the integrity and appearance of your home's exterior.",
-        "description": "Exterior trim damage in the Bay Area commonly results from moisture exposure (rain/fog), pest activity, and weather-related wear like UV and temperature changes."
-      }
-    }
-  ],
+  "name": "What are the common causes of exterior trim damage in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common causes of exterior trim damage in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common causes of exterior trim damage in the Bay Area include prolonged moisture exposure from rain and fog, which can lead to wood rot, especially in areas with less sunlight. Termite and pest activity are also significant contributors to trim deterioration. Additionally, fluctuations in temperature and UV exposure can cause paint to peel and materials to crack over time, necessitating repair to maintain the integrity and appearance of your home's exterior.",
+        "@type": "Answer",
+        "description": "Exterior trim damage in the Bay Area commonly results from moisture exposure (rain/fog), pest activity, and weather-related wear like UV and temperature changes."
+      }
+    }
+  ],
+  "description": "Exterior trim damage in the Bay Area commonly results from moisture exposure (rain/fog), pest activity, and weather-related wear like UV and temperature changes"
 }

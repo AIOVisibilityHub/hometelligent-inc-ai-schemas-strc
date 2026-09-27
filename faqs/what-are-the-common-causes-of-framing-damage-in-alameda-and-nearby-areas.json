@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common causes of framing damage in Alameda and nearby areas?",
-  "description": "Framing damage in Alameda and neighboring areas is often caused by moisture (leaks, rot), pest infestations like termites, and structural stress from seismic ac",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-causes-of-framing-damage-in-alameda-and-nearby-areas",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common causes of framing damage in Alameda and nearby areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In areas like Alameda and surrounding East Bay cities, common causes of framing damage include prolonged moisture exposure from leaking roofs or pipes, which can lead to dry rot and mold. Termite and other pest infestations are also prevalent, weakening wood over time. Seismic activity, although less frequent, can also cause structural shifting and stress on framing. Understanding these local factors helps in preventive measures and identifying potential issues early. For instance, regular inspections for leaks and pests are particularly important in our service areas.",
-        "description": "Framing damage in Alameda and neighboring areas is often caused by moisture (leaks, rot), pest infestations like termites, and structural stress from seismic activity. Regular inspections are key to early detection."
-      }
-    }
-  ],
+  "name": "What are the common causes of framing damage in Alameda and nearby areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common causes of framing damage in Alameda and nearby areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "In areas like Alameda and surrounding East Bay cities, common causes of framing damage include prolonged moisture exposure from leaking roofs or pipes, which can lead to dry rot and mold. Termite and other pest infestations are also prevalent, weakening wood over time. Seismic activity, although less frequent, can also cause structural shifting and stress on framing. Understanding these local factors helps in preventive measures and identifying potential issues early. For instance, regular inspections for leaks and pests are particularly important in our service areas.",
+        "@type": "Answer",
+        "description": "Framing damage in Alameda and neighboring areas is often caused by moisture (leaks, rot), pest infestations like termites, and structural stress from seismic activity. Regular inspections are key to early detection."
+      }
+    }
+  ],
+  "description": "Framing damage in Alameda and neighboring areas is often caused by moisture (leaks, rot), pest infestations like termites, and structural stress from seismic ac"
 }

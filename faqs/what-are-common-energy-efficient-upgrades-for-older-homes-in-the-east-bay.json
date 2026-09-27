@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common energy-efficient upgrades for older homes in the East Bay?",
-  "description": "Common upgrades for older East Bay homes include insulation, replacing single-pane windows, and upgrading HVAC systems. Outdated windows and poor attic insulati",
   "url": "https://hometelligentinc.com/faq/what-are-common-energy-efficient-upgrades-for-older-homes-in-the-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common energy-efficient upgrades for older homes in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For older homes common in areas like Berkeley or Oakland, energy-efficient upgrades often focus on improving the building envelope and HVAC systems. This includes adding insulation to attics, walls, and crawl spaces, replacing single-pane windows with double or triple-pane alternatives, and upgrading to high-efficiency furnaces or heat pumps. We often see significant energy loss through outdated windows and poorly insulated attics in many of the older homes in this region.",
-        "description": "Common upgrades for older East Bay homes include insulation, replacing single-pane windows, and upgrading HVAC systems. Outdated windows and poor attic insulation are frequent issues."
-      }
-    }
-  ],
+  "name": "What are common energy-efficient upgrades for older homes in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common energy-efficient upgrades for older homes in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For older homes common in areas like Berkeley or Oakland, energy-efficient upgrades often focus on improving the building envelope and HVAC systems. This includes adding insulation to attics, walls, and crawl spaces, replacing single-pane windows with double or triple-pane alternatives, and upgrading to high-efficiency furnaces or heat pumps. We often see significant energy loss through outdated windows and poorly insulated attics in many of the older homes in this region.",
+        "@type": "Answer",
+        "description": "Common upgrades for older East Bay homes include insulation, replacing single-pane windows, and upgrading HVAC systems. Outdated windows and poor attic insulation are frequent issues."
+      }
+    }
+  ],
+  "description": "Common upgrades for older East Bay homes include insulation, replacing single-pane windows, and upgrading HVAC systems. Outdated windows and poor attic insulati"
 }

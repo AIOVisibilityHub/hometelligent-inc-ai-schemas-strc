@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for a seismic upgrade?",
-  "description": "Choose a licensed, insured contractor with experience in seismic upgrades, knowledge of local codes, and strong project coordination skills.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-a-seismic-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for a seismic upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a contractor for a seismic upgrade, consider their experience with similar projects, their understanding of local building codes, and their ability to provide comprehensive project coordination. It is crucial to choose a licensed and insured contractor with a proven track record. Hometelligent Inc. specializes in seismic retrofits within the Alameda, Albany, Berkeley, Dublin, and Emeryville areas, offering expertise in local regulations and structural requirements.",
-        "description": "Choose a licensed, insured contractor with experience in seismic upgrades, knowledge of local codes, and strong project coordination skills."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for a seismic upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for a seismic upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a contractor for a seismic upgrade, consider their experience with similar projects, their understanding of local building codes, and their ability to provide comprehensive project coordination. It is crucial to choose a licensed and insured contractor with a proven track record. Hometelligent Inc. specializes in seismic retrofits within the Alameda, Albany, Berkeley, Dublin, and Emeryville areas, offering expertise in local regulations and structural requirements.",
+        "@type": "Answer",
+        "description": "Choose a licensed, insured contractor with experience in seismic upgrades, knowledge of local codes, and strong project coordination skills."
+      }
+    }
+  ],
+  "description": "Choose a licensed, insured contractor with experience in seismic upgrades, knowledge of local codes, and strong project coordination skills."
 }

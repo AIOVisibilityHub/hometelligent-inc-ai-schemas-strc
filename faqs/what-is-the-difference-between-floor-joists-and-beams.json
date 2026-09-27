@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between floor joists and beams?",
-  "description": "Floor joists are smaller, parallel supports for the floor, while beams are larger structural members that support joists and carry heavier loads.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-floor-joists-and-beams",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between floor joists and beams?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Floor joists are horizontal framing members that support the floor, typically running parallel to each other and spaced at regular intervals. They transfer the load from the floor decking to the larger support structures. Beams, on the other hand, are larger, stronger structural members that support joists, walls, or other beams. Beams span greater distances and carry heavier loads than individual joists, often forming the primary support system for a floor or roof. Understanding this distinction is crucial when identifying structural issues, as damage to a beam often requires more complex repairs.",
-        "description": "Floor joists are smaller, parallel supports for the floor, while beams are larger structural members that support joists and carry heavier loads."
-      }
-    }
-  ],
+  "name": "What is the difference between floor joists and beams?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between floor joists and beams?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Floor joists are horizontal framing members that support the floor, typically running parallel to each other and spaced at regular intervals. They transfer the load from the floor decking to the larger support structures. Beams, on the other hand, are larger, stronger structural members that support joists, walls, or other beams. Beams span greater distances and carry heavier loads than individual joists, often forming the primary support system for a floor or roof. Understanding this distinction is crucial when identifying structural issues, as damage to a beam often requires more complex repairs.",
+        "@type": "Answer",
+        "description": "Floor joists are smaller, parallel supports for the floor, while beams are larger structural members that support joists and carry heavier loads."
+      }
+    }
+  ],
+  "description": "Floor joists are smaller, parallel supports for the floor, while beams are larger structural members that support joists and carry heavier loads."
 }

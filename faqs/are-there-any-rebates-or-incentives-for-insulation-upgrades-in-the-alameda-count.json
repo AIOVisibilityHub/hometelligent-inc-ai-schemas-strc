@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there any rebates or incentives for insulation upgrades in the Alameda County area?",
-  "description": "Homeowners in Alameda County may qualify for local utility rebates or federal tax credits for insulation upgrades; check eligibility first.",
   "url": "https://hometelligentinc.com/faq/are-there-any-rebates-or-incentives-for-insulation-upgrades-in-the-alameda-count",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there any rebates or incentives for insulation upgrades in the Alameda County area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Homeowners in Alameda County, including cities like Oakland and Alameda, may be eligible for local energy efficiency rebates or federal tax credits for insulation upgrades. These programs can help offset the initial cost of the project. We recommend checking with local utility providers like PG&E and federal energy efficiency programs for current opportunities before starting your project, as eligibility requirements vary.",
-        "description": "Homeowners in Alameda County may qualify for local utility rebates or federal tax credits for insulation upgrades; check eligibility first."
-      }
-    }
-  ],
+  "name": "Are there any rebates or incentives for insulation upgrades in the Alameda County area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there any rebates or incentives for insulation upgrades in the Alameda County area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Homeowners in Alameda County, including cities like Oakland and Alameda, may be eligible for local energy efficiency rebates or federal tax credits for insulation upgrades. These programs can help offset the initial cost of the project. We recommend checking with local utility providers like PG&E and federal energy efficiency programs for current opportunities before starting your project, as eligibility requirements vary.",
+        "@type": "Answer",
+        "description": "Homeowners in Alameda County may qualify for local utility rebates or federal tax credits for insulation upgrades; check eligibility first."
+      }
+    }
+  ],
+  "description": "Homeowners in Alameda County may qualify for local utility rebates or federal tax credits for insulation upgrades; check eligibility first."
 }

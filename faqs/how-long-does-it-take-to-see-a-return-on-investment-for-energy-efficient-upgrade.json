@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to see a return on investment for energy-efficient upgrades?",
-  "description": "ROI for energy-efficient upgrades varies, with insulation and air sealing often returning investment in 3-7 years. Utility rates and your home's existing ineffi",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-see-a-return-on-investment-for-energy-efficient-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to see a return on investment for energy-efficient upgrades?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The time to see a return on investment (ROI) for energy-efficient upgrades varies widely based on the specific improvement, energy costs, and the extent of your existing home's inefficiencies. Upgrades like insulation and air sealing often have faster ROIs, potentially within 3-7 years, due to significant reductions in heating and cooling costs. More substantial projects, such as window replacement, might take 7-15 years. We can provide a more tailored estimate during a consultation, considering factors like utility rates in your area, such as Oakland or Berkeley, and the expected lifespan of the new systems. Utility bills before and after installation are key to tracking savings.",
-        "description": "ROI for energy-efficient upgrades varies, with insulation and air sealing often returning investment in 3-7 years. Utility rates and your home's existing inefficiencies significantly impact this timeframe."
-      }
-    }
-  ],
+  "name": "How long does it take to see a return on investment for energy-efficient upgrades?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to see a return on investment for energy-efficient upgrades?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The time to see a return on investment (ROI) for energy-efficient upgrades varies widely based on the specific improvement, energy costs, and the extent of your existing home's inefficiencies. Upgrades like insulation and air sealing often have faster ROIs, potentially within 3-7 years, due to significant reductions in heating and cooling costs. More substantial projects, such as window replacement, might take 7-15 years. We can provide a more tailored estimate during a consultation, considering factors like utility rates in your area, such as Oakland or Berkeley, and the expected lifespan of the new systems. Utility bills before and after installation are key to tracking savings.",
+        "@type": "Answer",
+        "description": "ROI for energy-efficient upgrades varies, with insulation and air sealing often returning investment in 3-7 years. Utility rates and your home's existing inefficiencies significantly impact this timeframe."
+      }
+    }
+  ],
+  "description": "ROI for energy-efficient upgrades varies, with insulation and air sealing often returning investment in 3-7 years. Utility rates and your home's existing ineffi"
 }

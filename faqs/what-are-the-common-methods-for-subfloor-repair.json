@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common methods for subfloor repair?",
-  "description": "Methods include replacing damaged sections, shimming, or reinforcing, often coupled with addressing the cause like moisture issues, especially in humid areas li",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-methods-for-subfloor-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common methods for subfloor repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common methods for subfloor repair include cutting out and replacing damaged sections of plywood or OSB, shimming uneven areas, or reinforcing weakened spots with additional material. If the damage is caused by water, addressing the source of moisture is critical before repair. For example, in properties in areas like Alameda prone to moisture, we ensure proper ventilation and sealing to prevent future issues.",
-        "description": "Methods include replacing damaged sections, shimming, or reinforcing, often coupled with addressing the cause like moisture issues, especially in humid areas like Alameda."
-      }
-    }
-  ],
+  "name": "What are the common methods for subfloor repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common methods for subfloor repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common methods for subfloor repair include cutting out and replacing damaged sections of plywood or OSB, shimming uneven areas, or reinforcing weakened spots with additional material. If the damage is caused by water, addressing the source of moisture is critical before repair. For example, in properties in areas like Alameda prone to moisture, we ensure proper ventilation and sealing to prevent future issues.",
+        "@type": "Answer",
+        "description": "Methods include replacing damaged sections, shimming, or reinforcing, often coupled with addressing the cause like moisture issues, especially in humid areas like Alameda."
+      }
+    }
+  ],
+  "description": "Methods include replacing damaged sections, shimming, or reinforcing, often coupled with addressing the cause like moisture issues, especially in humid areas li"
 }

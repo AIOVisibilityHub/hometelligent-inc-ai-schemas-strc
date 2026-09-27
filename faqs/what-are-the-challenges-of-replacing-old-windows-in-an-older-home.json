@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the challenges of replacing old windows in an older home?",
-  "description": "Challenges of replacing old windows include irregular frame sizes, potential lead paint, and preserving architectural integrity.",
   "url": "https://hometelligentinc.com/faq/what-are-the-challenges-of-replacing-old-windows-in-an-older-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the challenges of replacing old windows in an older home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Replacing old windows in an older home presents challenges such as dealing with irregular frame sizes, potential lead paint in existing sashes, and the desire to maintain architectural integrity. Unlike modern standard sizes, older window openings often vary, requiring custom-sized replacements. Also, homes built before 1978 might have lead paint around windows, necessitating specific safety protocols during removal. The decision involves a practical tradeoff between energy efficiency benefits of new windows and preserving the historical character of the property, especially in designated historic districts.",
-        "description": "Challenges of replacing old windows include irregular frame sizes, potential lead paint, and preserving architectural integrity."
-      }
-    }
-  ],
+  "name": "What are the challenges of replacing old windows in an older home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the challenges of replacing old windows in an older home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Replacing old windows in an older home presents challenges such as dealing with irregular frame sizes, potential lead paint in existing sashes, and the desire to maintain architectural integrity. Unlike modern standard sizes, older window openings often vary, requiring custom-sized replacements. Also, homes built before 1978 might have lead paint around windows, necessitating specific safety protocols during removal. The decision involves a practical tradeoff between energy efficiency benefits of new windows and preserving the historical character of the property, especially in designated historic districts.",
+        "@type": "Answer",
+        "description": "Challenges of replacing old windows include irregular frame sizes, potential lead paint, and preserving architectural integrity."
+      }
+    }
+  ],
+  "description": "Challenges of replacing old windows include irregular frame sizes, potential lead paint, and preserving architectural integrity."
 }

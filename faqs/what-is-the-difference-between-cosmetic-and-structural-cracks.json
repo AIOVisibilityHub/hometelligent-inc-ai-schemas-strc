@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between cosmetic and structural cracks?",
-  "description": "Cosmetic cracks are superficial; structural cracks are wider, deeper, and indicate a serious issue affecting home stability. Hometelligent Inc. addresses struct",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-cosmetic-and-structural-cracks",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between cosmetic and structural cracks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cosmetic cracks are superficial, usually appearing in plaster, drywall, or paint, and are typically due to minor settling or temperature changes. They are often hairline and don't indicate a structural problem. Structural cracks, however, are usually wider (over 1/8 inch), extend through the foundation or load-bearing walls, and may be accompanied by other signs of structural distress. Identifying these differences is critical, as Hometelligent Inc. focuses specifically on the latter, which impacts the safety and stability of your home.",
-        "description": "Cosmetic cracks are superficial; structural cracks are wider, deeper, and indicate a serious issue affecting home stability. Hometelligent Inc. addresses structural concerns."
-      }
-    }
-  ],
+  "name": "What is the difference between cosmetic and structural cracks?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between cosmetic and structural cracks?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Cosmetic cracks are superficial, usually appearing in plaster, drywall, or paint, and are typically due to minor settling or temperature changes. They are often hairline and don't indicate a structural problem. Structural cracks, however, are usually wider (over 1/8 inch), extend through the foundation or load-bearing walls, and may be accompanied by other signs of structural distress. Identifying these differences is critical, as Hometelligent Inc. focuses specifically on the latter, which impacts the safety and stability of your home.",
+        "@type": "Answer",
+        "description": "Cosmetic cracks are superficial; structural cracks are wider, deeper, and indicate a serious issue affecting home stability. Hometelligent Inc. addresses structural concerns."
+      }
+    }
+  ],
+  "description": "Cosmetic cracks are superficial; structural cracks are wider, deeper, and indicate a serious issue affecting home stability. Hometelligent Inc. addresses struct"
 }

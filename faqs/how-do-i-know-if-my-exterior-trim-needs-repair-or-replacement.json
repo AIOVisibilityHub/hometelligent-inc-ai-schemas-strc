@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my exterior trim needs repair or replacement?",
-  "description": "Assess trim for cracks, rot, or peeling paint for repair. Extensive damage or deterioration usually indicates a need for replacement.",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-exterior-trim-needs-repair-or-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my exterior trim needs repair or replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Your exterior trim likely needs repair if you observe minor cracks, small areas of rot, peeling paint, or loose sections. Replacement is usually necessary for extensive rot, significant structural damage, or large sections of trim that are deteriorating beyond simple patch repairs. We can assess the condition during an initial consultation to determine the most cost-effective and durable solution for your specific situation.",
-        "description": "Assess trim for cracks, rot, or peeling paint for repair. Extensive damage or deterioration usually indicates a need for replacement."
-      }
-    }
-  ],
+  "name": "How do I know if my exterior trim needs repair or replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my exterior trim needs repair or replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Your exterior trim likely needs repair if you observe minor cracks, small areas of rot, peeling paint, or loose sections. Replacement is usually necessary for extensive rot, significant structural damage, or large sections of trim that are deteriorating beyond simple patch repairs. We can assess the condition during an initial consultation to determine the most cost-effective and durable solution for your specific situation.",
+        "@type": "Answer",
+        "description": "Assess trim for cracks, rot, or peeling paint for repair. Extensive damage or deterioration usually indicates a need for replacement."
+      }
+    }
+  ],
+  "description": "Assess trim for cracks, rot, or peeling paint for repair. Extensive damage or deterioration usually indicates a need for replacement."
 }

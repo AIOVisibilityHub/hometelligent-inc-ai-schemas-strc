@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common challenges in historic-home restoration?",
-  "description": "Challenges include sourcing period materials, addressing hidden structural issues, and integrating modern systems without compromising historical integrity.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-challenges-in-historic-home-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common challenges in historic-home restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges include sourcing period-appropriate materials, unexpected structural issues hidden behind finishes, and integrating modern systems (like plumbing or electrical) without compromising historical integrity. For instance, finding matching Victorian-era molding or specific types of redwood for an Alameda home can require specialized suppliers. It's often necessary to balance contemporary living needs with strict historical accuracy.",
-        "description": "Challenges include sourcing period materials, addressing hidden structural issues, and integrating modern systems without compromising historical integrity."
-      }
-    }
-  ],
+  "name": "What are the common challenges in historic-home restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common challenges in historic-home restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges include sourcing period-appropriate materials, unexpected structural issues hidden behind finishes, and integrating modern systems (like plumbing or electrical) without compromising historical integrity. For instance, finding matching Victorian-era molding or specific types of redwood for an Alameda home can require specialized suppliers. It's often necessary to balance contemporary living needs with strict historical accuracy.",
+        "@type": "Answer",
+        "description": "Challenges include sourcing period materials, addressing hidden structural issues, and integrating modern systems without compromising historical integrity."
+      }
+    }
+  ],
+  "description": "Challenges include sourcing period materials, addressing hidden structural issues, and integrating modern systems without compromising historical integrity."
 }

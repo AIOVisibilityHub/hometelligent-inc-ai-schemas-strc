@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of permits are needed for historic-home restoration?",
-  "description": "Permits include standard building permits and often specialized historical preservation permits, especially for designated properties.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-permits-are-needed-for-historic-home-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of permits are needed for historic-home restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permits for historic-home restoration typically include standard building, electrical, and plumbing permits, along with specialized historical preservation permits if the property is designated. For instance, in areas like Oakland Hills or Montclair, specific design review and historic alteration permits might be required by the city's planning department. It is critical to confirm all necessary permits with local authorities before work begins, as non-compliance can lead to delays or fines.",
-        "description": "Permits include standard building permits and often specialized historical preservation permits, especially for designated properties."
-      }
-    }
-  ],
+  "name": "What kind of permits are needed for historic-home restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of permits are needed for historic-home restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permits for historic-home restoration typically include standard building, electrical, and plumbing permits, along with specialized historical preservation permits if the property is designated. For instance, in areas like Oakland Hills or Montclair, specific design review and historic alteration permits might be required by the city's planning department. It is critical to confirm all necessary permits with local authorities before work begins, as non-compliance can lead to delays or fines.",
+        "@type": "Answer",
+        "description": "Permits include standard building permits and often specialized historical preservation permits, especially for designated properties."
+      }
+    }
+  ],
+  "description": "Permits include standard building permits and often specialized historical preservation permits, especially for designated properties."
 }

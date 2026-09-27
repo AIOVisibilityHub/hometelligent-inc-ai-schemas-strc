@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs that my floor joists need repair?",
-  "description": "Sagging floors, bounciness, visible cracks, and excessive squeaking are common indicators of joist damage.",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-my-floor-joists-need-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs that my floor joists need repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs that floor joists may need repair include sagging floors, noticeable bouncy areas when walking, visible cracks or splits in the joists, and increased squeaking or creaking sounds. You might also observe doors sticking or gaps appearing between walls and ceilings. A professional inspection can determine the extent of the damage and recommend appropriate repairs. When preparing for an inspection, note down all areas where you notice these issues, as this can help the contractor efficiently identify potential problems.",
-        "description": "Sagging floors, bounciness, visible cracks, and excessive squeaking are common indicators of joist damage."
-      }
-    }
-  ],
+  "name": "What are common signs that my floor joists need repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs that my floor joists need repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs that floor joists may need repair include sagging floors, noticeable bouncy areas when walking, visible cracks or splits in the joists, and increased squeaking or creaking sounds. You might also observe doors sticking or gaps appearing between walls and ceilings. A professional inspection can determine the extent of the damage and recommend appropriate repairs. When preparing for an inspection, note down all areas where you notice these issues, as this can help the contractor efficiently identify potential problems.",
+        "@type": "Answer",
+        "description": "Sagging floors, bounciness, visible cracks, and excessive squeaking are common indicators of joist damage."
+      }
+    }
+  ],
+  "description": "Sagging floors, bounciness, visible cracks, and excessive squeaking are common indicators of joist damage."
 }

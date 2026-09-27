@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I modernize my historic home while preserving its character?",
-  "description": "Modernizing a historic home while preserving its character is possible by sensitively integrating updates that respect original architecture and period features",
   "url": "https://hometelligentinc.com/faq/can-i-modernize-my-historic-home-while-preserving-its-character",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I modernize my historic home while preserving its character?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is possible to modernize a historic home while preserving its character through sensitive design and integration. This often involves updating mechanical systems, insulation, and kitchens/bathrooms using methods that respect the original architecture. For example, upgrading electrical systems in an Elmwood craftsman home would prioritize concealed wiring and period-appropriate fixtures to maintain aesthetic harmony. The key is to blend new elements seamlessly with existing historical features.",
-        "description": "Modernizing a historic home while preserving its character is possible by sensitively integrating updates that respect original architecture and period features."
-      }
-    }
-  ],
+  "name": "Can I modernize my historic home while preserving its character?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I modernize my historic home while preserving its character?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, it is possible to modernize a historic home while preserving its character through sensitive design and integration. This often involves updating mechanical systems, insulation, and kitchens/bathrooms using methods that respect the original architecture. For example, upgrading electrical systems in an Elmwood craftsman home would prioritize concealed wiring and period-appropriate fixtures to maintain aesthetic harmony. The key is to blend new elements seamlessly with existing historical features.",
+        "@type": "Answer",
+        "description": "Modernizing a historic home while preserving its character is possible by sensitively integrating updates that respect original architecture and period features."
+      }
+    }
+  ],
+  "description": "Modernizing a historic home while preserving its character is possible by sensitively integrating updates that respect original architecture and period features"
 }

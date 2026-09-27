@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of ceiling damage can Hometelligent Inc. repair?",
-  "description": "Hometelligent Inc. repairs cracks, water stains, sagging drywall, and holes in ceilings, first identifying the underlying cause for a lasting solution.",
   "url": "https://hometelligentinc.com/faq/what-types-of-ceiling-damage-can-hometelligent-inc-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of ceiling damage can Hometelligent Inc. repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. addresses various types of ceiling damage, including cracks, water stains, sagging drywall, and holes. These issues can stem from plumbing leaks, roof damage, or normal wear and tear. When assessing the damage, we first identify the underlying cause to ensure a lasting repair and prevent recurrence, which is crucial for maintaining your home's structural integrity.",
-        "description": "Hometelligent Inc. repairs cracks, water stains, sagging drywall, and holes in ceilings, first identifying the underlying cause for a lasting solution."
-      }
-    }
-  ],
+  "name": "What types of ceiling damage can Hometelligent Inc. repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of ceiling damage can Hometelligent Inc. repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. addresses various types of ceiling damage, including cracks, water stains, sagging drywall, and holes. These issues can stem from plumbing leaks, roof damage, or normal wear and tear. When assessing the damage, we first identify the underlying cause to ensure a lasting repair and prevent recurrence, which is crucial for maintaining your home's structural integrity.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. repairs cracks, water stains, sagging drywall, and holes in ceilings, first identifying the underlying cause for a lasting solution."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. repairs cracks, water stains, sagging drywall, and holes in ceilings, first identifying the underlying cause for a lasting solution."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prevent future framing damage after repairs are completed?",
-  "description": "Prevent future framing damage by maintaining roofs and plumbing, ensuring proper ventilation, sealing pest entry points, and promptly repairing exterior cracks",
   "url": "https://hometelligentinc.com/faq/how-can-i-prevent-future-framing-damage-after-repairs-are-completed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prevent future framing damage after repairs are completed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prevent future framing damage, it's crucial to address the root causes that led to the initial problem. This includes regularly inspecting and maintaining your roof, gutters, and plumbing to prevent water leaks. Ensure proper ventilation in attics and crawl spaces to reduce moisture buildup, and seal any entry points to deter pests like termites. Promptly repairing any cracks in the foundation or exterior to prevent water intrusion is also vital. These proactive measures, such as those we recommend for homes in Fremont or Pleasanton, can significantly extend the life of your framing and avoid recurring issues.",
-        "description": "Prevent future framing damage by maintaining roofs and plumbing, ensuring proper ventilation, sealing pest entry points, and promptly repairing exterior cracks to prevent water intrusion. Proactive maintenance is key."
-      }
-    }
-  ],
+  "name": "How can I prevent future framing damage after repairs are completed?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prevent future framing damage after repairs are completed?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prevent future framing damage, it's crucial to address the root causes that led to the initial problem. This includes regularly inspecting and maintaining your roof, gutters, and plumbing to prevent water leaks. Ensure proper ventilation in attics and crawl spaces to reduce moisture buildup, and seal any entry points to deter pests like termites. Promptly repairing any cracks in the foundation or exterior to prevent water intrusion is also vital. These proactive measures, such as those we recommend for homes in Fremont or Pleasanton, can significantly extend the life of your framing and avoid recurring issues.",
+        "@type": "Answer",
+        "description": "Prevent future framing damage by maintaining roofs and plumbing, ensuring proper ventilation, sealing pest entry points, and promptly repairing exterior cracks to prevent water intrusion. Proactive maintenance is key."
+      }
+    }
+  ],
+  "description": "Prevent future framing damage by maintaining roofs and plumbing, ensuring proper ventilation, sealing pest entry points, and promptly repairing exterior cracks"
 }

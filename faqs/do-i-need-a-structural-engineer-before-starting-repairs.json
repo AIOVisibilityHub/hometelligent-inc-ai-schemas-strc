@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a structural engineer before starting repairs?",
-  "description": "Yes, for significant issues, a structural engineer is often required to diagnose problems and provide repair specifications, ensuring safety and code compliance",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-structural-engineer-before-starting-repairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a structural engineer before starting repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most significant structural issues, consulting a qualified structural engineer is highly recommended, and often legally required. An engineer can accurately diagnose the problem, provide detailed repair specifications, and ensure the proposed solutions meet safety and building code standards. Their assessment offers an unbiased professional opinion crucial for effective and compliant repairs. Hometelligent Inc. can coordinate with structural engineers or work from existing engineering reports to ensure all repairs are performed to precise specifications.",
-        "description": "Yes, for significant issues, a structural engineer is often required to diagnose problems and provide repair specifications, ensuring safety and code compliance. Hometelligent Inc. works with these reports."
-      }
-    }
-  ],
+  "name": "Do I need a structural engineer before starting repairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a structural engineer before starting repairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For most significant structural issues, consulting a qualified structural engineer is highly recommended, and often legally required. An engineer can accurately diagnose the problem, provide detailed repair specifications, and ensure the proposed solutions meet safety and building code standards. Their assessment offers an unbiased professional opinion crucial for effective and compliant repairs. Hometelligent Inc. can coordinate with structural engineers or work from existing engineering reports to ensure all repairs are performed to precise specifications.",
+        "@type": "Answer",
+        "description": "Yes, for significant issues, a structural engineer is often required to diagnose problems and provide repair specifications, ensuring safety and code compliance. Hometelligent Inc. works with these reports."
+      }
+    }
+  ],
+  "description": "Yes, for significant issues, a structural engineer is often required to diagnose problems and provide repair specifications, ensuring safety and code compliance"
 }

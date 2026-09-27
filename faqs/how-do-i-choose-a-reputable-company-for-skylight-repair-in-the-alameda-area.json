@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose a reputable company for skylight repair in the Alameda area?",
-  "description": "Choose a licensed, insured contractor with skylight experience and good reviews. Verify they know local codes.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-a-reputable-company-for-skylight-repair-in-the-alameda-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose a reputable company for skylight repair in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a reputable company for skylight repair in the Alameda area, look for licensed and insured contractors with experience specific to skylights. Check their reviews, ask for references, and ensure they provide clear, written estimates. Hometelligent Inc. serves Alameda and surrounding cities, offering transparent pricing and qualified technicians. Verifying that the company is familiar with local building codes and permits, if applicable, is also an important step to ensure compliance and quality work.",
-        "description": "Choose a licensed, insured contractor with skylight experience and good reviews. Verify they know local codes."
-      }
-    }
-  ],
+  "name": "How do I choose a reputable company for skylight repair in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose a reputable company for skylight repair in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a reputable company for skylight repair in the Alameda area, look for licensed and insured contractors with experience specific to skylights. Check their reviews, ask for references, and ensure they provide clear, written estimates. Hometelligent Inc. serves Alameda and surrounding cities, offering transparent pricing and qualified technicians. Verifying that the company is familiar with local building codes and permits, if applicable, is also an important step to ensure compliance and quality work.",
+        "@type": "Answer",
+        "description": "Choose a licensed, insured contractor with skylight experience and good reviews. Verify they know local codes."
+      }
+    }
+  ],
+  "description": "Choose a licensed, insured contractor with skylight experience and good reviews. Verify they know local codes."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does skylight repair typically take?",
-  "description": "Skylight repair can take a few hours for minor issues or a full day or more for complex problems, depending on damage and weather.",
   "url": "https://hometelligentinc.com/faq/how-long-does-skylight-repair-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does skylight repair typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of skylight repair varies depending on the extent of the damage and the type of repair needed. Minor repairs, such as resealing flashing or replacing a small pane, might take a few hours. More complex issues, like replacing the entire unit or repairing significant structural damage around the skylight, could take a full day or more. Weather conditions, especially rain or strong winds, can also impact the repair timeline, potentially delaying work to ensure proper sealing and safety.",
-        "description": "Skylight repair can take a few hours for minor issues or a full day or more for complex problems, depending on damage and weather."
-      }
-    }
-  ],
+  "name": "How long does skylight repair typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does skylight repair typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of skylight repair varies depending on the extent of the damage and the type of repair needed. Minor repairs, such as resealing flashing or replacing a small pane, might take a few hours. More complex issues, like replacing the entire unit or repairing significant structural damage around the skylight, could take a full day or more. Weather conditions, especially rain or strong winds, can also impact the repair timeline, potentially delaying work to ensure proper sealing and safety.",
+        "@type": "Answer",
+        "description": "Skylight repair can take a few hours for minor issues or a full day or more for complex problems, depending on damage and weather."
+      }
+    }
+  ],
+  "description": "Skylight repair can take a few hours for minor issues or a full day or more for complex problems, depending on damage and weather."
 }

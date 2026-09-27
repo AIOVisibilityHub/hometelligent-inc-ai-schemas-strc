@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can you repair fogged or condensed windows?",
-  "description": "Fogged windows usually mean a failed seal in the insulated glass unit, requiring replacement of the entire IGU to restore insulation and clarity.",
   "url": "https://hometelligentinc.com/faq/can-you-repair-fogged-or-condensed-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can you repair fogged or condensed windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fogged or condensed windows, especially those with moisture between the glass panes, typically indicate a failed seal in an insulated glass unit (IGU). While the glass itself isn't broken, the compromised seal allows moisture to enter and condense. This issue often requires replacing the entire insulated glass unit rather than just a simple repair. Replacing the IGU restores the window's insulating properties and eliminates the visual obstruction caused by the condensation.",
-        "description": "Fogged windows usually mean a failed seal in the insulated glass unit, requiring replacement of the entire IGU to restore insulation and clarity."
-      }
-    }
-  ],
+  "name": "Can you repair fogged or condensed windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can you repair fogged or condensed windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Fogged or condensed windows, especially those with moisture between the glass panes, typically indicate a failed seal in an insulated glass unit (IGU). While the glass itself isn't broken, the compromised seal allows moisture to enter and condense. This issue often requires replacing the entire insulated glass unit rather than just a simple repair. Replacing the IGU restores the window's insulating properties and eliminates the visual obstruction caused by the condensation.",
+        "@type": "Answer",
+        "description": "Fogged windows usually mean a failed seal in the insulated glass unit, requiring replacement of the entire IGU to restore insulation and clarity."
+      }
+    }
+  ],
+  "description": "Fogged windows usually mean a failed seal in the insulated glass unit, requiring replacement of the entire IGU to restore insulation and clarity."
 }

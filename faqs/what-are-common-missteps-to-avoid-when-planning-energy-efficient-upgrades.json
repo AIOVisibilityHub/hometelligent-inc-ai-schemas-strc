@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common missteps to avoid when planning energy-efficient upgrades?",
-  "description": "Avoid missteps like skipping a home energy audit, neglecting air sealing, or relying on a single solution. Choosing uncertified contractors or not verifying pro",
   "url": "https://hometelligentinc.com/faq/what-are-common-missteps-to-avoid-when-planning-energy-efficient-upgrades",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common missteps to avoid when planning energy-efficient upgrades?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common missteps when planning energy-efficient upgrades include failing to conduct a home energy audit, which can lead to misdiagnosing the biggest energy loss areas. Another pitfall is neglecting air sealing while upgrading insulation, as unsealed leaks can undermine insulation's effectiveness. Over-relying on a single solution, like just replacing windows, without addressing other issues is also a frequent error. Finally, choosing uncertified contractors or not verifying product specifications can lead to subpar results. At Hometelligent Inc., we emphasize a holistic approach, starting with a thorough assessment to ensure all improvements work synergistically for optimal savings and comfort.",
-        "description": "Avoid missteps like skipping a home energy audit, neglecting air sealing, or relying on a single solution. Choosing uncertified contractors or not verifying product specs are also common errors that can reduce effectiveness."
-      }
-    }
-  ],
+  "name": "What are common missteps to avoid when planning energy-efficient upgrades?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common missteps to avoid when planning energy-efficient upgrades?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common missteps when planning energy-efficient upgrades include failing to conduct a home energy audit, which can lead to misdiagnosing the biggest energy loss areas. Another pitfall is neglecting air sealing while upgrading insulation, as unsealed leaks can undermine insulation's effectiveness. Over-relying on a single solution, like just replacing windows, without addressing other issues is also a frequent error. Finally, choosing uncertified contractors or not verifying product specifications can lead to subpar results. At Hometelligent Inc., we emphasize a holistic approach, starting with a thorough assessment to ensure all improvements work synergistically for optimal savings and comfort.",
+        "@type": "Answer",
+        "description": "Avoid missteps like skipping a home energy audit, neglecting air sealing, or relying on a single solution. Choosing uncertified contractors or not verifying product specs are also common errors that can reduce effectiveness."
+      }
+    }
+  ],
+  "description": "Avoid missteps like skipping a home energy audit, neglecting air sealing, or relying on a single solution. Choosing uncertified contractors or not verifying pro"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of structural repair?",
-  "description": "Cost factors include damage type/severity, materials, accessibility, and specialized needs. Major foundation work costs more. Detailed quotes are provided after",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-structural-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of structural repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of structural repair is influenced by several factors, including the type and severity of the structural issue, the materials required, the accessibility of the damaged area, and the need for specialized equipment or engineering. Repairs involving significant foundation work, such as helical piers or concrete underpinning, are typically more costly than minor crack injections. Hometelligent Inc. provides detailed, transparent quotes based on a comprehensive assessment, helping you understand the investment needed for your specific repair.",
-        "description": "Cost factors include damage type/severity, materials, accessibility, and specialized needs. Major foundation work costs more. Detailed quotes are provided after assessment."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of structural repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of structural repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of structural repair is influenced by several factors, including the type and severity of the structural issue, the materials required, the accessibility of the damaged area, and the need for specialized equipment or engineering. Repairs involving significant foundation work, such as helical piers or concrete underpinning, are typically more costly than minor crack injections. Hometelligent Inc. provides detailed, transparent quotes based on a comprehensive assessment, helping you understand the investment needed for your specific repair.",
+        "@type": "Answer",
+        "description": "Cost factors include damage type/severity, materials, accessibility, and specialized needs. Major foundation work costs more. Detailed quotes are provided after assessment."
+      }
+    }
+  ],
+  "description": "Cost factors include damage type/severity, materials, accessibility, and specialized needs. Major foundation work costs more. Detailed quotes are provided after"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of ceiling repair?",
-  "description": "Ceiling repair costs depend on damage type and severity, area size, material, and underlying issue resolution, with complex problems increasing expenses.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-ceiling-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of ceiling repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of ceiling repair is primarily influenced by the type and severity of damage, the size of the area needing repair, the type of ceiling material (e.g., drywall, plaster), and whether the underlying cause, like a leak, also needs fixing. Complex issues requiring structural reinforcement or extensive water damage remediation will naturally incur higher costs. We provide transparent, upfront estimates after a thorough inspection.",
-        "description": "Ceiling repair costs depend on damage type and severity, area size, material, and underlying issue resolution, with complex problems increasing expenses."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of ceiling repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of ceiling repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of ceiling repair is primarily influenced by the type and severity of damage, the size of the area needing repair, the type of ceiling material (e.g., drywall, plaster), and whether the underlying cause, like a leak, also needs fixing. Complex issues requiring structural reinforcement or extensive water damage remediation will naturally incur higher costs. We provide transparent, upfront estimates after a thorough inspection.",
+        "@type": "Answer",
+        "description": "Ceiling repair costs depend on damage type and severity, area size, material, and underlying issue resolution, with complex problems increasing expenses."
+      }
+    }
+  ],
+  "description": "Ceiling repair costs depend on damage type and severity, area size, material, and underlying issue resolution, with complex problems increasing expenses."
 }

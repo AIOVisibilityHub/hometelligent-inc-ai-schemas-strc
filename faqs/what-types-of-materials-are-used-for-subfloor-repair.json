@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of materials are used for subfloor repair?",
-  "description": "Plywood or OSB are common subfloor repair materials, matched to existing thickness and grade, along with appropriate fasteners and adhesives.",
   "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-used-for-subfloor-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of materials are used for subfloor repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Subfloor repair commonly uses materials like plywood or oriented strand board (OSB) for replacement sections, ensuring they match the original subfloor's thickness and grade for structural consistency. Specific types of fasteners, adhesives, and moisture barriers may also be utilized based on the extent of damage and environmental conditions. Choosing the right material ensures durability and proper support for your final flooring.",
-        "description": "Plywood or OSB are common subfloor repair materials, matched to existing thickness and grade, along with appropriate fasteners and adhesives."
-      }
-    }
-  ],
+  "name": "What types of materials are used for subfloor repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of materials are used for subfloor repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Subfloor repair commonly uses materials like plywood or oriented strand board (OSB) for replacement sections, ensuring they match the original subfloor's thickness and grade for structural consistency. Specific types of fasteners, adhesives, and moisture barriers may also be utilized based on the extent of damage and environmental conditions. Choosing the right material ensures durability and proper support for your final flooring.",
+        "@type": "Answer",
+        "description": "Plywood or OSB are common subfloor repair materials, matched to existing thickness and grade, along with appropriate fasteners and adhesives."
+      }
+    }
+  ],
+  "description": "Plywood or OSB are common subfloor repair materials, matched to existing thickness and grade, along with appropriate fasteners and adhesives."
 }

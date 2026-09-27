@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before requesting Low-VOC material upgrades for my home?",
-  "description": "Consider your budget, target areas, and occupant sensitivities before requesting low-VOC upgrades. Discuss these with your contractor early to plan effectively.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-requesting-low-voc-material-upgrades-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before requesting Low-VOC material upgrades for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before requesting low-VOC upgrades, consider your budget, the specific areas of your home you want to target, and any existing sensitivities or health concerns among occupants. Discussing these priorities with your contractor early in the planning process is crucial. This preparation step allows Hometelligent Inc. to accurately recommend the most suitable materials and integrate them efficiently into your project scope, ensuring a renovation that aligns with your health and environmental goals.",
-        "description": "Consider your budget, target areas, and occupant sensitivities before requesting low-VOC upgrades. Discuss these with your contractor early to plan effectively."
-      }
-    }
-  ],
+  "name": "What should I consider before requesting Low-VOC material upgrades for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before requesting Low-VOC material upgrades for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before requesting low-VOC upgrades, consider your budget, the specific areas of your home you want to target, and any existing sensitivities or health concerns among occupants. Discussing these priorities with your contractor early in the planning process is crucial. This preparation step allows Hometelligent Inc. to accurately recommend the most suitable materials and integrate them efficiently into your project scope, ensuring a renovation that aligns with your health and environmental goals.",
+        "@type": "Answer",
+        "description": "Consider your budget, target areas, and occupant sensitivities before requesting low-VOC upgrades. Discuss these with your contractor early to plan effectively."
+      }
+    }
+  ],
+  "description": "Consider your budget, target areas, and occupant sensitivities before requesting low-VOC upgrades. Discuss these with your contractor early to plan effectively."
 }

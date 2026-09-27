@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does an energy-efficient whole-home remodel usually take?",
-  "description": "Whole-home energy-efficient remodels vary in length, from weeks for minor updates to months for large renovations. Discuss timeline constraints early to help wi",
   "url": "https://hometelligentinc.com/faq/how-long-does-an-energy-efficient-whole-home-remodel-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does an energy-efficient whole-home remodel usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of an energy-efficient whole-home remodel depends on the size of the home, the extent of the upgrades, and the complexity of the chosen solutions. A typical project might range from several weeks for targeted upgrades to several months for extensive renovations involving multiple systems and significant structural changes. We recommend discussing your specific timeline constraints during the initial consultation, as this can influence the phasing and scheduling of different project components.",
-        "description": "Whole-home energy-efficient remodels vary in length, from weeks for minor updates to months for large renovations. Discuss timeline constraints early to help with project phasing."
-      }
-    }
-  ],
+  "name": "How long does an energy-efficient whole-home remodel usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does an energy-efficient whole-home remodel usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of an energy-efficient whole-home remodel depends on the size of the home, the extent of the upgrades, and the complexity of the chosen solutions. A typical project might range from several weeks for targeted upgrades to several months for extensive renovations involving multiple systems and significant structural changes. We recommend discussing your specific timeline constraints during the initial consultation, as this can influence the phasing and scheduling of different project components.",
+        "@type": "Answer",
+        "description": "Whole-home energy-efficient remodels vary in length, from weeks for minor updates to months for large renovations. Discuss timeline constraints early to help with project phasing."
+      }
+    }
+  ],
+  "description": "Whole-home energy-efficient remodels vary in length, from weeks for minor updates to months for large renovations. Discuss timeline constraints early to help wi"
 }

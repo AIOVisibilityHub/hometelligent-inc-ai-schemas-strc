@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for floor joist repair in the Alameda area?",
-  "description": "Significant floor joist repairs often require a building permit in Alameda. Check with local authorities or a contractor for specific project needs.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-floor-joist-repair-in-the-alameda-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for floor joist repair in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For significant structural repairs like floor joist replacement or extensive reinforcement, a building permit is typically required by local authorities in Alameda and surrounding areas. This ensures that the work complies with safety codes and structural integrity standards. Minor repairs, such as patching small areas, may not always need a permit, but it's always best to consult with your local building department or a qualified contractor. Hometelligent Inc. can assist in understanding permit requirements specific to your project and location.",
-        "description": "Significant floor joist repairs often require a building permit in Alameda. Check with local authorities or a contractor for specific project needs."
-      }
-    }
-  ],
+  "name": "Do I need a permit for floor joist repair in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for floor joist repair in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For significant structural repairs like floor joist replacement or extensive reinforcement, a building permit is typically required by local authorities in Alameda and surrounding areas. This ensures that the work complies with safety codes and structural integrity standards. Minor repairs, such as patching small areas, may not always need a permit, but it's always best to consult with your local building department or a qualified contractor. Hometelligent Inc. can assist in understanding permit requirements specific to your project and location.",
+        "@type": "Answer",
+        "description": "Significant floor joist repairs often require a building permit in Alameda. Check with local authorities or a contractor for specific project needs."
+      }
+    }
+  ],
+  "description": "Significant floor joist repairs often require a building permit in Alameda. Check with local authorities or a contractor for specific project needs."
 }

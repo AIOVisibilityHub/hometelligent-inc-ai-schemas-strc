@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prevent future wall damage after repairs?",
-  "description": "Prevent future damage by addressing root causes like installing corner guards, fixing leaks, and managing humidity, especially in earthquake-prone areas.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prevent-future-wall-damage-after-repairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prevent future wall damage after repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Preventing future wall damage involves addressing its root causes. For example, installing corner guards can protect high-traffic areas from dents, while promptly addressing leaks and managing indoor humidity can prevent water damage. For homes in Alameda, Albany, Berkeley, Dublin, Emeryville, or other service areas prone to seismic activity, periodic inspections can help identify minor shifts before they cause significant cracks. Proper ventilation also helps mitigate moisture-related issues.",
-        "description": "Prevent future damage by addressing root causes like installing corner guards, fixing leaks, and managing humidity, especially in earthquake-prone areas."
-      }
-    }
-  ],
+  "name": "How can I prevent future wall damage after repairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prevent future wall damage after repairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Preventing future wall damage involves addressing its root causes. For example, installing corner guards can protect high-traffic areas from dents, while promptly addressing leaks and managing indoor humidity can prevent water damage. For homes in Alameda, Albany, Berkeley, Dublin, Emeryville, or other service areas prone to seismic activity, periodic inspections can help identify minor shifts before they cause significant cracks. Proper ventilation also helps mitigate moisture-related issues.",
+        "@type": "Answer",
+        "description": "Prevent future damage by addressing root causes like installing corner guards, fixing leaks, and managing humidity, especially in earthquake-prone areas."
+      }
+    }
+  ],
+  "description": "Prevent future damage by addressing root causes like installing corner guards, fixing leaks, and managing humidity, especially in earthquake-prone areas."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my older home's electrical system needs an upgrade?",
-  "description": "Frequent tripped breakers, flickering lights, or heavy use of extension cords indicate a potential need for an electrical upgrade in an older home.",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-older-home-s-electrical-system-needs-an-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my older home's electrical system needs an upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You might need an electrical upgrade if your older home experiences frequently tripped breakers, flickering lights, or relies heavily on extension cords. Many homes built before the 1960s in areas like Oakland and Alameda were not designed for modern electrical demands. An upgrade can prevent fire hazards and ensure your home can safely support current appliances. A qualified electrician can assess your current system's capacity and condition to determine if a full panel upgrade or rewiring is necessary, which is a key preparation step before any major renovation.",
-        "description": "Frequent tripped breakers, flickering lights, or heavy use of extension cords indicate a potential need for an electrical upgrade in an older home."
-      }
-    }
-  ],
+  "name": "How do I know if my older home's electrical system needs an upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my older home's electrical system needs an upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You might need an electrical upgrade if your older home experiences frequently tripped breakers, flickering lights, or relies heavily on extension cords. Many homes built before the 1960s in areas like Oakland and Alameda were not designed for modern electrical demands. An upgrade can prevent fire hazards and ensure your home can safely support current appliances. A qualified electrician can assess your current system's capacity and condition to determine if a full panel upgrade or rewiring is necessary, which is a key preparation step before any major renovation.",
+        "@type": "Answer",
+        "description": "Frequent tripped breakers, flickering lights, or heavy use of extension cords indicate a potential need for an electrical upgrade in an older home."
+      }
+    }
+  ],
+  "description": "Frequent tripped breakers, flickering lights, or heavy use of extension cords indicate a potential need for an electrical upgrade in an older home."
 }

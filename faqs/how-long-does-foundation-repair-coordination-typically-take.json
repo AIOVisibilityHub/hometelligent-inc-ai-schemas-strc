@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does foundation repair coordination typically take?",
-  "description": "Coordination duration varies based on project complexity and permitting, from weeks for simple repairs to months for extensive structural work.",
   "url": "https://hometelligentinc.com/faq/how-long-does-foundation-repair-coordination-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does foundation repair coordination typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of foundation repair coordination varies depending on the project's complexity, required permits, and scope of work. Simple repairs might be coordinated in a few weeks, while extensive projects involving engineering, permits from multiple agencies (common in areas like Dublin or Pleasanton), and significant construction can take several months. The coordination phase often accounts for a substantial part of the overall timeline, as it ensures all prerequisites are met before physical work begins.",
-        "description": "Coordination duration varies based on project complexity and permitting, from weeks for simple repairs to months for extensive structural work."
-      }
-    }
-  ],
+  "name": "How long does foundation repair coordination typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does foundation repair coordination typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of foundation repair coordination varies depending on the project's complexity, required permits, and scope of work. Simple repairs might be coordinated in a few weeks, while extensive projects involving engineering, permits from multiple agencies (common in areas like Dublin or Pleasanton), and significant construction can take several months. The coordination phase often accounts for a substantial part of the overall timeline, as it ensures all prerequisites are met before physical work begins.",
+        "@type": "Answer",
+        "description": "Coordination duration varies based on project complexity and permitting, from weeks for simple repairs to months for extensive structural work."
+      }
+    }
+  ],
+  "description": "Coordination duration varies based on project complexity and permitting, from weeks for simple repairs to months for extensive structural work."
 }

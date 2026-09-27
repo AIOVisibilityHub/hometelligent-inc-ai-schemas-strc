@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of professional home safety repairs versus DIY solutions?",
-  "description": "Professional repairs guarantee code compliance, offer warranties, and reduce future risks. DIY saves money but risks incorrect fixes or further damage.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-professional-home-safety-repairs-versus-diy-solutions",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of professional home safety repairs versus DIY solutions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Professional home safety repairs ensure work is completed to code, often come with warranties, and minimize the risk of future issues due to improper installation. While DIY solutions might save on immediate costs, they carry risks like incorrect fixes, potential for further damage, or even personal injury if not done correctly. Professionals have the experience, tools, and knowledge of safety regulations to ensure lasting and secure repairs. The practical tradeoff is often between saving money initially with DIY versus the peace of mind and long-term safety assurance provided by certified experts.",
-        "description": "Professional repairs guarantee code compliance, offer warranties, and reduce future risks. DIY saves money but risks incorrect fixes or further damage."
-      }
-    }
-  ],
+  "name": "What are the benefits of professional home safety repairs versus DIY solutions?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of professional home safety repairs versus DIY solutions?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Professional home safety repairs ensure work is completed to code, often come with warranties, and minimize the risk of future issues due to improper installation. While DIY solutions might save on immediate costs, they carry risks like incorrect fixes, potential for further damage, or even personal injury if not done correctly. Professionals have the experience, tools, and knowledge of safety regulations to ensure lasting and secure repairs. The practical tradeoff is often between saving money initially with DIY versus the peace of mind and long-term safety assurance provided by certified experts.",
+        "@type": "Answer",
+        "description": "Professional repairs guarantee code compliance, offer warranties, and reduce future risks. DIY saves money but risks incorrect fixes or further damage."
+      }
+    }
+  ],
+  "description": "Professional repairs guarantee code compliance, offer warranties, and reduce future risks. DIY saves money but risks incorrect fixes or further damage."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Will my repaired siding match the existing siding on my house?",
-  "description": "We aim for the closest match in color and texture, but exact matches can be difficult due to weathering. Options will be discussed.",
   "url": "https://hometelligentinc.com/faq/will-my-repaired-siding-match-the-existing-siding-on-my-house",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will my repaired siding match the existing siding on my house?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Matching repaired siding to existing siding can sometimes be challenging, especially with older or custom materials. We strive for the closest possible match in color, texture, and style by sourcing materials from reputable suppliers. Factors like sun exposure and weathering can cause existing siding to fade over time, making an exact match difficult. In such cases, we discuss options with you, which might include painting the new sections or exploring repair strategies that minimize visual differences. Our goal is to achieve the most seamless integration possible.",
-        "description": "We aim for the closest match in color and texture, but exact matches can be difficult due to weathering. Options will be discussed."
-      }
-    }
-  ],
+  "name": "Will my repaired siding match the existing siding on my house?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Will my repaired siding match the existing siding on my house?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Matching repaired siding to existing siding can sometimes be challenging, especially with older or custom materials. We strive for the closest possible match in color, texture, and style by sourcing materials from reputable suppliers. Factors like sun exposure and weathering can cause existing siding to fade over time, making an exact match difficult. In such cases, we discuss options with you, which might include painting the new sections or exploring repair strategies that minimize visual differences. Our goal is to achieve the most seamless integration possible.",
+        "@type": "Answer",
+        "description": "We aim for the closest match in color and texture, but exact matches can be difficult due to weathering. Options will be discussed."
+      }
+    }
+  ],
+  "description": "We aim for the closest match in color and texture, but exact matches can be difficult due to weathering. Options will be discussed."
 }

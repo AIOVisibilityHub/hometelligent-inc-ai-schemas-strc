@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose a contractor for historic-home restoration?",
-  "description": "Choose a contractor with proven experience in similar period properties, knowledge of preservation standards, and strong references for historic projects.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-a-contractor-for-historic-home-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose a contractor for historic-home restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for historic-home restoration, look for experience with similar period properties and a deep understanding of preservation standards. It's important to ask for references from past historic projects and review their portfolio to assess their craftsmanship. A contractor with strong relationships with local historical societies or architects specializing in preservation, particularly in areas like Piedmont or Berkeley, can streamline the approval process and ensure authentic results.",
-        "description": "Choose a contractor with proven experience in similar period properties, knowledge of preservation standards, and strong references for historic projects."
-      }
-    }
-  ],
+  "name": "How do I choose a contractor for historic-home restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose a contractor for historic-home restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for historic-home restoration, look for experience with similar period properties and a deep understanding of preservation standards. It's important to ask for references from past historic projects and review their portfolio to assess their craftsmanship. A contractor with strong relationships with local historical societies or architects specializing in preservation, particularly in areas like Piedmont or Berkeley, can streamline the approval process and ensure authentic results.",
+        "@type": "Answer",
+        "description": "Choose a contractor with proven experience in similar period properties, knowledge of preservation standards, and strong references for historic projects."
+      }
+    }
+  ],
+  "description": "Choose a contractor with proven experience in similar period properties, knowledge of preservation standards, and strong references for historic projects."
 }

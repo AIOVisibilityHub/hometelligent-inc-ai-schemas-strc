@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical historic-home restoration project take?",
-  "description": "Project duration varies based on home size, condition, and scope, from months to over a year. Specialized craftsmanship and preservation guidelines can extend t",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-historic-home-restoration-project-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical historic-home restoration project take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a historic-home restoration project varies significantly based on the home's size, condition, and the scope of work. Projects can range from a few months for minor exterior work to over a year for extensive structural and interior renovations. The need for specialized craftsmanship, custom-ordered materials, and compliance with preservation guidelines can extend timelines compared to conventional renovations.",
-        "description": "Project duration varies based on home size, condition, and scope, from months to over a year. Specialized craftsmanship and preservation guidelines can extend timelines."
-      }
-    }
-  ],
+  "name": "How long does a typical historic-home restoration project take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical historic-home restoration project take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a historic-home restoration project varies significantly based on the home's size, condition, and the scope of work. Projects can range from a few months for minor exterior work to over a year for extensive structural and interior renovations. The need for specialized craftsmanship, custom-ordered materials, and compliance with preservation guidelines can extend timelines compared to conventional renovations.",
+        "@type": "Answer",
+        "description": "Project duration varies based on home size, condition, and scope, from months to over a year. Specialized craftsmanship and preservation guidelines can extend timelines."
+      }
+    }
+  ],
+  "description": "Project duration varies based on home size, condition, and scope, from months to over a year. Specialized craftsmanship and preservation guidelines can extend t"
 }

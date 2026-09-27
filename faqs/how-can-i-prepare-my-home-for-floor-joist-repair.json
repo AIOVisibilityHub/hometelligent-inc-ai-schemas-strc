@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my home for floor joist repair?",
-  "description": "Prepare for floor joist repair by clearing the affected area, removing furniture, ensuring accessibility, and protecting nearby items from dust.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-home-for-floor-joist-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my home for floor joist repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before floor joist repair begins, you can prepare your home by clearing out the affected areas. This includes removing furniture, personal belongings, and any floor coverings that are not part of the structural repair. If the repair involves a crawl space, ensure it is accessible and free of obstructions. Protecting nearby items from dust and debris with drop cloths is also recommended. Discuss specific preparation steps with your contractor, as they may have particular requirements to facilitate their work and ensure safety.",
-        "description": "Prepare for floor joist repair by clearing the affected area, removing furniture, ensuring accessibility, and protecting nearby items from dust."
-      }
-    }
-  ],
+  "name": "How can I prepare my home for floor joist repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my home for floor joist repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before floor joist repair begins, you can prepare your home by clearing out the affected areas. This includes removing furniture, personal belongings, and any floor coverings that are not part of the structural repair. If the repair involves a crawl space, ensure it is accessible and free of obstructions. Protecting nearby items from dust and debris with drop cloths is also recommended. Discuss specific preparation steps with your contractor, as they may have particular requirements to facilitate their work and ensure safety.",
+        "@type": "Answer",
+        "description": "Prepare for floor joist repair by clearing the affected area, removing furniture, ensuring accessibility, and protecting nearby items from dust."
+      }
+    }
+  ],
+  "description": "Prepare for floor joist repair by clearing the affected area, removing furniture, ensuring accessibility, and protecting nearby items from dust."
 }

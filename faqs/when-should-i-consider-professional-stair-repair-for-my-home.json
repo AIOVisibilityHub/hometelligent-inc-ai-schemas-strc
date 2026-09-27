@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider professional stair repair for my home?",
-  "description": "Consider professional stair repair for loose treads, wobbly handrails, cracked newel posts, or significant wear, as this prevents safety hazards and costly dama",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-professional-stair-repair-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider professional stair repair for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider professional stair repair if you notice loose treads, wobbly handrails, cracked newel posts, or significant wear and tear on your stairs. Prompt repair can prevent minor issues from becoming safety hazards or leading to more extensive and costly damage to the entire staircase structure. Addressing these problems early helps maintain the structural integrity and safety of your home's stairs.",
-        "description": "Consider professional stair repair for loose treads, wobbly handrails, cracked newel posts, or significant wear, as this prevents safety hazards and costly damage."
-      }
-    }
-  ],
+  "name": "When should I consider professional stair repair for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider professional stair repair for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider professional stair repair if you notice loose treads, wobbly handrails, cracked newel posts, or significant wear and tear on your stairs. Prompt repair can prevent minor issues from becoming safety hazards or leading to more extensive and costly damage to the entire staircase structure. Addressing these problems early helps maintain the structural integrity and safety of your home's stairs.",
+        "@type": "Answer",
+        "description": "Consider professional stair repair for loose treads, wobbly handrails, cracked newel posts, or significant wear, as this prevents safety hazards and costly damage."
+      }
+    }
+  ],
+  "description": "Consider professional stair repair for loose treads, wobbly handrails, cracked newel posts, or significant wear, as this prevents safety hazards and costly dama"
 }

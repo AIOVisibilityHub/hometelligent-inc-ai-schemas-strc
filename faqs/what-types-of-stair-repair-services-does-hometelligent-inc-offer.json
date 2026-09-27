@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of stair repair services does Hometelligent Inc. offer?",
-  "description": "Hometelligent Inc. offers comprehensive stair repair, including fixing loose treads, damaged risers, wobbly newel posts, and restoring handrails, after a thorou",
   "url": "https://hometelligentinc.com/faq/what-types-of-stair-repair-services-does-hometelligent-inc-offer",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of stair repair services does Hometelligent Inc. offer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. offers comprehensive stair repair services, including fixing loose or squeaky treads, repairing damaged risers, reinforcing wobbly newel posts and balusters, and restoring handrails. We address issues with both structural components and cosmetic finishes. Our approach typically involves a thorough inspection to determine the root cause of the damage before recommending the most effective repair solutions for your specific staircase.",
-        "description": "Hometelligent Inc. offers comprehensive stair repair, including fixing loose treads, damaged risers, wobbly newel posts, and restoring handrails, after a thorough inspection."
-      }
-    }
-  ],
+  "name": "What types of stair repair services does Hometelligent Inc. offer?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of stair repair services does Hometelligent Inc. offer?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. offers comprehensive stair repair services, including fixing loose or squeaky treads, repairing damaged risers, reinforcing wobbly newel posts and balusters, and restoring handrails. We address issues with both structural components and cosmetic finishes. Our approach typically involves a thorough inspection to determine the root cause of the damage before recommending the most effective repair solutions for your specific staircase.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. offers comprehensive stair repair, including fixing loose treads, damaged risers, wobbly newel posts, and restoring handrails, after a thorough inspection."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. offers comprehensive stair repair, including fixing loose treads, damaged risers, wobbly newel posts, and restoring handrails, after a thorou"
 }

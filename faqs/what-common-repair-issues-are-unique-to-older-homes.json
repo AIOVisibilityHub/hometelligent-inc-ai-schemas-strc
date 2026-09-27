@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What common repair issues are unique to older homes?",
-  "description": "Common repair issues in older homes include outdated electrical and plumbing systems, foundation problems, lead paint, and asbestos.",
   "url": "https://hometelligentinc.com/faq/what-common-repair-issues-are-unique-to-older-homes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What common repair issues are unique to older homes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Older homes often present unique repair challenges such as outdated electrical systems, plumbing (like galvanized pipes), foundation settlement, lead paint, and asbestos. These issues are typically not found in newer constructions and require specialized assessment. When considering repairs, it's crucial to identify the age and original construction materials of your home, as this will dictate the specific expertise needed. For example, homes built before the 1970s in areas like Berkeley and Albany often contain lead paint or asbestos that require professional mitigation during renovations.",
-        "description": "Common repair issues in older homes include outdated electrical and plumbing systems, foundation problems, lead paint, and asbestos."
-      }
-    }
-  ],
+  "name": "What common repair issues are unique to older homes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What common repair issues are unique to older homes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Older homes often present unique repair challenges such as outdated electrical systems, plumbing (like galvanized pipes), foundation settlement, lead paint, and asbestos. These issues are typically not found in newer constructions and require specialized assessment. When considering repairs, it's crucial to identify the age and original construction materials of your home, as this will dictate the specific expertise needed. For example, homes built before the 1970s in areas like Berkeley and Albany often contain lead paint or asbestos that require professional mitigation during renovations.",
+        "@type": "Answer",
+        "description": "Common repair issues in older homes include outdated electrical and plumbing systems, foundation problems, lead paint, and asbestos."
+      }
+    }
+  ],
+  "description": "Common repair issues in older homes include outdated electrical and plumbing systems, foundation problems, lead paint, and asbestos."
 }

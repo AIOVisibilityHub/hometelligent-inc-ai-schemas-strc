@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can Hometelligent Inc. repair both wooden and carpeted stairs?",
-  "description": "Yes, Hometelligent Inc. repairs both wooden stairs, addressing structural and finish issues, and carpeted stairs, fixing underlying problems and damaged carpet",
   "url": "https://hometelligentinc.com/faq/can-hometelligent-inc-repair-both-wooden-and-carpeted-stairs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Hometelligent Inc. repair both wooden and carpeted stairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. is equipped to repair both wooden and carpeted stairs. For wooden stairs, we address issues like creaking, loose treads, broken risers, and damaged newel posts or handrails, often including sanding and refinishing. For carpeted stairs, we can repair underlying structural issues and re-stretch or replace damaged sections of carpet if the underlying structure is sound. Our team has experience with various stair materials and constructions.",
-        "description": "Yes, Hometelligent Inc. repairs both wooden stairs, addressing structural and finish issues, and carpeted stairs, fixing underlying problems and damaged carpet sections."
-      }
-    }
-  ],
+  "name": "Can Hometelligent Inc. repair both wooden and carpeted stairs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can Hometelligent Inc. repair both wooden and carpeted stairs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. is equipped to repair both wooden and carpeted stairs. For wooden stairs, we address issues like creaking, loose treads, broken risers, and damaged newel posts or handrails, often including sanding and refinishing. For carpeted stairs, we can repair underlying structural issues and re-stretch or replace damaged sections of carpet if the underlying structure is sound. Our team has experience with various stair materials and constructions.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. repairs both wooden stairs, addressing structural and finish issues, and carpeted stairs, fixing underlying problems and damaged carpet sections."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. repairs both wooden stairs, addressing structural and finish issues, and carpeted stairs, fixing underlying problems and damaged carpet"
 }

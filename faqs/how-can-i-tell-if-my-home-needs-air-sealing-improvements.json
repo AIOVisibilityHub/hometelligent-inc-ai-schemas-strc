@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I tell if my home needs air sealing improvements?",
-  "description": "Look for drafts, high energy bills, or inconsistent temperatures. A professional energy audit can precisely identify air leakage points in your home.",
   "url": "https://hometelligentinc.com/faq/how-can-i-tell-if-my-home-needs-air-sealing-improvements",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I tell if my home needs air sealing improvements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs your home needs air sealing include noticeable drafts, inconsistent room temperatures, high energy bills, and excessive dust. During an energy audit, we can use tools like blower doors and infrared cameras to precisely identify air leakage points, especially in areas like attics, crawl spaces, and around windows and doors. This process clarity helps determine the most effective areas for improvement, ensuring targeted and efficient sealing.",
-        "description": "Look for drafts, high energy bills, or inconsistent temperatures. A professional energy audit can precisely identify air leakage points in your home."
-      }
-    }
-  ],
+  "name": "How can I tell if my home needs air sealing improvements?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I tell if my home needs air sealing improvements?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs your home needs air sealing include noticeable drafts, inconsistent room temperatures, high energy bills, and excessive dust. During an energy audit, we can use tools like blower doors and infrared cameras to precisely identify air leakage points, especially in areas like attics, crawl spaces, and around windows and doors. This process clarity helps determine the most effective areas for improvement, ensuring targeted and efficient sealing.",
+        "@type": "Answer",
+        "description": "Look for drafts, high energy bills, or inconsistent temperatures. A professional energy audit can precisely identify air leakage points in your home."
+      }
+    }
+  ],
+  "description": "Look for drafts, high energy bills, or inconsistent temperatures. A professional energy audit can precisely identify air leakage points in your home."
 }

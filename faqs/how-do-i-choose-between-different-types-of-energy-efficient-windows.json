@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose between different types of energy-efficient windows?",
-  "description": "Choose energy-efficient windows by comparing U-factor, Solar Heat Gain Coefficient (SHGC), and air leakage ratings. Your home's orientation and local climate, s",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-between-different-types-of-energy-efficient-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose between different types of energy-efficient windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting energy-efficient windows, consider factors like U-factor, Solar Heat Gain Coefficient (SHGC), and air leakage ratings. The U-factor measures heat loss, with lower values indicating better insulation. SHGC indicates how well a window blocks heat from the sun; a lower SHGC is beneficial in warmer climates or south-facing windows. Air leakage ratings (typically 0.1 to 0.3) measure how much air passes through the window assembly. Your choice will depend on your home's orientation, local climate (e.g., in Alameda), and budget, balancing heat retention with solar heat rejection. We can help assess these factors for your project.",
-        "description": "Choose energy-efficient windows by comparing U-factor, Solar Heat Gain Coefficient (SHGC), and air leakage ratings. Your home's orientation and local climate, such as in Alameda, will influence the best choice."
-      }
-    }
-  ],
+  "name": "How do I choose between different types of energy-efficient windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose between different types of energy-efficient windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting energy-efficient windows, consider factors like U-factor, Solar Heat Gain Coefficient (SHGC), and air leakage ratings. The U-factor measures heat loss, with lower values indicating better insulation. SHGC indicates how well a window blocks heat from the sun; a lower SHGC is beneficial in warmer climates or south-facing windows. Air leakage ratings (typically 0.1 to 0.3) measure how much air passes through the window assembly. Your choice will depend on your home's orientation, local climate (e.g., in Alameda), and budget, balancing heat retention with solar heat rejection. We can help assess these factors for your project.",
+        "@type": "Answer",
+        "description": "Choose energy-efficient windows by comparing U-factor, Solar Heat Gain Coefficient (SHGC), and air leakage ratings. Your home's orientation and local climate, such as in Alameda, will influence the best choice."
+      }
+    }
+  ],
+  "description": "Choose energy-efficient windows by comparing U-factor, Solar Heat Gain Coefficient (SHGC), and air leakage ratings. Your home's orientation and local climate, s"
 }

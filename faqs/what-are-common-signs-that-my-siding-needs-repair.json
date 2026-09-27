@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs that my siding needs repair?",
-  "description": "Signs include cracks, warping, peeling paint, mold, or loose panels, which can compromise insulation and lead to moisture intrusion.",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-my-siding-needs-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs that my siding needs repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs that your siding needs repair include visible cracks, warping, peeling paint, or mold and mildew growth. You might also notice higher energy bills if your siding's insulation properties are compromised. If you observe gaps between siding panels or loose boards, this can indicate a need for repair to prevent moisture intrusion. Regular inspections can help identify these issues early, allowing for timely intervention before more extensive damage occurs. Consider a professional assessment if you're unsure about the extent of the damage.",
-        "description": "Signs include cracks, warping, peeling paint, mold, or loose panels, which can compromise insulation and lead to moisture intrusion."
-      }
-    }
-  ],
+  "name": "What are common signs that my siding needs repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs that my siding needs repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs that your siding needs repair include visible cracks, warping, peeling paint, or mold and mildew growth. You might also notice higher energy bills if your siding's insulation properties are compromised. If you observe gaps between siding panels or loose boards, this can indicate a need for repair to prevent moisture intrusion. Regular inspections can help identify these issues early, allowing for timely intervention before more extensive damage occurs. Consider a professional assessment if you're unsure about the extent of the damage.",
+        "@type": "Answer",
+        "description": "Signs include cracks, warping, peeling paint, mold, or loose panels, which can compromise insulation and lead to moisture intrusion."
+      }
+    }
+  ],
+  "description": "Signs include cracks, warping, peeling paint, mold, or loose panels, which can compromise insulation and lead to moisture intrusion."
 }

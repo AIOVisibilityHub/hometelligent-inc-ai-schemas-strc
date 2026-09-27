@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do you offer painting services after wall repair?",
-  "description": "Yes, we offer painting services post-repair to ensure a seamless finish, matching existing colors or providing a fresh coat.",
   "url": "https://hometelligentinc.com/faq/do-you-offer-painting-services-after-wall-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you offer painting services after wall repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we offer painting services as part of our comprehensive wall repair solutions to ensure a seamless finish. After the repair work is completed, we can prime and paint the repaired area to match your existing wall color or provide a fresh coat for the entire wall. This ensures that the repair blends perfectly with your interior, saving you the effort of finding a separate painter.",
-        "description": "Yes, we offer painting services post-repair to ensure a seamless finish, matching existing colors or providing a fresh coat."
-      }
-    }
-  ],
+  "name": "Do you offer painting services after wall repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do you offer painting services after wall repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, we offer painting services as part of our comprehensive wall repair solutions to ensure a seamless finish. After the repair work is completed, we can prime and paint the repaired area to match your existing wall color or provide a fresh coat for the entire wall. This ensures that the repair blends perfectly with your interior, saving you the effort of finding a separate painter.",
+        "@type": "Answer",
+        "description": "Yes, we offer painting services post-repair to ensure a seamless finish, matching existing colors or providing a fresh coat."
+      }
+    }
+  ],
+  "description": "Yes, we offer painting services post-repair to ensure a seamless finish, matching existing colors or providing a fresh coat."
 }

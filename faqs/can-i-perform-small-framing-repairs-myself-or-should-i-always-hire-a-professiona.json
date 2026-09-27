@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I perform small framing repairs myself, or should I always hire a professional?",
-  "description": "For most framing repairs, especially those affecting load-bearing elements, hiring a professional is recommended to ensure structural integrity and code complia",
   "url": "https://hometelligentinc.com/faq/can-i-perform-small-framing-repairs-myself-or-should-i-always-hire-a-professiona",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I perform small framing repairs myself, or should I always hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While minor, non-structural framing issues might seem manageable for a skilled DIYer, it's generally recommended to hire a professional for most framing repairs, especially those involving load-bearing elements or significant damage. Incorrect repairs can compromise the structural integrity of your home, leading to more severe and costly problems down the line. A professional contractor like Hometelligent Inc. ensures that repairs meet local building codes and standards, utilizing the correct materials and techniques to maintain your property's safety and value. This avoids potential complications and ensures a lasting solution.",
-        "description": "For most framing repairs, especially those affecting load-bearing elements, hiring a professional is recommended to ensure structural integrity and code compliance. Incorrect DIY repairs can lead to more significant issues."
-      }
-    }
-  ],
+  "name": "Can I perform small framing repairs myself, or should I always hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I perform small framing repairs myself, or should I always hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While minor, non-structural framing issues might seem manageable for a skilled DIYer, it's generally recommended to hire a professional for most framing repairs, especially those involving load-bearing elements or significant damage. Incorrect repairs can compromise the structural integrity of your home, leading to more severe and costly problems down the line. A professional contractor like Hometelligent Inc. ensures that repairs meet local building codes and standards, utilizing the correct materials and techniques to maintain your property's safety and value. This avoids potential complications and ensures a lasting solution.",
+        "@type": "Answer",
+        "description": "For most framing repairs, especially those affecting load-bearing elements, hiring a professional is recommended to ensure structural integrity and code compliance. Incorrect DIY repairs can lead to more significant issues."
+      }
+    }
+  ],
+  "description": "For most framing repairs, especially those affecting load-bearing elements, hiring a professional is recommended to ensure structural integrity and code complia"
 }

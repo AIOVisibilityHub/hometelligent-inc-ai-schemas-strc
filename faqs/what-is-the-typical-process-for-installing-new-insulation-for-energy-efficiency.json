@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for installing new insulation for energy efficiency?",
-  "description": "New insulation installation involves an assessment, potential removal of old insulation, and then installing new materials like blown-in or rigid foam, along wi",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-installing-new-insulation-for-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for installing new insulation for energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for installing new insulation typically begins with an assessment of your current insulation levels and home structure. Next, old or inadequate insulation may be removed, especially if it's damaged or contaminated. New insulation, such as blown-in cellulose or fiberglass, or rigid foam boards, is then installed in attics, walls, or crawl spaces. During this process, our team ensures proper air sealing is addressed concurrently to maximize energy savings. We aim to minimize disruption and complete the installation efficiently, often completing attic or crawl space work within a few days, depending on the scope.",
-        "description": "New insulation installation involves an assessment, potential removal of old insulation, and then installing new materials like blown-in or rigid foam, along with air sealing. The duration depends on the scope of work."
-      }
-    }
-  ],
+  "name": "What is the typical process for installing new insulation for energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for installing new insulation for energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for installing new insulation typically begins with an assessment of your current insulation levels and home structure. Next, old or inadequate insulation may be removed, especially if it's damaged or contaminated. New insulation, such as blown-in cellulose or fiberglass, or rigid foam boards, is then installed in attics, walls, or crawl spaces. During this process, our team ensures proper air sealing is addressed concurrently to maximize energy savings. We aim to minimize disruption and complete the installation efficiently, often completing attic or crawl space work within a few days, depending on the scope.",
+        "@type": "Answer",
+        "description": "New insulation installation involves an assessment, potential removal of old insulation, and then installing new materials like blown-in or rigid foam, along with air sealing. The duration depends on the scope of work."
+      }
+    }
+  ],
+  "description": "New insulation installation involves an assessment, potential removal of old insulation, and then installing new materials like blown-in or rigid foam, along wi"
 }

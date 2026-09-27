@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of Low-VOC materials are commonly used in home construction and remodeling?",
-  "description": "Common low-VOC materials include paints, stains, adhesives, flooring, and insulation. Always check product data sheets for VOC content before selection.",
   "url": "https://hometelligentinc.com/faq/what-types-of-low-voc-materials-are-commonly-used-in-home-construction-and-remod",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of Low-VOC materials are commonly used in home construction and remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common low-VOC materials include paints, stains, sealants, adhesives, flooring options like natural wood or certain carpets, and insulation. These materials are designed to meet specific air quality standards. When planning a renovation, it's beneficial to ask for product data sheets to verify VOC content. This preparation step ensures that the chosen products align with your specific health and environmental goals for your home.",
-        "description": "Common low-VOC materials include paints, stains, adhesives, flooring, and insulation. Always check product data sheets for VOC content before selection."
-      }
-    }
-  ],
+  "name": "What types of Low-VOC materials are commonly used in home construction and remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of Low-VOC materials are commonly used in home construction and remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common low-VOC materials include paints, stains, sealants, adhesives, flooring options like natural wood or certain carpets, and insulation. These materials are designed to meet specific air quality standards. When planning a renovation, it's beneficial to ask for product data sheets to verify VOC content. This preparation step ensures that the chosen products align with your specific health and environmental goals for your home.",
+        "@type": "Answer",
+        "description": "Common low-VOC materials include paints, stains, adhesives, flooring, and insulation. Always check product data sheets for VOC content before selection."
+      }
+    }
+  ],
+  "description": "Common low-VOC materials include paints, stains, adhesives, flooring, and insulation. Always check product data sheets for VOC content before selection."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information should I gather before requesting a window repair estimate?",
-  "description": "Before an estimate, gather window type, size of damage, and a description of the issue. Photos can also be helpful for an accurate assessment.",
   "url": "https://hometelligentinc.com/faq/what-information-should-i-gather-before-requesting-a-window-repair-estimate",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information should I gather before requesting a window repair estimate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To help us provide the most accurate estimate, it's beneficial to gather specific details about your damaged window. Note the type of window (e.g., single-hung, double-hung, casement), the approximate size of the damaged area, and a description of the issue (e.g., cracked glass, broken latch, difficulty opening). Taking a photo of the damage can also be very helpful. This preparation allows us to understand the scope of work better before our on-site assessment.",
-        "description": "Before an estimate, gather window type, size of damage, and a description of the issue. Photos can also be helpful for an accurate assessment."
-      }
-    }
-  ],
+  "name": "What information should I gather before requesting a window repair estimate?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information should I gather before requesting a window repair estimate?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To help us provide the most accurate estimate, it's beneficial to gather specific details about your damaged window. Note the type of window (e.g., single-hung, double-hung, casement), the approximate size of the damaged area, and a description of the issue (e.g., cracked glass, broken latch, difficulty opening). Taking a photo of the damage can also be very helpful. This preparation allows us to understand the scope of work better before our on-site assessment.",
+        "@type": "Answer",
+        "description": "Before an estimate, gather window type, size of damage, and a description of the issue. Photos can also be helpful for an accurate assessment."
+      }
+    }
+  ],
+  "description": "Before an estimate, gather window type, size of damage, and a description of the issue. Photos can also be helpful for an accurate assessment."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What areas of my home are typically targeted for air sealing?",
-  "description": "Common air sealing targets are attic floors, plumbing/electrical penetrations, foundation gaps, and window/door perimeters to stop air leaks.",
   "url": "https://hometelligentinc.com/faq/what-areas-of-my-home-are-typically-targeted-for-air-sealing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What areas of my home are typically targeted for air sealing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key areas for air sealing include the attic floor, around plumbing and electrical penetrations, gaps in foundation walls, and the perimeters of windows and doors. These are common points of air infiltration and exfiltration. A practical tradeoff is that while sealing these obvious areas yields significant benefits, more complex or hard-to-reach leaks may require specialized techniques or access, which can influence the project's scope and timeline.",
-        "description": "Common air sealing targets are attic floors, plumbing/electrical penetrations, foundation gaps, and window/door perimeters to stop air leaks."
-      }
-    }
-  ],
+  "name": "What areas of my home are typically targeted for air sealing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What areas of my home are typically targeted for air sealing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Key areas for air sealing include the attic floor, around plumbing and electrical penetrations, gaps in foundation walls, and the perimeters of windows and doors. These are common points of air infiltration and exfiltration. A practical tradeoff is that while sealing these obvious areas yields significant benefits, more complex or hard-to-reach leaks may require specialized techniques or access, which can influence the project's scope and timeline.",
+        "@type": "Answer",
+        "description": "Common air sealing targets are attic floors, plumbing/electrical penetrations, foundation gaps, and window/door perimeters to stop air leaks."
+      }
+    }
+  ],
+  "description": "Common air sealing targets are attic floors, plumbing/electrical penetrations, foundation gaps, and window/door perimeters to stop air leaks."
 }

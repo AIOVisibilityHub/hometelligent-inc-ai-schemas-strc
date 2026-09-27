@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider foundation repair for my older home?",
-  "description": "Consider foundation repair for an older home if you see wall/ceiling cracks, sticking doors, or uneven floors.",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-foundation-repair-for-my-older-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider foundation repair for my older home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider foundation repair if you notice cracks in walls or ceilings, sticking doors and windows, or uneven floors in your older home. These are common indicators of foundation settlement, particularly in areas like Dublin and Pleasanton with varied soil conditions. Delaying repairs can lead to more significant structural damage and higher costs in the long run. A structural engineer can provide an assessment to diagnose the issue and recommend appropriate solutions, such as pier and beam adjustments or slab leveling, ensuring the long-term stability of your home.",
-        "description": "Consider foundation repair for an older home if you see wall/ceiling cracks, sticking doors, or uneven floors."
-      }
-    }
-  ],
+  "name": "When should I consider foundation repair for my older home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider foundation repair for my older home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider foundation repair if you notice cracks in walls or ceilings, sticking doors and windows, or uneven floors in your older home. These are common indicators of foundation settlement, particularly in areas like Dublin and Pleasanton with varied soil conditions. Delaying repairs can lead to more significant structural damage and higher costs in the long run. A structural engineer can provide an assessment to diagnose the issue and recommend appropriate solutions, such as pier and beam adjustments or slab leveling, ensuring the long-term stability of your home.",
+        "@type": "Answer",
+        "description": "Consider foundation repair for an older home if you see wall/ceiling cracks, sticking doors, or uneven floors."
+      }
+    }
+  ],
+  "description": "Consider foundation repair for an older home if you see wall/ceiling cracks, sticking doors, or uneven floors."
 }

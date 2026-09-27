@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before a stair repair consultation?",
-  "description": "Before a stair repair consultation, identify specific areas of concern, clarify desired outcomes, clear access to the staircase, and provide any history of past",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-a-stair-repair-consultation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before a stair repair consultation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before a stair repair consultation, it's helpful to identify specific areas of concern on your stairs, such as creaks, wobbles, or visible damage. Consider what your desired outcome is, whether it's purely functional repair or includes aesthetic improvements like refinishing. Access to the staircase and surrounding areas should be cleared to allow for a thorough inspection. Providing any history of previous repairs or known issues can also assist our team in their assessment.",
-        "description": "Before a stair repair consultation, identify specific areas of concern, clarify desired outcomes, clear access to the staircase, and provide any history of past repairs."
-      }
-    }
-  ],
+  "name": "What should I prepare before a stair repair consultation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before a stair repair consultation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before a stair repair consultation, it's helpful to identify specific areas of concern on your stairs, such as creaks, wobbles, or visible damage. Consider what your desired outcome is, whether it's purely functional repair or includes aesthetic improvements like refinishing. Access to the staircase and surrounding areas should be cleared to allow for a thorough inspection. Providing any history of previous repairs or known issues can also assist our team in their assessment.",
+        "@type": "Answer",
+        "description": "Before a stair repair consultation, identify specific areas of concern, clarify desired outcomes, clear access to the staircase, and provide any history of past repairs."
+      }
+    }
+  ],
+  "description": "Before a stair repair consultation, identify specific areas of concern, clarify desired outcomes, clear access to the staircase, and provide any history of past"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose a qualified structural repair contractor?",
-  "description": "Choose a contractor with experience, proper licensing, insurance, and good references. Ensure a detailed contract is provided. Hometelligent Inc. provides trans",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-a-qualified-structural-repair-contractor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose a qualified structural repair contractor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a structural repair contractor, look for companies with extensive experience in your specific type of repair, proper licensing, and comprehensive insurance. It's also vital to check references and review their portfolio of completed projects. Ensure they provide a detailed contract outlining the scope of work, timeline, and payment schedule. Hometelligent Inc. offers transparent processes and holds the necessary credentials, providing peace of mind by clearly defining the work from initial assessment to project completion.",
-        "description": "Choose a contractor with experience, proper licensing, insurance, and good references. Ensure a detailed contract is provided. Hometelligent Inc. provides transparent processes and credentials."
-      }
-    }
-  ],
+  "name": "How do I choose a qualified structural repair contractor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose a qualified structural repair contractor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a structural repair contractor, look for companies with extensive experience in your specific type of repair, proper licensing, and comprehensive insurance. It's also vital to check references and review their portfolio of completed projects. Ensure they provide a detailed contract outlining the scope of work, timeline, and payment schedule. Hometelligent Inc. offers transparent processes and holds the necessary credentials, providing peace of mind by clearly defining the work from initial assessment to project completion.",
+        "@type": "Answer",
+        "description": "Choose a contractor with experience, proper licensing, insurance, and good references. Ensure a detailed contract is provided. Hometelligent Inc. provides transparent processes and credentials."
+      }
+    }
+  ],
+  "description": "Choose a contractor with experience, proper licensing, insurance, and good references. Ensure a detailed contract is provided. Hometelligent Inc. provides trans"
 }

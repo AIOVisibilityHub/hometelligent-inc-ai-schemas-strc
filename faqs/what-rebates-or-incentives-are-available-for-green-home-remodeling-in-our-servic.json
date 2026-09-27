@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What rebates or incentives are available for green home remodeling in our service areas?",
-  "description": "Rebates and incentives for green remodeling come from federal, state, and utility programs, often for energy efficiency and solar.",
   "url": "https://hometelligentinc.com/faq/what-rebates-or-incentives-are-available-for-green-home-remodeling-in-our-servic",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What rebates or incentives are available for green home remodeling in our service areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Many government agencies and utility companies offer rebates and incentives for green home remodeling projects, particularly for energy efficiency and renewable energy installations. These can include federal tax credits, state programs, and local utility rebates for things like solar panels, energy-efficient HVAC systems, or smart thermostats. A crucial preparation step is researching current programs relevant to your specific location, such as Alameda, Dublin, or San Rafael, as these incentives frequently change and have specific eligibility criteria. We can help you identify applicable programs.",
-        "description": "Rebates and incentives for green remodeling come from federal, state, and utility programs, often for energy efficiency and solar."
-      }
-    }
-  ],
+  "name": "What rebates or incentives are available for green home remodeling in our service areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What rebates or incentives are available for green home remodeling in our service areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Many government agencies and utility companies offer rebates and incentives for green home remodeling projects, particularly for energy efficiency and renewable energy installations. These can include federal tax credits, state programs, and local utility rebates for things like solar panels, energy-efficient HVAC systems, or smart thermostats. A crucial preparation step is researching current programs relevant to your specific location, such as Alameda, Dublin, or San Rafael, as these incentives frequently change and have specific eligibility criteria. We can help you identify applicable programs.",
+        "@type": "Answer",
+        "description": "Rebates and incentives for green remodeling come from federal, state, and utility programs, often for energy efficiency and solar."
+      }
+    }
+  ],
+  "description": "Rebates and incentives for green remodeling come from federal, state, and utility programs, often for energy efficiency and solar."
 }

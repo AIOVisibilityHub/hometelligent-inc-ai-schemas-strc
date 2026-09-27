@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Is it better to repair or replace my stairs if they are significantly damaged?",
-  "description": "The choice between repairing or replacing significantly damaged stairs hinges on structural damage, cost-effectiveness, and aesthetic goals; Hometelligent Inc.",
   "url": "https://hometelligentinc.com/faq/is-it-better-to-repair-or-replace-my-stairs-if-they-are-significantly-damaged",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is it better to repair or replace my stairs if they are significantly damaged?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding whether to repair or replace significantly damaged stairs depends on the extent of structural damage, the cost-effectiveness of repair versus replacement, and your aesthetic goals. Minor issues often warrant repair, while widespread structural failure, severe wood rot, or a desire for a completely new look might lean towards replacement. Hometelligent Inc. can assess the condition of your stairs and provide an objective recommendation based on long-term safety and value, outlining the practical tradeoffs of each option.",
-        "description": "The choice between repairing or replacing significantly damaged stairs hinges on structural damage, cost-effectiveness, and aesthetic goals; Hometelligent Inc. provides recommendations considering long-term safety and value."
-      }
-    }
-  ],
+  "name": "Is it better to repair or replace my stairs if they are significantly damaged?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Is it better to repair or replace my stairs if they are significantly damaged?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding whether to repair or replace significantly damaged stairs depends on the extent of structural damage, the cost-effectiveness of repair versus replacement, and your aesthetic goals. Minor issues often warrant repair, while widespread structural failure, severe wood rot, or a desire for a completely new look might lean towards replacement. Hometelligent Inc. can assess the condition of your stairs and provide an objective recommendation based on long-term safety and value, outlining the practical tradeoffs of each option.",
+        "@type": "Answer",
+        "description": "The choice between repairing or replacing significantly damaged stairs hinges on structural damage, cost-effectiveness, and aesthetic goals; Hometelligent Inc. provides recommendations considering long-term safety and value."
+      }
+    }
+  ],
+  "description": "The choice between repairing or replacing significantly damaged stairs hinges on structural damage, cost-effectiveness, and aesthetic goals; Hometelligent Inc."
 }

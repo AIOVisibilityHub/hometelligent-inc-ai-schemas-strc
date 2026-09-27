@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can solar panels contribute to overall home energy efficiency?",
-  "description": "Solar panels generate renewable electricity, reducing grid reliance and utility bills. Combining them with other energy efficiency upgrades can maximize their i",
   "url": "https://hometelligentinc.com/faq/how-can-solar-panels-contribute-to-overall-home-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can solar panels contribute to overall home energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Solar panels contribute to home energy efficiency by generating renewable electricity, reducing your reliance on grid power. This directly lowers your utility bills and carbon footprint. While panels produce power, actual energy efficiency also comes from minimizing your overall energy demand through other improvements like insulation and efficient appliances. To maximize their impact, it's often beneficial to make efficiency upgrades before or concurrently with solar installation, as a more efficient home requires a smaller, less expensive solar array. We can help integrate solar considerations into a broader energy improvement plan for your property.",
-        "description": "Solar panels generate renewable electricity, reducing grid reliance and utility bills. Combining them with other energy efficiency upgrades can maximize their impact by lowering overall energy demand, potentially requiring a smaller solar array."
-      }
-    }
-  ],
+  "name": "How can solar panels contribute to overall home energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can solar panels contribute to overall home energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Solar panels contribute to home energy efficiency by generating renewable electricity, reducing your reliance on grid power. This directly lowers your utility bills and carbon footprint. While panels produce power, actual energy efficiency also comes from minimizing your overall energy demand through other improvements like insulation and efficient appliances. To maximize their impact, it's often beneficial to make efficiency upgrades before or concurrently with solar installation, as a more efficient home requires a smaller, less expensive solar array. We can help integrate solar considerations into a broader energy improvement plan for your property.",
+        "@type": "Answer",
+        "description": "Solar panels generate renewable electricity, reducing grid reliance and utility bills. Combining them with other energy efficiency upgrades can maximize their impact by lowering overall energy demand, potentially requiring a smaller solar array."
+      }
+    }
+  ],
+  "description": "Solar panels generate renewable electricity, reducing grid reliance and utility bills. Combining them with other energy efficiency upgrades can maximize their i"
 }

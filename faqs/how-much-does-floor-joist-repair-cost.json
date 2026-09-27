@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does floor joist repair cost?",
-  "description": "Floor joist repair costs vary based on damage severity, repair type, and accessibility. A professional assessment is needed for an accurate estimate.",
   "url": "https://hometelligentinc.com/faq/how-much-does-floor-joist-repair-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does floor joist repair cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of floor joist repair varies significantly depending on the extent of the damage, the type of repair needed, and the accessibility of the affected area. Minor repairs, like sistering a few joists, are less expensive than replacing multiple severely damaged joists or addressing widespread structural issues. Factors such as the need for temporary structural support and subfloor removal also impact the final price. To get an accurate estimate, it's essential to have a contractor assess your specific situation.",
-        "description": "Floor joist repair costs vary based on damage severity, repair type, and accessibility. A professional assessment is needed for an accurate estimate."
-      }
-    }
-  ],
+  "name": "How much does floor joist repair cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does floor joist repair cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of floor joist repair varies significantly depending on the extent of the damage, the type of repair needed, and the accessibility of the affected area. Minor repairs, like sistering a few joists, are less expensive than replacing multiple severely damaged joists or addressing widespread structural issues. Factors such as the need for temporary structural support and subfloor removal also impact the final price. To get an accurate estimate, it's essential to have a contractor assess your specific situation.",
+        "@type": "Answer",
+        "description": "Floor joist repair costs vary based on damage severity, repair type, and accessibility. A professional assessment is needed for an accurate estimate."
+      }
+    }
+  ],
+  "description": "Floor joist repair costs vary based on damage severity, repair type, and accessibility. A professional assessment is needed for an accurate estimate."
 }

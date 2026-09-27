@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I choose the right contractor for siding repair?",
-  "description": "Choose a contractor with experience, positive reviews, clear quotes, and proper licensing/insurance. Discuss their material matching process.",
   "url": "https://hometelligentinc.com/faq/how-can-i-choose-the-right-contractor-for-siding-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I choose the right contractor for siding repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for siding repair, look for companies with a proven track record, positive customer reviews, and relevant experience with your type of siding. It's crucial to obtain detailed quotes that clearly outline the scope of work, materials used, and warranty information. Verify that the contractor is licensed and insured in California to protect yourself from liability. We recommend discussing their process for matching existing siding and their approach to addressing potential underlying issues discovered during the repair, ensuring transparency and quality workmanship.",
-        "description": "Choose a contractor with experience, positive reviews, clear quotes, and proper licensing/insurance. Discuss their material matching process."
-      }
-    }
-  ],
+  "name": "How can I choose the right contractor for siding repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I choose the right contractor for siding repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for siding repair, look for companies with a proven track record, positive customer reviews, and relevant experience with your type of siding. It's crucial to obtain detailed quotes that clearly outline the scope of work, materials used, and warranty information. Verify that the contractor is licensed and insured in California to protect yourself from liability. We recommend discussing their process for matching existing siding and their approach to addressing potential underlying issues discovered during the repair, ensuring transparency and quality workmanship.",
+        "@type": "Answer",
+        "description": "Choose a contractor with experience, positive reviews, clear quotes, and proper licensing/insurance. Discuss their material matching process."
+      }
+    }
+  ],
+  "description": "Choose a contractor with experience, positive reviews, clear quotes, and proper licensing/insurance. Discuss their material matching process."
 }

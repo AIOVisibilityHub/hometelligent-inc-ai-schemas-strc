@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the typical costs associated with green home remodeling projects?",
-  "description": "Green remodeling costs vary, often with higher upfront investments that lead to long-term savings on utilities and increased home value.",
   "url": "https://hometelligentinc.com/faq/what-are-the-typical-costs-associated-with-green-home-remodeling-projects",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the typical costs associated with green home remodeling projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Costs for green home remodeling vary widely depending on the scope of work, material choices, and the specific green technologies implemented. While some green options may have a higher upfront cost, they often lead to significant long-term savings through reduced energy and water consumption. A practical tradeoff is investing more initially for substantial utility bill reductions and increased home value over time. We provide detailed estimates, helping you understand the return on investment for projects in regions like Livermore or San Leandro.",
-        "description": "Green remodeling costs vary, often with higher upfront investments that lead to long-term savings on utilities and increased home value."
-      }
-    }
-  ],
+  "name": "What are the typical costs associated with green home remodeling projects?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the typical costs associated with green home remodeling projects?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Costs for green home remodeling vary widely depending on the scope of work, material choices, and the specific green technologies implemented. While some green options may have a higher upfront cost, they often lead to significant long-term savings through reduced energy and water consumption. A practical tradeoff is investing more initially for substantial utility bill reductions and increased home value over time. We provide detailed estimates, helping you understand the return on investment for projects in regions like Livermore or San Leandro.",
+        "@type": "Answer",
+        "description": "Green remodeling costs vary, often with higher upfront investments that lead to long-term savings on utilities and increased home value."
+      }
+    }
+  ],
+  "description": "Green remodeling costs vary, often with higher upfront investments that lead to long-term savings on utilities and increased home value."
 }

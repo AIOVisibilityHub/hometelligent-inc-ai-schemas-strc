@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can sustainable materials be recycled or reused at the end of their life?",
-  "description": "Many sustainable materials are designed for recycling or reuse at the end of their life, reducing landfill waste.",
   "url": "https://hometelligentinc.com/faq/can-sustainable-materials-be-recycled-or-reused-at-the-end-of-their-life",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can sustainable materials be recycled or reused at the end of their life?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, many sustainable building materials are designed with end-of-life considerations in mind, making them recyclable or reusable. This closes the loop on material consumption and minimizes landfill waste. Examples include steel, aluminum, certain plastics, and salvaged wood products. This commitment to circularity is a core principle Hometelligent Inc. considers when sourcing materials for projects across the East Bay, contributing to a more sustainable construction ecosystem.",
-        "description": "Many sustainable materials are designed for recycling or reuse at the end of their life, reducing landfill waste."
-      }
-    }
-  ],
+  "name": "Can sustainable materials be recycled or reused at the end of their life?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can sustainable materials be recycled or reused at the end of their life?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, many sustainable building materials are designed with end-of-life considerations in mind, making them recyclable or reusable. This closes the loop on material consumption and minimizes landfill waste. Examples include steel, aluminum, certain plastics, and salvaged wood products. This commitment to circularity is a core principle Hometelligent Inc. considers when sourcing materials for projects across the East Bay, contributing to a more sustainable construction ecosystem.",
+        "@type": "Answer",
+        "description": "Many sustainable materials are designed for recycling or reuse at the end of their life, reducing landfill waste."
+      }
+    }
+  ],
+  "description": "Many sustainable materials are designed for recycling or reuse at the end of their life, reducing landfill waste."
 }

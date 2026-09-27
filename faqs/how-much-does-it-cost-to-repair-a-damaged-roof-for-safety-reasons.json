@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to repair a damaged roof for safety reasons?",
-  "description": "Roof repair costs depend on damage severity, material, and roof size. Minor repairs are less costly than extensive damage or replacement, requiring an inspectio",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-repair-a-damaged-roof-for-safety-reasons",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to repair a damaged roof for safety reasons?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of roof safety repairs varies significantly based on the extent of the damage, the type of roofing materials, and the size of the area needing repair. Minor repairs, like replacing a few missing shingles, will be less expensive than extensive structural damage or a full roof replacement. A detailed inspection is required to provide an accurate estimate. A practical tradeoff homeowners face is balancing the immediate repair cost with the long-term protection and energy efficiency benefits of using higher-quality, more durable materials, which might prevent future safety issues and maintenance.",
-        "description": "Roof repair costs depend on damage severity, material, and roof size. Minor repairs are less costly than extensive damage or replacement, requiring an inspection for an accurate estimate."
-      }
-    }
-  ],
+  "name": "How much does it cost to repair a damaged roof for safety reasons?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to repair a damaged roof for safety reasons?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of roof safety repairs varies significantly based on the extent of the damage, the type of roofing materials, and the size of the area needing repair. Minor repairs, like replacing a few missing shingles, will be less expensive than extensive structural damage or a full roof replacement. A detailed inspection is required to provide an accurate estimate. A practical tradeoff homeowners face is balancing the immediate repair cost with the long-term protection and energy efficiency benefits of using higher-quality, more durable materials, which might prevent future safety issues and maintenance.",
+        "@type": "Answer",
+        "description": "Roof repair costs depend on damage severity, material, and roof size. Minor repairs are less costly than extensive damage or replacement, requiring an inspection for an accurate estimate."
+      }
+    }
+  ],
+  "description": "Roof repair costs depend on damage severity, material, and roof size. Minor repairs are less costly than extensive damage or replacement, requiring an inspectio"
 }

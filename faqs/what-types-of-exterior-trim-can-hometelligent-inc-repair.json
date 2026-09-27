@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of exterior trim can Hometelligent Inc. repair?",
-  "description": "Hometelligent Inc. repairs various exterior trim types like fascia, soffit, and window casings, across materials such as wood, composite, and PVC.",
   "url": "https://hometelligentinc.com/faq/what-types-of-exterior-trim-can-hometelligent-inc-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of exterior trim can Hometelligent Inc. repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. repairs various types of exterior trim, including fascia, soffit, corner boards, window and door casings, and frieze boards. We work with materials such as wood, composite, and PVC. The type of trim material influences the repair techniques and materials needed, which is a key factor in determining the overall scope of the project.",
-        "description": "Hometelligent Inc. repairs various exterior trim types like fascia, soffit, and window casings, across materials such as wood, composite, and PVC."
-      }
-    }
-  ],
+  "name": "What types of exterior trim can Hometelligent Inc. repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of exterior trim can Hometelligent Inc. repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. repairs various types of exterior trim, including fascia, soffit, corner boards, window and door casings, and frieze boards. We work with materials such as wood, composite, and PVC. The type of trim material influences the repair techniques and materials needed, which is a key factor in determining the overall scope of the project.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. repairs various exterior trim types like fascia, soffit, and window casings, across materials such as wood, composite, and PVC."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. repairs various exterior trim types like fascia, soffit, and window casings, across materials such as wood, composite, and PVC."
 }

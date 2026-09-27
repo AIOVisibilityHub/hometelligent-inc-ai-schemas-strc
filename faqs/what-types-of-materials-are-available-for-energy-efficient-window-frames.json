@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of materials are available for energy-efficient window frames?",
-  "description": "Energy-efficient window frames come in vinyl, fiberglass, wood, and aluminum-clad wood, each offering different insulation, aesthetics, and maintenance needs.",
   "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-available-for-energy-efficient-window-frames",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of materials are available for energy-efficient window frames?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Energy-efficient window frames come in several materials, each with unique insulating properties and aesthetic qualities. Common options include vinyl, fiberglass, wood, and aluminum-clad wood. Vinyl and fiberglass frames offer excellent insulation and require minimal maintenance. Wood frames provide a classic look and natural insulation but need more upkeep. Aluminum-clad wood combines the strength of aluminum with the warmth of wood. When making your choice, consider your budget, desired maintenance level, and the architectural style of your home in locations like Berkeley or Piedmont.",
-        "description": "Energy-efficient window frames come in vinyl, fiberglass, wood, and aluminum-clad wood, each offering different insulation, aesthetics, and maintenance needs."
-      }
-    }
-  ],
+  "name": "What types of materials are available for energy-efficient window frames?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of materials are available for energy-efficient window frames?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Energy-efficient window frames come in several materials, each with unique insulating properties and aesthetic qualities. Common options include vinyl, fiberglass, wood, and aluminum-clad wood. Vinyl and fiberglass frames offer excellent insulation and require minimal maintenance. Wood frames provide a classic look and natural insulation but need more upkeep. Aluminum-clad wood combines the strength of aluminum with the warmth of wood. When making your choice, consider your budget, desired maintenance level, and the architectural style of your home in locations like Berkeley or Piedmont.",
+        "@type": "Answer",
+        "description": "Energy-efficient window frames come in vinyl, fiberglass, wood, and aluminum-clad wood, each offering different insulation, aesthetics, and maintenance needs."
+      }
+    }
+  ],
+  "description": "Energy-efficient window frames come in vinyl, fiberglass, wood, and aluminum-clad wood, each offering different insulation, aesthetics, and maintenance needs."
 }

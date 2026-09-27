@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost of an insulation upgrade?",
-  "description": "Insulation upgrade costs vary by material type, area, square footage, and installation complexity, requiring a tailored quote.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-of-an-insulation-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost of an insulation upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of an insulation upgrade varies significantly based on the type of insulation material, the area being insulated (e.g., attic, walls, crawl space), the square footage, and the complexity of the installation. For example, spray foam is generally more expensive than blown-in cellulose but offers a higher R-value per inch. It's crucial to get a detailed quote tailored to your home's specific needs. Homeowners in Dublin or Pleasanton may find different material access or labor costs.",
-        "description": "Insulation upgrade costs vary by material type, area, square footage, and installation complexity, requiring a tailored quote."
-      }
-    }
-  ],
+  "name": "What is the typical cost of an insulation upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost of an insulation upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of an insulation upgrade varies significantly based on the type of insulation material, the area being insulated (e.g., attic, walls, crawl space), the square footage, and the complexity of the installation. For example, spray foam is generally more expensive than blown-in cellulose but offers a higher R-value per inch. It's crucial to get a detailed quote tailored to your home's specific needs. Homeowners in Dublin or Pleasanton may find different material access or labor costs.",
+        "@type": "Answer",
+        "description": "Insulation upgrade costs vary by material type, area, square footage, and installation complexity, requiring a tailored quote."
+      }
+    }
+  ],
+  "description": "Insulation upgrade costs vary by material type, area, square footage, and installation complexity, requiring a tailored quote."
 }

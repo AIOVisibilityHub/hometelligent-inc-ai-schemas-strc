@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can Low-VOC materials be used for all types of renovation projects?",
-  "description": "Yes, low-VOC materials are available for most renovation types. Always confirm with your contractor that chosen products suit the specific application and perfo",
   "url": "https://hometelligentinc.com/faq/can-low-voc-materials-be-used-for-all-types-of-renovation-projects",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Low-VOC materials be used for all types of renovation projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, low-VOC materials are available for a wide range of renovation applications, including painting, flooring, cabinetry, and insulation. The variety of options means you don't typically need to compromise on aesthetics or functionality. A decision factor when choosing is to consult with your contractor or supplier to ensure the specific low-VOC product is suitable for the intended application and meets performance requirements for durability and longevity.",
-        "description": "Yes, low-VOC materials are available for most renovation types. Always confirm with your contractor that chosen products suit the specific application and performance needs."
-      }
-    }
-  ],
+  "name": "Can Low-VOC materials be used for all types of renovation projects?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can Low-VOC materials be used for all types of renovation projects?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, low-VOC materials are available for a wide range of renovation applications, including painting, flooring, cabinetry, and insulation. The variety of options means you don't typically need to compromise on aesthetics or functionality. A decision factor when choosing is to consult with your contractor or supplier to ensure the specific low-VOC product is suitable for the intended application and meets performance requirements for durability and longevity.",
+        "@type": "Answer",
+        "description": "Yes, low-VOC materials are available for most renovation types. Always confirm with your contractor that chosen products suit the specific application and performance needs."
+      }
+    }
+  ],
+  "description": "Yes, low-VOC materials are available for most renovation types. Always confirm with your contractor that chosen products suit the specific application and perfo"
 }

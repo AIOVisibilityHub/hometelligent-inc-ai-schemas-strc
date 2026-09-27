@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs that I need subfloor repair?",
-  "description": "Squeaky floors, soft spots, visible sagging, or unevenness are common signs indicating subfloor repair is needed.",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-i-need-subfloor-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs that I need subfloor repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs indicating subfloor repair is needed include squeaky floors, soft or bouncy spots when you walk, visible sagging or unevenness, and loose floor coverings. These issues often point to moisture damage, pest infestation, or structural wear. Addressing these promptly can prevent more extensive and costly repairs to your home's foundation or framing.",
-        "description": "Squeaky floors, soft spots, visible sagging, or unevenness are common signs indicating subfloor repair is needed."
-      }
-    }
-  ],
+  "name": "What are common signs that I need subfloor repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs that I need subfloor repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs indicating subfloor repair is needed include squeaky floors, soft or bouncy spots when you walk, visible sagging or unevenness, and loose floor coverings. These issues often point to moisture damage, pest infestation, or structural wear. Addressing these promptly can prevent more extensive and costly repairs to your home's foundation or framing.",
+        "@type": "Answer",
+        "description": "Squeaky floors, soft spots, visible sagging, or unevenness are common signs indicating subfloor repair is needed."
+      }
+    }
+  ],
+  "description": "Squeaky floors, soft spots, visible sagging, or unevenness are common signs indicating subfloor repair is needed."
 }

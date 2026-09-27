@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I combine green remodeling with other home improvement projects?",
-  "description": "Green remodeling can be combined with other home improvements for efficiency, like adding solar during a roof replacement.",
   "url": "https://hometelligentinc.com/faq/can-i-combine-green-remodeling-with-other-home-improvement-projects",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I combine green remodeling with other home improvement projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, combining green remodeling with other home improvement projects is often an efficient and cost-effective approach. For example, if you're already replacing a roof, upgrading to a cool roof or adding solar panels makes sense. If you're remodeling a kitchen, installing energy-efficient appliances and water-saving fixtures can be integrated seamlessly. This process clarity allows for streamlined work and potentially reduces overall disruption. We frequently integrate green upgrades into larger renovations across our service region, from Marin County to Contra Costa County.",
-        "description": "Green remodeling can be combined with other home improvements for efficiency, like adding solar during a roof replacement."
-      }
-    }
-  ],
+  "name": "Can I combine green remodeling with other home improvement projects?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I combine green remodeling with other home improvement projects?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, combining green remodeling with other home improvement projects is often an efficient and cost-effective approach. For example, if you're already replacing a roof, upgrading to a cool roof or adding solar panels makes sense. If you're remodeling a kitchen, installing energy-efficient appliances and water-saving fixtures can be integrated seamlessly. This process clarity allows for streamlined work and potentially reduces overall disruption. We frequently integrate green upgrades into larger renovations across our service region, from Marin County to Contra Costa County.",
+        "@type": "Answer",
+        "description": "Green remodeling can be combined with other home improvements for efficiency, like adding solar during a roof replacement."
+      }
+    }
+  ],
+  "description": "Green remodeling can be combined with other home improvements for efficiency, like adding solar during a roof replacement."
 }

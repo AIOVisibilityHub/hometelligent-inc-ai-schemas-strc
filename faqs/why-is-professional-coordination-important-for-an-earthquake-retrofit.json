@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Why is professional coordination important for an earthquake retrofit?",
-  "description": "Professional coordination for an earthquake retrofit streamlines permitting, contractor management, and ensures compliance with local building codes for safety.",
   "url": "https://hometelligentinc.com/faq/why-is-professional-coordination-important-for-an-earthquake-retrofit",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why is professional coordination important for an earthquake retrofit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Professional coordination is crucial for navigating the complexities of an earthquake retrofit, especially in areas like Alameda or Berkeley with specific seismic building codes. A coordinator ensures all necessary permits are acquired, manages contractors, oversees the work quality, and keeps the project on schedule. This streamlines the process, reduces potential delays, and helps ensure the retrofit meets safety requirements.",
-        "description": "Professional coordination for an earthquake retrofit streamlines permitting, contractor management, and ensures compliance with local building codes for safety."
-      }
-    }
-  ],
+  "name": "Why is professional coordination important for an earthquake retrofit?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Why is professional coordination important for an earthquake retrofit?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Professional coordination is crucial for navigating the complexities of an earthquake retrofit, especially in areas like Alameda or Berkeley with specific seismic building codes. A coordinator ensures all necessary permits are acquired, manages contractors, oversees the work quality, and keeps the project on schedule. This streamlines the process, reduces potential delays, and helps ensure the retrofit meets safety requirements.",
+        "@type": "Answer",
+        "description": "Professional coordination for an earthquake retrofit streamlines permitting, contractor management, and ensures compliance with local building codes for safety."
+      }
+    }
+  ],
+  "description": "Professional coordination for an earthquake retrofit streamlines permitting, contractor management, and ensures compliance with local building codes for safety."
 }

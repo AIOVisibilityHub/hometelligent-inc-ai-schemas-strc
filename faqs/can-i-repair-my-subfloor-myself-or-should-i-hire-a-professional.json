@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I repair my subfloor myself, or should I hire a professional?",
-  "description": "Minor repairs can be DIY, but significant damage requiring structural integrity should be handled by a professional to ensure proper remediation.",
   "url": "https://hometelligentinc.com/faq/can-i-repair-my-subfloor-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I repair my subfloor myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Minor subfloor repairs, such as tightening a few screws to eliminate squeaks, might be manageable for experienced DIYers. However, for significant damage involving rot, water penetration, or structural compromise, hiring a professional is recommended. Proper diagnosis of the cause, removal of damaged materials, and correct installation are crucial to prevent recurrence and ensure safety. A professional assessment can help you understand the full scope and necessary expertise for your project.",
-        "description": "Minor repairs can be DIY, but significant damage requiring structural integrity should be handled by a professional to ensure proper remediation."
-      }
-    }
-  ],
+  "name": "Can I repair my subfloor myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I repair my subfloor myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Minor subfloor repairs, such as tightening a few screws to eliminate squeaks, might be manageable for experienced DIYers. However, for significant damage involving rot, water penetration, or structural compromise, hiring a professional is recommended. Proper diagnosis of the cause, removal of damaged materials, and correct installation are crucial to prevent recurrence and ensure safety. A professional assessment can help you understand the full scope and necessary expertise for your project.",
+        "@type": "Answer",
+        "description": "Minor repairs can be DIY, but significant damage requiring structural integrity should be handled by a professional to ensure proper remediation."
+      }
+    }
+  ],
+  "description": "Minor repairs can be DIY, but significant damage requiring structural integrity should be handled by a professional to ensure proper remediation."
 }

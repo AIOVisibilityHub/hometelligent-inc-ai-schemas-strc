@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of upgrading to a high-efficiency HVAC system?",
-  "description": "High-efficiency HVAC systems reduce energy use, lower bills, and improve comfort. While they have a higher upfront cost, this is often offset by long-term savin",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-upgrading-to-a-high-efficiency-hvac-system",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of upgrading to a high-efficiency HVAC system?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Upgrading to a high-efficiency HVAC system offers several benefits, including reduced energy consumption, lower utility bills, and improved indoor air quality and comfort. Modern systems often use less electricity or natural gas to provide the same or better heating and cooling, and can include features like variable-speed motors and smart thermostats. A practical tradeoff is the higher upfront cost compared to standard units, but this is often offset by long-term energy savings and potential rebates.",
-        "description": "High-efficiency HVAC systems reduce energy use, lower bills, and improve comfort. While they have a higher upfront cost, this is often offset by long-term savings and rebates."
-      }
-    }
-  ],
+  "name": "What are the benefits of upgrading to a high-efficiency HVAC system?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of upgrading to a high-efficiency HVAC system?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Upgrading to a high-efficiency HVAC system offers several benefits, including reduced energy consumption, lower utility bills, and improved indoor air quality and comfort. Modern systems often use less electricity or natural gas to provide the same or better heating and cooling, and can include features like variable-speed motors and smart thermostats. A practical tradeoff is the higher upfront cost compared to standard units, but this is often offset by long-term energy savings and potential rebates.",
+        "@type": "Answer",
+        "description": "High-efficiency HVAC systems reduce energy use, lower bills, and improve comfort. While they have a higher upfront cost, this is often offset by long-term savings and rebates."
+      }
+    }
+  ],
+  "description": "High-efficiency HVAC systems reduce energy use, lower bills, and improve comfort. While they have a higher upfront cost, this is often offset by long-term savin"
 }

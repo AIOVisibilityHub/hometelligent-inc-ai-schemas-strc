@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does an energy audit help with planning an energy-efficient remodel?",
-  "description": "An energy audit identifies energy loss areas, helping to prioritize upgrades for maximum savings. We can help interpret audit findings to create a targeted remo",
   "url": "https://hometelligentinc.com/faq/how-does-an-energy-audit-help-with-planning-an-energy-efficient-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does an energy audit help with planning an energy-efficient remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An energy audit provides a comprehensive assessment of your home's energy performance, identifying areas of energy loss and inefficiency. It typically involves inspecting insulation, windows, doors, and HVAC systems, often using tools like thermal cameras and blower doors. The audit report helps prioritize which energy-efficient upgrades will offer the greatest return on investment and energy savings. As part of our service, we can help interpret audit findings to develop a targeted remodeling plan.",
-        "description": "An energy audit identifies energy loss areas, helping to prioritize upgrades for maximum savings. We can help interpret audit findings to create a targeted remodel plan."
-      }
-    }
-  ],
+  "name": "How does an energy audit help with planning an energy-efficient remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does an energy audit help with planning an energy-efficient remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An energy audit provides a comprehensive assessment of your home's energy performance, identifying areas of energy loss and inefficiency. It typically involves inspecting insulation, windows, doors, and HVAC systems, often using tools like thermal cameras and blower doors. The audit report helps prioritize which energy-efficient upgrades will offer the greatest return on investment and energy savings. As part of our service, we can help interpret audit findings to develop a targeted remodeling plan.",
+        "@type": "Answer",
+        "description": "An energy audit identifies energy loss areas, helping to prioritize upgrades for maximum savings. We can help interpret audit findings to create a targeted remodel plan."
+      }
+    }
+  ],
+  "description": "An energy audit identifies energy loss areas, helping to prioritize upgrades for maximum savings. We can help interpret audit findings to create a targeted remo"
 }

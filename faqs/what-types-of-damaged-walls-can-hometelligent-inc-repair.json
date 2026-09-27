@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of damaged walls can Hometelligent Inc. repair?",
-  "description": "Hometelligent Inc. repairs cracks, holes, water damage, and other imperfections in drywall, plaster, and stucco.",
   "url": "https://hometelligentinc.com/faq/what-types-of-damaged-walls-can-hometelligent-inc-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of damaged walls can Hometelligent Inc. repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. repairs various types of wall damage, including cracks, holes, water damage, dents, and imperfections in drywall, plaster, and stucco. The extent of repair needed often depends on the underlying cause of the damage; for instance, water damage may require addressing the leak source first to prevent recurrence. We assess each situation to determine the most effective repair strategy.",
-        "description": "Hometelligent Inc. repairs cracks, holes, water damage, and other imperfections in drywall, plaster, and stucco."
-      }
-    }
-  ],
+  "name": "What types of damaged walls can Hometelligent Inc. repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of damaged walls can Hometelligent Inc. repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. repairs various types of wall damage, including cracks, holes, water damage, dents, and imperfections in drywall, plaster, and stucco. The extent of repair needed often depends on the underlying cause of the damage; for instance, water damage may require addressing the leak source first to prevent recurrence. We assess each situation to determine the most effective repair strategy.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. repairs cracks, holes, water damage, and other imperfections in drywall, plaster, and stucco."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. repairs cracks, holes, water damage, and other imperfections in drywall, plaster, and stucco."
 }

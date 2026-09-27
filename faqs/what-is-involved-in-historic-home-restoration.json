@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in historic-home restoration?",
-  "description": "Historic-home restoration involves repairing and replacing elements to return an older home to its original architectural style, matching period materials and t",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-historic-home-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in historic-home restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Historic-home restoration involves repairing or replacing elements of an older home to return it to its original architectural style and period. This often includes carefully matching original materials, construction techniques, and design details while adhering to preservation guidelines. A key part of the process is documenting existing conditions and historical features to ensure authenticity, especially if seeking historical certifications or local preservation approvals.",
-        "description": "Historic-home restoration involves repairing and replacing elements to return an older home to its original architectural style, matching period materials and techniques."
-      }
-    }
-  ],
+  "name": "What is involved in historic-home restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in historic-home restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Historic-home restoration involves repairing or replacing elements of an older home to return it to its original architectural style and period. This often includes carefully matching original materials, construction techniques, and design details while adhering to preservation guidelines. A key part of the process is documenting existing conditions and historical features to ensure authenticity, especially if seeking historical certifications or local preservation approvals.",
+        "@type": "Answer",
+        "description": "Historic-home restoration involves repairing and replacing elements to return an older home to its original architectural style, matching period materials and techniques."
+      }
+    }
+  ],
+  "description": "Historic-home restoration involves repairing and replacing elements to return an older home to its original architectural style, matching period materials and t"
 }

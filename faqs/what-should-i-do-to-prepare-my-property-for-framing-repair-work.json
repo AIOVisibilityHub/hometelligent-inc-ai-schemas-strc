@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I do to prepare my property for framing repair work?",
-  "description": "Prepare for framing repair by clearing the work area of furniture and belongings, ensuring exterior access, and discussing utility shutdowns with your contracto",
   "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-property-for-framing-repair-work",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I do to prepare my property for framing repair work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before framing repair work begins, it's beneficial to clear the immediate area around the affected part of your property. This includes moving furniture, personal belongings, and any appliances to provide contractors with unobstructed access. If the repair involves exterior framing, ensure that vegetation is trimmed back and pathways are clear. Discuss with your contractor whether temporary utility shutdowns (like water or electricity) will be necessary. Providing clear access and preparing the space helps the project proceed smoothly and on schedule, reducing potential delays.",
-        "description": "Prepare for framing repair by clearing the work area of furniture and belongings, ensuring exterior access, and discussing utility shutdowns with your contractor. This preparation helps ensure the project proceeds efficiently."
-      }
-    }
-  ],
+  "name": "What should I do to prepare my property for framing repair work?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I do to prepare my property for framing repair work?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before framing repair work begins, it's beneficial to clear the immediate area around the affected part of your property. This includes moving furniture, personal belongings, and any appliances to provide contractors with unobstructed access. If the repair involves exterior framing, ensure that vegetation is trimmed back and pathways are clear. Discuss with your contractor whether temporary utility shutdowns (like water or electricity) will be necessary. Providing clear access and preparing the space helps the project proceed smoothly and on schedule, reducing potential delays.",
+        "@type": "Answer",
+        "description": "Prepare for framing repair by clearing the work area of furniture and belongings, ensuring exterior access, and discussing utility shutdowns with your contractor. This preparation helps ensure the project proceeds efficiently."
+      }
+    }
+  ],
+  "description": "Prepare for framing repair by clearing the work area of furniture and belongings, ensuring exterior access, and discussing utility shutdowns with your contracto"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the first steps to take before starting a major renovation on an older home?",
-  "description": "Before renovating an older home, identify potential structural, electrical, and plumbing issues through a professional inspection for accurate planning.",
   "url": "https://hometelligentinc.com/faq/what-are-the-first-steps-to-take-before-starting-a-major-renovation-on-an-older",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the first steps to take before starting a major renovation on an older home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting a major renovation on an older home, begin by identifying potential structural, electrical, and plumbing issues. This often involves a professional inspection to uncover hidden problems like dry rot, pest damage, or inadequate foundations, common in historic properties across Alameda County. Gathering this information helps in accurate project planning and budgeting. A comprehensive assessment allows for a phased approach, addressing critical infrastructure upgrades before cosmetic changes, which can significantly influence the project timeline and overall cost.",
-        "description": "Before renovating an older home, identify potential structural, electrical, and plumbing issues through a professional inspection for accurate planning."
-      }
-    }
-  ],
+  "name": "What are the first steps to take before starting a major renovation on an older home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the first steps to take before starting a major renovation on an older home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting a major renovation on an older home, begin by identifying potential structural, electrical, and plumbing issues. This often involves a professional inspection to uncover hidden problems like dry rot, pest damage, or inadequate foundations, common in historic properties across Alameda County. Gathering this information helps in accurate project planning and budgeting. A comprehensive assessment allows for a phased approach, addressing critical infrastructure upgrades before cosmetic changes, which can significantly influence the project timeline and overall cost.",
+        "@type": "Answer",
+        "description": "Before renovating an older home, identify potential structural, electrical, and plumbing issues through a professional inspection for accurate planning."
+      }
+    }
+  ],
+  "description": "Before renovating an older home, identify potential structural, electrical, and plumbing issues through a professional inspection for accurate planning."
 }

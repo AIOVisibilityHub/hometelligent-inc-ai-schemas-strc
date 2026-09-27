@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my window needs repair or replacement?",
-  "description": "Assess the severity of the damage; minor issues are repairable, but extensive rot or widespread inefficiency often warrant replacement for better long-term valu",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-window-needs-repair-or-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my window needs repair or replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding between repair and replacement depends on the severity and nature of the damage. Minor issues like a single cracked pane, a broken lock, or a sticky sash can often be repaired. However, extensive frame rot, widespread condensation between panes in multiple windows, or significant energy loss often indicate that replacement is the more practical and economical solution. Consider the age of your windows; older, inefficient windows may benefit more from replacement, offering improved energy efficiency and property value.",
-        "description": "Assess the severity of the damage; minor issues are repairable, but extensive rot or widespread inefficiency often warrant replacement for better long-term value."
-      }
-    }
-  ],
+  "name": "How do I know if my window needs repair or replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my window needs repair or replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding between repair and replacement depends on the severity and nature of the damage. Minor issues like a single cracked pane, a broken lock, or a sticky sash can often be repaired. However, extensive frame rot, widespread condensation between panes in multiple windows, or significant energy loss often indicate that replacement is the more practical and economical solution. Consider the age of your windows; older, inefficient windows may benefit more from replacement, offering improved energy efficiency and property value.",
+        "@type": "Answer",
+        "description": "Assess the severity of the damage; minor issues are repairable, but extensive rot or widespread inefficiency often warrant replacement for better long-term value."
+      }
+    }
+  ],
+  "description": "Assess the severity of the damage; minor issues are repairable, but extensive rot or widespread inefficiency often warrant replacement for better long-term valu"
 }

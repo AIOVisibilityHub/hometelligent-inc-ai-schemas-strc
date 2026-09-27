@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for getting an insulation upgrade with Hometelligent Inc.?",
-  "description": "Our process involves a free consultation, energy assessment, detailed proposal, and professional installation tailored to your home's needs.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-getting-an-insulation-upgrade-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for getting an insulation upgrade with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process typically starts with a free initial consultation and energy assessment at your home, often focusing on areas like Emeryville or Union City. During this assessment, we evaluate your current insulation, identify areas for improvement, and discuss suitable insulation options. We then provide a detailed proposal outlining the scope of work and estimated costs. Upon approval, we schedule the installation, managing the project from start to finish with our experienced team.",
-        "description": "Our process involves a free consultation, energy assessment, detailed proposal, and professional installation tailored to your home's needs."
-      }
-    }
-  ],
+  "name": "What is the process for getting an insulation upgrade with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for getting an insulation upgrade with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process typically starts with a free initial consultation and energy assessment at your home, often focusing on areas like Emeryville or Union City. During this assessment, we evaluate your current insulation, identify areas for improvement, and discuss suitable insulation options. We then provide a detailed proposal outlining the scope of work and estimated costs. Upon approval, we schedule the installation, managing the project from start to finish with our experienced team.",
+        "@type": "Answer",
+        "description": "Our process involves a free consultation, energy assessment, detailed proposal, and professional installation tailored to your home's needs."
+      }
+    }
+  ],
+  "description": "Our process involves a free consultation, energy assessment, detailed proposal, and professional installation tailored to your home's needs."
 }

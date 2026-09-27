@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does siding repair increase my home's value or curb appeal?",
-  "description": "Yes, siding repair improves curb appeal and home value by fixing visible damage and protecting the structure, signaling a well-maintained property.",
   "url": "https://hometelligentinc.com/faq/does-siding-repair-increase-my-home-s-value-or-curb-appeal",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does siding repair increase my home's value or curb appeal?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, siding repair can significantly increase your home's curb appeal and, consequently, its market value. Damaged or unsightly siding can detract from your home's appearance and signal potential structural issues to buyers. By addressing these repairs, you not only improve the aesthetics but also protect your home from further damage, which is a major selling point. Well-maintained siding suggests a well-cared-for home, potentially leading to a quicker sale and a higher asking price. It's a key factor in first impressions.",
-        "description": "Yes, siding repair improves curb appeal and home value by fixing visible damage and protecting the structure, signaling a well-maintained property."
-      }
-    }
-  ],
+  "name": "Does siding repair increase my home's value or curb appeal?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does siding repair increase my home's value or curb appeal?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, siding repair can significantly increase your home's curb appeal and, consequently, its market value. Damaged or unsightly siding can detract from your home's appearance and signal potential structural issues to buyers. By addressing these repairs, you not only improve the aesthetics but also protect your home from further damage, which is a major selling point. Well-maintained siding suggests a well-cared-for home, potentially leading to a quicker sale and a higher asking price. It's a key factor in first impressions.",
+        "@type": "Answer",
+        "description": "Yes, siding repair improves curb appeal and home value by fixing visible damage and protecting the structure, signaling a well-maintained property."
+      }
+    }
+  ],
+  "description": "Yes, siding repair improves curb appeal and home value by fixing visible damage and protecting the structure, signaling a well-maintained property."
 }

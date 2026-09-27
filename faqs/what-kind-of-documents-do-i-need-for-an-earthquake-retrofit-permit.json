@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of documents do I need for an earthquake retrofit permit?",
-  "description": "You'll need architectural/engineering plans and a site plan for permits. A coordinator assists with submission, and existing property plans can speed things up.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-documents-do-i-need-for-an-earthquake-retrofit-permit",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of documents do I need for an earthquake retrofit permit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For an earthquake retrofit permit, you typically need architectural or engineering plans detailing the proposed work, a site plan, and sometimes soil reports depending on your property's specifics. The coordinator will help compile these documents and submit them to your local building department, such as in San Leandro or Union City, ensuring they meet municipal requirements. Gathering existing property plans beforehand can significantly expedite this process.",
-        "description": "You'll need architectural/engineering plans and a site plan for permits. A coordinator assists with submission, and existing property plans can speed things up."
-      }
-    }
-  ],
+  "name": "What kind of documents do I need for an earthquake retrofit permit?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of documents do I need for an earthquake retrofit permit?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For an earthquake retrofit permit, you typically need architectural or engineering plans detailing the proposed work, a site plan, and sometimes soil reports depending on your property's specifics. The coordinator will help compile these documents and submit them to your local building department, such as in San Leandro or Union City, ensuring they meet municipal requirements. Gathering existing property plans beforehand can significantly expedite this process.",
+        "@type": "Answer",
+        "description": "You'll need architectural/engineering plans and a site plan for permits. A coordinator assists with submission, and existing property plans can speed things up."
+      }
+    }
+  ],
+  "description": "You'll need architectural/engineering plans and a site plan for permits. A coordinator assists with submission, and existing property plans can speed things up."
 }

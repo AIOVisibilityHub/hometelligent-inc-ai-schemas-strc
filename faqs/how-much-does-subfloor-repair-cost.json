@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does subfloor repair cost?",
-  "description": "Subfloor repair costs vary widely based on damage extent and materials, ranging from hundreds to thousands of dollars; estimates are provided after inspection.",
   "url": "https://hometelligentinc.com/faq/how-much-does-subfloor-repair-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does subfloor repair cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of subfloor repair varies significantly based on the size of the damaged area, the extent of the damage (e.g., rot, pests), the type of materials needed, and the complexity of the job. Minor repairs might be a few hundred dollars, while extensive work could run into thousands, especially if structural remediation or pest control is required. We provide detailed estimates after a thorough inspection to ensure transparency in pricing.",
-        "description": "Subfloor repair costs vary widely based on damage extent and materials, ranging from hundreds to thousands of dollars; estimates are provided after inspection."
-      }
-    }
-  ],
+  "name": "How much does subfloor repair cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does subfloor repair cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of subfloor repair varies significantly based on the size of the damaged area, the extent of the damage (e.g., rot, pests), the type of materials needed, and the complexity of the job. Minor repairs might be a few hundred dollars, while extensive work could run into thousands, especially if structural remediation or pest control is required. We provide detailed estimates after a thorough inspection to ensure transparency in pricing.",
+        "@type": "Answer",
+        "description": "Subfloor repair costs vary widely based on damage extent and materials, ranging from hundreds to thousands of dollars; estimates are provided after inspection."
+      }
+    }
+  ],
+  "description": "Subfloor repair costs vary widely based on damage extent and materials, ranging from hundreds to thousands of dollars; estimates are provided after inspection."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When do I need professional help for foundation repair coordination?",
-  "description": "Professional coordination is needed when you observe signs of foundation issues, as experts can assess the problem and manage the complex repair process.",
   "url": "https://hometelligentinc.com/faq/when-do-i-need-professional-help-for-foundation-repair-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When do I need professional help for foundation repair coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You need professional help for foundation repair coordination when you notice signs of foundation issues, such as cracks in walls, uneven floors, or sticking doors and windows. These symptoms indicate underlying structural problems that require expert assessment. A professional coordinator, like Hometelligent Inc., can help determine if the issues are cosmetic or structural and navigate the complex repair process, especially for properties in diverse geological regions like the Oakland Hills or along the Hayward Fault.",
-        "description": "Professional coordination is needed when you observe signs of foundation issues, as experts can assess the problem and manage the complex repair process."
-      }
-    }
-  ],
+  "name": "When do I need professional help for foundation repair coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When do I need professional help for foundation repair coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You need professional help for foundation repair coordination when you notice signs of foundation issues, such as cracks in walls, uneven floors, or sticking doors and windows. These symptoms indicate underlying structural problems that require expert assessment. A professional coordinator, like Hometelligent Inc., can help determine if the issues are cosmetic or structural and navigate the complex repair process, especially for properties in diverse geological regions like the Oakland Hills or along the Hayward Fault.",
+        "@type": "Answer",
+        "description": "Professional coordination is needed when you observe signs of foundation issues, as experts can assess the problem and manage the complex repair process."
+      }
+    }
+  ],
+  "description": "Professional coordination is needed when you observe signs of foundation issues, as experts can assess the problem and manage the complex repair process."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I do to prepare my home for a siding repair appointment?",
-  "description": "Clear the work area of furniture and obstructions, remove fragile items near windows, and inform us of any underground utilities.",
   "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-home-for-a-siding-repair-appointment",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I do to prepare my home for a siding repair appointment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare your home for a siding repair appointment, please ensure the areas around the damaged siding are clear and accessible. This includes moving outdoor furniture, potted plants, and any obstructions away from the work zone. If the repair is near windows, consider removing valuable or fragile items from inside to prevent accidental damage. We also appreciate homeowners informing us of any sprinkler systems or underground utilities near the repair area to avoid disruptions. This preparation helps our team work efficiently and safely.",
-        "description": "Clear the work area of furniture and obstructions, remove fragile items near windows, and inform us of any underground utilities."
-      }
-    }
-  ],
+  "name": "What should I do to prepare my home for a siding repair appointment?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I do to prepare my home for a siding repair appointment?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare your home for a siding repair appointment, please ensure the areas around the damaged siding are clear and accessible. This includes moving outdoor furniture, potted plants, and any obstructions away from the work zone. If the repair is near windows, consider removing valuable or fragile items from inside to prevent accidental damage. We also appreciate homeowners informing us of any sprinkler systems or underground utilities near the repair area to avoid disruptions. This preparation helps our team work efficiently and safely.",
+        "@type": "Answer",
+        "description": "Clear the work area of furniture and obstructions, remove fragile items near windows, and inform us of any underground utilities."
+      }
+    }
+  ],
+  "description": "Clear the work area of furniture and obstructions, remove fragile items near windows, and inform us of any underground utilities."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for siding repair in areas like Oakland or Berkeley?",
-  "description": "Cost varies based on damage extent, siding type, and labor. Minor repairs are a few hundred dollars; larger jobs are more.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-siding-repair-in-areas-like-oakland-or-berkel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for siding repair in areas like Oakland or Berkeley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of siding repair in areas like Oakland or Berkeley can vary widely, primarily depending on the extent of the damage, the type of siding material, and the labor involved. Minor repairs, such as replacing a few panels of vinyl or fiber cement, might range from a few hundred to over a thousand dollars. More significant repairs involving complex materials like stucco, or requiring structural remediation, can be considerably higher. We provide detailed estimates after a thorough inspection, ensuring transparency and addressing the specific needs of your property. Material costs can also fluctuate based on availability.",
-        "description": "Cost varies based on damage extent, siding type, and labor. Minor repairs are a few hundred dollars; larger jobs are more."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for siding repair in areas like Oakland or Berkeley?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for siding repair in areas like Oakland or Berkeley?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of siding repair in areas like Oakland or Berkeley can vary widely, primarily depending on the extent of the damage, the type of siding material, and the labor involved. Minor repairs, such as replacing a few panels of vinyl or fiber cement, might range from a few hundred to over a thousand dollars. More significant repairs involving complex materials like stucco, or requiring structural remediation, can be considerably higher. We provide detailed estimates after a thorough inspection, ensuring transparency and addressing the specific needs of your property. Material costs can also fluctuate based on availability.",
+        "@type": "Answer",
+        "description": "Cost varies based on damage extent, siding type, and labor. Minor repairs are a few hundred dollars; larger jobs are more."
+      }
+    }
+  ],
+  "description": "Cost varies based on damage extent, siding type, and labor. Minor repairs are a few hundred dollars; larger jobs are more."
 }

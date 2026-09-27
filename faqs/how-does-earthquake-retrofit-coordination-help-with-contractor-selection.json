@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does earthquake retrofit coordination help with contractor selection?",
-  "description": "Coordination aids contractor selection by vetting bids, checking credentials, and ensuring licenses/insurance for qualified seismic strengthening professionals.",
   "url": "https://hometelligentinc.com/faq/how-does-earthquake-retrofit-coordination-help-with-contractor-selection",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does earthquake retrofit coordination help with contractor selection?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Earthquake retrofit coordination includes vetting and selecting qualified contractors experienced in seismic strengthening. The coordinator will solicit bids, review contractor credentials, check references, and ensure they have the necessary licenses and insurance for work in your area, such as Dublin or Pleasanton. This process helps ensure that you choose a reliable contractor who can perform the work to code and quality standards.",
-        "description": "Coordination aids contractor selection by vetting bids, checking credentials, and ensuring licenses/insurance for qualified seismic strengthening professionals."
-      }
-    }
-  ],
+  "name": "How does earthquake retrofit coordination help with contractor selection?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does earthquake retrofit coordination help with contractor selection?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Earthquake retrofit coordination includes vetting and selecting qualified contractors experienced in seismic strengthening. The coordinator will solicit bids, review contractor credentials, check references, and ensure they have the necessary licenses and insurance for work in your area, such as Dublin or Pleasanton. This process helps ensure that you choose a reliable contractor who can perform the work to code and quality standards.",
+        "@type": "Answer",
+        "description": "Coordination aids contractor selection by vetting bids, checking credentials, and ensuring licenses/insurance for qualified seismic strengthening professionals."
+      }
+    }
+  ],
+  "description": "Coordination aids contractor selection by vetting bids, checking credentials, and ensuring licenses/insurance for qualified seismic strengthening professionals."
 }

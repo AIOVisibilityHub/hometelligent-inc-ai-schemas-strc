@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my ceiling needs professional repair?",
-  "description": "If your ceiling has significant cracks, water stains, sagging, or mold, professional repair is advisable to address underlying issues.",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-ceiling-needs-professional-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my ceiling needs professional repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider professional ceiling repair if you observe significant cracks, persistent water stains, noticeable sagging, or visible mold growth. While minor cosmetic flaws might be DIY-friendly, structural damage or recurring issues often indicate a deeper problem. Our team can provide an assessment to determine the extent of the damage and the necessary repair approach, ensuring safety and durability.",
-        "description": "If your ceiling has significant cracks, water stains, sagging, or mold, professional repair is advisable to address underlying issues."
-      }
-    }
-  ],
+  "name": "How do I know if my ceiling needs professional repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my ceiling needs professional repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider professional ceiling repair if you observe significant cracks, persistent water stains, noticeable sagging, or visible mold growth. While minor cosmetic flaws might be DIY-friendly, structural damage or recurring issues often indicate a deeper problem. Our team can provide an assessment to determine the extent of the damage and the necessary repair approach, ensuring safety and durability.",
+        "@type": "Answer",
+        "description": "If your ceiling has significant cracks, water stains, sagging, or mold, professional repair is advisable to address underlying issues."
+      }
+    }
+  ],
+  "description": "If your ceiling has significant cracks, water stains, sagging, or mold, professional repair is advisable to address underlying issues."
 }

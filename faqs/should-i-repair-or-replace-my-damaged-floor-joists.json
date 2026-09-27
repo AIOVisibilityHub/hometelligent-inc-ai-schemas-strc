@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I repair or replace my damaged floor joists?",
-  "description": "Repair minor joist damage through sistering; replace severely compromised joists. A professional assessment will determine the best solution.",
   "url": "https://hometelligentinc.com/faq/should-i-repair-or-replace-my-damaged-floor-joists",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I repair or replace my damaged floor joists?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding whether to repair or replace damaged floor joists depends on the extent of the damage. If joists have minor cracks, rot, or slight sagging, they can often be reinforced through a process called sistering, where new lumber is securely attached alongside the existing joist. However, if joists are severely compromised by extensive rot, large splits, or significant structural failure, replacement is typically the safer and more durable option. A structural assessment by a qualified professional will determine the most appropriate course of action.",
-        "description": "Repair minor joist damage through sistering; replace severely compromised joists. A professional assessment will determine the best solution."
-      }
-    }
-  ],
+  "name": "Should I repair or replace my damaged floor joists?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I repair or replace my damaged floor joists?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding whether to repair or replace damaged floor joists depends on the extent of the damage. If joists have minor cracks, rot, or slight sagging, they can often be reinforced through a process called sistering, where new lumber is securely attached alongside the existing joist. However, if joists are severely compromised by extensive rot, large splits, or significant structural failure, replacement is typically the safer and more durable option. A structural assessment by a qualified professional will determine the most appropriate course of action.",
+        "@type": "Answer",
+        "description": "Repair minor joist damage through sistering; replace severely compromised joists. A professional assessment will determine the best solution."
+      }
+    }
+  ],
+  "description": "Repair minor joist damage through sistering; replace severely compromised joists. A professional assessment will determine the best solution."
 }

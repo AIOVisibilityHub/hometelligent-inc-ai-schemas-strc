@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When is subfloor repair necessary versus full replacement?",
-  "description": "Repair works for localized damage, while full replacement is needed for extensive structural issues. We assess the damage to determine the best approach.",
   "url": "https://hometelligentinc.com/faq/when-is-subfloor-repair-necessary-versus-full-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is subfloor repair necessary versus full replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Subfloor repair is often sufficient for localized damage, like a small section of rot or a few loose boards. Full replacement is necessary when damage is extensive, widespread, or affects the structural integrity of a large area, such as after significant water damage. To decide between repair and replacement, our technicians assess the extent of the damage, the subfloor material, and the overall condition of the surrounding structure, ensuring the most cost-effective and durable solution for your property.",
-        "description": "Repair works for localized damage, while full replacement is needed for extensive structural issues. We assess the damage to determine the best approach."
-      }
-    }
-  ],
+  "name": "When is subfloor repair necessary versus full replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When is subfloor repair necessary versus full replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Subfloor repair is often sufficient for localized damage, like a small section of rot or a few loose boards. Full replacement is necessary when damage is extensive, widespread, or affects the structural integrity of a large area, such as after significant water damage. To decide between repair and replacement, our technicians assess the extent of the damage, the subfloor material, and the overall condition of the surrounding structure, ensuring the most cost-effective and durable solution for your property.",
+        "@type": "Answer",
+        "description": "Repair works for localized damage, while full replacement is needed for extensive structural issues. We assess the damage to determine the best approach."
+      }
+    }
+  ],
+  "description": "Repair works for localized damage, while full replacement is needed for extensive structural issues. We assess the damage to determine the best approach."
 }

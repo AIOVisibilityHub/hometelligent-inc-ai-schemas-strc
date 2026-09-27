@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When is a seismic upgrade typically required for a property?",
-  "description": "Seismic upgrades are often required for older buildings to meet local ordinances or are undertaken voluntarily to improve safety and resilience.",
   "url": "https://hometelligentinc.com/faq/when-is-a-seismic-upgrade-typically-required-for-a-property",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is a seismic upgrade typically required for a property?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A seismic upgrade is often required for older buildings, especially those with soft story conditions, unreinforced masonry, or weak cripple walls, to comply with local ordinances or improve safety. Property owners may also choose to upgrade voluntarily for increased resilience and to protect their investment. For properties in Alameda, Albany, Berkeley, Dublin, and Emeryville, specific local regulations may mandate upgrades for certain building types.",
-        "description": "Seismic upgrades are often required for older buildings to meet local ordinances or are undertaken voluntarily to improve safety and resilience."
-      }
-    }
-  ],
+  "name": "When is a seismic upgrade typically required for a property?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When is a seismic upgrade typically required for a property?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A seismic upgrade is often required for older buildings, especially those with soft story conditions, unreinforced masonry, or weak cripple walls, to comply with local ordinances or improve safety. Property owners may also choose to upgrade voluntarily for increased resilience and to protect their investment. For properties in Alameda, Albany, Berkeley, Dublin, and Emeryville, specific local regulations may mandate upgrades for certain building types.",
+        "@type": "Answer",
+        "description": "Seismic upgrades are often required for older buildings to meet local ordinances or are undertaken voluntarily to improve safety and resilience."
+      }
+    }
+  ],
+  "description": "Seismic upgrades are often required for older buildings to meet local ordinances or are undertaken voluntarily to improve safety and resilience."
 }

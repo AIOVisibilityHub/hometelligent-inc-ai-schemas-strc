@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose between repairing my deck and replacing it entirely?",
-  "description": "Choose repair for minor damage; consider replacement if over 25% of the structure is compromised or if there's extensive rot or termite damage.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-between-repairing-my-deck-and-replacing-it-entirely",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose between repairing my deck and replacing it entirely?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deciding between repairing and replacing a deck depends on the extent of damage and the deck's overall structural integrity. If only a few boards or railings are damaged, repair is often sufficient. However, if more than 25% of the deck's structure, including support posts and joists, shows significant rot, extensive termite damage, or irreparable structural failure, a full replacement is usually more cost-effective and safer in the long run. Hometelligent Inc. can assess your deck's condition and provide a detailed recommendation.",
-        "description": "Choose repair for minor damage; consider replacement if over 25% of the structure is compromised or if there's extensive rot or termite damage."
-      }
-    }
-  ],
+  "name": "How do I choose between repairing my deck and replacing it entirely?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose between repairing my deck and replacing it entirely?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Deciding between repairing and replacing a deck depends on the extent of damage and the deck's overall structural integrity. If only a few boards or railings are damaged, repair is often sufficient. However, if more than 25% of the deck's structure, including support posts and joists, shows significant rot, extensive termite damage, or irreparable structural failure, a full replacement is usually more cost-effective and safer in the long run. Hometelligent Inc. can assess your deck's condition and provide a detailed recommendation.",
+        "@type": "Answer",
+        "description": "Choose repair for minor damage; consider replacement if over 25% of the structure is compromised or if there's extensive rot or termite damage."
+      }
+    }
+  ],
+  "description": "Choose repair for minor damage; consider replacement if over 25% of the structure is compromised or if there's extensive rot or termite damage."
 }

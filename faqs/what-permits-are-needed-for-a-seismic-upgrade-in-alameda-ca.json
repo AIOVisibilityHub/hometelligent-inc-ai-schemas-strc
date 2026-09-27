@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are needed for a seismic upgrade in Alameda, CA?",
-  "description": "Seismic upgrades in Alameda, CA, require building permits from the city's planning department, with specific permits depending on the work scope.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-needed-for-a-seismic-upgrade-in-alameda-ca",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are needed for a seismic upgrade in Alameda, CA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In Alameda, CA, a seismic upgrade typically requires building permits from the City of Alameda's planning and building department. The specific permits needed depend on the scope of work, such as foundation strengthening, cripple wall bracing, or soft-story retrofitting. Hometelligent Inc. manages all necessary permit applications and ensures compliance with local Alameda building codes and regulations.",
-        "description": "Seismic upgrades in Alameda, CA, require building permits from the city's planning department, with specific permits depending on the work scope."
-      }
-    }
-  ],
+  "name": "What permits are needed for a seismic upgrade in Alameda, CA?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are needed for a seismic upgrade in Alameda, CA?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "In Alameda, CA, a seismic upgrade typically requires building permits from the City of Alameda's planning and building department. The specific permits needed depend on the scope of work, such as foundation strengthening, cripple wall bracing, or soft-story retrofitting. Hometelligent Inc. manages all necessary permit applications and ensures compliance with local Alameda building codes and regulations.",
+        "@type": "Answer",
+        "description": "Seismic upgrades in Alameda, CA, require building permits from the city's planning department, with specific permits depending on the work scope."
+      }
+    }
+  ],
+  "description": "Seismic upgrades in Alameda, CA, require building permits from the city's planning department, with specific permits depending on the work scope."
 }

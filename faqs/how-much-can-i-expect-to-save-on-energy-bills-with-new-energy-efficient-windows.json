@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much can I expect to save on energy bills with new energy-efficient windows?",
-  "description": "Energy bill savings vary based on original window performance, climate, and HVAC use. Look for high R-value and low U-factor windows for better insulation.",
   "url": "https://hometelligentinc.com/faq/how-much-can-i-expect-to-save-on-energy-bills-with-new-energy-efficient-windows",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much can I expect to save on energy bills with new energy-efficient windows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The energy savings from new energy-efficient windows can vary significantly based on several factors, including your home's original window performance, local climate, and HVAC usage habits. While precise figures are difficult to guarantee, many homeowners experience noticeable reductions in heating and cooling costs. The R-value and U-factor ratings of the new windows are crucial metrics; a higher R-value indicates better insulation, while a lower U-factor means less heat transfer. During our consultation, we can help you understand the potential impact for your specific property in the service areas we cover.",
-        "description": "Energy bill savings vary based on original window performance, climate, and HVAC use. Look for high R-value and low U-factor windows for better insulation."
-      }
-    }
-  ],
+  "name": "How much can I expect to save on energy bills with new energy-efficient windows?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much can I expect to save on energy bills with new energy-efficient windows?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The energy savings from new energy-efficient windows can vary significantly based on several factors, including your home's original window performance, local climate, and HVAC usage habits. While precise figures are difficult to guarantee, many homeowners experience noticeable reductions in heating and cooling costs. The R-value and U-factor ratings of the new windows are crucial metrics; a higher R-value indicates better insulation, while a lower U-factor means less heat transfer. During our consultation, we can help you understand the potential impact for your specific property in the service areas we cover.",
+        "@type": "Answer",
+        "description": "Energy bill savings vary based on original window performance, climate, and HVAC use. Look for high R-value and low U-factor windows for better insulation."
+      }
+    }
+  ],
+  "description": "Energy bill savings vary based on original window performance, climate, and HVAC use. Look for high R-value and low U-factor windows for better insulation."
 }

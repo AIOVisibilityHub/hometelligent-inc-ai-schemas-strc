@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my home is considered historic for restoration purposes?",
-  "description": "A home over 50 years old with architectural or historical significance may be considered historic. Local preservation ordinances and historical commissions dete",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-home-is-considered-historic-for-restoration-purposes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my home is considered historic for restoration purposes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Your home might be considered historic if it's over 50 years old and possesses significant architectural, historical, or cultural value. Eligibility often depends on local preservation ordinances and criteria established by historical societies. Before beginning a project, it's beneficial to consult with local historical commissions, such as those in Berkeley or Oakland, to understand specific designations and any requirements for modifications.",
-        "description": "A home over 50 years old with architectural or historical significance may be considered historic. Local preservation ordinances and historical commissions determine eligibility."
-      }
-    }
-  ],
+  "name": "How do I know if my home is considered historic for restoration purposes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my home is considered historic for restoration purposes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Your home might be considered historic if it's over 50 years old and possesses significant architectural, historical, or cultural value. Eligibility often depends on local preservation ordinances and criteria established by historical societies. Before beginning a project, it's beneficial to consult with local historical commissions, such as those in Berkeley or Oakland, to understand specific designations and any requirements for modifications.",
+        "@type": "Answer",
+        "description": "A home over 50 years old with architectural or historical significance may be considered historic. Local preservation ordinances and historical commissions determine eligibility."
+      }
+    }
+  ],
+  "description": "A home over 50 years old with architectural or historical significance may be considered historic. Local preservation ordinances and historical commissions dete"
 }

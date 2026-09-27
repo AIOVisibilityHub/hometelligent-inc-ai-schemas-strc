@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of foundation repair coordination?",
-  "description": "Cost factors include engineering complexity, required permits, and the overall scope of the foundation repair project.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-foundation-repair-coordination",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of foundation repair coordination?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of foundation repair coordination is influenced by the scope of engineering required, the number and type of permits needed, and the overall complexity of the repair project. For properties with severe damage or located in challenging soil conditions, common in parts of Union City or Livermore, more extensive engineering and specialized permits may increase costs. The coordinator's fees also reflect the time and expertise required to manage the various project stakeholders and ensure compliance.",
-        "description": "Cost factors include engineering complexity, required permits, and the overall scope of the foundation repair project."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of foundation repair coordination?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of foundation repair coordination?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of foundation repair coordination is influenced by the scope of engineering required, the number and type of permits needed, and the overall complexity of the repair project. For properties with severe damage or located in challenging soil conditions, common in parts of Union City or Livermore, more extensive engineering and specialized permits may increase costs. The coordinator's fees also reflect the time and expertise required to manage the various project stakeholders and ensure compliance.",
+        "@type": "Answer",
+        "description": "Cost factors include engineering complexity, required permits, and the overall scope of the foundation repair project."
+      }
+    }
+  ],
+  "description": "Cost factors include engineering complexity, required permits, and the overall scope of the foundation repair project."
 }
