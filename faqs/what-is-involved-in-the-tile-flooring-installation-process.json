@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in the tile flooring installation process?",
-  "description": "The process involves subfloor prep, layout planning, tile setting with adhesive, grouting, and sealing. Adequate curing time is crucial for durability.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-tile-flooring-installation-process",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in the tile flooring installation process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The tile flooring installation process typically begins with subfloor preparation, which involves cleaning, leveling, and sometimes adding a backer board. Next, the layout is planned to ensure proper alignment and minimize waste. Adhesive (thin-set mortar) is then applied, and tiles are carefully set, followed by grouting once the adhesive cures. Finally, a sealant is applied to protect the grout. A critical step Hometelligent Inc. emphasizes is allowing adequate drying and curing time between each phase, especially for the adhesive and grout, which impacts the flooring's durability and lifespan in your Emeryville renovation.",
-        "description": "The process involves subfloor prep, layout planning, tile setting with adhesive, grouting, and sealing. Adequate curing time is crucial for durability."
-      }
-    }
-  ],
+  "name": "What is involved in the tile flooring installation process?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in the tile flooring installation process?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The tile flooring installation process typically begins with subfloor preparation, which involves cleaning, leveling, and sometimes adding a backer board. Next, the layout is planned to ensure proper alignment and minimize waste. Adhesive (thin-set mortar) is then applied, and tiles are carefully set, followed by grouting once the adhesive cures. Finally, a sealant is applied to protect the grout. A critical step Hometelligent Inc. emphasizes is allowing adequate drying and curing time between each phase, especially for the adhesive and grout, which impacts the flooring's durability and lifespan in your Emeryville renovation.",
+        "@type": "Answer",
+        "description": "The process involves subfloor prep, layout planning, tile setting with adhesive, grouting, and sealing. Adequate curing time is crucial for durability."
+      }
+    }
+  ],
+  "description": "The process involves subfloor prep, layout planning, tile setting with adhesive, grouting, and sealing. Adequate curing time is crucial for durability."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations do I need to make before drywall installers arrive?",
-  "description": "Before drywall installation, clear the work area, cover immovable items, and ensure all plumbing and electrical rough-ins are complete.",
   "url": "https://hometelligentinc.com/faq/what-preparations-do-i-need-to-make-before-drywall-installers-arrive",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations do I need to make before drywall installers arrive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before our drywall installers arrive, please ensure the work area is clear of furniture, personal belongings, and any obstacles. We recommend covering items you cannot move, as drywall installation generates significant dust. Also, ensure that all necessary plumbing and electrical rough-ins are completed and inspected, as these elements need to be behind the drywall. Proper preparation ensures our team can work efficiently and safely, helping to keep your project on schedule. If you have any specific concerns about protecting your property, please discuss them with us during the initial consultation.",
-        "description": "Before drywall installation, clear the work area, cover immovable items, and ensure all plumbing and electrical rough-ins are complete."
-      }
-    }
-  ],
+  "name": "What preparations do I need to make before drywall installers arrive?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations do I need to make before drywall installers arrive?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before our drywall installers arrive, please ensure the work area is clear of furniture, personal belongings, and any obstacles. We recommend covering items you cannot move, as drywall installation generates significant dust. Also, ensure that all necessary plumbing and electrical rough-ins are completed and inspected, as these elements need to be behind the drywall. Proper preparation ensures our team can work efficiently and safely, helping to keep your project on schedule. If you have any specific concerns about protecting your property, please discuss them with us during the initial consultation.",
+        "@type": "Answer",
+        "description": "Before drywall installation, clear the work area, cover immovable items, and ensure all plumbing and electrical rough-ins are complete."
+      }
+    }
+  ],
+  "description": "Before drywall installation, clear the work area, cover immovable items, and ensure all plumbing and electrical rough-ins are complete."
 }

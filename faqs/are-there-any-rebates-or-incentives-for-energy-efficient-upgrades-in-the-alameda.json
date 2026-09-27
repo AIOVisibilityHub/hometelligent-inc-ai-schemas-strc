@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there any rebates or incentives for energy-efficient upgrades in the Alameda area?",
-  "description": "Yes, homeowners in the Alameda area may qualify for local, state, or federal rebates and incentives. Eligibility varies by upgrade type and income.",
   "url": "https://hometelligentinc.com/faq/are-there-any-rebates-or-incentives-for-energy-efficient-upgrades-in-the-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there any rebates or incentives for energy-efficient upgrades in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Homeowners in the Alameda area may be eligible for various local, state, or federal rebates and incentives for energy-efficient upgrades. These can include programs for specific improvements like insulation, HVAC systems, or solar installations. Eligibility often depends on the type of upgrade, your income level, and specific energy performance targets. We recommend researching programs from entities like PG&E or state energy commissions, and we can discuss potential opportunities during our consultation.",
-        "description": "Yes, homeowners in the Alameda area may qualify for local, state, or federal rebates and incentives. Eligibility varies by upgrade type and income."
-      }
-    }
-  ],
+  "name": "Are there any rebates or incentives for energy-efficient upgrades in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there any rebates or incentives for energy-efficient upgrades in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Homeowners in the Alameda area may be eligible for various local, state, or federal rebates and incentives for energy-efficient upgrades. These can include programs for specific improvements like insulation, HVAC systems, or solar installations. Eligibility often depends on the type of upgrade, your income level, and specific energy performance targets. We recommend researching programs from entities like PG&E or state energy commissions, and we can discuss potential opportunities during our consultation.",
+        "@type": "Answer",
+        "description": "Yes, homeowners in the Alameda area may qualify for local, state, or federal rebates and incentives. Eligibility varies by upgrade type and income."
+      }
+    }
+  ],
+  "description": "Yes, homeowners in the Alameda area may qualify for local, state, or federal rebates and incentives. Eligibility varies by upgrade type and income."
 }

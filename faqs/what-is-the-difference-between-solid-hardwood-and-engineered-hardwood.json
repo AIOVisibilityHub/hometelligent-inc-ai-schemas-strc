@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between solid hardwood and engineered hardwood?",
-  "description": "Solid hardwood is one piece of wood, while engineered has a real wood veneer over plywood layers. Engineered is more moisture-stable.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-solid-hardwood-and-engineered-hardwood",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between solid hardwood and engineered hardwood?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Solid hardwood is one piece of natural wood throughout, offering durability and the ability to be refinished multiple times. Engineered hardwood has a top layer of real wood over several layers of plywood, making it more stable against moisture and suitable for basements or concrete slabs where solid hardwood isn't recommended. Both offer distinct benefits depending on the application.",
-        "description": "Solid hardwood is one piece of wood, while engineered has a real wood veneer over plywood layers. Engineered is more moisture-stable."
-      }
-    }
-  ],
+  "name": "What is the difference between solid hardwood and engineered hardwood?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between solid hardwood and engineered hardwood?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Solid hardwood is one piece of natural wood throughout, offering durability and the ability to be refinished multiple times. Engineered hardwood has a top layer of real wood over several layers of plywood, making it more stable against moisture and suitable for basements or concrete slabs where solid hardwood isn't recommended. Both offer distinct benefits depending on the application.",
+        "@type": "Answer",
+        "description": "Solid hardwood is one piece of wood, while engineered has a real wood veneer over plywood layers. Engineered is more moisture-stable."
+      }
+    }
+  ],
+  "description": "Solid hardwood is one piece of wood, while engineered has a real wood veneer over plywood layers. Engineered is more moisture-stable."
 }

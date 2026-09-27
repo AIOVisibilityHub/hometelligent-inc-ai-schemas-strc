@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a garage conversion and what are the benefits?",
-  "description": "A garage conversion transforms your garage into a new living space, offering benefits like increased usable square footage and potential cost savings compared t",
   "url": "https://hometelligentinc.com/faq/what-is-a-garage-conversion-and-what-are-the-benefits",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a garage conversion and what are the benefits?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A garage conversion transforms an existing garage space into a new, habitable room within your home, such as an extra bedroom, home office, or living area. This process typically involves insulating walls, adding windows, improving flooring, and extending utilities. One key benefit is utilizing existing structural elements, which can make it a more cost-effective option than building a completely new addition. Considering a conversion can significantly increase your usable square footage without altering your property's footprint or requiring extensive foundation work, which is often a major decision factor for homeowners in areas like Alameda and Berkeley with limited lot space.",
-        "description": "A garage conversion transforms your garage into a new living space, offering benefits like increased usable square footage and potential cost savings compared to new construction."
-      }
-    }
-  ],
+  "name": "What is a garage conversion and what are the benefits?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a garage conversion and what are the benefits?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A garage conversion transforms an existing garage space into a new, habitable room within your home, such as an extra bedroom, home office, or living area. This process typically involves insulating walls, adding windows, improving flooring, and extending utilities. One key benefit is utilizing existing structural elements, which can make it a more cost-effective option than building a completely new addition. Considering a conversion can significantly increase your usable square footage without altering your property's footprint or requiring extensive foundation work, which is often a major decision factor for homeowners in areas like Alameda and Berkeley with limited lot space.",
+        "@type": "Answer",
+        "description": "A garage conversion transforms your garage into a new living space, offering benefits like increased usable square footage and potential cost savings compared to new construction."
+      }
+    }
+  ],
+  "description": "A garage conversion transforms your garage into a new living space, offering benefits like increased usable square footage and potential cost savings compared t"
 }

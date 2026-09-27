@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right flooring material for my home?",
-  "description": "Consider durability, maintenance, aesthetics, and budget. Hometelligent Inc. can help assess needs and recommend options.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-flooring-material-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right flooring material for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right flooring material involves considering durability, maintenance, aesthetic appeal, and budget. For example, a busy household might prioritize durable options like laminate or luxury vinyl, while a home focused on natural materials might prefer hardwood. Our team can help assess your lifestyle needs and recommend suitable options during the consultation.",
-        "description": "Consider durability, maintenance, aesthetics, and budget. Hometelligent Inc. can help assess needs and recommend options."
-      }
-    }
-  ],
+  "name": "How do I choose the right flooring material for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right flooring material for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right flooring material involves considering durability, maintenance, aesthetic appeal, and budget. For example, a busy household might prioritize durable options like laminate or luxury vinyl, while a home focused on natural materials might prefer hardwood. Our team can help assess your lifestyle needs and recommend suitable options during the consultation.",
+        "@type": "Answer",
+        "description": "Consider durability, maintenance, aesthetics, and budget. Hometelligent Inc. can help assess needs and recommend options."
+      }
+    }
+  ],
+  "description": "Consider durability, maintenance, aesthetics, and budget. Hometelligent Inc. can help assess needs and recommend options."
 }

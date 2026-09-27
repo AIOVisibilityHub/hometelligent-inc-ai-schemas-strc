@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of updating windows and doors during an exterior renovation?",
-  "description": "Updating windows and doors improves energy efficiency, reduces utility costs, enhances curb appeal, and increases security. Consider energy performance ratings",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-updating-windows-and-doors-during-an-exterior-renovatio",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of updating windows and doors during an exterior renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Updating windows and doors during an exterior renovation offers several key benefits. Modern, energy-efficient windows and doors can significantly reduce heating and cooling costs by improving your home's insulation and preventing drafts. They also enhance curb appeal, increase home security, and can reduce outside noise. When considering replacements, evaluating the energy performance ratings (U-factor, Solar Heat Gain Coefficient) specific to the East Bay climate can help you choose options that offer the best return on investment.",
-        "description": "Updating windows and doors improves energy efficiency, reduces utility costs, enhances curb appeal, and increases security. Consider energy performance ratings specific to the East Bay climate for optimal benefits."
-      }
-    }
-  ],
+  "name": "What are the benefits of updating windows and doors during an exterior renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of updating windows and doors during an exterior renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Updating windows and doors during an exterior renovation offers several key benefits. Modern, energy-efficient windows and doors can significantly reduce heating and cooling costs by improving your home's insulation and preventing drafts. They also enhance curb appeal, increase home security, and can reduce outside noise. When considering replacements, evaluating the energy performance ratings (U-factor, Solar Heat Gain Coefficient) specific to the East Bay climate can help you choose options that offer the best return on investment.",
+        "@type": "Answer",
+        "description": "Updating windows and doors improves energy efficiency, reduces utility costs, enhances curb appeal, and increases security. Consider energy performance ratings specific to the East Bay climate for optimal benefits."
+      }
+    }
+  ],
+  "description": "Updating windows and doors improves energy efficiency, reduces utility costs, enhances curb appeal, and increases security. Consider energy performance ratings"
 }

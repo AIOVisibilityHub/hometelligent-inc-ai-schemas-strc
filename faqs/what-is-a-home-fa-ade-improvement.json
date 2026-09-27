@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a home façade improvement?",
-  "description": "A home façade improvement enhances the exterior appearance and structural integrity of a house, involving updates to elements like siding, paint, and windows.",
   "url": "https://hometelligentinc.com/faq/what-is-a-home-fa-ade-improvement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a home façade improvement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A home façade improvement involves enhancing the exterior appearance and structural integrity of your house. This can include updates to siding, paint, windows, doors, roofing, and architectural details. Such improvements can significantly boost curb appeal, increase property value, and improve energy efficiency. Hometelligent Inc. specializes in comprehensive exterior renovations, ensuring both aesthetic appeal and long-term durability for homes across Alameda and Contra Costa counties.",
-        "description": "A home façade improvement enhances the exterior appearance and structural integrity of a house, involving updates to elements like siding, paint, and windows."
-      }
-    }
-  ],
+  "name": "What is a home façade improvement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a home façade improvement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A home façade improvement involves enhancing the exterior appearance and structural integrity of your house. This can include updates to siding, paint, windows, doors, roofing, and architectural details. Such improvements can significantly boost curb appeal, increase property value, and improve energy efficiency. Hometelligent Inc. specializes in comprehensive exterior renovations, ensuring both aesthetic appeal and long-term durability for homes across Alameda and Contra Costa counties.",
+        "@type": "Answer",
+        "description": "A home façade improvement enhances the exterior appearance and structural integrity of a house, involving updates to elements like siding, paint, and windows."
+      }
+    }
+  ],
+  "description": "A home façade improvement enhances the exterior appearance and structural integrity of a house, involving updates to elements like siding, paint, and windows."
 }

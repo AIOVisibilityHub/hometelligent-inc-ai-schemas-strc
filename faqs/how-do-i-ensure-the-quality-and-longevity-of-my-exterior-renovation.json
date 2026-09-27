@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure the quality and longevity of my exterior renovation?",
-  "description": "Ensure quality by choosing a reputable contractor, using durable materials suited for local climate, and ensuring code compliance. Hometelligent Inc. offers wor",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-the-quality-and-longevity-of-my-exterior-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure the quality and longevity of my exterior renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ensuring the quality and longevity of your exterior renovation involves several factors. Firstly, select a reputable contractor with proven experience and positive client references. Secondly, prioritize high-quality, durable materials that are appropriate for your local climate conditions. Lastly, ensure all work adheres to current building codes and manufacturer specifications. Hometelligent Inc. provides a warranty on our workmanship, and we only use materials from trusted suppliers, which contributes significantly to the project's long-term success.",
-        "description": "Ensure quality by choosing a reputable contractor, using durable materials suited for local climate, and ensuring code compliance. Hometelligent Inc. offers workmanship warranties and uses trusted suppliers."
-      }
-    }
-  ],
+  "name": "How do I ensure the quality and longevity of my exterior renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure the quality and longevity of my exterior renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Ensuring the quality and longevity of your exterior renovation involves several factors. Firstly, select a reputable contractor with proven experience and positive client references. Secondly, prioritize high-quality, durable materials that are appropriate for your local climate conditions. Lastly, ensure all work adheres to current building codes and manufacturer specifications. Hometelligent Inc. provides a warranty on our workmanship, and we only use materials from trusted suppliers, which contributes significantly to the project's long-term success.",
+        "@type": "Answer",
+        "description": "Ensure quality by choosing a reputable contractor, using durable materials suited for local climate, and ensuring code compliance. Hometelligent Inc. offers workmanship warranties and uses trusted suppliers."
+      }
+    }
+  ],
+  "description": "Ensure quality by choosing a reputable contractor, using durable materials suited for local climate, and ensuring code compliance. Hometelligent Inc. offers wor"
 }

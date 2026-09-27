@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right style of interior door for my home?",
-  "description": "Select an interior door style based on your home's architecture, room function, and personal taste, considering how material, color, and hardware align with exi",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-style-of-interior-door-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right style of interior door for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right interior door style involves considering your home's architectural style, the function of the room, and your personal aesthetic preferences. For example, panel doors are versatile and suit many traditional and transitional homes, while flush doors offer a minimalist look ideal for modern spaces. French doors can enhance natural light and connect spaces, whereas barn doors add a rustic or contemporary focal point. We advise you to consider how the door's material, color, and hardware will complement your existing decor and the level of privacy or light you desire for each specific room. This ensures consistency and harmony throughout your home.",
-        "description": "Select an interior door style based on your home's architecture, room function, and personal taste, considering how material, color, and hardware align with existing decor."
-      }
-    }
-  ],
+  "name": "How do I choose the right style of interior door for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right style of interior door for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right interior door style involves considering your home's architectural style, the function of the room, and your personal aesthetic preferences. For example, panel doors are versatile and suit many traditional and transitional homes, while flush doors offer a minimalist look ideal for modern spaces. French doors can enhance natural light and connect spaces, whereas barn doors add a rustic or contemporary focal point. We advise you to consider how the door's material, color, and hardware will complement your existing decor and the level of privacy or light you desire for each specific room. This ensures consistency and harmony throughout your home.",
+        "@type": "Answer",
+        "description": "Select an interior door style based on your home's architecture, room function, and personal taste, considering how material, color, and hardware align with existing decor."
+      }
+    }
+  ],
+  "description": "Select an interior door style based on your home's architecture, room function, and personal taste, considering how material, color, and hardware align with exi"
 }

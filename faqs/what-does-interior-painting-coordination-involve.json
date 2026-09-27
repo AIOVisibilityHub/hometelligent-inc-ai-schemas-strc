@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What does interior painting coordination involve?",
-  "description": "Interior painting coordination manages the entire process from consultation and preparation to scheduling, supervision, and final quality checks, ensuring effic",
   "url": "https://hometelligentinc.com/faq/what-does-interior-painting-coordination-involve",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does interior painting coordination involve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Interior painting coordination involves managing the entire painting process from initial consultation to final inspection. This includes color consultation, surface preparation, protecting furniture and flooring, scheduling painters, supervising the work, and conducting quality checks. The goal is to ensure a smooth, efficient project with minimal disruption to your home. Hometelligent Inc. specifically coordinates these steps to align with your overall project timeline, minimizing delays, especially when integrated with other construction services.",
-        "description": "Interior painting coordination manages the entire process from consultation and preparation to scheduling, supervision, and final quality checks, ensuring efficiency and minimal disruption."
-      }
-    }
-  ],
+  "name": "What does interior painting coordination involve?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What does interior painting coordination involve?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Interior painting coordination involves managing the entire painting process from initial consultation to final inspection. This includes color consultation, surface preparation, protecting furniture and flooring, scheduling painters, supervising the work, and conducting quality checks. The goal is to ensure a smooth, efficient project with minimal disruption to your home. Hometelligent Inc. specifically coordinates these steps to align with your overall project timeline, minimizing delays, especially when integrated with other construction services.",
+        "@type": "Answer",
+        "description": "Interior painting coordination manages the entire process from consultation and preparation to scheduling, supervision, and final quality checks, ensuring efficiency and minimal disruption."
+      }
+    }
+  ],
+  "description": "Interior painting coordination manages the entire process from consultation and preparation to scheduling, supervision, and final quality checks, ensuring effic"
 }

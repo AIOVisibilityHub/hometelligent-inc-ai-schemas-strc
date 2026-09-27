@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I perform soffit repair myself, or should I hire a professional?",
-  "description": "Minor soffit repairs might be DIY, but extensive damage or work at heights requires professional expertise for safety, proper ventilation, and structural integr",
   "url": "https://hometelligentinc.com/faq/can-i-perform-soffit-repair-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I perform soffit repair myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While minor soffit repairs, such as patching a small hole, might seem manageable for a skilled DIYer, complex or extensive damage often requires professional expertise. Working on soffits involves working at heights, understanding proper ventilation techniques, and potentially dealing with underlying structural issues or hazardous materials like mold. Professionals have the necessary tools, safety equipment, and experience to ensure the repair is done correctly and safely, preventing further damage. For homes in densely populated areas like Oakland or Berkeley, ensuring safety and compliance with local regulations is paramount, making professional help advisable.",
-        "description": "Minor soffit repairs might be DIY, but extensive damage or work at heights requires professional expertise for safety, proper ventilation, and structural integrity."
-      }
-    }
-  ],
+  "name": "Can I perform soffit repair myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I perform soffit repair myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While minor soffit repairs, such as patching a small hole, might seem manageable for a skilled DIYer, complex or extensive damage often requires professional expertise. Working on soffits involves working at heights, understanding proper ventilation techniques, and potentially dealing with underlying structural issues or hazardous materials like mold. Professionals have the necessary tools, safety equipment, and experience to ensure the repair is done correctly and safely, preventing further damage. For homes in densely populated areas like Oakland or Berkeley, ensuring safety and compliance with local regulations is paramount, making professional help advisable.",
+        "@type": "Answer",
+        "description": "Minor soffit repairs might be DIY, but extensive damage or work at heights requires professional expertise for safety, proper ventilation, and structural integrity."
+      }
+    }
+  ],
+  "description": "Minor soffit repairs might be DIY, but extensive damage or work at heights requires professional expertise for safety, proper ventilation, and structural integr"
 }

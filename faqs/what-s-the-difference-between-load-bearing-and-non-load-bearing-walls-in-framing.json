@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What's the difference between load-bearing and non-load-bearing walls in framing?",
-  "description": "Load-bearing walls support structural weight and require engineering for modification, while non-load-bearing walls are for space division.",
   "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-load-bearing-and-non-load-bearing-walls-in-framing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What's the difference between load-bearing and non-load-bearing walls in framing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Load-bearing walls support structural weight from above, such as upper floors or the roof. Removing or modifying them requires careful planning, structural engineering, and permits to avoid compromising the building's stability. Non-load-bearing walls primarily divide spaces and can often be altered with less structural concern. Identifying which walls are load-bearing is a critical first step in any framing project, directly impacting the complexity and required expertise for the renovation.",
-        "description": "Load-bearing walls support structural weight and require engineering for modification, while non-load-bearing walls are for space division."
-      }
-    }
-  ],
+  "name": "What's the difference between load-bearing and non-load-bearing walls in framing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What's the difference between load-bearing and non-load-bearing walls in framing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Load-bearing walls support structural weight from above, such as upper floors or the roof. Removing or modifying them requires careful planning, structural engineering, and permits to avoid compromising the building's stability. Non-load-bearing walls primarily divide spaces and can often be altered with less structural concern. Identifying which walls are load-bearing is a critical first step in any framing project, directly impacting the complexity and required expertise for the renovation.",
+        "@type": "Answer",
+        "description": "Load-bearing walls support structural weight and require engineering for modification, while non-load-bearing walls are for space division."
+      }
+    }
+  ],
+  "description": "Load-bearing walls support structural weight and require engineering for modification, while non-load-bearing walls are for space division."
 }

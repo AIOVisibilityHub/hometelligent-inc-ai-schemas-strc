@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for exterior restoration in Bay Area cities?",
-  "description": "Permit requirements depend on the city and project scope; structural changes and major alterations typically need them. Always check with your contractor and lo",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-exterior-restoration-in-bay-area-cities",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for exterior restoration in Bay Area cities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for exterior restoration vary significantly by city and the scope of work. Minor repairs like painting may not require a permit, but structural changes, roof replacement, or significant facade alterations almost always do. Cities such as Alameda, Oakland, and Berkeley have their own specific building departments with unique regulations and historical review processes, especially for older homes. Before starting any work, it is a crucial preparatory step to consult with your chosen contractor and local building department to determine exact permit needs.",
-        "description": "Permit requirements depend on the city and project scope; structural changes and major alterations typically need them. Always check with your contractor and local building department."
-      }
-    }
-  ],
+  "name": "What permits are required for exterior restoration in Bay Area cities?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for exterior restoration in Bay Area cities?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for exterior restoration vary significantly by city and the scope of work. Minor repairs like painting may not require a permit, but structural changes, roof replacement, or significant facade alterations almost always do. Cities such as Alameda, Oakland, and Berkeley have their own specific building departments with unique regulations and historical review processes, especially for older homes. Before starting any work, it is a crucial preparatory step to consult with your chosen contractor and local building department to determine exact permit needs.",
+        "@type": "Answer",
+        "description": "Permit requirements depend on the city and project scope; structural changes and major alterations typically need them. Always check with your contractor and local building department."
+      }
+    }
+  ],
+  "description": "Permit requirements depend on the city and project scope; structural changes and major alterations typically need them. Always check with your contractor and lo"
 }

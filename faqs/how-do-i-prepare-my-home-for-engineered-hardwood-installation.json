@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I prepare my home for engineered hardwood installation?",
-  "description": "Clear the room, ensure old flooring is removed, and maintain consistent temperature and humidity for acclimation before installation.",
   "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-home-for-engineered-hardwood-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I prepare my home for engineered hardwood installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before installation, you should clear the area of all furniture, rugs, and decor. If applicable, old flooring will need to be removed, which Hometelligent Inc. can manage. Ensure your HVAC system is operational to maintain consistent temperature and humidity levels for at least 48 hours before and during installation, as this helps the wood acclimate. Proper acclimation is a crucial preparation step to prevent future issues with expansion or contraction of the flooring.",
-        "description": "Clear the room, ensure old flooring is removed, and maintain consistent temperature and humidity for acclimation before installation."
-      }
-    }
-  ],
+  "name": "How do I prepare my home for engineered hardwood installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I prepare my home for engineered hardwood installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before installation, you should clear the area of all furniture, rugs, and decor. If applicable, old flooring will need to be removed, which Hometelligent Inc. can manage. Ensure your HVAC system is operational to maintain consistent temperature and humidity levels for at least 48 hours before and during installation, as this helps the wood acclimate. Proper acclimation is a crucial preparation step to prevent future issues with expansion or contraction of the flooring.",
+        "@type": "Answer",
+        "description": "Clear the room, ensure old flooring is removed, and maintain consistent temperature and humidity for acclimation before installation."
+      }
+    }
+  ],
+  "description": "Clear the room, ensure old flooring is removed, and maintain consistent temperature and humidity for acclimation before installation."
 }

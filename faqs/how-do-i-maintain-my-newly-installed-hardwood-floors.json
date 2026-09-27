@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I maintain my newly installed hardwood floors?",
-  "description": "Maintain hardwood floors by using felt pads, cleaning spills promptly, and regular sweeping or vacuuming. Avoid excessive water and abrasive cleaners to prevent",
   "url": "https://hometelligentinc.com/faq/how-do-i-maintain-my-newly-installed-hardwood-floors",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I maintain my newly installed hardwood floors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintaining newly installed hardwood floors involves regular cleaning and protective measures to preserve their appearance and longevity. Use felt pads under furniture legs, avoid dragging heavy objects, and clean spills promptly. Regularly sweep or vacuum with a soft brush attachment and occasionally damp mop with a manufacturer-approved hardwood floor cleaner. Avoid excessive water, abrasive cleaners, and steam mops, as these can damage the finish or warp the wood. Proper maintenance is a practical tradeoff for extending the life and beauty of your investment.",
-        "description": "Maintain hardwood floors by using felt pads, cleaning spills promptly, and regular sweeping or vacuuming. Avoid excessive water and abrasive cleaners to prevent damage."
-      }
-    }
-  ],
+  "name": "How do I maintain my newly installed hardwood floors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I maintain my newly installed hardwood floors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintaining newly installed hardwood floors involves regular cleaning and protective measures to preserve their appearance and longevity. Use felt pads under furniture legs, avoid dragging heavy objects, and clean spills promptly. Regularly sweep or vacuum with a soft brush attachment and occasionally damp mop with a manufacturer-approved hardwood floor cleaner. Avoid excessive water, abrasive cleaners, and steam mops, as these can damage the finish or warp the wood. Proper maintenance is a practical tradeoff for extending the life and beauty of your investment.",
+        "@type": "Answer",
+        "description": "Maintain hardwood floors by using felt pads, cleaning spills promptly, and regular sweeping or vacuuming. Avoid excessive water and abrasive cleaners to prevent damage."
+      }
+    }
+  ],
+  "description": "Maintain hardwood floors by using felt pads, cleaning spills promptly, and regular sweeping or vacuuming. Avoid excessive water and abrasive cleaners to prevent"
 }

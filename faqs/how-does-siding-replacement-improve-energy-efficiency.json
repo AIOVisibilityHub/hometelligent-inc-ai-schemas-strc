@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does siding replacement improve energy efficiency?",
-  "description": "New siding improves energy efficiency by enhancing insulation and creating a better thermal barrier, reducing energy use. Choosing the right insulation is key.",
   "url": "https://hometelligentinc.com/faq/how-does-siding-replacement-improve-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does siding replacement improve energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "New siding can significantly improve your home's energy efficiency by enhancing its insulation capabilities. Modern siding materials, especially when combined with an updated house wrap and insulation, create a better thermal barrier, reducing heat loss in winter and heat gain in summer. This helps maintain a more consistent indoor temperature, leading to less reliance on your HVAC system and lower energy bills. Choosing the right insulation R-value for your climate in Alameda, Albany, Berkeley, Dublin, or Emeryville is a decision factor that Hometelligent Inc. assists with during the planning phase.",
-        "description": "New siding improves energy efficiency by enhancing insulation and creating a better thermal barrier, reducing energy use. Choosing the right insulation is key."
-      }
-    }
-  ],
+  "name": "How does siding replacement improve energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does siding replacement improve energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "New siding can significantly improve your home's energy efficiency by enhancing its insulation capabilities. Modern siding materials, especially when combined with an updated house wrap and insulation, create a better thermal barrier, reducing heat loss in winter and heat gain in summer. This helps maintain a more consistent indoor temperature, leading to less reliance on your HVAC system and lower energy bills. Choosing the right insulation R-value for your climate in Alameda, Albany, Berkeley, Dublin, or Emeryville is a decision factor that Hometelligent Inc. assists with during the planning phase.",
+        "@type": "Answer",
+        "description": "New siding improves energy efficiency by enhancing insulation and creating a better thermal barrier, reducing energy use. Choosing the right insulation is key."
+      }
+    }
+  ],
+  "description": "New siding improves energy efficiency by enhancing insulation and creating a better thermal barrier, reducing energy use. Choosing the right insulation is key."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a new deck installation?",
-  "description": "Deck installation costs depend on size, design complexity, material choice (wood vs. composite), and features like railings or stairs.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-new-deck-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a new deck installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a new deck installation varies based on several factors, including the size and complexity of the design, the type of material chosen (e.g., pressure-treated wood, cedar, composite decking), and site preparation requirements. Features like multi-level designs, built-in seating, railings, and stairs will also add to the overall cost. For example, composite decking typically has a higher upfront material cost than pressure-treated lumber but may offer lower long-term maintenance expenses.",
-        "description": "Deck installation costs depend on size, design complexity, material choice (wood vs. composite), and features like railings or stairs."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a new deck installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a new deck installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a new deck installation varies based on several factors, including the size and complexity of the design, the type of material chosen (e.g., pressure-treated wood, cedar, composite decking), and site preparation requirements. Features like multi-level designs, built-in seating, railings, and stairs will also add to the overall cost. For example, composite decking typically has a higher upfront material cost than pressure-treated lumber but may offer lower long-term maintenance expenses.",
+        "@type": "Answer",
+        "description": "Deck installation costs depend on size, design complexity, material choice (wood vs. composite), and features like railings or stairs."
+      }
+    }
+  ],
+  "description": "Deck installation costs depend on size, design complexity, material choice (wood vs. composite), and features like railings or stairs."
 }

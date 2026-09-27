@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are typically used for custom built-ins?",
-  "description": "Custom built-ins use materials like solid wood, plywood, MDF, and laminates, with choices affecting durability, appearance, and cost.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-typically-used-for-custom-built-ins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are typically used for custom built-ins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials for custom built-ins include various types of wood (e.g., maple, oak, cherry), plywood, MDF (medium-density fiberboard), and laminates. The choice of material often impacts durability, appearance, and cost. For instance, solid wood offers a premium look and feel but is generally more expensive than MDF with a veneer, which can still achieve a refined finish at a lower price point.",
-        "description": "Custom built-ins use materials like solid wood, plywood, MDF, and laminates, with choices affecting durability, appearance, and cost."
-      }
-    }
-  ],
+  "name": "What materials are typically used for custom built-ins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are typically used for custom built-ins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials for custom built-ins include various types of wood (e.g., maple, oak, cherry), plywood, MDF (medium-density fiberboard), and laminates. The choice of material often impacts durability, appearance, and cost. For instance, solid wood offers a premium look and feel but is generally more expensive than MDF with a veneer, which can still achieve a refined finish at a lower price point.",
+        "@type": "Answer",
+        "description": "Custom built-ins use materials like solid wood, plywood, MDF, and laminates, with choices affecting durability, appearance, and cost."
+      }
+    }
+  ],
+  "description": "Custom built-ins use materials like solid wood, plywood, MDF, and laminates, with choices affecting durability, appearance, and cost."
 }

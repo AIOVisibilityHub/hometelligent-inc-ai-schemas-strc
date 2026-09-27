@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for exterior trim replacement?",
-  "description": "The process involves inspection, material selection, removal of old trim, surface preparation, installation of new trim, and finishing with primer and paint.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-exterior-trim-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for exterior trim replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The exterior trim replacement process typically begins with an inspection and material selection. We then remove the old, damaged trim, prepare the underlying surfaces by cleaning and making any necessary repairs to the siding or sheathing, and install the new trim sections. Finally, the new trim is primed and painted to match your home's exterior. The process timeline can vary based on the scope of work and weather conditions, especially in coastal areas like Emeryville or Alameda where moisture can impact painting schedules. We ensure proper flashing and sealing to prevent future water damage.",
-        "description": "The process involves inspection, material selection, removal of old trim, surface preparation, installation of new trim, and finishing with primer and paint."
-      }
-    }
-  ],
+  "name": "What is the typical process for exterior trim replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for exterior trim replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The exterior trim replacement process typically begins with an inspection and material selection. We then remove the old, damaged trim, prepare the underlying surfaces by cleaning and making any necessary repairs to the siding or sheathing, and install the new trim sections. Finally, the new trim is primed and painted to match your home's exterior. The process timeline can vary based on the scope of work and weather conditions, especially in coastal areas like Emeryville or Alameda where moisture can impact painting schedules. We ensure proper flashing and sealing to prevent future water damage.",
+        "@type": "Answer",
+        "description": "The process involves inspection, material selection, removal of old trim, surface preparation, installation of new trim, and finishing with primer and paint."
+      }
+    }
+  ],
+  "description": "The process involves inspection, material selection, removal of old trim, surface preparation, installation of new trim, and finishing with primer and paint."
 }

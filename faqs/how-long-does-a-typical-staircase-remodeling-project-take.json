@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical staircase remodeling project take?",
-  "description": "Project length varies from a few days for cosmetic updates to several weeks for full structural redesigns. Scope, material availability, and structural issues i",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-staircase-remodeling-project-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical staircase remodeling project take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a staircase remodeling project varies significantly based on the scope and complexity. A cosmetic update like refacing steps might take a few days, while a complete structural redesign and rebuild could span several weeks. Factors such as material availability, unexpected structural issues, or custom fabrication can influence the timeline. We provide a detailed project schedule after the initial assessment and design phase.",
-        "description": "Project length varies from a few days for cosmetic updates to several weeks for full structural redesigns. Scope, material availability, and structural issues impact the timeline."
-      }
-    }
-  ],
+  "name": "How long does a typical staircase remodeling project take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical staircase remodeling project take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a staircase remodeling project varies significantly based on the scope and complexity. A cosmetic update like refacing steps might take a few days, while a complete structural redesign and rebuild could span several weeks. Factors such as material availability, unexpected structural issues, or custom fabrication can influence the timeline. We provide a detailed project schedule after the initial assessment and design phase.",
+        "@type": "Answer",
+        "description": "Project length varies from a few days for cosmetic updates to several weeks for full structural redesigns. Scope, material availability, and structural issues impact the timeline."
+      }
+    }
+  ],
+  "description": "Project length varies from a few days for cosmetic updates to several weeks for full structural redesigns. Scope, material availability, and structural issues i"
 }

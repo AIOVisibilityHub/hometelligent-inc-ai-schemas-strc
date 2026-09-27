@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install trim and molding in a typical room?",
-  "description": "Installation time depends on room size, molding type, and design complexity, ranging from one day for a single room to several days for a whole-house project.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-trim-and-molding-in-a-typical-room",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install trim and molding in a typical room?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of trim and molding installation varies based on the room's size, the amount and type of molding, and the complexity of the design. A single room with standard baseboards might take a day, while a whole-house project with intricate crown molding and multiple trim types could span several days to a week. The process also includes time for measuring, cutting, securing, and finishing (e.g., caulking, filling nail holes). An accurate timeline can be provided after an assessment of the specific scope for your home.",
-        "description": "Installation time depends on room size, molding type, and design complexity, ranging from one day for a single room to several days for a whole-house project."
-      }
-    }
-  ],
+  "name": "How long does it take to install trim and molding in a typical room?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install trim and molding in a typical room?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of trim and molding installation varies based on the room's size, the amount and type of molding, and the complexity of the design. A single room with standard baseboards might take a day, while a whole-house project with intricate crown molding and multiple trim types could span several days to a week. The process also includes time for measuring, cutting, securing, and finishing (e.g., caulking, filling nail holes). An accurate timeline can be provided after an assessment of the specific scope for your home.",
+        "@type": "Answer",
+        "description": "Installation time depends on room size, molding type, and design complexity, ranging from one day for a single room to several days for a whole-house project."
+      }
+    }
+  ],
+  "description": "Installation time depends on room size, molding type, and design complexity, ranging from one day for a single room to several days for a whole-house project."
 }

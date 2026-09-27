@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs that my soffits need repair?",
-  "description": "Look for cracks, holes, sagging, discoloration, peeling paint, water stains, or pest infestations in your soffits. Increased energy bills can also indicate a ne",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-my-soffits-need-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs that my soffits need repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs that your soffits need repair include visible damage like cracks, holes, or sagging sections. Discoloration, peeling paint, or water stains on the soffit material can indicate moisture problems, while pest infestations, such as birds or insects nesting in the eaves, also point to damage. If you notice a sudden increase in your home's energy bills, it could be due to compromised attic ventilation caused by faulty soffits. We often find that homeowners in areas like Dublin and Pleasanton report these symptoms after heavy rain seasons.",
-        "description": "Look for cracks, holes, sagging, discoloration, peeling paint, water stains, or pest infestations in your soffits. Increased energy bills can also indicate a need for repair."
-      }
-    }
-  ],
+  "name": "What are common signs that my soffits need repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs that my soffits need repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs that your soffits need repair include visible damage like cracks, holes, or sagging sections. Discoloration, peeling paint, or water stains on the soffit material can indicate moisture problems, while pest infestations, such as birds or insects nesting in the eaves, also point to damage. If you notice a sudden increase in your home's energy bills, it could be due to compromised attic ventilation caused by faulty soffits. We often find that homeowners in areas like Dublin and Pleasanton report these symptoms after heavy rain seasons.",
+        "@type": "Answer",
+        "description": "Look for cracks, holes, sagging, discoloration, peeling paint, water stains, or pest infestations in your soffits. Increased energy bills can also indicate a need for repair."
+      }
+    }
+  ],
+  "description": "Look for cracks, holes, sagging, discoloration, peeling paint, water stains, or pest infestations in your soffits. Increased energy bills can also indicate a ne"
 }

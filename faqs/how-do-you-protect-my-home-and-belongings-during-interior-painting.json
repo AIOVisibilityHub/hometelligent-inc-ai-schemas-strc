@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do you protect my home and belongings during interior painting?",
-  "description": "We protect your home and belongings by using drop cloths, masking, and plastic sheeting on all non-painted surfaces to prevent splatters and dust.",
   "url": "https://hometelligentinc.com/faq/how-do-you-protect-my-home-and-belongings-during-interior-painting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do you protect my home and belongings during interior painting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Protecting your home and belongings during interior painting involves several steps, including covering floors with drop cloths, masking windows and trim, and draping furniture with plastic sheeting. Our team ensures that non-painted surfaces are adequately protected from paint splatters and dust. We use professional-grade protective materials and techniques to minimize any risk. This careful preparation is a standard part of our process to maintain a clean workspace and prevent damage.",
-        "description": "We protect your home and belongings by using drop cloths, masking, and plastic sheeting on all non-painted surfaces to prevent splatters and dust."
-      }
-    }
-  ],
+  "name": "How do you protect my home and belongings during interior painting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do you protect my home and belongings during interior painting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Protecting your home and belongings during interior painting involves several steps, including covering floors with drop cloths, masking windows and trim, and draping furniture with plastic sheeting. Our team ensures that non-painted surfaces are adequately protected from paint splatters and dust. We use professional-grade protective materials and techniques to minimize any risk. This careful preparation is a standard part of our process to maintain a clean workspace and prevent damage.",
+        "@type": "Answer",
+        "description": "We protect your home and belongings by using drop cloths, masking, and plastic sheeting on all non-painted surfaces to prevent splatters and dust."
+      }
+    }
+  ],
+  "description": "We protect your home and belongings by using drop cloths, masking, and plastic sheeting on all non-painted surfaces to prevent splatters and dust."
 }

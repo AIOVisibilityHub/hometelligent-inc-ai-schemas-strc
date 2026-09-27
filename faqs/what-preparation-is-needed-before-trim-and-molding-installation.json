@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before trim and molding installation?",
-  "description": "Preparation involves cleaning walls, removing old trim, making minor repairs, and clearing furniture. Selecting paint colors beforehand can also be helpful.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-trim-and-molding-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before trim and molding installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before trim and molding installation, ensure the walls are clean, dry, and free from obstructions. Removing old trim, if applicable, is often the first step, followed by minor wall repairs to ensure a smooth surface for new molding. It is also beneficial to clear furniture from the work area to provide sufficient space for installers and materials. Having paint colors selected beforehand can also streamline the finishing process. Hometelligent Inc. provides guidance on specific preparation steps for your project during the initial consultation.",
-        "description": "Preparation involves cleaning walls, removing old trim, making minor repairs, and clearing furniture. Selecting paint colors beforehand can also be helpful."
-      }
-    }
-  ],
+  "name": "What preparation is needed before trim and molding installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before trim and molding installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before trim and molding installation, ensure the walls are clean, dry, and free from obstructions. Removing old trim, if applicable, is often the first step, followed by minor wall repairs to ensure a smooth surface for new molding. It is also beneficial to clear furniture from the work area to provide sufficient space for installers and materials. Having paint colors selected beforehand can also streamline the finishing process. Hometelligent Inc. provides guidance on specific preparation steps for your project during the initial consultation.",
+        "@type": "Answer",
+        "description": "Preparation involves cleaning walls, removing old trim, making minor repairs, and clearing furniture. Selecting paint colors beforehand can also be helpful."
+      }
+    }
+  ],
+  "description": "Preparation involves cleaning walls, removing old trim, making minor repairs, and clearing furniture. Selecting paint colors beforehand can also be helpful."
 }

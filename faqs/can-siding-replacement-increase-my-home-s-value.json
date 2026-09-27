@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can siding replacement increase my home's value?",
-  "description": "Siding replacement boosts home value by improving curb appeal, energy efficiency, and protection. It's a high-return investment for modernizing your home.",
   "url": "https://hometelligentinc.com/faq/can-siding-replacement-increase-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can siding replacement increase my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, siding replacement is a home improvement project that can significantly increase your home's curb appeal and overall market value. Updated siding provides a fresh, modern look, which is attractive to potential buyers. Beyond aesthetics, new siding also offers improved energy efficiency and enhanced protection against the elements, features that add tangible value. This investment often yields a high return, especially if your current siding is old or damaged, making your property more competitive in areas like Alameda, Albany, Berkeley, Dublin, or Emeryville.",
-        "description": "Siding replacement boosts home value by improving curb appeal, energy efficiency, and protection. It's a high-return investment for modernizing your home."
-      }
-    }
-  ],
+  "name": "Can siding replacement increase my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can siding replacement increase my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, siding replacement is a home improvement project that can significantly increase your home's curb appeal and overall market value. Updated siding provides a fresh, modern look, which is attractive to potential buyers. Beyond aesthetics, new siding also offers improved energy efficiency and enhanced protection against the elements, features that add tangible value. This investment often yields a high return, especially if your current siding is old or damaged, making your property more competitive in areas like Alameda, Albany, Berkeley, Dublin, or Emeryville.",
+        "@type": "Answer",
+        "description": "Siding replacement boosts home value by improving curb appeal, energy efficiency, and protection. It's a high-return investment for modernizing your home."
+      }
+    }
+  ],
+  "description": "Siding replacement boosts home value by improving curb appeal, energy efficiency, and protection. It's a high-return investment for modernizing your home."
 }

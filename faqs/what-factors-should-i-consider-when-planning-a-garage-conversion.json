@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when planning a garage conversion?",
-  "description": "Key factors for planning a garage conversion include intended use, budget, local zoning, and parking requirements.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-planning-a-garage-conversion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when planning a garage conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When planning a garage conversion, consider several key factors to ensure a successful outcome. These include the intended use of the space, your budget, local zoning regulations, and whether the conversion will impact parking requirements. For example, if your city, like Berkeley, has specific parking ordinances, you may need to demonstrate alternative parking solutions. A practical tradeoff is balancing desired amenities with budget constraints; a lavish bathroom addition will add significant cost but also potential value and functionality.",
-        "description": "Key factors for planning a garage conversion include intended use, budget, local zoning, and parking requirements."
-      }
-    }
-  ],
+  "name": "What factors should I consider when planning a garage conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when planning a garage conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When planning a garage conversion, consider several key factors to ensure a successful outcome. These include the intended use of the space, your budget, local zoning regulations, and whether the conversion will impact parking requirements. For example, if your city, like Berkeley, has specific parking ordinances, you may need to demonstrate alternative parking solutions. A practical tradeoff is balancing desired amenities with budget constraints; a lavish bathroom addition will add significant cost but also potential value and functionality.",
+        "@type": "Answer",
+        "description": "Key factors for planning a garage conversion include intended use, budget, local zoning, and parking requirements."
+      }
+    }
+  ],
+  "description": "Key factors for planning a garage conversion include intended use, budget, local zoning, and parking requirements."
 }

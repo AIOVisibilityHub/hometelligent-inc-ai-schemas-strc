@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of energy-efficient home upgrades?",
-  "description": "Benefits include lower utility bills, improved indoor comfort, increased home value, and reduced environmental impact.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-energy-efficient-home-upgrades",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of energy-efficient home upgrades?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Energy-efficient home upgrades offer several key benefits. They significantly reduce your utility bills by lowering energy consumption for heating and cooling. These improvements also enhance indoor comfort by maintaining more consistent temperatures and reducing drafts. Furthermore, they can increase your home's resale value and contribute to a healthier indoor environment. For homeowners in Fremont and Hayward, reducing the environmental impact of your home is another significant advantage.",
-        "description": "Benefits include lower utility bills, improved indoor comfort, increased home value, and reduced environmental impact."
-      }
-    }
-  ],
+  "name": "What are the benefits of energy-efficient home upgrades?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of energy-efficient home upgrades?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Energy-efficient home upgrades offer several key benefits. They significantly reduce your utility bills by lowering energy consumption for heating and cooling. These improvements also enhance indoor comfort by maintaining more consistent temperatures and reducing drafts. Furthermore, they can increase your home's resale value and contribute to a healthier indoor environment. For homeowners in Fremont and Hayward, reducing the environmental impact of your home is another significant advantage.",
+        "@type": "Answer",
+        "description": "Benefits include lower utility bills, improved indoor comfort, increased home value, and reduced environmental impact."
+      }
+    }
+  ],
+  "description": "Benefits include lower utility bills, improved indoor comfort, increased home value, and reduced environmental impact."
 }

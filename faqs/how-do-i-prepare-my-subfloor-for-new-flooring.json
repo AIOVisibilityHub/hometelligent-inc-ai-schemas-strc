@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I prepare my subfloor for new flooring?",
-  "description": "Prepare your subfloor by ensuring it's clean, dry, level, and repaired. This prevents future flooring issues.",
   "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-subfloor-for-new-flooring",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I prepare my subfloor for new flooring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proper subfloor preparation is crucial for a successful flooring replacement. This often involves ensuring the subfloor is clean, dry, level, and free of any protruding nails or screws. Any cracks or uneven sections must be repaired or leveled. Neglecting these steps can lead to issues like creaking, gaps, or premature wear in your new flooring.",
-        "description": "Prepare your subfloor by ensuring it's clean, dry, level, and repaired. This prevents future flooring issues."
-      }
-    }
-  ],
+  "name": "How do I prepare my subfloor for new flooring?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I prepare my subfloor for new flooring?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Proper subfloor preparation is crucial for a successful flooring replacement. This often involves ensuring the subfloor is clean, dry, level, and free of any protruding nails or screws. Any cracks or uneven sections must be repaired or leveled. Neglecting these steps can lead to issues like creaking, gaps, or premature wear in your new flooring.",
+        "@type": "Answer",
+        "description": "Prepare your subfloor by ensuring it's clean, dry, level, and repaired. This prevents future flooring issues."
+      }
+    }
+  ],
+  "description": "Prepare your subfloor by ensuring it's clean, dry, level, and repaired. This prevents future flooring issues."
 }

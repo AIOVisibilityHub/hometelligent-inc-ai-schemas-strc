@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between repairing and replacing exterior wood elements?",
-  "description": "Repairing fixes small, localized damage, while replacing involves installing new sections when damage is extensive or structural.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-repairing-and-replacing-exterior-wood-elements",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between repairing and replacing exterior wood elements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Repairing exterior wood elements involves addressing localized damage, such as patching small areas of rot or replacing a few damaged boards. This is cost-effective if the damage is minimal and confined. Replacement, on the other hand, entails removing and installing entirely new sections or structures, like a whole fence line or an entire wall of siding. Replacement is necessary when damage is extensive, widespread, or compromises the structural integrity, making repair impractical or short-lived.",
-        "description": "Repairing fixes small, localized damage, while replacing involves installing new sections when damage is extensive or structural."
-      }
-    }
-  ],
+  "name": "What is the difference between repairing and replacing exterior wood elements?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between repairing and replacing exterior wood elements?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Repairing exterior wood elements involves addressing localized damage, such as patching small areas of rot or replacing a few damaged boards. This is cost-effective if the damage is minimal and confined. Replacement, on the other hand, entails removing and installing entirely new sections or structures, like a whole fence line or an entire wall of siding. Replacement is necessary when damage is extensive, widespread, or compromises the structural integrity, making repair impractical or short-lived.",
+        "@type": "Answer",
+        "description": "Repairing fixes small, localized damage, while replacing involves installing new sections when damage is extensive or structural."
+      }
+    }
+  ],
+  "description": "Repairing fixes small, localized damage, while replacing involves installing new sections when damage is extensive or structural."
 }

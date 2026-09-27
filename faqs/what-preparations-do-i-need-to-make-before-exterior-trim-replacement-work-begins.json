@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations do I need to make before exterior trim replacement work begins?",
-  "description": "Clear the areas around your home, move outdoor items, and inform contractors of any potential obstructions or delicate landscaping to ensure safe and efficient",
   "url": "https://hometelligentinc.com/faq/what-preparations-do-i-need-to-make-before-exterior-trim-replacement-work-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations do I need to make before exterior trim replacement work begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before exterior trim replacement, you should clear the area around your home to provide contractors with safe access, including moving patio furniture, plants, and vehicles. Inform us of any sprinklers, outdoor lighting, or delicate landscaping near the work areas. This preparation helps ensure the safety of our team and prevents damage to your property, allowing for a more efficient workflow. For homes in Oakland Hills or Montclair, this might also involve securing any loose items on sloped terrain.",
-        "description": "Clear the areas around your home, move outdoor items, and inform contractors of any potential obstructions or delicate landscaping to ensure safe and efficient work."
-      }
-    }
-  ],
+  "name": "What preparations do I need to make before exterior trim replacement work begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations do I need to make before exterior trim replacement work begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before exterior trim replacement, you should clear the area around your home to provide contractors with safe access, including moving patio furniture, plants, and vehicles. Inform us of any sprinklers, outdoor lighting, or delicate landscaping near the work areas. This preparation helps ensure the safety of our team and prevents damage to your property, allowing for a more efficient workflow. For homes in Oakland Hills or Montclair, this might also involve securing any loose items on sloped terrain.",
+        "@type": "Answer",
+        "description": "Clear the areas around your home, move outdoor items, and inform contractors of any potential obstructions or delicate landscaping to ensure safe and efficient work."
+      }
+    }
+  ],
+  "description": "Clear the areas around your home, move outdoor items, and inform contractors of any potential obstructions or delicate landscaping to ensure safe and efficient"
 }

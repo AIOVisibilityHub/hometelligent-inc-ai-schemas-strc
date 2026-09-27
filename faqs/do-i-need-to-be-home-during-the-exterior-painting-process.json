@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to be home during the exterior painting process?",
-  "description": "You don't need to be home daily, but presence for consultations and approvals helps. Being available for check-ins can streamline decisions.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-be-home-during-the-exterior-painting-process",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to be home during the exterior painting process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While it is not strictly necessary for you to be home every day during exterior painting, it is beneficial for initial consultations, color approvals, and final walk-throughs. Our coordination service ensures that our team can access the necessary areas while respecting your privacy. A practical tradeoff is that being available for periodic check-ins or questions can streamline decision-making and ensure the project aligns perfectly with your expectations without causing delays.",
-        "description": "You don't need to be home daily, but presence for consultations and approvals helps. Being available for check-ins can streamline decisions."
-      }
-    }
-  ],
+  "name": "Do I need to be home during the exterior painting process?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to be home during the exterior painting process?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While it is not strictly necessary for you to be home every day during exterior painting, it is beneficial for initial consultations, color approvals, and final walk-throughs. Our coordination service ensures that our team can access the necessary areas while respecting your privacy. A practical tradeoff is that being available for periodic check-ins or questions can streamline decision-making and ensure the project aligns perfectly with your expectations without causing delays.",
+        "@type": "Answer",
+        "description": "You don't need to be home daily, but presence for consultations and approvals helps. Being available for check-ins can streamline decisions."
+      }
+    }
+  ],
+  "description": "You don't need to be home daily, but presence for consultations and approvals helps. Being available for check-ins can streamline decisions."
 }

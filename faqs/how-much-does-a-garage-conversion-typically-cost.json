@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does a garage conversion typically cost?",
-  "description": "Garage conversion costs vary widely, typically ranging from $20,000 to over $60,000, depending on size, finishes, and necessary utility work.",
   "url": "https://hometelligentinc.com/faq/how-much-does-a-garage-conversion-typically-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does a garage conversion typically cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a garage conversion varies significantly based on factors like size, desired finishes, structural modifications, and the complexity of plumbing or electrical work. Basic conversions might start from around $20,000, while more extensive projects with bathroom additions or significant structural changes can exceed $60,000. It's crucial to obtain a detailed estimate tailored to your specific project. A practical tradeoff to consider is that while higher-end finishes increase upfront costs, they can also contribute to a greater return on investment and enhanced living quality.",
-        "description": "Garage conversion costs vary widely, typically ranging from $20,000 to over $60,000, depending on size, finishes, and necessary utility work."
-      }
-    }
-  ],
+  "name": "How much does a garage conversion typically cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does a garage conversion typically cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a garage conversion varies significantly based on factors like size, desired finishes, structural modifications, and the complexity of plumbing or electrical work. Basic conversions might start from around $20,000, while more extensive projects with bathroom additions or significant structural changes can exceed $60,000. It's crucial to obtain a detailed estimate tailored to your specific project. A practical tradeoff to consider is that while higher-end finishes increase upfront costs, they can also contribute to a greater return on investment and enhanced living quality.",
+        "@type": "Answer",
+        "description": "Garage conversion costs vary widely, typically ranging from $20,000 to over $60,000, depending on size, finishes, and necessary utility work."
+      }
+    }
+  ],
+  "description": "Garage conversion costs vary widely, typically ranging from $20,000 to over $60,000, depending on size, finishes, and necessary utility work."
 }

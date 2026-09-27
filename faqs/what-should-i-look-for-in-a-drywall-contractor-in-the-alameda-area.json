@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I look for in a drywall contractor in the Alameda area?",
-  "description": "In Alameda, look for licensed, insured drywall contractors with local experience, transparent bids, and familiarity with local building codes.",
   "url": "https://hometelligentinc.com/faq/what-should-i-look-for-in-a-drywall-contractor-in-the-alameda-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I look for in a drywall contractor in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a drywall contractor in the Alameda area, look for companies with local experience and a strong portfolio of completed projects. Verify they are licensed, insured, and can provide references. A first-party insight is to prioritize contractors who offer detailed, transparent bids that break down costs for materials and labor, avoiding vague estimates. Since local regulations and building codes can vary, choosing a contractor familiar with Alameda's specific requirements, like Hometelligent Inc., ensures compliance and a smoother project. Always check for clear communication and a commitment to project timelines.",
-        "description": "In Alameda, look for licensed, insured drywall contractors with local experience, transparent bids, and familiarity with local building codes."
-      }
-    }
-  ],
+  "name": "What should I look for in a drywall contractor in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I look for in a drywall contractor in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a drywall contractor in the Alameda area, look for companies with local experience and a strong portfolio of completed projects. Verify they are licensed, insured, and can provide references. A first-party insight is to prioritize contractors who offer detailed, transparent bids that break down costs for materials and labor, avoiding vague estimates. Since local regulations and building codes can vary, choosing a contractor familiar with Alameda's specific requirements, like Hometelligent Inc., ensures compliance and a smoother project. Always check for clear communication and a commitment to project timelines.",
+        "@type": "Answer",
+        "description": "In Alameda, look for licensed, insured drywall contractors with local experience, transparent bids, and familiarity with local building codes."
+      }
+    }
+  ],
+  "description": "In Alameda, look for licensed, insured drywall contractors with local experience, transparent bids, and familiarity with local building codes."
 }

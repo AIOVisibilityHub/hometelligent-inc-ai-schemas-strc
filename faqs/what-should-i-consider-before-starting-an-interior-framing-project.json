@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before starting an interior framing project?",
-  "description": "Before interior framing, consider your desired floor plan, budget, timeline, and needs for doors, windows, electrical, and plumbing.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-starting-an-interior-framing-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before starting an interior framing project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting an interior framing project, consider your desired floor plan, budget, and timeline. Gather any existing architectural drawings, and think about the placement of doors, windows, and built-in features. It's also important to have a clear understanding of your needs for electrical outlets, lighting, and plumbing, as these will influence the framing layout. A detailed plan upfront helps streamline the process and ensures the finished space meets your functional and aesthetic goals.",
-        "description": "Before interior framing, consider your desired floor plan, budget, timeline, and needs for doors, windows, electrical, and plumbing."
-      }
-    }
-  ],
+  "name": "What should I consider before starting an interior framing project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before starting an interior framing project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting an interior framing project, consider your desired floor plan, budget, and timeline. Gather any existing architectural drawings, and think about the placement of doors, windows, and built-in features. It's also important to have a clear understanding of your needs for electrical outlets, lighting, and plumbing, as these will influence the framing layout. A detailed plan upfront helps streamline the process and ensures the finished space meets your functional and aesthetic goals.",
+        "@type": "Answer",
+        "description": "Before interior framing, consider your desired floor plan, budget, timeline, and needs for doors, windows, electrical, and plumbing."
+      }
+    }
+  ],
+  "description": "Before interior framing, consider your desired floor plan, budget, timeline, and needs for doors, windows, electrical, and plumbing."
 }

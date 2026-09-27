@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does replacing exterior trim improve home energy efficiency?",
-  "description": "Replacing damaged trim and sealing gaps can indirectly improve home energy efficiency by reducing air leaks and creating a tighter building envelope.",
   "url": "https://hometelligentinc.com/faq/does-replacing-exterior-trim-improve-home-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does replacing exterior trim improve home energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While exterior trim's primary role is aesthetic and protective, replacing damaged or deteriorated trim can indirectly improve home energy efficiency. Damaged trim can create gaps or openings that allow air leaks, leading to heat loss in winter and heat gain in summer. Replacing trim and properly sealing these areas helps create a tighter building envelope, reducing drafts and potentially lowering energy costs. This is particularly relevant in areas with varied climates like Dublin or Pleasanton, where maintaining a consistent indoor temperature is crucial.",
-        "description": "Replacing damaged trim and sealing gaps can indirectly improve home energy efficiency by reducing air leaks and creating a tighter building envelope."
-      }
-    }
-  ],
+  "name": "Does replacing exterior trim improve home energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does replacing exterior trim improve home energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While exterior trim's primary role is aesthetic and protective, replacing damaged or deteriorated trim can indirectly improve home energy efficiency. Damaged trim can create gaps or openings that allow air leaks, leading to heat loss in winter and heat gain in summer. Replacing trim and properly sealing these areas helps create a tighter building envelope, reducing drafts and potentially lowering energy costs. This is particularly relevant in areas with varied climates like Dublin or Pleasanton, where maintaining a consistent indoor temperature is crucial.",
+        "@type": "Answer",
+        "description": "Replacing damaged trim and sealing gaps can indirectly improve home energy efficiency by reducing air leaks and creating a tighter building envelope."
+      }
+    }
+  ],
+  "description": "Replacing damaged trim and sealing gaps can indirectly improve home energy efficiency by reducing air leaks and creating a tighter building envelope."
 }

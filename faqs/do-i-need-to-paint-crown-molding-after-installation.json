@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to paint crown molding after installation?",
-  "description": "Yes, most crown molding needs painting after installation to cover fasteners and caulk, matching your decor for a finished look.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-paint-crown-molding-after-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to paint crown molding after installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most crown molding materials, especially MDF or prime-coated wood, are designed to be painted after installation to match or complement your existing decor. Painting helps seal the molding, cover nail holes and caulk lines, and provide a finished, integrated look. Even pre-primed molding will need a final coat. This preparation step ensures a consistent aesthetic. During our process, we can discuss color choices and paint finishes suitable for your specific project in areas like Berkeley or Piedmont.",
-        "description": "Yes, most crown molding needs painting after installation to cover fasteners and caulk, matching your decor for a finished look."
-      }
-    }
-  ],
+  "name": "Do I need to paint crown molding after installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to paint crown molding after installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most crown molding materials, especially MDF or prime-coated wood, are designed to be painted after installation to match or complement your existing decor. Painting helps seal the molding, cover nail holes and caulk lines, and provide a finished, integrated look. Even pre-primed molding will need a final coat. This preparation step ensures a consistent aesthetic. During our process, we can discuss color choices and paint finishes suitable for your specific project in areas like Berkeley or Piedmont.",
+        "@type": "Answer",
+        "description": "Yes, most crown molding needs painting after installation to cover fasteners and caulk, matching your decor for a finished look."
+      }
+    }
+  ],
+  "description": "Yes, most crown molding needs painting after installation to cover fasteners and caulk, matching your decor for a finished look."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common causes of fascia board damage in the East Bay Area?",
-  "description": "Common causes of fascia damage in the East Bay include moisture, UV exposure, temperature fluctuations, and pest infestations.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-causes-of-fascia-board-damage-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common causes of fascia board damage in the East Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In East Bay Area locations like Dublin, Pleasanton, or Livermore, common causes of fascia board damage include prolonged exposure to moisture from rain and humidity, which can lead to rot, especially with inadequate gutter systems or leaks. Additionally, UV radiation from abundant sunshine can degrade paint and wood over time, while temperature fluctuations cause expansion and contraction, leading to cracks. Infestations by termites or other wood-boring insects are also prevalent issues that can compromise fascia integrity. Regular maintenance helps mitigate these local environmental factors.",
-        "description": "Common causes of fascia damage in the East Bay include moisture, UV exposure, temperature fluctuations, and pest infestations."
-      }
-    }
-  ],
+  "name": "What are the common causes of fascia board damage in the East Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common causes of fascia board damage in the East Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "In East Bay Area locations like Dublin, Pleasanton, or Livermore, common causes of fascia board damage include prolonged exposure to moisture from rain and humidity, which can lead to rot, especially with inadequate gutter systems or leaks. Additionally, UV radiation from abundant sunshine can degrade paint and wood over time, while temperature fluctuations cause expansion and contraction, leading to cracks. Infestations by termites or other wood-boring insects are also prevalent issues that can compromise fascia integrity. Regular maintenance helps mitigate these local environmental factors.",
+        "@type": "Answer",
+        "description": "Common causes of fascia damage in the East Bay include moisture, UV exposure, temperature fluctuations, and pest infestations."
+      }
+    }
+  ],
+  "description": "Common causes of fascia damage in the East Bay include moisture, UV exposure, temperature fluctuations, and pest infestations."
 }

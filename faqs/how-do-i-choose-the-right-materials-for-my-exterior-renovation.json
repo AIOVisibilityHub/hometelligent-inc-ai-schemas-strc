@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right materials for my exterior renovation?",
-  "description": "Select renovation materials by balancing durability, aesthetics, maintenance, and budget. Consider your local climate and architectural style for optimal choice",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-materials-for-my-exterior-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right materials for my exterior renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right materials for your exterior renovation involves balancing durability, aesthetics, maintenance requirements, and budget. For instance, while fiber cement siding offers excellent durability and low maintenance, natural wood siding provides a classic look but requires more upkeep. Consider your local climate and architectural style to ensure the materials complement your home and perform well over time. We can provide samples and discuss the pros and cons of various options during your consultation.",
-        "description": "Select renovation materials by balancing durability, aesthetics, maintenance, and budget. Consider your local climate and architectural style for optimal choice; we provide samples and guidance."
-      }
-    }
-  ],
+  "name": "How do I choose the right materials for my exterior renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right materials for my exterior renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right materials for your exterior renovation involves balancing durability, aesthetics, maintenance requirements, and budget. For instance, while fiber cement siding offers excellent durability and low maintenance, natural wood siding provides a classic look but requires more upkeep. Consider your local climate and architectural style to ensure the materials complement your home and perform well over time. We can provide samples and discuss the pros and cons of various options during your consultation.",
+        "@type": "Answer",
+        "description": "Select renovation materials by balancing durability, aesthetics, maintenance, and budget. Consider your local climate and architectural style for optimal choice; we provide samples and guidance."
+      }
+    }
+  ],
+  "description": "Select renovation materials by balancing durability, aesthetics, maintenance, and budget. Consider your local climate and architectural style for optimal choice"
 }

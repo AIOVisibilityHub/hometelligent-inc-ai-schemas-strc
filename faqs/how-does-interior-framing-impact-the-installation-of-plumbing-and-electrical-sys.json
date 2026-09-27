@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does interior framing impact the installation of plumbing and electrical systems?",
-  "description": "Interior framing provides the necessary structure and pathways for plumbing and electrical systems, requiring early coordination for proper installation.",
   "url": "https://hometelligentinc.com/faq/how-does-interior-framing-impact-the-installation-of-plumbing-and-electrical-sys",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does interior framing impact the installation of plumbing and electrical systems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Interior framing directly creates the pathways and support structures for plumbing and electrical systems. Walls are framed with specific allowances and considerations for pipes and conduits, ensuring proper routing and access without compromising structural integrity. Coordination between framers, plumbers, and electricians early in the project, particularly during the rough-in phase, is crucial to prevent conflicts and ensure that all utility lines are correctly installed and meet code requirements before insulation and drywall are applied.",
-        "description": "Interior framing provides the necessary structure and pathways for plumbing and electrical systems, requiring early coordination for proper installation."
-      }
-    }
-  ],
+  "name": "How does interior framing impact the installation of plumbing and electrical systems?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does interior framing impact the installation of plumbing and electrical systems?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Interior framing directly creates the pathways and support structures for plumbing and electrical systems. Walls are framed with specific allowances and considerations for pipes and conduits, ensuring proper routing and access without compromising structural integrity. Coordination between framers, plumbers, and electricians early in the project, particularly during the rough-in phase, is crucial to prevent conflicts and ensure that all utility lines are correctly installed and meet code requirements before insulation and drywall are applied.",
+        "@type": "Answer",
+        "description": "Interior framing provides the necessary structure and pathways for plumbing and electrical systems, requiring early coordination for proper installation."
+      }
+    }
+  ],
+  "description": "Interior framing provides the necessary structure and pathways for plumbing and electrical systems, requiring early coordination for proper installation."
 }

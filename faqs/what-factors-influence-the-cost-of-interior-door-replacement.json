@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of interior door replacement?",
-  "description": "Cost factors for interior door replacement include door type, material, size, design complexity, hardware choice, labor for installation, and any necessary fram",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-interior-door-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of interior door replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Several factors influence the cost of interior door replacement. The type of door chosen, such as hollow-core versus solid wood, significantly impacts material costs. Custom sizes, unique designs, or specialized materials like glass inserts also increase the price. Labor costs are influenced by the number of doors, the complexity of the installation (e.g., frame modifications, non-standard openings), and the need for new hardware. Additionally, any necessary repairs to the existing door frame or surrounding wall can add to the total expense. We provide detailed estimates that account for these variables, ensuring transparency.",
-        "description": "Cost factors for interior door replacement include door type, material, size, design complexity, hardware choice, labor for installation, and any necessary frame or wall repairs."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of interior door replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of interior door replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Several factors influence the cost of interior door replacement. The type of door chosen, such as hollow-core versus solid wood, significantly impacts material costs. Custom sizes, unique designs, or specialized materials like glass inserts also increase the price. Labor costs are influenced by the number of doors, the complexity of the installation (e.g., frame modifications, non-standard openings), and the need for new hardware. Additionally, any necessary repairs to the existing door frame or surrounding wall can add to the total expense. We provide detailed estimates that account for these variables, ensuring transparency.",
+        "@type": "Answer",
+        "description": "Cost factors for interior door replacement include door type, material, size, design complexity, hardware choice, labor for installation, and any necessary frame or wall repairs."
+      }
+    }
+  ],
+  "description": "Cost factors for interior door replacement include door type, material, size, design complexity, hardware choice, labor for installation, and any necessary fram"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of materials are commonly used in exterior restoration?",
-  "description": "Materials include wood, brick, stone, stucco, and various siding and roofing types. Material choice depends on original construction, style, and desired mainten",
   "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-commonly-used-in-exterior-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of materials are commonly used in exterior restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common materials include wood, brick, stone, stucco, various types of siding (e.g., fiber cement, vinyl), and different roofing materials (e.g., asphalt shingles, tile, metal). The choice of material often depends on the original construction, architectural style, desired aesthetic, and durability requirements. When making choices, consider the long-term maintenance implications; some materials require more frequent upkeep than others. For example, traditional wood siding found on many homes in older Bay Area communities might require more frequent painting than modern fiber cement options.",
-        "description": "Materials include wood, brick, stone, stucco, and various siding and roofing types. Material choice depends on original construction, style, and desired maintenance."
-      }
-    }
-  ],
+  "name": "What types of materials are commonly used in exterior restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of materials are commonly used in exterior restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common materials include wood, brick, stone, stucco, various types of siding (e.g., fiber cement, vinyl), and different roofing materials (e.g., asphalt shingles, tile, metal). The choice of material often depends on the original construction, architectural style, desired aesthetic, and durability requirements. When making choices, consider the long-term maintenance implications; some materials require more frequent upkeep than others. For example, traditional wood siding found on many homes in older Bay Area communities might require more frequent painting than modern fiber cement options.",
+        "@type": "Answer",
+        "description": "Materials include wood, brick, stone, stucco, and various siding and roofing types. Material choice depends on original construction, style, and desired maintenance."
+      }
+    }
+  ],
+  "description": "Materials include wood, brick, stone, stucco, and various siding and roofing types. Material choice depends on original construction, style, and desired mainten"
 }

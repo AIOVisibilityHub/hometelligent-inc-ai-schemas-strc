@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of exterior trim replacement?",
-  "description": "Cost factors include material type, linear footage, trim complexity, accessibility, and the need for any underlying structural repairs.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-exterior-trim-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of exterior trim replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of exterior trim replacement is influenced by several factors, including the type of material chosen, the total linear footage of trim being replaced, the complexity of the trim profiles, and the accessibility of the work areas. Extensive damage requiring additional repairs to the underlying structure will also increase costs. For example, replacing intricate Victorian-style trim in an area like Alameda might be more labor-intensive than standard trim on a ranch-style home. We provide detailed estimates after a thorough assessment of your specific project needs.",
-        "description": "Cost factors include material type, linear footage, trim complexity, accessibility, and the need for any underlying structural repairs."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of exterior trim replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of exterior trim replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of exterior trim replacement is influenced by several factors, including the type of material chosen, the total linear footage of trim being replaced, the complexity of the trim profiles, and the accessibility of the work areas. Extensive damage requiring additional repairs to the underlying structure will also increase costs. For example, replacing intricate Victorian-style trim in an area like Alameda might be more labor-intensive than standard trim on a ranch-style home. We provide detailed estimates after a thorough assessment of your specific project needs.",
+        "@type": "Answer",
+        "description": "Cost factors include material type, linear footage, trim complexity, accessibility, and the need for any underlying structural repairs."
+      }
+    }
+  ],
+  "description": "Cost factors include material type, linear footage, trim complexity, accessibility, and the need for any underlying structural repairs."
 }

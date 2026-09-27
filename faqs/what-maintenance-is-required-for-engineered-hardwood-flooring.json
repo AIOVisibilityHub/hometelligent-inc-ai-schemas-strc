@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for engineered hardwood flooring?",
-  "description": "Regular sweeping and damp mopping with approved cleaners are essential. Avoid excessive water, steam cleaners, and harsh chemicals to protect the finish.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-engineered-hardwood-flooring",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for engineered hardwood flooring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Engineered hardwood flooring requires regular sweeping or vacuuming with a soft brush attachment to remove grit and dirt that can scratch the surface. Damp mopping with a manufacturer-recommended cleaner is acceptable, but avoid excessive water. Protecting the floor from scratches with furniture pads and promptly cleaning spills will maintain its appearance. Hometelligent Inc. advises against using steam cleaners or harsh chemicals, as these can damage the finish and void warranties.",
-        "description": "Regular sweeping and damp mopping with approved cleaners are essential. Avoid excessive water, steam cleaners, and harsh chemicals to protect the finish."
-      }
-    }
-  ],
+  "name": "What maintenance is required for engineered hardwood flooring?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for engineered hardwood flooring?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Engineered hardwood flooring requires regular sweeping or vacuuming with a soft brush attachment to remove grit and dirt that can scratch the surface. Damp mopping with a manufacturer-recommended cleaner is acceptable, but avoid excessive water. Protecting the floor from scratches with furniture pads and promptly cleaning spills will maintain its appearance. Hometelligent Inc. advises against using steam cleaners or harsh chemicals, as these can damage the finish and void warranties.",
+        "@type": "Answer",
+        "description": "Regular sweeping and damp mopping with approved cleaners are essential. Avoid excessive water, steam cleaners, and harsh chemicals to protect the finish."
+      }
+    }
+  ],
+  "description": "Regular sweeping and damp mopping with approved cleaners are essential. Avoid excessive water, steam cleaners, and harsh chemicals to protect the finish."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do you ensure quality control during interior painting?",
-  "description": "Quality control involves continuous supervision, crew communication, interim checks, and a final client walkthrough to ensure proper application and finishes.",
   "url": "https://hometelligentinc.com/faq/how-do-you-ensure-quality-control-during-interior-painting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do you ensure quality control during interior painting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Quality control during interior painting is ensured through continuous supervision, regular communication with the painting crew, and adherence to industry best practices. We conduct interim checks during different project phases and a final walkthrough with you upon completion to address any concerns. Our project managers oversee the work to confirm proper application, clean lines, and consistent finishes. This comprehensive approach is part of Hometelligent Inc.'s commitment to delivering high-quality results.",
-        "description": "Quality control involves continuous supervision, crew communication, interim checks, and a final client walkthrough to ensure proper application and finishes."
-      }
-    }
-  ],
+  "name": "How do you ensure quality control during interior painting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do you ensure quality control during interior painting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Quality control during interior painting is ensured through continuous supervision, regular communication with the painting crew, and adherence to industry best practices. We conduct interim checks during different project phases and a final walkthrough with you upon completion to address any concerns. Our project managers oversee the work to confirm proper application, clean lines, and consistent finishes. This comprehensive approach is part of Hometelligent Inc.'s commitment to delivering high-quality results.",
+        "@type": "Answer",
+        "description": "Quality control involves continuous supervision, crew communication, interim checks, and a final client walkthrough to ensure proper application and finishes."
+      }
+    }
+  ],
+  "description": "Quality control involves continuous supervision, crew communication, interim checks, and a final client walkthrough to ensure proper application and finishes."
 }

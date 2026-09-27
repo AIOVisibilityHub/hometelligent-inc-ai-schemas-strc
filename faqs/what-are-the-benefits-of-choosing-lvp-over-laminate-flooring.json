@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of choosing LVP over laminate flooring?",
-  "description": "LVP typically offers better water resistance, resilience, and realistic texture than laminate, especially for wet areas.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-choosing-lvp-over-laminate-flooring",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of choosing LVP over laminate flooring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "LVP often offers superior water resistance compared to traditional laminate, making it a better choice for moisture-prone areas like bathrooms, kitchens, and basements. It also tends to be more resilient underfoot, quieter, and has a more realistic wood or stone texture due to its manufacturing process. While laminate might be less expensive upfront, the enhanced durability and water resistance of LVP represent a practical tradeoff for long-term performance and peace of mind, especially in high-traffic or spill-prone areas of your home. Hometelligent Inc. can guide you through the best option for your specific needs.",
-        "description": "LVP typically offers better water resistance, resilience, and realistic texture than laminate, especially for wet areas."
-      }
-    }
-  ],
+  "name": "What are the benefits of choosing LVP over laminate flooring?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of choosing LVP over laminate flooring?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "LVP often offers superior water resistance compared to traditional laminate, making it a better choice for moisture-prone areas like bathrooms, kitchens, and basements. It also tends to be more resilient underfoot, quieter, and has a more realistic wood or stone texture due to its manufacturing process. While laminate might be less expensive upfront, the enhanced durability and water resistance of LVP represent a practical tradeoff for long-term performance and peace of mind, especially in high-traffic or spill-prone areas of your home. Hometelligent Inc. can guide you through the best option for your specific needs.",
+        "@type": "Answer",
+        "description": "LVP typically offers better water resistance, resilience, and realistic texture than laminate, especially for wet areas."
+      }
+    }
+  ],
+  "description": "LVP typically offers better water resistance, resilience, and realistic texture than laminate, especially for wet areas."
 }

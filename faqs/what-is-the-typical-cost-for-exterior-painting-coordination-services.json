@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for exterior painting coordination services?",
-  "description": "Cost is part of the overall project bid, influenced by property size, repairs, paint quality, and complexity. We provide detailed proposals.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-exterior-painting-coordination-services",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for exterior painting coordination services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost for exterior painting coordination is usually integrated into the overall project bid. It reflects the resources needed for planning, supervision, and quality control throughout the painting process. Factors influencing cost include the property's size, required surface repairs, paint quality, and architectural complexity. Hometelligent Inc. provides detailed proposals that outline all associated costs upfront, helping customers understand the investment involved.",
-        "description": "Cost is part of the overall project bid, influenced by property size, repairs, paint quality, and complexity. We provide detailed proposals."
-      }
-    }
-  ],
+  "name": "What is the typical cost for exterior painting coordination services?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for exterior painting coordination services?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost for exterior painting coordination is usually integrated into the overall project bid. It reflects the resources needed for planning, supervision, and quality control throughout the painting process. Factors influencing cost include the property's size, required surface repairs, paint quality, and architectural complexity. Hometelligent Inc. provides detailed proposals that outline all associated costs upfront, helping customers understand the investment involved.",
+        "@type": "Answer",
+        "description": "Cost is part of the overall project bid, influenced by property size, repairs, paint quality, and complexity. We provide detailed proposals."
+      }
+    }
+  ],
+  "description": "Cost is part of the overall project bid, influenced by property size, repairs, paint quality, and complexity. We provide detailed proposals."
 }

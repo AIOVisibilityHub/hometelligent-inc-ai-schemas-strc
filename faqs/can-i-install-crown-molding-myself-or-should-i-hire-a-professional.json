@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install crown molding myself, or should I hire a professional?",
-  "description": "DIY installation is challenging due to precise cuts required for a perfect finish. Hiring a professional ensures quality and avoids common errors, balancing cos",
   "url": "https://hometelligentinc.com/faq/can-i-install-crown-molding-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install crown molding myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While DIY installation is possible, crown molding requires precise measurements and cuts, especially for inside and outside corners, which can be challenging to achieve perfectly without experience. Mistakes can lead to gaps, wasted material, and a less polished look. Hiring a professional ensures a high-quality finish and proper installation, avoiding common pitfalls. A practical tradeoff is balancing potential cost savings against the risk of an imperfect result and the time investment required.",
-        "description": "DIY installation is challenging due to precise cuts required for a perfect finish. Hiring a professional ensures quality and avoids common errors, balancing cost against expertise."
-      }
-    }
-  ],
+  "name": "Can I install crown molding myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install crown molding myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While DIY installation is possible, crown molding requires precise measurements and cuts, especially for inside and outside corners, which can be challenging to achieve perfectly without experience. Mistakes can lead to gaps, wasted material, and a less polished look. Hiring a professional ensures a high-quality finish and proper installation, avoiding common pitfalls. A practical tradeoff is balancing potential cost savings against the risk of an imperfect result and the time investment required.",
+        "@type": "Answer",
+        "description": "DIY installation is challenging due to precise cuts required for a perfect finish. Hiring a professional ensures quality and avoids common errors, balancing cost against expertise."
+      }
+    }
+  ],
+  "description": "DIY installation is challenging due to precise cuts required for a perfect finish. Hiring a professional ensures quality and avoids common errors, balancing cos"
 }

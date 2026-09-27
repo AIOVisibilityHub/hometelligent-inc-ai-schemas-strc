@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need architectural plans or permits for interior framing changes?",
-  "description": "Significant interior framing changes, especially to load-bearing walls, typically require architectural plans and permits to ensure compliance with local buildi",
   "url": "https://hometelligentinc.com/faq/do-i-need-architectural-plans-or-permits-for-interior-framing-changes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need architectural plans or permits for interior framing changes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, for most significant interior framing changes, especially those affecting load-bearing walls or altering the footprint of a room, you will need architectural plans and permits. This is particularly true in Bay Area cities like Oakland or San Leandro, where regulations are stringent to ensure safety and structural integrity. Obtaining proper permits is a critical step to avoid future compliance issues and ensure your renovation meets local building codes.",
-        "description": "Significant interior framing changes, especially to load-bearing walls, typically require architectural plans and permits to ensure compliance with local building codes."
-      }
-    }
-  ],
+  "name": "Do I need architectural plans or permits for interior framing changes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need architectural plans or permits for interior framing changes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, for most significant interior framing changes, especially those affecting load-bearing walls or altering the footprint of a room, you will need architectural plans and permits. This is particularly true in Bay Area cities like Oakland or San Leandro, where regulations are stringent to ensure safety and structural integrity. Obtaining proper permits is a critical step to avoid future compliance issues and ensure your renovation meets local building codes.",
+        "@type": "Answer",
+        "description": "Significant interior framing changes, especially to load-bearing walls, typically require architectural plans and permits to ensure compliance with local building codes."
+      }
+    }
+  ],
+  "description": "Significant interior framing changes, especially to load-bearing walls, typically require architectural plans and permits to ensure compliance with local buildi"
 }

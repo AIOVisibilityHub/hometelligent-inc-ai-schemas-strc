@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does interior painting coordination typically take?",
-  "description": "Project length varies based on scope (rooms, square footage, surface condition, paint type); a detailed timeline is provided after assessment.",
   "url": "https://hometelligentinc.com/faq/how-long-does-interior-painting-coordination-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does interior painting coordination typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of interior painting coordination depends on the project's scope, including the number of rooms, the square footage, the current condition of surfaces, and the chosen paint type. A small single room might take a few days, while an entire home could span several weeks. During the initial consultation, Hometelligent Inc. assesses these factors to provide a detailed project timeline, allowing you to plan accordingly, especially if other construction work is ongoing.",
-        "description": "Project length varies based on scope (rooms, square footage, surface condition, paint type); a detailed timeline is provided after assessment."
-      }
-    }
-  ],
+  "name": "How long does interior painting coordination typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does interior painting coordination typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of interior painting coordination depends on the project's scope, including the number of rooms, the square footage, the current condition of surfaces, and the chosen paint type. A small single room might take a few days, while an entire home could span several weeks. During the initial consultation, Hometelligent Inc. assesses these factors to provide a detailed project timeline, allowing you to plan accordingly, especially if other construction work is ongoing.",
+        "@type": "Answer",
+        "description": "Project length varies based on scope (rooms, square footage, surface condition, paint type); a detailed timeline is provided after assessment."
+      }
+    }
+  ],
+  "description": "Project length varies based on scope (rooms, square footage, surface condition, paint type); a detailed timeline is provided after assessment."
 }

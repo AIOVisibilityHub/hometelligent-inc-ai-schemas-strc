@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I prioritize insulation or window upgrades for energy efficiency?",
-  "description": "Prioritize based on your home's main energy loss points; insulation and old windows are common culprits. A professional energy audit helps identify the most imp",
   "url": "https://hometelligentinc.com/faq/should-i-prioritize-insulation-or-window-upgrades-for-energy-efficiency",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I prioritize insulation or window upgrades for energy efficiency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The priority between insulation and window upgrades often depends on your home's current condition and your specific energy loss points. Poor insulation can lead to significant heat loss or gain through walls, attics, and floors, while old, single-pane windows are also major culprits. A professional energy audit can precisely identify where your home is losing the most energy, guiding the most impactful investment. Hometelligent Inc. offers such assessments to help clients in Livermore and Newark make informed decisions.",
-        "description": "Prioritize based on your home's main energy loss points; insulation and old windows are common culprits. A professional energy audit helps identify the most impactful upgrade."
-      }
-    }
-  ],
+  "name": "Should I prioritize insulation or window upgrades for energy efficiency?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I prioritize insulation or window upgrades for energy efficiency?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The priority between insulation and window upgrades often depends on your home's current condition and your specific energy loss points. Poor insulation can lead to significant heat loss or gain through walls, attics, and floors, while old, single-pane windows are also major culprits. A professional energy audit can precisely identify where your home is losing the most energy, guiding the most impactful investment. Hometelligent Inc. offers such assessments to help clients in Livermore and Newark make informed decisions.",
+        "@type": "Answer",
+        "description": "Prioritize based on your home's main energy loss points; insulation and old windows are common culprits. A professional energy audit helps identify the most impactful upgrade."
+      }
+    }
+  ],
+  "description": "Prioritize based on your home's main energy loss points; insulation and old windows are common culprits. A professional energy audit helps identify the most imp"
 }

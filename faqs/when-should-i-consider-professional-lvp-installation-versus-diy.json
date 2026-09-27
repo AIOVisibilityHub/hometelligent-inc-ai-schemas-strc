@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider professional LVP installation versus DIY?",
-  "description": "Consider professional LVP installation for complex layouts, large areas, or subfloor issues for optimal, warrantied results.",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-professional-lvp-installation-versus-diy",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider professional LVP installation versus DIY?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While some LVP products are designed for DIY installation, professional installation is recommended for optimal results, especially for complex layouts, large areas, or when significant subfloor preparation is needed. Professionals have the tools and experience to ensure precise cuts, proper acclimation, and a perfectly level subfloor, which are critical for the longevity and warranty of the flooring. The decision factor often comes down to your comfort level with flooring tools, time commitment, and the desire for a flawless, warrantied finish. Hometelligent Inc. ensures expert installation, adhering to manufacturer specifications.",
-        "description": "Consider professional LVP installation for complex layouts, large areas, or subfloor issues for optimal, warrantied results."
-      }
-    }
-  ],
+  "name": "When should I consider professional LVP installation versus DIY?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider professional LVP installation versus DIY?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While some LVP products are designed for DIY installation, professional installation is recommended for optimal results, especially for complex layouts, large areas, or when significant subfloor preparation is needed. Professionals have the tools and experience to ensure precise cuts, proper acclimation, and a perfectly level subfloor, which are critical for the longevity and warranty of the flooring. The decision factor often comes down to your comfort level with flooring tools, time commitment, and the desire for a flawless, warrantied finish. Hometelligent Inc. ensures expert installation, adhering to manufacturer specifications.",
+        "@type": "Answer",
+        "description": "Consider professional LVP installation for complex layouts, large areas, or subfloor issues for optimal, warrantied results."
+      }
+    }
+  ],
+  "description": "Consider professional LVP installation for complex layouts, large areas, or subfloor issues for optimal, warrantied results."
 }

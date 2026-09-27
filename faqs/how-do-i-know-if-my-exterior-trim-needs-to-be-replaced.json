@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my exterior trim needs to be replaced?",
-  "description": "Look for rot, cracks, warping, peeling paint, or insect damage. Widespread issues often necessitate full replacement to prevent further structural problems.",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-exterior-trim-needs-to-be-replaced",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my exterior trim needs to be replaced?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider exterior trim replacement if you notice signs of damage such as rot, cracks, warping, peeling paint, or insect infestation. Small, isolated areas of damage might be repairable, but widespread deterioration often indicates a need for full replacement to prevent further structural issues. Ignoring these signs can lead to water intrusion and damage to your home's framing. We recommend a professional inspection to accurately assess the extent of the damage and determine the most effective course of action for your property in cities like Pleasanton or Livermore.",
-        "description": "Look for rot, cracks, warping, peeling paint, or insect damage. Widespread issues often necessitate full replacement to prevent further structural problems."
-      }
-    }
-  ],
+  "name": "How do I know if my exterior trim needs to be replaced?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my exterior trim needs to be replaced?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider exterior trim replacement if you notice signs of damage such as rot, cracks, warping, peeling paint, or insect infestation. Small, isolated areas of damage might be repairable, but widespread deterioration often indicates a need for full replacement to prevent further structural issues. Ignoring these signs can lead to water intrusion and damage to your home's framing. We recommend a professional inspection to accurately assess the extent of the damage and determine the most effective course of action for your property in cities like Pleasanton or Livermore.",
+        "@type": "Answer",
+        "description": "Look for rot, cracks, warping, peeling paint, or insect damage. Widespread issues often necessitate full replacement to prevent further structural problems."
+      }
+    }
+  ],
+  "description": "Look for rot, cracks, warping, peeling paint, or insect damage. Widespread issues often necessitate full replacement to prevent further structural problems."
 }

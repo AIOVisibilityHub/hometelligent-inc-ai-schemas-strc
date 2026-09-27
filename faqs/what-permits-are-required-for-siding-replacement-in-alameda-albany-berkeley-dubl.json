@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for siding replacement in Alameda, Albany, Berkeley, Dublin, or Emeryville?",
-  "description": "Permits are usually required for siding replacement to meet local building codes. Requirements vary by city. Hometelligent Inc. handles all necessary permit app",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-siding-replacement-in-alameda-albany-berkeley-dubl",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for siding replacement in Alameda, Albany, Berkeley, Dublin, or Emeryville?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building permits are typically required for siding replacement projects to ensure that the work complies with local building codes and safety standards. The specific requirements can vary slightly between cities like Alameda, Albany, Berkeley, Dublin, or Emeryville, including necessary inspections and documentation. Failing to obtain the proper permits can result in fines or delays. Hometelligent Inc. has extensive experience working within these local jurisdictions and handles all necessary permit applications as part of our service, streamlining the process for homeowners.",
-        "description": "Permits are usually required for siding replacement to meet local building codes. Requirements vary by city. Hometelligent Inc. handles all necessary permit applications."
-      }
-    }
-  ],
+  "name": "What permits are required for siding replacement in Alameda, Albany, Berkeley, Dublin, or Emeryville?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for siding replacement in Alameda, Albany, Berkeley, Dublin, or Emeryville?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building permits are typically required for siding replacement projects to ensure that the work complies with local building codes and safety standards. The specific requirements can vary slightly between cities like Alameda, Albany, Berkeley, Dublin, or Emeryville, including necessary inspections and documentation. Failing to obtain the proper permits can result in fines or delays. Hometelligent Inc. has extensive experience working within these local jurisdictions and handles all necessary permit applications as part of our service, streamlining the process for homeowners.",
+        "@type": "Answer",
+        "description": "Permits are usually required for siding replacement to meet local building codes. Requirements vary by city. Hometelligent Inc. handles all necessary permit applications."
+      }
+    }
+  ],
+  "description": "Permits are usually required for siding replacement to meet local building codes. Requirements vary by city. Hometelligent Inc. handles all necessary permit app"
 }

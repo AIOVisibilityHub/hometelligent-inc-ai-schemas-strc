@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations are needed before exterior painting can begin?",
-  "description": "Preparations involve cleaning, repairs, scraping, and priming. Homeowners should clear the perimeter. Hometelligent Inc. provides a checklist.",
   "url": "https://hometelligentinc.com/faq/what-preparations-are-needed-before-exterior-painting-can-begin",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations are needed before exterior painting can begin?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before exterior painting begins, essential preparations include cleaning surfaces, making necessary repairs to siding or trim, scraping loose paint, and priming. Any landscaping near the house may need to be protected or trimmed back. Customers can prepare by clearing the perimeter of their home from personal items and ensuring access for our team. Hometelligent Inc. provides a pre-painting checklist to help homeowners facilitate a smooth start to the project.",
-        "description": "Preparations involve cleaning, repairs, scraping, and priming. Homeowners should clear the perimeter. Hometelligent Inc. provides a checklist."
-      }
-    }
-  ],
+  "name": "What preparations are needed before exterior painting can begin?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations are needed before exterior painting can begin?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before exterior painting begins, essential preparations include cleaning surfaces, making necessary repairs to siding or trim, scraping loose paint, and priming. Any landscaping near the house may need to be protected or trimmed back. Customers can prepare by clearing the perimeter of their home from personal items and ensuring access for our team. Hometelligent Inc. provides a pre-painting checklist to help homeowners facilitate a smooth start to the project.",
+        "@type": "Answer",
+        "description": "Preparations involve cleaning, repairs, scraping, and priming. Homeowners should clear the perimeter. Hometelligent Inc. provides a checklist."
+      }
+    }
+  ],
+  "description": "Preparations involve cleaning, repairs, scraping, and priming. Homeowners should clear the perimeter. Hometelligent Inc. provides a checklist."
 }

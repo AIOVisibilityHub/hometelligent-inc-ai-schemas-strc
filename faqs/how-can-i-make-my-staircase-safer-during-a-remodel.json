@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I make my staircase safer during a remodel?",
-  "description": "Increase safety by ensuring proper tread/riser dimensions, upgrading handrails to code, adding lighting, and using non-slip materials. We prioritize safety stan",
   "url": "https://hometelligentinc.com/faq/how-can-i-make-my-staircase-safer-during-a-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I make my staircase safer during a remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Improving staircase safety during a remodel can involve several considerations. Ensuring proper tread depth and riser height to minimize tripping hazards is crucial. Adding or upgrading handrails to meet current building codes, installing adequate lighting, and using non-slip materials on treads are also effective measures. We prioritize designing staircases that are not only beautiful but also meet safety standards for your household, especially if there are children or elderly individuals.",
-        "description": "Increase safety by ensuring proper tread/riser dimensions, upgrading handrails to code, adding lighting, and using non-slip materials. We prioritize safety standards."
-      }
-    }
-  ],
+  "name": "How can I make my staircase safer during a remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I make my staircase safer during a remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Improving staircase safety during a remodel can involve several considerations. Ensuring proper tread depth and riser height to minimize tripping hazards is crucial. Adding or upgrading handrails to meet current building codes, installing adequate lighting, and using non-slip materials on treads are also effective measures. We prioritize designing staircases that are not only beautiful but also meet safety standards for your household, especially if there are children or elderly individuals.",
+        "@type": "Answer",
+        "description": "Increase safety by ensuring proper tread/riser dimensions, upgrading handrails to code, adding lighting, and using non-slip materials. We prioritize safety standards."
+      }
+    }
+  ],
+  "description": "Increase safety by ensuring proper tread/riser dimensions, upgrading handrails to code, adding lighting, and using non-slip materials. We prioritize safety stan"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install radiant heating under my new tile floor?",
-  "description": "Radiant heating can be installed under tile flooring, providing warmth. Proper installation and testing of the system before tiling is crucial.",
   "url": "https://hometelligentinc.com/faq/can-i-install-radiant-heating-under-my-new-tile-floor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install radiant heating under my new tile floor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, radiant floor heating systems can be successfully installed under tile flooring, providing comfortable warmth, especially in colder months. These systems, which can be electric mats or hydronic tubes, are typically laid directly on the subfloor before the tile is installed. It's crucial that the heating system is properly installed and tested before tiling to ensure it functions correctly and doesn't cause issues down the line. Hometelligent Inc. can integrate radiant heating solutions, making your tiled floors in Hayward more comfortable and energy-efficient.",
-        "description": "Radiant heating can be installed under tile flooring, providing warmth. Proper installation and testing of the system before tiling is crucial."
-      }
-    }
-  ],
+  "name": "Can I install radiant heating under my new tile floor?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install radiant heating under my new tile floor?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, radiant floor heating systems can be successfully installed under tile flooring, providing comfortable warmth, especially in colder months. These systems, which can be electric mats or hydronic tubes, are typically laid directly on the subfloor before the tile is installed. It's crucial that the heating system is properly installed and tested before tiling to ensure it functions correctly and doesn't cause issues down the line. Hometelligent Inc. can integrate radiant heating solutions, making your tiled floors in Hayward more comfortable and energy-efficient.",
+        "@type": "Answer",
+        "description": "Radiant heating can be installed under tile flooring, providing warmth. Proper installation and testing of the system before tiling is crucial."
+      }
+    }
+  ],
+  "description": "Radiant heating can be installed under tile flooring, providing warmth. Proper installation and testing of the system before tiling is crucial."
 }

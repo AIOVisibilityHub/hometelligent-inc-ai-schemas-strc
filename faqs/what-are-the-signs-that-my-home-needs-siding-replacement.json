@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the signs that my home needs siding replacement?",
-  "description": "Signs include warping, cracking, rotting, fading paint, mold, pests, and higher energy bills. Early detection prevents structural damage.",
   "url": "https://hometelligentinc.com/faq/what-are-the-signs-that-my-home-needs-siding-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the signs that my home needs siding replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common indicators that your home's siding needs replacement include warping, cracking, or rotting panels. Fading or peeling paint, recurring mold or mildew growth, and signs of pest infestation can also point to damage. Increased energy bills or drafts inside your home might suggest that your siding is no longer providing adequate insulation. Assessing these signs early can help prevent more extensive damage to your home's structure and foundation. Hometelligent Inc. can perform a comprehensive inspection to identify issues in your Alameda, Albany, Berkeley, Dublin, or Emeryville home.",
-        "description": "Signs include warping, cracking, rotting, fading paint, mold, pests, and higher energy bills. Early detection prevents structural damage."
-      }
-    }
-  ],
+  "name": "What are the signs that my home needs siding replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the signs that my home needs siding replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common indicators that your home's siding needs replacement include warping, cracking, or rotting panels. Fading or peeling paint, recurring mold or mildew growth, and signs of pest infestation can also point to damage. Increased energy bills or drafts inside your home might suggest that your siding is no longer providing adequate insulation. Assessing these signs early can help prevent more extensive damage to your home's structure and foundation. Hometelligent Inc. can perform a comprehensive inspection to identify issues in your Alameda, Albany, Berkeley, Dublin, or Emeryville home.",
+        "@type": "Answer",
+        "description": "Signs include warping, cracking, rotting, fading paint, mold, pests, and higher energy bills. Early detection prevents structural damage."
+      }
+    }
+  ],
+  "description": "Signs include warping, cracking, rotting, fading paint, mold, pests, and higher energy bills. Early detection prevents structural damage."
 }

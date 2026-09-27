@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is exterior restoration and when is it necessary?",
-  "description": "Exterior restoration repairs and renews a building's outer elements to maintain its integrity and appearance. It's necessary when you see damage or significant",
   "url": "https://hometelligentinc.com/faq/what-is-exterior-restoration-and-when-is-it-necessary",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is exterior restoration and when is it necessary?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Exterior restoration involves repairing or renewing the exterior elements of a building to maintain its structural integrity, appearance, and value. This can include repairing facades, roofs, windows, and other architectural details. It's often necessary when you observe visible signs of wear, damage, or deterioration, such as cracks in the foundation, peeling paint, or damaged siding, or if your property is older and hasn't had significant exterior maintenance in decades. Considering the varied climates across the Bay Area, regular inspections can help identify issues before they become extensive.",
-        "description": "Exterior restoration repairs and renews a building's outer elements to maintain its integrity and appearance. It's necessary when you see damage or significant wear."
-      }
-    }
-  ],
+  "name": "What is exterior restoration and when is it necessary?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is exterior restoration and when is it necessary?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Exterior restoration involves repairing or renewing the exterior elements of a building to maintain its structural integrity, appearance, and value. This can include repairing facades, roofs, windows, and other architectural details. It's often necessary when you observe visible signs of wear, damage, or deterioration, such as cracks in the foundation, peeling paint, or damaged siding, or if your property is older and hasn't had significant exterior maintenance in decades. Considering the varied climates across the Bay Area, regular inspections can help identify issues before they become extensive.",
+        "@type": "Answer",
+        "description": "Exterior restoration repairs and renews a building's outer elements to maintain its integrity and appearance. It's necessary when you see damage or significant wear."
+      }
+    }
+  ],
+  "description": "Exterior restoration repairs and renews a building's outer elements to maintain its integrity and appearance. It's necessary when you see damage or significant"
 }

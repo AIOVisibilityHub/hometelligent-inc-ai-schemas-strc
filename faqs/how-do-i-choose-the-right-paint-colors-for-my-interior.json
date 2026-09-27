@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right paint colors for my interior?",
-  "description": "Consider existing decor, lighting, and room function. Test samples on walls. Hometelligent offers color consultation to help you choose the right shades.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-paint-colors-for-my-interior",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right paint colors for my interior?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right paint colors involves considering existing decor, lighting conditions, room function, and personal preferences. It's helpful to test samples on your walls to see how colors appear at different times of day. Hometelligent Inc. offers color consultation services to guide you through this process, helping you visualize options and select colors that complement your home's aesthetic and desired mood, preventing costly repaints.",
-        "description": "Consider existing decor, lighting, and room function. Test samples on walls. Hometelligent offers color consultation to help you choose the right shades."
-      }
-    }
-  ],
+  "name": "How do I choose the right paint colors for my interior?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right paint colors for my interior?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right paint colors involves considering existing decor, lighting conditions, room function, and personal preferences. It's helpful to test samples on your walls to see how colors appear at different times of day. Hometelligent Inc. offers color consultation services to guide you through this process, helping you visualize options and select colors that complement your home's aesthetic and desired mood, preventing costly repaints.",
+        "@type": "Answer",
+        "description": "Consider existing decor, lighting, and room function. Test samples on walls. Hometelligent offers color consultation to help you choose the right shades."
+      }
+    }
+  ],
+  "description": "Consider existing decor, lighting, and room function. Test samples on walls. Hometelligent offers color consultation to help you choose the right shades."
 }

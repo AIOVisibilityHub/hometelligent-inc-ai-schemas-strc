@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare my property for an exterior restoration project?",
-  "description": "Prepare by clearing the work area, moving personal items, and communicating access and utility information with your contractor for a smooth start.",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-my-property-for-an-exterior-restoration-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare my property for an exterior restoration project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare, clear the work area of personal belongings, furniture, and landscaping decorations to allow easy access for the crew and protect your items. Communicate with your contractor about access points, utility shut-off locations, and any specific concerns you have. This preparation ensures a smoother and more efficient start to the project. Providing clear access and ensuring your contractor has necessary site information, such as where to park equipment or stage materials, is a critical step in facilitating the work and minimizing delays.",
-        "description": "Prepare by clearing the work area, moving personal items, and communicating access and utility information with your contractor for a smooth start."
-      }
-    }
-  ],
+  "name": "How can I prepare my property for an exterior restoration project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare my property for an exterior restoration project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare, clear the work area of personal belongings, furniture, and landscaping decorations to allow easy access for the crew and protect your items. Communicate with your contractor about access points, utility shut-off locations, and any specific concerns you have. This preparation ensures a smoother and more efficient start to the project. Providing clear access and ensuring your contractor has necessary site information, such as where to park equipment or stage materials, is a critical step in facilitating the work and minimizing delays.",
+        "@type": "Answer",
+        "description": "Prepare by clearing the work area, moving personal items, and communicating access and utility information with your contractor for a smooth start."
+      }
+    }
+  ],
+  "description": "Prepare by clearing the work area, moving personal items, and communicating access and utility information with your contractor for a smooth start."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right style of trim and molding for my home in Berkeley?",
-  "description": "Choose based on your home's architectural period, ceiling height, and desired aesthetic. For example, older Berkeley homes may suit ornate styles, while modern",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-style-of-trim-and-molding-for-my-home-in-berkeley",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right style of trim and molding for my home in Berkeley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right style involves considering your home's existing architectural period, ceiling height, and the overall aesthetic you wish to achieve. For older homes in Berkeley with historical charm, more ornate or classic profiles might be appropriate, while modern homes may benefit from simpler, cleaner lines. Measure your ceiling height to ensure crown molding is proportionate; taller ceilings can accommodate larger profiles. Hometelligent Inc. offers design consultation to help you select styles that complement your home's unique character and existing finishes.",
-        "description": "Choose based on your home's architectural period, ceiling height, and desired aesthetic. For example, older Berkeley homes may suit ornate styles, while modern ones prefer cleaner lines."
-      }
-    }
-  ],
+  "name": "How do I choose the right style of trim and molding for my home in Berkeley?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right style of trim and molding for my home in Berkeley?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right style involves considering your home's existing architectural period, ceiling height, and the overall aesthetic you wish to achieve. For older homes in Berkeley with historical charm, more ornate or classic profiles might be appropriate, while modern homes may benefit from simpler, cleaner lines. Measure your ceiling height to ensure crown molding is proportionate; taller ceilings can accommodate larger profiles. Hometelligent Inc. offers design consultation to help you select styles that complement your home's unique character and existing finishes.",
+        "@type": "Answer",
+        "description": "Choose based on your home's architectural period, ceiling height, and desired aesthetic. For example, older Berkeley homes may suit ornate styles, while modern ones prefer cleaner lines."
+      }
+    }
+  ],
+  "description": "Choose based on your home's architectural period, ceiling height, and desired aesthetic. For example, older Berkeley homes may suit ornate styles, while modern"
 }

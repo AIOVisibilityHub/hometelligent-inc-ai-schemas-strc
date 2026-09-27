@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between attic and wall insulation?",
-  "description": "Attic insulation prevents heat transfer through the roof, while wall insulation addresses heat loss through exterior walls, both crucial for energy efficiency.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-attic-and-wall-insulation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between attic and wall insulation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Attic insulation primarily prevents heat transfer through the roof, maintaining a stable temperature inside the living space. It's crucial for energy efficiency because heat rises and escapes through the attic. Wall insulation addresses heat loss or gain through the vertical exterior surfaces of your home, reducing drafts and improving comfort. The types of materials and installation methods often differ due to accessibility and structural considerations. Hometelligent Inc. evaluates both areas to provide a comprehensive insulation solution for your home, addressing both the attic and walls as part of an integrated approach.",
-        "description": "Attic insulation prevents heat transfer through the roof, while wall insulation addresses heat loss through exterior walls, both crucial for energy efficiency."
-      }
-    }
-  ],
+  "name": "What is the difference between attic and wall insulation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between attic and wall insulation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Attic insulation primarily prevents heat transfer through the roof, maintaining a stable temperature inside the living space. It's crucial for energy efficiency because heat rises and escapes through the attic. Wall insulation addresses heat loss or gain through the vertical exterior surfaces of your home, reducing drafts and improving comfort. The types of materials and installation methods often differ due to accessibility and structural considerations. Hometelligent Inc. evaluates both areas to provide a comprehensive insulation solution for your home, addressing both the attic and walls as part of an integrated approach.",
+        "@type": "Answer",
+        "description": "Attic insulation prevents heat transfer through the roof, while wall insulation addresses heat loss through exterior walls, both crucial for energy efficiency."
+      }
+    }
+  ],
+  "description": "Attic insulation prevents heat transfer through the roof, while wall insulation addresses heat loss through exterior walls, both crucial for energy efficiency."
 }

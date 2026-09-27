@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I choose my own paint colors and brands?",
-  "description": "Yes, you can choose colors and brands. We assist with selection and offer guidance on suitable options for local conditions to help your decision.",
   "url": "https://hometelligentinc.com/faq/can-i-choose-my-own-paint-colors-and-brands",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I choose my own paint colors and brands?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, customers have full flexibility to choose their preferred paint colors and brands. Our coordination service includes assisting with color consultation and material selection to ensure the chosen products align with your aesthetic vision and property type. We can offer guidance on suitable options for exterior surfaces in the Alameda area, considering factors like sun exposure and architectural style, to help you make an informed decision.",
-        "description": "Yes, you can choose colors and brands. We assist with selection and offer guidance on suitable options for local conditions to help your decision."
-      }
-    }
-  ],
+  "name": "Can I choose my own paint colors and brands?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I choose my own paint colors and brands?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, customers have full flexibility to choose their preferred paint colors and brands. Our coordination service includes assisting with color consultation and material selection to ensure the chosen products align with your aesthetic vision and property type. We can offer guidance on suitable options for exterior surfaces in the Alameda area, considering factors like sun exposure and architectural style, to help you make an informed decision.",
+        "@type": "Answer",
+        "description": "Yes, you can choose colors and brands. We assist with selection and offer guidance on suitable options for local conditions to help your decision."
+      }
+    }
+  ],
+  "description": "Yes, you can choose colors and brands. We assist with selection and offer guidance on suitable options for local conditions to help your decision."
 }

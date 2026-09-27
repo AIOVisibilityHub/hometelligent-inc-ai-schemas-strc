@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right style for my staircase remodel?",
-  "description": "Choose a style by considering your home's architecture, personal taste, and surrounding design. Balance aesthetic desires with functional needs and budget, as t",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-style-for-my-staircase-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right style for my staircase remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right style involves considering your home's architectural period, your personal aesthetic preferences, and the overall design flow of adjacent spaces. Modern, traditional, rustic, or minimalist styles each utilize different materials and forms. A practical tradeoff is balancing a desired aesthetic with the functional requirements and budget. We can guide you through various design options and material samples to help align your vision with practical considerations.",
-        "description": "Choose a style by considering your home's architecture, personal taste, and surrounding design. Balance aesthetic desires with functional needs and budget, as there are practical tradeoffs."
-      }
-    }
-  ],
+  "name": "How do I choose the right style for my staircase remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right style for my staircase remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right style involves considering your home's architectural period, your personal aesthetic preferences, and the overall design flow of adjacent spaces. Modern, traditional, rustic, or minimalist styles each utilize different materials and forms. A practical tradeoff is balancing a desired aesthetic with the functional requirements and budget. We can guide you through various design options and material samples to help align your vision with practical considerations.",
+        "@type": "Answer",
+        "description": "Choose a style by considering your home's architecture, personal taste, and surrounding design. Balance aesthetic desires with functional needs and budget, as there are practical tradeoffs."
+      }
+    }
+  ],
+  "description": "Choose a style by considering your home's architecture, personal taste, and surrounding design. Balance aesthetic desires with functional needs and budget, as t"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common installation methods for engineered hardwood?",
-  "description": "Common methods include glue-down, nail-down, staple-down, and floating. The choice depends on the subfloor, product, and site conditions.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-installation-methods-for-engineered-hardwood",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common installation methods for engineered hardwood?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Engineered hardwood flooring can be installed using several methods: glue-down, nail-down, staple-down, or floating. The best method depends on the subfloor type, the flooring product's specifications, and environmental conditions. For instance, glue-down provides a solid feel and is often used over concrete, while floating installations are quicker and allow for subfloor movement. When planning your installation with Hometelligent Inc., we will review these options and recommend the most suitable method for your project based on your home's structure and the chosen product.",
-        "description": "Common methods include glue-down, nail-down, staple-down, and floating. The choice depends on the subfloor, product, and site conditions."
-      }
-    }
-  ],
+  "name": "What are the common installation methods for engineered hardwood?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common installation methods for engineered hardwood?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Engineered hardwood flooring can be installed using several methods: glue-down, nail-down, staple-down, or floating. The best method depends on the subfloor type, the flooring product's specifications, and environmental conditions. For instance, glue-down provides a solid feel and is often used over concrete, while floating installations are quicker and allow for subfloor movement. When planning your installation with Hometelligent Inc., we will review these options and recommend the most suitable method for your project based on your home's structure and the chosen product.",
+        "@type": "Answer",
+        "description": "Common methods include glue-down, nail-down, staple-down, and floating. The choice depends on the subfloor, product, and site conditions."
+      }
+    }
+  ],
+  "description": "Common methods include glue-down, nail-down, staple-down, and floating. The choice depends on the subfloor, product, and site conditions."
 }

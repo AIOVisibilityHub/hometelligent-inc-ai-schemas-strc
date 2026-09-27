@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between exterior restoration and remodeling?",
-  "description": "Restoration repairs and preserves existing elements, often maintaining original design. Remodeling changes design, function, or layout, allowing for transformat",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-exterior-restoration-and-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between exterior restoration and remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Exterior restoration focuses on repairing, preserving, and bringing existing exterior elements back to their original or improved condition, often maintaining the building's historical integrity or original design. Remodeling, conversely, typically involves changing the design, function, or layout of spaces, which can include adding new features or completely altering the aesthetic. The practical tradeoff is that restoration aims for authenticity and repair, while remodeling allows for complete transformation. This distinction is crucial when deciding if your goal is to preserve or significantly change your home's exterior.",
-        "description": "Restoration repairs and preserves existing elements, often maintaining original design. Remodeling changes design, function, or layout, allowing for transformation."
-      }
-    }
-  ],
+  "name": "What is the difference between exterior restoration and remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between exterior restoration and remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Exterior restoration focuses on repairing, preserving, and bringing existing exterior elements back to their original or improved condition, often maintaining the building's historical integrity or original design. Remodeling, conversely, typically involves changing the design, function, or layout of spaces, which can include adding new features or completely altering the aesthetic. The practical tradeoff is that restoration aims for authenticity and repair, while remodeling allows for complete transformation. This distinction is crucial when deciding if your goal is to preserve or significantly change your home's exterior.",
+        "@type": "Answer",
+        "description": "Restoration repairs and preserves existing elements, often maintaining original design. Remodeling changes design, function, or layout, allowing for transformation."
+      }
+    }
+  ],
+  "description": "Restoration repairs and preserves existing elements, often maintaining original design. Remodeling changes design, function, or layout, allowing for transformat"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right engineered hardwood for my home?",
-  "description": "Consider wood species, finish, plank dimensions, and wear layer thickness based on aesthetics and traffic. Consult with experts for selection.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-engineered-hardwood-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right engineered hardwood for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right engineered hardwood involves considering factors such as the desired wood species, finish, plank width and length, and wear layer thickness. The aesthetic of your home and the expected foot traffic in the area will guide these selections. For example, a thicker wear layer is ideal for high-traffic areas if you plan to refinish the floor multiple times. Hometelligent Inc. offers consultations to help clients in areas like Oakland or Dublin select flooring that balances durability, style, and budget.",
-        "description": "Consider wood species, finish, plank dimensions, and wear layer thickness based on aesthetics and traffic. Consult with experts for selection."
-      }
-    }
-  ],
+  "name": "How do I choose the right engineered hardwood for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right engineered hardwood for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right engineered hardwood involves considering factors such as the desired wood species, finish, plank width and length, and wear layer thickness. The aesthetic of your home and the expected foot traffic in the area will guide these selections. For example, a thicker wear layer is ideal for high-traffic areas if you plan to refinish the floor multiple times. Hometelligent Inc. offers consultations to help clients in areas like Oakland or Dublin select flooring that balances durability, style, and budget.",
+        "@type": "Answer",
+        "description": "Consider wood species, finish, plank dimensions, and wear layer thickness based on aesthetics and traffic. Consult with experts for selection."
+      }
+    }
+  ],
+  "description": "Consider wood species, finish, plank dimensions, and wear layer thickness based on aesthetics and traffic. Consult with experts for selection."
 }

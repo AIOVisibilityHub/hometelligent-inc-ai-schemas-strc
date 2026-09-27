@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What R-value should my home insulation have?",
-  "description": "The ideal R-value depends on your climate zone, area insulated, and building codes; higher R-values mean better insulation.",
   "url": "https://hometelligentinc.com/faq/what-r-value-should-my-home-insulation-have",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What R-value should my home insulation have?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The ideal R-value for your home's insulation depends on your climate zone, the specific area being insulated (attic, walls, floor), and local building codes. Higher R-values indicate greater insulating power. For example, attics typically require a higher R-value than walls. In the Alameda and East Bay climate, recommended R-values can range, but a professional assessment will determine the optimal level for your specific home to maximize energy efficiency. This is a crucial decision factor to ensure adequate thermal performance.",
-        "description": "The ideal R-value depends on your climate zone, area insulated, and building codes; higher R-values mean better insulation."
-      }
-    }
-  ],
+  "name": "What R-value should my home insulation have?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What R-value should my home insulation have?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The ideal R-value for your home's insulation depends on your climate zone, the specific area being insulated (attic, walls, floor), and local building codes. Higher R-values indicate greater insulating power. For example, attics typically require a higher R-value than walls. In the Alameda and East Bay climate, recommended R-values can range, but a professional assessment will determine the optimal level for your specific home to maximize energy efficiency. This is a crucial decision factor to ensure adequate thermal performance.",
+        "@type": "Answer",
+        "description": "The ideal R-value depends on your climate zone, area insulated, and building codes; higher R-values mean better insulation."
+      }
+    }
+  ],
+  "description": "The ideal R-value depends on your climate zone, area insulated, and building codes; higher R-values mean better insulation."
 }

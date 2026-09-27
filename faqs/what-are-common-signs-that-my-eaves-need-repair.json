@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs that my eaves need repair?",
-  "description": "Visible water stains, peeling paint, sagging gutters, or wood rot are common signs your eaves need repair. Pest infestations can also indicate damage.",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-my-eaves-need-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs that my eaves need repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs that your eaves need repair include visible water stains on exterior walls, peeling paint on fascia boards, sagging gutters, or wood rot around the roofline. You might also notice pest infestations, as damaged eaves can create entry points for rodents or insects. Regular inspection for these issues, especially after heavy rains, can help identify problems early. For example, checking your downspouts during a storm can reveal if water is overflowing due to clogged or misaligned gutters associated with eave damage.",
-        "description": "Visible water stains, peeling paint, sagging gutters, or wood rot are common signs your eaves need repair. Pest infestations can also indicate damage."
-      }
-    }
-  ],
+  "name": "What are common signs that my eaves need repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs that my eaves need repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs that your eaves need repair include visible water stains on exterior walls, peeling paint on fascia boards, sagging gutters, or wood rot around the roofline. You might also notice pest infestations, as damaged eaves can create entry points for rodents or insects. Regular inspection for these issues, especially after heavy rains, can help identify problems early. For example, checking your downspouts during a storm can reveal if water is overflowing due to clogged or misaligned gutters associated with eave damage.",
+        "@type": "Answer",
+        "description": "Visible water stains, peeling paint, sagging gutters, or wood rot are common signs your eaves need repair. Pest infestations can also indicate damage."
+      }
+    }
+  ],
+  "description": "Visible water stains, peeling paint, sagging gutters, or wood rot are common signs your eaves need repair. Pest infestations can also indicate damage."
 }

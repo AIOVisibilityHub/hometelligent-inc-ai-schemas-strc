@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is engineered hardwood flooring?",
-  "description": "Engineered hardwood flooring features a real wood veneer over a multi-layered core, offering greater stability than solid hardwood. The veneer's thickness impac",
   "url": "https://hometelligentinc.com/faq/what-is-engineered-hardwood-flooring",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is engineered hardwood flooring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Engineered hardwood flooring is constructed from multiple layers of wood, typically a plywood or high-density fiberboard core, topped with a real hardwood veneer. This layered construction makes it more stable and less prone to expanding and contracting with humidity changes compared to solid hardwood. When considering engineered hardwood, assess the thickness of the top veneer layer, as this determines how many times the floor can be refinished in the future. Hometelligent Inc. works with various veneer thicknesses to suit different budgets and longevity requirements.",
-        "description": "Engineered hardwood flooring features a real wood veneer over a multi-layered core, offering greater stability than solid hardwood. The veneer's thickness impacts refinishing potential."
-      }
-    }
-  ],
+  "name": "What is engineered hardwood flooring?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is engineered hardwood flooring?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Engineered hardwood flooring is constructed from multiple layers of wood, typically a plywood or high-density fiberboard core, topped with a real hardwood veneer. This layered construction makes it more stable and less prone to expanding and contracting with humidity changes compared to solid hardwood. When considering engineered hardwood, assess the thickness of the top veneer layer, as this determines how many times the floor can be refinished in the future. Hometelligent Inc. works with various veneer thicknesses to suit different budgets and longevity requirements.",
+        "@type": "Answer",
+        "description": "Engineered hardwood flooring features a real wood veneer over a multi-layered core, offering greater stability than solid hardwood. The veneer's thickness impacts refinishing potential."
+      }
+    }
+  ],
+  "description": "Engineered hardwood flooring features a real wood veneer over a multi-layered core, offering greater stability than solid hardwood. The veneer's thickness impac"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparations do I need to make before interior painters arrive?",
-  "description": "Clear small, fragile items from the work area; heavy furniture can often be moved by the crew. Hometelligent provides a checklist for preparation.",
   "url": "https://hometelligentinc.com/faq/what-preparations-do-i-need-to-make-before-interior-painters-arrive",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparations do I need to make before interior painters arrive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before interior painters arrive, clear the work area by removing small, valuable, or fragile items. Heavy furniture can often be moved by the painting crew to the center of the room, but personal items should be put away. Hometelligent Inc. provides a pre-painting checklist to help you prepare, ensuring all necessary items are secured or moved to facilitate efficient work and protect your belongings. This step is crucial for minimizing delays and potential damage.",
-        "description": "Clear small, fragile items from the work area; heavy furniture can often be moved by the crew. Hometelligent provides a checklist for preparation."
-      }
-    }
-  ],
+  "name": "What preparations do I need to make before interior painters arrive?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparations do I need to make before interior painters arrive?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before interior painters arrive, clear the work area by removing small, valuable, or fragile items. Heavy furniture can often be moved by the painting crew to the center of the room, but personal items should be put away. Hometelligent Inc. provides a pre-painting checklist to help you prepare, ensuring all necessary items are secured or moved to facilitate efficient work and protect your belongings. This step is crucial for minimizing delays and potential damage.",
+        "@type": "Answer",
+        "description": "Clear small, fragile items from the work area; heavy furniture can often be moved by the crew. Hometelligent provides a checklist for preparation."
+      }
+    }
+  ],
+  "description": "Clear small, fragile items from the work area; heavy furniture can often be moved by the crew. Hometelligent provides a checklist for preparation."
 }

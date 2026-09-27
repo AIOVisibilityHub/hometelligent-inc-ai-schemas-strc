@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is crown molding and why should I install it?",
-  "description": "Crown molding is a decorative trim that adds architectural detail where walls meet the ceiling, enhancing a room's aesthetic and perceived value.",
   "url": "https://hometelligentinc.com/faq/what-is-crown-molding-and-why-should-i-install-it",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is crown molding and why should I install it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Crown molding is a decorative trim applied to the top of interior walls, where they meet the ceiling. It enhances a room's aesthetic by adding architectural detail and can conceal minor imperfections at the wall-ceiling joint. Installing crown molding can elevate the perceived value and finish of your home, contributing to a more polished look. Consider it if you're aiming to improve your home's interior aesthetics and desire a more elegant, customized feel.",
-        "description": "Crown molding is a decorative trim that adds architectural detail where walls meet the ceiling, enhancing a room's aesthetic and perceived value."
-      }
-    }
-  ],
+  "name": "What is crown molding and why should I install it?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is crown molding and why should I install it?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Crown molding is a decorative trim applied to the top of interior walls, where they meet the ceiling. It enhances a room's aesthetic by adding architectural detail and can conceal minor imperfections at the wall-ceiling joint. Installing crown molding can elevate the perceived value and finish of your home, contributing to a more polished look. Consider it if you're aiming to improve your home's interior aesthetics and desire a more elegant, customized feel.",
+        "@type": "Answer",
+        "description": "Crown molding is a decorative trim that adds architectural detail where walls meet the ceiling, enhancing a room's aesthetic and perceived value."
+      }
+    }
+  ],
+  "description": "Crown molding is a decorative trim that adds architectural detail where walls meet the ceiling, enhancing a room's aesthetic and perceived value."
 }

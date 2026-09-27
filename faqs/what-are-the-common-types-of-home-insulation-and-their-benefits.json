@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common types of home insulation and their benefits?",
-  "description": "Common insulation types include fiberglass, cellulose, spray foam, and rigid foam boards, each offering different benefits for energy efficiency and comfort.",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-types-of-home-insulation-and-their-benefits",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common types of home insulation and their benefits?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common types of home insulation include fiberglass batts, blown-in cellulose, spray foam, and rigid foam boards. Fiberglass is cost-effective and good for standard wall cavities. Cellulose is made from recycled materials and offers good sound dampening. Spray foam provides an excellent air seal, while rigid foam boards are ideal for continuous insulation and difficult-to-reach areas. Each type has specific applications and benefits for improving energy efficiency and indoor comfort. Hometelligent Inc. specializes in assessing your home's unique structure and recommending the most appropriate insulation type for maximum impact, particularly in older homes common in the Alameda and Berkeley areas.",
-        "description": "Common insulation types include fiberglass, cellulose, spray foam, and rigid foam boards, each offering different benefits for energy efficiency and comfort."
-      }
-    }
-  ],
+  "name": "What are the common types of home insulation and their benefits?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common types of home insulation and their benefits?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common types of home insulation include fiberglass batts, blown-in cellulose, spray foam, and rigid foam boards. Fiberglass is cost-effective and good for standard wall cavities. Cellulose is made from recycled materials and offers good sound dampening. Spray foam provides an excellent air seal, while rigid foam boards are ideal for continuous insulation and difficult-to-reach areas. Each type has specific applications and benefits for improving energy efficiency and indoor comfort. Hometelligent Inc. specializes in assessing your home's unique structure and recommending the most appropriate insulation type for maximum impact, particularly in older homes common in the Alameda and Berkeley areas.",
+        "@type": "Answer",
+        "description": "Common insulation types include fiberglass, cellulose, spray foam, and rigid foam boards, each offering different benefits for energy efficiency and comfort."
+      }
+    }
+  ],
+  "description": "Common insulation types include fiberglass, cellulose, spray foam, and rigid foam boards, each offering different benefits for energy efficiency and comfort."
 }

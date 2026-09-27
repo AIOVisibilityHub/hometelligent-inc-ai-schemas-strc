@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical drywall installation process?",
-  "description": "The drywall installation process includes hanging, taping, applying joint compound, sanding, and priming for a smooth finish.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-drywall-installation-process",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical drywall installation process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Drywall installation typically involves several steps: hanging the sheets, taping the seams, applying multiple coats of joint compound, sanding, and then priming. After hanging the drywall sheets, our team meticulously tapes all seams and fastener spots. We then apply successive layers of joint compound, feathering each coat for a smooth, even surface. Proper drying time between coats is essential for a durable finish, which can impact the overall project timeline. We ensure each step is completed thoroughly before moving to the next, guaranteeing a high-quality result ready for paint or texture.",
-        "description": "The drywall installation process includes hanging, taping, applying joint compound, sanding, and priming for a smooth finish."
-      }
-    }
-  ],
+  "name": "What is the typical drywall installation process?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical drywall installation process?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Drywall installation typically involves several steps: hanging the sheets, taping the seams, applying multiple coats of joint compound, sanding, and then priming. After hanging the drywall sheets, our team meticulously tapes all seams and fastener spots. We then apply successive layers of joint compound, feathering each coat for a smooth, even surface. Proper drying time between coats is essential for a durable finish, which can impact the overall project timeline. We ensure each step is completed thoroughly before moving to the next, guaranteeing a high-quality result ready for paint or texture.",
+        "@type": "Answer",
+        "description": "The drywall installation process includes hanging, taping, applying joint compound, sanding, and priming for a smooth finish."
+      }
+    }
+  ],
+  "description": "The drywall installation process includes hanging, taping, applying joint compound, sanding, and priming for a smooth finish."
 }

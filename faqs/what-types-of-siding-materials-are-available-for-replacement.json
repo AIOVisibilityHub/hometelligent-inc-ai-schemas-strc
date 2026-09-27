@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of siding materials are available for replacement?",
-  "description": "Siding materials include vinyl, fiber cement, wood, and engineered wood. Choose based on budget, aesthetic, durability, and local climate. We help evaluate opti",
   "url": "https://hometelligentinc.com/faq/what-types-of-siding-materials-are-available-for-replacement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of siding materials are available for replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A variety of siding materials are available, each offering distinct benefits in terms of durability, aesthetics, and maintenance. Popular options include vinyl, fiber cement, wood, and engineered wood siding. Vinyl is often chosen for its low maintenance and cost-effectiveness, while fiber cement offers excellent durability and fire resistance. Wood siding provides a classic look but requires more upkeep. When choosing, consider your budget, desired aesthetic, and the local climate in areas like Alameda, Albany, Berkeley, Dublin, or Emeryville. Hometelligent Inc. can help you evaluate these options to find the best fit for your home.",
-        "description": "Siding materials include vinyl, fiber cement, wood, and engineered wood. Choose based on budget, aesthetic, durability, and local climate. We help evaluate options."
-      }
-    }
-  ],
+  "name": "What types of siding materials are available for replacement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of siding materials are available for replacement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A variety of siding materials are available, each offering distinct benefits in terms of durability, aesthetics, and maintenance. Popular options include vinyl, fiber cement, wood, and engineered wood siding. Vinyl is often chosen for its low maintenance and cost-effectiveness, while fiber cement offers excellent durability and fire resistance. Wood siding provides a classic look but requires more upkeep. When choosing, consider your budget, desired aesthetic, and the local climate in areas like Alameda, Albany, Berkeley, Dublin, or Emeryville. Hometelligent Inc. can help you evaluate these options to find the best fit for your home.",
+        "@type": "Answer",
+        "description": "Siding materials include vinyl, fiber cement, wood, and engineered wood. Choose based on budget, aesthetic, durability, and local climate. We help evaluate options."
+      }
+    }
+  ],
+  "description": "Siding materials include vinyl, fiber cement, wood, and engineered wood. Choose based on budget, aesthetic, durability, and local climate. We help evaluate opti"
 }

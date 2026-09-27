@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I convert my garage into an Accessory Dwelling Unit (ADU)?",
-  "description": "Yes, many garages can be converted into an Accessory Dwelling Unit (ADU), which functions as a separate living space with a kitchen and bathroom.",
   "url": "https://hometelligentinc.com/faq/can-i-convert-my-garage-into-an-accessory-dwelling-unit-adu",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I convert my garage into an Accessory Dwelling Unit (ADU)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, converting your garage into an Accessory Dwelling Unit (ADU) is a popular option in many Bay Area cities due to favorable state and local regulations aimed at increasing housing density. An ADU typically includes a kitchen and bathroom, allowing it to function as a separate living space. This differs from a simple room conversion that doesn't include these amenities. When considering an ADU, a key decision factor is assessing your property's capacity for utilities and separate entry, which can impact feasibility and cost.",
-        "description": "Yes, many garages can be converted into an Accessory Dwelling Unit (ADU), which functions as a separate living space with a kitchen and bathroom."
-      }
-    }
-  ],
+  "name": "Can I convert my garage into an Accessory Dwelling Unit (ADU)?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I convert my garage into an Accessory Dwelling Unit (ADU)?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, converting your garage into an Accessory Dwelling Unit (ADU) is a popular option in many Bay Area cities due to favorable state and local regulations aimed at increasing housing density. An ADU typically includes a kitchen and bathroom, allowing it to function as a separate living space. This differs from a simple room conversion that doesn't include these amenities. When considering an ADU, a key decision factor is assessing your property's capacity for utilities and separate entry, which can impact feasibility and cost.",
+        "@type": "Answer",
+        "description": "Yes, many garages can be converted into an Accessory Dwelling Unit (ADU), which functions as a separate living space with a kitchen and bathroom."
+      }
+    }
+  ],
+  "description": "Yes, many garages can be converted into an Accessory Dwelling Unit (ADU), which functions as a separate living space with a kitchen and bathroom."
 }

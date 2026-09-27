@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there eco-friendly or sustainable trim and molding options available?",
-  "description": "Eco-friendly options include reclaimed wood, bamboo, or recycled-content MDF, often with low VOC finishes for better indoor air quality. Consider material origi",
   "url": "https://hometelligentinc.com/faq/are-there-eco-friendly-or-sustainable-trim-and-molding-options-available",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there eco-friendly or sustainable trim and molding options available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, there are several eco-friendly and sustainable options for trim and molding. These can include reclaimed wood, bamboo, or MDF made from recycled content or rapidly renewable resources. Some manufacturers also offer products with low VOC (Volatile Organic Compound) finishes, which contribute to better indoor air quality. When selecting materials, consider their origin and manufacturing process if sustainability is a priority. Hometelligent Inc. can discuss these options and source materials that align with your environmental preferences for projects in our service areas.",
-        "description": "Eco-friendly options include reclaimed wood, bamboo, or recycled-content MDF, often with low VOC finishes for better indoor air quality. Consider material origin and manufacturing processes."
-      }
-    }
-  ],
+  "name": "Are there eco-friendly or sustainable trim and molding options available?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there eco-friendly or sustainable trim and molding options available?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, there are several eco-friendly and sustainable options for trim and molding. These can include reclaimed wood, bamboo, or MDF made from recycled content or rapidly renewable resources. Some manufacturers also offer products with low VOC (Volatile Organic Compound) finishes, which contribute to better indoor air quality. When selecting materials, consider their origin and manufacturing process if sustainability is a priority. Hometelligent Inc. can discuss these options and source materials that align with your environmental preferences for projects in our service areas.",
+        "@type": "Answer",
+        "description": "Eco-friendly options include reclaimed wood, bamboo, or recycled-content MDF, often with low VOC finishes for better indoor air quality. Consider material origin and manufacturing processes."
+      }
+    }
+  ],
+  "description": "Eco-friendly options include reclaimed wood, bamboo, or recycled-content MDF, often with low VOC finishes for better indoor air quality. Consider material origi"
 }

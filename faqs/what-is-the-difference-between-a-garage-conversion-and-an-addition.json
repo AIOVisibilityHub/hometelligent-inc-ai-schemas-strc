@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a garage conversion and an addition?",
-  "description": "A garage conversion reuses existing space, while an addition builds new square footage, making conversions generally faster and less expensive.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-garage-conversion-and-an-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a garage conversion and an addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A garage conversion transforms an existing enclosed space, utilizing its current foundation and walls, whereas an addition involves building new square footage onto your home's footprint. Garage conversions typically have a lower cost and shorter timeline because they leverage existing structures. Additions, while offering more design flexibility, usually require new foundations, framing, roofing, and can be more complex and expensive. A practical tradeoff is that while conversions are often quicker and more budget-friendly, additions provide complete customization and potentially more expansive space.",
-        "description": "A garage conversion reuses existing space, while an addition builds new square footage, making conversions generally faster and less expensive."
-      }
-    }
-  ],
+  "name": "What is the difference between a garage conversion and an addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a garage conversion and an addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A garage conversion transforms an existing enclosed space, utilizing its current foundation and walls, whereas an addition involves building new square footage onto your home's footprint. Garage conversions typically have a lower cost and shorter timeline because they leverage existing structures. Additions, while offering more design flexibility, usually require new foundations, framing, roofing, and can be more complex and expensive. A practical tradeoff is that while conversions are often quicker and more budget-friendly, additions provide complete customization and potentially more expansive space.",
+        "@type": "Answer",
+        "description": "A garage conversion reuses existing space, while an addition builds new square footage, making conversions generally faster and less expensive."
+      }
+    }
+  ],
+  "description": "A garage conversion reuses existing space, while an addition builds new square footage, making conversions generally faster and less expensive."
 }

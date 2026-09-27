@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of exterior carpentry services does Hometelligent Inc. offer?",
-  "description": "Hometelligent Inc. offers deck construction and repair, fence installation, siding repair, and custom exterior woodworking.",
   "url": "https://hometelligentinc.com/faq/what-types-of-exterior-carpentry-services-does-hometelligent-inc-offer",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of exterior carpentry services does Hometelligent Inc. offer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. provides a range of exterior carpentry services including deck construction and repair, fence installation and maintenance, siding repair and replacement, and custom woodworking. We also handle trim work, pergolas, gazebos, and address wood rot on various exterior structures. Our services are designed to enhance both the aesthetic appeal and structural integrity of your property.",
-        "description": "Hometelligent Inc. offers deck construction and repair, fence installation, siding repair, and custom exterior woodworking."
-      }
-    }
-  ],
+  "name": "What types of exterior carpentry services does Hometelligent Inc. offer?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of exterior carpentry services does Hometelligent Inc. offer?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. provides a range of exterior carpentry services including deck construction and repair, fence installation and maintenance, siding repair and replacement, and custom woodworking. We also handle trim work, pergolas, gazebos, and address wood rot on various exterior structures. Our services are designed to enhance both the aesthetic appeal and structural integrity of your property.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. offers deck construction and repair, fence installation, siding repair, and custom exterior woodworking."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. offers deck construction and repair, fence installation, siding repair, and custom exterior woodworking."
 }

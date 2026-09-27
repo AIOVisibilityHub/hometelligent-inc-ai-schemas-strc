@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider replacing my exterior wood trim or siding?",
-  "description": "Replace exterior wood trim or siding when you see extensive rot, cracking, warping, or persistent peeling paint, indicating compromised protection.",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-replacing-my-exterior-wood-trim-or-siding",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider replacing my exterior wood trim or siding?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider replacing exterior wood trim or siding when you notice signs of extensive rot, significant cracking, warping, or persistent peeling paint, especially after addressing potential moisture issues. These signs indicate that the material is no longer effectively protecting your home. Regular inspections, particularly after severe weather, can help identify problems early. Replacing damaged sections promptly can prevent more costly repairs down the line.",
-        "description": "Replace exterior wood trim or siding when you see extensive rot, cracking, warping, or persistent peeling paint, indicating compromised protection."
-      }
-    }
-  ],
+  "name": "When should I consider replacing my exterior wood trim or siding?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider replacing my exterior wood trim or siding?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider replacing exterior wood trim or siding when you notice signs of extensive rot, significant cracking, warping, or persistent peeling paint, especially after addressing potential moisture issues. These signs indicate that the material is no longer effectively protecting your home. Regular inspections, particularly after severe weather, can help identify problems early. Replacing damaged sections promptly can prevent more costly repairs down the line.",
+        "@type": "Answer",
+        "description": "Replace exterior wood trim or siding when you see extensive rot, cracking, warping, or persistent peeling paint, indicating compromised protection."
+      }
+    }
+  ],
+  "description": "Replace exterior wood trim or siding when you see extensive rot, cracking, warping, or persistent peeling paint, indicating compromised protection."
 }

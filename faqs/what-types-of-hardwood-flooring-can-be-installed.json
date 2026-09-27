@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of hardwood flooring can be installed?",
-  "description": "Hardwood flooring types include solid and engineered. The best option depends on your subfloor, moisture conditions, and budget.",
   "url": "https://hometelligentinc.com/faq/what-types-of-hardwood-flooring-can-be-installed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of hardwood flooring can be installed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hardwood flooring comes in various types, including solid hardwood and engineered hardwood. Solid hardwood consists of a single piece of wood, while engineered hardwood has multiple layers with a real wood veneer on top. The best choice often depends on factors like subfloor type, moisture levels in the installation area, and your budget. For example, engineered hardwood is generally more stable in areas with fluctuating humidity, such as basements, making it a common choice for homes in the Bay Area's diverse microclimates.",
-        "description": "Hardwood flooring types include solid and engineered. The best option depends on your subfloor, moisture conditions, and budget."
-      }
-    }
-  ],
+  "name": "What types of hardwood flooring can be installed?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of hardwood flooring can be installed?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hardwood flooring comes in various types, including solid hardwood and engineered hardwood. Solid hardwood consists of a single piece of wood, while engineered hardwood has multiple layers with a real wood veneer on top. The best choice often depends on factors like subfloor type, moisture levels in the installation area, and your budget. For example, engineered hardwood is generally more stable in areas with fluctuating humidity, such as basements, making it a common choice for homes in the Bay Area's diverse microclimates.",
+        "@type": "Answer",
+        "description": "Hardwood flooring types include solid and engineered. The best option depends on your subfloor, moisture conditions, and budget."
+      }
+    }
+  ],
+  "description": "Hardwood flooring types include solid and engineered. The best option depends on your subfloor, moisture conditions, and budget."
 }

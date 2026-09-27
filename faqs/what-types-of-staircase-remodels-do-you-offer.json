@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of staircase remodels do you offer?",
-  "description": "We provide full replacements, refacing, and aesthetic upgrades using various materials and reconfigurations. Assessing current structural integrity helps determ",
   "url": "https://hometelligentinc.com/faq/what-types-of-staircase-remodels-do-you-offer",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of staircase remodels do you offer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer a range of staircase remodeling options, including full replacements, refacing existing structures, and aesthetic upgrades. This can involve changing materials like wood, iron, or glass, updating balusters and handrails, or reconfiguring the layout for improved flow and safety. Understanding the current structural integrity of your staircase is a key first step in determining the most suitable and cost-effective remodeling approach for your home.",
-        "description": "We provide full replacements, refacing, and aesthetic upgrades using various materials and reconfigurations. Assessing current structural integrity helps determine the best approach."
-      }
-    }
-  ],
+  "name": "What types of staircase remodels do you offer?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of staircase remodels do you offer?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "We offer a range of staircase remodeling options, including full replacements, refacing existing structures, and aesthetic upgrades. This can involve changing materials like wood, iron, or glass, updating balusters and handrails, or reconfiguring the layout for improved flow and safety. Understanding the current structural integrity of your staircase is a key first step in determining the most suitable and cost-effective remodeling approach for your home.",
+        "@type": "Answer",
+        "description": "We provide full replacements, refacing, and aesthetic upgrades using various materials and reconfigurations. Assessing current structural integrity helps determine the best approach."
+      }
+    }
+  ],
+  "description": "We provide full replacements, refacing, and aesthetic upgrades using various materials and reconfigurations. Assessing current structural integrity helps determ"
 }

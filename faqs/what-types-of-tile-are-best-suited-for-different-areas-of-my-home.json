@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of tile are best suited for different areas of my home?",
-  "description": "Porcelain or ceramic tiles are best for high-moisture areas. Natural stone offers luxury but requires more maintenance.",
   "url": "https://hometelligentinc.com/faq/what-types-of-tile-are-best-suited-for-different-areas-of-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of tile are best suited for different areas of my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best tile type depends on the room's function and traffic. For high-moisture areas like bathrooms and kitchens, porcelain or ceramic tiles are excellent due to their water resistance. Porcelain is denser and more durable, making it ideal for high-traffic entryways or commercial spaces. Natural stone tiles like marble or travertine offer a luxurious aesthetic but require more maintenance and sealing. When selecting, consider your lifestyle and the specific demands of each area to ensure longevity and satisfaction. Hometelligent Inc. can help you assess your needs and recommend the most appropriate tile options for your Alameda home.",
-        "description": "Porcelain or ceramic tiles are best for high-moisture areas. Natural stone offers luxury but requires more maintenance."
-      }
-    }
-  ],
+  "name": "What types of tile are best suited for different areas of my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of tile are best suited for different areas of my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best tile type depends on the room's function and traffic. For high-moisture areas like bathrooms and kitchens, porcelain or ceramic tiles are excellent due to their water resistance. Porcelain is denser and more durable, making it ideal for high-traffic entryways or commercial spaces. Natural stone tiles like marble or travertine offer a luxurious aesthetic but require more maintenance and sealing. When selecting, consider your lifestyle and the specific demands of each area to ensure longevity and satisfaction. Hometelligent Inc. can help you assess your needs and recommend the most appropriate tile options for your Alameda home.",
+        "@type": "Answer",
+        "description": "Porcelain or ceramic tiles are best for high-moisture areas. Natural stone offers luxury but requires more maintenance."
+      }
+    }
+  ],
+  "description": "Porcelain or ceramic tiles are best for high-moisture areas. Natural stone offers luxury but requires more maintenance."
 }

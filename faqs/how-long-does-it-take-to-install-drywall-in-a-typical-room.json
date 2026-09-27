@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install drywall in a typical room?",
-  "description": "Drywall installation time varies by room size and complexity, with a standard room typically taking 2-4 days.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-drywall-in-a-typical-room",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install drywall in a typical room?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration for drywall installation depends on the room's size, complexity, and whether it's new construction or a repair. A standard bedroom might take 2-4 days, including hanging, taping, and mudding with drying time between coats. Larger or more intricate areas, especially those with many corners or openings, will require more time. Factors like the number of coats of joint compound and the desired finish level (e.g., smooth vs. textured) can extend the timeline. We can provide a more accurate estimate after an on-site assessment of your specific project.",
-        "description": "Drywall installation time varies by room size and complexity, with a standard room typically taking 2-4 days."
-      }
-    }
-  ],
+  "name": "How long does it take to install drywall in a typical room?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install drywall in a typical room?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration for drywall installation depends on the room's size, complexity, and whether it's new construction or a repair. A standard bedroom might take 2-4 days, including hanging, taping, and mudding with drying time between coats. Larger or more intricate areas, especially those with many corners or openings, will require more time. Factors like the number of coats of joint compound and the desired finish level (e.g., smooth vs. textured) can extend the timeline. We can provide a more accurate estimate after an on-site assessment of your specific project.",
+        "@type": "Answer",
+        "description": "Drywall installation time varies by room size and complexity, with a standard room typically taking 2-4 days."
+      }
+    }
+  ],
+  "description": "Drywall installation time varies by room size and complexity, with a standard room typically taking 2-4 days."
 }

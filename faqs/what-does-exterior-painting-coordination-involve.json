@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What does exterior painting coordination involve?",
-  "description": "Exterior painting coordination manages the entire project, including scheduling, material selection, and crew oversight, from start to finish.",
   "url": "https://hometelligentinc.com/faq/what-does-exterior-painting-coordination-involve",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does exterior painting coordination involve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Exterior painting coordination involves managing the entire process from initial consultation and color selection to surface preparation, painting application, and final inspection. It includes scheduling the work, ensuring proper materials are used, and overseeing the crew to maintain quality and adherence to the project timeline. For Hometelligent Inc., this means we handle all logistical details, allowing you to focus on design choices rather than operational complexities.",
-        "description": "Exterior painting coordination manages the entire project, including scheduling, material selection, and crew oversight, from start to finish."
-      }
-    }
-  ],
+  "name": "What does exterior painting coordination involve?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What does exterior painting coordination involve?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Exterior painting coordination involves managing the entire process from initial consultation and color selection to surface preparation, painting application, and final inspection. It includes scheduling the work, ensuring proper materials are used, and overseeing the crew to maintain quality and adherence to the project timeline. For Hometelligent Inc., this means we handle all logistical details, allowing you to focus on design choices rather than operational complexities.",
+        "@type": "Answer",
+        "description": "Exterior painting coordination manages the entire project, including scheduling, material selection, and crew oversight, from start to finish."
+      }
+    }
+  ],
+  "description": "Exterior painting coordination manages the entire project, including scheduling, material selection, and crew oversight, from start to finish."
 }

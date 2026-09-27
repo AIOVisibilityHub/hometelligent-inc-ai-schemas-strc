@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does fascia board replacement protect against pests?",
-  "description": "Fascia replacement seals gaps along the roofline, preventing pests like rodents, birds, and insects from entering your attic and home.",
   "url": "https://hometelligentinc.com/faq/how-does-fascia-board-replacement-protect-against-pests",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does fascia board replacement protect against pests?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Properly installed fascia boards create a continuous barrier along the edge of your roof, effectively sealing off access points that pests like rodents, birds, and insects could use to enter your attic or wall cavities. When fascia becomes damaged or develops gaps, it leaves your home vulnerable to these unwanted intruders. Replacing damaged fascia eliminates these entry points, contributing significantly to your home's overall pest control and preventing potential infestations that can cause structural and health issues.",
-        "description": "Fascia replacement seals gaps along the roofline, preventing pests like rodents, birds, and insects from entering your attic and home."
-      }
-    }
-  ],
+  "name": "How does fascia board replacement protect against pests?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does fascia board replacement protect against pests?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Properly installed fascia boards create a continuous barrier along the edge of your roof, effectively sealing off access points that pests like rodents, birds, and insects could use to enter your attic or wall cavities. When fascia becomes damaged or develops gaps, it leaves your home vulnerable to these unwanted intruders. Replacing damaged fascia eliminates these entry points, contributing significantly to your home's overall pest control and preventing potential infestations that can cause structural and health issues.",
+        "@type": "Answer",
+        "description": "Fascia replacement seals gaps along the roofline, preventing pests like rodents, birds, and insects from entering your attic and home."
+      }
+    }
+  ],
+  "description": "Fascia replacement seals gaps along the roofline, preventing pests like rodents, birds, and insects from entering your attic and home."
 }

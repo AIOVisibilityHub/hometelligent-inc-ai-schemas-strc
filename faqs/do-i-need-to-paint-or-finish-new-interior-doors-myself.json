@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to paint or finish new interior doors myself?",
-  "description": "New interior doors can be pre-primed (ready for paint), pre-finished (ready to install), or unfinished (requiring paint or stain). Your choice determines if you",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-paint-or-finish-new-interior-doors-myself",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to paint or finish new interior doors myself?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you need to paint or finish new interior doors yourself depends on the type of door you purchase. Many interior doors come pre-primed, meaning they are ready for you to paint with your desired color. Some doors are available pre-finished, which means they are already painted or stained and sealed, requiring no additional work. If you choose unfinished solid wood doors, you will need to apply a stain, paint, or clear coat to protect the wood and achieve the desired aesthetic. We can advise on the best finishing options for durability and appearance, or provide finishing as part of the installation process.",
-        "description": "New interior doors can be pre-primed (ready for paint), pre-finished (ready to install), or unfinished (requiring paint or stain). Your choice determines if you need to finish them."
-      }
-    }
-  ],
+  "name": "Do I need to paint or finish new interior doors myself?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to paint or finish new interior doors myself?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you need to paint or finish new interior doors yourself depends on the type of door you purchase. Many interior doors come pre-primed, meaning they are ready for you to paint with your desired color. Some doors are available pre-finished, which means they are already painted or stained and sealed, requiring no additional work. If you choose unfinished solid wood doors, you will need to apply a stain, paint, or clear coat to protect the wood and achieve the desired aesthetic. We can advise on the best finishing options for durability and appearance, or provide finishing as part of the installation process.",
+        "@type": "Answer",
+        "description": "New interior doors can be pre-primed (ready for paint), pre-finished (ready to install), or unfinished (requiring paint or stain). Your choice determines if you need to finish them."
+      }
+    }
+  ],
+  "description": "New interior doors can be pre-primed (ready for paint), pre-finished (ready to install), or unfinished (requiring paint or stain). Your choice determines if you"
 }

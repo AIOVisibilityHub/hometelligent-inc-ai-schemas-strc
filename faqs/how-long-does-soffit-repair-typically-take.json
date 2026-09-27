@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does soffit repair typically take?",
-  "description": "Soffit repair time varies from a few hours for minor issues to several days for extensive damage. Project scope, complexity, and weather can affect the timeline",
   "url": "https://hometelligentinc.com/faq/how-long-does-soffit-repair-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does soffit repair typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of soffit repair depends on the scope and complexity of the project. Minor repairs, such as addressing a small hole or replacing a single damaged panel, might only take a few hours. More extensive damage, involving multiple sections or structural repair, could take one to several days. Factors like weather conditions and the need for scaffolding can also affect the timeline. When planning, consider that larger projects, especially those requiring specialized materials for homes in areas like Piedmont or Oakland Hills, can extend the repair period.",
-        "description": "Soffit repair time varies from a few hours for minor issues to several days for extensive damage. Project scope, complexity, and weather can affect the timeline."
-      }
-    }
-  ],
+  "name": "How long does soffit repair typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does soffit repair typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of soffit repair depends on the scope and complexity of the project. Minor repairs, such as addressing a small hole or replacing a single damaged panel, might only take a few hours. More extensive damage, involving multiple sections or structural repair, could take one to several days. Factors like weather conditions and the need for scaffolding can also affect the timeline. When planning, consider that larger projects, especially those requiring specialized materials for homes in areas like Piedmont or Oakland Hills, can extend the repair period.",
+        "@type": "Answer",
+        "description": "Soffit repair time varies from a few hours for minor issues to several days for extensive damage. Project scope, complexity, and weather can affect the timeline."
+      }
+    }
+  ],
+  "description": "Soffit repair time varies from a few hours for minor issues to several days for extensive damage. Project scope, complexity, and weather can affect the timeline"
 }

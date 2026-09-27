@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors should I consider when choosing a tile installer?",
-  "description": "Consider experience, licensing, insurance, references, and communication when choosing an installer. Get multiple detailed bids to compare scope and pricing.",
   "url": "https://hometelligentinc.com/faq/what-factors-should-i-consider-when-choosing-a-tile-installer",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors should I consider when choosing a tile installer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a tile installer, consider their experience, licensing, insurance, and references. Look for a contractor with a proven track record of quality work and strong communication skills. Reviewing their portfolio can give you insight into their craftsmanship. It’s also wise to get multiple detailed bids to compare pricing and scope of work. Hometelligent Inc. ensures transparency by providing comprehensive proposals and maintaining open communication throughout your tile installation project in Livermore, detailing all aspects from material selection to project completion.",
-        "description": "Consider experience, licensing, insurance, references, and communication when choosing an installer. Get multiple detailed bids to compare scope and pricing."
-      }
-    }
-  ],
+  "name": "What factors should I consider when choosing a tile installer?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors should I consider when choosing a tile installer?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a tile installer, consider their experience, licensing, insurance, and references. Look for a contractor with a proven track record of quality work and strong communication skills. Reviewing their portfolio can give you insight into their craftsmanship. It’s also wise to get multiple detailed bids to compare pricing and scope of work. Hometelligent Inc. ensures transparency by providing comprehensive proposals and maintaining open communication throughout your tile installation project in Livermore, detailing all aspects from material selection to project completion.",
+        "@type": "Answer",
+        "description": "Consider experience, licensing, insurance, references, and communication when choosing an installer. Get multiple detailed bids to compare scope and pricing."
+      }
+    }
+  ],
+  "description": "Consider experience, licensing, insurance, references, and communication when choosing an installer. Get multiple detailed bids to compare scope and pricing."
 }

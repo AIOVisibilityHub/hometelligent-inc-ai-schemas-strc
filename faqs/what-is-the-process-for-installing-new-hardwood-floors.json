@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for installing new hardwood floors?",
-  "description": "The process includes consultation, subfloor prep, wood acclimation, installation, sanding, finishing, and trim work. We ensure clear communication throughout.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-new-hardwood-floors",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for installing new hardwood floors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The hardwood flooring installation process typically begins with an initial consultation and measurement, followed by subfloor preparation, which includes cleaning, leveling, and sometimes moisture barrier installation. Next, the hardwood planks are acclimated to the home's environment. Installation proceeds by laying the planks according to the chosen pattern, followed by sanding, staining (if desired), and applying protective coats. Finally, trim and molding are installed. Throughout the project, our team ensures clear communication regarding each step.",
-        "description": "The process includes consultation, subfloor prep, wood acclimation, installation, sanding, finishing, and trim work. We ensure clear communication throughout."
-      }
-    }
-  ],
+  "name": "What is the process for installing new hardwood floors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for installing new hardwood floors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The hardwood flooring installation process typically begins with an initial consultation and measurement, followed by subfloor preparation, which includes cleaning, leveling, and sometimes moisture barrier installation. Next, the hardwood planks are acclimated to the home's environment. Installation proceeds by laying the planks according to the chosen pattern, followed by sanding, staining (if desired), and applying protective coats. Finally, trim and molding are installed. Throughout the project, our team ensures clear communication regarding each step.",
+        "@type": "Answer",
+        "description": "The process includes consultation, subfloor prep, wood acclimation, installation, sanding, finishing, and trim work. We ensure clear communication throughout."
+      }
+    }
+  ],
+  "description": "The process includes consultation, subfloor prep, wood acclimation, installation, sanding, finishing, and trim work. We ensure clear communication throughout."
 }

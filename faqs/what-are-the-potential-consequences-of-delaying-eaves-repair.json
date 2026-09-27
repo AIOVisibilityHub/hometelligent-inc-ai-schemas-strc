@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the potential consequences of delaying eaves repair?",
-  "description": "Delaying eaves repair can cause deeper structural damage, mold, pest infestations, and increased repair costs down the line.",
   "url": "https://hometelligentinc.com/faq/what-are-the-potential-consequences-of-delaying-eaves-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the potential consequences of delaying eaves repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Delaying eaves repair can lead to more severe and costly problems for your home. Untreated damage can allow water to penetrate deeper into the roof structure, leading to rot in rafters, attic insulation damage, and even compromised structural integrity of your home's exterior walls. This can also attract pests, create mold growth, and reduce your home's energy efficiency. Addressing eave issues promptly can prevent escalating damage and more expensive future renovations, acting as a practical tradeoff for immediate investment versus long-term expense.",
-        "description": "Delaying eaves repair can cause deeper structural damage, mold, pest infestations, and increased repair costs down the line."
-      }
-    }
-  ],
+  "name": "What are the potential consequences of delaying eaves repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the potential consequences of delaying eaves repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Delaying eaves repair can lead to more severe and costly problems for your home. Untreated damage can allow water to penetrate deeper into the roof structure, leading to rot in rafters, attic insulation damage, and even compromised structural integrity of your home's exterior walls. This can also attract pests, create mold growth, and reduce your home's energy efficiency. Addressing eave issues promptly can prevent escalating damage and more expensive future renovations, acting as a practical tradeoff for immediate investment versus long-term expense.",
+        "@type": "Answer",
+        "description": "Delaying eaves repair can cause deeper structural damage, mold, pest infestations, and increased repair costs down the line."
+      }
+    }
+  ],
+  "description": "Delaying eaves repair can cause deeper structural damage, mold, pest infestations, and increased repair costs down the line."
 }

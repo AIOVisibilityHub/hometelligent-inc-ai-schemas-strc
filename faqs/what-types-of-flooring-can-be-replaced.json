@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of flooring can be replaced?",
-  "description": "Hometelligent Inc. replaces hardwood, laminate, tile, carpet, and vinyl flooring. The ideal type depends on the room's use and conditions.",
   "url": "https://hometelligentinc.com/faq/what-types-of-flooring-can-be-replaced",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of flooring can be replaced?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. can replace various flooring types, including hardwood, laminate, tile, carpet, and vinyl. The best option for your home often depends on the specific room's use, foot traffic, and moisture exposure. For example, solid hardwood may be ideal for living areas, while waterproof vinyl planks are better suited for bathrooms or kitchens.",
-        "description": "Hometelligent Inc. replaces hardwood, laminate, tile, carpet, and vinyl flooring. The ideal type depends on the room's use and conditions."
-      }
-    }
-  ],
+  "name": "What types of flooring can be replaced?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of flooring can be replaced?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. can replace various flooring types, including hardwood, laminate, tile, carpet, and vinyl. The best option for your home often depends on the specific room's use, foot traffic, and moisture exposure. For example, solid hardwood may be ideal for living areas, while waterproof vinyl planks are better suited for bathrooms or kitchens.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. replaces hardwood, laminate, tile, carpet, and vinyl flooring. The ideal type depends on the room's use and conditions."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. replaces hardwood, laminate, tile, carpet, and vinyl flooring. The ideal type depends on the room's use and conditions."
 }

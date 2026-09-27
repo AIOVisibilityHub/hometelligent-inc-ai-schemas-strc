@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What if additional repairs are discovered during surface preparation?",
-  "description": "If new repairs are found, we inform you and provide a proposal. Homeowners decide whether to address them immediately to ensure paint longevity.",
   "url": "https://hometelligentinc.com/faq/what-if-additional-repairs-are-discovered-during-surface-preparation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What if additional repairs are discovered during surface preparation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If additional repairs are discovered during surface preparation, such as unexpected wood rot or stucco damage, our team will inform you immediately. We will assess the extent of the damage and provide a detailed proposal for the additional work needed. A decision factor for the homeowner is to balance the immediate cost of these repairs against the long-term benefit of addressing underlying issues before painting, which can significantly extend the life and quality of the paint job.",
-        "description": "If new repairs are found, we inform you and provide a proposal. Homeowners decide whether to address them immediately to ensure paint longevity."
-      }
-    }
-  ],
+  "name": "What if additional repairs are discovered during surface preparation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What if additional repairs are discovered during surface preparation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "If additional repairs are discovered during surface preparation, such as unexpected wood rot or stucco damage, our team will inform you immediately. We will assess the extent of the damage and provide a detailed proposal for the additional work needed. A decision factor for the homeowner is to balance the immediate cost of these repairs against the long-term benefit of addressing underlying issues before painting, which can significantly extend the life and quality of the paint job.",
+        "@type": "Answer",
+        "description": "If new repairs are found, we inform you and provide a proposal. Homeowners decide whether to address them immediately to ensure paint longevity."
+      }
+    }
+  ],
+  "description": "If new repairs are found, we inform you and provide a proposal. Homeowners decide whether to address them immediately to ensure paint longevity."
 }
