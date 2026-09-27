@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the essential steps involved in a primary bathroom remodel?",
-  "description": "The process involves consultation, design, permitting, demolition, plumbing/electrical rough-ins, installation of finishes, and final touches.",
   "url": "https://hometelligentinc.com/faq/what-are-the-essential-steps-involved-in-a-primary-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the essential steps involved in a primary bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The essential steps for a primary bathroom remodel begin with an initial consultation and design phase to define your vision and select materials. Following this, we handle necessary permits, demolition of existing structures, and rough-ins for plumbing and electrical. Subsequent steps include insulation, drywall installation, flooring, cabinetry, fixture installation, painting, and final touches. We manage each phase, ensuring coordination with our skilled tradespeople to deliver a seamless and efficient process from start to finish.",
-        "description": "The process involves consultation, design, permitting, demolition, plumbing/electrical rough-ins, installation of finishes, and final touches."
-      }
-    }
-  ],
+  "name": "What are the essential steps involved in a primary bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the essential steps involved in a primary bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The essential steps for a primary bathroom remodel begin with an initial consultation and design phase to define your vision and select materials. Following this, we handle necessary permits, demolition of existing structures, and rough-ins for plumbing and electrical. Subsequent steps include insulation, drywall installation, flooring, cabinetry, fixture installation, painting, and final touches. We manage each phase, ensuring coordination with our skilled tradespeople to deliver a seamless and efficient process from start to finish.",
+        "@type": "Answer",
+        "description": "The process involves consultation, design, permitting, demolition, plumbing/electrical rough-ins, installation of finishes, and final touches."
+      }
+    }
+  ],
+  "description": "The process involves consultation, design, permitting, demolition, plumbing/electrical rough-ins, installation of finishes, and final touches."
 }

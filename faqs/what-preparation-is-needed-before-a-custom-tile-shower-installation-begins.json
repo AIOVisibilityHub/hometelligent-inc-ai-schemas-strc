@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before a custom tile shower installation begins?",
-  "description": "Before installation, finalize tile and fixture selections, clear the bathroom, and have your design preferences ready.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-a-custom-tile-shower-installation-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before a custom tile shower installation begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before a custom tile shower installation, you should finalize your tile selection, shower fixtures, and any design preferences, as these decisions impact material orders and project scope. Clearing the bathroom of personal items and ensuring clear access for our team will help streamline the start of the project. Having a clear idea of your desired aesthetic and functional needs, such as showerhead type or niche placement, will aid in the initial design phase. Hometelligent Inc. will provide a detailed checklist after the initial project assessment.",
-        "description": "Before installation, finalize tile and fixture selections, clear the bathroom, and have your design preferences ready."
-      }
-    }
-  ],
+  "name": "What preparation is needed before a custom tile shower installation begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before a custom tile shower installation begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before a custom tile shower installation, you should finalize your tile selection, shower fixtures, and any design preferences, as these decisions impact material orders and project scope. Clearing the bathroom of personal items and ensuring clear access for our team will help streamline the start of the project. Having a clear idea of your desired aesthetic and functional needs, such as showerhead type or niche placement, will aid in the initial design phase. Hometelligent Inc. will provide a detailed checklist after the initial project assessment.",
+        "@type": "Answer",
+        "description": "Before installation, finalize tile and fixture selections, clear the bathroom, and have your design preferences ready."
+      }
+    }
+  ],
+  "description": "Before installation, finalize tile and fixture selections, clear the bathroom, and have your design preferences ready."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a minor update and a complete primary bathroom renovation?",
-  "description": "A minor update is cosmetic, while a complete renovation involves structural changes, layout reconfiguration, and new installations.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-minor-update-and-a-complete-primary-bathroom-re",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a minor update and a complete primary bathroom renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A minor update typically involves cosmetic changes such as painting, replacing fixtures, or updating the vanity without altering the layout. In contrast, a complete primary bathroom renovation often entails gutting the space, reconfiguring the layout, relocating plumbing and electrical lines, and installing all-new finishes. The decision between the two depends on your goals, budget, and the current condition of your bathroom. A complete renovation provides a fresh start and greater design flexibility, while an update offers a quicker, more cost-effective refresh.",
-        "description": "A minor update is cosmetic, while a complete renovation involves structural changes, layout reconfiguration, and new installations."
-      }
-    }
-  ],
+  "name": "What is the difference between a minor update and a complete primary bathroom renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a minor update and a complete primary bathroom renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A minor update typically involves cosmetic changes such as painting, replacing fixtures, or updating the vanity without altering the layout. In contrast, a complete primary bathroom renovation often entails gutting the space, reconfiguring the layout, relocating plumbing and electrical lines, and installing all-new finishes. The decision between the two depends on your goals, budget, and the current condition of your bathroom. A complete renovation provides a fresh start and greater design flexibility, while an update offers a quicker, more cost-effective refresh.",
+        "@type": "Answer",
+        "description": "A minor update is cosmetic, while a complete renovation involves structural changes, layout reconfiguration, and new installations."
+      }
+    }
+  ],
+  "description": "A minor update is cosmetic, while a complete renovation involves structural changes, layout reconfiguration, and new installations."
 }

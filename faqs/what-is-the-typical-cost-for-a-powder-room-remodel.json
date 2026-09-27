@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for a powder room remodel?",
-  "description": "Powder room remodel costs range from a few thousand for cosmetic updates to over $20,000 for high-end renovations, depending on materials and scope.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-a-powder-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for a powder room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a powder room remodel can vary significantly depending on the extent of the work, the quality of materials selected, and labor rates in the Alameda service area. Minor cosmetic updates, like new paint and a faucet, can be a few thousand dollars. A mid-range remodel with new fixtures, flooring, and a vanity might cost between $5,000 and $15,000. High-end renovations with custom elements or layout changes can exceed $20,000. We recommend discussing your budget early to help us guide your material selections and design options effectively.",
-        "description": "Powder room remodel costs range from a few thousand for cosmetic updates to over $20,000 for high-end renovations, depending on materials and scope."
-      }
-    }
-  ],
+  "name": "What is the typical cost for a powder room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for a powder room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a powder room remodel can vary significantly depending on the extent of the work, the quality of materials selected, and labor rates in the Alameda service area. Minor cosmetic updates, like new paint and a faucet, can be a few thousand dollars. A mid-range remodel with new fixtures, flooring, and a vanity might cost between $5,000 and $15,000. High-end renovations with custom elements or layout changes can exceed $20,000. We recommend discussing your budget early to help us guide your material selections and design options effectively.",
+        "@type": "Answer",
+        "description": "Powder room remodel costs range from a few thousand for cosmetic updates to over $20,000 for high-end renovations, depending on materials and scope."
+      }
+    }
+  ],
+  "description": "Powder room remodel costs range from a few thousand for cosmetic updates to over $20,000 for high-end renovations, depending on materials and scope."
 }

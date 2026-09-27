@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to hire a plumber for a custom vanity installation?",
-  "description": "A plumber is usually needed for custom vanity installation, particularly if plumbing lines or fixtures are changed, and we can coordinate or recommend one.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-hire-a-plumber-for-a-custom-vanity-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to hire a plumber for a custom vanity installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, hiring a qualified plumber is typically necessary for a custom vanity installation, especially if the new vanity requires relocating water lines, drains, or if you're upgrading to new fixtures like a vessel sink. While Hometelligent Inc. handles the vanity installation, ensuring proper plumbing connections is crucial to prevent leaks and ensure functionality. We can coordinate with your plumber or recommend trusted professionals in the Alameda, Albany, or Berkeley areas to ensure seamless integration and compliance with local codes.",
-        "description": "A plumber is usually needed for custom vanity installation, particularly if plumbing lines or fixtures are changed, and we can coordinate or recommend one."
-      }
-    }
-  ],
+  "name": "Do I need to hire a plumber for a custom vanity installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to hire a plumber for a custom vanity installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, hiring a qualified plumber is typically necessary for a custom vanity installation, especially if the new vanity requires relocating water lines, drains, or if you're upgrading to new fixtures like a vessel sink. While Hometelligent Inc. handles the vanity installation, ensuring proper plumbing connections is crucial to prevent leaks and ensure functionality. We can coordinate with your plumber or recommend trusted professionals in the Alameda, Albany, or Berkeley areas to ensure seamless integration and compliance with local codes.",
+        "@type": "Answer",
+        "description": "A plumber is usually needed for custom vanity installation, particularly if plumbing lines or fixtures are changed, and we can coordinate or recommend one."
+      }
+    }
+  ],
+  "description": "A plumber is usually needed for custom vanity installation, particularly if plumbing lines or fixtures are changed, and we can coordinate or recommend one."
 }

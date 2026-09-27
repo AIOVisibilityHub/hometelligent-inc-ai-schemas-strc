@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for installing a new bathroom countertop?",
-  "description": "The installation process involves consultation, measurement, fabrication, removal of the old countertop, and installation of the new one with plumbing reconnect",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-a-new-bathroom-countertop",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for installing a new bathroom countertop?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for installing a new bathroom countertop with Hometelligent Inc. begins with an initial consultation and material selection, followed by precise measurements of your bathroom space. Next, the chosen material is fabricated to your specifications. During installation, the old countertop is removed, the new one is carefully positioned and secured, and any necessary plumbing fixtures are reconnected. Before your consultation, consider the size and shape of your existing vanity, as well as any specific sink or faucet requirements you have, to help us streamline the design and measurement phases.",
-        "description": "The installation process involves consultation, measurement, fabrication, removal of the old countertop, and installation of the new one with plumbing reconnection."
-      }
-    }
-  ],
+  "name": "What is the process for installing a new bathroom countertop?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for installing a new bathroom countertop?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for installing a new bathroom countertop with Hometelligent Inc. begins with an initial consultation and material selection, followed by precise measurements of your bathroom space. Next, the chosen material is fabricated to your specifications. During installation, the old countertop is removed, the new one is carefully positioned and secured, and any necessary plumbing fixtures are reconnected. Before your consultation, consider the size and shape of your existing vanity, as well as any specific sink or faucet requirements you have, to help us streamline the design and measurement phases.",
+        "@type": "Answer",
+        "description": "The installation process involves consultation, measurement, fabrication, removal of the old countertop, and installation of the new one with plumbing reconnection."
+      }
+    }
+  ],
+  "description": "The installation process involves consultation, measurement, fabrication, removal of the old countertop, and installation of the new one with plumbing reconnect"
 }

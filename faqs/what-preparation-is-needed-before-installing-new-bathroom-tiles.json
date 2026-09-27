@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before installing new bathroom tiles?",
-  "description": "Preparation for bathroom tile installation involves removing old materials, ensuring surfaces are clean and level, and often applying waterproofing, to prevent",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-installing-new-bathroom-tiles",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before installing new bathroom tiles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proper preparation is crucial for a successful tile installation. This typically involves removing old flooring or wall coverings, ensuring the subfloor or walls are clean, level, and structurally sound. Waterproofing membranes are often applied in shower areas and around tubs to prevent moisture damage. Any necessary repairs to the subfloor or wall substrate must be completed before tiling begins. Adequate preparation prevents common issues like cracked tiles, loose grout, or water leaks in the future.",
-        "description": "Preparation for bathroom tile installation involves removing old materials, ensuring surfaces are clean and level, and often applying waterproofing, to prevent future issues."
-      }
-    }
-  ],
+  "name": "What preparation is needed before installing new bathroom tiles?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before installing new bathroom tiles?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Proper preparation is crucial for a successful tile installation. This typically involves removing old flooring or wall coverings, ensuring the subfloor or walls are clean, level, and structurally sound. Waterproofing membranes are often applied in shower areas and around tubs to prevent moisture damage. Any necessary repairs to the subfloor or wall substrate must be completed before tiling begins. Adequate preparation prevents common issues like cracked tiles, loose grout, or water leaks in the future.",
+        "@type": "Answer",
+        "description": "Preparation for bathroom tile installation involves removing old materials, ensuring surfaces are clean and level, and often applying waterproofing, to prevent future issues."
+      }
+    }
+  ],
+  "description": "Preparation for bathroom tile installation involves removing old materials, ensuring surfaces are clean and level, and often applying waterproofing, to prevent"
 }

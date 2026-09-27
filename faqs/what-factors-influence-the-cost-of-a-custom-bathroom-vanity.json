@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a custom bathroom vanity?",
-  "description": "Cost factors include material choices, design complexity, size, and hardware. Material selection is often the biggest cost driver.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-custom-bathroom-vanity",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a custom bathroom vanity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a custom bathroom vanity is primarily influenced by material choices, such as solid wood versus engineered wood, and countertop selection like quartz or marble. The complexity of the design, including features like integrated lighting, custom storage solutions, or unique finishes, also plays a significant role. Additionally, the size of the vanity and the type of hardware selected contribute to the overall price. Your budget can be managed by considering alternatives for less visible components or by choosing standard-sized sinks instead of custom-fabricated ones.",
-        "description": "Cost factors include material choices, design complexity, size, and hardware. Material selection is often the biggest cost driver."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a custom bathroom vanity?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a custom bathroom vanity?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a custom bathroom vanity is primarily influenced by material choices, such as solid wood versus engineered wood, and countertop selection like quartz or marble. The complexity of the design, including features like integrated lighting, custom storage solutions, or unique finishes, also plays a significant role. Additionally, the size of the vanity and the type of hardware selected contribute to the overall price. Your budget can be managed by considering alternatives for less visible components or by choosing standard-sized sinks instead of custom-fabricated ones.",
+        "@type": "Answer",
+        "description": "Cost factors include material choices, design complexity, size, and hardware. Material selection is often the biggest cost driver."
+      }
+    }
+  ],
+  "description": "Cost factors include material choices, design complexity, size, and hardware. Material selection is often the biggest cost driver."
 }

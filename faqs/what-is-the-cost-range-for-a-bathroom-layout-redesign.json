@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the cost range for a bathroom layout redesign?",
-  "description": "Bathroom layout redesign costs vary from thousands to tens of thousands of dollars, depending on plumbing changes, fixture quality, and bathroom size. Hometelli",
   "url": "https://hometelligentinc.com/faq/what-is-the-cost-range-for-a-bathroom-layout-redesign",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the cost range for a bathroom layout redesign?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a bathroom layout redesign can vary widely, generally ranging from several thousand dollars for a basic refresh to tens of thousands for a complete luxury overhaul. Key factors influencing the price include the extent of plumbing and electrical relocation, the quality of chosen fixtures and finishes, and the size of the bathroom. For example, moving a toilet or shower drain is a more significant expense than keeping them in their original positions. Hometelligent Inc. provides detailed, transparent estimates tailored to your specific design choices and project scope.",
-        "description": "Bathroom layout redesign costs vary from thousands to tens of thousands of dollars, depending on plumbing changes, fixture quality, and bathroom size. Hometelligent Inc. provides tailored estimates."
-      }
-    }
-  ],
+  "name": "What is the cost range for a bathroom layout redesign?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the cost range for a bathroom layout redesign?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a bathroom layout redesign can vary widely, generally ranging from several thousand dollars for a basic refresh to tens of thousands for a complete luxury overhaul. Key factors influencing the price include the extent of plumbing and electrical relocation, the quality of chosen fixtures and finishes, and the size of the bathroom. For example, moving a toilet or shower drain is a more significant expense than keeping them in their original positions. Hometelligent Inc. provides detailed, transparent estimates tailored to your specific design choices and project scope.",
+        "@type": "Answer",
+        "description": "Bathroom layout redesign costs vary from thousands to tens of thousands of dollars, depending on plumbing changes, fixture quality, and bathroom size. Hometelligent Inc. provides tailored estimates."
+      }
+    }
+  ],
+  "description": "Bathroom layout redesign costs vary from thousands to tens of thousands of dollars, depending on plumbing changes, fixture quality, and bathroom size. Hometelli"
 }

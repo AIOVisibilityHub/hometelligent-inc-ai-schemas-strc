@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I choose a floating or a floor-mounted custom vanity?",
-  "description": "Choose based on aesthetics and storage needs; floating offers a modern look and easier cleaning but less storage, while floor-mounted provides more storage.",
   "url": "https://hometelligentinc.com/faq/should-i-choose-a-floating-or-a-floor-mounted-custom-vanity",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I choose a floating or a floor-mounted custom vanity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The choice between a floating and a floor-mounted custom vanity depends on your aesthetic preference and practical needs. Floating vanities offer a modern look and can make a small bathroom appear larger, providing easier floor cleaning. However, they typically offer less storage capacity than floor-mounted options. Floor-mounted vanities generally provide more robust storage and a traditional aesthetic. Consider your storage requirements and the existing plumbing layout, as a floating vanity might require minor plumbing adjustments for optimal placement and support.",
-        "description": "Choose based on aesthetics and storage needs; floating offers a modern look and easier cleaning but less storage, while floor-mounted provides more storage."
-      }
-    }
-  ],
+  "name": "Should I choose a floating or a floor-mounted custom vanity?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I choose a floating or a floor-mounted custom vanity?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The choice between a floating and a floor-mounted custom vanity depends on your aesthetic preference and practical needs. Floating vanities offer a modern look and can make a small bathroom appear larger, providing easier floor cleaning. However, they typically offer less storage capacity than floor-mounted options. Floor-mounted vanities generally provide more robust storage and a traditional aesthetic. Consider your storage requirements and the existing plumbing layout, as a floating vanity might require minor plumbing adjustments for optimal placement and support.",
+        "@type": "Answer",
+        "description": "Choose based on aesthetics and storage needs; floating offers a modern look and easier cleaning but less storage, while floor-mounted provides more storage."
+      }
+    }
+  ],
+  "description": "Choose based on aesthetics and storage needs; floating offers a modern look and easier cleaning but less storage, while floor-mounted provides more storage."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I choose the right materials for my master bathroom remodel?",
-  "description": "Choose materials by balancing durability, aesthetics, and budget, considering long-term maintenance and compatibility with your home's style. Hometelligent Inc.",
   "url": "https://hometelligentinc.com/faq/how-can-i-choose-the-right-materials-for-my-master-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I choose the right materials for my master bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right materials involves balancing durability, aesthetics, and budget. Consider the long-term maintenance requirements of options like natural stone versus porcelain tile for flooring and showers. For countertops, quartz and granite are popular for their resilience. It's important to select materials that complement your home's overall style and can withstand the moisture-rich bathroom environment. Our design consultants at Hometelligent Inc. can guide you through material selections, showcasing options that fit your vision and are suitable for the local climate and common usage patterns.",
-        "description": "Choose materials by balancing durability, aesthetics, and budget, considering long-term maintenance and compatibility with your home's style. Hometelligent Inc. consultants can help select options suited for your vision and bathroom environment."
-      }
-    }
-  ],
+  "name": "How can I choose the right materials for my master bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I choose the right materials for my master bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right materials involves balancing durability, aesthetics, and budget. Consider the long-term maintenance requirements of options like natural stone versus porcelain tile for flooring and showers. For countertops, quartz and granite are popular for their resilience. It's important to select materials that complement your home's overall style and can withstand the moisture-rich bathroom environment. Our design consultants at Hometelligent Inc. can guide you through material selections, showcasing options that fit your vision and are suitable for the local climate and common usage patterns.",
+        "@type": "Answer",
+        "description": "Choose materials by balancing durability, aesthetics, and budget, considering long-term maintenance and compatibility with your home's style. Hometelligent Inc. consultants can help select options suited for your vision and bathroom environment."
+      }
+    }
+  ],
+  "description": "Choose materials by balancing durability, aesthetics, and budget, considering long-term maintenance and compatibility with your home's style. Hometelligent Inc."
 }

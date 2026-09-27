@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I stay in my home during a bathroom renovation?",
-  "description": "You can often stay home during a renovation if another bathroom is available, but expect noise and temporary utility disruptions. We work to minimize disruption",
   "url": "https://hometelligentinc.com/faq/can-i-stay-in-my-home-during-a-bathroom-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I stay in my home during a bathroom renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Staying in your home during a bathroom renovation is often possible, especially if you have a second bathroom available. However, be prepared for noise, dust, and limited access to the renovated area. Water and power may be temporarily shut off during certain phases. Hometelligent Inc. works to minimize disruption by scheduling noisy work during specific hours and maintaining a clean work environment, providing clear communication about what to expect daily.",
-        "description": "You can often stay home during a renovation if another bathroom is available, but expect noise and temporary utility disruptions. We work to minimize disruption."
-      }
-    }
-  ],
+  "name": "Can I stay in my home during a bathroom renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I stay in my home during a bathroom renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Staying in your home during a bathroom renovation is often possible, especially if you have a second bathroom available. However, be prepared for noise, dust, and limited access to the renovated area. Water and power may be temporarily shut off during certain phases. Hometelligent Inc. works to minimize disruption by scheduling noisy work during specific hours and maintaining a clean work environment, providing clear communication about what to expect daily.",
+        "@type": "Answer",
+        "description": "You can often stay home during a renovation if another bathroom is available, but expect noise and temporary utility disruptions. We work to minimize disruption."
+      }
+    }
+  ],
+  "description": "You can often stay home during a renovation if another bathroom is available, but expect noise and temporary utility disruptions. We work to minimize disruption"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common challenges in Jack-and-Jill bathroom remodels?",
-  "description": "Challenges include optimizing space and plumbing for dual users, ensuring ventilation, and minimizing disruption to adjacent bedrooms. Hometelligent addresses t",
   "url": "https://hometelligentinc.com/faq/what-are-common-challenges-in-jack-and-jill-bathroom-remodels",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common challenges in Jack-and-Jill bathroom remodels?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges in Jack-and-Jill bathroom remodels include optimizing space for two users, managing plumbing for dual fixtures, and ensuring adequate ventilation to prevent moisture issues. Coordinating schedules with two adjacent bedrooms and minimizing disruption during the construction phase can also be a challenge. Furthermore, the existing structural elements or plumbing lines may require creative solutions to achieve the desired layout. Hometelligent's project managers proactively address these challenges with strategic planning and experienced crews.",
-        "description": "Challenges include optimizing space and plumbing for dual users, ensuring ventilation, and minimizing disruption to adjacent bedrooms. Hometelligent addresses these with strategic planning."
-      }
-    }
-  ],
+  "name": "What are common challenges in Jack-and-Jill bathroom remodels?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common challenges in Jack-and-Jill bathroom remodels?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges in Jack-and-Jill bathroom remodels include optimizing space for two users, managing plumbing for dual fixtures, and ensuring adequate ventilation to prevent moisture issues. Coordinating schedules with two adjacent bedrooms and minimizing disruption during the construction phase can also be a challenge. Furthermore, the existing structural elements or plumbing lines may require creative solutions to achieve the desired layout. Hometelligent's project managers proactively address these challenges with strategic planning and experienced crews.",
+        "@type": "Answer",
+        "description": "Challenges include optimizing space and plumbing for dual users, ensuring ventilation, and minimizing disruption to adjacent bedrooms. Hometelligent addresses these with strategic planning."
+      }
+    }
+  ],
+  "description": "Challenges include optimizing space and plumbing for dual users, ensuring ventilation, and minimizing disruption to adjacent bedrooms. Hometelligent addresses t"
 }

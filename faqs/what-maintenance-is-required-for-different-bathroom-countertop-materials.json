@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for different bathroom countertop materials?",
-  "description": "Maintenance depends on the material; natural stone needs sealing, while quartz and solid surface are low-maintenance and easier to clean.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-different-bathroom-countertop-materials",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for different bathroom countertop materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance requirements vary significantly by material. Natural stones like granite and marble typically need periodic sealing to prevent staining and should be cleaned with pH-neutral cleaners. Engineered quartz is non-porous and requires less maintenance, usually just soap and water. Solid surface countertops are also non-porous and can often be repaired if scratched. Understanding these differences is a practical tradeoff; for instance, granite offers natural beauty but demands more routine care than quartz. Hometelligent Inc. provides specific care instructions for each installed material.",
-        "description": "Maintenance depends on the material; natural stone needs sealing, while quartz and solid surface are low-maintenance and easier to clean."
-      }
-    }
-  ],
+  "name": "What maintenance is required for different bathroom countertop materials?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for different bathroom countertop materials?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintenance requirements vary significantly by material. Natural stones like granite and marble typically need periodic sealing to prevent staining and should be cleaned with pH-neutral cleaners. Engineered quartz is non-porous and requires less maintenance, usually just soap and water. Solid surface countertops are also non-porous and can often be repaired if scratched. Understanding these differences is a practical tradeoff; for instance, granite offers natural beauty but demands more routine care than quartz. Hometelligent Inc. provides specific care instructions for each installed material.",
+        "@type": "Answer",
+        "description": "Maintenance depends on the material; natural stone needs sealing, while quartz and solid surface are low-maintenance and easier to clean."
+      }
+    }
+  ],
+  "description": "Maintenance depends on the material; natural stone needs sealing, while quartz and solid surface are low-maintenance and easier to clean."
 }

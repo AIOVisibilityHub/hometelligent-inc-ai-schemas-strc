@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for a half-bath remodel?",
-  "description": "Choose a contractor with experience, good references, proper licensing, and clear communication. Hometelligent Inc. offers transparency and quality craftsmanshi",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-a-half-bath-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for a half-bath remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a contractor for your half-bath remodel, look for experience, strong references, and proper licensing and insurance. It's important to choose a company that communicates clearly, provides detailed proposals, and understands your specific design preferences. Hometelligent Inc. provides transparency in our process and references, ensuring our clients feel confident in our ability to deliver quality craftsmanship tailored to their needs and budget, serving communities from Oakland to San Leandro.",
-        "description": "Choose a contractor with experience, good references, proper licensing, and clear communication. Hometelligent Inc. offers transparency and quality craftsmanship."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for a half-bath remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for a half-bath remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a contractor for your half-bath remodel, look for experience, strong references, and proper licensing and insurance. It's important to choose a company that communicates clearly, provides detailed proposals, and understands your specific design preferences. Hometelligent Inc. provides transparency in our process and references, ensuring our clients feel confident in our ability to deliver quality craftsmanship tailored to their needs and budget, serving communities from Oakland to San Leandro.",
+        "@type": "Answer",
+        "description": "Choose a contractor with experience, good references, proper licensing, and clear communication. Hometelligent Inc. offers transparency and quality craftsmanship."
+      }
+    }
+  ],
+  "description": "Choose a contractor with experience, good references, proper licensing, and clear communication. Hometelligent Inc. offers transparency and quality craftsmanshi"
 }

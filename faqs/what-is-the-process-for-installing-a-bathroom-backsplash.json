@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for installing a bathroom backsplash?",
-  "description": "The process includes wall preparation, layout planning, tile setting, grouting, and sealing.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-a-bathroom-backsplash",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for installing a bathroom backsplash?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The bathroom backsplash installation process generally involves several steps: surface preparation, measuring and planning the layout, applying adhesive, setting the tiles, grouting, and finally, sealing (if necessary). Proper surface preparation, ensuring the wall is clean, dry, and flat, is a critical step that affects the final appearance and durability. Our skilled installers ensure each step is executed precisely to achieve a professional finish.",
-        "description": "The process includes wall preparation, layout planning, tile setting, grouting, and sealing."
-      }
-    }
-  ],
+  "name": "What is the process for installing a bathroom backsplash?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for installing a bathroom backsplash?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The bathroom backsplash installation process generally involves several steps: surface preparation, measuring and planning the layout, applying adhesive, setting the tiles, grouting, and finally, sealing (if necessary). Proper surface preparation, ensuring the wall is clean, dry, and flat, is a critical step that affects the final appearance and durability. Our skilled installers ensure each step is executed precisely to achieve a professional finish.",
+        "@type": "Answer",
+        "description": "The process includes wall preparation, layout planning, tile setting, grouting, and sealing."
+      }
+    }
+  ],
+  "description": "The process includes wall preparation, layout planning, tile setting, grouting, and sealing."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing a barrier-free shower?",
-  "description": "Benefits include improved accessibility, reduced fall risks, modern aesthetics, and increased home value.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-a-barrier-free-shower",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing a barrier-free shower?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Barrier-free showers offer improved accessibility, reducing fall risks for individuals with limited mobility. They also provide a modern aesthetic and can increase a home's resale value due to their universal design appeal. This type of installation is a practical tradeoff, prioritizing long-term accessibility and safety over a traditional shower basin design.",
-        "description": "Benefits include improved accessibility, reduced fall risks, modern aesthetics, and increased home value."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing a barrier-free shower?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing a barrier-free shower?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Barrier-free showers offer improved accessibility, reducing fall risks for individuals with limited mobility. They also provide a modern aesthetic and can increase a home's resale value due to their universal design appeal. This type of installation is a practical tradeoff, prioritizing long-term accessibility and safety over a traditional shower basin design.",
+        "@type": "Answer",
+        "description": "Benefits include improved accessibility, reduced fall risks, modern aesthetics, and increased home value."
+      }
+    }
+  ],
+  "description": "Benefits include improved accessibility, reduced fall risks, modern aesthetics, and increased home value."
 }

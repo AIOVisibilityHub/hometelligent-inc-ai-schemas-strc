@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does drainage work in a barrier-free shower?",
-  "description": "Drainage requires a sloped floor towards a specialized drain, often with subfloor modification, to prevent water overflow.",
   "url": "https://hometelligentinc.com/faq/how-does-drainage-work-in-a-barrier-free-shower",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does drainage work in a barrier-free shower?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Barrier-free showers require specialized drainage systems to prevent water from flowing into the rest of the bathroom. This often involves a sloped floor towards a linear or point drain, and sometimes a slight modification of the subfloor. A key decision factor in the design is selecting the appropriate drain type and ensuring sufficient floor slope for effective water management.",
-        "description": "Drainage requires a sloped floor towards a specialized drain, often with subfloor modification, to prevent water overflow."
-      }
-    }
-  ],
+  "name": "How does drainage work in a barrier-free shower?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does drainage work in a barrier-free shower?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Barrier-free showers require specialized drainage systems to prevent water from flowing into the rest of the bathroom. This often involves a sloped floor towards a linear or point drain, and sometimes a slight modification of the subfloor. A key decision factor in the design is selecting the appropriate drain type and ensuring sufficient floor slope for effective water management.",
+        "@type": "Answer",
+        "description": "Drainage requires a sloped floor towards a specialized drain, often with subfloor modification, to prevent water overflow."
+      }
+    }
+  ],
+  "description": "Drainage requires a sloped floor towards a specialized drain, often with subfloor modification, to prevent water overflow."
 }

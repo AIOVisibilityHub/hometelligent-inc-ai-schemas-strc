@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for replacing an existing bathtub?",
-  "description": "The process involves removing the old tub, preparing the area, installing the new tub, connecting plumbing, and finishing the surrounding walls.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-replacing-an-existing-bathtub",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for replacing an existing bathtub?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The bathtub replacement process begins with draining and disconnecting the old tub's plumbing, followed by its careful removal. The area is then inspected for any subfloor damage or mold, and necessary repairs are made. Next, the new bathtub is moved into place, leveled, and connected to the plumbing. Finally, the surrounding walls are waterproofed, and new tile or panels are installed to create a finished look. Homeowners should clear the bathroom of personal items and ensure access to the work area to facilitate a smooth process.",
-        "description": "The process involves removing the old tub, preparing the area, installing the new tub, connecting plumbing, and finishing the surrounding walls."
-      }
-    }
-  ],
+  "name": "What is the process for replacing an existing bathtub?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for replacing an existing bathtub?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The bathtub replacement process begins with draining and disconnecting the old tub's plumbing, followed by its careful removal. The area is then inspected for any subfloor damage or mold, and necessary repairs are made. Next, the new bathtub is moved into place, leveled, and connected to the plumbing. Finally, the surrounding walls are waterproofed, and new tile or panels are installed to create a finished look. Homeowners should clear the bathroom of personal items and ensure access to the work area to facilitate a smooth process.",
+        "@type": "Answer",
+        "description": "The process involves removing the old tub, preparing the area, installing the new tub, connecting plumbing, and finishing the surrounding walls."
+      }
+    }
+  ],
+  "description": "The process involves removing the old tub, preparing the area, installing the new tub, connecting plumbing, and finishing the surrounding walls."
 }

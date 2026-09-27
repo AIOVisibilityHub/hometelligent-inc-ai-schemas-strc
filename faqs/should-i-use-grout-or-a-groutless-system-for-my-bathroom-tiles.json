@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I use grout or a groutless system for my bathroom tiles?",
-  "description": "Grout is almost always necessary for bathroom tiles to ensure stability and moisture protection. Groutless systems are generally not recommended for wet environ",
   "url": "https://hometelligentinc.com/faq/should-i-use-grout-or-a-groutless-system-for-my-bathroom-tiles",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I use grout or a groutless system for my bathroom tiles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most bathroom tile installations require grout to fill the spaces between tiles, providing stability, preventing moisture penetration, and enhancing the aesthetic. Groutless systems are rare and generally not recommended for wet areas like bathrooms, as they offer no protection against water infiltration into the substrate. While some very precisely rectified tiles can be installed with minimal grout lines for a seamless look, a small grout joint is always necessary. Your choice of grout color can also significantly impact the final appearance, either blending in or highlighting the tile pattern.",
-        "description": "Grout is almost always necessary for bathroom tiles to ensure stability and moisture protection. Groutless systems are generally not recommended for wet environments."
-      }
-    }
-  ],
+  "name": "Should I use grout or a groutless system for my bathroom tiles?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I use grout or a groutless system for my bathroom tiles?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most bathroom tile installations require grout to fill the spaces between tiles, providing stability, preventing moisture penetration, and enhancing the aesthetic. Groutless systems are rare and generally not recommended for wet areas like bathrooms, as they offer no protection against water infiltration into the substrate. While some very precisely rectified tiles can be installed with minimal grout lines for a seamless look, a small grout joint is always necessary. Your choice of grout color can also significantly impact the final appearance, either blending in or highlighting the tile pattern.",
+        "@type": "Answer",
+        "description": "Grout is almost always necessary for bathroom tiles to ensure stability and moisture protection. Groutless systems are generally not recommended for wet environments."
+      }
+    }
+  ],
+  "description": "Grout is almost always necessary for bathroom tiles to ensure stability and moisture protection. Groutless systems are generally not recommended for wet environ"
 }

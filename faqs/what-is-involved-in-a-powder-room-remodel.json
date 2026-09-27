@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a powder room remodel?",
-  "description": "A powder room remodel updates fixtures, surfaces, and potentially the layout. The scope depends on your aesthetic and functional goals, which we assess during c",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-powder-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a powder room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A powder room remodel typically involves updating fixtures like the toilet and sink, refreshing surfaces such as flooring and paint, and potentially replacing lighting or vanities. The scope can range from cosmetic upgrades to a complete overhaul, including reconfiguring the layout or addressing plumbing. Consider your primary goals – aesthetics, functionality, or both – as this will define the materials and labor required. Hometelligent Inc. will consult with you to understand your vision and assess the existing space to develop a tailored remodeling plan.",
-        "description": "A powder room remodel updates fixtures, surfaces, and potentially the layout. The scope depends on your aesthetic and functional goals, which we assess during consultation."
-      }
-    }
-  ],
+  "name": "What is involved in a powder room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a powder room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A powder room remodel typically involves updating fixtures like the toilet and sink, refreshing surfaces such as flooring and paint, and potentially replacing lighting or vanities. The scope can range from cosmetic upgrades to a complete overhaul, including reconfiguring the layout or addressing plumbing. Consider your primary goals – aesthetics, functionality, or both – as this will define the materials and labor required. Hometelligent Inc. will consult with you to understand your vision and assess the existing space to develop a tailored remodeling plan.",
+        "@type": "Answer",
+        "description": "A powder room remodel updates fixtures, surfaces, and potentially the layout. The scope depends on your aesthetic and functional goals, which we assess during consultation."
+      }
+    }
+  ],
+  "description": "A powder room remodel updates fixtures, surfaces, and potentially the layout. The scope depends on your aesthetic and functional goals, which we assess during c"
 }

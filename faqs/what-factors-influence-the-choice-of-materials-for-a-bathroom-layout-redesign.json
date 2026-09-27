@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the choice of materials for a bathroom layout redesign?",
-  "description": "Material choices for a bathroom redesign depend on durability, moisture resistance, aesthetics, maintenance, and budget. Consider the overall style and daily us",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-choice-of-materials-for-a-bathroom-layout-redesign",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the choice of materials for a bathroom layout redesign?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The choice of materials for a bathroom layout redesign is influenced by factors such as durability, moisture resistance, aesthetics, maintenance requirements, and budget. For example, porcelain tiles are highly durable and moisture-resistant for floors and showers, while natural stone offers a luxurious look but may require more sealing and maintenance. Consider the overall style you want to achieve, as well as the practicalities of daily use. Hometelligent Inc. guides clients through material selections, balancing quality, design vision, and longevity for the specific demands of a bathroom environment.",
-        "description": "Material choices for a bathroom redesign depend on durability, moisture resistance, aesthetics, maintenance, and budget. Consider the overall style and daily use. Hometelligent Inc. helps balance these factors for quality and longevity."
-      }
-    }
-  ],
+  "name": "What factors influence the choice of materials for a bathroom layout redesign?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the choice of materials for a bathroom layout redesign?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The choice of materials for a bathroom layout redesign is influenced by factors such as durability, moisture resistance, aesthetics, maintenance requirements, and budget. For example, porcelain tiles are highly durable and moisture-resistant for floors and showers, while natural stone offers a luxurious look but may require more sealing and maintenance. Consider the overall style you want to achieve, as well as the practicalities of daily use. Hometelligent Inc. guides clients through material selections, balancing quality, design vision, and longevity for the specific demands of a bathroom environment.",
+        "@type": "Answer",
+        "description": "Material choices for a bathroom redesign depend on durability, moisture resistance, aesthetics, maintenance, and budget. Consider the overall style and daily use. Hometelligent Inc. helps balance these factors for quality and longevity."
+      }
+    }
+  ],
+  "description": "Material choices for a bathroom redesign depend on durability, moisture resistance, aesthetics, maintenance, and budget. Consider the overall style and daily us"
 }

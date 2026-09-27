@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of return on investment can I expect from a bathroom addition?",
-  "description": "Bathroom additions typically provide a strong return on investment by increasing home value and buyer appeal at resale.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-return-on-investment-can-i-expect-from-a-bathroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of return on investment can I expect from a bathroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bathroom additions generally offer a strong return on investment, often recouping a significant portion of their cost at resale. While actual returns vary based on market conditions, location (e.g., specific neighborhoods in Berkeley or Piedmont often have high demand), and the quality of the addition, adding a new bathroom can substantially increase your home's value and appeal to potential buyers. A well-designed and executed addition is key to maximizing this return.",
-        "description": "Bathroom additions typically provide a strong return on investment by increasing home value and buyer appeal at resale."
-      }
-    }
-  ],
+  "name": "What kind of return on investment can I expect from a bathroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of return on investment can I expect from a bathroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Bathroom additions generally offer a strong return on investment, often recouping a significant portion of their cost at resale. While actual returns vary based on market conditions, location (e.g., specific neighborhoods in Berkeley or Piedmont often have high demand), and the quality of the addition, adding a new bathroom can substantially increase your home's value and appeal to potential buyers. A well-designed and executed addition is key to maximizing this return.",
+        "@type": "Answer",
+        "description": "Bathroom additions typically provide a strong return on investment by increasing home value and buyer appeal at resale."
+      }
+    }
+  ],
+  "description": "Bathroom additions typically provide a strong return on investment by increasing home value and buyer appeal at resale."
 }

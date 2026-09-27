@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of tile are best suited for bathroom floors?",
-  "description": "Porcelain and ceramic are excellent choices for bathroom floors due to durability and water resistance. Consider slip resistance for safety.",
   "url": "https://hometelligentinc.com/faq/what-types-of-tile-are-best-suited-for-bathroom-floors",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of tile are best suited for bathroom floors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For bathroom floors, durable and water-resistant tile types are recommended, such as porcelain, ceramic, and natural stone like marble or granite. Porcelain is highly popular due to its low water absorption, durability, and wide range of styles. Ceramic tiles are also a good, more affordable option. Natural stone offers a luxurious look but requires more maintenance, including regular sealing. When selecting, consider the slip resistance (COF rating) of the tile, especially in areas prone to water, to enhance safety in your Alameda home.",
-        "description": "Porcelain and ceramic are excellent choices for bathroom floors due to durability and water resistance. Consider slip resistance for safety."
-      }
-    }
-  ],
+  "name": "What types of tile are best suited for bathroom floors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of tile are best suited for bathroom floors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For bathroom floors, durable and water-resistant tile types are recommended, such as porcelain, ceramic, and natural stone like marble or granite. Porcelain is highly popular due to its low water absorption, durability, and wide range of styles. Ceramic tiles are also a good, more affordable option. Natural stone offers a luxurious look but requires more maintenance, including regular sealing. When selecting, consider the slip resistance (COF rating) of the tile, especially in areas prone to water, to enhance safety in your Alameda home.",
+        "@type": "Answer",
+        "description": "Porcelain and ceramic are excellent choices for bathroom floors due to durability and water resistance. Consider slip resistance for safety."
+      }
+    }
+  ],
+  "description": "Porcelain and ceramic are excellent choices for bathroom floors due to durability and water resistance. Consider slip resistance for safety."
 }

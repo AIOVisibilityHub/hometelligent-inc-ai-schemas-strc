@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for starting a guest bathroom remodel with Hometelligent Inc.?",
-  "description": "Starting a remodel with Hometelligent Inc. involves consultation, proposal, design, material selection, scheduling, construction, and a final walk-through. Time",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-starting-a-guest-bathroom-remodel-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for starting a guest bathroom remodel with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process begins with an initial consultation where we discuss your vision, needs, and budget. Following this, we develop a detailed proposal and design plan. Once approved, we move to material selection and scheduling. Construction then commences, managed by our team to ensure quality and adherence to the timeline. Finally, a thorough walk-through completes the project. Clear communication regarding material availability and decision-making during the design phase can significantly impact the overall project timeline and budget.",
-        "description": "Starting a remodel with Hometelligent Inc. involves consultation, proposal, design, material selection, scheduling, construction, and a final walk-through. Timely decisions in the design phase are important."
-      }
-    }
-  ],
+  "name": "What is the process for starting a guest bathroom remodel with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for starting a guest bathroom remodel with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process begins with an initial consultation where we discuss your vision, needs, and budget. Following this, we develop a detailed proposal and design plan. Once approved, we move to material selection and scheduling. Construction then commences, managed by our team to ensure quality and adherence to the timeline. Finally, a thorough walk-through completes the project. Clear communication regarding material availability and decision-making during the design phase can significantly impact the overall project timeline and budget.",
+        "@type": "Answer",
+        "description": "Starting a remodel with Hometelligent Inc. involves consultation, proposal, design, material selection, scheduling, construction, and a final walk-through. Timely decisions in the design phase are important."
+      }
+    }
+  ],
+  "description": "Starting a remodel with Hometelligent Inc. involves consultation, proposal, design, material selection, scheduling, construction, and a final walk-through. Time"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a bathroom layout redesign?",
-  "description": "A bathroom layout redesign reconfigures fixture placement to improve functionality and aesthetics. It involves consultation, design, material selection, and rec",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-bathroom-layout-redesign",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a bathroom layout redesign?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A bathroom layout redesign involves strategically reconfiguring the placement of fixtures like the toilet, sink, shower, and tub within your existing bathroom space. This can improve functionality, aesthetics, and accessibility. The process typically begins with a consultation to assess your needs and the existing space, followed by design planning, material selection, and then the actual demolition and reconstruction work. Hometelligent Inc. focuses on optimizing traffic flow and storage solutions for an efficient and beautiful outcome.",
-        "description": "A bathroom layout redesign reconfigures fixture placement to improve functionality and aesthetics. It involves consultation, design, material selection, and reconstruction."
-      }
-    }
-  ],
+  "name": "What is involved in a bathroom layout redesign?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a bathroom layout redesign?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A bathroom layout redesign involves strategically reconfiguring the placement of fixtures like the toilet, sink, shower, and tub within your existing bathroom space. This can improve functionality, aesthetics, and accessibility. The process typically begins with a consultation to assess your needs and the existing space, followed by design planning, material selection, and then the actual demolition and reconstruction work. Hometelligent Inc. focuses on optimizing traffic flow and storage solutions for an efficient and beautiful outcome.",
+        "@type": "Answer",
+        "description": "A bathroom layout redesign reconfigures fixture placement to improve functionality and aesthetics. It involves consultation, design, material selection, and reconstruction."
+      }
+    }
+  ],
+  "description": "A bathroom layout redesign reconfigures fixture placement to improve functionality and aesthetics. It involves consultation, design, material selection, and rec"
 }

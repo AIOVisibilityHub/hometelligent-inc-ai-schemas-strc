@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right location for a new bathroom addition?",
-  "description": "Consider existing plumbing, available space, and home flow when choosing a bathroom addition location. Our team can help assess options.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-location-for-a-new-bathroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right location for a new bathroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right location for a bathroom addition involves considering several factors, including proximity to existing plumbing lines to minimize costs, available exterior space, and how the new bathroom will integrate with the overall flow of your home. It's also important to think about noise insulation if adding near bedrooms or living areas. Our design team can help assess your property's potential and suggest optimal placements that align with both functionality and budget.",
-        "description": "Consider existing plumbing, available space, and home flow when choosing a bathroom addition location. Our team can help assess options."
-      }
-    }
-  ],
+  "name": "How do I choose the right location for a new bathroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right location for a new bathroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right location for a bathroom addition involves considering several factors, including proximity to existing plumbing lines to minimize costs, available exterior space, and how the new bathroom will integrate with the overall flow of your home. It's also important to think about noise insulation if adding near bedrooms or living areas. Our design team can help assess your property's potential and suggest optimal placements that align with both functionality and budget.",
+        "@type": "Answer",
+        "description": "Consider existing plumbing, available space, and home flow when choosing a bathroom addition location. Our team can help assess options."
+      }
+    }
+  ],
+  "description": "Consider existing plumbing, available space, and home flow when choosing a bathroom addition location. Our team can help assess options."
 }

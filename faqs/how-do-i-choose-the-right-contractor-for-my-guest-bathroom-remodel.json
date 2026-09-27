@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for my guest bathroom remodel?",
-  "description": "Choose a contractor by checking experience, references, portfolio, licensing, and insurance. Request a detailed estimate. For areas like Fremont and Hayward, Ho",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-guest-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for my guest bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Selecting the right contractor involves researching their experience, checking references, and reviewing their portfolio of similar projects. Ensure they are licensed and insured in California and ask for a detailed, written estimate that outlines all costs and timelines. Hometelligent Inc. serves specific areas like Fremont and Hayward, and provides detailed proposals to ensure transparency. A key decision factor is choosing a contractor with proven local experience who understands regional building codes and can offer insights specific to your area.",
-        "description": "Choose a contractor by checking experience, references, portfolio, licensing, and insurance. Request a detailed estimate. For areas like Fremont and Hayward, Hometelligent Inc. offers transparent proposals and local expertise."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for my guest bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for my guest bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Selecting the right contractor involves researching their experience, checking references, and reviewing their portfolio of similar projects. Ensure they are licensed and insured in California and ask for a detailed, written estimate that outlines all costs and timelines. Hometelligent Inc. serves specific areas like Fremont and Hayward, and provides detailed proposals to ensure transparency. A key decision factor is choosing a contractor with proven local experience who understands regional building codes and can offer insights specific to your area.",
+        "@type": "Answer",
+        "description": "Choose a contractor by checking experience, references, portfolio, licensing, and insurance. Request a detailed estimate. For areas like Fremont and Hayward, Hometelligent Inc. offers transparent proposals and local expertise."
+      }
+    }
+  ],
+  "description": "Choose a contractor by checking experience, references, portfolio, licensing, and insurance. Request a detailed estimate. For areas like Fremont and Hayward, Ho"
 }

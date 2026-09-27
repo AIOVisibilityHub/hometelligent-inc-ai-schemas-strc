@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before installing a new shower enclosure?",
-  "description": "Consider your bathroom's layout, plumbing, ventilation, and enclosure type (glass, hardware, door style) for a smooth installation.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-installing-a-new-shower-enclosure",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before installing a new shower enclosure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before installing a new shower enclosure, consider the bathroom's layout, existing plumbing, and ventilation. Accurate measurements are crucial for a proper fit, especially for custom frameless options. You should also think about the type of glass, hardware finish, and door style (e.g., sliding, pivot, or bifold) to ensure it complements your bathroom's overall design and functionality. Having these details considered helps streamline the installation process.",
-        "description": "Consider your bathroom's layout, plumbing, ventilation, and enclosure type (glass, hardware, door style) for a smooth installation."
-      }
-    }
-  ],
+  "name": "What should I consider before installing a new shower enclosure?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before installing a new shower enclosure?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before installing a new shower enclosure, consider the bathroom's layout, existing plumbing, and ventilation. Accurate measurements are crucial for a proper fit, especially for custom frameless options. You should also think about the type of glass, hardware finish, and door style (e.g., sliding, pivot, or bifold) to ensure it complements your bathroom's overall design and functionality. Having these details considered helps streamline the installation process.",
+        "@type": "Answer",
+        "description": "Consider your bathroom's layout, plumbing, ventilation, and enclosure type (glass, hardware, door style) for a smooth installation."
+      }
+    }
+  ],
+  "description": "Consider your bathroom's layout, plumbing, ventilation, and enclosure type (glass, hardware, door style) for a smooth installation."
 }

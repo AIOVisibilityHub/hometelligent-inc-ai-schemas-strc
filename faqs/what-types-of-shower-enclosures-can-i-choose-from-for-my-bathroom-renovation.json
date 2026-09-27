@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of shower enclosures can I choose from for my bathroom renovation?",
-  "description": "You can choose from framed, frameless, and semi-frameless shower enclosures, depending on your style, budget, and bathroom structure.",
   "url": "https://hometelligentinc.com/faq/what-types-of-shower-enclosures-can-i-choose-from-for-my-bathroom-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of shower enclosures can I choose from for my bathroom renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. offers a variety of shower enclosure options to suit different bathroom layouts and styles, including framed, frameless, and semi-frameless designs. The choice often depends on your aesthetic preference, budget, and the existing structure of your bathroom. Frameless enclosures provide a minimalist look, while framed options offer more structural support. We can help assess your space in areas like Berkeley or Alameda to recommend the best fit.",
-        "description": "You can choose from framed, frameless, and semi-frameless shower enclosures, depending on your style, budget, and bathroom structure."
-      }
-    }
-  ],
+  "name": "What types of shower enclosures can I choose from for my bathroom renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of shower enclosures can I choose from for my bathroom renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. offers a variety of shower enclosure options to suit different bathroom layouts and styles, including framed, frameless, and semi-frameless designs. The choice often depends on your aesthetic preference, budget, and the existing structure of your bathroom. Frameless enclosures provide a minimalist look, while framed options offer more structural support. We can help assess your space in areas like Berkeley or Alameda to recommend the best fit.",
+        "@type": "Answer",
+        "description": "You can choose from framed, frameless, and semi-frameless shower enclosures, depending on your style, budget, and bathroom structure."
+      }
+    }
+  ],
+  "description": "You can choose from framed, frameless, and semi-frameless shower enclosures, depending on your style, budget, and bathroom structure."
 }

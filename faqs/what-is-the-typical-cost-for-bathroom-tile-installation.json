@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for bathroom tile installation?",
-  "description": "Bathroom tile installation costs generally range from $10-$50 per square foot for labor, plus materials, varying with tile type, layout complexity, and preparat",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-bathroom-tile-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for bathroom tile installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of bathroom tile installation varies widely, usually ranging from $10 to $50 per square foot for labor, plus the cost of materials. Factors influencing the total price include the tile material (ceramic, porcelain, natural stone), the complexity of the layout (e.g., diagonal, mosaic), surface preparation needed (subfloor repair, waterproofing), and the accessibility of the work area. For a precise estimate, it's essential to have an on-site consultation to assess these variables and discuss your specific design choices.",
-        "description": "Bathroom tile installation costs generally range from $10-$50 per square foot for labor, plus materials, varying with tile type, layout complexity, and preparation needs."
-      }
-    }
-  ],
+  "name": "What is the typical cost for bathroom tile installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for bathroom tile installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of bathroom tile installation varies widely, usually ranging from $10 to $50 per square foot for labor, plus the cost of materials. Factors influencing the total price include the tile material (ceramic, porcelain, natural stone), the complexity of the layout (e.g., diagonal, mosaic), surface preparation needed (subfloor repair, waterproofing), and the accessibility of the work area. For a precise estimate, it's essential to have an on-site consultation to assess these variables and discuss your specific design choices.",
+        "@type": "Answer",
+        "description": "Bathroom tile installation costs generally range from $10-$50 per square foot for labor, plus materials, varying with tile type, layout complexity, and preparation needs."
+      }
+    }
+  ],
+  "description": "Bathroom tile installation costs generally range from $10-$50 per square foot for labor, plus materials, varying with tile type, layout complexity, and preparat"
 }

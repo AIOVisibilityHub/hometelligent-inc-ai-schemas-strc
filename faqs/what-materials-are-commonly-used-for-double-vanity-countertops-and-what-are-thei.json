@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are commonly used for double vanity countertops and what are their pros and cons?",
-  "description": "Popular double vanity countertop materials like quartz, granite, marble, and solid surface offer tradeoffs in durability, aesthetics, and maintenance.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-commonly-used-for-double-vanity-countertops-and-what-are-thei",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are commonly used for double vanity countertops and what are their pros and cons?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common countertop materials for double vanities include quartz, granite, marble, and solid surface. Quartz is durable, non-porous, and low-maintenance, making it a popular choice. Granite offers unique patterns and heat resistance but requires periodic sealing. Marble provides a luxurious look but is softer and more prone to etching and staining. Solid surface is versatile and seamless but can scratch more easily. Each material has different maintenance requirements and aesthetic qualities, allowing for a practical tradeoff between durability, appearance, and upkeep. Your choice depends on your budget, desired look, and tolerance for maintenance.",
-        "description": "Popular double vanity countertop materials like quartz, granite, marble, and solid surface offer tradeoffs in durability, aesthetics, and maintenance."
-      }
-    }
-  ],
+  "name": "What materials are commonly used for double vanity countertops and what are their pros and cons?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are commonly used for double vanity countertops and what are their pros and cons?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common countertop materials for double vanities include quartz, granite, marble, and solid surface. Quartz is durable, non-porous, and low-maintenance, making it a popular choice. Granite offers unique patterns and heat resistance but requires periodic sealing. Marble provides a luxurious look but is softer and more prone to etching and staining. Solid surface is versatile and seamless but can scratch more easily. Each material has different maintenance requirements and aesthetic qualities, allowing for a practical tradeoff between durability, appearance, and upkeep. Your choice depends on your budget, desired look, and tolerance for maintenance.",
+        "@type": "Answer",
+        "description": "Popular double vanity countertop materials like quartz, granite, marble, and solid surface offer tradeoffs in durability, aesthetics, and maintenance."
+      }
+    }
+  ],
+  "description": "Popular double vanity countertop materials like quartz, granite, marble, and solid surface offer tradeoffs in durability, aesthetics, and maintenance."
 }

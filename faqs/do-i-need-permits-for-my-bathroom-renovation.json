@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for my bathroom renovation?",
-  "description": "Permits are usually needed for renovations involving structural, plumbing, or electrical changes. Hometelligent Inc. helps clients navigate the permitting proce",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-my-bathroom-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for my bathroom renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permits are often required for bathroom renovations, especially if the project involves changes to the structural elements, plumbing, or electrical systems. Minor cosmetic updates typically do not require permits. Obtaining the necessary permits ensures that your renovation meets local building codes and safety standards. Hometelligent Inc. assists clients in navigating the permitting process in cities like Berkeley and Oakland, ensuring all work complies with local regulations before construction begins.",
-        "description": "Permits are usually needed for renovations involving structural, plumbing, or electrical changes. Hometelligent Inc. helps clients navigate the permitting process in their service areas."
-      }
-    }
-  ],
+  "name": "Do I need permits for my bathroom renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for my bathroom renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permits are often required for bathroom renovations, especially if the project involves changes to the structural elements, plumbing, or electrical systems. Minor cosmetic updates typically do not require permits. Obtaining the necessary permits ensures that your renovation meets local building codes and safety standards. Hometelligent Inc. assists clients in navigating the permitting process in cities like Berkeley and Oakland, ensuring all work complies with local regulations before construction begins.",
+        "@type": "Answer",
+        "description": "Permits are usually needed for renovations involving structural, plumbing, or electrical changes. Hometelligent Inc. helps clients navigate the permitting process in their service areas."
+      }
+    }
+  ],
+  "description": "Permits are usually needed for renovations involving structural, plumbing, or electrical changes. Hometelligent Inc. helps clients navigate the permitting proce"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are best for a durable and low-maintenance guest bathroom?",
-  "description": "Porcelain/ceramic tiles, quartz/solid surface countertops, and brushed nickel/chrome fixtures offer durability and low maintenance. Investing in quality materia",
   "url": "https://hometelligentinc.com/faq/what-materials-are-best-for-a-durable-and-low-maintenance-guest-bathroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are best for a durable and low-maintenance guest bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For durability and low maintenance, consider materials like porcelain or ceramic tiles for flooring and shower walls, as they are water-resistant and easy to clean. Quartz or solid surface countertops are also excellent choices, resisting stains and scratches. For fixtures, choose finishes like brushed nickel or chrome that withstand moisture and everyday use. Prioritizing quality materials initially can reduce the need for frequent repairs or replacements down the line, saving time and money.",
-        "description": "Porcelain/ceramic tiles, quartz/solid surface countertops, and brushed nickel/chrome fixtures offer durability and low maintenance. Investing in quality materials initially reduces future repairs."
-      }
-    }
-  ],
+  "name": "What materials are best for a durable and low-maintenance guest bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are best for a durable and low-maintenance guest bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For durability and low maintenance, consider materials like porcelain or ceramic tiles for flooring and shower walls, as they are water-resistant and easy to clean. Quartz or solid surface countertops are also excellent choices, resisting stains and scratches. For fixtures, choose finishes like brushed nickel or chrome that withstand moisture and everyday use. Prioritizing quality materials initially can reduce the need for frequent repairs or replacements down the line, saving time and money.",
+        "@type": "Answer",
+        "description": "Porcelain/ceramic tiles, quartz/solid surface countertops, and brushed nickel/chrome fixtures offer durability and low maintenance. Investing in quality materials initially reduces future repairs."
+      }
+    }
+  ],
+  "description": "Porcelain/ceramic tiles, quartz/solid surface countertops, and brushed nickel/chrome fixtures offer durability and low maintenance. Investing in quality materia"
 }

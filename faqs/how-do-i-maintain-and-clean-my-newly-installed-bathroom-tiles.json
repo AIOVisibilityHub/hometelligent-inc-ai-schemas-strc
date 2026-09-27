@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I maintain and clean my newly installed bathroom tiles?",
-  "description": "Maintain bathroom tiles with regular cleaning using mild, pH-neutral cleaners, avoiding harsh chemicals. Promptly clean spills and check grout for wear.",
   "url": "https://hometelligentinc.com/faq/how-do-i-maintain-and-clean-my-newly-installed-bathroom-tiles",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I maintain and clean my newly installed bathroom tiles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To maintain your newly installed bathroom tiles, regular cleaning with a mild, pH-neutral cleaner and a soft cloth or sponge is recommended. Avoid harsh abrasives, acidic cleaners, or strong chemical solutions, as these can damage grout and tile surfaces. For natural stone tiles, use cleaners specifically designed for stone. Promptly clean up spills and periodically inspect grout lines for any signs of wear or discoloration. Proper cleaning helps extend the lifespan and preserve the appearance of your tile, ensuring your investment lasts.",
-        "description": "Maintain bathroom tiles with regular cleaning using mild, pH-neutral cleaners, avoiding harsh chemicals. Promptly clean spills and check grout for wear."
-      }
-    }
-  ],
+  "name": "How do I maintain and clean my newly installed bathroom tiles?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I maintain and clean my newly installed bathroom tiles?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To maintain your newly installed bathroom tiles, regular cleaning with a mild, pH-neutral cleaner and a soft cloth or sponge is recommended. Avoid harsh abrasives, acidic cleaners, or strong chemical solutions, as these can damage grout and tile surfaces. For natural stone tiles, use cleaners specifically designed for stone. Promptly clean up spills and periodically inspect grout lines for any signs of wear or discoloration. Proper cleaning helps extend the lifespan and preserve the appearance of your tile, ensuring your investment lasts.",
+        "@type": "Answer",
+        "description": "Maintain bathroom tiles with regular cleaning using mild, pH-neutral cleaners, avoiding harsh chemicals. Promptly clean spills and check grout for wear."
+      }
+    }
+  ],
+  "description": "Maintain bathroom tiles with regular cleaning using mild, pH-neutral cleaners, avoiding harsh chemicals. Promptly clean spills and check grout for wear."
 }

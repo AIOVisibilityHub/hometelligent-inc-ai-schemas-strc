@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in the planning process for a barrier-free shower?",
-  "description": "Planning involves assessing layout, discussing materials, drainage, plumbing, and electrical modifications.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-planning-process-for-a-barrier-free-shower",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in the planning process for a barrier-free shower?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The planning process involves an initial consultation to assess your bathroom's layout and structural feasibility for a barrier-free design. We discuss material selections, drainage requirements, and any necessary plumbing or electrical modifications. Clients should gather inspiration photos and consider their specific accessibility needs prior to this consultation to streamline the design phase.",
-        "description": "Planning involves assessing layout, discussing materials, drainage, plumbing, and electrical modifications."
-      }
-    }
-  ],
+  "name": "What is involved in the planning process for a barrier-free shower?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in the planning process for a barrier-free shower?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The planning process involves an initial consultation to assess your bathroom's layout and structural feasibility for a barrier-free design. We discuss material selections, drainage requirements, and any necessary plumbing or electrical modifications. Clients should gather inspiration photos and consider their specific accessibility needs prior to this consultation to streamline the design phase.",
+        "@type": "Answer",
+        "description": "Planning involves assessing layout, discussing materials, drainage, plumbing, and electrical modifications."
+      }
+    }
+  ],
+  "description": "Planning involves assessing layout, discussing materials, drainage, plumbing, and electrical modifications."
 }

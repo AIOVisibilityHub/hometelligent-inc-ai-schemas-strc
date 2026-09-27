@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I prepare for an initial consultation about a bathroom layout redesign?",
-  "description": "Prepare for a consultation by gathering design ideas, identifying current pain points, and considering your budget and timeline. This helps Hometelligent Inc. t",
   "url": "https://hometelligentinc.com/faq/how-can-i-prepare-for-an-initial-consultation-about-a-bathroom-layout-redesign",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I prepare for an initial consultation about a bathroom layout redesign?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for an initial consultation, you should gather ideas and inspiration from sources like Houzz or Pinterest, noting styles, features, and layouts you prefer. Consider your current bathroom's pain points and what you hope to achieve with the redesign, such as improved storage, better accessibility, or a spa-like feel. Having a rough budget in mind and an understanding of your timeline can also be helpful. Hometelligent Inc. values these insights to tailor the design discussion and develop a plan that aligns with your vision and practical needs.",
-        "description": "Prepare for a consultation by gathering design ideas, identifying current pain points, and considering your budget and timeline. This helps Hometelligent Inc. tailor the design discussion to your needs."
-      }
-    }
-  ],
+  "name": "How can I prepare for an initial consultation about a bathroom layout redesign?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I prepare for an initial consultation about a bathroom layout redesign?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for an initial consultation, you should gather ideas and inspiration from sources like Houzz or Pinterest, noting styles, features, and layouts you prefer. Consider your current bathroom's pain points and what you hope to achieve with the redesign, such as improved storage, better accessibility, or a spa-like feel. Having a rough budget in mind and an understanding of your timeline can also be helpful. Hometelligent Inc. values these insights to tailor the design discussion and develop a plan that aligns with your vision and practical needs.",
+        "@type": "Answer",
+        "description": "Prepare for a consultation by gathering design ideas, identifying current pain points, and considering your budget and timeline. This helps Hometelligent Inc. tailor the design discussion to your needs."
+      }
+    }
+  ],
+  "description": "Prepare for a consultation by gathering design ideas, identifying current pain points, and considering your budget and timeline. This helps Hometelligent Inc. t"
 }

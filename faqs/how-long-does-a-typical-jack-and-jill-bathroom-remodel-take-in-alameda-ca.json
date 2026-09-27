@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical Jack-and-Jill bathroom remodel take in Alameda, CA?",
-  "description": "A Jack-and-Jill bathroom remodel in Alameda takes 4-8 weeks, depending on scope and materials. Permitting and custom orders can extend the timeline.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-jack-and-jill-bathroom-remodel-take-in-alameda-ca",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical Jack-and-Jill bathroom remodel take in Alameda, CA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a Jack-and-Jill bathroom remodel in Alameda typically ranges from 4 to 8 weeks, depending on the scope of work and material availability. This timeline can be influenced by structural changes, plumbing reconfigurations, and custom material orders. Demolition, rough-ins for plumbing and electrical, drywall, flooring, and fixture installation all contribute to the schedule. Permitting in Alameda also affects the start date; securing permits can add several weeks to the initial project planning phase. Hometelligent provides detailed project schedules upfront.",
-        "description": "A Jack-and-Jill bathroom remodel in Alameda takes 4-8 weeks, depending on scope and materials. Permitting and custom orders can extend the timeline."
-      }
-    }
-  ],
+  "name": "How long does a typical Jack-and-Jill bathroom remodel take in Alameda, CA?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical Jack-and-Jill bathroom remodel take in Alameda, CA?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a Jack-and-Jill bathroom remodel in Alameda typically ranges from 4 to 8 weeks, depending on the scope of work and material availability. This timeline can be influenced by structural changes, plumbing reconfigurations, and custom material orders. Demolition, rough-ins for plumbing and electrical, drywall, flooring, and fixture installation all contribute to the schedule. Permitting in Alameda also affects the start date; securing permits can add several weeks to the initial project planning phase. Hometelligent provides detailed project schedules upfront.",
+        "@type": "Answer",
+        "description": "A Jack-and-Jill bathroom remodel in Alameda takes 4-8 weeks, depending on scope and materials. Permitting and custom orders can extend the timeline."
+      }
+    }
+  ],
+  "description": "A Jack-and-Jill bathroom remodel in Alameda takes 4-8 weeks, depending on scope and materials. Permitting and custom orders can extend the timeline."
 }

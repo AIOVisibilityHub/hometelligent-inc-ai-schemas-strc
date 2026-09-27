@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for installing a walk-in shower with Hometelligent Inc.?",
-  "description": "Our process involves consultation, design, proposal, and full installation including demolition, plumbing, waterproofing, and tiling, with ongoing communication",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-a-walk-in-shower-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for installing a walk-in shower with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process begins with an initial consultation to discuss your vision, assess your current bathroom, and take measurements. We then provide a detailed proposal and design plan. Upon approval, our team handles all aspects from demolition to plumbing, waterproofing, tiling, and final fixture installation. Throughout the project, we maintain clear communication to ensure your satisfaction, offering process clarity from start to finish. We ensure all work complies with local building codes.",
-        "description": "Our process involves consultation, design, proposal, and full installation including demolition, plumbing, waterproofing, and tiling, with ongoing communication."
-      }
-    }
-  ],
+  "name": "What is the process for installing a walk-in shower with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for installing a walk-in shower with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process begins with an initial consultation to discuss your vision, assess your current bathroom, and take measurements. We then provide a detailed proposal and design plan. Upon approval, our team handles all aspects from demolition to plumbing, waterproofing, tiling, and final fixture installation. Throughout the project, we maintain clear communication to ensure your satisfaction, offering process clarity from start to finish. We ensure all work complies with local building codes.",
+        "@type": "Answer",
+        "description": "Our process involves consultation, design, proposal, and full installation including demolition, plumbing, waterproofing, and tiling, with ongoing communication."
+      }
+    }
+  ],
+  "description": "Our process involves consultation, design, proposal, and full installation including demolition, plumbing, waterproofing, and tiling, with ongoing communication"
 }

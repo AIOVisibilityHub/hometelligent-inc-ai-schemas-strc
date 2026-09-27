@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I install a bathroom backsplash myself, or should I hire a professional?",
-  "description": "Hiring a professional ensures a high-quality, durable finish, saving time and preventing costly mistakes.",
   "url": "https://hometelligentinc.com/faq/can-i-install-a-bathroom-backsplash-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I install a bathroom backsplash myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While DIY installation is possible, hiring a professional for bathroom backsplash installation ensures a high-quality, durable, and aesthetically pleasing result. Professionals have the right tools, experience with different materials, and expertise in proper surface preparation, layout, and grouting techniques. This can save you time, prevent costly mistakes, and ensure the job is done right the first time, offering a practical tradeoff between personal effort and professional outcome.",
-        "description": "Hiring a professional ensures a high-quality, durable finish, saving time and preventing costly mistakes."
-      }
-    }
-  ],
+  "name": "Can I install a bathroom backsplash myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I install a bathroom backsplash myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While DIY installation is possible, hiring a professional for bathroom backsplash installation ensures a high-quality, durable, and aesthetically pleasing result. Professionals have the right tools, experience with different materials, and expertise in proper surface preparation, layout, and grouting techniques. This can save you time, prevent costly mistakes, and ensure the job is done right the first time, offering a practical tradeoff between personal effort and professional outcome.",
+        "@type": "Answer",
+        "description": "Hiring a professional ensures a high-quality, durable finish, saving time and preventing costly mistakes."
+      }
+    }
+  ],
+  "description": "Hiring a professional ensures a high-quality, durable finish, saving time and preventing costly mistakes."
 }

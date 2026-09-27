@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before my bathtub replacement project starts?",
-  "description": "Before replacement, clear your bathroom and surrounding areas of personal items and ensure a clear path for workers and materials.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-my-bathtub-replacement-project-starts",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before my bathtub replacement project starts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your bathtub replacement project begins, you should clear the bathroom of all personal items, towels, and decorations to protect them from dust and debris. Ensure there's a clear path from the entry to the bathroom for workers and materials. If possible, consider removing items from adjacent rooms or hallways that might be in the way. It is also helpful to have your chosen fixtures and finishes finalized to avoid delays once the work commences, streamlining the overall installation timeline.",
-        "description": "Before replacement, clear your bathroom and surrounding areas of personal items and ensure a clear path for workers and materials."
-      }
-    }
-  ],
+  "name": "What should I prepare before my bathtub replacement project starts?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before my bathtub replacement project starts?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your bathtub replacement project begins, you should clear the bathroom of all personal items, towels, and decorations to protect them from dust and debris. Ensure there's a clear path from the entry to the bathroom for workers and materials. If possible, consider removing items from adjacent rooms or hallways that might be in the way. It is also helpful to have your chosen fixtures and finishes finalized to avoid delays once the work commences, streamlining the overall installation timeline.",
+        "@type": "Answer",
+        "description": "Before replacement, clear your bathroom and surrounding areas of personal items and ensure a clear path for workers and materials."
+      }
+    }
+  ],
+  "description": "Before replacement, clear your bathroom and surrounding areas of personal items and ensure a clear path for workers and materials."
 }

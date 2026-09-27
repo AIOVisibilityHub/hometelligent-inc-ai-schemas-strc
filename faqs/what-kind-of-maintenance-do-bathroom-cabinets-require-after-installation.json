@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of maintenance do bathroom cabinets require after installation?",
-  "description": "Maintain bathroom cabinets with regular dusting and mild cleaning. Promptly wipe up water spills to prevent moisture damage.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-do-bathroom-cabinets-require-after-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of maintenance do bathroom cabinets require after installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After installation, bathroom cabinets generally require minimal maintenance. Regular dusting and cleaning with a mild, non-abrasive cleaner are sufficient to keep them looking good. It is important to promptly wipe up any water spills or condensation to prevent moisture damage, especially in areas around the sink. For specific finishes like painted or stained wood, follow the manufacturer's recommendations to preserve their appearance and integrity.",
-        "description": "Maintain bathroom cabinets with regular dusting and mild cleaning. Promptly wipe up water spills to prevent moisture damage."
-      }
-    }
-  ],
+  "name": "What kind of maintenance do bathroom cabinets require after installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of maintenance do bathroom cabinets require after installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "After installation, bathroom cabinets generally require minimal maintenance. Regular dusting and cleaning with a mild, non-abrasive cleaner are sufficient to keep them looking good. It is important to promptly wipe up any water spills or condensation to prevent moisture damage, especially in areas around the sink. For specific finishes like painted or stained wood, follow the manufacturer's recommendations to preserve their appearance and integrity.",
+        "@type": "Answer",
+        "description": "Maintain bathroom cabinets with regular dusting and mild cleaning. Promptly wipe up water spills to prevent moisture damage."
+      }
+    }
+  ],
+  "description": "Maintain bathroom cabinets with regular dusting and mild cleaning. Promptly wipe up water spills to prevent moisture damage."
 }

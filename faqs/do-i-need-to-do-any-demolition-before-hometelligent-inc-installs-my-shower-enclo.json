@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to do any demolition before Hometelligent Inc. installs my shower enclosure?",
-  "description": "Existing shower areas usually need clearing. We assess demolition needs during our consultation and can include it in your project.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-do-any-demolition-before-hometelligent-inc-installs-my-shower-enclo",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to do any demolition before Hometelligent Inc. installs my shower enclosure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Typically, the existing shower area, including the old enclosure, tiling, and pan, needs to be cleared before new installation. Our initial assessment will identify what demolition, if any, is required. If your project involves a complete bathroom remodel, we can handle the demolition as part of the larger scope. For simpler upgrades, you may remove the old enclosure yourself, or we can include it in our service proposal.",
-        "description": "Existing shower areas usually need clearing. We assess demolition needs during our consultation and can include it in your project."
-      }
-    }
-  ],
+  "name": "Do I need to do any demolition before Hometelligent Inc. installs my shower enclosure?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to do any demolition before Hometelligent Inc. installs my shower enclosure?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Typically, the existing shower area, including the old enclosure, tiling, and pan, needs to be cleared before new installation. Our initial assessment will identify what demolition, if any, is required. If your project involves a complete bathroom remodel, we can handle the demolition as part of the larger scope. For simpler upgrades, you may remove the old enclosure yourself, or we can include it in our service proposal.",
+        "@type": "Answer",
+        "description": "Existing shower areas usually need clearing. We assess demolition needs during our consultation and can include it in your project."
+      }
+    }
+  ],
+  "description": "Existing shower areas usually need clearing. We assess demolition needs during our consultation and can include it in your project."
 }

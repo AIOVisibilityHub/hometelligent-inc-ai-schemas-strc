@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before choosing a new bathroom countertop in Alameda?",
-  "description": "Consider local climate, typical home styles, and daily use patterns when choosing a countertop in Alameda, and check local building codes.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-choosing-a-new-bathroom-countertop-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before choosing a new bathroom countertop in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a new bathroom countertop in Alameda, it's important to consider factors like the local climate's humidity, which can affect material longevity, as well as typical home styles in the area if resale value is a concern. Additionally, understanding your household's daily use patterns helps inform material choice for durability. Hometelligent Inc. serves the Alameda area and can provide local insight during your selection process, ensuring your choice is both aesthetically pleasing and practical for your specific home and environment. Always check local building codes for any relevant requirements.",
-        "description": "Consider local climate, typical home styles, and daily use patterns when choosing a countertop in Alameda, and check local building codes."
-      }
-    }
-  ],
+  "name": "What should I consider before choosing a new bathroom countertop in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before choosing a new bathroom countertop in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a new bathroom countertop in Alameda, it's important to consider factors like the local climate's humidity, which can affect material longevity, as well as typical home styles in the area if resale value is a concern. Additionally, understanding your household's daily use patterns helps inform material choice for durability. Hometelligent Inc. serves the Alameda area and can provide local insight during your selection process, ensuring your choice is both aesthetically pleasing and practical for your specific home and environment. Always check local building codes for any relevant requirements.",
+        "@type": "Answer",
+        "description": "Consider local climate, typical home styles, and daily use patterns when choosing a countertop in Alameda, and check local building codes."
+      }
+    }
+  ],
+  "description": "Consider local climate, typical home styles, and daily use patterns when choosing a countertop in Alameda, and check local building codes."
 }

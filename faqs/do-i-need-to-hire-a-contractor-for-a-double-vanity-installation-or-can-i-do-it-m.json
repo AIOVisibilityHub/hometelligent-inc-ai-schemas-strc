@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to hire a contractor for a double vanity installation, or can I do it myself?",
-  "description": "Complex double vanity installations involving plumbing, electrical, or structural changes are best left to a professional contractor to ensure proper installati",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-hire-a-contractor-for-a-double-vanity-installation-or-can-i-do-it-m",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to hire a contractor for a double vanity installation, or can I do it myself?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While it's possible for experienced DIYers to install a double vanity, complex installations involving plumbing modifications, electrical work, or structural changes are best handled by a professional contractor. A contractor ensures proper installation, adherence to local building codes, and can manage unexpected issues that arise, especially in older homes common in areas like Berkeley or Oakland. Attempting a complex installation yourself without adequate experience can lead to costly mistakes, water damage, or safety hazards. We provide expert installation to ensure your project is completed correctly and efficiently.",
-        "description": "Complex double vanity installations involving plumbing, electrical, or structural changes are best left to a professional contractor to ensure proper installation and safety."
-      }
-    }
-  ],
+  "name": "Do I need to hire a contractor for a double vanity installation, or can I do it myself?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to hire a contractor for a double vanity installation, or can I do it myself?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While it's possible for experienced DIYers to install a double vanity, complex installations involving plumbing modifications, electrical work, or structural changes are best handled by a professional contractor. A contractor ensures proper installation, adherence to local building codes, and can manage unexpected issues that arise, especially in older homes common in areas like Berkeley or Oakland. Attempting a complex installation yourself without adequate experience can lead to costly mistakes, water damage, or safety hazards. We provide expert installation to ensure your project is completed correctly and efficiently.",
+        "@type": "Answer",
+        "description": "Complex double vanity installations involving plumbing, electrical, or structural changes are best left to a professional contractor to ensure proper installation and safety."
+      }
+    }
+  ],
+  "description": "Complex double vanity installations involving plumbing, electrical, or structural changes are best left to a professional contractor to ensure proper installati"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for installing a frameless glass shower door?",
-  "description": "Frameless glass shower door installation involves precise measurement, careful positioning and securing of panels with hinges and clamps, and sealing to prevent",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-installing-a-frameless-glass-shower-door",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for installing a frameless glass shower door?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for installing a frameless glass shower door begins with precise measurements of the shower opening to ensure a custom fit. Once the glass is fabricated, our technicians carefully position and secure the panels using specialized hinges and clamps, often drilling into wall studs. Proper sealing is then applied to prevent leaks. It's essential to ensure the shower walls are capable of supporting the weight of frameless glass, as these panels are significantly heavier than framed options.",
-        "description": "Frameless glass shower door installation involves precise measurement, careful positioning and securing of panels with hinges and clamps, and sealing to prevent leaks."
-      }
-    }
-  ],
+  "name": "What is the process for installing a frameless glass shower door?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for installing a frameless glass shower door?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for installing a frameless glass shower door begins with precise measurements of the shower opening to ensure a custom fit. Once the glass is fabricated, our technicians carefully position and secure the panels using specialized hinges and clamps, often drilling into wall studs. Proper sealing is then applied to prevent leaks. It's essential to ensure the shower walls are capable of supporting the weight of frameless glass, as these panels are significantly heavier than framed options.",
+        "@type": "Answer",
+        "description": "Frameless glass shower door installation involves precise measurement, careful positioning and securing of panels with hinges and clamps, and sealing to prevent leaks."
+      }
+    }
+  ],
+  "description": "Frameless glass shower door installation involves precise measurement, careful positioning and securing of panels with hinges and clamps, and sealing to prevent"
 }

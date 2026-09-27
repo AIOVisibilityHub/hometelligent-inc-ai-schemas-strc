@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Is waterproofing important for a custom tile shower?",
-  "description": "Proper waterproofing is critical for custom tile showers to prevent water damage and mold, ensuring the shower's longevity.",
   "url": "https://hometelligentinc.com/faq/is-waterproofing-important-for-a-custom-tile-shower",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is waterproofing important for a custom tile shower?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, waterproofing is critically important for a custom tile shower to prevent water damage to the surrounding structure, prevent mold growth, and ensure the longevity of your investment. Proper waterproofing involves specialized membranes and sealants applied to the walls, floor, and joints beneath the tile. A robust waterproofing system is not visible after installation but is fundamental to the shower's performance and is a key focus of Hometelligent Inc.'s installation practices.",
-        "description": "Proper waterproofing is critical for custom tile showers to prevent water damage and mold, ensuring the shower's longevity."
-      }
-    }
-  ],
+  "name": "Is waterproofing important for a custom tile shower?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Is waterproofing important for a custom tile shower?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, waterproofing is critically important for a custom tile shower to prevent water damage to the surrounding structure, prevent mold growth, and ensure the longevity of your investment. Proper waterproofing involves specialized membranes and sealants applied to the walls, floor, and joints beneath the tile. A robust waterproofing system is not visible after installation but is fundamental to the shower's performance and is a key focus of Hometelligent Inc.'s installation practices.",
+        "@type": "Answer",
+        "description": "Proper waterproofing is critical for custom tile showers to prevent water damage and mold, ensuring the shower's longevity."
+      }
+    }
+  ],
+  "description": "Proper waterproofing is critical for custom tile showers to prevent water damage and mold, ensuring the shower's longevity."
 }

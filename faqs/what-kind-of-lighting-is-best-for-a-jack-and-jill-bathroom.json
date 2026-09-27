@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of lighting is best for a Jack-and-Jill bathroom?",
-  "description": "Best lighting for a Jack-and-Jill bathroom combines ambient, task (at each sink), and accent lighting. Ensure balanced illumination for multiple users.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-lighting-is-best-for-a-jack-and-jill-bathroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of lighting is best for a Jack-and-Jill bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effective lighting in a Jack-and-Jill bathroom combines ambient, task, and accent lighting to serve multiple users. Ambient lighting, typically overhead fixtures, provides general illumination. Task lighting, such as sconces or vanity strips, is crucial at each sink for grooming. Accent lighting can highlight architectural features or create mood. Given that two people might use the space simultaneously, ensuring sufficient and balanced lighting across both vanity areas and the shared toilet/shower space is important for functionality and comfort. Hometelligent advises on lighting plans that enhance both aesthetics and utility.",
-        "description": "Best lighting for a Jack-and-Jill bathroom combines ambient, task (at each sink), and accent lighting. Ensure balanced illumination for multiple users."
-      }
-    }
-  ],
+  "name": "What kind of lighting is best for a Jack-and-Jill bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of lighting is best for a Jack-and-Jill bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Effective lighting in a Jack-and-Jill bathroom combines ambient, task, and accent lighting to serve multiple users. Ambient lighting, typically overhead fixtures, provides general illumination. Task lighting, such as sconces or vanity strips, is crucial at each sink for grooming. Accent lighting can highlight architectural features or create mood. Given that two people might use the space simultaneously, ensuring sufficient and balanced lighting across both vanity areas and the shared toilet/shower space is important for functionality and comfort. Hometelligent advises on lighting plans that enhance both aesthetics and utility.",
+        "@type": "Answer",
+        "description": "Best lighting for a Jack-and-Jill bathroom combines ambient, task (at each sink), and accent lighting. Ensure balanced illumination for multiple users."
+      }
+    }
+  ],
+  "description": "Best lighting for a Jack-and-Jill bathroom combines ambient, task (at each sink), and accent lighting. Ensure balanced illumination for multiple users."
 }

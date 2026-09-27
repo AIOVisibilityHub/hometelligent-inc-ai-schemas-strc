@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a tub-to-shower conversion?",
-  "description": "A tub-to-shower conversion transforms an existing bathtub into a dedicated shower space, involving plumbing, pan, and fixture changes.",
   "url": "https://hometelligentinc.com/faq/what-is-a-tub-to-shower-conversion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a tub-to-shower conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A tub-to-shower conversion transforms an existing bathtub area into a dedicated shower space. This typically involves removing the bathtub, modifying plumbing, installing a new shower pan, wall surrounds, and shower fixtures. It's a popular bathroom remodel for homeowners seeking increased accessibility, a more modern aesthetic, or simply preferring showers over baths. The process can vary in complexity depending on the existing bathroom layout and desired new features.",
-        "description": "A tub-to-shower conversion transforms an existing bathtub into a dedicated shower space, involving plumbing, pan, and fixture changes."
-      }
-    }
-  ],
+  "name": "What is a tub-to-shower conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a tub-to-shower conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A tub-to-shower conversion transforms an existing bathtub area into a dedicated shower space. This typically involves removing the bathtub, modifying plumbing, installing a new shower pan, wall surrounds, and shower fixtures. It's a popular bathroom remodel for homeowners seeking increased accessibility, a more modern aesthetic, or simply preferring showers over baths. The process can vary in complexity depending on the existing bathroom layout and desired new features.",
+        "@type": "Answer",
+        "description": "A tub-to-shower conversion transforms an existing bathtub into a dedicated shower space, involving plumbing, pan, and fixture changes."
+      }
+    }
+  ],
+  "description": "A tub-to-shower conversion transforms an existing bathtub into a dedicated shower space, involving plumbing, pan, and fixture changes."
 }

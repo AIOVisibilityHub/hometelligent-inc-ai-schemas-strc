@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of bathroom countertop installation?",
-  "description": "Costs are influenced by material type, dimensions, edge profiles, cutouts, and labor for installation, including any demolition or plumbing work.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-bathroom-countertop-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of bathroom countertop installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Several factors influence the overall cost of bathroom countertop installation, including the type of material selected, the countertop's dimensions, edge profiles, and any cutouts required for sinks or faucets. Labor costs also vary based on the complexity of the installation and any additional services like old countertop removal or plumbing adjustments. Hometelligent Inc. provides detailed quotes based on these specifics. To receive an accurate estimate, it's helpful to have a clear idea of your preferred material and measurements of your vanity area during your initial inquiry.",
-        "description": "Costs are influenced by material type, dimensions, edge profiles, cutouts, and labor for installation, including any demolition or plumbing work."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of bathroom countertop installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of bathroom countertop installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Several factors influence the overall cost of bathroom countertop installation, including the type of material selected, the countertop's dimensions, edge profiles, and any cutouts required for sinks or faucets. Labor costs also vary based on the complexity of the installation and any additional services like old countertop removal or plumbing adjustments. Hometelligent Inc. provides detailed quotes based on these specifics. To receive an accurate estimate, it's helpful to have a clear idea of your preferred material and measurements of your vanity area during your initial inquiry.",
+        "@type": "Answer",
+        "description": "Costs are influenced by material type, dimensions, edge profiles, cutouts, and labor for installation, including any demolition or plumbing work."
+      }
+    }
+  ],
+  "description": "Costs are influenced by material type, dimensions, edge profiles, cutouts, and labor for installation, including any demolition or plumbing work."
 }

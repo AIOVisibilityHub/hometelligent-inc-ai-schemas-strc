@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there eco-friendly options for bathroom countertops?",
-  "description": "Eco-friendly options include recycled content materials (quartz, solid surface) and sustainably sourced natural stones; consider the material's lifecycle.",
   "url": "https://hometelligentinc.com/faq/are-there-eco-friendly-options-for-bathroom-countertops",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there eco-friendly options for bathroom countertops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, there are several eco-friendly options available for bathroom countertops. These often include materials made from recycled content, such as certain types of engineered quartz or solid surface materials, or sustainably sourced natural stones. Bamboo and reclaimed wood can also be considered, though they may require more specialized maintenance in a bathroom environment. When making your decision, consider the entire lifecycle of the material, from sourcing to disposal, and inquire about manufacturers' environmental certifications. Hometelligent Inc. can discuss these sustainable choices and their implications for your project.",
-        "description": "Eco-friendly options include recycled content materials (quartz, solid surface) and sustainably sourced natural stones; consider the material's lifecycle."
-      }
-    }
-  ],
+  "name": "Are there eco-friendly options for bathroom countertops?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there eco-friendly options for bathroom countertops?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, there are several eco-friendly options available for bathroom countertops. These often include materials made from recycled content, such as certain types of engineered quartz or solid surface materials, or sustainably sourced natural stones. Bamboo and reclaimed wood can also be considered, though they may require more specialized maintenance in a bathroom environment. When making your decision, consider the entire lifecycle of the material, from sourcing to disposal, and inquire about manufacturers' environmental certifications. Hometelligent Inc. can discuss these sustainable choices and their implications for your project.",
+        "@type": "Answer",
+        "description": "Eco-friendly options include recycled content materials (quartz, solid surface) and sustainably sourced natural stones; consider the material's lifecycle."
+      }
+    }
+  ],
+  "description": "Eco-friendly options include recycled content materials (quartz, solid surface) and sustainably sourced natural stones; consider the material's lifecycle."
 }

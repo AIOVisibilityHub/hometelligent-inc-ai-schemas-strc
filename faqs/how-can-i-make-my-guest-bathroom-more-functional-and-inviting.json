@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I make my guest bathroom more functional and inviting?",
-  "description": "Improve guest bathroom functionality with good lighting, ventilation, and easy-to-clean surfaces. Add inviting touches like soft towels and plants. Set a budget",
   "url": "https://hometelligentinc.com/faq/how-can-i-make-my-guest-bathroom-more-functional-and-inviting",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I make my guest bathroom more functional and inviting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To enhance functionality and appeal, consider adding good lighting, proper ventilation, and easy-to-clean surfaces. A well-placed mirror can also brighten the space and make it feel larger. For an inviting touch, incorporate soft towels, a small plant, and perhaps a subtle scent diffuser. Deciding on a clear budget for both functional upgrades and aesthetic touches at the outset can help prioritize choices and avoid overspending while achieving a welcoming atmosphere.",
-        "description": "Improve guest bathroom functionality with good lighting, ventilation, and easy-to-clean surfaces. Add inviting touches like soft towels and plants. Set a budget to prioritize functional and aesthetic choices."
-      }
-    }
-  ],
+  "name": "How can I make my guest bathroom more functional and inviting?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I make my guest bathroom more functional and inviting?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To enhance functionality and appeal, consider adding good lighting, proper ventilation, and easy-to-clean surfaces. A well-placed mirror can also brighten the space and make it feel larger. For an inviting touch, incorporate soft towels, a small plant, and perhaps a subtle scent diffuser. Deciding on a clear budget for both functional upgrades and aesthetic touches at the outset can help prioritize choices and avoid overspending while achieving a welcoming atmosphere.",
+        "@type": "Answer",
+        "description": "Improve guest bathroom functionality with good lighting, ventilation, and easy-to-clean surfaces. Add inviting touches like soft towels and plants. Set a budget to prioritize functional and aesthetic choices."
+      }
+    }
+  ],
+  "description": "Improve guest bathroom functionality with good lighting, ventilation, and easy-to-clean surfaces. Add inviting touches like soft towels and plants. Set a budget"
 }

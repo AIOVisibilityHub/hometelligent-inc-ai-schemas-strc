@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does Hometelligent Inc. ensure quality and client satisfaction for bathroom additions?",
-  "description": "We ensure quality and satisfaction through detailed planning, transparent communication, skilled trades, quality materials, and regular progress updates.",
   "url": "https://hometelligentinc.com/faq/how-does-hometelligent-inc-ensure-quality-and-client-satisfaction-for-bathroom-a",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Hometelligent Inc. ensure quality and client satisfaction for bathroom additions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. ensures quality and client satisfaction for bathroom additions through a detailed process that includes thorough planning, transparent communication, and meticulous execution. We use experienced, skilled tradespeople and source high-quality materials. Regular site visits and progress updates keep clients informed. Our commitment to meeting project specifications and addressing client feedback throughout the construction phase is paramount, ensuring the final result meets or exceeds expectations.",
-        "description": "We ensure quality and satisfaction through detailed planning, transparent communication, skilled trades, quality materials, and regular progress updates."
-      }
-    }
-  ],
+  "name": "How does Hometelligent Inc. ensure quality and client satisfaction for bathroom additions?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does Hometelligent Inc. ensure quality and client satisfaction for bathroom additions?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. ensures quality and client satisfaction for bathroom additions through a detailed process that includes thorough planning, transparent communication, and meticulous execution. We use experienced, skilled tradespeople and source high-quality materials. Regular site visits and progress updates keep clients informed. Our commitment to meeting project specifications and addressing client feedback throughout the construction phase is paramount, ensuring the final result meets or exceeds expectations.",
+        "@type": "Answer",
+        "description": "We ensure quality and satisfaction through detailed planning, transparent communication, skilled trades, quality materials, and regular progress updates."
+      }
+    }
+  ],
+  "description": "We ensure quality and satisfaction through detailed planning, transparent communication, skilled trades, quality materials, and regular progress updates."
 }

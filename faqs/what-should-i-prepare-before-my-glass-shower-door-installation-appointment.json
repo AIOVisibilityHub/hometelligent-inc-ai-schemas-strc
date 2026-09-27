@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before my glass shower door installation appointment?",
-  "description": "Before installation, clear the shower area and bathroom floor of all items. Discuss any aesthetic preferences or concerns with our team during consultation.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-my-glass-shower-door-installation-appointment",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before my glass shower door installation appointment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before your glass shower door installation, please ensure the shower area is clear of all personal items, towels, and temporary fixtures. The bathroom floor should also be clear to allow our installers unobstructed access and space to work. If you have any specific aesthetic preferences or concerns about existing plumbing or tiling, discussing these with our team during the initial consultation can help streamline the installation process.",
-        "description": "Before installation, clear the shower area and bathroom floor of all items. Discuss any aesthetic preferences or concerns with our team during consultation."
-      }
-    }
-  ],
+  "name": "What should I prepare before my glass shower door installation appointment?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before my glass shower door installation appointment?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before your glass shower door installation, please ensure the shower area is clear of all personal items, towels, and temporary fixtures. The bathroom floor should also be clear to allow our installers unobstructed access and space to work. If you have any specific aesthetic preferences or concerns about existing plumbing or tiling, discussing these with our team during the initial consultation can help streamline the installation process.",
+        "@type": "Answer",
+        "description": "Before installation, clear the shower area and bathroom floor of all items. Discuss any aesthetic preferences or concerns with our team during consultation."
+      }
+    }
+  ],
+  "description": "Before installation, clear the shower area and bathroom floor of all items. Discuss any aesthetic preferences or concerns with our team during consultation."
 }

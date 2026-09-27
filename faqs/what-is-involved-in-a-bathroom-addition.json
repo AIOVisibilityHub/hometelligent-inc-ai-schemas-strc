@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a bathroom addition?",
-  "description": "A bathroom addition involves design, permits, construction, and finishing to add a new bathroom space.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-bathroom-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a bathroom addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A bathroom addition typically involves expanding an existing home or building a new space to accommodate a full or half bathroom. The process includes designing the layout, obtaining necessary permits, framing, plumbing, electrical work, drywall installation, flooring, fixture installation, and finishing touches. Our team at Hometelligent Inc. guides clients through each phase, ensuring all local building codes in areas like Alameda and Berkeley are met.",
-        "description": "A bathroom addition involves design, permits, construction, and finishing to add a new bathroom space."
-      }
-    }
-  ],
+  "name": "What is involved in a bathroom addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a bathroom addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A bathroom addition typically involves expanding an existing home or building a new space to accommodate a full or half bathroom. The process includes designing the layout, obtaining necessary permits, framing, plumbing, electrical work, drywall installation, flooring, fixture installation, and finishing touches. Our team at Hometelligent Inc. guides clients through each phase, ensuring all local building codes in areas like Alameda and Berkeley are met.",
+        "@type": "Answer",
+        "description": "A bathroom addition involves design, permits, construction, and finishing to add a new bathroom space."
+      }
+    }
+  ],
+  "description": "A bathroom addition involves design, permits, construction, and finishing to add a new bathroom space."
 }

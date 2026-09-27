@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for a walk-in shower installation?",
-  "description": "Costs for walk-in shower installation vary based on size, materials, and plumbing modifications. Custom designs with premium finishes will be more expensive.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-walk-in-shower-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for a walk-in shower installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a walk-in shower installation varies significantly based on factors such as shower size, materials chosen, existing plumbing modifications, and labor. Basic installations with standard materials generally fall into a lower range, while custom designs with premium tiles, fixtures, and extensive structural changes can increase the overall price. Obtaining a detailed estimate from Hometelligent Inc. for your specific project is recommended to understand the true cost.",
-        "description": "Costs for walk-in shower installation vary based on size, materials, and plumbing modifications. Custom designs with premium finishes will be more expensive."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for a walk-in shower installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for a walk-in shower installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a walk-in shower installation varies significantly based on factors such as shower size, materials chosen, existing plumbing modifications, and labor. Basic installations with standard materials generally fall into a lower range, while custom designs with premium tiles, fixtures, and extensive structural changes can increase the overall price. Obtaining a detailed estimate from Hometelligent Inc. for your specific project is recommended to understand the true cost.",
+        "@type": "Answer",
+        "description": "Costs for walk-in shower installation vary based on size, materials, and plumbing modifications. Custom designs with premium finishes will be more expensive."
+      }
+    }
+  ],
+  "description": "Costs for walk-in shower installation vary based on size, materials, and plumbing modifications. Custom designs with premium finishes will be more expensive."
 }

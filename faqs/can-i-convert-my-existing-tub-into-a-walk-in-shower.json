@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I convert my existing tub into a walk-in shower?",
-  "description": "Yes, converting a tub to a walk-in shower is common. It involves removing the tub, modifying plumbing, and installing a new shower system.",
   "url": "https://hometelligentinc.com/faq/can-i-convert-my-existing-tub-into-a-walk-in-shower",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I convert my existing tub into a walk-in shower?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, converting an existing bathtub into a walk-in shower is a popular renovation choice, particularly for enhancing accessibility or updating a bathroom's look. This conversion typically involves removing the tub, modifying plumbing, and installing a new shower pan, walls, and fixtures. The feasibility depends on the existing bathroom layout and plumbing. This offers a practical tradeoff between retaining a tub and gaining a more spacious, accessible shower.",
-        "description": "Yes, converting a tub to a walk-in shower is common. It involves removing the tub, modifying plumbing, and installing a new shower system."
-      }
-    }
-  ],
+  "name": "Can I convert my existing tub into a walk-in shower?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I convert my existing tub into a walk-in shower?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, converting an existing bathtub into a walk-in shower is a popular renovation choice, particularly for enhancing accessibility or updating a bathroom's look. This conversion typically involves removing the tub, modifying plumbing, and installing a new shower pan, walls, and fixtures. The feasibility depends on the existing bathroom layout and plumbing. This offers a practical tradeoff between retaining a tub and gaining a more spacious, accessible shower.",
+        "@type": "Answer",
+        "description": "Yes, converting a tub to a walk-in shower is common. It involves removing the tub, modifying plumbing, and installing a new shower system."
+      }
+    }
+  ],
+  "description": "Yes, converting a tub to a walk-in shower is common. It involves removing the tub, modifying plumbing, and installing a new shower system."
 }

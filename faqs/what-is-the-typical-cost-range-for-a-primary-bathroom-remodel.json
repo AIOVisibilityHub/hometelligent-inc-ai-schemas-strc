@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for a primary bathroom remodel?",
-  "description": "Primary bathroom remodel costs typically range from $15,000 for minor updates to over $50,000 for full renovations, depending on scope and materials.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-primary-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for a primary bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a primary bathroom remodel can vary significantly based on the scope of work, material selections, and fixture upgrades. Minor updates might range from $15,000 to $25,000, while a complete gut renovation with high-end finishes could exceed $50,000. Key factors influencing the price include the size of the bathroom, custom cabinetry, tile choices, and whether the layout is being reconfigured. During our initial consultation, we provide a detailed estimate based on your specific design choices and the complexity of the project.",
-        "description": "Primary bathroom remodel costs typically range from $15,000 for minor updates to over $50,000 for full renovations, depending on scope and materials."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for a primary bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for a primary bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a primary bathroom remodel can vary significantly based on the scope of work, material selections, and fixture upgrades. Minor updates might range from $15,000 to $25,000, while a complete gut renovation with high-end finishes could exceed $50,000. Key factors influencing the price include the size of the bathroom, custom cabinetry, tile choices, and whether the layout is being reconfigured. During our initial consultation, we provide a detailed estimate based on your specific design choices and the complexity of the project.",
+        "@type": "Answer",
+        "description": "Primary bathroom remodel costs typically range from $15,000 for minor updates to over $50,000 for full renovations, depending on scope and materials."
+      }
+    }
+  ],
+  "description": "Primary bathroom remodel costs typically range from $15,000 for minor updates to over $50,000 for full renovations, depending on scope and materials."
 }

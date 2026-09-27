@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required for a custom tile shower?",
-  "description": "Maintenance includes regular cleaning, periodic grout and caulk resealing, and prompt attention to minor repairs.",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-for-a-custom-tile-shower",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required for a custom tile shower?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintaining a custom tile shower involves regular cleaning to prevent soap scum and mildew buildup, as well as periodic inspection and resealing of grout and caulk lines. Using pH-neutral cleaners and a soft brush can help preserve the tile and grout's appearance. The frequency of grout sealing can vary based on tile type and shower usage, with natural stone typically requiring more frequent sealing. Addressing minor issues like cracked grout promptly can prevent larger problems and costly repairs down the line.",
-        "description": "Maintenance includes regular cleaning, periodic grout and caulk resealing, and prompt attention to minor repairs."
-      }
-    }
-  ],
+  "name": "What maintenance is required for a custom tile shower?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required for a custom tile shower?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintaining a custom tile shower involves regular cleaning to prevent soap scum and mildew buildup, as well as periodic inspection and resealing of grout and caulk lines. Using pH-neutral cleaners and a soft brush can help preserve the tile and grout's appearance. The frequency of grout sealing can vary based on tile type and shower usage, with natural stone typically requiring more frequent sealing. Addressing minor issues like cracked grout promptly can prevent larger problems and costly repairs down the line.",
+        "@type": "Answer",
+        "description": "Maintenance includes regular cleaning, periodic grout and caulk resealing, and prompt attention to minor repairs."
+      }
+    }
+  ],
+  "description": "Maintenance includes regular cleaning, periodic grout and caulk resealing, and prompt attention to minor repairs."
 }

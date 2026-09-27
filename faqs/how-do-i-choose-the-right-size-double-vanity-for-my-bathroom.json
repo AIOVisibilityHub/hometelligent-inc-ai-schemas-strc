@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right size double vanity for my bathroom?",
-  "description": "Measure your available wall space, account for door swings and clearances, and consider the bathroom's overall layout when selecting a double vanity size.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-size-double-vanity-for-my-bathroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right size double vanity for my bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right size double vanity involves accurately measuring your available wall space, considering door swings, and ensuring comfortable clearance around other fixtures. We recommend leaving at least 15 inches from the center of each sink to a side wall or other fixture, and 30 inches between the centers of the two sinks. A vanity that is too large can make the bathroom feel cramped, while one that is too small may not provide adequate counter or storage space. Measure not only width but also depth to ensure it doesn't impede movement in smaller bathrooms, especially in areas like Emeryville or Alameda where space can be a premium.",
-        "description": "Measure your available wall space, account for door swings and clearances, and consider the bathroom's overall layout when selecting a double vanity size."
-      }
-    }
-  ],
+  "name": "How do I choose the right size double vanity for my bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right size double vanity for my bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right size double vanity involves accurately measuring your available wall space, considering door swings, and ensuring comfortable clearance around other fixtures. We recommend leaving at least 15 inches from the center of each sink to a side wall or other fixture, and 30 inches between the centers of the two sinks. A vanity that is too large can make the bathroom feel cramped, while one that is too small may not provide adequate counter or storage space. Measure not only width but also depth to ensure it doesn't impede movement in smaller bathrooms, especially in areas like Emeryville or Alameda where space can be a premium.",
+        "@type": "Answer",
+        "description": "Measure your available wall space, account for door swings and clearances, and consider the bathroom's overall layout when selecting a double vanity size."
+      }
+    }
+  ],
+  "description": "Measure your available wall space, account for door swings and clearances, and consider the bathroom's overall layout when selecting a double vanity size."
 }

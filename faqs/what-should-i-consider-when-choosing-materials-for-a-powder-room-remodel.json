@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing materials for a powder room remodel?",
-  "description": "Prioritize durable, moisture-resistant materials like porcelain tile or quartz for flooring and countertops. Material choices impact cost and longevity.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-materials-for-a-powder-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing materials for a powder room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing materials for a powder room remodel, prioritize durability, moisture resistance, and how well they complement your home's style. For flooring, options like porcelain tile, luxury vinyl plank, or natural stone are excellent for resisting moisture. For countertops, quartz, granite, or solid surface materials offer both beauty and practicality. Your material choices significantly impact the overall project cost and longevity. Hometelligent Inc. can provide samples and guidance on material selections that fit your budget and design preferences.",
-        "description": "Prioritize durable, moisture-resistant materials like porcelain tile or quartz for flooring and countertops. Material choices impact cost and longevity."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing materials for a powder room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing materials for a powder room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing materials for a powder room remodel, prioritize durability, moisture resistance, and how well they complement your home's style. For flooring, options like porcelain tile, luxury vinyl plank, or natural stone are excellent for resisting moisture. For countertops, quartz, granite, or solid surface materials offer both beauty and practicality. Your material choices significantly impact the overall project cost and longevity. Hometelligent Inc. can provide samples and guidance on material selections that fit your budget and design preferences.",
+        "@type": "Answer",
+        "description": "Prioritize durable, moisture-resistant materials like porcelain tile or quartz for flooring and countertops. Material choices impact cost and longevity."
+      }
+    }
+  ],
+  "description": "Prioritize durable, moisture-resistant materials like porcelain tile or quartz for flooring and countertops. Material choices impact cost and longevity."
 }

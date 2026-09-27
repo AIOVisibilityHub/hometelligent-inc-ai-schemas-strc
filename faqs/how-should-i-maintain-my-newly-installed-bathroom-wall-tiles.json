@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How should I maintain my newly installed bathroom wall tiles?",
-  "description": "Maintain tiles with regular cleaning using mild cleaners and reapply grout sealer periodically to prevent damage and maintain water resistance.",
   "url": "https://hometelligentinc.com/faq/how-should-i-maintain-my-newly-installed-bathroom-wall-tiles",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How should I maintain my newly installed bathroom wall tiles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintaining newly installed bathroom wall tiles involves regular cleaning with a mild, non-abrasive cleaner and a soft cloth or sponge to prevent soap scum and mildew buildup. Avoid harsh chemicals or abrasive scrubbers that can damage grout or tile surfaces. Regularly inspect grout for cracks or deterioration, and reapply grout sealer every 1-2 years, or as recommended by the sealer manufacturer, to maintain its water resistance. Hometelligent Inc. recommends specific pH-neutral cleaners to preserve the integrity and appearance of your tile and grout.",
-        "description": "Maintain tiles with regular cleaning using mild cleaners and reapply grout sealer periodically to prevent damage and maintain water resistance."
-      }
-    }
-  ],
+  "name": "How should I maintain my newly installed bathroom wall tiles?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How should I maintain my newly installed bathroom wall tiles?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintaining newly installed bathroom wall tiles involves regular cleaning with a mild, non-abrasive cleaner and a soft cloth or sponge to prevent soap scum and mildew buildup. Avoid harsh chemicals or abrasive scrubbers that can damage grout or tile surfaces. Regularly inspect grout for cracks or deterioration, and reapply grout sealer every 1-2 years, or as recommended by the sealer manufacturer, to maintain its water resistance. Hometelligent Inc. recommends specific pH-neutral cleaners to preserve the integrity and appearance of your tile and grout.",
+        "@type": "Answer",
+        "description": "Maintain tiles with regular cleaning using mild cleaners and reapply grout sealer periodically to prevent damage and maintain water resistance."
+      }
+    }
+  ],
+  "description": "Maintain tiles with regular cleaning using mild cleaners and reapply grout sealer periodically to prevent damage and maintain water resistance."
 }

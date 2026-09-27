@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a Jack-and-Jill bathroom and a standard hall bathroom?",
-  "description": "A Jack-and-Jill bathroom has two direct entrances from bedrooms, while a hall bathroom has one entrance from a hallway. This affects privacy and traffic flow.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-jack-and-jill-bathroom-and-a-standard-hall-bath",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a Jack-and-Jill bathroom and a standard hall bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary difference is access: a Jack-and-Jill bathroom has two entrances directly from separate bedrooms, while a standard hall bathroom typically has one entrance from a hallway, serving all adjacent rooms or guests. Jack-and-Jill designs prioritize direct, private access from bedrooms, reducing hallway traffic and offering convenience for occupants of those rooms. Hall bathrooms are more publicly accessible. Consider the flow and user privacy when deciding which type best suits your home's layout. Hometelligent helps assess which option provides optimal functionality for your space.",
-        "description": "A Jack-and-Jill bathroom has two direct entrances from bedrooms, while a hall bathroom has one entrance from a hallway. This affects privacy and traffic flow."
-      }
-    }
-  ],
+  "name": "What is the difference between a Jack-and-Jill bathroom and a standard hall bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a Jack-and-Jill bathroom and a standard hall bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The primary difference is access: a Jack-and-Jill bathroom has two entrances directly from separate bedrooms, while a standard hall bathroom typically has one entrance from a hallway, serving all adjacent rooms or guests. Jack-and-Jill designs prioritize direct, private access from bedrooms, reducing hallway traffic and offering convenience for occupants of those rooms. Hall bathrooms are more publicly accessible. Consider the flow and user privacy when deciding which type best suits your home's layout. Hometelligent helps assess which option provides optimal functionality for your space.",
+        "@type": "Answer",
+        "description": "A Jack-and-Jill bathroom has two direct entrances from bedrooms, while a hall bathroom has one entrance from a hallway. This affects privacy and traffic flow."
+      }
+    }
+  ],
+  "description": "A Jack-and-Jill bathroom has two direct entrances from bedrooms, while a hall bathroom has one entrance from a hallway. This affects privacy and traffic flow."
 }

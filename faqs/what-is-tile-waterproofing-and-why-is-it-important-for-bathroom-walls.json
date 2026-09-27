@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is tile waterproofing and why is it important for bathroom walls?",
-  "description": "Waterproofing involves applying a membrane to the wall before tiling to prevent moisture damage and mold. It's crucial because grout is not waterproof.",
   "url": "https://hometelligentinc.com/faq/what-is-tile-waterproofing-and-why-is-it-important-for-bathroom-walls",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is tile waterproofing and why is it important for bathroom walls?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tile waterproofing involves applying a waterproof membrane or coating to the wall substrate before tile installation. This critical step prevents water from penetrating the walls behind the tiles, protecting against moisture damage, mold growth, and structural deterioration. Even if tiles themselves are waterproof, grout lines are not, making a waterproof barrier essential in high-moisture areas like showers and bath surrounds. Hometelligent Inc. adheres to industry best practices for waterproofing to ensure long-term durability and prevent costly future repairs for your bathroom.",
-        "description": "Waterproofing involves applying a membrane to the wall before tiling to prevent moisture damage and mold. It's crucial because grout is not waterproof."
-      }
-    }
-  ],
+  "name": "What is tile waterproofing and why is it important for bathroom walls?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is tile waterproofing and why is it important for bathroom walls?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Tile waterproofing involves applying a waterproof membrane or coating to the wall substrate before tile installation. This critical step prevents water from penetrating the walls behind the tiles, protecting against moisture damage, mold growth, and structural deterioration. Even if tiles themselves are waterproof, grout lines are not, making a waterproof barrier essential in high-moisture areas like showers and bath surrounds. Hometelligent Inc. adheres to industry best practices for waterproofing to ensure long-term durability and prevent costly future repairs for your bathroom.",
+        "@type": "Answer",
+        "description": "Waterproofing involves applying a membrane to the wall before tiling to prevent moisture damage and mold. It's crucial because grout is not waterproof."
+      }
+    }
+  ],
+  "description": "Waterproofing involves applying a membrane to the wall before tiling to prevent moisture damage and mold. It's crucial because grout is not waterproof."
 }

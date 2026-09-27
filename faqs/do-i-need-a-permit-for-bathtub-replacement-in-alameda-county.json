@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for bathtub replacement in Alameda County?",
-  "description": "A permit may be required for bathtub replacement if it involves significant plumbing or structural changes; local rules vary in Alameda County.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-bathtub-replacement-in-alameda-county",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for bathtub replacement in Alameda County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You may need a permit for bathtub replacement if the project involves significant plumbing alterations, structural changes to the bathroom, or moving the bathtub's location. A like-for-like replacement in the same footprint without major plumbing work might not require a permit, but regulations vary by city within Alameda County. It's always best to check with your local planning department or consult with a contractor. Hometelligent Inc. can help assess your project's permit requirements during the initial planning phase, ensuring compliance with local building codes in areas like Alameda and Oakland.",
-        "description": "A permit may be required for bathtub replacement if it involves significant plumbing or structural changes; local rules vary in Alameda County."
-      }
-    }
-  ],
+  "name": "Do I need a permit for bathtub replacement in Alameda County?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for bathtub replacement in Alameda County?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You may need a permit for bathtub replacement if the project involves significant plumbing alterations, structural changes to the bathroom, or moving the bathtub's location. A like-for-like replacement in the same footprint without major plumbing work might not require a permit, but regulations vary by city within Alameda County. It's always best to check with your local planning department or consult with a contractor. Hometelligent Inc. can help assess your project's permit requirements during the initial planning phase, ensuring compliance with local building codes in areas like Alameda and Oakland.",
+        "@type": "Answer",
+        "description": "A permit may be required for bathtub replacement if it involves significant plumbing or structural changes; local rules vary in Alameda County."
+      }
+    }
+  ],
+  "description": "A permit may be required for bathtub replacement if it involves significant plumbing or structural changes; local rules vary in Alameda County."
 }

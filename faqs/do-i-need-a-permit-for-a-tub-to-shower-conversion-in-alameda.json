@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for a tub-to-shower conversion in Alameda?",
-  "description": "Yes, permits are typically required in Alameda for tub-to-shower conversions involving plumbing or structural changes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-a-tub-to-shower-conversion-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for a tub-to-shower conversion in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, in Alameda, most tub-to-shower conversions require permits, particularly if the project involves altering existing plumbing lines or making structural changes to the bathroom. Even minor changes to the drainage system often necessitate a permit to ensure compliance with local building codes. It's crucial to obtain the necessary permits before starting any work to avoid potential fines or project delays. Hometelligent Inc. can guide you through the local permitting process.",
-        "description": "Yes, permits are typically required in Alameda for tub-to-shower conversions involving plumbing or structural changes."
-      }
-    }
-  ],
+  "name": "Do I need a permit for a tub-to-shower conversion in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for a tub-to-shower conversion in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, in Alameda, most tub-to-shower conversions require permits, particularly if the project involves altering existing plumbing lines or making structural changes to the bathroom. Even minor changes to the drainage system often necessitate a permit to ensure compliance with local building codes. It's crucial to obtain the necessary permits before starting any work to avoid potential fines or project delays. Hometelligent Inc. can guide you through the local permitting process.",
+        "@type": "Answer",
+        "description": "Yes, permits are typically required in Alameda for tub-to-shower conversions involving plumbing or structural changes."
+      }
+    }
+  ],
+  "description": "Yes, permits are typically required in Alameda for tub-to-shower conversions involving plumbing or structural changes."
 }

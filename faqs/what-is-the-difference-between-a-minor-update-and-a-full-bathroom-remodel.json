@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a minor update and a full bathroom remodel?",
-  "description": "Minor updates are cosmetic changes, while full remodels involve significant layout or plumbing alterations. We help determine the best approach based on your go",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-minor-update-and-a-full-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a minor update and a full bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A minor update typically involves cosmetic changes like painting, replacing fixtures (faucets, lighting), or updating vanities without altering the layout or plumbing. A full remodel, conversely, often includes significant changes to the layout, moving plumbing lines, replacing major components like bathtubs or showers, and potentially reconfiguring walls. The choice between them depends on your budget and desired level of transformation. Hometelligent Inc. can assess your current bathroom and recommend the most suitable approach based on your goals.",
-        "description": "Minor updates are cosmetic changes, while full remodels involve significant layout or plumbing alterations. We help determine the best approach based on your goals."
-      }
-    }
-  ],
+  "name": "What is the difference between a minor update and a full bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a minor update and a full bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A minor update typically involves cosmetic changes like painting, replacing fixtures (faucets, lighting), or updating vanities without altering the layout or plumbing. A full remodel, conversely, often includes significant changes to the layout, moving plumbing lines, replacing major components like bathtubs or showers, and potentially reconfiguring walls. The choice between them depends on your budget and desired level of transformation. Hometelligent Inc. can assess your current bathroom and recommend the most suitable approach based on your goals.",
+        "@type": "Answer",
+        "description": "Minor updates are cosmetic changes, while full remodels involve significant layout or plumbing alterations. We help determine the best approach based on your goals."
+      }
+    }
+  ],
+  "description": "Minor updates are cosmetic changes, while full remodels involve significant layout or plumbing alterations. We help determine the best approach based on your go"
 }

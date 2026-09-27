@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a Jack-and-Jill bathroom add value to my home?",
-  "description": "A well-designed Jack-and-Jill bathroom can add value, especially in homes with multiple bedrooms needing shared facilities. Quality and aesthetic integration in",
   "url": "https://hometelligentinc.com/faq/can-a-jack-and-jill-bathroom-add-value-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a Jack-and-Jill bathroom add value to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a well-designed Jack-and-Jill bathroom can add significant value to a home, particularly in properties with multiple bedrooms that could benefit from an additional shared bathroom. This type of bathroom appeals to families seeking practical living solutions. The return on investment often depends on the quality of the remodel and how well it integrates with the existing home's aesthetic and functionality. Hometelligent ensures the design is cohesive with your home's style, enhancing its overall appeal and value.",
-        "description": "A well-designed Jack-and-Jill bathroom can add value, especially in homes with multiple bedrooms needing shared facilities. Quality and aesthetic integration influence ROI."
-      }
-    }
-  ],
+  "name": "Can a Jack-and-Jill bathroom add value to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a Jack-and-Jill bathroom add value to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a well-designed Jack-and-Jill bathroom can add significant value to a home, particularly in properties with multiple bedrooms that could benefit from an additional shared bathroom. This type of bathroom appeals to families seeking practical living solutions. The return on investment often depends on the quality of the remodel and how well it integrates with the existing home's aesthetic and functionality. Hometelligent ensures the design is cohesive with your home's style, enhancing its overall appeal and value.",
+        "@type": "Answer",
+        "description": "A well-designed Jack-and-Jill bathroom can add value, especially in homes with multiple bedrooms needing shared facilities. Quality and aesthetic integration influence ROI."
+      }
+    }
+  ],
+  "description": "A well-designed Jack-and-Jill bathroom can add value, especially in homes with multiple bedrooms needing shared facilities. Quality and aesthetic integration in"
 }

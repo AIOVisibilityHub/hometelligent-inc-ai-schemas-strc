@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right tile for my custom shower?",
-  "description": "Select tiles based on water resistance, slip resistance, durability, and aesthetics, such as porcelain, ceramic, or natural stone.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-tile-for-my-custom-shower",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right tile for my custom shower?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right tile involves considering factors such as water resistance, slip resistance, durability, and aesthetics. Porcelain and ceramic tiles are popular due to their low porosity and wide range of styles, while natural stone offers a unique, luxurious look but may require more maintenance. When making your selection, consider how the tile will perform in a wet environment and if its maintenance requirements align with your lifestyle. Our team can guide you through options during your design consultation.",
-        "description": "Select tiles based on water resistance, slip resistance, durability, and aesthetics, such as porcelain, ceramic, or natural stone."
-      }
-    }
-  ],
+  "name": "How do I choose the right tile for my custom shower?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right tile for my custom shower?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right tile involves considering factors such as water resistance, slip resistance, durability, and aesthetics. Porcelain and ceramic tiles are popular due to their low porosity and wide range of styles, while natural stone offers a unique, luxurious look but may require more maintenance. When making your selection, consider how the tile will perform in a wet environment and if its maintenance requirements align with your lifestyle. Our team can guide you through options during your design consultation.",
+        "@type": "Answer",
+        "description": "Select tiles based on water resistance, slip resistance, durability, and aesthetics, such as porcelain, ceramic, or natural stone."
+      }
+    }
+  ],
+  "description": "Select tiles based on water resistance, slip resistance, durability, and aesthetics, such as porcelain, ceramic, or natural stone."
 }

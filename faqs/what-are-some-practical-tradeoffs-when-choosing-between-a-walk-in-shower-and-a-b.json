@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are some practical tradeoffs when choosing between a walk-in shower and a bathtub in a redesign?",
-  "description": "Choosing between a walk-in shower and a bathtub involves tradeoffs: showers offer accessibility and a spacious feel but tubs are important for families and resa",
   "url": "https://hometelligentinc.com/faq/what-are-some-practical-tradeoffs-when-choosing-between-a-walk-in-shower-and-a-b",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are some practical tradeoffs when choosing between a walk-in shower and a bathtub in a redesign?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When redesigning, choosing between a walk-in shower and a bathtub involves practical tradeoffs. A walk-in shower offers a sleek, modern aesthetic, greater accessibility, and can make a bathroom feel more spacious, particularly in smaller areas. However, removing a bathtub might impact resale value for families with young children or those who prefer soaking. Conversely, a bathtub offers relaxation and family functionality but requires more space and can be less accessible. Your lifestyle and long-term needs should guide this decision.",
-        "description": "Choosing between a walk-in shower and a bathtub involves tradeoffs: showers offer accessibility and a spacious feel but tubs are important for families and resale. Consider your lifestyle and long-term needs."
-      }
-    }
-  ],
+  "name": "What are some practical tradeoffs when choosing between a walk-in shower and a bathtub in a redesign?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are some practical tradeoffs when choosing between a walk-in shower and a bathtub in a redesign?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When redesigning, choosing between a walk-in shower and a bathtub involves practical tradeoffs. A walk-in shower offers a sleek, modern aesthetic, greater accessibility, and can make a bathroom feel more spacious, particularly in smaller areas. However, removing a bathtub might impact resale value for families with young children or those who prefer soaking. Conversely, a bathtub offers relaxation and family functionality but requires more space and can be less accessible. Your lifestyle and long-term needs should guide this decision.",
+        "@type": "Answer",
+        "description": "Choosing between a walk-in shower and a bathtub involves tradeoffs: showers offer accessibility and a spacious feel but tubs are important for families and resale. Consider your lifestyle and long-term needs."
+      }
+    }
+  ],
+  "description": "Choosing between a walk-in shower and a bathtub involves tradeoffs: showers offer accessibility and a spacious feel but tubs are important for families and resa"
 }

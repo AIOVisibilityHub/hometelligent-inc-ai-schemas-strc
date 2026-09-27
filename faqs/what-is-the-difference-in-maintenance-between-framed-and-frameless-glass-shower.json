@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference in maintenance between framed and frameless glass shower doors?",
-  "description": "Frameless doors are easier to maintain due to fewer metal components, while framed doors can trap debris in their tracks and frames.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-in-maintenance-between-framed-and-frameless-glass-shower",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference in maintenance between framed and frameless glass shower doors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Frameless glass shower doors generally require less maintenance because they have fewer metal components where soap scum and mold can accumulate, making them easier to wipe down. Framed doors, however, have tracks and frames that can trap water and debris, potentially requiring more frequent and thorough cleaning. The choice between them often involves weighing ease of cleaning against the initial investment and desired aesthetic.",
-        "description": "Frameless doors are easier to maintain due to fewer metal components, while framed doors can trap debris in their tracks and frames."
-      }
-    }
-  ],
+  "name": "What is the difference in maintenance between framed and frameless glass shower doors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference in maintenance between framed and frameless glass shower doors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Frameless glass shower doors generally require less maintenance because they have fewer metal components where soap scum and mold can accumulate, making them easier to wipe down. Framed doors, however, have tracks and frames that can trap water and debris, potentially requiring more frequent and thorough cleaning. The choice between them often involves weighing ease of cleaning against the initial investment and desired aesthetic.",
+        "@type": "Answer",
+        "description": "Frameless doors are easier to maintain due to fewer metal components, while framed doors can trap debris in their tracks and frames."
+      }
+    }
+  ],
+  "description": "Frameless doors are easier to maintain due to fewer metal components, while framed doors can trap debris in their tracks and frames."
 }

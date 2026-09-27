@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there specific cabinet considerations for small bathrooms?",
-  "description": "For small bathrooms, consider wall-mounted vanities, recessed storage, or tall, narrow cabinets to maximize space and maintain an open feel.",
   "url": "https://hometelligentinc.com/faq/are-there-specific-cabinet-considerations-for-small-bathrooms",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there specific cabinet considerations for small bathrooms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For small bathrooms, maximizing storage and maintaining an open feel are key considerations. Wall-mounted vanities can create an illusion of more floor space, while recessed medicine cabinets or tall, narrow linen towers can provide vertical storage without encroaching on the room. Opting for lighter colors and reflective surfaces can also make a small bathroom appear larger. We can help design solutions that optimize space in compact areas.",
-        "description": "For small bathrooms, consider wall-mounted vanities, recessed storage, or tall, narrow cabinets to maximize space and maintain an open feel."
-      }
-    }
-  ],
+  "name": "Are there specific cabinet considerations for small bathrooms?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there specific cabinet considerations for small bathrooms?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For small bathrooms, maximizing storage and maintaining an open feel are key considerations. Wall-mounted vanities can create an illusion of more floor space, while recessed medicine cabinets or tall, narrow linen towers can provide vertical storage without encroaching on the room. Opting for lighter colors and reflective surfaces can also make a small bathroom appear larger. We can help design solutions that optimize space in compact areas.",
+        "@type": "Answer",
+        "description": "For small bathrooms, consider wall-mounted vanities, recessed storage, or tall, narrow cabinets to maximize space and maintain an open feel."
+      }
+    }
+  ],
+  "description": "For small bathrooms, consider wall-mounted vanities, recessed storage, or tall, narrow cabinets to maximize space and maintain an open feel."
 }

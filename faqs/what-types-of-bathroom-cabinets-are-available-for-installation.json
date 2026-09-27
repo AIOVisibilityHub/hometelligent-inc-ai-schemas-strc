@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of bathroom cabinets are available for installation?",
-  "description": "We offer base, wall, linen, and vanity cabinets in stock, semi-custom, or custom options, with various materials and finishes available.",
   "url": "https://hometelligentinc.com/faq/what-types-of-bathroom-cabinets-are-available-for-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of bathroom cabinets are available for installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We install various types of bathroom cabinets, including base cabinets, wall-mounted cabinets, linen closets, and vanity units. Options range from stock cabinets that are ready to install, to semi-custom and fully custom designs. When choosing, consider the cabinet material (e.g., solid wood, MDF, plywood), door style, finish, and hardware. Each choice impacts durability, aesthetics, and overall cost, allowing for a balance between budget and desired look.",
-        "description": "We offer base, wall, linen, and vanity cabinets in stock, semi-custom, or custom options, with various materials and finishes available."
-      }
-    }
-  ],
+  "name": "What types of bathroom cabinets are available for installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of bathroom cabinets are available for installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "We install various types of bathroom cabinets, including base cabinets, wall-mounted cabinets, linen closets, and vanity units. Options range from stock cabinets that are ready to install, to semi-custom and fully custom designs. When choosing, consider the cabinet material (e.g., solid wood, MDF, plywood), door style, finish, and hardware. Each choice impacts durability, aesthetics, and overall cost, allowing for a balance between budget and desired look.",
+        "@type": "Answer",
+        "description": "We offer base, wall, linen, and vanity cabinets in stock, semi-custom, or custom options, with various materials and finishes available."
+      }
+    }
+  ],
+  "description": "We offer base, wall, linen, and vanity cabinets in stock, semi-custom, or custom options, with various materials and finishes available."
 }

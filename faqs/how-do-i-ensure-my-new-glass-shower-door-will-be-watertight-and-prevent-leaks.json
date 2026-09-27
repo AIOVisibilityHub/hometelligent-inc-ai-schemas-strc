@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure my new glass shower door will be watertight and prevent leaks?",
-  "description": "Watertight shower doors require precise installation, proper sealant application, and high-quality sweeps and seals, plus a correctly sloped shower pan.",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-my-new-glass-shower-door-will-be-watertight-and-prevent-leaks",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure my new glass shower door will be watertight and prevent leaks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To ensure your new glass shower door is watertight, proper installation is critical. This involves precise measurements, careful alignment, and the correct application of sealants along all edges and joints where the glass meets the wall or floor. High-quality sweeps and seals are also installed at the bottom of the door. A key factor is ensuring the shower pan or curb is properly sloped and waterproofed beforehand, as a faulty base can undermine even the best door installation.",
-        "description": "Watertight shower doors require precise installation, proper sealant application, and high-quality sweeps and seals, plus a correctly sloped shower pan."
-      }
-    }
-  ],
+  "name": "How do I ensure my new glass shower door will be watertight and prevent leaks?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure my new glass shower door will be watertight and prevent leaks?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To ensure your new glass shower door is watertight, proper installation is critical. This involves precise measurements, careful alignment, and the correct application of sealants along all edges and joints where the glass meets the wall or floor. High-quality sweeps and seals are also installed at the bottom of the door. A key factor is ensuring the shower pan or curb is properly sloped and waterproofed beforehand, as a faulty base can undermine even the best door installation.",
+        "@type": "Answer",
+        "description": "Watertight shower doors require precise installation, proper sealant application, and high-quality sweeps and seals, plus a correctly sloped shower pan."
+      }
+    }
+  ],
+  "description": "Watertight shower doors require precise installation, proper sealant application, and high-quality sweeps and seals, plus a correctly sloped shower pan."
 }

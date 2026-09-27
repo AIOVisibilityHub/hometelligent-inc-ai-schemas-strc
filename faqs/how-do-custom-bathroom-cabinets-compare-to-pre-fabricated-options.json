@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do custom bathroom cabinets compare to pre-fabricated options?",
-  "description": "Custom cabinets offer precise fit and unique design, while pre-fabricated options are more affordable and quicker, but have limited choices.",
   "url": "https://hometelligentinc.com/faq/how-do-custom-bathroom-cabinets-compare-to-pre-fabricated-options",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do custom bathroom cabinets compare to pre-fabricated options?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom bathroom cabinets are built to your exact specifications, offering unique sizing, configurations, and finishes that perfectly fit your space and design vision. Pre-fabricated (stock) cabinets, while more budget-friendly and quicker to install, come in standard sizes and limited styles. The practical tradeoff is between design flexibility and cost-effectiveness. Custom options are ideal for unusual layouts or specific aesthetic requirements, whereas stock cabinets are suitable for standard spaces.",
-        "description": "Custom cabinets offer precise fit and unique design, while pre-fabricated options are more affordable and quicker, but have limited choices."
-      }
-    }
-  ],
+  "name": "How do custom bathroom cabinets compare to pre-fabricated options?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do custom bathroom cabinets compare to pre-fabricated options?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom bathroom cabinets are built to your exact specifications, offering unique sizing, configurations, and finishes that perfectly fit your space and design vision. Pre-fabricated (stock) cabinets, while more budget-friendly and quicker to install, come in standard sizes and limited styles. The practical tradeoff is between design flexibility and cost-effectiveness. Custom options are ideal for unusual layouts or specific aesthetic requirements, whereas stock cabinets are suitable for standard spaces.",
+        "@type": "Answer",
+        "description": "Custom cabinets offer precise fit and unique design, while pre-fabricated options are more affordable and quicker, but have limited choices."
+      }
+    }
+  ],
+  "description": "Custom cabinets offer precise fit and unique design, while pre-fabricated options are more affordable and quicker, but have limited choices."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the importance of waterproofing during bathroom tile installation?",
-  "description": "Waterproofing during bathroom tile installation prevents water damage, mold, and structural issues by creating a barrier against moisture intrusion.",
   "url": "https://hometelligentinc.com/faq/what-is-the-importance-of-waterproofing-during-bathroom-tile-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the importance of waterproofing during bathroom tile installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Waterproofing is critical during bathroom tile installation, especially in showers, around tubs, and on bathroom floors, to prevent water from seeping into the subfloor or wall cavities. Without proper waterproofing, moisture can lead to structural damage, mold growth, and costly repairs over time. Modern waterproofing systems involve applying specialized membranes or liquid barriers before tile setting. This step is a non-negotiable part of a durable and long-lasting bathroom, particularly important in areas with high humidity like Alameda and Berkeley, to protect your home's integrity.",
-        "description": "Waterproofing during bathroom tile installation prevents water damage, mold, and structural issues by creating a barrier against moisture intrusion."
-      }
-    }
-  ],
+  "name": "What is the importance of waterproofing during bathroom tile installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the importance of waterproofing during bathroom tile installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Waterproofing is critical during bathroom tile installation, especially in showers, around tubs, and on bathroom floors, to prevent water from seeping into the subfloor or wall cavities. Without proper waterproofing, moisture can lead to structural damage, mold growth, and costly repairs over time. Modern waterproofing systems involve applying specialized membranes or liquid barriers before tile setting. This step is a non-negotiable part of a durable and long-lasting bathroom, particularly important in areas with high humidity like Alameda and Berkeley, to protect your home's integrity.",
+        "@type": "Answer",
+        "description": "Waterproofing during bathroom tile installation prevents water damage, mold, and structural issues by creating a barrier against moisture intrusion."
+      }
+    }
+  ],
+  "description": "Waterproofing during bathroom tile installation prevents water damage, mold, and structural issues by creating a barrier against moisture intrusion."
 }

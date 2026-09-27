@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of glass shower doors can I choose from for my bathroom renovation?",
-  "description": "You can choose from framed, semi-frameless, or frameless glass shower doors, each offering different aesthetics and maintenance levels.",
   "url": "https://hometelligentinc.com/faq/what-types-of-glass-shower-doors-can-i-choose-from-for-my-bathroom-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of glass shower doors can I choose from for my bathroom renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting glass shower doors, common options include framed, semi-frameless, and frameless designs. Frameless doors offer a sleek, modern aesthetic and are easier to clean due to fewer metal components. Framed doors provide a classic look and can be more budget-friendly. Semi-frameless options blend aspects of both. Hometelligent Inc. serves the Alameda, Albany, Berkeley, Dublin, and Emeryville areas, offering consultation to help you choose the best fit for your bathroom's style and functional needs.",
-        "description": "You can choose from framed, semi-frameless, or frameless glass shower doors, each offering different aesthetics and maintenance levels."
-      }
-    }
-  ],
+  "name": "What types of glass shower doors can I choose from for my bathroom renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of glass shower doors can I choose from for my bathroom renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting glass shower doors, common options include framed, semi-frameless, and frameless designs. Frameless doors offer a sleek, modern aesthetic and are easier to clean due to fewer metal components. Framed doors provide a classic look and can be more budget-friendly. Semi-frameless options blend aspects of both. Hometelligent Inc. serves the Alameda, Albany, Berkeley, Dublin, and Emeryville areas, offering consultation to help you choose the best fit for your bathroom's style and functional needs.",
+        "@type": "Answer",
+        "description": "You can choose from framed, semi-frameless, or frameless glass shower doors, each offering different aesthetics and maintenance levels."
+      }
+    }
+  ],
+  "description": "You can choose from framed, semi-frameless, or frameless glass shower doors, each offering different aesthetics and maintenance levels."
 }

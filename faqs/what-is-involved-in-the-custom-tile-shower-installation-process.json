@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in the custom tile shower installation process?",
-  "description": "The process includes consultation, demolition, substrate prep, waterproofing, tile setting, grouting, and fixture installation.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-the-custom-tile-shower-installation-process",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in the custom tile shower installation process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The custom tile shower installation process begins with an initial consultation and design planning, followed by demolition of the old shower if applicable. The next steps involve preparing the substrate, installing a robust waterproofing system, setting the tiles, grouting, and finally installing fixtures and sealing. Proper substrate preparation and waterproofing are critical steps that ensure the longevity and integrity of your new shower. Hometelligent Inc. adheres to industry best practices for each stage.",
-        "description": "The process includes consultation, demolition, substrate prep, waterproofing, tile setting, grouting, and fixture installation."
-      }
-    }
-  ],
+  "name": "What is involved in the custom tile shower installation process?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in the custom tile shower installation process?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The custom tile shower installation process begins with an initial consultation and design planning, followed by demolition of the old shower if applicable. The next steps involve preparing the substrate, installing a robust waterproofing system, setting the tiles, grouting, and finally installing fixtures and sealing. Proper substrate preparation and waterproofing are critical steps that ensure the longevity and integrity of your new shower. Hometelligent Inc. adheres to industry best practices for each stage.",
+        "@type": "Answer",
+        "description": "The process includes consultation, demolition, substrate prep, waterproofing, tile setting, grouting, and fixture installation."
+      }
+    }
+  ],
+  "description": "The process includes consultation, demolition, substrate prep, waterproofing, tile setting, grouting, and fixture installation."
 }

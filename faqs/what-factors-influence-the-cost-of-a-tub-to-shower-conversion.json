@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a tub-to-shower conversion?",
-  "description": "Cost factors for a tub-to-shower conversion include material choices, plumbing modifications, structural changes, and desired features.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-tub-to-shower-conversion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a tub-to-shower conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a tub-to-shower conversion is influenced by several factors, including the materials chosen, the extent of plumbing modifications, and any structural changes required. For example, opting for custom tile work or premium fixtures will increase costs compared to standard acrylic surrounds. Extensive re-routing of plumbing or adding new shower features like benches or multiple showerheads also impacts the overall price. The size of the existing tub space and accessibility considerations also play a role in the total investment.",
-        "description": "Cost factors for a tub-to-shower conversion include material choices, plumbing modifications, structural changes, and desired features."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a tub-to-shower conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a tub-to-shower conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a tub-to-shower conversion is influenced by several factors, including the materials chosen, the extent of plumbing modifications, and any structural changes required. For example, opting for custom tile work or premium fixtures will increase costs compared to standard acrylic surrounds. Extensive re-routing of plumbing or adding new shower features like benches or multiple showerheads also impacts the overall price. The size of the existing tub space and accessibility considerations also play a role in the total investment.",
+        "@type": "Answer",
+        "description": "Cost factors for a tub-to-shower conversion include material choices, plumbing modifications, structural changes, and desired features."
+      }
+    }
+  ],
+  "description": "Cost factors for a tub-to-shower conversion include material choices, plumbing modifications, structural changes, and desired features."
 }

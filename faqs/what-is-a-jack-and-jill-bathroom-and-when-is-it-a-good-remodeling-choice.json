@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a Jack-and-Jill bathroom and when is it a good remodeling choice?",
-  "description": "A Jack-and-Jill bathroom connects two bedrooms to a shared bathroom, usually with two sinks, a toilet, and a shower/tub, optimizing access for families or guest",
   "url": "https://hometelligentinc.com/faq/what-is-a-jack-and-jill-bathroom-and-when-is-it-a-good-remodeling-choice",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a Jack-and-Jill bathroom and when is it a good remodeling choice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Jack-and-Jill bathroom typically connects two separate bedrooms, often children's rooms or guest suites, with two doors leading into the shared space. It usually includes two sinks and a shared toilet and shower/tub area. This setup maximizes bathroom access and utility without requiring a private bathroom for each room, making it a good choice for families with multiple children sharing a wing of the house or for guest areas. Hometelligent focuses on layouts that optimize flow and privacy for such shared spaces.",
-        "description": "A Jack-and-Jill bathroom connects two bedrooms to a shared bathroom, usually with two sinks, a toilet, and a shower/tub, optimizing access for families or guest suites."
-      }
-    }
-  ],
+  "name": "What is a Jack-and-Jill bathroom and when is it a good remodeling choice?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a Jack-and-Jill bathroom and when is it a good remodeling choice?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A Jack-and-Jill bathroom typically connects two separate bedrooms, often children's rooms or guest suites, with two doors leading into the shared space. It usually includes two sinks and a shared toilet and shower/tub area. This setup maximizes bathroom access and utility without requiring a private bathroom for each room, making it a good choice for families with multiple children sharing a wing of the house or for guest areas. Hometelligent focuses on layouts that optimize flow and privacy for such shared spaces.",
+        "@type": "Answer",
+        "description": "A Jack-and-Jill bathroom connects two bedrooms to a shared bathroom, usually with two sinks, a toilet, and a shower/tub, optimizing access for families or guest suites."
+      }
+    }
+  ],
+  "description": "A Jack-and-Jill bathroom connects two bedrooms to a shared bathroom, usually with two sinks, a toilet, and a shower/tub, optimizing access for families or guest"
 }

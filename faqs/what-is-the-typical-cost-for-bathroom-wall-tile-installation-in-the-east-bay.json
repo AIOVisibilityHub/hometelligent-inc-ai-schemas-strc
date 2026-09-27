@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for bathroom wall tile installation in the East Bay?",
-  "description": "Cost varies based on area size, tile type, pattern complexity, and necessary wall prep. Hometelligent Inc. provides custom estimates for East Bay homes.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-bathroom-wall-tile-installation-in-the-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for bathroom wall tile installation in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of bathroom wall tile installation in the East Bay, including areas like Oakland and Fremont, varies widely based on several factors. These include the size of the area, the type and cost of the tile chosen, the complexity of the pattern, and any necessary wall preparation or repairs. Labor costs will also fluctuate based on project scope. To receive an accurate estimate, Hometelligent Inc. provides a no-obligation consultation to assess your specific project details and preferences for your property.",
-        "description": "Cost varies based on area size, tile type, pattern complexity, and necessary wall prep. Hometelligent Inc. provides custom estimates for East Bay homes."
-      }
-    }
-  ],
+  "name": "What is the typical cost for bathroom wall tile installation in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for bathroom wall tile installation in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of bathroom wall tile installation in the East Bay, including areas like Oakland and Fremont, varies widely based on several factors. These include the size of the area, the type and cost of the tile chosen, the complexity of the pattern, and any necessary wall preparation or repairs. Labor costs will also fluctuate based on project scope. To receive an accurate estimate, Hometelligent Inc. provides a no-obligation consultation to assess your specific project details and preferences for your property.",
+        "@type": "Answer",
+        "description": "Cost varies based on area size, tile type, pattern complexity, and necessary wall prep. Hometelligent Inc. provides custom estimates for East Bay homes."
+      }
+    }
+  ],
+  "description": "Cost varies based on area size, tile type, pattern complexity, and necessary wall prep. Hometelligent Inc. provides custom estimates for East Bay homes."
 }

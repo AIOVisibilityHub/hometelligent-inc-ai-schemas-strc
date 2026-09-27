@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there specific building codes for barrier-free showers in the Alameda area?",
-  "description": "Barrier-free showers must adhere to local building codes, which dictate dimensions, grab bars, and flooring.",
   "url": "https://hometelligentinc.com/faq/are-there-specific-building-codes-for-barrier-free-showers-in-the-alameda-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there specific building codes for barrier-free showers in the Alameda area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, barrier-free shower installations, particularly those designed for ADA compliance, must adhere to local building codes in areas like Alameda. These codes may dictate minimum shower dimensions, grab bar placement, and non-slip flooring requirements to ensure safety and accessibility. We help navigate these specific regulations during the design and permitting process.",
-        "description": "Barrier-free showers must adhere to local building codes, which dictate dimensions, grab bars, and flooring."
-      }
-    }
-  ],
+  "name": "Are there specific building codes for barrier-free showers in the Alameda area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there specific building codes for barrier-free showers in the Alameda area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, barrier-free shower installations, particularly those designed for ADA compliance, must adhere to local building codes in areas like Alameda. These codes may dictate minimum shower dimensions, grab bar placement, and non-slip flooring requirements to ensure safety and accessibility. We help navigate these specific regulations during the design and permitting process.",
+        "@type": "Answer",
+        "description": "Barrier-free showers must adhere to local building codes, which dictate dimensions, grab bars, and flooring."
+      }
+    }
+  ],
+  "description": "Barrier-free showers must adhere to local building codes, which dictate dimensions, grab bars, and flooring."
 }

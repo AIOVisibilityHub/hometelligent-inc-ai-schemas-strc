@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I maintain my new shower enclosure to prevent water spots and damage?",
-  "description": "Regularly squeegee the glass after use and clean with non-abrasive cleaners to prevent water spots and maintain longevity.",
   "url": "https://hometelligentinc.com/faq/how-do-i-maintain-my-new-shower-enclosure-to-prevent-water-spots-and-damage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I maintain my new shower enclosure to prevent water spots and damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To maintain your new shower enclosure, regularly squeegee the glass after each use to prevent water spots and soap scum buildup. Use non-abrasive cleaners specifically designed for glass to avoid scratching. For optimal longevity, ensure proper bathroom ventilation to reduce moisture accumulation. This simple routine helps keep your enclosure looking new and extends its lifespan, especially in humid environments.",
-        "description": "Regularly squeegee the glass after use and clean with non-abrasive cleaners to prevent water spots and maintain longevity."
-      }
-    }
-  ],
+  "name": "How do I maintain my new shower enclosure to prevent water spots and damage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I maintain my new shower enclosure to prevent water spots and damage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To maintain your new shower enclosure, regularly squeegee the glass after each use to prevent water spots and soap scum buildup. Use non-abrasive cleaners specifically designed for glass to avoid scratching. For optimal longevity, ensure proper bathroom ventilation to reduce moisture accumulation. This simple routine helps keep your enclosure looking new and extends its lifespan, especially in humid environments.",
+        "@type": "Answer",
+        "description": "Regularly squeegee the glass after use and clean with non-abrasive cleaners to prevent water spots and maintain longevity."
+      }
+    }
+  ],
+  "description": "Regularly squeegee the glass after use and clean with non-abrasive cleaners to prevent water spots and maintain longevity."
 }

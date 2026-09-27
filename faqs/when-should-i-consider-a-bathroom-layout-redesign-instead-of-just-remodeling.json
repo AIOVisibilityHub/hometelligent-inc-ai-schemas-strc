@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider a bathroom layout redesign instead of just remodeling?",
-  "description": "Consider a layout redesign if your current bathroom's functionality, space, or accessibility is fundamentally flawed. It's for when cosmetic updates aren't enou",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-a-bathroom-layout-redesign-instead-of-just-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider a bathroom layout redesign instead of just remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider a bathroom layout redesign when your current bathroom fundamentally fails to meet your needs in terms of functionality, space utilization, or accessibility, and simple cosmetic changes won't solve the core issues. This is especially true if you are looking to improve traffic flow, add a separate shower and tub, or make the space more accessible for aging in place. A redesign involves changing the footprint or placement of major fixtures, which is a more involved process than just updating surfaces and fixtures in their existing locations.",
-        "description": "Consider a layout redesign if your current bathroom's functionality, space, or accessibility is fundamentally flawed. It's for when cosmetic updates aren't enough to solve core issues like poor flow or fixture placement."
-      }
-    }
-  ],
+  "name": "When should I consider a bathroom layout redesign instead of just remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider a bathroom layout redesign instead of just remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider a bathroom layout redesign when your current bathroom fundamentally fails to meet your needs in terms of functionality, space utilization, or accessibility, and simple cosmetic changes won't solve the core issues. This is especially true if you are looking to improve traffic flow, add a separate shower and tub, or make the space more accessible for aging in place. A redesign involves changing the footprint or placement of major fixtures, which is a more involved process than just updating surfaces and fixtures in their existing locations.",
+        "@type": "Answer",
+        "description": "Consider a layout redesign if your current bathroom's functionality, space, or accessibility is fundamentally flawed. It's for when cosmetic updates aren't enough to solve core issues like poor flow or fixture placement."
+      }
+    }
+  ],
+  "description": "Consider a layout redesign if your current bathroom's functionality, space, or accessibility is fundamentally flawed. It's for when cosmetic updates aren't enou"
 }

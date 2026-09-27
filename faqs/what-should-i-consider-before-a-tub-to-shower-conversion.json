@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before a tub-to-shower conversion?",
-  "description": "Before conversion, consider long-term needs, existing plumbing/subfloor, and desired design elements like tiles and fixtures.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-a-tub-to-shower-conversion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before a tub-to-shower conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before a tub-to-shower conversion, consider your long-term needs, such as accessibility requirements for yourself or family members in the future. Evaluate the existing plumbing and subfloor conditions, as these might require upgrades or repairs, which can impact the budget and timeline. Also, think about the design aesthetic you want to achieve, including tile choices, shower fixtures, and enclosure style, as these decisions will define the final look and functionality of your new shower. Gathering these details beforehand helps ensure a successful project.",
-        "description": "Before conversion, consider long-term needs, existing plumbing/subfloor, and desired design elements like tiles and fixtures."
-      }
-    }
-  ],
+  "name": "What should I consider before a tub-to-shower conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before a tub-to-shower conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before a tub-to-shower conversion, consider your long-term needs, such as accessibility requirements for yourself or family members in the future. Evaluate the existing plumbing and subfloor conditions, as these might require upgrades or repairs, which can impact the budget and timeline. Also, think about the design aesthetic you want to achieve, including tile choices, shower fixtures, and enclosure style, as these decisions will define the final look and functionality of your new shower. Gathering these details beforehand helps ensure a successful project.",
+        "@type": "Answer",
+        "description": "Before conversion, consider long-term needs, existing plumbing/subfloor, and desired design elements like tiles and fixtures."
+      }
+    }
+  ],
+  "description": "Before conversion, consider long-term needs, existing plumbing/subfloor, and desired design elements like tiles and fixtures."
 }

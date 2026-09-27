@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What plumbing considerations are necessary when installing a double vanity?",
-  "description": "Double vanity installation often requires extending or modifying existing hot/cold water supply and drain lines to accommodate two sinks.",
   "url": "https://hometelligentinc.com/faq/what-plumbing-considerations-are-necessary-when-installing-a-double-vanity",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What plumbing considerations are necessary when installing a double vanity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing a double vanity requires evaluating your existing plumbing for two sinks. Often, this means extending or modifying the hot and cold water supply lines, as well as the drain lines, to accommodate the second basin. If the new vanity is wider than the old one, or if you're repositioning sinks, rerouting these lines within the wall might be necessary. This re-routing involves opening up the wall, installing new piping, and ensuring proper drainage and water pressure for both faucets. Properly assessing your current plumbing system beforehand is crucial for a smooth installation.",
-        "description": "Double vanity installation often requires extending or modifying existing hot/cold water supply and drain lines to accommodate two sinks."
-      }
-    }
-  ],
+  "name": "What plumbing considerations are necessary when installing a double vanity?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What plumbing considerations are necessary when installing a double vanity?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing a double vanity requires evaluating your existing plumbing for two sinks. Often, this means extending or modifying the hot and cold water supply lines, as well as the drain lines, to accommodate the second basin. If the new vanity is wider than the old one, or if you're repositioning sinks, rerouting these lines within the wall might be necessary. This re-routing involves opening up the wall, installing new piping, and ensuring proper drainage and water pressure for both faucets. Properly assessing your current plumbing system beforehand is crucial for a smooth installation.",
+        "@type": "Answer",
+        "description": "Double vanity installation often requires extending or modifying existing hot/cold water supply and drain lines to accommodate two sinks."
+      }
+    }
+  ],
+  "description": "Double vanity installation often requires extending or modifying existing hot/cold water supply and drain lines to accommodate two sinks."
 }

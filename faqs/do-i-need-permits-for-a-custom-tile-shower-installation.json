@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for a custom tile shower installation?",
-  "description": "Permits may be required if the installation involves plumbing relocation or structural changes; check local building codes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-a-custom-tile-shower-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for a custom tile shower installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether permits are needed for a custom tile shower installation depends on the scope of the project and local building codes in areas like Alameda or Berkeley. If the installation involves significant plumbing relocation or structural changes, permits are typically required. Minor replacements or cosmetic updates often do not need permits. It is essential to confirm with your local building department, and Hometelligent Inc. can advise on permitting requirements specific to your project and location during the planning phase.",
-        "description": "Permits may be required if the installation involves plumbing relocation or structural changes; check local building codes."
-      }
-    }
-  ],
+  "name": "Do I need permits for a custom tile shower installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for a custom tile shower installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether permits are needed for a custom tile shower installation depends on the scope of the project and local building codes in areas like Alameda or Berkeley. If the installation involves significant plumbing relocation or structural changes, permits are typically required. Minor replacements or cosmetic updates often do not need permits. It is essential to confirm with your local building department, and Hometelligent Inc. can advise on permitting requirements specific to your project and location during the planning phase.",
+        "@type": "Answer",
+        "description": "Permits may be required if the installation involves plumbing relocation or structural changes; check local building codes."
+      }
+    }
+  ],
+  "description": "Permits may be required if the installation involves plumbing relocation or structural changes; check local building codes."
 }

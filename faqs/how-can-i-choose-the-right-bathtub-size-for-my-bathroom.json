@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I choose the right bathtub size for my bathroom?",
-  "description": "Choose the right bathtub size by measuring your bathroom's dimensions and considering its intended use, such as for kids or soaking.",
   "url": "https://hometelligentinc.com/faq/how-can-i-choose-the-right-bathtub-size-for-my-bathroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I choose the right bathtub size for my bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right bathtub size depends on your bathroom's dimensions, the available space, and your personal needs. Standard bathtubs are typically 60 inches long and 30-32 inches wide, but smaller or larger options are available. Measure your existing space carefully, considering door clearances and the placement of other fixtures. You'll need to measure the alcove width, length, and depth. Also, consider the tub's use, such as for bathing children or for luxurious soaks. Providing accurate measurements and your functional requirements to your contractor will ensure a proper fit and optimal use of space.",
-        "description": "Choose the right bathtub size by measuring your bathroom's dimensions and considering its intended use, such as for kids or soaking."
-      }
-    }
-  ],
+  "name": "How can I choose the right bathtub size for my bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I choose the right bathtub size for my bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right bathtub size depends on your bathroom's dimensions, the available space, and your personal needs. Standard bathtubs are typically 60 inches long and 30-32 inches wide, but smaller or larger options are available. Measure your existing space carefully, considering door clearances and the placement of other fixtures. You'll need to measure the alcove width, length, and depth. Also, consider the tub's use, such as for bathing children or for luxurious soaks. Providing accurate measurements and your functional requirements to your contractor will ensure a proper fit and optimal use of space.",
+        "@type": "Answer",
+        "description": "Choose the right bathtub size by measuring your bathroom's dimensions and considering its intended use, such as for kids or soaking."
+      }
+    }
+  ],
+  "description": "Choose the right bathtub size by measuring your bathroom's dimensions and considering its intended use, such as for kids or soaking."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing a bathroom backsplash?",
-  "description": "A bathroom backsplash protects walls from water damage and adds aesthetic appeal. It prevents mildew and reduces long-term maintenance.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-a-bathroom-backsplash",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing a bathroom backsplash?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing a bathroom backsplash protects your walls from water damage and splashes, especially around sinks and showers. It also adds a decorative element, enhancing the overall aesthetic of your bathroom. This protection can prevent mildew growth and costly repairs to drywall over time. When considering a backsplash, homeowners should think about both functionality and design, as certain materials offer better water resistance and easier cleaning, which is a practical tradeoff to consider during material selection.",
-        "description": "A bathroom backsplash protects walls from water damage and adds aesthetic appeal. It prevents mildew and reduces long-term maintenance."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing a bathroom backsplash?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing a bathroom backsplash?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing a bathroom backsplash protects your walls from water damage and splashes, especially around sinks and showers. It also adds a decorative element, enhancing the overall aesthetic of your bathroom. This protection can prevent mildew growth and costly repairs to drywall over time. When considering a backsplash, homeowners should think about both functionality and design, as certain materials offer better water resistance and easier cleaning, which is a practical tradeoff to consider during material selection.",
+        "@type": "Answer",
+        "description": "A bathroom backsplash protects walls from water damage and adds aesthetic appeal. It prevents mildew and reduces long-term maintenance."
+      }
+    }
+  ],
+  "description": "A bathroom backsplash protects walls from water damage and adds aesthetic appeal. It prevents mildew and reduces long-term maintenance."
 }

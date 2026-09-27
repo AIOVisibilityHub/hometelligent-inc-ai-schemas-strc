@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How should I maintain my new bathroom floor tiles?",
-  "description": "Maintain new tiles by regular sweeping and mopping with a pH-neutral cleaner. Avoid harsh abrasives. Natural stone or unsealed grout may need periodic sealing.",
   "url": "https://hometelligentinc.com/faq/how-should-i-maintain-my-new-bathroom-floor-tiles",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How should I maintain my new bathroom floor tiles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintaining new bathroom floor tiles is straightforward but crucial for longevity. Regular sweeping or vacuuming to remove loose dirt and debris, followed by mopping with a pH-neutral cleaner, is usually sufficient. Avoid harsh abrasive cleaners or steel wool, as they can damage grout and tile surfaces. For natural stone tiles or unsealed grout, periodic sealing is necessary to protect against stains and moisture. Hometelligent Inc. recommends checking your tile and grout manufacturer's specific care instructions for the best results, ensuring your investment lasts for years.",
-        "description": "Maintain new tiles by regular sweeping and mopping with a pH-neutral cleaner. Avoid harsh abrasives. Natural stone or unsealed grout may need periodic sealing."
-      }
-    }
-  ],
+  "name": "How should I maintain my new bathroom floor tiles?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How should I maintain my new bathroom floor tiles?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maintaining new bathroom floor tiles is straightforward but crucial for longevity. Regular sweeping or vacuuming to remove loose dirt and debris, followed by mopping with a pH-neutral cleaner, is usually sufficient. Avoid harsh abrasive cleaners or steel wool, as they can damage grout and tile surfaces. For natural stone tiles or unsealed grout, periodic sealing is necessary to protect against stains and moisture. Hometelligent Inc. recommends checking your tile and grout manufacturer's specific care instructions for the best results, ensuring your investment lasts for years.",
+        "@type": "Answer",
+        "description": "Maintain new tiles by regular sweeping and mopping with a pH-neutral cleaner. Avoid harsh abrasives. Natural stone or unsealed grout may need periodic sealing."
+      }
+    }
+  ],
+  "description": "Maintain new tiles by regular sweeping and mopping with a pH-neutral cleaner. Avoid harsh abrasives. Natural stone or unsealed grout may need periodic sealing."
 }

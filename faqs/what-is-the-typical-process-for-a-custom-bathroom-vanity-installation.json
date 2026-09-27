@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for a custom bathroom vanity installation?",
-  "description": "The process involves design consultation, measurements, material selection, fabrication, and final installation.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-a-custom-bathroom-vanity-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for a custom bathroom vanity installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for a custom bathroom vanity installation begins with a design consultation to understand your needs and preferences. This is followed by detailed measurements of your bathroom space. Next, we provide design renderings and material selections for your approval. Once finalized, the vanity is fabricated, and then our team schedules the installation. The complexity of the design and the availability of materials can influence the overall timeline, with more intricate designs requiring additional fabrication time.",
-        "description": "The process involves design consultation, measurements, material selection, fabrication, and final installation."
-      }
-    }
-  ],
+  "name": "What is the typical process for a custom bathroom vanity installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for a custom bathroom vanity installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for a custom bathroom vanity installation begins with a design consultation to understand your needs and preferences. This is followed by detailed measurements of your bathroom space. Next, we provide design renderings and material selections for your approval. Once finalized, the vanity is fabricated, and then our team schedules the installation. The complexity of the design and the availability of materials can influence the overall timeline, with more intricate designs requiring additional fabrication time.",
+        "@type": "Answer",
+        "description": "The process involves design consultation, measurements, material selection, fabrication, and final installation."
+      }
+    }
+  ],
+  "description": "The process involves design consultation, measurements, material selection, fabrication, and final installation."
 }

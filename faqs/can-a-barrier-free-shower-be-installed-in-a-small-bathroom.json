@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a barrier-free shower be installed in a small bathroom?",
-  "description": "Barrier-free showers can be installed in small bathrooms, often requiring careful planning, corner designs, or wet room concepts.",
   "url": "https://hometelligentinc.com/faq/can-a-barrier-free-shower-be-installed-in-a-small-bathroom",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a barrier-free shower be installed in a small bathroom?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, barrier-free showers can be installed in smaller bathrooms, though it may require careful planning and innovative design solutions. Maximizing space often involves using corner designs, frameless glass enclosures, or wet room concepts. A key decision factor for small spaces is optimizing the layout to ensure sufficient clearance for accessibility while maintaining functionality and aesthetics.",
-        "description": "Barrier-free showers can be installed in small bathrooms, often requiring careful planning, corner designs, or wet room concepts."
-      }
-    }
-  ],
+  "name": "Can a barrier-free shower be installed in a small bathroom?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a barrier-free shower be installed in a small bathroom?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, barrier-free showers can be installed in smaller bathrooms, though it may require careful planning and innovative design solutions. Maximizing space often involves using corner designs, frameless glass enclosures, or wet room concepts. A key decision factor for small spaces is optimizing the layout to ensure sufficient clearance for accessibility while maintaining functionality and aesthetics.",
+        "@type": "Answer",
+        "description": "Barrier-free showers can be installed in small bathrooms, often requiring careful planning, corner designs, or wet room concepts."
+      }
+    }
+  ],
+  "description": "Barrier-free showers can be installed in small bathrooms, often requiring careful planning, corner designs, or wet room concepts."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I choose the right materials for my bathroom renovation?",
-  "description": "Material selection balances aesthetics, durability, and budget. Hometelligent Inc. helps you choose options like moisture-resistant porcelain tiles that fit you",
   "url": "https://hometelligentinc.com/faq/how-can-i-choose-the-right-materials-for-my-bathroom-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I choose the right materials for my bathroom renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right materials involves balancing aesthetics, durability, and your budget. Consider factors like moisture resistance for flooring and walls, ease of cleaning, and how materials complement your home's overall style. For instance, porcelain tiles are highly durable and water-resistant, making them a popular choice. Hometelligent Inc. can guide you through material selections, recommending options that fit your design preferences and practical needs while considering their longevity and maintenance requirements.",
-        "description": "Material selection balances aesthetics, durability, and budget. Hometelligent Inc. helps you choose options like moisture-resistant porcelain tiles that fit your design and practical needs."
-      }
-    }
-  ],
+  "name": "How can I choose the right materials for my bathroom renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I choose the right materials for my bathroom renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right materials involves balancing aesthetics, durability, and your budget. Consider factors like moisture resistance for flooring and walls, ease of cleaning, and how materials complement your home's overall style. For instance, porcelain tiles are highly durable and water-resistant, making them a popular choice. Hometelligent Inc. can guide you through material selections, recommending options that fit your design preferences and practical needs while considering their longevity and maintenance requirements.",
+        "@type": "Answer",
+        "description": "Material selection balances aesthetics, durability, and budget. Hometelligent Inc. helps you choose options like moisture-resistant porcelain tiles that fit your design and practical needs."
+      }
+    }
+  ],
+  "description": "Material selection balances aesthetics, durability, and budget. Hometelligent Inc. helps you choose options like moisture-resistant porcelain tiles that fit you"
 }

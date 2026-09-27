@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of materials are best suited for half-bath flooring?",
-  "description": "Durable, water-resistant materials like ceramic/porcelain tile or luxury vinyl plank are ideal for half-bath flooring. Engineered hardwood is also an option wit",
   "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-best-suited-for-half-bath-flooring",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of materials are best suited for half-bath flooring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For half-bath flooring, durability and water resistance are key considerations. Popular choices include ceramic or porcelain tile, luxury vinyl plank (LVP), and engineered hardwood. Tile offers excellent water resistance and a wide range of styles, while LVP is highly durable, waterproof, and cost-effective. Engineered hardwood can add warmth but requires careful sealing. We help clients select materials that not only match their aesthetic vision but also stand up to the moisture and foot traffic common in bathrooms.",
-        "description": "Durable, water-resistant materials like ceramic/porcelain tile or luxury vinyl plank are ideal for half-bath flooring. Engineered hardwood is also an option with proper sealing."
-      }
-    }
-  ],
+  "name": "What types of materials are best suited for half-bath flooring?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of materials are best suited for half-bath flooring?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For half-bath flooring, durability and water resistance are key considerations. Popular choices include ceramic or porcelain tile, luxury vinyl plank (LVP), and engineered hardwood. Tile offers excellent water resistance and a wide range of styles, while LVP is highly durable, waterproof, and cost-effective. Engineered hardwood can add warmth but requires careful sealing. We help clients select materials that not only match their aesthetic vision but also stand up to the moisture and foot traffic common in bathrooms.",
+        "@type": "Answer",
+        "description": "Durable, water-resistant materials like ceramic/porcelain tile or luxury vinyl plank are ideal for half-bath flooring. Engineered hardwood is also an option with proper sealing."
+      }
+    }
+  ],
+  "description": "Durable, water-resistant materials like ceramic/porcelain tile or luxury vinyl plank are ideal for half-bath flooring. Engineered hardwood is also an option wit"
 }

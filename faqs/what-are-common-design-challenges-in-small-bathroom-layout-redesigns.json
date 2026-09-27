@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common design challenges in small bathroom layout redesigns?",
-  "description": "Small bathroom redesigns challenge space and functionality. Tradeoffs include choosing between a shower-only or shower-tub combo and selecting compact fixtures.",
   "url": "https://hometelligentinc.com/faq/what-are-common-design-challenges-in-small-bathroom-layout-redesigns",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common design challenges in small bathroom layout redesigns?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Redesigning small bathrooms often presents challenges in maximizing space and functionality without feeling cramped. Common issues include fitting essential fixtures comfortably, ensuring adequate storage, and creating an illusion of space. Practical tradeoffs involve choosing between a shower-only design versus a shower-tub combo, or selecting compact fixtures like wall-mounted toilets or pedestal sinks to free up floor space. Strategic lighting and lighter color palettes can also help make a small bathroom feel larger and more open.",
-        "description": "Small bathroom redesigns challenge space and functionality. Tradeoffs include choosing between a shower-only or shower-tub combo and selecting compact fixtures. Strategic lighting and colors can enhance the feel of space."
-      }
-    }
-  ],
+  "name": "What are common design challenges in small bathroom layout redesigns?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common design challenges in small bathroom layout redesigns?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Redesigning small bathrooms often presents challenges in maximizing space and functionality without feeling cramped. Common issues include fitting essential fixtures comfortably, ensuring adequate storage, and creating an illusion of space. Practical tradeoffs involve choosing between a shower-only design versus a shower-tub combo, or selecting compact fixtures like wall-mounted toilets or pedestal sinks to free up floor space. Strategic lighting and lighter color palettes can also help make a small bathroom feel larger and more open.",
+        "@type": "Answer",
+        "description": "Small bathroom redesigns challenge space and functionality. Tradeoffs include choosing between a shower-only or shower-tub combo and selecting compact fixtures. Strategic lighting and colors can enhance the feel of space."
+      }
+    }
+  ],
+  "description": "Small bathroom redesigns challenge space and functionality. Tradeoffs include choosing between a shower-only or shower-tub combo and selecting compact fixtures."
 }

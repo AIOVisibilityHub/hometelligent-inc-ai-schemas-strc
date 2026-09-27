@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I ensure my master bathroom remodel adds value to my home?",
-  "description": "Ensure value by prioritizing quality, timeless design, and broad-appeal upgrades, avoiding overly personalized features. Focus on durable materials and improved",
   "url": "https://hometelligentinc.com/faq/how-do-i-ensure-my-master-bathroom-remodel-adds-value-to-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I ensure my master bathroom remodel adds value to my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To ensure your master bathroom remodel adds value, focus on quality craftsmanship, timeless design, and essential upgrades that appeal to a broad range of potential buyers. Avoid overly niche or personalized features that might deter future sales. Prioritizing durable, mid-to-high-range materials and improving functionality, such as adding adequate storage or a double vanity, typically yields a good return on investment. Hometelligent Inc. emphasizes design choices that balance aesthetic appeal with long-term functionality and marketability for homeowners in areas like Alameda and Berkeley.",
-        "description": "Ensure value by prioritizing quality, timeless design, and broad-appeal upgrades, avoiding overly personalized features. Focus on durable materials and improved functionality to maximize return on investment, a key consideration for Hometelligent Inc."
-      }
-    }
-  ],
+  "name": "How do I ensure my master bathroom remodel adds value to my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I ensure my master bathroom remodel adds value to my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To ensure your master bathroom remodel adds value, focus on quality craftsmanship, timeless design, and essential upgrades that appeal to a broad range of potential buyers. Avoid overly niche or personalized features that might deter future sales. Prioritizing durable, mid-to-high-range materials and improving functionality, such as adding adequate storage or a double vanity, typically yields a good return on investment. Hometelligent Inc. emphasizes design choices that balance aesthetic appeal with long-term functionality and marketability for homeowners in areas like Alameda and Berkeley.",
+        "@type": "Answer",
+        "description": "Ensure value by prioritizing quality, timeless design, and broad-appeal upgrades, avoiding overly personalized features. Focus on durable materials and improved functionality to maximize return on investment, a key consideration for Hometelligent Inc."
+      }
+    }
+  ],
+  "description": "Ensure value by prioritizing quality, timeless design, and broad-appeal upgrades, avoiding overly personalized features. Focus on durable materials and improved"
 }

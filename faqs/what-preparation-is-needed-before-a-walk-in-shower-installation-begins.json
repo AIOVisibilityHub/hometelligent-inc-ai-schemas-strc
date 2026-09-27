@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before a walk-in shower installation begins?",
-  "description": "Prepare by clearing the bathroom and finalizing all material selections like tiles and fixtures. Hometelligent Inc. provides a pre-installation checklist.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-a-walk-in-shower-installation-begins",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before a walk-in shower installation begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before installation, you'll need to clear the bathroom of personal items and ensure access for our team. We recommend deciding on all material selections, such as tiles, fixtures, and finishes, well in advance to prevent project delays. Hometelligent Inc. will provide a detailed checklist during the planning phase, ensuring you have all necessary items and decisions made, which is crucial for efficient project management.",
-        "description": "Prepare by clearing the bathroom and finalizing all material selections like tiles and fixtures. Hometelligent Inc. provides a pre-installation checklist."
-      }
-    }
-  ],
+  "name": "What preparation is needed before a walk-in shower installation begins?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before a walk-in shower installation begins?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before installation, you'll need to clear the bathroom of personal items and ensure access for our team. We recommend deciding on all material selections, such as tiles, fixtures, and finishes, well in advance to prevent project delays. Hometelligent Inc. will provide a detailed checklist during the planning phase, ensuring you have all necessary items and decisions made, which is crucial for efficient project management.",
+        "@type": "Answer",
+        "description": "Prepare by clearing the bathroom and finalizing all material selections like tiles and fixtures. Hometelligent Inc. provides a pre-installation checklist."
+      }
+    }
+  ],
+  "description": "Prepare by clearing the bathroom and finalizing all material selections like tiles and fixtures. Hometelligent Inc. provides a pre-installation checklist."
 }

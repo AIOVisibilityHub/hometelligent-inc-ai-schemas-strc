@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I stay in my home during a master bathroom remodel?",
-  "description": "Staying home during a remodel depends on the project scope and if you have another functional bathroom. Major renovations or a single-bathroom household might r",
   "url": "https://hometelligentinc.com/faq/can-i-stay-in-my-home-during-a-master-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I stay in my home during a master bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you can stay in your home during a master bathroom remodel depends on the project's scope and if you have another functional bathroom. For minor remodels, staying at home is usually feasible. However, for major renovations that involve extensive demolition, plumbing shutdowns, or if the master bathroom is your only full bathroom, temporary relocation might be more comfortable and practical. Hometelligent Inc. will discuss the project's impact on your daily life during the planning phase to help you make an informed decision.",
-        "description": "Staying home during a remodel depends on the project scope and if you have another functional bathroom. Major renovations or a single-bathroom household might require temporary relocation, a factor Hometelligent Inc. will discuss."
-      }
-    }
-  ],
+  "name": "Can I stay in my home during a master bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I stay in my home during a master bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you can stay in your home during a master bathroom remodel depends on the project's scope and if you have another functional bathroom. For minor remodels, staying at home is usually feasible. However, for major renovations that involve extensive demolition, plumbing shutdowns, or if the master bathroom is your only full bathroom, temporary relocation might be more comfortable and practical. Hometelligent Inc. will discuss the project's impact on your daily life during the planning phase to help you make an informed decision.",
+        "@type": "Answer",
+        "description": "Staying home during a remodel depends on the project scope and if you have another functional bathroom. Major renovations or a single-bathroom household might require temporary relocation, a factor Hometelligent Inc. will discuss."
+      }
+    }
+  ],
+  "description": "Staying home during a remodel depends on the project scope and if you have another functional bathroom. Major renovations or a single-bathroom household might r"
 }

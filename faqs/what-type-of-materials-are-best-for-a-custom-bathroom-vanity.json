@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of materials are best for a custom bathroom vanity?",
-  "description": "Best materials balance durability, moisture resistance, and aesthetics, such as plywood for cabinets and quartz for countertops, depending on usage.",
   "url": "https://hometelligentinc.com/faq/what-type-of-materials-are-best-for-a-custom-bathroom-vanity",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of materials are best for a custom bathroom vanity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best materials for a custom bathroom vanity balance durability, moisture resistance, and aesthetics. Common choices for cabinetry include solid wood, plywood, and MDF with various finishes. For countertops, popular options are natural stone like granite or marble, quartz, and solid surface materials. Quartz is often favored for its low maintenance and non-porous nature, making it highly resistant to stains and moisture. When selecting materials, consider your bathroom's ventilation and usage frequency, as these factors impact long-term material performance.",
-        "description": "Best materials balance durability, moisture resistance, and aesthetics, such as plywood for cabinets and quartz for countertops, depending on usage."
-      }
-    }
-  ],
+  "name": "What type of materials are best for a custom bathroom vanity?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of materials are best for a custom bathroom vanity?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best materials for a custom bathroom vanity balance durability, moisture resistance, and aesthetics. Common choices for cabinetry include solid wood, plywood, and MDF with various finishes. For countertops, popular options are natural stone like granite or marble, quartz, and solid surface materials. Quartz is often favored for its low maintenance and non-porous nature, making it highly resistant to stains and moisture. When selecting materials, consider your bathroom's ventilation and usage frequency, as these factors impact long-term material performance.",
+        "@type": "Answer",
+        "description": "Best materials balance durability, moisture resistance, and aesthetics, such as plywood for cabinets and quartz for countertops, depending on usage."
+      }
+    }
+  ],
+  "description": "Best materials balance durability, moisture resistance, and aesthetics, such as plywood for cabinets and quartz for countertops, depending on usage."
 }
