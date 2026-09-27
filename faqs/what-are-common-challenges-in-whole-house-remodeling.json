@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common challenges in whole-house remodeling?",
-  "description": "Challenges include unexpected issues, budget overruns, and material delays. Prepare with a clear scope, detailed contract, and a contingency fund to address iss",
   "url": "https://hometelligentinc.com/faq/what-are-common-challenges-in-whole-house-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common challenges in whole-house remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges in whole-house remodeling include unexpected structural issues, budget overruns, material delays, and coordinating multiple contractors. Living in the home during construction can also be challenging due to noise, dust, and disruptions. To prepare, ensure you have a clear scope of work, a detailed contract, and open communication channels with your contractor to address issues promptly. Building in a contingency fund is also crucial for mitigating financial surprises.",
-        "description": "Challenges include unexpected issues, budget overruns, and material delays. Prepare with a clear scope, detailed contract, and a contingency fund to address issues promptly."
-      }
-    }
-  ],
+  "name": "What are common challenges in whole-house remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common challenges in whole-house remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges in whole-house remodeling include unexpected structural issues, budget overruns, material delays, and coordinating multiple contractors. Living in the home during construction can also be challenging due to noise, dust, and disruptions. To prepare, ensure you have a clear scope of work, a detailed contract, and open communication channels with your contractor to address issues promptly. Building in a contingency fund is also crucial for mitigating financial surprises.",
+        "@type": "Answer",
+        "description": "Challenges include unexpected issues, budget overruns, and material delays. Prepare with a clear scope, detailed contract, and a contingency fund to address issues promptly."
+      }
+    }
+  ],
+  "description": "Challenges include unexpected issues, budget overruns, and material delays. Prepare with a clear scope, detailed contract, and a contingency fund to address iss"
 }

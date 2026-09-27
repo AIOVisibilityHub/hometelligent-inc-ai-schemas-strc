@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for home layout reconfiguration in the East Bay?",
-  "description": "Most reconfiguration projects, especially those involving structural, plumbing, or electrical changes, require permits in East Bay cities like Emeryville and Fr",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-home-layout-reconfiguration-in-the-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for home layout reconfiguration in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, most home layout reconfiguration projects in East Bay cities like Emeryville and Fremont require permits. This is particularly true for any work involving structural changes, alterations to plumbing or electrical systems, or changes that affect the building's footprint or safety. Failing to secure the necessary permits can lead to fines, project delays, or even the requirement to undo completed work. Our team assists clients in navigating the local permitting process, ensuring compliance with all city and county regulations to avoid potential issues.",
-        "description": "Most reconfiguration projects, especially those involving structural, plumbing, or electrical changes, require permits in East Bay cities like Emeryville and Fremont."
-      }
-    }
-  ],
+  "name": "Do I need permits for home layout reconfiguration in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for home layout reconfiguration in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, most home layout reconfiguration projects in East Bay cities like Emeryville and Fremont require permits. This is particularly true for any work involving structural changes, alterations to plumbing or electrical systems, or changes that affect the building's footprint or safety. Failing to secure the necessary permits can lead to fines, project delays, or even the requirement to undo completed work. Our team assists clients in navigating the local permitting process, ensuring compliance with all city and county regulations to avoid potential issues.",
+        "@type": "Answer",
+        "description": "Most reconfiguration projects, especially those involving structural, plumbing, or electrical changes, require permits in East Bay cities like Emeryville and Fremont."
+      }
+    }
+  ],
+  "description": "Most reconfiguration projects, especially those involving structural, plumbing, or electrical changes, require permits in East Bay cities like Emeryville and Fr"
 }

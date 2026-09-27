@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What interior remodeling trends are popular in the East Bay area?",
-  "description": "East Bay trends include open-concept layouts, sustainable materials, smart home tech, large kitchen islands, and spa-like bathrooms, focusing on natural light a",
   "url": "https://hometelligentinc.com/faq/what-interior-remodeling-trends-are-popular-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What interior remodeling trends are popular in the East Bay area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In the East Bay, popular interior remodeling trends often blend modern aesthetics with functional design. We frequently see requests for open-concept living spaces, sustainable materials, and smart home technology integration. Kitchens are trending towards larger islands and walk-in pantries, while bathrooms often feature spa-like elements such as rainfall showers and freestanding tubs. Homeowners in cities like Oakland and Berkeley are also increasingly interested in maximizing natural light and creating versatile spaces for both living and working.",
-        "description": "East Bay trends include open-concept layouts, sustainable materials, smart home tech, large kitchen islands, and spa-like bathrooms, focusing on natural light and versatility."
-      }
-    }
-  ],
+  "name": "What interior remodeling trends are popular in the East Bay area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What interior remodeling trends are popular in the East Bay area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "In the East Bay, popular interior remodeling trends often blend modern aesthetics with functional design. We frequently see requests for open-concept living spaces, sustainable materials, and smart home technology integration. Kitchens are trending towards larger islands and walk-in pantries, while bathrooms often feature spa-like elements such as rainfall showers and freestanding tubs. Homeowners in cities like Oakland and Berkeley are also increasingly interested in maximizing natural light and creating versatile spaces for both living and working.",
+        "@type": "Answer",
+        "description": "East Bay trends include open-concept layouts, sustainable materials, smart home tech, large kitchen islands, and spa-like bathrooms, focusing on natural light and versatility."
+      }
+    }
+  ],
+  "description": "East Bay trends include open-concept layouts, sustainable materials, smart home tech, large kitchen islands, and spa-like bathrooms, focusing on natural light a"
 }

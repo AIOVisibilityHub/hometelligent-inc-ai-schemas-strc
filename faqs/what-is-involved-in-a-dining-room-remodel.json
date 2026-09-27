@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a dining room remodel?",
-  "description": "A dining room remodel involves updating the space's aesthetics and functionality, such as new flooring, lighting, and custom elements. The scope depends on your",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-dining-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a dining room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A dining room remodel typically involves updating the aesthetics and functionality of the space. This can include structural changes like moving walls, installing new flooring, updating lighting fixtures, and custom cabinetry or built-ins. We also focus on enhancing the dining experience through design elements that complement the rest of your home, ensuring the flow and style are cohesive. Factors like the age of your home and existing structural conditions will influence the scope and complexity of the project.",
-        "description": "A dining room remodel involves updating the space's aesthetics and functionality, such as new flooring, lighting, and custom elements. The scope depends on your home's existing structure and desired changes."
-      }
-    }
-  ],
+  "name": "What is involved in a dining room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a dining room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A dining room remodel typically involves updating the aesthetics and functionality of the space. This can include structural changes like moving walls, installing new flooring, updating lighting fixtures, and custom cabinetry or built-ins. We also focus on enhancing the dining experience through design elements that complement the rest of your home, ensuring the flow and style are cohesive. Factors like the age of your home and existing structural conditions will influence the scope and complexity of the project.",
+        "@type": "Answer",
+        "description": "A dining room remodel involves updating the space's aesthetics and functionality, such as new flooring, lighting, and custom elements. The scope depends on your home's existing structure and desired changes."
+      }
+    }
+  ],
+  "description": "A dining room remodel involves updating the space's aesthetics and functionality, such as new flooring, lighting, and custom elements. The scope depends on your"
 }

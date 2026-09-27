@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for an accessible bathroom remodel?",
-  "description": "Choose a contractor experienced in accessible design, review their portfolio, and check references. Be prepared to discuss your specific mobility needs and desi",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-an-accessible-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for an accessible bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right contractor involves evaluating their experience with accessible design, reviewing their portfolio of similar projects, and checking references. It's crucial to select a company that understands ADA guidelines and universal design principles. When contacting Hometelligent Inc., be prepared to discuss specific mobility needs, existing bathroom dimensions, and any design preferences to help us provide an accurate assessment and tailored solutions.",
-        "description": "Choose a contractor experienced in accessible design, review their portfolio, and check references. Be prepared to discuss your specific mobility needs and design preferences during consultation."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for an accessible bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for an accessible bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right contractor involves evaluating their experience with accessible design, reviewing their portfolio of similar projects, and checking references. It's crucial to select a company that understands ADA guidelines and universal design principles. When contacting Hometelligent Inc., be prepared to discuss specific mobility needs, existing bathroom dimensions, and any design preferences to help us provide an accurate assessment and tailored solutions.",
+        "@type": "Answer",
+        "description": "Choose a contractor experienced in accessible design, review their portfolio, and check references. Be prepared to discuss your specific mobility needs and design preferences during consultation."
+      }
+    }
+  ],
+  "description": "Choose a contractor experienced in accessible design, review their portfolio, and check references. Be prepared to discuss your specific mobility needs and desi"
 }

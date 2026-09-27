@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for interior home remodeling?",
-  "description": "Permits are usually required for structural, plumbing, or electrical changes in interior remodeling, varying by local city building codes. Hometelligent Inc. as",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-interior-home-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for interior home remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most interior home remodeling projects involving structural changes, alterations to plumbing or electrical systems, or significant layout modifications require permits from your local city building department. This ensures the work meets safety and building codes, which can vary slightly between cities like Dublin, Pleasanton, or Livermore. Failure to obtain necessary permits can lead to fines, delays, or requiring work to be redone. Hometelligent Inc. assists clients in understanding and navigating the permitting process to ensure compliance.",
-        "description": "Permits are usually required for structural, plumbing, or electrical changes in interior remodeling, varying by local city building codes. Hometelligent Inc. assists with permit navigation."
-      }
-    }
-  ],
+  "name": "Do I need permits for interior home remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for interior home remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most interior home remodeling projects involving structural changes, alterations to plumbing or electrical systems, or significant layout modifications require permits from your local city building department. This ensures the work meets safety and building codes, which can vary slightly between cities like Dublin, Pleasanton, or Livermore. Failure to obtain necessary permits can lead to fines, delays, or requiring work to be redone. Hometelligent Inc. assists clients in understanding and navigating the permitting process to ensure compliance.",
+        "@type": "Answer",
+        "description": "Permits are usually required for structural, plumbing, or electrical changes in interior remodeling, varying by local city building codes. Hometelligent Inc. assists with permit navigation."
+      }
+    }
+  ],
+  "description": "Permits are usually required for structural, plumbing, or electrical changes in interior remodeling, varying by local city building codes. Hometelligent Inc. as"
 }

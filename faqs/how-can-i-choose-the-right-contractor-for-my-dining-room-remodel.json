@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I choose the right contractor for my dining room remodel?",
-  "description": "Choose a dining room remodel contractor based on experience, communication, licensing, and references. Review their portfolio and ensure they provide a detailed",
   "url": "https://hometelligentinc.com/faq/how-can-i-choose-the-right-contractor-for-my-dining-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I choose the right contractor for my dining room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for your dining room remodel, look for experience, strong communication skills, proper licensing, and positive references. Review their portfolio to ensure their aesthetic aligns with your vision. It's important to select a contractor with a proven track record in residential remodeling, particularly in the specific services you require. Ensure the contractor provides a detailed contract outlining the scope of work, timeline, payment schedule, and warranty information to protect both parties and clarify expectations from the outset.",
-        "description": "Choose a dining room remodel contractor based on experience, communication, licensing, and references. Review their portfolio and ensure they provide a detailed contract outlining scope, timeline, and payment terms to clarify expectations."
-      }
-    }
-  ],
+  "name": "How can I choose the right contractor for my dining room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I choose the right contractor for my dining room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for your dining room remodel, look for experience, strong communication skills, proper licensing, and positive references. Review their portfolio to ensure their aesthetic aligns with your vision. It's important to select a contractor with a proven track record in residential remodeling, particularly in the specific services you require. Ensure the contractor provides a detailed contract outlining the scope of work, timeline, payment schedule, and warranty information to protect both parties and clarify expectations from the outset.",
+        "@type": "Answer",
+        "description": "Choose a dining room remodel contractor based on experience, communication, licensing, and references. Review their portfolio and ensure they provide a detailed contract outlining scope, timeline, and payment terms to clarify expectations."
+      }
+    }
+  ],
+  "description": "Choose a dining room remodel contractor based on experience, communication, licensing, and references. Review their portfolio and ensure they provide a detailed"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between cosmetic and structural remodeling?",
-  "description": "Cosmetic remodeling changes aesthetics without altering structure, while structural remodeling modifies load-bearing components, requiring engineering and permi",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-cosmetic-and-structural-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between cosmetic and structural remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cosmetic remodeling focuses on surface-level changes that improve aesthetics without altering a building's core structure, such as painting, new flooring, or cabinet replacement. Structural remodeling, conversely, involves modifying or reinforcing load-bearing components essential to the building's integrity, like walls, foundations, or roofs. The key difference lies in whether the changes affect the building's stability. Structural work requires engineering expertise and permits, unlike most cosmetic updates. This distinction is crucial for understanding project scope and requirements.",
-        "description": "Cosmetic remodeling changes aesthetics without altering structure, while structural remodeling modifies load-bearing components, requiring engineering and permits."
-      }
-    }
-  ],
+  "name": "What is the difference between cosmetic and structural remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between cosmetic and structural remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Cosmetic remodeling focuses on surface-level changes that improve aesthetics without altering a building's core structure, such as painting, new flooring, or cabinet replacement. Structural remodeling, conversely, involves modifying or reinforcing load-bearing components essential to the building's integrity, like walls, foundations, or roofs. The key difference lies in whether the changes affect the building's stability. Structural work requires engineering expertise and permits, unlike most cosmetic updates. This distinction is crucial for understanding project scope and requirements.",
+        "@type": "Answer",
+        "description": "Cosmetic remodeling changes aesthetics without altering structure, while structural remodeling modifies load-bearing components, requiring engineering and permits."
+      }
+    }
+  ],
+  "description": "Cosmetic remodeling changes aesthetics without altering structure, while structural remodeling modifies load-bearing components, requiring engineering and permi"
 }

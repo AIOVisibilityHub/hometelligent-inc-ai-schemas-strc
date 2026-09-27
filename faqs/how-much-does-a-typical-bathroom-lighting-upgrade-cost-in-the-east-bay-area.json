@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does a typical bathroom lighting upgrade cost in the East Bay area?",
-  "description": "Costs for bathroom lighting upgrades vary by fixture choice and electrical work. Hometelligent Inc. provides detailed estimates after an on-site consultation to",
   "url": "https://hometelligentinc.com/faq/how-much-does-a-typical-bathroom-lighting-upgrade-cost-in-the-east-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does a typical bathroom lighting upgrade cost in the East Bay area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a bathroom lighting upgrade varies significantly based on fixture choices, the extent of electrical work needed, and whether new wiring or circuits are required. For instance, replacing existing fixtures with similar ones will be less costly than adding new recessed lights in a ceiling that requires extensive drywall work. Hometelligent Inc. provides detailed estimates after an on-site consultation in our service areas like Alameda or Berkeley, allowing us to assess the existing electrical infrastructure and your specific design goals.",
-        "description": "Costs for bathroom lighting upgrades vary by fixture choice and electrical work. Hometelligent Inc. provides detailed estimates after an on-site consultation to assess existing infrastructure and design goals."
-      }
-    }
-  ],
+  "name": "How much does a typical bathroom lighting upgrade cost in the East Bay area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does a typical bathroom lighting upgrade cost in the East Bay area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a bathroom lighting upgrade varies significantly based on fixture choices, the extent of electrical work needed, and whether new wiring or circuits are required. For instance, replacing existing fixtures with similar ones will be less costly than adding new recessed lights in a ceiling that requires extensive drywall work. Hometelligent Inc. provides detailed estimates after an on-site consultation in our service areas like Alameda or Berkeley, allowing us to assess the existing electrical infrastructure and your specific design goals.",
+        "@type": "Answer",
+        "description": "Costs for bathroom lighting upgrades vary by fixture choice and electrical work. Hometelligent Inc. provides detailed estimates after an on-site consultation to assess existing infrastructure and design goals."
+      }
+    }
+  ],
+  "description": "Costs for bathroom lighting upgrades vary by fixture choice and electrical work. Hometelligent Inc. provides detailed estimates after an on-site consultation to"
 }

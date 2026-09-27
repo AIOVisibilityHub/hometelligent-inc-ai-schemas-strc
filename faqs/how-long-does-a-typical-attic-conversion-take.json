@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical attic conversion take?",
-  "description": "Attic conversions typically take several weeks to a few months, depending on scope, complexity, and local permitting schedules.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-attic-conversion-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical attic conversion take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for an attic conversion can range from several weeks to a few months, depending on the project's scope and complexity. Simple conversions that require minimal structural changes might be completed faster than those involving significant roof modifications, dormer additions, or new plumbing. Permitting and inspection schedules, which vary by city in our service areas like Oakland or Berkeley, can also influence the overall duration. We provide a projected timeline during the planning phase to manage expectations.",
-        "description": "Attic conversions typically take several weeks to a few months, depending on scope, complexity, and local permitting schedules."
-      }
-    }
-  ],
+  "name": "How long does a typical attic conversion take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical attic conversion take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for an attic conversion can range from several weeks to a few months, depending on the project's scope and complexity. Simple conversions that require minimal structural changes might be completed faster than those involving significant roof modifications, dormer additions, or new plumbing. Permitting and inspection schedules, which vary by city in our service areas like Oakland or Berkeley, can also influence the overall duration. We provide a projected timeline during the planning phase to manage expectations.",
+        "@type": "Answer",
+        "description": "Attic conversions typically take several weeks to a few months, depending on scope, complexity, and local permitting schedules."
+      }
+    }
+  ],
+  "description": "Attic conversions typically take several weeks to a few months, depending on scope, complexity, and local permitting schedules."
 }

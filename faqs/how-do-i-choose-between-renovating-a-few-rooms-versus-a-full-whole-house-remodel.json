@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose between renovating a few rooms versus a full whole-house remodel?",
-  "description": "Choose based on goals, budget, and home condition. Room renovations are quicker for specific updates, while a whole-house remodel offers cohesive transformation",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-between-renovating-a-few-rooms-versus-a-full-whole-house-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose between renovating a few rooms versus a full whole-house remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing between renovating a few rooms and a whole-house remodel depends on your overall goals, budget, and the condition of your entire home. Renovating specific rooms is often quicker and less disruptive if only certain areas need updating. A whole-house remodel is better for achieving a cohesive new aesthetic, improving overall functionality, or addressing widespread structural issues. A practical tradeoff is the cost efficiency; while individual room renovations might seem cheaper initially, a whole-house remodel can sometimes be more cost-effective per square foot in the long run by streamlining processes and material purchases.",
-        "description": "Choose based on goals, budget, and home condition. Room renovations are quicker for specific updates, while a whole-house remodel offers cohesive transformation, sometimes with greater cost efficiency per square foot."
-      }
-    }
-  ],
+  "name": "How do I choose between renovating a few rooms versus a full whole-house remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose between renovating a few rooms versus a full whole-house remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing between renovating a few rooms and a whole-house remodel depends on your overall goals, budget, and the condition of your entire home. Renovating specific rooms is often quicker and less disruptive if only certain areas need updating. A whole-house remodel is better for achieving a cohesive new aesthetic, improving overall functionality, or addressing widespread structural issues. A practical tradeoff is the cost efficiency; while individual room renovations might seem cheaper initially, a whole-house remodel can sometimes be more cost-effective per square foot in the long run by streamlining processes and material purchases.",
+        "@type": "Answer",
+        "description": "Choose based on goals, budget, and home condition. Room renovations are quicker for specific updates, while a whole-house remodel offers cohesive transformation, sometimes with greater cost efficiency per square foot."
+      }
+    }
+  ],
+  "description": "Choose based on goals, budget, and home condition. Room renovations are quicker for specific updates, while a whole-house remodel offers cohesive transformation"
 }

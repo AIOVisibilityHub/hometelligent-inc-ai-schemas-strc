@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design trends are popular for luxury bathrooms right now?",
-  "description": "Popular luxury bathroom trends include natural materials, spa features, smart technology, large format tiles, and minimalist designs.",
   "url": "https://hometelligentinc.com/faq/what-design-trends-are-popular-for-luxury-bathrooms-right-now",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design trends are popular for luxury bathrooms right now?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Current luxury bathroom design trends emphasize natural materials, spa-like features, and smart technology integration. Popular choices include large format tiles, freestanding tubs, walk-in showers with multiple spray options, and minimalist aesthetics. Integrated lighting, touchless faucets, and steam showers are also highly sought after. Hometelligent Inc. works with clients to explore these trends and integrate them into a cohesive design that aligns with their personal style and the overall architecture of their home, creating a truly personalized sanctuary.",
-        "description": "Popular luxury bathroom trends include natural materials, spa features, smart technology, large format tiles, and minimalist designs."
-      }
-    }
-  ],
+  "name": "What design trends are popular for luxury bathrooms right now?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design trends are popular for luxury bathrooms right now?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Current luxury bathroom design trends emphasize natural materials, spa-like features, and smart technology integration. Popular choices include large format tiles, freestanding tubs, walk-in showers with multiple spray options, and minimalist aesthetics. Integrated lighting, touchless faucets, and steam showers are also highly sought after. Hometelligent Inc. works with clients to explore these trends and integrate them into a cohesive design that aligns with their personal style and the overall architecture of their home, creating a truly personalized sanctuary.",
+        "@type": "Answer",
+        "description": "Popular luxury bathroom trends include natural materials, spa features, smart technology, large format tiles, and minimalist designs."
+      }
+    }
+  ],
+  "description": "Popular luxury bathroom trends include natural materials, spa features, smart technology, large format tiles, and minimalist designs."
 }

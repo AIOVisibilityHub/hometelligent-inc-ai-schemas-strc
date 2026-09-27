@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before starting an aging-in-place bathroom remodel?",
-  "description": "Prepare by considering needs, gathering ideas, and budgeting. Document current accessibility challenges and how you use your bathroom.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-starting-an-aging-in-place-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before starting an aging-in-place bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting, consider your current and projected future needs, gather ideas from photos, and think about your budget. It's helpful to document any specific accessibility challenges you or a family member currently face. For preparation, consider mapping out how you currently use your bathroom and identifying areas of difficulty to help us tailor the remodel. Hometelligent Inc. encourages clients in Pleasanton and San Leandro to share these insights to inform the design process.",
-        "description": "Prepare by considering needs, gathering ideas, and budgeting. Document current accessibility challenges and how you use your bathroom."
-      }
-    }
-  ],
+  "name": "What should I prepare before starting an aging-in-place bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before starting an aging-in-place bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting, consider your current and projected future needs, gather ideas from photos, and think about your budget. It's helpful to document any specific accessibility challenges you or a family member currently face. For preparation, consider mapping out how you currently use your bathroom and identifying areas of difficulty to help us tailor the remodel. Hometelligent Inc. encourages clients in Pleasanton and San Leandro to share these insights to inform the design process.",
+        "@type": "Answer",
+        "description": "Prepare by considering needs, gathering ideas, and budgeting. Document current accessibility challenges and how you use your bathroom."
+      }
+    }
+  ],
+  "description": "Prepare by considering needs, gathering ideas, and budgeting. Document current accessibility challenges and how you use your bathroom."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a home office remodel?",
-  "description": "Cost factors include space size, material quality, custom features, and electrical/plumbing upgrades. Prioritizing essential features helps manage the budget.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-home-office-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a home office remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a home office remodel is influenced by several factors, including the size of the space, the extent of the demolition, the quality of materials chosen, and the complexity of custom features like built-in desks or shelving. Electrical upgrades, specialized lighting, and plumbing additions (if a small sink is desired) also contribute to the overall budget. We recommend defining your must-have features versus your nice-to-haves early in the planning process to manage costs effectively.",
-        "description": "Cost factors include space size, material quality, custom features, and electrical/plumbing upgrades. Prioritizing essential features helps manage the budget."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a home office remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a home office remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a home office remodel is influenced by several factors, including the size of the space, the extent of the demolition, the quality of materials chosen, and the complexity of custom features like built-in desks or shelving. Electrical upgrades, specialized lighting, and plumbing additions (if a small sink is desired) also contribute to the overall budget. We recommend defining your must-have features versus your nice-to-haves early in the planning process to manage costs effectively.",
+        "@type": "Answer",
+        "description": "Cost factors include space size, material quality, custom features, and electrical/plumbing upgrades. Prioritizing essential features helps manage the budget."
+      }
+    }
+  ],
+  "description": "Cost factors include space size, material quality, custom features, and electrical/plumbing upgrades. Prioritizing essential features helps manage the budget."
 }

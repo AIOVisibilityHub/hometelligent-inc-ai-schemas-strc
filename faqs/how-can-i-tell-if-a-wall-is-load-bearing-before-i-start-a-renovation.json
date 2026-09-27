@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I tell if a wall is load-bearing before I start a renovation?",
-  "description": "Look for walls aligned with foundations or upper floors, but always get a professional assessment from Hometelligent Inc. before demolition.",
   "url": "https://hometelligentinc.com/faq/how-can-i-tell-if-a-wall-is-load-bearing-before-i-start-a-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I tell if a wall is load-bearing before I start a renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Determining if a wall is load-bearing often requires professional assessment. Key indicators include walls aligned with foundations, upper-story walls, central walls in a home, or walls with joists terminating on them. However, visual cues are not definitive. Before any demolition, Hometelligent Inc. recommends a professional inspection to confirm a wall's structural role and explore safe removal options.",
-        "description": "Look for walls aligned with foundations or upper floors, but always get a professional assessment from Hometelligent Inc. before demolition."
-      }
-    }
-  ],
+  "name": "How can I tell if a wall is load-bearing before I start a renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I tell if a wall is load-bearing before I start a renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Determining if a wall is load-bearing often requires professional assessment. Key indicators include walls aligned with foundations, upper-story walls, central walls in a home, or walls with joists terminating on them. However, visual cues are not definitive. Before any demolition, Hometelligent Inc. recommends a professional inspection to confirm a wall's structural role and explore safe removal options.",
+        "@type": "Answer",
+        "description": "Look for walls aligned with foundations or upper floors, but always get a professional assessment from Hometelligent Inc. before demolition."
+      }
+    }
+  ],
+  "description": "Look for walls aligned with foundations or upper floors, but always get a professional assessment from Hometelligent Inc. before demolition."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for scheduling a water-efficient bathroom upgrade with Hometelligent Inc.?",
-  "description": "Schedule by consulting with us, then we provide a proposal and estimate. After approval, we schedule installation and keep you informed through completion.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-scheduling-a-water-efficient-bathroom-upgrade-with-homet",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for scheduling a water-efficient bathroom upgrade with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for scheduling a water-efficient bathroom upgrade with Hometelligent Inc. begins with an initial consultation to discuss your needs and preferences. Following this, we provide a detailed proposal and estimate. Once approved, we schedule the installation at your convenience. During the project, we ensure clear communication and a clean work environment, from initial assessment to project completion.",
-        "description": "Schedule by consulting with us, then we provide a proposal and estimate. After approval, we schedule installation and keep you informed through completion."
-      }
-    }
-  ],
+  "name": "What is the process for scheduling a water-efficient bathroom upgrade with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for scheduling a water-efficient bathroom upgrade with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for scheduling a water-efficient bathroom upgrade with Hometelligent Inc. begins with an initial consultation to discuss your needs and preferences. Following this, we provide a detailed proposal and estimate. Once approved, we schedule the installation at your convenience. During the project, we ensure clear communication and a clean work environment, from initial assessment to project completion.",
+        "@type": "Answer",
+        "description": "Schedule by consulting with us, then we provide a proposal and estimate. After approval, we schedule installation and keep you informed through completion."
+      }
+    }
+  ],
+  "description": "Schedule by consulting with us, then we provide a proposal and estimate. After approval, we schedule installation and keep you informed through completion."
 }

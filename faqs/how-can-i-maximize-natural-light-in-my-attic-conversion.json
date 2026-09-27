@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I maximize natural light in my attic conversion?",
-  "description": "Maximize attic light with strategic windows and skylights. Dormers add light and space, while skylights bring light from above, based on your home's sun exposur",
   "url": "https://hometelligentinc.com/faq/how-can-i-maximize-natural-light-in-my-attic-conversion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I maximize natural light in my attic conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maximizing natural light in an attic conversion often involves strategic placement of windows and skylights. Dormer windows are popular for adding both light and usable floor space, while skylights are effective for bringing light directly from above. The type and size of windows, as well as their orientation, significantly impact the amount of natural light. During our design process, we consider your home's unique orientation to the sun and recommend solutions that enhance brightness and ventilation effectively.",
-        "description": "Maximize attic light with strategic windows and skylights. Dormers add light and space, while skylights bring light from above, based on your home's sun exposure."
-      }
-    }
-  ],
+  "name": "How can I maximize natural light in my attic conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I maximize natural light in my attic conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maximizing natural light in an attic conversion often involves strategic placement of windows and skylights. Dormer windows are popular for adding both light and usable floor space, while skylights are effective for bringing light directly from above. The type and size of windows, as well as their orientation, significantly impact the amount of natural light. During our design process, we consider your home's unique orientation to the sun and recommend solutions that enhance brightness and ventilation effectively.",
+        "@type": "Answer",
+        "description": "Maximize attic light with strategic windows and skylights. Dormers add light and space, while skylights bring light from above, based on your home's sun exposure."
+      }
+    }
+  ],
+  "description": "Maximize attic light with strategic windows and skylights. Dormers add light and space, while skylights bring light from above, based on your home's sun exposur"
 }

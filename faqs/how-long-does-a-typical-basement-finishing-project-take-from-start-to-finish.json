@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical basement finishing project take from start to finish?",
-  "description": "Basement finishing timelines vary from 4-16 weeks or more, depending on complexity. Extensive plumbing, electrical, or new room additions extend the project dur",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-basement-finishing-project-take-from-start-to-finish",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical basement finishing project take from start to finish?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a basement finishing project depends on its complexity and size. A basic finish might take 4-8 weeks, while projects involving extensive plumbing, electrical work, or the addition of new rooms could take 10-16 weeks or longer. Our project managers provide a detailed timeline upfront, outlining each phase from design to final inspection, allowing you to plan accordingly.",
-        "description": "Basement finishing timelines vary from 4-16 weeks or more, depending on complexity. Extensive plumbing, electrical, or new room additions extend the project duration."
-      }
-    }
-  ],
+  "name": "How long does a typical basement finishing project take from start to finish?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical basement finishing project take from start to finish?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a basement finishing project depends on its complexity and size. A basic finish might take 4-8 weeks, while projects involving extensive plumbing, electrical work, or the addition of new rooms could take 10-16 weeks or longer. Our project managers provide a detailed timeline upfront, outlining each phase from design to final inspection, allowing you to plan accordingly.",
+        "@type": "Answer",
+        "description": "Basement finishing timelines vary from 4-16 weeks or more, depending on complexity. Extensive plumbing, electrical, or new room additions extend the project duration."
+      }
+    }
+  ],
+  "description": "Basement finishing timelines vary from 4-16 weeks or more, depending on complexity. Extensive plumbing, electrical, or new room additions extend the project dur"
 }

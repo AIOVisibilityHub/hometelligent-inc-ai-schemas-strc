@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I choose LED, fluorescent, or incandescent bulbs for my bathroom lighting upgrade?",
-  "description": "LED bulbs are recommended for bathroom upgrades due to efficiency and lifespan, despite a higher upfront cost. Consider the tradeoff between initial expense and",
   "url": "https://hometelligentinc.com/faq/should-i-choose-led-fluorescent-or-incandescent-bulbs-for-my-bathroom-lighting-u",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I choose LED, fluorescent, or incandescent bulbs for my bathroom lighting upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a bathroom lighting upgrade, LED bulbs are generally recommended due to their energy efficiency, long lifespan, and versatility in color temperature. Fluorescent options offer some energy savings but often lack the aesthetic appeal and dimming capabilities of LEDs. Incandescent bulbs are largely phased out due to inefficiency. When making your decision, consider the practical tradeoff between upfront cost and long-term energy savings; LEDs typically have a higher initial cost but significantly reduce electricity bills over time.",
-        "description": "LED bulbs are recommended for bathroom upgrades due to efficiency and lifespan, despite a higher upfront cost. Consider the tradeoff between initial expense and long-term energy savings."
-      }
-    }
-  ],
+  "name": "Should I choose LED, fluorescent, or incandescent bulbs for my bathroom lighting upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I choose LED, fluorescent, or incandescent bulbs for my bathroom lighting upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For a bathroom lighting upgrade, LED bulbs are generally recommended due to their energy efficiency, long lifespan, and versatility in color temperature. Fluorescent options offer some energy savings but often lack the aesthetic appeal and dimming capabilities of LEDs. Incandescent bulbs are largely phased out due to inefficiency. When making your decision, consider the practical tradeoff between upfront cost and long-term energy savings; LEDs typically have a higher initial cost but significantly reduce electricity bills over time.",
+        "@type": "Answer",
+        "description": "LED bulbs are recommended for bathroom upgrades due to efficiency and lifespan, despite a higher upfront cost. Consider the tradeoff between initial expense and long-term energy savings."
+      }
+    }
+  ],
+  "description": "LED bulbs are recommended for bathroom upgrades due to efficiency and lifespan, despite a higher upfront cost. Consider the tradeoff between initial expense and"
 }

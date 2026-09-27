@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What structural considerations are important for an attic conversion?",
-  "description": "Important structural considerations include reinforcing floor joists, assessing roof stability, and ensuring adequate headroom to meet building codes.",
   "url": "https://hometelligentinc.com/faq/what-structural-considerations-are-important-for-an-attic-conversion",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What structural considerations are important for an attic conversion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Structural considerations are crucial for a safe and compliant attic conversion. Key aspects include reinforcing the floor joists to support the new load, assessing the roof structure for stability and potential modifications like dormers, and ensuring adequate headroom. Existing framing may need strengthening, and sometimes new support beams are necessary. We conduct thorough structural assessments to determine what modifications are required to meet current building codes and ensure the long-term integrity of your home.",
-        "description": "Important structural considerations include reinforcing floor joists, assessing roof stability, and ensuring adequate headroom to meet building codes."
-      }
-    }
-  ],
+  "name": "What structural considerations are important for an attic conversion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What structural considerations are important for an attic conversion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Structural considerations are crucial for a safe and compliant attic conversion. Key aspects include reinforcing the floor joists to support the new load, assessing the roof structure for stability and potential modifications like dormers, and ensuring adequate headroom. Existing framing may need strengthening, and sometimes new support beams are necessary. We conduct thorough structural assessments to determine what modifications are required to meet current building codes and ensure the long-term integrity of your home.",
+        "@type": "Answer",
+        "description": "Important structural considerations include reinforcing floor joists, assessing roof stability, and ensuring adequate headroom to meet building codes."
+      }
+    }
+  ],
+  "description": "Important structural considerations include reinforcing floor joists, assessing roof stability, and ensuring adequate headroom to meet building codes."
 }

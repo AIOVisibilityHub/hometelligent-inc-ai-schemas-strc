@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right size bathroom fan for my needs?",
-  "description": "Choose a bathroom fan based on your room's square footage; a general rule is to calculate room volume and divide by 7.5 for the recommended CFM.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-size-bathroom-fan-for-my-needs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right size bathroom fan for my needs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right size bathroom fan depends primarily on the room's square footage. A general guideline is to calculate the room's volume (length x width x height) and divide by 7.5 to get the recommended Cubic Feet per Minute (CFM) rating. For bathrooms over 100 square feet, consider additional factors like shower and toilet compartments. Selecting a fan with adequate CFM ensures efficient moisture removal. We can help calculate the precise CFM needed for your specific bathroom dimensions to ensure optimal performance.",
-        "description": "Choose a bathroom fan based on your room's square footage; a general rule is to calculate room volume and divide by 7.5 for the recommended CFM."
-      }
-    }
-  ],
+  "name": "How do I choose the right size bathroom fan for my needs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right size bathroom fan for my needs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right size bathroom fan depends primarily on the room's square footage. A general guideline is to calculate the room's volume (length x width x height) and divide by 7.5 to get the recommended Cubic Feet per Minute (CFM) rating. For bathrooms over 100 square feet, consider additional factors like shower and toilet compartments. Selecting a fan with adequate CFM ensures efficient moisture removal. We can help calculate the precise CFM needed for your specific bathroom dimensions to ensure optimal performance.",
+        "@type": "Answer",
+        "description": "Choose a bathroom fan based on your room's square footage; a general rule is to calculate room volume and divide by 7.5 for the recommended CFM."
+      }
+    }
+  ],
+  "description": "Choose a bathroom fan based on your room's square footage; a general rule is to calculate room volume and divide by 7.5 for the recommended CFM."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What common challenges might arise during basement finishing?",
-  "description": "Challenges include moisture, low ceilings, structural elements, and ensuring light/ventilation. Egress windows are vital for bedrooms. Proper planning prevents",
   "url": "https://hometelligentinc.com/faq/what-common-challenges-might-arise-during-basement-finishing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What common challenges might arise during basement finishing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges during basement finishing include managing moisture issues, dealing with low ceilings, accommodating existing structural elements like support posts, and ensuring adequate natural light and ventilation. It's essential to have a plan for egress windows if creating a bedroom. An experienced contractor can anticipate these challenges and integrate solutions into the design phase, preventing costly delays and rework.",
-        "description": "Challenges include moisture, low ceilings, structural elements, and ensuring light/ventilation. Egress windows are vital for bedrooms. Proper planning prevents delays."
-      }
-    }
-  ],
+  "name": "What common challenges might arise during basement finishing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What common challenges might arise during basement finishing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges during basement finishing include managing moisture issues, dealing with low ceilings, accommodating existing structural elements like support posts, and ensuring adequate natural light and ventilation. It's essential to have a plan for egress windows if creating a bedroom. An experienced contractor can anticipate these challenges and integrate solutions into the design phase, preventing costly delays and rework.",
+        "@type": "Answer",
+        "description": "Challenges include moisture, low ceilings, structural elements, and ensuring light/ventilation. Egress windows are vital for bedrooms. Proper planning prevents delays."
+      }
+    }
+  ],
+  "description": "Challenges include moisture, low ceilings, structural elements, and ensuring light/ventilation. Egress windows are vital for bedrooms. Proper planning prevents"
 }

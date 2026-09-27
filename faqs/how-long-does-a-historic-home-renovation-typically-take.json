@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a historic home renovation typically take?",
-  "description": "Historic home renovations take longer than standard projects due to material sourcing, specialized techniques, and potential unexpected discoveries, especially",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-historic-home-renovation-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a historic home renovation typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a historic home renovation is generally longer than a standard renovation due to the complexities involved, such as sourcing period-appropriate materials, obtaining specific permits, and employing specialized techniques. Factors like the extent of structural restoration, lead paint or asbestos abatement, and unexpected discoveries behind walls can significantly impact the schedule. For instance, a full exterior restoration in Berkeley might involve a more protracted approval process than a simple interior update in Dublin. Proper planning and careful execution are key to managing expectations.",
-        "description": "Historic home renovations take longer than standard projects due to material sourcing, specialized techniques, and potential unexpected discoveries, especially with stricter local review processes."
-      }
-    }
-  ],
+  "name": "How long does a historic home renovation typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a historic home renovation typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a historic home renovation is generally longer than a standard renovation due to the complexities involved, such as sourcing period-appropriate materials, obtaining specific permits, and employing specialized techniques. Factors like the extent of structural restoration, lead paint or asbestos abatement, and unexpected discoveries behind walls can significantly impact the schedule. For instance, a full exterior restoration in Berkeley might involve a more protracted approval process than a simple interior update in Dublin. Proper planning and careful execution are key to managing expectations.",
+        "@type": "Answer",
+        "description": "Historic home renovations take longer than standard projects due to material sourcing, specialized techniques, and potential unexpected discoveries, especially with stricter local review processes."
+      }
+    }
+  ],
+  "description": "Historic home renovations take longer than standard projects due to material sourcing, specialized techniques, and potential unexpected discoveries, especially"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for a living room remodel?",
-  "description": "Consider functionality, aesthetics, and integration with your home. Balance open concepts with distinct zones. Hometelligent Inc. helps optimize beauty and util",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-a-living-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for a living room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key design considerations for a living room remodel include functionality, aesthetic appeal, and how the space integrates with the rest of your home. Think about your lifestyle, how you use the room, and the desired atmosphere. A practical tradeoff to consider is balancing open-concept layouts with the need for distinct zones or acoustic separation. Hometelligent Inc. collaborates with clients to develop designs that optimize both beauty and utility, ensuring the remodeled space serves your family's needs.",
-        "description": "Consider functionality, aesthetics, and integration with your home. Balance open concepts with distinct zones. Hometelligent Inc. helps optimize beauty and utility in design."
-      }
-    }
-  ],
+  "name": "What design considerations are important for a living room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for a living room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Key design considerations for a living room remodel include functionality, aesthetic appeal, and how the space integrates with the rest of your home. Think about your lifestyle, how you use the room, and the desired atmosphere. A practical tradeoff to consider is balancing open-concept layouts with the need for distinct zones or acoustic separation. Hometelligent Inc. collaborates with clients to develop designs that optimize both beauty and utility, ensuring the remodeled space serves your family's needs.",
+        "@type": "Answer",
+        "description": "Consider functionality, aesthetics, and integration with your home. Balance open concepts with distinct zones. Hometelligent Inc. helps optimize beauty and utility in design."
+      }
+    }
+  ],
+  "description": "Consider functionality, aesthetics, and integration with your home. Balance open concepts with distinct zones. Hometelligent Inc. helps optimize beauty and util"
 }

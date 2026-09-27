@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of reconfiguring my home's layout?",
-  "description": "Costs are influenced by demolition scope, structural work, utility relocation, chosen finishes, and permit fees, with structural and utility changes being the m",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-reconfiguring-my-home-s-layout",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of reconfiguring my home's layout?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Several factors impact the cost of home layout reconfiguration. Key elements include the extent of demolition, whether walls are load-bearing (requiring structural engineering), the relocation of plumbing or electrical systems, and the quality of finishes chosen. For example, moving a bathroom will be significantly more expensive than simply opening up a doorway due to extensive plumbing and waterproofing requirements. Design fees, permitting costs specific to your city (e.g., Oakland), and unforeseen structural issues discovered during demolition can also affect the final price. We provide a detailed estimate based on your specific project scope.",
-        "description": "Costs are influenced by demolition scope, structural work, utility relocation, chosen finishes, and permit fees, with structural and utility changes being the most significant drivers."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of reconfiguring my home's layout?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of reconfiguring my home's layout?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Several factors impact the cost of home layout reconfiguration. Key elements include the extent of demolition, whether walls are load-bearing (requiring structural engineering), the relocation of plumbing or electrical systems, and the quality of finishes chosen. For example, moving a bathroom will be significantly more expensive than simply opening up a doorway due to extensive plumbing and waterproofing requirements. Design fees, permitting costs specific to your city (e.g., Oakland), and unforeseen structural issues discovered during demolition can also affect the final price. We provide a detailed estimate based on your specific project scope.",
+        "@type": "Answer",
+        "description": "Costs are influenced by demolition scope, structural work, utility relocation, chosen finishes, and permit fees, with structural and utility changes being the most significant drivers."
+      }
+    }
+  ],
+  "description": "Costs are influenced by demolition scope, structural work, utility relocation, chosen finishes, and permit fees, with structural and utility changes being the m"
 }

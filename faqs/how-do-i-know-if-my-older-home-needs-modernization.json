@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my older home needs modernization?",
-  "description": "Your older home may need modernization if you have frequent issues, high energy bills, or an inefficient layout. Documenting problems helps define the project.",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-older-home-needs-modernization",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my older home needs modernization?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You'll know your older home needs modernization if you experience frequent maintenance issues, high energy bills, or find your living space no longer meets your family's needs. Signs like flickering lights, slow drains, or a cramped kitchen indicate potential system or layout issues. Before contacting us, consider documenting your home's persistent problems and desired improvements. This preparation helps us understand your priorities and conduct a more focused initial assessment to determine the best modernization approach.",
-        "description": "Your older home may need modernization if you have frequent issues, high energy bills, or an inefficient layout. Documenting problems helps define the project."
-      }
-    }
-  ],
+  "name": "How do I know if my older home needs modernization?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my older home needs modernization?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You'll know your older home needs modernization if you experience frequent maintenance issues, high energy bills, or find your living space no longer meets your family's needs. Signs like flickering lights, slow drains, or a cramped kitchen indicate potential system or layout issues. Before contacting us, consider documenting your home's persistent problems and desired improvements. This preparation helps us understand your priorities and conduct a more focused initial assessment to determine the best modernization approach.",
+        "@type": "Answer",
+        "description": "Your older home may need modernization if you have frequent issues, high energy bills, or an inefficient layout. Documenting problems helps define the project."
+      }
+    }
+  ],
+  "description": "Your older home may need modernization if you have frequent issues, high energy bills, or an inefficient layout. Documenting problems helps define the project."
 }

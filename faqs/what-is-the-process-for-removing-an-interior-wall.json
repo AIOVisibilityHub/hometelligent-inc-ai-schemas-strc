@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for removing an interior wall?",
-  "description": "Interior wall removal involves structural assessment, permitting, utility disconnection, demolition, and finishing. Hometelligent Inc. handles the full process",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-removing-an-interior-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for removing an interior wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for interior wall removal typically begins with a consultation and structural assessment to determine if the wall is load-bearing. This assessment dictates the required structural modifications, such as adding a support beam, if the wall is load-bearing. After necessary permits are secured, the area is prepped to protect surroundings, utilities within the wall are disconnected, and the wall material is systematically removed. Hometelligent Inc. manages debris disposal and can assist with patching and finishing the adjacent areas to integrate the new open space seamlessly.",
-        "description": "Interior wall removal involves structural assessment, permitting, utility disconnection, demolition, and finishing. Hometelligent Inc. handles the full process from assessment to debris disposal."
-      }
-    }
-  ],
+  "name": "What is the process for removing an interior wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for removing an interior wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for interior wall removal typically begins with a consultation and structural assessment to determine if the wall is load-bearing. This assessment dictates the required structural modifications, such as adding a support beam, if the wall is load-bearing. After necessary permits are secured, the area is prepped to protect surroundings, utilities within the wall are disconnected, and the wall material is systematically removed. Hometelligent Inc. manages debris disposal and can assist with patching and finishing the adjacent areas to integrate the new open space seamlessly.",
+        "@type": "Answer",
+        "description": "Interior wall removal involves structural assessment, permitting, utility disconnection, demolition, and finishing. Hometelligent Inc. handles the full process from assessment to debris disposal."
+      }
+    }
+  ],
+  "description": "Interior wall removal involves structural assessment, permitting, utility disconnection, demolition, and finishing. Hometelligent Inc. handles the full process"
 }

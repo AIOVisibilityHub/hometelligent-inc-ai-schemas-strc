@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can finishing my basement impact my home's value?",
-  "description": "Finishing your basement increases usable living space and can boost home value, especially with added bedrooms or bathrooms. Quality work maximizes ROI.",
   "url": "https://hometelligentinc.com/faq/how-can-finishing-my-basement-impact-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can finishing my basement impact my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Finishing your basement can significantly increase your home's usable living space and, consequently, its market value. A well-designed and executed basement renovation can offer a strong return on investment, especially if it adds functional rooms like bedrooms or bathrooms. The exact impact on value will depend on the quality of the finish, local market conditions, and the functionality added to the home. We focus on quality craftsmanship to maximize your investment.",
-        "description": "Finishing your basement increases usable living space and can boost home value, especially with added bedrooms or bathrooms. Quality work maximizes ROI."
-      }
-    }
-  ],
+  "name": "How can finishing my basement impact my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can finishing my basement impact my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Finishing your basement can significantly increase your home's usable living space and, consequently, its market value. A well-designed and executed basement renovation can offer a strong return on investment, especially if it adds functional rooms like bedrooms or bathrooms. The exact impact on value will depend on the quality of the finish, local market conditions, and the functionality added to the home. We focus on quality craftsmanship to maximize your investment.",
+        "@type": "Answer",
+        "description": "Finishing your basement increases usable living space and can boost home value, especially with added bedrooms or bathrooms. Quality work maximizes ROI."
+      }
+    }
+  ],
+  "description": "Finishing your basement increases usable living space and can boost home value, especially with added bedrooms or bathrooms. Quality work maximizes ROI."
 }

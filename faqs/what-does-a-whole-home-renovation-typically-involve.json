@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What does a whole-home renovation typically involve?",
-  "description": "A whole-home renovation updates multiple areas of your house, from cosmetic changes to structural reconfigurations.",
   "url": "https://hometelligentinc.com/faq/what-does-a-whole-home-renovation-typically-involve",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does a whole-home renovation typically involve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A whole-home renovation generally involves updating multiple areas of your house, often including kitchens, bathrooms, living spaces, and bedrooms. This can range from cosmetic upgrades like new paint and flooring to more extensive structural changes, such as reconfiguring layouts or adding new electrical and plumbing systems. Understanding your priorities for each space, such as increased functionality or aesthetic improvements, will help define the project scope.",
-        "description": "A whole-home renovation updates multiple areas of your house, from cosmetic changes to structural reconfigurations."
-      }
-    }
-  ],
+  "name": "What does a whole-home renovation typically involve?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What does a whole-home renovation typically involve?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A whole-home renovation generally involves updating multiple areas of your house, often including kitchens, bathrooms, living spaces, and bedrooms. This can range from cosmetic upgrades like new paint and flooring to more extensive structural changes, such as reconfiguring layouts or adding new electrical and plumbing systems. Understanding your priorities for each space, such as increased functionality or aesthetic improvements, will help define the project scope.",
+        "@type": "Answer",
+        "description": "A whole-home renovation updates multiple areas of your house, from cosmetic changes to structural reconfigurations."
+      }
+    }
+  ],
+  "description": "A whole-home renovation updates multiple areas of your house, from cosmetic changes to structural reconfigurations."
 }

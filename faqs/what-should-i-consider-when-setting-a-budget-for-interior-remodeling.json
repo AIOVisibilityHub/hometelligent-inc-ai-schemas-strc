@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when setting a budget for interior remodeling?",
-  "description": "Budget for direct costs and a 10-20% contingency. Project size, desired finishes, structural changes, and the home's age affect the overall cost.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-setting-a-budget-for-interior-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when setting a budget for interior remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When budgeting for interior remodeling, consider both the direct construction costs and a contingency fund, typically 10-20% of the project total, for unexpected issues. The size of the space, desired finishes, and any structural changes will significantly impact costs. For example, extensive plumbing or electrical work in older homes common in Oakland or San Leandro will likely increase expenses. It's helpful to prioritize 'must-have' features versus 'nice-to-have' elements to ensure your budget aligns with your renovation goals.",
-        "description": "Budget for direct costs and a 10-20% contingency. Project size, desired finishes, structural changes, and the home's age affect the overall cost."
-      }
-    }
-  ],
+  "name": "What should I consider when setting a budget for interior remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when setting a budget for interior remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When budgeting for interior remodeling, consider both the direct construction costs and a contingency fund, typically 10-20% of the project total, for unexpected issues. The size of the space, desired finishes, and any structural changes will significantly impact costs. For example, extensive plumbing or electrical work in older homes common in Oakland or San Leandro will likely increase expenses. It's helpful to prioritize 'must-have' features versus 'nice-to-have' elements to ensure your budget aligns with your renovation goals.",
+        "@type": "Answer",
+        "description": "Budget for direct costs and a 10-20% contingency. Project size, desired finishes, structural changes, and the home's age affect the overall cost."
+      }
+    }
+  ],
+  "description": "Budget for direct costs and a 10-20% contingency. Project size, desired finishes, structural changes, and the home's age affect the overall cost."
 }

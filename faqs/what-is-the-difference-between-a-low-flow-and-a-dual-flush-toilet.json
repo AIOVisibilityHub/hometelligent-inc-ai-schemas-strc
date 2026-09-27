@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a low-flow and a dual-flush toilet?",
-  "description": "Low-flow toilets use a consistent low amount of water per flush, while dual-flush offers two options: a partial flush for liquids and a full flush for solids.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-low-flow-and-a-dual-flush-toilet",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a low-flow and a dual-flush toilet?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A low-flow toilet consistently uses a reduced amount of water per flush, typically 1.28 gallons per flush (GPF) or less. A dual-flush toilet offers two flush options: a partial flush for liquid waste (around 0.8 GPF) and a full flush for solid waste (typically 1.28 or 1.6 GPF). The choice between them depends on your preference for consistent low usage or the flexibility of two flush volumes, which can sometimes provide slightly better performance for solid waste. Both are considered water-efficient options.",
-        "description": "Low-flow toilets use a consistent low amount of water per flush, while dual-flush offers two options: a partial flush for liquids and a full flush for solids."
-      }
-    }
-  ],
+  "name": "What is the difference between a low-flow and a dual-flush toilet?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a low-flow and a dual-flush toilet?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A low-flow toilet consistently uses a reduced amount of water per flush, typically 1.28 gallons per flush (GPF) or less. A dual-flush toilet offers two flush options: a partial flush for liquid waste (around 0.8 GPF) and a full flush for solid waste (typically 1.28 or 1.6 GPF). The choice between them depends on your preference for consistent low usage or the flexibility of two flush volumes, which can sometimes provide slightly better performance for solid waste. Both are considered water-efficient options.",
+        "@type": "Answer",
+        "description": "Low-flow toilets use a consistent low amount of water per flush, while dual-flush offers two options: a partial flush for liquids and a full flush for solids."
+      }
+    }
+  ],
+  "description": "Low-flow toilets use a consistent low amount of water per flush, while dual-flush offers two options: a partial flush for liquids and a full flush for solids."
 }

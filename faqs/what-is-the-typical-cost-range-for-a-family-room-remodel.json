@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for a family room remodel?",
-  "description": "Family room remodel costs typically range from a few thousand dollars for minor updates to over $75,000 for extensive renovations, depending on scope and materi",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-a-family-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for a family room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost for a family room remodel varies significantly depending on the scope of work, materials chosen, and any structural changes required. Minor updates like new paint and flooring might start at a few thousand dollars, while extensive renovations involving reconfiguring space, adding built-ins, or upgrading electrical systems could range from $20,000 to $75,000 or more. A key decision factor affecting cost is the extent of custom features versus standard options. For example, custom cabinetry will increase costs compared to pre-fabricated units. An initial consultation can help define your project's potential budget.",
-        "description": "Family room remodel costs typically range from a few thousand dollars for minor updates to over $75,000 for extensive renovations, depending on scope and materials."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for a family room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for a family room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost for a family room remodel varies significantly depending on the scope of work, materials chosen, and any structural changes required. Minor updates like new paint and flooring might start at a few thousand dollars, while extensive renovations involving reconfiguring space, adding built-ins, or upgrading electrical systems could range from $20,000 to $75,000 or more. A key decision factor affecting cost is the extent of custom features versus standard options. For example, custom cabinetry will increase costs compared to pre-fabricated units. An initial consultation can help define your project's potential budget.",
+        "@type": "Answer",
+        "description": "Family room remodel costs typically range from a few thousand dollars for minor updates to over $75,000 for extensive renovations, depending on scope and materials."
+      }
+    }
+  ],
+  "description": "Family room remodel costs typically range from a few thousand dollars for minor updates to over $75,000 for extensive renovations, depending on scope and materi"
 }

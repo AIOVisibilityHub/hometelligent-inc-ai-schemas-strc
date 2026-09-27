@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of maintenance does a bathroom ventilation fan require?",
-  "description": "Maintenance for a bathroom ventilation fan typically involves cleaning the grille and housing every few months to ensure proper airflow and prevent dust buildup",
   "url": "https://hometelligentinc.com/faq/what-kind-of-maintenance-does-a-bathroom-ventilation-fan-require",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of maintenance does a bathroom ventilation fan require?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bathroom ventilation fans require minimal but consistent maintenance to operate efficiently. This typically involves cleaning the fan grille and housing every few months to prevent dust and lint buildup, which can obstruct airflow. Some models may require periodic cleaning of the fan blades if accessible. Regular cleaning ensures the fan can effectively remove moisture and odors. Neglecting maintenance can reduce performance and shorten the fan's lifespan, so integrate it into your regular cleaning routine.",
-        "description": "Maintenance for a bathroom ventilation fan typically involves cleaning the grille and housing every few months to ensure proper airflow and prevent dust buildup."
-      }
-    }
-  ],
+  "name": "What kind of maintenance does a bathroom ventilation fan require?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of maintenance does a bathroom ventilation fan require?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Bathroom ventilation fans require minimal but consistent maintenance to operate efficiently. This typically involves cleaning the fan grille and housing every few months to prevent dust and lint buildup, which can obstruct airflow. Some models may require periodic cleaning of the fan blades if accessible. Regular cleaning ensures the fan can effectively remove moisture and odors. Neglecting maintenance can reduce performance and shorten the fan's lifespan, so integrate it into your regular cleaning routine.",
+        "@type": "Answer",
+        "description": "Maintenance for a bathroom ventilation fan typically involves cleaning the grille and housing every few months to ensure proper airflow and prevent dust buildup."
+      }
+    }
+  ],
+  "description": "Maintenance for a bathroom ventilation fan typically involves cleaning the grille and housing every few months to ensure proper airflow and prevent dust buildup"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does historic home renovation cost compared to a standard renovation?",
-  "description": "Historic renovations can cost more due to specialized materials and craftsmanship, but they often enhance property value and preserve heritage.",
   "url": "https://hometelligentinc.com/faq/how-much-does-historic-home-renovation-cost-compared-to-a-standard-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does historic home renovation cost compared to a standard renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Historic home renovations can often be more expensive than standard renovations due to the need for specialized materials, skilled craftsmanship to match existing historical elements, and compliance with preservation guidelines. Materials like custom millwork or specific roofing tiles to match the original can increase costs. The practical tradeoff is that while initial costs may be higher, a well-executed historic renovation often increases property value significantly and preserves unique architectural heritage. We provide detailed estimates that account for these specialized requirements.",
-        "description": "Historic renovations can cost more due to specialized materials and craftsmanship, but they often enhance property value and preserve heritage."
-      }
-    }
-  ],
+  "name": "How much does historic home renovation cost compared to a standard renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does historic home renovation cost compared to a standard renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Historic home renovations can often be more expensive than standard renovations due to the need for specialized materials, skilled craftsmanship to match existing historical elements, and compliance with preservation guidelines. Materials like custom millwork or specific roofing tiles to match the original can increase costs. The practical tradeoff is that while initial costs may be higher, a well-executed historic renovation often increases property value significantly and preserves unique architectural heritage. We provide detailed estimates that account for these specialized requirements.",
+        "@type": "Answer",
+        "description": "Historic renovations can cost more due to specialized materials and craftsmanship, but they often enhance property value and preserve heritage."
+      }
+    }
+  ],
+  "description": "Historic renovations can cost more due to specialized materials and craftsmanship, but they often enhance property value and preserve heritage."
 }

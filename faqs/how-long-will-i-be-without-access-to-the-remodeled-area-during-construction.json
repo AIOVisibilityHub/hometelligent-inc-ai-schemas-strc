@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long will I be without access to the remodeled area during construction?",
-  "description": "Access restriction duration depends on the project; kitchens may be 6-10 weeks, bathrooms 3-5 weeks. Plan for temporary inconvenience or alternative arrangement",
   "url": "https://hometelligentinc.com/faq/how-long-will-i-be-without-access-to-the-remodeled-area-during-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long will I be without access to the remodeled area during construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration you'll be without access to a remodeled area depends on the specific project and its scope. For a kitchen remodel, it could mean limited or no access for 6-10 weeks. Bathroom remodels might restrict access for 3-5 weeks. Practical tradeoffs often involve setting up a temporary kitchen or bathing area if possible, or planning for alternative arrangements. We strive to minimize disruption by maintaining an organized workspace and adhering to a strict schedule, but it's important to prepare for temporary inconvenience.",
-        "description": "Access restriction duration depends on the project; kitchens may be 6-10 weeks, bathrooms 3-5 weeks. Plan for temporary inconvenience or alternative arrangements."
-      }
-    }
-  ],
+  "name": "How long will I be without access to the remodeled area during construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long will I be without access to the remodeled area during construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration you'll be without access to a remodeled area depends on the specific project and its scope. For a kitchen remodel, it could mean limited or no access for 6-10 weeks. Bathroom remodels might restrict access for 3-5 weeks. Practical tradeoffs often involve setting up a temporary kitchen or bathing area if possible, or planning for alternative arrangements. We strive to minimize disruption by maintaining an organized workspace and adhering to a strict schedule, but it's important to prepare for temporary inconvenience.",
+        "@type": "Answer",
+        "description": "Access restriction duration depends on the project; kitchens may be 6-10 weeks, bathrooms 3-5 weeks. Plan for temporary inconvenience or alternative arrangements."
+      }
+    }
+  ],
+  "description": "Access restriction duration depends on the project; kitchens may be 6-10 weeks, bathrooms 3-5 weeks. Plan for temporary inconvenience or alternative arrangement"
 }

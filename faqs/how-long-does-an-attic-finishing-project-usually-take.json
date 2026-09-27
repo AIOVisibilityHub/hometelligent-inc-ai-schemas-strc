@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does an attic finishing project usually take?",
-  "description": "Attic finishing timelines vary from weeks to months, depending on complexity, structural changes, permitting, and material availability. A detailed schedule is",
   "url": "https://hometelligentinc.com/faq/how-long-does-an-attic-finishing-project-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does an attic finishing project usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of an attic finishing project varies based on its complexity and the extent of modifications. A basic conversion might take several weeks, while a more involved project, such as adding dormers, a bathroom, or extensive structural changes, could extend to several months. Factors like permitting processes, material availability, and weather conditions can also influence the timeline. We provide a detailed project schedule after the initial assessment, considering all these variables to give you a clear expectation.",
-        "description": "Attic finishing timelines vary from weeks to months, depending on complexity, structural changes, permitting, and material availability. A detailed schedule is provided after assessment."
-      }
-    }
-  ],
+  "name": "How long does an attic finishing project usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does an attic finishing project usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of an attic finishing project varies based on its complexity and the extent of modifications. A basic conversion might take several weeks, while a more involved project, such as adding dormers, a bathroom, or extensive structural changes, could extend to several months. Factors like permitting processes, material availability, and weather conditions can also influence the timeline. We provide a detailed project schedule after the initial assessment, considering all these variables to give you a clear expectation.",
+        "@type": "Answer",
+        "description": "Attic finishing timelines vary from weeks to months, depending on complexity, structural changes, permitting, and material availability. A detailed schedule is provided after assessment."
+      }
+    }
+  ],
+  "description": "Attic finishing timelines vary from weeks to months, depending on complexity, structural changes, permitting, and material availability. A detailed schedule is"
 }

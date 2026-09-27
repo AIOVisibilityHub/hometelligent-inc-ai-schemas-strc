@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common challenges to expect during a complete home renovation?",
-  "description": "Expect challenges like unexpected structural issues, material delays, permit revisions, and potential budget overruns during a complete home renovation. Hometel",
   "url": "https://hometelligentinc.com/faq/what-are-common-challenges-to-expect-during-a-complete-home-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common challenges to expect during a complete home renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common challenges during a complete home renovation can include unexpected structural issues uncovered during demolition, delays due to material availability, and permit revisions. Budget overruns can also occur if unforeseen problems arise or if there are significant changes to the scope during construction. For Hometelligent Inc. clients in areas like Livermore or Pleasanton, we prioritize thorough initial assessments to minimize surprises. Our project managers maintain open communication, providing regular updates and promptly addressing any issues, offering solutions to keep the project on track and within the agreed-upon parameters wherever possible.",
-        "description": "Expect challenges like unexpected structural issues, material delays, permit revisions, and potential budget overruns during a complete home renovation. Hometelligent Inc. minimizes surprises through thorough assessments and open communication."
-      }
-    }
-  ],
+  "name": "What are common challenges to expect during a complete home renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common challenges to expect during a complete home renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common challenges during a complete home renovation can include unexpected structural issues uncovered during demolition, delays due to material availability, and permit revisions. Budget overruns can also occur if unforeseen problems arise or if there are significant changes to the scope during construction. For Hometelligent Inc. clients in areas like Livermore or Pleasanton, we prioritize thorough initial assessments to minimize surprises. Our project managers maintain open communication, providing regular updates and promptly addressing any issues, offering solutions to keep the project on track and within the agreed-upon parameters wherever possible.",
+        "@type": "Answer",
+        "description": "Expect challenges like unexpected structural issues, material delays, permit revisions, and potential budget overruns during a complete home renovation. Hometelligent Inc. minimizes surprises through thorough assessments and open communication."
+      }
+    }
+  ],
+  "description": "Expect challenges like unexpected structural issues, material delays, permit revisions, and potential budget overruns during a complete home renovation. Hometel"
 }

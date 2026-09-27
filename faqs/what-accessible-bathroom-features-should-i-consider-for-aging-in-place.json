@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What accessible bathroom features should I consider for aging in place?",
-  "description": "Consider grab bars, curbless showers, comfort-height toilets, and non-slip flooring for aging in place. Plan for future needs like wheelchair accessibility to m",
   "url": "https://hometelligentinc.com/faq/what-accessible-bathroom-features-should-i-consider-for-aging-in-place",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What accessible bathroom features should I consider for aging in place?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For aging in place, key accessible bathroom features include grab bars near the toilet and in the shower, a curbless or roll-in shower, a shower bench, and a comfort-height toilet. Proper lighting, non-slip flooring, and lever-style faucet handles are also beneficial. When planning, consider future needs, such as potential wheelchair use, which might impact doorway widths and turning radius requirements. This foresight helps avoid more extensive renovations later.",
-        "description": "Consider grab bars, curbless showers, comfort-height toilets, and non-slip flooring for aging in place. Plan for future needs like wheelchair accessibility to minimize later renovations."
-      }
-    }
-  ],
+  "name": "What accessible bathroom features should I consider for aging in place?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What accessible bathroom features should I consider for aging in place?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For aging in place, key accessible bathroom features include grab bars near the toilet and in the shower, a curbless or roll-in shower, a shower bench, and a comfort-height toilet. Proper lighting, non-slip flooring, and lever-style faucet handles are also beneficial. When planning, consider future needs, such as potential wheelchair use, which might impact doorway widths and turning radius requirements. This foresight helps avoid more extensive renovations later.",
+        "@type": "Answer",
+        "description": "Consider grab bars, curbless showers, comfort-height toilets, and non-slip flooring for aging in place. Plan for future needs like wheelchair accessibility to minimize later renovations."
+      }
+    }
+  ],
+  "description": "Consider grab bars, curbless showers, comfort-height toilets, and non-slip flooring for aging in place. Plan for future needs like wheelchair accessibility to m"
 }

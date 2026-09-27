@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical budget range for a complete home renovation in the East Bay area?",
-  "description": "Budget ranges for complete home renovations in the East Bay vary greatly based on home size, structural changes, material quality, and system upgrades. Early en",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-budget-range-for-a-complete-home-renovation-in-the-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical budget range for a complete home renovation in the East Bay area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a complete home renovation in the East Bay area, including cities like Oakland and Berkeley, can vary widely. Factors such as the size of your home, the extent of structural changes, the quality of materials selected, and the need for significant system upgrades (plumbing, electrical) all influence the final price. While specific figures depend on individual project details, engaging a contractor like Hometelligent Inc. early in your planning allows for a detailed cost breakdown based on your aspirations and the current market rates for labor and materials in your specific Alameda County or Contra Costa County location.",
-        "description": "Budget ranges for complete home renovations in the East Bay vary greatly based on home size, structural changes, material quality, and system upgrades. Early engagement with a contractor helps establish a detailed cost breakdown."
-      }
-    }
-  ],
+  "name": "What is the typical budget range for a complete home renovation in the East Bay area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical budget range for a complete home renovation in the East Bay area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a complete home renovation in the East Bay area, including cities like Oakland and Berkeley, can vary widely. Factors such as the size of your home, the extent of structural changes, the quality of materials selected, and the need for significant system upgrades (plumbing, electrical) all influence the final price. While specific figures depend on individual project details, engaging a contractor like Hometelligent Inc. early in your planning allows for a detailed cost breakdown based on your aspirations and the current market rates for labor and materials in your specific Alameda County or Contra Costa County location.",
+        "@type": "Answer",
+        "description": "Budget ranges for complete home renovations in the East Bay vary greatly based on home size, structural changes, material quality, and system upgrades. Early engagement with a contractor helps establish a detailed cost breakdown."
+      }
+    }
+  ],
+  "description": "Budget ranges for complete home renovations in the East Bay vary greatly based on home size, structural changes, material quality, and system upgrades. Early en"
 }

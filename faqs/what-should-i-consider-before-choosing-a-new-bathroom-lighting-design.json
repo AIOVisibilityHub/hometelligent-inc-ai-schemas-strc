@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before choosing a new bathroom lighting design?",
-  "description": "Before choosing a design, consider functional needs like task and ambient lighting, color temperature, and dimming. Identify poorly lit areas to guide fixture p",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-choosing-a-new-bathroom-lighting-design",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before choosing a new bathroom lighting design?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before choosing a new bathroom lighting design, consider the primary functions of the space, such as task lighting for grooming, ambient lighting for general illumination, and accent lighting for aesthetics. Also, think about the color temperature (warm vs. cool light) and dimming capabilities to create different moods. As part of your preparation, identify areas that currently lack adequate light and envision where you spend the most time, as this will influence fixture placement and type.",
-        "description": "Before choosing a design, consider functional needs like task and ambient lighting, color temperature, and dimming. Identify poorly lit areas to guide fixture placement and type."
-      }
-    }
-  ],
+  "name": "What should I consider before choosing a new bathroom lighting design?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before choosing a new bathroom lighting design?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before choosing a new bathroom lighting design, consider the primary functions of the space, such as task lighting for grooming, ambient lighting for general illumination, and accent lighting for aesthetics. Also, think about the color temperature (warm vs. cool light) and dimming capabilities to create different moods. As part of your preparation, identify areas that currently lack adequate light and envision where you spend the most time, as this will influence fixture placement and type.",
+        "@type": "Answer",
+        "description": "Before choosing a design, consider functional needs like task and ambient lighting, color temperature, and dimming. Identify poorly lit areas to guide fixture placement and type."
+      }
+    }
+  ],
+  "description": "Before choosing a design, consider functional needs like task and ambient lighting, color temperature, and dimming. Identify poorly lit areas to guide fixture p"
 }

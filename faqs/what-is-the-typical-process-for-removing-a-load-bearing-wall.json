@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for removing a load-bearing wall?",
-  "description": "The typical process includes assessment, permits, temporary support, wall removal, permanent beam installation, finishing, and inspections. Hometelligent Inc. h",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-removing-a-load-bearing-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for removing a load-bearing wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for removing a load-bearing wall involves several steps: initial structural assessment by an engineer, obtaining necessary permits, designing and installing temporary supports, removing the wall, installing permanent structural reinforcement (like a new beam), patching and finishing the area, and final inspections. Hometelligent Inc. manages this entire sequence, ensuring compliance with local building codes in areas like Alameda and Berkeley.",
-        "description": "The typical process includes assessment, permits, temporary support, wall removal, permanent beam installation, finishing, and inspections. Hometelligent Inc. handles this."
-      }
-    }
-  ],
+  "name": "What is the typical process for removing a load-bearing wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for removing a load-bearing wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for removing a load-bearing wall involves several steps: initial structural assessment by an engineer, obtaining necessary permits, designing and installing temporary supports, removing the wall, installing permanent structural reinforcement (like a new beam), patching and finishing the area, and final inspections. Hometelligent Inc. manages this entire sequence, ensuring compliance with local building codes in areas like Alameda and Berkeley.",
+        "@type": "Answer",
+        "description": "The typical process includes assessment, permits, temporary support, wall removal, permanent beam installation, finishing, and inspections. Hometelligent Inc. handles this."
+      }
+    }
+  ],
+  "description": "The typical process includes assessment, permits, temporary support, wall removal, permanent beam installation, finishing, and inspections. Hometelligent Inc. h"
 }

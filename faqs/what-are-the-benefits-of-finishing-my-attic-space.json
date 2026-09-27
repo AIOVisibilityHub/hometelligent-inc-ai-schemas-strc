@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of finishing my attic space?",
-  "description": "Finishing an attic increases usable living space, adds property value, and can improve home energy efficiency. It's a cost-effective way to expand without a gro",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-finishing-my-attic-space",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of finishing my attic space?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Finishing your attic can significantly increase your home's usable living area, providing space for an extra bedroom, home office, play area, or rental unit. This expansion can enhance your home's functionality without requiring a costly ground-level addition. A finished attic also typically adds value to your property, making it a sound investment. Furthermore, improved insulation and proper ventilation during the finishing process can contribute to better energy efficiency for your entire home.",
-        "description": "Finishing an attic increases usable living space, adds property value, and can improve home energy efficiency. It's a cost-effective way to expand without a ground-level addition."
-      }
-    }
-  ],
+  "name": "What are the benefits of finishing my attic space?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of finishing my attic space?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Finishing your attic can significantly increase your home's usable living area, providing space for an extra bedroom, home office, play area, or rental unit. This expansion can enhance your home's functionality without requiring a costly ground-level addition. A finished attic also typically adds value to your property, making it a sound investment. Furthermore, improved insulation and proper ventilation during the finishing process can contribute to better energy efficiency for your entire home.",
+        "@type": "Answer",
+        "description": "Finishing an attic increases usable living space, adds property value, and can improve home energy efficiency. It's a cost-effective way to expand without a ground-level addition."
+      }
+    }
+  ],
+  "description": "Finishing an attic increases usable living space, adds property value, and can improve home energy efficiency. It's a cost-effective way to expand without a gro"
 }

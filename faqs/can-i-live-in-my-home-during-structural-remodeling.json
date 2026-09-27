@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I live in my home during structural remodeling?",
-  "description": "Living in your home during structural remodeling depends on the project's extent. Major disruptions to essential services or living areas may require temporary",
   "url": "https://hometelligentinc.com/faq/can-i-live-in-my-home-during-structural-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I live in my home during structural remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you can live in your home during structural remodeling depends on the extent and location of the work. For minor projects that don't disrupt essential services or primary living areas, it might be possible to remain. However, extensive structural changes, especially those affecting kitchens, bathrooms, or requiring significant dust and noise, often necessitate temporary relocation for safety and comfort. This is a practical tradeoff to consider, balancing inconvenience against the cost of temporary housing. We can help assess this during the initial consultation.",
-        "description": "Living in your home during structural remodeling depends on the project's extent. Major disruptions to essential services or living areas may require temporary relocation."
-      }
-    }
-  ],
+  "name": "Can I live in my home during structural remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I live in my home during structural remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you can live in your home during structural remodeling depends on the extent and location of the work. For minor projects that don't disrupt essential services or primary living areas, it might be possible to remain. However, extensive structural changes, especially those affecting kitchens, bathrooms, or requiring significant dust and noise, often necessitate temporary relocation for safety and comfort. This is a practical tradeoff to consider, balancing inconvenience against the cost of temporary housing. We can help assess this during the initial consultation.",
+        "@type": "Answer",
+        "description": "Living in your home during structural remodeling depends on the project's extent. Major disruptions to essential services or living areas may require temporary relocation."
+      }
+    }
+  ],
+  "description": "Living in your home during structural remodeling depends on the project's extent. Major disruptions to essential services or living areas may require temporary"
 }

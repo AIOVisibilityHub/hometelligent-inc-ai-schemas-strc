@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for a luxury bathroom remodel in Alameda?",
-  "description": "In Alameda, permits are needed for structural changes, significant plumbing/electrical work, or extensive reconfigurations in a luxury bathroom remodel.",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-luxury-bathroom-remodel-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for a luxury bathroom remodel in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a luxury bathroom remodel in Alameda, permits are typically required for any structural changes, significant plumbing or electrical work, and sometimes for extensive reconfigurations of the space. The specific permits depend on the scope of the project and local city regulations. It is crucial to obtain all necessary permits before starting work to avoid potential fines or project delays. Hometelligent Inc. manages the permitting process for our clients, ensuring all aspects of your luxury remodel comply with Alameda's building codes and requirements.",
-        "description": "In Alameda, permits are needed for structural changes, significant plumbing/electrical work, or extensive reconfigurations in a luxury bathroom remodel."
-      }
-    }
-  ],
+  "name": "What permits are required for a luxury bathroom remodel in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for a luxury bathroom remodel in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For a luxury bathroom remodel in Alameda, permits are typically required for any structural changes, significant plumbing or electrical work, and sometimes for extensive reconfigurations of the space. The specific permits depend on the scope of the project and local city regulations. It is crucial to obtain all necessary permits before starting work to avoid potential fines or project delays. Hometelligent Inc. manages the permitting process for our clients, ensuring all aspects of your luxury remodel comply with Alameda's building codes and requirements.",
+        "@type": "Answer",
+        "description": "In Alameda, permits are needed for structural changes, significant plumbing/electrical work, or extensive reconfigurations in a luxury bathroom remodel."
+      }
+    }
+  ],
+  "description": "In Alameda, permits are needed for structural changes, significant plumbing/electrical work, or extensive reconfigurations in a luxury bathroom remodel."
 }

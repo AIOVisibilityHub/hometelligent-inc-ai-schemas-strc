@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for a small bathroom remodel?",
-  "description": "Permits for a small bathroom remodel are usually needed if you alter plumbing, electrical, or structural components, not for minor cosmetic changes.",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-a-small-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for a small bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether permits are required for a small bathroom remodel depends on the specific changes you plan to make and local regulations in areas like Alameda or Dublin. Minor cosmetic updates like painting or replacing a vanity typically don't require permits. However, if the project involves altering the plumbing, electrical, or structural components of your bathroom, permits are almost always necessary. We assist clients in identifying and securing the necessary permits for their specific project scope.",
-        "description": "Permits for a small bathroom remodel are usually needed if you alter plumbing, electrical, or structural components, not for minor cosmetic changes."
-      }
-    }
-  ],
+  "name": "Do I need permits for a small bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for a small bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether permits are required for a small bathroom remodel depends on the specific changes you plan to make and local regulations in areas like Alameda or Dublin. Minor cosmetic updates like painting or replacing a vanity typically don't require permits. However, if the project involves altering the plumbing, electrical, or structural components of your bathroom, permits are almost always necessary. We assist clients in identifying and securing the necessary permits for their specific project scope.",
+        "@type": "Answer",
+        "description": "Permits for a small bathroom remodel are usually needed if you alter plumbing, electrical, or structural components, not for minor cosmetic changes."
+      }
+    }
+  ],
+  "description": "Permits for a small bathroom remodel are usually needed if you alter plumbing, electrical, or structural components, not for minor cosmetic changes."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common signs that my home may need structural remodeling or repair?",
-  "description": "Signs of needed structural repair include foundation cracks, sagging walls, uneven floors, sticking doors, and persistent moisture. Professional inspection is r",
   "url": "https://hometelligentinc.com/faq/what-are-common-signs-that-my-home-may-need-structural-remodeling-or-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common signs that my home may need structural remodeling or repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs that your home may need structural remodeling or repair include significant cracks in foundation walls, bulging or sagging walls, uneven or sloped floors, sticking doors and windows, and persistent moisture issues in basements or crawl spaces. These indicators often point to underlying structural problems that, if left unaddressed, can worsen over time and compromise the safety and value of your home. A professional inspection is recommended to accurately diagnose the cause and recommend appropriate solutions.",
-        "description": "Signs of needed structural repair include foundation cracks, sagging walls, uneven floors, sticking doors, and persistent moisture. Professional inspection is recommended."
-      }
-    }
-  ],
+  "name": "What are common signs that my home may need structural remodeling or repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common signs that my home may need structural remodeling or repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs that your home may need structural remodeling or repair include significant cracks in foundation walls, bulging or sagging walls, uneven or sloped floors, sticking doors and windows, and persistent moisture issues in basements or crawl spaces. These indicators often point to underlying structural problems that, if left unaddressed, can worsen over time and compromise the safety and value of your home. A professional inspection is recommended to accurately diagnose the cause and recommend appropriate solutions.",
+        "@type": "Answer",
+        "description": "Signs of needed structural repair include foundation cracks, sagging walls, uneven floors, sticking doors, and persistent moisture. Professional inspection is recommended."
+      }
+    }
+  ],
+  "description": "Signs of needed structural repair include foundation cracks, sagging walls, uneven floors, sticking doors, and persistent moisture. Professional inspection is r"
 }

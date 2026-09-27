@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for a complete home renovation in Alameda County?",
-  "description": "Complete home renovations in Alameda County require various permits like building, electrical, plumbing, and mechanical, depending on the scope. Hometelligent I",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-a-complete-home-renovation-in-alameda-county",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for a complete home renovation in Alameda County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a complete home renovation in Alameda County, various permits are typically required from your local city planning and building departments. This can include general building permits, electrical permits, plumbing permits, and mechanical permits, especially if the renovation involves structural changes, additions, or significant alterations to existing systems. Jurisdictions like Alameda, Oakland, or Fremont have specific requirements. Hometelligent Inc. assists clients with navigating the permitting process, ensuring all necessary approvals are obtained before construction begins, which is crucial for compliance and avoiding delays.",
-        "description": "Complete home renovations in Alameda County require various permits like building, electrical, plumbing, and mechanical, depending on the scope. Hometelligent Inc. assists with obtaining necessary approvals from local city departments."
-      }
-    }
-  ],
+  "name": "What permits are required for a complete home renovation in Alameda County?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for a complete home renovation in Alameda County?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For a complete home renovation in Alameda County, various permits are typically required from your local city planning and building departments. This can include general building permits, electrical permits, plumbing permits, and mechanical permits, especially if the renovation involves structural changes, additions, or significant alterations to existing systems. Jurisdictions like Alameda, Oakland, or Fremont have specific requirements. Hometelligent Inc. assists clients with navigating the permitting process, ensuring all necessary approvals are obtained before construction begins, which is crucial for compliance and avoiding delays.",
+        "@type": "Answer",
+        "description": "Complete home renovations in Alameda County require various permits like building, electrical, plumbing, and mechanical, depending on the scope. Hometelligent Inc. assists with obtaining necessary approvals from local city departments."
+      }
+    }
+  ],
+  "description": "Complete home renovations in Alameda County require various permits like building, electrical, plumbing, and mechanical, depending on the scope. Hometelligent I"
 }

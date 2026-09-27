@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What permits are required for basement finishing in Berkeley?",
-  "description": "Basement finishing in Berkeley requires building, electrical, plumbing, and mechanical permits. Hometelligent manages all permit applications for compliance wit",
   "url": "https://hometelligentinc.com/faq/what-permits-are-required-for-basement-finishing-in-berkeley",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What permits are required for basement finishing in Berkeley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Basement finishing projects in Berkeley typically require permits for building, electrical, plumbing, and mechanical work to ensure compliance with local safety and zoning codes. The specific permits needed depend on the scope of your project. Hometelligent handles all necessary permit applications and ensures all work adheres to Berkeley's regulations, streamlining the process for our clients.",
-        "description": "Basement finishing in Berkeley requires building, electrical, plumbing, and mechanical permits. Hometelligent manages all permit applications for compliance with local codes."
-      }
-    }
-  ],
+  "name": "What permits are required for basement finishing in Berkeley?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What permits are required for basement finishing in Berkeley?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Basement finishing projects in Berkeley typically require permits for building, electrical, plumbing, and mechanical work to ensure compliance with local safety and zoning codes. The specific permits needed depend on the scope of your project. Hometelligent handles all necessary permit applications and ensures all work adheres to Berkeley's regulations, streamlining the process for our clients.",
+        "@type": "Answer",
+        "description": "Basement finishing in Berkeley requires building, electrical, plumbing, and mechanical permits. Hometelligent manages all permit applications for compliance with local codes."
+      }
+    }
+  ],
+  "description": "Basement finishing in Berkeley requires building, electrical, plumbing, and mechanical permits. Hometelligent manages all permit applications for compliance wit"
 }

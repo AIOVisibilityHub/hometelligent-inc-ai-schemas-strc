@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for a living room remodel?",
-  "description": "Living room remodel costs vary based on scope, materials, and complexity. Minor updates are less expensive than complete renovations with structural changes.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-a-living-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for a living room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a living room remodel varies significantly based on the scope of work, materials selected, and the complexity of the design. Minor updates like painting and new flooring will be less expensive than a complete renovation involving structural changes, custom cabinetry, or fireplace relocation. Hometelligent Inc. provides detailed estimates after an initial consultation to ensure all your specific needs and budget considerations are addressed.",
-        "description": "Living room remodel costs vary based on scope, materials, and complexity. Minor updates are less expensive than complete renovations with structural changes."
-      }
-    }
-  ],
+  "name": "What is the typical cost for a living room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for a living room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a living room remodel varies significantly based on the scope of work, materials selected, and the complexity of the design. Minor updates like painting and new flooring will be less expensive than a complete renovation involving structural changes, custom cabinetry, or fireplace relocation. Hometelligent Inc. provides detailed estimates after an initial consultation to ensure all your specific needs and budget considerations are addressed.",
+        "@type": "Answer",
+        "description": "Living room remodel costs vary based on scope, materials, and complexity. Minor updates are less expensive than complete renovations with structural changes."
+      }
+    }
+  ],
+  "description": "Living room remodel costs vary based on scope, materials, and complexity. Minor updates are less expensive than complete renovations with structural changes."
 }

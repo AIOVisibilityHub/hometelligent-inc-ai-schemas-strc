@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for my living room remodel?",
-  "description": "Evaluate experience, portfolio, and references. Gather at least three detailed bids, comparing scope, materials, and timelines. Hometelligent Inc. offers transp",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-living-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for my living room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right contractor involves evaluating their experience, portfolio, references, and licensing. Look for a contractor with a strong track record in residential remodels and clear communication. A crucial preparation step is to gather at least three detailed bids from different contractors, comparing not just price but also the scope of work included, materials specified, and proposed timelines. Hometelligent Inc. provides transparent proposals and is fully licensed and insured, serving the Alameda, Albany, Berkeley, Dublin, and Emeryville areas.",
-        "description": "Evaluate experience, portfolio, and references. Gather at least three detailed bids, comparing scope, materials, and timelines. Hometelligent Inc. offers transparent proposals and is licensed."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for my living room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for my living room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right contractor involves evaluating their experience, portfolio, references, and licensing. Look for a contractor with a strong track record in residential remodels and clear communication. A crucial preparation step is to gather at least three detailed bids from different contractors, comparing not just price but also the scope of work included, materials specified, and proposed timelines. Hometelligent Inc. provides transparent proposals and is fully licensed and insured, serving the Alameda, Albany, Berkeley, Dublin, and Emeryville areas.",
+        "@type": "Answer",
+        "description": "Evaluate experience, portfolio, and references. Gather at least three detailed bids, comparing scope, materials, and timelines. Hometelligent Inc. offers transparent proposals and is licensed."
+      }
+    }
+  ],
+  "description": "Evaluate experience, portfolio, and references. Gather at least three detailed bids, comparing scope, materials, and timelines. Hometelligent Inc. offers transp"
 }

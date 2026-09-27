@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Are there specific regulations for bathroom ventilation installation in Berkeley, California?",
-  "description": "Yes, bathroom ventilation in Berkeley, California, must comply with local building codes, including California Building Standards Code (Title 24), specifying mi",
   "url": "https://hometelligentinc.com/faq/are-there-specific-regulations-for-bathroom-ventilation-installation-in-berkeley",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are there specific regulations for bathroom ventilation installation in Berkeley, California?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, building codes, including those related to ventilation, are enforced at the local level. In Berkeley, as in other municipalities, bathroom ventilation installations must comply with the California Building Standards Code (Title 24), which includes requirements for mechanical ventilation. This typically specifies minimum airflow rates (CFM) based on bathroom size and ensuring proper venting to the exterior. Hometelligent Inc. is familiar with local Berkeley building codes and ensures all installations meet current standards for safety and performance.",
-        "description": "Yes, bathroom ventilation in Berkeley, California, must comply with local building codes, including California Building Standards Code (Title 24), specifying minimum airflow rates and proper exterior venting."
-      }
-    }
-  ],
+  "name": "Are there specific regulations for bathroom ventilation installation in Berkeley, California?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Are there specific regulations for bathroom ventilation installation in Berkeley, California?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, building codes, including those related to ventilation, are enforced at the local level. In Berkeley, as in other municipalities, bathroom ventilation installations must comply with the California Building Standards Code (Title 24), which includes requirements for mechanical ventilation. This typically specifies minimum airflow rates (CFM) based on bathroom size and ensuring proper venting to the exterior. Hometelligent Inc. is familiar with local Berkeley building codes and ensures all installations meet current standards for safety and performance.",
+        "@type": "Answer",
+        "description": "Yes, bathroom ventilation in Berkeley, California, must comply with local building codes, including California Building Standards Code (Title 24), specifying minimum airflow rates and proper exterior venting."
+      }
+    }
+  ],
+  "description": "Yes, bathroom ventilation in Berkeley, California, must comply with local building codes, including California Building Standards Code (Title 24), specifying mi"
 }

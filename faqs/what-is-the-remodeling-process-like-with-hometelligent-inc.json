@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the remodeling process like with Hometelligent Inc.?",
-  "description": "Our process starts with consultation and design, moves to permitting and construction with regular check-ins, and finishes with a final walkthrough to ensure sa",
   "url": "https://hometelligentinc.com/faq/what-is-the-remodeling-process-like-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the remodeling process like with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our remodeling process begins with an initial consultation to understand your vision, needs, and budget. This is followed by detailed design and planning, where we help select materials and finalize layouts. Once designs are approved and permits obtained, our skilled team begins construction, maintaining clear communication throughout. A key process clarity step is our regular check-ins, ensuring the project aligns with your expectations. We conclude with a final walkthrough to ensure your complete satisfaction with the finished remodel in your Alameda, Albany, or Berkeley home.",
-        "description": "Our process starts with consultation and design, moves to permitting and construction with regular check-ins, and finishes with a final walkthrough to ensure satisfaction."
-      }
-    }
-  ],
+  "name": "What is the remodeling process like with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the remodeling process like with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our remodeling process begins with an initial consultation to understand your vision, needs, and budget. This is followed by detailed design and planning, where we help select materials and finalize layouts. Once designs are approved and permits obtained, our skilled team begins construction, maintaining clear communication throughout. A key process clarity step is our regular check-ins, ensuring the project aligns with your expectations. We conclude with a final walkthrough to ensure your complete satisfaction with the finished remodel in your Alameda, Albany, or Berkeley home.",
+        "@type": "Answer",
+        "description": "Our process starts with consultation and design, moves to permitting and construction with regular check-ins, and finishes with a final walkthrough to ensure satisfaction."
+      }
+    }
+  ],
+  "description": "Our process starts with consultation and design, moves to permitting and construction with regular check-ins, and finishes with a final walkthrough to ensure sa"
 }

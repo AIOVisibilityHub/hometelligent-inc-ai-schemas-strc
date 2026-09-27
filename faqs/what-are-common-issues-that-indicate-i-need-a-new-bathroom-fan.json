@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are common issues that indicate I need a new bathroom fan?",
-  "description": "Common issues indicating a need for a new bathroom fan include persistent moisture, mold, peeling paint, musty odors, or a noisy/non-functional fan.",
   "url": "https://hometelligentinc.com/faq/what-are-common-issues-that-indicate-i-need-a-new-bathroom-fan",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are common issues that indicate I need a new bathroom fan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Signs you may need a new bathroom fan include persistent moisture on walls or mirrors after a shower, the presence of mold or mildew, peeling paint, or a musty odor. If your current fan is excessively noisy, not moving air effectively, or has stopped working entirely, it's also time for a replacement. These issues indicate inadequate ventilation, which can lead to long-term damage to your bathroom and affect indoor air quality. We can diagnose your current system's performance.",
-        "description": "Common issues indicating a need for a new bathroom fan include persistent moisture, mold, peeling paint, musty odors, or a noisy/non-functional fan."
-      }
-    }
-  ],
+  "name": "What are common issues that indicate I need a new bathroom fan?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are common issues that indicate I need a new bathroom fan?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Signs you may need a new bathroom fan include persistent moisture on walls or mirrors after a shower, the presence of mold or mildew, peeling paint, or a musty odor. If your current fan is excessively noisy, not moving air effectively, or has stopped working entirely, it's also time for a replacement. These issues indicate inadequate ventilation, which can lead to long-term damage to your bathroom and affect indoor air quality. We can diagnose your current system's performance.",
+        "@type": "Answer",
+        "description": "Common issues indicating a need for a new bathroom fan include persistent moisture, mold, peeling paint, musty odors, or a noisy/non-functional fan."
+      }
+    }
+  ],
+  "description": "Common issues indicating a need for a new bathroom fan include persistent moisture, mold, peeling paint, musty odors, or a noisy/non-functional fan."
 }

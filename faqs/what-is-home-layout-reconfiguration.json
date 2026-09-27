@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is home layout reconfiguration?",
-  "description": "Home layout reconfiguration modifies your home's floor plan to improve functionality and aesthetic, from minor wall removals to major structural changes.",
   "url": "https://hometelligentinc.com/faq/what-is-home-layout-reconfiguration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is home layout reconfiguration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Home layout reconfiguration involves changing the floor plan of your existing home to better suit your needs. This can range from minor adjustments, like removing a non-load-bearing wall to create an open-concept living space, to more extensive structural changes such as relocating kitchens or bathrooms. The process typically begins with a consultation to assess your current layout and discuss your vision, followed by design, permitting, and construction phases. Understanding the structural implications and local building codes, especially in areas like Alameda, is crucial for a smooth project.",
-        "description": "Home layout reconfiguration modifies your home's floor plan to improve functionality and aesthetic, from minor wall removals to major structural changes."
-      }
-    }
-  ],
+  "name": "What is home layout reconfiguration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is home layout reconfiguration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Home layout reconfiguration involves changing the floor plan of your existing home to better suit your needs. This can range from minor adjustments, like removing a non-load-bearing wall to create an open-concept living space, to more extensive structural changes such as relocating kitchens or bathrooms. The process typically begins with a consultation to assess your current layout and discuss your vision, followed by design, permitting, and construction phases. Understanding the structural implications and local building codes, especially in areas like Alameda, is crucial for a smooth project.",
+        "@type": "Answer",
+        "description": "Home layout reconfiguration modifies your home's floor plan to improve functionality and aesthetic, from minor wall removals to major structural changes."
+      }
+    }
+  ],
+  "description": "Home layout reconfiguration modifies your home's floor plan to improve functionality and aesthetic, from minor wall removals to major structural changes."
 }

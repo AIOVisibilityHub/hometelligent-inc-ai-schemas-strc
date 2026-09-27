@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important for a functional family room?",
-  "description": "Design for function, considering use, layout, lighting, storage, and material durability, balancing aesthetics with practicality for high-traffic areas.",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-for-a-functional-family-room",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important for a functional family room?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When designing a functional family room, consider how the space will be used most often. Will it be primarily for entertainment, relaxation, or a combination? Key considerations include furniture layout, lighting (natural and artificial), storage solutions, and material durability. A practical tradeoff might involve balancing aesthetic appeal with the robustness of materials, especially in high-traffic areas or homes with children and pets. Choosing resilient flooring or stain-resistant fabrics can extend the life and maintain the appearance of your remodeled space.",
-        "description": "Design for function, considering use, layout, lighting, storage, and material durability, balancing aesthetics with practicality for high-traffic areas."
-      }
-    }
-  ],
+  "name": "What design considerations are important for a functional family room?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important for a functional family room?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When designing a functional family room, consider how the space will be used most often. Will it be primarily for entertainment, relaxation, or a combination? Key considerations include furniture layout, lighting (natural and artificial), storage solutions, and material durability. A practical tradeoff might involve balancing aesthetic appeal with the robustness of materials, especially in high-traffic areas or homes with children and pets. Choosing resilient flooring or stain-resistant fabrics can extend the life and maintain the appearance of your remodeled space.",
+        "@type": "Answer",
+        "description": "Design for function, considering use, layout, lighting, storage, and material durability, balancing aesthetics with practicality for high-traffic areas."
+      }
+    }
+  ],
+  "description": "Design for function, considering use, layout, lighting, storage, and material durability, balancing aesthetics with practicality for high-traffic areas."
 }

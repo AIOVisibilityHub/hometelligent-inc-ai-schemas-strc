@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of flooring options are best for a high-traffic family room?",
-  "description": "Best flooring options for high-traffic family rooms include LVP, engineered hardwood, and tile, chosen based on durability, maintenance, and household lifestyle",
   "url": "https://hometelligentinc.com/faq/what-kind-of-flooring-options-are-best-for-a-high-traffic-family-room",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of flooring options are best for a high-traffic family room?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For high-traffic family rooms, durable and easy-to-maintain flooring options are essential. Popular choices include luxury vinyl plank (LVP), engineered hardwood, tile, and certain types of laminate. Each offers different benefits regarding scratch resistance, water resistance, and comfort. A decision factor when choosing is considering your household's lifestyle; for instance, LVP or tile are excellent for homes with pets or young children due to their resilience and ease of cleaning, while engineered hardwood provides warmth and classic appeal.",
-        "description": "Best flooring options for high-traffic family rooms include LVP, engineered hardwood, and tile, chosen based on durability, maintenance, and household lifestyle."
-      }
-    }
-  ],
+  "name": "What kind of flooring options are best for a high-traffic family room?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of flooring options are best for a high-traffic family room?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For high-traffic family rooms, durable and easy-to-maintain flooring options are essential. Popular choices include luxury vinyl plank (LVP), engineered hardwood, tile, and certain types of laminate. Each offers different benefits regarding scratch resistance, water resistance, and comfort. A decision factor when choosing is considering your household's lifestyle; for instance, LVP or tile are excellent for homes with pets or young children due to their resilience and ease of cleaning, while engineered hardwood provides warmth and classic appeal.",
+        "@type": "Answer",
+        "description": "Best flooring options for high-traffic family rooms include LVP, engineered hardwood, and tile, chosen based on durability, maintenance, and household lifestyle."
+      }
+    }
+  ],
+  "description": "Best flooring options for high-traffic family rooms include LVP, engineered hardwood, and tile, chosen based on durability, maintenance, and household lifestyle"
 }

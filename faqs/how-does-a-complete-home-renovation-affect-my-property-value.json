@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does a complete home renovation affect my property value?",
-  "description": "A complete home renovation can increase property value by modernizing aesthetics, improving functionality, and upgrading systems. Quality materials and alignmen",
   "url": "https://hometelligentinc.com/faq/how-does-a-complete-home-renovation-affect-my-property-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does a complete home renovation affect my property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A complete home renovation can significantly enhance your property value by modernizing aesthetics, improving functionality, and upgrading critical systems. Renovations that focus on kitchens, bathrooms, and increasing usable living space often yield the highest return on investment. The impact on value is also influenced by the quality of materials, the craftsmanship, and how well the renovation aligns with current market trends in your specific area, such as Oakland Hills or Piedmont. Hometelligent Inc. focuses on high-quality, durable solutions that are designed to appeal to future buyers while meeting your current needs, maximizing your investment.",
-        "description": "A complete home renovation can increase property value by modernizing aesthetics, improving functionality, and upgrading systems. Quality materials and alignment with market trends, especially in specific areas, maximize return on investment."
-      }
-    }
-  ],
+  "name": "How does a complete home renovation affect my property value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does a complete home renovation affect my property value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A complete home renovation can significantly enhance your property value by modernizing aesthetics, improving functionality, and upgrading critical systems. Renovations that focus on kitchens, bathrooms, and increasing usable living space often yield the highest return on investment. The impact on value is also influenced by the quality of materials, the craftsmanship, and how well the renovation aligns with current market trends in your specific area, such as Oakland Hills or Piedmont. Hometelligent Inc. focuses on high-quality, durable solutions that are designed to appeal to future buyers while meeting your current needs, maximizing your investment.",
+        "@type": "Answer",
+        "description": "A complete home renovation can increase property value by modernizing aesthetics, improving functionality, and upgrading systems. Quality materials and alignment with market trends, especially in specific areas, maximize return on investment."
+      }
+    }
+  ],
+  "description": "A complete home renovation can increase property value by modernizing aesthetics, improving functionality, and upgrading systems. Quality materials and alignmen"
 }

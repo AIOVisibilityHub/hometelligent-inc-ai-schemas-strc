@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the potential risks of removing a load-bearing wall improperly?",
-  "description": "Improper removal risks severe structural damage, including sagging floors, cracks, foundation issues, and collapse. Hometelligent Inc. ensures safe, engineered",
   "url": "https://hometelligentinc.com/faq/what-are-the-potential-risks-of-removing-a-load-bearing-wall-improperly",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the potential risks of removing a load-bearing wall improperly?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Improper removal of a load-bearing wall can lead to severe structural issues, including sagging floors, cracked ceilings and walls, foundation damage, and in worst-case scenarios, partial or complete structural collapse. It can also compromise the safety of your home and drastically reduce its value. Hometelligent Inc. prioritizes structural integrity and safety by ensuring all work is engineered and executed to the highest standards.",
-        "description": "Improper removal risks severe structural damage, including sagging floors, cracks, foundation issues, and collapse. Hometelligent Inc. ensures safe, engineered work."
-      }
-    }
-  ],
+  "name": "What are the potential risks of removing a load-bearing wall improperly?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the potential risks of removing a load-bearing wall improperly?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Improper removal of a load-bearing wall can lead to severe structural issues, including sagging floors, cracked ceilings and walls, foundation damage, and in worst-case scenarios, partial or complete structural collapse. It can also compromise the safety of your home and drastically reduce its value. Hometelligent Inc. prioritizes structural integrity and safety by ensuring all work is engineered and executed to the highest standards.",
+        "@type": "Answer",
+        "description": "Improper removal risks severe structural damage, including sagging floors, cracks, foundation issues, and collapse. Hometelligent Inc. ensures safe, engineered work."
+      }
+    }
+  ],
+  "description": "Improper removal risks severe structural damage, including sagging floors, cracks, foundation issues, and collapse. Hometelligent Inc. ensures safe, engineered"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I maximize natural light in my family room during a remodel?",
-  "description": "Maximize natural light by enlarging windows, adding skylights, using glass doors, and light paint. Balance light with energy efficiency and privacy.",
   "url": "https://hometelligentinc.com/faq/how-can-i-maximize-natural-light-in-my-family-room-during-a-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I maximize natural light in my family room during a remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maximizing natural light can significantly enhance the ambiance of your family room. Strategies include enlarging existing windows, adding new windows, installing skylights, or incorporating glass doors. Lighter paint colors and reflective surfaces can also amplify available light. A practical tradeoff is balancing the desire for more light with potential energy efficiency concerns or privacy needs. Larger windows might require better insulation or specific glazing to maintain thermal performance, which is an important consideration in the varying climates across our service region.",
-        "description": "Maximize natural light by enlarging windows, adding skylights, using glass doors, and light paint. Balance light with energy efficiency and privacy."
-      }
-    }
-  ],
+  "name": "How can I maximize natural light in my family room during a remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I maximize natural light in my family room during a remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Maximizing natural light can significantly enhance the ambiance of your family room. Strategies include enlarging existing windows, adding new windows, installing skylights, or incorporating glass doors. Lighter paint colors and reflective surfaces can also amplify available light. A practical tradeoff is balancing the desire for more light with potential energy efficiency concerns or privacy needs. Larger windows might require better insulation or specific glazing to maintain thermal performance, which is an important consideration in the varying climates across our service region.",
+        "@type": "Answer",
+        "description": "Maximize natural light by enlarging windows, adding skylights, using glass doors, and light paint. Balance light with energy efficiency and privacy."
+      }
+    }
+  ],
+  "description": "Maximize natural light by enlarging windows, adding skylights, using glass doors, and light paint. Balance light with energy efficiency and privacy."
 }

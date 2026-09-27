@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to move out of my house during a complete home renovation?",
-  "description": "Moving out during a complete home renovation depends on the work's scope, especially if major systems or structural changes are involved. Hometelligent Inc. ass",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-move-out-of-my-house-during-a-complete-home-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to move out of my house during a complete home renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you need to move out during a complete home renovation depends on the scope of work and which areas of your home are affected. If major systems like plumbing or electrical are being entirely replaced, or if significant structural changes are underway that impact habitability, moving out might be necessary for safety and efficiency. For projects with Hometelligent Inc., we evaluate the extent of disruption during our initial consultation. Our team will discuss potential living arrangements and provide guidance on whether staying in the home is feasible or if temporary relocation would be advisable to ensure safety and maintain the project schedule.",
-        "description": "Moving out during a complete home renovation depends on the work's scope, especially if major systems or structural changes are involved. Hometelligent Inc. assesses disruption and advises on living arrangements for safety and project efficiency."
-      }
-    }
-  ],
+  "name": "Do I need to move out of my house during a complete home renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to move out of my house during a complete home renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you need to move out during a complete home renovation depends on the scope of work and which areas of your home are affected. If major systems like plumbing or electrical are being entirely replaced, or if significant structural changes are underway that impact habitability, moving out might be necessary for safety and efficiency. For projects with Hometelligent Inc., we evaluate the extent of disruption during our initial consultation. Our team will discuss potential living arrangements and provide guidance on whether staying in the home is feasible or if temporary relocation would be advisable to ensure safety and maintain the project schedule.",
+        "@type": "Answer",
+        "description": "Moving out during a complete home renovation depends on the work's scope, especially if major systems or structural changes are involved. Hometelligent Inc. assesses disruption and advises on living arrangements for safety and project efficiency."
+      }
+    }
+  ],
+  "description": "Moving out during a complete home renovation depends on the work's scope, especially if major systems or structural changes are involved. Hometelligent Inc. ass"
 }

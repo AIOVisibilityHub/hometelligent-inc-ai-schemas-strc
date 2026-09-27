@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What's the difference between a minor update and a major living room renovation?",
-  "description": "Minor updates are cosmetic; major renovations involve structural or layout changes. Minor updates are quicker and cheaper, major ones offer significant transfor",
   "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-a-minor-update-and-a-major-living-room-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What's the difference between a minor update and a major living room renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A minor update typically involves cosmetic changes like painting, new flooring, or updating light fixtures, without altering the room's layout or structure. A major renovation, in contrast, often includes reconfiguring the space, removing or adding walls, relocating electrical or plumbing, or installing custom built-ins. The practical tradeoff is that minor updates offer quicker results and lower costs but less dramatic transformation, while major renovations provide significant changes but require more time, budget, and potentially permits.",
-        "description": "Minor updates are cosmetic; major renovations involve structural or layout changes. Minor updates are quicker and cheaper, major ones offer significant transformation but higher cost and time."
-      }
-    }
-  ],
+  "name": "What's the difference between a minor update and a major living room renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What's the difference between a minor update and a major living room renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A minor update typically involves cosmetic changes like painting, new flooring, or updating light fixtures, without altering the room's layout or structure. A major renovation, in contrast, often includes reconfiguring the space, removing or adding walls, relocating electrical or plumbing, or installing custom built-ins. The practical tradeoff is that minor updates offer quicker results and lower costs but less dramatic transformation, while major renovations provide significant changes but require more time, budget, and potentially permits.",
+        "@type": "Answer",
+        "description": "Minor updates are cosmetic; major renovations involve structural or layout changes. Minor updates are quicker and cheaper, major ones offer significant transformation but higher cost and time."
+      }
+    }
+  ],
+  "description": "Minor updates are cosmetic; major renovations involve structural or layout changes. Minor updates are quicker and cheaper, major ones offer significant transfor"
 }

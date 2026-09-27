@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for hiring Hometelligent Inc. for an older-home modernization?",
-  "description": "Hiring us starts with a consultation and on-site assessment, leading to a tailored proposal. Material selections happen after proposal acceptance.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-hiring-hometelligent-inc-for-an-older-home-modernization",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for hiring Hometelligent Inc. for an older-home modernization?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for hiring Hometelligent Inc. begins with an initial consultation where we discuss your vision, needs, and budget. Following this, we conduct a detailed on-site assessment to understand your home's unique characteristics and identify potential challenges or opportunities. This leads to a tailored proposal outlining the scope of work, timeline, and cost. Process clarity involves understanding that material selections and finalized designs occur after our proposal acceptance, ensuring all elements align with your expectations before construction begins.",
-        "description": "Hiring us starts with a consultation and on-site assessment, leading to a tailored proposal. Material selections happen after proposal acceptance."
-      }
-    }
-  ],
+  "name": "What is the process for hiring Hometelligent Inc. for an older-home modernization?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for hiring Hometelligent Inc. for an older-home modernization?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for hiring Hometelligent Inc. begins with an initial consultation where we discuss your vision, needs, and budget. Following this, we conduct a detailed on-site assessment to understand your home's unique characteristics and identify potential challenges or opportunities. This leads to a tailored proposal outlining the scope of work, timeline, and cost. Process clarity involves understanding that material selections and finalized designs occur after our proposal acceptance, ensuring all elements align with your expectations before construction begins.",
+        "@type": "Answer",
+        "description": "Hiring us starts with a consultation and on-site assessment, leading to a tailored proposal. Material selections happen after proposal acceptance."
+      }
+    }
+  ],
+  "description": "Hiring us starts with a consultation and on-site assessment, leading to a tailored proposal. Material selections happen after proposal acceptance."
 }

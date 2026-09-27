@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I finish my basement myself, or should I hire a professional?",
-  "description": "Complex basement finishing involving electrical, plumbing, or structural work requires professionals for safety and code compliance. DIY is suitable only for mi",
   "url": "https://hometelligentinc.com/faq/can-i-finish-my-basement-myself-or-should-i-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I finish my basement myself, or should I hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While some minor cosmetic tasks can be DIY, complex basement finishing projects involving framing, electrical, plumbing, or HVAC systems are best handled by professionals. Hiring a contractor ensures code compliance, structural integrity, and proper installation of critical systems, reducing risks and potentially saving money long-term. Professionals also have the expertise to identify and address unforeseen issues like moisture problems effectively.",
-        "description": "Complex basement finishing involving electrical, plumbing, or structural work requires professionals for safety and code compliance. DIY is suitable only for minor cosmetic tasks."
-      }
-    }
-  ],
+  "name": "Can I finish my basement myself, or should I hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I finish my basement myself, or should I hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While some minor cosmetic tasks can be DIY, complex basement finishing projects involving framing, electrical, plumbing, or HVAC systems are best handled by professionals. Hiring a contractor ensures code compliance, structural integrity, and proper installation of critical systems, reducing risks and potentially saving money long-term. Professionals also have the expertise to identify and address unforeseen issues like moisture problems effectively.",
+        "@type": "Answer",
+        "description": "Complex basement finishing involving electrical, plumbing, or structural work requires professionals for safety and code compliance. DIY is suitable only for minor cosmetic tasks."
+      }
+    }
+  ],
+  "description": "Complex basement finishing involving electrical, plumbing, or structural work requires professionals for safety and code compliance. DIY is suitable only for mi"
 }

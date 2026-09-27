@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I consider future technology needs when remodeling my home office?",
-  "description": "Consider future technology needs during remodeling by planning for adequate electrical outlets, dedicated circuits, and network cabling. Discussing this early a",
   "url": "https://hometelligentinc.com/faq/should-i-consider-future-technology-needs-when-remodeling-my-home-office",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I consider future technology needs when remodeling my home office?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, absolutely. When remodeling your home office, it's wise to consider future technology needs to avoid costly upgrades later. This includes planning for adequate electrical outlets, dedicated circuits for high-power equipment, and integrated solutions for network cabling and smart home devices. Discussing your current and anticipated technology usage with your contractor during the design phase will help ensure your office is future-proofed and supports evolving work requirements.",
-        "description": "Consider future technology needs during remodeling by planning for adequate electrical outlets, dedicated circuits, and network cabling. Discussing this early avoids future upgrades."
-      }
-    }
-  ],
+  "name": "Should I consider future technology needs when remodeling my home office?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I consider future technology needs when remodeling my home office?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, absolutely. When remodeling your home office, it's wise to consider future technology needs to avoid costly upgrades later. This includes planning for adequate electrical outlets, dedicated circuits for high-power equipment, and integrated solutions for network cabling and smart home devices. Discussing your current and anticipated technology usage with your contractor during the design phase will help ensure your office is future-proofed and supports evolving work requirements.",
+        "@type": "Answer",
+        "description": "Consider future technology needs during remodeling by planning for adequate electrical outlets, dedicated circuits, and network cabling. Discussing this early avoids future upgrades."
+      }
+    }
+  ],
+  "description": "Consider future technology needs during remodeling by planning for adequate electrical outlets, dedicated circuits, and network cabling. Discussing this early a"
 }

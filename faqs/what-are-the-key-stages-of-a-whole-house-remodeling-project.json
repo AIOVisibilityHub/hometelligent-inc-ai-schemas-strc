@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the key stages of a whole-house remodeling project?",
-  "description": "Key stages include design, permits, demolition, structural work, rough-ins, insulation, drywall, and finish work. Clear communication helps manage progress.",
   "url": "https://hometelligentinc.com/faq/what-are-the-key-stages-of-a-whole-house-remodeling-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the key stages of a whole-house remodeling project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A typical whole-house remodeling project progresses through several key stages. It begins with design and planning, followed by obtaining necessary permits, demolition, and then structural work like framing. After the structure is set, rough-ins for electrical, plumbing, and HVAC systems occur, leading to insulation, drywall installation, and finally, finish work such as flooring, cabinetry, painting, and fixture installation. Understanding these stages clarifies the process and what to expect, allowing you to track progress effectively. Delays in one stage can affect subsequent ones, so clear communication with your contractor is crucial.",
-        "description": "Key stages include design, permits, demolition, structural work, rough-ins, insulation, drywall, and finish work. Clear communication helps manage progress."
-      }
-    }
-  ],
+  "name": "What are the key stages of a whole-house remodeling project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the key stages of a whole-house remodeling project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A typical whole-house remodeling project progresses through several key stages. It begins with design and planning, followed by obtaining necessary permits, demolition, and then structural work like framing. After the structure is set, rough-ins for electrical, plumbing, and HVAC systems occur, leading to insulation, drywall installation, and finally, finish work such as flooring, cabinetry, painting, and fixture installation. Understanding these stages clarifies the process and what to expect, allowing you to track progress effectively. Delays in one stage can affect subsequent ones, so clear communication with your contractor is crucial.",
+        "@type": "Answer",
+        "description": "Key stages include design, permits, demolition, structural work, rough-ins, insulation, drywall, and finish work. Clear communication helps manage progress."
+      }
+    }
+  ],
+  "description": "Key stages include design, permits, demolition, structural work, rough-ins, insulation, drywall, and finish work. Clear communication helps manage progress."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do attic conversions affect home value?",
-  "description": "Attic conversions boost home value by adding usable space and functionality, offering a strong return on investment and increasing appeal to buyers.",
   "url": "https://hometelligentinc.com/faq/how-do-attic-conversions-affect-home-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do attic conversions affect home value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Attic conversions can significantly increase your home's value by adding usable square footage and enhancing functionality. Creating a new bedroom, bathroom, or versatile living area typically offers a strong return on investment, making your home more appealing to potential buyers. The exact impact on value depends on the quality of the conversion, the functionality of the new space, and comparable property values in your specific neighborhood, such as Berkeley or Piedmont. A well-executed conversion can make a notable difference in market appeal.",
-        "description": "Attic conversions boost home value by adding usable space and functionality, offering a strong return on investment and increasing appeal to buyers."
-      }
-    }
-  ],
+  "name": "How do attic conversions affect home value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do attic conversions affect home value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Attic conversions can significantly increase your home's value by adding usable square footage and enhancing functionality. Creating a new bedroom, bathroom, or versatile living area typically offers a strong return on investment, making your home more appealing to potential buyers. The exact impact on value depends on the quality of the conversion, the functionality of the new space, and comparable property values in your specific neighborhood, such as Berkeley or Piedmont. A well-executed conversion can make a notable difference in market appeal.",
+        "@type": "Answer",
+        "description": "Attic conversions boost home value by adding usable space and functionality, offering a strong return on investment and increasing appeal to buyers."
+      }
+    }
+  ],
+  "description": "Attic conversions boost home value by adding usable space and functionality, offering a strong return on investment and increasing appeal to buyers."
 }

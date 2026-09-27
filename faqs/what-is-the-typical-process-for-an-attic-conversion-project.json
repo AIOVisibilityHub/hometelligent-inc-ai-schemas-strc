@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for an attic conversion project?",
-  "description": "The process involves consultation, design, permitting, construction (structural, electrical, plumbing, finishing), and final inspections, with clear communicati",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-an-attic-conversion-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for an attic conversion project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The typical process for an attic conversion begins with an initial consultation and site assessment to discuss your vision and evaluate feasibility. This is followed by design and architectural planning, including creating blueprints and selecting materials. Next, we handle the permitting process with local authorities. Construction then proceeds, involving structural work, framing, electrical, plumbing, insulation, drywall, and finishes. The project concludes with final inspections. We prioritize clear communication and phased walkthroughs to keep you informed throughout each stage.",
-        "description": "The process involves consultation, design, permitting, construction (structural, electrical, plumbing, finishing), and final inspections, with clear communication throughout."
-      }
-    }
-  ],
+  "name": "What is the typical process for an attic conversion project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for an attic conversion project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The typical process for an attic conversion begins with an initial consultation and site assessment to discuss your vision and evaluate feasibility. This is followed by design and architectural planning, including creating blueprints and selecting materials. Next, we handle the permitting process with local authorities. Construction then proceeds, involving structural work, framing, electrical, plumbing, insulation, drywall, and finishes. The project concludes with final inspections. We prioritize clear communication and phased walkthroughs to keep you informed throughout each stage.",
+        "@type": "Answer",
+        "description": "The process involves consultation, design, permitting, construction (structural, electrical, plumbing, finishing), and final inspections, with clear communication throughout."
+      }
+    }
+  ],
+  "description": "The process involves consultation, design, permitting, construction (structural, electrical, plumbing, finishing), and final inspections, with clear communicati"
 }

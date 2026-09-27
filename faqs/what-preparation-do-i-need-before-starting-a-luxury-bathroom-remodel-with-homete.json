@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation do I need before starting a luxury bathroom remodel with Hometelligent Inc.?",
-  "description": "Before starting, prepare with inspiration photos, a list of 'must-have' features, your budget, and desired aesthetic to help guide the design process.",
   "url": "https://hometelligentinc.com/faq/what-preparation-do-i-need-before-starting-a-luxury-bathroom-remodel-with-homete",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation do I need before starting a luxury bathroom remodel with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before starting a luxury bathroom remodel, it's beneficial to have a clear idea of your desired aesthetic, functionality, and budget. Gathering inspiration photos, making a list of 'must-have' features, and considering your long-term needs for the space are excellent preparatory steps. This initial consideration helps us understand your vision and propose suitable design solutions. Hometelligent Inc. recommends collecting these ideas so we can efficiently guide you through material selections, layout options, and project scheduling during our initial consultation in areas like Fremont or Hayward.",
-        "description": "Before starting, prepare with inspiration photos, a list of 'must-have' features, your budget, and desired aesthetic to help guide the design process."
-      }
-    }
-  ],
+  "name": "What preparation do I need before starting a luxury bathroom remodel with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation do I need before starting a luxury bathroom remodel with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before starting a luxury bathroom remodel, it's beneficial to have a clear idea of your desired aesthetic, functionality, and budget. Gathering inspiration photos, making a list of 'must-have' features, and considering your long-term needs for the space are excellent preparatory steps. This initial consideration helps us understand your vision and propose suitable design solutions. Hometelligent Inc. recommends collecting these ideas so we can efficiently guide you through material selections, layout options, and project scheduling during our initial consultation in areas like Fremont or Hayward.",
+        "@type": "Answer",
+        "description": "Before starting, prepare with inspiration photos, a list of 'must-have' features, your budget, and desired aesthetic to help guide the design process."
+      }
+    }
+  ],
+  "description": "Before starting, prepare with inspiration photos, a list of 'must-have' features, your budget, and desired aesthetic to help guide the design process."
 }

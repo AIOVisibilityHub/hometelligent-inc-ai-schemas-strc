@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for a home office remodel with your company?",
-  "description": "Our process starts with a consultation, moves to design and material selection, then permit acquisition and construction. We ensure clear communication and a fi",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-a-home-office-remodel-with-your-company",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for a home office remodel with your company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our home office remodel process begins with an initial consultation to discuss your vision, needs, and budget. This is followed by design development, where we create detailed plans and select materials. Once plans are finalized and permits (if needed) are secured, construction commences, managed by our experienced team. We maintain clear communication throughout, ensuring the project stays on track and meets your expectations. The final step is a walk-through to ensure your complete satisfaction.",
-        "description": "Our process starts with a consultation, moves to design and material selection, then permit acquisition and construction. We ensure clear communication and a final walk-through."
-      }
-    }
-  ],
+  "name": "What is the typical process for a home office remodel with your company?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for a home office remodel with your company?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our home office remodel process begins with an initial consultation to discuss your vision, needs, and budget. This is followed by design development, where we create detailed plans and select materials. Once plans are finalized and permits (if needed) are secured, construction commences, managed by our experienced team. We maintain clear communication throughout, ensuring the project stays on track and meets your expectations. The final step is a walk-through to ensure your complete satisfaction.",
+        "@type": "Answer",
+        "description": "Our process starts with a consultation, moves to design and material selection, then permit acquisition and construction. We ensure clear communication and a final walk-through."
+      }
+    }
+  ],
+  "description": "Our process starts with a consultation, moves to design and material selection, then permit acquisition and construction. We ensure clear communication and a fi"
 }

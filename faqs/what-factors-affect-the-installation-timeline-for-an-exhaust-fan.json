@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors affect the installation timeline for an exhaust fan?",
-  "description": "Installation timeline is affected by new ductwork, electrical complexity, and structural modifications. New installations take longer than simple replacements.",
   "url": "https://hometelligentinc.com/faq/what-factors-affect-the-installation-timeline-for-an-exhaust-fan",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors affect the installation timeline for an exhaust fan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation timeline for an exhaust fan is primarily affected by whether new ductwork needs to be installed, the complexity of electrical wiring, and if any structural modifications are necessary. For instance, installing a fan where no ductwork or electrical connection previously existed will take longer than a simple replacement. Accessibility to the installation area and the type of ceiling or wall materials also play a role in determining the overall time needed for completion.",
-        "description": "Installation timeline is affected by new ductwork, electrical complexity, and structural modifications. New installations take longer than simple replacements."
-      }
-    }
-  ],
+  "name": "What factors affect the installation timeline for an exhaust fan?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors affect the installation timeline for an exhaust fan?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation timeline for an exhaust fan is primarily affected by whether new ductwork needs to be installed, the complexity of electrical wiring, and if any structural modifications are necessary. For instance, installing a fan where no ductwork or electrical connection previously existed will take longer than a simple replacement. Accessibility to the installation area and the type of ceiling or wall materials also play a role in determining the overall time needed for completion.",
+        "@type": "Answer",
+        "description": "Installation timeline is affected by new ductwork, electrical complexity, and structural modifications. New installations take longer than simple replacements."
+      }
+    }
+  ],
+  "description": "Installation timeline is affected by new ductwork, electrical complexity, and structural modifications. New installations take longer than simple replacements."
 }

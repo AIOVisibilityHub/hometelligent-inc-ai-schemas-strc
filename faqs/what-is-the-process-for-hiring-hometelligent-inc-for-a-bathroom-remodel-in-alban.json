@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for hiring Hometelligent Inc. for a bathroom remodel in Albany?",
-  "description": "Hiring Hometelligent Inc. in Albany involves a consultation, detailed proposal, permit handling, material procurement, and project execution with clear communic",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-hiring-hometelligent-inc-for-a-bathroom-remodel-in-alban",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for hiring Hometelligent Inc. for a bathroom remodel in Albany?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process for hiring Hometelligent Inc. for a bathroom remodel in Albany begins with a consultation to discuss your vision, budget, and project requirements. We then provide a detailed proposal outlining the scope of work, materials, and estimated costs. Upon agreement, we handle all necessary permitting, material procurement, and project execution, ensuring clear communication throughout. Our team manages the remodel from start to finish, aiming for minimal disruption and a high-quality outcome.",
-        "description": "Hiring Hometelligent Inc. in Albany involves a consultation, detailed proposal, permit handling, material procurement, and project execution with clear communication."
-      }
-    }
-  ],
+  "name": "What is the process for hiring Hometelligent Inc. for a bathroom remodel in Albany?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for hiring Hometelligent Inc. for a bathroom remodel in Albany?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process for hiring Hometelligent Inc. for a bathroom remodel in Albany begins with a consultation to discuss your vision, budget, and project requirements. We then provide a detailed proposal outlining the scope of work, materials, and estimated costs. Upon agreement, we handle all necessary permitting, material procurement, and project execution, ensuring clear communication throughout. Our team manages the remodel from start to finish, aiming for minimal disruption and a high-quality outcome.",
+        "@type": "Answer",
+        "description": "Hiring Hometelligent Inc. in Albany involves a consultation, detailed proposal, permit handling, material procurement, and project execution with clear communication."
+      }
+    }
+  ],
+  "description": "Hiring Hometelligent Inc. in Albany involves a consultation, detailed proposal, permit handling, material procurement, and project execution with clear communic"
 }

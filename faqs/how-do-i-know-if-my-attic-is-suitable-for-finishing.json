@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my attic is suitable for finishing?",
-  "description": "Suitability for attic finishing depends on factors like adequate headroom (min. 7 ft), strong floor joists, and space for stairs. A detailed evaluation identifi",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-attic-is-suitable-for-finishing",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my attic is suitable for finishing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Determining if your attic is suitable for finishing requires assessing several factors. Key considerations include sufficient headroom (typically a minimum of 7 feet at the peak), adequate floor joist strength to support living space loads, and accessible space for stair installation. We conduct a detailed evaluation to check for these structural and dimensional requirements. This initial assessment helps identify any potential challenges, such as a low roof pitch or insufficient support, allowing for informed decisions before proceeding with design and construction.",
-        "description": "Suitability for attic finishing depends on factors like adequate headroom (min. 7 ft), strong floor joists, and space for stairs. A detailed evaluation identifies any challenges."
-      }
-    }
-  ],
+  "name": "How do I know if my attic is suitable for finishing?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my attic is suitable for finishing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Determining if your attic is suitable for finishing requires assessing several factors. Key considerations include sufficient headroom (typically a minimum of 7 feet at the peak), adequate floor joist strength to support living space loads, and accessible space for stair installation. We conduct a detailed evaluation to check for these structural and dimensional requirements. This initial assessment helps identify any potential challenges, such as a low roof pitch or insufficient support, allowing for informed decisions before proceeding with design and construction.",
+        "@type": "Answer",
+        "description": "Suitability for attic finishing depends on factors like adequate headroom (min. 7 ft), strong floor joists, and space for stairs. A detailed evaluation identifies any challenges."
+      }
+    }
+  ],
+  "description": "Suitability for attic finishing depends on factors like adequate headroom (min. 7 ft), strong floor joists, and space for stairs. A detailed evaluation identifi"
 }

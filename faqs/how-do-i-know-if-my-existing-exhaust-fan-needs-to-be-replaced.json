@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if my existing exhaust fan needs to be replaced?",
-  "description": "Replace an exhaust fan if it's excessively noisy, poorly extracting air, visibly damaged, or not working. Reduced efficiency can cause moisture issues.",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-my-existing-exhaust-fan-needs-to-be-replaced",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if my existing exhaust fan needs to be replaced?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Signs that your exhaust fan may need replacement include excessive noise, poor air extraction (e.g., steam or odors lingering), visible damage to the fan blades or housing, or if it stops working entirely. Reduced efficiency can lead to moisture buildup, which may cause mold or mildew. If you notice persistent issues, a professional assessment can determine if repair or replacement is the best course of action.",
-        "description": "Replace an exhaust fan if it's excessively noisy, poorly extracting air, visibly damaged, or not working. Reduced efficiency can cause moisture issues."
-      }
-    }
-  ],
+  "name": "How do I know if my existing exhaust fan needs to be replaced?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if my existing exhaust fan needs to be replaced?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Signs that your exhaust fan may need replacement include excessive noise, poor air extraction (e.g., steam or odors lingering), visible damage to the fan blades or housing, or if it stops working entirely. Reduced efficiency can lead to moisture buildup, which may cause mold or mildew. If you notice persistent issues, a professional assessment can determine if repair or replacement is the best course of action.",
+        "@type": "Answer",
+        "description": "Replace an exhaust fan if it's excessively noisy, poorly extracting air, visibly damaged, or not working. Reduced efficiency can cause moisture issues."
+      }
+    }
+  ],
+  "description": "Replace an exhaust fan if it's excessively noisy, poorly extracting air, visibly damaged, or not working. Reduced efficiency can cause moisture issues."
 }

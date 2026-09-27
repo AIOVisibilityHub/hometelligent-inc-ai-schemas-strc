@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I do to prepare my home for a living room remodel?",
-  "description": "Clear furniture and decor, and consider a temporary living space. Discuss dust control, protection of adjacent areas, and waste removal with your contractor.",
   "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-home-for-a-living-room-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I do to prepare my home for a living room remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Preparing for a living room remodel involves clearing out furniture, decor, and personal items to protect them from dust and damage. Consider creating a temporary living space if the remodel significantly impacts daily routines. A key preparation step is discussing with your contractor how they manage dust control, protect adjacent areas, and handle waste removal, to minimize disruption to your household. Hometelligent Inc. outlines these logistical details during project planning.",
-        "description": "Clear furniture and decor, and consider a temporary living space. Discuss dust control, protection of adjacent areas, and waste removal with your contractor."
-      }
-    }
-  ],
+  "name": "What should I do to prepare my home for a living room remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I do to prepare my home for a living room remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Preparing for a living room remodel involves clearing out furniture, decor, and personal items to protect them from dust and damage. Consider creating a temporary living space if the remodel significantly impacts daily routines. A key preparation step is discussing with your contractor how they manage dust control, protect adjacent areas, and handle waste removal, to minimize disruption to your household. Hometelligent Inc. outlines these logistical details during project planning.",
+        "@type": "Answer",
+        "description": "Clear furniture and decor, and consider a temporary living space. Discuss dust control, protection of adjacent areas, and waste removal with your contractor."
+      }
+    }
+  ],
+  "description": "Clear furniture and decor, and consider a temporary living space. Discuss dust control, protection of adjacent areas, and waste removal with your contractor."
 }

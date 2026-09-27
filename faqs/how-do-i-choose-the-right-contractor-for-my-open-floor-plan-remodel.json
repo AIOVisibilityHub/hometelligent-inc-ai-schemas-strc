@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for my open floor plan remodel?",
-  "description": "Choose a contractor with open floor plan experience, verified licenses, and positive references, especially in your local area.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-open-floor-plan-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for my open floor plan remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor, look for experience specifically in open floor plan conversions, verify their licenses and insurance, and check references. A decision factor is their familiarity with local building codes in areas like Oakland or Hayward. Reviewing their portfolio for similar projects can provide insight into their quality of work and ability to manage structural modifications and utility rerouting effectively.",
-        "description": "Choose a contractor with open floor plan experience, verified licenses, and positive references, especially in your local area."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for my open floor plan remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for my open floor plan remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor, look for experience specifically in open floor plan conversions, verify their licenses and insurance, and check references. A decision factor is their familiarity with local building codes in areas like Oakland or Hayward. Reviewing their portfolio for similar projects can provide insight into their quality of work and ability to manage structural modifications and utility rerouting effectively.",
+        "@type": "Answer",
+        "description": "Choose a contractor with open floor plan experience, verified licenses, and positive references, especially in your local area."
+      }
+    }
+  ],
+  "description": "Choose a contractor with open floor plan experience, verified licenses, and positive references, especially in your local area."
 }

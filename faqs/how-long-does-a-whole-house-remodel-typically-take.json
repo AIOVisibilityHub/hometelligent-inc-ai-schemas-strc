@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a whole-house remodel typically take?",
-  "description": "Whole-house remodels vary in length, typically 3-12+ months, depending on scope and complexity. Material availability and permit approvals can impact the timeli",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-whole-house-remodel-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a whole-house remodel typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a whole-house remodel varies significantly based on the project's complexity and scope. Smaller remodels might take 3-6 months, while extensive projects involving structural changes or additions can extend to 12 months or more. Factors such as material availability, unexpected site conditions, and the efficiency of permit approvals can influence the timeline. To get an accurate estimate, consider what you may need to gather, such as design plans, desired material selections, and a clear understanding of the project's overall scope before consulting with a contractor.",
-        "description": "Whole-house remodels vary in length, typically 3-12+ months, depending on scope and complexity. Material availability and permit approvals can impact the timeline."
-      }
-    }
-  ],
+  "name": "How long does a whole-house remodel typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a whole-house remodel typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a whole-house remodel varies significantly based on the project's complexity and scope. Smaller remodels might take 3-6 months, while extensive projects involving structural changes or additions can extend to 12 months or more. Factors such as material availability, unexpected site conditions, and the efficiency of permit approvals can influence the timeline. To get an accurate estimate, consider what you may need to gather, such as design plans, desired material selections, and a clear understanding of the project's overall scope before consulting with a contractor.",
+        "@type": "Answer",
+        "description": "Whole-house remodels vary in length, typically 3-12+ months, depending on scope and complexity. Material availability and permit approvals can impact the timeline."
+      }
+    }
+  ],
+  "description": "Whole-house remodels vary in length, typically 3-12+ months, depending on scope and complexity. Material availability and permit approvals can impact the timeli"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the average cost to install an exhaust fan?",
-  "description": "Exhaust fan installation costs vary based on fan type, complexity, and whether new ductwork or electrical work is needed. Detailed quotes are provided after ass",
   "url": "https://hometelligentinc.com/faq/what-is-the-average-cost-to-install-an-exhaust-fan",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the average cost to install an exhaust fan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost to install an exhaust fan varies significantly based on the fan type, installation complexity, and whether new ductwork or electrical work is required. A simple replacement might be less expensive, while installing a new fan in a location without existing infrastructure will cost more due to additional labor and materials. We provide detailed, transparent quotes after a site assessment in our service areas, including Pleasanton and Livermore, to ensure you understand all aspects of the investment.",
-        "description": "Exhaust fan installation costs vary based on fan type, complexity, and whether new ductwork or electrical work is needed. Detailed quotes are provided after assessment."
-      }
-    }
-  ],
+  "name": "What is the average cost to install an exhaust fan?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the average cost to install an exhaust fan?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost to install an exhaust fan varies significantly based on the fan type, installation complexity, and whether new ductwork or electrical work is required. A simple replacement might be less expensive, while installing a new fan in a location without existing infrastructure will cost more due to additional labor and materials. We provide detailed, transparent quotes after a site assessment in our service areas, including Pleasanton and Livermore, to ensure you understand all aspects of the investment.",
+        "@type": "Answer",
+        "description": "Exhaust fan installation costs vary based on fan type, complexity, and whether new ductwork or electrical work is needed. Detailed quotes are provided after assessment."
+      }
+    }
+  ],
+  "description": "Exhaust fan installation costs vary based on fan type, complexity, and whether new ductwork or electrical work is needed. Detailed quotes are provided after ass"
 }

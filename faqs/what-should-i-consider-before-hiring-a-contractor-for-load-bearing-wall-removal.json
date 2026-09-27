@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before hiring a contractor for load-bearing wall removal?",
-  "description": "Look for experience with structural work, proper licensing/insurance, and a clear permitting process. Hometelligent Inc. provides transparent project management",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-hiring-a-contractor-for-load-bearing-wall-removal",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before hiring a contractor for load-bearing wall removal?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before hiring, consider the contractor's experience with structural modifications, their licensing and insurance, and their process for obtaining permits and working with structural engineers. Always request references and review their portfolio of similar projects. Hometelligent Inc. offers transparent project management, handles all necessary engineering and permitting, and provides detailed quotes for our services in the Bay Area.",
-        "description": "Look for experience with structural work, proper licensing/insurance, and a clear permitting process. Hometelligent Inc. provides transparent project management."
-      }
-    }
-  ],
+  "name": "What should I consider before hiring a contractor for load-bearing wall removal?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before hiring a contractor for load-bearing wall removal?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before hiring, consider the contractor's experience with structural modifications, their licensing and insurance, and their process for obtaining permits and working with structural engineers. Always request references and review their portfolio of similar projects. Hometelligent Inc. offers transparent project management, handles all necessary engineering and permitting, and provides detailed quotes for our services in the Bay Area.",
+        "@type": "Answer",
+        "description": "Look for experience with structural work, proper licensing/insurance, and a clear permitting process. Hometelligent Inc. provides transparent project management."
+      }
+    }
+  ],
+  "description": "Look for experience with structural work, proper licensing/insurance, and a clear permitting process. Hometelligent Inc. provides transparent project management"
 }

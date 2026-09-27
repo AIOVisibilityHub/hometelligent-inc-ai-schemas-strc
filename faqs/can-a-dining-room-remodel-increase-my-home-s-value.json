@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a dining room remodel increase my home's value?",
-  "description": "A dining room remodel can increase home value by improving functionality and updating aesthetics. Upgrades like lighting and built-ins are attractive to buyers,",
   "url": "https://hometelligentinc.com/faq/can-a-dining-room-remodel-increase-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a dining room remodel increase my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a well-executed dining room remodel can increase your home's value, particularly if it enhances functionality, updates outdated aesthetics, and aligns with current buyer preferences. Upgrades such as improved lighting, durable flooring, and custom built-ins are often attractive to potential buyers. The return on investment can vary based on the scope of the remodel and local real estate market conditions in areas like Oakland or Pleasanton. Focus on timeless design choices and quality materials to maximize the value added to your property.",
-        "description": "A dining room remodel can increase home value by improving functionality and updating aesthetics. Upgrades like lighting and built-ins are attractive to buyers, but ROI varies with scope and local market conditions."
-      }
-    }
-  ],
+  "name": "Can a dining room remodel increase my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a dining room remodel increase my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a well-executed dining room remodel can increase your home's value, particularly if it enhances functionality, updates outdated aesthetics, and aligns with current buyer preferences. Upgrades such as improved lighting, durable flooring, and custom built-ins are often attractive to potential buyers. The return on investment can vary based on the scope of the remodel and local real estate market conditions in areas like Oakland or Pleasanton. Focus on timeless design choices and quality materials to maximize the value added to your property.",
+        "@type": "Answer",
+        "description": "A dining room remodel can increase home value by improving functionality and updating aesthetics. Upgrades like lighting and built-ins are attractive to buyers, but ROI varies with scope and local market conditions."
+      }
+    }
+  ],
+  "description": "A dining room remodel can increase home value by improving functionality and updating aesthetics. Upgrades like lighting and built-ins are attractive to buyers,"
 }

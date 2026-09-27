@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for planning a structural remodeling project?",
-  "description": "Planning involves consultation, site assessment, architectural and structural plan development, permit application, and then construction scheduling.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-planning-a-structural-remodeling-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for planning a structural remodeling project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Planning a structural remodeling project begins with an initial consultation to discuss your vision and needs. This is followed by a detailed site assessment by a contractor and often a structural engineer to evaluate the existing structure. Based on these assessments, architectural and structural plans are developed. Once plans are finalized, we assist with permit applications and then proceed to material selection and scheduling the construction phases. Clear communication and early engineering input are vital for a smooth process.",
-        "description": "Planning involves consultation, site assessment, architectural and structural plan development, permit application, and then construction scheduling."
-      }
-    }
-  ],
+  "name": "What is the process for planning a structural remodeling project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for planning a structural remodeling project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Planning a structural remodeling project begins with an initial consultation to discuss your vision and needs. This is followed by a detailed site assessment by a contractor and often a structural engineer to evaluate the existing structure. Based on these assessments, architectural and structural plans are developed. Once plans are finalized, we assist with permit applications and then proceed to material selection and scheduling the construction phases. Clear communication and early engineering input are vital for a smooth process.",
+        "@type": "Answer",
+        "description": "Planning involves consultation, site assessment, architectural and structural plan development, permit application, and then construction scheduling."
+      }
+    }
+  ],
+  "description": "Planning involves consultation, site assessment, architectural and structural plan development, permit application, and then construction scheduling."
 }

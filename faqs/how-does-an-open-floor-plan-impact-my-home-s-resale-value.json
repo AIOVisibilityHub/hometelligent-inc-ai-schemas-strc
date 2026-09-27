@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does an open floor plan impact my home's resale value?",
-  "description": "Open floor plans can boost resale value due to modern appeal, but some buyers prefer traditional layouts.",
   "url": "https://hometelligentinc.com/faq/how-does-an-open-floor-plan-impact-my-home-s-resale-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does an open floor plan impact my home's resale value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An open floor plan can significantly enhance a home's resale value, as it aligns with current homeowner preferences for spacious, connected living areas. Many buyers appreciate the modern aesthetic and improved functionality. However, it's a practical tradeoff, as some buyers may prefer traditional layouts with more defined rooms. The popularity of open concepts in areas like Pleasanton and Livermore often makes them a strong selling point.",
-        "description": "Open floor plans can boost resale value due to modern appeal, but some buyers prefer traditional layouts."
-      }
-    }
-  ],
+  "name": "How does an open floor plan impact my home's resale value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does an open floor plan impact my home's resale value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An open floor plan can significantly enhance a home's resale value, as it aligns with current homeowner preferences for spacious, connected living areas. Many buyers appreciate the modern aesthetic and improved functionality. However, it's a practical tradeoff, as some buyers may prefer traditional layouts with more defined rooms. The popularity of open concepts in areas like Pleasanton and Livermore often makes them a strong selling point.",
+        "@type": "Answer",
+        "description": "Open floor plans can boost resale value due to modern appeal, but some buyers prefer traditional layouts."
+      }
+    }
+  ],
+  "description": "Open floor plans can boost resale value due to modern appeal, but some buyers prefer traditional layouts."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical exhaust fan installation take?",
-  "description": "Standard exhaust fan installation typically takes a few hours to a day. Complexity increases with new ductwork, electrical work, or structural changes.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-exhaust-fan-installation-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical exhaust fan installation take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most standard exhaust fan installations can be completed within a few hours to a full day, depending on the complexity. Factors such as whether new ductwork needs to be installed, electrical wiring modifications are required, or structural changes are necessary can extend the timeline. For example, replacing an existing fan with a similar model is usually quicker than installing a new fan in a location without existing ventilation. We prioritize efficient service to minimize disruption in your home or business.",
-        "description": "Standard exhaust fan installation typically takes a few hours to a day. Complexity increases with new ductwork, electrical work, or structural changes."
-      }
-    }
-  ],
+  "name": "How long does a typical exhaust fan installation take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical exhaust fan installation take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most standard exhaust fan installations can be completed within a few hours to a full day, depending on the complexity. Factors such as whether new ductwork needs to be installed, electrical wiring modifications are required, or structural changes are necessary can extend the timeline. For example, replacing an existing fan with a similar model is usually quicker than installing a new fan in a location without existing ventilation. We prioritize efficient service to minimize disruption in your home or business.",
+        "@type": "Answer",
+        "description": "Standard exhaust fan installation typically takes a few hours to a day. Complexity increases with new ductwork, electrical work, or structural changes."
+      }
+    }
+  ],
+  "description": "Standard exhaust fan installation typically takes a few hours to a day. Complexity increases with new ductwork, electrical work, or structural changes."
 }

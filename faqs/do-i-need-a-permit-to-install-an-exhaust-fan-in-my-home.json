@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit to install an exhaust fan in my home?",
-  "description": "Permit requirements for exhaust fan installation depend on local building codes and project scope. New installations with structural or electrical changes often",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-install-an-exhaust-fan-in-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit to install an exhaust fan in my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for exhaust fan installation depend on local building codes and the scope of the project. Generally, minor replacements might not require a permit, but new installations that involve structural changes, new electrical circuits, or significant ductwork modifications often do. It's crucial to check with your local jurisdiction, such as Oakland or San Leandro, as regulations can vary. Hometelligent Inc. can guide you through the permit process to ensure compliance.",
-        "description": "Permit requirements for exhaust fan installation depend on local building codes and project scope. New installations with structural or electrical changes often require permits."
-      }
-    }
-  ],
+  "name": "Do I need a permit to install an exhaust fan in my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit to install an exhaust fan in my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for exhaust fan installation depend on local building codes and the scope of the project. Generally, minor replacements might not require a permit, but new installations that involve structural changes, new electrical circuits, or significant ductwork modifications often do. It's crucial to check with your local jurisdiction, such as Oakland or San Leandro, as regulations can vary. Hometelligent Inc. can guide you through the permit process to ensure compliance.",
+        "@type": "Answer",
+        "description": "Permit requirements for exhaust fan installation depend on local building codes and project scope. New installations with structural or electrical changes often require permits."
+      }
+    }
+  ],
+  "description": "Permit requirements for exhaust fan installation depend on local building codes and project scope. New installations with structural or electrical changes often"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can an attic conversion include a bathroom or kitchen?",
-  "description": "Attic conversions can include bathrooms or kitchens, but this increases complexity due to plumbing, ventilation, and permit requirements. Feasibility is assesse",
   "url": "https://hometelligentinc.com/faq/can-an-attic-conversion-include-a-bathroom-or-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can an attic conversion include a bathroom or kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, an attic conversion can certainly include a bathroom or a small kitchen, although this significantly increases the project's complexity and cost. Adding plumbing requires careful planning for water supply and drainage lines, often necessitating modifications to existing systems downstairs. Ventilation for moisture and odors also becomes a critical consideration. These additions require specific permits and adherence to building codes to ensure proper functionality and safety. We can assess the feasibility and outline the specific requirements during the planning phase.",
-        "description": "Attic conversions can include bathrooms or kitchens, but this increases complexity due to plumbing, ventilation, and permit requirements. Feasibility is assessed during planning."
-      }
-    }
-  ],
+  "name": "Can an attic conversion include a bathroom or kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can an attic conversion include a bathroom or kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, an attic conversion can certainly include a bathroom or a small kitchen, although this significantly increases the project's complexity and cost. Adding plumbing requires careful planning for water supply and drainage lines, often necessitating modifications to existing systems downstairs. Ventilation for moisture and odors also becomes a critical consideration. These additions require specific permits and adherence to building codes to ensure proper functionality and safety. We can assess the feasibility and outline the specific requirements during the planning phase.",
+        "@type": "Answer",
+        "description": "Attic conversions can include bathrooms or kitchens, but this increases complexity due to plumbing, ventilation, and permit requirements. Feasibility is assessed during planning."
+      }
+    }
+  ],
+  "description": "Attic conversions can include bathrooms or kitchens, but this increases complexity due to plumbing, ventilation, and permit requirements. Feasibility is assesse"
 }

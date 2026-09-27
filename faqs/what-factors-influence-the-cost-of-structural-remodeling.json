@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of structural remodeling?",
-  "description": "Cost is influenced by project scope, structural complexity, material choices, labor rates, and engineering and permit fees. Each project has unique pricing.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-structural-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of structural remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of structural remodeling is influenced by several factors, including the project's scope, the complexity of the structural changes, the types of materials chosen, and local labor rates. Engineering fees for structural assessments and design work, as well as permit fees, also contribute significantly to the overall budget. Access to the work area and the need for temporary structural support during construction can also impact costs. These variables mean that each project requires a tailored estimate.",
-        "description": "Cost is influenced by project scope, structural complexity, material choices, labor rates, and engineering and permit fees. Each project has unique pricing."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of structural remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of structural remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of structural remodeling is influenced by several factors, including the project's scope, the complexity of the structural changes, the types of materials chosen, and local labor rates. Engineering fees for structural assessments and design work, as well as permit fees, also contribute significantly to the overall budget. Access to the work area and the need for temporary structural support during construction can also impact costs. These variables mean that each project requires a tailored estimate.",
+        "@type": "Answer",
+        "description": "Cost is influenced by project scope, structural complexity, material choices, labor rates, and engineering and permit fees. Each project has unique pricing."
+      }
+    }
+  ],
+  "description": "Cost is influenced by project scope, structural complexity, material choices, labor rates, and engineering and permit fees. Each project has unique pricing."
 }

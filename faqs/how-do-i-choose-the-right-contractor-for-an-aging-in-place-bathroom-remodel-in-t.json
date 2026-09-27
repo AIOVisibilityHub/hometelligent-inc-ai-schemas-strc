@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for an aging-in-place bathroom remodel in the East Bay?",
-  "description": "Choose a contractor with experience in accessible design, ask for references, and ensure they understand your specific needs and local building codes in the Eas",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-an-aging-in-place-bathroom-remodel-in-t",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for an aging-in-place bathroom remodel in the East Bay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for an aging-in-place bathroom remodel in the East Bay, look for experience in accessible design and a strong portfolio of similar projects. Ensure they are licensed and insured in California. A key decision factor is to interview multiple contractors, ask for references, and ensure they understand your specific needs and local building codes, such as those in Oakland or Berkeley. Hometelligent Inc. is a local construction company with experience serving these communities.",
-        "description": "Choose a contractor with experience in accessible design, ask for references, and ensure they understand your specific needs and local building codes in the East Bay."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for an aging-in-place bathroom remodel in the East Bay?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for an aging-in-place bathroom remodel in the East Bay?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for an aging-in-place bathroom remodel in the East Bay, look for experience in accessible design and a strong portfolio of similar projects. Ensure they are licensed and insured in California. A key decision factor is to interview multiple contractors, ask for references, and ensure they understand your specific needs and local building codes, such as those in Oakland or Berkeley. Hometelligent Inc. is a local construction company with experience serving these communities.",
+        "@type": "Answer",
+        "description": "Choose a contractor with experience in accessible design, ask for references, and ensure they understand your specific needs and local building codes in the East Bay."
+      }
+    }
+  ],
+  "description": "Choose a contractor with experience in accessible design, ask for references, and ensure they understand your specific needs and local building codes in the Eas"
 }

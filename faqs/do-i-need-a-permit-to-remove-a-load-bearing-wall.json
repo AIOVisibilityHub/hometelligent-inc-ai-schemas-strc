@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit to remove a load-bearing wall?",
-  "description": "Yes, permits are always required for load-bearing wall removal due to structural impact. Hometelligent Inc. assists with permit applications.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-to-remove-a-load-bearing-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit to remove a load-bearing wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, removing a load-bearing wall almost always requires a building permit. This is because it's a significant structural alteration that impacts the safety and integrity of your home. Failing to obtain a permit can lead to fines, difficulties with home resale, and potential insurance issues. Hometelligent Inc. assists clients with permit applications and ensures all work complies with local regulations in jurisdictions such as Fremont and Pleasanton.",
-        "description": "Yes, permits are always required for load-bearing wall removal due to structural impact. Hometelligent Inc. assists with permit applications."
-      }
-    }
-  ],
+  "name": "Do I need a permit to remove a load-bearing wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit to remove a load-bearing wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, removing a load-bearing wall almost always requires a building permit. This is because it's a significant structural alteration that impacts the safety and integrity of your home. Failing to obtain a permit can lead to fines, difficulties with home resale, and potential insurance issues. Hometelligent Inc. assists clients with permit applications and ensures all work complies with local regulations in jurisdictions such as Fremont and Pleasanton.",
+        "@type": "Answer",
+        "description": "Yes, permits are always required for load-bearing wall removal due to structural impact. Hometelligent Inc. assists with permit applications."
+      }
+    }
+  ],
+  "description": "Yes, permits are always required for load-bearing wall removal due to structural impact. Hometelligent Inc. assists with permit applications."
 }

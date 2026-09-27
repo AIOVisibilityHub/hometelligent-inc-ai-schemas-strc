@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design styles are popular for dining room remodels?",
-  "description": "Popular dining room styles include modern, traditional, transitional, and farmhouse, each with distinct features. Your home's architecture and personal taste sh",
   "url": "https://hometelligentinc.com/faq/what-design-styles-are-popular-for-dining-room-remodels",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design styles are popular for dining room remodels?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Popular dining room remodel design styles include modern, traditional, transitional, and farmhouse. Modern designs often feature clean lines and minimalist aesthetics, while traditional styles favor classic elements and richer details. Transitional blends modern and traditional, offering versatility. Farmhouse emphasizes rustic charm and comfort. Your home's existing architectural style and your personal preferences are key factors in selecting a design that integrates seamlessly and enhances your living space. Consider creating an inspiration board with images of dining rooms you admire to communicate your preferred aesthetic.",
-        "description": "Popular dining room styles include modern, traditional, transitional, and farmhouse, each with distinct features. Your home's architecture and personal taste should guide your choice, and an inspiration board can help convey your vision."
-      }
-    }
-  ],
+  "name": "What design styles are popular for dining room remodels?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design styles are popular for dining room remodels?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Popular dining room remodel design styles include modern, traditional, transitional, and farmhouse. Modern designs often feature clean lines and minimalist aesthetics, while traditional styles favor classic elements and richer details. Transitional blends modern and traditional, offering versatility. Farmhouse emphasizes rustic charm and comfort. Your home's existing architectural style and your personal preferences are key factors in selecting a design that integrates seamlessly and enhances your living space. Consider creating an inspiration board with images of dining rooms you admire to communicate your preferred aesthetic.",
+        "@type": "Answer",
+        "description": "Popular dining room styles include modern, traditional, transitional, and farmhouse, each with distinct features. Your home's architecture and personal taste should guide your choice, and an inspiration board can help convey your vision."
+      }
+    }
+  ],
+  "description": "Popular dining room styles include modern, traditional, transitional, and farmhouse, each with distinct features. Your home's architecture and personal taste sh"
 }

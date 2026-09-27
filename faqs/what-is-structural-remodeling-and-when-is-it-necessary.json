@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is structural remodeling and when is it necessary?",
-  "description": "Structural remodeling alters load-bearing parts of a building, needed for major changes like removing walls or adding stories, or to repair structural damage.",
   "url": "https://hometelligentinc.com/faq/what-is-structural-remodeling-and-when-is-it-necessary",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is structural remodeling and when is it necessary?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Structural remodeling involves altering or reinforcing the load-bearing elements of a building, such as walls, beams, columns, foundations, or roofs. It's necessary when you plan to remove load-bearing walls, add a second story, expand existing rooms significantly, or address structural damage like foundation cracks or sagging floors. Before undertaking any significant changes, a structural engineer's assessment is crucial to determine the scope of work and ensure building integrity. This initial assessment helps identify potential challenges and necessary permits early in the process.",
-        "description": "Structural remodeling alters load-bearing parts of a building, needed for major changes like removing walls or adding stories, or to repair structural damage."
-      }
-    }
-  ],
+  "name": "What is structural remodeling and when is it necessary?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is structural remodeling and when is it necessary?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Structural remodeling involves altering or reinforcing the load-bearing elements of a building, such as walls, beams, columns, foundations, or roofs. It's necessary when you plan to remove load-bearing walls, add a second story, expand existing rooms significantly, or address structural damage like foundation cracks or sagging floors. Before undertaking any significant changes, a structural engineer's assessment is crucial to determine the scope of work and ensure building integrity. This initial assessment helps identify potential challenges and necessary permits early in the process.",
+        "@type": "Answer",
+        "description": "Structural remodeling alters load-bearing parts of a building, needed for major changes like removing walls or adding stories, or to repair structural damage."
+      }
+    }
+  ],
+  "description": "Structural remodeling alters load-bearing parts of a building, needed for major changes like removing walls or adding stories, or to repair structural damage."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What design considerations are important when modernizing a historic older home?",
-  "description": "Modernizing historic homes requires balancing modern function with preserving original character and complying with local historic guidelines.",
   "url": "https://hometelligentinc.com/faq/what-design-considerations-are-important-when-modernizing-a-historic-older-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What design considerations are important when modernizing a historic older home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When modernizing a historic older home, it's important to balance contemporary functionality with preserving the home's original character and historical integrity. This often involves integrating modern amenities seamlessly while respecting architectural details, materials, and existing layouts. A First-Party Insight we offer is understanding local historic preservation guidelines, which vary by city. We help clients navigate these requirements, ensuring updates enhance the home without compromising its unique heritage or violating any local ordinances.",
-        "description": "Modernizing historic homes requires balancing modern function with preserving original character and complying with local historic guidelines."
-      }
-    }
-  ],
+  "name": "What design considerations are important when modernizing a historic older home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What design considerations are important when modernizing a historic older home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When modernizing a historic older home, it's important to balance contemporary functionality with preserving the home's original character and historical integrity. This often involves integrating modern amenities seamlessly while respecting architectural details, materials, and existing layouts. A First-Party Insight we offer is understanding local historic preservation guidelines, which vary by city. We help clients navigate these requirements, ensuring updates enhance the home without compromising its unique heritage or violating any local ordinances.",
+        "@type": "Answer",
+        "description": "Modernizing historic homes requires balancing modern function with preserving original character and complying with local historic guidelines."
+      }
+    }
+  ],
+  "description": "Modernizing historic homes requires balancing modern function with preserving original character and complying with local historic guidelines."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for my basement finishing project?",
-  "description": "Choose a contractor with local experience, proper licensing, a strong portfolio, and good references. Prioritize clear communication and detailed estimates.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-my-basement-finishing-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for my basement finishing project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for basement finishing, look for one with local experience, proper licensing, and a strong portfolio of similar projects. Request references and review their track record. A good contractor should provide a clear contract, detailed estimates, and transparent communication throughout the process. Hometelligent, for example, prioritizes clear communication and project management for clients in Alameda, Albany, Berkeley, Dublin, and Emeryville.",
-        "description": "Choose a contractor with local experience, proper licensing, a strong portfolio, and good references. Prioritize clear communication and detailed estimates."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for my basement finishing project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for my basement finishing project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for basement finishing, look for one with local experience, proper licensing, and a strong portfolio of similar projects. Request references and review their track record. A good contractor should provide a clear contract, detailed estimates, and transparent communication throughout the process. Hometelligent, for example, prioritizes clear communication and project management for clients in Alameda, Albany, Berkeley, Dublin, and Emeryville.",
+        "@type": "Answer",
+        "description": "Choose a contractor with local experience, proper licensing, a strong portfolio, and good references. Prioritize clear communication and detailed estimates."
+      }
+    }
+  ],
+  "description": "Choose a contractor with local experience, proper licensing, a strong portfolio, and good references. Prioritize clear communication and detailed estimates."
 }

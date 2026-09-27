@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What type of exhaust fan is best for my kitchen?",
-  "description": "The best kitchen exhaust fan depends on your cooking style, kitchen size, and ductwork. Ducted fans vent air outside, while ductless fans filter and recirculate",
   "url": "https://hometelligentinc.com/faq/what-type-of-exhaust-fan-is-best-for-my-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What type of exhaust fan is best for my kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The best exhaust fan for your kitchen depends on factors such as cooking style, kitchen size, and existing ductwork. Ducted fans are generally more effective at removing smoke and odors by venting them outside, while ductless recirculating fans filter the air and return it to the kitchen. When choosing, consider the fan's CFM (Cubic Feet per Minute) rating to ensure it can adequately ventilate your space. For larger kitchens or frequent heavy cooking, a higher CFM is recommended. We can assess your specific needs during a consultation in areas like Alameda or Berkeley.",
-        "description": "The best kitchen exhaust fan depends on your cooking style, kitchen size, and ductwork. Ducted fans vent air outside, while ductless fans filter and recirculate."
-      }
-    }
-  ],
+  "name": "What type of exhaust fan is best for my kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What type of exhaust fan is best for my kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The best exhaust fan for your kitchen depends on factors such as cooking style, kitchen size, and existing ductwork. Ducted fans are generally more effective at removing smoke and odors by venting them outside, while ductless recirculating fans filter the air and return it to the kitchen. When choosing, consider the fan's CFM (Cubic Feet per Minute) rating to ensure it can adequately ventilate your space. For larger kitchens or frequent heavy cooking, a higher CFM is recommended. We can assess your specific needs during a consultation in areas like Alameda or Berkeley.",
+        "@type": "Answer",
+        "description": "The best kitchen exhaust fan depends on your cooking style, kitchen size, and ductwork. Ducted fans vent air outside, while ductless fans filter and recirculate."
+      }
+    }
+  ],
+  "description": "The best kitchen exhaust fan depends on your cooking style, kitchen size, and ductwork. Ducted fans vent air outside, while ductless fans filter and recirculate"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the most popular uses for a finished basement?",
-  "description": "Popular finished basement uses include extra bedrooms, home offices, entertainment rooms, gyms, or play areas. Choose based on your family's specific needs.",
   "url": "https://hometelligentinc.com/faq/what-are-the-most-popular-uses-for-a-finished-basement",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the most popular uses for a finished basement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Finished basements offer versatile living spaces that can significantly enhance your home's functionality. Popular uses include creating an extra bedroom, a home office, a family entertainment room, a home gym, or a dedicated play area for children. The best use for your basement will depend on your family's specific needs and lifestyle. Consider what additional space would most benefit your daily routine or future plans.",
-        "description": "Popular finished basement uses include extra bedrooms, home offices, entertainment rooms, gyms, or play areas. Choose based on your family's specific needs."
-      }
-    }
-  ],
+  "name": "What are the most popular uses for a finished basement?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the most popular uses for a finished basement?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Finished basements offer versatile living spaces that can significantly enhance your home's functionality. Popular uses include creating an extra bedroom, a home office, a family entertainment room, a home gym, or a dedicated play area for children. The best use for your basement will depend on your family's specific needs and lifestyle. Consider what additional space would most benefit your daily routine or future plans.",
+        "@type": "Answer",
+        "description": "Popular finished basement uses include extra bedrooms, home offices, entertainment rooms, gyms, or play areas. Choose based on your family's specific needs."
+      }
+    }
+  ],
+  "description": "Popular finished basement uses include extra bedrooms, home offices, entertainment rooms, gyms, or play areas. Choose based on your family's specific needs."
 }

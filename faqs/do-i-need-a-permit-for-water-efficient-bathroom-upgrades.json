@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for water-efficient bathroom upgrades?",
-  "description": "Permit needs depend on project scope; simple fixture replacements usually don't need permits, but altering plumbing or structural changes may, especially in are",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-water-efficient-bathroom-upgrades",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for water-efficient bathroom upgrades?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Permit requirements for water-efficient bathroom upgrades depend on the nature and extent of the work. Simple fixture replacements, such as changing a showerhead or faucet, typically do not require permits. However, more extensive projects involving altering plumbing lines, relocating fixtures, or significant structural changes might necessitate a permit in areas like Alameda or Berkeley. We can advise on permit needs for your specific project.",
-        "description": "Permit needs depend on project scope; simple fixture replacements usually don't need permits, but altering plumbing or structural changes may, especially in areas like Alameda."
-      }
-    }
-  ],
+  "name": "Do I need a permit for water-efficient bathroom upgrades?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for water-efficient bathroom upgrades?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Permit requirements for water-efficient bathroom upgrades depend on the nature and extent of the work. Simple fixture replacements, such as changing a showerhead or faucet, typically do not require permits. However, more extensive projects involving altering plumbing lines, relocating fixtures, or significant structural changes might necessitate a permit in areas like Alameda or Berkeley. We can advise on permit needs for your specific project.",
+        "@type": "Answer",
+        "description": "Permit needs depend on project scope; simple fixture replacements usually don't need permits, but altering plumbing or structural changes may, especially in areas like Alameda."
+      }
+    }
+  ],
+  "description": "Permit needs depend on project scope; simple fixture replacements usually don't need permits, but altering plumbing or structural changes may, especially in are"
 }

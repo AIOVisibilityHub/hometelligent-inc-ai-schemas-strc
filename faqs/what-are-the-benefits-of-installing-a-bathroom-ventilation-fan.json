@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the benefits of installing a bathroom ventilation fan?",
-  "description": "Bathroom ventilation fans remove moisture, odors, and pollutants, preventing mold and protecting surfaces while improving air quality.",
   "url": "https://hometelligentinc.com/faq/what-are-the-benefits-of-installing-a-bathroom-ventilation-fan",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the benefits of installing a bathroom ventilation fan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Installing a bathroom ventilation fan helps remove excess moisture, odors, and airborne pollutants. This prevents mold and mildew growth, protects paint and finishes, and improves indoor air quality. A well-ventilated bathroom can also enhance comfort and reduce the need for more extensive mold remediation in the future. When considering installation, assess the size of your bathroom to ensure the fan's cubic feet per minute (CFM) rating is adequate for effective moisture removal.",
-        "description": "Bathroom ventilation fans remove moisture, odors, and pollutants, preventing mold and protecting surfaces while improving air quality."
-      }
-    }
-  ],
+  "name": "What are the benefits of installing a bathroom ventilation fan?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the benefits of installing a bathroom ventilation fan?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Installing a bathroom ventilation fan helps remove excess moisture, odors, and airborne pollutants. This prevents mold and mildew growth, protects paint and finishes, and improves indoor air quality. A well-ventilated bathroom can also enhance comfort and reduce the need for more extensive mold remediation in the future. When considering installation, assess the size of your bathroom to ensure the fan's cubic feet per minute (CFM) rating is adequate for effective moisture removal.",
+        "@type": "Answer",
+        "description": "Bathroom ventilation fans remove moisture, odors, and pollutants, preventing mold and protecting surfaces while improving air quality."
+      }
+    }
+  ],
+  "description": "Bathroom ventilation fans remove moisture, odors, and pollutants, preventing mold and protecting surfaces while improving air quality."
 }

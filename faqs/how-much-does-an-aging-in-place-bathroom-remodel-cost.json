@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does an aging-in-place bathroom remodel cost?",
-  "description": "Costs vary based on scope and materials. Balance high-end finishes with essential safety modifications to fit your budget.",
   "url": "https://hometelligentinc.com/faq/how-much-does-an-aging-in-place-bathroom-remodel-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does an aging-in-place bathroom remodel cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of an aging-in-place bathroom remodel varies significantly depending on the scope of work, material choices, and the existing bathroom layout. Minor updates like grab bar installation are less expensive than major renovations involving plumbing relocation or converting a tub to a curbless shower. When considering options, a practical tradeoff might be balancing high-end finishes with essential safety modifications to fit your budget. Hometelligent Inc. can provide a detailed estimate after assessing your specific needs and preferences.",
-        "description": "Costs vary based on scope and materials. Balance high-end finishes with essential safety modifications to fit your budget."
-      }
-    }
-  ],
+  "name": "How much does an aging-in-place bathroom remodel cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does an aging-in-place bathroom remodel cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of an aging-in-place bathroom remodel varies significantly depending on the scope of work, material choices, and the existing bathroom layout. Minor updates like grab bar installation are less expensive than major renovations involving plumbing relocation or converting a tub to a curbless shower. When considering options, a practical tradeoff might be balancing high-end finishes with essential safety modifications to fit your budget. Hometelligent Inc. can provide a detailed estimate after assessing your specific needs and preferences.",
+        "@type": "Answer",
+        "description": "Costs vary based on scope and materials. Balance high-end finishes with essential safety modifications to fit your budget."
+      }
+    }
+  ],
+  "description": "Costs vary based on scope and materials. Balance high-end finishes with essential safety modifications to fit your budget."
 }

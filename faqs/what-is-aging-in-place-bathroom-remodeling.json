@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is aging-in-place bathroom remodeling?",
-  "description": "Aging-in-place remodeling adapts bathrooms for safety and accessibility as individuals age, incorporating features like grab bars and curbless showers.",
   "url": "https://hometelligentinc.com/faq/what-is-aging-in-place-bathroom-remodeling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is aging-in-place bathroom remodeling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Aging-in-place bathroom remodeling involves modifying a bathroom to ensure it remains safe and accessible for individuals as they age or experience changes in mobility. This can include installing grab bars, curbless showers, wider doorways, comfort-height toilets, and improved lighting to prevent falls and enhance independence. Hometelligent Inc. focuses on creating functional and aesthetically pleasing designs that integrate these features seamlessly into your home in areas like Alameda, Albany, and Berkeley.",
-        "description": "Aging-in-place remodeling adapts bathrooms for safety and accessibility as individuals age, incorporating features like grab bars and curbless showers."
-      }
-    }
-  ],
+  "name": "What is aging-in-place bathroom remodeling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is aging-in-place bathroom remodeling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Aging-in-place bathroom remodeling involves modifying a bathroom to ensure it remains safe and accessible for individuals as they age or experience changes in mobility. This can include installing grab bars, curbless showers, wider doorways, comfort-height toilets, and improved lighting to prevent falls and enhance independence. Hometelligent Inc. focuses on creating functional and aesthetically pleasing designs that integrate these features seamlessly into your home in areas like Alameda, Albany, and Berkeley.",
+        "@type": "Answer",
+        "description": "Aging-in-place remodeling adapts bathrooms for safety and accessibility as individuals age, incorporating features like grab bars and curbless showers."
+      }
+    }
+  ],
+  "description": "Aging-in-place remodeling adapts bathrooms for safety and accessibility as individuals age, incorporating features like grab bars and curbless showers."
 }

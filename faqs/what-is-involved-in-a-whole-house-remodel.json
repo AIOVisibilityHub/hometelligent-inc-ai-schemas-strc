@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a whole-house remodel?",
-  "description": "A whole-house remodel updates multiple areas of your home, involving structural changes, layout reconfigurations, and aesthetic upgrades. It requires detailed p",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-whole-house-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a whole-house remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A whole-house remodel involves updating multiple areas of your home simultaneously, typically including structural changes, reconfiguring layouts, and significant aesthetic upgrades. This can range from modernizing kitchens and bathrooms to adding living space or improving energy efficiency. The scope of a whole-house remodel often requires detailed planning and coordination across various trades like demolition, framing, plumbing, electrical, and finishes. Preparation involves assessing your current home's condition and identifying specific goals for each area to ensure a cohesive final design.",
-        "description": "A whole-house remodel updates multiple areas of your home, involving structural changes, layout reconfigurations, and aesthetic upgrades. It requires detailed planning and coordination across various construction trades."
-      }
-    }
-  ],
+  "name": "What is involved in a whole-house remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a whole-house remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A whole-house remodel involves updating multiple areas of your home simultaneously, typically including structural changes, reconfiguring layouts, and significant aesthetic upgrades. This can range from modernizing kitchens and bathrooms to adding living space or improving energy efficiency. The scope of a whole-house remodel often requires detailed planning and coordination across various trades like demolition, framing, plumbing, electrical, and finishes. Preparation involves assessing your current home's condition and identifying specific goals for each area to ensure a cohesive final design.",
+        "@type": "Answer",
+        "description": "A whole-house remodel updates multiple areas of your home, involving structural changes, layout reconfigurations, and aesthetic upgrades. It requires detailed planning and coordination across various construction trades."
+      }
+    }
+  ],
+  "description": "A whole-house remodel updates multiple areas of your home, involving structural changes, layout reconfigurations, and aesthetic upgrades. It requires detailed p"
 }

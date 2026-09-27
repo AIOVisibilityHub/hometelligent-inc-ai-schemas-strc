@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for a complete home renovation?",
-  "description": "Choose a contractor by reviewing their portfolio, checking references, verifying licenses and insurance, and assessing communication. Hometelligent Inc. recomme",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-a-complete-home-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for a complete home renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right contractor for a complete home renovation involves reviewing their portfolio, checking references, ensuring they are licensed and insured, and assessing their communication style. Look for experience with projects similar to yours and a clear understanding of your vision and budget. For Hometelligent Inc., serving the East Bay, we emphasize transparent communication and a detailed proposal process. We encourage clients to compare bids thoroughly, not just on price but also on scope clarity, proposed timeline, and the contractor's reputation for quality and customer service, including projects completed in specific cities like Dublin or Pleasanton.",
-        "description": "Choose a contractor by reviewing their portfolio, checking references, verifying licenses and insurance, and assessing communication. Hometelligent Inc. recommends comparing bids based on scope, timeline, and reputation."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for a complete home renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for a complete home renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right contractor for a complete home renovation involves reviewing their portfolio, checking references, ensuring they are licensed and insured, and assessing their communication style. Look for experience with projects similar to yours and a clear understanding of your vision and budget. For Hometelligent Inc., serving the East Bay, we emphasize transparent communication and a detailed proposal process. We encourage clients to compare bids thoroughly, not just on price but also on scope clarity, proposed timeline, and the contractor's reputation for quality and customer service, including projects completed in specific cities like Dublin or Pleasanton.",
+        "@type": "Answer",
+        "description": "Choose a contractor by reviewing their portfolio, checking references, verifying licenses and insurance, and assessing communication. Hometelligent Inc. recommends comparing bids based on scope, timeline, and reputation."
+      }
+    }
+  ],
+  "description": "Choose a contractor by reviewing their portfolio, checking references, verifying licenses and insurance, and assessing communication. Hometelligent Inc. recomme"
 }

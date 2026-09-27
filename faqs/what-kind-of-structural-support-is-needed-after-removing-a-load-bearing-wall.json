@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What kind of structural support is needed after removing a load-bearing wall?",
-  "description": "A new steel or engineered wood beam, supported by posts, replaces the removed wall to carry structural loads. An engineer determines its specifications.",
   "url": "https://hometelligentinc.com/faq/what-kind-of-structural-support-is-needed-after-removing-a-load-bearing-wall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What kind of structural support is needed after removing a load-bearing wall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After removing a load-bearing wall, a new structural element, typically a steel or engineered wood beam, is installed to carry the weight previously supported by the wall. This beam transfers the load to new or existing posts, which then transfer it to the foundation. The specific type and size of the beam, along with any necessary column or footing upgrades, are determined by a structural engineer based on the loads involved.",
-        "description": "A new steel or engineered wood beam, supported by posts, replaces the removed wall to carry structural loads. An engineer determines its specifications."
-      }
-    }
-  ],
+  "name": "What kind of structural support is needed after removing a load-bearing wall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What kind of structural support is needed after removing a load-bearing wall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "After removing a load-bearing wall, a new structural element, typically a steel or engineered wood beam, is installed to carry the weight previously supported by the wall. This beam transfers the load to new or existing posts, which then transfer it to the foundation. The specific type and size of the beam, along with any necessary column or footing upgrades, are determined by a structural engineer based on the loads involved.",
+        "@type": "Answer",
+        "description": "A new steel or engineered wood beam, supported by posts, replaces the removed wall to carry structural loads. An engineer determines its specifications."
+      }
+    }
+  ],
+  "description": "A new steel or engineered wood beam, supported by posts, replaces the removed wall to carry structural loads. An engineer determines its specifications."
 }

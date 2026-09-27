@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider for a quiet bathroom ventilation fan?",
-  "description": "For a quiet bathroom fan, choose models with a low Sones rating (1.0 or less) and ensure proper installation with adequately sized fans and insulated ductwork.",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-for-a-quiet-bathroom-ventilation-fan",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider for a quiet bathroom ventilation fan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To achieve a quiet bathroom ventilation fan, look for models with a low Sones rating. Sones measure the loudness of a fan, with lower numbers indicating quieter operation. A rating of 1.0 sone or less is generally considered very quiet. Other factors include selecting a fan with a sufficient CFM for your bathroom size to avoid overworking a smaller, louder unit, and ensuring proper installation with insulated ductwork to minimize noise transmission. We prioritize quiet operation during our fan selection and installation process.",
-        "description": "For a quiet bathroom fan, choose models with a low Sones rating (1.0 or less) and ensure proper installation with adequately sized fans and insulated ductwork."
-      }
-    }
-  ],
+  "name": "What should I consider for a quiet bathroom ventilation fan?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider for a quiet bathroom ventilation fan?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To achieve a quiet bathroom ventilation fan, look for models with a low Sones rating. Sones measure the loudness of a fan, with lower numbers indicating quieter operation. A rating of 1.0 sone or less is generally considered very quiet. Other factors include selecting a fan with a sufficient CFM for your bathroom size to avoid overworking a smaller, louder unit, and ensuring proper installation with insulated ductwork to minimize noise transmission. We prioritize quiet operation during our fan selection and installation process.",
+        "@type": "Answer",
+        "description": "For a quiet bathroom fan, choose models with a low Sones rating (1.0 or less) and ensure proper installation with adequately sized fans and insulated ductwork."
+      }
+    }
+  ],
+  "description": "For a quiet bathroom fan, choose models with a low Sones rating (1.0 or less) and ensure proper installation with adequately sized fans and insulated ductwork."
 }

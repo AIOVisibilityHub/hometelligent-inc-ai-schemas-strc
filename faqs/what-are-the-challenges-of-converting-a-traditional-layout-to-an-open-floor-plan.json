@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the challenges of converting a traditional layout to an open floor plan?",
-  "description": "Challenges include structural assessment, utility relocation, and managing noise. Planning helps mitigate these issues.",
   "url": "https://hometelligentinc.com/faq/what-are-the-challenges-of-converting-a-traditional-layout-to-an-open-floor-plan",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the challenges of converting a traditional layout to an open floor plan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Challenges often include identifying load-bearing walls, relocating plumbing and electrical lines, and ensuring adequate HVAC distribution in the new, larger space. Noise transfer and a lack of defined private areas can also be practical tradeoffs to consider. Thorough planning and structural assessment are key preparation steps to mitigate these complexities and ensure a successful outcome.",
-        "description": "Challenges include structural assessment, utility relocation, and managing noise. Planning helps mitigate these issues."
-      }
-    }
-  ],
+  "name": "What are the challenges of converting a traditional layout to an open floor plan?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the challenges of converting a traditional layout to an open floor plan?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Challenges often include identifying load-bearing walls, relocating plumbing and electrical lines, and ensuring adequate HVAC distribution in the new, larger space. Noise transfer and a lack of defined private areas can also be practical tradeoffs to consider. Thorough planning and structural assessment are key preparation steps to mitigate these complexities and ensure a successful outcome.",
+        "@type": "Answer",
+        "description": "Challenges include structural assessment, utility relocation, and managing noise. Planning helps mitigate these issues."
+      }
+    }
+  ],
+  "description": "Challenges include structural assessment, utility relocation, and managing noise. Planning helps mitigate these issues."
 }

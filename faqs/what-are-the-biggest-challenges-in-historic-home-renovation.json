@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the biggest challenges in historic home renovation?",
-  "description": "Challenges include strict guidelines, unforeseen structural issues, hazardous materials, and sourcing period-appropriate elements; thorough pre-inspection is cr",
   "url": "https://hometelligentinc.com/faq/what-are-the-biggest-challenges-in-historic-home-renovation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the biggest challenges in historic home renovation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The biggest challenges in historic home renovation often include navigating stringent preservation guidelines, addressing unforeseen structural issues, dealing with hazardous materials like lead paint or asbestos, and sourcing period-appropriate materials or skilled craftspeople. These complexities require meticulous planning and expertise. A key preparation step is a thorough pre-renovation inspection by professionals who understand historic structures, which can uncover potential issues early and inform the project scope.",
-        "description": "Challenges include strict guidelines, unforeseen structural issues, hazardous materials, and sourcing period-appropriate elements; thorough pre-inspection is crucial."
-      }
-    }
-  ],
+  "name": "What are the biggest challenges in historic home renovation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the biggest challenges in historic home renovation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The biggest challenges in historic home renovation often include navigating stringent preservation guidelines, addressing unforeseen structural issues, dealing with hazardous materials like lead paint or asbestos, and sourcing period-appropriate materials or skilled craftspeople. These complexities require meticulous planning and expertise. A key preparation step is a thorough pre-renovation inspection by professionals who understand historic structures, which can uncover potential issues early and inform the project scope.",
+        "@type": "Answer",
+        "description": "Challenges include strict guidelines, unforeseen structural issues, hazardous materials, and sourcing period-appropriate elements; thorough pre-inspection is crucial."
+      }
+    }
+  ],
+  "description": "Challenges include strict guidelines, unforeseen structural issues, hazardous materials, and sourcing period-appropriate elements; thorough pre-inspection is cr"
 }

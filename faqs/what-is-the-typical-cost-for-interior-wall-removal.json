@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for interior wall removal?",
-  "description": "Interior wall removal costs vary by load-bearing status, size, materials, and utility rerouting. Hometelligent Inc. provides detailed estimates after an on-site",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-interior-wall-removal",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for interior wall removal?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of interior wall removal varies significantly based on several factors, including whether the wall is load-bearing, its size, the materials it's constructed from, and the complexity of rerouting utilities. Non-load-bearing walls are generally less expensive to remove. Additional costs may arise from structural modifications like installing a support beam, patching and painting, and debris disposal. A detailed on-site assessment by Hometelligent Inc. provides an accurate estimate tailored to your specific project scope.",
-        "description": "Interior wall removal costs vary by load-bearing status, size, materials, and utility rerouting. Hometelligent Inc. provides detailed estimates after an on-site assessment."
-      }
-    }
-  ],
+  "name": "What is the typical cost for interior wall removal?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for interior wall removal?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of interior wall removal varies significantly based on several factors, including whether the wall is load-bearing, its size, the materials it's constructed from, and the complexity of rerouting utilities. Non-load-bearing walls are generally less expensive to remove. Additional costs may arise from structural modifications like installing a support beam, patching and painting, and debris disposal. A detailed on-site assessment by Hometelligent Inc. provides an accurate estimate tailored to your specific project scope.",
+        "@type": "Answer",
+        "description": "Interior wall removal costs vary by load-bearing status, size, materials, and utility rerouting. Hometelligent Inc. provides detailed estimates after an on-site assessment."
+      }
+    }
+  ],
+  "description": "Interior wall removal costs vary by load-bearing status, size, materials, and utility rerouting. Hometelligent Inc. provides detailed estimates after an on-site"
 }

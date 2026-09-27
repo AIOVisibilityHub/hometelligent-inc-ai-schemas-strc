@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost range for an accessible bathroom remodel?",
-  "description": "Cost varies widely based on project scope, materials, and structural changes. Minor modifications are less expensive than full renovations. Detailed estimates a",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-range-for-an-accessible-bathroom-remodel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost range for an accessible bathroom remodel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of an accessible bathroom remodel varies significantly depending on the scope of work, material selections, and necessary structural changes. Minor modifications like grab bar installation are less costly than a full renovation involving curbless showers, wider doorways, and new fixtures. Hometelligent Inc. offers detailed estimates after an initial assessment, helping homeowners understand the investment required for their specific accessibility needs and desired features.",
-        "description": "Cost varies widely based on project scope, materials, and structural changes. Minor modifications are less expensive than full renovations. Detailed estimates are provided after an assessment."
-      }
-    }
-  ],
+  "name": "What is the typical cost range for an accessible bathroom remodel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost range for an accessible bathroom remodel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of an accessible bathroom remodel varies significantly depending on the scope of work, material selections, and necessary structural changes. Minor modifications like grab bar installation are less costly than a full renovation involving curbless showers, wider doorways, and new fixtures. Hometelligent Inc. offers detailed estimates after an initial assessment, helping homeowners understand the investment required for their specific accessibility needs and desired features.",
+        "@type": "Answer",
+        "description": "Cost varies widely based on project scope, materials, and structural changes. Minor modifications are less expensive than full renovations. Detailed estimates are provided after an assessment."
+      }
+    }
+  ],
+  "description": "Cost varies widely based on project scope, materials, and structural changes. Minor modifications are less expensive than full renovations. Detailed estimates a"
 }

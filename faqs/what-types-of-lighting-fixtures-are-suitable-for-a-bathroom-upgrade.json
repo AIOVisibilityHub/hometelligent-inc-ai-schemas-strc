@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of lighting fixtures are suitable for a bathroom upgrade?",
-  "description": "Suitable bathroom lighting fixtures include vanity lights, recessed lights, and decorative sconces. Consider the IP rating for safety, especially near water sou",
   "url": "https://hometelligentinc.com/faq/what-types-of-lighting-fixtures-are-suitable-for-a-bathroom-upgrade",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of lighting fixtures are suitable for a bathroom upgrade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a bathroom lighting upgrade, suitable fixtures include vanity lights for task lighting, recessed lights for ambient illumination, and decorative sconces or chandeliers for accent. When considering your upgrade, factor in the IP (Ingress Protection) rating of fixtures, especially for areas near water sources like showers and tubs. Hometelligent Inc. considers the moisture levels in your specific bathroom zones to ensure compliant and safe installations.",
-        "description": "Suitable bathroom lighting fixtures include vanity lights, recessed lights, and decorative sconces. Consider the IP rating for safety, especially near water sources."
-      }
-    }
-  ],
+  "name": "What types of lighting fixtures are suitable for a bathroom upgrade?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of lighting fixtures are suitable for a bathroom upgrade?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For a bathroom lighting upgrade, suitable fixtures include vanity lights for task lighting, recessed lights for ambient illumination, and decorative sconces or chandeliers for accent. When considering your upgrade, factor in the IP (Ingress Protection) rating of fixtures, especially for areas near water sources like showers and tubs. Hometelligent Inc. considers the moisture levels in your specific bathroom zones to ensure compliant and safe installations.",
+        "@type": "Answer",
+        "description": "Suitable bathroom lighting fixtures include vanity lights, recessed lights, and decorative sconces. Consider the IP rating for safety, especially near water sources."
+      }
+    }
+  ],
+  "description": "Suitable bathroom lighting fixtures include vanity lights, recessed lights, and decorative sconces. Consider the IP rating for safety, especially near water sou"
 }
