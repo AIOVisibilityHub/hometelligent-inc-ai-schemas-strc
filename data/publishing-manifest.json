@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-09-27T00:43:09.100Z",
+  "generatedAt": "2026-09-27T05:06:50.598Z",
   "client": {
     "name": "Hometelligent Inc.",
     "canonicalUrl": "https://hometelligentinc.aiovisibility.net",
@@ -795,24 +795,24 @@
     ]
   },
   "package": {
-    "totalFiles": 3599,
-    "totalBytes": 11701389,
+    "totalFiles": 3841,
+    "totalBytes": 17510387,
     "stats": {
-      "qna": 0,
       "faqs": 3564,
-      "press": 5,
-      "total": 3579,
-      "awards": 0,
-      "reviews": 0,
-      "products": 0,
-      "research": 0,
+      "helpArticles": 239,
       "services": 1,
       "webpages": 0,
-      "locations": 1,
       "personnel": 2,
+      "products": 0,
+      "locations": 1,
+      "awards": 0,
       "caseStudies": 0,
-      "helpArticles": 0,
-      "organization": 1
+      "organization": 1,
+      "press": 5,
+      "reviews": 0,
+      "qna": 0,
+      "research": 0,
+      "total": 3813
     }
   },
   "entrypoints": {
@@ -875,31 +875,6 @@
       },
       {
         "path": "press/redwood-credit-union-home-services-contractor-program.json",
-        "bytes": 402,
-        "purpose": "schema"
-      },
-      {
-        "path": "press/best-of-houzz-press-release-11.json",
-        "bytes": 371,
-        "purpose": "schema"
-      },
-      {
-        "path": "press/diamond-certified-press-release-12.json",
-        "bytes": 395,
-        "purpose": "schema"
-      },
-      {
-        "path": "press/owner-s-indexed-copy-of-houzz-13.json",
-        "bytes": 392,
-        "purpose": "schema"
-      },
-      {
-        "path": "press/patch-albany-business-listing-promotion-14.json",
-        "bytes": 348,
-        "purpose": "schema"
-      },
-      {
-        "path": "press/redwood-credit-union-home-services-contractor-program-15.json",
         "bytes": 402,
         "purpose": "schema"
       }
@@ -18733,35 +18708,1272 @@
         "purpose": "schema"
       }
     ],
+    "help": [
+      {
+        "path": "help/choosing-the-right-adu-builder-what-to-look-for.json",
+        "bytes": 18190,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-permits-in-alameda-county-what-to-know.json",
+        "bytes": 17861,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-pitfalls-in-your-adu-construction-project.json",
+        "bytes": 18397,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/understanding-the-cost-of-your-detached-adu-key-factors.json",
+        "bytes": 18519,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/getting-started-with-your-detached-adu-project-what-to-prepare.json",
+        "bytes": 19616,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-to-consider-a-detached-adu-vs-an-attached-one.json",
+        "bytes": 18653,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/attached-adu-construction-is-your-home-a-good-candidate.json",
+        "bytes": 18055,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-permits-for-your-attached-adu-a-homeowner-s-guide.json",
+        "bytes": 18039,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-you-need-a-pro-for-your-attached-adu-signs-to-look-for.json",
+        "bytes": 18381,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/backyard-cottage-construction-avoiding-common-pitfalls.json",
+        "bytes": 18496,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/understanding-site-constraints-for-your-backyard-cottage-project.json",
+        "bytes": 18128,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/budgeting-for-your-backyard-cottage-beyond-the-building-costs.json",
+        "bytes": 18165,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-garage-to-an-adu-what-to-ask-before-you-hire.json",
+        "bytes": 18246,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/thinking-about-a-garage-adu-common-mistakes-to-avoid.json",
+        "bytes": 18722,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/garage-conversion-adus-when-to-get-professional-help.json",
+        "bytes": 18747,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-garage-to-living-space-questions-to-ask-about-permits.json",
+        "bytes": 18728,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/garage-to-living-space-conversion-what-to-prepare-before-you-start.json",
+        "bytes": 18582,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-won-t-my-garage-convert-easily-to-living-space.json",
+        "bytes": 18812,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/basement-adu-conversions-when-to-get-expert-help.json",
+        "bytes": 18707,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-basement-to-an-adu-what-to-know-before-you-start.json",
+        "bytes": 18621,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/your-basement-adu-conversion-checklist.json",
+        "bytes": 20210,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/planning-an-in-law-suite-key-decisions-to-make-upfront.json",
+        "bytes": 18545,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adding-an-in-law-suite-understanding-the-permit-process.json",
+        "bytes": 18492,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/in-law-suite-construction-avoiding-common-pitfalls.json",
+        "bytes": 18946,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/considering-a-guest-house-what-to-prepare-before-you-start.json",
+        "bytes": 18261,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/guest-house-construction-how-to-navigate-the-permit-process.json",
+        "bytes": 19207,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/hiring-a-guest-house-contractor-what-to-ask-before-you-decide.json",
+        "bytes": 19122,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/considering-a-granny-flat-how-to-avoid-costly-mistakes.json",
+        "bytes": 19213,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-is-professional-guidance-crucial-for-your-granny-flat-project.json",
+        "bytes": 19437,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/comparing-granny-flats-what-to-look-for-in-a-contractor.json",
+        "bytes": 19515,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-the-right-adu-type-for-your-property.json",
+        "bytes": 18304,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-permitting-for-your-accessory-dwelling-unit.json",
+        "bytes": 18691,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/getting-your-adu-project-started-a-step-by-step-guide.json",
+        "bytes": 22307,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-multigenerational-suite-needs-professional-design.json",
+        "bytes": 18725,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/multigenerational-living-suite-vs-adu-which-is-right-for-you.json",
+        "bytes": 18962,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-prepare-before-designing-your-multigenerational-suite.json",
+        "bytes": 19201,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-an-adu-architectural-planning-service-what-to-ask.json",
+        "bytes": 17612,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adu-architectural-planning-common-mistakes-to-avoid.json",
+        "bytes": 18014,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/deciding-on-an-adu-design-pre-designed-vs-custom-plans.json",
+        "bytes": 18186,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-isn-t-my-adu-permit-application-moving-forward.json",
+        "bytes": 17563,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-permit-requirements-a-step-by-step-guide.json",
+        "bytes": 18810,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-to-get-professional-help-with-adu-permit-coordination.json",
+        "bytes": 18679,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-feasibility-what-to-know-before-you-build.json",
+        "bytes": 18083,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-costly-mistakes-in-your-adu-feasibility-study.json",
+        "bytes": 18382,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-expect-when-planning-your-adu-site.json",
+        "bytes": 18609,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-an-adu-feasibility-consultant-questions-to-ask.json",
+        "bytes": 18430,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/planning-your-adu-site-key-considerations.json",
+        "bytes": 18647,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/selecting-an-adu-site-planner-key-considerations.json",
+        "bytes": 18816,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-the-right-adu-builder-what-to-ask-before-you-commit.json",
+        "bytes": 18373,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-permits-in-albany-what-homeowners-need-to-know.json",
+        "bytes": 19082,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-a-garage-to-an-adu-when-professional-help-is-key.json",
+        "bytes": 18956,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/siting-your-detached-adu-avoiding-common-mistakes.json",
+        "bytes": 18896,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/detached-adu-construction-what-affects-your-project-timeline.json",
+        "bytes": 18104,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/understanding-detached-adu-costs-what-to-look-for-in-a-quote.json",
+        "bytes": 19324,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/attached-adu-construction-what-to-consider-before-you-build.json",
+        "bytes": 18433,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-attached-adu-estimate-might-be-too-low.json",
+        "bytes": 18394,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/attached-adu-construction-a-step-by-step-guide-to-success.json",
+        "bytes": 21256,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/backyard-cottage-construction-is-your-lot-ready.json",
+        "bytes": 18301,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-mistakes-in-backyard-cottage-permitting.json",
+        "bytes": 18299,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/backyard-cottage-construction-what-to-ask-before-you-decide.json",
+        "bytes": 18241,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-garage-to-an-adu-what-to-expect-with-permits.json",
+        "bytes": 18401,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-garage-conversion-adu-might-need-an-expert.json",
+        "bytes": 18700,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-regulatory-hurdles-for-your-garage-conversion-adu.json",
+        "bytes": 18791,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/garage-to-living-space-when-to-hire-a-pro-vs-diy.json",
+        "bytes": 18807,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/garage-to-living-space-conversions-avoiding-common-pitfalls.json",
+        "bytes": 18826,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/is-your-garage-ready-for-a-living-space-conversion-a-checklist.json",
+        "bytes": 21603,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/basement-adu-conversion-is-your-home-eligible.json",
+        "bytes": 18646,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-a-basement-to-an-adu-mistakes-to-avoid.json",
+        "bytes": 19097,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/hiring-for-basement-adu-conversion-questions-to-ask-your-contractor.json",
+        "bytes": 19019,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/considering-an-in-law-suite-what-are-your-options.json",
+        "bytes": 18516,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/building-an-in-law-suite-what-to-expect-during-the-process.json",
+        "bytes": 20978,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-a-contractor-for-your-in-law-suite-how-to-compare-options.json",
+        "bytes": 19162,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/guest-house-construction-how-to-plan-for-permits-and-regulations.json",
+        "bytes": 17852,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/granny-flat-construction-avoiding-common-site-and-utility-mistakes.json",
+        "bytes": 17941,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/considering-a-guest-house-what-to-know-about-timing-your-project.json",
+        "bytes": 18530,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/building-a-granny-flat-how-to-choose-the-right-approval-pathway.json",
+        "bytes": 18079,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/guest-house-project-planning-key-steps-for-a-smooth-start.json",
+        "bytes": 18900,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/granny-flat-budgeting-what-costs-are-easy-to-overlook.json",
+        "bytes": 18831,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/multigenerational-suite-design-avoiding-common-pitfalls.json",
+        "bytes": 18826,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-do-you-need-professional-help-for-multigenerational-suite-construction.json",
+        "bytes": 19563,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/is-a-multigenerational-suite-right-for-my-family-a-q-a.json",
+        "bytes": 19640,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/accessory-dwelling-unit-construction-what-affects-your-project-timeline.json",
+        "bytes": 18060,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-regulations-common-mistakes-to-avoid.json",
+        "bytes": 19679,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-an-adu-contractor-what-to-look-for-in-experience.json",
+        "bytes": 19584,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-architectural-planning-when-to-bring-in-the-experts.json",
+        "bytes": 18047,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/common-pitfalls-in-adu-architectural-planning-and-how-to-sidestep-them.json",
+        "bytes": 18401,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-your-adu-architectural-plan-custom-vs-pre-designed.json",
+        "bytes": 18752,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-expect-during-the-adu-permit-coordination-process.json",
+        "bytes": 18575,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-adu-permit-application-might-get-delayed.json",
+        "bytes": 18288,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/deciding-on-professional-help-for-adu-permit-coordination.json",
+        "bytes": 18431,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-an-adu-feasibility-consultant-what-to-look-for.json",
+        "bytes": 18516,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/property-obstacles-affecting-your-adu-feasibility.json",
+        "bytes": 17902,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/how-to-get-started-with-adu-feasibility-for-your-adu.json",
+        "bytes": 20251,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/preparing-for-adu-site-planning-what-you-need-to-know.json",
+        "bytes": 18030,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adu-site-planning-when-to-bring-in-a-professional.json",
+        "bytes": 18683,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/understanding-your-property-for-adu-site-planning.json",
+        "bytes": 20542,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-adu-construction-project-might-be-delayed.json",
+        "bytes": 18117,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/planning-your-adu-construction-key-steps-to-success.json",
+        "bytes": 18007,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-common-pitfalls-in-adu-construction.json",
+        "bytes": 17952,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/deciding-on-an-adu-attached-vs-detached.json",
+        "bytes": 18261,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/detached-adu-construction-what-to-consider-for-your-property.json",
+        "bytes": 18124,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/understanding-detached-adu-site-challenges.json",
+        "bytes": 18180,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/attached-adu-construction-is-it-right-for-my-property.json",
+        "bytes": 18525,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-attached-adu-permitting-a-step-by-step-guide.json",
+        "bytes": 20999,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-garage-into-an-attached-adu-what-to-know.json",
+        "bytes": 18543,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/backyard-cottage-construction-what-are-the-site-requirements.json",
+        "bytes": 18918,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/detached-adu-construction-understanding-utility-connections.json",
+        "bytes": 18749,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/backyard-cottage-project-when-to-call-an-expert.json",
+        "bytes": 19310,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-garage-to-an-adu-what-to-know-before-you-start.json",
+        "bytes": 18611,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/garage-adu-conversion-common-mistakes-to-avoid.json",
+        "bytes": 19235,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/is-your-garage-a-candidate-for-an-adu-conversion.json",
+        "bytes": 18375,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/getting-started-with-your-garage-to-living-space-conversion.json",
+        "bytes": 19740,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/turning-your-garage-into-habitable-space-do-you-need-a-permit.json",
+        "bytes": 19242,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/garage-conversion-project-when-to-bring-in-a-professional.json",
+        "bytes": 19661,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-basement-what-makes-it-legally-habitable.json",
+        "bytes": 18586,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/basement-adu-conversions-avoiding-common-approval-mistakes.json",
+        "bytes": 18776,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/considering-a-basement-adu-when-to-bring-in-the-experts.json",
+        "bytes": 18457,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/in-law-suite-construction-when-does-it-need-separate-permits.json",
+        "bytes": 18913,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/planning-an-in-law-suite-what-to-ask-your-contractor.json",
+        "bytes": 18563,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-in-law-suite-regulations-key-differences-to-understand.json",
+        "bytes": 18541,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/guest-house-construction-what-to-consider-before-you-build.json",
+        "bytes": 17668,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-costly-mistakes-in-your-guest-house-project.json",
+        "bytes": 18012,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-ask-before-hiring-a-guest-house-contractor.json",
+        "bytes": 18627,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/is-a-granny-flat-right-for-your-property-understanding-the-regulations.json",
+        "bytes": 17704,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/granny-flat-project-timeline-what-to-expect-from-start-to-finish.json",
+        "bytes": 19334,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-to-call-a-professional-for-your-granny-flat-project.json",
+        "bytes": 18856,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/deciding-between-shared-and-private-spaces-in-a-multigenerational-home.json",
+        "bytes": 18525,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-to-bring-in-a-pro-for-multigenerational-suite-construction.json",
+        "bytes": 18580,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/planning-for-changing-needs-in-your-multigenerational-living-suite.json",
+        "bytes": 18740,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/is-an-adu-feasible-on-your-bay-area-property.json",
+        "bytes": 18641,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-permits-what-to-expect-in-the-bay-area.json",
+        "bytes": 19003,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/hiring-an-adu-contractor-what-to-look-for.json",
+        "bytes": 18691,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adu-architectural-planning-where-to-start-your-design.json",
+        "bytes": 18784,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/mistakes-to-avoid-when-planning-your-adu-architecture.json",
+        "bytes": 19036,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-is-an-architect-essential-for-your-adu-design.json",
+        "bytes": 19632,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/speeding-up-your-adu-permit-in-alameda-county-what-to-know.json",
+        "bytes": 19751,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-permit-corrections-your-action-plan.json",
+        "bytes": 22067,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-an-adu-permit-coordinator-what-to-ask-before-you-hire.json",
+        "bytes": 19468,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/unsure-if-your-property-can-host-an-adu-get-clarity-first.json",
+        "bytes": 18185,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/decoding-adu-regulations-how-to-avoid-costly-missteps.json",
+        "bytes": 18408,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/preparing-for-your-adu-consultation-what-to-gather.json",
+        "bytes": 18273,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/where-exactly-can-my-adu-go-site-planning-essentials.json",
+        "bytes": 18375,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-the-right-adu-placement-factors-to-consider.json",
+        "bytes": 18310,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-adu-site-plan-needs-professional-input.json",
+        "bytes": 19892,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/is-an-adu-project-right-for-my-bay-area-home.json",
+        "bytes": 18166,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-construction-permits-in-albany-ca.json",
+        "bytes": 21299,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/understanding-the-costs-of-a-new-adu-in-the-east-bay.json",
+        "bytes": 18287,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/preparing-your-property-for-a-detached-adu-build.json",
+        "bytes": 19453,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-costly-mistakes-in-detached-adu-construction.json",
+        "bytes": 18944,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/key-steps-to-building-a-backyard-cottage-in-the-bay-area.json",
+        "bytes": 19923,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-permits-for-your-attached-adu-project.json",
+        "bytes": 17767,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-common-pitfalls-in-attached-adu-construction.json",
+        "bytes": 17672,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-a-contractor-for-your-attached-adu-project.json",
+        "bytes": 17646,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-consider-before-building-a-backyard-cottage.json",
+        "bytes": 17685,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/demystifying-permits-for-your-backyard-cottage-adu.json",
+        "bytes": 17905,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-unexpected-costs-in-your-backyard-cottage-project.json",
+        "bytes": 17713,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-a-garage-to-an-adu-how-to-get-started.json",
+        "bytes": 18404,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-costly-mistakes-in-your-garage-adu-project.json",
+        "bytes": 19088,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-professional-guidance-helps-with-your-garage-adu.json",
+        "bytes": 18973,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-garage-to-living-space-what-permits-do-you-need.json",
+        "bytes": 18665,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-your-garage-conversion-hits-unexpected-challenges.json",
+        "bytes": 19113,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-look-for-in-a-garage-conversion-contractor.json",
+        "bytes": 19293,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-a-basement-adu-conversion-becomes-too-complex.json",
+        "bytes": 19294,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/is-your-basement-ready-for-an-adu-conversion-a-quick-checklist.json",
+        "bytes": 22828,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-expect-during-your-basement-adu-conversion-process.json",
+        "bytes": 19963,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/making-the-call-on-your-in-law-suite-design.json",
+        "bytes": 19481,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-prepare-before-starting-your-in-law-suite-project.json",
+        "bytes": 19577,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-in-law-suite-construction-costs-more-than-you-expected.json",
+        "bytes": 19601,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/guest-house-or-adu-how-to-determine-the-right-build-for-your-property.json",
+        "bytes": 18428,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-hidden-hurdles-in-guest-house-construction.json",
+        "bytes": 19254,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-a-contractor-for-your-guest-house-project.json",
+        "bytes": 18931,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-happens-during-granny-flat-construction.json",
+        "bytes": 21831,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/granny-flat-mistakes-that-can-derail-your-project.json",
+        "bytes": 19289,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-approvals-for-your-granny-flat-what-to-know.json",
+        "bytes": 19455,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-is-my-property-ineligible-for-an-adu.json",
+        "bytes": 18096,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/how-to-plan-for-changing-needs-in-a-multigenerational-home.json",
+        "bytes": 18662,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-is-professional-guidance-essential-for-your-adu-project.json",
+        "bytes": 18734,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-are-the-common-mistakes-to-avoid-in-multigenerational-suite-planning.json",
+        "bytes": 18542,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/what-to-expect-when-adding-an-adu-to-your-property.json",
+        "bytes": 19688,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-between-an-attached-and-detached-adu.json",
+        "bytes": 19249,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-adu-architectural-plans-might-get-rejected.json",
+        "bytes": 17875,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-architectural-planning-a-step-by-step-guide.json",
+        "bytes": 19967,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-is-professional-adu-architectural-planning-essential.json",
+        "bytes": 18391,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-adu-permit-application-keeps-getting-delayed.json",
+        "bytes": 17973,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/understanding-the-adu-permit-coordination-process.json",
+        "bytes": 20249,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/selecting-an-adu-permit-coordination-specialist.json",
+        "bytes": 18669,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/how-to-prepare-for-your-adu-feasibility-consultation.json",
+        "bytes": 18665,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adu-feasibility-consultation-is-it-right-for-your-project.json",
+        "bytes": 18701,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/getting-started-with-adu-site-planning-a-step-by-step-guide.json",
+        "bytes": 19043,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-adu-site-planning-pitfalls-a-critical-checklist.json",
+        "bytes": 21799,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-is-professional-help-essential-for-adu-site-planning.json",
+        "bytes": 19115,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-an-adu-contractor-what-to-look-for.json",
+        "bytes": 18472,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/understanding-adu-costs-key-factors-to-consider.json",
+        "bytes": 18633,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-to-bring-in-a-professional-for-your-adu.json",
+        "bytes": 18669,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-mistakes-in-your-detached-adu-build.json",
+        "bytes": 18853,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/assessing-your-site-for-a-detached-adu-what-matters.json",
+        "bytes": 18795,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/detached-adu-permitting-what-to-expect.json",
+        "bytes": 19366,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/attached-adu-what-to-know-before-you-design.json",
+        "bytes": 17681,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-pitfalls-in-attached-adu-construction.json",
+        "bytes": 18038,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/attached-adu-construction-timeline-what-to-expect.json",
+        "bytes": 19478,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/backyard-cottage-construction-what-to-consider-first.json",
+        "bytes": 17888,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-permitting-for-your-backyard-cottage.json",
+        "bytes": 19449,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/backyard-cottage-construction-key-mistakes-to-sidestep.json",
+        "bytes": 18438,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-garage-to-an-adu-what-to-know-first.json",
+        "bytes": 18099,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-a-contractor-for-your-garage-conversion-adu-key-questions-to-ask.json",
+        "bytes": 18015,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/common-pitfalls-in-garage-conversion-adu-planning.json",
+        "bytes": 18930,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/planning-your-garage-to-living-space-conversion-avoiding-costly-delays.json",
+        "bytes": 17965,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-you-need-professional-help-for-your-garage-to-living-space-project.json",
+        "bytes": 18751,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/comparing-garage-adu-vs-living-space-conversion-which-is-right-for-you.json",
+        "bytes": 19743,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/converting-your-basement-to-an-adu-what-to-know-about-eligibility.json",
+        "bytes": 18177,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-a-contractor-for-your-basement-adu-what-to-look-for.json",
+        "bytes": 18206,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-basement-adu-project-needs-professional-help.json",
+        "bytes": 18457,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/planning-your-in-law-suite-defining-its-independence.json",
+        "bytes": 18366,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/selecting-a-builder-for-your-in-law-suite-key-considerations.json",
+        "bytes": 18447,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-pitfalls-when-building-your-in-law-suite.json",
+        "bytes": 17390,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/deciding-on-a-guest-house-builder-what-to-ask-for-experience.json",
+        "bytes": 18195,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-granny-flat-permits-what-to-prepare-before-you-apply.json",
+        "bytes": 18559,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/guest-house-construction-7-mistakes-to-avoid.json",
+        "bytes": 18648,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/granny-flat-permitting-a-step-by-step-timeline.json",
+        "bytes": 19499,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-your-adu-type-guest-house-vs-granny-flat-nuances.json",
+        "bytes": 19038,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/granny-flat-construction-common-mistakes-to-avoid.json",
+        "bytes": 19035,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-your-granny-flat-project-needs-professional-guidance-key-indicators.json",
+        "bytes": 18843,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/choosing-an-adu-design-what-to-consider-for-your-property.json",
+        "bytes": 18088,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/designing-a-multigenerational-home-avoiding-common-planning-mistakes.json",
+        "bytes": 18514,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/permitting-an-accessory-dwelling-unit-what-to-expect-during-the-process.json",
+        "bytes": 18526,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/integrating-accessibility-into-multigenerational-suites-a-checklist.json",
+        "bytes": 21618,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adu-feasibility-understanding-local-zoning-before-you-design.json",
+        "bytes": 18360,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/planning-a-multigenerational-suite-when-professional-guidance-helps.json",
+        "bytes": 18473,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/why-your-adu-design-might-not-fit-your-property.json",
+        "bytes": 18282,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/deciding-between-custom-vs-pre-designed-adu-plans.json",
+        "bytes": 18980,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/addressing-common-issues-during-adu-plan-review.json",
+        "bytes": 19641,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/avoiding-delays-in-your-adu-permit-process.json",
+        "bytes": 19589,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/how-to-prepare-for-your-adu-permit-application.json",
+        "bytes": 19654,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/when-to-get-expert-help-with-adu-permits.json",
+        "bytes": 19586,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adu-feasibility-is-your-bay-area-property-a-good-fit.json",
+        "bytes": 18112,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/starting-your-adu-project-steps-for-feasibility-assessment.json",
+        "bytes": 18818,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adu-feasibility-consultations-what-to-ask-your-contractor.json",
+        "bytes": 18085,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/navigating-adu-site-planning-what-to-show-on-your-plans.json",
+        "bytes": 18284,
+        "purpose": "schema"
+      },
+      {
+        "path": "help/adu-site-plan-mistakes-don-t-let-them-derail-your-project.json",
+        "bytes": 18965,
+        "purpose": "schema"
+      }
+    ],
     "public": [
       {
         "path": "index.html",
-        "bytes": 17581,
+        "bytes": 23603,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "about.html",
-        "bytes": 128594,
+        "bytes": 134421,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "services.html",
-        "bytes": 290097,
+        "bytes": 295959,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "contact.html",
-        "bytes": 21275,
+        "bytes": 26843,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "faqs.html",
-        "bytes": 2455785,
+        "bytes": 2461389,
+        "purpose": "LLM-optimized public page"
+      },
+      {
+        "path": "articles.html",
+        "bytes": 23694,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "team-members.html",
-        "bytes": 31587,
+        "bytes": 37133,
+        "purpose": "LLM-optimized public page"
+      },
+      {
+        "path": "articles/getting-started.html",
+        "bytes": 109384,
+        "purpose": "LLM-optimized public page"
+      },
+      {
+        "path": "articles/services-and-process.html",
+        "bytes": 72225,
+        "purpose": "LLM-optimized public page"
+      },
+      {
+        "path": "articles/planning-and-preparation.html",
+        "bytes": 467229,
+        "purpose": "LLM-optimized public page"
+      },
+      {
+        "path": "articles/pricing-and-estimates.html",
+        "bytes": 149389,
+        "purpose": "LLM-optimized public page"
+      },
+      {
+        "path": "articles/local-service-guidance.html",
+        "bytes": 171815,
+        "purpose": "LLM-optimized public page"
+      },
+      {
+        "path": "articles/care-and-maintenance.html",
+        "bytes": 22026,
+        "purpose": "LLM-optimized public page"
+      },
+      {
+        "path": "articles/unassigned.html",
+        "bytes": 25266,
         "purpose": "LLM-optimized public page"
       }
     ],
@@ -18798,37 +20010,37 @@
       },
       {
         "path": "ai-data.html",
-        "bytes": 1691208,
+        "bytes": 1797723,
         "purpose": "Master AI data index"
       },
       {
         "path": "llms-full.txt",
-        "bytes": 479911,
+        "bytes": 509388,
         "purpose": "Extended LLM context"
       },
       {
         "path": "llms-full.md",
-        "bytes": 479911,
+        "bytes": 509388,
         "purpose": "Extended LLM context (markdown)"
       },
       {
         "path": "full-context.md",
-        "bytes": 17347,
+        "bytes": 17370,
         "purpose": "Full markdown context"
       },
       {
         "path": "README.md",
-        "bytes": 595572,
+        "bytes": 632066,
         "purpose": "Repository README"
       },
       {
         "path": "ai-sitemap.xml",
-        "bytes": 502264,
+        "bytes": 534207,
         "purpose": "AI sitemap"
       },
       {
         "path": "sitemap.xml",
-        "bytes": 838,
+        "bytes": 1625,
         "purpose": "Standard sitemap"
       }
     ]

@@ -10,12 +10,13 @@ Canonical AI Data Package for Hometelligent Inc..
 
 ## Stats
 - 3564 faqs
-- 5 press
+- 239 helpArticles
 - 1 services
-- 1 locations
 - 2 personnel
+- 1 locations
 - 1 organization
-- **3579** total
+- 5 press
+- **3813** total
 
 ## Cross-Destination Index — Related AI Data Sources
 - [canonical] Hometelligent Inc. — canonical website — https://hometelligentinc.aiovisibility.net
@@ -3617,24 +3618,268 @@ Every file below is listed in [`data/publishing-manifest.json`](./data/publishin
 - [`faqs/will-using-low-voc-materials-affect-the-durability-or-performance-of-my-renovati.json`](./faqs/will-using-low-voc-materials-affect-the-durability-or-performance-of-my-renovati.json) — schema
 - [`faqs/will-water-efficient-showerheads-and-faucets-reduce-water-pressure.json`](./faqs/will-water-efficient-showerheads-and-faucets-reduce-water-pressure.json) — schema
 
-### Public Pages (6)
+### Help Articles (239)
+- [`help/accessory-dwelling-unit-construction-what-affects-your-project-timeline.json`](./help/accessory-dwelling-unit-construction-what-affects-your-project-timeline.json) — schema
+- [`help/adding-an-in-law-suite-understanding-the-permit-process.json`](./help/adding-an-in-law-suite-understanding-the-permit-process.json) — schema
+- [`help/addressing-common-issues-during-adu-plan-review.json`](./help/addressing-common-issues-during-adu-plan-review.json) — schema
+- [`help/adu-architectural-planning-common-mistakes-to-avoid.json`](./help/adu-architectural-planning-common-mistakes-to-avoid.json) — schema
+- [`help/adu-architectural-planning-where-to-start-your-design.json`](./help/adu-architectural-planning-where-to-start-your-design.json) — schema
+- [`help/adu-feasibility-consultation-is-it-right-for-your-project.json`](./help/adu-feasibility-consultation-is-it-right-for-your-project.json) — schema
+- [`help/adu-feasibility-consultations-what-to-ask-your-contractor.json`](./help/adu-feasibility-consultations-what-to-ask-your-contractor.json) — schema
+- [`help/adu-feasibility-is-your-bay-area-property-a-good-fit.json`](./help/adu-feasibility-is-your-bay-area-property-a-good-fit.json) — schema
+- [`help/adu-feasibility-understanding-local-zoning-before-you-design.json`](./help/adu-feasibility-understanding-local-zoning-before-you-design.json) — schema
+- [`help/adu-site-plan-mistakes-don-t-let-them-derail-your-project.json`](./help/adu-site-plan-mistakes-don-t-let-them-derail-your-project.json) — schema
+- [`help/adu-site-planning-when-to-bring-in-a-professional.json`](./help/adu-site-planning-when-to-bring-in-a-professional.json) — schema
+- [`help/assessing-your-site-for-a-detached-adu-what-matters.json`](./help/assessing-your-site-for-a-detached-adu-what-matters.json) — schema
+- [`help/attached-adu-construction-a-step-by-step-guide-to-success.json`](./help/attached-adu-construction-a-step-by-step-guide-to-success.json) — schema
+- [`help/attached-adu-construction-is-it-right-for-my-property.json`](./help/attached-adu-construction-is-it-right-for-my-property.json) — schema
+- [`help/attached-adu-construction-is-your-home-a-good-candidate.json`](./help/attached-adu-construction-is-your-home-a-good-candidate.json) — schema
+- [`help/attached-adu-construction-timeline-what-to-expect.json`](./help/attached-adu-construction-timeline-what-to-expect.json) — schema
+- [`help/attached-adu-construction-what-to-consider-before-you-build.json`](./help/attached-adu-construction-what-to-consider-before-you-build.json) — schema
+- [`help/attached-adu-what-to-know-before-you-design.json`](./help/attached-adu-what-to-know-before-you-design.json) — schema
+- [`help/avoiding-adu-site-planning-pitfalls-a-critical-checklist.json`](./help/avoiding-adu-site-planning-pitfalls-a-critical-checklist.json) — schema
+- [`help/avoiding-common-pitfalls-in-adu-construction.json`](./help/avoiding-common-pitfalls-in-adu-construction.json) — schema
+- [`help/avoiding-common-pitfalls-in-attached-adu-construction.json`](./help/avoiding-common-pitfalls-in-attached-adu-construction.json) — schema
+- [`help/avoiding-costly-mistakes-in-detached-adu-construction.json`](./help/avoiding-costly-mistakes-in-detached-adu-construction.json) — schema
+- [`help/avoiding-costly-mistakes-in-your-adu-feasibility-study.json`](./help/avoiding-costly-mistakes-in-your-adu-feasibility-study.json) — schema
+- [`help/avoiding-costly-mistakes-in-your-garage-adu-project.json`](./help/avoiding-costly-mistakes-in-your-garage-adu-project.json) — schema
+- [`help/avoiding-costly-mistakes-in-your-guest-house-project.json`](./help/avoiding-costly-mistakes-in-your-guest-house-project.json) — schema
+- [`help/avoiding-delays-in-your-adu-permit-process.json`](./help/avoiding-delays-in-your-adu-permit-process.json) — schema
+- [`help/avoiding-hidden-hurdles-in-guest-house-construction.json`](./help/avoiding-hidden-hurdles-in-guest-house-construction.json) — schema
+- [`help/avoiding-mistakes-in-backyard-cottage-permitting.json`](./help/avoiding-mistakes-in-backyard-cottage-permitting.json) — schema
+- [`help/avoiding-mistakes-in-your-detached-adu-build.json`](./help/avoiding-mistakes-in-your-detached-adu-build.json) — schema
+- [`help/avoiding-pitfalls-in-attached-adu-construction.json`](./help/avoiding-pitfalls-in-attached-adu-construction.json) — schema
+- [`help/avoiding-pitfalls-in-your-adu-construction-project.json`](./help/avoiding-pitfalls-in-your-adu-construction-project.json) — schema
+- [`help/avoiding-pitfalls-when-building-your-in-law-suite.json`](./help/avoiding-pitfalls-when-building-your-in-law-suite.json) — schema
+- [`help/avoiding-unexpected-costs-in-your-backyard-cottage-project.json`](./help/avoiding-unexpected-costs-in-your-backyard-cottage-project.json) — schema
+- [`help/backyard-cottage-construction-avoiding-common-pitfalls.json`](./help/backyard-cottage-construction-avoiding-common-pitfalls.json) — schema
+- [`help/backyard-cottage-construction-is-your-lot-ready.json`](./help/backyard-cottage-construction-is-your-lot-ready.json) — schema
+- [`help/backyard-cottage-construction-key-mistakes-to-sidestep.json`](./help/backyard-cottage-construction-key-mistakes-to-sidestep.json) — schema
+- [`help/backyard-cottage-construction-what-are-the-site-requirements.json`](./help/backyard-cottage-construction-what-are-the-site-requirements.json) — schema
+- [`help/backyard-cottage-construction-what-to-ask-before-you-decide.json`](./help/backyard-cottage-construction-what-to-ask-before-you-decide.json) — schema
+- [`help/backyard-cottage-construction-what-to-consider-first.json`](./help/backyard-cottage-construction-what-to-consider-first.json) — schema
+- [`help/backyard-cottage-project-when-to-call-an-expert.json`](./help/backyard-cottage-project-when-to-call-an-expert.json) — schema
+- [`help/basement-adu-conversion-is-your-home-eligible.json`](./help/basement-adu-conversion-is-your-home-eligible.json) — schema
+- [`help/basement-adu-conversions-avoiding-common-approval-mistakes.json`](./help/basement-adu-conversions-avoiding-common-approval-mistakes.json) — schema
+- [`help/basement-adu-conversions-when-to-get-expert-help.json`](./help/basement-adu-conversions-when-to-get-expert-help.json) — schema
+- [`help/budgeting-for-your-backyard-cottage-beyond-the-building-costs.json`](./help/budgeting-for-your-backyard-cottage-beyond-the-building-costs.json) — schema
+- [`help/building-a-granny-flat-how-to-choose-the-right-approval-pathway.json`](./help/building-a-granny-flat-how-to-choose-the-right-approval-pathway.json) — schema
+- [`help/building-an-in-law-suite-what-to-expect-during-the-process.json`](./help/building-an-in-law-suite-what-to-expect-during-the-process.json) — schema
+- [`help/choosing-a-contractor-for-your-attached-adu-project.json`](./help/choosing-a-contractor-for-your-attached-adu-project.json) — schema
+- [`help/choosing-a-contractor-for-your-basement-adu-what-to-look-for.json`](./help/choosing-a-contractor-for-your-basement-adu-what-to-look-for.json) — schema
+- [`help/choosing-a-contractor-for-your-garage-conversion-adu-key-questions-to-ask.json`](./help/choosing-a-contractor-for-your-garage-conversion-adu-key-questions-to-ask.json) — schema
+- [`help/choosing-a-contractor-for-your-guest-house-project.json`](./help/choosing-a-contractor-for-your-guest-house-project.json) — schema
+- [`help/choosing-a-contractor-for-your-in-law-suite-how-to-compare-options.json`](./help/choosing-a-contractor-for-your-in-law-suite-how-to-compare-options.json) — schema
+- [`help/choosing-an-adu-architectural-planning-service-what-to-ask.json`](./help/choosing-an-adu-architectural-planning-service-what-to-ask.json) — schema
+- [`help/choosing-an-adu-contractor-what-to-look-for-in-experience.json`](./help/choosing-an-adu-contractor-what-to-look-for-in-experience.json) — schema
+- [`help/choosing-an-adu-contractor-what-to-look-for.json`](./help/choosing-an-adu-contractor-what-to-look-for.json) — schema
+- [`help/choosing-an-adu-design-what-to-consider-for-your-property.json`](./help/choosing-an-adu-design-what-to-consider-for-your-property.json) — schema
+- [`help/choosing-an-adu-feasibility-consultant-questions-to-ask.json`](./help/choosing-an-adu-feasibility-consultant-questions-to-ask.json) — schema
+- [`help/choosing-an-adu-feasibility-consultant-what-to-look-for.json`](./help/choosing-an-adu-feasibility-consultant-what-to-look-for.json) — schema
+- [`help/choosing-an-adu-permit-coordinator-what-to-ask-before-you-hire.json`](./help/choosing-an-adu-permit-coordinator-what-to-ask-before-you-hire.json) — schema
+- [`help/choosing-between-an-attached-and-detached-adu.json`](./help/choosing-between-an-attached-and-detached-adu.json) — schema
+- [`help/choosing-the-right-adu-builder-what-to-ask-before-you-commit.json`](./help/choosing-the-right-adu-builder-what-to-ask-before-you-commit.json) — schema
+- [`help/choosing-the-right-adu-builder-what-to-look-for.json`](./help/choosing-the-right-adu-builder-what-to-look-for.json) — schema
+- [`help/choosing-the-right-adu-placement-factors-to-consider.json`](./help/choosing-the-right-adu-placement-factors-to-consider.json) — schema
+- [`help/choosing-the-right-adu-type-for-your-property.json`](./help/choosing-the-right-adu-type-for-your-property.json) — schema
+- [`help/choosing-your-adu-architectural-plan-custom-vs-pre-designed.json`](./help/choosing-your-adu-architectural-plan-custom-vs-pre-designed.json) — schema
+- [`help/choosing-your-adu-type-guest-house-vs-granny-flat-nuances.json`](./help/choosing-your-adu-type-guest-house-vs-granny-flat-nuances.json) — schema
+- [`help/common-pitfalls-in-adu-architectural-planning-and-how-to-sidestep-them.json`](./help/common-pitfalls-in-adu-architectural-planning-and-how-to-sidestep-them.json) — schema
+- [`help/common-pitfalls-in-garage-conversion-adu-planning.json`](./help/common-pitfalls-in-garage-conversion-adu-planning.json) — schema
+- [`help/comparing-garage-adu-vs-living-space-conversion-which-is-right-for-you.json`](./help/comparing-garage-adu-vs-living-space-conversion-which-is-right-for-you.json) — schema
+- [`help/comparing-granny-flats-what-to-look-for-in-a-contractor.json`](./help/comparing-granny-flats-what-to-look-for-in-a-contractor.json) — schema
+- [`help/considering-a-basement-adu-when-to-bring-in-the-experts.json`](./help/considering-a-basement-adu-when-to-bring-in-the-experts.json) — schema
+- [`help/considering-a-granny-flat-how-to-avoid-costly-mistakes.json`](./help/considering-a-granny-flat-how-to-avoid-costly-mistakes.json) — schema
+- [`help/considering-a-guest-house-what-to-know-about-timing-your-project.json`](./help/considering-a-guest-house-what-to-know-about-timing-your-project.json) — schema
+- [`help/considering-a-guest-house-what-to-prepare-before-you-start.json`](./help/considering-a-guest-house-what-to-prepare-before-you-start.json) — schema
+- [`help/considering-an-in-law-suite-what-are-your-options.json`](./help/considering-an-in-law-suite-what-are-your-options.json) — schema
+- [`help/converting-a-basement-to-an-adu-mistakes-to-avoid.json`](./help/converting-a-basement-to-an-adu-mistakes-to-avoid.json) — schema
+- [`help/converting-a-garage-to-an-adu-how-to-get-started.json`](./help/converting-a-garage-to-an-adu-how-to-get-started.json) — schema
+- [`help/converting-a-garage-to-an-adu-when-professional-help-is-key.json`](./help/converting-a-garage-to-an-adu-when-professional-help-is-key.json) — schema
+- [`help/converting-your-basement-to-an-adu-what-to-know-about-eligibility.json`](./help/converting-your-basement-to-an-adu-what-to-know-about-eligibility.json) — schema
+- [`help/converting-your-basement-to-an-adu-what-to-know-before-you-start.json`](./help/converting-your-basement-to-an-adu-what-to-know-before-you-start.json) — schema
+- [`help/converting-your-basement-what-makes-it-legally-habitable.json`](./help/converting-your-basement-what-makes-it-legally-habitable.json) — schema
+- [`help/converting-your-garage-into-an-attached-adu-what-to-know.json`](./help/converting-your-garage-into-an-attached-adu-what-to-know.json) — schema
+- [`help/converting-your-garage-to-an-adu-what-to-ask-before-you-hire.json`](./help/converting-your-garage-to-an-adu-what-to-ask-before-you-hire.json) — schema
+- [`help/converting-your-garage-to-an-adu-what-to-expect-with-permits.json`](./help/converting-your-garage-to-an-adu-what-to-expect-with-permits.json) — schema
+- [`help/converting-your-garage-to-an-adu-what-to-know-before-you-start.json`](./help/converting-your-garage-to-an-adu-what-to-know-before-you-start.json) — schema
+- [`help/converting-your-garage-to-an-adu-what-to-know-first.json`](./help/converting-your-garage-to-an-adu-what-to-know-first.json) — schema
+- [`help/converting-your-garage-to-living-space-questions-to-ask-about-permits.json`](./help/converting-your-garage-to-living-space-questions-to-ask-about-permits.json) — schema
+- [`help/converting-your-garage-to-living-space-what-permits-do-you-need.json`](./help/converting-your-garage-to-living-space-what-permits-do-you-need.json) — schema
+- [`help/deciding-between-custom-vs-pre-designed-adu-plans.json`](./help/deciding-between-custom-vs-pre-designed-adu-plans.json) — schema
+- [`help/deciding-between-shared-and-private-spaces-in-a-multigenerational-home.json`](./help/deciding-between-shared-and-private-spaces-in-a-multigenerational-home.json) — schema
+- [`help/deciding-on-a-guest-house-builder-what-to-ask-for-experience.json`](./help/deciding-on-a-guest-house-builder-what-to-ask-for-experience.json) — schema
+- [`help/deciding-on-an-adu-attached-vs-detached.json`](./help/deciding-on-an-adu-attached-vs-detached.json) — schema
+- [`help/deciding-on-an-adu-design-pre-designed-vs-custom-plans.json`](./help/deciding-on-an-adu-design-pre-designed-vs-custom-plans.json) — schema
+- [`help/deciding-on-professional-help-for-adu-permit-coordination.json`](./help/deciding-on-professional-help-for-adu-permit-coordination.json) — schema
+- [`help/decoding-adu-regulations-how-to-avoid-costly-missteps.json`](./help/decoding-adu-regulations-how-to-avoid-costly-missteps.json) — schema
+- [`help/demystifying-permits-for-your-backyard-cottage-adu.json`](./help/demystifying-permits-for-your-backyard-cottage-adu.json) — schema
+- [`help/designing-a-multigenerational-home-avoiding-common-planning-mistakes.json`](./help/designing-a-multigenerational-home-avoiding-common-planning-mistakes.json) — schema
+- [`help/detached-adu-construction-understanding-utility-connections.json`](./help/detached-adu-construction-understanding-utility-connections.json) — schema
+- [`help/detached-adu-construction-what-affects-your-project-timeline.json`](./help/detached-adu-construction-what-affects-your-project-timeline.json) — schema
+- [`help/detached-adu-construction-what-to-consider-for-your-property.json`](./help/detached-adu-construction-what-to-consider-for-your-property.json) — schema
+- [`help/detached-adu-permitting-what-to-expect.json`](./help/detached-adu-permitting-what-to-expect.json) — schema
+- [`help/garage-adu-conversion-common-mistakes-to-avoid.json`](./help/garage-adu-conversion-common-mistakes-to-avoid.json) — schema
+- [`help/garage-conversion-adus-when-to-get-professional-help.json`](./help/garage-conversion-adus-when-to-get-professional-help.json) — schema
+- [`help/garage-conversion-project-when-to-bring-in-a-professional.json`](./help/garage-conversion-project-when-to-bring-in-a-professional.json) — schema
+- [`help/garage-to-living-space-conversion-what-to-prepare-before-you-start.json`](./help/garage-to-living-space-conversion-what-to-prepare-before-you-start.json) — schema
+- [`help/garage-to-living-space-conversions-avoiding-common-pitfalls.json`](./help/garage-to-living-space-conversions-avoiding-common-pitfalls.json) — schema
+- [`help/garage-to-living-space-when-to-hire-a-pro-vs-diy.json`](./help/garage-to-living-space-when-to-hire-a-pro-vs-diy.json) — schema
+- [`help/getting-started-with-adu-site-planning-a-step-by-step-guide.json`](./help/getting-started-with-adu-site-planning-a-step-by-step-guide.json) — schema
+- [`help/getting-started-with-your-detached-adu-project-what-to-prepare.json`](./help/getting-started-with-your-detached-adu-project-what-to-prepare.json) — schema
+- [`help/getting-started-with-your-garage-to-living-space-conversion.json`](./help/getting-started-with-your-garage-to-living-space-conversion.json) — schema
+- [`help/getting-your-adu-project-started-a-step-by-step-guide.json`](./help/getting-your-adu-project-started-a-step-by-step-guide.json) — schema
+- [`help/granny-flat-budgeting-what-costs-are-easy-to-overlook.json`](./help/granny-flat-budgeting-what-costs-are-easy-to-overlook.json) — schema
+- [`help/granny-flat-construction-avoiding-common-site-and-utility-mistakes.json`](./help/granny-flat-construction-avoiding-common-site-and-utility-mistakes.json) — schema
+- [`help/granny-flat-construction-common-mistakes-to-avoid.json`](./help/granny-flat-construction-common-mistakes-to-avoid.json) — schema
+- [`help/granny-flat-mistakes-that-can-derail-your-project.json`](./help/granny-flat-mistakes-that-can-derail-your-project.json) — schema
+- [`help/granny-flat-permitting-a-step-by-step-timeline.json`](./help/granny-flat-permitting-a-step-by-step-timeline.json) — schema
+- [`help/granny-flat-project-timeline-what-to-expect-from-start-to-finish.json`](./help/granny-flat-project-timeline-what-to-expect-from-start-to-finish.json) — schema
+- [`help/guest-house-construction-7-mistakes-to-avoid.json`](./help/guest-house-construction-7-mistakes-to-avoid.json) — schema
+- [`help/guest-house-construction-how-to-navigate-the-permit-process.json`](./help/guest-house-construction-how-to-navigate-the-permit-process.json) — schema
+- [`help/guest-house-construction-how-to-plan-for-permits-and-regulations.json`](./help/guest-house-construction-how-to-plan-for-permits-and-regulations.json) — schema
+- [`help/guest-house-construction-what-to-consider-before-you-build.json`](./help/guest-house-construction-what-to-consider-before-you-build.json) — schema
+- [`help/guest-house-or-adu-how-to-determine-the-right-build-for-your-property.json`](./help/guest-house-or-adu-how-to-determine-the-right-build-for-your-property.json) — schema
+- [`help/guest-house-project-planning-key-steps-for-a-smooth-start.json`](./help/guest-house-project-planning-key-steps-for-a-smooth-start.json) — schema
+- [`help/hiring-a-guest-house-contractor-what-to-ask-before-you-decide.json`](./help/hiring-a-guest-house-contractor-what-to-ask-before-you-decide.json) — schema
+- [`help/hiring-an-adu-contractor-what-to-look-for.json`](./help/hiring-an-adu-contractor-what-to-look-for.json) — schema
+- [`help/hiring-for-basement-adu-conversion-questions-to-ask-your-contractor.json`](./help/hiring-for-basement-adu-conversion-questions-to-ask-your-contractor.json) — schema
+- [`help/how-to-get-started-with-adu-feasibility-for-your-adu.json`](./help/how-to-get-started-with-adu-feasibility-for-your-adu.json) — schema
+- [`help/how-to-plan-for-changing-needs-in-a-multigenerational-home.json`](./help/how-to-plan-for-changing-needs-in-a-multigenerational-home.json) — schema
+- [`help/how-to-prepare-for-your-adu-feasibility-consultation.json`](./help/how-to-prepare-for-your-adu-feasibility-consultation.json) — schema
+- [`help/how-to-prepare-for-your-adu-permit-application.json`](./help/how-to-prepare-for-your-adu-permit-application.json) — schema
+- [`help/in-law-suite-construction-avoiding-common-pitfalls.json`](./help/in-law-suite-construction-avoiding-common-pitfalls.json) — schema
+- [`help/in-law-suite-construction-when-does-it-need-separate-permits.json`](./help/in-law-suite-construction-when-does-it-need-separate-permits.json) — schema
+- [`help/integrating-accessibility-into-multigenerational-suites-a-checklist.json`](./help/integrating-accessibility-into-multigenerational-suites-a-checklist.json) — schema
+- [`help/is-a-granny-flat-right-for-your-property-understanding-the-regulations.json`](./help/is-a-granny-flat-right-for-your-property-understanding-the-regulations.json) — schema
+- [`help/is-a-multigenerational-suite-right-for-my-family-a-q-a.json`](./help/is-a-multigenerational-suite-right-for-my-family-a-q-a.json) — schema
+- [`help/is-an-adu-feasible-on-your-bay-area-property.json`](./help/is-an-adu-feasible-on-your-bay-area-property.json) — schema
+- [`help/is-an-adu-project-right-for-my-bay-area-home.json`](./help/is-an-adu-project-right-for-my-bay-area-home.json) — schema
+- [`help/is-your-basement-ready-for-an-adu-conversion-a-quick-checklist.json`](./help/is-your-basement-ready-for-an-adu-conversion-a-quick-checklist.json) — schema
+- [`help/is-your-garage-a-candidate-for-an-adu-conversion.json`](./help/is-your-garage-a-candidate-for-an-adu-conversion.json) — schema
+- [`help/is-your-garage-ready-for-a-living-space-conversion-a-checklist.json`](./help/is-your-garage-ready-for-a-living-space-conversion-a-checklist.json) — schema
+- [`help/key-steps-to-building-a-backyard-cottage-in-the-bay-area.json`](./help/key-steps-to-building-a-backyard-cottage-in-the-bay-area.json) — schema
+- [`help/making-the-call-on-your-in-law-suite-design.json`](./help/making-the-call-on-your-in-law-suite-design.json) — schema
+- [`help/mistakes-to-avoid-when-planning-your-adu-architecture.json`](./help/mistakes-to-avoid-when-planning-your-adu-architecture.json) — schema
+- [`help/multigenerational-living-suite-vs-adu-which-is-right-for-you.json`](./help/multigenerational-living-suite-vs-adu-which-is-right-for-you.json) — schema
+- [`help/multigenerational-suite-design-avoiding-common-pitfalls.json`](./help/multigenerational-suite-design-avoiding-common-pitfalls.json) — schema
+- [`help/navigating-adu-architectural-planning-a-step-by-step-guide.json`](./help/navigating-adu-architectural-planning-a-step-by-step-guide.json) — schema
+- [`help/navigating-adu-architectural-planning-when-to-bring-in-the-experts.json`](./help/navigating-adu-architectural-planning-when-to-bring-in-the-experts.json) — schema
+- [`help/navigating-adu-construction-permits-in-albany-ca.json`](./help/navigating-adu-construction-permits-in-albany-ca.json) — schema
+- [`help/navigating-adu-feasibility-what-to-know-before-you-build.json`](./help/navigating-adu-feasibility-what-to-know-before-you-build.json) — schema
+- [`help/navigating-adu-permit-corrections-your-action-plan.json`](./help/navigating-adu-permit-corrections-your-action-plan.json) — schema
+- [`help/navigating-adu-permit-requirements-a-step-by-step-guide.json`](./help/navigating-adu-permit-requirements-a-step-by-step-guide.json) — schema
+- [`help/navigating-adu-permits-in-alameda-county-what-to-know.json`](./help/navigating-adu-permits-in-alameda-county-what-to-know.json) — schema
+- [`help/navigating-adu-permits-in-albany-what-homeowners-need-to-know.json`](./help/navigating-adu-permits-in-albany-what-homeowners-need-to-know.json) — schema
+- [`help/navigating-adu-permits-what-to-expect-in-the-bay-area.json`](./help/navigating-adu-permits-what-to-expect-in-the-bay-area.json) — schema
+- [`help/navigating-adu-regulations-common-mistakes-to-avoid.json`](./help/navigating-adu-regulations-common-mistakes-to-avoid.json) — schema
+- [`help/navigating-adu-site-planning-what-to-show-on-your-plans.json`](./help/navigating-adu-site-planning-what-to-show-on-your-plans.json) — schema
+- [`help/navigating-approvals-for-your-granny-flat-what-to-know.json`](./help/navigating-approvals-for-your-granny-flat-what-to-know.json) — schema
+- [`help/navigating-attached-adu-permitting-a-step-by-step-guide.json`](./help/navigating-attached-adu-permitting-a-step-by-step-guide.json) — schema
+- [`help/navigating-granny-flat-permits-what-to-prepare-before-you-apply.json`](./help/navigating-granny-flat-permits-what-to-prepare-before-you-apply.json) — schema
+- [`help/navigating-in-law-suite-regulations-key-differences-to-understand.json`](./help/navigating-in-law-suite-regulations-key-differences-to-understand.json) — schema
+- [`help/navigating-permits-for-your-attached-adu-a-homeowner-s-guide.json`](./help/navigating-permits-for-your-attached-adu-a-homeowner-s-guide.json) — schema
+- [`help/navigating-permits-for-your-attached-adu-project.json`](./help/navigating-permits-for-your-attached-adu-project.json) — schema
+- [`help/navigating-permitting-for-your-accessory-dwelling-unit.json`](./help/navigating-permitting-for-your-accessory-dwelling-unit.json) — schema
+- [`help/navigating-permitting-for-your-backyard-cottage.json`](./help/navigating-permitting-for-your-backyard-cottage.json) — schema
+- [`help/navigating-regulatory-hurdles-for-your-garage-conversion-adu.json`](./help/navigating-regulatory-hurdles-for-your-garage-conversion-adu.json) — schema
+- [`help/permitting-an-accessory-dwelling-unit-what-to-expect-during-the-process.json`](./help/permitting-an-accessory-dwelling-unit-what-to-expect-during-the-process.json) — schema
+- [`help/planning-a-multigenerational-suite-when-professional-guidance-helps.json`](./help/planning-a-multigenerational-suite-when-professional-guidance-helps.json) — schema
+- [`help/planning-an-in-law-suite-key-decisions-to-make-upfront.json`](./help/planning-an-in-law-suite-key-decisions-to-make-upfront.json) — schema
+- [`help/planning-an-in-law-suite-what-to-ask-your-contractor.json`](./help/planning-an-in-law-suite-what-to-ask-your-contractor.json) — schema
+- [`help/planning-for-changing-needs-in-your-multigenerational-living-suite.json`](./help/planning-for-changing-needs-in-your-multigenerational-living-suite.json) — schema
+- [`help/planning-your-adu-construction-key-steps-to-success.json`](./help/planning-your-adu-construction-key-steps-to-success.json) — schema
+- [`help/planning-your-adu-site-key-considerations.json`](./help/planning-your-adu-site-key-considerations.json) — schema
+- [`help/planning-your-garage-to-living-space-conversion-avoiding-costly-delays.json`](./help/planning-your-garage-to-living-space-conversion-avoiding-costly-delays.json) — schema
+- [`help/planning-your-in-law-suite-defining-its-independence.json`](./help/planning-your-in-law-suite-defining-its-independence.json) — schema
+- [`help/preparing-for-adu-site-planning-what-you-need-to-know.json`](./help/preparing-for-adu-site-planning-what-you-need-to-know.json) — schema
+- [`help/preparing-for-your-adu-consultation-what-to-gather.json`](./help/preparing-for-your-adu-consultation-what-to-gather.json) — schema
+- [`help/preparing-your-property-for-a-detached-adu-build.json`](./help/preparing-your-property-for-a-detached-adu-build.json) — schema
+- [`help/property-obstacles-affecting-your-adu-feasibility.json`](./help/property-obstacles-affecting-your-adu-feasibility.json) — schema
+- [`help/selecting-a-builder-for-your-in-law-suite-key-considerations.json`](./help/selecting-a-builder-for-your-in-law-suite-key-considerations.json) — schema
+- [`help/selecting-an-adu-permit-coordination-specialist.json`](./help/selecting-an-adu-permit-coordination-specialist.json) — schema
+- [`help/selecting-an-adu-site-planner-key-considerations.json`](./help/selecting-an-adu-site-planner-key-considerations.json) — schema
+- [`help/siting-your-detached-adu-avoiding-common-mistakes.json`](./help/siting-your-detached-adu-avoiding-common-mistakes.json) — schema
+- [`help/speeding-up-your-adu-permit-in-alameda-county-what-to-know.json`](./help/speeding-up-your-adu-permit-in-alameda-county-what-to-know.json) — schema
+- [`help/starting-your-adu-project-steps-for-feasibility-assessment.json`](./help/starting-your-adu-project-steps-for-feasibility-assessment.json) — schema
+- [`help/thinking-about-a-garage-adu-common-mistakes-to-avoid.json`](./help/thinking-about-a-garage-adu-common-mistakes-to-avoid.json) — schema
+- [`help/turning-your-garage-into-habitable-space-do-you-need-a-permit.json`](./help/turning-your-garage-into-habitable-space-do-you-need-a-permit.json) — schema
+- [`help/understanding-adu-costs-key-factors-to-consider.json`](./help/understanding-adu-costs-key-factors-to-consider.json) — schema
+- [`help/understanding-detached-adu-costs-what-to-look-for-in-a-quote.json`](./help/understanding-detached-adu-costs-what-to-look-for-in-a-quote.json) — schema
+- [`help/understanding-detached-adu-site-challenges.json`](./help/understanding-detached-adu-site-challenges.json) — schema
+- [`help/understanding-site-constraints-for-your-backyard-cottage-project.json`](./help/understanding-site-constraints-for-your-backyard-cottage-project.json) — schema
+- [`help/understanding-the-adu-permit-coordination-process.json`](./help/understanding-the-adu-permit-coordination-process.json) — schema
+- [`help/understanding-the-cost-of-your-detached-adu-key-factors.json`](./help/understanding-the-cost-of-your-detached-adu-key-factors.json) — schema
+- [`help/understanding-the-costs-of-a-new-adu-in-the-east-bay.json`](./help/understanding-the-costs-of-a-new-adu-in-the-east-bay.json) — schema
+- [`help/understanding-your-property-for-adu-site-planning.json`](./help/understanding-your-property-for-adu-site-planning.json) — schema
+- [`help/unsure-if-your-property-can-host-an-adu-get-clarity-first.json`](./help/unsure-if-your-property-can-host-an-adu-get-clarity-first.json) — schema
+- [`help/what-are-the-common-mistakes-to-avoid-in-multigenerational-suite-planning.json`](./help/what-are-the-common-mistakes-to-avoid-in-multigenerational-suite-planning.json) — schema
+- [`help/what-happens-during-granny-flat-construction.json`](./help/what-happens-during-granny-flat-construction.json) — schema
+- [`help/what-to-ask-before-hiring-a-guest-house-contractor.json`](./help/what-to-ask-before-hiring-a-guest-house-contractor.json) — schema
+- [`help/what-to-consider-before-building-a-backyard-cottage.json`](./help/what-to-consider-before-building-a-backyard-cottage.json) — schema
+- [`help/what-to-expect-during-the-adu-permit-coordination-process.json`](./help/what-to-expect-during-the-adu-permit-coordination-process.json) — schema
+- [`help/what-to-expect-during-your-basement-adu-conversion-process.json`](./help/what-to-expect-during-your-basement-adu-conversion-process.json) — schema
+- [`help/what-to-expect-when-adding-an-adu-to-your-property.json`](./help/what-to-expect-when-adding-an-adu-to-your-property.json) — schema
+- [`help/what-to-expect-when-planning-your-adu-site.json`](./help/what-to-expect-when-planning-your-adu-site.json) — schema
+- [`help/what-to-look-for-in-a-garage-conversion-contractor.json`](./help/what-to-look-for-in-a-garage-conversion-contractor.json) — schema
+- [`help/what-to-prepare-before-designing-your-multigenerational-suite.json`](./help/what-to-prepare-before-designing-your-multigenerational-suite.json) — schema
+- [`help/what-to-prepare-before-starting-your-in-law-suite-project.json`](./help/what-to-prepare-before-starting-your-in-law-suite-project.json) — schema
+- [`help/when-a-basement-adu-conversion-becomes-too-complex.json`](./help/when-a-basement-adu-conversion-becomes-too-complex.json) — schema
+- [`help/when-do-you-need-professional-help-for-multigenerational-suite-construction.json`](./help/when-do-you-need-professional-help-for-multigenerational-suite-construction.json) — schema
+- [`help/when-is-an-architect-essential-for-your-adu-design.json`](./help/when-is-an-architect-essential-for-your-adu-design.json) — schema
+- [`help/when-is-professional-adu-architectural-planning-essential.json`](./help/when-is-professional-adu-architectural-planning-essential.json) — schema
+- [`help/when-is-professional-guidance-crucial-for-your-granny-flat-project.json`](./help/when-is-professional-guidance-crucial-for-your-granny-flat-project.json) — schema
+- [`help/when-is-professional-guidance-essential-for-your-adu-project.json`](./help/when-is-professional-guidance-essential-for-your-adu-project.json) — schema
+- [`help/when-is-professional-help-essential-for-adu-site-planning.json`](./help/when-is-professional-help-essential-for-adu-site-planning.json) — schema
+- [`help/when-professional-guidance-helps-with-your-garage-adu.json`](./help/when-professional-guidance-helps-with-your-garage-adu.json) — schema
+- [`help/when-to-bring-in-a-pro-for-multigenerational-suite-construction.json`](./help/when-to-bring-in-a-pro-for-multigenerational-suite-construction.json) — schema
+- [`help/when-to-bring-in-a-professional-for-your-adu.json`](./help/when-to-bring-in-a-professional-for-your-adu.json) — schema
+- [`help/when-to-call-a-professional-for-your-granny-flat-project.json`](./help/when-to-call-a-professional-for-your-granny-flat-project.json) — schema
+- [`help/when-to-consider-a-detached-adu-vs-an-attached-one.json`](./help/when-to-consider-a-detached-adu-vs-an-attached-one.json) — schema
+- [`help/when-to-get-expert-help-with-adu-permits.json`](./help/when-to-get-expert-help-with-adu-permits.json) — schema
+- [`help/when-to-get-professional-help-with-adu-permit-coordination.json`](./help/when-to-get-professional-help-with-adu-permit-coordination.json) — schema
+- [`help/when-you-need-a-pro-for-your-attached-adu-signs-to-look-for.json`](./help/when-you-need-a-pro-for-your-attached-adu-signs-to-look-for.json) — schema
+- [`help/when-you-need-professional-help-for-your-garage-to-living-space-project.json`](./help/when-you-need-professional-help-for-your-garage-to-living-space-project.json) — schema
+- [`help/when-your-garage-conversion-hits-unexpected-challenges.json`](./help/when-your-garage-conversion-hits-unexpected-challenges.json) — schema
+- [`help/when-your-granny-flat-project-needs-professional-guidance-key-indicators.json`](./help/when-your-granny-flat-project-needs-professional-guidance-key-indicators.json) — schema
+- [`help/where-exactly-can-my-adu-go-site-planning-essentials.json`](./help/where-exactly-can-my-adu-go-site-planning-essentials.json) — schema
+- [`help/why-is-my-property-ineligible-for-an-adu.json`](./help/why-is-my-property-ineligible-for-an-adu.json) — schema
+- [`help/why-isn-t-my-adu-permit-application-moving-forward.json`](./help/why-isn-t-my-adu-permit-application-moving-forward.json) — schema
+- [`help/why-won-t-my-garage-convert-easily-to-living-space.json`](./help/why-won-t-my-garage-convert-easily-to-living-space.json) — schema
+- [`help/why-your-adu-architectural-plans-might-get-rejected.json`](./help/why-your-adu-architectural-plans-might-get-rejected.json) — schema
+- [`help/why-your-adu-construction-project-might-be-delayed.json`](./help/why-your-adu-construction-project-might-be-delayed.json) — schema
+- [`help/why-your-adu-design-might-not-fit-your-property.json`](./help/why-your-adu-design-might-not-fit-your-property.json) — schema
+- [`help/why-your-adu-permit-application-keeps-getting-delayed.json`](./help/why-your-adu-permit-application-keeps-getting-delayed.json) — schema
+- [`help/why-your-adu-permit-application-might-get-delayed.json`](./help/why-your-adu-permit-application-might-get-delayed.json) — schema
+- [`help/why-your-adu-site-plan-needs-professional-input.json`](./help/why-your-adu-site-plan-needs-professional-input.json) — schema
+- [`help/why-your-attached-adu-estimate-might-be-too-low.json`](./help/why-your-attached-adu-estimate-might-be-too-low.json) — schema
+- [`help/why-your-basement-adu-project-needs-professional-help.json`](./help/why-your-basement-adu-project-needs-professional-help.json) — schema
+- [`help/why-your-garage-conversion-adu-might-need-an-expert.json`](./help/why-your-garage-conversion-adu-might-need-an-expert.json) — schema
+- [`help/why-your-in-law-suite-construction-costs-more-than-you-expected.json`](./help/why-your-in-law-suite-construction-costs-more-than-you-expected.json) — schema
+- [`help/why-your-multigenerational-suite-needs-professional-design.json`](./help/why-your-multigenerational-suite-needs-professional-design.json) — schema
+- [`help/your-basement-adu-conversion-checklist.json`](./help/your-basement-adu-conversion-checklist.json) — schema
+
+### Public Pages (14)
 - [`about.html`](./about.html) — LLM-optimized public page
+- [`articles.html`](./articles.html) — LLM-optimized public page
+- [`articles/care-and-maintenance.html`](./articles/care-and-maintenance.html) — LLM-optimized public page
+- [`articles/getting-started.html`](./articles/getting-started.html) — LLM-optimized public page
+- [`articles/local-service-guidance.html`](./articles/local-service-guidance.html) — LLM-optimized public page
+- [`articles/planning-and-preparation.html`](./articles/planning-and-preparation.html) — LLM-optimized public page
+- [`articles/pricing-and-estimates.html`](./articles/pricing-and-estimates.html) — LLM-optimized public page
+- [`articles/services-and-process.html`](./articles/services-and-process.html) — LLM-optimized public page
+- [`articles/unassigned.html`](./articles/unassigned.html) — LLM-optimized public page
 - [`contact.html`](./contact.html) — LLM-optimized public page
 - [`faqs.html`](./faqs.html) — LLM-optimized public page
 - [`index.html`](./index.html) — LLM-optimized public page
 - [`services.html`](./services.html) — LLM-optimized public page
 - [`team-members.html`](./team-members.html) — LLM-optimized public page
 
-### Press (10)
-- [`press/best-of-houzz-press-release-11.json`](./press/best-of-houzz-press-release-11.json) — schema
+### Press (5)
 - [`press/best-of-houzz-press-release.json`](./press/best-of-houzz-press-release.json) — schema
-- [`press/diamond-certified-press-release-12.json`](./press/diamond-certified-press-release-12.json) — schema
 - [`press/diamond-certified-press-release.json`](./press/diamond-certified-press-release.json) — schema
-- [`press/owner-s-indexed-copy-of-houzz-13.json`](./press/owner-s-indexed-copy-of-houzz-13.json) — schema
 - [`press/owner-s-indexed-copy-of-houzz.json`](./press/owner-s-indexed-copy-of-houzz.json) — schema
-- [`press/patch-albany-business-listing-promotion-14.json`](./press/patch-albany-business-listing-promotion-14.json) — schema
 - [`press/patch-albany-business-listing-promotion.json`](./press/patch-albany-business-listing-promotion.json) — schema
-- [`press/redwood-credit-union-home-services-contractor-program-15.json`](./press/redwood-credit-union-home-services-contractor-program-15.json) — schema
 - [`press/redwood-credit-union-home-services-contractor-program.json`](./press/redwood-credit-union-home-services-contractor-program.json) — schema
 
 
