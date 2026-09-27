@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-09-26T21:48:31.777Z",
+  "generatedAt": "2026-09-27T00:42:31.640Z",
   "client": {
     "name": "Hometelligent Inc.",
     "canonicalUrl": "https://hometelligentinc.aiovisibility.net",
@@ -10,13 +10,13 @@
     "email": "sd@hometelligentinc.com",
     "locations": [
       {
-        "name": "Hometelligent Inc. Office",
-        "address": "1164 Solano Ave., Suite 175",
-        "city": "Albany",
-        "state": "CA",
         "zip": "94706",
+        "city": "Albany",
+        "name": "Hometelligent Inc. Office",
+        "email": "sd@hometelligentinc.com",
         "phone": "925-383-8163",
-        "email": "sd@hometelligentinc.com"
+        "state": "CA",
+        "address": "1164 Solano Ave., Suite 175"
       }
     ],
     "services": [
@@ -796,23 +796,23 @@
   },
   "package": {
     "totalFiles": 3599,
-    "totalBytes": 11701389,
+    "totalBytes": 11735277,
     "stats": {
+      "qna": 0,
       "faqs": 3564,
-      "helpArticles": 0,
+      "press": 5,
+      "total": 3579,
+      "awards": 0,
+      "reviews": 0,
+      "products": 0,
+      "research": 0,
       "services": 1,
       "webpages": 0,
-      "personnel": 2,
-      "products": 0,
       "locations": 1,
-      "awards": 0,
+      "personnel": 2,
       "caseStudies": 0,
-      "organization": 1,
-      "press": 5,
-      "reviews": 0,
-      "qna": 0,
-      "research": 0,
-      "total": 3579
+      "helpArticles": 0,
+      "organization": 1
     }
   },
   "entrypoints": {
@@ -18736,32 +18736,32 @@
     "public": [
       {
         "path": "index.html",
-        "bytes": 17581,
+        "bytes": 23379,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "about.html",
-        "bytes": 128594,
+        "bytes": 134252,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "services.html",
-        "bytes": 290097,
+        "bytes": 295922,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "contact.html",
-        "bytes": 21275,
+        "bytes": 26806,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "faqs.html",
-        "bytes": 2455785,
+        "bytes": 2461352,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "team-members.html",
-        "bytes": 31587,
+        "bytes": 37096,
         "purpose": "LLM-optimized public page"
       }
     ],
