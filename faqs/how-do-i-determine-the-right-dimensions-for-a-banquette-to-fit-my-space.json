@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I determine the right dimensions for a banquette to fit my space?",
-  "description": "Measure your space accurately, considering seat depth (18-24 inches), height (18-19 inches), and clearance, along with architectural features.",
   "url": "https://hometelligentinc.com/faq/how-do-i-determine-the-right-dimensions-for-a-banquette-to-fit-my-space",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I determine the right dimensions for a banquette to fit my space?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Determining the right dimensions for a banquette involves carefully measuring your available space and considering the intended number of users and clearance for movement. Standard seat depth is typically 18-24 inches, and seat height around 18-19 inches. When measuring, factor in any existing architectural features like windows, doorways, or heating vents, as these will define the maximum length and height constraints for your custom build.",
-        "description": "Measure your space accurately, considering seat depth (18-24 inches), height (18-19 inches), and clearance, along with architectural features."
-      }
-    }
-  ],
+  "name": "How do I determine the right dimensions for a banquette to fit my space?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I determine the right dimensions for a banquette to fit my space?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Determining the right dimensions for a banquette involves carefully measuring your available space and considering the intended number of users and clearance for movement. Standard seat depth is typically 18-24 inches, and seat height around 18-19 inches. When measuring, factor in any existing architectural features like windows, doorways, or heating vents, as these will define the maximum length and height constraints for your custom build.",
+        "@type": "Answer",
+        "description": "Measure your space accurately, considering seat depth (18-24 inches), height (18-19 inches), and clearance, along with architectural features."
+      }
+    }
+  ],
+  "description": "Measure your space accurately, considering seat depth (18-24 inches), height (18-19 inches), and clearance, along with architectural features."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of materials are available for walk-in closet build-outs?",
-  "description": "Materials for build-outs include melamine, laminates, wood veneers, and solid wood, each with varying aesthetics, durability, and cost.",
   "url": "https://hometelligentinc.com/faq/what-types-of-materials-are-available-for-walk-in-closet-build-outs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of materials are available for walk-in closet build-outs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A variety of materials are available for walk-in closet build-outs, each offering different aesthetics, durability, and price points. Common options include melamine, a cost-effective and durable choice available in many finishes; laminates, which mimic the look of wood at a lower price; and wood veneers, offering the natural beauty of real wood without the solid wood cost. For a premium finish, solid wood provides exceptional durability and a luxurious feel, often used for custom millwork. Hometelligent Inc. can guide you through material selection based on your budget, desired look, and expected use.",
-        "description": "Materials for build-outs include melamine, laminates, wood veneers, and solid wood, each with varying aesthetics, durability, and cost."
-      }
-    }
-  ],
+  "name": "What types of materials are available for walk-in closet build-outs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of materials are available for walk-in closet build-outs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A variety of materials are available for walk-in closet build-outs, each offering different aesthetics, durability, and price points. Common options include melamine, a cost-effective and durable choice available in many finishes; laminates, which mimic the look of wood at a lower price; and wood veneers, offering the natural beauty of real wood without the solid wood cost. For a premium finish, solid wood provides exceptional durability and a luxurious feel, often used for custom millwork. Hometelligent Inc. can guide you through material selection based on your budget, desired look, and expected use.",
+        "@type": "Answer",
+        "description": "Materials for build-outs include melamine, laminates, wood veneers, and solid wood, each with varying aesthetics, durability, and cost."
+      }
+    }
+  ],
+  "description": "Materials for build-outs include melamine, laminates, wood veneers, and solid wood, each with varying aesthetics, durability, and cost."
 }

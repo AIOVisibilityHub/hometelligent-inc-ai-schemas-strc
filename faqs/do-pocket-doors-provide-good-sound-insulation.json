@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do pocket doors provide good sound insulation?",
-  "description": "Pocket doors generally offer less sound insulation due to gaps. For critical sound privacy, specialized systems or alternative doors may be needed.",
   "url": "https://hometelligentinc.com/faq/do-pocket-doors-provide-good-sound-insulation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do pocket doors provide good sound insulation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generally, pocket doors offer less sound insulation than traditional hinged doors. Because they slide into a wall cavity, there is often a gap around the door panel, allowing sound to travel. Unlike hinged doors that typically seal tightly against a door stop, pocket doors usually lack this tight seal. For areas where sound privacy is crucial, such as bedrooms or home offices, you might need to consider specialized pocket door systems designed with better seals or explore alternative door solutions.",
-        "description": "Pocket doors generally offer less sound insulation due to gaps. For critical sound privacy, specialized systems or alternative doors may be needed."
-      }
-    }
-  ],
+  "name": "Do pocket doors provide good sound insulation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do pocket doors provide good sound insulation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Generally, pocket doors offer less sound insulation than traditional hinged doors. Because they slide into a wall cavity, there is often a gap around the door panel, allowing sound to travel. Unlike hinged doors that typically seal tightly against a door stop, pocket doors usually lack this tight seal. For areas where sound privacy is crucial, such as bedrooms or home offices, you might need to consider specialized pocket door systems designed with better seals or explore alternative door solutions.",
+        "@type": "Answer",
+        "description": "Pocket doors generally offer less sound insulation due to gaps. For critical sound privacy, specialized systems or alternative doors may be needed."
+      }
+    }
+  ],
+  "description": "Pocket doors generally offer less sound insulation due to gaps. For critical sound privacy, specialized systems or alternative doors may be needed."
 }

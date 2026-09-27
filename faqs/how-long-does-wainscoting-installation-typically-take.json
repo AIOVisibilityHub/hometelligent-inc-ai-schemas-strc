@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does wainscoting installation typically take?",
-  "description": "Installation time varies with project size, wainscoting style, and wall preparation. A standard room may take 1-3 days, with larger projects requiring more time",
   "url": "https://hometelligentinc.com/faq/how-long-does-wainscoting-installation-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does wainscoting installation typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of wainscoting installation varies based on the scope of the project, including the total lineal footage, the chosen wainscoting style, and any necessary wall preparation. A standard room might take 1-3 days, while larger projects or those with intricate designs could extend to a week or more. Before starting, we provide a projected timeline, and during the process, we maintain open communication to keep you informed of our progress. We aim to minimize disruption to your daily routine while ensuring a high-quality finish.",
-        "description": "Installation time varies with project size, wainscoting style, and wall preparation. A standard room may take 1-3 days, with larger projects requiring more time."
-      }
-    }
-  ],
+  "name": "How long does wainscoting installation typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does wainscoting installation typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of wainscoting installation varies based on the scope of the project, including the total lineal footage, the chosen wainscoting style, and any necessary wall preparation. A standard room might take 1-3 days, while larger projects or those with intricate designs could extend to a week or more. Before starting, we provide a projected timeline, and during the process, we maintain open communication to keep you informed of our progress. We aim to minimize disruption to your daily routine while ensuring a high-quality finish.",
+        "@type": "Answer",
+        "description": "Installation time varies with project size, wainscoting style, and wall preparation. A standard room may take 1-3 days, with larger projects requiring more time."
+      }
+    }
+  ],
+  "description": "Installation time varies with project size, wainscoting style, and wall preparation. A standard room may take 1-3 days, with larger projects requiring more time"
 }

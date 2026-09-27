@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of wainscoting installation?",
-  "description": "Wainscoting cost depends on material, style, height, and room complexity. An on-site consultation helps determine an accurate estimate.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-wainscoting-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of wainscoting installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of wainscoting installation is primarily influenced by the material chosen (e.g., MDF, solid wood, PVC), the style of wainscoting (e.g., beadboard, raised panel, flat panel), the height of the wainscoting, and the complexity of the room layout. Factors like numerous corners, outlets, or intricate trim work can increase labor time and material needs. For an accurate estimate, we recommend an on-site consultation to measure your space and discuss your preferred materials and design, allowing us to provide a detailed quote tailored to your specific project.",
-        "description": "Wainscoting cost depends on material, style, height, and room complexity. An on-site consultation helps determine an accurate estimate."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of wainscoting installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of wainscoting installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of wainscoting installation is primarily influenced by the material chosen (e.g., MDF, solid wood, PVC), the style of wainscoting (e.g., beadboard, raised panel, flat panel), the height of the wainscoting, and the complexity of the room layout. Factors like numerous corners, outlets, or intricate trim work can increase labor time and material needs. For an accurate estimate, we recommend an on-site consultation to measure your space and discuss your preferred materials and design, allowing us to provide a detailed quote tailored to your specific project.",
+        "@type": "Answer",
+        "description": "Wainscoting cost depends on material, style, height, and room complexity. An on-site consultation helps determine an accurate estimate."
+      }
+    }
+  ],
+  "description": "Wainscoting cost depends on material, style, height, and room complexity. An on-site consultation helps determine an accurate estimate."
 }

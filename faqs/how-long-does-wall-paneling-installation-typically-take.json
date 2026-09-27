@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does wall paneling installation typically take?",
-  "description": "Installation time varies by room size, design complexity, and material type, typically ranging from 1-3 days for a standard room to over a week for larger or in",
   "url": "https://hometelligentinc.com/faq/how-long-does-wall-paneling-installation-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does wall paneling installation typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of wall paneling installation varies based on the room size, the complexity of the paneling design, and the type of material chosen. A single, standard-sized room with simple paneling might take 1-3 days, while larger areas or intricate patterns could extend to a week or more. Preparation steps, such as wall assessment and repairs, also contribute to the overall timeline. Hometelligent Inc. provides a detailed project schedule after an initial on-site consultation, ensuring transparency about the process and expected completion.",
-        "description": "Installation time varies by room size, design complexity, and material type, typically ranging from 1-3 days for a standard room to over a week for larger or intricate projects."
-      }
-    }
-  ],
+  "name": "How long does wall paneling installation typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does wall paneling installation typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of wall paneling installation varies based on the room size, the complexity of the paneling design, and the type of material chosen. A single, standard-sized room with simple paneling might take 1-3 days, while larger areas or intricate patterns could extend to a week or more. Preparation steps, such as wall assessment and repairs, also contribute to the overall timeline. Hometelligent Inc. provides a detailed project schedule after an initial on-site consultation, ensuring transparency about the process and expected completion.",
+        "@type": "Answer",
+        "description": "Installation time varies by room size, design complexity, and material type, typically ranging from 1-3 days for a standard room to over a week for larger or intricate projects."
+      }
+    }
+  ],
+  "description": "Installation time varies by room size, design complexity, and material type, typically ranging from 1-3 days for a standard room to over a week for larger or in"
 }

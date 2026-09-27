@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before wainscoting can be installed?",
-  "description": "Walls must be clean, dry, and sound, with existing wallpaper removed and repairs made. Clear the work area of furniture and decor before installation.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-wainscoting-can-be-installed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before wainscoting can be installed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before wainscoting installation, the walls need to be clean, dry, and structurally sound. Any existing wallpaper should be removed, and significant cracks or holes in the drywall should be repaired to ensure a smooth, stable surface for panel adhesion and trim attachment. You may also need to consider temporary removal of furniture or wall decor from the immediate work area. During our initial assessment, we can advise on specific preparations required for your home and discuss how to best prepare the space to ensure efficient installation.",
-        "description": "Walls must be clean, dry, and sound, with existing wallpaper removed and repairs made. Clear the work area of furniture and decor before installation."
-      }
-    }
-  ],
+  "name": "What preparation is needed before wainscoting can be installed?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before wainscoting can be installed?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before wainscoting installation, the walls need to be clean, dry, and structurally sound. Any existing wallpaper should be removed, and significant cracks or holes in the drywall should be repaired to ensure a smooth, stable surface for panel adhesion and trim attachment. You may also need to consider temporary removal of furniture or wall decor from the immediate work area. During our initial assessment, we can advise on specific preparations required for your home and discuss how to best prepare the space to ensure efficient installation.",
+        "@type": "Answer",
+        "description": "Walls must be clean, dry, and sound, with existing wallpaper removed and repairs made. Clear the work area of furniture and decor before installation."
+      }
+    }
+  ],
+  "description": "Walls must be clean, dry, and sound, with existing wallpaper removed and repairs made. Clear the work area of furniture and decor before installation."
 }

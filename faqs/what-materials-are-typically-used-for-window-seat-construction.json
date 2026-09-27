@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are typically used for window seat construction?",
-  "description": "Common materials for window seats include plywood or MDF for framing, with solid hardwoods used for visible surfaces and trim.",
   "url": "https://hometelligentinc.com/faq/what-materials-are-typically-used-for-window-seat-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are typically used for window seat construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Window seat construction commonly utilizes durable materials such as plywood or MDF for the basic framing and structure, ensuring stability. For visible surfaces and trim, solid hardwoods like oak, maple, or poplar are often chosen for their aesthetic appeal and longevity. The choice of materials influences both the look and durability of the finished product, and we discuss options to match your budget and desired finish during the planning stage.",
-        "description": "Common materials for window seats include plywood or MDF for framing, with solid hardwoods used for visible surfaces and trim."
-      }
-    }
-  ],
+  "name": "What materials are typically used for window seat construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are typically used for window seat construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Window seat construction commonly utilizes durable materials such as plywood or MDF for the basic framing and structure, ensuring stability. For visible surfaces and trim, solid hardwoods like oak, maple, or poplar are often chosen for their aesthetic appeal and longevity. The choice of materials influences both the look and durability of the finished product, and we discuss options to match your budget and desired finish during the planning stage.",
+        "@type": "Answer",
+        "description": "Common materials for window seats include plywood or MDF for framing, with solid hardwoods used for visible surfaces and trim."
+      }
+    }
+  ],
+  "description": "Common materials for window seats include plywood or MDF for framing, with solid hardwoods used for visible surfaces and trim."
 }

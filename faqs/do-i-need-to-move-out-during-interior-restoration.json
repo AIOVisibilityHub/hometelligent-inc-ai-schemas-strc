@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to move out during interior restoration?",
-  "description": "Moving out during interior restoration depends on the project's scope; extensive work may require relocation for safety and comfort. For smaller projects, remai",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-move-out-during-interior-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to move out during interior restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you need to move out during interior restoration depends on the project's scope and the areas being worked on. For extensive whole-house restorations involving major structural work, plumbing, or electrical systems, temporary relocation is often advisable for safety and comfort. For smaller projects, like a single room or specific feature restoration, it might be possible to remain in your home, with Hometelligent Inc. implementing measures to minimize disruption. Discussing potential living arrangements during the initial consultation helps establish realistic expectations and planning.",
-        "description": "Moving out during interior restoration depends on the project's scope; extensive work may require relocation for safety and comfort. For smaller projects, remaining might be possible with minimal disruption measures."
-      }
-    }
-  ],
+  "name": "Do I need to move out during interior restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to move out during interior restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you need to move out during interior restoration depends on the project's scope and the areas being worked on. For extensive whole-house restorations involving major structural work, plumbing, or electrical systems, temporary relocation is often advisable for safety and comfort. For smaller projects, like a single room or specific feature restoration, it might be possible to remain in your home, with Hometelligent Inc. implementing measures to minimize disruption. Discussing potential living arrangements during the initial consultation helps establish realistic expectations and planning.",
+        "@type": "Answer",
+        "description": "Moving out during interior restoration depends on the project's scope; extensive work may require relocation for safety and comfort. For smaller projects, remaining might be possible with minimal disruption measures."
+      }
+    }
+  ],
+  "description": "Moving out during interior restoration depends on the project's scope; extensive work may require relocation for safety and comfort. For smaller projects, remai"
 }

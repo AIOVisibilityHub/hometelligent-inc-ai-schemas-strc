@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider when choosing hardware for custom interior doors?",
-  "description": "Choose hardware based on aesthetics and function, considering hinges, handles, and locks. Weigh the tradeoff between unique, potentially costly hardware and sta",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-when-choosing-hardware-for-custom-interior-doors",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider when choosing hardware for custom interior doors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting hardware for custom interior doors, consider both aesthetic appeal and functional performance. Key elements include hinges, handles, locks, and any special mechanisms like soft-close or pivot systems. The finish of the hardware should complement your door material and overall interior design, while its quality ensures smooth operation and durability. A practical tradeoff to consider is between highly decorative, unique hardware, which may be more costly or have longer lead times, and more standard, readily available options that still offer quality and style.",
-        "description": "Choose hardware based on aesthetics and function, considering hinges, handles, and locks. Weigh the tradeoff between unique, potentially costly hardware and standard options."
-      }
-    }
-  ],
+  "name": "What should I consider when choosing hardware for custom interior doors?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider when choosing hardware for custom interior doors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting hardware for custom interior doors, consider both aesthetic appeal and functional performance. Key elements include hinges, handles, locks, and any special mechanisms like soft-close or pivot systems. The finish of the hardware should complement your door material and overall interior design, while its quality ensures smooth operation and durability. A practical tradeoff to consider is between highly decorative, unique hardware, which may be more costly or have longer lead times, and more standard, readily available options that still offer quality and style.",
+        "@type": "Answer",
+        "description": "Choose hardware based on aesthetics and function, considering hinges, handles, and locks. Weigh the tradeoff between unique, potentially costly hardware and standard options."
+      }
+    }
+  ],
+  "description": "Choose hardware based on aesthetics and function, considering hinges, handles, and locks. Weigh the tradeoff between unique, potentially costly hardware and sta"
 }

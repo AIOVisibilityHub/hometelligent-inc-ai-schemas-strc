@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a walk-in closet build-out increase my home's value?",
-  "description": "A well-designed walk-in closet build-out can increase home value by enhancing appeal and storage, though ROI varies by quality and market.",
   "url": "https://hometelligentinc.com/faq/can-a-walk-in-closet-build-out-increase-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a walk-in closet build-out increase my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A well-designed and professionally installed walk-in closet build-out can enhance a home's appeal and potentially increase its resale value, particularly if it addresses common storage complaints. Buyers often value efficient and attractive storage solutions. However, the exact return on investment can vary based on the quality of materials, the design's functionality, and the overall market conditions in areas like Alameda, Albany, Berkeley, Dublin, or Emeryville. Focusing on timeless designs and durable materials can help ensure a better long-term investment.",
-        "description": "A well-designed walk-in closet build-out can increase home value by enhancing appeal and storage, though ROI varies by quality and market."
-      }
-    }
-  ],
+  "name": "Can a walk-in closet build-out increase my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a walk-in closet build-out increase my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A well-designed and professionally installed walk-in closet build-out can enhance a home's appeal and potentially increase its resale value, particularly if it addresses common storage complaints. Buyers often value efficient and attractive storage solutions. However, the exact return on investment can vary based on the quality of materials, the design's functionality, and the overall market conditions in areas like Alameda, Albany, Berkeley, Dublin, or Emeryville. Focusing on timeless designs and durable materials can help ensure a better long-term investment.",
+        "@type": "Answer",
+        "description": "A well-designed walk-in closet build-out can increase home value by enhancing appeal and storage, though ROI varies by quality and market."
+      }
+    }
+  ],
+  "description": "A well-designed walk-in closet build-out can increase home value by enhancing appeal and storage, though ROI varies by quality and market."
 }

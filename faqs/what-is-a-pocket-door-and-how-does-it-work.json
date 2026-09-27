@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is a pocket door and how does it work?",
-  "description": "A pocket door slides into a wall compartment, saving space compared to traditional hinged doors.",
   "url": "https://hometelligentinc.com/faq/what-is-a-pocket-door-and-how-does-it-work",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a pocket door and how does it work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A pocket door is a sliding door that disappears, or 'pockets,' into a compartment in the adjacent wall when fully open. This design frees up floor space that a traditional hinged door would require for its swing radius. It operates on a track system installed within the wall cavity, allowing the door panel to glide smoothly in and out of the wall.",
-        "description": "A pocket door slides into a wall compartment, saving space compared to traditional hinged doors."
-      }
-    }
-  ],
+  "name": "What is a pocket door and how does it work?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is a pocket door and how does it work?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A pocket door is a sliding door that disappears, or 'pockets,' into a compartment in the adjacent wall when fully open. This design frees up floor space that a traditional hinged door would require for its swing radius. It operates on a track system installed within the wall cavity, allowing the door panel to glide smoothly in and out of the wall.",
+        "@type": "Answer",
+        "description": "A pocket door slides into a wall compartment, saving space compared to traditional hinged doors."
+      }
+    }
+  ],
+  "description": "A pocket door slides into a wall compartment, saving space compared to traditional hinged doors."
 }

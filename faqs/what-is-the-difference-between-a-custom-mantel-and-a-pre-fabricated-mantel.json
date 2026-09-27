@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between a custom mantel and a pre-fabricated mantel?",
-  "description": "Custom mantels are built to exact specifications for a unique fit and design, while pre-fabricated ones are standard sizes, often requiring adjustments.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-a-custom-mantel-and-a-pre-fabricated-mantel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a custom mantel and a pre-fabricated mantel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The main difference lies in customization and fit. A pre-fabricated mantel is a mass-produced unit available in standard sizes and designs, offering a quicker and often more budget-friendly option. However, it may require adjustments to your fireplace opening or wall to fit properly, and design choices are limited. A custom mantel, on the other hand, is built precisely to your specifications and the exact dimensions of your fireplace, ensuring a seamless and unique look. The practical tradeoff is between immediate availability and cost-effectiveness versus tailored design and perfect integration.",
-        "description": "Custom mantels are built to exact specifications for a unique fit and design, while pre-fabricated ones are standard sizes, often requiring adjustments."
-      }
-    }
-  ],
+  "name": "What is the difference between a custom mantel and a pre-fabricated mantel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between a custom mantel and a pre-fabricated mantel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The main difference lies in customization and fit. A pre-fabricated mantel is a mass-produced unit available in standard sizes and designs, offering a quicker and often more budget-friendly option. However, it may require adjustments to your fireplace opening or wall to fit properly, and design choices are limited. A custom mantel, on the other hand, is built precisely to your specifications and the exact dimensions of your fireplace, ensuring a seamless and unique look. The practical tradeoff is between immediate availability and cost-effectiveness versus tailored design and perfect integration.",
+        "@type": "Answer",
+        "description": "Custom mantels are built to exact specifications for a unique fit and design, while pre-fabricated ones are standard sizes, often requiring adjustments."
+      }
+    }
+  ],
+  "description": "Custom mantels are built to exact specifications for a unique fit and design, while pre-fabricated ones are standard sizes, often requiring adjustments."
 }

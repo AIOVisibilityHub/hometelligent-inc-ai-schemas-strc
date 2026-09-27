@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between custom and pre-fabricated mudroom storage?",
-  "description": "Custom storage is built precisely to your space and specifications, while pre-fabricated options come in standard sizes and designs.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-custom-and-pre-fabricated-mudroom-storage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between custom and pre-fabricated mudroom storage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary difference lies in personalization and fit. Pre-fabricated storage comes in standard sizes and designs, offering a quicker and often less expensive solution but may not perfectly fit your space or aesthetic. Custom mudroom storage, on the other hand, is built precisely to your dimensions and specifications, offering tailored functionality and seamless integration with your home's style. Hometelligent Inc. specializes in custom solutions that utilize every unique aspect of your mudroom space.",
-        "description": "Custom storage is built precisely to your space and specifications, while pre-fabricated options come in standard sizes and designs."
-      }
-    }
-  ],
+  "name": "What is the difference between custom and pre-fabricated mudroom storage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between custom and pre-fabricated mudroom storage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The primary difference lies in personalization and fit. Pre-fabricated storage comes in standard sizes and designs, offering a quicker and often less expensive solution but may not perfectly fit your space or aesthetic. Custom mudroom storage, on the other hand, is built precisely to your dimensions and specifications, offering tailored functionality and seamless integration with your home's style. Hometelligent Inc. specializes in custom solutions that utilize every unique aspect of your mudroom space.",
+        "@type": "Answer",
+        "description": "Custom storage is built precisely to your space and specifications, while pre-fabricated options come in standard sizes and designs."
+      }
+    }
+  ],
+  "description": "Custom storage is built precisely to your space and specifications, while pre-fabricated options come in standard sizes and designs."
 }

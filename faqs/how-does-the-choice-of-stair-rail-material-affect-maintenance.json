@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How does the choice of stair rail material affect maintenance?",
-  "description": "Maintenance varies by material: wood needs refinishing, metal requires minimal cleaning, and glass needs regular cleaning.",
   "url": "https://hometelligentinc.com/faq/how-does-the-choice-of-stair-rail-material-affect-maintenance",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does the choice of stair rail material affect maintenance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The choice of stair rail material significantly impacts its maintenance requirements. Wood rails may require occasional sanding and refinishing to maintain their appearance and protect against wear. Metal railings, especially powder-coated or stainless steel, are generally low maintenance, needing only periodic cleaning. Glass panels require regular cleaning to remain clear and streak-free. Consider your willingness to perform upkeep when making your material selection.",
-        "description": "Maintenance varies by material: wood needs refinishing, metal requires minimal cleaning, and glass needs regular cleaning."
-      }
-    }
-  ],
+  "name": "How does the choice of stair rail material affect maintenance?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How does the choice of stair rail material affect maintenance?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The choice of stair rail material significantly impacts its maintenance requirements. Wood rails may require occasional sanding and refinishing to maintain their appearance and protect against wear. Metal railings, especially powder-coated or stainless steel, are generally low maintenance, needing only periodic cleaning. Glass panels require regular cleaning to remain clear and streak-free. Consider your willingness to perform upkeep when making your material selection.",
+        "@type": "Answer",
+        "description": "Maintenance varies by material: wood needs refinishing, metal requires minimal cleaning, and glass needs regular cleaning."
+      }
+    }
+  ],
+  "description": "Maintenance varies by material: wood needs refinishing, metal requires minimal cleaning, and glass needs regular cleaning."
 }

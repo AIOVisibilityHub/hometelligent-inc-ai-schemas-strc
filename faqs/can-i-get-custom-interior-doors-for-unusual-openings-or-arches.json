@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I get custom interior doors for unusual openings or arches?",
-  "description": "Yes, custom doors are ideal for unusual openings like arches or oversized doorways, ensuring a perfect fit and preserving unique architectural elements.",
   "url": "https://hometelligentinc.com/faq/can-i-get-custom-interior-doors-for-unusual-openings-or-arches",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I get custom interior doors for unusual openings or arches?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, a primary advantage of custom interior doors is their ability to fit unusual openings, such as arches, oversized doorways, or non-standard height and width requirements. This flexibility allows for unique architectural elements to be preserved or created where standard doors wouldn't suffice. Our services in areas like Alameda and Oakland include precise measurement and design to ensure a perfect fit for any unique opening. This is a key decision factor: if your home has non-standard openings, custom doors are often the most effective solution for both fit and aesthetics.",
-        "description": "Yes, custom doors are ideal for unusual openings like arches or oversized doorways, ensuring a perfect fit and preserving unique architectural elements."
-      }
-    }
-  ],
+  "name": "Can I get custom interior doors for unusual openings or arches?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I get custom interior doors for unusual openings or arches?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a primary advantage of custom interior doors is their ability to fit unusual openings, such as arches, oversized doorways, or non-standard height and width requirements. This flexibility allows for unique architectural elements to be preserved or created where standard doors wouldn't suffice. Our services in areas like Alameda and Oakland include precise measurement and design to ensure a perfect fit for any unique opening. This is a key decision factor: if your home has non-standard openings, custom doors are often the most effective solution for both fit and aesthetics.",
+        "@type": "Answer",
+        "description": "Yes, custom doors are ideal for unusual openings like arches or oversized doorways, ensuring a perfect fit and preserving unique architectural elements."
+      }
+    }
+  ],
+  "description": "Yes, custom doors are ideal for unusual openings like arches or oversized doorways, ensuring a perfect fit and preserving unique architectural elements."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What's the difference between wainscoting and full wall paneling?",
-  "description": "Wainscoting covers the lower part of a wall, while full wall paneling covers the entire wall from floor to ceiling, each offering different aesthetic and protec",
   "url": "https://hometelligentinc.com/faq/what-s-the-difference-between-wainscoting-and-full-wall-paneling",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What's the difference between wainscoting and full wall paneling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wainscoting refers to paneling that covers the lower portion of a wall, typically extending about one-third to one-half of its height. It's often used for decorative purposes, to protect walls from wear, or to add architectural interest. Full wall paneling, as the name suggests, covers the entire height of a wall from floor to ceiling. This creates a more dramatic and immersive effect, offering extensive design possibilities. The choice between them depends on the desired visual impact and functional needs, with Hometelligent Inc. advising on the best application for your space.",
-        "description": "Wainscoting covers the lower part of a wall, while full wall paneling covers the entire wall from floor to ceiling, each offering different aesthetic and protective benefits."
-      }
-    }
-  ],
+  "name": "What's the difference between wainscoting and full wall paneling?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What's the difference between wainscoting and full wall paneling?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Wainscoting refers to paneling that covers the lower portion of a wall, typically extending about one-third to one-half of its height. It's often used for decorative purposes, to protect walls from wear, or to add architectural interest. Full wall paneling, as the name suggests, covers the entire height of a wall from floor to ceiling. This creates a more dramatic and immersive effect, offering extensive design possibilities. The choice between them depends on the desired visual impact and functional needs, with Hometelligent Inc. advising on the best application for your space.",
+        "@type": "Answer",
+        "description": "Wainscoting covers the lower part of a wall, while full wall paneling covers the entire wall from floor to ceiling, each offering different aesthetic and protective benefits."
+      }
+    }
+  ],
+  "description": "Wainscoting covers the lower part of a wall, while full wall paneling covers the entire wall from floor to ceiling, each offering different aesthetic and protec"
 }

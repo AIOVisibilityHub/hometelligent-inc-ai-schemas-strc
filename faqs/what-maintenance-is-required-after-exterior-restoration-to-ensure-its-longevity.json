@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What maintenance is required after exterior restoration to ensure its longevity?",
-  "description": "Post-restoration, regular cleaning, checking for wear, and ensuring proper drainage are crucial. Addressing small issues promptly prevents larger, costlier repa",
   "url": "https://hometelligentinc.com/faq/what-maintenance-is-required-after-exterior-restoration-to-ensure-its-longevity",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What maintenance is required after exterior restoration to ensure its longevity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After exterior restoration, regular maintenance is essential to preserve the work and extend its lifespan. This typically includes periodic cleaning of surfaces, checking for new signs of wear or damage, and ensuring proper drainage away from the foundation. Timely addressing of minor issues like small cracks or peeling paint can prevent them from escalating into larger, more costly repairs in the future.",
-        "description": "Post-restoration, regular cleaning, checking for wear, and ensuring proper drainage are crucial. Addressing small issues promptly prevents larger, costlier repairs."
-      }
-    }
-  ],
+  "name": "What maintenance is required after exterior restoration to ensure its longevity?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What maintenance is required after exterior restoration to ensure its longevity?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "After exterior restoration, regular maintenance is essential to preserve the work and extend its lifespan. This typically includes periodic cleaning of surfaces, checking for new signs of wear or damage, and ensuring proper drainage away from the foundation. Timely addressing of minor issues like small cracks or peeling paint can prevent them from escalating into larger, more costly repairs in the future.",
+        "@type": "Answer",
+        "description": "Post-restoration, regular cleaning, checking for wear, and ensuring proper drainage are crucial. Addressing small issues promptly prevents larger, costlier repairs."
+      }
+    }
+  ],
+  "description": "Post-restoration, regular cleaning, checking for wear, and ensuring proper drainage are crucial. Addressing small issues promptly prevents larger, costlier repa"
 }

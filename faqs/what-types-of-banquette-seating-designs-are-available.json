@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of banquette seating designs are available?",
-  "description": "Banquette seating comes in straight, L-shaped, U-shaped, and circular designs, often with built-in storage or backrests.",
   "url": "https://hometelligentinc.com/faq/what-types-of-banquette-seating-designs-are-available",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of banquette seating designs are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Banquette seating can be customized into various designs to fit a space's function and aesthetic. Common types include straight, L-shaped, U-shaped, and circular configurations. These designs can incorporate built-in storage, backrests, or be free-standing. When considering a design, think about the primary use of the banquette and how it will integrate with your existing furniture and room layout, as this will influence both comfort and accessibility.",
-        "description": "Banquette seating comes in straight, L-shaped, U-shaped, and circular designs, often with built-in storage or backrests."
-      }
-    }
-  ],
+  "name": "What types of banquette seating designs are available?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of banquette seating designs are available?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Banquette seating can be customized into various designs to fit a space's function and aesthetic. Common types include straight, L-shaped, U-shaped, and circular configurations. These designs can incorporate built-in storage, backrests, or be free-standing. When considering a design, think about the primary use of the banquette and how it will integrate with your existing furniture and room layout, as this will influence both comfort and accessibility.",
+        "@type": "Answer",
+        "description": "Banquette seating comes in straight, L-shaped, U-shaped, and circular designs, often with built-in storage or backrests."
+      }
+    }
+  ],
+  "description": "Banquette seating comes in straight, L-shaped, U-shaped, and circular designs, often with built-in storage or backrests."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does an exterior restoration project usually take?",
-  "description": "Project duration varies based on building size, damage extent, and weather, ranging from weeks to months. Specialized materials or unexpected issues can also af",
   "url": "https://hometelligentinc.com/faq/how-long-does-an-exterior-restoration-project-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does an exterior restoration project usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of an exterior restoration project varies significantly based on the size of the building, the extent of damage, and weather conditions. A smaller project might take a few weeks, while a larger, more complex restoration could take several months. Factors like the need for specialized materials or unexpected discoveries during demolition can also influence the timeline, so detailed project planning is essential.",
-        "description": "Project duration varies based on building size, damage extent, and weather, ranging from weeks to months. Specialized materials or unexpected issues can also affect the timeline."
-      }
-    }
-  ],
+  "name": "How long does an exterior restoration project usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does an exterior restoration project usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of an exterior restoration project varies significantly based on the size of the building, the extent of damage, and weather conditions. A smaller project might take a few weeks, while a larger, more complex restoration could take several months. Factors like the need for specialized materials or unexpected discoveries during demolition can also influence the timeline, so detailed project planning is essential.",
+        "@type": "Answer",
+        "description": "Project duration varies based on building size, damage extent, and weather, ranging from weeks to months. Specialized materials or unexpected issues can also affect the timeline."
+      }
+    }
+  ],
+  "description": "Project duration varies based on building size, damage extent, and weather, ranging from weeks to months. Specialized materials or unexpected issues can also af"
 }

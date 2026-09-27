@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does crown molding installation typically cost?",
-  "description": "Crown molding installation costs vary by material, profile complexity, linear footage, and labor. We provide detailed estimates after an on-site evaluation.",
   "url": "https://hometelligentinc.com/faq/how-much-does-crown-molding-installation-typically-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does crown molding installation typically cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of crown molding installation varies depending on material, complexity of the profile, linear footage, and ceiling height. More intricate designs and premium materials like solid wood will increase the price. Labor costs are also a factor, with more complex installations or rooms with many corners requiring more time. We provide detailed estimates after an on-site evaluation to ensure accuracy for projects in Alameda, Albany, Berkeley, Dublin, and Emeryville.",
-        "description": "Crown molding installation costs vary by material, profile complexity, linear footage, and labor. We provide detailed estimates after an on-site evaluation."
-      }
-    }
-  ],
+  "name": "How much does crown molding installation typically cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does crown molding installation typically cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of crown molding installation varies depending on material, complexity of the profile, linear footage, and ceiling height. More intricate designs and premium materials like solid wood will increase the price. Labor costs are also a factor, with more complex installations or rooms with many corners requiring more time. We provide detailed estimates after an on-site evaluation to ensure accuracy for projects in Alameda, Albany, Berkeley, Dublin, and Emeryville.",
+        "@type": "Answer",
+        "description": "Crown molding installation costs vary by material, profile complexity, linear footage, and labor. We provide detailed estimates after an on-site evaluation."
+      }
+    }
+  ],
+  "description": "Crown molding installation costs vary by material, profile complexity, linear footage, and labor. We provide detailed estimates after an on-site evaluation."
 }

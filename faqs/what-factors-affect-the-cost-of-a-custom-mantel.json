@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors affect the cost of a custom mantel?",
-  "description": "Custom mantel costs depend on material, design complexity, size, and finish. Premium materials and intricate designs increase the price.",
   "url": "https://hometelligentinc.com/faq/what-factors-affect-the-cost-of-a-custom-mantel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors affect the cost of a custom mantel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a custom mantel is influenced by several factors, including material choice, design complexity, size, and finish. Premium woods, natural stone, or unique reclaimed materials will generally increase the price. Intricate carvings, built-in shelving, or custom profiles require more skilled labor and time, impacting the overall cost. Additionally, the mantel's dimensions will affect material volume and labor. Hometelligent Inc. provides detailed estimates after understanding your design preferences and functional requirements, ensuring transparency regarding pricing components.",
-        "description": "Custom mantel costs depend on material, design complexity, size, and finish. Premium materials and intricate designs increase the price."
-      }
-    }
-  ],
+  "name": "What factors affect the cost of a custom mantel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors affect the cost of a custom mantel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a custom mantel is influenced by several factors, including material choice, design complexity, size, and finish. Premium woods, natural stone, or unique reclaimed materials will generally increase the price. Intricate carvings, built-in shelving, or custom profiles require more skilled labor and time, impacting the overall cost. Additionally, the mantel's dimensions will affect material volume and labor. Hometelligent Inc. provides detailed estimates after understanding your design preferences and functional requirements, ensuring transparency regarding pricing components.",
+        "@type": "Answer",
+        "description": "Custom mantel costs depend on material, design complexity, size, and finish. Premium materials and intricate designs increase the price."
+      }
+    }
+  ],
+  "description": "Custom mantel costs depend on material, design complexity, size, and finish. Premium materials and intricate designs increase the price."
 }

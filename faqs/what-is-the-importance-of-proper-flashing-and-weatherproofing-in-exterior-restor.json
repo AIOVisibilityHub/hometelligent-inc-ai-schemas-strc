@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the importance of proper flashing and weatherproofing in exterior restoration?",
-  "description": "Proper flashing and weatherproofing prevent water intrusion, dry rot, and mold, protecting your building's structure. Meticulous installation reduces future mai",
   "url": "https://hometelligentinc.com/faq/what-is-the-importance-of-proper-flashing-and-weatherproofing-in-exterior-restor",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the importance of proper flashing and weatherproofing in exterior restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proper flashing and weatherproofing are critical components of exterior restoration, as they protect your building from water intrusion, which can lead to dry rot, mold, and structural damage. This involves correctly installing metal or synthetic materials around windows, doors, and rooflines to direct water away. Ensuring these elements are meticulously installed during restoration is a practical tradeoff that significantly reduces future maintenance and repair needs.",
-        "description": "Proper flashing and weatherproofing prevent water intrusion, dry rot, and mold, protecting your building's structure. Meticulous installation reduces future maintenance and repair needs."
-      }
-    }
-  ],
+  "name": "What is the importance of proper flashing and weatherproofing in exterior restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the importance of proper flashing and weatherproofing in exterior restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Proper flashing and weatherproofing are critical components of exterior restoration, as they protect your building from water intrusion, which can lead to dry rot, mold, and structural damage. This involves correctly installing metal or synthetic materials around windows, doors, and rooflines to direct water away. Ensuring these elements are meticulously installed during restoration is a practical tradeoff that significantly reduces future maintenance and repair needs.",
+        "@type": "Answer",
+        "description": "Proper flashing and weatherproofing prevent water intrusion, dry rot, and mold, protecting your building's structure. Meticulous installation reduces future maintenance and repair needs."
+      }
+    }
+  ],
+  "description": "Proper flashing and weatherproofing prevent water intrusion, dry rot, and mold, protecting your building's structure. Meticulous installation reduces future mai"
 }

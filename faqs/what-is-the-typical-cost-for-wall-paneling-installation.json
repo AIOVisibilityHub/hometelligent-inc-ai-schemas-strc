@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical cost for wall paneling installation?",
-  "description": "Cost varies depending on material type, square footage, design complexity, and wall preparation. Hometelligent Inc. provides detailed estimates after an on-site",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-cost-for-wall-paneling-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical cost for wall paneling installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of wall paneling installation varies significantly based on factors such as the type of paneling material, the total square footage to be covered, the complexity of the design, and any necessary wall preparation. Premium wood panels will typically cost more than MDF or PVC options. Intricate designs, like wainscoting or full wall applications with custom cuts, require more labor. Hometelligent Inc. provides detailed, transparent estimates after an on-site assessment, ensuring you understand all aspects contributing to the overall project cost before work begins.",
-        "description": "Cost varies depending on material type, square footage, design complexity, and wall preparation. Hometelligent Inc. provides detailed estimates after an on-site assessment."
-      }
-    }
-  ],
+  "name": "What is the typical cost for wall paneling installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical cost for wall paneling installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of wall paneling installation varies significantly based on factors such as the type of paneling material, the total square footage to be covered, the complexity of the design, and any necessary wall preparation. Premium wood panels will typically cost more than MDF or PVC options. Intricate designs, like wainscoting or full wall applications with custom cuts, require more labor. Hometelligent Inc. provides detailed, transparent estimates after an on-site assessment, ensuring you understand all aspects contributing to the overall project cost before work begins.",
+        "@type": "Answer",
+        "description": "Cost varies depending on material type, square footage, design complexity, and wall preparation. Hometelligent Inc. provides detailed estimates after an on-site assessment."
+      }
+    }
+  ],
+  "description": "Cost varies depending on material type, square footage, design complexity, and wall preparation. Hometelligent Inc. provides detailed estimates after an on-site"
 }

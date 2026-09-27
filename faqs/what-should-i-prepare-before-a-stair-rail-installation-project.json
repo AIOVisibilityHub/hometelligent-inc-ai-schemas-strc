@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before a stair rail installation project?",
-  "description": "Before installation, clear the staircase area and consider your desired material, finish, and style to ensure a smooth process.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-a-stair-rail-installation-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before a stair rail installation project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before stair rail installation, it's helpful to clear the staircase area of any furniture, decorations, or personal items to provide our team with unobstructed access. You should also consider your desired aesthetic, such as material, finish, and style, as this helps streamline the initial consultation and material selection process. Having a clear idea of your vision and a clean workspace allows for a more efficient and smooth installation.",
-        "description": "Before installation, clear the staircase area and consider your desired material, finish, and style to ensure a smooth process."
-      }
-    }
-  ],
+  "name": "What should I prepare before a stair rail installation project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before a stair rail installation project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before stair rail installation, it's helpful to clear the staircase area of any furniture, decorations, or personal items to provide our team with unobstructed access. You should also consider your desired aesthetic, such as material, finish, and style, as this helps streamline the initial consultation and material selection process. Having a clear idea of your vision and a clean workspace allows for a more efficient and smooth installation.",
+        "@type": "Answer",
+        "description": "Before installation, clear the staircase area and consider your desired material, finish, and style to ensure a smooth process."
+      }
+    }
+  ],
+  "description": "Before installation, clear the staircase area and consider your desired material, finish, and style to ensure a smooth process."
 }

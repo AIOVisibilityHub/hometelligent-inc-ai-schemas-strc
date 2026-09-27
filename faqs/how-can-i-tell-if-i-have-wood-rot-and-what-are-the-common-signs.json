@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can I tell if I have wood rot and what are the common signs?",
-  "description": "Look for discolored, soft wood, a musty smell, or fungal growth. A simple poke test can reveal weakened areas.",
   "url": "https://hometelligentinc.com/faq/how-can-i-tell-if-i-have-wood-rot-and-what-are-the-common-signs",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can I tell if I have wood rot and what are the common signs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs of wood rot include discolored, soft, or crumbly wood, often accompanied by a musty odor. You might also notice fungal growth, such as mushroom-like structures. To identify rot, homeowners can perform a simple 'poke test' with a screwdriver; if the wood easily gives way, it likely has rot. When Hometelligent Inc. performs an inspection, we look for these visual cues and use specialized tools to check for hidden moisture, which is the primary cause of rot, to ensure a comprehensive assessment.",
-        "description": "Look for discolored, soft wood, a musty smell, or fungal growth. A simple poke test can reveal weakened areas."
-      }
-    }
-  ],
+  "name": "How can I tell if I have wood rot and what are the common signs?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can I tell if I have wood rot and what are the common signs?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Common signs of wood rot include discolored, soft, or crumbly wood, often accompanied by a musty odor. You might also notice fungal growth, such as mushroom-like structures. To identify rot, homeowners can perform a simple 'poke test' with a screwdriver; if the wood easily gives way, it likely has rot. When Hometelligent Inc. performs an inspection, we look for these visual cues and use specialized tools to check for hidden moisture, which is the primary cause of rot, to ensure a comprehensive assessment.",
+        "@type": "Answer",
+        "description": "Look for discolored, soft wood, a musty smell, or fungal growth. A simple poke test can reveal weakened areas."
+      }
+    }
+  ],
+  "description": "Look for discolored, soft wood, a musty smell, or fungal growth. A simple poke test can reveal weakened areas."
 }

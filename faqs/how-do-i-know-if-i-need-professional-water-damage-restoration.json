@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I know if I need professional water damage restoration?",
-  "description": "Professional restoration is needed for extensive damage, contaminated water, or if water has been present over 24-48 hours, due to specialized equipment and mol",
   "url": "https://hometelligentinc.com/faq/how-do-i-know-if-i-need-professional-water-damage-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if I need professional water damage restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You likely need professional water damage restoration if the water intrusion is extensive, covers a large area, involves contaminated water (e.g., sewage), or has been present for more than 24-48 hours. Professionals have the specialized equipment and expertise to safely extract water, thoroughly dry materials, and prevent mold. Attempting a DIY approach for significant damage often leads to incomplete drying and hidden issues.",
-        "description": "Professional restoration is needed for extensive damage, contaminated water, or if water has been present over 24-48 hours, due to specialized equipment and mold prevention expertise."
-      }
-    }
-  ],
+  "name": "How do I know if I need professional water damage restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I know if I need professional water damage restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You likely need professional water damage restoration if the water intrusion is extensive, covers a large area, involves contaminated water (e.g., sewage), or has been present for more than 24-48 hours. Professionals have the specialized equipment and expertise to safely extract water, thoroughly dry materials, and prevent mold. Attempting a DIY approach for significant damage often leads to incomplete drying and hidden issues.",
+        "@type": "Answer",
+        "description": "Professional restoration is needed for extensive damage, contaminated water, or if water has been present over 24-48 hours, due to specialized equipment and mold prevention expertise."
+      }
+    }
+  ],
+  "description": "Professional restoration is needed for extensive damage, contaminated water, or if water has been present over 24-48 hours, due to specialized equipment and mol"
 }

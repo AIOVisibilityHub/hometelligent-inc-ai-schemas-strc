@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is dry rot and why is it a problem for homes?",
-  "description": "Dry rot is a wood-destroying fungus that decays timber, causing structural damage to homes if not addressed promptly.",
   "url": "https://hometelligentinc.com/faq/what-is-dry-rot-and-why-is-it-a-problem-for-homes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is dry rot and why is it a problem for homes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Dry rot is a wood-destroying fungus that causes timber to decay and lose its structural integrity. It thrives in damp, poorly ventilated conditions, breaking down cellulose in wood. If left untreated, dry rot can spread quickly through a property, compromising structural elements like floor joists, roof timbers, and wall studs, leading to significant repair costs and safety hazards. Early identification is crucial for minimizing damage and repair scope.",
-        "description": "Dry rot is a wood-destroying fungus that decays timber, causing structural damage to homes if not addressed promptly."
-      }
-    }
-  ],
+  "name": "What is dry rot and why is it a problem for homes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is dry rot and why is it a problem for homes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Dry rot is a wood-destroying fungus that causes timber to decay and lose its structural integrity. It thrives in damp, poorly ventilated conditions, breaking down cellulose in wood. If left untreated, dry rot can spread quickly through a property, compromising structural elements like floor joists, roof timbers, and wall studs, leading to significant repair costs and safety hazards. Early identification is crucial for minimizing damage and repair scope.",
+        "@type": "Answer",
+        "description": "Dry rot is a wood-destroying fungus that decays timber, causing structural damage to homes if not addressed promptly."
+      }
+    }
+  ],
+  "description": "Dry rot is a wood-destroying fungus that decays timber, causing structural damage to homes if not addressed promptly."
 }

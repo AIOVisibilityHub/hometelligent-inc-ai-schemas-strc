@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is custom mudroom storage?",
-  "description": "Custom mudroom storage is a personalized design and build service for organizing your mudroom with features like cubbies, lockers, and benches.",
   "url": "https://hometelligentinc.com/faq/what-is-custom-mudroom-storage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is custom mudroom storage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom mudroom storage involves designing and building built-in cabinetry, shelving, and organizational solutions specifically tailored to your mudroom's dimensions, your family's needs, and your home's aesthetic. This can include features like cubbies, lockers, benches with storage, coat hooks, and specialized compartments for shoes, bags, and sports equipment. The design process at Hometelligent Inc. typically begins with understanding your daily routines and what items need to be stored to maximize functionality.",
-        "description": "Custom mudroom storage is a personalized design and build service for organizing your mudroom with features like cubbies, lockers, and benches."
-      }
-    }
-  ],
+  "name": "What is custom mudroom storage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is custom mudroom storage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom mudroom storage involves designing and building built-in cabinetry, shelving, and organizational solutions specifically tailored to your mudroom's dimensions, your family's needs, and your home's aesthetic. This can include features like cubbies, lockers, benches with storage, coat hooks, and specialized compartments for shoes, bags, and sports equipment. The design process at Hometelligent Inc. typically begins with understanding your daily routines and what items need to be stored to maximize functionality.",
+        "@type": "Answer",
+        "description": "Custom mudroom storage is a personalized design and build service for organizing your mudroom with features like cubbies, lockers, and benches."
+      }
+    }
+  ],
+  "description": "Custom mudroom storage is a personalized design and build service for organizing your mudroom with features like cubbies, lockers, and benches."
 }

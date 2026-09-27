@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need special permits for banquette seating construction in Alameda, Albany, or Berkeley?",
-  "description": "Simple banquettes usually don't need permits, but extensive structural, electrical, or plumbing changes might require them; check with local building department",
   "url": "https://hometelligentinc.com/faq/do-i-need-special-permits-for-banquette-seating-construction-in-alameda-albany-o",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need special permits for banquette seating construction in Alameda, Albany, or Berkeley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generally, simple banquette seating construction, especially if it's not structural or does not involve significant plumbing or electrical changes, may not require special permits. However, if the construction alters load-bearing walls, involves significant electrical work, or changes the building's footprint, permits might be necessary. It is always recommended to check with the local building department in Alameda, Albany, or Berkeley regarding specific requirements before starting any construction project to ensure compliance.",
-        "description": "Simple banquettes usually don't need permits, but extensive structural, electrical, or plumbing changes might require them; check with local building departments in Alameda, Albany, or Berkeley."
-      }
-    }
-  ],
+  "name": "Do I need special permits for banquette seating construction in Alameda, Albany, or Berkeley?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need special permits for banquette seating construction in Alameda, Albany, or Berkeley?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Generally, simple banquette seating construction, especially if it's not structural or does not involve significant plumbing or electrical changes, may not require special permits. However, if the construction alters load-bearing walls, involves significant electrical work, or changes the building's footprint, permits might be necessary. It is always recommended to check with the local building department in Alameda, Albany, or Berkeley regarding specific requirements before starting any construction project to ensure compliance.",
+        "@type": "Answer",
+        "description": "Simple banquettes usually don't need permits, but extensive structural, electrical, or plumbing changes might require them; check with local building departments in Alameda, Albany, or Berkeley."
+      }
+    }
+  ],
+  "description": "Simple banquettes usually don't need permits, but extensive structural, electrical, or plumbing changes might require them; check with local building department"
 }

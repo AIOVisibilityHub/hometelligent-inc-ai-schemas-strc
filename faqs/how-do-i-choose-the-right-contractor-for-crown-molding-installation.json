@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right contractor for crown molding installation?",
-  "description": "Choose a contractor with experience, a portfolio, proper licensing, and clear communication. Request references and check reviews to ensure quality and reliabil",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-contractor-for-crown-molding-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right contractor for crown molding installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When choosing a contractor for crown molding installation, look for experience, attention to detail, and a portfolio of completed projects. Verify their licensing and insurance to ensure proper coverage. A reputable contractor should offer a clear contract, detailed estimates, and transparent communication throughout the project. We recommend requesting references and checking online reviews. Hometelligent Inc. serves the Alameda, Albany, Berkeley, Dublin, and Emeryville areas, focusing on precision and customer satisfaction.",
-        "description": "Choose a contractor with experience, a portfolio, proper licensing, and clear communication. Request references and check reviews to ensure quality and reliability."
-      }
-    }
-  ],
+  "name": "How do I choose the right contractor for crown molding installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right contractor for crown molding installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When choosing a contractor for crown molding installation, look for experience, attention to detail, and a portfolio of completed projects. Verify their licensing and insurance to ensure proper coverage. A reputable contractor should offer a clear contract, detailed estimates, and transparent communication throughout the project. We recommend requesting references and checking online reviews. Hometelligent Inc. serves the Alameda, Albany, Berkeley, Dublin, and Emeryville areas, focusing on precision and customer satisfaction.",
+        "@type": "Answer",
+        "description": "Choose a contractor with experience, a portfolio, proper licensing, and clear communication. Request references and check reviews to ensure quality and reliability."
+      }
+    }
+  ],
+  "description": "Choose a contractor with experience, a portfolio, proper licensing, and clear communication. Request references and check reviews to ensure quality and reliabil"
 }

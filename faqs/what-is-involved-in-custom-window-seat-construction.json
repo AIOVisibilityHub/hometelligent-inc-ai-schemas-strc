@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in custom window seat construction?",
-  "description": "Custom window seat construction involves designing and building a built-in seating area, often with storage, to fit a window recess.",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-custom-window-seat-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in custom window seat construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom window seat construction involves designing, building, and installing a built-in seating area within a window recess. This process typically includes framing the structure, adding storage solutions like drawers or lift-top benches, and finishing with trim and paint to match your home's aesthetic. As Hometelligent Inc., we begin with a detailed consultation to understand your vision and measure the space, ensuring the final product integrates seamlessly with your existing architecture.",
-        "description": "Custom window seat construction involves designing and building a built-in seating area, often with storage, to fit a window recess."
-      }
-    }
-  ],
+  "name": "What is involved in custom window seat construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in custom window seat construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom window seat construction involves designing, building, and installing a built-in seating area within a window recess. This process typically includes framing the structure, adding storage solutions like drawers or lift-top benches, and finishing with trim and paint to match your home's aesthetic. As Hometelligent Inc., we begin with a detailed consultation to understand your vision and measure the space, ensuring the final product integrates seamlessly with your existing architecture.",
+        "@type": "Answer",
+        "description": "Custom window seat construction involves designing and building a built-in seating area, often with storage, to fit a window recess."
+      }
+    }
+  ],
+  "description": "Custom window seat construction involves designing and building a built-in seating area, often with storage, to fit a window recess."
 }

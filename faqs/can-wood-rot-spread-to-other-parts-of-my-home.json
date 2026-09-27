@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can wood rot spread to other parts of my home?",
-  "description": "Yes, wood rot can spread to adjacent wood if moisture conditions persist. Prompt repair is essential to contain damage.",
   "url": "https://hometelligentinc.com/faq/can-wood-rot-spread-to-other-parts-of-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can wood rot spread to other parts of my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, wood rot can spread if the conditions, primarily moisture, persist and affect adjacent wood. The fungal spores can travel, and if new areas become consistently damp, the rot can establish there. This means what starts as a small issue in a window sill could potentially spread to wall studs or sheathing. Prompt repair and addressing the underlying moisture problem are critical to contain the damage and protect the surrounding structure of your home.",
-        "description": "Yes, wood rot can spread to adjacent wood if moisture conditions persist. Prompt repair is essential to contain damage."
-      }
-    }
-  ],
+  "name": "Can wood rot spread to other parts of my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can wood rot spread to other parts of my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, wood rot can spread if the conditions, primarily moisture, persist and affect adjacent wood. The fungal spores can travel, and if new areas become consistently damp, the rot can establish there. This means what starts as a small issue in a window sill could potentially spread to wall studs or sheathing. Prompt repair and addressing the underlying moisture problem are critical to contain the damage and protect the surrounding structure of your home.",
+        "@type": "Answer",
+        "description": "Yes, wood rot can spread to adjacent wood if moisture conditions persist. Prompt repair is essential to contain damage."
+      }
+    }
+  ],
+  "description": "Yes, wood rot can spread to adjacent wood if moisture conditions persist. Prompt repair is essential to contain damage."
 }

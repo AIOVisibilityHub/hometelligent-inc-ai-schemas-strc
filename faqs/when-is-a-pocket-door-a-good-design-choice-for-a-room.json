@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When is a pocket door a good design choice for a room?",
-  "description": "Pocket doors are ideal for small spaces or creating flexible room divisions, but require clear wall space for installation.",
   "url": "https://hometelligentinc.com/faq/when-is-a-pocket-door-a-good-design-choice-for-a-room",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is a pocket door a good design choice for a room?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pocket doors are an excellent design choice for areas where space is limited, such as small bathrooms, closets, or laundry rooms, as they don't require swing clearance. They can also be used to create flexible living spaces, allowing two rooms to be opened into one larger area. A practical tradeoff to consider is the amount of wall space required; the wall must be clear of electrical, plumbing, or major structural elements for the pocket door to install successfully.",
-        "description": "Pocket doors are ideal for small spaces or creating flexible room divisions, but require clear wall space for installation."
-      }
-    }
-  ],
+  "name": "When is a pocket door a good design choice for a room?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When is a pocket door a good design choice for a room?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Pocket doors are an excellent design choice for areas where space is limited, such as small bathrooms, closets, or laundry rooms, as they don't require swing clearance. They can also be used to create flexible living spaces, allowing two rooms to be opened into one larger area. A practical tradeoff to consider is the amount of wall space required; the wall must be clear of electrical, plumbing, or major structural elements for the pocket door to install successfully.",
+        "@type": "Answer",
+        "description": "Pocket doors are ideal for small spaces or creating flexible room divisions, but require clear wall space for installation."
+      }
+    }
+  ],
+  "description": "Pocket doors are ideal for small spaces or creating flexible room divisions, but require clear wall space for installation."
 }

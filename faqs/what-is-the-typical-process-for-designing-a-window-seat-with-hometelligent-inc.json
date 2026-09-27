@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for designing a window seat with Hometelligent Inc.?",
-  "description": "The design process involves consultation, on-site measurement, a design proposal with material choices, and then construction.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-designing-a-window-seat-with-hometelligent-inc",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for designing a window seat with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process for designing a window seat begins with an initial consultation to discuss your vision, functional needs, and aesthetic preferences. Following this, we conduct an on-site measurement and assessment of your window space. We then create a design proposal, which may include sketches or 3D renderings, outlining material choices and features. Once approved, we move to construction and installation, ensuring clear communication throughout the project, especially for homes in diverse communities like Hayward or Pleasanton.",
-        "description": "The design process involves consultation, on-site measurement, a design proposal with material choices, and then construction."
-      }
-    }
-  ],
+  "name": "What is the typical process for designing a window seat with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for designing a window seat with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process for designing a window seat begins with an initial consultation to discuss your vision, functional needs, and aesthetic preferences. Following this, we conduct an on-site measurement and assessment of your window space. We then create a design proposal, which may include sketches or 3D renderings, outlining material choices and features. Once approved, we move to construction and installation, ensuring clear communication throughout the project, especially for homes in diverse communities like Hayward or Pleasanton.",
+        "@type": "Answer",
+        "description": "The design process involves consultation, on-site measurement, a design proposal with material choices, and then construction."
+      }
+    }
+  ],
+  "description": "The design process involves consultation, on-site measurement, a design proposal with material choices, and then construction."
 }

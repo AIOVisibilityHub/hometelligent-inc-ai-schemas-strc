@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a home restoration project typically take?",
-  "description": "Project duration varies based on home size, work scope, and historical complexity, from a few months to over a year. A detailed timeline is provided after initi",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-home-restoration-project-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a home restoration project typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a home restoration project varies significantly based on the size of the home, the extent of work required, and the complexity of preserving historical elements. Minor restorations might take a few months, while extensive projects involving structural work or historical replication can extend beyond a year. Process clarity is achieved through detailed planning. Hometelligent Inc. develops a comprehensive project timeline after the initial assessment and design phase, factoring in material sourcing, permit approvals, and the meticulous craftsmanship required for authentic restoration.",
-        "description": "Project duration varies based on home size, work scope, and historical complexity, from a few months to over a year. A detailed timeline is provided after initial assessment."
-      }
-    }
-  ],
+  "name": "How long does a home restoration project typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a home restoration project typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of a home restoration project varies significantly based on the size of the home, the extent of work required, and the complexity of preserving historical elements. Minor restorations might take a few months, while extensive projects involving structural work or historical replication can extend beyond a year. Process clarity is achieved through detailed planning. Hometelligent Inc. develops a comprehensive project timeline after the initial assessment and design phase, factoring in material sourcing, permit approvals, and the meticulous craftsmanship required for authentic restoration.",
+        "@type": "Answer",
+        "description": "Project duration varies based on home size, work scope, and historical complexity, from a few months to over a year. A detailed timeline is provided after initial assessment."
+      }
+    }
+  ],
+  "description": "Project duration varies based on home size, work scope, and historical complexity, from a few months to over a year. A detailed timeline is provided after initi"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can wainscoting be installed over existing wallpaper or damaged walls?",
-  "description": "Installing wainscoting over wallpaper or damaged walls is not recommended due to adhesion and structural issues. Walls should be prepared properly for a smooth",
   "url": "https://hometelligentinc.com/faq/can-wainscoting-be-installed-over-existing-wallpaper-or-damaged-walls",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can wainscoting be installed over existing wallpaper or damaged walls?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While it might seem convenient, installing wainscoting directly over existing wallpaper or significantly damaged walls is not recommended. Wallpaper can cause adhesion issues, and damaged walls may lead to an uneven installation or compromise the structural integrity of the wainscoting over time. For best results, we advise removing wallpaper and repairing any substantial wall damage prior to installation. This crucial step ensures a smooth, stable, and long-lasting finish for your wainscoting, preventing potential issues down the line. Our team can assist with assessing the wall condition.",
-        "description": "Installing wainscoting over wallpaper or damaged walls is not recommended due to adhesion and structural issues. Walls should be prepared properly for a smooth finish."
-      }
-    }
-  ],
+  "name": "Can wainscoting be installed over existing wallpaper or damaged walls?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can wainscoting be installed over existing wallpaper or damaged walls?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While it might seem convenient, installing wainscoting directly over existing wallpaper or significantly damaged walls is not recommended. Wallpaper can cause adhesion issues, and damaged walls may lead to an uneven installation or compromise the structural integrity of the wainscoting over time. For best results, we advise removing wallpaper and repairing any substantial wall damage prior to installation. This crucial step ensures a smooth, stable, and long-lasting finish for your wainscoting, preventing potential issues down the line. Our team can assist with assessing the wall condition.",
+        "@type": "Answer",
+        "description": "Installing wainscoting over wallpaper or damaged walls is not recommended due to adhesion and structural issues. Walls should be prepared properly for a smooth finish."
+      }
+    }
+  ],
+  "description": "Installing wainscoting over wallpaper or damaged walls is not recommended due to adhesion and structural issues. Walls should be prepared properly for a smooth"
 }

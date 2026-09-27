@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does stair rail installation typically take?",
-  "description": "Installation time varies from a few days to over a week, depending on design complexity, materials, and staircase size.",
   "url": "https://hometelligentinc.com/faq/how-long-does-stair-rail-installation-typically-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does stair rail installation typically take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of stair rail installation varies depending on the complexity of the design, the materials chosen, and the size of the staircase. A simple replacement of an existing rail might take one to two days, while a completely new custom installation with intricate balusters or newel posts could extend to several days or even a week. We provide a detailed project timeline after assessing the specific requirements of your home's staircase and your desired railing style.",
-        "description": "Installation time varies from a few days to over a week, depending on design complexity, materials, and staircase size."
-      }
-    }
-  ],
+  "name": "How long does stair rail installation typically take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does stair rail installation typically take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of stair rail installation varies depending on the complexity of the design, the materials chosen, and the size of the staircase. A simple replacement of an existing rail might take one to two days, while a completely new custom installation with intricate balusters or newel posts could extend to several days or even a week. We provide a detailed project timeline after assessing the specific requirements of your home's staircase and your desired railing style.",
+        "@type": "Answer",
+        "description": "Installation time varies from a few days to over a week, depending on design complexity, materials, and staircase size."
+      }
+    }
+  ],
+  "description": "Installation time varies from a few days to over a week, depending on design complexity, materials, and staircase size."
 }

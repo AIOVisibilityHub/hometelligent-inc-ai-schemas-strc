@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When is it necessary to replace all interior trim versus just repairing sections?",
-  "description": "Replace all trim for extensive damage or major renovations for a cohesive look; repair sections for minor, localized damage.",
   "url": "https://hometelligentinc.com/faq/when-is-it-necessary-to-replace-all-interior-trim-versus-just-repairing-sections",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is it necessary to replace all interior trim versus just repairing sections?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The decision to replace all interior trim or repair sections typically depends on the extent of damage, the age of the trim, and your overall renovation goals. If trim has extensive water damage, rot, or multiple significant impacts, replacement is usually more cost-effective and provides a better long-term solution. For minor scuffs or small localized damage, repairing and repainting might suffice. If you're undertaking a significant home renovation, such as in an older home in Oakland, replacing all trim can offer a cohesive, updated look and allow for consistent material choices throughout the property.",
-        "description": "Replace all trim for extensive damage or major renovations for a cohesive look; repair sections for minor, localized damage."
-      }
-    }
-  ],
+  "name": "When is it necessary to replace all interior trim versus just repairing sections?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When is it necessary to replace all interior trim versus just repairing sections?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The decision to replace all interior trim or repair sections typically depends on the extent of damage, the age of the trim, and your overall renovation goals. If trim has extensive water damage, rot, or multiple significant impacts, replacement is usually more cost-effective and provides a better long-term solution. For minor scuffs or small localized damage, repairing and repainting might suffice. If you're undertaking a significant home renovation, such as in an older home in Oakland, replacing all trim can offer a cohesive, updated look and allow for consistent material choices throughout the property.",
+        "@type": "Answer",
+        "description": "Replace all trim for extensive damage or major renovations for a cohesive look; repair sections for minor, localized damage."
+      }
+    }
+  ],
+  "description": "Replace all trim for extensive damage or major renovations for a cohesive look; repair sections for minor, localized damage."
 }

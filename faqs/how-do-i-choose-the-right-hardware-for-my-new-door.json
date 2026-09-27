@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right hardware for my new door?",
-  "description": "Select hardware based on functionality (security, privacy), aesthetics, and durability. Prioritize security for exterior doors and match styles to your home's d",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-hardware-for-my-new-door",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right hardware for my new door?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right door hardware involves considering both functionality and aesthetics. For exterior doors, prioritize security features like strong deadbolts and durable finishes that can withstand weather. For interior doors, consider the room's purpose and existing decor – privacy locks for bathrooms or bedrooms, passage knobs for closets. Practical tradeoffs include balancing cost with security features and finish durability. Matching hardware style to your home's architectural period or interior design can significantly enhance the overall look and feel.",
-        "description": "Select hardware based on functionality (security, privacy), aesthetics, and durability. Prioritize security for exterior doors and match styles to your home's decor."
-      }
-    }
-  ],
+  "name": "How do I choose the right hardware for my new door?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right hardware for my new door?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right door hardware involves considering both functionality and aesthetics. For exterior doors, prioritize security features like strong deadbolts and durable finishes that can withstand weather. For interior doors, consider the room's purpose and existing decor – privacy locks for bathrooms or bedrooms, passage knobs for closets. Practical tradeoffs include balancing cost with security features and finish durability. Matching hardware style to your home's architectural period or interior design can significantly enhance the overall look and feel.",
+        "@type": "Answer",
+        "description": "Select hardware based on functionality (security, privacy), aesthetics, and durability. Prioritize security for exterior doors and match styles to your home's decor."
+      }
+    }
+  ],
+  "description": "Select hardware based on functionality (security, privacy), aesthetics, and durability. Prioritize security for exterior doors and match styles to your home's d"
 }

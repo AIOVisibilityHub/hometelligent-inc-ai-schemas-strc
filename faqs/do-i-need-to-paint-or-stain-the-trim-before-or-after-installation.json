@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to paint or stain the trim before or after installation?",
-  "description": "Pre-finishing trim before installation offers a cleaner finish and saves time, though touch-ups are needed. Finishing after allows for perfect color matching bu",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-paint-or-stain-the-trim-before-or-after-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to paint or stain the trim before or after installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can paint or stain trim either before or after installation, each with its own advantages. Pre-finishing trim before it's installed allows for a smoother, more consistent finish without concern for paint drips on walls or floors, and often saves time on-site. However, minor touch-ups will be necessary after installation to cover nail holes and caulk lines. Finishing after installation ensures a perfect match with existing wall colors and allows for seamless filling of gaps, but requires careful masking to protect surrounding surfaces. We typically recommend pre-finishing for efficiency and a cleaner result.",
-        "description": "Pre-finishing trim before installation offers a cleaner finish and saves time, though touch-ups are needed. Finishing after allows for perfect color matching but requires careful masking."
-      }
-    }
-  ],
+  "name": "Do I need to paint or stain the trim before or after installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to paint or stain the trim before or after installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You can paint or stain trim either before or after installation, each with its own advantages. Pre-finishing trim before it's installed allows for a smoother, more consistent finish without concern for paint drips on walls or floors, and often saves time on-site. However, minor touch-ups will be necessary after installation to cover nail holes and caulk lines. Finishing after installation ensures a perfect match with existing wall colors and allows for seamless filling of gaps, but requires careful masking to protect surrounding surfaces. We typically recommend pre-finishing for efficiency and a cleaner result.",
+        "@type": "Answer",
+        "description": "Pre-finishing trim before installation offers a cleaner finish and saves time, though touch-ups are needed. Finishing after allows for perfect color matching but requires careful masking."
+      }
+    }
+  ],
+  "description": "Pre-finishing trim before installation offers a cleaner finish and saves time, though touch-ups are needed. Finishing after allows for perfect color matching bu"
 }

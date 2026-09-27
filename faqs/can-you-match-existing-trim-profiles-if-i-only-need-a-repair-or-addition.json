@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can you match existing trim profiles if I only need a repair or addition?",
-  "description": "We can match existing trim profiles for repairs or additions, often by sourcing or custom milling, with a sample greatly assisting accuracy.",
   "url": "https://hometelligentinc.com/faq/can-you-match-existing-trim-profiles-if-i-only-need-a-repair-or-addition",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can you match existing trim profiles if I only need a repair or addition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. can often match existing trim profiles for repairs or additions, especially for common styles. We utilize various techniques, including sourcing from local suppliers in the East Bay or, if necessary, having custom profiles milled to replicate unique designs. Providing a small sample of your existing trim is highly beneficial for accurate matching, as it allows us to precisely identify the dimensions and contours. This ensures a seamless blend with your home's current aesthetic.",
-        "description": "We can match existing trim profiles for repairs or additions, often by sourcing or custom milling, with a sample greatly assisting accuracy."
-      }
-    }
-  ],
+  "name": "Can you match existing trim profiles if I only need a repair or addition?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can you match existing trim profiles if I only need a repair or addition?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. can often match existing trim profiles for repairs or additions, especially for common styles. We utilize various techniques, including sourcing from local suppliers in the East Bay or, if necessary, having custom profiles milled to replicate unique designs. Providing a small sample of your existing trim is highly beneficial for accurate matching, as it allows us to precisely identify the dimensions and contours. This ensures a seamless blend with your home's current aesthetic.",
+        "@type": "Answer",
+        "description": "We can match existing trim profiles for repairs or additions, often by sourcing or custom milling, with a sample greatly assisting accuracy."
+      }
+    }
+  ],
+  "description": "We can match existing trim profiles for repairs or additions, often by sourcing or custom milling, with a sample greatly assisting accuracy."
 }

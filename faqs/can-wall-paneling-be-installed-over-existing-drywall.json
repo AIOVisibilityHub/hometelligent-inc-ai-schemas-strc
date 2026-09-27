@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can wall paneling be installed over existing drywall?",
-  "description": "Yes, wall paneling can be installed over existing drywall if it's in good, sound condition. Any significant damage or moisture issues must be resolved beforehan",
   "url": "https://hometelligentinc.com/faq/can-wall-paneling-be-installed-over-existing-drywall",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can wall paneling be installed over existing drywall?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, wall paneling can typically be installed directly over existing drywall, provided the drywall is in good condition. The surface must be structurally sound, flat, and free of moisture issues. If the drywall has significant damage, moisture problems, or unevenness, these issues must be addressed before paneling can be installed to prevent future problems like warping or detachment. Hometelligent Inc. assesses the existing wall condition during our initial consultation to determine the best approach and any required remedial work.",
-        "description": "Yes, wall paneling can be installed over existing drywall if it's in good, sound condition. Any significant damage or moisture issues must be resolved beforehand."
-      }
-    }
-  ],
+  "name": "Can wall paneling be installed over existing drywall?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can wall paneling be installed over existing drywall?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, wall paneling can typically be installed directly over existing drywall, provided the drywall is in good condition. The surface must be structurally sound, flat, and free of moisture issues. If the drywall has significant damage, moisture problems, or unevenness, these issues must be addressed before paneling can be installed to prevent future problems like warping or detachment. Hometelligent Inc. assesses the existing wall condition during our initial consultation to determine the best approach and any required remedial work.",
+        "@type": "Answer",
+        "description": "Yes, wall paneling can be installed over existing drywall if it's in good, sound condition. Any significant damage or moisture issues must be resolved beforehand."
+      }
+    }
+  ],
+  "description": "Yes, wall paneling can be installed over existing drywall if it's in good, sound condition. Any significant damage or moisture issues must be resolved beforehan"
 }

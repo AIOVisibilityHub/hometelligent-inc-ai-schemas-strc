@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical timeline for barn door installation?",
-  "description": "Barn door installation usually takes a few hours to a full day per door, depending on complexity and wall conditions. Proper wall reinforcement beforehand can s",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-timeline-for-barn-door-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical timeline for barn door installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for barn door installation typically ranges from a few hours to a full day for a single door, once the door and hardware are on-site. This can vary based on the complexity of the door system, the condition of the wall where the track will be mounted, and any necessary framing adjustments. Preparation is key; ensuring the wall is reinforced, if needed, before the installation date can significantly expedite the process.",
-        "description": "Barn door installation usually takes a few hours to a full day per door, depending on complexity and wall conditions. Proper wall reinforcement beforehand can speed up the process."
-      }
-    }
-  ],
+  "name": "What is the typical timeline for barn door installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical timeline for barn door installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for barn door installation typically ranges from a few hours to a full day for a single door, once the door and hardware are on-site. This can vary based on the complexity of the door system, the condition of the wall where the track will be mounted, and any necessary framing adjustments. Preparation is key; ensuring the wall is reinforced, if needed, before the installation date can significantly expedite the process.",
+        "@type": "Answer",
+        "description": "Barn door installation usually takes a few hours to a full day per door, depending on complexity and wall conditions. Proper wall reinforcement beforehand can speed up the process."
+      }
+    }
+  ],
+  "description": "Barn door installation usually takes a few hours to a full day per door, depending on complexity and wall conditions. Proper wall reinforcement beforehand can s"
 }

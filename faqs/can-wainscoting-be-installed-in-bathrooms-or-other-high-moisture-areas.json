@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can wainscoting be installed in bathrooms or other high-moisture areas?",
-  "description": "Wainscoting can be installed in high-moisture areas using materials like PVC or treated MDF. These options resist humidity damage.",
   "url": "https://hometelligentinc.com/faq/can-wainscoting-be-installed-in-bathrooms-or-other-high-moisture-areas",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can wainscoting be installed in bathrooms or other high-moisture areas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, wainscoting can be installed in bathrooms and other high-moisture areas, but it requires specific material choices. For these environments, we recommend moisture-resistant options such as PVC or specially treated MDF, or certain wood species sealed appropriately. These materials are less prone to warping or damage from humidity. Our team can guide you in selecting the most durable and suitable materials for areas like bathrooms, kitchens, or laundry rooms, ensuring your wainscoting withstands the conditions and maintains its integrity over time.",
-        "description": "Wainscoting can be installed in high-moisture areas using materials like PVC or treated MDF. These options resist humidity damage."
-      }
-    }
-  ],
+  "name": "Can wainscoting be installed in bathrooms or other high-moisture areas?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can wainscoting be installed in bathrooms or other high-moisture areas?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, wainscoting can be installed in bathrooms and other high-moisture areas, but it requires specific material choices. For these environments, we recommend moisture-resistant options such as PVC or specially treated MDF, or certain wood species sealed appropriately. These materials are less prone to warping or damage from humidity. Our team can guide you in selecting the most durable and suitable materials for areas like bathrooms, kitchens, or laundry rooms, ensuring your wainscoting withstands the conditions and maintains its integrity over time.",
+        "@type": "Answer",
+        "description": "Wainscoting can be installed in high-moisture areas using materials like PVC or treated MDF. These options resist humidity damage."
+      }
+    }
+  ],
+  "description": "Wainscoting can be installed in high-moisture areas using materials like PVC or treated MDF. These options resist humidity damage."
 }

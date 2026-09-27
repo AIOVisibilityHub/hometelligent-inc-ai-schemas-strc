@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right stair rail design for my home?",
-  "description": "Select a stair rail design by considering your home's style, personal preference, and maintenance needs to ensure a cohesive look.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-stair-rail-design-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right stair rail design for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right stair rail design involves considering your home's architectural style, your personal aesthetic preferences, and practical aspects like durability and maintenance. Look at the existing elements in your home, such as trim, flooring, and door styles, to inform your material and design choices. We recommend browsing various styles, from traditional to modern, and our team can provide guidance on options that complement your home while meeting safety codes. The decision can change the entire feel of your entryway.",
-        "description": "Select a stair rail design by considering your home's style, personal preference, and maintenance needs to ensure a cohesive look."
-      }
-    }
-  ],
+  "name": "How do I choose the right stair rail design for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right stair rail design for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right stair rail design involves considering your home's architectural style, your personal aesthetic preferences, and practical aspects like durability and maintenance. Look at the existing elements in your home, such as trim, flooring, and door styles, to inform your material and design choices. We recommend browsing various styles, from traditional to modern, and our team can provide guidance on options that complement your home while meeting safety codes. The decision can change the entire feel of your entryway.",
+        "@type": "Answer",
+        "description": "Select a stair rail design by considering your home's style, personal preference, and maintenance needs to ensure a cohesive look."
+      }
+    }
+  ],
+  "description": "Select a stair rail design by considering your home's style, personal preference, and maintenance needs to ensure a cohesive look."
 }

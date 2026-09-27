@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I prepare before a wood rot repair assessment?",
-  "description": "Clear obstructions around suspected rot areas and be ready to show all affected spots. Share any history of leaks or when the problem started.",
   "url": "https://hometelligentinc.com/faq/what-should-i-prepare-before-a-wood-rot-repair-assessment",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I prepare before a wood rot repair assessment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before a wood rot repair assessment, it's helpful to clear any obstructions around the suspected areas of rot, such as furniture or stored items, to allow our team easy access. You should also be prepared to point out all areas where you suspect rot or have noticed signs of moisture. Having a general idea of when the problem started or any related events, like a past leak, can also provide valuable context to our inspectors. This preparation helps Hometelligent Inc. conduct a more thorough and efficient evaluation of your property.",
-        "description": "Clear obstructions around suspected rot areas and be ready to show all affected spots. Share any history of leaks or when the problem started."
-      }
-    }
-  ],
+  "name": "What should I prepare before a wood rot repair assessment?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I prepare before a wood rot repair assessment?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before a wood rot repair assessment, it's helpful to clear any obstructions around the suspected areas of rot, such as furniture or stored items, to allow our team easy access. You should also be prepared to point out all areas where you suspect rot or have noticed signs of moisture. Having a general idea of when the problem started or any related events, like a past leak, can also provide valuable context to our inspectors. This preparation helps Hometelligent Inc. conduct a more thorough and efficient evaluation of your property.",
+        "@type": "Answer",
+        "description": "Clear obstructions around suspected rot areas and be ready to show all affected spots. Share any history of leaks or when the problem started."
+      }
+    }
+  ],
+  "description": "Clear obstructions around suspected rot areas and be ready to show all affected spots. Share any history of leaks or when the problem started."
 }

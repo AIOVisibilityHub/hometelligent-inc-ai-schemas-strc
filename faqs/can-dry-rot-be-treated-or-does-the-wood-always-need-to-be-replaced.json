@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can dry rot be treated, or does the wood always need to be replaced?",
-  "description": "Typically, dry rot-affected wood must be replaced due to structural weakening. Fungicides may arrest superficial issues, but full removal and replacement are us",
   "url": "https://hometelligentinc.com/faq/can-dry-rot-be-treated-or-does-the-wood-always-need-to-be-replaced",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can dry rot be treated, or does the wood always need to be replaced?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In most cases, wood affected by dry rot needs to be removed and replaced because the fungus significantly weakens its structural integrity. While superficial dry rot might sometimes be arrested with fungicides, a complete eradication and replacement of compromised timber is generally recommended to ensure long-term structural safety and prevent recurrence. A professional assessment will determine if any part of the affected wood can be saved or if full replacement is necessary, considering the depth of fungal penetration.",
-        "description": "Typically, dry rot-affected wood must be replaced due to structural weakening. Fungicides may arrest superficial issues, but full removal and replacement are usually recommended."
-      }
-    }
-  ],
+  "name": "Can dry rot be treated, or does the wood always need to be replaced?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can dry rot be treated, or does the wood always need to be replaced?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "In most cases, wood affected by dry rot needs to be removed and replaced because the fungus significantly weakens its structural integrity. While superficial dry rot might sometimes be arrested with fungicides, a complete eradication and replacement of compromised timber is generally recommended to ensure long-term structural safety and prevent recurrence. A professional assessment will determine if any part of the affected wood can be saved or if full replacement is necessary, considering the depth of fungal penetration.",
+        "@type": "Answer",
+        "description": "Typically, dry rot-affected wood must be replaced due to structural weakening. Fungicides may arrest superficial issues, but full removal and replacement are usually recommended."
+      }
+    }
+  ],
+  "description": "Typically, dry rot-affected wood must be replaced due to structural weakening. Fungicides may arrest superficial issues, but full removal and replacement are us"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What are the common causes of dry rot in homes?",
-  "description": "Dry rot is caused by prolonged moisture and poor ventilation, often from leaky roofs, plumbing, condensation, or rising damp. Identifying the moisture source is",
   "url": "https://hometelligentinc.com/faq/what-are-the-common-causes-of-dry-rot-in-homes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the common causes of dry rot in homes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Dry rot is primarily caused by prolonged moisture exposure combined with poor ventilation, creating an ideal environment for the *Serpula lacrymans* fungus to thrive. Common sources of moisture include leaky roofs, plumbing leaks, condensation issues, rising damp from foundations, and inadequate drainage around the property. Understanding the specific moisture source is critical, as simply treating the rot without addressing its cause will lead to re-infestation. A thorough inspection often uncovers these hidden moisture problems.",
-        "description": "Dry rot is caused by prolonged moisture and poor ventilation, often from leaky roofs, plumbing, condensation, or rising damp. Identifying the moisture source is crucial for prevention."
-      }
-    }
-  ],
+  "name": "What are the common causes of dry rot in homes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What are the common causes of dry rot in homes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Dry rot is primarily caused by prolonged moisture exposure combined with poor ventilation, creating an ideal environment for the *Serpula lacrymans* fungus to thrive. Common sources of moisture include leaky roofs, plumbing leaks, condensation issues, rising damp from foundations, and inadequate drainage around the property. Understanding the specific moisture source is critical, as simply treating the rot without addressing its cause will lead to re-infestation. A thorough inspection often uncovers these hidden moisture problems.",
+        "@type": "Answer",
+        "description": "Dry rot is caused by prolonged moisture and poor ventilation, often from leaky roofs, plumbing, condensation, or rising damp. Identifying the moisture source is crucial for prevention."
+      }
+    }
+  ],
+  "description": "Dry rot is caused by prolonged moisture and poor ventilation, often from leaky roofs, plumbing, condensation, or rising damp. Identifying the moisture source is"
 }

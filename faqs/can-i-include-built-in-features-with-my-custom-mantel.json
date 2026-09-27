@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I include built-in features with my custom mantel?",
-  "description": "Yes, built-in features like shelving, hidden compartments, or lighting can be added to custom mantels, enhancing both function and aesthetics.",
   "url": "https://hometelligentinc.com/faq/can-i-include-built-in-features-with-my-custom-mantel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I include built-in features with my custom mantel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, custom mantels offer the flexibility to incorporate built-in features tailored to your needs. Popular additions include integrated shelving for display items, concealed compartments for media equipment, or custom lighting. These features enhance both the functionality and aesthetic appeal of your fireplace area. However, incorporating built-ins will influence the overall design complexity and potentially the cost and fabrication time. It's a practical tradeoff between a simpler mantel design and the added utility and personalized touch of integrated elements.",
-        "description": "Yes, built-in features like shelving, hidden compartments, or lighting can be added to custom mantels, enhancing both function and aesthetics."
-      }
-    }
-  ],
+  "name": "Can I include built-in features with my custom mantel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I include built-in features with my custom mantel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, custom mantels offer the flexibility to incorporate built-in features tailored to your needs. Popular additions include integrated shelving for display items, concealed compartments for media equipment, or custom lighting. These features enhance both the functionality and aesthetic appeal of your fireplace area. However, incorporating built-ins will influence the overall design complexity and potentially the cost and fabrication time. It's a practical tradeoff between a simpler mantel design and the added utility and personalized touch of integrated elements.",
+        "@type": "Answer",
+        "description": "Yes, built-in features like shelving, hidden compartments, or lighting can be added to custom mantels, enhancing both function and aesthetics."
+      }
+    }
+  ],
+  "description": "Yes, built-in features like shelving, hidden compartments, or lighting can be added to custom mantels, enhancing both function and aesthetics."
 }

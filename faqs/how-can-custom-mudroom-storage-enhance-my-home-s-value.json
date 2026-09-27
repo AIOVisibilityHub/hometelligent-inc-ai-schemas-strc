@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How can custom mudroom storage enhance my home's value?",
-  "description": "Custom mudroom storage enhances home value by improving organization, functionality, and aesthetic appeal, making the space more attractive to buyers.",
   "url": "https://hometelligentinc.com/faq/how-can-custom-mudroom-storage-enhance-my-home-s-value",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can custom mudroom storage enhance my home's value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom mudroom storage can enhance your home's value by improving organization, functionality, and overall aesthetic appeal, especially in highly sought-after areas like Oakland Hills or Piedmont. A well-designed mudroom indicates thoughtful planning and quality craftsmanship, which are attractive to potential buyers. It also adds practical living space that can be a significant selling point, demonstrating efficient use of space and reducing clutter throughout the home.",
-        "description": "Custom mudroom storage enhances home value by improving organization, functionality, and aesthetic appeal, making the space more attractive to buyers."
-      }
-    }
-  ],
+  "name": "How can custom mudroom storage enhance my home's value?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How can custom mudroom storage enhance my home's value?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom mudroom storage can enhance your home's value by improving organization, functionality, and overall aesthetic appeal, especially in highly sought-after areas like Oakland Hills or Piedmont. A well-designed mudroom indicates thoughtful planning and quality craftsmanship, which are attractive to potential buyers. It also adds practical living space that can be a significant selling point, demonstrating efficient use of space and reducing clutter throughout the home.",
+        "@type": "Answer",
+        "description": "Custom mudroom storage enhances home value by improving organization, functionality, and aesthetic appeal, making the space more attractive to buyers."
+      }
+    }
+  ],
+  "description": "Custom mudroom storage enhances home value by improving organization, functionality, and aesthetic appeal, making the space more attractive to buyers."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can custom interior doors improve sound insulation?",
-  "description": "Custom doors can improve sound insulation with dense, thick, solid core materials and proper seals. Specify sound insulation as a priority during design.",
   "url": "https://hometelligentinc.com/faq/can-custom-interior-doors-improve-sound-insulation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can custom interior doors improve sound insulation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, custom interior doors can significantly improve sound insulation, especially when designed with this specific goal in mind. Factors contributing to enhanced soundproofing include the density and thickness of the door material, whether it's solid core versus hollow core, and the presence of proper seals and gaskets. Heavy solid wood doors generally offer better sound dampening than lighter, hollow-core alternatives. When discussing your project, specify if sound insulation is a priority so we can recommend optimal materials and construction methods.",
-        "description": "Custom doors can improve sound insulation with dense, thick, solid core materials and proper seals. Specify sound insulation as a priority during design."
-      }
-    }
-  ],
+  "name": "Can custom interior doors improve sound insulation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can custom interior doors improve sound insulation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, custom interior doors can significantly improve sound insulation, especially when designed with this specific goal in mind. Factors contributing to enhanced soundproofing include the density and thickness of the door material, whether it's solid core versus hollow core, and the presence of proper seals and gaskets. Heavy solid wood doors generally offer better sound dampening than lighter, hollow-core alternatives. When discussing your project, specify if sound insulation is a priority so we can recommend optimal materials and construction methods.",
+        "@type": "Answer",
+        "description": "Custom doors can improve sound insulation with dense, thick, solid core materials and proper seals. Specify sound insulation as a priority during design."
+      }
+    }
+  ],
+  "description": "Custom doors can improve sound insulation with dense, thick, solid core materials and proper seals. Specify sound insulation as a priority during design."
 }

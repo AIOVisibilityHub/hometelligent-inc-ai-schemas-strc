@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of a walk-in closet build-out?",
-  "description": "Cost is influenced by closet size, materials, design complexity, accessories, and labor. A detailed on-site consultation is needed for a precise estimate.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-a-walk-in-closet-build-out",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of a walk-in closet build-out?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a walk-in closet build-out depends on several factors, including the size and layout of the closet, the materials chosen (e.g., melamine, wood veneer, solid wood), the complexity of the design, and the types of accessories integrated (e.g., built-in drawers, shoe racks, lighting). Labor costs are also a significant component, varying based on the intricacy of the installation. For a project with Hometelligent Inc. in Alameda, Albany, Berkeley, Dublin, or Emeryville, a detailed on-site consultation will provide a precise estimate based on your specific requirements and the scope of work.",
-        "description": "Cost is influenced by closet size, materials, design complexity, accessories, and labor. A detailed on-site consultation is needed for a precise estimate."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of a walk-in closet build-out?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of a walk-in closet build-out?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a walk-in closet build-out depends on several factors, including the size and layout of the closet, the materials chosen (e.g., melamine, wood veneer, solid wood), the complexity of the design, and the types of accessories integrated (e.g., built-in drawers, shoe racks, lighting). Labor costs are also a significant component, varying based on the intricacy of the installation. For a project with Hometelligent Inc. in Alameda, Albany, Berkeley, Dublin, or Emeryville, a detailed on-site consultation will provide a precise estimate based on your specific requirements and the scope of work.",
+        "@type": "Answer",
+        "description": "Cost is influenced by closet size, materials, design complexity, accessories, and labor. A detailed on-site consultation is needed for a precise estimate."
+      }
+    }
+  ],
+  "description": "Cost is influenced by closet size, materials, design complexity, accessories, and labor. A detailed on-site consultation is needed for a precise estimate."
 }

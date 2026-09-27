@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I look for in a baseboard installation contractor in the Bay Area?",
-  "description": "Look for experience, positive reviews, clear communication, detailed estimates, and proper licensing and insurance from a Bay Area contractor.",
   "url": "https://hometelligentinc.com/faq/what-should-i-look-for-in-a-baseboard-installation-contractor-in-the-bay-area",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I look for in a baseboard installation contractor in the Bay Area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a contractor in the Bay Area for baseboard installation, look for demonstrable experience with finish carpentry, positive customer reviews, and clear communication regarding project scope and timelines. Obtain multiple quotes and ensure the contractor provides a detailed estimate that includes material costs, labor, and any removal or disposal fees. Verify they are licensed and insured to protect your investment.",
-        "description": "Look for experience, positive reviews, clear communication, detailed estimates, and proper licensing and insurance from a Bay Area contractor."
-      }
-    }
-  ],
+  "name": "What should I look for in a baseboard installation contractor in the Bay Area?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I look for in a baseboard installation contractor in the Bay Area?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a contractor in the Bay Area for baseboard installation, look for demonstrable experience with finish carpentry, positive customer reviews, and clear communication regarding project scope and timelines. Obtain multiple quotes and ensure the contractor provides a detailed estimate that includes material costs, labor, and any removal or disposal fees. Verify they are licensed and insured to protect your investment.",
+        "@type": "Answer",
+        "description": "Look for experience, positive reviews, clear communication, detailed estimates, and proper licensing and insurance from a Bay Area contractor."
+      }
+    }
+  ],
+  "description": "Look for experience, positive reviews, clear communication, detailed estimates, and proper licensing and insurance from a Bay Area contractor."
 }

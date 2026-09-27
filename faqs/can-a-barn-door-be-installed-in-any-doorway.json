@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can a barn door be installed in any doorway?",
-  "description": "Barn doors require clear wall space for sliding and adequate header support above the doorway. Not all doorways are suitable.",
   "url": "https://hometelligentinc.com/faq/can-a-barn-door-be-installed-in-any-doorway",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can a barn door be installed in any doorway?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While barn doors offer design flexibility, they cannot be installed in every doorway. Key considerations include adequate clear wall space beside the opening for the door to slide fully open, and sufficient header support above the doorway for the track. A practical tradeoff is choosing a different door type or reconfiguring the wall if the desired location lacks the necessary space or structural integrity for a barn door.",
-        "description": "Barn doors require clear wall space for sliding and adequate header support above the doorway. Not all doorways are suitable."
-      }
-    }
-  ],
+  "name": "Can a barn door be installed in any doorway?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can a barn door be installed in any doorway?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While barn doors offer design flexibility, they cannot be installed in every doorway. Key considerations include adequate clear wall space beside the opening for the door to slide fully open, and sufficient header support above the doorway for the track. A practical tradeoff is choosing a different door type or reconfiguring the wall if the desired location lacks the necessary space or structural integrity for a barn door.",
+        "@type": "Answer",
+        "description": "Barn doors require clear wall space for sliding and adequate header support above the doorway. Not all doorways are suitable."
+      }
+    }
+  ],
+  "description": "Barn doors require clear wall space for sliding and adequate header support above the doorway. Not all doorways are suitable."
 }

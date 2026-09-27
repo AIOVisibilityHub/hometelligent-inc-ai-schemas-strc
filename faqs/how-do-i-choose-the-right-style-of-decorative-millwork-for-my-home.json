@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right style of decorative millwork for my home?",
-  "description": "Select millwork based on your home's architecture, personal style, and room function. Gather inspiration to inform your choices.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-style-of-decorative-millwork-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right style of decorative millwork for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right millwork style involves considering your home's existing architecture, your personal aesthetic preferences, and the specific function of each room. Traditional homes often suit intricate, multi-layered profiles, while modern homes might benefit from simpler, cleaner lines. A key preparation step is to gather inspiration from design magazines, online galleries, or even local historic homes, paying attention to the scale and proportion of existing millwork. This helps you communicate your vision clearly and ensures the new millwork complements your home's overall design seamlessly.",
-        "description": "Select millwork based on your home's architecture, personal style, and room function. Gather inspiration to inform your choices."
-      }
-    }
-  ],
+  "name": "How do I choose the right style of decorative millwork for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right style of decorative millwork for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right millwork style involves considering your home's existing architecture, your personal aesthetic preferences, and the specific function of each room. Traditional homes often suit intricate, multi-layered profiles, while modern homes might benefit from simpler, cleaner lines. A key preparation step is to gather inspiration from design magazines, online galleries, or even local historic homes, paying attention to the scale and proportion of existing millwork. This helps you communicate your vision clearly and ensures the new millwork complements your home's overall design seamlessly.",
+        "@type": "Answer",
+        "description": "Select millwork based on your home's architecture, personal style, and room function. Gather inspiration to inform your choices."
+      }
+    }
+  ],
+  "description": "Select millwork based on your home's architecture, personal style, and room function. Gather inspiration to inform your choices."
 }

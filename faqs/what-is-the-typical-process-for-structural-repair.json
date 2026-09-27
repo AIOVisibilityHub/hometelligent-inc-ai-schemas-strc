@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for structural repair?",
-  "description": "The process involves inspection, damage assessment, repair plan development, execution of repairs, and site restoration. Clear communication guides each step.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-structural-repair",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for structural repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process generally begins with a thorough inspection by a structural engineer or a qualified contractor to assess the damage and determine the root cause. Following the assessment, a detailed repair plan is developed, outlining the necessary methods and materials. After approval, the repair work commences, which can involve foundation underpinning, wall stabilization, or beam replacement. Finally, the site is restored. Hometelligent Inc. emphasizes clear communication throughout, ensuring you understand each step and its impact on your property.",
-        "description": "The process involves inspection, damage assessment, repair plan development, execution of repairs, and site restoration. Clear communication guides each step."
-      }
-    }
-  ],
+  "name": "What is the typical process for structural repair?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for structural repair?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The process generally begins with a thorough inspection by a structural engineer or a qualified contractor to assess the damage and determine the root cause. Following the assessment, a detailed repair plan is developed, outlining the necessary methods and materials. After approval, the repair work commences, which can involve foundation underpinning, wall stabilization, or beam replacement. Finally, the site is restored. Hometelligent Inc. emphasizes clear communication throughout, ensuring you understand each step and its impact on your property.",
+        "@type": "Answer",
+        "description": "The process involves inspection, damage assessment, repair plan development, execution of repairs, and site restoration. Clear communication guides each step."
+      }
+    }
+  ],
+  "description": "The process involves inspection, damage assessment, repair plan development, execution of repairs, and site restoration. Clear communication guides each step."
 }

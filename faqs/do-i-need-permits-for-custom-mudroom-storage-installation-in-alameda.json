@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need permits for custom mudroom storage installation in Alameda?",
-  "description": "Permits are usually not needed for basic custom mudroom storage unless structural changes, plumbing, or major electrical work is included.",
   "url": "https://hometelligentinc.com/faq/do-i-need-permits-for-custom-mudroom-storage-installation-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need permits for custom mudroom storage installation in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most custom mudroom storage installations involving built-in cabinetry and shelving, permits are generally not required if no structural changes, plumbing modifications, or significant electrical work are involved. However, if your project in Alameda includes major structural alterations, adding new electrical outlets, or plumbing for a sink, permits may be necessary. Hometelligent Inc. can advise on potential permit requirements during the initial consultation based on your specific design plans.",
-        "description": "Permits are usually not needed for basic custom mudroom storage unless structural changes, plumbing, or major electrical work is included."
-      }
-    }
-  ],
+  "name": "Do I need permits for custom mudroom storage installation in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need permits for custom mudroom storage installation in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "For most custom mudroom storage installations involving built-in cabinetry and shelving, permits are generally not required if no structural changes, plumbing modifications, or significant electrical work are involved. However, if your project in Alameda includes major structural alterations, adding new electrical outlets, or plumbing for a sink, permits may be necessary. Hometelligent Inc. can advise on potential permit requirements during the initial consultation based on your specific design plans.",
+        "@type": "Answer",
+        "description": "Permits are usually not needed for basic custom mudroom storage unless structural changes, plumbing, or major electrical work is included."
+      }
+    }
+  ],
+  "description": "Permits are usually not needed for basic custom mudroom storage unless structural changes, plumbing, or major electrical work is included."
 }

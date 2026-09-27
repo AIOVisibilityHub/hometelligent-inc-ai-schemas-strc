@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before crown molding installation?",
-  "description": "Clear furniture, or move and cover items away from walls. If new flooring is planned, install molding after. We'll confirm specific prep during our walkthrough.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-crown-molding-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before crown molding installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before crown molding installation, ensure the room is clear of furniture or that items are moved away from walls and covered to protect them from dust. If new flooring is planned, it's generally best to install the molding after the flooring is complete. For painting, ensure walls are cleaned. We'll confirm specific requirements during our pre-installation walkthrough, especially for detailed projects in historic homes in areas like Piedmont or Montclair, to ensure a smooth and efficient process.",
-        "description": "Clear furniture, or move and cover items away from walls. If new flooring is planned, install molding after. We'll confirm specific prep during our walkthrough."
-      }
-    }
-  ],
+  "name": "What preparation is needed before crown molding installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before crown molding installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before crown molding installation, ensure the room is clear of furniture or that items are moved away from walls and covered to protect them from dust. If new flooring is planned, it's generally best to install the molding after the flooring is complete. For painting, ensure walls are cleaned. We'll confirm specific requirements during our pre-installation walkthrough, especially for detailed projects in historic homes in areas like Piedmont or Montclair, to ensure a smooth and efficient process.",
+        "@type": "Answer",
+        "description": "Clear furniture, or move and cover items away from walls. If new flooring is planned, install molding after. We'll confirm specific prep during our walkthrough."
+      }
+    }
+  ],
+  "description": "Clear furniture, or move and cover items away from walls. If new flooring is planned, install molding after. We'll confirm specific prep during our walkthrough."
 }

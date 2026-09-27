@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is involved in a typical home restoration project?",
-  "description": "Home restoration involves restoring a property to its original condition, including structural, exterior, interior, and system updates, often with historical pr",
   "url": "https://hometelligentinc.com/faq/what-is-involved-in-a-typical-home-restoration-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is involved in a typical home restoration project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A typical home restoration project involves returning a property to its original or historically accurate condition, often after damage or neglect. This can include structural repairs, exterior refurbishment, interior remodeling, and updating systems like plumbing or electrical to modern standards while preserving historical elements. Hometelligent Inc. often begins with a thorough assessment of the existing structure and historical research to ensure accuracy and compliance with any local preservation guidelines in areas like Alameda or Berkeley.",
-        "description": "Home restoration involves restoring a property to its original condition, including structural, exterior, interior, and system updates, often with historical preservation in mind."
-      }
-    }
-  ],
+  "name": "What is involved in a typical home restoration project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is involved in a typical home restoration project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A typical home restoration project involves returning a property to its original or historically accurate condition, often after damage or neglect. This can include structural repairs, exterior refurbishment, interior remodeling, and updating systems like plumbing or electrical to modern standards while preserving historical elements. Hometelligent Inc. often begins with a thorough assessment of the existing structure and historical research to ensure accuracy and compliance with any local preservation guidelines in areas like Alameda or Berkeley.",
+        "@type": "Answer",
+        "description": "Home restoration involves restoring a property to its original condition, including structural, exterior, interior, and system updates, often with historical preservation in mind."
+      }
+    }
+  ],
+  "description": "Home restoration involves restoring a property to its original condition, including structural, exterior, interior, and system updates, often with historical pr"
 }

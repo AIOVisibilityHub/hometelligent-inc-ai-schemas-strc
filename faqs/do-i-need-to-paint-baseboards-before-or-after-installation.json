@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to paint baseboards before or after installation?",
-  "description": "You can paint baseboards before or after installation; pre-painting saves time but needs touch-ups, while post-painting ensures seamless integration.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-paint-baseboards-before-or-after-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to paint baseboards before or after installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Painting baseboards before installation can save time and achieve a smoother finish, especially if you plan to paint them a solid color. However, touch-ups will be needed after installation to cover nail holes and caulk lines. Painting after installation allows for seamless integration with the wall color and covers all fasteners and caulk in one go, but requires careful masking.",
-        "description": "You can paint baseboards before or after installation; pre-painting saves time but needs touch-ups, while post-painting ensures seamless integration."
-      }
-    }
-  ],
+  "name": "Do I need to paint baseboards before or after installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to paint baseboards before or after installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Painting baseboards before installation can save time and achieve a smoother finish, especially if you plan to paint them a solid color. However, touch-ups will be needed after installation to cover nail holes and caulk lines. Painting after installation allows for seamless integration with the wall color and covers all fasteners and caulk in one go, but requires careful masking.",
+        "@type": "Answer",
+        "description": "You can paint baseboards before or after installation; pre-painting saves time but needs touch-ups, while post-painting ensures seamless integration."
+      }
+    }
+  ],
+  "description": "You can paint baseboards before or after installation; pre-painting saves time but needs touch-ups, while post-painting ensures seamless integration."
 }

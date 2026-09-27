@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "When should I consider professional wood rot repair versus DIY?",
-  "description": "Opt for professional repair if damage is extensive, structural, or if you're unsure about the cause. Professionals ensure proper, long-lasting fixes.",
   "url": "https://hometelligentinc.com/faq/when-should-i-consider-professional-wood-rot-repair-versus-diy",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I consider professional wood rot repair versus DIY?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You should consider professional wood rot repair when the damage is extensive, involves structural components, or if you are unsure about the cause or proper repair methods. DIY is typically suitable for very small, non-structural areas where the rot is superficial. A practical trade-off is that while DIY saves on labor costs, professionals like Hometelligent Inc. have the expertise, tools, and experience to correctly identify the source of moisture, ensure thorough removal of all rot, and perform repairs that meet building codes, preventing recurrence and ensuring long-term structural integrity.",
-        "description": "Opt for professional repair if damage is extensive, structural, or if you're unsure about the cause. Professionals ensure proper, long-lasting fixes."
-      }
-    }
-  ],
+  "name": "When should I consider professional wood rot repair versus DIY?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "When should I consider professional wood rot repair versus DIY?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "You should consider professional wood rot repair when the damage is extensive, involves structural components, or if you are unsure about the cause or proper repair methods. DIY is typically suitable for very small, non-structural areas where the rot is superficial. A practical trade-off is that while DIY saves on labor costs, professionals like Hometelligent Inc. have the expertise, tools, and experience to correctly identify the source of moisture, ensure thorough removal of all rot, and perform repairs that meet building codes, preventing recurrence and ensuring long-term structural integrity.",
+        "@type": "Answer",
+        "description": "Opt for professional repair if damage is extensive, structural, or if you're unsure about the cause. Professionals ensure proper, long-lasting fixes."
+      }
+    }
+  ],
+  "description": "Opt for professional repair if damage is extensive, structural, or if you're unsure about the cause. Professionals ensure proper, long-lasting fixes."
 }

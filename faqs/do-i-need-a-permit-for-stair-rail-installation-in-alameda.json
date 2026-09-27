@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need a permit for stair rail installation in Alameda?",
-  "description": "In Alameda, significant stair rail changes may require a building permit to ensure safety compliance. We can help confirm permit needs.",
   "url": "https://hometelligentinc.com/faq/do-i-need-a-permit-for-stair-rail-installation-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a permit for stair rail installation in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Building codes and permit requirements for stair rail installation can vary by jurisdiction. In Alameda, significant structural changes or new constructions involving stair rails often require a building permit to ensure compliance with safety standards, such as height and spacing regulations for balusters. Minor cosmetic upgrades may not, but it's always best to consult with us or the local building department to determine if a permit is necessary for your specific project. We can assist in navigating these requirements.",
-        "description": "In Alameda, significant stair rail changes may require a building permit to ensure safety compliance. We can help confirm permit needs."
-      }
-    }
-  ],
+  "name": "Do I need a permit for stair rail installation in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need a permit for stair rail installation in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Building codes and permit requirements for stair rail installation can vary by jurisdiction. In Alameda, significant structural changes or new constructions involving stair rails often require a building permit to ensure compliance with safety standards, such as height and spacing regulations for balusters. Minor cosmetic upgrades may not, but it's always best to consult with us or the local building department to determine if a permit is necessary for your specific project. We can assist in navigating these requirements.",
+        "@type": "Answer",
+        "description": "In Alameda, significant stair rail changes may require a building permit to ensure safety compliance. We can help confirm permit needs."
+      }
+    }
+  ],
+  "description": "In Alameda, significant stair rail changes may require a building permit to ensure safety compliance. We can help confirm permit needs."
 }

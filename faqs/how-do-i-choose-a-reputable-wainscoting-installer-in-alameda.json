@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose a reputable wainscoting installer in Alameda?",
-  "description": "Choose an installer with quality craftsmanship, transparent pricing, and good reviews. Verify licenses and insurance, and ask for project examples.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-a-reputable-wainscoting-installer-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose a reputable wainscoting installer in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When selecting a wainscoting installer in the Alameda area, look for a company with a strong track record of quality craftsmanship, transparent pricing, and excellent customer reviews. It's beneficial to ask for examples of past wainscoting projects and to ensure they are properly licensed and insured. We pride ourselves on our experienced team, who are well-versed in various wainscoting styles and installation techniques, ensuring precise and durable results. We encourage you to review our portfolio and read testimonials from our satisfied clients in the local community.",
-        "description": "Choose an installer with quality craftsmanship, transparent pricing, and good reviews. Verify licenses and insurance, and ask for project examples."
-      }
-    }
-  ],
+  "name": "How do I choose a reputable wainscoting installer in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose a reputable wainscoting installer in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "When selecting a wainscoting installer in the Alameda area, look for a company with a strong track record of quality craftsmanship, transparent pricing, and excellent customer reviews. It's beneficial to ask for examples of past wainscoting projects and to ensure they are properly licensed and insured. We pride ourselves on our experienced team, who are well-versed in various wainscoting styles and installation techniques, ensuring precise and durable results. We encourage you to review our portfolio and read testimonials from our satisfied clients in the local community.",
+        "@type": "Answer",
+        "description": "Choose an installer with quality craftsmanship, transparent pricing, and good reviews. Verify licenses and insurance, and ask for project examples."
+      }
+    }
+  ],
+  "description": "Choose an installer with quality craftsmanship, transparent pricing, and good reviews. Verify licenses and insurance, and ask for project examples."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right style of wall paneling for my home?",
-  "description": "Consider your home's architectural style, desired aesthetic, and room function. Hometelligent Inc. offers design consultations to help you select a style that c",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-style-of-wall-paneling-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right style of wall paneling for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right wall paneling style involves considering your home's existing architectural style, desired aesthetic, and the room's function. For example, traditional raised paneling suits classic interiors, while flat or shaker styles work well in more contemporary settings. Think about the scale of the room and how the paneling will complement other design elements like furniture and trim. Hometelligent Inc. offers design consultations to help you visualize different styles, textures, and finishes, ensuring the chosen paneling enhances your space harmoniously.",
-        "description": "Consider your home's architectural style, desired aesthetic, and room function. Hometelligent Inc. offers design consultations to help you select a style that complements your space."
-      }
-    }
-  ],
+  "name": "How do I choose the right style of wall paneling for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right style of wall paneling for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right wall paneling style involves considering your home's existing architectural style, desired aesthetic, and the room's function. For example, traditional raised paneling suits classic interiors, while flat or shaker styles work well in more contemporary settings. Think about the scale of the room and how the paneling will complement other design elements like furniture and trim. Hometelligent Inc. offers design consultations to help you visualize different styles, textures, and finishes, ensuring the chosen paneling enhances your space harmoniously.",
+        "@type": "Answer",
+        "description": "Consider your home's architectural style, desired aesthetic, and room function. Hometelligent Inc. offers design consultations to help you select a style that complements your space."
+      }
+    }
+  ],
+  "description": "Consider your home's architectural style, desired aesthetic, and room function. Hometelligent Inc. offers design consultations to help you select a style that c"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does a typical walk-in closet build-out project take from design to completion?",
-  "description": "Project timelines vary; design can take weeks, and construction/installation usually takes one to three weeks, depending on complexity and materials.",
   "url": "https://hometelligentinc.com/faq/how-long-does-a-typical-walk-in-closet-build-out-project-take-from-design-to-com",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical walk-in closet build-out project take from design to completion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for a walk-in closet build-out project can vary significantly based on its complexity and the materials selected. Generally, the design phase can take a few weeks, allowing for consultations, revisions, and material selection. Once the design is finalized and materials are ordered, the actual construction and installation typically range from one to three weeks. Factors like custom cabinetry, intricate millwork, or unique finishes can extend this timeline. It's helpful to have a clear idea of your storage needs and desired aesthetic before the initial consultation to streamline the design process.",
-        "description": "Project timelines vary; design can take weeks, and construction/installation usually takes one to three weeks, depending on complexity and materials."
-      }
-    }
-  ],
+  "name": "How long does a typical walk-in closet build-out project take from design to completion?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does a typical walk-in closet build-out project take from design to completion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for a walk-in closet build-out project can vary significantly based on its complexity and the materials selected. Generally, the design phase can take a few weeks, allowing for consultations, revisions, and material selection. Once the design is finalized and materials are ordered, the actual construction and installation typically range from one to three weeks. Factors like custom cabinetry, intricate millwork, or unique finishes can extend this timeline. It's helpful to have a clear idea of your storage needs and desired aesthetic before the initial consultation to streamline the design process.",
+        "@type": "Answer",
+        "description": "Project timelines vary; design can take weeks, and construction/installation usually takes one to three weeks, depending on complexity and materials."
+      }
+    }
+  ],
+  "description": "Project timelines vary; design can take weeks, and construction/installation usually takes one to three weeks, depending on complexity and materials."
 }

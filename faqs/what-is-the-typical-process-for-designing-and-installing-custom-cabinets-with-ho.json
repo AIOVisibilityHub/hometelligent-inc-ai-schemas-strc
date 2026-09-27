@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for designing and installing custom cabinets with Hometelligent Inc.?",
-  "description": "The process includes consultation, 3D design, material selection, precise fabrication, and professional installation, managed end-to-end by Hometelligent Inc.",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-designing-and-installing-custom-cabinets-with-ho",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for designing and installing custom cabinets with Hometelligent Inc.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process for custom cabinetry begins with an initial consultation to understand your vision, needs, and budget. Next, our designers create detailed 3D renderings and material selections for your approval. Once designs are finalized, we proceed with precise measurements and expert fabrication. The fabrication stage, which can take several weeks, ensures each piece meets our quality standards. Finally, our skilled installers meticulously fit and install your custom cabinets, completing the project with minimal disruption. We manage the entire process to ensure a seamless experience.",
-        "description": "The process includes consultation, 3D design, material selection, precise fabrication, and professional installation, managed end-to-end by Hometelligent Inc."
-      }
-    }
-  ],
+  "name": "What is the typical process for designing and installing custom cabinets with Hometelligent Inc.?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for designing and installing custom cabinets with Hometelligent Inc.?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process for custom cabinetry begins with an initial consultation to understand your vision, needs, and budget. Next, our designers create detailed 3D renderings and material selections for your approval. Once designs are finalized, we proceed with precise measurements and expert fabrication. The fabrication stage, which can take several weeks, ensures each piece meets our quality standards. Finally, our skilled installers meticulously fit and install your custom cabinets, completing the project with minimal disruption. We manage the entire process to ensure a seamless experience.",
+        "@type": "Answer",
+        "description": "The process includes consultation, 3D design, material selection, precise fabrication, and professional installation, managed end-to-end by Hometelligent Inc."
+      }
+    }
+  ],
+  "description": "The process includes consultation, 3D design, material selection, precise fabrication, and professional installation, managed end-to-end by Hometelligent Inc."
 }

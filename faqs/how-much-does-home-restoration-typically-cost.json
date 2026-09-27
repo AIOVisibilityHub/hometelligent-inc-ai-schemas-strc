@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does home restoration typically cost?",
-  "description": "Restoration costs vary by home size, damage extent, material quality, and labor. Historical accuracy can increase costs. Your budget influences material and acc",
   "url": "https://hometelligentinc.com/faq/how-much-does-home-restoration-typically-cost",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does home restoration typically cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of home restoration varies widely based on factors such as the size and age of the home, the extent of damage or desired updates, the quality of materials, and labor costs. Historical restorations using specialized techniques or custom-matched materials often incur higher costs than standard renovations. As a decision factor, your budget will significantly influence material choices and the level of historical accuracy achievable. Hometelligent Inc. provides detailed estimates after a comprehensive assessment to outline potential expenses.",
-        "description": "Restoration costs vary by home size, damage extent, material quality, and labor. Historical accuracy can increase costs. Your budget influences material and accuracy choices."
-      }
-    }
-  ],
+  "name": "How much does home restoration typically cost?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does home restoration typically cost?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of home restoration varies widely based on factors such as the size and age of the home, the extent of damage or desired updates, the quality of materials, and labor costs. Historical restorations using specialized techniques or custom-matched materials often incur higher costs than standard renovations. As a decision factor, your budget will significantly influence material choices and the level of historical accuracy achievable. Hometelligent Inc. provides detailed estimates after a comprehensive assessment to outline potential expenses.",
+        "@type": "Answer",
+        "description": "Restoration costs vary by home size, damage extent, material quality, and labor. Historical accuracy can increase costs. Your budget influences material and accuracy choices."
+      }
+    }
+  ],
+  "description": "Restoration costs vary by home size, damage extent, material quality, and labor. Historical accuracy can increase costs. Your budget influences material and acc"
 }

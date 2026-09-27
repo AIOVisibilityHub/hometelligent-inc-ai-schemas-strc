@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is water damage restoration?",
-  "description": "Water damage restoration is the process of drying, cleaning, sanitizing, and repairing areas affected by water intrusion. It aims to prevent further damage and",
   "url": "https://hometelligentinc.com/faq/what-is-water-damage-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is water damage restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Water damage restoration is the process of drying, cleaning, sanitizing, and repairing areas affected by water intrusion to prevent further damage and mold growth. This includes removing standing water, dehumidifying the space, cleaning and disinfecting affected surfaces, and often involves repairs to structures and contents. Hometelligent Inc. focuses on comprehensive structural drying and preventing secondary damage, which is crucial for maintaining the integrity of your property.",
-        "description": "Water damage restoration is the process of drying, cleaning, sanitizing, and repairing areas affected by water intrusion. It aims to prevent further damage and mold growth."
-      }
-    }
-  ],
+  "name": "What is water damage restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is water damage restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Water damage restoration is the process of drying, cleaning, sanitizing, and repairing areas affected by water intrusion to prevent further damage and mold growth. This includes removing standing water, dehumidifying the space, cleaning and disinfecting affected surfaces, and often involves repairs to structures and contents. Hometelligent Inc. focuses on comprehensive structural drying and preventing secondary damage, which is crucial for maintaining the integrity of your property.",
+        "@type": "Answer",
+        "description": "Water damage restoration is the process of drying, cleaning, sanitizing, and repairing areas affected by water intrusion. It aims to prevent further damage and mold growth."
+      }
+    }
+  ],
+  "description": "Water damage restoration is the process of drying, cleaning, sanitizing, and repairing areas affected by water intrusion. It aims to prevent further damage and"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What factors influence the cost of custom mudroom storage?",
-  "description": "Cost is influenced by design complexity, material choices like wood and finishes, and specialized features such as integrated lighting.",
   "url": "https://hometelligentinc.com/faq/what-factors-influence-the-cost-of-custom-mudroom-storage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What factors influence the cost of custom mudroom storage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of custom mudroom storage is primarily influenced by the size and complexity of the design, the types of materials selected (e.g., wood species, finishes, hardware), and any specialized features like integrated lighting or unique storage components. Higher-end materials and intricate designs will naturally increase the overall project cost. Hometelligent Inc. provides detailed estimates after the design consultation, allowing clients to understand how different choices impact their budget.",
-        "description": "Cost is influenced by design complexity, material choices like wood and finishes, and specialized features such as integrated lighting."
-      }
-    }
-  ],
+  "name": "What factors influence the cost of custom mudroom storage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What factors influence the cost of custom mudroom storage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of custom mudroom storage is primarily influenced by the size and complexity of the design, the types of materials selected (e.g., wood species, finishes, hardware), and any specialized features like integrated lighting or unique storage components. Higher-end materials and intricate designs will naturally increase the overall project cost. Hometelligent Inc. provides detailed estimates after the design consultation, allowing clients to understand how different choices impact their budget.",
+        "@type": "Answer",
+        "description": "Cost is influenced by design complexity, material choices like wood and finishes, and specialized features such as integrated lighting."
+      }
+    }
+  ],
+  "description": "Cost is influenced by design complexity, material choices like wood and finishes, and specialized features such as integrated lighting."
 }

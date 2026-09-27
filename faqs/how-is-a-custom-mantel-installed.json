@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How is a custom mantel installed?",
-  "description": "Installation involves preparing the wall, securing the mantel using appropriate fastening methods for its material, precise leveling, and finishing touches.",
   "url": "https://hometelligentinc.com/faq/how-is-a-custom-mantel-installed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How is a custom mantel installed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The installation process for a custom mantel typically begins with preparing the wall surface, ensuring it is clean, level, and structurally sound. For wood mantels, a cleat system or direct fastening into wall studs is often used, ensuring secure attachment. Stone mantels, being heavier, may require additional structural support or specialized anchoring methods. Precise leveling and alignment are critical to ensure the mantel sits perfectly straight and plumb. After the main structure is secured, finishing touches like trim installation and caulking are completed. This process clarity ensures a professional and lasting installation by Hometelligent Inc.",
-        "description": "Installation involves preparing the wall, securing the mantel using appropriate fastening methods for its material, precise leveling, and finishing touches."
-      }
-    }
-  ],
+  "name": "How is a custom mantel installed?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How is a custom mantel installed?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The installation process for a custom mantel typically begins with preparing the wall surface, ensuring it is clean, level, and structurally sound. For wood mantels, a cleat system or direct fastening into wall studs is often used, ensuring secure attachment. Stone mantels, being heavier, may require additional structural support or specialized anchoring methods. Precise leveling and alignment are critical to ensure the mantel sits perfectly straight and plumb. After the main structure is secured, finishing touches like trim installation and caulking are completed. This process clarity ensures a professional and lasting installation by Hometelligent Inc.",
+        "@type": "Answer",
+        "description": "Installation involves preparing the wall, securing the mantel using appropriate fastening methods for its material, precise leveling, and finishing touches."
+      }
+    }
+  ],
+  "description": "Installation involves preparing the wall, securing the mantel using appropriate fastening methods for its material, precise leveling, and finishing touches."
 }

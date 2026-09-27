@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of wood rot are common in homes?",
-  "description": "Brown rot and white rot are common. Brown rot causes cubical cracking; white rot makes wood stringy. We identify the type for proper treatment.",
   "url": "https://hometelligentinc.com/faq/what-types-of-wood-rot-are-common-in-homes",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of wood rot are common in homes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The most common types of wood rot found in homes are brown rot (dry rot) and white rot (wet rot). Brown rot causes wood to shrink and crack into cubical pieces, while white rot makes wood appear stringy or spongy. Both types weaken the wood, but their appearance differs. When our team inspects a property in an area like Berkeley or Fremont, we identify the specific type of rot to ensure the most effective treatment and replacement materials are chosen, as the approach can vary slightly for each.",
-        "description": "Brown rot and white rot are common. Brown rot causes cubical cracking; white rot makes wood stringy. We identify the type for proper treatment."
-      }
-    }
-  ],
+  "name": "What types of wood rot are common in homes?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of wood rot are common in homes?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The most common types of wood rot found in homes are brown rot (dry rot) and white rot (wet rot). Brown rot causes wood to shrink and crack into cubical pieces, while white rot makes wood appear stringy or spongy. Both types weaken the wood, but their appearance differs. When our team inspects a property in an area like Berkeley or Fremont, we identify the specific type of rot to ensure the most effective treatment and replacement materials are chosen, as the approach can vary slightly for each.",
+        "@type": "Answer",
+        "description": "Brown rot and white rot are common. Brown rot causes cubical cracking; white rot makes wood stringy. We identify the type for proper treatment."
+      }
+    }
+  ],
+  "description": "Brown rot and white rot are common. Brown rot causes cubical cracking; white rot makes wood stringy. We identify the type for proper treatment."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can custom cabinetry be designed for specific rooms beyond the kitchen?",
-  "description": "Custom cabinetry extends beyond kitchens to bathrooms, living rooms, home offices, and mudrooms, providing tailored storage solutions for any space.",
   "url": "https://hometelligentinc.com/faq/can-custom-cabinetry-be-designed-for-specific-rooms-beyond-the-kitchen",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can custom cabinetry be designed for specific rooms beyond the kitchen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, custom cabinetry can be designed for virtually any room in your home, extending far beyond the kitchen. Many clients opt for custom solutions in bathrooms for vanities and storage, living rooms for built-in media centers or bookshelves, home offices for integrated desks and filing systems, and even mudrooms or entryways for personalized storage and organization. The flexibility of custom design allows us to create functional and aesthetically pleasing solutions that maximize space and enhance the utility of any area, tailored specifically for your lifestyle needs.",
-        "description": "Custom cabinetry extends beyond kitchens to bathrooms, living rooms, home offices, and mudrooms, providing tailored storage solutions for any space."
-      }
-    }
-  ],
+  "name": "Can custom cabinetry be designed for specific rooms beyond the kitchen?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can custom cabinetry be designed for specific rooms beyond the kitchen?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, custom cabinetry can be designed for virtually any room in your home, extending far beyond the kitchen. Many clients opt for custom solutions in bathrooms for vanities and storage, living rooms for built-in media centers or bookshelves, home offices for integrated desks and filing systems, and even mudrooms or entryways for personalized storage and organization. The flexibility of custom design allows us to create functional and aesthetically pleasing solutions that maximize space and enhance the utility of any area, tailored specifically for your lifestyle needs.",
+        "@type": "Answer",
+        "description": "Custom cabinetry extends beyond kitchens to bathrooms, living rooms, home offices, and mudrooms, providing tailored storage solutions for any space."
+      }
+    }
+  ],
+  "description": "Custom cabinetry extends beyond kitchens to bathrooms, living rooms, home offices, and mudrooms, providing tailored storage solutions for any space."
 }

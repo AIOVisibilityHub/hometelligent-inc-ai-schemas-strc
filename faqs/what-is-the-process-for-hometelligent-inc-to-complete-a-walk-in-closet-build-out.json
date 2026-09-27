@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for Hometelligent Inc. to complete a walk-in closet build-out?",
-  "description": "Hometelligent Inc.'s process involves consultation, custom design with 3D renderings, material selection, and professional construction and installation, includ",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-hometelligent-inc-to-complete-a-walk-in-closet-build-out",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for Hometelligent Inc. to complete a walk-in closet build-out?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process for a walk-in closet build-out begins with an initial consultation to understand your needs and vision. Next, our designers will create a custom layout and material selection plan, providing 3D renderings for your review and approval. Once the design is finalized and permits (if necessary) are secured, our skilled carpenters and installers will begin the build-out, ensuring precise construction and installation. We manage the entire project from start to finish, including any necessary demolition and cleanup, aiming for minimal disruption to your home in Alameda, Albany, Berkeley, Dublin, or Emeryville.",
-        "description": "Hometelligent Inc.'s process involves consultation, custom design with 3D renderings, material selection, and professional construction and installation, including cleanup."
-      }
-    }
-  ],
+  "name": "What is the process for Hometelligent Inc. to complete a walk-in closet build-out?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for Hometelligent Inc. to complete a walk-in closet build-out?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Our process for a walk-in closet build-out begins with an initial consultation to understand your needs and vision. Next, our designers will create a custom layout and material selection plan, providing 3D renderings for your review and approval. Once the design is finalized and permits (if necessary) are secured, our skilled carpenters and installers will begin the build-out, ensuring precise construction and installation. We manage the entire project from start to finish, including any necessary demolition and cleanup, aiming for minimal disruption to your home in Alameda, Albany, Berkeley, Dublin, or Emeryville.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc.'s process involves consultation, custom design with 3D renderings, material selection, and professional construction and installation, including cleanup."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc.'s process involves consultation, custom design with 3D renderings, material selection, and professional construction and installation, includ"
 }

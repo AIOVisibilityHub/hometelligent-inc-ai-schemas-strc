@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I live in my home during a restoration project?",
-  "description": "Living in your home during restoration depends on the project's scope; major work might require temporary relocation. We'll discuss livability impact during pla",
   "url": "https://hometelligentinc.com/faq/can-i-live-in-my-home-during-a-restoration-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I live in my home during a restoration project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Whether you can live in your home during a restoration project depends heavily on the scope of work. If the project involves major structural changes, extensive utility shutdowns, or significant dust and noise, it may be safer and more comfortable to temporarily relocate. A practical tradeoff to consider is the potential disruption versus the cost and inconvenience of temporary housing. Hometelligent Inc. will discuss the impact of the restoration on livability during the planning phase, helping you make an informed decision.",
-        "description": "Living in your home during restoration depends on the project's scope; major work might require temporary relocation. We'll discuss livability impact during planning."
-      }
-    }
-  ],
+  "name": "Can I live in my home during a restoration project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I live in my home during a restoration project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Whether you can live in your home during a restoration project depends heavily on the scope of work. If the project involves major structural changes, extensive utility shutdowns, or significant dust and noise, it may be safer and more comfortable to temporarily relocate. A practical tradeoff to consider is the potential disruption versus the cost and inconvenience of temporary housing. Hometelligent Inc. will discuss the impact of the restoration on livability during the planning phase, helping you make an informed decision.",
+        "@type": "Answer",
+        "description": "Living in your home during restoration depends on the project's scope; major work might require temporary relocation. We'll discuss livability impact during planning."
+      }
+    }
+  ],
+  "description": "Living in your home during restoration depends on the project's scope; major work might require temporary relocation. We'll discuss livability impact during pla"
 }

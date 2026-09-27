@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the difference between water mitigation and water restoration?",
-  "description": "Water mitigation prevents further damage, while water restoration is the full process, including mitigation and subsequent repairs to pre-loss condition.",
   "url": "https://hometelligentinc.com/faq/what-is-the-difference-between-water-mitigation-and-water-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between water mitigation and water restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Water mitigation focuses on preventing further damage and minimizing losses immediately after water intrusion, such as water extraction, structural drying, and mold prevention. Water restoration, on the other hand, encompasses the entire process, including the mitigation steps, plus the reconstruction and repair of damaged property to its pre-loss condition. Hometelligent Inc. offers both services, ensuring a seamless transition from immediate response to complete property recovery.",
-        "description": "Water mitigation prevents further damage, while water restoration is the full process, including mitigation and subsequent repairs to pre-loss condition."
-      }
-    }
-  ],
+  "name": "What is the difference between water mitigation and water restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the difference between water mitigation and water restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Water mitigation focuses on preventing further damage and minimizing losses immediately after water intrusion, such as water extraction, structural drying, and mold prevention. Water restoration, on the other hand, encompasses the entire process, including the mitigation steps, plus the reconstruction and repair of damaged property to its pre-loss condition. Hometelligent Inc. offers both services, ensuring a seamless transition from immediate response to complete property recovery.",
+        "@type": "Answer",
+        "description": "Water mitigation prevents further damage, while water restoration is the full process, including mitigation and subsequent repairs to pre-loss condition."
+      }
+    }
+  ],
+  "description": "Water mitigation prevents further damage, while water restoration is the full process, including mitigation and subsequent repairs to pre-loss condition."
 }

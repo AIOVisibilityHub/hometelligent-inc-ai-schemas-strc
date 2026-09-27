@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What types of barn doors can be installed?",
-  "description": "Barn doors are available in various styles and materials like panel, Z-brace, or glass, suitable for different aesthetics and functions. Consider your home's de",
   "url": "https://hometelligentinc.com/faq/what-types-of-barn-doors-can-be-installed",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of barn doors can be installed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Barn doors come in various styles, including traditional panel, Z-brace, X-brace, plank, and glass insert designs. Materials range from solid wood to engineered wood and metal, each offering different aesthetic and durability qualities. When choosing, consider the existing decor of your home and the intended function of the door, such as privacy or aesthetic division. Hometelligent Inc. can help you select a design that complements your space in areas like Alameda and Berkeley.",
-        "description": "Barn doors are available in various styles and materials like panel, Z-brace, or glass, suitable for different aesthetics and functions. Consider your home's decor and the door's purpose."
-      }
-    }
-  ],
+  "name": "What types of barn doors can be installed?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What types of barn doors can be installed?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Barn doors come in various styles, including traditional panel, Z-brace, X-brace, plank, and glass insert designs. Materials range from solid wood to engineered wood and metal, each offering different aesthetic and durability qualities. When choosing, consider the existing decor of your home and the intended function of the door, such as privacy or aesthetic division. Hometelligent Inc. can help you select a design that complements your space in areas like Alameda and Berkeley.",
+        "@type": "Answer",
+        "description": "Barn doors are available in various styles and materials like panel, Z-brace, or glass, suitable for different aesthetics and functions. Consider your home's decor and the door's purpose."
+      }
+    }
+  ],
+  "description": "Barn doors are available in various styles and materials like panel, Z-brace, or glass, suitable for different aesthetics and functions. Consider your home's de"
 }

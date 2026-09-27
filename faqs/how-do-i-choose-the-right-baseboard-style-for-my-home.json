@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right baseboard style for my home?",
-  "description": "Match baseboard style to your home's architecture, ceiling height, and existing trim; compare profiles to ensure harmony.",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-baseboard-style-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right baseboard style for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right baseboard style involves considering your home's architectural style, ceiling height, and personal preference. Taller baseboards often complement rooms with higher ceilings, while simpler, narrower profiles suit modern aesthetics. It's helpful to compare various profiles and heights to ensure the choice harmonizes with your existing trim and door casings.",
-        "description": "Match baseboard style to your home's architecture, ceiling height, and existing trim; compare profiles to ensure harmony."
-      }
-    }
-  ],
+  "name": "How do I choose the right baseboard style for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right baseboard style for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right baseboard style involves considering your home's architectural style, ceiling height, and personal preference. Taller baseboards often complement rooms with higher ceilings, while simpler, narrower profiles suit modern aesthetics. It's helpful to compare various profiles and heights to ensure the choice harmonizes with your existing trim and door casings.",
+        "@type": "Answer",
+        "description": "Match baseboard style to your home's architecture, ceiling height, and existing trim; compare profiles to ensure harmony."
+      }
+    }
+  ],
+  "description": "Match baseboard style to your home's architecture, ceiling height, and existing trim; compare profiles to ensure harmony."
 }

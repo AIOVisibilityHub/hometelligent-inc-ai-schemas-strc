@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I consider before renovating an existing fireplace surround?",
-  "description": "Before renovating, assess the fireplace and chimney's condition, existing materials, and potential impact on heat or ventilation. An inspection identifies chall",
   "url": "https://hometelligentinc.com/faq/what-should-i-consider-before-renovating-an-existing-fireplace-surround",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I consider before renovating an existing fireplace surround?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before renovating an existing fireplace surround, consider the current condition of the fireplace and chimney, including any structural issues or code compliance. Assess the existing materials and whether they can be modified or if a complete tear-out is necessary. It's also important to determine if the renovation will impact heat distribution or ventilation. An on-site inspection helps identify potential challenges and ensures the new design is safely and effectively integrated with the existing structure. This preparation ensures a smooth renovation process.",
-        "description": "Before renovating, assess the fireplace and chimney's condition, existing materials, and potential impact on heat or ventilation. An inspection identifies challenges and ensures safe integration."
-      }
-    }
-  ],
+  "name": "What should I consider before renovating an existing fireplace surround?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I consider before renovating an existing fireplace surround?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before renovating an existing fireplace surround, consider the current condition of the fireplace and chimney, including any structural issues or code compliance. Assess the existing materials and whether they can be modified or if a complete tear-out is necessary. It's also important to determine if the renovation will impact heat distribution or ventilation. An on-site inspection helps identify potential challenges and ensures the new design is safely and effectively integrated with the existing structure. This preparation ensures a smooth renovation process.",
+        "@type": "Answer",
+        "description": "Before renovating, assess the fireplace and chimney's condition, existing materials, and potential impact on heat or ventilation. An inspection identifies challenges and ensures safe integration."
+      }
+    }
+  ],
+  "description": "Before renovating, assess the fireplace and chimney's condition, existing materials, and potential impact on heat or ventilation. An inspection identifies chall"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are typically used in interior restoration?",
-  "description": "Interior restoration materials vary by property period and style, often including specialized plaster, specific woods, and period-appropriate hardware and paint",
   "url": "https://hometelligentinc.com/faq/what-materials-are-typically-used-in-interior-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are typically used in interior restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The materials used in interior restoration often depend on the period and style of the property, aiming for historical accuracy where appropriate. This can include specialized plaster, specific types of wood for flooring or trim, period-appropriate hardware, and historically accurate paint colors. For properties in the Oakland Hills, for example, preserving original redwood features might be a priority. The choice of materials impacts both the authenticity and durability of the restored space. Hometelligent Inc. assists in sourcing and selecting materials that align with the project's goals and historical context.",
-        "description": "Interior restoration materials vary by property period and style, often including specialized plaster, specific woods, and period-appropriate hardware and paints. Material selection impacts authenticity and durability."
-      }
-    }
-  ],
+  "name": "What materials are typically used in interior restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are typically used in interior restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The materials used in interior restoration often depend on the period and style of the property, aiming for historical accuracy where appropriate. This can include specialized plaster, specific types of wood for flooring or trim, period-appropriate hardware, and historically accurate paint colors. For properties in the Oakland Hills, for example, preserving original redwood features might be a priority. The choice of materials impacts both the authenticity and durability of the restored space. Hometelligent Inc. assists in sourcing and selecting materials that align with the project's goals and historical context.",
+        "@type": "Answer",
+        "description": "Interior restoration materials vary by property period and style, often including specialized plaster, specific woods, and period-appropriate hardware and paints. Material selection impacts authenticity and durability."
+      }
+    }
+  ],
+  "description": "Interior restoration materials vary by property period and style, often including specialized plaster, specific woods, and period-appropriate hardware and paint"
 }

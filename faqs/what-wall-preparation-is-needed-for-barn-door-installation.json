@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What wall preparation is needed for barn door installation?",
-  "description": "Walls need to support the barn door and track. You should provide details on the wall's internal structure for necessary reinforcement.",
   "url": "https://hometelligentinc.com/faq/what-wall-preparation-is-needed-for-barn-door-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What wall preparation is needed for barn door installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proper wall preparation is crucial for a secure barn door installation. The wall above the doorway must be able to support the weight of the door and track system, often requiring additional blocking or a header. You may need to gather details on the wall's internal structure and any existing electrical or plumbing lines. This information helps Hometelligent Inc. assess if structural reinforcement is needed to ensure safe and durable operation.",
-        "description": "Walls need to support the barn door and track. You should provide details on the wall's internal structure for necessary reinforcement."
-      }
-    }
-  ],
+  "name": "What wall preparation is needed for barn door installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What wall preparation is needed for barn door installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Proper wall preparation is crucial for a secure barn door installation. The wall above the doorway must be able to support the weight of the door and track system, often requiring additional blocking or a header. You may need to gather details on the wall's internal structure and any existing electrical or plumbing lines. This information helps Hometelligent Inc. assess if structural reinforcement is needed to ensure safe and durable operation.",
+        "@type": "Answer",
+        "description": "Walls need to support the barn door and track. You should provide details on the wall's internal structure for necessary reinforcement."
+      }
+    }
+  ],
+  "description": "Walls need to support the barn door and track. You should provide details on the wall's internal structure for necessary reinforcement."
 }

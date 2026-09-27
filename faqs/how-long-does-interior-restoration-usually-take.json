@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does interior restoration usually take?",
-  "description": "Interior restoration timelines vary from weeks to months, depending on project complexity, scope, and specific material needs. Hometelligent Inc. provides a det",
   "url": "https://hometelligentinc.com/faq/how-long-does-interior-restoration-usually-take",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does interior restoration usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of interior restoration varies significantly based on the project's complexity and scope. Smaller projects, such as a single room renovation, might take a few weeks, while whole-house restorations can extend to several months. Factors like the extent of structural repairs, custom material lead times, and the need for specialized trades contribute to the timeline. Hometelligent Inc. develops a detailed project schedule after the initial assessment, providing a clearer timeline tailored to each client's specific needs.",
-        "description": "Interior restoration timelines vary from weeks to months, depending on project complexity, scope, and specific material needs. Hometelligent Inc. provides a detailed schedule after an initial assessment."
-      }
-    }
-  ],
+  "name": "How long does interior restoration usually take?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does interior restoration usually take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The duration of interior restoration varies significantly based on the project's complexity and scope. Smaller projects, such as a single room renovation, might take a few weeks, while whole-house restorations can extend to several months. Factors like the extent of structural repairs, custom material lead times, and the need for specialized trades contribute to the timeline. Hometelligent Inc. develops a detailed project schedule after the initial assessment, providing a clearer timeline tailored to each client's specific needs.",
+        "@type": "Answer",
+        "description": "Interior restoration timelines vary from weeks to months, depending on project complexity, scope, and specific material needs. Hometelligent Inc. provides a detailed schedule after an initial assessment."
+      }
+    }
+  ],
+  "description": "Interior restoration timelines vary from weeks to months, depending on project complexity, scope, and specific material needs. Hometelligent Inc. provides a det"
 }

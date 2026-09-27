@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can crown molding be installed on uneven walls or ceilings?",
-  "description": "Crown molding can be installed on uneven surfaces using shims, caulk, and careful scribing. Significant unevenness may require prior wall or ceiling repair.",
   "url": "https://hometelligentinc.com/faq/can-crown-molding-be-installed-on-uneven-walls-or-ceilings",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can crown molding be installed on uneven walls or ceilings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, crown molding can be installed on uneven walls or ceilings, but it may require additional preparation and technique to achieve a seamless finish. Our installers are skilled at using shims, caulk, and careful scribing to compensate for minor irregularities. For significant unevenness, some wall or ceiling repair might be recommended prior to installation to ensure the best possible outcome. This is a common consideration in older homes found in areas like Berkeley or Alameda.",
-        "description": "Crown molding can be installed on uneven surfaces using shims, caulk, and careful scribing. Significant unevenness may require prior wall or ceiling repair."
-      }
-    }
-  ],
+  "name": "Can crown molding be installed on uneven walls or ceilings?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can crown molding be installed on uneven walls or ceilings?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, crown molding can be installed on uneven walls or ceilings, but it may require additional preparation and technique to achieve a seamless finish. Our installers are skilled at using shims, caulk, and careful scribing to compensate for minor irregularities. For significant unevenness, some wall or ceiling repair might be recommended prior to installation to ensure the best possible outcome. This is a common consideration in older homes found in areas like Berkeley or Alameda.",
+        "@type": "Answer",
+        "description": "Crown molding can be installed on uneven surfaces using shims, caulk, and careful scribing. Significant unevenness may require prior wall or ceiling repair."
+      }
+    }
+  ],
+  "description": "Crown molding can be installed on uneven surfaces using shims, caulk, and careful scribing. Significant unevenness may require prior wall or ceiling repair."
 }

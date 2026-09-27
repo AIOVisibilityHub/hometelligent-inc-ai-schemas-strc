@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Can I get a custom mantel for an existing fireplace?",
-  "description": "Yes, custom mantels can be made for existing fireplaces. We take precise measurements and assess wall structure to ensure proper fit and integration.",
   "url": "https://hometelligentinc.com/faq/can-i-get-a-custom-mantel-for-an-existing-fireplace",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I get a custom mantel for an existing fireplace?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, custom mantels are frequently designed to complement and enhance existing fireplaces. The process involves precise measurements of your current firebox opening and wall space to ensure a perfect fit. We assess the structural integrity of the wall to support the new mantel, especially for heavier stone or solid wood options. You'll need to consider the style of your existing fireplace and home to ensure the new mantel integrates seamlessly. This preparation step is crucial for a successful installation and to avoid any unforeseen issues during the project.",
-        "description": "Yes, custom mantels can be made for existing fireplaces. We take precise measurements and assess wall structure to ensure proper fit and integration."
-      }
-    }
-  ],
+  "name": "Can I get a custom mantel for an existing fireplace?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Can I get a custom mantel for an existing fireplace?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, custom mantels are frequently designed to complement and enhance existing fireplaces. The process involves precise measurements of your current firebox opening and wall space to ensure a perfect fit. We assess the structural integrity of the wall to support the new mantel, especially for heavier stone or solid wood options. You'll need to consider the style of your existing fireplace and home to ensure the new mantel integrates seamlessly. This preparation step is crucial for a successful installation and to avoid any unforeseen issues during the project.",
+        "@type": "Answer",
+        "description": "Yes, custom mantels can be made for existing fireplaces. We take precise measurements and assess wall structure to ensure proper fit and integration."
+      }
+    }
+  ],
+  "description": "Yes, custom mantels can be made for existing fireplaces. We take precise measurements and assess wall structure to ensure proper fit and integration."
 }

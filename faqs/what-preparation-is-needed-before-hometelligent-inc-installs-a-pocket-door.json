@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What preparation is needed before Hometelligent Inc. installs a pocket door?",
-  "description": "Clients should decide on door material and location. Homeowners must clear the installation area, moving furniture and wall decor, for efficient work.",
   "url": "https://hometelligentinc.com/faq/what-preparation-is-needed-before-hometelligent-inc-installs-a-pocket-door",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What preparation is needed before Hometelligent Inc. installs a pocket door?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before Hometelligent Inc. installs a pocket door, clients should consider what type of door material they prefer (wood, glass, etc.) and the desired location. A crucial preparation step for homeowners is to clear the area around the proposed installation site, ensuring easy access for our team. This includes moving furniture and removing any wall decor or shelving that might be in the way, which helps our crew begin work efficiently.",
-        "description": "Clients should decide on door material and location. Homeowners must clear the installation area, moving furniture and wall decor, for efficient work."
-      }
-    }
-  ],
+  "name": "What preparation is needed before Hometelligent Inc. installs a pocket door?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What preparation is needed before Hometelligent Inc. installs a pocket door?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Before Hometelligent Inc. installs a pocket door, clients should consider what type of door material they prefer (wood, glass, etc.) and the desired location. A crucial preparation step for homeowners is to clear the area around the proposed installation site, ensuring easy access for our team. This includes moving furniture and removing any wall decor or shelving that might be in the way, which helps our crew begin work efficiently.",
+        "@type": "Answer",
+        "description": "Clients should decide on door material and location. Homeowners must clear the installation area, moving furniture and wall decor, for efficient work."
+      }
+    }
+  ],
+  "description": "Clients should decide on door material and location. Homeowners must clear the installation area, moving furniture and wall decor, for efficient work."
 }

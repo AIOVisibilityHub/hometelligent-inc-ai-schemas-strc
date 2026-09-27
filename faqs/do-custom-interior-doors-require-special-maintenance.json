@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do custom interior doors require special maintenance?",
-  "description": "Custom interior doors require standard cleaning. Maintenance depends on material and finish; follow manufacturer guidelines for special finishes.",
   "url": "https://hometelligentinc.com/faq/do-custom-interior-doors-require-special-maintenance",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do custom interior doors require special maintenance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom interior doors generally do not require special maintenance beyond what is typical for high-quality doors, such as regular cleaning with appropriate products for the specific material and finish. The longevity and appearance of your custom doors depend heavily on the initial quality of materials and finish applied. Doors with unique finishes, such as hand-painted details or natural wood oils, may require specific care instructions provided by the manufacturer. Always follow the recommended cleaning guidelines to preserve their appearance and integrity.",
-        "description": "Custom interior doors require standard cleaning. Maintenance depends on material and finish; follow manufacturer guidelines for special finishes."
-      }
-    }
-  ],
+  "name": "Do custom interior doors require special maintenance?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do custom interior doors require special maintenance?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom interior doors generally do not require special maintenance beyond what is typical for high-quality doors, such as regular cleaning with appropriate products for the specific material and finish. The longevity and appearance of your custom doors depend heavily on the initial quality of materials and finish applied. Doors with unique finishes, such as hand-painted details or natural wood oils, may require specific care instructions provided by the manufacturer. Always follow the recommended cleaning guidelines to preserve their appearance and integrity.",
+        "@type": "Answer",
+        "description": "Custom interior doors require standard cleaning. Maintenance depends on material and finish; follow manufacturer guidelines for special finishes."
+      }
+    }
+  ],
+  "description": "Custom interior doors require standard cleaning. Maintenance depends on material and finish; follow manufacturer guidelines for special finishes."
 }

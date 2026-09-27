@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What should I do to prepare my home for door installation?",
-  "description": "Clear the work area of furniture and obstacles, and ensure pathways are accessible. This helps our team work efficiently and protects your belongings during ins",
   "url": "https://hometelligentinc.com/faq/what-should-i-do-to-prepare-my-home-for-door-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I do to prepare my home for door installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for door installation, clear the work area of any furniture, decorations, or obstacles, ensuring our team has ample space to move and work safely. For exterior doors, ensure the pathway to the entrance is clear. If possible, remove any window treatments or wall hangings near the door opening to protect them from dust or accidental damage. Having a clear and accessible space helps our installers work efficiently and minimizes disruption to your home.",
-        "description": "Clear the work area of furniture and obstacles, and ensure pathways are accessible. This helps our team work efficiently and protects your belongings during installation."
-      }
-    }
-  ],
+  "name": "What should I do to prepare my home for door installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What should I do to prepare my home for door installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for door installation, clear the work area of any furniture, decorations, or obstacles, ensuring our team has ample space to move and work safely. For exterior doors, ensure the pathway to the entrance is clear. If possible, remove any window treatments or wall hangings near the door opening to protect them from dust or accidental damage. Having a clear and accessible space helps our installers work efficiently and minimizes disruption to your home.",
+        "@type": "Answer",
+        "description": "Clear the work area of furniture and obstacles, and ensure pathways are accessible. This helps our team work efficiently and protects your belongings during installation."
+      }
+    }
+  ],
+  "description": "Clear the work area of furniture and obstacles, and ensure pathways are accessible. This helps our team work efficiently and protects your belongings during ins"
 }

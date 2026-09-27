@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What materials are available for a custom mantel?",
-  "description": "Custom mantels are available in materials like natural woods (oak, maple, walnut), reclaimed wood, and various stones (marble, granite, limestone) to match your",
   "url": "https://hometelligentinc.com/faq/what-materials-are-available-for-a-custom-mantel",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What materials are available for a custom mantel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom mantels can be crafted from a variety of materials to match your home's aesthetic. Common options include natural woods like oak, maple, walnut, or cherry, which offer different grain patterns and staining possibilities. For a more modern or rustic look, reclaimed wood or rough-sawn timbers are popular. Stone, such as marble, granite, or limestone, provides a sophisticated and durable finish, often chosen for its unique veining and heat resistance. Depending on your design preferences and the existing fireplace, Hometelligent Inc. can guide you through material selection to ensure the best fit and longevity for your custom mantel.",
-        "description": "Custom mantels are available in materials like natural woods (oak, maple, walnut), reclaimed wood, and various stones (marble, granite, limestone) to match your home's style and fireplace."
-      }
-    }
-  ],
+  "name": "What materials are available for a custom mantel?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What materials are available for a custom mantel?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Custom mantels can be crafted from a variety of materials to match your home's aesthetic. Common options include natural woods like oak, maple, walnut, or cherry, which offer different grain patterns and staining possibilities. For a more modern or rustic look, reclaimed wood or rough-sawn timbers are popular. Stone, such as marble, granite, or limestone, provides a sophisticated and durable finish, often chosen for its unique veining and heat resistance. Depending on your design preferences and the existing fireplace, Hometelligent Inc. can guide you through material selection to ensure the best fit and longevity for your custom mantel.",
+        "@type": "Answer",
+        "description": "Custom mantels are available in materials like natural woods (oak, maple, walnut), reclaimed wood, and various stones (marble, granite, limestone) to match your home's style and fireplace."
+      }
+    }
+  ],
+  "description": "Custom mantels are available in materials like natural woods (oak, maple, walnut), reclaimed wood, and various stones (marble, granite, limestone) to match your"
 }

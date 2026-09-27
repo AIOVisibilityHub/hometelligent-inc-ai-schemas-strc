@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How long does it take to install custom mudroom storage?",
-  "description": "Installation time for custom mudroom storage varies but typically involves a design phase, fabrication, and 3-7 days for on-site installation.",
   "url": "https://hometelligentinc.com/faq/how-long-does-it-take-to-install-custom-mudroom-storage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does it take to install custom mudroom storage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The timeline for installing custom mudroom storage varies depending on the complexity of the design, the materials chosen, and the scope of work involved. Typically, the design phase can take a few weeks, followed by fabrication, and then on-site installation which usually ranges from 3-7 days. During the initial consultation, Hometelligent Inc. provides a detailed project schedule, outlining key milestones from design approval to final installation, ensuring clarity on the process duration.",
-        "description": "Installation time for custom mudroom storage varies but typically involves a design phase, fabrication, and 3-7 days for on-site installation."
-      }
-    }
-  ],
+  "name": "How long does it take to install custom mudroom storage?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How long does it take to install custom mudroom storage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The timeline for installing custom mudroom storage varies depending on the complexity of the design, the materials chosen, and the scope of work involved. Typically, the design phase can take a few weeks, followed by fabrication, and then on-site installation which usually ranges from 3-7 days. During the initial consultation, Hometelligent Inc. provides a detailed project schedule, outlining key milestones from design approval to final installation, ensuring clarity on the process duration.",
+        "@type": "Answer",
+        "description": "Installation time for custom mudroom storage varies but typically involves a design phase, fabrication, and 3-7 days for on-site installation."
+      }
+    }
+  ],
+  "description": "Installation time for custom mudroom storage varies but typically involves a design phase, fabrication, and 3-7 days for on-site installation."
 }

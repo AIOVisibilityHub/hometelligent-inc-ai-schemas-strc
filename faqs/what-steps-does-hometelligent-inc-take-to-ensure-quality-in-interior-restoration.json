@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What steps does Hometelligent Inc. take to ensure quality in interior restoration?",
-  "description": "Hometelligent Inc. ensures quality via meticulous planning, skilled craftsmanship, and continuous communication, using detailed assessments and experienced spec",
   "url": "https://hometelligentinc.com/faq/what-steps-does-hometelligent-inc-take-to-ensure-quality-in-interior-restoration",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What steps does Hometelligent Inc. take to ensure quality in interior restoration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hometelligent Inc. ensures quality in interior restoration through meticulous planning, skilled craftsmanship, and continuous communication. We begin with a detailed assessment and client consultation to establish clear project goals and expectations. Throughout the project, we employ experienced restoration specialists and use high-quality, period-appropriate materials. Regular site visits and progress updates keep clients informed, allowing for feedback and ensuring the final outcome meets our stringent standards and the client's vision. Our commitment is to deliver lasting, authentic results.",
-        "description": "Hometelligent Inc. ensures quality via meticulous planning, skilled craftsmanship, and continuous communication, using detailed assessments and experienced specialists. Regular updates ensure outcomes meet standards and vision."
-      }
-    }
-  ],
+  "name": "What steps does Hometelligent Inc. take to ensure quality in interior restoration?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What steps does Hometelligent Inc. take to ensure quality in interior restoration?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Hometelligent Inc. ensures quality in interior restoration through meticulous planning, skilled craftsmanship, and continuous communication. We begin with a detailed assessment and client consultation to establish clear project goals and expectations. Throughout the project, we employ experienced restoration specialists and use high-quality, period-appropriate materials. Regular site visits and progress updates keep clients informed, allowing for feedback and ensuring the final outcome meets our stringent standards and the client's vision. Our commitment is to deliver lasting, authentic results.",
+        "@type": "Answer",
+        "description": "Hometelligent Inc. ensures quality via meticulous planning, skilled craftsmanship, and continuous communication, using detailed assessments and experienced specialists. Regular updates ensure outcomes meet standards and vision."
+      }
+    }
+  ],
+  "description": "Hometelligent Inc. ensures quality via meticulous planning, skilled craftsmanship, and continuous communication, using detailed assessments and experienced spec"
 }

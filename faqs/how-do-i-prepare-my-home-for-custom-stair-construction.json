@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I prepare my home for custom stair construction?",
-  "description": "Prepare your home for custom stair construction by clearing the work area and communicating any access requirements to the construction team.",
   "url": "https://hometelligentinc.com/faq/how-do-i-prepare-my-home-for-custom-stair-construction",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I prepare my home for custom stair construction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Preparing your home for custom stair construction involves clearing the work area of furniture and personal belongings to provide clear access for the construction team and protect your possessions. It's also advisable to communicate any specific access requirements or sensitive areas within your home to the construction crew. Hometelligent Inc. will provide a checklist of preparatory steps during the planning phase, ensuring the site is ready for safe and efficient work. This proactive approach helps minimize disruptions and protects your property throughout the installation.",
-        "description": "Prepare your home for custom stair construction by clearing the work area and communicating any access requirements to the construction team."
-      }
-    }
-  ],
+  "name": "How do I prepare my home for custom stair construction?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I prepare my home for custom stair construction?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Preparing your home for custom stair construction involves clearing the work area of furniture and personal belongings to provide clear access for the construction team and protect your possessions. It's also advisable to communicate any specific access requirements or sensitive areas within your home to the construction crew. Hometelligent Inc. will provide a checklist of preparatory steps during the planning phase, ensuring the site is ready for safe and efficient work. This proactive approach helps minimize disruptions and protects your property throughout the installation.",
+        "@type": "Answer",
+        "description": "Prepare your home for custom stair construction by clearing the work area and communicating any access requirements to the construction team."
+      }
+    }
+  ],
+  "description": "Prepare your home for custom stair construction by clearing the work area and communicating any access requirements to the construction team."
 }

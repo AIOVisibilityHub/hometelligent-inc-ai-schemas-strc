@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do I choose the right design for my custom staircase?",
-  "description": "Choose a custom stair design based on your home's architecture, available space, and functional requirements, considering options like straight, L-shaped, or sp",
   "url": "https://hometelligentinc.com/faq/how-do-i-choose-the-right-design-for-my-custom-staircase",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose the right design for my custom staircase?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choosing the right design for a custom staircase involves considering your home's architectural style, available space, and functional needs. Options range from straight, L-shaped, U-shaped, and spiral stairs, each offering different aesthetic and space-saving qualities. For instance, a spiral staircase can maximize space in a smaller area, while a grand, sweeping staircase might suit a more expansive foyer. Hometelligent Inc. offers design consultations to help clients visualize options and select a design that integrates seamlessly with their home's flow and enhances its overall appeal, ensuring both aesthetics and practicality are met.",
-        "description": "Choose a custom stair design based on your home's architecture, available space, and functional requirements, considering options like straight, L-shaped, or spiral stairs."
-      }
-    }
-  ],
+  "name": "How do I choose the right design for my custom staircase?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do I choose the right design for my custom staircase?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Choosing the right design for a custom staircase involves considering your home's architectural style, available space, and functional needs. Options range from straight, L-shaped, U-shaped, and spiral stairs, each offering different aesthetic and space-saving qualities. For instance, a spiral staircase can maximize space in a smaller area, while a grand, sweeping staircase might suit a more expansive foyer. Hometelligent Inc. offers design consultations to help clients visualize options and select a design that integrates seamlessly with their home's flow and enhances its overall appeal, ensuring both aesthetics and practicality are met.",
+        "@type": "Answer",
+        "description": "Choose a custom stair design based on your home's architecture, available space, and functional requirements, considering options like straight, L-shaped, or spiral stairs."
+      }
+    }
+  ],
+  "description": "Choose a custom stair design based on your home's architecture, available space, and functional requirements, considering options like straight, L-shaped, or sp"
 }

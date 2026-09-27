@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What information should I provide for a custom mantel quote?",
-  "description": "For a custom mantel quote, provide fireplace measurements, desired materials, design style, and photos of your current fireplace and room.",
   "url": "https://hometelligentinc.com/faq/what-information-should-i-provide-for-a-custom-mantel-quote",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What information should I provide for a custom mantel quote?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To receive an accurate quote for a custom mantel, you should provide several key pieces of information. This includes precise measurements of your fireplace opening (width, height), the total wall space available, and your desired mantel dimensions. Details about your preferred materials (wood type, stone, finish), design style, and any specific features like carvings or shelves are also crucial. Photos of your existing fireplace and the room will help Hometelligent Inc. understand the context and offer tailored suggestions. This preparation ensures we can develop a detailed and accurate estimate for your project.",
-        "description": "For a custom mantel quote, provide fireplace measurements, desired materials, design style, and photos of your current fireplace and room."
-      }
-    }
-  ],
+  "name": "What information should I provide for a custom mantel quote?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What information should I provide for a custom mantel quote?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To receive an accurate quote for a custom mantel, you should provide several key pieces of information. This includes precise measurements of your fireplace opening (width, height), the total wall space available, and your desired mantel dimensions. Details about your preferred materials (wood type, stone, finish), design style, and any specific features like carvings or shelves are also crucial. Photos of your existing fireplace and the room will help Hometelligent Inc. understand the context and offer tailored suggestions. This preparation ensures we can develop a detailed and accurate estimate for your project.",
+        "@type": "Answer",
+        "description": "For a custom mantel quote, provide fireplace measurements, desired materials, design style, and photos of your current fireplace and room."
+      }
+    }
+  ],
+  "description": "For a custom mantel quote, provide fireplace measurements, desired materials, design style, and photos of your current fireplace and room."
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Does Hometelligent Inc. offer trim installation services in my specific East Bay neighborhood, like Rockridge or Alamo?",
-  "description": "Yes, Hometelligent Inc. offers interior trim installation across numerous East Bay neighborhoods like Rockridge and Alamo. Contact us to confirm service for you",
   "url": "https://hometelligentinc.com/faq/does-hometelligent-inc-offer-trim-installation-services-in-my-specific-east-bay",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does Hometelligent Inc. offer trim installation services in my specific East Bay neighborhood, like Rockridge or Alamo?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. provides interior trim installation services across a wide range of East Bay neighborhoods, including Rockridge in Oakland and Alamo. Our service area extends throughout Alameda and Contra Costa Counties, covering cities like Berkeley, Dublin, Fremont, and many more. To confirm service availability for your specific address and to discuss your project needs, we recommend contacting us directly. We are familiar with the architectural styles and common preferences within these diverse communities, allowing us to offer tailored recommendations.",
-        "description": "Yes, Hometelligent Inc. offers interior trim installation across numerous East Bay neighborhoods like Rockridge and Alamo. Contact us to confirm service for your address."
-      }
-    }
-  ],
+  "name": "Does Hometelligent Inc. offer trim installation services in my specific East Bay neighborhood, like Rockridge or Alamo?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Does Hometelligent Inc. offer trim installation services in my specific East Bay neighborhood, like Rockridge or Alamo?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. provides interior trim installation services across a wide range of East Bay neighborhoods, including Rockridge in Oakland and Alamo. Our service area extends throughout Alameda and Contra Costa Counties, covering cities like Berkeley, Dublin, Fremont, and many more. To confirm service availability for your specific address and to discuss your project needs, we recommend contacting us directly. We are familiar with the architectural styles and common preferences within these diverse communities, allowing us to offer tailored recommendations.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. offers interior trim installation across numerous East Bay neighborhoods like Rockridge and Alamo. Contact us to confirm service for your address."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. offers interior trim installation across numerous East Bay neighborhoods like Rockridge and Alamo. Contact us to confirm service for you"
 }

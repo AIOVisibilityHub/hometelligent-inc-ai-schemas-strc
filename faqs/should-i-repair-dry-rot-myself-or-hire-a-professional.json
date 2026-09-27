@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Should I repair dry rot myself or hire a professional?",
-  "description": "Hiring a professional for dry rot repair is recommended, especially for structural damage, as they ensure proper remediation and adherence to building codes, pr",
   "url": "https://hometelligentinc.com/faq/should-i-repair-dry-rot-myself-or-hire-a-professional",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I repair dry rot myself or hire a professional?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While minor surface dry rot might seem manageable for a DIY enthusiast, hiring a professional for dry rot repair is generally recommended, especially for structural damage. Professionals have the expertise to accurately identify the extent of the rot, locate the moisture source, and perform comprehensive remediation that meets local building codes in areas like Emeryville or San Leandro. Improperly addressed dry rot can lead to continued structural issues and costly future repairs, making expert intervention a sound investment.",
-        "description": "Hiring a professional for dry rot repair is recommended, especially for structural damage, as they ensure proper remediation and adherence to building codes, preventing future costly issues."
-      }
-    }
-  ],
+  "name": "Should I repair dry rot myself or hire a professional?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Should I repair dry rot myself or hire a professional?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "While minor surface dry rot might seem manageable for a DIY enthusiast, hiring a professional for dry rot repair is generally recommended, especially for structural damage. Professionals have the expertise to accurately identify the extent of the rot, locate the moisture source, and perform comprehensive remediation that meets local building codes in areas like Emeryville or San Leandro. Improperly addressed dry rot can lead to continued structural issues and costly future repairs, making expert intervention a sound investment.",
+        "@type": "Answer",
+        "description": "Hiring a professional for dry rot repair is recommended, especially for structural damage, as they ensure proper remediation and adherence to building codes, preventing future costly issues."
+      }
+    }
+  ],
+  "description": "Hiring a professional for dry rot repair is recommended, especially for structural damage, as they ensure proper remediation and adherence to building codes, pr"
 }

@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the typical process for an exterior restoration project?",
-  "description": "The process involves inspection, surface preparation, repairs to damaged elements, and then priming and painting. Planning for daily routine impacts during repa",
   "url": "https://hometelligentinc.com/faq/what-is-the-typical-process-for-an-exterior-restoration-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the typical process for an exterior restoration project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An exterior restoration project typically begins with an initial inspection and assessment to identify areas needing repair. This is followed by surface preparation, which may include cleaning, scraping, and sanding. Repairs are then made to damaged siding, trim, or structural elements, followed by priming and painting. Understanding the scope of work and potential impact on daily routines during the repair phase is crucial for planning.",
-        "description": "The process involves inspection, surface preparation, repairs to damaged elements, and then priming and painting. Planning for daily routine impacts during repairs is important."
-      }
-    }
-  ],
+  "name": "What is the typical process for an exterior restoration project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the typical process for an exterior restoration project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "An exterior restoration project typically begins with an initial inspection and assessment to identify areas needing repair. This is followed by surface preparation, which may include cleaning, scraping, and sanding. Repairs are then made to damaged siding, trim, or structural elements, followed by priming and painting. Understanding the scope of work and potential impact on daily routines during the repair phase is crucial for planning.",
+        "@type": "Answer",
+        "description": "The process involves inspection, surface preparation, repairs to damaged elements, and then priming and painting. Planning for daily routine impacts during repairs is important."
+      }
+    }
+  ],
+  "description": "The process involves inspection, surface preparation, repairs to damaged elements, and then priming and painting. Planning for daily routine impacts during repa"
 }

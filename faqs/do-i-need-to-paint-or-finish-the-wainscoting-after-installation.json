@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do I need to paint or finish the wainscoting after installation?",
-  "description": "Yes, most wainscoting requires painting or finishing after installation for aesthetic and protective reasons. Pre-primed options can simplify this process.",
   "url": "https://hometelligentinc.com/faq/do-i-need-to-paint-or-finish-the-wainscoting-after-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need to paint or finish the wainscoting after installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most wainscoting materials, especially those made from MDF or unfinished wood, will require painting or finishing after installation to achieve the desired look and provide protection. Pre-primed wainscoting is often available, which significantly simplifies the painting process by reducing the number of coats needed. We can discuss finishing options with you, including painting or staining, to ensure the wainscoting integrates seamlessly with your existing decor. We typically recommend selecting a durable, washable paint, especially for high-traffic areas, to maximize longevity and ease of maintenance.",
-        "description": "Yes, most wainscoting requires painting or finishing after installation for aesthetic and protective reasons. Pre-primed options can simplify this process."
-      }
-    }
-  ],
+  "name": "Do I need to paint or finish the wainscoting after installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do I need to paint or finish the wainscoting after installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most wainscoting materials, especially those made from MDF or unfinished wood, will require painting or finishing after installation to achieve the desired look and provide protection. Pre-primed wainscoting is often available, which significantly simplifies the painting process by reducing the number of coats needed. We can discuss finishing options with you, including painting or staining, to ensure the wainscoting integrates seamlessly with your existing decor. We typically recommend selecting a durable, washable paint, especially for high-traffic areas, to maximize longevity and ease of maintenance.",
+        "@type": "Answer",
+        "description": "Yes, most wainscoting requires painting or finishing after installation for aesthetic and protective reasons. Pre-primed options can simplify this process."
+      }
+    }
+  ],
+  "description": "Yes, most wainscoting requires painting or finishing after installation for aesthetic and protective reasons. Pre-primed options can simplify this process."
 }

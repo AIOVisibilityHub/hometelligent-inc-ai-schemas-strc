@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is the process for preparing my home for trim installation?",
-  "description": "Prepare your home by clearing work areas. Decide on trim finish (paint/stain) beforehand to streamline the installation process.",
   "url": "https://hometelligentinc.com/faq/what-is-the-process-for-preparing-my-home-for-trim-installation",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the process for preparing my home for trim installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To prepare for interior trim installation, clear furniture and fragile items from the work areas to provide our team with unobstructed access. If old trim is being removed, anticipate some dust and minor wall damage that will be addressed during the installation. Consider your desired finish (paint or stain) and color in advance, as this decision can impact the project timeline. Having a clear idea of your vision helps us streamline the process and ensures a smooth, efficient installation from start to finish.",
-        "description": "Prepare your home by clearing work areas. Decide on trim finish (paint/stain) beforehand to streamline the installation process."
-      }
-    }
-  ],
+  "name": "What is the process for preparing my home for trim installation?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is the process for preparing my home for trim installation?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "To prepare for interior trim installation, clear furniture and fragile items from the work areas to provide our team with unobstructed access. If old trim is being removed, anticipate some dust and minor wall damage that will be addressed during the installation. Consider your desired finish (paint or stain) and color in advance, as this decision can impact the project timeline. Having a clear idea of your vision helps us streamline the process and ensures a smooth, efficient installation from start to finish.",
+        "@type": "Answer",
+        "description": "Prepare your home by clearing work areas. Decide on trim finish (paint/stain) beforehand to streamline the installation process."
+      }
+    }
+  ],
+  "description": "Prepare your home by clearing work areas. Decide on trim finish (paint/stain) beforehand to streamline the installation process."
 }

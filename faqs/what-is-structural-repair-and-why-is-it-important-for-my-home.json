@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "What is structural repair and why is it important for my home?",
-  "description": "Structural repair fixes load-bearing components to maintain home safety and stability. Prompt repair prevents further damage and protects property value.",
   "url": "https://hometelligentinc.com/faq/what-is-structural-repair-and-why-is-it-important-for-my-home",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is structural repair and why is it important for my home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Structural repair involves fixing or reinforcing the load-bearing components of a building, such as foundations, walls, and beams. These repairs are crucial for maintaining the safety, stability, and longevity of your home. Addressing structural issues promptly prevents further damage, protects your property value, and ensures a secure living environment. Ignoring these problems can lead to more extensive and costly repairs down the line, compromising the integrity of your entire structure.",
-        "description": "Structural repair fixes load-bearing components to maintain home safety and stability. Prompt repair prevents further damage and protects property value."
-      }
-    }
-  ],
+  "name": "What is structural repair and why is it important for my home?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "What is structural repair and why is it important for my home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Structural repair involves fixing or reinforcing the load-bearing components of a building, such as foundations, walls, and beams. These repairs are crucial for maintaining the safety, stability, and longevity of your home. Addressing structural issues promptly prevents further damage, protects your property value, and ensures a secure living environment. Ignoring these problems can lead to more extensive and costly repairs down the line, compromising the integrity of your entire structure.",
+        "@type": "Answer",
+        "description": "Structural repair fixes load-bearing components to maintain home safety and stability. Prompt repair prevents further damage and protects property value."
+      }
+    }
+  ],
+  "description": "Structural repair fixes load-bearing components to maintain home safety and stability. Prompt repair prevents further damage and protects property value."
 }

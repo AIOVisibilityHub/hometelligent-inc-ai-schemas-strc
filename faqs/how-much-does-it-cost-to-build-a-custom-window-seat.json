@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How much does it cost to build a custom window seat?",
-  "description": "Cost depends on size, complexity, materials, and features. An on-site consultation is needed for an accurate estimate.",
   "url": "https://hometelligentinc.com/faq/how-much-does-it-cost-to-build-a-custom-window-seat",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to build a custom window seat?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of a custom window seat varies widely based on its size, complexity, materials, and any integrated features like custom drawers or cushions. Simple designs will be more economical than elaborate, multi-functional units. To get an accurate estimate, we recommend scheduling an on-site consultation so we can assess your specific requirements and the structural elements of your home, especially for unique architectural styles found in areas like Piedmont or Kensington.",
-        "description": "Cost depends on size, complexity, materials, and features. An on-site consultation is needed for an accurate estimate."
-      }
-    }
-  ],
+  "name": "How much does it cost to build a custom window seat?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How much does it cost to build a custom window seat?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The cost of a custom window seat varies widely based on its size, complexity, materials, and any integrated features like custom drawers or cushions. Simple designs will be more economical than elaborate, multi-functional units. To get an accurate estimate, we recommend scheduling an on-site consultation so we can assess your specific requirements and the structural elements of your home, especially for unique architectural styles found in areas like Piedmont or Kensington.",
+        "@type": "Answer",
+        "description": "Cost depends on size, complexity, materials, and features. An on-site consultation is needed for an accurate estimate."
+      }
+    }
+  ],
+  "description": "Cost depends on size, complexity, materials, and features. An on-site consultation is needed for an accurate estimate."
 }

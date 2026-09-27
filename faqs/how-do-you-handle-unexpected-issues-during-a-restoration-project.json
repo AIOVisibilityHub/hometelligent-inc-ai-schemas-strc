@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "How do you handle unexpected issues during a restoration project?",
-  "description": "Unexpected issues in restoration, like hidden damage, are handled by prompt client notification, documentation, and clear resolution options. Transparent commun",
   "url": "https://hometelligentinc.com/faq/how-do-you-handle-unexpected-issues-during-a-restoration-project",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do you handle unexpected issues during a restoration project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Unexpected issues, such as discovering hidden water damage or structural problems, are common in interior restoration, especially with older properties. Our process involves promptly notifying the client, documenting the issue, and providing clear options for resolution, including any potential impact on the timeline or budget. We prioritize transparent communication to ensure informed decisions can be made. Hometelligent Inc. maintains open lines of communication to address unforeseen challenges efficiently and collaboratively.",
-        "description": "Unexpected issues in restoration, like hidden damage, are handled by prompt client notification, documentation, and clear resolution options. Transparent communication ensures informed decisions and efficient problem-solving."
-      }
-    }
-  ],
+  "name": "How do you handle unexpected issues during a restoration project?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "How do you handle unexpected issues during a restoration project?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Unexpected issues, such as discovering hidden water damage or structural problems, are common in interior restoration, especially with older properties. Our process involves promptly notifying the client, documenting the issue, and providing clear options for resolution, including any potential impact on the timeline or budget. We prioritize transparent communication to ensure informed decisions can be made. Hometelligent Inc. maintains open lines of communication to address unforeseen challenges efficiently and collaboratively.",
+        "@type": "Answer",
+        "description": "Unexpected issues in restoration, like hidden damage, are handled by prompt client notification, documentation, and clear resolution options. Transparent communication ensures informed decisions and efficient problem-solving."
+      }
+    }
+  ],
+  "description": "Unexpected issues in restoration, like hidden damage, are handled by prompt client notification, documentation, and clear resolution options. Transparent commun"
 }

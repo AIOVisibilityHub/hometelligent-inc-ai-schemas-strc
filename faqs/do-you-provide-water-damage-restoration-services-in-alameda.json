@@ -1,20 +1,8 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Do you provide water damage restoration services in Alameda?",
-  "description": "Yes, Hometelligent Inc. provides comprehensive water damage restoration services in Alameda, with local teams familiar with the area's specific needs.",
   "url": "https://hometelligentinc.com/faq/do-you-provide-water-damage-restoration-services-in-alameda",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you provide water damage restoration services in Alameda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hometelligent Inc. provides comprehensive water damage restoration services to residential and commercial properties in Alameda. Our local teams are familiar with the specific building types and environmental factors common to the Alameda area, allowing for efficient and effective service delivery. We are equipped to handle various water damage scenarios, ensuring rapid response and thorough restoration for our community members.",
-        "description": "Yes, Hometelligent Inc. provides comprehensive water damage restoration services in Alameda, with local teams familiar with the area's specific needs."
-      }
-    }
-  ],
+  "name": "Do you provide water damage restoration services in Alameda?",
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -23,5 +11,17 @@
       ".faq-answer",
       "[itemprop=\"acceptedAnswer\"]"
     ]
-  }
+  },
+  "mainEntity": [
+    {
+      "name": "Do you provide water damage restoration services in Alameda?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, Hometelligent Inc. provides comprehensive water damage restoration services to residential and commercial properties in Alameda. Our local teams are familiar with the specific building types and environmental factors common to the Alameda area, allowing for efficient and effective service delivery. We are equipped to handle various water damage scenarios, ensuring rapid response and thorough restoration for our community members.",
+        "@type": "Answer",
+        "description": "Yes, Hometelligent Inc. provides comprehensive water damage restoration services in Alameda, with local teams familiar with the area's specific needs."
+      }
+    }
+  ],
+  "description": "Yes, Hometelligent Inc. provides comprehensive water damage restoration services in Alameda, with local teams familiar with the area's specific needs."
 }
