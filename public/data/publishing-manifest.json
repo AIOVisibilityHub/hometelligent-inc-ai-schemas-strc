@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-09-27T05:20:00.946Z",
+  "generatedAt": "2026-10-05T23:21:24.996Z",
   "client": {
     "name": "Hometelligent Inc.",
     "canonicalUrl": "https://hometelligentinc.aiovisibility.net",
@@ -796,23 +796,23 @@
   },
   "package": {
     "totalFiles": 3841,
-    "totalBytes": 17431400,
+    "totalBytes": 17510153,
     "stats": {
+      "qna": 0,
       "faqs": 3564,
-      "helpArticles": 239,
+      "press": 5,
+      "total": 3813,
+      "awards": 0,
+      "reviews": 0,
+      "products": 0,
+      "research": 0,
       "services": 1,
       "webpages": 0,
-      "personnel": 2,
-      "products": 0,
       "locations": 1,
-      "awards": 0,
+      "personnel": 2,
       "caseStudies": 0,
-      "organization": 1,
-      "press": 5,
-      "reviews": 0,
-      "qna": 0,
-      "research": 0,
-      "total": 3813
+      "helpArticles": 239,
+      "organization": 1
     }
   },
   "entrypoints": {
@@ -19908,72 +19908,72 @@
     "public": [
       {
         "path": "index.html",
-        "bytes": 17805,
+        "bytes": 23603,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "about.html",
-        "bytes": 128763,
+        "bytes": 134421,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "services.html",
-        "bytes": 290134,
+        "bytes": 295959,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "contact.html",
-        "bytes": 21312,
+        "bytes": 26843,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "faqs.html",
-        "bytes": 2455822,
+        "bytes": 2461389,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "articles.html",
-        "bytes": 18138,
+        "bytes": 23694,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "team-members.html",
-        "bytes": 31624,
+        "bytes": 37133,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "articles/getting-started.html",
-        "bytes": 103761,
+        "bytes": 109384,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "articles/services-and-process.html",
-        "bytes": 66532,
+        "bytes": 72225,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "articles/planning-and-preparation.html",
-        "bytes": 461565,
+        "bytes": 467229,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "articles/pricing-and-estimates.html",
-        "bytes": 143689,
+        "bytes": 149389,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "articles/local-service-guidance.html",
-        "bytes": 166221,
+        "bytes": 171815,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "articles/care-and-maintenance.html",
-        "bytes": 16324,
+        "bytes": 22026,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "articles/unassigned.html",
-        "bytes": 19699,
+        "bytes": 25266,
         "purpose": "LLM-optimized public page"
       }
     ],
@@ -19985,7 +19985,7 @@
       },
       {
         "path": "llms.txt",
-        "bytes": 17383,
+        "bytes": 17357,
         "purpose": "LLM hint"
       },
       {
@@ -20005,32 +20005,32 @@
       },
       {
         "path": "related-destinations.json",
-        "bytes": 1692,
+        "bytes": 1640,
         "purpose": "Cross-Destination Index (Related AI Data Sources)"
       },
       {
         "path": "ai-data.html",
-        "bytes": 1797723,
+        "bytes": 1797671,
         "purpose": "Master AI data index"
       },
       {
         "path": "llms-full.txt",
-        "bytes": 509388,
+        "bytes": 509362,
         "purpose": "Extended LLM context"
       },
       {
         "path": "llms-full.md",
-        "bytes": 509388,
+        "bytes": 509362,
         "purpose": "Extended LLM context (markdown)"
       },
       {
         "path": "full-context.md",
-        "bytes": 17370,
+        "bytes": 17344,
         "purpose": "Full markdown context"
       },
       {
         "path": "README.md",
-        "bytes": 632066,
+        "bytes": 632040,
         "purpose": "Repository README"
       },
       {
@@ -20048,7 +20048,7 @@
   "destinations": {
     "github": {
       "url": "https://github.com/AIOVisibilityHub/hometelligent-inc-ai-schemas-strc",
-      "pagesUrl": "https://aiovisibilityhub.github.io/hometelligent-inc-ai-schemas-strc/",
+      "pagesUrl": "https://hometelligentinc.aiovisibility.net/",
       "repo": "AIOVisibilityHub/hometelligent-inc-ai-schemas-strc"
     }
   }
