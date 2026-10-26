@@ -19,13 +19,6 @@ Package contents:
 - [ai-data-hub] Hometelligent Inc. — AI Data Hub — https://hometelligentinc.aiovisibility.net/ai-data.html
 - [mirror-repo] GitHub repository — https://github.com/AIOVisibilityHub/hometelligent-inc-ai-schemas-strc
 - [mirror-pages] GitHub — AI Data Hub mirror — http://hometelligentinc.aiovisibility.net/ai-data.html
-- [mirror-repo] GitLab repository — https://gitlab.com/aiovisibilityhub/hometelligent-inc-ai-schemas-h0v3
-- [mirror-pages] GitLab — AI Data Hub mirror — https://hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io/ai-data.html
-- [mirror-repo] Codeberg repository — https://codeberg.org/aiovisibilityhub/hometelligent-inc-ai-schemas
-- [mirror-pages] Codeberg — AI Data Hub mirror — https://aiovisibilityhub.codeberg.page/hometelligent-inc-ai-schemas/ai-data.html
-- [mirror-repo] SourceHut repository — https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/
-- [mirror-pages] SourceHut — AI Data Hub mirror — https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/ai-data.html
-- [mirror-repo] Zenodo repository — https://zenodo.org/record/23678194
 - [same-as] Hometelligent Inc. on facebook.com — https://www.facebook.com/Hometelligent/
 - [same-as] Hometelligent Inc. on instagram.com — https://www.instagram.com/hometelligent/
 - [same-as] Hometelligent Inc. on linkedin.com — https://www.linkedin.com/company/hometelligent-inc
@@ -41,11 +34,15 @@ Package contents:
 - [same-as] Hometelligent Inc. on google.com — https://www.google.com/maps/search/?api=1&query=Hometelligent+Inc%2C+1164+Solano+Ave+Suite+175%2C+Albany%2C+CA+94706
 - [same-as] Hometelligent Inc. on bing.com — https://www.bing.com/maps?q=Hometelligent+Inc%2C+1164+Solano+Ave+Suite+175%2C+Albany%2C+CA+94706
 - [same-as] Hometelligent Inc. on maps.apple.com — https://maps.apple.com/?q=Hometelligent%20Inc.%2C%201164%20Solano%20Ave%20Suite%20175%2C%20Albany%2C%20CA%2094706
+- [same-as] Hometelligent Inc. on hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io — https://hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io/
+- [same-as] Hometelligent Inc. on aiovisibilityhub.codeberg.page — https://aiovisibilityhub.codeberg.page/hometelligent-inc-ai-schemas/
 - [same-as] Hometelligent Inc. on zenodo.org — https://zenodo.org/records/23628259
 - [same-as] Hometelligent Inc. on aiovisibilityhub-hometelligent-inc-ai-schemas.static.hf.space — https://aiovisibilityhub-hometelligent-inc-ai-schemas.static.hf.space/index.html
+- [same-as] Hometelligent Inc. on aiovisibilityhub.srht.site — https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/
 - [same-as] Hometelligent Inc. on zenodo.org — https://zenodo.org/records/23628270
 - [same-as] Hometelligent Inc. on aiovisibility.net — https://www.aiovisibility.net/profiles/hometelligent-inc
 - [same-as] Hometelligent Inc. on aibizprofile.com — https://www.aibizprofile.com/profiles/hometelligent-inc
+- [same-as] Hometelligent Inc. on gitlab.com — https://gitlab.com/aiovisibilityhub/hometelligent-inc-ai-schemas-h0v3
 
 Purpose: transparent source discovery, entity consistency, mirror verification, and AI crawler navigation. Not a link wheel. Source of truth: related-destinations.json.
 
