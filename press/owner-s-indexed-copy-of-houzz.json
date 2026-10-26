@@ -1,16 +1,16 @@
 {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": "Owner's Indexed copy of Houzz",
-  "datePublished": "2014",
   "url": "https://www.owler.com/reports/hometelligent/press-release--hometelligent---hometelligent-inc.-/1449850257419",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Owler.com"
-  },
+  "@type": "NewsArticle",
   "about": {
-    "@type": "Organization",
+    "url": "https://hometelligentinc.com",
     "name": "Hometelligent Inc.",
-    "url": "https://hometelligentinc.com"
-  }
+    "@type": "Organization"
+  },
+  "@context": "https://schema.org",
+  "headline": "Owner's Indexed copy of Houzz",
+  "publisher": {
+    "name": "Owler.com",
+    "@type": "Organization"
+  },
+  "datePublished": "2014"
 }
