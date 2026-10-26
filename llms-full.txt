@@ -4410,7 +4410,7 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/faqs/will-using-low-voc-materials-affect-the-durability-or-performance-of-my-renovati.json — schema
 - https://hometelligentinc.aiovisibility.net/faqs/will-water-efficient-showerheads-and-faucets-reduce-water-pressure.json — schema
 
-### Help Articles (479)
+### Help Articles (481)
 - https://hometelligentinc.aiovisibility.net/help/accessory-dwelling-unit-construction-what-affects-your-project-timeline.json — schema
 - https://hometelligentinc.aiovisibility.net/help/accessory-dwelling-unit-design-timeline-and-milestones-from-concept-to-permit.json — schema
 - https://hometelligentinc.aiovisibility.net/help/adding-a-primary-bathroom-to-an-older-bay-area-home-what-to-know-before-you-buil.json — schema
@@ -4479,6 +4479,7 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/help/can-you-convert-living-space-or-build-an-office-addition-without-panel-upgrades.json — schema
 - https://hometelligentinc.aiovisibility.net/help/can-your-ground-floor-playroom-expansion-include-plumbing-and-heating.json — schema
 - https://hometelligentinc.aiovisibility.net/help/can-your-home-support-a-multipurpose-bonus-room-addition-over-an-existing-footpr.json — schema
+- https://hometelligentinc.aiovisibility.net/help/categories.json — schema
 - https://hometelligentinc.aiovisibility.net/help/checklist-for-planning-a-two-bedroom-adu-on-a-bay-area-lot.json — schema
 - https://hometelligentinc.aiovisibility.net/help/checklist-for-planning-your-adu-bathroom-layout-and-utilities.json — schema
 - https://hometelligentinc.aiovisibility.net/help/checklist-for-preparing-your-property-for-an-adu-foundation-inspection.json — schema
@@ -4762,6 +4763,7 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/help/primary-suite-addition-timeline-what-to-expect-from-concept-to-completion.json — schema
 - https://hometelligentinc.aiovisibility.net/help/primary-suite-addition-what-to-plan-before-breaking-ground.json — schema
 - https://hometelligentinc.aiovisibility.net/help/property-obstacles-affecting-your-adu-feasibility.json — schema
+- https://hometelligentinc.aiovisibility.net/help/publishing-plan.json — schema
 - https://hometelligentinc.aiovisibility.net/help/rear-home-addition-or-moving-how-to-decide-which-makes-financial-sense.json — schema
 - https://hometelligentinc.aiovisibility.net/help/rental-adu-vs-family-cottage-key-differences-before-you-build.json — schema
 - https://hometelligentinc.aiovisibility.net/help/second-floor-additions-mistakes-to-avoid-when-comparing-quotes.json — schema
@@ -4891,16 +4893,45 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/help/why-your-multigenerational-suite-needs-professional-design.json — schema
 - https://hometelligentinc.aiovisibility.net/help/your-basement-adu-conversion-checklist.json — schema
 
-### Public Pages (14)
+### Public Pages (43)
 - https://hometelligentinc.aiovisibility.net/about.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/articles.html — LLM-optimized public page
-- https://hometelligentinc.aiovisibility.net/articles/care-and-maintenance.html — LLM-optimized public page
-- https://hometelligentinc.aiovisibility.net/articles/getting-started.html — LLM-optimized public page
-- https://hometelligentinc.aiovisibility.net/articles/local-service-guidance.html — LLM-optimized public page
-- https://hometelligentinc.aiovisibility.net/articles/planning-and-preparation.html — LLM-optimized public page
-- https://hometelligentinc.aiovisibility.net/articles/pricing-and-estimates.html — LLM-optimized public page
-- https://hometelligentinc.aiovisibility.net/articles/services-and-process.html — LLM-optimized public page
-- https://hometelligentinc.aiovisibility.net/articles/unassigned.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-bathroom.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-bonus.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-bump-out.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-family-room.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-general.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-gym.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-living-room.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-office.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-playroom.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-primary-bath.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-primary-suite.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-rear.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-second-story.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-side.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/addition-sunroom-library.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-architecture.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-attached.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-backyard-cottage.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-basement.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-bathrooms.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-building.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-choices.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-costs.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-detached.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-feasibility.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-foundations.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-garage.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-granny-flat.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-guest-house.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-in-law.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-multigenerational.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-permits.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-prefab.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-rental.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-sites.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/adu-studio-bedrooms.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/contact.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/faqs.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/index.html — LLM-optimized public page

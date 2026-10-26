@@ -3641,7 +3641,7 @@ Every file below is listed in [`data/publishing-manifest.json`](./data/publishin
 - [`faqs/will-using-low-voc-materials-affect-the-durability-or-performance-of-my-renovati.json`](./faqs/will-using-low-voc-materials-affect-the-durability-or-performance-of-my-renovati.json) — schema
 - [`faqs/will-water-efficient-showerheads-and-faucets-reduce-water-pressure.json`](./faqs/will-water-efficient-showerheads-and-faucets-reduce-water-pressure.json) — schema
 
-### Help Articles (479)
+### Help Articles (481)
 - [`help/accessory-dwelling-unit-construction-what-affects-your-project-timeline.json`](./help/accessory-dwelling-unit-construction-what-affects-your-project-timeline.json) — schema
 - [`help/accessory-dwelling-unit-design-timeline-and-milestones-from-concept-to-permit.json`](./help/accessory-dwelling-unit-design-timeline-and-milestones-from-concept-to-permit.json) — schema
 - [`help/adding-a-primary-bathroom-to-an-older-bay-area-home-what-to-know-before-you-buil.json`](./help/adding-a-primary-bathroom-to-an-older-bay-area-home-what-to-know-before-you-buil.json) — schema
@@ -3710,6 +3710,7 @@ Every file below is listed in [`data/publishing-manifest.json`](./data/publishin
 - [`help/can-you-convert-living-space-or-build-an-office-addition-without-panel-upgrades.json`](./help/can-you-convert-living-space-or-build-an-office-addition-without-panel-upgrades.json) — schema
 - [`help/can-your-ground-floor-playroom-expansion-include-plumbing-and-heating.json`](./help/can-your-ground-floor-playroom-expansion-include-plumbing-and-heating.json) — schema
 - [`help/can-your-home-support-a-multipurpose-bonus-room-addition-over-an-existing-footpr.json`](./help/can-your-home-support-a-multipurpose-bonus-room-addition-over-an-existing-footpr.json) — schema
+- [`help/categories.json`](./help/categories.json) — schema
 - [`help/checklist-for-planning-a-two-bedroom-adu-on-a-bay-area-lot.json`](./help/checklist-for-planning-a-two-bedroom-adu-on-a-bay-area-lot.json) — schema
 - [`help/checklist-for-planning-your-adu-bathroom-layout-and-utilities.json`](./help/checklist-for-planning-your-adu-bathroom-layout-and-utilities.json) — schema
 - [`help/checklist-for-preparing-your-property-for-an-adu-foundation-inspection.json`](./help/checklist-for-preparing-your-property-for-an-adu-foundation-inspection.json) — schema
@@ -3993,6 +3994,7 @@ Every file below is listed in [`data/publishing-manifest.json`](./data/publishin
 - [`help/primary-suite-addition-timeline-what-to-expect-from-concept-to-completion.json`](./help/primary-suite-addition-timeline-what-to-expect-from-concept-to-completion.json) — schema
 - [`help/primary-suite-addition-what-to-plan-before-breaking-ground.json`](./help/primary-suite-addition-what-to-plan-before-breaking-ground.json) — schema
 - [`help/property-obstacles-affecting-your-adu-feasibility.json`](./help/property-obstacles-affecting-your-adu-feasibility.json) — schema
+- [`help/publishing-plan.json`](./help/publishing-plan.json) — schema
 - [`help/rear-home-addition-or-moving-how-to-decide-which-makes-financial-sense.json`](./help/rear-home-addition-or-moving-how-to-decide-which-makes-financial-sense.json) — schema
 - [`help/rental-adu-vs-family-cottage-key-differences-before-you-build.json`](./help/rental-adu-vs-family-cottage-key-differences-before-you-build.json) — schema
 - [`help/second-floor-additions-mistakes-to-avoid-when-comparing-quotes.json`](./help/second-floor-additions-mistakes-to-avoid-when-comparing-quotes.json) — schema
@@ -4122,16 +4124,45 @@ Every file below is listed in [`data/publishing-manifest.json`](./data/publishin
 - [`help/why-your-multigenerational-suite-needs-professional-design.json`](./help/why-your-multigenerational-suite-needs-professional-design.json) — schema
 - [`help/your-basement-adu-conversion-checklist.json`](./help/your-basement-adu-conversion-checklist.json) — schema
 
-### Public Pages (14)
+### Public Pages (43)
 - [`about.html`](./about.html) — LLM-optimized public page
 - [`articles.html`](./articles.html) — LLM-optimized public page
-- [`articles/care-and-maintenance.html`](./articles/care-and-maintenance.html) — LLM-optimized public page
-- [`articles/getting-started.html`](./articles/getting-started.html) — LLM-optimized public page
-- [`articles/local-service-guidance.html`](./articles/local-service-guidance.html) — LLM-optimized public page
-- [`articles/planning-and-preparation.html`](./articles/planning-and-preparation.html) — LLM-optimized public page
-- [`articles/pricing-and-estimates.html`](./articles/pricing-and-estimates.html) — LLM-optimized public page
-- [`articles/services-and-process.html`](./articles/services-and-process.html) — LLM-optimized public page
-- [`articles/unassigned.html`](./articles/unassigned.html) — LLM-optimized public page
+- [`articles/addition-bathroom.html`](./articles/addition-bathroom.html) — LLM-optimized public page
+- [`articles/addition-bonus.html`](./articles/addition-bonus.html) — LLM-optimized public page
+- [`articles/addition-bump-out.html`](./articles/addition-bump-out.html) — LLM-optimized public page
+- [`articles/addition-family-room.html`](./articles/addition-family-room.html) — LLM-optimized public page
+- [`articles/addition-general.html`](./articles/addition-general.html) — LLM-optimized public page
+- [`articles/addition-gym.html`](./articles/addition-gym.html) — LLM-optimized public page
+- [`articles/addition-living-room.html`](./articles/addition-living-room.html) — LLM-optimized public page
+- [`articles/addition-office.html`](./articles/addition-office.html) — LLM-optimized public page
+- [`articles/addition-playroom.html`](./articles/addition-playroom.html) — LLM-optimized public page
+- [`articles/addition-primary-bath.html`](./articles/addition-primary-bath.html) — LLM-optimized public page
+- [`articles/addition-primary-suite.html`](./articles/addition-primary-suite.html) — LLM-optimized public page
+- [`articles/addition-rear.html`](./articles/addition-rear.html) — LLM-optimized public page
+- [`articles/addition-second-story.html`](./articles/addition-second-story.html) — LLM-optimized public page
+- [`articles/addition-side.html`](./articles/addition-side.html) — LLM-optimized public page
+- [`articles/addition-sunroom-library.html`](./articles/addition-sunroom-library.html) — LLM-optimized public page
+- [`articles/adu-architecture.html`](./articles/adu-architecture.html) — LLM-optimized public page
+- [`articles/adu-attached.html`](./articles/adu-attached.html) — LLM-optimized public page
+- [`articles/adu-backyard-cottage.html`](./articles/adu-backyard-cottage.html) — LLM-optimized public page
+- [`articles/adu-basement.html`](./articles/adu-basement.html) — LLM-optimized public page
+- [`articles/adu-bathrooms.html`](./articles/adu-bathrooms.html) — LLM-optimized public page
+- [`articles/adu-building.html`](./articles/adu-building.html) — LLM-optimized public page
+- [`articles/adu-choices.html`](./articles/adu-choices.html) — LLM-optimized public page
+- [`articles/adu-costs.html`](./articles/adu-costs.html) — LLM-optimized public page
+- [`articles/adu-detached.html`](./articles/adu-detached.html) — LLM-optimized public page
+- [`articles/adu-feasibility.html`](./articles/adu-feasibility.html) — LLM-optimized public page
+- [`articles/adu-foundations.html`](./articles/adu-foundations.html) — LLM-optimized public page
+- [`articles/adu-garage.html`](./articles/adu-garage.html) — LLM-optimized public page
+- [`articles/adu-granny-flat.html`](./articles/adu-granny-flat.html) — LLM-optimized public page
+- [`articles/adu-guest-house.html`](./articles/adu-guest-house.html) — LLM-optimized public page
+- [`articles/adu-in-law.html`](./articles/adu-in-law.html) — LLM-optimized public page
+- [`articles/adu-multigenerational.html`](./articles/adu-multigenerational.html) — LLM-optimized public page
+- [`articles/adu-permits.html`](./articles/adu-permits.html) — LLM-optimized public page
+- [`articles/adu-prefab.html`](./articles/adu-prefab.html) — LLM-optimized public page
+- [`articles/adu-rental.html`](./articles/adu-rental.html) — LLM-optimized public page
+- [`articles/adu-sites.html`](./articles/adu-sites.html) — LLM-optimized public page
+- [`articles/adu-studio-bedrooms.html`](./articles/adu-studio-bedrooms.html) — LLM-optimized public page
 - [`contact.html`](./contact.html) — LLM-optimized public page
 - [`faqs.html`](./faqs.html) — LLM-optimized public page
 - [`index.html`](./index.html) — LLM-optimized public page
