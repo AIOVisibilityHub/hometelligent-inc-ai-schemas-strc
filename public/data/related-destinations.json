@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-26T23:00:54.168Z",
+  "generatedAt": "2026-10-26T23:22:46.836Z",
   "name": "Cross-Destination Index",
   "aliases": [
     "Authority Network",
@@ -64,48 +64,6 @@
       "platform": "github",
       "label": "GitHub — AI Data Hub mirror",
       "url": "http://hometelligentinc.aiovisibility.net/ai-data.html"
-    },
-    {
-      "role": "mirror-repo",
-      "platform": "gitlab",
-      "label": "GitLab repository",
-      "url": "https://gitlab.com/aiovisibilityhub/hometelligent-inc-ai-schemas-h0v3"
-    },
-    {
-      "role": "mirror-pages",
-      "platform": "gitlab",
-      "label": "GitLab — AI Data Hub mirror",
-      "url": "https://hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io/ai-data.html"
-    },
-    {
-      "role": "mirror-repo",
-      "platform": "codeberg",
-      "label": "Codeberg repository",
-      "url": "https://codeberg.org/aiovisibilityhub/hometelligent-inc-ai-schemas"
-    },
-    {
-      "role": "mirror-pages",
-      "platform": "codeberg",
-      "label": "Codeberg — AI Data Hub mirror",
-      "url": "https://aiovisibilityhub.codeberg.page/hometelligent-inc-ai-schemas/ai-data.html"
-    },
-    {
-      "role": "mirror-repo",
-      "platform": "sourcehut",
-      "label": "SourceHut repository",
-      "url": "https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/"
-    },
-    {
-      "role": "mirror-pages",
-      "platform": "sourcehut",
-      "label": "SourceHut — AI Data Hub mirror",
-      "url": "https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/ai-data.html"
-    },
-    {
-      "role": "mirror-repo",
-      "platform": "zenodo",
-      "label": "Zenodo repository",
-      "url": "https://zenodo.org/record/23678194"
     },
     {
       "role": "same-as",
@@ -184,6 +142,16 @@
     },
     {
       "role": "same-as",
+      "label": "Hometelligent Inc. on hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io",
+      "url": "https://hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io/"
+    },
+    {
+      "role": "same-as",
+      "label": "Hometelligent Inc. on aiovisibilityhub.codeberg.page",
+      "url": "https://aiovisibilityhub.codeberg.page/hometelligent-inc-ai-schemas/"
+    },
+    {
+      "role": "same-as",
       "label": "Hometelligent Inc. on zenodo.org",
       "url": "https://zenodo.org/records/23628259"
     },
@@ -191,6 +159,11 @@
       "role": "same-as",
       "label": "Hometelligent Inc. on aiovisibilityhub-hometelligent-inc-ai-schemas.static.hf.space",
       "url": "https://aiovisibilityhub-hometelligent-inc-ai-schemas.static.hf.space/index.html"
+    },
+    {
+      "role": "same-as",
+      "label": "Hometelligent Inc. on aiovisibilityhub.srht.site",
+      "url": "https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/"
     },
     {
       "role": "same-as",
@@ -206,6 +179,11 @@
       "role": "same-as",
       "label": "Hometelligent Inc. on aibizprofile.com",
       "url": "https://www.aibizprofile.com/profiles/hometelligent-inc"
+    },
+    {
+      "role": "same-as",
+      "label": "Hometelligent Inc. on gitlab.com",
+      "url": "https://gitlab.com/aiovisibilityhub/hometelligent-inc-ai-schemas-h0v3"
     }
   ],
   "destinations": {
@@ -213,22 +191,6 @@
       "url": "https://github.com/AIOVisibilityHub/hometelligent-inc-ai-schemas-strc",
       "pagesUrl": "http://hometelligentinc.aiovisibility.net/",
       "repo": "AIOVisibilityHub/hometelligent-inc-ai-schemas-strc"
-    },
-    "gitlab": {
-      "url": "https://gitlab.com/aiovisibilityhub/hometelligent-inc-ai-schemas-h0v3",
-      "pagesUrl": "https://hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io/"
-    },
-    "codeberg": {
-      "url": "https://codeberg.org/aiovisibilityhub/hometelligent-inc-ai-schemas",
-      "pagesUrl": "https://aiovisibilityhub.codeberg.page/hometelligent-inc-ai-schemas/",
-      "repo": "aiovisibilityhub/hometelligent-inc-ai-schemas"
-    },
-    "sourcehut": {
-      "url": "https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/",
-      "pagesUrl": "https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/"
-    },
-    "zenodo": {
-      "url": "https://zenodo.org/record/23678194"
     }
   }
 }
