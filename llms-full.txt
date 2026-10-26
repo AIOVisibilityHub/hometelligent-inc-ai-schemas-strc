@@ -19,13 +19,6 @@ Package contents:
 - [ai-data-hub] Hometelligent Inc. — AI Data Hub — https://hometelligentinc.aiovisibility.net/ai-data.html
 - [mirror-repo] GitHub repository — https://github.com/AIOVisibilityHub/hometelligent-inc-ai-schemas-strc
 - [mirror-pages] GitHub — AI Data Hub mirror — http://hometelligentinc.aiovisibility.net/ai-data.html
-- [mirror-repo] GitLab repository — https://gitlab.com/aiovisibilityhub/hometelligent-inc-ai-schemas-h0v3
-- [mirror-pages] GitLab — AI Data Hub mirror — https://hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io/ai-data.html
-- [mirror-repo] Codeberg repository — https://codeberg.org/aiovisibilityhub/hometelligent-inc-ai-schemas
-- [mirror-pages] Codeberg — AI Data Hub mirror — https://aiovisibilityhub.codeberg.page/hometelligent-inc-ai-schemas/ai-data.html
-- [mirror-repo] SourceHut repository — https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/
-- [mirror-pages] SourceHut — AI Data Hub mirror — https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/ai-data.html
-- [mirror-repo] Zenodo repository — https://zenodo.org/record/23677116
 - [same-as] Hometelligent Inc. on facebook.com — https://www.facebook.com/Hometelligent/
 - [same-as] Hometelligent Inc. on instagram.com — https://www.instagram.com/hometelligent/
 - [same-as] Hometelligent Inc. on linkedin.com — https://www.linkedin.com/company/hometelligent-inc
@@ -41,11 +34,15 @@ Package contents:
 - [same-as] Hometelligent Inc. on google.com — https://www.google.com/maps/search/?api=1&query=Hometelligent+Inc%2C+1164+Solano+Ave+Suite+175%2C+Albany%2C+CA+94706
 - [same-as] Hometelligent Inc. on bing.com — https://www.bing.com/maps?q=Hometelligent+Inc%2C+1164+Solano+Ave+Suite+175%2C+Albany%2C+CA+94706
 - [same-as] Hometelligent Inc. on maps.apple.com — https://maps.apple.com/?q=Hometelligent%20Inc.%2C%201164%20Solano%20Ave%20Suite%20175%2C%20Albany%2C%20CA%2094706
+- [same-as] Hometelligent Inc. on hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io — https://hometelligent-inc-ai-schemas-h0v3-ceade1.gitlab.io/
+- [same-as] Hometelligent Inc. on aiovisibilityhub.codeberg.page — https://aiovisibilityhub.codeberg.page/hometelligent-inc-ai-schemas/
 - [same-as] Hometelligent Inc. on zenodo.org — https://zenodo.org/records/23628259
 - [same-as] Hometelligent Inc. on aiovisibilityhub-hometelligent-inc-ai-schemas.static.hf.space — https://aiovisibilityhub-hometelligent-inc-ai-schemas.static.hf.space/index.html
+- [same-as] Hometelligent Inc. on aiovisibilityhub.srht.site — https://aiovisibilityhub.srht.site/hometelligent-inc-ai-schemas/
 - [same-as] Hometelligent Inc. on zenodo.org — https://zenodo.org/records/23628270
 - [same-as] Hometelligent Inc. on aiovisibility.net — https://www.aiovisibility.net/profiles/hometelligent-inc
 - [same-as] Hometelligent Inc. on aibizprofile.com — https://www.aibizprofile.com/profiles/hometelligent-inc
+- [same-as] Hometelligent Inc. on gitlab.com — https://gitlab.com/aiovisibilityhub/hometelligent-inc-ai-schemas-h0v3
 
 Purpose: transparent source discovery, entity consistency, mirror verification, and AI crawler navigation. Not a link wheel. Source of truth: related-destinations.json.
 
@@ -4413,7 +4410,7 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/faqs/will-using-low-voc-materials-affect-the-durability-or-performance-of-my-renovati.json — schema
 - https://hometelligentinc.aiovisibility.net/faqs/will-water-efficient-showerheads-and-faucets-reduce-water-pressure.json — schema
 
-### Help Articles (480)
+### Help Articles (479)
 - https://hometelligentinc.aiovisibility.net/help/accessory-dwelling-unit-construction-what-affects-your-project-timeline.json — schema
 - https://hometelligentinc.aiovisibility.net/help/accessory-dwelling-unit-design-timeline-and-milestones-from-concept-to-permit.json — schema
 - https://hometelligentinc.aiovisibility.net/help/adding-a-primary-bathroom-to-an-older-bay-area-home-what-to-know-before-you-buil.json — schema
@@ -4765,7 +4762,6 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/help/primary-suite-addition-timeline-what-to-expect-from-concept-to-completion.json — schema
 - https://hometelligentinc.aiovisibility.net/help/primary-suite-addition-what-to-plan-before-breaking-ground.json — schema
 - https://hometelligentinc.aiovisibility.net/help/property-obstacles-affecting-your-adu-feasibility.json — schema
-- https://hometelligentinc.aiovisibility.net/help/publishing-plan.json — schema
 - https://hometelligentinc.aiovisibility.net/help/rear-home-addition-or-moving-how-to-decide-which-makes-financial-sense.json — schema
 - https://hometelligentinc.aiovisibility.net/help/rental-adu-vs-family-cottage-key-differences-before-you-build.json — schema
 - https://hometelligentinc.aiovisibility.net/help/second-floor-additions-mistakes-to-avoid-when-comparing-quotes.json — schema
@@ -4895,7 +4891,7 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/help/why-your-multigenerational-suite-needs-professional-design.json — schema
 - https://hometelligentinc.aiovisibility.net/help/your-basement-adu-conversion-checklist.json — schema
 
-### Public Pages (13)
+### Public Pages (14)
 - https://hometelligentinc.aiovisibility.net/about.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/articles.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/articles/care-and-maintenance.html — LLM-optimized public page
@@ -4904,6 +4900,7 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://hometelligentinc.aiovisibility.net/articles/planning-and-preparation.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/articles/pricing-and-estimates.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/articles/services-and-process.html — LLM-optimized public page
+- https://hometelligentinc.aiovisibility.net/articles/unassigned.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/contact.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/faqs.html — LLM-optimized public page
 - https://hometelligentinc.aiovisibility.net/index.html — LLM-optimized public page
